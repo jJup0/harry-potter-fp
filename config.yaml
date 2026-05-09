@@ -28,7 +28,7 @@ scoring:
   llm:
     # kiro-cli direct (default) — persistent tmux session, /clear between calls
     model: kiro-cli
-    timeout: 120
+    timeout: 180
 
     # kiro-bridge: OpenAI-compatible wrapper around kiro-cli (persistent sessions)
     # model: kiro-bridge
