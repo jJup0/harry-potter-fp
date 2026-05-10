@@ -1,0 +1,36 @@
+{
+  "character": "Rose Weasley",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film only shows her in a brief, peripheral capacity, making a full personality assessment difficult. Her presence is background filler.",
+        "narrative_role": "Her role is minimal; she functions primarily as a familial presence in the film, lacking significant plot function compared to the books.",
+        "motivations": "Her motivations are not explored; she is shown simply accompanying her family.",
+        "character_arc": "No discernible arc is presented in the film material provided; she is merely present."
+      },
+      "key_observations": "The film excerpts provide very little material for Rose Weasley, making a detailed comparison challenging. Her presence is largely decorative compared to her potential in the book canon.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 5040
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

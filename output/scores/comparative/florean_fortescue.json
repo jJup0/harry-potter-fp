@@ -1,0 +1,36 @@
+{
+  "character": "Florean Fortescue",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 5.0,
+    "character_arc": 0.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 5,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The book portrays him as a warm, knowledgeable, and central fixture of Diagon Alley, while the film either omits him or gives him negligible screen time, failing to capture his established character traits.",
+        "narrative_role": "In the books, he serves as a recurring, comforting backdrop element and a source of minor exposition/interaction. In the films, his role is largely absent or reduced to a single, uncontextualized appearance.",
+        "motivations": "His primary motivation in the books is simply to run his shop and interact warmly with the characters, a simple, stable presence. This is not reflected in the films.",
+        "character_arc": "The books suggest a stable, enduring presence in the community. The films offer no discernible arc for him, effectively erasing his character development from the narrative."
+      },
+      "key_observations": "Florean Fortescue is a character who exists much more strongly in the textual descriptions of the world (the 'flavor' of the book) than in the cinematic adaptations, leading to a significant drop in faithfulness scores.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 3302,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

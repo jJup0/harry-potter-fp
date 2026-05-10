@@ -1,0 +1,36 @@
+{
+  "character": "Fawkes",
+  "overall": {
+    "personality": 23.0,
+    "narrative_role": 24.0,
+    "motivations": 22.0,
+    "character_arc": 23.0,
+    "total": 92.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 23,
+      "narrative_role": 24,
+      "motivations": 22,
+      "character_arc": 23,
+      "justification": {
+        "personality": "The core traits\u2014loyal, protective, and powerful\u2014are maintained, though the film sometimes streamlines his emotional depth.",
+        "narrative_role": "His role as the catalyst for Harry's survival and the key to defeating the Basilisk is perfectly preserved.",
+        "motivations": "His primary motivation remains protecting Harry and aiding Dumbledore's plans, which is consistent.",
+        "character_arc": "His arc of being a source of comfort and power remains, though the film's pacing sometimes minimizes his moments of quiet companionship seen in the books."
+      },
+      "key_observations": "The film adaptation captures the essential, dramatic function of Fawkes flawlessly, making him a consistent and powerful fixture in the narrative.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

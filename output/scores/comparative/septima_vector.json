@@ -1,0 +1,36 @@
+{
+  "character": "Septima Vector",
+  "overall": {
+    "personality": 25.0,
+    "narrative_role": 25.0,
+    "motivations": 25.0,
+    "character_arc": 25.0,
+    "total": 100.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 25,
+      "narrative_role": 25,
+      "motivations": 25,
+      "character_arc": 25,
+      "justification": {
+        "personality": "The book descriptions consistently portray her as competent, knowledgeable, and slightly aloof, which is maintained in the film's depiction.",
+        "narrative_role": "Her role as a knowledgeable, slightly peripheral academic figure is preserved, serving as a background fixture of the Hogwarts routine.",
+        "motivations": "Her primary motivation in the text is academic\u2014teaching Arithmancy\u2014and this focus remains consistent in the film.",
+        "character_arc": "Since the book only provides brief, functional mentions, the film does not alter any established arc, thus it remains faithful."
+      },
+      "key_observations": "The book mentions are purely functional and observational, making the film's portrayal highly faithful simply by maintaining her established academic presence.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 7809,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

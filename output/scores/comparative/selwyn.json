@@ -1,0 +1,36 @@
+{
+  "character": "Selwyn",
+  "overall": {
+    "personality": 0.0,
+    "narrative_role": 0.0,
+    "motivations": 0.0,
+    "character_arc": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 0,
+      "narrative_role": 0,
+      "motivations": 0,
+      "character_arc": 0,
+      "justification": {
+        "personality": "Selwyn appears in the book corpus but has no corresponding scenes or characterization in the provided film corpus, making a comparison impossible.",
+        "narrative_role": "The character's role is entirely derived from the book text and is not reflected or comparable in the film excerpts.",
+        "motivations": "The motivations described in the book (accusing Lovegood/Xenophilius) are present in the text but lack visual or narrative confirmation in the film.",
+        "character_arc": "No film material is provided for comparison, so no arc can be assessed."
+      },
+      "key_observations": "The character Selwyn is present in the book corpus but is entirely absent from the film corpus provided for comparison.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 4085,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

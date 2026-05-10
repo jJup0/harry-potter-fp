@@ -1,0 +1,36 @@
+{
+  "character": "Rodolphus Lestrange",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 15.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 15,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film largely omits his specific personality traits, reducing him to a generic henchman role.",
+        "narrative_role": "His role is significantly diminished or entirely absent in the films compared to the book's depiction of him being part of the main villain group.",
+        "motivations": "His motivations are almost entirely derived from his association with Bellatrix and the Dark Lord, which is present but lacks depth in the films.",
+        "character_arc": "He has virtually no discernible character arc in the films, remaining a static background threat."
+      },
+      "key_observations": "Rodolphus Lestrange is a character who exists primarily in the book's background lore and is severely underdeveloped or absent in the film adaptations.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 1317,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

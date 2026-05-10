@@ -1,0 +1,36 @@
+{
+  "character": "Euan Abercrombie",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 10.0,
+    "character_arc": 5.0,
+    "total": 30.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 10,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film corpus provides no information to compare against the book's depiction of his shyness and discomfort, making a precise score difficult. The observed traits (shyness, awkwardness) are present in the book but not confirmed or developed in the film.",
+        "narrative_role": "The character appears to be a minor background figure in both instances, but the film's lack of material means his functional role is significantly diminished or unestablished.",
+        "motivations": "His primary motivation in the book seems to be avoidance/discomfort, which is not explored or contradicted by the film.",
+        "character_arc": "No discernible arc can be assessed as the film corpus lacks sufficient material to track any development."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 786,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

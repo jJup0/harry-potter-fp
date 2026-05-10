@@ -1,0 +1,36 @@
+{
+  "character": "Frank Longbottom",
+  "overall": {
+    "personality": 0.0,
+    "narrative_role": 0.0,
+    "motivations": 0.0,
+    "character_arc": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 0,
+      "narrative_role": 0,
+      "motivations": 0,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The character Frank Longbottom does not appear in the film corpus provided, nor is he a significant character in the film adaptation compared to the book corpus. The film focuses on the main trio and the core Hogwarts plotlines.",
+        "narrative_role": "His role is entirely confined to the book text and is not mirrored or utilized in the provided film scenes.",
+        "motivations": "His motivations, as established in the books (e.g., being a gardener, having a connection to the Riddle House), are not addressed or reflected in the film excerpts.",
+        "character_arc": "Since he is absent from the film scenes, no character arc can be assessed for faithfulness."
+      },
+      "key_observations": "The character Frank Longbottom is present in the book excerpts but is entirely absent from the provided film excerpts, resulting in zero scores across all metrics.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 8219
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

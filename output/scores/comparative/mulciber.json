@@ -1,0 +1,36 @@
+{
+  "character": "Mulciber",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 5.0,
+    "character_arc": 0.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 5,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The film largely omits his distinct personality traits, reducing him to a generic henchman.",
+        "narrative_role": "His specific role in the plot (as a minor antagonist in the book's context) is entirely absent from the film.",
+        "motivations": "His motivations (following the Death Eaters/serving power) are implied but never developed or shown in the film.",
+        "character_arc": "Since he has no significant screen presence, there is no discernible arc."
+      },
+      "key_observations": "Mulciber is a character whose presence is heavily reliant on the book's extended lore and is almost entirely excised from the film adaptation.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 1746,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}
