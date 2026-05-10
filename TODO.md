@@ -6,6 +6,9 @@ Last reviewed: 2026-05-10
 
 - [ ] Score remaining ~114 characters (resume ollama run or use cloud API)
 - [ ] Regenerate reports/dashboard from comparative scores (after scoring complete)
+- [ ] why do we still have a mega scores_comparative file
+- [ ] rerun the whole "pipeline"
+- [ ] remove all deprecated code
 
 ## Data Quality
 
@@ -56,3 +59,4 @@ Last reviewed: 2026-05-10
 ## Long Term
 
 - [ ] Support multiple LLM providers (OpenAI, Anthropic, etc.) as swappable backends behind the same comparative scoring logic and prompt. Resume logic already tracks model per score.
+- [ ] code style - reuseable directory paths - i.e. calc them once in a utils type model. use PathLib istead of os.path. imports? im sure they're messy. add type hints. code comments. docstrings.
