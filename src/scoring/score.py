@@ -8,7 +8,6 @@ Scores each character on 4 dimensions (each out of 25, total 100):
 Usage:
   python3 -u src/scoring/score.py --backend comparative --top 216
   python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
-  python3 src/scoring/score.py --backend rule_based --top 20
 
 Resume logic:
   Writes individual JSON files per character to output/scores/<backend>/.
@@ -204,9 +203,7 @@ def main():
 
             scored += 1
     finally:
-        if backend == 'kiro':
-            import scorer_kiro
-            scorer_kiro.shutdown()
+        pass
 
     # Collect all individual scores into combined file
     all_scores = []
