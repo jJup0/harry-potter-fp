@@ -3,29 +3,35 @@
   "overall": {
     "personality": 15.0,
     "narrative_role": 18.0,
-    "motivations": 17.0,
+    "motivations": 20.0,
     "character_arc": 12.0,
-    "total": 62.0
+    "total": 65.0
   },
   "per_source": {
     "comparative": {
       "personality": 15,
       "narrative_role": 18,
-      "motivations": 17,
+      "motivations": 20,
       "character_arc": 12,
       "justification": {
-        "personality": "The film version is heavily reduced and lacks the consistent, paranoid, and knowledgeable presence shown in the book excerpts. The mechanical eye is present, but the depth of his characterization is diminished.",
-        "narrative_role": "His role as a key investigator and authority figure (especially in the Ministry/trial scenes) is maintained, but his impact is less pronounced than in the books.",
-        "motivations": "His core motivation\u2014fighting Voldemort/Dark Arts\u2014is present, but the book excerpts show a deeper, more personal involvement in the investigation that is lost.",
-        "character_arc": "The book suggests a character who is deeply embedded in the ongoing war effort. The film presents him more as a cameo appearance, limiting any discernible arc."
+        "personality": "The film portrays him as a background presence, often just 'Moody' observing, losing the deep, complex, and often unreliable nature shown in the books.",
+        "narrative_role": "His role as a key figure in the Ministry/Auror world is present, but his specific function in the plot (especially in relation to the main mystery) is diluted.",
+        "motivations": "His core motivation\u2014fighting dark magic and protecting the innocent\u2014is maintained, but the depth of his paranoia and commitment to the fight is less explored.",
+        "character_arc": "The film gives him very little personal arc; he is more of a plot device or a recurring fixture rather than a character undergoing significant change."
       },
-      "key_observations": "The film heavily utilizes Moody's visual elements (the eye) but strips away much of his textual depth and investigative weight, making him feel more like a prop than a fully realized character.",
+      "key_observations": "The film utilizes Moody more as a visual prop or a momentary authority figure, stripping away much of the textual depth and complexity of his character.",
       "meta": {
         "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
         "book_chars_sent": 1788,
         "film_chars_sent": 8426,
-        "model": "gemma4:e4b",
-        "prompt_version": "1.0"
+        "aliases": [
+          "Alastor \"Mad-Eye\" Moody",
+          "Mad-Eye",
+          "Mad-Eye Moody",
+          "Moody"
+        ]
       }
     }
   },

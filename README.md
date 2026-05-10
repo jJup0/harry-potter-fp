@@ -17,10 +17,11 @@ A character with 30 seconds of screen time can score 100 if those 30 seconds are
 | Data collection | Done | Books, screenplays, character registry, metrics |
 | Corpus building | Done | 228 characters (v1), 216 characters (v2 after dedup) |
 | Metrics | Done | Screen time (actual minutes), book mentions (actual counts) |
-| LLM comparative scoring | Working | ~136/216 scored via ollama (gemma4:e4b), with justifications |
+| LLM comparative scoring | Working | 209/216 scored via ollama (gemma4:e4b), with justifications |
+| Character validation | Done | Wikipedia cross-reference, alias tracking |
 | Reports & dashboard | Done | Generated from comparative scores |
 
-**Current state:** The comparative scorer works end-to-end with local ollama. 102 characters have real LLM-generated FP scores with per-dimension justifications. The remaining ~114 characters need scoring (either extend the ollama run or use a cloud API).
+**Current state:** The comparative scorer works end-to-end with local ollama. 209 characters have real LLM-generated FP scores with per-dimension justifications. Scoring cache tracks aliases and auto-invalidates when dedup rules change.
 
 ## Quick Start
 
@@ -28,14 +29,17 @@ A character with 30 seconds of screen time can score 100 if those 30 seconds are
 # Install dependencies
 pip install pyyaml plotly pandas openpyxl pymupdf ebooklib
 
+# Fetch canonical character list from Wikipedia (updates data/reference/wikipedia_hp_characters.json)
+python3 src/collect/fetch_wikipedia_characters.py
+
+# Validate our characters against Wikipedia (flags unknowns)
+python3 src/collect/validate_characters.py
+
 # Run comparative LLM scoring (requires ollama with gemma4:e4b or config change)
 python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
 
 # Run comparative scoring for top N characters by corpus size
 python3 -u src/scoring/score.py --backend comparative --top 50
-
-# Run rule-based scoring (placeholder, for pipeline testing only)
-python3 src/scoring/score.py --backend rule_based --top 20
 
 # Generate reports from existing scores
 python3 src/reporting/generate_reports.py
@@ -47,14 +51,15 @@ python3 src/reporting/generate_dashboard.py
 ### Data Flow
 
 ```
-Raw sources -> Parse -> Character corpus -> Score (LLM comparative) -> Reports/Dashboard
+Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> Reports/Dashboard
 ```
 
 1. **Raw sources**: Book text files + screenplay text files + Aitor's xlsx metrics
 2. **Parse**: Split into scenes (screenplays) and paragraphs (books), detect characters per segment
-3. **Corpus**: Per-character collection of every scene/paragraph they appear in (v2, `data/v2/corpus/`)
-4. **Score**: Feed book + film corpus together to LLM with rubric, get 4-dimension scores + justifications
-5. **Report**: Aggregate scores into rankings, per-character reports, interactive dashboard
+3. **Dedup**: Merge character name variants via alias map in `src/collect/build_character_registry.py` (e.g. "Sybil Trelawney" -> "Sybill Trelawney", "Madame Rosmerta" -> "Madam Rosmerta"). Validated against `data/reference/wikipedia_hp_characters.json`.
+4. **Corpus**: Per-character collection of every scene/paragraph they appear in (v2, `data/v2/corpus/`)
+5. **Score**: Feed book + film corpus together to LLM with rubric, get 4-dimension scores + justifications. Cache stores aliases used at scoring time; scores auto-invalidate when aliases change.
+6. **Report**: Aggregate scores into rankings, per-character reports, interactive dashboard
 
 ### Data Sources
 
@@ -66,6 +71,7 @@ Raw sources -> Parse -> Character corpus -> Score (LLM comparative) -> Reports/D
 | Screen time | v2 (Aitor's xlsx) | Actual measured minutes per character per film |
 | Book mentions | v2 (Aitor's xlsx) | Actual counted mentions per character per book |
 | Character registry | v2 (from Aitor's data) | 239 canonical characters |
+| Wikipedia characters | Fetched programmatically | 142 canonical characters for validation |
 
 ### Directory Structure
 
@@ -79,25 +85,29 @@ Raw sources -> Parse -> Character corpus -> Score (LLM comparative) -> Reports/D
 │   ├── v2/corpus/              # Per-character corpus (v2) - ACTIVE
 │   ├── metrics/                # Screen time + book mentions
 │   ├── freind-input-data/      # Aitor's raw input files
+│   ├── reference/              # External reference data
+│   │   ├── wikipedia_hp_characters.json  # Fetched canonical list (142 chars)
+│   │   └── wikipedia_hp_characters.md    # Manual reference (legacy)
 │   └── fp_rules.txt            # FP scoring rules (Spanish)
 ├── corpus/                     # Per-character corpus (v1, legacy)
 ├── src/
-│   ├── collect/                # Data ingestion scripts
+│   ├── collect/
+│   │   ├── build_character_registry.py   # Alias map + registry builder
+│   │   ├── fetch_wikipedia_characters.py # Fetch Wikipedia character list
+│   │   └── validate_characters.py        # Cross-reference validation
 │   ├── corpus/build_corpus.py  # Corpus builder
 │   ├── metrics/                # Metrics computation
 │   ├── scoring/
 │   │   ├── score.py            # Main CLI (--backend, --characters, --top)
 │   │   ├── scorer_comparative.py  # LLM scorer (book+film in one call)
-│   │   ├── scorer_rule_based.py   # Placeholder heuristic scorer
-│   │   ├── scorer_openai.py       # OpenAI API backend (legacy)
-│   │   ├── scorer_kiro.py         # kiro-cli backend (legacy, broken)
+│   │   ├── backfill_aliases.py    # One-time backfill of alias cache
 │   │   └── prompts/scoring_prompt.txt  # English FP rubric for LLM
 │   └── reporting/              # Reports + dashboard generators
 ├── output/
 │   ├── scores/
-│   │   ├── scores_comparative.json  # 102 real LLM scores with justifications
-│   │   ├── scores_rule_based.json   # Placeholder scores (all characters)
-│   │   └── scores.json              # Legacy
+│   │   ├── comparative/            # Per-character score JSONs (with alias tracking)
+│   │   ├── scores_comparative.json # Combined scores
+│   │   └── scores.json             # Legacy
 │   ├── reports/                # CSV + markdown reports
 │   └── dashboard.html          # Interactive Plotly dashboard
 ├── config.yaml                 # Scoring configuration (model, thresholds)
@@ -106,18 +116,30 @@ Raw sources -> Parse -> Character corpus -> Score (LLM comparative) -> Reports/D
 └── questions-for-aitor.md      # Open questions for client
 ```
 
+### Scoring Cache & Invalidation
+
+Each per-character score file in `output/scores/comparative/` stores metadata about the conditions under which it was scored:
+- `meta.model` - LLM model used
+- `meta.prompt_version` - prompt major.minor version
+- `meta.aliases` - alias list active when scored
+
+On resume, a score is re-run if:
+- Model changed
+- Prompt major version bumped
+- Alias list for that character changed (dedup rules updated)
+
 ### Scoring Backends
 
 | Backend | How it works | Status |
 |---------|-------------|--------|
-| `comparative` | Sends book+film corpus together to LLM, gets comparative FP scores | Working (102/216 chars scored) |
-| `rule_based` | Placeholder: scores based on corpus size | Works, scores are meaningless |
-| `openai` | Standard OpenAI chat completions API | Needs API key; superseded by comparative |
-| `kiro` | Pipes prompt to kiro-cli | Broken, superseded by comparative |
+| `comparative` | Sends book+film corpus together to LLM, gets comparative FP scores | Working (209/216 chars scored) |
+| `rule_based` | Placeholder: scores based on corpus size | Removed |
+| `openai` | Standard OpenAI chat completions API | Legacy, superseded |
+| `kiro` | Pipes prompt to kiro-cli | Legacy, superseded |
 
 ## Sample Output (Comparative Scorer)
 
-Top scores from the 102 characters scored so far:
+Top scores from the 209 characters scored so far:
 
 | Character | Pers | Role | Motiv | Arc | Total |
 |-----------|------|------|-------|-----|-------|
@@ -132,12 +154,12 @@ Each score includes per-dimension justifications citing specific book/film evide
 
 ## Known Issues
 
-1. **102/216 characters scored** - need to complete the remaining ~114 characters
-2. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
-3. **HP3 screenplay coverage** - Prisoner of Azkaban has poor data in both v1 and v2
-4. **Ron Weasley v2 corpus may be thin** - check if data split across directories
-5. **Dumbledore v2 corpus may be split** - check `albus_dumbledore` vs `dumbledore`
-6. **Michael Corner scored 0** - likely empty corpus, needs investigation
+1. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
+2. **HP3 screenplay coverage** - Prisoner of Azkaban has poor data in both v1 and v2
+3. **Ron Weasley v2 corpus may be thin** - check if data split across directories
+4. **Dumbledore v2 corpus may be split** - check `albus_dumbledore` vs `dumbledore`
+5. **Michael Corner scored 0** - likely empty corpus, needs investigation
+6. **110 characters flagged** - not on Wikipedia canonical list (mix of minor chars, truncated names, dedup issues)
 
 ## Questions for Aitor (Unanswered)
 

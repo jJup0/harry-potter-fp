@@ -58,6 +58,18 @@ def load_characters():
         return yaml.safe_load(f)['characters']
 
 
+def get_character_aliases(char_name):
+    """Get the current alias list for a character from the registry."""
+    sys.path.insert(0, os.path.join(PROJECT_ROOT, "src", "collect"))
+    from build_character_registry import KNOWN_CHARACTERS
+    for canonical, aliases in KNOWN_CHARACTERS.items():
+        if canonical == char_name:
+            return sorted(aliases)
+        if char_name in aliases:
+            return sorted(aliases)
+    return []
+
+
 def load_corpus(char_name):
     dirname = char_name.lower().replace(' ', '_').replace('.', '_').replace("'", '_')
     base = os.path.join(CORPUS_DIR, dirname)
@@ -145,8 +157,9 @@ def main():
             current_prompt_major = ver.split('.')[0]
 
     # Resume: check which characters already have individual score files
-    # Skip only if same model AND same prompt major version
+    # Skip only if same model AND same prompt major version AND same aliases
     already_scored = set()
+    alias_mismatch = set()
     score_dir = os.path.join(OUTPUT_DIR, backend)
     if os.path.isdir(score_dir):
         for fname in os.listdir(score_dir):
@@ -160,9 +173,19 @@ def main():
             scored_prompt_ver = meta.get('prompt_version', '0.0')
             scored_major = scored_prompt_ver.split('.')[0]
             if scored_model == current_model and scored_major == current_prompt_major:
+                # Check aliases match
+                char_name = data.get('character', '')
+                scored_aliases = meta.get('aliases')
+                if scored_aliases is not None:
+                    current_aliases = get_character_aliases(char_name)
+                    if scored_aliases != current_aliases:
+                        alias_mismatch.add(fname[:-5])
+                        continue
                 already_scored.add(fname[:-5])
     if already_scored:
         print(f"  Resuming: {len(already_scored)} characters already scored (model={current_model}, prompt v{current_prompt_major}.x)")
+    if alias_mismatch:
+        print(f"  Re-scoring: {len(alias_mismatch)} characters with changed aliases")
 
     scored = 0
     try:
@@ -188,6 +211,12 @@ def main():
             print(f"  [{len(already_scored) + scored + 1}] {name}...")
             per_source = score_fn(name, corpus, scoring_config)
             overall = aggregate_scores(per_source)
+
+            # Store current aliases in meta for cache invalidation
+            current_aliases = get_character_aliases(name)
+            for src_data in per_source.values():
+                if isinstance(src_data, dict) and 'meta' in src_data:
+                    src_data['meta']['aliases'] = current_aliases
 
             result = {
                 'character': name, 'overall': overall, 'per_source': per_source,
