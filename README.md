@@ -4,9 +4,9 @@ A data pipeline and scoring system that measures how faithfully Harry Potter cha
 
 ## What is FP?
 
-FP (Fidelidad del Personaje / Character Faithfulness) is a 0–100 score measuring one thing only: **how faithful a character's film portrayal is to their book counterpart**. It does NOT measure importance, screen time, charisma, or actor quality.
+FP (Fidelidad del Personaje / Character Faithfulness) is a 0-100 score measuring one thing only: **how faithful a character's film portrayal is to their book counterpart**. It does NOT measure importance, screen time, charisma, or actor quality.
 
-FP = Personality (0–25) + Narrative Role (0–25) + Motivations (0–25) + Character Arc (0–25)
+FP = Personality (0-25) + Narrative Role (0-25) + Motivations (0-25) + Character Arc (0-25)
 
 A character with 30 seconds of screen time can score 100 if those 30 seconds are faithful. The full scoring rubric (in Spanish) is in `data/fp_rules.txt`, and the English LLM prompt translation is in `src/scoring/prompts/scoring_prompt.txt`.
 
@@ -14,14 +14,14 @@ A character with 30 seconds of screen time can score 100 if those 30 seconds are
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| Data collection | ✅ Done | Books, screenplays, character registry, metrics |
-| Corpus building | ✅ Done | 224 characters (v2), 226 characters (v1) |
-| Metrics | ✅ Done | Screen time (actual minutes), book mentions (actual counts) |
-| Rule-based scoring | ✅ Done | Placeholder heuristics only — not real FP scores |
-| LLM scoring | ❌ Broken | Both kiro and OpenAI backends fail (all scores = 0, `"error": true`) |
-| Reports & dashboard | ✅ Done | But based on rule-based placeholder scores, not real FP |
+| Data collection | Done | Books, screenplays, character registry, metrics |
+| Corpus building | Done | 228 characters (v1), 216 characters (v2 after dedup) |
+| Metrics | Done | Screen time (actual minutes), book mentions (actual counts) |
+| Rule-based scoring | Done | Placeholder heuristics only - not real FP scores |
+| LLM comparative scoring | Working | 102 characters scored via ollama (gemma4:e4b), with justifications |
+| Reports & dashboard | Done | Currently based on rule-based scores; needs regeneration from comparative |
 
-**The critical blocker is LLM scoring.** The rule-based scorer is just a placeholder that scores based on corpus size (more text = higher score), which is meaningless for FP. Real scoring requires an LLM to read the corpus and evaluate faithfulness per Aitor's rubric.
+**Current state:** The comparative scorer works end-to-end with local ollama. 102 characters have real LLM-generated FP scores with per-dimension justifications. The remaining ~114 characters need scoring (either extend the ollama run or use a cloud API).
 
 ## Quick Start
 
@@ -29,11 +29,14 @@ A character with 30 seconds of screen time can score 100 if those 30 seconds are
 # Install dependencies
 pip install pyyaml plotly pandas openpyxl pymupdf ebooklib
 
-# Run rule-based scoring (placeholder)
-python3 src/scoring/score.py --backend rule_based --top 20
+# Run comparative LLM scoring (requires ollama with gemma4:e4b or config change)
+python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
 
-# Run kiro-cli scoring (currently broken)
-python3 src/scoring/score.py --backend kiro --characters "Dobby"
+# Run comparative scoring for top N characters by corpus size
+python3 -u src/scoring/score.py --backend comparative --top 50
+
+# Run rule-based scoring (placeholder, for pipeline testing only)
+python3 src/scoring/score.py --backend rule_based --top 20
 
 # Generate reports from existing scores
 python3 src/reporting/generate_reports.py
@@ -45,18 +48,16 @@ python3 src/reporting/generate_dashboard.py
 ### Data Flow
 
 ```
-Raw sources → Parse → Character corpus → Score (LLM) → Reports/Dashboard
+Raw sources -> Parse -> Character corpus -> Score (LLM comparative) -> Reports/Dashboard
 ```
 
 1. **Raw sources**: Book text files + screenplay text files + Aitor's xlsx metrics
 2. **Parse**: Split into scenes (screenplays) and paragraphs (books), detect characters per segment
-3. **Corpus**: Per-character collection of every scene/paragraph they appear in
-4. **Score**: Feed corpus + rubric to LLM, get 4-dimension scores per character per source
+3. **Corpus**: Per-character collection of every scene/paragraph they appear in (v2, `data/v2/corpus/`)
+4. **Score**: Feed book + film corpus together to LLM with rubric, get 4-dimension scores + justifications
 5. **Report**: Aggregate scores into rankings, per-character reports, interactive dashboard
 
-### Data Versions
-
-There are two generations of data (v1 and v2). The project uses the best source per data type:
+### Data Sources
 
 | Data | Source | Why |
 |------|--------|-----|
@@ -76,63 +77,71 @@ There are two generations of data (v1 and v2). The project uses the best source 
 │   ├── raw/screenplays_v2/     # 8 PDF-extracted screenplays (v2)
 │   ├── v2/characters.yaml      # Character registry (239 chars)
 │   ├── v2/parsed/              # Parsed JSON (v2 pipeline)
-│   ├── v2/corpus/              # Per-character corpus (v2)
-│   ├── metrics/                # Screen time + book mentions (v1 and v2)
+│   ├── v2/corpus/              # Per-character corpus (v2) - ACTIVE
+│   ├── metrics/                # Screen time + book mentions
 │   ├── freind-input-data/      # Aitor's raw input files
 │   └── fp_rules.txt            # FP scoring rules (Spanish)
-├── corpus/                     # Per-character corpus (v1)
+├── corpus/                     # Per-character corpus (v1, legacy)
 ├── src/
 │   ├── collect/                # Data ingestion scripts
 │   ├── corpus/build_corpus.py  # Corpus builder
 │   ├── metrics/                # Metrics computation
-│   ├── scoring/                # FP scoring framework
-│   └── reporting/              # Reports + dashboard
+│   ├── scoring/
+│   │   ├── score.py            # Main CLI (--backend, --characters, --top)
+│   │   ├── scorer_comparative.py  # LLM scorer (book+film in one call)
+│   │   ├── scorer_rule_based.py   # Placeholder heuristic scorer
+│   │   ├── scorer_openai.py       # OpenAI API backend (legacy)
+│   │   ├── scorer_kiro.py         # kiro-cli backend (legacy, broken)
+│   │   └── prompts/scoring_prompt.txt  # English FP rubric for LLM
+│   └── reporting/              # Reports + dashboard generators
 ├── output/
-│   ├── scores/                 # Score JSON files
+│   ├── scores/
+│   │   ├── scores_comparative.json  # 102 real LLM scores with justifications
+│   │   ├── scores_rule_based.json   # Placeholder scores (all characters)
+│   │   └── scores.json              # Legacy
 │   ├── reports/                # CSV + markdown reports
 │   └── dashboard.html          # Interactive Plotly dashboard
-├── config.yaml                 # Scoring configuration
-└── DECISIONS.md                # Detailed decision log
+├── config.yaml                 # Scoring configuration (model, thresholds)
+├── TODO.md                     # Remaining work
+├── DECISIONS.md                # Detailed decision log
+└── questions-for-aitor.md      # Open questions for client
 ```
 
 ### Scoring Backends
 
 | Backend | How it works | Status |
 |---------|-------------|--------|
-| `rule_based` | Placeholder: scores based on corpus size | Works, but scores are meaningless |
-| `kiro` | Pipes prompt to `kiro-cli --no-interactive` | Fails — all responses error out |
-| `openai` | Standard OpenAI chat completions API | Needs API key configured |
+| `comparative` | Sends book+film corpus together to LLM, gets comparative FP scores | Working (102/216 chars scored) |
+| `rule_based` | Placeholder: scores based on corpus size | Works, scores are meaningless |
+| `openai` | Standard OpenAI chat completions API | Needs API key; superseded by comparative |
+| `kiro` | Pipes prompt to kiro-cli | Broken, superseded by comparative |
+
+## Sample Output (Comparative Scorer)
+
+Top scores from the 102 characters scored so far:
+
+| Character | Pers | Role | Motiv | Arc | Total |
+|-----------|------|------|-------|-----|-------|
+| Madam Rosmerta | 25 | 25 | 25 | 25 | 100 |
+| Bill Weasley | 25 | 25 | 25 | 24 | 99 |
+| Garrick Ollivander | 25 | 25 | 24 | 24 | 98 |
+| Harry Potter | 22 | 24 | 23 | 22 | 91 |
+| Severus Snape | 18 | 22 | 20 | 15 | 75 |
+| Ginny Weasley | 15 | 18 | 14 | 12 | 59 |
+
+Each score includes per-dimension justifications citing specific book/film evidence.
 
 ## Known Issues
 
-1. **LLM scoring completely broken**: Both `scores_kiro.json` and `scores_llm.json` show all zeros with `"error": true` for every source. The kiro scorer's ANSI stripping / response parsing may be the issue, or the prompt may be too large.
+1. **102/216 characters scored** - need to complete the remaining ~114 characters
+2. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
+3. **HP3 screenplay coverage** - Prisoner of Azkaban has poor data in both v1 and v2
+4. **Ron Weasley v2 corpus may be thin** - check if data split across directories
+5. **Dumbledore v2 corpus may be split** - check `albus_dumbledore` vs `dumbledore`
+6. **Michael Corner scored 0** - likely empty corpus, needs investigation
 
-2. **HP3 screenplay coverage is poor**: Prisoner of Azkaban has only 1 scene detected (v1) or 6 pages (v2). This film's characters will have weak screenplay corpus data.
+## Questions for Aitor (Unanswered)
 
-3. **Duplicate character directories in corpus**: Some characters appear under multiple names (e.g., `colin_creevey` and `colin_creevy`, `sybil_trelawney` and `sybill_trelawney`, `madame_poppy_pomfrey` and `poppy_pomfrey`). The alias system should collapse these but the v1 corpus has duplicates.
-
-4. **Generic "characters" pollute corpus**: Entries like `all`, `you`, `everyone`, `boy`, `man`, `crowd`, `hogwarts`, `voice` have huge corpus files (the `you` corpus is 3.5MB). The blocklist exists but doesn't cover all cases, and the v1 corpus was built before the blocklist was complete.
-
-5. **v2 corpus vs v1 corpus confusion**: Two separate corpus directories exist (`corpus/` for v1, `data/v2/corpus/` for v2). The scorer reads from `corpus/` (v1). It's unclear if the v2 corpus was ever fully built or if the scorer should be pointed at it.
-
-6. **Book 2 chapter detection**: Only finds 10 of 18 chapters due to inconsistent heading formatting.
-
-7. **Dashboard and reports use rule-based scores**: Since LLM scoring never succeeded, all output artifacts reflect the placeholder heuristic scores.
-
-8. **Screen time = 0 for Harry, Ron, Hermione in v2 characters.yaml**: The three main characters show `screen_time_minutes: 0` in the registry. Either the xlsx didn't have their data or the extraction missed them.
-
-## Questions / Unclear Areas
-
-1. **Which corpus does the scorer actually use?** `score.py` reads from `corpus/` (v1), but the v2 pipeline writes to `data/v2/corpus/`. Are the v2 corpus files complete? Should the scorer be switched to v2?
-
-2. **What broke the kiro scorer?** The `scores_kiro.json` shows every source errored. Was this a kiro-cli version issue, prompt size issue, or parsing issue? The debug files in `/tmp/hp_kiro_debug_*` might have clues if they still exist.
-
-3. **Per-source vs per-character scoring**: The current design scores each character per-source (per book, per film) then aggregates. But FP is about book-vs-film comparison. Should the scorer receive BOTH the book corpus AND film corpus for a character and compare them, rather than scoring each source independently?
-
-4. **Aggregation logic**: `aggregate_scores()` weights by scene/paragraph count. A character with 1000 book paragraphs and 5 screenplay scenes will have their score dominated by the book score. Is that the intent?
-
-5. **What does Aitor want to do with the scores?** The DECISIONS.md mentions Instagram/TikTok/YouTube content. Is the goal a ranked list? Per-character deep dives? Comparison videos? This affects what the output format should be.
-
-6. **Deleted scenes**: Aitor mentioned having deleted scenes but couldn't think of how to separate them. Should they be included in the film corpus or excluded?
-
-7. **"Compares these corpus"**: Still unanswered from the original questions. What exactly is being compared?
+1. Should deleted scenes be included in the film corpus?
+2. What's the intended output format for his content? (Ranked list? Per-character deep dives? Video scripts?)
+3. Harry/Ron/Hermione are not in the screen time xlsx - intentional or name mismatch?

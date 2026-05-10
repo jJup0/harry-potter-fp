@@ -1,6 +1,11 @@
 """
 OpenAI API scorer. Works with any OpenAI-compatible endpoint
 (OpenAI, Anthropic via litellm, ollama, etc.)
+
+STATUS: Untested/broken - scores_llm.json shows all zeros with errors.
+Requires api_base and api_key configured in config.yaml under scoring.llm.
+Same fundamental design flaw as kiro scorer: sends one source at a time
+instead of comparing book vs film together.
 """
 import json
 import os

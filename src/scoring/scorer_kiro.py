@@ -1,7 +1,15 @@
 """
 Kiro-CLI scorer. Uses kiro-cli --no-interactive with stdin piping.
 Each scoring call is a fresh kiro-cli invocation (~30-40s startup overhead).
-Reliable for large prompts. Best for batch scoring.
+
+STATUS: BROKEN - all calls return errors (scores_kiro.json shows all zeros).
+Likely causes:
+  1. Response parsing assumes '> ' prefix which may not match kiro-cli output format
+  2. 80K char prompts may exceed kiro-cli input limits
+  3. ANSI stripping regex may miss some escape sequences
+  4. FUNDAMENTAL: sends one source at a time, but FP needs book+film comparison
+
+Debug files are written to /tmp/hp_kiro_debug_*.txt on each call.
 """
 import json
 import os

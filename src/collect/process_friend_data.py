@@ -6,6 +6,11 @@ Process Aitor's input data (v2):
 3. FP Rules PDF -> data/fp_rules.txt (extracted text)
 4. Screenplay PDFs -> data/raw/screenplays_v2/
 5. Books epub -> data/raw/books_v2/ (if extractable)
+
+KNOWN ISSUE: Harry Potter, Ron Weasley, Hermione Granger are missing from
+screen_time_v2.json. They likely have different formatting in Aitor's xlsx
+(e.g. the xlsx may not list them because they're in every film, or their
+names are formatted differently). The book_mentions_v2.json has them fine.
 """
 import json
 import os

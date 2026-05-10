@@ -26,8 +26,9 @@ import sys
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "corpus")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
+# Uses v2 corpus (better screenplay sources, duplicates cleaned up).
+CORPUS_DIR = os.path.join(PROJECT_ROOT, "data", "v2", "corpus")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "v2", "characters.yaml")
 METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
 CONFIG_FILE = os.path.join(PROJECT_ROOT, "config.yaml")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scores")
@@ -37,7 +38,17 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]
-BACKENDS = ['rule_based', 'openai', 'kiro']
+BACKENDS = ['rule_based', 'openai', 'kiro', 'comparative']
+
+# Generic words that got picked up as character names during corpus building.
+# Skip these during scoring - they're not real characters.
+SKIP_CHARACTERS = {
+    'You', 'All', 'Voice', 'Hogwarts', 'Weasley', 'Everyone', 'Someone',
+    'Crowd', 'Boy', 'Man', 'Woman', 'Girl', 'Student', 'Students',
+    'Death Eater', 'Death Eaters', 'Guard', 'Wizard', 'Wizards',
+    'Gang', 'Class', 'Muggle', 'Goblin', 'Snatcher', 'Radio',
+    'Howler', 'Pixie', 'Hedwig', 'Buckbeak',
+}
 
 
 def load_config():
@@ -74,11 +85,21 @@ def get_scorer(backend):
     elif backend == 'kiro':
         import scorer_kiro
         return scorer_kiro.score_character
+    elif backend == 'comparative':
+        import scorer_comparative
+        return scorer_comparative.score_character
     else:
         raise ValueError(f"Unknown backend: {backend}. Choose from: {BACKENDS}")
 
 
 def aggregate_scores(per_source_scores):
+    """Aggregate per-source scores into a single overall score.
+    
+    WARNING: Current weighting is flawed - weights by scene/paragraph count,
+    so a character with 1000 book paragraphs and 5 screenplay scenes gets
+    book-dominated scores. FP should weight book and film evidence equally.
+    This becomes moot once task #1 (compare book+film together) is implemented.
+    """
     if not per_source_scores:
         return {d: 0 for d in DIMENSIONS}
     weights = {}
@@ -125,10 +146,25 @@ def main():
     all_scores = []
     scored = 0
 
+    # Resume: load existing scores and skip already-scored characters
+    out_file = f'scores_{backend}.json'
+    out_path = os.path.join(OUTPUT_DIR, out_file)
+    already_scored = set()
+    if os.path.exists(out_path):
+        with open(out_path) as f:
+            all_scores = json.load(f)
+        already_scored = {s['character'] for s in all_scores}
+        if already_scored:
+            print(f"  Resuming: {len(already_scored)} characters already scored")
+
     try:
         for char in characters:
             name = char['name']
             if args.characters and name not in args.characters:
+                continue
+            if name in SKIP_CHARACTERS:
+                continue
+            if name in already_scored:
                 continue
             st = screen_time.get(name, {}).get('_total', 0)
             bm = book_mentions.get(name, {}).get('_total', 0)
@@ -141,7 +177,7 @@ def main():
             if not corpus['books'] and not corpus['screenplays']:
                 continue
 
-            print(f"  [{scored+1}] {name}...")
+            print(f"  [{len(already_scored) + scored + 1}] {name}...")
             per_source = score_fn(name, corpus, scoring_config)
             overall = aggregate_scores(per_source)
 
@@ -150,6 +186,10 @@ def main():
                 'meta': {'screenplay_words': st, 'book_mentions': bm},
             })
             scored += 1
+
+            # Save incrementally
+            with open(out_path, 'w') as f:
+                json.dump(all_scores, f, indent=2)
     finally:
         # Cleanup persistent sessions
         if backend == 'kiro':

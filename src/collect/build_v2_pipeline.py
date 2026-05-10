@@ -1,15 +1,25 @@
 #!/usr/bin/env python3
 """
-V2 scoring pipeline — uses best available data source for each type:
+V2 unified pipeline - builds everything from best available data sources.
 
-- Books: v1 individual text files (clean, per-book, well-formatted)
-- Screenplays: v2 PDFs (actual screenplays) with v1 fallback for HP3
-- Screen time: v2 Aitor's xlsx (actual measured minutes)
-- Book mentions: v2 Aitor's xlsx (actual counted mentions)
-- Character registry: v2 Aitor's book mentions xlsx (canonical names)
-- FP Rules: Aitor's rules document
+Run this to regenerate all v2 data:
+  python3 src/collect/build_v2_pipeline.py
 
-Outputs to data/v2/ and output/v2/
+Steps:
+  1. Build character registry from Aitor's xlsx data -> data/v2/characters.yaml
+  2. Load alias map for character detection
+  3. Parse screenplays (v2 PDFs where good, v1 transcripts as fallback) -> data/v2/parsed/screenplays/
+  4. Parse books (v1 text files) -> data/v2/parsed/books/
+  5. Build per-character corpus -> data/v2/corpus/
+
+Data source selection per film:
+  - HP2, HP6, HP7.1, HP7.2: v2 PDFs (actual screenplays with INT/EXT markers)
+  - HP1, HP3, HP4, HP5: v1 wiki transcripts (v2 PDFs were garbled/incomplete)
+
+KNOWN ISSUES:
+  - v2 corpus has duplicate dirs for same character (alias resolution bugs)
+  - HP3 screenplay has very poor coverage in both sources
+  - Blocklist for generic words is incomplete, some non-characters get corpus dirs
 """
 import json
 import os

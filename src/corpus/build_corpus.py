@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-Build per-character corpus from parsed books and screenplays.
-For each character, collect all scenes where they appear.
-Outputs to corpus/<character_name>/books/ and corpus/<character_name>/screenplays/
+Build per-character corpus from parsed books and screenplays (v1 pipeline).
+For each character, collect all scenes/paragraphs where they appear.
+
+Outputs to corpus/<character_name>/books/scenes.json
+         corpus/<character_name>/screenplays/scenes.json
+
+NOTE: This builds the v1 corpus. The v2 pipeline (src/collect/build_v2_pipeline.py)
+builds a separate corpus at data/v2/corpus/. The scorer currently reads from v1.
 """
 import json
 import os

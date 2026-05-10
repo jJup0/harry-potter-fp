@@ -1,6 +1,9 @@
 """
 Deterministic rule-based scorer.
-Currently uses placeholder heuristics — replace with Aitor's rules.
+PLACEHOLDER ONLY - scores based on corpus size (dialogue count, scene count),
+which has nothing to do with actual character faithfulness.
+Useful only for testing the pipeline end-to-end.
+Real FP scoring requires an LLM to read and compare book vs film corpus.
 """
 from scorer_base import group_by_source
 

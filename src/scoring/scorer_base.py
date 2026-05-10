@@ -4,7 +4,11 @@ Scorer interface. All scorers implement score_character():
     def score_character(char_name, corpus, config) -> dict:
         Returns {source_name: {personality, narrative_role, motivations, character_arc, meta}, ...}
 
-Each dimension is scored 0-25. meta contains backend-specific info.
+Each dimension is scored 0-25. Total FP = sum of all 4 = 0-100.
+meta contains backend-specific info (scene count, error flag, etc.)
+
+The fallback_scores() function returns all-zero scores with error=True,
+used when an LLM call fails.
 """
 
 DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]

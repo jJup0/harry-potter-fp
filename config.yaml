@@ -1,8 +1,8 @@
 # Configuration for Harry Potter Character Faithfulness Project
 
 scoring:
-  # Backend: 'rule_based' or 'llm'
-  backend: rule_based
+  # Backend: 'rule_based', 'openai', 'kiro', 'comparative'
+  backend: comparative
 
   # Minimum total mentions (screen_time_words + book_mentions) to score a character
   min_mentions: 10
@@ -26,28 +26,10 @@ scoring:
 
   # LLM backend config
   llm:
-    # kiro-cli direct (default) — persistent tmux session, /clear between calls
-    model: kiro-cli
-    timeout: 180
-
-    # kiro-bridge: OpenAI-compatible wrapper around kiro-cli (persistent sessions)
-    # model: kiro-bridge
-    # api_base: http://localhost:5199/v1
-    # api_key: dummy
-    # timeout: 120
-
-    # OpenAI
-    # model: gpt-4o
-    # api_base: https://api.openai.com/v1
-    # api_key: $OPENAI_API_KEY
-    # timeout: 60
-
-    # Local via ollama
-    # model: llama3
-    # api_base: http://localhost:11434/v1
-    # api_key: ollama
-    # timeout: 60
-
+    model: gemma4:e4b
+    api_base: http://localhost:11434/v1
+    api_key: ollama
+    timeout: 600
     temperature: 0.3
     max_tokens: 2000
     delay_seconds: 1
