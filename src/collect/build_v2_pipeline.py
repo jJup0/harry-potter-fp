@@ -70,6 +70,11 @@ BOOKS = [
 ]
 
 
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_character_registry import KNOWN_CHARACTERS
+
+
 # --- Step 1: Character registry from Aitor's data ---
 
 
@@ -84,34 +89,58 @@ def build_character_registry():
     # Aitor's data has canonical names. Merge both sources.
     all_names = set(mentions.keys()) | set(screen_time.keys())
 
+    # Validate: every name must be in KNOWN_CHARACTERS (as canonical or alias)
+    known_canonical = set(KNOWN_CHARACTERS.keys())
+    known_aliases = set()
+    for aliases in KNOWN_CHARACTERS.values():
+        known_aliases.update(aliases)
+    all_known = known_canonical | known_aliases
+
+    unknown = []
+    for name in sorted(all_names):
+        if name not in all_known:
+            unknown.append(name)
+    if unknown:
+        raise ValueError(
+            f"{len(unknown)} characters from Aitor's data not in alias mapping:\n"
+            + "\n".join(f"  - {n}" for n in unknown)
+        )
+
     characters = []
     for name in sorted(all_names):
         bm = mentions.get(name, {}).get("_total", 0)
         st = screen_time.get(name, {}).get("_total", 0)
+        # Resolve to canonical
+        if name in known_canonical:
+            canonical = name
+        else:
+            # Find which canonical this is an alias of
+            canonical = None
+            for c, aliases in KNOWN_CHARACTERS.items():
+                if name in aliases:
+                    canonical = c
+                    break
         entry = {
-            "name": name,
+            "name": canonical,
             "book_mentions": bm,
             "screen_time_minutes": st,
         }
-        # Build aliases (lowercase, without titles)
-        aliases = set()
-        aliases.add(name)
-        # Strip common titles for matching
-        stripped = re.sub(
-            r"^(Professor |Mr\. |Mrs\. |Sir |Lord |Madam |Uncle |Aunt )", "", name
-        ).strip()
-        if stripped != name:
-            aliases.add(stripped)
-        # Last name only
-        parts = name.split()
-        if len(parts) > 1:
-            aliases.add(parts[-1])
-            aliases.add(parts[0])
-        entry["aliases"] = sorted(aliases - {name})
         characters.append(entry)
 
-    characters.sort(
-        key=lambda x: x["book_mentions"] + x["screen_time_minutes"], reverse=True
+    # Merge duplicates (multiple source names -> same canonical)
+    merged = {}
+    for entry in characters:
+        name = entry["name"]
+        if name in merged:
+            merged[name]["book_mentions"] += entry["book_mentions"]
+            merged[name]["screen_time_minutes"] += entry["screen_time_minutes"]
+        else:
+            merged[name] = entry
+
+    characters = sorted(
+        merged.values(),
+        key=lambda x: x["book_mentions"] + x["screen_time_minutes"],
+        reverse=True,
     )
 
     with open(CHARACTERS_FILE, "w") as f:
@@ -128,50 +157,12 @@ def build_character_registry():
 
 
 def load_alias_map():
-    """Build lowercase alias -> canonical name map."""
-    with open(CHARACTERS_FILE) as f:
-        data = yaml.safe_load(f)
+    """Build lowercase alias -> canonical name map from KNOWN_CHARACTERS."""
     alias_map = {}
-    blocklist = {
-        "the",
-        "a",
-        "an",
-        "of",
-        "and",
-        "in",
-        "to",
-        "jr.",
-        "sr.",
-        "tom",
-        "lily",
-        "james",
-        "rose",
-        "hugo",
-        "bill",
-        "charlie",
-        "percy",
-        "dean",
-        "lee",
-        "colin",
-        "dennis",
-        "katie",
-        "hannah",
-        "susan",
-        "ernie",
-        "justin",
-        "lavender",
-        "padma",
-        "pansy",
-        "blaise",
-        "marcus",
-        "oliver",
-    }
-    for c in data["characters"]:
-        canonical = c["name"]
+    for canonical, aliases in KNOWN_CHARACTERS.items():
         alias_map[canonical.lower()] = canonical
-        for a in c.get("aliases", []):
-            if len(a) >= 4 and a.lower() not in blocklist:
-                alias_map[a.lower()] = canonical
+        for a in aliases:
+            alias_map[a.lower()] = canonical
     return alias_map
 
 
