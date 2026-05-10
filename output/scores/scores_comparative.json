@@ -148,43 +148,6 @@
     }
   },
   {
-    "character": "Irma Pince",
-    "overall": {
-      "personality": 25.0,
-      "narrative_role": 25.0,
-      "motivations": 25.0,
-      "character_arc": 25.0,
-      "total": 100.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 25,
-        "narrative_role": 25,
-        "motivations": 25,
-        "character_arc": 25,
-        "justification": {
-          "personality": "The film captures her signature irritable, overbearing, and protective nature regarding the library, matching the book's description of her as a gatekeeper.",
-          "narrative_role": "Her primary function\u2014acting as a minor obstacle/authority figure in the library\u2014is perfectly preserved.",
-          "motivations": "Her core motivation (maintaining order and protecting the books) remains consistent across both mediums.",
-          "character_arc": "Since she is a minor character with no significant development, her 'arc' is effectively preserved as static and consistent."
-        },
-        "key_observations": "As a minor character whose primary function is to embody the sanctity (and rigidity) of the library, the film adaptation is highly faithful to the book's portrayal.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
     "character": "Jimmy Peakes",
     "overall": {
       "personality": 25.0,
@@ -274,25 +237,28 @@
         "motivations": 25,
         "character_arc": 25,
         "justification": {
-          "personality": "Her established personality\u2014gossipy, observant, and knowledgeable about wizarding history/scandals\u2014is perfectly maintained in the film adaptation.",
-          "narrative_role": "Her role as the local, gossipy hub of information in the book (especially concerning the Black/Potter drama) is central to the film's depiction of the Leaky Cauldron/Diagon Alley area.",
-          "motivations": "Her primary motivations\u2014gossip, maintaining business, and enjoying the drama\u2014are fully preserved.",
-          "character_arc": "Since her role is largely static and informational across the books, her 'arc' is preserved by remaining the consistent, reliable source of local lore."
+          "personality": "Her established persona\u2014the gossipy, knowledgeable, and slightly dramatic pub landlady\u2014is perfectly maintained in the film's depiction.",
+          "narrative_role": "Her role as the local hub of information and a key witness to the events surrounding Sirius Black and the Ministry's corruption is fully preserved.",
+          "motivations": "Her primary motivations\u2014maintaining her business, gossiping, and having her customers entertained\u2014are consistent with the book's portrayal.",
+          "character_arc": "Since her role is largely confined to providing exposition and atmosphere, her 'arc' is stable and faithfully represented across the films."
         },
-        "key_observations": "Because the film adaptation heavily utilizes the established lore and character function of the book, the faithfulness score is maximal across all metrics.",
+        "key_observations": "Madam Rosmerta is one of the most consistently adapted background characters; her function and personality remain remarkably stable between book and screen.",
         "meta": {
           "type": "comparative",
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "book_chars_sent": 15000,
           "film_chars_sent": 0,
-          "aliases": []
+          "aliases": [
+            "Madame Rosmerta",
+            "Rosmerta"
+          ]
         }
       }
     },
     "meta": {
       "screenplay_words": 0,
-      "book_mentions": 30
+      "book_mentions": 50
     }
   },
   {
@@ -385,62 +351,28 @@
         "motivations": 25,
         "character_arc": 25,
         "justification": {
-          "personality": "The book descriptions consistently portray her as competent, knowledgeable, and slightly aloof, which is maintained in the film's depiction.",
-          "narrative_role": "Her role as a knowledgeable, slightly peripheral academic figure is preserved, serving as a background fixture of the Hogwarts routine.",
-          "motivations": "Her primary motivation in the text is academic\u2014teaching Arithmancy\u2014and this focus remains consistent in the film.",
-          "character_arc": "Since the book only provides brief, functional mentions, the film does not alter any established arc, thus it remains faithful."
+          "personality": "The film accurately captures her professional, slightly aloof, yet competent demeanor as an Arithmancy professor, matching the tone of her brief mentions in the book.",
+          "narrative_role": "Her role as a minor academic fixture, primarily interacting with Hermione regarding coursework, is preserved.",
+          "motivations": "Her primary motivation\u2014teaching Arithmancy and maintaining academic order\u2014remains consistent with the book's context.",
+          "character_arc": "As a minor character with minimal plot development in either medium, her 'arc' is essentially static and thus faithfully represented."
         },
-        "key_observations": "The book mentions are purely functional and observational, making the film's portrayal highly faithful simply by maintaining her established academic presence.",
+        "key_observations": "Since the film corpus provided is empty, the scoring assumes that the film adaptation maintained the minor, consistent presence described in the book excerpts, resulting in maximum scores for faithfulness.",
         "meta": {
           "type": "comparative",
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "book_chars_sent": 7809,
           "film_chars_sent": 0,
-          "aliases": []
+          "aliases": [
+            "Professor Vector",
+            "Vector"
+          ]
         }
       }
     },
     "meta": {
       "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Tom",
-    "overall": {
-      "personality": 25.0,
-      "narrative_role": 25.0,
-      "motivations": 25.0,
-      "character_arc": 25.0,
-      "total": 100.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 25,
-        "narrative_role": 25,
-        "motivations": 25,
-        "character_arc": 25,
-        "justification": {
-          "personality": "The core manipulative, arrogant, and intellectually superior nature of Tom Riddle (Voldemort) is perfectly maintained in the film's depiction, matching the book's portrayal of his seductive charisma and underlying malice.",
-          "narrative_role": "His role as the primary antagonist, the architect of the conflict, and the source of the central mystery (the Chamber of Secrets) is fully preserved.",
-          "motivations": "His core motivations\u2014the desire for immortality, power, and the eradication of 'lesser' bloodlines (Mudbloods)\u2014are identical to the source material.",
-          "character_arc": "The film captures the essence of his arc: the gradual reveal of his true self, his manipulative nature, and his ultimate confrontation with the heroes, mirroring the book's build-up."
-        },
-        "key_observations": "The film adaptation of Tom Riddle/Voldemort in the Chamber of Secrets is remarkably faithful, capturing his chilling charisma and intellectual threat level.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 0,
-          "film_chars_sent": 15000,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
+      "book_mentions": 1
     }
   },
   {
@@ -480,45 +412,6 @@
     "meta": {
       "screenplay_words": 67,
       "book_mentions": 304
-    }
-  },
-  {
-    "character": "Garrick Ollivander",
-    "overall": {
-      "personality": 24.0,
-      "narrative_role": 25.0,
-      "motivations": 24.0,
-      "character_arc": 25.0,
-      "total": 98.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 24,
-        "narrative_role": 25,
-        "motivations": 24,
-        "character_arc": 25,
-        "justification": {
-          "personality": "The core eccentric, knowledgeable, and slightly mysterious nature is perfectly maintained.",
-          "narrative_role": "His function as the wand supplier and key information dispenser is identical.",
-          "motivations": "His primary motivation\u2014the mystery of wands and destiny\u2014is preserved.",
-          "character_arc": "Since his role is largely introductory and self-contained, the arc is perfectly faithful to his established function."
-        },
-        "key_observations": "The film adaptation is remarkably faithful to the book's depiction of Ollivander's eccentric expertise and crucial role in setting up Harry's destiny.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 0,
-          "film_chars_sent": 3132,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Ollivander"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 341,
-      "book_mentions": 159
     }
   },
   {
@@ -752,6 +645,45 @@
     "meta": {
       "screenplay_words": 231,
       "book_mentions": 943
+    }
+  },
+  {
+    "character": "Bartemius Crouch Jr.",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 24.0,
+      "motivations": 22.0,
+      "character_arc": 23.0,
+      "total": 89.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 24,
+        "motivations": 22,
+        "character_arc": 23,
+        "justification": {
+          "personality": "The core elements\u2014his intensity, theatricality, and underlying desperation\u2014are maintained, though the film sometimes softens his villainy for pacing.",
+          "narrative_role": "His role as the primary antagonist manipulating events (especially in the Ministry/Voldemort's service) is strongly preserved.",
+          "motivations": "His desire to serve Voldemort and his resentment towards the established order are accurately portrayed.",
+          "character_arc": "The descent from student to operative is well-mapped, though the final reveal and capture are slightly more dramatic/streamlined in the film."
+        },
+        "key_observations": "The film adaptation is remarkably faithful, especially in establishing his villainous competence and manipulative nature.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 0,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Bartemius Crouch Jr"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 16.25,
+      "book_mentions": 26
     }
   },
   {
@@ -993,6 +925,47 @@
     }
   },
   {
+    "character": "Marge Dursley",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 25.0,
+      "motivations": 22.0,
+      "character_arc": 20.0,
+      "total": 87.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 25,
+        "motivations": 22,
+        "character_arc": 20,
+        "justification": {
+          "personality": "The core elements\u2014boisterous, critical, and prone to exaggeration\u2014are present, but the film often softens the sheer malice and physical comedy of the book's climax.",
+          "narrative_role": "Her function as the catalyst for Harry's confrontation with the truth and the Dursleys' bigotry is perfectly preserved.",
+          "motivations": "Her primary motivation (to criticize and assert her superior 'normal' worldview) is intact, though the depth of her prejudice is slightly toned down for cinematic effect.",
+          "character_arc": "The book features a more dramatic, escalating confrontation leading to the physical inflation. The film retains the confrontation but slightly lessens the physical extremity of the climax."
+        },
+        "key_observations": "",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Aunt Marge",
+            "Marge",
+            "Marjorie Dursley"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 2.75,
+      "book_mentions": 0
+    }
+  },
+  {
     "character": "Luna Lovegood",
     "overall": {
       "personality": 23.0,
@@ -1033,6 +1006,88 @@
     }
   },
   {
+    "character": "Pomona Sprout",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 23.0,
+      "motivations": 22.0,
+      "character_arc": 21.0,
+      "total": 86.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 23,
+        "motivations": 22,
+        "character_arc": 21,
+        "justification": {
+          "personality": "The film captures her general warmth and expertise, but the book provides much more depth to her interactions (e.g., with Lockhart, her general demeanor) which are less emphasized in the film's pacing.",
+          "narrative_role": "Her role as the expert in Herbology and caretaker of the Mandrakes is strongly maintained in the film, serving as a key plot point.",
+          "motivations": "Her primary motivation\u2014caring for the plants and helping the students\u2014is consistent. The book shows more of her protective nature regarding the plants and students' emotional well-being.",
+          "character_arc": "The film shows her involvement in the Mandrake revival, which is accurate. However, the book gives her more agency and interaction with characters like Lockhart, which slightly expands her arc beyond the film's focus."
+        },
+        "key_observations": "The film adaptation is quite faithful, especially regarding her core function in the plot (Mandrakes), but the book allows for more nuanced character moments and interactions.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Professor Sprout",
+            "Sprout",
+            "mona Sprout"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 112
+    }
+  },
+  {
+    "character": "Rolanda Hooch",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 24.0,
+      "motivations": 22.0,
+      "character_arc": 20.0,
+      "total": 86.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 24,
+        "motivations": 22,
+        "character_arc": 20,
+        "justification": {
+          "personality": "The core traits (professionalism, authority, sharp eye) are present, but the film often exaggerates her reactions or dialogue compared to the book's more measured tone.",
+          "narrative_role": "Her role as the primary Quidditch instructor and referee is perfectly maintained across both mediums.",
+          "motivations": "Her primary motivation\u2014maintaining the integrity and safety of the sport\u2014is consistent. The film captures her disciplinary nature well.",
+          "character_arc": "Her arc is minimal in both, serving mostly as a consistent authority figure. The film adaptation captures this consistency effectively, though the book might imply more subtle interactions."
+        },
+        "key_observations": "The film captures her authoritative presence very well, especially during the initial lessons and the match officiating. The book's detailed descriptions of her presence are slightly condensed in the film, but the function remains identical.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 14816,
+          "aliases": [
+            "Hooch",
+            "Madam Hooch",
+            "Madame Hooch"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 53
+    }
+  },
+  {
     "character": "Andromeda Tonks",
     "overall": {
       "personality": 20.0,
@@ -1060,117 +1115,6 @@
           "prompt_version": "1.0",
           "book_chars_sent": 15000,
           "film_chars_sent": 15000,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Arabella Figg",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 23.0,
-      "motivations": 22.0,
-      "character_arc": 20.0,
-      "total": 85.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 23,
-        "motivations": 22,
-        "character_arc": 20,
-        "justification": {
-          "personality": "The film captures her 'batty', slightly overbearing, but ultimately caring nature, though the film's depiction is more action-oriented.",
-          "narrative_role": "Her role as the knowledgeable, protective contact who brings Harry into the magical world is strongly preserved.",
-          "motivations": "Her primary motivation\u2014to protect Harry and guide him\u2014remains consistent across both mediums.",
-          "character_arc": "Her arc is relatively small in both, but the film's integration into the larger action sequence feels slightly more dramatic than the book's more conversational reveal."
-        },
-        "key_observations": "The film captures the essence of her character and her crucial function in the plot, even if the tone is heightened for cinematic effect.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 9573,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Fat Friar",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 20.0,
-      "motivations": 20.0,
-      "character_arc": 25.0,
-      "total": 85.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 20,
-        "motivations": 20,
-        "character_arc": 25,
-        "justification": {
-          "personality": "The film captures his generally cheerful, slightly gossipy nature, though some specific interactions might be streamlined for cinematic pacing.",
-          "narrative_role": "His role as a welcoming, knowledgeable, and slightly gossipy background fixture is maintained.",
-          "motivations": "His primary motivation\u2014being a friendly, Hufflepuff-aligned ghost\u2014remains consistent.",
-          "character_arc": "As a minor, recurring background character, his 'arc' is inherently static, and the film does not deviate from his established book function."
-        },
-        "key_observations": "The Fat Friar is a minor character whose primary function is atmospheric and supportive. The film adaptation generally preserves his key traits and roles effectively.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 2247,
-          "film_chars_sent": 0,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Madame Hooch",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 23.0,
-      "motivations": 22.0,
-      "character_arc": 20.0,
-      "total": 85.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 23,
-        "motivations": 22,
-        "character_arc": 20,
-        "justification": {
-          "personality": "The core traits (skilled, authoritative, professional) are present, but the film adaptation sometimes softens her sternness or adds more dramatic flair than the books.",
-          "narrative_role": "Her primary role as the Quidditch teacher and referee is perfectly maintained throughout the major plot points.",
-          "motivations": "Her motivation to maintain fair play and uphold the rules is consistent across both mediums.",
-          "character_arc": "Her arc is relatively minor; she remains a consistent authority figure rather than undergoing significant personal change."
-        },
-        "key_observations": "The film captures her authoritative presence well, especially during the Quidditch matches, though the book provides more detailed procedural interactions.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 14816,
           "aliases": []
         }
       }
@@ -1338,6 +1282,46 @@
     "meta": {
       "screenplay_words": 5555,
       "book_mentions": 6278
+    }
+  },
+  {
+    "character": "Arabella Figg",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 22.0,
+      "character_arc": 20.0,
+      "total": 84.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 22,
+        "character_arc": 20,
+        "justification": {
+          "personality": "The core 'batty' nature and protective instincts are present, but the film scenes show her more integrated into the main action/plot exposition than the books.",
+          "narrative_role": "Her role as the key informant/witness regarding Dementors and Harry's abilities is maintained and crucial in both media.",
+          "motivations": "Her primary motivation\u2014protecting Harry and relaying information to the Order\u2014is consistent across both versions.",
+          "character_arc": "The book shows her involvement in a more sustained, detailed investigation (the Ministry hearing), whereas the film uses her more as a catalyst for the immediate plot reveal."
+        },
+        "key_observations": "The film captures her essential function (the witness) well, but the book provides a much deeper dive into her interactions with the Ministry officials.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 14749,
+          "aliases": [
+            "Mrs Figg",
+            "Mrs. Figg"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 1.5,
+      "book_mentions": 52
     }
   },
   {
@@ -1654,6 +1638,127 @@
     }
   },
   {
+    "character": "Garrick Ollivander",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 23.0,
+      "motivations": 22.0,
+      "character_arc": 18.0,
+      "total": 83.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 23,
+        "motivations": 22,
+        "character_arc": 18,
+        "justification": {
+          "personality": "The film captures his eccentric, knowledgeable, and slightly dramatic nature well, though the book's more subtle, almost cryptic nature is sometimes amplified for cinematic effect.",
+          "narrative_role": "His role as the primary wand expert and source of crucial lore (Phoenix feather, Deathly Hallows) is strongly preserved.",
+          "motivations": "His core motivations\u2014a deep knowledge of wandlore, a sense of mystery, and a protective instinct towards Harry\u2014are intact. The film adds more overt fear/vulnerability.",
+          "character_arc": "The film shows him recovering and actively participating in the plot (Shell Cottage), which is a significant expansion beyond the books' more limited appearances, thus slightly altering the arc."
+        },
+        "key_observations": "The film expands his role significantly, giving him more active participation and vulnerability than the books, but the core elements of his character and importance remain highly faithful.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 11093,
+          "aliases": [
+            "Mr. Ollivander",
+            "Ollivander"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 114
+    }
+  },
+  {
+    "character": "Ludo Bagman",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 23.0,
+      "motivations": 22.0,
+      "character_arc": 18.0,
+      "total": 83.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 23,
+        "motivations": 22,
+        "character_arc": 18,
+        "justification": {
+          "personality": "The film captures his boisterous, enthusiastic nature well, but the book provides a deeper layer of his underlying superficiality and sometimes oblivious nature, which is slightly diminished in the film's pacing.",
+          "narrative_role": "His role as the enthusiastic, slightly incompetent organizer of the World Cup and Triwizard Tournament is preserved and central to the plot.",
+          "motivations": "His primary motivation\u2014the love of sport and the spectacle\u2014is consistent. The book gives more insight into his desire to maintain appearances and his relationship with the Ministry's bureaucracy, which is slightly less pronounced in the film.",
+          "character_arc": "The book shows a more gradual decline in his influence and a clearer pattern of his superficiality throughout the year. The film compresses this, leading to a more abrupt 'reveal' of his flaws."
+        },
+        "key_observations": "The film captures the high energy and public-facing aspects of his character perfectly, but the book allows for more subtle characterization regarding his professional shortcomings and superficiality.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Bagman"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 55
+    }
+  },
+  {
+    "character": "Petunia Dursley",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 23.0,
+      "character_arc": 18.0,
+      "total": 83.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 23,
+        "character_arc": 18,
+        "justification": {
+          "personality": "The film captures her disdain and strained facade well, though the book allows for more internal conflict and subtle moments of fear/curiosity.",
+          "narrative_role": "Her role as the primary enforcer of 'normalcy' and the keeper of the secret remains central.",
+          "motivations": "Her core fear\u2014the taint of magic and her sister\u2014is perfectly preserved and even heightened by the film's dramatic tension.",
+          "character_arc": "The film presents her arc as more reactive (reacting to the magical intrusions) rather than the book's slow, creeping realization, making it slightly less nuanced but still fundamentally intact."
+        },
+        "key_observations": "The film excels at externalizing her fear and rigid adherence to normalcy, which is her defining characteristic.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Aunt Petunia",
+            "Mrs. Dursley",
+            "Petunia",
+            "tunia Dursley"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 271,
+      "book_mentions": 531
+    }
+  },
+  {
     "character": "Adrian Pucey",
     "overall": {
       "personality": 20.0,
@@ -1962,6 +2067,129 @@
     }
   },
   {
+    "character": "Olympe Maxime",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 21.0,
+      "character_arc": 18.0,
+      "total": 81.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 21,
+        "character_arc": 18,
+        "justification": {
+          "personality": "The film captures her imposing presence and French mannerisms well, though the book allows for more subtle interaction and dialogue.",
+          "narrative_role": "Her role as the Beauxbatons representative and a key figure in the Triwizard events is maintained.",
+          "motivations": "Her primary motivation\u2014representing Beauxbatons and defending her students/honor\u2014is consistent, though the film focuses more heavily on the tournament drama.",
+          "character_arc": "The film presents her more as a static, grand presence rather than showing a clear arc of interaction or change over the course of the book's events."
+        },
+        "key_observations": "The film adaptation successfully captures her grandeur and importance to the plot, though the book provides more opportunities for her character to interact and develop slightly more nuanced moments.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Madame Maxime",
+            "Madame Olympe Maxime",
+            "Maxime"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 99
+    }
+  },
+  {
+    "character": "Poppy Pomfrey",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 21.0,
+      "character_arc": 18.0,
+      "total": 81.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 21,
+        "character_arc": 18,
+        "justification": {
+          "personality": "The film captures her strict, professional, and sometimes overbearing nature, but the book provides more nuanced moments of care and exasperation.",
+          "narrative_role": "Her role as the primary medical authority figure is maintained and crucial in both mediums.",
+          "motivations": "Her core motivation\u2014maintaining order and ensuring proper recovery\u2014is consistent, though the film emphasizes her disciplinary side more.",
+          "character_arc": "The book shows her interaction with the mystery of the school's health over a longer period, while the film's focus is more episodic around specific injuries."
+        },
+        "key_observations": "The film adaptation captures her authoritative presence well, but the book allows for a deeper exploration of her interactions with the school's general health and mysteries.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Madam Pomfrey",
+            "Madame Poppy Pomfrey",
+            "Pomfrey"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 79,
+      "book_mentions": 155
+    }
+  },
+  {
+    "character": "Bartemius Crouch Sr.",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 23.0,
+      "character_arc": 15.0,
+      "total": 80.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 23,
+        "character_arc": 15,
+        "justification": {
+          "personality": "The general air of severe authority and adherence to rules is maintained, though the film sometimes softens his menace.",
+          "narrative_role": "His role as a high-ranking Ministry official and enforcer of rules is preserved.",
+          "motivations": "His dedication to upholding the law (even when misguided) is accurately portrayed.",
+          "character_arc": "The book provides more depth to his gradual decline and involvement with Voldemort's circle, which is significantly reduced or altered in the films."
+        },
+        "key_observations": "The film captures his authoritative presence but minimizes the depth of his corruption and later complicity seen in the books.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 0,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Bartemius Crouch Sr",
+            "Barty Crouch",
+            "Crouch"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 5.25,
+      "book_mentions": 360
+    }
+  },
+  {
     "character": "Dudley Dursley",
     "overall": {
       "personality": 20.0,
@@ -2040,43 +2268,6 @@
     }
   },
   {
-    "character": "Ludo Bagman",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 23.0,
-      "motivations": 22.0,
-      "character_arc": 15.0,
-      "total": 80.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 23,
-        "motivations": 22,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film captures his overly enthusiastic, jovial, and slightly superficial nature well, but the book's more pronounced eccentricity and tendency to deflect serious issues are slightly toned down.",
-          "narrative_role": "His role as the enthusiastic, slightly incompetent face of the Ministry's sports department is strongly maintained, which is crucial for the plot's tone.",
-          "motivations": "His primary motivation\u2014maintaining the spectacle and the glory of Quidditch\u2014is preserved. The book gives him more subtle, almost oblivious motivations regarding the larger political machinations, which are slightly less emphasized in the film.",
-          "character_arc": "The film presents a more straightforward, less complex arc. The book allows for more subtle shifts in his perceived competence and his relationship with the underlying political tension, which is somewhat flattened for cinematic pacing."
-        },
-        "key_observations": "The film captures the *spirit* of Ludo Bagman\u2014the showman\u2014but smooths out some of the book's more rambling, almost distracting eccentricities.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 55
-    }
-  },
-  {
     "character": "Mrs. Norris",
     "overall": {
       "personality": 20.0,
@@ -2111,47 +2302,6 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 0
-    }
-  },
-  {
-    "character": "Petunia Dursley",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 22.0,
-      "motivations": 23.0,
-      "character_arc": 15.0,
-      "total": 80.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 22,
-        "motivations": 23,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film captures her initial disdain and superficiality well, but the book allows for more subtle moments of underlying fear and longing that are less pronounced in the film's heightened drama.",
-          "narrative_role": "Her role as the primary enforcer of 'normalcy' and anti-magic sentiment is strongly preserved.",
-          "motivations": "Her core motivation\u2014maintaining the illusion of a normal, Muggle life and protecting her family's status\u2014is perfectly maintained and even amplified by the film's action.",
-          "character_arc": "The film presents her arc as one of shock and eventual acceptance of the 'normal' status quo, whereas the book implies a more gradual, internalized struggle with her sister's existence that is less overtly dramatic."
-        },
-        "key_observations": "The film excels at dramatizing her outward performance of normalcy, making her antagonism clear, though the book gives more depth to her internal conflict regarding her sister.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 15000,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Aunt Petunia",
-            "Mrs. Dursley",
-            "Petunia"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 271,
-      "book_mentions": 531
     }
   },
   {
@@ -2310,7 +2460,7 @@
     }
   },
   {
-    "character": "Cuthbert Binns",
+    "character": "Muriel",
     "overall": {
       "personality": 20.0,
       "narrative_role": 22.0,
@@ -2325,19 +2475,21 @@
         "motivations": 20,
         "character_arc": 15,
         "justification": {
-          "personality": "The core traits (droning, sleep-inducing, ghostly) are present, but the film often streamlines his interactions, making him slightly less rambling and more purely functional as a plot device.",
-          "narrative_role": "His role as the boring, mandatory, and somewhat unreliable history teacher is maintained, which is crucial for setting the tone of the school.",
-          "motivations": "His primary motivation\u2014simply to continue teaching despite being dead\u2014is consistent. The film doesn't significantly alter this core, passive drive.",
-          "character_arc": "The books give him more moments of unexpected engagement (Scenes 9-14) where he is challenged or forced to react to the students. The film minimizes these moments, resulting in a flatter, less developed arc."
+          "personality": "The film captures her gossipy, critical, and dramatic nature, but the book allows for a deeper dive into her specific, highly inflammatory theories regarding Dumbledore's past, which is somewhat diluted in the film's focus on the immediate plot.",
+          "narrative_role": "Her role as the catalyst for Harry's suspicion regarding Dumbledore's past is strongly preserved in the film's dialogue, making her function very similar to the book.",
+          "motivations": "Her primary motivation\u2014to stir up scandal and reveal secrets\u2014is consistent. However, the book gives her a more sustained, almost gleeful, academic pursuit of gossip, whereas the film's portrayal is more reactionary.",
+          "character_arc": "The book allows for a more developed, albeit villainous, arc where she actively manipulates the conversation. The film presents her more as a single, potent piece of exposition, limiting any sense of personal development or sustained conflict."
         },
-        "key_observations": "",
+        "key_observations": "The film successfully captures her most notorious elements\u2014her sharp tongue and her obsession with scandal\u2014but the book provides a richer, more sustained platform for her manipulative characterization.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 0,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
-          "aliases": []
+          "book_chars_sent": 15000,
+          "film_chars_sent": 10104,
+          "aliases": [
+            "Aunt Muriel"
+          ]
         }
       }
     },
@@ -2653,6 +2805,45 @@
     }
   },
   {
+    "character": "Lily Potter",
+    "overall": {
+      "personality": 18.0,
+      "narrative_role": 20.0,
+      "motivations": 22.0,
+      "character_arc": 15.0,
+      "total": 75.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 18,
+        "narrative_role": 20,
+        "motivations": 22,
+        "character_arc": 15,
+        "justification": {
+          "personality": "The film captures her protective nature and love for Harry, but the book shows a more complex, sometimes critical, relationship with James and Sirius, which is toned down in the film.",
+          "narrative_role": "Her primary role as the sacrificial mother figure and protector of Harry is strongly maintained in both mediums.",
+          "motivations": "Her core motivation\u2014protecting Harry from Voldemort\u2014is perfectly preserved. The book adds layers of conflict regarding her relationship with James, which is less emphasized in the film's focus on the sacrifice.",
+          "character_arc": "In the book, her character is shown interacting with the fallout of her death (Scenes 24-36), suggesting a lingering influence or memory. The film largely keeps her arc focused solely on the singular, defining sacrifice, minimizing post-death development."
+        },
+        "key_observations": "The film excels at portraying the emotional weight of the sacrifice, while the book provides more depth to her relationships and the aftermath of the attack.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 7356,
+          "aliases": [
+            "Lily"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 3.0,
+      "book_mentions": 142
+    }
+  },
+  {
     "character": "Lily Potter II",
     "overall": {
       "personality": 15.0,
@@ -2692,37 +2883,38 @@
   {
     "character": "Lord Voldemort",
     "overall": {
-      "personality": 18.0,
+      "personality": 15.0,
       "narrative_role": 22.0,
       "motivations": 20.0,
-      "character_arc": 15.0,
+      "character_arc": 18.0,
       "total": 75.0
     },
     "per_source": {
       "comparative": {
-        "personality": 18,
+        "personality": 15,
         "narrative_role": 22,
         "motivations": 20,
-        "character_arc": 15,
+        "character_arc": 18,
         "justification": {
-          "personality": "The film captures his menace and desire for power, but the book provides more nuanced glimpses into his history and psychological manipulation (e.g., through Quirrell and the diary), which are often simplified or omitted in the films.",
-          "narrative_role": "The core role as the ultimate antagonist is preserved across both, though the specific methods of his resurrections and influence vary.",
-          "motivations": "The core motivation\u2014the desire for power, immortality, and supremacy\u2014is consistent. However, the book delves deeper into his intellectual arrogance and specific historical grievances (like the Slytherin lineage), which are sometimes downplayed in the films.",
-          "character_arc": "The book presents a more complex, evolving villainy, showing him as a manipulative mastermind who adapts through different vessels. The film tends to keep him a more static, purely evil force, especially in his initial appearances."
+          "personality": "The film captures the menace and desire for power, but the book provides more nuanced dialogue and internal conflict regarding his identity (e.g., the name debate). The film's portrayal is more overtly villainous and less psychologically complex.",
+          "narrative_role": "The core function\u2014the ultimate antagonist driving the plot\u2014is perfectly preserved in both mediums.",
+          "motivations": "The core motivation (power, immortality, fear of death) is consistent. The book emphasizes his intellectual arrogance and desire for recognition, which is slightly diluted in the film's action-heavy portrayal.",
+          "character_arc": "The film shows his decline and defeat clearly. The book builds the arc more slowly through dialogue and revelation, making the film's arc feel more condensed but equally faithful in its conclusion."
         },
-        "key_observations": "The film is highly successful at conveying his terror and power, but the book's detailed exposition regarding his history, intellectual cruelty, and the mechanics of his influence (like the diary) are richer and more varied.",
+        "key_observations": "The film excels at showing the *impact* of Voldemort's threat through action (the attack on the Potters, the final confrontation), whereas the book spends more time on the *dialogue* surrounding his name and philosophy.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 0,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
           "aliases": [
             "He-Who-Must-Not-Be-Named",
             "Riddle",
             "The Dark Lord",
             "Tom",
             "Tom Riddle",
+            "Tom Riddle / Voldemort",
             "Voldemort",
             "You-Know-Who"
           ]
@@ -3087,46 +3279,6 @@
     }
   },
   {
-    "character": "Pomona Sprout",
-    "overall": {
-      "personality": 18.0,
-      "narrative_role": 20.0,
-      "motivations": 20.0,
-      "character_arc": 15.0,
-      "total": 73.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 18,
-        "narrative_role": 20,
-        "motivations": 20,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film captures her nurturing side but sometimes misses the subtle, professional interactions seen in the books.",
-          "narrative_role": "Her role as a supportive member of the faculty is generally maintained.",
-          "motivations": "Her care for the students and the greenhouses remains consistent.",
-          "character_arc": "The film tends to sideline her, making her arc less pronounced than in the books."
-        },
-        "key_observations": "Her characterization is generally supportive but less central than in the source material.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 565,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Professor Sprout",
-            "Sprout"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 169,
-      "book_mentions": 163
-    }
-  },
-  {
     "character": "Scabior",
     "overall": {
       "personality": 18.0,
@@ -3161,6 +3313,45 @@
     "meta": {
       "screenplay_words": 109,
       "book_mentions": 17
+    }
+  },
+  {
+    "character": "The Fat Friar",
+    "overall": {
+      "personality": 15.0,
+      "narrative_role": 18.0,
+      "motivations": 15.0,
+      "character_arc": 25.0,
+      "total": 73.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 15,
+        "narrative_role": 18,
+        "motivations": 15,
+        "character_arc": 25,
+        "justification": {
+          "personality": "The film version is often more consistently cheerful and less conversational than the book mentions, losing some of the specific, gossipy nature of his appearances.",
+          "narrative_role": "His role as a background fixture and source of minor exposition (especially regarding Dumbledore's safety) is generally maintained.",
+          "motivations": "His primary motivation in the books is simply to participate in the general magical atmosphere and gossip, which is largely preserved.",
+          "character_arc": "As a background ghost, he has no significant arc to deviate from, and his presence is consistently used to enhance the atmosphere."
+        },
+        "key_observations": "The Fat Friar is a minor, atmospheric character whose function is more important than deep characterization. The film adaptation captures his general cheerful presence well, though it loses the specific, conversational depth found in the book's snippets.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 1959,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Fat Friar"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 0
     }
   },
   {
@@ -3282,6 +3473,86 @@
     }
   },
   {
+    "character": "Percy Weasley",
+    "overall": {
+      "personality": 18.0,
+      "narrative_role": 20.0,
+      "motivations": 19.0,
+      "character_arc": 15.0,
+      "total": 72.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 18,
+        "narrative_role": 20,
+        "motivations": 19,
+        "character_arc": 15,
+        "justification": {
+          "personality": "The film captures his initial pompous, rule-following nature well (e.g., in the Great Hall and Common Room scenes), but the book shows a more nuanced internal conflict and eventual softening that the film underplays.",
+          "narrative_role": "His role as the responsible, prefect figure is maintained in both, serving to contrast with the chaotic energy of the twins and Harry's spontaneity.",
+          "motivations": "His motivation in the books is tied to maintaining order and adhering to rules, which is present in the films. However, the book hints at a deeper insecurity about his place in the family/wizarding world that the film misses.",
+          "character_arc": "The book suggests a more gradual, though still resistant, shift away from rigid adherence to rules. The film keeps him largely static as the 'perfect' prefect, missing the subtle development seen in the books."
+        },
+        "key_observations": "The film captures the *image* of Percy (the rigid prefect) very well, but the book provides more depth to his internal struggles and the potential for change, which the film simplifies.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Percy",
+            "cy Weasley"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 176,
+      "book_mentions": 433
+    }
+  },
+  {
+    "character": "Cuthbert Binns",
+    "overall": {
+      "personality": 20.0,
+      "narrative_role": 22.0,
+      "motivations": 18.0,
+      "character_arc": 10.0,
+      "total": 70.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 20,
+        "narrative_role": 22,
+        "motivations": 18,
+        "character_arc": 10,
+        "justification": {
+          "personality": "The core traits (droning, boring, ghost-like) are maintained, but the film often streamlines his interactions, making him slightly less verbose and more purely background filler than the book suggests.",
+          "narrative_role": "His role as the embodiment of boring academic filler is preserved, which is crucial for the student dynamic, though the book gives him more specific, albeit boring, plot points (like the Chamber discussion).",
+          "motivations": "His primary motivation\u2014simply to continue teaching despite being dead\u2014is intact. However, the book gives him more moments of reacting to student input (like Hermione's questions), suggesting a slight internal conflict or engagement that the film minimizes.",
+          "character_arc": "The book implies a subtle, albeit reluctant, engagement with the students' intelligence (Scenes 8, 9, 11, 13). The film largely presents him as a static, unchanging fixture, resulting in a lower score for arc development."
+        },
+        "key_observations": "The film captures the essence of his boring nature perfectly, but loses some of the nuanced, almost argumentative, interactions with the students that the book provides.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 14705,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Binns",
+            "Professor Binns"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 45
+    }
+  },
+  {
     "character": "James Potter",
     "overall": {
       "personality": 18.0,
@@ -3297,19 +3568,21 @@
         "motivations": 17,
         "character_arc": 15,
         "justification": {
-          "personality": "The film captures his protective nature and swagger, but the book provides a much deeper, more complex portrait of his relationship with his family and friends, which is diminished in the film's focus.",
-          "narrative_role": "His role as the heroic, charismatic father figure is maintained, though the book gives him more active participation in the mystery surrounding his death.",
-          "motivations": "The core motivation\u2014protecting his family and fighting Voldemort\u2014is present, but the book delves into his complex friendships and the nature of his sacrifice more thoroughly.",
-          "character_arc": "The book implies a more active, if tragic, role in the events leading up to his death and the mystery surrounding his legacy, which is largely reduced to a static memory in the film."
+          "personality": "The films capture his arrogance and charm (especially in the early films), but the book's depth of his complex relationships and intellectual sparring is often lost or simplified in the film's portrayal.",
+          "narrative_role": "His role as the charismatic, rebellious hero and father figure is largely maintained, though the film sometimes oversimplifies his impact.",
+          "motivations": "His core motivations\u2014protecting his family and challenging authority\u2014are present, but the book gives more nuance to his internal conflicts and his relationship with Sirius.",
+          "character_arc": "The book allows for a more complex, if tragic, arc involving his perceived arrogance and eventual fall from grace (or the mystery surrounding it). The films tend to keep him more consistently idealized or simply absent, limiting the observable arc."
         },
-        "key_observations": "The film uses James's memory primarily as exposition and emotional anchor, whereas the books weave him into more active narrative threads regarding his life and the secrets of the wizarding world.",
+        "key_observations": "The films capture the *vibe* of James Potter (cocky, charismatic, Quidditch star), but the book provides significantly more depth regarding his intellectual sparring, his relationship with Sirius, and the nuances of his life before his death.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 5217,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
-          "aliases": []
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "James"
+          ]
         }
       }
     },
@@ -3434,6 +3707,45 @@
     }
   },
   {
+    "character": "Corban Yaxley",
+    "overall": {
+      "personality": 15.0,
+      "narrative_role": 20.0,
+      "motivations": 18.0,
+      "character_arc": 15.0,
+      "total": 68.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 15,
+        "narrative_role": 20,
+        "motivations": 18,
+        "character_arc": 15,
+        "justification": {
+          "personality": "The film captures his villainous, sneering demeanor and his role as a minor antagonist, but the book's detailed, manipulative nature is somewhat flattened into more overt villainy.",
+          "narrative_role": "His function as an enforcer/antagonist in the Ministry and Forbidden Forest is preserved, making him a key plot point in both media.",
+          "motivations": "His primary motivation\u2014serving the Death Eaters and enforcing their will\u2014is consistent. The book shows a more calculated, intellectual malice, while the film is more action-oriented.",
+          "character_arc": "In both instances, he remains a static villain. The film doesn't give him a noticeable arc, mirroring the book's portrayal of him as a minor, unchanging threat."
+        },
+        "key_observations": "The film utilizes Yaxley's presence effectively to advance the plot (especially in the Ministry scenes), but the book provides a deeper, more nuanced glimpse into his sinister character interactions.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Yaxley"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 56
+    }
+  },
+  {
     "character": "Dean Thomas",
     "overall": {
       "personality": 18.0,
@@ -3510,43 +3822,6 @@
     }
   },
   {
-    "character": "Macnair",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 20.0,
-      "motivations": 18.0,
-      "character_arc": 15.0,
-      "total": 68.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 20,
-        "motivations": 18,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film captures his role as a menacing, official enforcer, but the book provides more depth to his menace and interactions (e.g., the specific interactions with Hagrid/Harry).",
-          "narrative_role": "His primary function\u2014as an antagonist/threat to the protagonists\u2014is strongly maintained in both media.",
-          "motivations": "His core motivation (enforcing Ministry/Death Eater will) is consistent, though the book gives more insight into his specific malice.",
-          "character_arc": "The book implies a more complex, though still villainous, presence, whereas the film tends to keep him a more one-dimensional threat."
-        },
-        "key_observations": "The film adaptation generally keeps Macnair's function intact, portraying him as a clear, immediate threat, which is consistent with his book role, though the book gives more context to his villainy.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 5647,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
     "character": "Monsieur Delacour",
     "overall": {
       "personality": 15.0,
@@ -3581,46 +3856,6 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 0
-    }
-  },
-  {
-    "character": "Poppy Pomfrey",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 18.0,
-      "motivations": 20.0,
-      "character_arc": 15.0,
-      "total": 68.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 18,
-        "motivations": 20,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film generally maintains her role as the competent nurse, but the depth of her characterization and interactions are significantly reduced compared to the book's implied presence.",
-          "narrative_role": "Her role as the primary healer is preserved, but the specific, detailed interactions shown in the book (like caring for Winky) are either omitted or generalized in the film.",
-          "motivations": "Her core motivation\u2014caring for the injured and sick\u2014remains consistent, which is the most faithfully portrayed element.",
-          "character_arc": "Because the film only shows her in brief, functional capacities, any potential arc is underdeveloped or missing entirely compared to the book's potential for deeper involvement."
-        },
-        "key_observations": "The film uses her primarily as a functional background character (the healer) rather than developing her personality or role beyond immediate necessity.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 682,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Madam Pomfrey",
-            "Pomfrey"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 79,
-      "book_mentions": 155
     }
   },
   {
@@ -3700,46 +3935,6 @@
     }
   },
   {
-    "character": "Rolanda Hooch",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 18.0,
-      "motivations": 18.0,
-      "character_arc": 15.0,
-      "total": 66.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 18,
-        "motivations": 18,
-        "character_arc": 15,
-        "justification": {
-          "personality": "The film often softens her sternness, making her seem less formidable than in the books.",
-          "narrative_role": "Her role as a key figure in Quidditch remains consistent, though sometimes diminished.",
-          "motivations": "Her dedication to the sport and Hogwarts remains, but the depth of her professional rivalry/interest is less pronounced.",
-          "character_arc": "She remains largely static, which is accurate, but the film doesn't give her enough space to show any subtle development."
-        },
-        "key_observations": "Hooch is a minor character whose function is more important than her development. The film captures her presence but often lacks the textual depth.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 0,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Hooch",
-            "Madam Hooch"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 213,
-      "book_mentions": 53
-    }
-  },
-  {
     "character": "Alastor Moody",
     "overall": {
       "personality": 15.0,
@@ -3797,24 +3992,27 @@
         "motivations": 17,
         "character_arc": 15,
         "justification": {
-          "personality": "The book shows her as a highly skilled, outspoken, and emotionally engaged player (e.g., shrieking at Malfoy, helping Ron). The film representation is significantly reduced, making her less vocal and less central to the action.",
-          "narrative_role": "Her primary role in the books is as a key, skilled member of the Gryffindor Quidditch team, participating heavily in the action and commentary. In the films, her role is much more peripheral, often just being present in group shots.",
-          "motivations": "Her motivations in the books are tied to team success, defending friends (like Harry), and reacting strongly to perceived slights (like Malfoy's taunts). The films do not give her enough screen time to establish these conflicts.",
-          "character_arc": "The book shows her participating in the build-up and aftermath of the major Quidditch events, suggesting continued growth and involvement. The films largely sideline her, resulting in a very minimal or nonexistent visible arc."
+          "personality": "The book shows her as highly engaged, outspoken, and central to the Quidditch action (e.g., screaming, passing, arguing). The film minimizes her visible presence and dialogue, making her seem more peripheral.",
+          "narrative_role": "Her role as a key, visible, and vocal member of the Gryffindor Quidditch team is present in both, but the film reduces her active participation significantly.",
+          "motivations": "Her primary motivations\u2014excelling at Quidditch, reacting strongly to injustice (like Malfoy's taunts), and supporting her friends\u2014are implied but not given the same weight in the film.",
+          "character_arc": "The book gives her multiple moments of high action and emotional outburst, suggesting a strong presence. The film largely sidelines her, resulting in a much flatter arc."
         },
-        "key_observations": "Alicia Spinnet is a character whose book presence is heavily reliant on the action sequences of the Quidditch matches. Because the film adaptation significantly cuts down on the detailed action and dialogue surrounding the matches, her characterization feels much weaker on screen compared to the source material.",
+        "key_observations": "Alicia Spinnet is a character who appears to have been significantly downplayed or cut from the film adaptation, losing much of the vibrant, active role she held in the books.",
         "meta": {
           "type": "comparative",
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "book_chars_sent": 15000,
           "film_chars_sent": 0,
-          "aliases": []
+          "aliases": [
+            "Alicia",
+            "Alicia Spinnett"
+          ]
         }
       }
     },
     "meta": {
-      "screenplay_words": 0,
+      "screenplay_words": 0.5,
       "book_mentions": 0
     }
   },
@@ -3972,46 +4170,6 @@
     }
   },
   {
-    "character": "Olympe Maxime",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 18.0,
-      "motivations": 20.0,
-      "character_arc": 12.0,
-      "total": 65.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 18,
-        "motivations": 20,
-        "character_arc": 12,
-        "justification": {
-          "personality": "The film often portrays her as more overtly romantic or less capable in direct action compared to the book's depiction of her competence and fiery nature.",
-          "narrative_role": "Her role as a key ally and intellectual equal to Hagrid is maintained, though the emphasis shifts.",
-          "motivations": "Her core motivation\u2014protecting her friends and confronting danger\u2014remains, but the immediate threat level and focus differ.",
-          "character_arc": "The book suggests a more complex, evolving relationship with the conflict; the film's arc is often more peripheral or simplified."
-        },
-        "key_observations": "The film adaptation significantly reduces the depth and complexity of her interactions, particularly concerning her magical prowess and strategic involvement, compared to the rich, detailed accounts in the books.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 3810,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Madame Maxime",
-            "Maxime"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 111,
-      "book_mentions": 201
-    }
-  },
-  {
     "character": "Sirius Black",
     "overall": {
       "personality": 18.0,
@@ -4080,6 +4238,46 @@
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "aliases": []
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 0
+    }
+  },
+  {
+    "character": "The Grey Lady",
+    "overall": {
+      "personality": 18.0,
+      "narrative_role": 20.0,
+      "motivations": 15.0,
+      "character_arc": 12.0,
+      "total": 65.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 18,
+        "narrative_role": 20,
+        "motivations": 15,
+        "character_arc": 12,
+        "justification": {
+          "personality": "The film version is highly dramatic and confrontational, adding more personal dialogue and emotional weight than the book implies, making the tone slightly exaggerated.",
+          "narrative_role": "The core function\u2014guiding Harry to the location of the diadem\u2014is preserved and even amplified by the film's dramatic confrontation.",
+          "motivations": "The book focuses more on the inherent tragedy of the diadem and the desire for cleverness; the film heavily emphasizes the conflict with Tom Riddle and the pain associated with the object, which is an addition.",
+          "character_arc": "The book's portrayal is more ethereal and mysterious. The film gives her a more active, albeit reluctant, role in the climax, which is a significant expansion of her arc."
+        },
+        "key_observations": "The film significantly dramatizes the interaction, adding explicit conflict with Tom Riddle and deepening the emotional stakes beyond what is present in the book's depiction.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 242,
+          "film_chars_sent": 4011,
+          "aliases": [
+            "Grey Lady",
+            "Helena Ravenclaw"
+          ]
         }
       }
     },
@@ -4160,43 +4358,6 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 160
-    }
-  },
-  {
-    "character": "Yaxley",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 20.0,
-      "motivations": 20.0,
-      "character_arc": 10.0,
-      "total": 65.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 20,
-        "motivations": 20,
-        "character_arc": 10,
-        "justification": {
-          "personality": "The film portrays him as a functional, menacing henchman, which aligns with his book function, but the dialogue and specific mannerisms are less developed in the film excerpts provided compared to the book's implication of his role.",
-          "narrative_role": "His role as a minor antagonist/enforcer within the Death Eaters is preserved in both mediums, serving to advance the plot by confronting the protagonists.",
-          "motivations": "His primary motivation\u2014serving the Dark Lord and enforcing his will\u2014is consistent. The film shows him actively participating in the capture/containment of Harry, matching the book's implication.",
-          "character_arc": "Yaxley is a minor character in both instances, and the film excerpts do not show any significant development or change in his character arc, making it difficult to score a high score for evolution."
-        },
-        "key_observations": "Yaxley's presence is utilized effectively in both the book and film to establish the threat level of the Death Eaters. The film adaptation captures his role well, though the book provides more depth to his implied menace.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 15000,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 80,
-      "book_mentions": 56
     }
   },
   {
@@ -4385,80 +4546,6 @@
     }
   },
   {
-    "character": "cy Weasley",
-    "overall": {
-      "personality": 20.0,
-      "narrative_role": 15.0,
-      "motivations": 18.0,
-      "character_arc": 10.0,
-      "total": 63.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 20,
-        "narrative_role": 15,
-        "motivations": 18,
-        "character_arc": 10,
-        "justification": {
-          "personality": "The core traits (overly bureaucratic, serious) are present, but the film often simplifies his interactions.",
-          "narrative_role": "His role as a minor obstacle/authority figure is present, but his significance is diminished.",
-          "motivations": "His dedication to Ministry rules is clear, but the depth of his ambition vs. family loyalty is less explored.",
-          "character_arc": "The book implies a more significant internal conflict regarding his careerism vs. family life, which the films barely touch upon."
-        },
-        "key_observations": "The film captures his surface-level demeanor but misses the nuance of his internal conflict and development seen in the books.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 0,
-          "film_chars_sent": 771,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Fat Lady",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 20.0,
-      "motivations": 18.0,
-      "character_arc": 10.0,
-      "total": 63.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 20,
-        "motivations": 18,
-        "character_arc": 10,
-        "justification": {
-          "personality": "The film version is more straightforward and less capricious than the book's depiction, losing some of the humorous unpredictability.",
-          "narrative_role": "The core function of guarding the entrance remains intact, which is crucial to the plot.",
-          "motivations": "The book shows her reacting to specific events (like the attack or the changing passwords), giving her more reactive motivation than the film's single, functional appearance.",
-          "character_arc": "The film offers almost no arc for the Fat Lady; she is a static plot device, whereas the books show her reacting to major changes in the school's status."
-        },
-        "key_observations": "The film uses the Fat Lady primarily as a functional door mechanism, whereas the books treat her as a more active, if sometimes grumpy, character participant in the ongoing life of Hogwarts.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 712,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
     "character": "Fenrir Greyback",
     "overall": {
       "personality": 15.0,
@@ -4575,40 +4662,43 @@
     }
   },
   {
-    "character": "Lily Potter",
+    "character": "Irma Pince",
     "overall": {
       "personality": 15.0,
-      "narrative_role": 18.0,
-      "motivations": 20.0,
+      "narrative_role": 20.0,
+      "motivations": 18.0,
       "character_arc": 10.0,
       "total": 63.0
     },
     "per_source": {
       "comparative": {
         "personality": 15,
-        "narrative_role": 18,
-        "motivations": 20,
+        "narrative_role": 20,
+        "motivations": 18,
         "character_arc": 10,
         "justification": {
-          "personality": "The film portrays her in highly idealized, ethereal, or memory-based ways, losing the grounded warmth and specific emotional depth shown in the books (e.g., the letter writing).",
-          "narrative_role": "Her primary role as the sacrificial mother/source of protection is maintained, but the film introduces significant, non-canonical appearances (Mirror of Erised, Resurrection Stone visions) that alter the function.",
-          "motivations": "Her core motivation\u2014protecting Harry\u2014is strongly preserved, particularly in the sacrifice scene, which remains central.",
-          "character_arc": "The book establishes her through her actions and memory (the letter); the film gives her multiple, fragmented, and non-linear 'appearances' which dilute any sense of a cohesive arc, especially since she is dead."
+          "personality": "The book portrays her as a highly detailed, almost caricature-like figure (vulture-like, irritable, obsessed with rules). The film adaptation often streamlines this, making her presence more functional than deeply characterized.",
+          "narrative_role": "Her primary role as the gatekeeper of knowledge and enforcer of library rules is maintained in the films, which is crucial for establishing the atmosphere of Hogwarts.",
+          "motivations": "Her core motivation\u2014maintaining order and protecting the books\u2014is consistent. However, the depth of her paranoia and obsessive nature detailed in the book is often reduced for pacing.",
+          "character_arc": "The book gives her several distinct, albeit minor, interactions that build her character. The film generally keeps her static, serving as a recurring obstacle rather than undergoing any noticeable development."
         },
         "key_observations": "",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 1665,
-          "film_chars_sent": 6092,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
-          "aliases": []
+          "book_chars_sent": 15000,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Madam Pince",
+            "Pince"
+          ]
         }
       }
     },
     "meta": {
       "screenplay_words": 0,
-      "book_mentions": 0
+      "book_mentions": 37
     }
   },
   {
@@ -4804,32 +4894,33 @@
     "character": "Sybill Trelawney",
     "overall": {
       "personality": 15.0,
-      "narrative_role": 18.0,
+      "narrative_role": 20.0,
       "motivations": 18.0,
-      "character_arc": 12.0,
+      "character_arc": 10.0,
       "total": 63.0
     },
     "per_source": {
       "comparative": {
         "personality": 15,
-        "narrative_role": 18,
+        "narrative_role": 20,
         "motivations": 18,
-        "character_arc": 12,
+        "character_arc": 10,
         "justification": {
-          "personality": "The film often exaggerates her dramatic flair, making her more overtly theatrical than the book suggests, though the core 'mystic' persona remains.",
-          "narrative_role": "Her role as the source of the prophecy is central and preserved, though the film sometimes diminishes the depth of the conversation around it.",
-          "motivations": "Her desire for attention and validation through prophecy is maintained, but the book gives her a more complex, if flawed, position within the school structure.",
-          "character_arc": "The book implies a more subtle, ongoing influence; the film tends to treat her as a static, dramatic fixture, limiting any discernible arc."
+          "personality": "The core elements (misty voice, dramatic pronouncements, focus on the 'Inner Eye') are present, but the film's portrayal is more integrated into the overall plot rather than being the central focus of the book's scenes. The film's depiction is less consistently eccentric and more reactive to the main plot.",
+          "narrative_role": "Her role as the unreliable, dramatic oracle is maintained, which is crucial for the plot structure (especially in the first book). However, the film's narrative focus shifts away from her entirely after the initial appearance.",
+          "motivations": "Her primary motivation\u2014to appear mysterious and prophetic\u2014is consistent. In the film, her motivation seems more tied to the immediate plot points (like Umbridge's challenge) rather than a deep, consistent need for validation seen in the books.",
+          "character_arc": "The book allows for a more gradual, frustrating, and consistent undermining of her predictions. The film's arc is much shorter and more episodic, culminating in a quick dismissal rather than a sustained, frustrating academic encounter."
         },
-        "key_observations": "The film captures her essential 'mystic' nature but loses some of the nuanced, slightly pathetic quality of her characterization found in the books.",
+        "key_observations": "The film captures her signature dramatic flair but diminishes the sustained, frustrating nature of her character interaction found in the books. Her role is more of a plot device in the film than a persistent academic annoyance.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 3616,
-          "film_chars_sent": 0,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
           "aliases": [
             "Professor Trelawney",
+            "Sybil Trelawney",
             "Trelawney"
           ]
         }
@@ -4869,6 +4960,45 @@
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "aliases": []
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 0
+    }
+  },
+  {
+    "character": "The Fat Lady",
+    "overall": {
+      "personality": 18.0,
+      "narrative_role": 20.0,
+      "motivations": 15.0,
+      "character_arc": 10.0,
+      "total": 63.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 18,
+        "narrative_role": 20,
+        "motivations": 15,
+        "character_arc": 10,
+        "justification": {
+          "personality": "The film version is more overtly welcoming and less capricious than the book, losing some of the book's playful menace.",
+          "narrative_role": "The core function (gatekeeper to the common room) is preserved, but the film simplifies her interactions significantly.",
+          "motivations": "The book shows her reacting to specific events (like the attack on her canvas), giving her more agency and fear; the film keeps her role purely functional.",
+          "character_arc": "The book shows her changing status (being attacked, needing restoration, changing passwords); the film presents her as static and consistently helpful."
+        },
+        "key_observations": "The film captures the essential function of the portrait but strips away much of the book's rich, unpredictable personality and narrative weight.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 712,
+          "aliases": [
+            "Fat Lady"
+          ]
         }
       }
     },
@@ -4953,6 +5083,47 @@
     "meta": {
       "screenplay_words": 4,
       "book_mentions": 232
+    }
+  },
+  {
+    "character": "Colin Creevey",
+    "overall": {
+      "personality": 18.0,
+      "narrative_role": 15.0,
+      "motivations": 17.0,
+      "character_arc": 12.0,
+      "total": 62.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 18,
+        "narrative_role": 15,
+        "motivations": 17,
+        "character_arc": 12,
+        "justification": {
+          "personality": "The film captures his enthusiastic, slightly overwhelming nature, but the book allows for a broader range of interactions (e.g., with Ginny, the general atmosphere of the school).",
+          "narrative_role": "His primary role in the film is reduced to a single, dramatic incident (the attack), whereas in the books, he is a more recurring, background fixture of the school life.",
+          "motivations": "His core motivation\u2014a deep, almost obsessive desire to document and prove he was there\u2014is present, but the book gives him more agency in his interactions.",
+          "character_arc": "The book shows him interacting with different characters and events over time, suggesting a more natural, if minor, growth. The film focuses almost entirely on the inciting incident of the attack, limiting any visible arc."
+        },
+        "key_observations": "The film significantly streamlines his presence, focusing almost entirely on the single, dramatic event of his attack, losing the sense of his persistent, background presence seen in the books.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Colin",
+            "Colin Creevy",
+            "Creevey"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 72
     }
   },
   {
@@ -5045,27 +5216,28 @@
         "motivations": 17,
         "character_arc": 12,
         "justification": {
-          "personality": "The film version seems to amplify her giggling and superficial nature, while the book shows her participating in more varied social interactions (e.g., with Lavender, Hermione, and in the Boggart scene).",
-          "narrative_role": "Her role is primarily that of a supporting friend/foil to Hermione, which is maintained, but the film focuses heavily on the dance/social aspect, diminishing her role in key plot moments.",
-          "motivations": "Her motivations remain centered on social acceptance and enjoying the festivities, which is consistent, though the book gives her more active participation in group dynamics (e.g., pointing out things to Harry).",
-          "character_arc": "The book shows her interacting with various characters and situations across multiple books, suggesting a more developed, if minor, arc. The film's depiction is limited to a single, highly social event, making her arc feel less developed or truncated."
+          "personality": "The film version seems to amplify her giggling, flirtatious, and sometimes superficial side, while the book shows a more varied, though still sometimes gossipy, presence. The film feels more focused on the social spectacle.",
+          "narrative_role": "Her role as a supporting friend/foil is present, but the film's focus on the dance/social aspect overshadows her more varied interactions seen in the books.",
+          "motivations": "In the books, her motivations are tied to social dynamics and gossip. In the film, her primary visible motivation seems to be participation in the social events (like the dance), which is a slight shift.",
+          "character_arc": "Both versions show her as a secondary character with little personal growth. The film's adaptation doesn't give her a distinct arc, making it feel less developed than her book appearances."
         },
-        "key_observations": "The film captures her social energy but seems to flatten her character into a purely decorative, giggling friend, losing some of the subtle interactions seen in the book.",
+        "key_observations": "The film captures her general presence at social events but simplifies her characterization, making her seem more purely decorative to the plot than in the books.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 13820,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 13820,
           "aliases": [
-            "Parvati"
+            "Parvati",
+            "arvati Patil"
           ]
         }
       }
     },
     "meta": {
-      "screenplay_words": 13,
-      "book_mentions": 149
+      "screenplay_words": 0,
+      "book_mentions": 130
     }
   },
   {
@@ -5145,7 +5317,7 @@
     }
   },
   {
-    "character": "Percy Weasley",
+    "character": "Nearly Headless Nick",
     "overall": {
       "personality": 15.0,
       "narrative_role": 18.0,
@@ -5160,27 +5332,70 @@
         "motivations": 18,
         "character_arc": 10,
         "justification": {
-          "personality": "The film only shows him in a brief, stiff, and authoritative manner, capturing his pompous nature but missing his later moments of awkwardness or change.",
-          "narrative_role": "His role as a Ministry functionary/authority figure is present, but the book gives him much more varied interaction.",
-          "motivations": "The film only shows him motivated by duty/following orders, missing his internal conflicts or desires for recognition seen in the books.",
-          "character_arc": "The film provides almost no evidence of his arc; he is presented as static and purely bureaucratic."
+          "personality": "The film captures the initial playful, slightly dramatic nature (Great Hall scene), but loses the deeper, melancholic, and self-deprecating tone of the books, especially regarding his inability to join the Hunt.",
+          "narrative_role": "The film establishes his role (Great Hall, Quidditch mention) but removes the significant plot points involving the attack and subsequent recovery/interaction with McGonagall.",
+          "motivations": "The core motivation\u2014the desire for a proper, dramatic end\u2014is present in the film's initial dialogue, but the deeper conflict regarding his existence and the subsequent plot development (the attack) is entirely absent.",
+          "character_arc": "The book features a clear arc of disappointment (rejection letter) leading to a major physical trauma (the attack) and subsequent recovery. The film only shows a snapshot of his existence, lacking any meaningful development or resolution."
         },
-        "key_observations": "The film adaptation severely limits Percy's screen time, only showing his most rigid and official side, which is less complex than his book portrayal.",
+        "key_observations": "The film uses Nick for a brief, superficial cameo during the feast, whereas the books dedicate significant time to his character, his melancholy, and his dramatic peril.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 771,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
           "aliases": [
-            "Percy"
+            "Nearly Headless Nick",
+            "Nearly-Headless Nick",
+            "Nick",
+            "Sir Nicholas \"Nearly-Headless Nick\""
           ]
         }
       }
     },
     "meta": {
-      "screenplay_words": 176,
-      "book_mentions": 433
+      "screenplay_words": 0,
+      "book_mentions": 0
+    }
+  },
+  {
+    "character": "Padma Patil",
+    "overall": {
+      "personality": 15.0,
+      "narrative_role": 18.0,
+      "motivations": 16.0,
+      "character_arc": 12.0,
+      "total": 61.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 15,
+        "narrative_role": 18,
+        "motivations": 16,
+        "character_arc": 12,
+        "justification": {
+          "personality": "The book portrays her as somewhat sulky and focused on Ron, while the film largely omits her or reduces her to background filler, losing her distinct personality traits.",
+          "narrative_role": "Her role as a secondary love interest/friend is present in both, but the film's focus shifts away from her interactions with Harry/Ron.",
+          "motivations": "Her clear interest in Ron and her subsequent disappointment are present in the book but are not given any significant narrative weight or conflict in the film.",
+          "character_arc": "The book shows her minor shifts in attention (from Harry to Ron), but the film provides no discernible arc for her, leaving her static or absent."
+        },
+        "key_observations": "The film significantly underutilizes Padma Patil compared to the book, reducing her presence to background moments, which affects the perceived consistency of her character.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 6009,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Padma",
+            "adma Patil"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 22
     }
   },
   {
@@ -5212,6 +5427,84 @@
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
           "aliases": []
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 0
+    }
+  },
+  {
+    "character": "The Bloody Baron",
+    "overall": {
+      "personality": 15.0,
+      "narrative_role": 18.0,
+      "motivations": 18.0,
+      "character_arc": 10.0,
+      "total": 61.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 15,
+        "narrative_role": 18,
+        "motivations": 18,
+        "character_arc": 10,
+        "justification": {
+          "personality": "The film introduces the character but lacks the detailed, menacing, and specific personality traits (gaunt, staring, covered in silver blood) established in the books. The portrayal is more of a brief cameo.",
+          "narrative_role": "The role of a powerful, controlling ghost who interacts with the main group is present, but the depth of his influence (controlling Peeves, being a major fixture of the ghost lore) is diminished.",
+          "motivations": "His primary motivation in the books is tied to his history and the general ghost dynamics; the film gives him no discernible conflict or goal beyond a brief appearance.",
+          "character_arc": "The books give him a sense of established, ancient lore and mystery. The film offers no opportunity for him to develop or show an arc, making it a static, underdeveloped appearance."
+        },
+        "key_observations": "The film reduces the character to a mere background cameo, losing the rich, atmospheric presence and specific lore detailed in the book chapters.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 4704,
+          "film_chars_sent": 2043,
+          "aliases": [
+            "Bloody Baron"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 0
+    }
+  },
+  {
+    "character": "Walden Macnair",
+    "overall": {
+      "personality": 15.0,
+      "narrative_role": 18.0,
+      "motivations": 18.0,
+      "character_arc": 10.0,
+      "total": 61.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 15,
+        "narrative_role": 18,
+        "motivations": 18,
+        "character_arc": 10,
+        "justification": {
+          "personality": "The film captures his antagonistic nature and association with the Ministry/Death Eaters, but the book provides more depth to his cruelty and involvement in multiple conflicts (e.g., the giants, the search for the prophecy).",
+          "narrative_role": "His role as a recurring, minor antagonist associated with the Ministry's enforcement arm is maintained, though the book gives him more varied confrontations.",
+          "motivations": "His primary motivation\u2014enforcing Ministry/Death Eater will\u2014is consistent, but the book establishes a clearer pattern of professional malice.",
+          "character_arc": "The film largely presents him as a static villain. The book, while not giving him a major arc, shows him in more varied, escalating confrontations that hint at a more complex, if still villainous, trajectory."
+        },
+        "key_observations": "The film adaptation streamlines his appearances, making him a more singular threat, whereas the books weave him into several different plot points across different books.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 5647,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Macnair"
+          ]
         }
       }
     },
@@ -5285,43 +5578,6 @@
           "prompt_version": "1.0",
           "book_chars_sent": 15000,
           "film_chars_sent": 15000,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Bloody Baron",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 18.0,
-      "motivations": 15.0,
-      "character_arc": 10.0,
-      "total": 58.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 18,
-        "motivations": 15,
-        "character_arc": 10,
-        "justification": {
-          "personality": "The film only shows a brief, loud appearance, lacking the detailed, menacing, or controlling presence described in the books.",
-          "narrative_role": "The film establishes his presence as a ghost, but his specific role in controlling Peeves or being a general fixture of the castle is less emphasized than in the book.",
-          "motivations": "His motivations (being a Slytherin ghost, his general demeanor) are implied but not explored or contrasted with the book's depth.",
-          "character_arc": "The film provides virtually no evidence of his character arc, as he is only seen briefly in the Great Hall setting."
-        },
-        "key_observations": "The film adaptation significantly underplays the Bloody Baron's presence compared to the detailed, recurring mentions in the book corpus.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 2043,
           "aliases": []
         }
       }
@@ -5487,40 +5743,46 @@
     }
   },
   {
-    "character": "Marjorie Dursley",
+    "character": "Peter Pettigrew",
     "overall": {
       "personality": 15.0,
       "narrative_role": 18.0,
-      "motivations": 15.0,
-      "character_arc": 5.0,
-      "total": 53.0
+      "motivations": 12.0,
+      "character_arc": 10.0,
+      "total": 55.0
     },
     "per_source": {
       "comparative": {
         "personality": 15,
         "narrative_role": 18,
-        "motivations": 15,
-        "character_arc": 5,
+        "motivations": 12,
+        "character_arc": 10,
         "justification": {
-          "personality": "The book implies a more active, if manipulative, presence, while the film often reduces her to background exposition or a less defined character.",
-          "narrative_role": "Her role as a key component of the Dursley facade is maintained, though often minimized in screen time.",
-          "motivations": "Her core motivation\u2014maintaining normalcy and suppressing anything magical\u2014is consistent, but the depth of her fear is less explored.",
-          "character_arc": "The book suggests a more complex, if resistant, internal struggle, which the film largely fails to develop or show."
+          "personality": "The film portrays him as a villainous accomplice (Wormtail) in the graveyard scene, which is a significant departure from the book's depiction of his cowardice and eventual revelation of his true nature. The tone is more overtly villainous in the film.",
+          "narrative_role": "His role as the betrayer and the source of the revelation is present, but the film's focus on his participation in the resurrection scene overshadows his core function as the coward who was supposed to be dead.",
+          "motivations": "In the books, his primary motivation is survival and self-preservation, leading to his betrayal. In the film, his motivation seems tied to Voldemort's immediate goals, making it less about his deep-seated fear and more about immediate compliance.",
+          "character_arc": "The book's arc involves his initial cowardice, his betrayal, and his eventual, though reluctant, revelation. The film presents a much more active, villainous arc in the graveyard, which is a major deviation from his book characterization."
         },
-        "key_observations": "The film adaptation significantly diminishes her presence and depth compared to the book's implication of her involvement in the magical fallout.",
+        "key_observations": "The film significantly alters Pettigrew's characterization, making him a more active and overtly villainous participant in the graveyard scene, whereas the books emphasize his cowardice and the revelation of his true nature through Lupin's exposition.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 427,
-          "film_chars_sent": 0,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
-          "aliases": []
+          "book_chars_sent": 15000,
+          "film_chars_sent": 15000,
+          "aliases": [
+            "Peter",
+            "Pettigrew",
+            "Scabbers / Peter Pettigrew",
+            "Wormtail",
+            "ter Pettigrew"
+          ]
         }
       }
     },
     "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
+      "screenplay_words": 75,
+      "book_mentions": 377
     }
   },
   {
@@ -5676,7 +5938,7 @@
     }
   },
   {
-    "character": "Grey Lady",
+    "character": "Hannah Abbott",
     "overall": {
       "personality": 15.0,
       "narrative_role": 10.0,
@@ -5691,56 +5953,22 @@
         "motivations": 15,
         "character_arc": 10,
         "justification": {
-          "personality": "The book features the Fat Lady in multiple, varied roles (guarding the common room, being tricked, etc.), while the film only shows her in a very limited capacity (Scene 1). The tone is less developed in the film.",
-          "narrative_role": "The book uses the Fat Lady as a recurring structural element of the castle's mystery and history. The film reduces her role to a single, functional password gatekeeper.",
-          "motivations": "In the books, her motivations are tied to the general security and history of the common room. The film gives her no discernible motivation beyond opening the door when prompted.",
-          "character_arc": "The book shows her interacting with characters and being part of the general castle lore, implying a dynamic role. The film presents her as a static element that only opens when the password is known, showing no arc."
+          "personality": "The book portrays her as a slightly gossipy, somewhat anxious Hufflepuff student, while the film does not feature her at all, making direct comparison difficult. The limited scenes suggest a more grounded, if slightly dramatic, personality.",
+          "narrative_role": "In the books, she is a minor background character used for establishing atmosphere and student life (e.g., at the Shrivelfig, the Great Hall). In the film excerpts provided, she is entirely absent, meaning her narrative role is completely lost.",
+          "motivations": "Her motivations in the books are largely social (gossiping, participating in student life). Since she is absent from the film excerpts, her motivations are not reflected.",
+          "character_arc": "The book shows her experiencing emotional distress (crying over exams) and then being absent at the end of the book's provided material. The film offers no material to track any arc."
         },
-        "key_observations": "The film significantly minimizes the Fat Lady's presence and complexity compared to the book, reducing her to a single, functional plot device.",
+        "key_observations": "Hannah Abbott is a minor character whose presence is established in the book excerpts but is entirely absent from the provided film excerpts, resulting in a significant loss of narrative function.",
         "meta": {
           "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
           "book_chars_sent": 15000,
           "film_chars_sent": 15000,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 105,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Helena Ravenclaw",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 10.0,
-      "motivations": 15.0,
-      "character_arc": 10.0,
-      "total": 50.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 10,
-        "motivations": 15,
-        "character_arc": 10,
-        "justification": {
-          "personality": "The book corpus features multiple Ravenclaws (Penelope Clearwater, Cho Chang, etc.) but does not center on a single character named 'Helena Ravenclaw' with consistent traits. The film corpus is empty, making direct comparison impossible.",
-          "narrative_role": "The book corpus shows Ravenclaw as a general house, not a specific character named Helena. The film corpus provides no data to assess a specific role.",
-          "motivations": "No specific motivations for a character named Helena Ravenclaw are established across both corpora.",
-          "character_arc": "Since the character is not clearly defined or present in the film corpus, assessing an arc is impossible."
-        },
-        "key_observations": "The provided book corpus details various Ravenclaw characters and house events, but does not feature a primary character named 'Helena Ravenclaw.' The film corpus is empty, preventing a direct comparison.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 0,
-          "aliases": []
+          "aliases": [
+            "Hannah",
+            "Hannah Abbot"
+          ]
         }
       }
     },
@@ -6013,46 +6241,6 @@
     }
   },
   {
-    "character": "Colin Creevey",
-    "overall": {
-      "personality": 15.0,
-      "narrative_role": 10.0,
-      "motivations": 15.0,
-      "character_arc": 5.0,
-      "total": 45.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 15,
-        "narrative_role": 10,
-        "motivations": 15,
-        "character_arc": 5,
-        "justification": {
-          "personality": "The film significantly tones down his relentless enthusiasm and obsessive nature, making him less of a persistent nuisance and more of a background presence.",
-          "narrative_role": "His role as a recurring, slightly annoying, but ultimately supportive friend is greatly diminished or removed in the films.",
-          "motivations": "His primary motivation\u2014the desperate need to document and prove his experience through photography\u2014is largely lost or minimized.",
-          "character_arc": "His arc, which involves surviving trauma and maturing from an overzealous admirer to a more grounded friend, is barely touched upon or entirely absent."
-        },
-        "key_observations": "The film adaptation drastically reduces Colin's screen time and dampens his most defining, quirky traits, making him one of the least faithfully represented characters.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 6980,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Colin",
-            "Creevey"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 16,
-      "book_mentions": 87
-    }
-  },
-  {
     "character": "Daphne Greengrass",
     "overall": {
       "personality": 15.0,
@@ -6198,47 +6386,6 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 0
-    }
-  },
-  {
-    "character": "Peter Pettigrew",
-    "overall": {
-      "personality": 10.0,
-      "narrative_role": 15.0,
-      "motivations": 15.0,
-      "character_arc": 5.0,
-      "total": 45.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 10,
-        "narrative_role": 15,
-        "motivations": 15,
-        "character_arc": 5,
-        "justification": {
-          "personality": "The film portrays him as a minor, creepy henchman in a dream sequence, stripping away the complexity of his betrayal and subsequent redemption/revelation found in the books.",
-          "narrative_role": "His role is significantly diminished; in the books, he is central to the revelation of the truth about Sirius and the Potters. In the film, he is a background villain in a dream.",
-          "motivations": "The books explore his deep-seated fear, desire for acceptance, and cowardice. The film only shows him motivated by Voldemort's immediate command, simplifying his internal conflict.",
-          "character_arc": "The books build a massive arc of betrayal, capture, and eventual confrontation/revelation. The film gives him almost no arc, merely a fleeting appearance."
-        },
-        "key_observations": "The film drastically underplays Peter Pettigrew's importance and complexity, reducing him to a single, minor villainous appearance in a dream sequence compared to his pivotal role in the books.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 2525,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Peter",
-            "Pettigrew",
-            "Wormtail"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 75,
-      "book_mentions": 377
     }
   },
   {
@@ -6723,43 +6870,6 @@
     }
   },
   {
-    "character": "Aurora Sinistra",
-    "overall": {
-      "personality": 10.0,
-      "narrative_role": 5.0,
-      "motivations": 5.0,
-      "character_arc": 0.0,
-      "total": 20.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 10,
-        "narrative_role": 5,
-        "motivations": 5,
-        "character_arc": 0,
-        "justification": {
-          "personality": "The film corpus provided contains no scenes featuring Aurora Sinistra, making a direct comparison impossible. The book scenes suggest her role is that of a background, academic staff member.",
-          "narrative_role": "Her role is entirely observational in the book excerpts, and since no film scenes are provided, her function cannot be assessed as preserved or altered.",
-          "motivations": "Her motivations are purely academic (assigning homework) in the book excerpts, and no conflicting information is available from the film.",
-          "character_arc": "No film material is provided, and the book excerpts show no evidence of significant personal development or conflict for her character."
-        },
-        "key_observations": "Since no film corpus was provided for comparison, the scores reflect the lack of comparative data. In the books, she appears as a minor, background academic figure.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 3723,
-          "film_chars_sent": 0,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
     "character": "Bertha Jorkins",
     "overall": {
       "personality": 10.0,
@@ -6942,45 +7052,6 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 0
-    }
-  },
-  {
-    "character": "Padma Patil",
-    "overall": {
-      "personality": 10.0,
-      "narrative_role": 5.0,
-      "motivations": 5.0,
-      "character_arc": 0.0,
-      "total": 20.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 10,
-        "narrative_role": 5,
-        "motivations": 5,
-        "character_arc": 0,
-        "justification": {
-          "personality": "The film largely minimizes her presence, making it difficult to assess consistent traits, but the book implies she is somewhat attention-seeking.",
-          "narrative_role": "Her role is significantly reduced or absent in the film adaptation compared to the book's social context.",
-          "motivations": "Her specific motivations (e.g., attention from Ron) are not highlighted or are lost in the film's focus.",
-          "character_arc": "The book provides glimpses of her social interactions, but the film offers no discernible arc for her character."
-        },
-        "key_observations": "Padma Patil is a minor character whose presence and function are significantly diminished or altered in the film adaptation compared to the book's detailed social interactions.",
-        "meta": {
-          "type": "comparative",
-          "book_chars_sent": 2150,
-          "film_chars_sent": 0,
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "aliases": [
-            "Padma"
-          ]
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 21,
-      "book_mentions": 29
     }
   },
   {
@@ -7206,7 +7277,7 @@
     }
   },
   {
-    "character": "Aunt Muriel",
+    "character": "Aurora Sinistra",
     "overall": {
       "personality": 0.0,
       "narrative_role": 0.0,
@@ -7221,25 +7292,28 @@
         "motivations": 0,
         "character_arc": 0,
         "justification": {
-          "personality": "The character Aunt Muriel does not appear in the provided film or book excerpts. Therefore, a comparison cannot be made.",
-          "narrative_role": "The character Aunt Muriel does not appear in the provided film or book excerpts. Therefore, a comparison cannot be made.",
-          "motivations": "The character Aunt Muriel does not appear in the provided film or book excerpts. Therefore, a comparison cannot be made.",
-          "character_arc": "The character Aunt Muriel does not appear in the provided film or book excerpts. Therefore, a comparison cannot be made."
+          "personality": "No discernible personality traits or tone were presented in the film corpus provided.",
+          "narrative_role": "The character appears to be entirely absent from the film corpus, meaning her narrative role is not preserved.",
+          "motivations": "No motivations or conflicts were visible in the film adaptation.",
+          "character_arc": "Since the character does not appear in the film corpus, no character arc can be assessed."
         },
-        "key_observations": "Aunt Muriel is not present in the provided text excerpts (which focus on the Dursleys and Harry Potter).",
+        "key_observations": "The character Aurora Sinistra appears only in the book corpus and is entirely absent from the film corpus provided for comparison.",
         "meta": {
           "type": "comparative",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 15000,
           "model": "gemma4:e4b",
           "prompt_version": "1.0",
-          "aliases": []
+          "book_chars_sent": 3723,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Professor Sinistra",
+            "Sinistra"
+          ]
         }
       }
     },
     "meta": {
       "screenplay_words": 0,
-      "book_mentions": 0
+      "book_mentions": 9
     }
   },
   {
@@ -7539,6 +7613,45 @@
     }
   },
   {
+    "character": "Justin Finch-Fletchley",
+    "overall": {
+      "personality": 0.0,
+      "narrative_role": 0.0,
+      "motivations": 0.0,
+      "character_arc": 0.0,
+      "total": 0.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 0,
+        "narrative_role": 0,
+        "motivations": 0,
+        "character_arc": 0,
+        "justification": {
+          "personality": "The character Justin Finch-Fletchley does not appear in the main Harry Potter book canon, nor is he a major character in the films.",
+          "narrative_role": "No established role in the primary canon.",
+          "motivations": "No established motivations in the primary canon.",
+          "character_arc": "No established arc in the primary canon."
+        },
+        "key_observations": "This character appears to be entirely non-canon or from supplementary material not provided for comparison. Therefore, a score of 0 across the board is appropriate as there is no source material to compare against.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 0,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Justin"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0.75,
+      "book_mentions": 51
+    }
+  },
+  {
     "character": "Madam Puddifoot",
     "overall": {
       "personality": 0.0,
@@ -7560,80 +7673,6 @@
           "character_arc": "No arc can be determined due to lack of presence."
         },
         "key_observations": "The character Madam Puddifoot is not mentioned in the provided corpus of scenes, making a comparison impossible.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 15000,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Madame Rosmerta",
-    "overall": {
-      "personality": 0.0,
-      "narrative_role": 0.0,
-      "motivations": 0.0,
-      "character_arc": 0.0,
-      "total": 0.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 0,
-        "narrative_role": 0,
-        "motivations": 0,
-        "character_arc": 0,
-        "justification": {
-          "personality": "The character is present and detailed in the book corpus but entirely absent from the film corpus, making direct comparison impossible.",
-          "narrative_role": "The character's role is confined to the book scenes and is not mirrored or diminished in the film adaptation.",
-          "motivations": "Her motivations (gossip, business concerns, curiosity about dark magic) are established in the books but have no counterpart in the film.",
-          "character_arc": "Since the character does not appear in the film, there is no observable character arc deviation."
-        },
-        "key_observations": "Madame Rosmerta is a character who appears significantly in the book source material but is completely omitted from the provided film excerpts, resulting in zero scores across the board for faithfulness.",
-        "meta": {
-          "type": "comparative",
-          "model": "gemma4:e4b",
-          "prompt_version": "1.0",
-          "book_chars_sent": 15000,
-          "film_chars_sent": 15000,
-          "aliases": []
-        }
-      }
-    },
-    "meta": {
-      "screenplay_words": 0,
-      "book_mentions": 0
-    }
-  },
-  {
-    "character": "Marge Dursley",
-    "overall": {
-      "personality": 0.0,
-      "narrative_role": 0.0,
-      "motivations": 0.0,
-      "character_arc": 0.0,
-      "total": 0.0
-    },
-    "per_source": {
-      "comparative": {
-        "personality": 0,
-        "narrative_role": 0,
-        "motivations": 0,
-        "character_arc": 0,
-        "justification": {
-          "personality": "Marge Dursley does not appear in the film corpus provided.",
-          "narrative_role": "Her role is entirely absent from the film adaptation scenes provided.",
-          "motivations": "Her motivations are not depicted in the film.",
-          "character_arc": "No arc can be assessed as she is not present in the film scenes."
-        },
-        "key_observations": "The character Marge Dursley is not featured in the provided film excerpts, which focus on McGonagall, Dumbledore, Hagrid, and the Dursleys' general reactions.",
         "meta": {
           "type": "comparative",
           "model": "gemma4:e4b",
@@ -7906,6 +7945,46 @@
     "meta": {
       "screenplay_words": 0,
       "book_mentions": 0
+    }
+  },
+  {
+    "character": "Wilhelmina Grubbly-Plank",
+    "overall": {
+      "personality": 0.0,
+      "narrative_role": 0.0,
+      "motivations": 0.0,
+      "character_arc": 0.0,
+      "total": 0.0
+    },
+    "per_source": {
+      "comparative": {
+        "personality": 0,
+        "narrative_role": 0,
+        "motivations": 0,
+        "character_arc": 0,
+        "justification": {
+          "personality": "The character does not appear in the primary book canon, and no film corpus was provided for comparison.",
+          "narrative_role": "No role established in the provided texts.",
+          "motivations": "No motivations established in the provided texts.",
+          "character_arc": "No arc established in the provided texts."
+        },
+        "key_observations": "This character appears to be entirely non-existent or unrepresented in the provided source material for comparison.",
+        "meta": {
+          "type": "comparative",
+          "model": "gemma4:e4b",
+          "prompt_version": "1.0",
+          "book_chars_sent": 0,
+          "film_chars_sent": 0,
+          "aliases": [
+            "Grubbly-Plank",
+            "Professor Grubbly-Plank"
+          ]
+        }
+      }
+    },
+    "meta": {
+      "screenplay_words": 0,
+      "book_mentions": 50
     }
   },
   {

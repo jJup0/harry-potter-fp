@@ -1,40 +1,41 @@
 {
   "character": "Colin Creevey",
   "overall": {
-    "personality": 15.0,
-    "narrative_role": 10.0,
-    "motivations": 15.0,
-    "character_arc": 5.0,
-    "total": 45.0
+    "personality": 18.0,
+    "narrative_role": 15.0,
+    "motivations": 17.0,
+    "character_arc": 12.0,
+    "total": 62.0
   },
   "per_source": {
     "comparative": {
-      "personality": 15,
-      "narrative_role": 10,
-      "motivations": 15,
-      "character_arc": 5,
+      "personality": 18,
+      "narrative_role": 15,
+      "motivations": 17,
+      "character_arc": 12,
       "justification": {
-        "personality": "The film significantly tones down his relentless enthusiasm and obsessive nature, making him less of a persistent nuisance and more of a background presence.",
-        "narrative_role": "His role as a recurring, slightly annoying, but ultimately supportive friend is greatly diminished or removed in the films.",
-        "motivations": "His primary motivation\u2014the desperate need to document and prove his experience through photography\u2014is largely lost or minimized.",
-        "character_arc": "His arc, which involves surviving trauma and maturing from an overzealous admirer to a more grounded friend, is barely touched upon or entirely absent."
+        "personality": "The film captures his enthusiastic, slightly overwhelming nature, but the book allows for a broader range of interactions (e.g., with Ginny, the general atmosphere of the school).",
+        "narrative_role": "His primary role in the film is reduced to a single, dramatic incident (the attack), whereas in the books, he is a more recurring, background fixture of the school life.",
+        "motivations": "His core motivation\u2014a deep, almost obsessive desire to document and prove he was there\u2014is present, but the book gives him more agency in his interactions.",
+        "character_arc": "The book shows him interacting with different characters and events over time, suggesting a more natural, if minor, growth. The film focuses almost entirely on the inciting incident of the attack, limiting any visible arc."
       },
-      "key_observations": "The film adaptation drastically reduces Colin's screen time and dampens his most defining, quirky traits, making him one of the least faithfully represented characters.",
+      "key_observations": "The film significantly streamlines his presence, focusing almost entirely on the single, dramatic event of his attack, losing the sense of his persistent, background presence seen in the books.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 6980,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Colin",
+          "Colin Creevy",
           "Creevey"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 16,
-    "book_mentions": 87
+    "screenplay_words": 0,
+    "book_mentions": 72
   }
 }

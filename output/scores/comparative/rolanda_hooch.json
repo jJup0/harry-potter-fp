@@ -1,40 +1,41 @@
 {
   "character": "Rolanda Hooch",
   "overall": {
-    "personality": 15.0,
-    "narrative_role": 18.0,
-    "motivations": 18.0,
-    "character_arc": 15.0,
-    "total": 66.0
+    "personality": 20.0,
+    "narrative_role": 24.0,
+    "motivations": 22.0,
+    "character_arc": 20.0,
+    "total": 86.0
   },
   "per_source": {
     "comparative": {
-      "personality": 15,
-      "narrative_role": 18,
-      "motivations": 18,
-      "character_arc": 15,
+      "personality": 20,
+      "narrative_role": 24,
+      "motivations": 22,
+      "character_arc": 20,
       "justification": {
-        "personality": "The film often softens her sternness, making her seem less formidable than in the books.",
-        "narrative_role": "Her role as a key figure in Quidditch remains consistent, though sometimes diminished.",
-        "motivations": "Her dedication to the sport and Hogwarts remains, but the depth of her professional rivalry/interest is less pronounced.",
-        "character_arc": "She remains largely static, which is accurate, but the film doesn't give her enough space to show any subtle development."
+        "personality": "The core traits (professionalism, authority, sharp eye) are present, but the film often exaggerates her reactions or dialogue compared to the book's more measured tone.",
+        "narrative_role": "Her role as the primary Quidditch instructor and referee is perfectly maintained across both mediums.",
+        "motivations": "Her primary motivation\u2014maintaining the integrity and safety of the sport\u2014is consistent. The film captures her disciplinary nature well.",
+        "character_arc": "Her arc is minimal in both, serving mostly as a consistent authority figure. The film adaptation captures this consistency effectively, though the book might imply more subtle interactions."
       },
-      "key_observations": "Hooch is a minor character whose function is more important than her development. The film captures her presence but often lacks the textual depth.",
+      "key_observations": "The film captures her authoritative presence very well, especially during the initial lessons and the match officiating. The book's detailed descriptions of her presence are slightly condensed in the film, but the function remains identical.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 0,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 14816,
         "aliases": [
           "Hooch",
-          "Madam Hooch"
+          "Madam Hooch",
+          "Madame Hooch"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 213,
+    "screenplay_words": 0,
     "book_mentions": 53
   }
 }

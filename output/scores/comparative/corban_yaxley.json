@@ -1,0 +1,39 @@
+{
+  "character": "Corban Yaxley",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 15.0,
+    "total": 68.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his villainous, sneering demeanor and his role as a minor antagonist, but the book's detailed, manipulative nature is somewhat flattened into more overt villainy.",
+        "narrative_role": "His function as an enforcer/antagonist in the Ministry and Forbidden Forest is preserved, making him a key plot point in both media.",
+        "motivations": "His primary motivation\u2014serving the Death Eaters and enforcing their will\u2014is consistent. The book shows a more calculated, intellectual malice, while the film is more action-oriented.",
+        "character_arc": "In both instances, he remains a static villain. The film doesn't give him a noticeable arc, mirroring the book's portrayal of him as a minor, unchanging threat."
+      },
+      "key_observations": "The film utilizes Yaxley's presence effectively to advance the plot (especially in the Ministry scenes), but the book provides a deeper, more nuanced glimpse into his sinister character interactions.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "aliases": [
+          "Yaxley"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 56
+  }
+}

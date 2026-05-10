@@ -1,39 +1,40 @@
 {
   "character": "Padma Patil",
   "overall": {
-    "personality": 10.0,
-    "narrative_role": 5.0,
-    "motivations": 5.0,
-    "character_arc": 0.0,
-    "total": 20.0
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 16.0,
+    "character_arc": 12.0,
+    "total": 61.0
   },
   "per_source": {
     "comparative": {
-      "personality": 10,
-      "narrative_role": 5,
-      "motivations": 5,
-      "character_arc": 0,
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 16,
+      "character_arc": 12,
       "justification": {
-        "personality": "The film largely minimizes her presence, making it difficult to assess consistent traits, but the book implies she is somewhat attention-seeking.",
-        "narrative_role": "Her role is significantly reduced or absent in the film adaptation compared to the book's social context.",
-        "motivations": "Her specific motivations (e.g., attention from Ron) are not highlighted or are lost in the film's focus.",
-        "character_arc": "The book provides glimpses of her social interactions, but the film offers no discernible arc for her character."
+        "personality": "The book portrays her as somewhat sulky and focused on Ron, while the film largely omits her or reduces her to background filler, losing her distinct personality traits.",
+        "narrative_role": "Her role as a secondary love interest/friend is present in both, but the film's focus shifts away from her interactions with Harry/Ron.",
+        "motivations": "Her clear interest in Ron and her subsequent disappointment are present in the book but are not given any significant narrative weight or conflict in the film.",
+        "character_arc": "The book shows her minor shifts in attention (from Harry to Ron), but the film provides no discernible arc for her, leaving her static or absent."
       },
-      "key_observations": "Padma Patil is a minor character whose presence and function are significantly diminished or altered in the film adaptation compared to the book's detailed social interactions.",
+      "key_observations": "The film significantly underutilizes Padma Patil compared to the book, reducing her presence to background moments, which affects the perceived consistency of her character.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 2150,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 6009,
+        "film_chars_sent": 15000,
         "aliases": [
-          "Padma"
+          "Padma",
+          "adma Patil"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 21,
-    "book_mentions": 29
+    "screenplay_words": 0,
+    "book_mentions": 22
   }
 }

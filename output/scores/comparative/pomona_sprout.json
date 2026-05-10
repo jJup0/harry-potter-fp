@@ -1,40 +1,41 @@
 {
   "character": "Pomona Sprout",
   "overall": {
-    "personality": 18.0,
-    "narrative_role": 20.0,
-    "motivations": 20.0,
-    "character_arc": 15.0,
-    "total": 73.0
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 21.0,
+    "total": 86.0
   },
   "per_source": {
     "comparative": {
-      "personality": 18,
-      "narrative_role": 20,
-      "motivations": 20,
-      "character_arc": 15,
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 21,
       "justification": {
-        "personality": "The film captures her nurturing side but sometimes misses the subtle, professional interactions seen in the books.",
-        "narrative_role": "Her role as a supportive member of the faculty is generally maintained.",
-        "motivations": "Her care for the students and the greenhouses remains consistent.",
-        "character_arc": "The film tends to sideline her, making her arc less pronounced than in the books."
+        "personality": "The film captures her general warmth and expertise, but the book provides much more depth to her interactions (e.g., with Lockhart, her general demeanor) which are less emphasized in the film's pacing.",
+        "narrative_role": "Her role as the expert in Herbology and caretaker of the Mandrakes is strongly maintained in the film, serving as a key plot point.",
+        "motivations": "Her primary motivation\u2014caring for the plants and helping the students\u2014is consistent. The book shows more of her protective nature regarding the plants and students' emotional well-being.",
+        "character_arc": "The film shows her involvement in the Mandrake revival, which is accurate. However, the book gives her more agency and interaction with characters like Lockhart, which slightly expands her arc beyond the film's focus."
       },
-      "key_observations": "Her characterization is generally supportive but less central than in the source material.",
+      "key_observations": "The film adaptation is quite faithful, especially regarding her core function in the plot (Mandrakes), but the book allows for more nuanced character moments and interactions.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 565,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Professor Sprout",
-          "Sprout"
+          "Sprout",
+          "mona Sprout"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 169,
-    "book_mentions": 163
+    "screenplay_words": 0,
+    "book_mentions": 112
   }
 }

@@ -1,39 +1,40 @@
 {
   "character": "Garrick Ollivander",
   "overall": {
-    "personality": 24.0,
-    "narrative_role": 25.0,
-    "motivations": 24.0,
-    "character_arc": 25.0,
-    "total": 98.0
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 83.0
   },
   "per_source": {
     "comparative": {
-      "personality": 24,
-      "narrative_role": 25,
-      "motivations": 24,
-      "character_arc": 25,
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 18,
       "justification": {
-        "personality": "The core eccentric, knowledgeable, and slightly mysterious nature is perfectly maintained.",
-        "narrative_role": "His function as the wand supplier and key information dispenser is identical.",
-        "motivations": "His primary motivation\u2014the mystery of wands and destiny\u2014is preserved.",
-        "character_arc": "Since his role is largely introductory and self-contained, the arc is perfectly faithful to his established function."
+        "personality": "The film captures his eccentric, knowledgeable, and slightly dramatic nature well, though the book's more subtle, almost cryptic nature is sometimes amplified for cinematic effect.",
+        "narrative_role": "His role as the primary wand expert and source of crucial lore (Phoenix feather, Deathly Hallows) is strongly preserved.",
+        "motivations": "His core motivations\u2014a deep knowledge of wandlore, a sense of mystery, and a protective instinct towards Harry\u2014are intact. The film adds more overt fear/vulnerability.",
+        "character_arc": "The film shows him recovering and actively participating in the plot (Shell Cottage), which is a significant expansion beyond the books' more limited appearances, thus slightly altering the arc."
       },
-      "key_observations": "The film adaptation is remarkably faithful to the book's depiction of Ollivander's eccentric expertise and crucial role in setting up Harry's destiny.",
+      "key_observations": "The film expands his role significantly, giving him more active participation and vulnerability than the books, but the core elements of his character and importance remain highly faithful.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 0,
-        "film_chars_sent": 3132,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 11093,
         "aliases": [
+          "Mr. Ollivander",
           "Ollivander"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 341,
-    "book_mentions": 159
+    "screenplay_words": 0,
+    "book_mentions": 114
   }
 }

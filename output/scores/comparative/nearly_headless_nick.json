@@ -1,0 +1,42 @@
+{
+  "character": "Nearly Headless Nick",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 61.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film captures the initial playful, slightly dramatic nature (Great Hall scene), but loses the deeper, melancholic, and self-deprecating tone of the books, especially regarding his inability to join the Hunt.",
+        "narrative_role": "The film establishes his role (Great Hall, Quidditch mention) but removes the significant plot points involving the attack and subsequent recovery/interaction with McGonagall.",
+        "motivations": "The core motivation\u2014the desire for a proper, dramatic end\u2014is present in the film's initial dialogue, but the deeper conflict regarding his existence and the subsequent plot development (the attack) is entirely absent.",
+        "character_arc": "The book features a clear arc of disappointment (rejection letter) leading to a major physical trauma (the attack) and subsequent recovery. The film only shows a snapshot of his existence, lacking any meaningful development or resolution."
+      },
+      "key_observations": "The film uses Nick for a brief, superficial cameo during the feast, whereas the books dedicate significant time to his character, his melancholy, and his dramatic peril.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "aliases": [
+          "Nearly Headless Nick",
+          "Nearly-Headless Nick",
+          "Nick",
+          "Sir Nicholas \"Nearly-Headless Nick\""
+        ]
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

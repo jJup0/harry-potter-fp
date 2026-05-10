@@ -1,40 +1,41 @@
 {
   "character": "Olympe Maxime",
   "overall": {
-    "personality": 15.0,
-    "narrative_role": 18.0,
-    "motivations": 20.0,
-    "character_arc": 12.0,
-    "total": 65.0
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
   },
   "per_source": {
     "comparative": {
-      "personality": 15,
-      "narrative_role": 18,
-      "motivations": 20,
-      "character_arc": 12,
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
       "justification": {
-        "personality": "The film often portrays her as more overtly romantic or less capable in direct action compared to the book's depiction of her competence and fiery nature.",
-        "narrative_role": "Her role as a key ally and intellectual equal to Hagrid is maintained, though the emphasis shifts.",
-        "motivations": "Her core motivation\u2014protecting her friends and confronting danger\u2014remains, but the immediate threat level and focus differ.",
-        "character_arc": "The book suggests a more complex, evolving relationship with the conflict; the film's arc is often more peripheral or simplified."
+        "personality": "The film captures her imposing presence and French mannerisms well, though the book allows for more subtle interaction and dialogue.",
+        "narrative_role": "Her role as the Beauxbatons representative and a key figure in the Triwizard events is maintained.",
+        "motivations": "Her primary motivation\u2014representing Beauxbatons and defending her students/honor\u2014is consistent, though the film focuses more heavily on the tournament drama.",
+        "character_arc": "The film presents her more as a static, grand presence rather than showing a clear arc of interaction or change over the course of the book's events."
       },
-      "key_observations": "The film adaptation significantly reduces the depth and complexity of her interactions, particularly concerning her magical prowess and strategic involvement, compared to the rich, detailed accounts in the books.",
+      "key_observations": "The film adaptation successfully captures her grandeur and importance to the plot, though the book provides more opportunities for her character to interact and develop slightly more nuanced moments.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 3810,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Madame Maxime",
+          "Madame Olympe Maxime",
           "Maxime"
         ]
       }
     }
   },
   "meta": {
-    "screenplay_words": 111,
-    "book_mentions": 201
+    "screenplay_words": 0,
+    "book_mentions": 99
   }
 }

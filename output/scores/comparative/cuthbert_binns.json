@@ -3,35 +3,38 @@
   "overall": {
     "personality": 20.0,
     "narrative_role": 22.0,
-    "motivations": 20.0,
-    "character_arc": 15.0,
-    "total": 77.0
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 70.0
   },
   "per_source": {
     "comparative": {
       "personality": 20,
       "narrative_role": 22,
-      "motivations": 20,
-      "character_arc": 15,
+      "motivations": 18,
+      "character_arc": 10,
       "justification": {
-        "personality": "The core traits (droning, sleep-inducing, ghostly) are present, but the film often streamlines his interactions, making him slightly less rambling and more purely functional as a plot device.",
-        "narrative_role": "His role as the boring, mandatory, and somewhat unreliable history teacher is maintained, which is crucial for setting the tone of the school.",
-        "motivations": "His primary motivation\u2014simply to continue teaching despite being dead\u2014is consistent. The film doesn't significantly alter this core, passive drive.",
-        "character_arc": "The books give him more moments of unexpected engagement (Scenes 9-14) where he is challenged or forced to react to the students. The film minimizes these moments, resulting in a flatter, less developed arc."
+        "personality": "The core traits (droning, boring, ghost-like) are maintained, but the film often streamlines his interactions, making him slightly less verbose and more purely background filler than the book suggests.",
+        "narrative_role": "His role as the embodiment of boring academic filler is preserved, which is crucial for the student dynamic, though the book gives him more specific, albeit boring, plot points (like the Chamber discussion).",
+        "motivations": "His primary motivation\u2014simply to continue teaching despite being dead\u2014is intact. However, the book gives him more moments of reacting to student input (like Hermione's questions), suggesting a slight internal conflict or engagement that the film minimizes.",
+        "character_arc": "The book implies a subtle, albeit reluctant, engagement with the students' intelligence (Scenes 8, 9, 11, 13). The film largely presents him as a static, unchanging fixture, resulting in a lower score for arc development."
       },
-      "key_observations": "",
+      "key_observations": "The film captures the essence of his boring nature perfectly, but loses some of the nuanced, almost argumentative, interactions with the students that the book provides.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
-        "aliases": []
+        "book_chars_sent": 14705,
+        "film_chars_sent": 0,
+        "aliases": [
+          "Binns",
+          "Professor Binns"
+        ]
       }
     }
   },
   "meta": {
     "screenplay_words": 0,
-    "book_mentions": 0
+    "book_mentions": 45
   }
 }

@@ -1,37 +1,40 @@
 {
   "character": "Irma Pince",
   "overall": {
-    "personality": 25.0,
-    "narrative_role": 25.0,
-    "motivations": 25.0,
-    "character_arc": 25.0,
-    "total": 100.0
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
   },
   "per_source": {
     "comparative": {
-      "personality": 25,
-      "narrative_role": 25,
-      "motivations": 25,
-      "character_arc": 25,
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
       "justification": {
-        "personality": "The film captures her signature irritable, overbearing, and protective nature regarding the library, matching the book's description of her as a gatekeeper.",
-        "narrative_role": "Her primary function\u2014acting as a minor obstacle/authority figure in the library\u2014is perfectly preserved.",
-        "motivations": "Her core motivation (maintaining order and protecting the books) remains consistent across both mediums.",
-        "character_arc": "Since she is a minor character with no significant development, her 'arc' is effectively preserved as static and consistent."
+        "personality": "The book portrays her as a highly detailed, almost caricature-like figure (vulture-like, irritable, obsessed with rules). The film adaptation often streamlines this, making her presence more functional than deeply characterized.",
+        "narrative_role": "Her primary role as the gatekeeper of knowledge and enforcer of library rules is maintained in the films, which is crucial for establishing the atmosphere of Hogwarts.",
+        "motivations": "Her core motivation\u2014maintaining order and protecting the books\u2014is consistent. However, the depth of her paranoia and obsessive nature detailed in the book is often reduced for pacing.",
+        "character_arc": "The book gives her several distinct, albeit minor, interactions that build her character. The film generally keeps her static, serving as a recurring obstacle rather than undergoing any noticeable development."
       },
-      "key_observations": "As a minor character whose primary function is to embody the sanctity (and rigidity) of the library, the film adaptation is highly faithful to the book's portrayal.",
+      "key_observations": "",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
-        "aliases": []
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "aliases": [
+          "Madam Pince",
+          "Pince"
+        ]
       }
     }
   },
   "meta": {
     "screenplay_words": 0,
-    "book_mentions": 0
+    "book_mentions": 37
   }
 }
