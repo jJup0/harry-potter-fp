@@ -6,7 +6,7 @@ Two transcript formats:
 - Fandom wiki: [stage directions] and "Character Name: dialogue"
 - Script-o-rama (film 3): plain dialogue blocks, no brackets
 
-Outputs JSON per film in data/parsed/screenplays/
+Outputs JSON per film in output/parsed/screenplays/
 """
 
 import json
@@ -15,9 +15,9 @@ import re
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "screenplays")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "parsed", "screenplays")
+SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 

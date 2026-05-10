@@ -1,33 +1,34 @@
 {
   "character": "Poppy Pomfrey",
   "overall": {
-    "personality": 15.0,
-    "narrative_role": 18.0,
-    "motivations": 20.0,
-    "character_arc": 15.0,
-    "total": 68.0
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
   },
   "per_source": {
     "comparative": {
-      "personality": 15,
-      "narrative_role": 18,
-      "motivations": 20,
-      "character_arc": 15,
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
       "justification": {
-        "personality": "The film generally maintains her role as the competent nurse, but the depth of her characterization and interactions are significantly reduced compared to the book's implied presence.",
-        "narrative_role": "Her role as the primary healer is preserved, but the specific, detailed interactions shown in the book (like caring for Winky) are either omitted or generalized in the film.",
-        "motivations": "Her core motivation\u2014caring for the injured and sick\u2014remains consistent, which is the most faithfully portrayed element.",
-        "character_arc": "Because the film only shows her in brief, functional capacities, any potential arc is underdeveloped or missing entirely compared to the book's potential for deeper involvement."
+        "personality": "The film captures her strict, professional, and sometimes overbearing nature, but the book provides more nuanced moments of care and exasperation.",
+        "narrative_role": "Her role as the primary medical authority figure is maintained and crucial in both mediums.",
+        "motivations": "Her core motivation\u2014maintaining order and ensuring proper recovery\u2014is consistent, though the film emphasizes her disciplinary side more.",
+        "character_arc": "The book shows her interaction with the mystery of the school's health over a longer period, while the film's focus is more episodic around specific injuries."
       },
-      "key_observations": "The film uses her primarily as a functional background character (the healer) rather than developing her personality or role beyond immediate necessity.",
+      "key_observations": "The film adaptation captures her authoritative presence well, but the book allows for a deeper exploration of her interactions with the school's general health and mysteries.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 682,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Madam Pomfrey",
+          "Madame Poppy Pomfrey",
           "Pomfrey"
         ]
       }

@@ -1,37 +1,38 @@
 {
   "character": "Lord Voldemort",
   "overall": {
-    "personality": 18.0,
+    "personality": 15.0,
     "narrative_role": 22.0,
     "motivations": 20.0,
-    "character_arc": 15.0,
+    "character_arc": 18.0,
     "total": 75.0
   },
   "per_source": {
     "comparative": {
-      "personality": 18,
+      "personality": 15,
       "narrative_role": 22,
       "motivations": 20,
-      "character_arc": 15,
+      "character_arc": 18,
       "justification": {
-        "personality": "The film captures his menace and desire for power, but the book provides more nuanced glimpses into his history and psychological manipulation (e.g., through Quirrell and the diary), which are often simplified or omitted in the films.",
-        "narrative_role": "The core role as the ultimate antagonist is preserved across both, though the specific methods of his resurrections and influence vary.",
-        "motivations": "The core motivation\u2014the desire for power, immortality, and supremacy\u2014is consistent. However, the book delves deeper into his intellectual arrogance and specific historical grievances (like the Slytherin lineage), which are sometimes downplayed in the films.",
-        "character_arc": "The book presents a more complex, evolving villainy, showing him as a manipulative mastermind who adapts through different vessels. The film tends to keep him a more static, purely evil force, especially in his initial appearances."
+        "personality": "The film captures the menace and desire for power, but the book provides more nuanced dialogue and internal conflict regarding his identity (e.g., the name debate). The film's portrayal is more overtly villainous and less psychologically complex.",
+        "narrative_role": "The core function\u2014the ultimate antagonist driving the plot\u2014is perfectly preserved in both mediums.",
+        "motivations": "The core motivation (power, immortality, fear of death) is consistent. The book emphasizes his intellectual arrogance and desire for recognition, which is slightly diluted in the film's action-heavy portrayal.",
+        "character_arc": "The film shows his decline and defeat clearly. The book builds the arc more slowly through dialogue and revelation, making the film's arc feel more condensed but equally faithful in its conclusion."
       },
-      "key_observations": "The film is highly successful at conveying his terror and power, but the book's detailed exposition regarding his history, intellectual cruelty, and the mechanics of his influence (like the diary) are richer and more varied.",
+      "key_observations": "The film excels at showing the *impact* of Voldemort's threat through action (the attack on the Potters, the final confrontation), whereas the book spends more time on the *dialogue* surrounding his name and philosophy.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "He-Who-Must-Not-Be-Named",
           "Riddle",
           "The Dark Lord",
           "Tom",
           "Tom Riddle",
+          "Tom Riddle / Voldemort",
           "Voldemort",
           "You-Know-Who"
         ]

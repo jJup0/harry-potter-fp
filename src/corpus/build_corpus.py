@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
-Build per-character corpus from parsed books and screenplays (v1 pipeline).
-For each character, collect all scenes/paragraphs where they appear.
-
-Outputs to corpus/<character_name>/books/scenes.json
-         corpus/<character_name>/screenplays/scenes.json
-
-NOTE: This builds the v1 corpus. The v2 pipeline (src/collect/build_v2_pipeline.py)
-builds a separate corpus at data/v2/corpus/. The scorer currently reads from v1.
+Build per-character corpus from parsed books and screenplays (legacy v1 pipeline).
+The active pipeline is src/collect/build_v2_pipeline.py which outputs to output/corpus/.
 """
 
 import json
@@ -16,10 +10,10 @@ import re
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "data", "parsed", "screenplays")
-PARSED_BOOKS = os.path.join(PROJECT_ROOT, "data", "parsed", "books")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "corpus")
+PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
+PARSED_BOOKS = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
 
 
 def safe_dirname(name):

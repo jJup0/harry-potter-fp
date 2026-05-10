@@ -1,33 +1,34 @@
 {
   "character": "Percy Weasley",
   "overall": {
-    "personality": 15.0,
-    "narrative_role": 18.0,
-    "motivations": 18.0,
-    "character_arc": 10.0,
-    "total": 61.0
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 19.0,
+    "character_arc": 15.0,
+    "total": 72.0
   },
   "per_source": {
     "comparative": {
-      "personality": 15,
-      "narrative_role": 18,
-      "motivations": 18,
-      "character_arc": 10,
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 19,
+      "character_arc": 15,
       "justification": {
-        "personality": "The film only shows him in a brief, stiff, and authoritative manner, capturing his pompous nature but missing his later moments of awkwardness or change.",
-        "narrative_role": "His role as a Ministry functionary/authority figure is present, but the book gives him much more varied interaction.",
-        "motivations": "The film only shows him motivated by duty/following orders, missing his internal conflicts or desires for recognition seen in the books.",
-        "character_arc": "The film provides almost no evidence of his arc; he is presented as static and purely bureaucratic."
+        "personality": "The film captures his initial pompous, rule-following nature well (e.g., in the Great Hall and Common Room scenes), but the book shows a more nuanced internal conflict and eventual softening that the film underplays.",
+        "narrative_role": "His role as the responsible, prefect figure is maintained in both, serving to contrast with the chaotic energy of the twins and Harry's spontaneity.",
+        "motivations": "His motivation in the books is tied to maintaining order and adhering to rules, which is present in the films. However, the book hints at a deeper insecurity about his place in the family/wizarding world that the film misses.",
+        "character_arc": "The book suggests a more gradual, though still resistant, shift away from rigid adherence to rules. The film keeps him largely static as the 'perfect' prefect, missing the subtle development seen in the books."
       },
-      "key_observations": "The film adaptation severely limits Percy's screen time, only showing his most rigid and official side, which is less complex than his book portrayal.",
+      "key_observations": "The film captures the *image* of Percy (the rigid prefect) very well, but the book provides more depth to his internal struggles and the potential for change, which the film simplifies.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 771,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
-          "Percy"
+          "Percy",
+          "cy Weasley"
         ]
       }
     }

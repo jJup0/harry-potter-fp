@@ -12,7 +12,7 @@ import os
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "v2", "characters.yaml")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
 WIKIPEDIA_FILE = os.path.join(
     PROJECT_ROOT, "data", "reference", "wikipedia_hp_characters.json"
 )

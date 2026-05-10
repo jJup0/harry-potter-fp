@@ -2,32 +2,33 @@
   "character": "Sybill Trelawney",
   "overall": {
     "personality": 15.0,
-    "narrative_role": 18.0,
+    "narrative_role": 20.0,
     "motivations": 18.0,
-    "character_arc": 12.0,
+    "character_arc": 10.0,
     "total": 63.0
   },
   "per_source": {
     "comparative": {
       "personality": 15,
-      "narrative_role": 18,
+      "narrative_role": 20,
       "motivations": 18,
-      "character_arc": 12,
+      "character_arc": 10,
       "justification": {
-        "personality": "The film often exaggerates her dramatic flair, making her more overtly theatrical than the book suggests, though the core 'mystic' persona remains.",
-        "narrative_role": "Her role as the source of the prophecy is central and preserved, though the film sometimes diminishes the depth of the conversation around it.",
-        "motivations": "Her desire for attention and validation through prophecy is maintained, but the book gives her a more complex, if flawed, position within the school structure.",
-        "character_arc": "The book implies a more subtle, ongoing influence; the film tends to treat her as a static, dramatic fixture, limiting any discernible arc."
+        "personality": "The core elements (misty voice, dramatic pronouncements, focus on the 'Inner Eye') are present, but the film's portrayal is more integrated into the overall plot rather than being the central focus of the book's scenes. The film's depiction is less consistently eccentric and more reactive to the main plot.",
+        "narrative_role": "Her role as the unreliable, dramatic oracle is maintained, which is crucial for the plot structure (especially in the first book). However, the film's narrative focus shifts away from her entirely after the initial appearance.",
+        "motivations": "Her primary motivation\u2014to appear mysterious and prophetic\u2014is consistent. In the film, her motivation seems more tied to the immediate plot points (like Umbridge's challenge) rather than a deep, consistent need for validation seen in the books.",
+        "character_arc": "The book allows for a more gradual, frustrating, and consistent undermining of her predictions. The film's arc is much shorter and more episodic, culminating in a quick dismissal rather than a sustained, frustrating academic encounter."
       },
-      "key_observations": "The film captures her essential 'mystic' nature but loses some of the nuanced, slightly pathetic quality of her characterization found in the books.",
+      "key_observations": "The film captures her signature dramatic flair but diminishes the sustained, frustrating nature of her character interaction found in the books. Her role is more of a plot device in the film than a persistent academic annoyance.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 3616,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Professor Trelawney",
+          "Sybil Trelawney",
           "Trelawney"
         ]
       }

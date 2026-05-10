@@ -2,15 +2,15 @@
 """
 V2 unified pipeline - builds everything from best available data sources.
 
-Run this to regenerate all v2 data:
+Run this to regenerate all derived data:
   python3 src/collect/build_v2_pipeline.py
 
 Steps:
-  1. Build character registry from Aitor's xlsx data -> data/v2/characters.yaml
+  1. Build character registry from Aitor's xlsx data -> output/characters.yaml
   2. Load alias map for character detection
-  3. Parse screenplays (v2 PDFs where good, v1 transcripts as fallback) -> data/v2/parsed/screenplays/
-  4. Parse books (v1 text files) -> data/v2/parsed/books/
-  5. Build per-character corpus -> data/v2/corpus/
+  3. Parse screenplays (v2 PDFs where good, v1 transcripts as fallback) -> output/parsed/screenplays/
+  4. Parse books (v1 text files) -> output/parsed/books/
+  5. Build per-character corpus -> output/corpus/
 
 Data source selection per film:
   - HP2, HP6, HP7.1, HP7.2: v2 PDFs (actual screenplays with INT/EXT markers)
@@ -30,19 +30,19 @@ import yaml
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
 # Source paths
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "books")  # v1
-SCREENPLAYS_V2_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "screenplays_v2")
-SCREENPLAYS_V1_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "screenplays")
-SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "metrics", "screen_time_v2.json")
+BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
+SCREENPLAYS_V2_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_v2")
+SCREENPLAYS_V1_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
 BOOK_MENTIONS_FILE = os.path.join(
-    PROJECT_ROOT, "data", "metrics", "book_mentions_v2.json"
+    PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json"
 )
 
 # Output paths
-V2_DIR = os.path.join(PROJECT_ROOT, "data", "v2")
-PARSED_DIR = os.path.join(V2_DIR, "parsed")
-CORPUS_DIR = os.path.join(V2_DIR, "corpus")
-CHARACTERS_FILE = os.path.join(V2_DIR, "characters.yaml")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
+PARSED_DIR = os.path.join(OUTPUT_DIR, "parsed")
+CORPUS_DIR = os.path.join(OUTPUT_DIR, "corpus")
+CHARACTERS_FILE = os.path.join(OUTPUT_DIR, "characters.yaml")
 os.makedirs(os.path.join(PARSED_DIR, "screenplays"), exist_ok=True)
 os.makedirs(os.path.join(PARSED_DIR, "books"), exist_ok=True)
 
@@ -547,7 +547,7 @@ def main():
     parse_all_books(alias_map)
     build_corpus(alias_map)
 
-    print(f"\nV2 pipeline complete. Output in {V2_DIR}")
+    print(f"\nPipeline complete. Output in {OUTPUT_DIR}")
     print("Data sources used:")
     for film in FILMS:
         _, source = get_screenplay_path(film)

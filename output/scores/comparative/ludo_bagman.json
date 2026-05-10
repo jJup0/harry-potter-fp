@@ -4,29 +4,31 @@
     "personality": 20.0,
     "narrative_role": 23.0,
     "motivations": 22.0,
-    "character_arc": 15.0,
-    "total": 80.0
+    "character_arc": 18.0,
+    "total": 83.0
   },
   "per_source": {
     "comparative": {
       "personality": 20,
       "narrative_role": 23,
       "motivations": 22,
-      "character_arc": 15,
+      "character_arc": 18,
       "justification": {
-        "personality": "The film captures his overly enthusiastic, jovial, and slightly superficial nature well, but the book's more pronounced eccentricity and tendency to deflect serious issues are slightly toned down.",
-        "narrative_role": "His role as the enthusiastic, slightly incompetent face of the Ministry's sports department is strongly maintained, which is crucial for the plot's tone.",
-        "motivations": "His primary motivation\u2014maintaining the spectacle and the glory of Quidditch\u2014is preserved. The book gives him more subtle, almost oblivious motivations regarding the larger political machinations, which are slightly less emphasized in the film.",
-        "character_arc": "The film presents a more straightforward, less complex arc. The book allows for more subtle shifts in his perceived competence and his relationship with the underlying political tension, which is somewhat flattened for cinematic pacing."
+        "personality": "The film captures his boisterous, enthusiastic nature well, but the book provides a deeper layer of his underlying superficiality and sometimes oblivious nature, which is slightly diminished in the film's pacing.",
+        "narrative_role": "His role as the enthusiastic, slightly incompetent organizer of the World Cup and Triwizard Tournament is preserved and central to the plot.",
+        "motivations": "His primary motivation\u2014the love of sport and the spectacle\u2014is consistent. The book gives more insight into his desire to maintain appearances and his relationship with the Ministry's bureaucracy, which is slightly less pronounced in the film.",
+        "character_arc": "The book shows a more gradual decline in his influence and a clearer pattern of his superficiality throughout the year. The film compresses this, leading to a more abrupt 'reveal' of his flaws."
       },
-      "key_observations": "The film captures the *spirit* of Ludo Bagman\u2014the showman\u2014but smooths out some of the book's more rambling, almost distracting eccentricities.",
+      "key_observations": "The film captures the high energy and public-facing aspects of his character perfectly, but the book allows for more subtle characterization regarding his professional shortcomings and superficiality.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 0,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
-        "aliases": []
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "aliases": [
+          "Bagman"
+        ]
       }
     }
   },

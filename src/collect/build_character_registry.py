@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Extract character names from screenplays and books to build a character registry.
-Outputs data/characters.yaml
+Outputs output/characters.yaml
 """
 
 import os
@@ -10,9 +10,9 @@ import yaml
 from collections import Counter
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "screenplays")
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "books")
-OUTPUT = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
+SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
+OUTPUT = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
 
 # Canonical name -> list of aliases that should merge into it
 # This also serves as the "full name" registry

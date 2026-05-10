@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, "src/collect")
 from build_character_registry import KNOWN_CHARACTERS
 
-with open("data/v2/characters.yaml") as f:
+with open("output/characters.yaml") as f:
     chars = yaml.safe_load(f)["characters"]
 
 # All canonical names (lowercased)

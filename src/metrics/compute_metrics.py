@@ -2,7 +2,7 @@
 """
 Estimate screen time (words spoken per character per film) and
 book presence (name mentions per character per book).
-Outputs data/metrics/screen_time.json and data/metrics/book_mentions.json
+Outputs data/source/metrics/screen_time.json and data/source/metrics/book_mentions.json
 """
 
 import json
@@ -11,10 +11,10 @@ import re
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "data", "parsed", "screenplays")
-PARSED_BOOKS = os.path.join(PROJECT_ROOT, "data", "parsed", "books")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
+PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
+PARSED_BOOKS = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "source", "metrics")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 BLOCKLIST = {

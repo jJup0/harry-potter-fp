@@ -8,7 +8,7 @@ import urllib.request
 from html.parser import HTMLParser
 
 DEST = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "raw", "screenplays"
+    os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "source", "screenplays"
 )
 os.makedirs(DEST, exist_ok=True)
 

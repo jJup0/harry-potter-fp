@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Process Aitor's input data (v2):
-1. Screen time xlsx -> data/metrics/screen_time_v2.json
-2. Book mentions xlsx -> data/metrics/book_mentions_v2.json
+Process Aitor's input data:
+1. Screen time xlsx -> data/source/metrics/screen_time_v2.json
+2. Book mentions xlsx -> data/source/metrics/book_mentions_v2.json
 3. FP Rules PDF -> data/fp_rules.txt (extracted text)
-4. Screenplay PDFs -> data/raw/screenplays_v2/
-5. Books epub -> data/raw/books_v2/ (if extractable)
+4. Screenplay PDFs -> data/source/screenplays_v2/
 
 KNOWN ISSUE: Harry Potter, Ron Weasley, Hermione Granger are missing from
 screen_time_v2.json. They likely have different formatting in Aitor's xlsx
@@ -21,9 +20,9 @@ import openpyxl
 import fitz  # pymupdf
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-INPUT_DIR = os.path.join(PROJECT_ROOT, "data", "freind-input-data")
-METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
-RAW_DIR = os.path.join(PROJECT_ROOT, "data", "raw")
+INPUT_DIR = os.path.join(PROJECT_ROOT, "data", "source", "aitor")
+METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "metrics")
+RAW_DIR = os.path.join(PROJECT_ROOT, "data", "source")
 
 FILM_MAP = {
     "Harry Potter and the Sorcerer's Stone": "1_philosophers_stone",

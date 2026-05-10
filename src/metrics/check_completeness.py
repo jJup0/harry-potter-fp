@@ -2,15 +2,15 @@
 """
 Check corpus completeness: compare corpus scene counts against
 book mentions and screen time to flag potential gaps.
-Outputs data/metrics/completeness.json
+Outputs data/source/metrics/completeness.json
 """
 
 import json
 import os
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "corpus")
+METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "metrics")
+CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
 
 
 def count_corpus_scenes(char_dir):
@@ -26,9 +26,9 @@ def count_corpus_scenes(char_dir):
 
 
 def main():
-    with open(os.path.join(METRICS_DIR, "screen_time.json")) as f:
+    with open(os.path.join(METRICS_DIR, "screen_time_v2.json")) as f:
         screen_time = json.load(f)
-    with open(os.path.join(METRICS_DIR, "book_mentions.json")) as f:
+    with open(os.path.join(METRICS_DIR, "book_mentions_v2.json")) as f:
         book_mentions = json.load(f)
 
     # All characters from either source

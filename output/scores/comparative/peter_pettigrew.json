@@ -1,35 +1,37 @@
 {
   "character": "Peter Pettigrew",
   "overall": {
-    "personality": 10.0,
-    "narrative_role": 15.0,
-    "motivations": 15.0,
-    "character_arc": 5.0,
-    "total": 45.0
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 12.0,
+    "character_arc": 10.0,
+    "total": 55.0
   },
   "per_source": {
     "comparative": {
-      "personality": 10,
-      "narrative_role": 15,
-      "motivations": 15,
-      "character_arc": 5,
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 12,
+      "character_arc": 10,
       "justification": {
-        "personality": "The film portrays him as a minor, creepy henchman in a dream sequence, stripping away the complexity of his betrayal and subsequent redemption/revelation found in the books.",
-        "narrative_role": "His role is significantly diminished; in the books, he is central to the revelation of the truth about Sirius and the Potters. In the film, he is a background villain in a dream.",
-        "motivations": "The books explore his deep-seated fear, desire for acceptance, and cowardice. The film only shows him motivated by Voldemort's immediate command, simplifying his internal conflict.",
-        "character_arc": "The books build a massive arc of betrayal, capture, and eventual confrontation/revelation. The film gives him almost no arc, merely a fleeting appearance."
+        "personality": "The film portrays him as a villainous accomplice (Wormtail) in the graveyard scene, which is a significant departure from the book's depiction of his cowardice and eventual revelation of his true nature. The tone is more overtly villainous in the film.",
+        "narrative_role": "His role as the betrayer and the source of the revelation is present, but the film's focus on his participation in the resurrection scene overshadows his core function as the coward who was supposed to be dead.",
+        "motivations": "In the books, his primary motivation is survival and self-preservation, leading to his betrayal. In the film, his motivation seems tied to Voldemort's immediate goals, making it less about his deep-seated fear and more about immediate compliance.",
+        "character_arc": "The book's arc involves his initial cowardice, his betrayal, and his eventual, though reluctant, revelation. The film presents a much more active, villainous arc in the graveyard, which is a major deviation from his book characterization."
       },
-      "key_observations": "The film drastically underplays Peter Pettigrew's importance and complexity, reducing him to a single, minor villainous appearance in a dream sequence compared to his pivotal role in the books.",
+      "key_observations": "The film significantly alters Pettigrew's characterization, making him a more active and overtly villainous participant in the graveyard scene, whereas the books emphasize his cowardice and the revelation of his true nature through Lupin's exposition.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 2525,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Peter",
           "Pettigrew",
-          "Wormtail"
+          "Scabbers / Peter Pettigrew",
+          "Wormtail",
+          "ter Pettigrew"
         ]
       }
     }

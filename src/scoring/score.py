@@ -26,9 +26,9 @@ import sys
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "data", "v2", "corpus")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "v2", "characters.yaml")
-METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
+CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "metrics")
 CONFIG_FILE = os.path.join(PROJECT_ROOT, "config.yaml")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scores")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -165,8 +165,8 @@ def main():
 
     # Load metrics for filtering
     screen_time, book_mentions = {}, {}
-    st_path = os.path.join(METRICS_DIR, "screen_time.json")
-    bm_path = os.path.join(METRICS_DIR, "book_mentions.json")
+    st_path = os.path.join(METRICS_DIR, "screen_time_v2.json")
+    bm_path = os.path.join(METRICS_DIR, "book_mentions_v2.json")
     if os.path.exists(st_path):
         with open(st_path) as f:
             screen_time = json.load(f)

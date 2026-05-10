@@ -4,32 +4,33 @@
     "personality": 20.0,
     "narrative_role": 22.0,
     "motivations": 23.0,
-    "character_arc": 15.0,
-    "total": 80.0
+    "character_arc": 18.0,
+    "total": 83.0
   },
   "per_source": {
     "comparative": {
       "personality": 20,
       "narrative_role": 22,
       "motivations": 23,
-      "character_arc": 15,
+      "character_arc": 18,
       "justification": {
-        "personality": "The film captures her initial disdain and superficiality well, but the book allows for more subtle moments of underlying fear and longing that are less pronounced in the film's heightened drama.",
-        "narrative_role": "Her role as the primary enforcer of 'normalcy' and anti-magic sentiment is strongly preserved.",
-        "motivations": "Her core motivation\u2014maintaining the illusion of a normal, Muggle life and protecting her family's status\u2014is perfectly maintained and even amplified by the film's action.",
-        "character_arc": "The film presents her arc as one of shock and eventual acceptance of the 'normal' status quo, whereas the book implies a more gradual, internalized struggle with her sister's existence that is less overtly dramatic."
+        "personality": "The film captures her disdain and strained facade well, though the book allows for more internal conflict and subtle moments of fear/curiosity.",
+        "narrative_role": "Her role as the primary enforcer of 'normalcy' and the keeper of the secret remains central.",
+        "motivations": "Her core fear\u2014the taint of magic and her sister\u2014is perfectly preserved and even heightened by the film's dramatic tension.",
+        "character_arc": "The film presents her arc as more reactive (reacting to the magical intrusions) rather than the book's slow, creeping realization, making it slightly less nuanced but still fundamentally intact."
       },
-      "key_observations": "The film excels at dramatizing her outward performance of normalcy, making her antagonism clear, though the book gives more depth to her internal conflict regarding her sister.",
+      "key_observations": "The film excels at externalizing her fear and rigid adherence to normalcy, which is her defining characteristic.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 15000,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
         "aliases": [
           "Aunt Petunia",
           "Mrs. Dursley",
-          "Petunia"
+          "Petunia",
+          "tunia Dursley"
         ]
       }
     }

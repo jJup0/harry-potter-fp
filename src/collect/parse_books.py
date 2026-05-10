@@ -2,7 +2,7 @@
 """
 Parse books into chapters and paragraph-level scenes.
 Detects character presence per paragraph.
-Outputs JSON per book in data/parsed/books/
+Outputs JSON per book in output/parsed/books/
 """
 
 import json
@@ -11,9 +11,9 @@ import re
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "raw", "books")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "characters.yaml")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "parsed", "books")
+BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
+CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 

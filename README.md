@@ -57,7 +57,7 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 1. **Raw sources**: Book text files + screenplay text files + Aitor's xlsx metrics
 2. **Parse**: Split into scenes (screenplays) and paragraphs (books), detect characters per segment
 3. **Dedup**: Merge character name variants via alias map in `src/collect/build_character_registry.py` (e.g. "Sybil Trelawney" -> "Sybill Trelawney", "Madame Rosmerta" -> "Madam Rosmerta"). Validated against `data/reference/wikipedia_hp_characters.json`.
-4. **Corpus**: Per-character collection of every scene/paragraph they appear in (v2, `data/v2/corpus/`)
+4. **Corpus**: Per-character collection of every scene/paragraph they appear in (`output/corpus/`)
 5. **Score**: Feed book + film corpus together to LLM with rubric, get 4-dimension scores + justifications. Cache stores aliases used at scoring time; scores auto-invalidate when aliases change.
 6. **Report**: Aggregate scores into rankings, per-character reports, interactive dashboard
 
@@ -76,40 +76,41 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 ### Directory Structure
 
 ```
-├── data/
-│   ├── raw/books/              # 7 book text files (v1)
-│   ├── raw/screenplays/        # 8 wiki transcripts (v1)
-│   ├── raw/screenplays_v2/     # 8 PDF-extracted screenplays (v2)
-│   ├── v2/characters.yaml      # Character registry (239 chars)
-│   ├── v2/parsed/              # Parsed JSON (v2 pipeline)
-│   ├── v2/corpus/              # Per-character corpus (v2) - ACTIVE
-│   ├── metrics/                # Screen time + book mentions
-│   ├── freind-input-data/      # Aitor's raw input files
-│   ├── reference/              # External reference data
+├── data/                           # SOURCE DATA (immutable inputs)
+│   ├── source/
+│   │   ├── books/                  # 7 book text files
+│   │   ├── screenplays/            # 8 wiki transcripts (fallback for HP1,3,4,5)
+│   │   ├── screenplays_v2/         # 8 PDF-extracted screenplays (primary for HP2,6,7.1,7.2)
+│   │   ├── aitor/                  # Aitor's raw input files (xlsx, pdf, epub)
+│   │   └── metrics/                # Screen time + book mentions (from Aitor's xlsx)
+│   ├── reference/                  # External reference data
 │   │   ├── wikipedia_hp_characters.json  # Fetched canonical list (142 chars)
-│   │   └── wikipedia_hp_characters.md    # Manual reference (legacy)
-│   └── fp_rules.txt            # FP scoring rules (Spanish)
-├── corpus/                     # Per-character corpus (v1, legacy)
+│   │   └── wikipedia_hp_characters.md    # Manual reference
+│   ├── fp_rules.txt                # FP scoring rules (Spanish)
+│   ├── fp_rules.md                 # FP scoring rules (markdown)
+│   └── manual-character-alias-mapping.jsonc  # Hand-curated alias map
+├── output/                         # DERIVED DATA (all regenerable)
+│   ├── parsed/                     # Parsed JSON (books + screenplays)
+│   ├── corpus/                     # Per-character corpus
+│   ├── characters.yaml             # Character registry (built from Aitor's data)
+│   ├── scores/
+│   │   ├── comparative/            # Per-character score JSONs (with alias tracking)
+│   │   └── scores_comparative.json # Combined scores
+│   ├── reports/                    # CSV + markdown reports
+│   └── dashboard.html              # Interactive Plotly dashboard
 ├── src/
 │   ├── collect/
+│   │   ├── build_v2_pipeline.py    # Main pipeline (parse + corpus)
 │   │   ├── build_character_registry.py   # Alias map + registry builder
 │   │   ├── fetch_wikipedia_characters.py # Fetch Wikipedia character list
 │   │   └── validate_characters.py        # Cross-reference validation
-│   ├── corpus/build_corpus.py  # Corpus builder
-│   ├── metrics/                # Metrics computation
+│   ├── corpus/build_corpus.py      # Corpus builder (legacy)
+│   ├── metrics/                    # Metrics computation
 │   ├── scoring/
-│   │   ├── score.py            # Main CLI (--backend, --characters, --top)
-│   │   ├── scorer_comparative.py  # LLM scorer (book+film in one call)
-│   │   ├── backfill_aliases.py    # One-time backfill of alias cache
+│   │   ├── score.py                # Main CLI (--backend, --characters, --top)
+│   │   ├── scorer_comparative.py   # LLM scorer (book+film in one call)
 │   │   └── prompts/scoring_prompt.txt  # English FP rubric for LLM
-│   └── reporting/              # Reports + dashboard generators
-├── output/
-│   ├── scores/
-│   │   ├── comparative/            # Per-character score JSONs (with alias tracking)
-│   │   ├── scores_comparative.json # Combined scores
-│   │   └── scores.json             # Legacy
-│   ├── reports/                # CSV + markdown reports
-│   └── dashboard.html          # Interactive Plotly dashboard
+│   └── reporting/                  # Reports + dashboard generators
 ├── config.yaml                 # Scoring configuration (model, thresholds)
 ├── TODO.md                     # Remaining work
 ├── DECISIONS.md                # Detailed decision log

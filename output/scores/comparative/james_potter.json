@@ -14,19 +14,21 @@
       "motivations": 17,
       "character_arc": 15,
       "justification": {
-        "personality": "The film captures his protective nature and swagger, but the book provides a much deeper, more complex portrait of his relationship with his family and friends, which is diminished in the film's focus.",
-        "narrative_role": "His role as the heroic, charismatic father figure is maintained, though the book gives him more active participation in the mystery surrounding his death.",
-        "motivations": "The core motivation\u2014protecting his family and fighting Voldemort\u2014is present, but the book delves into his complex friendships and the nature of his sacrifice more thoroughly.",
-        "character_arc": "The book implies a more active, if tragic, role in the events leading up to his death and the mystery surrounding his legacy, which is largely reduced to a static memory in the film."
+        "personality": "The films capture his arrogance and charm (especially in the early films), but the book's depth of his complex relationships and intellectual sparring is often lost or simplified in the film's portrayal.",
+        "narrative_role": "His role as the charismatic, rebellious hero and father figure is largely maintained, though the film sometimes oversimplifies his impact.",
+        "motivations": "His core motivations\u2014protecting his family and challenging authority\u2014are present, but the book gives more nuance to his internal conflicts and his relationship with Sirius.",
+        "character_arc": "The book allows for a more complex, if tragic, arc involving his perceived arrogance and eventual fall from grace (or the mystery surrounding it). The films tend to keep him more consistently idealized or simply absent, limiting the observable arc."
       },
-      "key_observations": "The film uses James's memory primarily as exposition and emotional anchor, whereas the books weave him into more active narrative threads regarding his life and the secrets of the wizarding world.",
+      "key_observations": "The films capture the *vibe* of James Potter (cocky, charismatic, Quidditch star), but the book provides significantly more depth regarding his intellectual sparring, his relationship with Sirius, and the nuances of his life before his death.",
       "meta": {
         "type": "comparative",
-        "book_chars_sent": 15000,
-        "film_chars_sent": 5217,
         "model": "gemma4:e4b",
         "prompt_version": "1.0",
-        "aliases": []
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "aliases": [
+          "James"
+        ]
       }
     }
   },

@@ -14,10 +14,10 @@ import plotly.express as px
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_comparative.json")
-SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "metrics", "screen_time.json")
-BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "metrics", "book_mentions.json")
-PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "data", "parsed", "screenplays")
-PARSED_BOOKS = os.path.join(PROJECT_ROOT, "data", "parsed", "books")
+SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
+BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json")
+PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
+PARSED_BOOKS = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "dashboard.html")
 
 DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]
