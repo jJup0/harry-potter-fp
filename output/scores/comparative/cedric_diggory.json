@@ -1,0 +1,36 @@
+{
+  "character": "Cedric Diggory",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his initial charm and good nature, but the book allows for more subtle moments of awkwardness and internal conflict that are less emphasized in the film's action-heavy portrayal.",
+        "narrative_role": "His role as the primary Hufflepuff champion and Harry's foil is maintained, though the film focuses more heavily on the spectacle of the tournament rather than the interpersonal rivalry.",
+        "motivations": "His core motivation\u2014representing Hufflepuff honor and being a good person\u2014is consistent. The film slightly diminishes the sense of pressure or expectation placed on him compared to the book's build-up.",
+        "character_arc": "The book implies a more complex emotional arc regarding the rivalry and the weight of expectation. The film presents him as more consistently charming and less prone to the deep, quiet moments of internal struggle seen in the text."
+      },
+      "key_observations": "The film is highly faithful in establishing his role and initial character traits, but the book provides more nuanced character development, particularly regarding his reaction to the rivalry with Harry.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 156,
+    "book_mentions": 400
+  }
+}

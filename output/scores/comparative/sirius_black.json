@@ -1,0 +1,36 @@
+{
+  "character": "Sirius Black",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 15.0,
+    "motivations": 20.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 15,
+      "motivations": 20,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film captures his charismatic, reckless nature, but the book allows for a deeper, more nuanced portrayal of his guilt and complexity, which is somewhat lost in the film's more action-oriented depiction.",
+        "narrative_role": "The film establishes him as a key mystery/threat, but the book gives him a much more central, active role in the mystery's resolution (the truth about Pettigrew).",
+        "motivations": "The core motivation\u2014protecting Harry and uncovering the truth\u2014is strong in both, but the book's focus on his deep sense of betrayal and misplaced loyalty is richer.",
+        "character_arc": "The book allows for a more complex arc involving his eventual redemption and the revelation of his true status. The film's portrayal is more limited by the scope of the events shown."
+      },
+      "key_observations": "The film captures the initial mystery and threat level well, but the book provides significantly more depth regarding his true loyalties and the resolution of his character arc.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 753,
+    "book_mentions": 2194
+  }
+}

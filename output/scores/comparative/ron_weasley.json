@@ -1,0 +1,36 @@
+{
+  "character": "Ron Weasley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 22.0,
+    "character_arc": 21.0,
+    "total": 85.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 22,
+      "character_arc": 21,
+      "justification": {
+        "personality": "The core warmth, humor, and loyalty are present, but the film often exaggerates his jealousy or moments of immaturity compared to the book's nuanced portrayal.",
+        "narrative_role": "His role as the loyal, grounding friend is consistently maintained, though specific plot functions might shift slightly.",
+        "motivations": "His primary motivations\u2014protecting his friends and family\u2014are accurate. The film sometimes overemphasizes his insecurity regarding his place in the trio.",
+        "character_arc": "The general trajectory of growth (from insecure boy to reliable friend) is followed, but the pacing and depth of emotional realization are often condensed for cinematic effect."
+      },
+      "key_observations": "The film captures the essence of Ron's character\u2014his heart and his family\u2014but sometimes sacrifices the book's internal monologue and slower emotional build-up for immediate dramatic action.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 5555,
+    "book_mentions": 6278
+  }
+}

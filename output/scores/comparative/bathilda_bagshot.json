@@ -1,0 +1,36 @@
+{
+  "character": "Bathilda Bagshot",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 12.0,
+    "character_arc": 10.0,
+    "total": 55.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 12,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film portrays her as a direct, immediate threat/mystery figure, whereas the books establish her as a historical, somewhat gossipy, but ultimately peripheral source of information. The film's portrayal is much more dramatic and confrontational.",
+        "narrative_role": "The film elevates her role to a direct plot catalyst (the Parseltongue reveal), which is a significant amplification of her book role as a source of lore.",
+        "motivations": "In the books, her motivation is largely to share stories or knowledge. In the film, her motivation seems tied to the immediate threat of the Horcrux/Potter lineage, making it more active and less purely informational.",
+        "character_arc": "The books show her as a static, knowledgeable figure whose presence is a recurring motif. The film gives her a single, highly dramatic, and conclusive moment, which functions more as a plot device than an arc."
+      },
+      "key_observations": "The film drastically changes her function from a source of lore/gossip (Book) to a direct, active participant in the climax (Film). This shift is the most significant divergence.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 401,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 91
+  }
+}

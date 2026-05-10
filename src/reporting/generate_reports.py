@@ -9,7 +9,7 @@ import json
 import os
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores.json")
+SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_comparative.json")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "reports")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -87,11 +87,27 @@ def generate_character_reports(scores):
                     f.write(f'- Paragraphs: {meta.get("paragraphs", 0)}\n')
                     f.write(f'- Dialogue paragraphs: {meta.get("dialogue_paragraphs", 0)}\n')
                     f.write(f'- Total words: {meta.get("total_words", 0):,}\n')
+                elif src_type == 'comparative':
+                    f.write(f'- Book chars sent: {meta.get("book_chars_sent", 0):,}\n')
+                    f.write(f'- Film chars sent: {meta.get("film_chars_sent", 0):,}\n')
 
                 f.write(f'\n| Dimension | Score |\n|-----------|-------|\n')
                 for dim in DIMENSIONS:
                     f.write(f'| {DIM_LABELS[dim]} | {src_scores.get(dim, 0)} |\n')
                 f.write('\n')
+
+                # Justifications (comparative scorer)
+                justification = src_scores.get('justification', {})
+                if justification:
+                    f.write('#### Justifications\n\n')
+                    for dim in DIMENSIONS:
+                        j = justification.get(dim, '')
+                        if j:
+                            f.write(f'**{DIM_LABELS[dim]}:** {j}\n\n')
+
+                key_obs = src_scores.get('key_observations', '')
+                if key_obs:
+                    f.write(f'**Key observations:** {key_obs}\n\n')
 
             # Metadata
             m = s.get('meta', {})

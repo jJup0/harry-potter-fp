@@ -1,0 +1,36 @@
+{
+  "character": "Sybill Trelawney",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 18.0,
+    "character_arc": 12.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 18,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film often exaggerates her dramatic flair, making her more overtly theatrical than the book suggests, though the core 'mystic' persona remains.",
+        "narrative_role": "Her role as the source of the prophecy is central and preserved, though the film sometimes diminishes the depth of the conversation around it.",
+        "motivations": "Her desire for attention and validation through prophecy is maintained, but the book gives her a more complex, if flawed, position within the school structure.",
+        "character_arc": "The book implies a more subtle, ongoing influence; the film tends to treat her as a static, dramatic fixture, limiting any discernible arc."
+      },
+      "key_observations": "The film captures her essential 'mystic' nature but loses some of the nuanced, slightly pathetic quality of her characterization found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 3616,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 153,
+    "book_mentions": 465
+  }
+}

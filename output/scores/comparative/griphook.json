@@ -1,0 +1,36 @@
+{
+  "character": "Griphook",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 82.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his sardonic, knowledgeable, and slightly condescending tone well, but the book allows for more nuanced moments of reluctant cooperation and dry wit.",
+        "narrative_role": "His role as the knowledgeable guide/gatekeeper of Gringotts is preserved and even expanded upon in the film's action sequences.",
+        "motivations": "His core motivations\u2014protecting Gringotts' secrets and maintaining goblin superiority\u2014are intact. The film emphasizes his antagonism toward wizards more strongly.",
+        "character_arc": "The book's arc is more about gradual trust built through shared danger and conversation. The film compresses this into more action beats, making the arc feel more reactive than developmental."
+      },
+      "key_observations": "The film excels at showing his competence and bitterness, but the book allows for a deeper, more conversational establishment of his reluctant alliance with the heroes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 263,
+    "book_mentions": 139
+  }
+}

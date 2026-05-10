@@ -1,0 +1,36 @@
+{
+  "character": "Mrs. Norris",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 80.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The core traits (scrawny, lamp-like eyes, association with Filch) are present, but the film scenes show her in fewer, less varied contexts than the books.",
+        "narrative_role": "Her primary function as a recurring antagonist/obstacle to the trio is maintained in both mediums, especially in the early years.",
+        "motivations": "Her motivation is consistently portrayed as being a tool for Filch to enforce rules, which is consistent.",
+        "character_arc": "The book gives her multiple, varied encounters throughout the year. The film only features her prominently in the first year's corridor sequence, limiting her perceived arc."
+      },
+      "key_observations": "The film captures her key visual elements and her role as a minor threat, but the book provides a much broader, more consistent presence throughout the school year.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

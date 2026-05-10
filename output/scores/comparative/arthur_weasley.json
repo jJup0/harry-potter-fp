@@ -1,0 +1,36 @@
+{
+  "character": "Arthur Weasley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 23.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 23,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core 'Muggle enthusiast' trait is present, but the film often makes him seem more comedic/bumbling than the book suggests, slightly diluting his gentle authority.",
+        "narrative_role": "His role as the Ministry contact/support for Harry is maintained, though the film gives him more physical action (e.g., at the World Cup).",
+        "motivations": "His primary motivation\u2014his fascination with Muggles and his desire to do good within the law\u2014is strongly preserved.",
+        "character_arc": "The book shows a more consistent, if sometimes frustrating, adherence to his principles. The film compresses this, making his arc feel more episodic rather than deeply developmental."
+      },
+      "key_observations": "The film captures his defining characteristic (Muggle fascination) well, but the book allows for a deeper exploration of his principled resistance to Ministry overreach, which is slightly lessened in the movie's pacing.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 868,
+    "book_mentions": 755
+  }
+}

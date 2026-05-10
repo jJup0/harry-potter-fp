@@ -1,0 +1,36 @@
+{
+  "character": "Gabrielle Delacour",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 18.0,
+    "character_arc": 15.0,
+    "total": 66.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 18,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film portrays her as overtly sweet and concerned, which is somewhat consistent with her book portrayal, but the film's focus is on the dramatic rescue, making her role more performative.",
+        "narrative_role": "Her role in the film is highly visible during the rescue sequence, which is a significant function, but the book scenes show her in more background/familial contexts.",
+        "motivations": "In the film, her primary motivation is survival and being rescued, which aligns with the general tone of the book's depiction of her vulnerability, though the specific stakes differ.",
+        "character_arc": "The film gives her a brief, impactful moment of gratitude (the kiss), but this is a single, contained event, lacking the development or ongoing presence seen in the book's scattered mentions."
+      },
+      "key_observations": "The film elevates her presence to a key dramatic moment (the rescue), giving her a more pronounced, albeit brief, role than her limited appearances in the book corpus provided.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 8426
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

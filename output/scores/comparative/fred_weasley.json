@@ -1,0 +1,36 @@
+{
+  "character": "Fred Weasley",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 21.0,
+    "total": 88.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 21,
+      "justification": {
+        "personality": "The core comedic, mischievous, and energetic spirit is highly preserved, though the film sometimes streamlines the depth of their banter.",
+        "narrative_role": "Their role as comic relief, pranksters, and supportive friends is maintained across all major plot points.",
+        "motivations": "Their primary motivations\u2014fun, mischief, and supporting their friends\u2014are consistent. The film captures this well.",
+        "character_arc": "Their arc of growing into responsible, yet still mischievous, older students is evident, though the film's pacing sometimes rushes this development compared to the books."
+      },
+      "key_observations": "The film captures the essence of the Weasley twins' dynamic perfectly, especially their banter with George and their involvement in key events like the Quidditch match and the Chamber of Secrets.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 414,
+    "book_mentions": 920
+  }
+}

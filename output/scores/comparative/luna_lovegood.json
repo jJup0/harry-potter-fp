@@ -1,0 +1,36 @@
+{
+  "character": "Luna Lovegood",
+  "overall": {
+    "personality": 23.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 20.0,
+    "total": 86.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 23,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The core eccentric, dreamy, and unique aspects are maintained, though the film sometimes softens her pronouncements for pacing.",
+        "narrative_role": "Her role as the observer and bearer of unconventional truth is preserved, though her direct confrontation with the Ministry is slightly less pronounced in the film.",
+        "motivations": "Her primary motivation\u2014to see the truth beyond the mundane\u2014is consistent, though the film emphasizes her connection to the unseen world more heavily.",
+        "character_arc": "Her arc remains largely static (the eccentric observer), which is faithful, but the film doesn't give her the same level of development or agency as the books."
+      },
+      "key_observations": "The film captures her signature oddities (Nargles, The Quibbler) very well, making her feel highly faithful, though the book allows for more of her intellectual sparring.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 574,
+    "book_mentions": 367
+  }
+}

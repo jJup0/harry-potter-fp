@@ -1,0 +1,36 @@
+{
+  "character": "Kingsley Shacklebolt",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 82.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his calm, authoritative, and competent demeanor, though the book allows for more casual interaction (e.g., with the Weasleys).",
+        "narrative_role": "His role as a key, reliable Auror and member of the Order is well-preserved in the film's action sequences.",
+        "motivations": "His primary motivation\u2014protecting Harry and supporting the resistance\u2014is consistent, though the depth of his commitment is slightly more emphasized in the film.",
+        "character_arc": "The film shows him in action, which is good, but the book gives more insight into his steady, supportive presence within the Order's structure, which is slightly diminished in the film's focus on action."
+      },
+      "key_observations": "The film portrays him as highly competent and reliable, matching the book's depiction of him as a key Auror, though the book gives more context to his supportive role.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 67,
+    "book_mentions": 135
+  }
+}

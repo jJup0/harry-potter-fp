@@ -1,0 +1,36 @@
+{
+  "character": "Graham Montague",
+  "overall": {
+    "personality": 0.0,
+    "narrative_role": 0.0,
+    "motivations": 0.0,
+    "character_arc": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 0,
+      "narrative_role": 0,
+      "motivations": 0,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The character appears in the book corpus but has no corresponding scenes or presence in the film corpus provided for comparison.",
+        "narrative_role": "The character's role is entirely derived from the book scenes, but since no film scenes are provided, the role cannot be assessed for faithfulness.",
+        "motivations": "No film scenes are provided to compare motivations against.",
+        "character_arc": "No film scenes are provided to track any character arc."
+      },
+      "key_observations": "No film corpus was provided for Graham Montague, making a comparison impossible. The scores reflect the lack of comparative material.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

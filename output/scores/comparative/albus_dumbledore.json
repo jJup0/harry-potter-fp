@@ -1,0 +1,36 @@
+{
+  "character": "Albus Dumbledore",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his eccentric, powerful, and benevolent nature, but the dialogue feels more overtly dramatic and less subtly enigmatic than the books.",
+        "narrative_role": "His role as the guiding, omniscient mentor is strongly maintained, though the film gives him more immediate, visible action.",
+        "motivations": "His core motivation\u2014protecting Harry and the greater good\u2014is intact, but the film sometimes makes his motives seem more overtly manipulative or secretive than the books imply.",
+        "character_arc": "The film presents him as a constant, powerful figure, but the book's gradual revelation of his complexity and past mistakes is somewhat flattened into a more consistently benevolent figure."
+      },
+      "key_observations": "The film is visually faithful in many ways (deluminator, appearance), but the book allows for more ambiguity and mystery surrounding his true intentions, which the film tends to clarify or over-dramatize.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 5966,
+    "book_mentions": 3550
+  }
+}

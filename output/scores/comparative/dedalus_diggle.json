@@ -1,0 +1,36 @@
+{
+  "character": "Dedalus Diggle",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays him as highly excitable, somewhat dramatic, and knowledgeable about magical history/details (e.g., remembering Harry). The film significantly reduces his presence, making him less flamboyant and knowledgeable.",
+        "narrative_role": "In the books, he is a key member of the Order who assists in the immediate escape/planning. In the films, his role is either minimized or entirely absent from the key action sequences.",
+        "motivations": "His primary motivation in the books is supporting the Order's mission and assisting Harry's escape. This core loyalty is maintained, but the specific urgency and detailed planning shown in the books are lost.",
+        "character_arc": "The books show him actively participating in the planning and immediate aftermath of danger. The films do not provide enough material to show any discernible arc, resulting in a significant reduction of his character development."
+      },
+      "key_observations": "Dedalus Diggle is a character whose presence and specific interactions are heavily reduced or excised in the film adaptations compared to the detailed book scenes provided.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 6666,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 10
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Moaning Myrtle",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 61.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays her as a more complex, emotionally vulnerable ghost who directly interacts with the main plot (Chamber of Secrets). The film largely sidelines her, reducing her to a background element or a source of atmosphere, losing much of her conversational depth.",
+        "narrative_role": "The book uses her bathroom as a key location for plot development (Chamber entrance, diary). The film retains the location but removes her active role in the mystery's climax.",
+        "motivations": "In the books, her motivation is deeply rooted in feeling unseen and misunderstood, leading to her haunting. The film minimizes this, focusing more on the general atmosphere of the location rather than her specific emotional conflict.",
+        "character_arc": "The book allows for a subtle, though incomplete, sense of her story being told (the diary, the revelations). The film offers no discernible arc for her, leaving her static and purely atmospheric."
+      },
+      "key_observations": "The film significantly diminishes Moaning Myrtle's importance and active participation in the plot compared to the book, making her more of a set piece than a character.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 298,
+    "book_mentions": 156
+  }
+}

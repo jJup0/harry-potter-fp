@@ -1,0 +1,36 @@
+{
+  "character": "Bertha Jorkins",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 5.0,
+    "character_arc": 0.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 5,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The film largely omits her characterization, reducing her to a plot device rather than a personality.",
+        "narrative_role": "Her role is significantly diminished or entirely absent in the film adaptation compared to the book's extensive use of her as a key source of information.",
+        "motivations": "Her motivations (survival, curiosity, or simply being present) are not explored or maintained in the film.",
+        "character_arc": "The book details her ordeal and the information she provides, which is a major part of her arc; the film fails to capture this development."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 10047,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

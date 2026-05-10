@@ -1,0 +1,36 @@
+{
+  "character": "Seamus Finnigan",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 18.0,
+    "motivations": 19.0,
+    "character_arc": 17.0,
+    "total": 74.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 18,
+      "motivations": 19,
+      "character_arc": 17,
+      "justification": {
+        "personality": "The core traits (eagerness, slight recklessness, connection to Muggle background) are present, but the film scenes provided are too sparse to confirm full tonal consistency.",
+        "narrative_role": "His role as a secondary, somewhat comedic, friend is maintained, but the depth of his involvement in key plot points (like the Chamber or major character development) is less evident in the film snippets.",
+        "motivations": "His general curiosity and desire to participate are visible, but the specific conflicts or deeper motivations seen in the book are not strongly represented in the film excerpts.",
+        "character_arc": "The book shows a more consistent, though minor, development through the school year. The film snippets show him participating in events but lack enough material to judge a significant arc change."
+      },
+      "key_observations": "Seamus's character is relatively minor in both mediums, and the provided film excerpts are heavily focused on Harry/Ron/Hermione dynamics, making a direct comparison difficult. His general 'eager friend' persona is mostly preserved.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 244,
+    "book_mentions": 211
+  }
+}

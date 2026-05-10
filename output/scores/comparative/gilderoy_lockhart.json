@@ -1,0 +1,36 @@
+{
+  "character": "Gilderoy Lockhart",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 18.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 18,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his superficial charm and vanity well, but the book allows for more explicit examples of his incompetence and arrogance in various scenarios (e.g., the greenhouse, the pixies).",
+        "narrative_role": "His role as a superficial obstacle and source of comedic relief is maintained, though the film's focus is heavily on the Weasley family's introduction.",
+        "motivations": "His primary motivation\u2014fame and superficial adoration\u2014is consistent. However, the book delves deeper into his pattern of self-aggrandizement across multiple scenes, which is slightly diluted in the film's adaptation.",
+        "character_arc": "The book builds a more sustained, albeit comedic, arc of his gradual exposure and failure. The film presents him more as a static, irritating fixture of the setting."
+      },
+      "key_observations": "The film captures the *essence* of his superficiality and public persona, but the book provides a much broader and more detailed canvas for demonstrating his flaws.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 868,
+    "book_mentions": 286
+  }
+}

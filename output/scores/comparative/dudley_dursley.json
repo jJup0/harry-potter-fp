@@ -1,0 +1,36 @@
+{
+  "character": "Dudley Dursley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 23.0,
+    "character_arc": 15.0,
+    "total": 80.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 23,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The core traits (obsession with material things, bullying nature, resemblance to parents) are maintained, but the film sometimes softens his cruelty or exaggerates his tantrums for dramatic effect.",
+        "narrative_role": "His role as the primary antagonist/foil to Harry is strongly preserved in both mediums.",
+        "motivations": "His primary motivations\u2014status, material wealth, and maintaining the Dursleys' 'normalcy'\u2014are consistently portrayed.",
+        "character_arc": "The book implies a slow, subtle decline in his character, while the film gives him more overt, dramatic moments of regression (e.g., the zoo incident), making his arc feel more pronounced but less deeply developed than the source material suggests."
+      },
+      "key_observations": "The film captures the essence of Dudley's spoiled nature very well, especially in the heightened drama of the film scenes, but the book allows for a more insidious, drawn-out depiction of his entitlement.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 223,
+    "book_mentions": 438
+  }
+}

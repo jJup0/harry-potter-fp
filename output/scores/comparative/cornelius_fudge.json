@@ -1,0 +1,36 @@
+{
+  "character": "Cornelius Fudge",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 23.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 23,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his portly, nervous, and overbearing nature, but the book allows for more of his bumbling, slightly more eccentric interactions (like the Christmas scene).",
+        "narrative_role": "His role as the incompetent, fear-mongering Ministry official is strongly preserved in the film's context (Chamber of Secrets).",
+        "motivations": "His core motivation\u2014maintaining the status quo and projecting an image of control\u2014is perfectly mirrored in both mediums, especially his fear of scandal.",
+        "character_arc": "The film presents him in a single, highly defined arc (from overbearing authority to being sidelined), whereas the books show a more episodic, gradual decline in influence."
+      },
+      "key_observations": "The film adaptation effectively captures the *essence* of Fudge's incompetence and overreach, even if the book provides more varied, low-stakes glimpses of his character.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 482,
+    "book_mentions": 516
+  }
+}

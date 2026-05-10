@@ -1,0 +1,36 @@
+{
+  "character": "Hepzibah Smith",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays her as vain, slightly eccentric, and obsessed with her possessions, while the film version retains the vanity but often presents her actions in a more overtly villainous or manipulative light, slightly altering the tone.",
+        "narrative_role": "Her role as the keeper of valuable, dangerous magical artifacts and the catalyst for Voldemort's return is preserved in both, making this aspect quite faithful.",
+        "motivations": "Her primary motivation\u2014hoarding and protecting her treasures\u2014is consistent. The film might emphasize her desire to keep secrets from others (like Mr. Burke) more strongly than the books.",
+        "character_arc": "The book implies a slow descent into obsession and vulnerability, while the film's portrayal, especially in relation to Voldemort, feels more immediately dramatic and less developed over time."
+      },
+      "key_observations": "The film captures the essence of her character and her plot function, but the depth and subtlety of her personality and gradual arc are somewhat diminished or altered for cinematic pacing.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

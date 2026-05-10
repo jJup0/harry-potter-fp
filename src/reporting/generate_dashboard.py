@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores.json")
+SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_comparative.json")
 SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "metrics", "screen_time.json")
 BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "metrics", "book_mentions.json")
 PARSED_SCREENPLAYS = os.path.join(PROJECT_ROOT, "data", "parsed", "screenplays")

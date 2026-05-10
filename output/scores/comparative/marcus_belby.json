@@ -1,0 +1,36 @@
+{
+  "character": "Marcus Belby",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 61.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The core trait (being somewhat dismissive/casual) is present, but the film dialogue makes him seem more defined by his relationship with his father and his general lack of engagement, which is a slight shift from the book's more peripheral mentions.",
+        "narrative_role": "His role as a minor, background character in Slughorn's gathering is maintained, serving to establish the social dynamics of the group.",
+        "motivations": "His primary motivation\u2014a casual disdain for certain things (like potions, perhaps)\u2014is captured, but the depth of his implied conflict (with his father) is slightly more pronounced in the film.",
+        "character_arc": "Since he is a minor character with very little focus in either medium, his 'arc' is minimal. The film doesn't provide any noticeable evolution compared to the book's scattered mentions."
+      },
+      "key_observations": "Belby is a very minor character whose presence is mostly functional in establishing the atmosphere of Slughorn's party. The film captures his key lines but gives him slightly more screen time, which slightly alters his perceived role.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 2699,
+        "film_chars_sent": 2266
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

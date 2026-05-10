@@ -1,0 +1,36 @@
+{
+  "character": "Alastor Moody",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 17.0,
+    "character_arc": 12.0,
+    "total": 62.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 17,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film version is heavily reduced and lacks the consistent, paranoid, and knowledgeable presence shown in the book excerpts. The mechanical eye is present, but the depth of his characterization is diminished.",
+        "narrative_role": "His role as a key investigator and authority figure (especially in the Ministry/trial scenes) is maintained, but his impact is less pronounced than in the books.",
+        "motivations": "His core motivation\u2014fighting Voldemort/Dark Arts\u2014is present, but the book excerpts show a deeper, more personal involvement in the investigation that is lost.",
+        "character_arc": "The book suggests a character who is deeply embedded in the ongoing war effort. The film presents him more as a cameo appearance, limiting any discernible arc."
+      },
+      "key_observations": "The film heavily utilizes Moody's visual elements (the eye) but strips away much of his textual depth and investigative weight, making him feel more like a prop than a fully realized character.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 1788,
+        "film_chars_sent": 8426,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 515,
+    "book_mentions": 503
+  }
+}

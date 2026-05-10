@@ -1,0 +1,36 @@
+{
+  "character": "Garrick Ollivander",
+  "overall": {
+    "personality": 24.0,
+    "narrative_role": 25.0,
+    "motivations": 24.0,
+    "character_arc": 25.0,
+    "total": 98.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 24,
+      "narrative_role": 25,
+      "motivations": 24,
+      "character_arc": 25,
+      "justification": {
+        "personality": "The core eccentric, knowledgeable, and slightly mysterious nature is perfectly maintained.",
+        "narrative_role": "His function as the wand supplier and key information dispenser is identical.",
+        "motivations": "His primary motivation\u2014the mystery of wands and destiny\u2014is preserved.",
+        "character_arc": "Since his role is largely introductory and self-contained, the arc is perfectly faithful to his established function."
+      },
+      "key_observations": "The film adaptation is remarkably faithful to the book's depiction of Ollivander's eccentric expertise and crucial role in setting up Harry's destiny.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 0,
+        "film_chars_sent": 3132,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 341,
+    "book_mentions": 159
+  }
+}

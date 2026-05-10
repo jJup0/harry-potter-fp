@@ -1,0 +1,36 @@
+{
+  "character": "Scabior",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 73.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his rough, aggressive, and mocking tone well, but the book's dialogue is more consistently vernacular and less theatrical than the film's portrayal.",
+        "narrative_role": "His role as the primary antagonist/captor remains central in both mediums, though the specific sequence of events differs.",
+        "motivations": "His desire to capture and interrogate the protagonists (especially Hermione) is consistent, but the film adds more overt malice and physical aggression.",
+        "character_arc": "The book implies a consistent, if minor, presence, while the film gives him a very defined, though ultimately limited, arc as a primary antagonist in the early stages."
+      },
+      "key_observations": "The film significantly expands his screen time and aggression, making him more overtly villainous than his book appearances suggest, though his core function as a sneering captor is maintained.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 2998,
+        "film_chars_sent": 9241,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 109,
+    "book_mentions": 17
+  }
+}

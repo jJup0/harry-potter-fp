@@ -18,6 +18,15 @@ RAW_DIR = '/tmp/fp_raw_responses'
 os.makedirs(RAW_DIR, exist_ok=True)
 
 
+def _get_prompt_version():
+    """Read version from first line of prompt file. Format: '# version: major.minor'"""
+    with open(PROMPT_FILE) as f:
+        first_line = f.readline().strip()
+    if first_line.startswith('# version:'):
+        return first_line.split(':', 1)[1].strip()
+    return '0.0'
+
+
 def _validate_response(parsed):
     """Validate the parsed JSON matches our expected schema. Returns error string or None."""
     if not isinstance(parsed, dict):
@@ -88,7 +97,7 @@ def score_character(char_name, corpus, config):
                 'character_arc': scores['character_arc'],
                 'justification': parsed.get('justification', {}),
                 'key_observations': parsed.get('key_observations', ''),
-                'meta': {'type': 'comparative', 'book_chars_sent': len(book_text), 'film_chars_sent': len(film_text)},
+                'meta': {'type': 'comparative', 'model': llm_config.get('model'), 'prompt_version': _get_prompt_version(), 'book_chars_sent': len(book_text), 'film_chars_sent': len(film_text)},
             }}
 
         print(f"    FAILED after {MAX_RETRIES} attempts")
@@ -101,7 +110,7 @@ def score_character(char_name, corpus, config):
 def _fallback(char_name):
     return {'comparative': {
         'personality': 0, 'narrative_role': 0, 'motivations': 0, 'character_arc': 0,
-        'meta': {'type': 'comparative', 'book_chars_sent': 0, 'film_chars_sent': 0, 'error': True}
+        'meta': {'type': 'comparative', 'model': None, 'prompt_version': _get_prompt_version(), 'book_chars_sent': 0, 'film_chars_sent': 0, 'error': True}
     }}
 
 

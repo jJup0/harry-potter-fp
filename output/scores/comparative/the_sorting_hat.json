@@ -1,0 +1,36 @@
+{
+  "character": "The Sorting Hat",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film version is more overtly dramatic and less conversational/internal than the book's depiction, especially in its early appearances. The book allows for more internal monologue and direct confrontation with the characters' fears.",
+        "narrative_role": "The core function\u2014sorting students\u2014is perfectly preserved. Its role in the climax (the song) is also present, though the film's focus is more on the initial sorting.",
+        "motivations": "The book establishes a deeper, more complex motivation (the song detailing the founders' division and the warning of external foes). The film focuses almost entirely on the immediate act of sorting, missing the historical weight.",
+        "character_arc": "The book gives the Hat a clear, evolving arc, culminating in the song which is a massive piece of exposition. The film presents it as a static, reliable object until the final moments, missing this significant development."
+      },
+      "key_observations": "The film captures the initial spectacle well, but it significantly underplays the Hat's intellectual depth and its crucial role in the narrative's overarching themes (unity vs. division) found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 5692,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 128,
+    "book_mentions": 94
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Molly Weasley",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 23.0,
+    "character_arc": 20.0,
+    "total": 88.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 23,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The core warmth, maternal instinct, and tendency to fuss are strongly present, though the film scenes show her in more active, immediate roles (like the 9\u00be scene) than the book excerpts suggest in some instances.",
+        "narrative_role": "Her role as the emotional center and caretaker of the Weasley family remains highly consistent across both media.",
+        "motivations": "Her primary motivations\u2014protecting her family and ensuring the safety/comfort of Harry\u2014are perfectly preserved. The film captures this urgency well.",
+        "character_arc": "The book excerpts show her involvement in various crises, while the films show her adapting to the immediate needs of the plot (e.g., the start of the war). The arc feels slightly more action-oriented in the films, but the underlying character is consistent."
+      },
+      "key_observations": "The film captures her essence\u2014the loving, slightly overbearing mother\u2014very well, especially in the early scenes. The book excerpts provide more depth into her concerns (like the Ministry/Order politics), which the films sometimes condense for pacing.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 646,
+    "book_mentions": 707
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Petunia Dursley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 23.0,
+    "character_arc": 15.0,
+    "total": 80.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 23,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures her initial disdain and superficiality well, but the book allows for more subtle moments of underlying fear and longing that are less pronounced in the film's heightened drama.",
+        "narrative_role": "Her role as the primary enforcer of 'normalcy' and anti-magic sentiment is strongly preserved.",
+        "motivations": "Her core motivation\u2014maintaining the illusion of a normal, Muggle life and protecting her family's status\u2014is perfectly maintained and even amplified by the film's action.",
+        "character_arc": "The film presents her arc as one of shock and eventual acceptance of the 'normal' status quo, whereas the book implies a more gradual, internalized struggle with her sister's existence that is less overtly dramatic."
+      },
+      "key_observations": "The film excels at dramatizing her outward performance of normalcy, making her antagonism clear, though the book gives more depth to her internal conflict regarding her sister.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 271,
+    "book_mentions": 531
+  }
+}

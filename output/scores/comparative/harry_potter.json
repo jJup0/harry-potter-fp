@@ -1,0 +1,36 @@
+{
+  "character": "Harry Potter",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 24.0,
+    "motivations": 23.0,
+    "character_arc": 22.0,
+    "total": 91.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 24,
+      "motivations": 23,
+      "character_arc": 22,
+      "justification": {
+        "personality": "The core traits (bravery, curiosity, underlying goodness) are maintained, but the film often emphasizes his immediate emotional reactions and physical vulnerability more than the book's internal processing.",
+        "narrative_role": "The central protagonist role is perfectly preserved, driving the plot through survival and discovery.",
+        "motivations": "His core motivations\u2014survival, protecting loved ones, and discovering his identity\u2014are intact. The film slightly streamlines the depth of his longing for belonging.",
+        "character_arc": "The arc of moving from victim to reluctant hero is clear. The film captures the key milestones (discovering magic, facing danger) but condenses the emotional weight of the early years compared to the books."
+      },
+      "key_observations": "The film adaptation is highly faithful, capturing the essential beats and emotional beats of the early books, though some internal narrative development is necessarily condensed for screen time.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 12159,
+    "book_mentions": 19651
+  }
+}

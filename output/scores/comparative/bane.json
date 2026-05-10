@@ -1,0 +1,36 @@
+{
+  "character": "Bane",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays him as highly volatile, aggressive, and deeply resentful of human interference, which is somewhat toned down or less emphasized in the film's depiction.",
+        "narrative_role": "His role as a powerful, antagonistic force representing the wild magic/natural order is largely maintained, though the specific confrontations differ.",
+        "motivations": "His core motivation\u2014defending the forest and challenging human encroachment\u2014is present, but the depth of his anger and sense of proprietary ownership over the forest is less pronounced in the film.",
+        "character_arc": "The book implies a complex, shifting relationship with the human world and Firenze. The film often presents him as a more static antagonist, limiting any significant arc."
+      },
+      "key_observations": "The film captures his imposing presence and hostility, but loses the rich, complex internal conflict and the nuanced relationship dynamics established in the book's extended scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 6881,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 29
+  }
+}

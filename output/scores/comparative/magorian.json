@@ -1,0 +1,36 @@
+{
+  "character": "Magorian",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays Magorian as highly articulate, authoritative, and deeply offended by perceived slights (like the 'near-human intelligence' comment). The film adaptation often reduces this complex, eloquent anger to more generalized hostility, losing some of the intellectual bite.",
+        "narrative_role": "The book establishes Magorian as a key enforcer of centaur law and a direct antagonist to the Ministry's overreach, a role that is generally maintained in the film's depiction of the confrontation.",
+        "motivations": "The core motivation\u2014defending centaur honor, protecting the forest, and reacting to the betrayal by Firenze\u2014is present in both, but the book gives more weight to the specific legal/honorary grievances.",
+        "character_arc": "The book implies a simmering tension and a potential for change or at least a clear statement of boundaries. The film's portrayal, due to the nature of the confrontation, leaves the arc underdeveloped or unresolved in a way that feels less consequential than the book's build-up."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 3470,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 18
+  }
+}

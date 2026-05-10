@@ -1,0 +1,36 @@
+{
+  "character": "Argus Filch",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 77.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his general unpleasantness and role as a rule enforcer, but the book provides more depth to his interactions (e.g., Scene 17).",
+        "narrative_role": "His primary function as the antagonistic authority figure in the corridors is strongly maintained in both media.",
+        "motivations": "His core motivation\u2014maintaining order and catching rule-breakers\u2014is consistent, though the film doesn't explore the nuances of his relationship with Snape as deeply as the book.",
+        "character_arc": "The book shows more potential for interaction and conflict (e.g., the confrontation with the dog, the staffroom scene) that the film streamlines or omits, resulting in a less developed arc."
+      },
+      "key_observations": "The film uses Filch effectively to build tension, particularly around the forbidden corridor, but the book gives him more varied and impactful moments of presence.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 307,
+    "book_mentions": 285
+  }
+}

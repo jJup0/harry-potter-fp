@@ -1,0 +1,36 @@
+{
+  "character": "Blaise Zabini",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 77.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his cool, slightly detached, and somewhat superior demeanor, but the depth of his disdain for Malfoy and his intellectual sparring with Harry in the books is somewhat lessened.",
+        "narrative_role": "His role as a key Slytherin peer who interacts with Harry during the train sequence is maintained, which is crucial for plot development.",
+        "motivations": "His core motivation\u2014maintaining his status and observing the dynamics between the main characters\u2014is present, but the specific intellectual sparring with Malfoy regarding Slughorn's motives is less pronounced.",
+        "character_arc": "The books give him more subtle moments of observation and implied depth. The films tend to keep him as a static, cool supporting character without significant visible development."
+      },
+      "key_observations": "The film adaptation generally keeps him in the background as a cool, aloof Slytherin peer, preserving his general attitude but losing some of the sharp, witty dialogue and observational weight he carries in the book's train scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 3,
+    "book_mentions": 50
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "James Potter II",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 17.0,
+    "character_arc": 12.0,
+    "total": 62.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 17,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film snippets focus heavily on the mystery surrounding his death and his general 'fun-loving' nature, which is present in the books, but the depth and specific interactions shown in the book corpus are not replicated in the film excerpts provided.",
+        "narrative_role": "His role as the deceased, heroic father figure is maintained in both, but the film excerpts do not give him a distinct, active narrative role beyond being the subject of discussion.",
+        "motivations": "His core motivations (love for Lily, friendship with Sirius) are book-centric. The film material is too sparse to confirm his motivations are portrayed faithfully.",
+        "character_arc": "His arc is defined by his memory and the revelations about his death (murdered, not in a car crash), which is a key book element not strongly reflected in the provided film context."
+      },
+      "key_observations": "The provided film corpus is overwhelmingly composed of user comments *about* the book/movie, rather than direct scene descriptions of James Potter II's actions or dialogue. Therefore, scoring faithfulness is difficult, but the general tone and key revelations (e.g., the truth about his death) seem to be better preserved in the book excerpts.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Igor Karkaroff",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his initial unctuousness and later desperation, but the book provides more nuanced shifts in tone (e.g., the shift from paternal to openly hostile).",
+        "narrative_role": "His role as the antagonistic foreign headmaster and participant in the Triwizard Tournament is well-preserved.",
+        "motivations": "His desire to maintain status and his underlying allegiance to darker elements are present, though the depth of his conflict with Moody/Dumbledore is slightly diminished in the film's pacing.",
+        "character_arc": "The book shows a more pronounced, though brief, arc of confrontation and retreat. The film presents him more as a static antagonist within the tournament structure."
+      },
+      "key_observations": "The film captures the major plot beats involving Karkaroff (Triwizard introduction, confrontation with Moody), but the book allows for more extended, character-driven confrontations that give his personality more room to breathe.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 44,
+    "book_mentions": 177
+  }
+}

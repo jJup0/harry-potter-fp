@@ -1,0 +1,36 @@
+{
+  "character": "Merope Gaunt",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film significantly downplays her agency and complexity, reducing her to a mere plot device rather than the nuanced character described in the books.",
+        "narrative_role": "Her role is drastically minimized; she is largely absent from the film's focus, unlike the books where she is central to the Riddle backstory.",
+        "motivations": "The film fails to convey the depth of her emotional turmoil, her desperation, or the complex motivations behind her actions as detailed by Dumbledore in the books.",
+        "character_arc": "The book details a potential, albeit tragic, arc of self-discovery and loss of power; the film presents no discernible arc for her."
+      },
+      "key_observations": "The film largely omits Merope Gaunt, reducing her to a brief, underdeveloped mention compared to her significant, complex role in the book's lore.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 11324,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

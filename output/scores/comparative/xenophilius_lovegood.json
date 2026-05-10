@@ -1,0 +1,36 @@
+{
+  "character": "Xenophilius Lovegood",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 18.0,
+    "total": 80.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his eccentric nature and love for the unusual, but the book portrays him as more consistently eccentric and less overtly dramatic in his pronouncements.",
+        "narrative_role": "His role as the eccentric, knowledgeable source of information (especially regarding the Hallows) is maintained, though the film gives him more direct plot involvement.",
+        "motivations": "His core motivation\u2014sharing unusual knowledge and supporting the unconventional\u2014is present, but the film emphasizes his connection to the Dark Arts history more heavily than the books.",
+        "character_arc": "The book shows him as a background fixture whose eccentricities are part of the tapestry; the film gives him a more active, albeit brief, role in the main plot revelations, slightly altering his perceived arc."
+      },
+      "key_observations": "The film adaptation gives Xenophilius a more pronounced and dramatic role in revealing the Deathly Hallows symbol, whereas the books keep him more firmly in the realm of background eccentricity.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 253,
+    "book_mentions": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Winky",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film significantly tones down the depth of her emotional turmoil and the complex relationship with Crouch, making her seem more peripheral and less volatile than in the books.",
+        "narrative_role": "Her role as the catalyst for exposing Crouch's wrongdoing and highlighting the plight of house-elves is largely maintained, though less dramatically intense.",
+        "motivations": "Her core motivations\u2014fear of being free, fear of Crouch's wrath, and desire for servitude\u2014are present, but the depth of her attachment and subsequent distress is lessened.",
+        "character_arc": "The book allows for a more complex arc of initial fear, defiance, and eventual, though painful, liberation. The film simplifies this, making her arc feel less earned and more purely reactive."
+      },
+      "key_observations": "The film retains the key plot points involving the Dark Mark and Crouch, but sacrifices much of the rich, emotionally complex characterization and the nuanced development of her relationship with her master found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 160
+  }
+}

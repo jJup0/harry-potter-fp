@@ -1,0 +1,36 @@
+{
+  "character": "Nigel",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 25.0,
+    "total": 78.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 25,
+      "justification": {
+        "personality": "The film depiction captures his slightly smug, intrusive nature, but the book context might give him more depth than shown in this brief appearance.",
+        "narrative_role": "His role as the catalyst for the Weasley/Harry/Hermione tension regarding the gift is preserved.",
+        "motivations": "His motivation to deliver the parcel and observe the reactions is clear and consistent.",
+        "character_arc": "Since his appearance is so brief and serves only a single function (delivering the parcel), his 'arc' is essentially complete and faithfully executed in the film's structure."
+      },
+      "key_observations": "Nigel's role is highly limited in both corpora, but the film scene accurately captures the essence of his brief, slightly disruptive interaction.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 0,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 60,
+    "book_mentions": 0
+  }
+}

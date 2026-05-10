@@ -1,0 +1,36 @@
+{
+  "character": "Horace Slughorn",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 15.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 15,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film captures his jovial, self-important, and nostalgic nature well, but the book's more subtle, almost manipulative, intellectualism is sometimes lost to the film's more overt theatricality.",
+        "narrative_role": "The core function\u2014the mentor/gatekeeper who reveals secrets and is manipulated by Dumbledore\u2014is preserved, though the film adds more overt 'showmanship.'",
+        "motivations": "The film emphasizes his desire for status and being part of an elite circle, which is accurate, but the book presents his motivations as a more complex blend of nostalgia, comfort, and self-preservation, which the film simplifies.",
+        "character_arc": "The film's arc is more dramatic and immediate (being cornered by Dumbledore), whereas the book's arc is more gradual, leading to a more reluctant, but ultimately accepting, return to duty."
+      },
+      "key_observations": "The film excels at capturing the *vibe* and key moments (the reveal of Lily/Sirius, the potion class) but smooths over some of the book's more nuanced, almost passive-aggressive, characterization.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1889,
+    "book_mentions": 441
+  }
+}

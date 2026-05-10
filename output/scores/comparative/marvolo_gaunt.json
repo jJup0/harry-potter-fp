@@ -1,0 +1,36 @@
+{
+  "character": "Marvolo Gaunt",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film captures his general arrogance and sense of superiority, but the depth of his disdain and the specific, rambling nature of his dialogue (especially regarding pure-blood supremacy) are significantly toned down or lost.",
+        "narrative_role": "His role as the gatekeeper/antagonist figure blocking the Ministry's path to Morfin is largely preserved, making him functionally similar.",
+        "motivations": "His core motivation\u2014preserving the Gaunt lineage's perceived purity and status\u2014is present, but the film doesn't give enough screen time to fully explore the depth of his desperation or his connection to the Peverell ring.",
+        "character_arc": "The books show a character who is deeply entrenched in his beliefs, while the film presents him as more of a static obstacle. The lack of significant development in the film means the arc is underdeveloped compared to the source material's implication of decline."
+      },
+      "key_observations": "The film retains the core conflict (Gaunt vs. Ministry) but sacrifices much of the rich, verbose, and historically steeped characterization present in the book descriptions.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

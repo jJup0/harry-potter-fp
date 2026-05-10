@@ -1,0 +1,36 @@
+{
+  "character": "Mundungus Fletcher",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 19.0,
+    "character_arc": 15.0,
+    "total": 72.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 19,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his general rogueish, unrefined, and slightly pathetic demeanor, but the book provides a much broader, more consistently irritating, and varied comedic presence. The film focuses heavily on specific moments (Polyjuice, Grimmauld Place) rather than his overall character texture.",
+        "narrative_role": "His role as a low-level, recurring nuisance/comic relief is maintained in both, but the book gives him more varied interactions (e.g., with Mrs. Figg, the Weasleys' Christmas).",
+        "motivations": "His core motivation\u2014greed and self-interest\u2014is present in both. The film highlights his desire for money (the locket), which is a key element, but the book shows this motivation in more diverse ways.",
+        "character_arc": "The book suggests a slight, albeit reluctant, redemption (rescuing Ron), whereas the film keeps him firmly in his established role as a morally dubious character, showing less development."
+      },
+      "key_observations": "The film adaptation utilizes Mundungus effectively in key plot points (Polyjuice, Grimmauld Place), retaining his core essence, but the book allows for a much richer, more consistent portrayal of his irritating, low-stakes antics.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 9100,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 116,
+    "book_mentions": 149
+  }
+}

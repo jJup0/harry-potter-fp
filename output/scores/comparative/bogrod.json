@@ -1,0 +1,36 @@
+{
+  "character": "Bogrod",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film portrays him as more overtly compliant and less subtly manipulative than the book suggests, especially when under the Imperius Curse, but his core demeanor remains.",
+        "narrative_role": "His role as the key vault operator and guide is maintained, which is crucial to the plot.",
+        "motivations": "His motivation to maintain control and authority within the bank structure is strongly present in both, though the film emphasizes this more dramatically.",
+        "character_arc": "The book implies a gradual shift in his relationship with the trio and the bank's rules; the film presents a more static portrayal of his authority, making the arc less pronounced."
+      },
+      "key_observations": "The film captures the essential function of Bogrod (the knowledgeable, powerful goblin), but the nuances of his characterization and the depth of his internal conflict are somewhat flattened compared to the source material.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 3773,
+        "film_chars_sent": 10593,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 51,
+    "book_mentions": 15
+  }
+}

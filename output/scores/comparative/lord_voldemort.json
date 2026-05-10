@@ -1,0 +1,36 @@
+{
+  "character": "Lord Voldemort",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his menace and desire for power, but the book provides more nuanced glimpses into his history and psychological manipulation (e.g., through Quirrell and the diary), which are often simplified or omitted in the films.",
+        "narrative_role": "The core role as the ultimate antagonist is preserved across both, though the specific methods of his resurrections and influence vary.",
+        "motivations": "The core motivation\u2014the desire for power, immortality, and supremacy\u2014is consistent. However, the book delves deeper into his intellectual arrogance and specific historical grievances (like the Slytherin lineage), which are sometimes downplayed in the films.",
+        "character_arc": "The book presents a more complex, evolving villainy, showing him as a manipulative mastermind who adapts through different vessels. The film tends to keep him a more static, purely evil force, especially in his initial appearances."
+      },
+      "key_observations": "The film is highly successful at conveying his terror and power, but the book's detailed exposition regarding his history, intellectual cruelty, and the mechanics of his influence (like the diary) are richer and more varied.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 2541,
+    "book_mentions": 1835
+  }
+}

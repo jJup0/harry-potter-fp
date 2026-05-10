@@ -1,0 +1,36 @@
+{
+  "character": "Minerva McGonagall",
+  "overall": {
+    "personality": 23.0,
+    "narrative_role": 24.0,
+    "motivations": 22.0,
+    "character_arc": 20.0,
+    "total": 89.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 23,
+      "narrative_role": 24,
+      "motivations": 22,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The film captures her stern, authoritative, and deeply caring nature, though the book's internal exasperation with Dumbledore is slightly toned down in the film's immediate interactions.",
+        "narrative_role": "Her role as the guardian, disciplinarian, and guide through key moments (arrival, sorting) is highly preserved and arguably more visible in the film.",
+        "motivations": "Her primary motivations\u2014protecting the students and upholding order\u2014are intact. The book emphasizes her intellectual exasperation with Dumbledore's secrecy, which is present but less central in the film's action.",
+        "character_arc": "The film shows her initial shock and subsequent acceptance of the new reality (Harry's arrival) effectively, but the book gives more room for her internal processing of the events."
+      },
+      "key_observations": "The film excels at translating her visible authority and key plot points (arrival, sorting) while slightly smoothing over the book's more complex, dialogue-heavy moments of intellectual conflict with Dumbledore.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1974,
+    "book_mentions": 1349
+  }
+}

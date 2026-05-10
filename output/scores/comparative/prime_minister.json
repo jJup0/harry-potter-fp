@@ -1,0 +1,36 @@
+{
+  "character": "Prime Minister",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film captures his general arrogance and tendency to overreact, but the book provides a much broader, more consistently bureaucratic portrayal of his incompetence and political maneuvering, which is lost in the film's focus on the climax.",
+        "narrative_role": "The film successfully maintains his role as the primary antagonist/obstacle to Harry's truth, which is his most crucial function. The book spreads this role out over many interactions.",
+        "motivations": "The film emphasizes his fear of scandal and maintaining the status quo (especially regarding Muggle visibility). The books show a deeper, more consistent motivation rooted in political self-preservation and fear of Dumbledore's influence.",
+        "character_arc": "The book shows a slow, creeping decline in credibility through multiple interactions (e.g., with Hagrid, Madam Rosmerta). The film presents him as a single, highly effective obstacle in the Ministry setting, making his arc feel more sudden and less developed."
+      },
+      "key_observations": "The film captures the *essence* of his antagonism (the Ministry confrontation) but misses the *breadth* of his political ineptitude shown across the book's various encounters.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 3374,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

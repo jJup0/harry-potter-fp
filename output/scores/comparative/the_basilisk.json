@@ -1,0 +1,36 @@
+{
+  "character": "the Basilisk",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book establishes a complex, almost mythical creature with specific weaknesses (rooster crow, mirror reflection, etc.). The film tends to treat it more as a straightforward, purely lethal threat without fully exploring the nuances of its described behavior.",
+        "narrative_role": "The core function\u2014the primary obstacle guarding the Horcrux and driving the climax\u2014is perfectly preserved in the film.",
+        "motivations": "The book details its function as a guardian linked to Slytherin's heir, giving it a deeper narrative purpose. The film focuses more on its immediate lethality rather than its symbolic role.",
+        "character_arc": "Since the Basilisk is a monster, it has no true 'arc.' The book builds suspense around its potential and mystery, while the film presents it as a singular, immediate threat that must be overcome."
+      },
+      "key_observations": "The film captures the creature's deadly nature and its pivotal role in the plot's climax, but it sacrifices some of the rich, almost folkloric detail and the build-up of mystery present in the book's descriptions.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 11546,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

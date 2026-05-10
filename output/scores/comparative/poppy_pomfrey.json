@@ -1,0 +1,36 @@
+{
+  "character": "Poppy Pomfrey",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 68.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film generally maintains her role as the competent nurse, but the depth of her characterization and interactions are significantly reduced compared to the book's implied presence.",
+        "narrative_role": "Her role as the primary healer is preserved, but the specific, detailed interactions shown in the book (like caring for Winky) are either omitted or generalized in the film.",
+        "motivations": "Her core motivation\u2014caring for the injured and sick\u2014remains consistent, which is the most faithfully portrayed element.",
+        "character_arc": "Because the film only shows her in brief, functional capacities, any potential arc is underdeveloped or missing entirely compared to the book's potential for deeper involvement."
+      },
+      "key_observations": "The film uses her primarily as a functional background character (the healer) rather than developing her personality or role beyond immediate necessity.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 682,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 79,
+    "book_mentions": 155
+  }
+}

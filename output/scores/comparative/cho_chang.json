@@ -1,0 +1,36 @@
+{
+  "character": "Cho Chang",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 19.0,
+    "motivations": 18.0,
+    "character_arc": 17.0,
+    "total": 72.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 19,
+      "motivations": 18,
+      "character_arc": 17,
+      "justification": {
+        "personality": "The film portrays her as a background presence, losing the depth and specific interactions detailed in the books (e.g., her connection to the Quidditch match build-up).",
+        "narrative_role": "Her role is significantly diminished; she is present but lacks the key moments of connection or conflict seen in the books.",
+        "motivations": "Her personal motivations are largely absent in the film excerpts provided, reducing her to a supporting character in group scenes.",
+        "character_arc": "The film does not capture the development of her relationship with Harry or her place in the overall narrative structure as strongly as the books do."
+      },
+      "key_observations": "The film adaptation minimizes Cho Chang's presence and narrative importance compared to the detailed book descriptions, particularly regarding her relationship with Harry and her role in the Quidditch narrative.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 9802,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 127,
+    "book_mentions": 231
+  }
+}

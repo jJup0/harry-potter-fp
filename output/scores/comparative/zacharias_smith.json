@@ -1,0 +1,36 @@
+{
+  "character": "Zacharias Smith",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 5.0,
+    "character_arc": 0.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 5,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The film significantly diminishes his role, making his personality largely irrelevant or absent compared to the book's portrayal of him as an irritating, outspoken, and sometimes antagonistic character.",
+        "narrative_role": "His role as a recurring, irritating foil to Harry and the main group is almost entirely removed from the film's focus.",
+        "motivations": "His primary motivations in the books (to challenge authority, to provoke, to be noticed) are not given sufficient weight or context in the film adaptation.",
+        "character_arc": "Since his character is sidelined or removed from major plot points, any discernible arc is lost or nonexistent in the film compared to the book's build-up of his antagonism."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 24
+  }
+}

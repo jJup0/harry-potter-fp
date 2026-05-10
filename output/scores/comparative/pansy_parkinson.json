@@ -1,0 +1,36 @@
+{
+  "character": "Pansy Parkinson",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film captures her general sneering, gleeful malice, and association with Malfoy, but the book provides a much broader and more consistent pattern of bullying and mockery across multiple settings (e.g., the Great Hall, Herbology, Quidditch). The film scenes are highly selective.",
+        "narrative_role": "Her primary role as a consistent, gleeful antagonist/foil to Hermione is preserved, especially in the major confrontation scenes (Triwizard/Battle).",
+        "motivations": "Her core motivation\u2014to mock and uphold Slytherin superiority\u2014is present, but the book shows a more varied spectrum of petty cruelty, whereas the film focuses heavily on the high-stakes antagonism.",
+        "character_arc": "The book shows her presence across multiple years and events, implying a continuous, if minor, antagonistic presence. The film only captures her in peak antagonistic moments, giving her no discernible arc of change or growth."
+      },
+      "key_observations": "The film adaptation utilizes Pansy's established role as a primary tormentor, but the book provides a much richer, more frequent, and varied depiction of her antagonistic interactions, making the film feel more condensed.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 12572,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 34,
+    "book_mentions": 96
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Phineas Nigellus Black",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film significantly reduces his biting wit and complex, judgmental nature seen in the book, making him less consistently abrasive and more peripheral.",
+        "narrative_role": "His role is heavily diminished in the films compared to the book, where he is a major source of exposition and conflict. In the films, his appearances are minimal or non-existent in the key narrative moments.",
+        "motivations": "His primary motivations in the book\u2014preserving tradition, judging the current generation, and asserting authority\u2014are present but underdeveloped in the films.",
+        "character_arc": "The book allows for a complex, albeit judgmental, interaction that hints at his relationship with the current events. The film largely fails to give him any discernible arc, reducing him to a momentary gag or background presence."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

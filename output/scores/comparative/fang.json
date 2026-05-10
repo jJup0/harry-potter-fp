@@ -1,0 +1,36 @@
+{
+  "character": "Fang",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core traits (loyal, large, protective of Hagrid/Harry) are present, but the film often makes him react more dramatically or less consistently than the book.",
+        "narrative_role": "His role as Hagrid's loyal, imposing companion in the Forbidden Forest is maintained, which is crucial to the plot.",
+        "motivations": "His primary motivation\u2014protecting Hagrid and Harry\u2014is consistent, though the film emphasizes his fear/panic more.",
+        "character_arc": "The book shows him participating in the adventure, while the film's depiction of his fear and subsequent actions feel slightly more reactive and less integrated into a clear arc."
+      },
+      "key_observations": "The film captures the key moments (like the unicorn encounter) but sometimes exaggerates his fear or diminishes his presence compared to the book's more consistent depiction of him accompanying the group.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 11005,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

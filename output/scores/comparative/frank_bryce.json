@@ -1,0 +1,36 @@
+{
+  "character": "Frank Bryce",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 15.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 15,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The book establishes him as a quiet, traumatized man; the film uses him purely as a disposable plot device in a dream sequence, stripping away his established characterization.",
+        "narrative_role": "In the book, he is a key figure in a mystery/murder investigation. In the film, he is reduced to a single, immediate casualty used to advance the plot's tension.",
+        "motivations": "The book implies a life of quiet routine and potential suspicion. The film gives him no discernible motivation other than being present for Voldemort's machinations.",
+        "character_arc": "The book features a clear, albeit brief, arc of suspicion leading to his death. The film's depiction is a single, abrupt death scene with no subsequent development or impact on his characterization."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 1808,
+        "film_chars_sent": 2525,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 2,
+    "book_mentions": 6
+  }
+}

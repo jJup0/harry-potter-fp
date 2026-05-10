@@ -1,0 +1,36 @@
+{
+  "character": "Lucius Malfoy",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his arrogance and disdain, but the book provides much more depth to his manipulative nature and specific interactions (e.g., with the Ministry/Borgin). The film version feels more confined to specific antagonistic moments.",
+        "narrative_role": "The core function\u2014antagonist to Harry/Weasleys, representative of pure-blood prejudice\u2014is maintained, though the scope of his influence is reduced in the film.",
+        "motivations": "His core motivations (maintaining status, adherence to pure-blood ideology, fear of exposure) are present, but the book details his political maneuvering (e.g., regarding the Ministry/governorship) more thoroughly.",
+        "character_arc": "The film shows his fall from grace (being exposed/defeated) but lacks the nuanced, drawn-out political decline seen in the books, making his arc feel more abrupt."
+      },
+      "key_observations": "The film successfully captures his villainous essence and key confrontations (Borgin & Burkes, Ministry), but the book provides a richer tapestry of his political maneuvering and character depth.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 741,
+    "book_mentions": 222
+  }
+}

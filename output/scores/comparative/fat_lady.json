@@ -1,0 +1,36 @@
+{
+  "character": "Fat Lady",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film version is more straightforward and less capricious than the book's depiction, losing some of the humorous unpredictability.",
+        "narrative_role": "The core function of guarding the entrance remains intact, which is crucial to the plot.",
+        "motivations": "The book shows her reacting to specific events (like the attack or the changing passwords), giving her more reactive motivation than the film's single, functional appearance.",
+        "character_arc": "The film offers almost no arc for the Fat Lady; she is a static plot device, whereas the books show her reacting to major changes in the school's status."
+      },
+      "key_observations": "The film uses the Fat Lady primarily as a functional door mechanism, whereas the books treat her as a more active, if sometimes grumpy, character participant in the ongoing life of Hogwarts.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 712,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

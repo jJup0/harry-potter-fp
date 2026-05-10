@@ -1,0 +1,36 @@
+{
+  "character": "Hermione Granger",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 21.0,
+    "character_arc": 22.0,
+    "total": 88.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 21,
+      "character_arc": 22,
+      "justification": {
+        "personality": "Film captures her intelligence and initial bossiness well, but the book's depth of academic obsession is slightly toned down for cinematic pacing.",
+        "narrative_role": "Her role as the primary source of knowledge and moral compass is strongly maintained.",
+        "motivations": "Her core motivation\u2014the desire to learn and prove herself knowledgeable\u2014is present, though the film sometimes underplays the depth of her anxiety regarding knowledge gaps.",
+        "character_arc": "The film handles her growth well, especially in showing her confidence, though the book allows for more internal struggle regarding her reliance on books."
+      },
+      "key_observations": "The film adaptation is highly faithful, capturing her defining traits and importance to the trio, though some of her more verbose, book-cramming moments are streamlined.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 6015,
+    "book_mentions": 5359
+  }
+}

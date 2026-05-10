@@ -1,0 +1,36 @@
+{
+  "character": "Dobby",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core traits (earnestness, dramatic physical comedy, extreme devotion) are present, but the film often sanitizes the raw, desperate nature of his warnings and self-punishment seen in the book.",
+        "narrative_role": "The primary function\u2014warning Harry about the danger at Hogwarts and the Chamber\u2014is perfectly preserved and even amplified in the film.",
+        "motivations": "His core motivations (freedom, protecting Harry, warning against danger) are intact. The film captures the urgency, though the book delves deeper into the historical/societal context of house-elf slavery.",
+        "character_arc": "The book allows for a more complex, drawn-out arc of Dobby's influence on Harry's understanding of the world. The film compresses this, making his impact more immediate and focused on the immediate threat, thus slightly diminishing the depth of his arc."
+      },
+      "key_observations": "The film captures the essential, high-stakes moments of Dobby's character (the warnings, the pudding incident) very well, making him highly recognizable, but the book provides more nuance regarding the systemic oppression he speaks against.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 600,
+    "book_mentions": 467
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Vincent Crabbe",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film portrays him as a background thug, which is consistent, but the book gives more specific, albeit minor, interactions showing his general lack of intelligence and loyalty to Malfoy. The film scenes are less detailed in capturing his specific mannerisms.",
+        "narrative_role": "His primary role as a physical enforcer and Malfoy's sidekick is maintained in both media, which is his main narrative function.",
+        "motivations": "His motivation remains tied to following Malfoy's lead and asserting dominance through brute force, which is consistent. The book provides more context to this following.",
+        "character_arc": "Both media show him having virtually no arc. In the book, he remains a static background figure. In the film, he is equally static, serving only to antagonize Harry's group."
+      },
+      "key_observations": "Crabbe is one of the most underdeveloped characters in both mediums. The film adaptation maintains his function as a physical threat, but the book provides slightly more textual evidence of his presence and interactions.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 4,
+    "book_mentions": 232
+  }
+}

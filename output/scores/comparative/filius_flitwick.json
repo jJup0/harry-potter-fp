@@ -1,0 +1,36 @@
+{
+  "character": "Filius Flitwick",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 23.0,
+    "character_arc": 20.0,
+    "total": 88.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 23,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The core traits (small stature, squeaky voice, enthusiasm) are maintained, though the film sometimes portrays him as slightly more involved in major plot points than the books.",
+        "narrative_role": "His role as the Charms teacher and a supportive, knowledgeable staff member is strongly preserved.",
+        "motivations": "His primary motivation\u2014teaching and maintaining order in his class\u2014remains consistent. His concern for the students is clear.",
+        "character_arc": "The book shows him in various supporting roles across years; the film captures his consistent, supportive presence, but the scope of his 'arc' is limited by the film's structure."
+      },
+      "key_observations": "The film captures his essence well, particularly in the Charms class scenes, but the book provides a broader, more consistent presence across different years and events.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 117,
+    "book_mentions": 221
+  }
+}

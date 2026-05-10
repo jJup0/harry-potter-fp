@@ -1,0 +1,36 @@
+{
+  "character": "James Potter",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 17.0,
+    "character_arc": 15.0,
+    "total": 70.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 17,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his protective nature and swagger, but the book provides a much deeper, more complex portrait of his relationship with his family and friends, which is diminished in the film's focus.",
+        "narrative_role": "His role as the heroic, charismatic father figure is maintained, though the book gives him more active participation in the mystery surrounding his death.",
+        "motivations": "The core motivation\u2014protecting his family and fighting Voldemort\u2014is present, but the book delves into his complex friendships and the nature of his sacrifice more thoroughly.",
+        "character_arc": "The book implies a more active, if tragic, role in the events leading up to his death and the mystery surrounding his legacy, which is largely reduced to a static memory in the film."
+      },
+      "key_observations": "The film uses James's memory primarily as exposition and emotional anchor, whereas the books weave him into more active narrative threads regarding his life and the secrets of the wizarding world.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 5217,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

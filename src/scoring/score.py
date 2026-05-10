@@ -6,19 +6,19 @@ Scores each character on 4 dimensions (each out of 25, total 100):
   - Personality, Narrative Role, Motivations, Character Arc
 
 Usage:
+  python3 -u src/scoring/score.py --backend comparative --top 216
+  python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
   python3 src/scoring/score.py --backend rule_based --top 20
-  python3 src/scoring/score.py --backend kiro --characters "Dobby"
-  python3 src/scoring/score.py --backend openai --top 10
 
-Backends (--backend):
-  - rule_based: deterministic heuristics (placeholder - scores by corpus size, NOT real FP)
-  - openai: any OpenAI-compatible API (OpenAI, ollama, litellm, etc.)
-  - kiro: pipes prompt to kiro-cli --no-interactive
+Resume logic:
+  Writes individual JSON files per character to output/scores/<backend>/.
+  On resume, skips characters that already have a score file with the same
+  model AND prompt major version. Changing the model or bumping the prompt
+  major version (e.g. 1.x -> 2.x) triggers a rescore. Minor version bumps
+  (e.g. 1.0 -> 1.1) do NOT trigger a rescore.
 
-KNOWN ISSUE: Both LLM backends (kiro, openai) currently fail with all-zero scores.
-The fundamental design flaw is that the scorer sends one source at a time (just book
-OR just screenplay), but FP requires comparing book vs film together.
-See PLAN.md task #1.
+  Prompt version is read from the first line of src/scoring/prompts/scoring_prompt.txt:
+    # version: <major>.<minor>
 """
 import json
 import os
@@ -26,7 +26,6 @@ import sys
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-# Uses v2 corpus (better screenplay sources, duplicates cleaned up).
 CORPUS_DIR = os.path.join(PROJECT_ROOT, "data", "v2", "corpus")
 CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "v2", "characters.yaml")
 METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "metrics")
@@ -34,14 +33,11 @@ CONFIG_FILE = os.path.join(PROJECT_ROOT, "config.yaml")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scores")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Add scoring dir to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]
-BACKENDS = ['rule_based', 'openai', 'kiro', 'comparative']
+BACKENDS = ['comparative']
 
-# Generic words that got picked up as character names during corpus building.
-# Skip these during scoring - they're not real characters.
 SKIP_CHARACTERS = {
     'You', 'All', 'Voice', 'Hogwarts', 'Weasley', 'Everyone', 'Someone',
     'Crowd', 'Boy', 'Man', 'Woman', 'Girl', 'Student', 'Students',
@@ -75,17 +71,16 @@ def load_corpus(char_name):
     return corpus
 
 
+def char_score_path(backend, char_name):
+    """Path to individual character score file."""
+    safe = char_name.lower().replace(' ', '_').replace('.', '_').replace("'", '_')
+    d = os.path.join(OUTPUT_DIR, backend)
+    os.makedirs(d, exist_ok=True)
+    return os.path.join(d, f'{safe}.json')
+
+
 def get_scorer(backend):
-    if backend == 'rule_based':
-        import scorer_rule_based
-        return scorer_rule_based.score_character
-    elif backend == 'openai':
-        import scorer_openai
-        return scorer_openai.score_character
-    elif backend == 'kiro':
-        import scorer_kiro
-        return scorer_kiro.score_character
-    elif backend == 'comparative':
+    if backend == 'comparative':
         import scorer_comparative
         return scorer_comparative.score_character
     else:
@@ -93,13 +88,6 @@ def get_scorer(backend):
 
 
 def aggregate_scores(per_source_scores):
-    """Aggregate per-source scores into a single overall score.
-    
-    WARNING: Current weighting is flawed - weights by scene/paragraph count,
-    so a character with 1000 book paragraphs and 5 screenplay scenes gets
-    book-dominated scores. FP should weight book and film evidence equally.
-    This becomes moot once task #1 (compare book+film together) is implemented.
-    """
     if not per_source_scores:
         return {d: 0 for d in DIMENSIONS}
     weights = {}
@@ -143,20 +131,41 @@ def main():
             book_mentions = json.load(f)
 
     print(f"Scoring with '{backend}' backend")
-    all_scores = []
-    scored = 0
 
-    # Resume: load existing scores and skip already-scored characters
-    out_file = f'scores_{backend}.json'
-    out_path = os.path.join(OUTPUT_DIR, out_file)
+    # Determine current model and prompt major version for resume checks
+    current_model = scoring_config.get('llm', {}).get('model', '')
+    prompt_version_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src', 'scoring', 'prompts', 'scoring_prompt.txt')
+    # Try reading from the prompt file directly
+    prompt_file = os.path.join(PROJECT_ROOT, 'src', 'scoring', 'prompts', 'scoring_prompt.txt')
+    current_prompt_major = '0'
+    if os.path.exists(prompt_file):
+        with open(prompt_file) as f:
+            first_line = f.readline().strip()
+        if first_line.startswith('# version:'):
+            ver = first_line.split(':', 1)[1].strip()
+            current_prompt_major = ver.split('.')[0]
+
+    # Resume: check which characters already have individual score files
+    # Skip only if same model AND same prompt major version
     already_scored = set()
-    if os.path.exists(out_path):
-        with open(out_path) as f:
-            all_scores = json.load(f)
-        already_scored = {s['character'] for s in all_scores}
-        if already_scored:
-            print(f"  Resuming: {len(already_scored)} characters already scored")
+    score_dir = os.path.join(OUTPUT_DIR, backend)
+    if os.path.isdir(score_dir):
+        for fname in os.listdir(score_dir):
+            if not fname.endswith('.json'):
+                continue
+            fpath = os.path.join(score_dir, fname)
+            with open(fpath) as f:
+                data = json.load(f)
+            meta = data.get('per_source', {}).get('comparative', {}).get('meta', {})
+            scored_model = meta.get('model')
+            scored_prompt_ver = meta.get('prompt_version', '0.0')
+            scored_major = scored_prompt_ver.split('.')[0]
+            if scored_model == current_model and scored_major == current_prompt_major:
+                already_scored.add(fname[:-5])
+    if already_scored:
+        print(f"  Resuming: {len(already_scored)} characters already scored (model={current_model}, prompt v{current_prompt_major}.x)")
 
+    scored = 0
     try:
         for char in characters:
             name = char['name']
@@ -164,53 +173,63 @@ def main():
                 continue
             if name in SKIP_CHARACTERS:
                 continue
-            if name in already_scored:
+            # Check if already scored by filename
+            safe = name.lower().replace(' ', '_').replace('.', '_').replace("'", '_')
+            if safe in already_scored:
                 continue
-            st = screen_time.get(name, {}).get('_total', 0)
-            bm = book_mentions.get(name, {}).get('_total', 0)
-            if st + bm < min_mentions:
-                continue
-            if args.top and scored >= args.top:
-                break
-
             corpus = load_corpus(name)
             if not corpus['books'] and not corpus['screenplays']:
-                continue
+                st_val = screen_time.get(name, {}).get('_total', 0)
+                bm_val = book_mentions.get(name, {}).get('_total', 0)
+                if st_val + bm_val < min_mentions:
+                    continue
+            if args.top and scored >= args.top:
+                break
 
             print(f"  [{len(already_scored) + scored + 1}] {name}...")
             per_source = score_fn(name, corpus, scoring_config)
             overall = aggregate_scores(per_source)
 
-            all_scores.append({
+            result = {
                 'character': name, 'overall': overall, 'per_source': per_source,
-                'meta': {'screenplay_words': st, 'book_mentions': bm},
-            })
-            scored += 1
+                'meta': {
+                    'screenplay_words': screen_time.get(name, {}).get('_total', 0),
+                    'book_mentions': book_mentions.get(name, {}).get('_total', 0),
+                },
+            }
 
-            # Save incrementally
-            with open(out_path, 'w') as f:
-                json.dump(all_scores, f, indent=2)
+            # Write individual file
+            with open(char_score_path(backend, name), 'w') as f:
+                json.dump(result, f, indent=2)
+
+            scored += 1
     finally:
-        # Cleanup persistent sessions
         if backend == 'kiro':
             import scorer_kiro
             scorer_kiro.shutdown()
 
+    # Collect all individual scores into combined file
+    all_scores = []
+    score_dir = os.path.join(OUTPUT_DIR, backend)
+    if os.path.isdir(score_dir):
+        for fname in sorted(os.listdir(score_dir)):
+            if fname.endswith('.json'):
+                with open(os.path.join(score_dir, fname)) as f:
+                    all_scores.append(json.load(f))
     all_scores.sort(key=lambda x: x['overall'].get('total', 0), reverse=True)
 
-    out_file = f'scores_{backend}.json'
-    out_path = os.path.join(OUTPUT_DIR, out_file)
-    with open(out_path, 'w') as f:
+    combined_path = os.path.join(OUTPUT_DIR, f'scores_{backend}.json')
+    with open(combined_path, 'w') as f:
         json.dump(all_scores, f, indent=2)
 
-    print(f"\nScored {len(all_scores)} characters")
+    print(f"\nScored {len(all_scores)} characters total ({scored} new)")
     print(f"{'Character':<30} {'Pers':>5} {'Role':>5} {'Motiv':>5} {'Arc':>5} {'TOTAL':>7}")
     print("-" * 63)
     for s in all_scores[:25]:
         o = s['overall']
         print(f"{s['character']:<30} {o['personality']:>5} {o['narrative_role']:>5} "
               f"{o['motivations']:>5} {o['character_arc']:>5} {o['total']:>7}")
-    print(f"\nSaved to {out_path}")
+    print(f"\nSaved to {combined_path}")
 
 
 if __name__ == '__main__':

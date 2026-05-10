@@ -1,0 +1,36 @@
+{
+  "character": "Crookshanks",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 23.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 23,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core traits (intelligence, cat-like mischief, affinity for Hermione) are present, but the film often softens the raw, aggressive nature seen in the books, particularly in his interactions with Ron and the general chaos.",
+        "narrative_role": "His role as a catalyst for conflict (especially regarding Scabbers) and a marker of Hermione's connection remains central, which is well-preserved.",
+        "motivations": "His primary motivation\u2014detecting danger or protecting Hermione/the group\u2014is maintained. The book emphasizes his predatory instinct toward rats/danger more intensely than the film allows.",
+        "character_arc": "The book allows for a more complex arc where his loyalty is proven through extreme danger (the tunnel/Black's confrontation). The film streamlines this, making his arc feel more episodic rather than deeply consequential to the main plot's climax."
+      },
+      "key_observations": "The film captures the *spirit* of Crookshanks\u2014the intelligent, slightly chaotic companion\u2014but loses some of the raw, unpredictable aggression and the depth of his connection to the central conflict found in the book's extended scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

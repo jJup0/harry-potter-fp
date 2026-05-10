@@ -1,0 +1,36 @@
+{
+  "character": "Rubeus Hagrid",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 24.0,
+    "motivations": 23.0,
+    "character_arc": 22.0,
+    "total": 91.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 24,
+      "motivations": 23,
+      "character_arc": 22,
+      "justification": {
+        "personality": "The core elements\u2014boisterous, protective, slightly clumsy, and deeply emotional\u2014are maintained, though the film sometimes exaggerates his physical comedy.",
+        "narrative_role": "His role as the primary guide and emotional anchor for Harry in the first book/film is perfectly preserved.",
+        "motivations": "His primary motivations (protecting Harry, revealing the truth, and confronting prejudice) are consistent across both mediums.",
+        "character_arc": "The film captures his initial awe and subsequent acceptance of his role, mirroring the book's progression, though the emotional weight of the revelations is sometimes more dramatic in the film."
+      },
+      "key_observations": "The film adaptation is remarkably faithful to Hagrid's characterization, capturing his warmth and protective nature while slightly amplifying the dramatic moments.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 2879,
+    "book_mentions": 2034
+  }
+}

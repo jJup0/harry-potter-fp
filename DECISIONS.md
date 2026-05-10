@@ -164,6 +164,19 @@ harry-potter-aitor/
 
 ---
 
+## Ollama Comparative Scoring (2026-05-09)
+
+Model `gemma4:e4b` via ollama native API (`/api/chat`). ~20s per character.
+
+Key lessons:
+- Must use native `/api/chat` endpoint with `options.num_ctx: 32768`. The OpenAI-compatible `/v1` endpoint defaults to 4096 context and silently truncates.
+- `format: json` in ollama API forces JSON output. Combined with one-shot example + explicit schema in user message to get correct keys.
+- `gemma4:31b` too slow (>5min per call). `gemma4:e4b` is the sweet spot.
+- After loading a large model, switching to a smaller one can give HTTP 500 until the large model is unloaded (`keep_alive: 0`).
+- Python output buffering hides progress in tmux. Fix: `python3 -u`.
+
+---
+
 ## Known Limitations
 
 - **HP3 screenplay** (Prisoner of Azkaban) has poor coverage in both v1 (script-o-rama format, 1 scene detected) and v2 (only 6 pages). May need manual sourcing.

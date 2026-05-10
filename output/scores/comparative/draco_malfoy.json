@@ -1,0 +1,36 @@
+{
+  "character": "Draco Malfoy",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 73.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his arrogance and disdain, but the book allows for more nuanced moments of fear and vulnerability (e.g., the unicorn incident, the later confrontation with Harry). The film version feels more consistently villainous.",
+        "narrative_role": "His role as the primary antagonist/foil to Harry is strongly maintained in both, but the film's structure sometimes simplifies his function.",
+        "motivations": "His core motivation\u2014maintaining status and superiority\u2014is consistent. However, the book gives more depth to his internal conflict regarding his family's expectations, which is less emphasized in the film.",
+        "character_arc": "The film's arc is more binary (pure villainy vs. temporary defeat). The books show a more gradual, complex, and ultimately more nuanced shift away from pure malice, especially in the later books."
+      },
+      "key_observations": "The film is very good at capturing the *essence* of Draco's antagonism, but the book provides significantly more room for character depth and internal conflict, making the film feel slightly less faithful to his full potential.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1045,
+    "book_mentions": 1708
+  }
+}

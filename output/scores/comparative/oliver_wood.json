@@ -1,0 +1,36 @@
+{
+  "character": "Oliver Wood",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 22.0,
+    "total": 85.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 22,
+      "justification": {
+        "personality": "The film captures his enthusiastic, slightly boastful, and highly knowledgeable nature, but the book allows for more of his detailed coaching and banter.",
+        "narrative_role": "His role as the primary mentor/coach for Harry's Seeker abilities is strongly preserved in both media.",
+        "motivations": "His motivation to build a winning team and elevate Harry's potential is consistent across both sources.",
+        "character_arc": "The book details his coaching process over several scenes, giving a richer sense of his commitment to Harry's development, which is slightly condensed in the film."
+      },
+      "key_observations": "The film captures the essence of Wood's character\u2014the enthusiastic, skilled coach\u2014but the book provides a more comprehensive view of his instructional process.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 276,
+    "book_mentions": 316
+  }
+}

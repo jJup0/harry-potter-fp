@@ -1,0 +1,36 @@
+{
+  "character": "Nymphadora Tonks",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 73.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures her general supportive and somewhat eccentric nature, but the book allows for more depth in her interactions and emotional state (e.g., feeling drawn/ill in the book).",
+        "narrative_role": "Her role as a supportive friend and Ministry colleague is present, but the film often sidelines her compared to the book's more detailed interactions.",
+        "motivations": "Her primary motivation\u2014being a loyal friend and active member of the resistance\u2014is maintained, though the book gives more weight to her personal emotional exhaustion.",
+        "character_arc": "The film's portrayal is less focused on her personal development or internal struggles compared to the book's subtle hints at her weariness and need to leave."
+      },
+      "key_observations": "The film adaptation generally keeps her core traits intact but sacrifices some of the nuanced emotional weight and detailed interactions present in the book's scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 149,
+    "book_mentions": 246
+  }
+}

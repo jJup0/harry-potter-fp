@@ -1,0 +1,36 @@
+{
+  "character": "Narcissa Malfoy",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 24.0,
+    "character_arc": 20.0,
+    "total": 89.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 24,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The core elements\u2014her initial compliance, her deep loyalty to her family/status, and her eventual shift to protecting Draco\u2014are present, though the film emphasizes her emotional fragility more than the book's subtle maneuvering.",
+        "narrative_role": "Her function as the key catalyst for Snape's shift and the protector of Draco is perfectly maintained, especially in the climax.",
+        "motivations": "Her primary motivation\u2014saving Draco\u2014is the central pillar of both versions and is executed with high fidelity. Her fear of exposure is also consistent.",
+        "character_arc": "The book allows for a more gradual, internal shift, while the film compresses this into highly dramatic, visible moments (the Unbreakable Vow). The overall trajectory is preserved, but the pacing is accelerated."
+      },
+      "key_observations": "The film captures the dramatic weight of her pivotal moments (the Unbreakable Vow and the revelation of Harry's survival) very effectively, making her actions feel highly consequential, even if the internal monologue is less detailed than in the book.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 44,
+    "book_mentions": 82
+  }
+}

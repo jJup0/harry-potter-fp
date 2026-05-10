@@ -1,0 +1,36 @@
+{
+  "character": "Parvati Patil",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 15.0,
+    "motivations": 17.0,
+    "character_arc": 12.0,
+    "total": 62.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 15,
+      "motivations": 17,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film version seems to amplify her giggling and superficial nature, while the book shows her participating in more varied social interactions (e.g., with Lavender, Hermione, and in the Boggart scene).",
+        "narrative_role": "Her role is primarily that of a supporting friend/foil to Hermione, which is maintained, but the film focuses heavily on the dance/social aspect, diminishing her role in key plot moments.",
+        "motivations": "Her motivations remain centered on social acceptance and enjoying the festivities, which is consistent, though the book gives her more active participation in group dynamics (e.g., pointing out things to Harry).",
+        "character_arc": "The book shows her interacting with various characters and situations across multiple books, suggesting a more developed, if minor, arc. The film's depiction is limited to a single, highly social event, making her arc feel less developed or truncated."
+      },
+      "key_observations": "The film captures her social energy but seems to flatten her character into a purely decorative, giggling friend, losing some of the subtle interactions seen in the book.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 13820,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 13,
+    "book_mentions": 149
+  }
+}

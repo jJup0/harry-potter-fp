@@ -1,0 +1,36 @@
+{
+  "character": "Pomona Sprout",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 73.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures her nurturing side but sometimes misses the subtle, professional interactions seen in the books.",
+        "narrative_role": "Her role as a supportive member of the faculty is generally maintained.",
+        "motivations": "Her care for the students and the greenhouses remains consistent.",
+        "character_arc": "The film tends to sideline her, making her arc less pronounced than in the books."
+      },
+      "key_observations": "Her characterization is generally supportive but less central than in the source material.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 565,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 169,
+    "book_mentions": 163
+  }
+}

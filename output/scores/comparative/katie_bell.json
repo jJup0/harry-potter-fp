@@ -1,0 +1,36 @@
+{
+  "character": "Katie Bell",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 18.0,
+    "total": 80.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures her role as a skilled, competitive Chaser, but the book provides more depth to her interactions and presence in the general Hogwarts atmosphere.",
+        "narrative_role": "Her primary role as a key member of the Gryffindor Quidditch team is maintained in both, making this role highly consistent.",
+        "motivations": "Her motivation in the films centers around competitive sport, which is consistent. The books show her more integrated into the general student life, which is slightly underrepresented in the film excerpts provided.",
+        "character_arc": "The film excerpts focus heavily on the action of the game, which is consistent with her character's established role, but the book context suggests a more gradual development through shared student experiences."
+      },
+      "key_observations": "The film adaptation accurately portrays her athletic prowess during Quidditch matches, but the book corpus suggests a broader, more integrated presence in the school's daily life.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 40,
+    "book_mentions": 138
+  }
+}

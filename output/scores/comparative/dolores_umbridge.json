@@ -1,0 +1,36 @@
+{
+  "character": "Dolores Umbridge",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core elements\u2014overly sweet, saccharine, bureaucratic, and condescending\u2014are present, but the film often softens the sheer, suffocating malice seen in the books.",
+        "narrative_role": "Her role as the primary antagonist enforcing Ministry control at Hogwarts is strongly maintained.",
+        "motivations": "Her desire to enforce Ministry law and control the curriculum is clear, though the film sometimes underplays the depth of her inherent malice compared to the book's depiction.",
+        "character_arc": "The book allows for a more gradual, insidious build-up of her control. The film's depiction is more episodic, leading to a slightly less developed sense of inevitable downfall."
+      },
+      "key_observations": "The film captures her most recognizable tropes (pink, saccharine voice, bureaucratic control) but loses some of the book's sustained, suffocating atmosphere of oppression.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1010,
+    "book_mentions": 844
+  }
+}

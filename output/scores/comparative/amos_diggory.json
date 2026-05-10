@@ -1,0 +1,36 @@
+{
+  "character": "Amos Diggory",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 83.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures his jovial, slightly over-the-top, and fatherly nature, but the book's depth in his interactions (especially regarding the Ministry/Wand Use) is diluted for pacing.",
+        "narrative_role": "His role as the welcoming, slightly eccentric guide to the World Cup and the initial catalyst for the group's journey is well-preserved.",
+        "motivations": "His primary motivation\u2014to enjoy the World Cup and support his son\u2014is clear. The book gives him more complex motivations regarding Ministry procedure (Wand Use Act), which are simplified in the film.",
+        "character_arc": "His arc is minimal in both media, but the film rushes through the key moments, especially the aftermath of the match, making his impact feel less developed than in the book's extended scenes."
+      },
+      "key_observations": "The film successfully captures his warm, slightly boisterous personality and his role in introducing the group to the World Cup, but it significantly streamlines the complex, procedural elements of his character from the book.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 5,
+    "book_mentions": 11
+  }
+}

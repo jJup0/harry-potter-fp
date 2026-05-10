@@ -1,0 +1,36 @@
+{
+  "character": "Mafalda Hopkirk",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 17.0,
+    "character_arc": 12.0,
+    "total": 62.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 17,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film uses her presence primarily as a plot device (Polyjuice disguise/Ministry official) rather than developing her established personality traits from the books.",
+        "narrative_role": "Her role as a Ministry official/authority figure is maintained, but the film minimizes her interaction beyond plot necessity.",
+        "motivations": "Her core motivation (enforcing Ministry rules/bureaucracy) is present, but the depth of her conflict or personal stakes is lost.",
+        "character_arc": "Since she appears in limited, functional scenes in both, the film does not allow for any discernible evolution or arc for her character."
+      },
+      "key_observations": "Mafalda Hopkirk is significantly reduced in scope in the film adaptation, serving mainly as a plot mechanism rather than a fully realized character.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 2654,
+        "film_chars_sent": 12949
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

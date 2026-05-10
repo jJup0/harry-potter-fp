@@ -1,0 +1,36 @@
+{
+  "character": "Vernon Dursley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 24.0,
+    "motivations": 22.0,
+    "character_arc": 18.0,
+    "total": 84.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 24,
+      "motivations": 22,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The core traits (obsession with normalcy, disdain for magic, bluster) are present, but the film sometimes exaggerates his physical reactions (e.g., the beet face) or makes his anger feel more immediate than the book's slow build.",
+        "narrative_role": "His role as the primary antagonist enforcing 'normalcy' is perfectly maintained, especially in the confrontation scenes.",
+        "motivations": "His fear of the unknown and his desperate need to maintain the illusion of a normal, mundane life are central and consistent across both mediums.",
+        "character_arc": "The book implies a slow, internal resistance to the truth, while the film gives him more overt, dramatic confrontations, slightly accelerating his resistance but keeping the overall trajectory of denial intact."
+      },
+      "key_observations": "The film captures the essence of his antagonism, particularly the confrontation scenes, but the book allows for a slightly more subtle, simmering resentment rather than constant, overt rage.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 585,
+    "book_mentions": 998
+  }
+}

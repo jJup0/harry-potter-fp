@@ -1,0 +1,36 @@
+{
+  "character": "Padma Patil",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 5.0,
+    "motivations": 5.0,
+    "character_arc": 0.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 5,
+      "motivations": 5,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The film largely minimizes her presence, making it difficult to assess consistent traits, but the book implies she is somewhat attention-seeking.",
+        "narrative_role": "Her role is significantly reduced or absent in the film adaptation compared to the book's social context.",
+        "motivations": "Her specific motivations (e.g., attention from Ron) are not highlighted or are lost in the film's focus.",
+        "character_arc": "The book provides glimpses of her social interactions, but the film offers no discernible arc for her character."
+      },
+      "key_observations": "Padma Patil is a minor character whose presence and function are significantly diminished or altered in the film adaptation compared to the book's detailed social interactions.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 2150,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 21,
+    "book_mentions": 29
+  }
+}

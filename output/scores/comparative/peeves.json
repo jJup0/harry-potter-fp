@@ -1,0 +1,36 @@
+{
+  "character": "Peeves",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 77.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures the chaotic, annoying energy but sometimes tones down the sheer volume of pranks and verbal abuse found in the books.",
+        "narrative_role": "His role as the disruptive force/comic relief is maintained, though his specific interactions vary.",
+        "motivations": "His core motivation\u2014causing chaos for amusement\u2014is present, but the depth of his malice or specific targets are sometimes simplified.",
+        "character_arc": "The book shows a more complex, evolving relationship with the characters and the school's structure; the film tends to keep him as a consistent, chaotic element without significant personal growth or decline."
+      },
+      "key_observations": "The film successfully captures the spirit of chaos, but the book allows for a much broader and more detailed portrayal of his interactions with the school's lore and characters.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 162
+  }
+}

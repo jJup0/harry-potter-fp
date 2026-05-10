@@ -1,0 +1,36 @@
+{
+  "character": "Ernie Macmillan",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays him as initially judgmental and later apologetic, showing a clear shift in character. The film largely minimizes these nuanced shifts, presenting him more as a background fixture.",
+        "narrative_role": "In the books, he plays a role in the initial conflict (accusing Harry) and later in the reconciliation. In the films, his role is significantly reduced or absent, making his function less critical.",
+        "motivations": "His initial motivation (supporting the status quo/accusing Harry) is present, but the depth of his eventual remorse and desire for reconciliation, which is key in the book, is not fully realized or shown in the film.",
+        "character_arc": "The book shows a clear arc from suspicion to apology. The film does not give him enough screen time or plot development to showcase a meaningful arc."
+      },
+      "key_observations": "Ernie Macmillan is a character whose development relies heavily on the detailed interactions in the book. The film adaptation significantly underplays his importance and his personal growth.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 126
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Cormac McLaggen",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 12.0,
+    "character_arc": 10.0,
+    "total": 55.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 12,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film version exaggerates his swagger and flirtatiousness (especially with Hermione) in ways the book implies but doesn't explicitly show in the same manner. The book portrays him as more of a background fixture at Slughorn's party.",
+        "narrative_role": "His role as a rival/annoyance is present in both, but the film gives him more overt, antagonistic moments (like the Quidditch match banter).",
+        "motivations": "In the book, his motivations are largely tied to social climbing and association with influential people. The film emphasizes his desire to impress Hermione/Granger, which feels more manufactured.",
+        "character_arc": "Both portray him as largely static characters. The film gives him a more defined, albeit superficial, 'rival' arc during the Quidditch match, which is more pronounced than his book presence."
+      },
+      "key_observations": "The film amplifies his antagonistic and flirtatious nature, making him more visible and aggressive than his more peripheral, background presence in the book's Slughorn scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 14934,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 105,
+    "book_mentions": 89
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Ginny Weasley",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures her initial shyness and later defiance, but the book shows a more consistent, developing confidence that is slightly muted in the film's pacing.",
+        "narrative_role": "Her role as a key supporting character, especially in the Chamber storyline, is maintained, though the film spreads out the focus.",
+        "motivations": "Her core motivations\u2014her growing interest in magic/Harry, and her loyalty to family\u2014are present, but the depth of her internal conflict (especially regarding her diary) is more pronounced in the books.",
+        "character_arc": "The film presents her growth, but the book allows for a more gradual and emotionally resonant development of her self-assurance over the course of the year."
+      },
+      "key_observations": "The film captures the key moments (like the initial squeal and the confrontation), but the book provides more space for her internal emotional journey and development of her magical prowess.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 346,
+    "book_mentions": 789
+  }
+}

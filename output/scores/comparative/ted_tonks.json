@@ -1,0 +1,36 @@
+{
+  "character": "Ted Tonks",
+  "overall": {
+    "personality": 0.0,
+    "narrative_role": 0.0,
+    "motivations": 0.0,
+    "character_arc": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 0,
+      "narrative_role": 0,
+      "motivations": 0,
+      "character_arc": 0,
+      "justification": {
+        "personality": "The character is present in the book corpus but entirely absent from the film corpus, making comparison impossible.",
+        "narrative_role": "His role is entirely confined to the book canon and is not reflected in the films.",
+        "motivations": "No film portrayal exists to assess his motivations against the book canon.",
+        "character_arc": "No film depiction means no arc can be compared or scored."
+      },
+      "key_observations": "Ted Tonks is a character who appears in the book canon but is entirely omitted from the film adaptations.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 2278,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 9
+  }
+}

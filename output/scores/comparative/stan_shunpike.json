@@ -1,0 +1,36 @@
+{
+  "character": "Stan Shunpike",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 15.0,
+    "motivations": 20.0,
+    "character_arc": 10.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 15,
+      "motivations": 20,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film captures his general boisterous, slightly sleazy, and colorful nature, but the depth of his dialogue and specific interactions are significantly reduced.",
+        "narrative_role": "His role as the initial, slightly shady guide to the magical world is present, but the detailed exposition about the wizarding world (like the Black incident) is lost or heavily truncated.",
+        "motivations": "His primary motivation\u2014to entertain and profit from the novelty of the situation\u2014is maintained, though the specific curiosity about Harry's scar is less emphasized.",
+        "character_arc": "The book allows for a more developed, if brief, interaction and lingering presence. The film reduces him to a single, functional encounter, minimizing any potential for growth or lingering impact."
+      },
+      "key_observations": "The film retains the *essence* of Stan's character\u2014the colorful, slightly dodgy conductor\u2014but sacrifices much of the rich, rambling dialogue and world-building exposition found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

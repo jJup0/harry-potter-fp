@@ -1,0 +1,36 @@
+{
+  "character": "Aragog",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film completely omits Aragog's presence, leading to a significant drop in personality fidelity.",
+        "narrative_role": "Aragog's role in providing crucial exposition about the Chamber of Secrets is entirely removed from the film's plot structure.",
+        "motivations": "The core motivation\u2014fear of the school authorities and the Chamber\u2014is lost due to his absence.",
+        "character_arc": "Since he does not appear, there is no character arc to compare or score."
+      },
+      "key_observations": "Aragog is entirely absent from the provided film script excerpts, resulting in low scores across the board as the character's function and presence are lost.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 131,
+    "book_mentions": 48
+  }
+}

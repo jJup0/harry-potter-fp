@@ -1,0 +1,36 @@
+{
+  "character": "Macnair",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 15.0,
+    "total": 68.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his role as a menacing, official enforcer, but the book provides more depth to his menace and interactions (e.g., the specific interactions with Hagrid/Harry).",
+        "narrative_role": "His primary function\u2014as an antagonist/threat to the protagonists\u2014is strongly maintained in both media.",
+        "motivations": "His core motivation (enforcing Ministry/Death Eater will) is consistent, though the book gives more insight into his specific malice.",
+        "character_arc": "The book implies a more complex, though still villainous, presence, whereas the film tends to keep him a more one-dimensional threat."
+      },
+      "key_observations": "The film adaptation generally keeps Macnair's function intact, portraying him as a clear, immediate threat, which is consistent with his book role, though the book gives more context to his villainy.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 5647,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

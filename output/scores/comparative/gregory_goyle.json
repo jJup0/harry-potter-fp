@@ -1,0 +1,36 @@
+{
+  "character": "Gregory Goyle",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "In the books, Goyle is consistently portrayed as large, unintelligent, and a follower of Malfoy. In the films, his presence is sporadic and often reduced to background antagonism, losing some of the specific, physical comedy elements (like the potion explosion) that defined his book persona.",
+        "narrative_role": "His primary role as a physical bully and Malfoy's enforcer is maintained in both, but the film scenes provided do not show him participating in the key plot points (like the Polyjuice incident or the final confrontation) as robustly as the book scenes.",
+        "motivations": "His core motivation\u2014following Malfoy and participating in bullying\u2014remains consistent. However, the depth of his participation in the plot (e.g., the plan to steal hair) is less visible in the film excerpts.",
+        "character_arc": "The book shows him participating in a clear, if minor, arc (being tricked and subdued). The film excerpts do not provide enough material to track a significant arc, making his development feel less pronounced compared to the text."
+      },
+      "key_observations": "Goyle's role is largely consistent as a physical antagonist, but the film adaptation excerpts show him as more of a background prop than a character with consistent interaction or development.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 12,
+    "book_mentions": 236
+  }
+}

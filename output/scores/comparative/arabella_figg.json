@@ -1,0 +1,36 @@
+{
+  "character": "Arabella Figg",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 20.0,
+    "total": 85.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The film captures her 'batty', slightly overbearing, but ultimately caring nature, though the film's depiction is more action-oriented.",
+        "narrative_role": "Her role as the knowledgeable, protective contact who brings Harry into the magical world is strongly preserved.",
+        "motivations": "Her primary motivation\u2014to protect Harry and guide him\u2014remains consistent across both mediums.",
+        "character_arc": "Her arc is relatively small in both, but the film's integration into the larger action sequence feels slightly more dramatic than the book's more conversational reveal."
+      },
+      "key_observations": "The film captures the essence of her character and her crucial function in the plot, even if the tone is heightened for cinematic effect.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 9573,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Reginald Cattermole",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 22.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 22,
+      "justification": {
+        "personality": "The book portrays him as a more peripheral, slightly awkward figure whose primary function is to facilitate the escape. The film gives him a more prominent, almost pivotal role in the climax, making him seem more central to the group's immediate safety.",
+        "narrative_role": "His role as the key figure who facilitates the group's escape (via the fireplace/Apparition) is strongly preserved, though the film elevates his importance.",
+        "motivations": "His core motivation\u2014getting his family out of danger\u2014is consistent. The film emphasizes his protective role more dramatically than the book.",
+        "character_arc": "The book shows him as a stable, if slightly peripheral, element. The film gives him a more active, heroic arc in the climax, suggesting a greater personal development or importance than the source material implies."
+      },
+      "key_observations": "The film significantly amplifies Reg's importance and dramatic action during the climax, making him seem more central to the plot's resolution than his book appearances suggest.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 10600,
+        "film_chars_sent": 8676
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

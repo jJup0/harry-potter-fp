@@ -1,0 +1,36 @@
+{
+  "character": "Aberforth Dumbledore",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his cynical, abrasive, and protective nature well, but the book version is more consistently brooding and less overtly confrontational in his initial appearances.",
+        "narrative_role": "The film successfully maintains his role as the skeptical outsider who guides the heroes, which is central to his book function.",
+        "motivations": "The film strongly emphasizes his protective instincts towards Harry and his deep-seated distrust of Albus's perceived perfection, aligning closely with the book's themes of familial resentment and disillusionment.",
+        "character_arc": "The film gives him a more definitive, albeit temporary, moment of redemption/support (helping the trio escape), whereas the books keep his arc more ambiguous and unresolved across the timeline provided."
+      },
+      "key_observations": "The film adaptation captures the *spirit* of Aberforth's skepticism and protective nature, particularly in the confrontation scenes, but it streamlines his complex, often peripheral, book appearances into a more focused, active role.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 10644,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 250,
+    "book_mentions": 79
+  }
+}

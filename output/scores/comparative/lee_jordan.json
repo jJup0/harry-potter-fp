@@ -1,0 +1,36 @@
+{
+  "character": "Lee Jordan",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 15.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 15,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film captures his enthusiastic, over-the-top commentator persona, but the book shows a much broader range of interactions (joking with friends, commenting on serious events like Umbridge's decrees) that are less represented.",
+        "narrative_role": "His primary role as the enthusiastic, slightly biased commentator is maintained, which is his most consistent function.",
+        "motivations": "His motivation to entertain and commentate is present, but the deeper, more social motivations shown in the books (like joining in on friend pranks or discussing deeper topics) are minimized in the film's focus on the game.",
+        "character_arc": "The book shows him participating in the social fabric of the school year (Triwizard, post-game antics), suggesting a minor arc of integration. The film presents him as a static, purely functional commentator for the main event."
+      },
+      "key_observations": "The film successfully captures his most recognizable trait\u2014the loud, energetic commentator\u2014but loses the depth of his social interactions and commentary on the school's broader events found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 3174,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 121,
+    "book_mentions": 145
+  }
+}

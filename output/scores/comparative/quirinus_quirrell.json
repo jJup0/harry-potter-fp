@@ -1,0 +1,36 @@
+{
+  "character": "Quirinus Quirrell",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his initial nervousness and stuttering well, but the book gives more depth to his general incompetence and fear, which is slightly softened in the film's portrayal.",
+        "narrative_role": "His role as the primary antagonist/obstacle in the first book is strongly maintained in the film, especially regarding the final confrontation.",
+        "motivations": "The core motivation (serving Voldemort) is present, but the book emphasizes his deep-seated fear and inadequacy more thoroughly than the film does.",
+        "character_arc": "The book allows for a more gradual reveal of his true nature through multiple interactions (e.g., the initial classroom scenes), whereas the film rushes this, making the arc feel more sudden."
+      },
+      "key_observations": "The film is highly faithful to the major plot points involving Quirrell, particularly the climax, but the book provides more opportunities to flesh out his character flaws and underlying paranoia.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 398,
+    "book_mentions": 143
+  }
+}

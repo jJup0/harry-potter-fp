@@ -1,0 +1,36 @@
+{
+  "character": "Dennis Creevey",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film significantly reduces his enthusiastic, persistent, and sometimes annoying nature seen in the books, making him less of a recurring comedic/observational presence.",
+        "narrative_role": "His role as a persistent, background observer and source of minor comic relief is largely minimized or absent in the films.",
+        "motivations": "His core motivation\u2014the desire to document and be near Harry\u2014is present but lacks the consistent, almost obsessive energy shown in the books.",
+        "character_arc": "The books show a gradual, though minor, development from an enthusiastic admirer to a participant in the larger events. The films do not give him enough screen time to establish any meaningful arc."
+      },
+      "key_observations": "Dennis Creevey is a character whose function is heavily reliant on his constant, visible presence in the book's narrative structure. The films rarely feature him, leading to a significant drop in faithfulness across all metrics.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 28
+  }
+}

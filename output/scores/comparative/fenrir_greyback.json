@@ -1,0 +1,36 @@
+{
+  "character": "Fenrir Greyback",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 18.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 18,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book version is depicted as a more calculating, menacing presence in the context of the Death Eaters' gathering, while the film version is primarily a brute force antagonist in the reeds and a minor threat in the Ministry. The core predatory nature is present, but the depth differs.",
+        "narrative_role": "His role as a threat to Harry and the protagonists is maintained in both, but the book gives him a more integrated role within the Death Eater conspiracy narrative, whereas the film uses him more as a standalone physical obstacle.",
+        "motivations": "In the book, his presence is tied to the larger political machinations of the Death Eaters. In the film, his motivation is simpler: attacking Harry/Ginny. The book implies a deeper, more systemic threat.",
+        "character_arc": "Neither version shows a significant arc. The book keeps him as a consistent, dangerous fixture of the villain group, while the film only shows him in brief, impactful appearances without any development."
+      },
+      "key_observations": "The film utilizes Greyback for high-impact action sequences (reeds, Ministry), making him feel more immediate but less integrated into the complex political maneuvering seen in the book's depiction of the Death Eaters.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 14577,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 105
+  }
+}

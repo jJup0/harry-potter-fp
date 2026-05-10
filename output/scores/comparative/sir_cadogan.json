@@ -1,0 +1,36 @@
+{
+  "character": "Sir Cadogan",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film adaptation significantly diminishes his flamboyant, overly dramatic, and challenging nature seen in the books, making him less consistently irritating and more peripheral.",
+        "narrative_role": "His role as a source of comic relief and an obstacle to the main plot is largely minimized or removed in the film versions, making his function less crucial.",
+        "motivations": "His core motivation\u2014maintaining his perceived authority and challenging intruders\u2014is present but lacks the consistent, over-the-top nature detailed in the book scenes.",
+        "character_arc": "The book details a clear, albeit minor, arc of being challenged and eventually sidelined. The film adaptation fails to capture this sense of decline or change."
+      },
+      "key_observations": "Sir Cadogan is a character whose humor and function rely heavily on the detailed, exaggerated nature of the book descriptions. The film treats him much more lightly, reducing his impact.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 3794,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 20
+  }
+}

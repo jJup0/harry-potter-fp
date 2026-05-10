@@ -1,0 +1,36 @@
+{
+  "character": "Marcus Flint",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 17.0,
+    "character_arc": 15.0,
+    "total": 70.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 17,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his aggressive, arrogant, and confrontational nature, particularly in the initial match scenes, but the book provides more depth to his antagonism.",
+        "narrative_role": "His role as a primary antagonist during the Quidditch match is strongly preserved in both mediums.",
+        "motivations": "His motivation is clearly rooted in Slytherin superiority and rivalry, which is consistent. However, the book gives more context to his actions (e.g., the specific nature of the cheating/blocking).",
+        "character_arc": "The film presents him as a static antagonist throughout the visible portions, while the book allows for more varied interactions that hint at potential shifts, even if minor."
+      },
+      "key_observations": "The film adaptation is very faithful to the *action* of Flint's antagonism during the match, but the book allows for more extended characterization and interaction outside of direct conflict.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 11499,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 6,
+    "book_mentions": 48
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Romilda Vane",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays her as part of a group of giggling, unremarkable girls, while the film often minimizes her presence or gives her more defined, though still superficial, interactions.",
+        "narrative_role": "In the book, she is a minor background character used to populate the Quidditch trial scene. In the films, her role is significantly reduced or absent.",
+        "motivations": "Her primary motivation in the book is simply to be part of the group dynamic, which is not strongly emphasized or retained in the film adaptations.",
+        "character_arc": "She has virtually no discernible arc in either medium, but the film's lack of screen time means any potential development is lost or altered."
+      },
+      "key_observations": "Romilda Vane is a minor character whose function is primarily to populate a scene in the book. The film adaptations tend to sideline or omit her, leading to a noticeable drop in fidelity across all metrics.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 30
+  }
+}

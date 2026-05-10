@@ -1,0 +1,36 @@
+{
+  "character": "Remus Lupin",
+  "overall": {
+    "personality": 22.0,
+    "narrative_role": 23.0,
+    "motivations": 24.0,
+    "character_arc": 21.0,
+    "total": 90.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 22,
+      "narrative_role": 23,
+      "motivations": 24,
+      "character_arc": 21,
+      "justification": {
+        "personality": "The core traits\u2014gentleness, intelligence, weariness, and underlying strength\u2014are maintained, though the film sometimes softens his intellectual sparring with Harry.",
+        "narrative_role": "His role as the knowledgeable, guiding mentor figure (especially regarding Dementors and the Order) is highly preserved.",
+        "motivations": "His primary motivations\u2014protecting Harry, guiding the students, and his commitment to the greater good despite his own struggles\u2014are accurately reflected.",
+        "character_arc": "The film captures his gradual return to confidence and his role in the Order, though the depth of his struggle and eventual recovery is slightly more streamlined than the books."
+      },
+      "key_observations": "The film adaptation captures the essence of Lupin's wisdom and protective nature, particularly in the Dementor and Order scenes, making it very faithful overall.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 231,
+    "book_mentions": 943
+  }
+}

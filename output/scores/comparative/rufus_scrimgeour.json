@@ -1,0 +1,36 @@
+{
+  "character": "Rufus Scrimgeour",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film portrays him as more overtly authoritative and dramatic than his book appearances suggest, losing some of the subtle, bureaucratic tension of the books.",
+        "narrative_role": "His role as the representative of Ministry authority is preserved, but the specific function of delivering Dumbledore's will is a film-specific addition.",
+        "motivations": "His primary motivation in the film is to enforce Ministry law and display power, which is consistent, but the book context suggests a more politically charged, less overtly dramatic enforcement.",
+        "character_arc": "The film gives him a distinct, albeit brief, arc of confrontation, whereas the books keep him more of a static, imposing figure representing the status quo."
+      },
+      "key_observations": "The film significantly expands his characterization and confrontation scenes, making him more active than his book appearances suggest. The book material is sparse, making direct comparison difficult, but the film exaggerates his dramatic weight.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 6780,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 220,
+    "book_mentions": 161
+  }
+}

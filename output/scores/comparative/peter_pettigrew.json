@@ -1,0 +1,36 @@
+{
+  "character": "Peter Pettigrew",
+  "overall": {
+    "personality": 10.0,
+    "narrative_role": 15.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 10,
+      "narrative_role": 15,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film portrays him as a minor, creepy henchman in a dream sequence, stripping away the complexity of his betrayal and subsequent redemption/revelation found in the books.",
+        "narrative_role": "His role is significantly diminished; in the books, he is central to the revelation of the truth about Sirius and the Potters. In the film, he is a background villain in a dream.",
+        "motivations": "The books explore his deep-seated fear, desire for acceptance, and cowardice. The film only shows him motivated by Voldemort's immediate command, simplifying his internal conflict.",
+        "character_arc": "The books build a massive arc of betrayal, capture, and eventual confrontation/revelation. The film gives him almost no arc, merely a fleeting appearance."
+      },
+      "key_observations": "The film drastically underplays Peter Pettigrew's importance and complexity, reducing him to a single, minor villainous appearance in a dream sequence compared to his pivotal role in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 2525,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 75,
+    "book_mentions": 377
+  }
+}

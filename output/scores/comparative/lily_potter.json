@@ -1,0 +1,36 @@
+{
+  "character": "Lily Potter",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 10.0,
+    "total": 63.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film portrays her in highly idealized, ethereal, or memory-based ways, losing the grounded warmth and specific emotional depth shown in the books (e.g., the letter writing).",
+        "narrative_role": "Her primary role as the sacrificial mother/source of protection is maintained, but the film introduces significant, non-canonical appearances (Mirror of Erised, Resurrection Stone visions) that alter the function.",
+        "motivations": "Her core motivation\u2014protecting Harry\u2014is strongly preserved, particularly in the sacrifice scene, which remains central.",
+        "character_arc": "The book establishes her through her actions and memory (the letter); the film gives her multiple, fragmented, and non-linear 'appearances' which dilute any sense of a cohesive arc, especially since she is dead."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 1665,
+        "film_chars_sent": 6092,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

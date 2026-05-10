@@ -1,0 +1,36 @@
+{
+  "character": "Charlie Weasley",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 68.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his adventurous spirit but often lacks the specific, casual interactions shown in the book (like the specific teasing or his immediate presence at key moments).",
+        "narrative_role": "His role as the knowledgeable, slightly absent older brother is maintained, especially concerning dragons, which is a major plot point.",
+        "motivations": "His primary motivation\u2014his passion for exotic creatures and his connection to his family\u2014is preserved.",
+        "character_arc": "The book implies a more consistent, if peripheral, presence. The film gives him moments but doesn't track a significant personal arc for him."
+      },
+      "key_observations": "The film utilizes his character primarily for exposition (dragons) rather than integrating him into the core school drama as heavily as the books suggest.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 1824,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 115
+  }
+}

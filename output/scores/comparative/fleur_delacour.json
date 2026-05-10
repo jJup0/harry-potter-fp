@@ -1,0 +1,36 @@
+{
+  "character": "Fleur Delacour",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures her initial haughtiness and beauty, but the book allows for more nuanced moments of vulnerability (e.g., the dragon task aftermath) that are less emphasized in the film's pacing.",
+        "narrative_role": "Her role as a key competitor and romantic interest is maintained, though the film streamlines some of the political/social tension surrounding her.",
+        "motivations": "Her primary motivations\u2014representing Beauxbatons, her connection to her family/culture, and her initial disdain for the 'lesser' students\u2014are present, but the depth of her internal conflict is sometimes lessened.",
+        "character_arc": "The book allows for a more gradual, visible arc of her overcoming her arrogance. The film compresses this, making her arc feel more reactive to external events rather than internal growth."
+      },
+      "key_observations": "The film is visually faithful to her appearance and initial demeanor, but the book provides more opportunities to explore her character depth outside of direct conflict.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 49,
+    "book_mentions": 273
+  }
+}

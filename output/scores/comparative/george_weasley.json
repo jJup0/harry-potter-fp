@@ -1,0 +1,36 @@
+{
+  "character": "George Weasley",
+  "overall": {
+    "personality": 24.0,
+    "narrative_role": 23.0,
+    "motivations": 24.0,
+    "character_arc": 22.0,
+    "total": 93.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 24,
+      "narrative_role": 23,
+      "motivations": 24,
+      "character_arc": 22,
+      "justification": {
+        "personality": "The core comedic timing, mischievous nature, and witty banter are highly preserved, though the film sometimes streamlines the depth of his jokes.",
+        "narrative_role": "His role as the witty, supportive twin foil to Fred is maintained, especially in key moments like the Quidditch match and the end of the first book.",
+        "motivations": "His primary motivations\u2014pranking, supporting his brother, and maintaining family fun\u2014are consistent across both mediums.",
+        "character_arc": "The film captures his general trajectory (from prankster to established member of the group) but the book allows for more subtle development of his character outside of pure comedy."
+      },
+      "key_observations": "George's essence as a prankster is very well captured in the films, particularly in the early adventures, though the book provides more context for his ongoing schemes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 290,
+    "book_mentions": 804
+  }
+}

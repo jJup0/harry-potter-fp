@@ -1,0 +1,36 @@
+{
+  "character": "Rita Skeeter",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures her gossipy, invasive, and dramatic tone well, but the book's portrayal of her as a more established, manipulative threat (especially regarding the Ministry's secrets) is slightly diluted by the film's more overtly dramatic, single-event focus.",
+        "narrative_role": "Her role as the primary catalyst for public scrutiny and drama is strongly maintained in the film, mirroring her book function as the 'scandal machine.'",
+        "motivations": "Her core motivation\u2014gaining sensational scoops and damaging reputations\u2014is perfectly preserved. The film emphasizes this through the constant need for 'juicy news.'",
+        "character_arc": "The film presents her as a consistent antagonist throughout the Triwizard arc, which is faithful. However, the book allows for more subtle, persistent undermining across multiple years, making the film's arc feel slightly more contained."
+      },
+      "key_observations": "The film successfully translates her invasive, sensationalist personality and her role as the primary source of public drama. The book gives her a broader, more systemic impact, which is slightly lessened in the film's focus.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 251,
+    "book_mentions": 258
+  }
+}

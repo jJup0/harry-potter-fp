@@ -1,0 +1,36 @@
+{
+  "character": "Morfin Gaunt",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 20.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 70.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 20,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his general mad, unstable, and aggressive nature, but the book provides much more depth regarding his specific paranoia, obsession with lineage, and the detailed interactions with Merope and Voldemort that are lost or significantly altered in the film's portrayal.",
+        "narrative_role": "His role as the catalyst for the revelation of the Gaunt curse and the link to Voldemort is preserved, which is his primary function.",
+        "motivations": "His core motivations\u2014paranoia, sense of entitlement, and instability\u2014are present, but the book elaborates on his specific grievances (e.g., regarding Merope and the Riddle line) which are crucial to his characterization.",
+        "character_arc": "The book details a significant, albeit brief, arc of descent into madness and eventual confession/collapse. The film simplifies this, making his arc feel more abrupt and less psychologically complex."
+      },
+      "key_observations": "The film significantly streamlines the complex, rambling, and highly detailed exposition provided by Dumbledore in the books, losing much of the psychological weight of Morfin's madness and the family history.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

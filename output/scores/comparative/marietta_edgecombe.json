@@ -1,0 +1,36 @@
+{
+  "character": "Marietta Edgecombe",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 17.0,
+    "character_arc": 10.0,
+    "total": 60.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 17,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The film adaptation significantly downplays her initial role as a key source of information (the 'SNEAK' reveal) and her subsequent fear/compliance are less pronounced than in the book.",
+        "narrative_role": "Her role as the catalyst for the Ministry's investigation and the source of the crucial information (even if forced) is largely preserved, though the dramatic weight is lessened.",
+        "motivations": "Her core motivation\u2014fear of authority and self-preservation\u2014remains, but the depth of her conflict (being forced to betray friends) is less emphasized in the film's pacing.",
+        "character_arc": "The book gives her a more complex, albeit negative, arc of betrayal and subsequent realization. The film minimizes this development, leaving her more as a plot device."
+      },
+      "key_observations": "The film adaptation significantly reduces the dramatic impact and complexity of Marietta's character, making her function more as a plot device than a fully realized character compared to the source material.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 11785,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

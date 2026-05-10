@@ -1,0 +1,36 @@
+{
+  "character": "Severus Snape",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his disdain and coldness well, but the book allows for more subtle moments of reluctant care (e.g., the leg injury scene's implication). The film makes him more overtly villainous early on.",
+        "narrative_role": "His role as the primary antagonist/obstacle to Harry's early life is strongly preserved, especially in the Potions lessons and the Troll incident.",
+        "motivations": "His core motivation (dislike/suspicion of Harry) is present, but the film often oversimplifies his internal conflict, making him seem purely antagonistic rather than conflicted.",
+        "character_arc": "The film rushes his arc. While the book builds tension over years, the film's early depiction is heavily skewed towards immediate antagonism, minimizing the gradual shift seen in the books."
+      },
+      "key_observations": "The film excels at capturing his abrasive personality and his function as a recurring obstacle, but it sacrifices the nuanced, slow-burn development of his character arc found in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1934,
+    "book_mentions": 1938
+  }
+}

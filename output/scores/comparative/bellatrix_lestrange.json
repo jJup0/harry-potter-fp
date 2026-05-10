@@ -1,0 +1,36 @@
+{
+  "character": "Bellatrix Lestrange",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures her mania and cruelty (especially in the Department of Mysteries), but the book provides a deeper, more sustained portrait of her fanatical devotion and history (Pensieve, family context) that is significantly diminished in the film's focus.",
+        "narrative_role": "Her role as the primary antagonist in the climax (Department of Mysteries) is strongly preserved, making her function in the narrative nearly identical.",
+        "motivations": "Her core motivation\u2014unwavering, obsessive loyalty to Voldemort and the desire to torment those who oppose him\u2014is highly intact. The film emphasizes this mania effectively.",
+        "character_arc": "The book implies a deep, almost obsessive connection to the Black family legacy and her devotion to Voldemort's cause throughout her life. The film presents her more as a single, explosive force, losing some of the build-up and depth of her commitment shown in the book's context."
+      },
+      "key_observations": "The film excels at capturing her terrifying mania during the final confrontation, but it sacrifices the rich, detailed glimpses into her history and the broader context of her fanaticism found in the book's Pensieve scenes.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 461,
+    "book_mentions": 227
+  }
+}

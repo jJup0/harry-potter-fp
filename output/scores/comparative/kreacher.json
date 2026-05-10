@@ -1,0 +1,36 @@
+{
+  "character": "Kreacher",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 22.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 22,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his general malice and attachment to the Black family, but the depth of his complex, nuanced, and shifting loyalties shown in the books (e.g., his specific resentment of certain characters) is significantly watered down or omitted.",
+        "narrative_role": "His primary role as a catalyst for revealing the secrets of Grimmauld Place and the Black family history is maintained, which is crucial to the plot.",
+        "motivations": "His core motivations\u2014serving the Black family, resentment towards 'Mudbloods' and 'traitors'\u2014are present, but the book provides a much deeper exploration of his emotional turmoil and shifting allegiances.",
+        "character_arc": "The book allows for a much more complex arc, showing his capacity for deep, if twisted, loyalty and his eventual, albeit reluctant, shift. The film's portrayal is more episodic and less focused on a clear, developing internal journey."
+      },
+      "key_observations": "The film retains the most dramatic, surface-level elements of Kreacher's antagonism, but loses the rich, detailed psychological depth and the gradual nature of his changing loyalties found in the book.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 176,
+    "book_mentions": 309
+  }
+}

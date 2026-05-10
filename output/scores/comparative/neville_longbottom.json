@@ -1,0 +1,36 @@
+{
+  "character": "Neville Longbottom",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 23.0,
+    "motivations": 22.0,
+    "character_arc": 20.0,
+    "total": 85.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 23,
+      "motivations": 22,
+      "character_arc": 20,
+      "justification": {
+        "personality": "The core traits (nervous, accident-prone, initially timid) are present, but the film sometimes exaggerates the physical comedy or the immediate emotional response compared to the book's build-up.",
+        "narrative_role": "His role as the underdog who achieves a major victory (Quidditch/courage) is strongly preserved, making him a key plot point.",
+        "motivations": "His fear of failure and his desire to prove himself, especially regarding magic and bravery, are accurately maintained.",
+        "character_arc": "The film captures the *potential* for his arc (from clumsy to capable) but the full scope of his growth across the series is necessarily condensed, leading to a slight dip from perfect fidelity."
+      },
+      "key_observations": "The film captures the key moments of his vulnerability and subsequent bravery (especially the Quidditch incident), which are crucial to his character development, even if the pacing differs.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 691,
+    "book_mentions": 801
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "character": "Avery",
+  "overall": {
+    "personality": 0.0,
+    "narrative_role": 0.0,
+    "motivations": 0.0,
+    "character_arc": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 0,
+      "narrative_role": 0,
+      "motivations": 0,
+      "character_arc": 0,
+      "justification": {
+        "personality": "Avery appears in the book corpus but has no corresponding scenes in the film corpus, making a comparison impossible.",
+        "narrative_role": "The character's function is entirely dependent on the book scenes provided, and since there are no film scenes, the role cannot be assessed for faithfulness.",
+        "motivations": "The character's motivations are derived solely from the book excerpts, which are not mirrored or contradicted in the film.",
+        "character_arc": "No film depiction exists to compare against the book's narrative development."
+      },
+      "key_observations": "The character Avery is present in the provided book excerpts but is entirely absent from the film corpus, resulting in zero scores across all metrics.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

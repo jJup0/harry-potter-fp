@@ -1,0 +1,36 @@
+{
+  "character": "Viktor Krum",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 73.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The films capture his initial aloofness and skill, but the book provides much more depth to his internal conflict and interactions (e.g., with Hermione/Harry's subtle understanding). The film version feels more purely 'brooding outsider.'",
+        "narrative_role": "His role as the skilled, foreign rival Seeker is maintained, which is crucial for the plot structure.",
+        "motivations": "His primary motivation\u2014to prove himself against the Western champions and maintain his reputation\u2014is present, though the book implies a deeper, more personal connection to the sport and his home culture.",
+        "character_arc": "The book allows for more subtle moments of connection and slight softening over the course of the books. The film's arc is more defined by the immediate competition and the mystery of the Triwizard Tournament, making it feel more episodic rather than evolving."
+      },
+      "key_observations": "The film adaptation captures the spectacle and the initial 'outsider' vibe very well, but loses some of the nuanced character development and internal reflection present in the book.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 21,
+    "book_mentions": 348
+  }
+}

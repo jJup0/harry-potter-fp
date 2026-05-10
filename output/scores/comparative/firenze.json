@@ -1,0 +1,36 @@
+{
+  "character": "Firenze",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 22.0,
+    "motivations": 20.0,
+    "character_arc": 15.0,
+    "total": 75.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 22,
+      "motivations": 20,
+      "character_arc": 15,
+      "justification": {
+        "personality": "The film captures his authoritative and wise tone, but the book allows for a deeper exploration of his philosophical views on human limitations, which is somewhat diminished in the film's pacing.",
+        "narrative_role": "The film successfully maintains his critical role in revealing the truth about the Stone and the threat, which is central to the plot.",
+        "motivations": "His core motivation\u2014warning Harry about the danger and the nature of the threat\u2014is preserved. However, the book gives more weight to his philosophical conflict with the centaurs' traditions versus human intervention.",
+        "character_arc": "The book shows a more complex arc involving his banishment and the subsequent community reaction. The film presents him more as a singular, impactful plot device rather than a character whose community struggles are fully explored."
+      },
+      "key_observations": "The film is highly faithful in retaining his crucial plot function (the warning), but the book provides richer context regarding his social standing and philosophical arguments.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 11005,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 115,
+    "book_mentions": 74
+  }
+}

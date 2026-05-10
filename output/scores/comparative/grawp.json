@@ -1,0 +1,36 @@
+{
+  "character": "Grawp",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 12.0,
+    "character_arc": 10.0,
+    "total": 55.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 12,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays him as a wild, semi-tamed, and largely non-verbal giant whose primary interaction is physical and instinctual. The film portrays him as a more domesticated, almost pet-like figure who interacts with bells and is easily managed by Hagrid, softening his wild nature significantly.",
+        "narrative_role": "In both, he serves as a massive, imposing presence connected to Hagrid and the Forbidden Forest, often acting as a physical obstacle or backdrop. This core function is maintained.",
+        "motivations": "In the book, his motivation seems to be simple existence and perhaps a desire for connection/play (as shown by his actions). In the film, his motivation is heavily framed by Hagrid's need to 'protect' him and integrate him into the narrative, making his actions seem more performative.",
+        "character_arc": "The book shows him being an imposing, wild element that the trio must survive. The film minimizes this threat, showing him as a character who is 'cared for' and whose presence is more of a sentimental anecdote rather than a genuine threat or mystery to be solved."
+      },
+      "key_observations": "The film significantly sanitizes Grawp, turning a large, somewhat menacing, and wild element of the forest into a more benign, almost comedic side character who is easily controlled by Hagrid.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 12222,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

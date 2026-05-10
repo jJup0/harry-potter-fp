@@ -17,9 +17,8 @@ A character with 30 seconds of screen time can score 100 if those 30 seconds are
 | Data collection | Done | Books, screenplays, character registry, metrics |
 | Corpus building | Done | 228 characters (v1), 216 characters (v2 after dedup) |
 | Metrics | Done | Screen time (actual minutes), book mentions (actual counts) |
-| Rule-based scoring | Done | Placeholder heuristics only - not real FP scores |
-| LLM comparative scoring | Working | 102 characters scored via ollama (gemma4:e4b), with justifications |
-| Reports & dashboard | Done | Currently based on rule-based scores; needs regeneration from comparative |
+| LLM comparative scoring | Working | ~136/216 scored via ollama (gemma4:e4b), with justifications |
+| Reports & dashboard | Done | Generated from comparative scores |
 
 **Current state:** The comparative scorer works end-to-end with local ollama. 102 characters have real LLM-generated FP scores with per-dimension justifications. The remaining ~114 characters need scoring (either extend the ollama run or use a cloud API).
 

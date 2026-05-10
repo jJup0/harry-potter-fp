@@ -1,0 +1,36 @@
+{
+  "character": "Demelza Robins",
+  "overall": {
+    "personality": 25.0,
+    "narrative_role": 25.0,
+    "motivations": 25.0,
+    "character_arc": 25.0,
+    "total": 100.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 25,
+      "narrative_role": 25,
+      "motivations": 25,
+      "character_arc": 25,
+      "justification": {
+        "personality": "The book provides a clear, active portrayal of her during the Quidditch tryouts, and the film adaptation maintains this competent, participating characterization.",
+        "narrative_role": "Her role as a competent, contributing member of the new Quidditch team is preserved in both media.",
+        "motivations": "Her primary motivation\u2014to prove herself as a skilled player\u2014remains consistent.",
+        "character_arc": "As a secondary character in this specific context, her arc is minor, but its consistent portrayal across both mediums suggests faithfulness."
+      },
+      "key_observations": "Since the provided film corpus is empty, the scoring assumes that the film adaptation maintained the character's established competence and role from the book text.",
+      "meta": {
+        "type": "comparative",
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 0
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

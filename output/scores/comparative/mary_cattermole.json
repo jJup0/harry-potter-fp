@@ -1,0 +1,36 @@
+{
+  "character": "Mary Cattermole",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 10.0,
+    "total": 50.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 10,
+      "justification": {
+        "personality": "The book portrays her as a concerned friend/acquaintance (Scene 4), while the film gives her a highly dramatic, almost plot-device role, but the core personality traits are less developed in the film's context.",
+        "narrative_role": "In the books, she is a minor character mentioned in passing. In the film, she is given a major, pivotal role in the climax, which is a significant expansion of her narrative function.",
+        "motivations": "The book suggests concern for friends (detesting Avery/Mulciber). The film heavily emphasizes her connection to Reg and her mystery surrounding the locket, giving her a much larger, more dramatic motivation.",
+        "character_arc": "The book provides no discernible arc. The film gives her a moment of revelation (the locket/Reg's return), but this is more of a plot function than a true character development arc."
+      },
+      "key_observations": "Mary Cattermole is a character whose presence is vastly expanded and given a major, dramatic function in the film adaptation compared to her minor, conversational role in the source material.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 774,
+        "film_chars_sent": 5548,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

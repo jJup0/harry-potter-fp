@@ -1,0 +1,36 @@
+{
+  "character": "Angelina Johnson",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 22.0,
+    "motivations": 21.0,
+    "character_arc": 18.0,
+    "total": 81.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 22,
+      "motivations": 21,
+      "character_arc": 18,
+      "justification": {
+        "personality": "The film captures her competitive spirit and skill, but the book shows more of her playful, teasing, and supportive side (e.g., Scene 14, 15). The film feels more focused on the action.",
+        "narrative_role": "Her role as a key, skilled Gryffindor Chaser is maintained in both, especially during the Quidditch matches. The film highlights her scoring moments effectively.",
+        "motivations": "Her primary motivation\u2014to be a top player and support her friends\u2014is present. The book gives more depth to her interactions with Harry regarding his performance and the team dynamic.",
+        "character_arc": "The film focuses heavily on the immediate action (Quidditch matches) and doesn't show the same breadth of her social interactions or the subtle development of her relationship with the core group as the book does."
+      },
+      "key_observations": "The film excels at showing her athletic prowess, making her a visible scoring threat, but the book provides a richer tapestry of her character interactions outside of direct competition.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 4,
+    "book_mentions": 135
+  }
+}

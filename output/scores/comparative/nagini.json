@@ -1,0 +1,36 @@
+{
+  "character": "Nagini",
+  "overall": {
+    "personality": 18.0,
+    "narrative_role": 20.0,
+    "motivations": 15.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 18,
+      "narrative_role": 20,
+      "motivations": 15,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film portrays her more as a mere prop or plot device, losing some of the subtle, almost sentient presence described in the books, though her menacing nature remains.",
+        "narrative_role": "Her role as a key plot element (Horcrux, threat) is maintained, but the depth of her interaction with Voldemort is reduced.",
+        "motivations": "Her primary motivation (being a Horcrux/tool of Voldemort) is clear, but the book gives more insight into her relationship with him, which is diminished in the film.",
+        "character_arc": "The book implies a more complex, albeit controlled, relationship with Voldemort; the film presents her role as more static and purely antagonistic."
+      },
+      "key_observations": "The film successfully keeps her as a major threat and plot point, but it sacrifices some of the rich, detailed interaction and implied sentience found in the book's descriptions.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 2525,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}

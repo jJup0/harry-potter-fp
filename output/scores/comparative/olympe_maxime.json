@@ -1,0 +1,36 @@
+{
+  "character": "Olympe Maxime",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 18.0,
+    "motivations": 20.0,
+    "character_arc": 12.0,
+    "total": 65.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 18,
+      "motivations": 20,
+      "character_arc": 12,
+      "justification": {
+        "personality": "The film often portrays her as more overtly romantic or less capable in direct action compared to the book's depiction of her competence and fiery nature.",
+        "narrative_role": "Her role as a key ally and intellectual equal to Hagrid is maintained, though the emphasis shifts.",
+        "motivations": "Her core motivation\u2014protecting her friends and confronting danger\u2014remains, but the immediate threat level and focus differ.",
+        "character_arc": "The book suggests a more complex, evolving relationship with the conflict; the film's arc is often more peripheral or simplified."
+      },
+      "key_observations": "The film adaptation significantly reduces the depth and complexity of her interactions, particularly concerning her magical prowess and strategic involvement, compared to the rich, detailed accounts in the books.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 3810,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 111,
+    "book_mentions": 201
+  }
+}

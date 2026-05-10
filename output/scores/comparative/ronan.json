@@ -1,0 +1,36 @@
+{
+  "character": "Ronan",
+  "overall": {
+    "personality": 15.0,
+    "narrative_role": 10.0,
+    "motivations": 15.0,
+    "character_arc": 5.0,
+    "total": 45.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 15,
+      "narrative_role": 10,
+      "motivations": 15,
+      "character_arc": 5,
+      "justification": {
+        "personality": "The film significantly reduces his depth and sorrowful tone, making him less enigmatic and more purely reactive.",
+        "narrative_role": "His role as a key, mysterious guide/witness is diminished or altered in the film adaptation.",
+        "motivations": "His core conflict regarding the forest's secrets and the conflict between different centaur factions is less pronounced or underdeveloped.",
+        "character_arc": "The book establishes him as a character with internal conflict and potential for growth/revelation; the film often minimizes this development."
+      },
+      "key_observations": "",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 5132,
+        "film_chars_sent": 0,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 23
+  }
+}

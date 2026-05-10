@@ -1,0 +1,36 @@
+{
+  "character": "Fluffy",
+  "overall": {
+    "personality": 20.0,
+    "narrative_role": 25.0,
+    "motivations": 22.0,
+    "character_arc": 25.0,
+    "total": 92.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality": 20,
+      "narrative_role": 25,
+      "motivations": 22,
+      "character_arc": 25,
+      "justification": {
+        "personality": "The core traits (large, three-headed, guarding the stone) are consistent, though the film adds more action/dialogue.",
+        "narrative_role": "The primary obstacle guarding the Stone remains the central function in both mediums.",
+        "motivations": "His motivation is purely protective of the Stone, which is consistent.",
+        "character_arc": "As a non-sentient guardian, his arc is minimal, and the film maintains his role as the final hurdle."
+      },
+      "key_observations": "The film captures the essential nature of Fluffy's role perfectly, even if the book provides more dialogue surrounding the other obstacles.",
+      "meta": {
+        "type": "comparative",
+        "book_chars_sent": 15000,
+        "film_chars_sent": 15000,
+        "model": "gemma4:e4b",
+        "prompt_version": "1.0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 0
+  }
+}
