@@ -22,12 +22,13 @@ ALIAS_FILE = os.path.join(PROJECT_ROOT, "data", "manual-character-alias-mapping.
 def _load_jsonc(path):
     """Load a JSONC file (JSON with comments and trailing commas)."""
     import json
+
     with open(path) as f:
         text = f.read()
     # Strip // comments
-    text = re.sub(r'//[^\n]*', '', text)
+    text = re.sub(r"//[^\n]*", "", text)
     # Strip trailing commas before } or ]
-    text = re.sub(r',\s*([}\]])', r'\1', text)
+    text = re.sub(r",\s*([}\]])", r"\1", text)
     return json.loads(text)
 
 

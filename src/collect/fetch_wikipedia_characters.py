@@ -5,6 +5,7 @@ Source: https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters
 
 Output: data/reference/wikipedia_hp_characters.json
 """
+
 import json
 import os
 import re
@@ -18,7 +19,9 @@ URL = "https://en.wikipedia.org/w/index.php?title=List_of_Harry_Potter_character
 
 def fetch_wikitext():
     print(f"Fetching {URL}...")
-    req = urllib.request.Request(URL, headers={"User-Agent": "HPCharacterFaithfulness/1.0"})
+    req = urllib.request.Request(
+        URL, headers={"User-Agent": "HPCharacterFaithfulness/1.0"}
+    )
     with urllib.request.urlopen(req, timeout=30) as resp:
         wikitext = resp.read().decode("utf-8")
     print(f"  Got {len(wikitext)} chars of wikitext")
@@ -36,13 +39,15 @@ def extract_name_from_line(line, section):
     alt_names = []
 
     # {{Visible anchor|...|text=...}} (with or without extra anchors between)
-    va_text = re.match(r'\{\{[Vv]isible anchor\|([^}|]+?)(?:\|[^}]*?)*\|text=\s*([^}]+?)\s*\}\}', entry)
+    va_text = re.match(
+        r"\{\{[Vv]isible anchor\|([^}|]+?)(?:\|[^}]*?)*\|text=\s*([^}]+?)\s*\}\}", entry
+    )
     if va_text:
         anchor_name = va_text.group(1).strip()
         display_name = va_text.group(2).strip()
-    elif re.match(r'\{\{[Vv]isible anchor\|', entry):
+    elif re.match(r"\{\{[Vv]isible anchor\|", entry):
         # {{Visible anchor|Name|AltName}} or {{Visible anchor|Name}}
-        inner = re.match(r'\{\{[Vv]isible anchor\|([^}]+)\}\}', entry)
+        inner = re.match(r"\{\{[Vv]isible anchor\|([^}]+)\}\}", entry)
         if inner:
             parts = [p.strip() for p in inner.group(1).split("|")]
             anchor_name = parts[0]
@@ -50,19 +55,19 @@ def extract_name_from_line(line, section):
             for p in parts[1:]:
                 if p and not p.startswith("text="):
                     alt_names.append(p)
-    elif re.match(r'\[\[', entry):
+    elif re.match(r"\[\[", entry):
         # [[Link|Display]] or [[Link]]
-        link_match = re.match(r'\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]', entry)
+        link_match = re.match(r"\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]", entry)
         if link_match:
             anchor_name = link_match.group(1).strip()
             display_name = (link_match.group(2) or link_match.group(1)).strip()
     else:
         # Plain text before dash
-        dash_match = re.match(r'([^–\n]+?)(?:\s*–|\s*$)', entry)
+        dash_match = re.match(r"([^–\n]+?)(?:\s*–|\s*$)", entry)
         if dash_match:
             display_name = dash_match.group(1).strip()
-            display_name = re.sub(r'<ref[^>]*>.*?</ref>', '', display_name)
-            display_name = re.sub(r'<ref[^>]*/?>', '', display_name)
+            display_name = re.sub(r"<ref[^>]*>.*?</ref>", "", display_name)
+            display_name = re.sub(r"<ref[^>]*/?>", "", display_name)
 
     if not display_name:
         return None, []
@@ -84,10 +89,10 @@ def extract_name_from_line(line, section):
             alt_names.append(clean_anchor)
 
     # Check for parenthetical alt names
-    paren_match = re.search(r'\(([^)]+)\)', canonical)
+    paren_match = re.search(r"\(([^)]+)\)", canonical)
     if paren_match:
         alt = paren_match.group(1).strip()
-        canonical = canonical[:paren_match.start()].strip()
+        canonical = canonical[: paren_match.start()].strip()
         if alt and not alt.startswith("née") and not alt.startswith("born"):
             alt_names.append(alt)
 
@@ -126,11 +131,13 @@ def parse_characters(wikitext):
 
         canonical, alt_names = extract_name_from_line(line, section)
         if canonical and len(canonical) >= 2:
-            characters.append({
-                "name": canonical,
-                "alt_names": alt_names,
-                "section": section,
-            })
+            characters.append(
+                {
+                    "name": canonical,
+                    "alt_names": alt_names,
+                    "section": section,
+                }
+            )
 
     return characters
 

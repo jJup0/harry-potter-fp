@@ -1,32 +1,71 @@
 #!/usr/bin/env python3
 """Download Harry Potter film transcripts via fandom MediaWiki API."""
+
 import json
 import os
 import re
 import urllib.request
 from html.parser import HTMLParser
 
-DEST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "raw", "screenplays")
+DEST = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "raw", "screenplays"
+)
 os.makedirs(DEST, exist_ok=True)
 
 # (wiki subdomain, page title) — using best available source per film
 FILMS = {
-    "1_philosophers_stone": ("movies.fandom.com", "Harry_Potter_and_the_Philosopher's_Stone/Transcript"),
-    "2_chamber_of_secrets": ("movies.fandom.com", "Harry_Potter_and_the_Chamber_of_Secrets/Transcript"),
-    "3_prisoner_of_azkaban": ("the-jh-movie-collection-official.fandom.com", "Harry_Potter_and_the_Prisoner_of_Azkaban_(film)/Transcript"),
-    "4_goblet_of_fire": ("movies.fandom.com", "Harry_Potter_and_the_Goblet_of_Fire/Transcript"),
-    "5_order_of_the_phoenix": ("movies.fandom.com", "Harry_Potter_and_the_Order_of_the_Phoenix/Transcript"),
-    "6_half_blood_prince": ("movies.fandom.com", "Harry_Potter_and_the_Half-Blood_Prince/Transcript"),
-    "7_deathly_hallows_p1": ("movies.fandom.com", "Harry_Potter_and_the_Deathly_Hallows_–_Part_1/Transcript"),
-    "8_deathly_hallows_p2": ("movies.fandom.com", "Harry_Potter_and_the_Deathly_Hallows_–_Part_2/Transcript"),
+    "1_philosophers_stone": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Philosopher's_Stone/Transcript",
+    ),
+    "2_chamber_of_secrets": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Chamber_of_Secrets/Transcript",
+    ),
+    "3_prisoner_of_azkaban": (
+        "the-jh-movie-collection-official.fandom.com",
+        "Harry_Potter_and_the_Prisoner_of_Azkaban_(film)/Transcript",
+    ),
+    "4_goblet_of_fire": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Goblet_of_Fire/Transcript",
+    ),
+    "5_order_of_the_phoenix": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Order_of_the_Phoenix/Transcript",
+    ),
+    "6_half_blood_prince": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Half-Blood_Prince/Transcript",
+    ),
+    "7_deathly_hallows_p1": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Deathly_Hallows_–_Part_1/Transcript",
+    ),
+    "8_deathly_hallows_p2": (
+        "movies.fandom.com",
+        "Harry_Potter_and_the_Deathly_Hallows_–_Part_2/Transcript",
+    ),
 }
 
 # Fallback sources if primary fails
 FALLBACKS = {
-    "3_prisoner_of_azkaban": ("warnerbros.fandom.com", "Harry_Potter_and_the_Prisoner_of_Azkaban_(film)/Transcript"),
-    "4_goblet_of_fire": ("warnerbros.fandom.com", "Harry_Potter_and_the_Goblet_of_Fire_(film)/Transcript"),
-    "5_order_of_the_phoenix": ("warnerbros.fandom.com", "Harry_Potter_and_the_Order_of_the_Phoenix_(film)/Transcript"),
-    "6_half_blood_prince": ("warnerbros.fandom.com", "Harry_Potter_and_the_Half-Blood_Prince/Transcript"),
+    "3_prisoner_of_azkaban": (
+        "warnerbros.fandom.com",
+        "Harry_Potter_and_the_Prisoner_of_Azkaban_(film)/Transcript",
+    ),
+    "4_goblet_of_fire": (
+        "warnerbros.fandom.com",
+        "Harry_Potter_and_the_Goblet_of_Fire_(film)/Transcript",
+    ),
+    "5_order_of_the_phoenix": (
+        "warnerbros.fandom.com",
+        "Harry_Potter_and_the_Order_of_the_Phoenix_(film)/Transcript",
+    ),
+    "6_half_blood_prince": (
+        "warnerbros.fandom.com",
+        "Harry_Potter_and_the_Half-Blood_Prince/Transcript",
+    ),
 }
 
 
@@ -66,7 +105,9 @@ class SimpleHTMLTextExtractor(HTMLParser):
 def fetch_via_api(wiki_domain, page_title):
     encoded_title = urllib.request.quote(page_title, safe="/:_'–")
     api_url = f"https://{wiki_domain}/api.php?action=parse&page={encoded_title}&prop=text&format=json&redirects=1"
-    req = urllib.request.Request(api_url, headers={"User-Agent": "HarryPotterCorpusBot/1.0"})
+    req = urllib.request.Request(
+        api_url, headers={"User-Agent": "HarryPotterCorpusBot/1.0"}
+    )
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode("utf-8"))
 

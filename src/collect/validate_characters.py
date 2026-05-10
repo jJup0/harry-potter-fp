@@ -6,16 +6,20 @@ Flags any character in our registry that doesn't appear on Wikipedia.
 Usage:
   python3 src/collect/validate_characters.py
 """
+
 import json
 import os
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "data", "v2", "characters.yaml")
-WIKIPEDIA_FILE = os.path.join(PROJECT_ROOT, "data", "reference", "wikipedia_hp_characters.json")
+WIKIPEDIA_FILE = os.path.join(
+    PROJECT_ROOT, "data", "reference", "wikipedia_hp_characters.json"
+)
 
 # Import alias map from registry
 import sys
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_character_registry import KNOWN_CHARACTERS
 
@@ -66,7 +70,9 @@ def main():
         # Check if any known canonical maps to a wiki name
         found = False
         for canonical, aliases in KNOWN_CHARACTERS.items():
-            if name.lower() == canonical.lower() or name.lower() in [a.lower() for a in aliases]:
+            if name.lower() == canonical.lower() or name.lower() in [
+                a.lower() for a in aliases
+            ]:
                 if canonical.lower() in wiki_names:
                     found = True
                     break

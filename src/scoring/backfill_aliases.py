@@ -6,6 +6,7 @@ when they were originally scored (pre-dedup commit aliases).
 This ensures the cache invalidation logic works correctly: scores that
 were generated with the old alias set won't be needlessly re-scored.
 """
+
 import json
 import os
 
@@ -26,8 +27,15 @@ PRE_DEDUP_ALIASES = {
     "Draco Malfoy": ["Draco", "Malfoy"],
     "Lucius Malfoy": ["Lucius"],
     "Narcissa Malfoy": ["Narcissa"],
-    "Lord Voldemort": ["Voldemort", "You-Know-Who", "He-Who-Must-Not-Be-Named",
-                       "The Dark Lord", "Tom Riddle", "Tom", "Riddle"],
+    "Lord Voldemort": [
+        "Voldemort",
+        "You-Know-Who",
+        "He-Who-Must-Not-Be-Named",
+        "The Dark Lord",
+        "Tom Riddle",
+        "Tom",
+        "Riddle",
+    ],
     "Neville Longbottom": ["Neville", "Longbottom"],
     "Augusta Longbottom": ["Mrs. Longbottom", "Mrs Longbottom"],
     "Ginny Weasley": ["Ginny"],
@@ -138,27 +146,29 @@ def main():
     updated = 0
     skipped = 0
     for fname in sorted(os.listdir(SCORE_DIR)):
-        if not fname.endswith('.json'):
+        if not fname.endswith(".json"):
             continue
         fpath = os.path.join(SCORE_DIR, fname)
         with open(fpath) as f:
             data = json.load(f)
 
-        meta = data.get('per_source', {}).get('comparative', {}).get('meta', {})
-        if 'aliases' in meta:
+        meta = data.get("per_source", {}).get("comparative", {}).get("meta", {})
+        if "aliases" in meta:
             skipped += 1
             continue
 
-        char_name = data.get('character', '')
+        char_name = data.get("character", "")
         aliases = get_pre_dedup_aliases(char_name)
-        meta['aliases'] = aliases
-        data['per_source']['comparative']['meta'] = meta
+        meta["aliases"] = aliases
+        data["per_source"]["comparative"]["meta"] = meta
 
-        with open(fpath, 'w') as f:
+        with open(fpath, "w") as f:
             json.dump(data, f, indent=2)
         updated += 1
 
-    print(f"Backfilled {updated} score files with pre-dedup aliases ({skipped} already had aliases)")
+    print(
+        f"Backfilled {updated} score files with pre-dedup aliases ({skipped} already had aliases)"
+    )
 
 
 if __name__ == "__main__":

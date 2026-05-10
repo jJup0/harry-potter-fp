@@ -4,17 +4,20 @@ so the model can compare how faithfully the film portrays the book character.
 
 Uses JSON schema validation and retries to handle flaky model outputs.
 """
+
 import json
 import os
 import re
 import time
 import urllib.request
 
-PROMPT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt.txt")
+PROMPT_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt.txt"
+)
 MAX_CORPUS_CHARS = 30000
 MAX_RETRIES = 3
-REQUIRED_SCORE_KEYS = {'personality', 'narrative_role', 'motivations', 'character_arc'}
-RAW_DIR = '/tmp/fp_raw_responses'
+REQUIRED_SCORE_KEYS = {"personality", "narrative_role", "motivations", "character_arc"}
+RAW_DIR = "/tmp/fp_raw_responses"
 os.makedirs(RAW_DIR, exist_ok=True)
 
 
@@ -22,16 +25,16 @@ def _get_prompt_version():
     """Read version from first line of prompt file. Format: '# version: major.minor'"""
     with open(PROMPT_FILE) as f:
         first_line = f.readline().strip()
-    if first_line.startswith('# version:'):
-        return first_line.split(':', 1)[1].strip()
-    return '0.0'
+    if first_line.startswith("# version:"):
+        return first_line.split(":", 1)[1].strip()
+    return "0.0"
 
 
 def _validate_response(parsed):
     """Validate the parsed JSON matches our expected schema. Returns error string or None."""
     if not isinstance(parsed, dict):
         return "Response is not a JSON object"
-    scores = parsed.get('scores')
+    scores = parsed.get("scores")
     if not isinstance(scores, dict):
         return "Missing or invalid 'scores' object"
     for key in REQUIRED_SCORE_KEYS:
@@ -44,10 +47,10 @@ def _validate_response(parsed):
 
 
 def score_character(char_name, corpus, config):
-    llm_config = config.get('llm', {})
+    llm_config = config.get("llm", {})
     try:
-        book_text = _prepare_corpus(corpus.get('books', []), 'book')
-        film_text = _prepare_corpus(corpus.get('screenplays', []), 'screenplay')
+        book_text = _prepare_corpus(corpus.get("books", []), "book")
+        film_text = _prepare_corpus(corpus.get("screenplays", []), "screenplay")
 
         half = MAX_CORPUS_CHARS // 2
         book_text = book_text[:half]
@@ -71,12 +74,16 @@ def score_character(char_name, corpus, config):
         )
 
         for attempt in range(1, MAX_RETRIES + 1):
-            print(f"    attempt {attempt}/{MAX_RETRIES}: calling {llm_config.get('model')}...")
+            print(
+                f"    attempt {attempt}/{MAX_RETRIES}: calling {llm_config.get('model')}..."
+            )
             response = _call_api(user_msg, llm_config)
             print(f"    got {len(response)} chars back")
             # Save raw response
-            raw_file = os.path.join(RAW_DIR, f"{char_name.lower().replace(' ', '_')}_attempt{attempt}.txt")
-            with open(raw_file, 'w') as rf:
+            raw_file = os.path.join(
+                RAW_DIR, f"{char_name.lower().replace(' ', '_')}_attempt{attempt}.txt"
+            )
+            with open(raw_file, "w") as rf:
                 rf.write(response)
             parsed = _extract_json(response)
             if parsed is None:
@@ -89,16 +96,24 @@ def score_character(char_name, corpus, config):
                 time.sleep(2)
                 continue
             # Valid response
-            scores = parsed['scores']
-            return {'comparative': {
-                'personality': scores['personality'],
-                'narrative_role': scores['narrative_role'],
-                'motivations': scores['motivations'],
-                'character_arc': scores['character_arc'],
-                'justification': parsed.get('justification', {}),
-                'key_observations': parsed.get('key_observations', ''),
-                'meta': {'type': 'comparative', 'model': llm_config.get('model'), 'prompt_version': _get_prompt_version(), 'book_chars_sent': len(book_text), 'film_chars_sent': len(film_text)},
-            }}
+            scores = parsed["scores"]
+            return {
+                "comparative": {
+                    "personality": scores["personality"],
+                    "narrative_role": scores["narrative_role"],
+                    "motivations": scores["motivations"],
+                    "character_arc": scores["character_arc"],
+                    "justification": parsed.get("justification", {}),
+                    "key_observations": parsed.get("key_observations", ""),
+                    "meta": {
+                        "type": "comparative",
+                        "model": llm_config.get("model"),
+                        "prompt_version": _get_prompt_version(),
+                        "book_chars_sent": len(book_text),
+                        "film_chars_sent": len(film_text),
+                    },
+                }
+            }
 
         print(f"    FAILED after {MAX_RETRIES} attempts")
         return _fallback(char_name)
@@ -108,85 +123,117 @@ def score_character(char_name, corpus, config):
 
 
 def _fallback(char_name):
-    return {'comparative': {
-        'personality': 0, 'narrative_role': 0, 'motivations': 0, 'character_arc': 0,
-        'meta': {'type': 'comparative', 'model': None, 'prompt_version': _get_prompt_version(), 'book_chars_sent': 0, 'film_chars_sent': 0, 'error': True}
-    }}
+    return {
+        "comparative": {
+            "personality": 0,
+            "narrative_role": 0,
+            "motivations": 0,
+            "character_arc": 0,
+            "meta": {
+                "type": "comparative",
+                "model": None,
+                "prompt_version": _get_prompt_version(),
+                "book_chars_sent": 0,
+                "film_chars_sent": 0,
+                "error": True,
+            },
+        }
+    }
 
 
 def _prepare_corpus(scenes, source_type):
     parts = []
     for i, scene in enumerate(scenes):
-        if source_type == 'screenplay':
-            lines = [f"[{d}]" for d in scene.get('directions', [])]
-            lines += [f"{d['speaker']}: {d['text']}" for d in scene.get('dialogue', [])]
-            text = '\n'.join(lines)
+        if source_type == "screenplay":
+            lines = [f"[{d}]" for d in scene.get("directions", [])]
+            lines += [f"{d['speaker']}: {d['text']}" for d in scene.get("dialogue", [])]
+            text = "\n".join(lines)
         else:
-            text = scene.get('text', '')
+            text = scene.get("text", "")
         parts.append(f"--- Scene {i+1} ---\n{text}")
-    return '\n\n'.join(parts)
+    return "\n\n".join(parts)
 
 
 def _call_api(user_msg, config):
-    api_base = config['api_base'].rstrip('/')
-    api_key = config.get('api_key', '')
-    if api_key.startswith('$'):
+    api_base = config["api_base"].rstrip("/")
+    api_key = config.get("api_key", "")
+    if api_key.startswith("$"):
         api_key = os.environ.get(api_key[1:], api_key)
 
     messages = [
-        {'role': 'system', 'content': (
-            'You are a literary analyst scoring Harry Potter character faithfulness (book vs film). '
-            'You always respond with ONLY a JSON object using exactly these keys in scores: '
-            'personality, narrative_role, motivations, character_arc. Each 0-25. No other keys.'
-        )},
-        {'role': 'user', 'content': 'Score Minerva McGonagall. personality, narrative_role, motivations, character_arc (each 0-25).'},
-        {'role': 'assistant', 'content': '{"character": "Minerva McGonagall", "scores": {"personality": 23, "narrative_role": 22, "motivations": 21, "character_arc": 20}, "justification": {"personality": "Stern but caring demeanor preserved", "narrative_role": "Authority/mentor role intact", "motivations": "Loyalty to Dumbledore and students clear", "character_arc": "Slightly compressed in later films"}, "key_observations": "One of the most faithfully adapted characters"}'},
-        {'role': 'user', 'content': user_msg},
+        {
+            "role": "system",
+            "content": (
+                "You are a literary analyst scoring Harry Potter character faithfulness (book vs film). "
+                "You always respond with ONLY a JSON object using exactly these keys in scores: "
+                "personality, narrative_role, motivations, character_arc. Each 0-25. No other keys."
+            ),
+        },
+        {
+            "role": "user",
+            "content": "Score Minerva McGonagall. personality, narrative_role, motivations, character_arc (each 0-25).",
+        },
+        {
+            "role": "assistant",
+            "content": '{"character": "Minerva McGonagall", "scores": {"personality": 23, "narrative_role": 22, "motivations": 21, "character_arc": 20}, "justification": {"personality": "Stern but caring demeanor preserved", "narrative_role": "Authority/mentor role intact", "motivations": "Loyalty to Dumbledore and students clear", "character_arc": "Slightly compressed in later films"}, "key_observations": "One of the most faithfully adapted characters"}',
+        },
+        {"role": "user", "content": user_msg},
     ]
 
     # Use ollama native API to set num_ctx
-    if 'localhost:11434' in api_base:
-        payload = json.dumps({
-            'model': config['model'],
-            'messages': messages,
-            'stream': False,
-            'format': 'json',
-            'options': {'temperature': config.get('temperature', 0.3), 'num_ctx': 32768},
-        }).encode('utf-8')
-        url = api_base.replace('/v1', '') + '/api/chat'
+    if "localhost:11434" in api_base:
+        payload = json.dumps(
+            {
+                "model": config["model"],
+                "messages": messages,
+                "stream": False,
+                "format": "json",
+                "options": {
+                    "temperature": config.get("temperature", 0.3),
+                    "num_ctx": 32768,
+                },
+            }
+        ).encode("utf-8")
+        url = api_base.replace("/v1", "") + "/api/chat"
     else:
-        payload = json.dumps({
-            'model': config['model'],
-            'messages': messages,
-            'temperature': config.get('temperature', 0.3),
-            'max_tokens': config.get('max_tokens', 2000),
-            'response_format': {'type': 'json_object'},
-        }).encode('utf-8')
-        url = f'{api_base}/chat/completions'
+        payload = json.dumps(
+            {
+                "model": config["model"],
+                "messages": messages,
+                "temperature": config.get("temperature", 0.3),
+                "max_tokens": config.get("max_tokens", 2000),
+                "response_format": {"type": "json_object"},
+            }
+        ).encode("utf-8")
+        url = f"{api_base}/chat/completions"
 
     req = urllib.request.Request(
-        url, data=payload,
-        headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {api_key}'},
-        method='POST'
+        url,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        },
+        method="POST",
     )
     t0 = time.time()
-    with urllib.request.urlopen(req, timeout=config.get('timeout', 300)) as resp:
-        raw = resp.read().decode('utf-8')
+    with urllib.request.urlopen(req, timeout=config.get("timeout", 300)) as resp:
+        raw = resp.read().decode("utf-8")
     print(f"    API took {time.time() - t0:.1f}s")
     if not raw:
         raise ValueError("Empty API response")
     data = json.loads(raw)
     # ollama native returns message.content, openai returns choices[0].message.content
-    if 'message' in data:
-        return data['message']['content']
-    return data['choices'][0]['message']['content']
+    if "message" in data:
+        return data["message"]["content"]
+    return data["choices"][0]["message"]["content"]
 
 
 def _extract_json(response_text):
     """Try to extract a JSON object from the response, stripping markdown fences."""
     text = response_text.strip()
-    text = re.sub(r'^```(?:json)?\s*', '', text)
-    text = re.sub(r'\s*```$', '', text)
+    text = re.sub(r"^```(?:json)?\s*", "", text)
+    text = re.sub(r"\s*```$", "", text)
     try:
         return json.loads(text.strip())
     except json.JSONDecodeError:

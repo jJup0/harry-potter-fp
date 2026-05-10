@@ -9,6 +9,7 @@ Outputs to corpus/<character_name>/books/scenes.json
 NOTE: This builds the v1 corpus. The v2 pipeline (src/collect/build_v2_pipeline.py)
 builds a separate corpus at data/v2/corpus/. The scorer currently reads from v1.
 """
+
 import json
 import os
 import re
@@ -23,30 +24,50 @@ CORPUS_DIR = os.path.join(PROJECT_ROOT, "corpus")
 
 def safe_dirname(name):
     """Convert character name to safe directory name."""
-    return re.sub(r'[^a-z0-9_]', '_', name.lower()).strip('_')
+    return re.sub(r"[^a-z0-9_]", "_", name.lower()).strip("_")
 
 
 def load_characters():
     with open(CHARACTERS_FILE) as f:
         data = yaml.safe_load(f)
-    return data['characters']
+    return data["characters"]
 
 
 def build_alias_lookup(characters):
     """Map lowercase alias -> canonical name."""
     # Names that are too generic to be useful for character detection
-    BLOCKLIST = {'you', 'all', 'voice', 'hogwarts', 'weasley', 'ominous voice',
-                 'elevator voice', 'man', 'woman', 'boy', 'girl', 'student',
-                 'students', 'crowd', 'everyone', 'someone', 'death eater',
-                 'death eaters', 'the', 'his', 'her', 'him'}
+    BLOCKLIST = {
+        "you",
+        "all",
+        "voice",
+        "hogwarts",
+        "weasley",
+        "ominous voice",
+        "elevator voice",
+        "man",
+        "woman",
+        "boy",
+        "girl",
+        "student",
+        "students",
+        "crowd",
+        "everyone",
+        "someone",
+        "death eater",
+        "death eaters",
+        "the",
+        "his",
+        "her",
+        "him",
+    }
     lookup = {}
     for c in characters:
-        canonical = c['name']
+        canonical = c["name"]
         if canonical.lower() in BLOCKLIST:
             continue
         lookup[canonical.lower()] = canonical
-        for a in c.get('aliases', []):
-            clean = a.strip().replace('\n', ' ').lower()
+        for a in c.get("aliases", []):
+            clean = a.strip().replace("\n", " ").lower()
             if len(clean) >= 3 and clean not in BLOCKLIST:
                 lookup[clean] = canonical
     return lookup
@@ -57,31 +78,31 @@ def build_screenplay_corpus(alias_lookup):
     corpus = {}  # canonical_name -> list of scene entries
 
     for fname in sorted(os.listdir(PARSED_SCREENPLAYS)):
-        if not fname.endswith('.json'):
+        if not fname.endswith(".json"):
             continue
         with open(os.path.join(PARSED_SCREENPLAYS, fname)) as f:
             data = json.load(f)
 
-        film = data['film']
-        for scene_idx, scene in enumerate(data['scenes']):
+        film = data["film"]
+        for scene_idx, scene in enumerate(data["scenes"]):
             # Find all characters in this scene
             chars_in_scene = set()
-            for c in scene.get('characters', []):
+            for c in scene.get("characters", []):
                 c_lower = c.lower()
                 if c_lower in alias_lookup:
                     chars_in_scene.add(alias_lookup[c_lower])
 
             # Also check dialogue speakers
-            for d in scene.get('dialogue', []):
-                speaker = d['speaker'].lower()
+            for d in scene.get("dialogue", []):
+                speaker = d["speaker"].lower()
                 if speaker in alias_lookup:
                     chars_in_scene.add(alias_lookup[speaker])
 
             entry = {
-                'source': film,
-                'scene_index': scene_idx,
-                'dialogue': scene.get('dialogue', []),
-                'directions': scene.get('directions', []),
+                "source": film,
+                "scene_index": scene_idx,
+                "dialogue": scene.get("dialogue", []),
+                "directions": scene.get("directions", []),
             }
 
             for char_name in chars_in_scene:
@@ -97,35 +118,55 @@ def build_book_corpus(alias_lookup):
     corpus = {}
 
     # Same blocklist as alias lookup
-    blocklist = {'you', 'all', 'voice', 'hogwarts', 'weasley', 'ominous voice',
-                 'elevator voice', 'man', 'woman', 'boy', 'girl', 'student',
-                 'students', 'crowd', 'everyone', 'someone', 'death eater',
-                 'death eaters', 'the', 'his', 'her', 'him'}
+    blocklist = {
+        "you",
+        "all",
+        "voice",
+        "hogwarts",
+        "weasley",
+        "ominous voice",
+        "elevator voice",
+        "man",
+        "woman",
+        "boy",
+        "girl",
+        "student",
+        "students",
+        "crowd",
+        "everyone",
+        "someone",
+        "death eater",
+        "death eaters",
+        "the",
+        "his",
+        "her",
+        "him",
+    }
 
     for fname in sorted(os.listdir(PARSED_BOOKS)):
-        if not fname.endswith('.json'):
+        if not fname.endswith(".json"):
             continue
         with open(os.path.join(PARSED_BOOKS, fname)) as f:
             data = json.load(f)
 
-        book = data['book']
-        for chapter in data['chapters']:
-            ch_title = chapter['chapter_title']
-            for scene in chapter['scenes']:
+        book = data["book"]
+        for chapter in data["chapters"]:
+            ch_title = chapter["chapter_title"]
+            for scene in chapter["scenes"]:
                 chars_in_scene = set()
-                for c in scene.get('characters_mentioned', []):
+                for c in scene.get("characters_mentioned", []):
                     if c.lower() not in blocklist:
                         chars_in_scene.add(c)
-                for s in scene.get('speakers', []):
+                for s in scene.get("speakers", []):
                     if s.lower() not in blocklist:
                         chars_in_scene.add(s)
 
                 entry = {
-                    'source': book,
-                    'chapter': ch_title,
-                    'paragraph_index': scene.get('paragraph_index', 0),
-                    'text': scene['text'],
-                    'has_dialogue': scene.get('has_dialogue', False),
+                    "source": book,
+                    "chapter": ch_title,
+                    "paragraph_index": scene.get("paragraph_index", 0),
+                    "text": scene["text"],
+                    "has_dialogue": scene.get("has_dialogue", False),
                 }
 
                 for char_name in chars_in_scene:
@@ -145,8 +186,16 @@ def write_corpus(corpus, subdir):
         os.makedirs(char_dir, exist_ok=True)
 
         outpath = os.path.join(char_dir, "scenes.json")
-        with open(outpath, 'w') as f:
-            json.dump({'character': char_name, 'total_scenes': len(entries), 'scenes': entries}, f, indent=2)
+        with open(outpath, "w") as f:
+            json.dump(
+                {
+                    "character": char_name,
+                    "total_scenes": len(entries),
+                    "scenes": entries,
+                },
+                f,
+                indent=2,
+            )
         count += 1
     return count
 
@@ -182,5 +231,5 @@ def main():
     print(f"\nCorpus written to {CORPUS_DIR}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

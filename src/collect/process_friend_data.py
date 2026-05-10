@@ -12,6 +12,7 @@ screen_time_v2.json. They likely have different formatting in Aitor's xlsx
 (e.g. the xlsx may not list them because they're in every film, or their
 names are formatted differently). The book_mentions_v2.json has them fine.
 """
+
 import json
 import os
 import re
@@ -39,6 +40,7 @@ FILM_MAP = {
 def parse_screen_time_value(val):
     """Convert screen time value to minutes (float). Handles datetime.time and plain numbers."""
     import datetime
+
     if val is None:
         return 0.0
     if isinstance(val, (int, float)):
@@ -78,7 +80,9 @@ def process_screen_time():
 
     # Add totals
     for char in result:
-        result[char]['_total'] = sum(v for k, v in result[char].items() if k != '_total')
+        result[char]["_total"] = sum(
+            v for k, v in result[char].items() if k != "_total"
+        )
 
     # Also process per-film sheets (2-7.2) for characters not in Sheet1
     for sheet_name in wb.sheetnames:
@@ -96,7 +100,7 @@ def process_screen_time():
             if minutes == 0:
                 continue
 
-            movie_clean = str(movie).replace('\xa0', '').strip()
+            movie_clean = str(movie).replace("\xa0", "").strip()
             film_key = None
             for full_name, key in FILM_MAP.items():
                 if full_name in movie_clean:
@@ -112,12 +116,16 @@ def process_screen_time():
 
     # Recalculate totals
     for char in result:
-        result[char]['_total'] = round(sum(v for k, v in result[char].items() if k != '_total'), 2)
+        result[char]["_total"] = round(
+            sum(v for k, v in result[char].items() if k != "_total"), 2
+        )
 
-    result = dict(sorted(result.items(), key=lambda x: x[1].get('_total', 0), reverse=True))
+    result = dict(
+        sorted(result.items(), key=lambda x: x[1].get("_total", 0), reverse=True)
+    )
 
     out_path = os.path.join(METRICS_DIR, "screen_time_v2.json")
-    with open(out_path, 'w') as f:
+    with open(out_path, "w") as f:
         json.dump(result, f, indent=2)
     print(f"  {len(result)} characters -> {out_path}")
     for name, data in list(result.items())[:10]:
@@ -134,9 +142,13 @@ def process_book_mentions():
     # Header row has book names
     headers = [cell.value for cell in ws[1]]
     book_keys = [
-        "1_philosophers_stone", "2_chamber_of_secrets", "3_prisoner_of_azkaban",
-        "4_goblet_of_fire", "5_order_of_the_phoenix", "6_half_blood_prince",
-        "7_deathly_hallows"
+        "1_philosophers_stone",
+        "2_chamber_of_secrets",
+        "3_prisoner_of_azkaban",
+        "4_goblet_of_fire",
+        "5_order_of_the_phoenix",
+        "6_half_blood_prince",
+        "7_deathly_hallows",
     ]
 
     result = {}
@@ -154,13 +166,15 @@ def process_book_mentions():
                 char_data[book_key] = int(val)
 
         if char_data:
-            char_data['_total'] = sum(char_data.values())
+            char_data["_total"] = sum(char_data.values())
             result[character] = char_data
 
-    result = dict(sorted(result.items(), key=lambda x: x[1].get('_total', 0), reverse=True))
+    result = dict(
+        sorted(result.items(), key=lambda x: x[1].get("_total", 0), reverse=True)
+    )
 
     out_path = os.path.join(METRICS_DIR, "book_mentions_v2.json")
-    with open(out_path, 'w') as f:
+    with open(out_path, "w") as f:
         json.dump(result, f, indent=2)
     print(f"  {len(result)} characters -> {out_path}")
     for name, data in list(result.items())[:10]:
@@ -177,7 +191,7 @@ def process_fp_rules():
         text += page.get_text() + "\n\n"
 
     out_path = os.path.join(PROJECT_ROOT, "data", "fp_rules.txt")
-    with open(out_path, 'w') as f:
+    with open(out_path, "w") as f:
         f.write(text)
     print(f"  {len(doc)} pages, {len(text)} chars -> {out_path}")
 
@@ -211,7 +225,7 @@ def process_screenplay_pdfs():
             text += page.get_text() + "\n"
 
         out_path = os.path.join(out_dir, f"{out_key}.txt")
-        with open(out_path, 'w') as f:
+        with open(out_path, "w") as f:
             f.write(text)
         print(f"  {pdf_name}: {len(doc)} pages, {len(text)} chars -> {out_key}.txt")
 
@@ -232,7 +246,7 @@ def process_books():
             text += page.get_text() + "\n"
 
         out_path = os.path.join(out_dir, "all_books.txt")
-        with open(out_path, 'w') as f:
+        with open(out_path, "w") as f:
             f.write(text)
         print(f"  PDF: {len(doc)} pages, {len(text)} chars -> all_books.txt")
 
@@ -259,12 +273,14 @@ def process_books():
                 end = splits[i + 1][1] if i + 1 < len(splits) else len(text)
                 book_text = text[start:end]
                 book_path = os.path.join(out_dir, f"{key}.txt")
-                with open(book_path, 'w') as f:
+                with open(book_path, "w") as f:
                     f.write(book_text)
                 print(f"    Split: {key} ({len(book_text)} chars)")
 
     # Also try epub
-    epub_path = os.path.join(books_dir, "Harry Potter. La coleccion comp - J. K. Rowling(1).epub")
+    epub_path = os.path.join(
+        books_dir, "Harry Potter. La coleccion comp - J. K. Rowling(1).epub"
+    )
     if os.path.exists(epub_path):
         try:
             import ebooklib
@@ -276,26 +292,34 @@ def process_books():
                     super().__init__()
                     self.text = []
                     self.skip = 0
+
                 def handle_starttag(self, tag, attrs):
-                    if tag in ('script', 'style'): self.skip += 1
+                    if tag in ("script", "style"):
+                        self.skip += 1
+
                 def handle_endtag(self, tag):
-                    if tag in ('script', 'style') and self.skip > 0: self.skip -= 1
-                    if tag in ('p', 'br', 'div', 'h1', 'h2', 'h3'): self.text.append('\n')
+                    if tag in ("script", "style") and self.skip > 0:
+                        self.skip -= 1
+                    if tag in ("p", "br", "div", "h1", "h2", "h3"):
+                        self.text.append("\n")
+
                 def handle_data(self, data):
-                    if self.skip == 0: self.text.append(data)
+                    if self.skip == 0:
+                        self.text.append(data)
+
                 def get_text(self):
-                    return ''.join(self.text)
+                    return "".join(self.text)
 
             book = epub.read_epub(epub_path)
             full_text = ""
             for item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
-                html = item.get_content().decode('utf-8', errors='replace')
+                html = item.get_content().decode("utf-8", errors="replace")
                 parser = TextExtractor()
                 parser.feed(html)
                 full_text += parser.get_text() + "\n"
 
             epub_out = os.path.join(out_dir, "all_books_epub.txt")
-            with open(epub_out, 'w') as f:
+            with open(epub_out, "w") as f:
                 f.write(full_text)
             print(f"  EPUB: {len(full_text)} chars -> all_books_epub.txt")
             print(f"    NOTE: This is the SPANISH edition ('La colección completa')")
@@ -303,7 +327,7 @@ def process_books():
             print(f"  EPUB extraction failed: {e}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     process_screen_time()
     process_book_mentions()
     process_fp_rules()
