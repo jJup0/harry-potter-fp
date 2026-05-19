@@ -10,7 +10,7 @@ import yaml
 from collections import Counter
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_merged")
 BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
 OUTPUT = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
 

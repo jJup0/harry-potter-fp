@@ -2,6 +2,16 @@
 
 A data pipeline and scoring system that measures how faithfully Harry Potter characters are portrayed in the films compared to the books. Built for Aitor's content creation workflow.
 
+## How It Works (Non-Technical Summary)
+
+The system takes the 7 Harry Potter books and 8 film screenplays, finds every paragraph/scene where each character appears, and builds a per-character "corpus" of all their book material and all their film material. Then a local AI model (Gemma 4) reads both sides - up to ~15,000 characters of book text and ~15,000 of film text per character - along with Aitor's FP rubric, and scores how faithfully the film version matches the book version across 4 dimensions. The AI also draws on its own pre-trained knowledge of the series to fill in context beyond the provided excerpts. For major characters with huge corpora, the AI sees a representative sample rather than every single mention.
+
+Results are cached so re-running only recalculates characters whose aliases, model, or prompt version changed. The final output is an interactive dashboard with rankings, per-dimension breakdowns, presence filters, scatter plots, and click-to-detail panels.
+
+Of 216 characters in the registry, 209 are scored. The remaining 7 are intentionally skipped (generic entries like "Voice" or animals like Hedwig that don't fit the rubric). Characters need at least 10 book mentions to be eligible for scoring.
+
+Dashboard: https://jjup0.github.io/harry-potter-fp/
+
 ## What is FP?
 
 FP (Fidelidad del Personaje / Character Faithfulness) is a 0-100 score measuring one thing only: **how faithful a character's film portrayal is to their book counterpart**. It does NOT measure importance, screen time, charisma, or actor quality.
@@ -66,8 +76,7 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 | Data | Source | Why |
 |------|--------|-----|
 | Book texts | v1 (GitHub) | Clean per-book text files |
-| Screenplays HP2,6,7.1,7.2 | v2 (Aitor's PDFs) | Actual screenplays with INT/EXT markers |
-| Screenplays HP1,3,4,5 | v1 (fandom wiki) | v2 PDFs were garbled/incomplete for these |
+| Screenplays | screenplays_merged/ (symlinks) | Best source per film: v1 fan transcripts, v2 Aitor PDFs, or v3 Script Slug |
 | Screen time | v2 (Aitor's xlsx) | Actual measured minutes per character per film |
 | Book mentions | v2 (Aitor's xlsx) | Actual counted mentions per character per book |
 | Character registry | v2 (from Aitor's data) | 239 canonical characters |
@@ -79,8 +88,10 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 ├── data/                           # SOURCE DATA (immutable inputs)
 │   ├── source/
 │   │   ├── books/                  # 7 book text files
-│   │   ├── screenplays/            # 8 wiki transcripts (fallback for HP1,3,4,5)
-│   │   ├── screenplays_v2/         # 8 PDF-extracted screenplays (primary for HP2,6,7.1,7.2)
+│   │   ├── screenplays/            # 8 wiki transcripts (v1, fan-curated dialogue)
+│   │   ├── screenplays_v2/         # 8 PDF-extracted screenplays (from Aitor's PDFs)
+│   │   ├── screenplays_v3/         # 8 Script Slug PDFs + extracted text
+│   │   ├── screenplays_merged/     # Symlinks to best source per film (see SOURCE.md inside)
 │   │   ├── aitor/                  # Aitor's raw input files (xlsx, pdf, epub)
 │   │   └── metrics/                # Screen time + book mentions (from Aitor's xlsx)
 │   ├── reference/                  # External reference data
@@ -156,7 +167,7 @@ Each score includes per-dimension justifications citing specific book/film evide
 ## Known Issues
 
 1. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
-2. **HP3 screenplay coverage** - Prisoner of Azkaban has poor data in both v1 and v2
+2. **HP3 screenplay coverage** - RESOLVED: now using Steve Kloves Full Tan Draft from Script Slug (v3)
 3. **Ron Weasley v2 corpus may be thin** - check if data split across directories
 4. **Dumbledore v2 corpus may be split** - check `albus_dumbledore` vs `dumbledore`
 5. **Michael Corner scored 0** - likely empty corpus, needs investigation

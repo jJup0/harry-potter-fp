@@ -15,7 +15,7 @@ import re
 import yaml
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_merged")
 CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
 os.makedirs(OUTPUT_DIR, exist_ok=True)

@@ -8,17 +8,15 @@ Run this to regenerate all derived data:
 Steps:
   1. Build character registry from Aitor's xlsx data -> output/characters.yaml
   2. Load alias map for character detection
-  3. Parse screenplays (v2 PDFs where good, v1 transcripts as fallback) -> output/parsed/screenplays/
+  3. Parse screenplays (from screenplays_merged/) -> output/parsed/screenplays/
   4. Parse books (v1 text files) -> output/parsed/books/
   5. Build per-character corpus -> output/corpus/
 
-Data source selection per film:
-  - HP2, HP6, HP7.1, HP7.2: v2 PDFs (actual screenplays with INT/EXT markers)
-  - HP1, HP3, HP4, HP5: v1 wiki transcripts (v2 PDFs were garbled/incomplete)
+Data source selection per film is handled by screenplays_merged/ symlinks.
+See data/source/screenplays_merged/SOURCE.md for details.
 
 KNOWN ISSUES:
   - v2 corpus has duplicate dirs for same character (alias resolution bugs)
-  - HP3 screenplay has very poor coverage in both sources
   - Blocklist for generic words is incomplete, some non-characters get corpus dirs
 """
 
@@ -31,8 +29,7 @@ PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".
 
 # Source paths
 BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
-SCREENPLAYS_V2_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_v2")
-SCREENPLAYS_V1_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays")
+SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_merged")
 SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
 BOOK_MENTIONS_FILE = os.path.join(
     PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json"
@@ -45,9 +42,6 @@ CORPUS_DIR = os.path.join(OUTPUT_DIR, "corpus")
 CHARACTERS_FILE = os.path.join(OUTPUT_DIR, "characters.yaml")
 os.makedirs(os.path.join(PARSED_DIR, "screenplays"), exist_ok=True)
 os.makedirs(os.path.join(PARSED_DIR, "books"), exist_ok=True)
-
-# Minimum screenplay size to use v2 (bytes). HP3 v2 is only 15KB.
-MIN_V2_SCREENPLAY_SIZE = 30000
 
 FILMS = [
     "1_philosophers_stone",
@@ -170,22 +164,17 @@ def load_alias_map():
 
 
 def get_screenplay_path(film_key):
-    """Return best available screenplay path for a film."""
-    v2_path = os.path.join(SCREENPLAYS_V2_DIR, f"{film_key}.txt")
-    v1_path = os.path.join(SCREENPLAYS_V1_DIR, f"{film_key}.txt")
-
-    # Only use v2 if it's a proper screenplay (has INT./EXT./CUT TO: markers)
-    v2_is_screenplay = False
-    if os.path.exists(v2_path) and os.path.getsize(v2_path) >= MIN_V2_SCREENPLAY_SIZE:
-        with open(v2_path, encoding="utf-8", errors="replace") as f:
-            sample = f.read(50000)
-        markers = len(re.findall(r"INT\.|EXT\.|CUT TO:", sample))
-        v2_is_screenplay = markers >= 5
-
-    if v2_is_screenplay:
-        return v2_path, "v2_pdf"
-    if os.path.exists(v1_path):
-        return v1_path, "v1_transcript"
+    """Return screenplay path from merged directory."""
+    path = os.path.join(SCREENPLAYS_DIR, f"{film_key}.txt")
+    if os.path.exists(path):
+        # Resolve symlink to determine source
+        real = os.path.realpath(path)
+        if "screenplays_v3" in real:
+            return path, "v3_scriptslug"
+        elif "screenplays_v2" in real:
+            return path, "v2_pdf"
+        else:
+            return path, "v1_transcript"
     return None, None
 
 
