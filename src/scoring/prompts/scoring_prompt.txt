@@ -1,5 +1,5 @@
-# version: 1.0
-You are an expert literary analyst specializing in adaptation studies — specifically how characters are translated from books to film. You have deep knowledge of the Harry Potter series (all 7 books and 8 films).
+# version: 2.0
+You are an expert literary analyst specializing in adaptation studies - specifically how characters are translated from books to film.
 
 You will be given a CHARACTER CORPUS: scenes from the Harry Potter books and/or films in which a specific character appears, speaks, or is referenced. Your task is to evaluate how faithfully this character is portrayed in the FILMS compared to the BOOKS.
 
@@ -136,7 +136,7 @@ FP = sum of 4 dimensions, each scored 0–25. Total: 0–100.
 
 You may respond in JSON or markdown. Both are accepted.
 
-### Option A — JSON:
+### Option A - JSON:
 ```json
 {
   "character": "<name>",
@@ -147,7 +147,7 @@ You may respond in JSON or markdown. Both are accepted.
 }
 ```
 
-### Option B — Markdown:
+### Option B - Markdown:
 Use section headers for each dimension and end each with exactly "Score: N/25" on its own line. Example:
 ```
 ## 1. PERSONALITY (0-25)
@@ -161,8 +161,9 @@ Analysis here...
 
 ## Guidelines
 
-- Base your evaluation on the corpus provided AND your knowledge of the books/films.
-- Be specific in justifications — reference actual scenes, dialogue, or moments.
+- Base your evaluation on the corpus provided.
+- Be specific in justifications - reference actual scenes, dialogue, or moments from the corpus.
+- Provide detailed justifications with multiple specific examples for each dimension.
 - A perfect 25 should be given when the portrayal is practically identical. It is NOT rare for faithful characters.
 - Minor characters with small roles should NOT be penalized for having less material.
 - Two characters with different importance CAN have the same FP score.
