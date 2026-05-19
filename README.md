@@ -71,6 +71,20 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 5. **Score**: Feed book + film corpus together to LLM with rubric, get 4-dimension scores + justifications. Cache stores aliases used at scoring time; scores auto-invalidate when aliases change.
 6. **Report**: Aggregate scores into rankings, per-character reports, interactive dashboard
 
+### Corpus Parsing - How Characters Are Detected
+
+The corpus for each character is built by detecting their presence in every paragraph (books) or scene (screenplays).
+
+**Books:** Each book is split into chapters (via regex matching "CHAPTER" headings), then each chapter into paragraphs (by blank lines or indentation patterns). For each paragraph, the system checks if any known character name or alias appears as a whole word (case-insensitive, minimum 4 characters to avoid false positives). If a character's name/alias is found, that paragraph is added to their book corpus.
+
+**Screenplays (v1 - wiki transcripts):** Parsed by detecting `Speaker: dialogue` patterns and `[stage directions]` in brackets. Scene breaks are detected by keywords in directions (e.g. "cut to", "meanwhile", "later"). A character is included in a scene if they speak (their name appears as a speaker) or their name/alias appears in a stage direction.
+
+**Screenplays (v2/v3 - proper format):** Parsed by detecting `INT./EXT.` scene headers and ALL-CAPS speaker names. A character is included if they speak or their name appears in the character list for that scene.
+
+**Alias resolution:** All character names are mapped through `KNOWN_CHARACTERS` in `build_character_registry.py`, which maps variants (e.g. "Sybil Trelawney", "Professor Trelawney", "Trelawney") to a single canonical name. The alias map is built as lowercase -> canonical for matching.
+
+**Minimum threshold:** Characters need at least 10 combined book mentions + screen time to be eligible for scoring.
+
 ### Data Sources
 
 | Data | Source | Why |
@@ -163,6 +177,21 @@ Top scores from the 209 characters scored so far:
 | Ginny Weasley | 15 | 18 | 14 | 12 | 59 |
 
 Each score includes per-dimension justifications citing specific book/film evidence.
+
+## Dashboard Features
+
+The interactive dashboard (`output/dashboard.html`) provides:
+
+- **Stacked bar charts** - Top and bottom characters ranked by FP score, broken down by dimension. Dropdown to control how many characters are visible (5/10/20/50/100/All).
+- **Scatter plot** - Book mentions vs screenplay words, colored by FP score. Shows which characters have the most material in each medium.
+- **Score distribution histogram** - How FP scores are distributed across all characters.
+- **Presence filters** - Sliders to filter by minimum book mentions and minimum screenplay words. Updates all charts and the character list in real-time.
+- **Character search** - Text search to find specific characters in the all-characters list.
+- **Click-to-detail panel** - Click any character in a chart or the list to open a side panel with per-dimension scores and full justifications.
+- **URL hash linking** - Direct links to specific characters via `#character=Name` in the URL.
+- **Mobile responsive** - Detail panel becomes a bottom sheet on small screens.
+
+Dashboard: https://jjup0.github.io/harry-potter-fp/
 
 ## Known Issues
 
