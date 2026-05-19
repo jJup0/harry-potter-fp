@@ -14,7 +14,6 @@ import urllib.request
 PROMPT_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt.txt"
 )
-MAX_CORPUS_CHARS = 30000
 MAX_RETRIES = 3
 REQUIRED_SCORE_KEYS = {"personality", "narrative_role", "motivations", "character_arc"}
 RAW_DIR = "/tmp/fp_raw_responses"
@@ -52,9 +51,7 @@ def score_character(char_name, corpus, config):
         book_text = _prepare_corpus(corpus.get("books", []), "book")
         film_text = _prepare_corpus(corpus.get("screenplays", []), "screenplay")
 
-        half = MAX_CORPUS_CHARS // 2
-        book_text = book_text[:half]
-        film_text = film_text[:half]
+        # No truncation - send full corpus to LLM
 
         user_msg = (
             f"## Character: {char_name}\n\n"
@@ -67,6 +64,8 @@ def score_character(char_name, corpus, config):
             f"- narrative_role: Is their story function preserved? (25=identical, 0=eliminated)\n"
             f"- motivations: Are their goals/fears/conflicts the same? (25=intact, 0=opposite)\n"
             f"- character_arc: Is their evolution the same? (25=faithful, 0=nonexistent)\n\n"
+            f"Provide DETAILED justifications for each dimension with multiple specific examples "
+            f"citing scenes, dialogue, or moments from the corpus.\n\n"
             f"Respond with ONLY a JSON object matching this exact schema:\n"
             f'{{"character": "{char_name}", "scores": {{"personality": N, "narrative_role": N, "motivations": N, "character_arc": N}}, '
             f'"justification": {{"personality": "...", "narrative_role": "...", "motivations": "...", "character_arc": "..."}}, '
@@ -190,7 +189,7 @@ def _call_api(user_msg, config):
                 "format": "json",
                 "options": {
                     "temperature": config.get("temperature", 0.3),
-                    "num_ctx": 32768,
+                    "num_ctx": config.get("num_ctx", 65536),
                 },
             }
         ).encode("utf-8")
@@ -201,7 +200,6 @@ def _call_api(user_msg, config):
                 "model": config["model"],
                 "messages": messages,
                 "temperature": config.get("temperature", 0.3),
-                "max_tokens": config.get("max_tokens", 2000),
                 "response_format": {"type": "json_object"},
             }
         ).encode("utf-8")
