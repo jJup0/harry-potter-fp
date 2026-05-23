@@ -7,6 +7,9 @@ scoring:
   # Minimum total mentions (screen_time_words + book_mentions) to score a character
   min_mentions: 10
 
+  # Parallel scoring workers
+  parallel: 10
+
   # Rule-based scoring rules (TODO: replace with Aitor's rules)
   # Each dimension is scored 0-25, total FP = sum of all 4 (0-100)
   rules:
