@@ -1,16 +1,102 @@
 {
   "character": "Crookshanks",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 11.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 68.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 18,
+      "narrative_role_agency": 11,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Crookshanks is established across the books as an unusually intelligent, purposeful, and willful cat. His behavior is not random feline aggression - he is persistent, strategic, and deliberate. He stares 'insolently' at Ron with 'yellow eyes fixed insolently on Ron' while eating a spider (Scene 20), he 'pounced' after staring 'unblinkingly' at Ron's bag (Scene 23), he slithers through the Whomping Willow's branches 'like a snake' to press the knot (Scene 95-96), he leads the group through the tunnel with his 'bottlebrush tail held jauntily high' (Scene 149), and he places himself protectively on Sirius's chest (Scene 115-117). He is also reactive to magical threats - hissing at the Sneakoscope (Scene 57), backing away from werewolf-Lupin (Scene 156), and spitting at Pettigrew's transformation (Scene 146). His personality is one of deliberate, almost knowing agency combined with fierce loyalty to Hermione and, eventually, Sirius.",
+          "film_portrayal": "The films preserve the surface-level personality: Crookshanks hisses at the Dementor (Film Scene 4), pursues Scabbers (Film Scenes 1, 5), and is shown as Hermione's loyal companion. The Leaky Cauldron scene (Film Scene 1) captures his aggressive pursuit of Scabbers and Hermione's defensive cooing. The dormitory scene (Film Scene 5) shows him chasing Scabbers amid chaos. However, the films never show the deliberate, strategic intelligence that defines him in the books - the unblinking stare before pouncing, the insolent yellow-eyed gaze at Ron, the purposeful leading through the tunnel, the protective positioning on Sirius's chest.",
+          "difference": "The films reduce Crookshanks from a strategically intelligent, purposeful animal to a more conventionally reactive cat. His most distinctive personality trait - the sense that he *knows* things and acts on that knowledge deliberately - is largely absent from the film corpus. The insolent staring, the jauntily held tail as he leads the group, the protective chest-sitting on Sirius: none of these appear in the film corpus. What remains is recognizable but flattened.",
+          "penalty_logic": "The core trait of deliberate, knowing intelligence is not directly evidenced in the film corpus. The films show a cat that chases rats and hisses at threats, which is generic feline behavior. The book's Crookshanks is distinguished precisely by behavior that exceeds normal cat behavior in purposefulness. This is a meaningful personality simplification, warranting a moderate penalty.",
+          "evidence_status": "Directly evidenced for both book and film portrayals."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Crookshanks has substantial narrative agency in PoA. He: (1) independently identifies Scabbers as Pettigrew and pursues him throughout the year; (2) independently contacts Sirius and establishes communication with him; (3) steals the Gryffindor passwords from Neville's bedside table and delivers them to Sirius; (4) presses the Whomping Willow knot to allow entry to the tunnel (Scene 95-96); (5) leads the group through the tunnel (Scenes 101, 104, 149, 151-154); (6) places himself protectively on Sirius's chest to shield him from Harry (Scenes 115-117); (7) tries to bring Pettigrew to Sirius and reports Pettigrew's faked death to Sirius (Scene 144). He is a genuine plot driver - without him, Sirius cannot enter Gryffindor Tower, and the tunnel entry in the climax is enabled by him. He is also the first character to correctly identify both Sirius (as innocent) and Scabbers (as Pettigrew).",
+          "film_portrayal": "The film corpus shows Crookshanks chasing Scabbers (Film Scenes 1, 5), hissing at the Dementor (Film Scene 4), and being present in the dormitory chaos (Film Scene 5). The film does retain the password theft implicitly - Sir Cadogan mentions 'a little piece of paper' with passwords (Film Scene 6), and Ron accuses Crookshanks of eating Scabbers. However, the tunnel-entry knot-pressing is absent from the film corpus entirely. The protective positioning on Sirius is absent. The explicit revelation of his intelligence and collaboration with Sirius (Book Scene 141-144) has no equivalent in the film corpus. In the film, Ron uses a twig with Wingardium Leviosa to press the knot (Book Scene 276-277 references this as a DH callback, but the PoA film handles the tunnel entry differently - the film corpus provided does not show the Whomping Willow entry scene for PoA).",
+          "difference": "The most significant agency loss is the Whomping Willow knot scene: in the books, Crookshanks presses the knot himself (Scene 95-96), enabling the climax. In the PoA film, this action is transferred - Hermione uses a spell or the scene is handled differently (the film corpus does not show this scene, but the DH book corpus Scene 276-277 explicitly references 'if we just had Crookshanks again' as the method, confirming the film did not use Crookshanks for this). Additionally, his role as intelligence-gatherer and password-thief is reduced to a background implication rather than an active narrative function. His protective positioning on Sirius - a key moment of agency - is absent from the film corpus.",
+          "penalty_logic": "The transfer of the Whomping Willow knot action to another character (or a spell) is a direct agency transfer that must be penalized per the transfer rule. The absence of the Sirius-collaboration revelation reduces his narrative function from active plot driver to passive pursuer. These are not mere compressions - they change what Crookshanks *does* in the story.",
+          "evidence_status": "Directly evidenced for book agency. Film agency loss is directly evidenced by absence in corpus and confirmed by DH book Scene 276-277 reference."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Crookshanks's motivations are unusual for an animal character: he is motivated by correct identification of Pettigrew as a threat and Sirius as innocent. Sirius explicitly states 'He recognized Peter for what he was right away. And when he met me, he knew I was no dog' (Scene 141). His pursuit of Scabbers is not random predation but targeted identification of a dangerous impostor. He is also motivated by loyalty - to Hermione, and eventually to Sirius. There is no internal conflict per se (he is an animal), but his motivations are unusually coherent and purposeful.",
+          "film_portrayal": "The films present Crookshanks's pursuit of Scabbers as conventional cat-chasing-rat behavior. Hermione's defense - 'He's a cat, Ronald! What do you expect? It's in his nature' (Film Scene 1) - actually frames his motivation as generic feline instinct rather than intelligent identification. This is the opposite of the book's revelation. The film does not include the Sirius explanation scene that reveals his true motivations.",
+          "difference": "The film actively frames his motivation as generic cat instinct (Hermione's line in Film Scene 1), while the books reveal it as intelligent, purposeful identification of Pettigrew. The revelation scene (Book Scenes 141-144) where Sirius explains Crookshanks's true motivations is absent from the film corpus.",
+          "penalty_logic": "The motivations are simplified but not entirely wrong - he does pursue Scabbers, which is correct behavior. However, the framing as generic instinct rather than intelligent purpose is a meaningful change. The absence of the revelation scene means the audience never learns his true motivations. This is a simplification that partially alters characterization, but the behavior itself (pursuing Scabbers) is preserved.",
+          "evidence_status": "Directly evidenced. Hermione's Film Scene 1 line is direct evidence of the reframing."
+        },
+        "character_arc": {
+          "book_baseline": "Crookshanks has a clear arc across PoA: he begins as a disruptive presence causing conflict between Ron and Hermione, is suspected of eating Scabbers, is revealed to have been acting with purpose all along (identifying Pettigrew, collaborating with Sirius), and ends vindicated - Ron even asks his opinion on Pigwidgeon (Scene 167-169). The arc moves from 'troublesome cat' to 'most intelligent of his kind' (Sirius's words). In later books he is a settled, comfortable presence at Hogwarts and the Burrow, his PoA role complete.",
+          "film_portrayal": "The film preserves the broad shape: Crookshanks causes conflict early, is accused of eating Scabbers, and Scabbers is found alive (Film Scene 8 - Hagrid's hut). The vindication beat is present. However, the revelation of his intelligence and collaboration with Sirius - the key turning point of his arc - is absent from the film corpus, meaning the arc's climax (from 'troublesome cat' to 'knowing ally') is compressed or lost.",
+          "difference": "The arc's resolution exists (Scabbers found alive, Ron apologizes to Hermione rather than Crookshanks) but the transformative revelation - Sirius's explanation of Crookshanks's intelligence and collaboration - is absent. The arc is compressed: the audience sees the conflict and the resolution but not the reframing that makes the arc meaningful.",
+          "penalty_logic": "The arc is recognizable and the key beats (conflict, accusation, vindication) are present. The missing element is the revelation scene that recontextualizes everything. This is a compression that loses an important step but does not fundamentally alter the trajectory. Score in the 11-13 range.",
+          "evidence_status": "Directly evidenced."
+        },
+        "key_relationships": {
+          "book_baseline": "Three key relationships: (1) Crookshanks/Hermione - deep loyalty, Hermione defends him fiercely, he curls in her lap repeatedly, she coos to him; (2) Crookshanks/Ron - sustained antagonism, Ron's hostility is a running conflict, but ends with Ron asking Crookshanks's opinion on Pigwidgeon (Scene 167-169), a moment of genuine warmth; (3) Crookshanks/Sirius - the most narratively significant relationship, built on mutual recognition and trust, Crookshanks protects Sirius physically and acts as his agent.",
+          "film_portrayal": "The Crookshanks/Hermione relationship is preserved - she defends him, coos to him, holds him. The Crookshanks/Ron antagonism is preserved in the film corpus (Film Scenes 1, 6, 7, 8). However, the Ron/Crookshanks reconciliation moment (asking his opinion on Pigwidgeon) is absent from the film corpus. The Crookshanks/Sirius relationship - the most important and narratively rich - is entirely absent from the film corpus: no protective chest-sitting, no Sirius stroking him, no revelation of their collaboration.",
+          "difference": "The Crookshanks/Sirius relationship is the most significant loss. In the books it is the relationship that explains everything about Crookshanks's behavior and gives him his deepest characterization. Its absence from the film means the most important relational dynamic is lost. The Ron reconciliation is also absent, removing the emotional resolution of the Ron/Crookshanks conflict.",
+          "penalty_logic": "The loss of the Crookshanks/Sirius relationship is a major relational loss - it is the relationship that defines his narrative function in PoA. The Hermione relationship is preserved. The Ron relationship is partially preserved (antagonism yes, reconciliation no). Score in the 5-6 range given the significance of the Sirius relationship loss.",
+          "evidence_status": "Directly evidenced."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Crookshanks's complexity lies in the gap between appearance and reality: he looks like a troublesome, ugly cat causing conflict, but is revealed to be the most perceptive character in PoA - correctly identifying both Pettigrew and Sirius before any human does. His complexity includes: strategic intelligence (stealing passwords, pressing the Willow knot, leading through the tunnel), moral clarity (protecting the innocent Sirius, pursuing the guilty Pettigrew), physical courage (placing himself on Sirius's chest before Harry's wand, being stunned by Pettigrew), and the irony that the character most dismissed as a nuisance is the one who sees most clearly.",
+          "film_portrayal": "The films preserve the surface nuisance/conflict role but lose the depth. The revelation of his intelligence (Sirius's speech, Scene 141) is absent. The password theft is implied but not foregrounded. The Willow knot action is transferred. The protective chest-sitting is absent. The tunnel leadership is absent. What remains is a cat that chases a rat and causes conflict - recognizable but stripped of the complexity that makes him remarkable.",
+          "difference": "The specific lost material includes: (1) Sirius's revelation of Crookshanks's intelligence and collaboration; (2) the Whomping Willow knot action; (3) the tunnel leadership; (4) the protective positioning on Sirius; (5) the password theft as an active, foregrounded plot contribution; (6) the Ron/Crookshanks reconciliation; (7) Crookshanks being stunned by Pettigrew (showing his vulnerability and commitment). The film retains the conflict function but loses the complexity that recontextualizes it.",
+          "penalty_logic": "The removed material is precisely the material that makes Crookshanks more than a plot device - it is what makes him a character with intelligence, loyalty, courage, and moral clarity. Without it, he is a generic antagonistic cat. This is a significant simplification that affects the audience's understanding of who he is.",
+          "evidence_status": "Directly evidenced."
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "High",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Sirius's revelation of Crookshanks's intelligence and collaboration (Book Scenes 141-144) - absent from film corpus",
+        "Crookshanks pressing the Whomping Willow knot to enable tunnel entry (Book Scenes 95-96) - transferred to spell/twig in film",
+        "Crookshanks leading the group through the tunnel (Book Scenes 101, 104, 149, 151-154) - absent from film corpus",
+        "Crookshanks placing himself protectively on Sirius's chest (Book Scenes 115-119, 123) - absent from film corpus",
+        "Crookshanks stealing Neville's password list for Sirius - implied but not foregrounded in film",
+        "Crookshanks being stunned by Pettigrew (Book Scene 157) - absent from film corpus",
+        "Ron asking Crookshanks's opinion on Pigwidgeon / reconciliation moment (Book Scenes 166-169) - absent from film corpus",
+        "Crookshanks's insolent staring at Ron while eating spider (Book Scene 20) - absent from film corpus",
+        "Sirius stroking Crookshanks and calling him 'the most intelligent of his kind' - absent from film corpus",
+        "Crookshanks reporting Pettigrew's faked death (blood on sheets) to Sirius (Book Scene 144) - absent from film corpus"
+      ],
+      "score_caps_applied": [
+        "Cap 3 (score above 75 if core book action transferred to another character): Whomping Willow knot action transferred - cap applied, total kept at or below 75",
+        "Cap 1 (score above 85 if films remove major complexity, agency, or narrative function): Sirius collaboration revelation and tunnel leadership absent - cap reinforces ceiling"
+      ],
+      "key_observations": "Crookshanks scores 68/100. The films preserve his surface role - aggressive pursuit of Scabbers, conflict with Ron, loyalty to Hermione - but lose the material that makes him genuinely remarkable: his strategic intelligence, his collaboration with Sirius, his role as the first character to correctly identify both Pettigrew and Sirius, and his physical agency in the PoA climax (pressing the Willow knot, leading through the tunnel, shielding Sirius). The most damaging single loss is the absence of Sirius's revelation speech, which recontextualizes everything Crookshanks has done and elevates him from nuisance to the story's most perceptive figure. Without it, the film Crookshanks is a recognizable but fundamentally simplified version of the book character - a cat that chases rats rather than an intelligent agent acting on correct moral judgment.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 62292,
+        "film_chars_sent": 15010,
+        "aliases": [],
+        "corpus_hash": "0cc2c220462b"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 0,

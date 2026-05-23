@@ -1,21 +1,109 @@
 {
   "character": "Ariana Dumbledore",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 14.0,
+    "narrative_role_agency": 13.0,
+    "motivations_internal_conflict": 9.0,
+    "character_arc": 10.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 7.0,
+    "total": 59.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 14,
+      "narrative_role_agency": 13,
+      "motivations_internal_conflict": 9,
+      "character_arc": 10,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 7,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Ariana in the books is defined through Aberforth's account and Dumbledore's confession: she is 'sweet and scared and harmless' most of the time, but also 'strange and dangerous' when her suppressed magic erupts. She is a victim of trauma who lost the ability to control her magic, not a classically developed speaking character. Her 'voice' is almost entirely mediated through others. The one direct visual description is 'vacant sweetness.' She is passive, fragile, and emotionally dependent on Aberforth. She is not a character with observable speech patterns - she has none in the books - but her emotional texture (traumatized, gentle, volatile, loved) is richly established through narration.",
+          "film_portrayal": "In the films, Ariana appears as a silent figure in a portrait and briefly in the graveyard scene (on a tombstone inscription). She smiles, walks away through a painted tunnel, and returns with Neville. She is described as 'beautiful' by Hermione. Aberforth says 'She'll always be beautiful' and 'She was devoted to him - he gave her everything, but time.' She has no dialogue and no direct characterization beyond visual presence.",
+          "difference": "The film preserves the visual impression of Ariana as a gentle, ethereal figure, and Aberforth's line about her devotion to Albus is consistent with the books. However, the entire emotional texture established in the books - her trauma, her volatility, her sweetness mixed with danger, her dependence on Aberforth, her accidental killing of their mother - is entirely absent from the film. The film reduces her to a beautiful, silent portrait figure. The 'vacant sweetness' of the book description is partially echoed visually, but the 'strange and dangerous' dimension is completely lost.",
+          "penalty_logic": "Because Ariana has no dialogue in the books either, the film cannot be penalized for removing speech patterns. However, the books establish a specific dual nature (sweet/dangerous, harmless/volatile) through Aberforth's narration that the film does not convey at all. The film presents only the 'beautiful and devoted' aspect. This is a meaningful simplification of her established emotional texture, warranting a penalty, though not a severe one given her non-speaking status in both.",
+          "evidence_status": "Directly evidenced: book description of 'sweet and scared and harmless' vs. 'strange and dangerous'; film description of 'beautiful' and 'devoted.' Reasonably inferred: the film's visual presentation aligns with the gentle/ethereal aspect only."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Ariana serves several narrative functions: (1) she is the hidden secret that shaped Albus's entire early life and moral failure; (2) her death is the traumatic rupture that estranged the brothers and haunted Albus forever; (3) she is the concrete human cost of Albus's ambition and his relationship with Grindelwald; (4) her portrait actively enables the trio to reach Hogwarts via the secret passage; (5) she is the reason Aberforth distrusts Albus and challenges Harry's faith in him. She also has a small active moment in the duel - she 'wanted to help' and her intervention (however accidental) caused her own death.",
+          "film_portrayal": "In the film, Ariana's portrait functions as the mechanism to summon Neville and open the passage to Hogwarts. Aberforth references her as evidence of Albus's sacrifices ('he sacrificed many things... including her'). Her tombstone appears in Godric's Hollow. These functions are preserved at a structural level.",
+          "difference": "The film retains Ariana's role as the passage-opener and as a symbol of Albus's moral cost. However, her role as the concrete, detailed human story that forces Harry (and the audience) to reckon with Dumbledore's flaws is heavily compressed. In the books, Aberforth's full account of Ariana - the Muggle attack, the hidden life, the neglect during Grindelwald's visit, the fatal duel - is what gives weight to his challenge of Harry's trust in Albus. In the film, Aberforth's challenge to Harry is present but Ariana's story is reduced to a single vague line ('he gave her everything, but time'), removing the specific narrative weight that makes the challenge credible and devastating.",
+          "penalty_logic": "The structural function (passage, symbol of Albus's cost) is preserved. But the narrative function of making Ariana's story the evidentiary basis for Aberforth's moral challenge is substantially weakened. The film keeps the conclusion without the argument. This is a meaningful agency/function reduction - not a transfer to another character, but a hollowing out of the narrative substance that her story provides.",
+          "evidence_status": "Directly evidenced: film retains portrait passage function and Aberforth's reference to her as a sacrifice. Book establishes full narrative of trauma, neglect, and death as the basis for Aberforth's challenge. The compression is directly observable by comparing the two corpora."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Ariana has no expressed motivations in the traditional sense - she is not a character who makes choices in the narrative. However, the books establish one crucial internal moment: during the three-way duel, she 'wanted to help' - she had an impulse toward protection or intervention, even though she could not control it. This is the only window into her inner life, and it is significant: it shows she was not entirely passive, that she had emotional responses and desires, even if she could not act on them coherently.",
+          "film_portrayal": "The film gives Ariana no internal life whatsoever. She smiles and walks. There is no moment equivalent to the book's 'she wanted to help.' Aberforth's line about her devotion to Albus is the only hint of her having feelings, but it is told about her, not shown through her.",
+          "difference": "The one moment of internal motivation the books give Ariana - her desire to help during the duel - is entirely absent from the film. The film presents her as purely passive and decorative.",
+          "penalty_logic": "This is a genuine loss. The 'wanted to help' moment is the only evidence in the books that Ariana had any agency or internal life, however limited. Its absence means the film presents a character with no discernible inner state at all. However, because Ariana's motivations are so minimally established in the books to begin with, the penalty is moderate rather than severe.",
+          "evidence_status": "Directly evidenced: book corpus scenes 51-52 ('she wanted to help, but she didn't really know what she was doing'). Film corpus: no equivalent moment present."
+        },
+        "character_arc": {
+          "book_baseline": "Ariana does not have a traditional arc in the sense of growth or change. Her trajectory is entirely defined by what was done to her: attacked at six, magic turned inward, hidden for years, accidentally kills her mother, dies in a three-way duel at fourteen. This is a flat arc of sustained victimhood punctuated by two catastrophic events (her mother's death, her own death). The arc's meaning is retrospective - it exists to explain Albus's guilt and Aberforth's grief.",
+          "film_portrayal": "The film presents no arc at all. Ariana exists as a static image - a portrait, a tombstone, a symbol. The two catastrophic events of her arc (killing her mother, dying in the duel) are not depicted or described in the film corpus.",
+          "difference": "The film omits both key events of Ariana's trajectory. The tombstone establishes she died young; Aberforth's vague reference establishes she was sacrificed. But the specific shape of her arc - the trauma, the years of hidden suffering, the accidental killing, the fatal duel - is entirely absent.",
+          "penalty_logic": "Because Ariana's arc is retrospective and exists primarily to illuminate Albus and Aberforth rather than herself, the film's omission of its details does reduce the arc's presence but does not invert or falsify it. The film implies she died young and was neglected; the books show the full human cost. This is an incomplete arc rather than a false one, warranting a mid-range score.",
+          "evidence_status": "Directly evidenced: book corpus provides full arc through Aberforth's account (scenes 9-52) and Albus's confession (scene 70-71). Film corpus provides only tombstone and vague reference."
+        },
+        "key_relationships": {
+          "book_baseline": "Ariana's two defining relationships are: (1) with Aberforth - he was her favourite, he could calm her, she helped him feed the goats, he was her primary caregiver and protector, and his grief and guilt over her death define his entire character; (2) with Albus - she was neglected by him in favour of his ambitions and his friendship with Grindelwald, and her death is the source of his lifelong guilt. A third relationship exists with Grindelwald, whose presence indirectly caused her death.",
+          "film_portrayal": "The film preserves the Aberforth-Ariana relationship at a surface level: he keeps her portrait, he speaks of her with grief, he says 'she'll always be beautiful.' The Albus-Ariana relationship is referenced ('he sacrificed her'). However, the specific emotional dynamics - Aberforth as her devoted caregiver, Albus as the neglectful brother, the intimacy of their bond (she helped him feed the goats, he could get her to eat when no one else could) - are entirely absent.",
+          "difference": "The film reduces both relationships to summary statements. The Aberforth-Ariana bond, which in the books is the most tender and specific relationship in the entire Dumbledore backstory, is compressed to 'she'll always be beautiful' and a glance at the portrait. The Albus-Ariana relationship is reduced to 'he sacrificed her.' The emotional specificity that makes both relationships meaningful is lost.",
+          "penalty_logic": "The emotional dynamics are substantially altered by compression. The film preserves the fact of the relationships but not their texture, power balance, or dramatic function. Aberforth's devotion to Ariana is the emotional core of his character, and the film's treatment of it is too thin to convey that. This warrants a meaningful penalty.",
+          "evidence_status": "Directly evidenced: book corpus scenes 25-30 (Aberforth as favourite, caregiver, goat-feeding); film corpus scene 3 ('she'll always be beautiful,' 'he gave her everything, but time'). The contrast is clear."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Ariana's complexity in the books lies in her dual nature: simultaneously victim and danger, sweet and volatile, loved and hidden, innocent and the cause of her mother's death. She is also the moral crux of the entire Dumbledore backstory - the human being whose suffering was the price of Albus's ambition. The books give her enough texture through Aberforth's account and Albus's confession to make her a genuinely tragic figure rather than a mere plot device. The detail of her wanting to help during the duel adds a final layer of pathos.",
+          "film_portrayal": "The film presents Ariana as a beautiful, silent, ethereal figure in a portrait. She is aesthetically present but narratively hollow. The dual nature (sweet/dangerous), the specific history of trauma, the years of hidden suffering, the accidental killing of her mother, the 'wanted to help' moment, and the full weight of her death as the price of Albus's ambition are all absent.",
+          "difference": "Almost all of the material that gives Ariana complexity and nuance is lost. What remains is: she was beautiful, she died young, she was devoted to Albus, Albus sacrificed her. This is a skeleton of the book characterization.",
+          "penalty_logic": "This is the most significant area of loss. The film reduces Ariana from a tragic, textured figure whose story is the moral heart of the Dumbledore backstory to a beautiful symbol. The complexity, the contradictions, the specific human detail - all gone. The score cap at 70 applies because the films preserve only the broad identity (Dumbledore's dead sister) while removing most of what defines her book characterization.",
+          "evidence_status": "Directly evidenced throughout the book corpus. The absence of this material in the film corpus is directly observable."
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "The Muggle boys' attack on six-year-old Ariana and its psychological consequences",
+        "Ariana's dual nature: 'sweet and scared and harmless' but also 'strange and dangerous'",
+        "Ariana accidentally killing her mother during a rage",
+        "Aberforth as Ariana's devoted caregiver - feeding her, calming her rages, feeding goats together",
+        "Albus neglecting Ariana in favour of Grindelwald and his ambitions",
+        "Ariana's years of hidden confinement and the family's cover story of 'ill health'",
+        "The three-way duel between Aberforth, Albus, and Grindelwald that caused Ariana's death",
+        "Ariana's one moment of internal agency: 'she wanted to help' during the duel",
+        "Albus's confession that he used the Resurrection Stone hoping to see Ariana (present in film corpus scene 5 - partially retained)",
+        "Aberforth's full account of Ariana's life as the evidentiary basis for his challenge to Harry's trust in Albus",
+        "The specific emotional texture of the Aberforth-Ariana bond as the most intimate relationship in the Dumbledore backstory"
+      ],
+      "score_caps_applied": [
+        "Cap 4 (max 70): The films preserve only Ariana's broad identity as Dumbledore's dead sister while removing most of what defines her book characterization - her trauma, dual nature, the specific relationships, the moral weight of her story."
+      ],
+      "key_observations": "Ariana Dumbledore is one of the most significantly compressed characters in the adaptation. In the books she is a tragic, textured figure whose story - the Muggle attack, the hidden years, the accidental killing of her mother, the fatal duel - forms the moral core of the Dumbledore backstory and the evidentiary basis for Aberforth's challenge to Harry. The film retains her as a visual symbol (a beautiful portrait, a tombstone) and preserves her structural function as the passage-opener to Hogwarts, but strips away almost all of the human detail that makes her characterization meaningful. Aberforth's grief is present but its specific content - the intimacy of his bond with her, the years of caregiving, the devastating specifics of her death - is reduced to a single vague line. The film's Ariana is recognizable as 'Dumbledore's dead sister' but not as the complex, dual-natured, morally significant figure the books establish. The score is capped at 70 per cap rule 4, and the total of 59 reflects the substantial loss of characterization despite the retention of structural function.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 11014,
+        "film_chars_sent": 20416,
+        "aliases": [
+          "Ariana"
+        ],
+        "corpus_hash": "3c3fb0cc351d"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 0,
     "book_mentions": 51,
-    "screenplay_words": 0,
+    "screenplay_words": 678,
     "book_words": 1793
   }
 }

@@ -507,6 +507,14 @@ def build_corpus(alias_map):
                 speaker = d["speaker"].lower()
                 if speaker in alias_map:
                     chars_in_scene.add(alias_map[speaker])
+            # Scan dialogue text and directions for character mentions
+            scene_text = " ".join(
+                [d.get("text", "") for d in scene.get("dialogue", [])] +
+                scene.get("directions", [])
+            ).lower()
+            for alias, canonical in alias_map.items():
+                if len(alias) >= 4 and alias in scene_text:
+                    chars_in_scene.add(canonical)
 
             entry = {
                 "source": film,

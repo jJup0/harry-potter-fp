@@ -1,16 +1,104 @@
 {
   "character": "Charlie Weasley",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 14.0,
+    "narrative_role_agency": 10.0,
+    "motivations_internal_conflict": 10.0,
+    "character_arc": 13.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 61.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 14,
+      "narrative_role_agency": 10,
+      "motivations_internal_conflict": 10,
+      "character_arc": 13,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Charlie is established as warm, good-natured, physically robust, and passionately devoted to dragons. He is sociable and easy-going (broad, good-natured face; cheerful banter with siblings at the Burrow; singing at Bill's wedding), but also professionally competent and quietly authoritative around his work (sternly counting eggs, warning Hagrid, expressing genuine concern for Harry's safety in GoF). He has a dry, understated humor ('Really romantic date, Hagrid'; 'They're a lot more vicious' about female dragons). He is not a rule-follower by instinct - he bends them to help Harry (smuggling Norbert, tipping Harry off about the dragons) - but he is responsible within his professional domain. His voice is relaxed, direct, and lightly ironic.",
+          "film_portrayal": "Charlie does not appear as a named, speaking character in any of the three film corpus scenes. In Film Scene 1 (PS), Ron mentions Charlie only as a reason his parents are going to Romania ('my parents decided to go to Romania to visit my brother, Charlie. He's studying dragons there'). In Film Scene 2 (PS), Ron identifies the Norwegian Ridgeback by saying 'My brother Charlie works with these in Romania' - a single expository line. In Film Scene 3 (GoF), Hagrid mentions Charlie in passing: 'His brother Charlie helped to bring him over from Romania.' Charlie never speaks, acts, or appears on screen in the provided film corpus.",
+          "difference": "The books give Charlie multiple scenes of direct dialogue, observable personality, humor, warmth, professional authority, and emotional texture. The films reduce him entirely to a name dropped in other characters' dialogue. No personality or voice can be evaluated from the film corpus because Charlie is absent as an active character.",
+          "penalty_logic": "Because Charlie never appears as a speaking or acting character in the film corpus, his personality and voice cannot be preserved. The traits that define him in the books - dry humor, warmth, professional competence, easy-going authority - are entirely absent. However, the corpus is limited and Charlie is a minor character; the score reflects that what little the films show (his dragon expertise, Romania connection) is consistent with the book baseline, but the absence of any direct portrayal prevents a higher score. Score sits at the lower end of the 14-17 range: recognizable identity is implied by the references, but no actual traits, tone, or voice are present.",
+          "evidence_status": "Reasonably inferred for book baseline; Not enough evidence for film portrayal beyond name-dropping."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Charlie serves several distinct narrative functions across the books: (1) In PS/SS, he is the solution to the Norbert problem - Harry's idea to send Norbert to Charlie is the plot resolution, and Charlie's letter organizes the handoff, making him an active (if off-page) agent. (2) In GoF, he is the dragon handler who brings the tournament dragons to Hogwarts, warns Hagrid about Madame Maxime's presence, expresses concern for Harry, and crucially is the indirect source of Harry learning about the first task (via Hagrid). He also delivers the post-task result to Harry. (3) In OotP, he is recruiting for the Order in Romania. (4) In DH, he arrives at the Battle of Hogwarts leading reinforcements. His agency is real: he makes decisions, organizes logistics, communicates information, and participates in action.",
+          "film_portrayal": "In the film corpus, Charlie's narrative functions are either transferred or omitted. In PS film, the Norbert subplot is compressed: Hagrid says 'Dumbledore sent him off to Romania to live in a colony' - Charlie's role as the active solution (receiving the letter, organizing friends, arranging the handoff) is entirely removed. The agency of the Norbert resolution is transferred to Dumbledore. In GoF film, Hagrid mentions Charlie brought the dragons over, but Charlie does not appear to warn about Madame Maxime, does not speak to Harry, and does not deliver the post-task news. His GoF agency is reduced to a background logistical mention.",
+          "difference": "The Norbert resolution agency (Charlie organizing the handoff, his friends arriving, his letter driving the plan) is transferred to Dumbledore in the films. Charlie's GoF presence - warning Hagrid, expressing concern for Harry, delivering results - is absent from the film corpus. His Order recruitment role and Battle of Hogwarts arrival are not in the corpus at all.",
+          "penalty_logic": "The transfer of the Norbert resolution from Charlie to Dumbledore is a direct agency transfer that removes Charlie's most significant plot-driving function in PS. His GoF role as an active participant is reduced to a name in Hagrid's dialogue. Per the transfer rule, this must be penalized. Score falls in the 10-13 range: role and agency are clearly altered, with the most concrete agency moment transferred to another character.",
+          "evidence_status": "Directly evidenced for book agency (letter, handoff, GoF scenes); Directly evidenced for film omission/transfer."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Charlie's motivations in the books are consistent and clear: a deep passion for dragons and magical creatures (choosing Romania over a professional Quidditch career, his reverence around the dragons in GoF), loyalty to family (concern for Harry on Mrs. Weasley's behalf, rushing to send her an owl after the first task, arriving at the Battle), and a relaxed disregard for rules when loyalty or care demands it (helping smuggle Norbert, tipping Harry off). There is no significant internal conflict depicted - he is a settled, purposeful character whose motivations are externally expressed rather than internally tortured.",
+          "film_portrayal": "The film corpus provides no scenes in which Charlie's motivations can be observed. He is referenced as someone who studies dragons in Romania, which is consistent with his book passion, but no motivational texture is present.",
+          "difference": "The book motivations (dragon passion, family loyalty, pragmatic rule-bending) are not contradicted by the films, but they are also not shown. The dragon-passion motivation is implied by the references to his Romania work, but family loyalty and the rule-bending dimension are absent.",
+          "penalty_logic": "Motivations are not contradicted, but they are also not portrayed. For a minor character with a flat motivational profile, the absence of contradiction is meaningful - the films do not invent wrong motivations. However, the complete absence of any motivational portrayal means the score cannot be high. Score sits at 10: motivations are partially present by implication (dragon work) but the fuller picture is absent.",
+          "evidence_status": "Directly evidenced for book baseline; Not enough evidence for film portrayal."
+        },
+        "character_arc": {
+          "book_baseline": "Charlie has a flat arc across the series, which is intentional. He is established early as someone who has already made his life choices (dragons over Quidditch, Romania over England) and does not undergo significant internal change. His trajectory is one of consistent presence: a reliable, warm, competent older brother who shows up when needed (GoF dragon task, Order work, Battle of Hogwarts). A flat arc faithfully preserved scores full points per the scoring rules.",
+          "film_portrayal": "The film corpus does not contradict Charlie's flat arc. He is referenced consistently as the dragon expert in Romania across PS and GoF references. No false arc is invented. However, his presence at the Battle of Hogwarts (DH book) - a moment that confirms his continued loyalty and action - is not in the film corpus, so cannot be evaluated.",
+          "difference": "The flat arc is not contradicted. The films do not invent a false arc or change his trajectory. The compression is significant but does not alter the arc itself.",
+          "penalty_logic": "A flat arc faithfully preserved scores in the 11-13 range when compressed but still faithful. The references in the films are consistent with his book trajectory. Minor compression penalty because his DH arrival (a meaningful arc confirmation) is outside the corpus. Score: 13.",
+          "evidence_status": "Directly evidenced for book flat arc; Reasonably inferred for film consistency."
+        },
+        "key_relationships": {
+          "book_baseline": "Charlie's key relationships in the books are: (1) Ron - Charlie is a benchmark Ron measures himself against (Charlie's old wand, Charlie's old broom, Charlie was Quidditch captain); Ron speaks of him with a mix of pride and the pressure of living up to him. (2) Hagrid - a warm, mutual affection based on shared love of magical creatures; Hagrid asks after Charlie fondly, Charlie teases Hagrid gently in GoF. (3) Harry - Charlie shows genuine care for Harry's safety in GoF, is pleased by his performance, and acts as a warm peripheral figure. (4) Mrs. Weasley - Charlie is aware of and affectionate toward his mother's anxieties, imitating her voice with fond humor in GoF.",
+          "film_portrayal": "In the film corpus, Charlie's relationship with Ron is reduced to Ron using Charlie's name as an expository device ('my brother Charlie works with these in Romania'). The dynamic of Ron measuring himself against Charlie is absent. The Hagrid-Charlie relationship is reduced to Hagrid's single mention. The Harry-Charlie relationship (GoF concern, post-task congratulations) is absent. The Mrs. Weasley-Charlie dynamic is entirely absent.",
+          "difference": "All of Charlie's key relationships are reduced to name-drops or single expository mentions. The emotional dynamics - Ron's complex pride/pressure, Hagrid's mutual warmth, Charlie's genuine care for Harry - are not present in the film corpus.",
+          "penalty_logic": "The relationships are not falsified, but they are functionally absent. The emotional dynamics that define Charlie's relational texture in the books are not shown. Per the scoring rubric, important relationship dynamics are altered or weakened. Score: 6.",
+          "evidence_status": "Directly evidenced for book relationships; Directly evidenced for film absence."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Charlie's complexity in the books comes from several layers: the contrast between his physical toughness (burns, calluses) and his warmth; his professional authority alongside his easy-going family persona; his dry humor ('Really romantic date, Hagrid'; female dragons being more vicious); his pragmatic rule-bending (Norbert smuggling, tipping Harry off); his awareness of family dynamics (imitating Mrs. Weasley, concern about Percy's secrecy); his role as a quiet connector between the wizarding world's wider landscape and the Weasley family. He is not a complex character in the sense of internal conflict, but he has genuine texture.",
+          "film_portrayal": "None of this texture is present in the film corpus. Charlie is a name attached to a function (dragon expert in Romania). The humor, the physical presence, the professional-yet-warm duality, the rule-bending, the family awareness - all absent.",
+          "difference": "The films remove essentially all of Charlie's book texture. What remains is a single identifying trait (dragon work) used as exposition by other characters.",
+          "penalty_logic": "The character is reduced to a single expository function. Important nuances, relationships, agency, and contradictions are missing. Score: 8, reflecting noticeable simplification with important nuances absent, but acknowledging that Charlie is a minor character whose complexity is relatively contained and that the flat identity (dragon expert) is at least consistent.",
+          "evidence_status": "Directly evidenced for book nuance; Directly evidenced for film absence."
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Norbert resolution agency transferred to Dumbledore: in the books, Charlie organizes the handoff via letter, his friends arrive at the tower, and the plan is driven by Charlie's response; in the films, Dumbledore simply sends Norbert to Romania.",
+        "Charlie's GoF physical presence and dialogue: warning Hagrid about Madame Maxime, expressing concern for Harry, delivering post-task congratulations - all absent from film corpus.",
+        "Charlie's dry humor and warm personality (e.g., 'Really romantic date, Hagrid'; female dragons being more vicious; imitating Mrs. Weasley).",
+        "Charlie's professional authority as dragon handler (counting eggs sternly, managing the enclosure).",
+        "The Ron-Charlie dynamic: Ron measuring himself against Charlie's achievements (Quidditch captain, old wand, old broom).",
+        "The Hagrid-Charlie mutual warmth and shared passion for magical creatures.",
+        "Charlie's pragmatic rule-bending (helping smuggle Norbert, indirectly tipping Harry off about the first task via Hagrid).",
+        "Charlie's awareness of and affection for family dynamics (imitating Mrs. Weasley's anxiety, concern about Percy's secrecy).",
+        "Charlie's arrival at the Battle of Hogwarts leading reinforcements (DH).",
+        "Charlie's Order of the Phoenix recruitment role in Romania (OotP)."
+      ],
+      "score_caps_applied": [
+        "Cap 3 (score above 75 if a core book function is transferred to another character): applied - the Norbert resolution agency is transferred to Dumbledore in the films.",
+        "Cap 4 (score above 70 if films preserve only broad identity but remove most defining characterization): applied - the films retain only the 'dragon expert in Romania' identity while removing personality, relationships, agency, humor, and texture."
+      ],
+      "key_observations": "Charlie Weasley is one of the most significantly reduced characters in the film adaptations relative to his book presence. In the books he is a minor but textured character with genuine agency (the Norbert resolution, the GoF dragon task), warm relationships (Hagrid, Ron, Harry, Mrs. Weasley), dry humor, and professional competence. In the film corpus he exists only as an expository name dropped by other characters - most damagingly, his most concrete narrative function (organizing Norbert's transfer) is transferred to Dumbledore. The films preserve his single identifying trait (dragon work in Romania) but remove everything that made him a character rather than a plot device. The score of 61 reflects that the broad identity is consistent and no false characterization is invented, but the cap rules apply because core agency has been transferred and most defining characterization has been removed. Confidence is Medium throughout because Charlie is a minor character with limited corpus material, making some dimensions difficult to evaluate with certainty.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 47620,
+        "film_chars_sent": 18927,
+        "aliases": [
+          "Charlie"
+        ],
+        "corpus_hash": "9657b232081e"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 0,
