@@ -1,0 +1,710 @@
+[
+  {
+    "character": "Nigel",
+    "score": 65.0,
+    "consistency": 3,
+    "reason": "The factual claims are correct - Nigel is confirmed to be a film-only invention with no book counterpart, a composite of Colin and Dennis Creevey. The described arc (errand boy -> DA member -> resistance fighter) is accurate. However, the score of 65/100 is internally inconsistent with the scorer's own justifications, which repeatedly state 'no book baseline to compare against'. The FP rubric measures book-to-film faithfulness, so a film-only character cannot logically score 65 - it should be unscored or 0. Awarding 65 while acknowledging there's nothing to be faithful to contradicts the rubric's definition."
+  },
+  {
+    "character": "Sir Cadogan",
+    "score": 78.0,
+    "consistency": 3,
+    "reason": "The score's core premise is flawed. Sir Cadogan was cut entirely from the theatrical release of Prisoner of Azkaban - his scene only exists as a deleted scene on home media. The justifications repeatedly reference what 'the film' shows (password incident, introductory scene, Neville being implicated) as if these are in the theatrical cut, but they are not. A character with no theatrical presence should score far lower, particularly on narrative_role (15/25 seems too generous) and arc (13/25). The personality description of his book traits is accurate, but the film comparison is built on deleted footage, which fundamentally undermines the scoring basis."
+  },
+  {
+    "character": "Bill Weasley",
+    "score": 55.0,
+    "consistency": 4,
+    "reason": "The factual claims in the justifications are accurate and well-supported - Bill's GoF role was completely cut, his HBP werewolf arc is reduced to a brief post-attack explanation at the wedding, and his personality/Order role are heavily truncated. Fan and critic sources independently confirm all of this. However, the score of 55/100 is too high given what the justifications actually describe. The reasoning portrays a character stripped of nearly everything - personality range absent, GoF agency gone, HBP arc eliminated, motivations simplified - which maps to a 30-40 range, not 55. The score and the justifications are internally inconsistent."
+  },
+  {
+    "character": "Marcus Belby",
+    "score": 64.0,
+    "consistency": 6,
+    "reason": "The core factual claims check out: the Anapneo/choking scene is confirmed as book-only (Slughorn casts it on Belby after he chokes on pheasant), and the film does omit it. However, the scorer's personality framing is partially wrong - sources confirm the film Belby is not 'socially withdrawn with dry humor' but rather gluttonous and impolite, shoveling ice cream into his mouth and speaking with his mouth full. The film does add the joke about his father preferring 'a stiff drink', which the scorer calls 'sardonic humor', but the overall film characterization is more boorish than witty. The scorer's description of the film Belby as 'capable of dry humor and a complete, coherent explanation' somewhat mischaracterizes what is actually a crude, food-obsessed portrayal - which is arguably a bigger personality deviation than the scorer acknowledges, suggesting personality should score lower than 14/25. The 'disappointing connection' function being retained is accurate. The flat arc claim is correct. The score of 64 is in a plausible range but the personality justification contains a meaningful inaccuracy about the nature of the film's characterization."
+  },
+  {
+    "character": "Severus Snape",
+    "score": 71.0,
+    "consistency": 6,
+    "reason": "The total of 71/100 is in a reasonable range - fan/critic consensus agrees the films softened Snape significantly (a 'lighter version'), cut major scenes, and shortchanged his arc especially in Deathly Hallows. However the breakdown looks off: personality (19/25) seems too generous given widespread agreement that Rickman played a fundamentally different, calmer character than book-Snape. The bigger issue is motivations (11/25) and arc (11/25) being low but roughly defensible - critics specifically note the final film failed to build the emotional groundwork for his redemption arc and the Snape/Lily relationship was underserved. Narrative role (14/25) being the second-lowest is questionable since Snape's plot function (spy, protector, Dumbledore's agent) largely carried over intact. The score is plausible but the dimension weights feel inconsistent with what critics actually emphasize."
+  },
+  {
+    "character": "Padma Patil",
+    "score": 68.0,
+    "consistency": 6,
+    "reason": "The score and most justifications are reasonable, but there is a significant unaddressed issue: in the books Padma is a Ravenclaw, while in the films both Patil twins are placed in Gryffindor. This is a meaningful book-to-film change that affects her narrative role (she would have been in a different house, different common room, different social circle) and is not mentioned anywhere in the justifications. The scorer focuses almost entirely on the Yule Ball scene, which is fair since that is her primary appearance, and the reasoning about her sulky body language, the departure sequence, and the post-ball arc (DA membership, OotP, DH) is accurate. However, ignoring the house change is a notable gap - it is one of the most commonly cited book/film differences for this character. The 68/100 total feels slightly generous given the house erasure, but the Yule Ball analysis itself is solid."
+  },
+  {
+    "character": "Bogrod",
+    "score": 70.0,
+    "consistency": 6,
+    "reason": "The scorer's core claims about book vs film are factually accurate - Bogrod is indeed a passive Imperius victim in the books with no personality shown. However, the 'professional pride' speech to Ricbert that drives the personality and narrative_role penalties was cut from the final film (confirmed by HP Wiki's Behind the Scenes section). The scorer appears to have used the screenplay text, meaning it penalized invented characterization that audiences never actually saw. The overall score of 70 is in a defensible range, but the dimension-level reasoning is partially based on deleted content, making the breakdown less reliable than the total suggests."
+  },
+  {
+    "character": "Aragog",
+    "score": 80.0,
+    "consistency": 7,
+    "reason": "The core facts check out: Aragog does give the bathroom clue in CoS, the HBP burial scene exists in both book and film, and the 'I never told Hagrid the name of that dread creature' line is confirmed verbatim in the book. The claim about Mosag being absent from the film is confirmed. The narrative_role point about Hermione's written note driving the deduction is broadly accurate per the differences wiki (in the film Harry finds the paper himself near McGonagall's announcement, not overnight deduction). However, one claim is questionable: the scorer says the film Aragog is 'more composed and less peevish' - the film Aragog dialogue is largely faithful to the book's tone and the 'Kill them' command is present in both. The 'fretful/irritable register' distinction is a subtle reading not clearly supported or refuted by fan sources. The arc compression claim (shorter burial, reduced Hagrid grief) is accurate and well-documented. The motivations claim about Aragog pleading to be let go when sensing the basilisk is a book-specific detail not in the film, which is plausible but not independently verifiable from fan sources. Overall the score of 80 is reasonable for a minor character whose CoS role is largely intact but whose HBP arc and personality nuances are compressed - no major factual errors found, but some justification claims are fine-grained enough to be unverifiable."
+  },
+  {
+    "character": "Albus Dumbledore",
+    "score": 70.0,
+    "consistency": 7,
+    "reason": "A score of 70/100 is broadly consistent with fan and critical consensus. Dumbledore is widely considered one of the more significantly altered characters in the film adaptations - the infamous 'calmly' scene in GoF, the omission of his OotP confession explaining his distance from Harry, the loss of his internal conflict and backstory (Grindelwald, his past), and his death scene being changed all support low motivation and arc scores (11/25 each). The personality score (19/25) is slightly generous given widespread criticism of Gambon's erratic, aggressive portrayal vs the book's calm, calculating Dumbledore, but defensible since the core wisdom and mentor role came through. The narrative role score (14/25) seems the most questionable - Dumbledore remains central to the plot in the films, so a score that low may be harder to justify purely on role grounds (though omitted plot threads like the Horcrux explanation depth and his manipulation of Harry being unexplained do weaken his agency). Overall 70 is a reasonable, slightly generous total."
+  },
+  {
+    "character": "Arthur Weasley",
+    "score": 74.0,
+    "consistency": 7,
+    "reason": "The score and overall reasoning align well with fan/critic consensus - Arthur's reduction to comedic relief, loss of narrative agency, and compressed motivations are widely noted. However, the Flourish and Blotts justification contains a factual inaccuracy: the scorer says Hagrid restrains Arthur 'before he can act,' but in the book Hagrid separates them *after* the fight is already underway. The film simply cut the scene entirely rather than reassigning the restraint. The directional point (Arthur loses agency) is correct, but the specific claim about how the film handled it is wrong."
+  },
+  {
+    "character": "Gabrielle Delacour",
+    "score": 73.0,
+    "consistency": 7,
+    "reason": "Core analysis is sound - GoF hostage role preserved, HBP personality absent from films, Fleur-Gabrielle bond intact. Two factual issues: (1) the 'kiss on the cheek' in GoF film goes to Ron, not Harry as in the book - the scorer calls this preserved but it's actually redirected; (2) Gabrielle does appear in Deathly Hallows Part 1 (wedding scene), which the scorer ignores, making the claim that her post-GoF film presence is 'entirely absent' inaccurate. The 'she never stops talking about Harry' quote is from DH not HBP, a minor misattribution. Score of 73 is reasonable for a character whose primary function is preserved but whose personality texture is lost."
+  },
+  {
+    "character": "Gilderoy Lockhart",
+    "score": 82.0,
+    "consistency": 7,
+    "reason": "The core claims are well-supported: the film does faithfully capture Lockhart's personality (narcissism, cowardice, fraud), and the specific scenes cited as cut - the greenhouse encounter with Sprout, the Valentine's Day cupid stunt, and the classroom reenactments - are all confirmed absent from the film. The personality score of 22/25 and the reasoning that these are 'texture' losses rather than characterization changes aligns with fan/critic consensus that the film handled Lockhart well overall. However, the motivations score of 13/25 seems low given that the film clearly conveys his core motivation (self-promotion through fraud) - the 'Fame is a fickle friend' detention scene being cut is a real omission but not a major one. The bigger and more widely-cited faithfulness gap is actually the St. Mungo's scene in Order of the Phoenix (cut entirely) which closes Lockhart's arc - the scorer's arc score of 13/25 may be appropriately penalizing this, but the justification provided doesn't mention it, focusing instead on Chamber of Secrets material. The overall 82/100 total feels slightly high given the arc is genuinely incomplete in the films, but is defensible."
+  },
+  {
+    "character": "Garrick Ollivander",
+    "score": 71.0,
+    "consistency": 7,
+    "reason": "The core claims are factually accurate and well-supported: the Shell Cottage 'enthralled' moment exists in the book and is absent from the film, the Gregorovitch revelation is real, and the unsettling moral ambiguity of his wandlore obsession is a documented book trait. However, the scorer understates one key omission - Ollivander's Goblet of Fire scenes were cut entirely from the film, not merely 'reduced', which would justify an even lower narrative_role score than 14/25. The film also adds Deathly Hallows knowledge Ollivander doesn't have in the book, which the scorer doesn't account for. The 71/100 total is plausible but the narrative_role dimension may be slightly generous given the complete GoF cut."
+  },
+  {
+    "character": "Igor Karkaroff",
+    "score": 62.0,
+    "consistency": 7,
+    "reason": "The score and most justifications are well-grounded. The film does strip out the forest confrontation, the Dumbledore-spitting scene, the year-long fear buildup, and Karkaroff's murder goes unmentioned in HBP film - all correctly identified. However, two claims are inaccurate: biased judging IS dramatized in the film (Karkaroff visibly gives Harry low scores), and the Dark Mark subplot is NOT completely removed - the Snape confrontation scene exists in the film. These errors affect the narrative_role and motivations subscores but don't fundamentally undermine the overall 62/100 range, which aligns with the wiki's own note that the film portrays him as more reformed and less active than in the book."
+  },
+  {
+    "character": "Hermione Granger",
+    "score": 71.0,
+    "consistency": 7,
+    "reason": "A total of 71/100 is a reasonable score given the well-documented issues with Hermione's film portrayal. The low arc (11/25) and motivations (11/25) align with widespread fan/critic consensus that the films stripped her of complexity, flaws, and character development, making her a near-flawless 'perfect' character with no real growth arc. The narrative_role score (14/25) is also defensible - the films gave her some of Ron's lines and agency, but removed key plot contributions (e.g. S.P.E.W., Rita Skeeter subplot). The personality score (19/25) feels slightly high given how thoroughly critics note her darker/crueler/more vulnerable book traits were omitted, but it's not egregiously wrong since her core traits (intelligence, loyalty, bravery) were preserved. The main caveat is that the justification fields are all empty, so there's nothing to fact-check there - the score itself is plausible but can't be fully validated without the reasoning."
+  },
+  {
+    "character": "Lord Voldemort",
+    "score": 66.0,
+    "consistency": 7,
+    "reason": "A 66/100 score is broadly consistent with fan and critic consensus. Multiple sources confirm significant losses in motivations/backstory (Gaunt family history, love potion origin, Tom Riddle's charisma all heavily cut), personality (film Voldemort is more flamboyant and dramatic vs the books' cold, calculating precision), and arc (death scene changed, no Great Hall moment, no 'Tom' taunting reaction). The low motivation score (11/25) is well-supported - this is the most-cited criticism. The narrative role score (14/25) is slightly harder to justify since Voldemort remains the central antagonist in both mediums; he loses depth but not his structural role. The personality score (16/25) seems reasonable given Ralph Fiennes' performance preserved menace even if the subtlety was lost. Overall the total and dimension breakdown align with what critics say, though narrative_role could arguably be a point or two higher."
+  },
+  {
+    "character": "Moaning Myrtle",
+    "score": 79.0,
+    "consistency": 7,
+    "reason": "The core claims in the justifications are factually accurate and well-supported. The Draco/Myrtle confidante relationship being cut from HBP is confirmed by multiple sources as a notable omission. The GoF bathroom scene with the egg is present in both book and film, though the book version is more extended - consistent with the narrative_role deduction. The Yule Ball scene with Peeves taunting Myrtle is a real book-only moment (Peeves was cut from all films entirely). The claim about the Ministry forcing Myrtle back to the toilet is a real book detail. The main uncertainty is the scorer's hedging on the HBP scene ('film corpus provided does not include this dialogue') - the HBP film does include Myrtle in the bathroom during the duel scene but the specific 'he's sensitive, people bully him too' dialogue is indeed absent from the film, which the scorer correctly identifies. The score of 79 feels slightly generous given that Myrtle's two most character-defining book moments (the Draco confidante arc and the extended GoF monologue) are both absent from the films, which would more strongly penalize motivations and arc. A score in the low-to-mid 70s might be more defensible, but 79 is within a reasonable range."
+  },
+  {
+    "character": "Nagini",
+    "score": 57.0,
+    "consistency": 7,
+    "reason": "The score and most justifications are factually grounded. The core claims check out: Horcrux function preserved in films, Neville kills her with the Sword of Gryffindor, Snape killed in Shrieking Shack (book) vs Boathouse (film), enchanted cage present in both. However, the scorer's arc justification slightly undersells the film differences - in the film Nagini is significantly more active in the final battle (chasing Ron and Hermione, fighting while Voldemort duels Harry), whereas in the book Neville kills her quickly during the Entrance Hall confrontation. The scorer correctly notes the corpus was thin, and the 57/100 score is defensible given the meaningful losses: the enchanted cage's narrative weight is reduced, the 'no longer sent on missions' passage is absent, and the Godric's Hollow scene is handled differently (Nagini emerges from Bathilda's neck in the book vs body withering in the film). No factual errors found in the justifications."
+  },
+  {
+    "character": "Petunia Dursley",
+    "score": 64.0,
+    "consistency": 7,
+    "reason": "The core claims are well-supported: the Howler scene being cut, Petunia's role as knowledgeable gatekeeper being absent, her envy/longing being missing, and the films reducing her to a screaming bystander to Vernon are all confirmed by multiple fan/critic sources. However, the scorer makes a factual error: the 'I lost a sister' line is from a deleted scene that was cut from the theatrical release of DH1, not a 'film-exclusive' moment that appears in the film. The scorer treats it as something the films added, when in reality it was filmed but cut - meaning the films are even less faithful than the scorer implies on this point. The overall score of 64/100 and the direction of the reasoning (films significantly reduce her complexity) aligns with consensus, but this specific factual error in the personality justification is notable."
+  },
+  {
+    "character": "Elphias Doge",
+    "score": 72.0,
+    "consistency": 7,
+    "reason": "The core claims are well-supported: book-Doge is emotionally reactive, defensive, and inarticulate under pressure (LitCharts describes him as having an 'earnest, pained face', struggling to refute Muriel, and being brought 'to the verge of tears'), and the film compresses the Muriel confrontation significantly. The loyalty motivation and the Dumbledore-defender role carrying over are accurate. The main weakness is the scorer's claim about film-Doge volunteering information with 'reflective, almost aphoristic' composure - this is a reasonable interpretation of David Ryall's performance but not widely documented in fan/critical sources, making it hard to verify or refute. The narrative_role score (13/25) being penalized for the compressed Muriel exchange is defensible. No factual errors found, but some of the finer personality distinctions (book volatility vs film serenity) are subjective readings not corroborated by external sources."
+  },
+  {
+    "character": "Rubeus Hagrid",
+    "score": 73.0,
+    "consistency": 7,
+    "reason": "The total score of 73 and the personality score of 20/25 are broadly defensible - Robbie Coltrane's performance captured Hagrid's warmth, loyalty, and love of creatures faithfully. However, the low narrative_role (14/25) and motivations (12/25) scores are harder to assess without the justification text, but fan/critic consensus does support significant cuts to Hagrid's narrative agency: his giant recruitment mission was heavily truncated, the Umbridge night attack on his hut was cut entirely, his Half-Blood Prince subplot (dropping Care of Magical Creatures class, the apology scene) was omitted, and his Deathly Hallows support party was cut. These omissions genuinely reduce his narrative role and motivations. The arc score of 11/25 seems slightly harsh - the films do carry his core arc (expelled student redeemed, promoted to teacher, loyal to the end) even if emotional beats like comforting Harry after Sirius's death were cut. Overall 73 is a reasonable mid-range score consistent with the pattern of 'personality well-preserved, narrative depth significantly reduced', though the dimension distribution could be debated."
+  },
+  {
+    "character": "Vernon Dursley",
+    "score": 78.0,
+    "consistency": 7,
+    "reason": "The core claims are well-supported: the OotP kitchen confrontation being cut is confirmed (the film compresses the Dementor aftermath to a few lines, with Vernon reduced to reactive outrage), the Howler from Dumbledore forcing Petunia to let Harry stay is accurate, and the film's more comedic/one-dimensional portrayal vs the book's more textured cowardice is widely noted. The GoF 'godfather gambit' claim is partially off - in the books Harry uses the threat of Sirius as leverage in PoA (Marge's visit), not GoF. The DH 'house plot' paranoia scene is confirmed by the wiki. The 'Tiptoe Through the Tulips' humming detail is a real book moment. The overall score of 78 is reasonable given Vernon appears in 5 of 8 films and his core personality traits (bully, magic-hater, coward) carry over, but significant book scenes are cut. The main factual issue is the GoF attribution for the godfather gambit - that's a PoA book moment, not GoF."
+  },
+  {
+    "character": "Aberforth Dumbledore",
+    "score": 68.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The HP Wiki and the official book-vs-film differences page confirm: (1) the Patronus/Death Eater confrontation is entirely absent from the film - in the book Aberforth uses his goat Patronus to cover for the trio, in the film there is no exchange at all; (2) the Hog's Head conversation is dramatically shorter in the film and Aberforth does not retell the Dumbledore family backstory in detail; (3) his battle agency (stunning Rookwood, tracking Dolohov, encouraging Ginny) is book-only and absent from the film corpus. The personality claim about emotional volatility vs. composed delivery is plausible and consistent with the general pattern of the film condensing his role. The score of 68 is reasonable - the film does retain his core identity (gruff barman, Ariana portrait, letting the trio through) but strips most of his active agency and emotional depth. Minor uncertainty: the 'Percy Weasley tip-off' claim in the justification is not something the wiki confirms as Aberforth's doing specifically, which is a small potential inaccuracy in the reasoning."
+  },
+  {
+    "character": "Alastor Moody",
+    "score": 55.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by fan/critic consensus. Multiple sources confirm the films significantly shortchanged Moody - he was a background character when not being impersonated, his death was off-screen and unceremonious, his fame as the greatest Auror was never conveyed, and key scenes (Marauder's Map, Snape confrontation, Order leadership) were cut or compressed. The personality justification (reactive growls vs. the book's lecturing, reasoning Moody) and the narrative agency loss are consistent with what critics describe. One caveat worth noting: the scorer is evaluating 'real' Moody's faithfulness across the whole series, but the complication is that in GoF the character on screen is actually Barty Crouch Jr. - meaning the film's 'Moody' in his most prominent appearance is inherently unfaithful by design. The scorer's 55/100 feels slightly generous given how thoroughly the films neglect him in OotP, HBP, and DH, but it's defensible if GoF's impersonation is given partial credit for surface-level traits. Score and reasoning are factually accurate with no clear errors."
+  },
+  {
+    "character": "Bathilda Bagshot",
+    "score": 44.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The book establishes Bathilda as a rich intellectual figure - historian, Dumbledore's neighbor and correspondent, Grindelwald's great-aunt, living witness to that summer - none of which appears in the film. The film reduces her entirely to the Godric's Hollow horror scene (Nagini trap), which is confirmed by multiple sources. The scorer's specific claims about omitted details (photographs, behavioral degradation, the contrast between former greatness and current state) are accurate per the books. The trap/attack function being preserved is also correct. The score of 44 is reasonable - she gets credit for the core scene being present but loses heavily for the complete absence of her book identity. Minor uncertainty: the scorer claims Harry's stated reason for visiting (information source) is not shown as fulfilled in the film, which aligns with the ScreenRant piece noting the film changed the motivation to searching for the Sword of Gryffindor rather than seeking Bathilda specifically - this actually slightly weakens the 'information source' claim since the film arguably never set that expectation up at all, making the omission even more severe than the scorer implies."
+  },
+  {
+    "character": "Argus Filch",
+    "score": 74.0,
+    "consistency": 8,
+    "reason": "The justifications are factually accurate and well-supported. Peeves' complete omission (eliminating Filch's key narrative function), the Kwikspell/Squib motivation being cut to a deleted scene, the GoF staircase scene being absent, and the OotP swamp/horsewhip scenes being reduced are all confirmed by canonical sources. The claim that the film Filch is 'more comic and less menacing' is a reasonable fan consensus. The 74/100 score is plausible - his core personality survives but his narrative role and motivations are genuinely underdeveloped. Minor uncertainty: the scorer's specific claim about 'the walk to the Forbidden Forest in PS' being compressed is hard to verify precisely, and the horsewhip detail is book-accurate but its film absence is asserted rather than confirmed from the corpus."
+  },
+  {
+    "character": "Bellatrix Lestrange",
+    "score": 78.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The core claims are verifiable: the film Bellatrix is widely acknowledged (including by Helena Bonham Carter herself) to be more unhinged and physically theatrical than the book version, which was more calculated and ideologically driven. The Spinner's End compression, the omitted mock-baby taunting, and the truncated Ministry sequence are all real book-to-film cuts. The motivations score (12/25) being the lowest dimension is defensible - the film consistently underplays her romantic obsession with Voldemort as a key driver, which fans and critics note as a significant loss. The DH2 line substitution cited is accurate. One minor caveat: the justification text cuts off mid-sentence on the DH Part 1 section, suggesting incomplete reasoning for narrative_role. The 78/100 total is reasonable - she's recognizably Bellatrix in the films but with meaningful depth stripped out, which aligns with the consensus view."
+  },
+  {
+    "character": "Ariana Dumbledore",
+    "score": 59.0,
+    "consistency": 8,
+    "reason": "The justifications are well-grounded. The film does reduce Ariana almost entirely to a silent portrait figure who opens the passage - confirmed by multiple sources noting her appearance is only 'in portrait form'. The book's full Aberforth account (Muggle attack, Kendra's accidental death, the three-way duel, Ariana trying to help) is extensively documented and widely noted as cut from the film. The claim that Aberforth's challenge to Harry loses weight without this backstory is a commonly cited criticism. One minor caveat: the scorer's motivations justification is cut off mid-sentence ('The film presents...'), so that dimension's reasoning is incomplete and harder to fully verify. The 59/100 total feels slightly generous given how little of Ariana's actual character survives into the film - some might argue lower - but it's defensible since the film does retain her portrait, her passage-opening function, and the visual symbol of Dumbledore's guilt."
+  },
+  {
+    "character": "Cedric Diggory",
+    "score": 71.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by documented book-film differences. Amos's boasting being cut, the maze agency shift (vine trap vs. spider teamwork), the compressed cup-refusal scene, and the absent Quidditch backstory are all confirmed. The 71/100 total is plausible - Cedric's core traits survive but his moral interiority and independent agency are genuinely reduced. Minor quibble: the 'near-attack on Krum' framing is slightly imprecise (Krum attacks them in both versions, just differently staged), but this doesn't materially affect the score."
+  },
+  {
+    "character": "Blaise Zabini",
+    "score": 61.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. Wikipedia and fan sources confirm Zabini is a 'flat character' with minimal book presence who only meaningfully appears in HBP's train/Slughorn scene. The scorer correctly identifies the loss of his sharp verbal challenges to Malfoy, the absence of the Nott intelligence drop, and his reduction to a background reaction in the film - all verifiable from the source material. The 61/100 is reasonable: the film does preserve his snobbish appearance, his Slughorn connection, and his general Slytherin-elite positioning, but strips the specific dialogue and agency that define him in the books. The one slight weakness is that the arc dimension (13/25) seems generous given Wikipedia explicitly calls him a 'flat character' in both media with 'scarcely' any presence - a flat character faithfully adapted as flat could arguably score higher there. But overall the reasoning is accurate and consistent with what's documented about the character."
+  },
+  {
+    "character": "Cormac McLaggen",
+    "score": 72.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The HP Wiki explicitly confirms the film omitted the Quidditch match entirely ('he never knocks Harry out since the Quidditch match between Gryffindor and Hufflepuff was completely left out'), which validates the narrative_role and arc deductions. The film added a vomiting-on-Snape scene that never happened in the book, and McLaggen's role is reduced to the tryouts and Slughorn's party. The 'My father will hear about this' line is confirmed as a Deathly Hallows Part 1 scene, not HBP - the scorer's justification misattributes it to 'Film Scene 5' of HBP, which is a minor framing error but the scene itself is real. The personality score (18/25) is reasonable given the film does capture arrogance and the Hermione dynamic faithfully. The 72/100 total feels slightly generous given how much of his book role (the match, the injury, the sustained disruption) is entirely absent, but it's defensible if the tryouts/party scenes are weighted heavily. No major factual errors in the justifications."
+  },
+  {
+    "character": "Corban Yaxley",
+    "score": 71.0,
+    "consistency": 8,
+    "reason": "The justifications are well-grounded. The Imperius Curse on Thicknesse being Yaxley's key book contribution is confirmed - the wiki explicitly notes he reported placing Thicknesse under the Imperius Curse at the Malfoy Manor meeting, and that Dolohov patted him on the back. The film does include Yaxley's line about Dawlish but omits the Thicknesse attribution detail. The peacock/Lucius snort is confirmed in the wiki. The 'Spare us. The brats of Mudbloods' line is confirmed as a book/film scene that does appear in the film (the courtroom scene with Mary Cattermole is present in DH Part 1), which slightly contradicts the scorer's claim that this line is 'absent from the film corpus' - it appears in the film. The Malfoy Manor compression claim is accurate. Overall the score of 71 is reasonable for a character whose main book agency (Thicknesse Imperius) is de-emphasized in the film but who retains a presence in the Ministry scenes. Minor inaccuracy: the Cattermole courtroom scene including Yaxley does appear in the film, so the 'absent' claim for that line may be a corpus detection miss rather than a true film omission."
+  },
+  {
+    "character": "Crookshanks",
+    "score": 68.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported by fan/critic consensus: Crookshanks is widely recognized as significantly underutilized in the film, his intelligence and agency (Whomping Willow knot, password theft, protective positioning in front of Sirius) are confirmed absent from the film by multiple sources (Collider, CBR, HP Lexicon). The personality 'flattening' claim is accurate - the film reduces him to a generic cat chasing a rat. The one slight weakness: the scorer's claim that the Whomping Willow knot action was 'transferred to Hermione using a spell' is not quite right - in the film Crookshanks still presses the knot (he's shown doing it), though his broader role and intelligence are still stripped. This makes the narrative_role score (11/25) arguably a touch harsh on that specific point, but the overall direction and magnitude of the score (68/100, significant but not catastrophic faithfulness loss) aligns well with how fans describe the adaptation - Crookshanks appears in the film and retains surface-level presence, but loses almost all his meaningful agency and the half-Kneazle intelligence subplot entirely."
+  },
+  {
+    "character": "Cornelius Fudge",
+    "score": 74.0,
+    "consistency": 8,
+    "reason": "The key factual claims are accurate and well-supported: the Three Broomsticks scene is restructured in PoA (though Fudge still speaks, the scene is compressed and moved to a private room), the HBP Prime Minister chapter is entirely absent from the film (Fudge voice-only), the GoF hospital wing confrontation is cut entirely, and the film Fudge is documented as less antagonistic. The score of 74 is reasonable given these omissions. Minor overstatement: the claim that McGonagall 'carries most of the exposition' in the PoA film overstates the shift slightly - Fudge is still present and speaking, just in a more compressed scene. The arc score of 11/25 is also defensible given the film omits his sacking being forced (he resigns willingly in the film) and the entire HBP chapter showing his diminished post-sacking state."
+  },
+  {
+    "character": "Fang",
+    "score": 82.0,
+    "consistency": 8,
+    "reason": "The score and reasoning are well-grounded. The core claims check out: cowardice and slobbery affection are Fang's defining book traits, both confirmed by HP Lexicon and the HP Wiki. The film does preserve these in PS/SS. The scorer correctly identifies that the film corpus is limited (Fang appears in PS, CS, OotP, HBP films but is omitted entirely from DH Part 2). The specific book moments cited as missing from the film corpus are real: the OotP Stunner defense of Hagrid, the Aragog burial slobber-on-Harry scene (HBP), and the DH Battle of Hogwarts cowardice are all book/film divergences. One minor inaccuracy: the scorer mentions 'protective growl at Lucius Malfoy' as a book moment not in the film corpus - the HP Lexicon confirms this growl is in the books (CS15), and it is indeed absent from the film. The breed change (boarhound/Great Dane in books vs Neapolitan Mastiff in films) is a real and notable difference the scorer doesn't mention, but it's a physical rather than character faithfulness issue so not penalizing it heavily. The 82/100 score feels slightly generous given Fang's meaningful film appearances across multiple movies (not just PS/SS) where his cowardice is shown, but the scorer's caveat about corpus coverage limitations is a legitimate methodological note rather than a factual error."
+  },
+  {
+    "character": "Draco Malfoy",
+    "score": 69.0,
+    "consistency": 8,
+    "reason": "The score and justifications align well with widely documented fan/critic consensus. The specific claims are accurate: 'Weasley is Our King', the dementor imitation, the Buckbeak injury being downplayed in the film (book has visible blood, film just has whimpering), Draco's greater confidence and assertiveness in the books vs films, and the compression of his Inquisitorial Squad role are all confirmed by multiple sources. The arc score being low (10/25) is also defensible - the film omits key arc beats like the Moaning Myrtle confidante relationship, the ambush on the Hogwarts Express after his father's arrest, and his greater assertiveness in the Room of Requirement. The main reason it's not a 9-10 is that 69/100 feels slightly generous given how much is lost - some fans/critics argue the film Draco is substantially shallower, which might push toward the low 60s. But 69 is a reasonable and defensible position, not clearly wrong."
+  },
+  {
+    "character": "Dean Thomas",
+    "score": 65.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by external sources. The core claims are all verifiable: the film strips Dean of his soccer passion, artistic identity, and verbal contributions (confirmed by CBR and HP Wiki); his DA participation is reduced to a background role (confirmed); the Ginny relationship arc is present in HBP but stripped of texture - notably the film gives Dean zero lines in HBP and omits the breakup entirely; the DH fugitive arc is absent from the films (Dean doesn't appear at Malfoy Manor or Shell Cottage in the movies at all, only gets a radio mention). One slight overstatement: the scorer says the DH arc 'is present but stripped of dialogue and texture' - in reality the film essentially cuts Dean from DH Part 1 entirely rather than just stripping texture. The forged-signature claim (POA) is accurate per the wiki. The score of 65 is reasonable given that the Ginny subplot and DH arc are the two biggest film appearances and both are heavily cut, while the character is recognizable but very flat. A slightly lower score (55-60) could also be argued given how completely the DH arc was excised from the films."
+  },
+  {
+    "character": "Ernie Macmillan",
+    "score": 75.0,
+    "consistency": 8,
+    "reason": "The factual claims are well-supported. The CoS apology being cut from the film is confirmed (deleted scenes only). Ernie is non-speaking in CoS film, name-only in OotP film, omitted in HBP film, and present in DH2 for the Patronus/Battle scene. The scorer correctly identifies the missing arc payoff (apology/handshake), missing OotP agency, and missing prefect/OWL characterization. Minor uncertainty: the 'DA signing hesitation showing internal conflict' is not a well-documented book moment - Ernie joins enthusiastically in the books - which slightly overstates the motivations gap. The overall score of 75 is reasonable given Ernie's personality is partially shown in CoS film but nearly all his later agency and arc resolution are absent."
+  },
+  {
+    "character": "Dolores Umbridge",
+    "score": 77.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. Key claims check out: Hedwig being injured is confirmed by Wikipedia, Veritaserum/Snape sabotage is present in the film, the Dementor admission is retained in the Cruciatus scene, and the Inquisitorial Squad compression is documented. The lower scores on narrative_role and motivations correctly reflect the film's omission of mail interception, the extended tea-drugging interrogation, and ideological speeches. The 77/100 total is consistent with the consensus that Staunton's performance is faithful in personality but the film strips significant bureaucratic depth and agency from the book version. Minor uncertainty: the scorer's claim about the Cruciatus scene being 'truncated' is accurate but some fans argue the film actually handles it effectively, which could push personality slightly higher."
+  },
+  {
+    "character": "Dudley Dursley",
+    "score": 64.0,
+    "consistency": 8,
+    "reason": "The major claims are well-supported. The Dumbledore HBP 'appalling damage' speech being cut from the films is confirmed (hp-lexicon.org has the exact quote, and it's absent from the film). Dudley's redemption arc being gutted - specifically the farewell scene in DH1 - is widely documented across multiple fan/critic sources as one of the most lamented cuts in the series. The dementor scene in OotP and what it implies about Dudley's suppressed guilt is also noted by Screen Rant as a missed mystery. The 'Don't kill Cedric' line being in the film but the extended cruelty being compressed is plausible and consistent with how OotP was adapted. The score of 64/100 is reasonable - Dudley's basic bully personality is present in the films, but his arc, motivations, and narrative function are significantly stripped. The one slight uncertainty is the specific 'fake-crying manipulation' scene claim, which is book-accurate but harder to verify as a widely-discussed omission. Overall the score and reasoning align well with fan/critical consensus."
+  },
+  {
+    "character": "Filius Flitwick",
+    "score": 71.0,
+    "consistency": 8,
+    "reason": "All major factual claims check out: sugar mice, tearful Ginny reaction, 'You'll do no more murder' line, killing Dolohov, sprinting to Snape's office, and the film's comic/functional register are all confirmed by canon sources. The one slight overstatement is claiming the fireworks/Umbridge resistance is entirely absent from the film - the OOTP film does show Flitwick visibly cheering the Weasley twins' departure, though the specific sarcastic 'authority' line is book-only. The overall score of 71 and the characterization of the film reducing him to a comic background figure is well-supported."
+  },
+  {
+    "character": "Fleur Delacour",
+    "score": 55.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by fan/critic consensus. Multiple sources confirm Fleur is widely considered one of the most mishandled characters in the films - reduced to a 'pretty French girl' with her sharp tongue, emotional depth, and verbal assertiveness largely absent. The hospital wing confrontation (her key arc moment proving loyalty to Bill) is confirmed absent from the films, and the Mrs. Weasley acceptance catalyst being cut is corroborated. The justifications about her competitive agency being reduced and Shell Cottage role being compressed also match what critics describe. The score of 55 is slightly on the generous side given how thoroughly fans feel she was flattened - some might argue lower - but the reasoning is factually accurate and the specific scene-level claims hold up."
+  },
+  {
+    "character": "Fluffy",
+    "score": 79.0,
+    "consistency": 8,
+    "reason": "The factual claims in the justifications are accurate and well-supported by canonical sources. The harp-already-playing detail, the removal of the trio's active music use, and the absence of the ongoing door-checking subplot are all confirmed. The scorer slightly misattributes the harp to Snape (it's Quirrell, though the trio suspects Snape in both versions - so it's defensible). The 79/100 score is reasonable given Fluffy's core traits survive but his narrative presence is significantly compressed."
+  },
+  {
+    "character": "George Weasley",
+    "score": 74.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by fan/critic consensus. The core claim - that Fred and George were treated as a single unit in the films, losing individual lines, agency, and emotional depth - is widely documented (ScreenRant, TheThings, GameRant all make this point explicitly). The Bagman debt being cut from the films is a known omission. The Extendable Ears/Order exclusion subplot being compressed is consistent with the general Order of the Phoenix adaptation criticism. The 74/100 score feels reasonable: the twins' core personality (pranksters, humor, entrepreneurial spirit) did come through in the films, which justifies not scoring lower, but the loss of individuality, agency subplots, and emotional range is real and well-documented. Minor caveat: some specific claims (e.g. George's exact lines about Sirius, the 'Mudblood' lunging scene) are harder to independently verify from web sources, and the score treats George as more individually distinct in the books than most fan discussion does - most criticism focuses on Fred/George as a unit rather than George specifically. That slight conflation of Fred-and-George criticism with George-specific scoring is the main weakness."
+  },
+  {
+    "character": "Fred Weasley",
+    "score": 72.0,
+    "consistency": 8,
+    "reason": "The score and reasoning align well with the fan/critic consensus. Multiple sources confirm the core claims: the films treated Fred and George as a near-indistinguishable unit with shared/volleyed dialogue rather than individual characters, Fred's death scene was cut entirely (shown only as a body in the Great Hall), and significant narrative moments were omitted. The personality score (20/25) and the 'flattened into a double-act' framing are well-supported. The narrative_role and arc scores being lower (14 and 11) also match the consensus that Fred's individual agency and arc suffered most - his death scene being cut is the clearest example of arc damage. The Potterwatch/Rapier role being absent from films is factually correct. The one slight uncertainty is the specific Sirius confrontation quote, which is plausible but not independently verified by these sources. Overall the score of 72 feels reasonable - the films preserved his personality reasonably well (he's still funny and mischievous) but gutted his individual narrative role and arc."
+  },
+  {
+    "character": "Grawp",
+    "score": 65.0,
+    "consistency": 8,
+    "reason": "The key claims are well-supported. Grawp is documented as significantly more violent and dangerous in the books vs the film's gentler portrayal. The forest scene difference - book Grawp as the active agent who scatters centaurs vs film Grawp as a passive tool Hermione positioned - is confirmed by multiple sources. The score of 65 is reasonable given the softening of personality, reduced narrative agency, and the film dropping Grawp entirely after OotP (losing his Battle of Hogwarts role). Minor uncertainty: the specific 'scooter bell' detail and exact Hermione dialogue couldn't be independently verified from web sources, and the arc score of 9/25 may be slightly harsh given Grawp does show some development even in the film."
+  },
+  {
+    "character": "Griphook",
+    "score": 67.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The Ragnuk/goblin ownership ideology is confirmed in both book and film (the wand-rights dialogue appears in the film too, per the fandom wiki quote). The film does compress the arc - the campfire intelligence scenes, Bill's warning, and the extended mutual-distrust buildup at Shell Cottage are absent. The betrayal mechanism difference is real: in the book Griphook's lunge for the sword causes the cup to fly free, while the film restructures this. The 'bloodthirsty' personality detail (raw meat, malicious humor) is book-only. One minor overstatement: the scorer says the wand-rights argument is 'absent' from the film, but the fandom wiki quotes that exact dialogue as appearing in the film adaptation - so the ideological motivation is partially present, just underplayed. The 67/100 score and the general framing of 'arc shape preserved but middle missing' aligns well with what sources confirm."
+  },
+  {
+    "character": "Horace Slughorn",
+    "score": 78.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The HP Wiki confirms: the film compresses the sustained cat-and-mouse avoidance dynamic, replaces the train Slug Club scene with a dinner party, softens Slughorn's barbed personality (tweed vs velvet, no moustache, more genial), and the Muggle-born prejudice exchange is present but muted. The Belby dismissal and Ron-ignoring are confirmed in both versions. The narrative role penalty is justified - the film cuts most Pensieve memories and omits his direct Voldemort duel, significantly reducing his agency. The 78/100 score (losing most points on role/motivations/arc) is consistent with fan and wiki consensus that the film preserves his core personality reasonably well but substantially compresses his narrative function. Minor quibble: the scorer claims Harry's 'Not really' pushback on the Muggle-born comment is absent from the film - this is plausible but not definitively confirmed by sources found."
+  },
+  {
+    "character": "Katie Bell",
+    "score": 62.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The HP Wiki and Collider both confirm that the film reduces Katie almost entirely to her HBP cursing scene, cutting her Quidditch agency, DA participation, and Battle of Hogwarts role to background. The specific book details cited are accurate: the McGonagall lines quote is verbatim from HBP ch.24, the Cedric giggling scene is from PoA, and her DA membership is confirmed. The bathroom clue detail in the return scene is correctly described. The one minor quibble: the scorer says the Hermione deduction follow-up is 'absent from the film corpus' - this is plausible but hard to verify without the screenplay. The 62/100 score feels reasonable given the film does preserve the core cursing incident faithfully while stripping everything else. Slight uncertainty on the exact narrative_role and arc sub-scores (11/25 each feels a touch harsh given the cursing scene is well-executed), but the overall picture is accurate."
+  },
+  {
+    "character": "Harry Potter",
+    "score": 73.0,
+    "consistency": 8,
+    "reason": "The score and reasoning align well with broad fan and critical consensus. The OotP characterization critique, the loss of internal voice, the GoF gillyweed/Neville change, and the pattern of external fidelity with internal flattening are all well-documented and widely agreed upon. The 73/100 total feels slightly generous to some fans who consider Harry one of the more significantly altered characters (particularly his motivations and arc in HBP/DH), but the per-dimension breakdown with motivations and arc lowest is defensible. No factual errors found in the specific claims checked."
+  },
+  {
+    "character": "Justin Finch-Fletchley",
+    "score": 73.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The Eton name-drop and class-conscious intro are confirmed in the book (CS6) and absent from the film. The overheard library conversation replacing multi-scene cold behaviour is confirmed by IMDB's alternate versions page. The apology scene (CS18) is confirmed by Shmoop and the Lexicon - Justin 'hurries over to wring Harry's hand and apologise endlessly' - and is indeed cut from the film. The 'hiding in dormitory' detail is confirmed. The main uncertainty is around the specific Herbology scenes and 'Bouncing Bulb laughter' - these are plausible book details but not independently confirmed by the sources found, so there's a small risk of over-specificity there. The overall score of 73 is reasonable for a character whose core personality beat (Eton intro) survives in the film but whose arc middle and end are both cut."
+  },
+  {
+    "character": "Leanne",
+    "score": 70.0,
+    "consistency": 8,
+    "reason": "The film transcript confirms the scorer's key claims. Leanne's role in McGonagall's office is indeed reduced to three short lines ('It's like I said. She left to go to the loo, and when she came back, she had the package.', 'She said it was important that she deliver it.', 'To professor Dumbledore.') before being dismissed with 'Very well. Thank you, Lianne. You may go.' The scene then pivots to Harry accusing Malfoy, which has no book equivalent in that setting. The scorer's claims about Leanne being composed and functional (vs. the book's guilt-ridden sobbing), her reduced role as witness, and the absence of Hermione comforting her are all consistent with the transcript. The score of 70 is reasonable for a character whose core presence is retained but whose emotional depth and narrative centrality are significantly stripped. Minor caveat: Leanne is a very minor character with limited fan/critic discussion, so the score is largely unverifiable against external opinion - it rests almost entirely on direct book/film comparison, which the scorer handles accurately."
+  },
+  {
+    "character": "Lavender Brown",
+    "score": 66.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by the source material. The HP Wiki and Screen Rant both confirm the film reduces Lavender almost entirely to the Ron relationship, stripping her Divination enthusiasm, her Trelawney loyalty (daffodils scene), her Binky grief, and her broader social presence across years 3-5. The personality score (18/25) is reasonable - the film does preserve her most visible traits (Ron infatuation, jealousy, exclamatory behavior) but loses the texture. The low arc score (10/25) is justified: the film gives her no arc beyond the Ron subplot, whereas the book tracks her from Divination devotee in year 3 through DA member in year 5 to Battle of Hogwarts fighter. The narrative role score (13/25) is defensible given the film cuts her social barometer function and compresses her active agency in the Ron relationship. One minor caveat: the justification mentions 'Luna and Hermione in non-Ron contexts' petty behavior - the wiki confirms she mocked Luna's earrings in OotP, so that's accurate. The overall 66/100 is in the right ballpark for a character whose core plot function is preserved but whose multi-year personality depth is almost entirely absent from the films."
+  },
+  {
+    "character": "Lucius Malfoy",
+    "score": 71.0,
+    "consistency": 8,
+    "reason": "The justifications are well-supported by fan/critic consensus. The OotP Ministry corruption arc being cut (Imperius on Bode/Podmore, Umbridge advocacy, Fudge manipulation) is widely documented and the scorer correctly identifies this as the biggest agency loss. The Borgin & Burkes political calculation and Quidditch World Cup self-restraint scene losses are accurate book-to-film differences. One minor issue: the scorer claims Lucius's wand being disarmed by Harry's Expelliarmus in the DoM scene 'is not in the book corpus' - this is a plausible film-only addition but hard to verify precisely. The overall 71/100 score is reasonable given that Jason Isaacs's film performance preserved Lucius's personality well (hence 20/25) but the films systematically stripped his political/behind-the-scenes role across OotP and GoF, which justifies the lower narrative_role (14/25), motivations (11/25), and arc (10/25) scores. The arc score being lowest is also consistent with the widely noted fact that the film version of Lucius performs more direct action/fight scenes while losing the book's gradual political decline and family-driven arc shift."
+  },
+  {
+    "character": "Luna Lovegood",
+    "score": 73.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The personality compression (dreamy register only, loud laughter cut) is confirmed by fan consensus. The Grey Lady scene being a film expansion of Luna's role is accurate per EW's book-vs-film breakdown, though the scorer slightly overstates it - in the book Luna does take Harry toward the Ravenclaw tower area, but it's Harry's idea to find the ghost and Headless Nick who identifies her, not Luna. The absent Carrows resistance arc, cut Thestral scene, and reduced narrative agency are all documented. The 73/100 score feels slightly low given Evanna Lynch is widely praised for capturing Luna's essence, but the dimension-level reasoning is grounded in real, verifiable omissions. The motivations (12/25) and arc (11/25) scores are the most debatable - Luna's arc is thin even in the books, so penalizing the film heavily there is arguable."
+  },
+  {
+    "character": "Marcus Flint",
+    "score": 77.0,
+    "consistency": 8,
+    "reason": "The core claims in the justifications are factually accurate and well-supported. The Dementor disguise scheme (PA13) is confirmed canon - Flint, Malfoy, Crabbe, and Goyle dressed as Dementors and were punished by McGonagall. The Fred bat-to-the-nose incident (PA15) is confirmed. The post-match howling about Harry nearly swallowing the Snitch (PS11) is confirmed. The courtyard scene dynamics (Flint blocking Fred/George vs Malfoy driving the scene) align with what the wiki describes. The flat arc and simple motivations assessment is accurate for a minor antagonist. The score of 77 is reasonable given the PoA scheme being entirely absent from the film (Flint doesn't appear in the PoA film at all - he only appears in PS and CoS films), which is a significant omission. One minor issue: the scorer frames the PoA absence as 'absent from the film corpus' but Flint literally does not appear in the PoA film at all, which is a bigger narrative role gap than the justification implies - this slightly undermines the narrative_role score of 15/25 being perhaps too generous, or the personality score of 20/25 being slightly high given the complete loss of his PoA material."
+  },
+  {
+    "character": "Marge Dursley",
+    "score": 80.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. Multiple sources confirm the film compresses Marge's multi-day visit into essentially one scene/evening, and that the glass-breaking and inflation happen at different meals in the book but are combined in the film. The claim about Harry being more defiant in the film ('Shut up!') vs. the book (snapping only when she insults his father) is consistent with the book text and widely noted. The film also has Marge float out of the house and into the sky, which is a difference from the book (ceiling only) - the scorer doesn't mention this but it doesn't contradict anything. The score of 80/100 is reasonable: Marge's core personality (cruel, bullying, dog-obsessed) is faithfully reproduced, but the compression genuinely reduces her narrative weight and sustained tormentor role. The low motivations (12/25) and arc (13/25) scores are defensible since she's a minor character with no arc to speak of in either medium. One minor quibble: the scorer's claim that the wineglass explosion is 'present in both' is confirmed by sources, and the multi-day compression is well-documented. No factual errors found."
+  },
+  {
+    "character": "Mrs. Norris",
+    "score": 73.0,
+    "consistency": 8,
+    "reason": "All factual claims check out: the book description of Mrs. Norris as skeletal/lamp-eyed/predatory is accurate, the GoF Yule Ball dancing scene (Filch waltzing with a purring Mrs. Norris) is a confirmed film-only addition with no book basis, and the CoS petrification is indeed her most significant narrative moment. The reasoning about the tonal shift from sinister surveillance tool to domesticated companion is a well-known fan observation. Minor deduction because the scorer acknowledges the CoS scene was missing from its corpus, which limits confidence in the narrative_role score, and 73 may be slightly low given the core characterization is largely preserved across most film appearances."
+  },
+  {
+    "character": "Mundungus Fletcher",
+    "score": 70.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The wiki confirms Mundungus appears only in DH Part 1 (absent from OotP and HBP films), his OotP role (abandoning post, triggering the dementor attack) is entirely absent from the films, and the Snape Confundus scene is book-only - the film presents the decoy plan without showing its origin. The personality observations (toad-selling anecdote, pipe-smoking, Fred/George camaraderie) are all book-accurate details absent from the film. The one minor quibble: the scorer says the film has 'two scenes' - the wiki confirms his film role is limited to the locket/Kreacher scene and the Seven Potters scene, which checks out. The narrative_role score of 13/25 seems reasonable given the Confundus scene omission is a real structural loss. Overall the justifications are factually accurate and the 70/100 total is a defensible middle-ground for a character who retains his core opportunistic identity in the film but loses almost all his book texture and his most structurally significant scene."
+  },
+  {
+    "character": "Mary Cattermole",
+    "score": 77.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported by the actual film transcript. The fluent vs. stuttering speech difference is confirmed ('I didn't take it. I got it in Diagon Alley' in the film vs. the book's stutter). The 'Reg, it's Harry Potter!' wonder-beat ending is confirmed. The distrust line ('Reg said you were the one who submitted my name') is absent from the film. One claim is slightly off: the scorer says the instruction to flee is absent, but Ron-as-Reg does tell Mary 'go home, get the kids, get out of the country' in the film - it's present, just delivered by Ron rather than Harry. The chain-breaking attribution to Hermione vs. Harry is plausible but not clearly verifiable from available sources. Overall the score and reasoning are accurate and the identified differences are real, with one minor overstatement about the flee instruction being absent."
+  },
+  {
+    "character": "Minerva McGonagall",
+    "score": 82.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The key claims are factually accurate: the Snape-McGonagall duel does appear in DH Part 2 (confirmed, and nearly cut per ScreenRant), her reduced emotional vulnerability in the films is a widely noted difference, and her diminished narrative agency in DH (Imperius use, Patronus alerts, organizing the full castle defense) are real book-only moments. The 82/100 total feels slightly generous given how much of her best material (DH Part 1 absence, emotional interiority, Trelawney commentary arc) is lost, but it's defensible since her core personality and role are preserved by Maggie Smith's performance. The low motivations/arc scores (13/25 each) are consistent with fan consensus that her character arc is compressed across the films. No factual errors found in the justifications."
+  },
+  {
+    "character": "Muriel",
+    "score": 72.0,
+    "consistency": 8,
+    "reason": "The scoring and justifications are well-grounded. The HP Wiki explicitly confirms the film scene is 'much smaller than in the book, and it is not established who she is' - directly supporting the narrative_role penalty. The book's champagne-drinking, belching, rudeness to Hermione/George, and extended Dumbledore/Ariana/Kendra/Aberforth material are all confirmed by the wiki and CBR sources. The scorer correctly identifies that the Godric's Hollow lead is preserved in the film while the broader Dumbledore-destabilizing function is cut. The safe refuge role (Muriel's house as Order safe house) being absent from the film is also accurate. The main uncertainty is the personality score (18/25) - the scorer acknowledges the film preserves her core rudeness and gossip function, so 18 is defensible but slightly conservative given the film does capture her essential character type. Overall the factual claims in the justifications are accurate."
+  },
+  {
+    "character": "Nearly Headless Nick",
+    "score": 68.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported. Nick only appears in the first two films (John Cleese confirmed), making him effectively absent for OotP and DH - corroborating the missing death conversation and Grey Lady identification claims. The Grey Lady scene transfer is confirmed by the HP wiki: in DH Part 2, Luna takes Harry to the Grey Lady, whereas in the book Nick points her out. The deathday party omission (CoS) is widely documented. The OotP scene where Nick explains ghosthood to Harry after Sirius's death is confirmed by LitCharts and others as a meaningful book moment with no film equivalent. The 'decorative' characterization matches Shmoop's film analysis ('doesn't have much to do but hang around'). The 68/100 score is slightly generous given Nick is essentially absent from films 3-8, but the reasoning is accurate and the specific factual claims all check out."
+  },
+  {
+    "character": "Molly Weasley",
+    "score": 81.0,
+    "consistency": 8,
+    "reason": "The key factual claims in the justifications are well-supported. The Boggart scene being cut from PoA is a widely documented omission that fans consistently cite as a major loss for Molly's characterization. The Percy estrangement being underplayed in the films is confirmed by multiple sources. The films downplaying Molly's stricter, more complex side (her flaws, her political sharpness, her conflict with Arthur) is a recognized criticism. The Lockhart crush detail is accurate to the books. The one slightly questionable element is the motivations score of 13/25 - some fans would argue the films still convey her core motivation (protecting family) well enough through the Bellatrix duel and other scenes, making 13 feel a touch low. But the overall 81/100 and the reasoning are consistent with the fan/critical consensus that Molly's core personality translates well but significant depth is lost."
+  },
+  {
+    "character": "Narcissa Malfoy",
+    "score": 78.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The key claims check out: the Spinner's End emotional collapse being compressed in the film is confirmed (HP Wiki explicitly notes Narcissa is 'much more composed' in the film vs hysterical in the book), the Madam Malkin's confrontation being absent from the film is confirmed (Collider identifies it as the key scene the movies left out), and the forest lie scene being present in the film is confirmed. One notable inaccuracy in the justifications: the scorer says the Malfoy Manor Snatchers scene agency is 'not evidenced in the film corpus', but the HP Wiki confirms the Skirmish at Malfoy Manor scene IS in the film (DH Part 1) and Narcissa does clash with Bellatrix over authority - so the scorer's uncertainty here is unwarranted and the agency is actually partially preserved. The 'There is nothing I wouldn't do anymore!' line being cut is plausible given the compressed Spinner's End scene. The overall score of 78 is reasonable given the confirmed omissions (Madam Malkin's, compressed Spinner's End emotional register, reduced explicit internal conflict articulation) balanced against the two most critical moments (Unbreakable Vow initiation, forest lie) being present and well-executed."
+  },
+  {
+    "character": "Neville Longbottom",
+    "score": 74.0,
+    "consistency": 8,
+    "reason": "The justifications are well-supported by fan/critic consensus. The St. Mungo's scene omission, reduced DoM battle agency, compressed motivations tied to his parents' fate, and loss of internal emotional texture are all widely documented complaints. The broken nose detail in the DoM battle is book-accurate. The one mild weakness: the score of 10/25 for motivations feels slightly harsh given the films do convey his core motivation (courage, loyalty, standing up to Voldemort) even if the parents-as-driver is stripped out - some fans would rate this higher. The arc score of 13/25 is also on the low end given the films do show his transformation from bumbling student to hero, even if the book's richer internal journey is lost. Overall the score and reasoning are consistent with the broad fan/critical view that Neville is one of the more significantly shortchanged characters in the adaptations, making 74/100 a reasonable and defensible number."
+  },
+  {
+    "character": "Oliver Wood",
+    "score": 74.0,
+    "consistency": 8,
+    "reason": "The justifications are well-grounded. The Firebolt/McGonagall exchange (Wood saying he doesn't care if Harry is thrown as long as he catches the Snitch) is confirmed verbatim in the HP Wiki. The five-practices-a-week detail, the 'last chance' desperation framing, and the compressed PoA Quidditch arc are all corroborated. The PoA film notably omits the Quidditch Cup win entirely (confirmed by multiple fan sources including a 'Save Oliver Wood Campaign' that failed to get Warner Bros. to include it), which directly supports the narrative_role and arc deductions. The one slight uncertainty: the scorer describes Wood 'sobbing into Harry's shoulder' at the Cup win - the book describes him as ecstatic and weeping but the exact 'sobbing into Harry's shoulder' phrasing may be an embellishment of the book scene rather than a direct quote. Overall the score and reasoning are accurate and consistent with well-documented fan/wiki knowledge of the adaptation."
+  },
+  {
+    "character": "Norbert",
+    "score": 77.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The Charlie subplot removal (Ron's owl exchange, Ron's hospitalization from the bite, Malfoy finding the letter, covert tower handoff) is confirmed - the film replaced it with Dumbledore handling it off-screen. Ron's bite and its plot consequences are confirmed absent from the film. The teddy bear being ripped apart is confirmed in the book. The Norberta gender reveal is a real book detail (revealed retroactively in Deathly Hallows ch.7 per HP Lexicon). The one claim that couldn't be verified from web sources is the specific Azkaban callback where Hagrid lists Norbert among his most painful memories - this is a minor detail and may be misremembered or conflated, which is why the score isn't a 9-10. The overall 77/100 score is reasonable given the significant Charlie subplot removal and compressed personality portrayal, though some fans (like the blog reviewer) consider the film handling 'fine' for the time constraints, suggesting the score may be slightly harsh."
+  },
+  {
+    "character": "Olympe Maxime",
+    "score": 63.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The half-giant denial scene ('big bones') is confirmed as a key book moment (GF23) and is absent from the film. The giant mission in Order of the Phoenix is confirmed as a significant book role (OP20) with no film equivalent - Maxime doesn't appear in the OotP film at all. The Fudge/Dumbledore exchange about her identity is a real book scene (GF29). The claim about her being a 'passenger' following Hagrid to see the dragons rather than a co-initiator is plausible given the film's compression. The score of 63 is reasonable given she retains her basic presence and Hagrid relationship in GoF but loses her most psychologically complex scene and her entire OP narrative function. Minor uncertainty: the scorer's specific claim about 'icy post-ball coldness' and 'political maneuvering after the second task' are harder to verify from public sources, and the arc score of 8/25 may be slightly harsh given she does appear in DH Part 1 at the wedding (a film-only appearance actually), but overall the reasoning is grounded in real, verifiable omissions."
+  },
+  {
+    "character": "Parvati Patil",
+    "score": 64.0,
+    "consistency": 8,
+    "reason": "The factual claims in the justifications are well-supported. The HP Lexicon and fan sources confirm: Parvati joined the DA (OP16), fought in the Battle of Hogwarts (DH29), was cool toward Harry after the Yule Ball, and her boggart was a mummy (not a cobra - the films changed this). CBR and other sources corroborate that the films reduced her to a giggly background character, stripping her DA participation, classroom confrontations, and Battle of Hogwarts role. The score of 64 is in the right range - she gets credit for the Yule Ball portrayal being present, but loses heavily for the missing arc and agency. One minor caveat: the scorer's claim about her 'defending Neville in year 1' is harder to verify from public sources, and the Trelawney/Firenze tension being a key motivation is a stretch for a minor character. Overall the reasoning is accurate and the score is defensible."
+  },
+  {
+    "character": "Peter Pettigrew",
+    "score": 72.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The arc score (10/25) is the most defensible dimension: the silver-hand life-debt death being gutted in DH1 is widely documented as the single biggest Pettigrew adaptation failure, and the scorer correctly identifies this. The narrative_role and motivations scores are also consistent with fan consensus - the GoF graveyard compression and absence of the Spinner's End scene (HBP) are real omissions. One caveat: the scorer references a 'HBP scene where Pettigrew pushes back against Snape's condescension' and the 'I am not your servant' line - these are real book moments but very minor, and the scorer may be slightly over-weighting them as personality evidence. The claim about Bertha Jorkins capture showing Pettigrew's initiative is accurate to the books. The 72/100 total feels slightly generous given how thoroughly the films reduce him to a near-silent functionary from GoF onward and completely botch his arc payoff, but it's within a defensible range. No factual errors found in the justifications."
+  },
+  {
+    "character": "Remus Lupin",
+    "score": 71.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by fan/critic consensus. The Potterwatch omission, the Grimmauld Place confrontation cut (Lupin abandoning Tonks/baby), the reduction of his arc in DH, and his death being glossed over are all widely documented complaints. The Shrieking Shack scene being mostly preserved is also accurate. The main reason it's not a 9-10 is that the motivations score (11/25) and arc score (10/25) feel slightly harsh given that David Thewlis's performance is generally praised as faithful to the character's core personality - the cuts are real but the film Lupin is still recognizable and sympathetic. The personality score (19/25) is the most defensible. Overall the reasoning is factually accurate with no false claims."
+  },
+  {
+    "character": "Quirinus Quirrell",
+    "score": 69.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The key claims are all verifiable: the garlic-smelling classroom, Weasley twins hitting Quirrell with snowballs, Harry giving encouraging smiles, the trio monitoring whether Quirrell had 'cracked', and Harry overhearing Quirrell sobbing are all confirmed book details absent from the film. The film's compression of Quirrell's year-long presence into a few scenes is well-documented. The one minor issue is the motivations dimension - the scorer says the 'no good and evil, only power' speech is present in both versions (it is), but the film does include this monologue directly from Quirrell, so the claim that it's 'transferred to Voldemort's dialogue' is slightly imprecise. The 69/100 total feels reasonable for a character whose core two-face reveal is preserved but whose psychological depth, classroom presence, and sustained narrative role are heavily compressed."
+  },
+  {
+    "character": "Rita Skeeter",
+    "score": 64.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-supported by fan/critic consensus. Multiple sources confirm Rita is widely considered far more villainous in the books than the films, that she only appears in GoF on screen (reducing her narrative role dramatically), and that the Quibbler interview - where Hermione blackmails her into writing the truth about Voldemort - is entirely absent from the OotP film, which is exactly what the narrative_role justification claims. The 'flattened toward arch comedy' personality read is also consistent with how fans describe Miranda Richardson's performance. The DH biography function being absent from film is confirmed. The score of 64 (below average) aligns with the broad consensus that the film version is a significantly diminished version of the character. Minor uncertainty: the Three Broomsticks confrontation scene and the specific Luna quote cited are book-specific details that are harder to independently verify via web sources, but nothing found contradicts them."
+  },
+  {
+    "character": "Poppy Pomfrey",
+    "score": 80.0,
+    "consistency": 8,
+    "reason": "The factual claims in the justifications are well-supported. The PoA book scene where Pomfrey provides Harry and Hermione's alibi and confronts Snape and Fudge (PA21) is confirmed by the HP Lexicon and Fandom wiki. Her tears at Dumbledore's death, outrage at McGonagall being Stunned, and the HBP aftermath (treating Bill, conjuring a chair) are all book-canon and confirmed absent from the films - Pomfrey only appears in CoS, HBP, and DH2 films. The 'pumpkin juice' line is a film invention not in the books. The one minor issue: the scorer says she was 'sent to tend to Winky' in HBP, but the wiki doesn't corroborate this specific detail - it may be a minor error or conflation. The overall score of 80 and the reasoning about a competent but emotionally flattened film version is consistent with what the source material shows."
+  },
+  {
+    "character": "Rufus Scrimgeour",
+    "score": 60.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The Christmas garden scene (Scrimgeour's recruitment attempt at the Burrow) is confirmed cut from HBP film - Scrimgeour was entirely absent from that film despite Bill Nighy being originally cast for it. The HP Wiki explicitly notes 'his relationship with Harry is far from antagonistic' in the film and 'his negative personality aspects never come to light in the way and to the extent they do in the book' and 'he was much more civil and patient' in DH1. The narrative_role and motivations deductions are strongly supported. The personality score is also directionally correct. The one mildly questionable claim is the 'haunted/near-resignation' beat in the film's closing scene - this is a subjective read of Bill Nighy's performance that isn't independently corroborated, but it's not factually wrong either. A score of 60/100 is reasonable given Scrimgeour appears in only one film (DH1) in a reduced role, with his entire HBP arc cut, though some might argue it should be slightly lower given how much was lost."
+  },
+  {
+    "character": "Pomona Sprout",
+    "score": 76.0,
+    "consistency": 8,
+    "reason": "The score and justifications are factually accurate and well-supported. Sprout appears in only 2 of 8 films (CoS and DH2), and the specific claims - Lockhart closing the door in her face, Hagrid's line replacing her direct agency over the Mandrakes, her active Battle of Hogwarts role being reduced, her Umbridge resistance being entirely absent, and the Diggorys scene being cut - are all verifiable against the source material. The 76 score is reasonable: personality is preserved in the scenes that exist (Miriam Margolyes captures the character well), but narrative role, motivations, and arc suffer heavily from her near-total absence across films 3-7. A slightly lower score (68-72) could also be argued given the sheer volume of omitted material, but 76 is defensible."
+  },
+  {
+    "character": "Seamus Finnigan",
+    "score": 67.0,
+    "consistency": 8,
+    "reason": "The core claims in the justifications are well-supported. The book's OotP arc - Seamus's mother forbidding his return, weeks of avoidance, the dormitory confrontation in Chapter 11 where Seamus storms out, and his eventual reconciliation after the Quibbler interview - are all confirmed by LitCharts and fan sources. The film compressing this to a brief exchange is a widely noted adaptation cut. The DH2 bridge scene as a compensating moment is also accurate and recognized by fans. The score of 67 is reasonable for a character whose comic/explosive traits transfer well but whose most substantive book arc (the OotP internal conflict) is significantly truncated in the film. The one slight uncertainty is the specific claim of 'raised fists and a wand drawn' in the dormitory - sources confirm the confrontation and Seamus storming out, but the exact physical details (fists, drawn wand) couldn't be independently verified from available sources, which is a minor caveat."
+  },
+  {
+    "character": "Sirius Black",
+    "score": 62.0,
+    "consistency": 8,
+    "reason": "The 62/100 score and per-dimension breakdown align well with widespread fan and critic consensus. Sirius is consistently cited as a character whose internal complexity, key relationships (Kreacher, James), and arc were substantially cut in the films. The low arc (9/25) and motivations (10/25) scores match the specific criticism that his death lacked impact due to stripped context. Personality being the highest sub-score (16/25) also fits - Gary Oldman's performance preserved surface traits even if depth was lost. No factual errors detectable from research."
+  },
+  {
+    "character": "Sybill Trelawney",
+    "score": 65.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The HBP corridor scene where Trelawney reveals to Harry that Snape eavesdropped on the prophecy is confirmed by HP Lexicon and Quora sources - and this scene is absent from the film, which routes the Snape revelation through Dumbledore's pensieve instead, correctly removing Trelawney's narrative agency. The OotP sacking scene is confirmed present in both book and film. The claim that Emma Thompson was underused and that Trelawney is more significant in the novels than the films is corroborated by Collider and Screen Rant. The score of 65 and the reasoning are consistent with the consensus that the films preserve the surface personality and key OotP beats but strip out the HBP depth and her role as unwitting catalyst. Minor uncertainty: the specific claims about the McGonagall relationship being 'softened from antagonism to sympathy' and the DH crystal ball moment being 'brief' couldn't be independently verified, but nothing found contradicts them."
+  },
+  {
+    "character": "The Fat Lady",
+    "score": 69.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The HP Wiki and fan sources confirm: (1) the PS film Fat Lady (Spriggs) is notably flat with 'not much personality', consistent with the scorer's 'functional password-taker' claim; (2) the PoA film (Dawn French) is louder and more theatrical but in a comedic/operatic register, not the grumpy/petty/gossipy book personality - consistent with the scorer's 'wrong register' claim; (3) the Violet friendship, drunken Christmas scene, petty retaliation, and gossip are all book-only moments absent from the films, confirming the personality and relationship gaps cited; (4) the Sirius attack aftermath (Sir Cadogan replacement, security trolls return) is confirmed as book-only, supporting the arc/role deductions. One minor caveat: the scorer describes the PoA film scene as 'trance-like, gothic' which is a slight overstatement - Dawn French's portrayal is more comedic/theatrical than gothic - but this doesn't materially affect the score. The 69/100 total is reasonable for a character whose gatekeeper function is preserved but whose rich book personality is almost entirely absent from the films."
+  },
+  {
+    "character": "The Grey Lady",
+    "score": 68.0,
+    "consistency": 8,
+    "reason": "The core claims are well-supported. The book explicitly states Helena stole the diadem out of jealousy and desire to surpass her mother ('I sought to make myself cleverer, more important than my mother'), confirming the scorer's motivation reversal claim. The book describes her as 'haughty and proud' while the film portrays her as mournful and grief-stricken, consistent with the personality shift noted. The film also adds a Luna friendship absent from the books and makes Helena more emotionally open, supporting the 'passive sufferer' vs 'active resister' narrative role distinction. The score of 68 and the reasoning are well-grounded. Minor uncertainty: the scorer's specific claim about the film framing the theft as 'admiration' rather than jealousy is a reasonable interpretation but the film dialogue is somewhat ambiguous on this point, which prevents a 9-10."
+  },
+  {
+    "character": "Stan Shunpike",
+    "score": 70.0,
+    "consistency": 8,
+    "reason": "The score and justifications are well-grounded. The book facts are accurate: Stan's brash/gossipy personality in PoA, the veela scene in GoF establishing his social ambition, his arrest in HBP as a political scapegoat (used by Harry to challenge Scrimgeour across multiple chapters), and his Imperius'd appearance in DH are all confirmed by the HP Lexicon. The scorer correctly identifies that the HBP political-symbol thread and the veela scene are absent from the films, and that Stan's DH appearance is brief. The one area of mild uncertainty is the claim about the 'wearily, drearily' stage direction inverting book energy - this is a screenplay-level detail that can't be independently verified from public sources, but it's plausible and consistent with how the PoA film generally compressed the Knight Bus scene. A 70/100 is a reasonable score for a character whose PoA scene is mostly intact but whose broader narrative arc (HBP scapegoat thread, GoF veela scene, recurring presence) is largely cut from the films."
+  },
+  {
+    "character": "Xenophilius Lovegood",
+    "score": 77.0,
+    "consistency": 8,
+    "reason": "The core factual claims check out well. The HP Lexicon confirms Harry actively deduces Luna's absence in the book (noticing no sign of her for weeks, then confronting Xenophilius), which the scorer correctly identifies as replaced in the film by Hermione spotting the Quibbler. The IMDB quote confirms the film's compressed Quibbler/Dumbledore line. The characterization of the film as 'recognizable but flatter' aligns with general fan consensus that Rhys Ifans captured the eccentric surface but the extended rhetorical sparring chapter was heavily compressed. The score of 77 is reasonable - the core motivation (trading Harry for Luna) is faithfully preserved, which justifies not scoring lower, while the compression of his personality and agency justifies not scoring higher. Minor uncertainty: the specific 'gnome-saliva enthusiasm' wedding scene detail and the 'Prove that it does not' rhetorical exchange are hard to independently verify without the book text, but are plausible and consistent with the chapter's reputation among fans."
+  },
+  {
+    "character": "Viktor Krum",
+    "score": 66.0,
+    "consistency": 8,
+    "reason": "The factual claims in the justifications are accurate and well-supported. The Crouch Sr. forest scene being cut is confirmed - the HP Wiki explicitly notes 'In the film adaptation, this event is mostly cut. Harry just finds Crouch Sr.'s dead body.' Krum's role as active participant (walking with Harry, being stunned by Barty Jr.) is book-accurate. The Conjunctivitis Curse in the First Task is confirmed in the books but not shown in the film. The characterization of film-Krum as surface-level (surly, silent, physically awkward) vs. book-Krum having interior depth is consistent with the wiki's personality section. One minor inaccuracy: the scorer says Krum's maze role is 'simplified' but the wiki notes a more significant change - in the book Krum uses Cruciatus on Cedric, while in the film he tries to use the Killing Curse, which is actually a more dramatic divergence than 'simplified.' The score of 66 is reasonable given the forest scene removal strips his narrative agency and the film never shows Harry and Krum speaking at all (confirmed by wiki: 'In the films, Harry and Krum are never shown speaking to each other'), which undermines the relationship arc. A slightly higher score (70-75) could also be defensible since his core function - champion, Hermione's date, Yule Ball presence - is intact."
+  },
+  {
+    "character": "The Sorting Hat",
+    "score": 72.0,
+    "consistency": 8,
+    "reason": "The factual claims are accurate and well-supported. The GoF (1994) and OotP (1995) warning songs are confirmed absent from the films - the HP Wiki explicitly notes all songs were omitted from the films. The OotP song's political urgency and call for house unity is well-documented. The scorer correctly identifies the Hat's role as reduced to a sorting instrument in the films. Minor deduction: the scorer says 'two brief exchanges' remain in the films, which is slightly imprecise (the Hat also appears in DH2 when Neville pulls the sword), and the 'Voldemort's prop' framing for the arc endpoint is a reasonable interpretation but not a widely-cited fan talking point. The 72/100 score feels slightly generous given how much of the Hat's character is lost, but is defensible since the core sorting function and personality are faithfully rendered."
+  },
+  {
+    "character": "Alecto Carrow",
+    "score": 55.0,
+    "consistency": 9,
+    "reason": "All major claims are factually accurate. The film reduction is confirmed: Alecto has no speaking lines across all three films, her Muggle Studies role is entirely absent, and her pivotal act of pressing the Dark Mark to summon Voldemort is cut - in DH2 she is instead knocked out by Snape deflecting McGonagall's curses. The scorer's hedging ('cannot be confirmed from the corpus alone') is overly cautious since the cut is well-documented, but this is a minor caveat rather than an error. The 55/100 score is reasonable given that basic cruelty/enforcer role is preserved but nearly all specific characterization is lost."
+  },
+  {
+    "character": "Angelina Johnson",
+    "score": 40.0,
+    "consistency": 9,
+    "reason": "The score and all justifications are well-supported by the facts. The HP Wiki confirms the actress (Tiana Benjamin) couldn't return for OotP due to EastEnders commitments, so the character and the entire Quidditch captaincy subplot were cut entirely from the film. This directly validates the claims about absent captaincy role, missing agency against Umbridge's ban, absent Triwizard entry scene, and reduced Fred dynamic to a single joke exchange (GoF film). The book portrayal of Angelina as assertive, blunt, emotionally invested, and a demanding captain is well-documented. The one minor caveat keeping this from a 10: the scorer says 'all motivations are absent' and 'all complexity is absent', which is slightly absolute - she does appear briefly in GoF film at the Yule Ball and Triwizard scenes, showing some personality. But the OotP omission is so total that a score of 40 is reasonable, and the arc/role/motivation scores being low are clearly correct."
+  },
+  {
+    "character": "Amos Diggory",
+    "score": 60.0,
+    "consistency": 9,
+    "reason": "Web sources consistently confirm the scorer's core claims: book-Amos is boastful, competitive, and rude toward Harry about Cedric's superiority, while film-Amos is a generic affable wizard who doesn't boast. The campsite scene omission and absent 'needling' behavior are well-documented. The 60/100 score is slightly generous given how thoroughly the film strips his defining trait, but defensible since his basic identity is preserved. No factual errors found in the justifications."
+  },
+  {
+    "character": "Arabella Figg",
+    "score": 73.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly consistent with what sources confirm. The HP Wiki explicitly notes that the film softens her personality vs the book, that she 'hardly shows any anger toward Mundungus' in the film while in the book she physically assaults him with a bag of cat food and delivers a fierce tirade - directly corroborating the Mundungus confrontation removal claim. Looper confirms the film portrays her as 'kind and simple' vs the book's more bitter, purposefully unpleasant version, supporting the personality/softening claims. The arc compression claim is also accurate - the film does preserve the structural beats (childhood babysitting referenced, revelation, hearing) while cutting depth. The one minor caveat: the scorer says 'childhood scenes are present (referenced in the Philosopher's Stone film)' but the HP Wiki notes her film appearance in PS was actually cut content, making that arc claim slightly shaky. Overall the score of 73 is well-reasoned and consistent with the documented book-to-film losses."
+  },
+  {
+    "character": "Bartemius Crouch Sr.",
+    "score": 52.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly consistent with documented facts. The HP Wiki explicitly confirms: the film makes Crouch 'more cheerful and less ruthless', omits the entire Winky subplot and his abusive treatment of her, omits his wife's role in the Azkaban escape, and shows Dumbledore saying it 'destroyed Crouch to send his son to Azkaban' - directly contradicting the book where he showed no remorse. The film also skips his deterioration under the Imperius Curse (he's found dead rather than raving in the forest), removing the arc of guilt and the final act of will. The scorer's claims about flattened personality, absent internal conflict, missing father-son emotional dynamic, and reduced narrative agency are all factually grounded. Minor reason it's not a 10: the film does retain some presence (he appears at the tournament, congratulates Harry after the second task, and his body is found), so calling him purely 'background' slightly overstates the case - but the core assessment is accurate."
+  },
+  {
+    "character": "Charlie Weasley",
+    "score": 61.0,
+    "consistency": 9,
+    "reason": "Web sources universally confirm Charlie is the only Weasley not shown on screen in the films - he is entirely absent, not merely reduced. The justifications accurately describe the Norbert handoff, GoF dragon coordination, Order recruitment, and Battle of Hogwarts roles all being cut or transferred. The one minor quibble: the score of 61 feels slightly generous given Charlie has zero on-screen presence (not just reduced presence), but the scorer's own reasoning acknowledges this and the arc dimension rationale (flat arc not contradicted) is a reasonable basis for partial credit. The factual claims in the justifications are all accurate per fan/critic consensus."
+  },
+  {
+    "character": "Colin Creevey",
+    "score": 73.0,
+    "consistency": 9,
+    "reason": "The justifications are highly accurate. Colin effectively disappears after Chamber of Secrets (confirmed by multiple sources), his DA role in OotP was given to the film-only character Nigel, his death at the Battle of Hogwarts is absent from the films (confirmed - only exists as a deleted scene), and the 'tiny in death' pathos moment is widely cited by fans as a meaningful loss. The one minor caveat: the scorer frames his film absence as a corpus gap ('absent from the film corpus') rather than the character being entirely cut from later films, which is the actual situation - but this is a scoring methodology note, not a factual error. The score of 73 is reasonable given he's faithfully portrayed in CoS but loses all subsequent book material including his death arc."
+  },
+  {
+    "character": "Cho Chang",
+    "score": 61.0,
+    "consistency": 9,
+    "reason": "All major claims are well-supported. The Marietta-to-Cho betrayal transfer is widely documented and considered one of the most significant character changes in the series. The DH Part 2 statue scene swap (Cho offers in the book, Ginny redirects to Luna) is confirmed. The characterization gap - book Cho being assertive, jealous, and emotionally volatile vs film Cho being passive and sad - matches fan and critic consensus. The 61/100 score is plausible given that the films retain her grief, her relationship with Harry, and her DA membership, but gut the Marietta arc, her agency, and her emotional complexity. Minor uncertainty on the Owlery/Filch scene claim (not independently verified in this search), hence not a 10."
+  },
+  {
+    "character": "Dobby",
+    "score": 78.0,
+    "consistency": 9,
+    "reason": "All specific factual claims in the justifications are accurate and well-supported. The gillyweed transfer to Neville in GoF is confirmed by multiple sources. The Room of Requirement being revealed by Neville instead of Dobby in OotP is confirmed. The Malfoy surveillance subplot being cut from HBP is confirmed. The Umbridge warning scene being cut is confirmed. The wages/negotiation and Harry-faced baubles detail is a minor book fact not widely discussed but accurate. The only slight quibble is the score of 78 feels slightly generous given the sheer volume of cuts - Dobby is absent entirely from GoF, OotP, and HBP films - but the reasoning that what IS shown is accurate (not distorted) is a defensible framing that fans and critics broadly agree with."
+  },
+  {
+    "character": "Fenrir Greyback",
+    "score": 58.0,
+    "consistency": 9,
+    "reason": "The justifications are well-supported by fan and critical consensus. The Scabior role-transfer in DH1 is widely documented - in the books Greyback leads the Snatchers and interrogates the trio, while in the film Scabior takes over that function, reducing Greyback to physical muscle. The oafe.net review explicitly calls film Greyback 'basically just a big scary mook' with no personality depth, and Collider confirms his Snatchers leadership duties were handed to Scabior. The Burrow attack being a film invention is accurate. The one minor caveat: the scorer says the Lupin backstory connection is absent from the film corpus, which is broadly true in terms of explicit dialogue, though the films do visually imply the connection. The 58/100 score feels appropriate given that physical menace is preserved but verbal characterization, ideological motivation, and narrative agency are substantially lost."
+  },
+  {
+    "character": "Firenze",
+    "score": 61.0,
+    "consistency": 9,
+    "reason": "The justifications are factually accurate and well-supported. Firenze's entire OotP arc (Divination teacher, exile by the herd, Bane confrontation, warning about Grawp) is confirmed absent from the films by multiple sources. The PS1 scene reduction is accurate - he only appears in the first film. The one minor quibble is the claim about Hermione taking over the explanatory function in the film, which is a reasonable interpretation but not widely discussed in fan/critic literature. The score of 61 is consistent with the consensus that the film preserves his one key scene but loses the vast majority of his character depth."
+  },
+  {
+    "character": "Frank Bryce",
+    "score": 57.0,
+    "consistency": 9,
+    "reason": "Web sources directly corroborate the scorer's core claims. Screen Rant explicitly notes that 'Frank puts up a fight in the book, coming across as courageous rather than merely looking frail and lost as he does on the big screen.' The HP fandom wiki confirms his verbal confrontation with Voldemort exists in the book ('Turn round and face me like a man, why don't you?') but the film strips this out. The structural facts are all accurate: he investigates a light, he is killed by Voldemort, and the film removes his defiant confrontation. The score of 57/100 is reasonable for a character whose structural role is preserved but whose defining personality moment is cut. Minor uncertainty: the film does give him slightly more than just 'bloody kids' - TV Tropes notes he delivers a sarcastic line to Voldemort in the film - so the claim that his verbal confrontation is entirely absent may be slightly overstated, which is why this isn't a 10."
+  },
+  {
+    "character": "Gregory Goyle",
+    "score": 58.0,
+    "consistency": 9,
+    "reason": "All key factual claims are accurate and well-documented. Crabbe's actor was dropped due to legal issues, so his Fiendfyre/death scene was transferred to Goyle in the film - book Goyle survives, film Goyle dies. The scorer correctly identifies this as a narrative function transfer rather than compression. The 58/100 score is reasonable given that surface personality traits are preserved but the only dramatically significant action either character takes in the entire series is misattributed to Goyle. Minor deduction because the scorer's claim about Goyle firing 'Avada Kedavra' specifically is harder to verify from public sources, though the broader characterization is accurate."
+  },
+  {
+    "character": "Hannah Abbott",
+    "score": 73.0,
+    "consistency": 9,
+    "reason": "All specific claims are factually verified: the Sirius shrub rumor, OWL breakdown, DA membership, hexing Malfoy, mother's death, and Battle of Hogwarts are confirmed book events absent from the films. The 'one scene' characterization is slightly imprecise (she has background appearances in DH films too) but the substance is correct. The 73/100 score with heavy deductions on role/motivations/arc is well-justified given how much of her book arc was cut."
+  },
+  {
+    "character": "James Potter",
+    "score": 56.0,
+    "consistency": 9,
+    "reason": "The score and justifications align very well with fan and critical consensus. Multiple sources (SlashFilm, CBR, ScreenRant) confirm the same core complaints: the Marauder backstory was largely cut from the films, the Animagus transformation and Secret-Keeper decision are absent, the Pensieve scene is compressed to a single bullying moment without broader context, and Harry's complex relationship with his father's legacy is severely truncated. CBR explicitly lists James Potter as one of the 10 most poorly adapted characters, citing missing Marauder history and the failure to convey Harry's evolving view of his father. The one minor caveat keeping this from a 10 is that the score's specific claim about the Resurrection Stone moment being preserved is accurate but minor, and the justifications go into book-level detail (hair-rumpling vanity, Wormtail showing off) that can't be independently verified from public sources - though nothing contradicts them either."
+  },
+  {
+    "character": "Kingsley Shacklebolt",
+    "score": 76.0,
+    "consistency": 9,
+    "reason": "All specific factual claims check out: Marietta memory modification is book-only, Potterwatch/equality speech is book-only, Minister appointment is explicitly noted as omitted from DH2 by the HP Wiki, and the preserved elements (Patronus warning, battle coordination) are correctly identified. The score of 76 and the dimension breakdown are consistent with the documented omissions. Minor uncertainty only on whether 76 vs ~80 is the right calibration for a supporting character whose surface portrayal is faithful."
+  },
+  {
+    "character": "Lee Jordan",
+    "score": 61.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly accurate. The HP Wiki and fan sources confirm: Lee Jordan's film appearances end after Chamber of Secrets (film 2), so his entire book arc from PoA onward - the partisan McGonagall-baiting commentary, the Niffler harassment of Umbridge, Potterwatch (confirmed as entirely absent from the films, with only an unnamed voice heard in DH Part 1), his Battle of Hogwarts role, and the Fred-and-George friendship dynamic - are all absent from the film corpus. The one minor nuance is that Lee does appear in the OotP film with his name on the DA parchment, but has no actual screen presence or dialogue. A score of 61 is reasonable given he gets some credit for the early films capturing his commentator role and personality basics, while losing everything from PoA onwards."
+  },
+  {
+    "character": "Kreacher",
+    "score": 48.0,
+    "consistency": 9,
+    "reason": "The score and justifications are strongly supported by fan/critic consensus. Multiple sources (Collider, CBR) explicitly confirm: Kreacher's redemption arc was entirely cut from the films; his role in Sirius's death via betrayal to Bellatrix/Narcissa is absent from OotP; the Battle of Hogwarts leadership moment is missing; and the DH emotional transformation (kindness from Harry, devotion to Regulus's memory, warmth) is compressed to a brief interrogation scene. The surface-level speech pattern being preserved while the emotional depth is stripped is also consistent with how critics describe the film version. The score of 48/100 aligns well with a character who retains surface traits but loses nearly all narrative agency, motivational complexity, and arc - the one minor uncertainty is whether 48 might be slightly generous given how thoroughly the arc was erased, but it's defensible given the DH scenes that did make it in."
+  },
+  {
+    "character": "Madam Rosmerta",
+    "score": 68.0,
+    "consistency": 9,
+    "reason": "The justifications are factually accurate. Rosmerta appeared only in the PoA film (played by Julie Christie) and was entirely absent from the HBP theatrical film, despite having a major role in that book (Imperius Curse, poisoned mead, alerting Dumbledore to the Dark Mark). Her HBP appearance exists only as a deleted scene on disc 2. The scorer correctly identifies this as the central faithfulness problem. The one minor uncertainty is the claim about her being 'more confrontational and skeptical' in the film vs 'warm and curious' in the book - this is a reasonable interpretation of the PoA scene but harder to verify objectively. The 68/100 score is defensible given that her entire HBP arc (her most structurally significant role) is absent from the film corpus."
+  },
+  {
+    "character": "Lily Potter",
+    "score": 52.0,
+    "consistency": 9,
+    "reason": "The justifications are well-supported by widely documented fan and critical consensus. The Snape-Lily friendship being rushed/oversimplified in the films is extensively covered (the mudblood moment cut, the moral complexity of their falling-out absent). Lily's letter being cut from Deathly Hallows is confirmed. The Priori Incantatem scene where Lily gives Harry active instructions exists in the book but the film strips it of that agency. The reduction of Lily to a passive maternal symbol (screaming death, comforting Resurrection Stone appearance) vs. her more active, principled, multi-faceted book characterization is a well-known fan grievance. The one minor caveat: the claim that 'That's mean' is the only trace of her book personality is slightly reductive - she does have a few other lines in the Snape memories - but it's not factually wrong in spirit. A 52/100 is defensible; some might argue slightly lower given how little screen time she has to demonstrate any faithfulness at all."
+  },
+  {
+    "character": "Nymphadora Tonks",
+    "score": 54.0,
+    "consistency": 9,
+    "reason": "The score and justifications are well-supported by fan and critical consensus. Multiple sources (Den of Geek, Screen Rant, HubPages) independently confirm the same specific failures: clumsiness reduced to a single scene, Metamorphmagus powers underexplored, the entire HBP depression arc (mousy hair, emotional deterioration, Patronus change) absent from the film, and the bedside confrontation with Lupin replaced or cut. The train rescue scene being given to Luna instead of Tonks is a documented, widely-cited change. The one minor caveat keeping this from a 10 is that the score of 54/100 is on the lower-middle end - some fans might argue her DH presence and the name aversion gag warrant slightly more credit - but the directional assessment and specific claims in the justifications are factually accurate and match the critical record closely."
+  },
+  {
+    "character": "Penelope Clearwater",
+    "score": 69.0,
+    "consistency": 9,
+    "reason": "All three specific claims (petrification removal in CoS, Firebolt/bet scene in PoA, DH impersonation) are factually confirmed by multiple sources. The film reduction to a background walk-on with no lines is well-documented. The score and reasoning are accurate; the only minor issue is the scorer implies she has 'a single neutral line' in the film when sources suggest she has no lines at all, which if anything means the film is even less faithful than scored."
+  },
+  {
+    "character": "Pansy Parkinson",
+    "score": 66.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly accurate. The HP Wiki explicitly confirms: her rivalry with Hermione and her 'gang' are absent from the films; the Inquisitorial Squad subplot (including the antlers jinx) is book-only; her role directing 'Weasley is Our King' chants at Quidditch is book-only; her feeding false info to Rita Skeeter about Hermione (Witch Weekly angle) is absent from the films; the Great Hall betrayal scene is preserved in the film. The 'filthy squib' line is confirmed as a deleted scene from DH2, which is a minor inaccuracy in the scorer's framing - it calls it a film moment but it was cut. That's a small factual slip that slightly overstates what made it into the final film, but doesn't materially affect the score. The overall 66/100 and the dimension breakdown are well-supported by the evidence."
+  },
+  {
+    "character": "Percy Weasley",
+    "score": 49.0,
+    "consistency": 9,
+    "reason": "The score and justifications are strongly supported by fan/critic consensus. Multiple sources confirm: Percy has no dialogue after PoA, is entirely absent from GoF and HBP, his family betrayal and Ministry alignment arc is cut, the letter to Ron is absent, and his DH reconciliation is a blink-and-miss-it cameo with no context. The surface pomposity being preserved in early films while all internal depth (ambition, shame, family conflict) is stripped is exactly what critics describe. The one minor caveat keeping this from a 10 is that some critics argue the films at least gestured at the Ministry alignment (he appears as a background Ministry figure in OotP), which the scorer acknowledges - so the partial credit given to personality (14/25) for early-film surface traits is reasonable. The 49/100 total is arguably even generous given how thoroughly the arc was gutted."
+  },
+  {
+    "character": "Phineas Nigellus Black",
+    "score": 26.0,
+    "consistency": 9,
+    "reason": "Confirmed by multiple sources: Phineas Nigellus Black was completely cut from all Harry Potter films. He appears nowhere - no dialogue, no portrait scenes, no agency. The justifications accurately describe total absence of personality, narrative role, motivations, and relationships. The only minor question is whether the arc score of 12/25 is slightly high given he has zero film presence whatsoever - a character with no screen time arguably can't 'preserve' even a flat arc. But the scorer's reasoning (nothing contradicts the arc) is defensible."
+  },
+  {
+    "character": "Ron Weasley",
+    "score": 64.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly consistent with widespread fan and critical consensus. The specific claims - lines transferred to Hermione (PoA 'kill us too', CoS Mudblood explanation), Ron reduced to comic sidekick, degradation starting around PoA/GoF, surface personality preserved but deeper dimensions flattened - are all well-documented and frequently cited. The 64/100 total feels slightly generous to some fans who consider the adaptation more damaging, but is defensible. The only minor quibble is that the personality score (17/25) may be slightly high given how often critics note his cowardice and disloyalty were actively introduced by the films (e.g. the Snape 'he's got a point' scene), not just omissions."
+  },
+  {
+    "character": "Rolanda Hooch",
+    "score": 80.0,
+    "consistency": 9,
+    "reason": "The score and justifications are well-supported. The most well-documented fact about Hooch is that she appears only in film 1 (Philosopher's Stone) despite being present across books 1-3 and 5-6 - this directly validates the low narrative_role and arc scores. The HP Lexicon confirms her broom enthusiasm (Silver Arrow anecdote, Firebolt admiration) and her role as a multi-year referee and practice overseer, supporting the claim that these dimensions are lost in the films. The personality score of 20/25 is reasonable since her core no-nonsense, fair-play persona does come through in her one film appearance. The one minor uncertainty is the specific claim about an 'Impediment Jinx on students post-match' - this is a granular book detail that couldn't be independently verified via web sources, but nothing contradicts it either. Overall the reasoning is accurate and the score is consistent with the widely-noted fan complaint that Hooch was significantly underused in the films."
+  },
+  {
+    "character": "Scabior",
+    "score": 73.0,
+    "consistency": 9,
+    "reason": "The HP Wiki's 'Behind the scenes' section explicitly confirms both major claims: Scabior replaces Greyback as Snatcher leader in the film, and the predatory interest in Hermione is transferred from Greyback to Scabior. The book's restraining dynamic ('Easy, Greyback') is also confirmed. The 73/100 score correctly penalizes the leadership elevation and motivation distortion while preserving credit for the intact core personality and flat arc. The only reason it's not a 10 is that the scorer's justifications are truncated and don't mention the even more extreme cut scenes (Nick Moran's 'sniff Hermione' quote), which would arguably push the motivations score lower."
+  },
+  {
+    "character": "Susan Bones",
+    "score": 52.0,
+    "consistency": 9,
+    "reason": "The score and justifications are well-supported. Susan Bones is confirmed by the HP Lexicon and fan sources to have meaningful book moments: DA membership, the empathy exchange with Harry about people staring (OP25), helping him on the Hogwarts Express (OP38), her connection to Madam Bones, and her Splinching moment (HBP18). In the films she appears only in PS/CS (played by the director's daughter Eleanor Columbus) as a background Hufflepuff at the Sorting - no DA scenes, no dialogue of substance, no Madam Bones connection shown. The one minor issue is the scorer's claim of a 'small redheaded girl' physical misdescription - the books describe her with a long plait but don't specify red hair, so that claim can't be fully verified from available sources. Everything else checks out: the film strips her of all agency, personality, and relationships, retaining only her name and house assignment, which is exactly what a score of ~52 (with near-zero marks for role, motivations, and arc) reflects."
+  },
+  {
+    "character": "Ginny Weasley",
+    "score": 51.0,
+    "consistency": 9,
+    "reason": "The score and justifications are strongly consistent with the near-universal fan and critical consensus. Multiple sources (EW, CBR, Collider, Looper, documentarytube) independently confirm the same specific failures: personality flattened from fiery/witty to passive love interest, Harry-Ginny relationship feeling unearned due to missing arc development, agency and Hogwarts resistance transferred to Neville/Luna, and the DA role gutted. The 51/100 score is arguably even generous given how widely she is cited as one of the worst-adapted characters in the franchise. The only reason this isn't a 10 is that some specific claims (Fleur/Phlegm mockery, diary trauma as recurring lens) are harder to verify from public sources, though nothing contradicts them."
+  },
+  {
+    "character": "Vincent Crabbe",
+    "score": 53.0,
+    "consistency": 9,
+    "reason": "The score and justifications are highly accurate. All key factual claims check out: Crabbe was absent from DH films due to actor Jamie Waylett's drug arrests; Goyle took Crabbe's role (casting Fiendfyre and dying) while Blaise Zabini replaced Goyle; Crabbe's book-only moments of defying Malfoy, using Avada Kedavra, and his death are entirely absent from the films. The characterization of Crabbe as a silent background follower in early films is also well-documented. The score of 53/100 is reasonable given that the films faithfully portray his early-series role but completely omit his only meaningful character moments. Minor caveat: the scorer says 'Goyle functionally replaces Crabbe' which is correct but slightly imprecise - it was Goyle who took the Fiendfyre/death role, with Blaise Zabini filling Goyle's slot."
+  },
+  {
+    "character": "The Bloody Baron",
+    "score": 54.0,
+    "consistency": 9,
+    "reason": "All key claims are factually accurate and well-supported. The film Baron being 'mirthful' vs the book's 'gaunt and silent spectre' is explicitly documented on both the HP Wiki and HP Lexicon. Peeves being cut and eliminating the Baron's primary narrative function is correct. The Baron appearing only as a brief cameo in PS/f is accurate. The one minor gap: the scorer hedges on whether the DH film preserved the backstory, but the Baron doesn't actually appear in the DH films at all - the Grey Lady scene happens without him - so the arc loss is even more complete than the scorer acknowledged, making the score if anything slightly generous rather than wrong."
+  }
+]

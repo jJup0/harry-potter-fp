@@ -90,7 +90,8 @@ Respond with ONLY a JSON object: {{"consistency": <1-10>, "reason": "<brief expl
     if match:
         r = {"character": name, "score": total, **json.loads(match.group())}
     else:
-        r = {"character": name, "score": total, "consistency": -1, "reason": f"Failed to parse: {response[:200]}"}
+        # Don't cache failures
+        return {"character": name, "score": total, "consistency": -1, "reason": f"Failed to parse: {response[:200]}"}
 
     with open(rpath, "w") as f:
         json.dump(r, f, indent=2)
