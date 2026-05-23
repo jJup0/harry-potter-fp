@@ -19,14 +19,14 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Rowle appears only briefly in the book corpus. He is identified by Ron as a large Death Eater present at the Caf\u00e9 Luchino ambush. His physical presence and association with Dolohov establish him as a dangerous, active Death Eater operative. No dialogue or internal characterization is available in the provided corpus.",
+          "book_baseline": "Rowle appears only briefly in the book corpus. He is identified by Ron as a large Death Eater present at the Café Luchino ambush. His physical presence and association with Dolohov establish him as a dangerous, active Death Eater operative. No dialogue or internal characterization is available in the provided corpus.",
           "film_portrayal": "The film corpus is empty. Rowle does not appear in any provided screenplay scene.",
           "difference": "There is no film portrayal to compare against.",
           "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to evaluate. The character is absent from the film corpus entirely.",
           "evidence_status": "Not enough evidence"
         },
         "narrative_role_agency": {
-          "book_baseline": "Rowle functions as a threatening antagonist in the Caf\u00e9 Luchino ambush scene, actively hunting Harry, Ron, and Hermione. His presence creates danger and drives the trio's urgent need to escape and Obliviate their pursuers.",
+          "book_baseline": "Rowle functions as a threatening antagonist in the Café Luchino ambush scene, actively hunting Harry, Ron, and Hermione. His presence creates danger and drives the trio's urgent need to escape and Obliviate their pursuers.",
           "film_portrayal": "No film scenes provided.",
           "difference": "No film portrayal exists in the corpus to compare.",
           "penalty_logic": "Score of 0 reflects absence of film material, not a faithfulness determination.",
@@ -71,7 +71,7 @@
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Rowle's entire presence in the Caf\u00e9 Luchino ambush scene is absent from the film corpus"
+        "Rowle's entire presence in the Café Luchino ambush scene is absent from the film corpus"
       ],
       "score_caps_applied": [],
       "key_observations": "The film corpus for Thorfinn Rowle is entirely empty. No score can be assigned on any dimension because there is no film material to evaluate. The total of 0 reflects the complete absence of comparable film evidence, not a judgment that the character is unfaithfully portrayed. Confidence is Low across all dimensions. Note: Rowle does appear in the films (Deathly Hallows Part 1), but no screenplay scenes were provided in the corpus, making a meaningful FP evaluation impossible.",
@@ -82,7 +82,8 @@
         "book_chars_sent": 480,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "7dc6495bef59"
+        "corpus_hash": "7dc6495bef59",
+        "corpus_version": "1"
       }
     }
   },

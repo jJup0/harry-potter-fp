@@ -19,7 +19,7 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Rosier is referenced in the books as a Death Eater who, when cornered by Aurors, chose to fight rather than surrender \u2014 suggesting a combative, defiant disposition. He is also named among Voldemort's loyal followers who traveled to Hogwarts to support him during his attempt to secure the DADA post, indicating personal devotion to Voldemort. He is not a POV character and has no direct dialogue; his personality is inferred entirely from third-party accounts.",
+          "book_baseline": "Rosier is referenced in the books as a Death Eater who, when cornered by Aurors, chose to fight rather than surrender — suggesting a combative, defiant disposition. He is also named among Voldemort's loyal followers who traveled to Hogwarts to support him during his attempt to secure the DADA post, indicating personal devotion to Voldemort. He is not a POV character and has no direct dialogue; his personality is inferred entirely from third-party accounts.",
           "film_portrayal": "Rosier does not appear in the film corpus at all.",
           "difference": "The character is entirely absent from the films.",
           "penalty_logic": "With zero film presence, no personality or voice can be evaluated. A score of 0 reflects absence, not a judgment of quality.",
@@ -28,7 +28,7 @@
         "narrative_role_agency": {
           "book_baseline": "Rosier serves a minor but structurally meaningful role: he is named by Karkaroff during the Pensieve trial scene as a bargaining chip, and Crouch's response establishes that Rosier died fighting Aurors. This contributes to worldbuilding around Voldemort's inner circle and the post-war reckoning. He is also named by Dumbledore as one of the Death Eaters who accompanied young Voldemort to Hogwarts, reinforcing the early formation of Voldemort's loyal circle.",
           "film_portrayal": "Rosier does not appear in the film corpus.",
-          "difference": "His narrative function \u2014 as a named Death Eater in the trial scene and as part of Voldemort's early circle \u2014 is entirely absent.",
+          "difference": "His narrative function — as a named Death Eater in the trial scene and as part of Voldemort's early circle — is entirely absent.",
           "penalty_logic": "No film presence means no narrative role or agency is conveyed. Score is 0 by absence.",
           "evidence_status": "Not enough evidence"
         },
@@ -54,7 +54,7 @@
           "evidence_status": "Not enough evidence"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "The most distinctive detail about Rosier in the books is the Moody anecdote: Rosier chose to fight rather than surrender and wounded Moody in the process. This gives him a small but memorable texture \u2014 defiant, dangerous, not a passive follower. He is also placed among Voldemort's earliest loyalists. These details are minor but specific.",
+          "book_baseline": "The most distinctive detail about Rosier in the books is the Moody anecdote: Rosier chose to fight rather than surrender and wounded Moody in the process. This gives him a small but memorable texture — defiant, dangerous, not a passive follower. He is also placed among Voldemort's earliest loyalists. These details are minor but specific.",
           "film_portrayal": "Absent from films.",
           "difference": "All book-specific texture, including the Moody detail and the early-circle context, is lost.",
           "penalty_logic": "Score is 0 by absence.",
@@ -71,15 +71,15 @@
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Karkaroff naming Rosier during the Pensieve trial scene (GoF) \u2014 absent from films",
-        "Crouch's confirmation that Rosier died fighting Aurors rather than surrendering \u2014 absent from films",
-        "Moody's aside that Rosier 'took a bit of him with him' (the chunk of his nose) \u2014 absent from films",
-        "Dumbledore naming Rosier as one of the Death Eaters who accompanied young Voldemort to Hogwarts \u2014 absent from films"
+        "Karkaroff naming Rosier during the Pensieve trial scene (GoF) — absent from films",
+        "Crouch's confirmation that Rosier died fighting Aurors rather than surrendering — absent from films",
+        "Moody's aside that Rosier 'took a bit of him with him' (the chunk of his nose) — absent from films",
+        "Dumbledore naming Rosier as one of the Death Eaters who accompanied young Voldemort to Hogwarts — absent from films"
       ],
       "score_caps_applied": [
-        "No caps applied \u2014 score is 0 across all dimensions due to complete absence from the film corpus, not due to cap logic"
+        "No caps applied — score is 0 across all dimensions due to complete absence from the film corpus, not due to cap logic"
       ],
-      "key_observations": "Rosier is a minor background character in the books \u2014 referenced in third-party accounts, never appearing directly. He has no dialogue, no POV, and no developed arc. However, he does carry specific narrative texture: the detail of his defiant death and the wound he inflicted on Moody is memorable and characterizing. He is entirely absent from the film corpus provided. A score of 0 across all dimensions reflects this absence. Confidence is Low throughout because the book material itself is sparse, and the film material is nonexistent \u2014 making any comparative evaluation impossible. This is a case where 0 means 'not portrayed,' not 'badly portrayed.'",
+      "key_observations": "Rosier is a minor background character in the books — referenced in third-party accounts, never appearing directly. He has no dialogue, no POV, and no developed arc. However, he does carry specific narrative texture: the detail of his defiant death and the wound he inflicted on Moody is memorable and characterizing. He is entirely absent from the film corpus provided. A score of 0 across all dimensions reflects this absence. Confidence is Low throughout because the book material itself is sparse, and the film material is nonexistent — making any comparative evaluation impossible. This is a case where 0 means 'not portrayed,' not 'badly portrayed.'",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -87,7 +87,8 @@
         "book_chars_sent": 2303,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "29c71af28b7e"
+        "corpus_hash": "29c71af28b7e",
+        "corpus_version": "1"
       }
     }
   },

@@ -19,7 +19,7 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Burke appears briefly in a Pensieve memory in HBP. In his single spoken passage he is self-satisfied, mercenary, and casually callous \u2014 he exploited a visibly desperate, pregnant woman, paid a fraction of the locket's true value, and recounts the transaction with undisguised pride ('Best bargain we ever made!'). His voice is direct, anecdotal, and unrepentant.",
+          "book_baseline": "Burke appears briefly in a Pensieve memory in HBP. In his single spoken passage he is self-satisfied, mercenary, and casually callous — he exploited a visibly desperate, pregnant woman, paid a fraction of the locket's true value, and recounts the transaction with undisguised pride ('Best bargain we ever made!'). His voice is direct, anecdotal, and unrepentant.",
           "film_portrayal": "Burke does not appear in the films. The film corpus is empty.",
           "difference": "The character is entirely absent from the films.",
           "penalty_logic": "A score of 0 is the only coherent result when a character has no film presence whatsoever. There is nothing to evaluate as faithful or unfaithful.",
@@ -47,7 +47,7 @@
           "evidence_status": "Directly evidenced"
         },
         "key_relationships": {
-          "book_baseline": "The only relationship visible in the corpus is Burke's transactional exploitation of Merope Gaunt \u2014 cold, opportunistic, with a clear power imbalance in his favor.",
+          "book_baseline": "The only relationship visible in the corpus is Burke's transactional exploitation of Merope Gaunt — cold, opportunistic, with a clear power imbalance in his favor.",
           "film_portrayal": "Not present in the films.",
           "difference": "Absent entirely.",
           "penalty_logic": "No film material to score.",
@@ -77,9 +77,9 @@
         "The narrative beat of Merope receiving only ten Galleons for a near-priceless heirloom, and Burke's pride in that fact"
       ],
       "score_caps_applied": [
-        "No cap formally applied \u2014 raw dimension scores are all 0 due to complete absence from the films."
+        "No cap formally applied — raw dimension scores are all 0 due to complete absence from the films."
       ],
-      "key_observations": "Caractacus Burke does not appear in the films at all. Every score is 0 not as a judgment of poor adaptation but as a reflection of total absence. Confidence is Low across all dimensions because there is no film material to compare against the book baseline. The character's narrative function \u2014 corroborating Merope's fate and establishing the provenance of Slytherin's locket \u2014 is simply omitted from the film version of Half-Blood Prince.",
+      "key_observations": "Caractacus Burke does not appear in the films at all. Every score is 0 not as a judgment of poor adaptation but as a reflection of total absence. Confidence is Low across all dimensions because there is no film material to compare against the book baseline. The character's narrative function — corroborating Merope's fate and establishing the provenance of Slytherin's locket — is simply omitted from the film version of Half-Blood Prince.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -87,7 +87,8 @@
         "book_chars_sent": 1971,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "90d97b6319d9"
+        "corpus_hash": "90d97b6319d9",
+        "corpus_version": "1"
       }
     }
   },

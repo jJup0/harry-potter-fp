@@ -1,16 +1,98 @@
 {
   "character": "Fawkes",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 21.0,
+    "narrative_role_agency": 17.0,
+    "motivations_internal_conflict": 13.0,
+    "character_arc": 13.0,
+    "key_relationships": 8.0,
+    "complexity_nuance_lost_material": 10.0,
+    "total": 82.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 21,
+      "narrative_role_agency": 17,
+      "motivations_internal_conflict": 13,
+      "character_arc": 13,
+      "key_relationships": 8,
+      "complexity_nuance_lost_material": 10,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Fawkes is established across the books as a creature of quiet, active loyalty. He does not merely react - he acts with apparent intention: he arrives unbidden in the Chamber when Harry shows loyalty, blinds the Basilisk, heals Harry's wound, delivers the diary to destroy Riddle, carries the group to safety, serves as a sentinel for Dumbledore (warning of Umbridge), swallows the Killing Curse to protect Dumbledore, and departs Hogwarts permanently after Dumbledore's death. His 'voice' is expressed through music (the phoenix song that echoes after Dumbledore's death, the eerie piping in the Chamber), physical warmth and comfort (settling on Harry's knee, squeezing his shoulder gently), and a pattern of purposeful, calm action under extreme pressure. He is described as benign, peaceful, and beautiful in his full form, but also capable of fierce combat. He is not passive decoration - he initiates, decides, and acts.",
+          "film_portrayal": "The film preserves the core behavioral signature: Fawkes arrives in the Chamber with the Sorting Hat, blinds the Basilisk by driving his talons into its eyes, heals Harry with his tears, delivers the diary to Harry, and carries the group out. He is shown perching calmly in Dumbledore's office. His music is present in the Chamber scene. His burning-day appearance and rebirth are shown in Dumbledore's office, matching the book scene closely.",
+          "difference": "The film omits several behavioral moments that build Fawkes's personality texture: the gentle shoulder-squeeze when Harry is alone and afraid in the Chamber (book scene 10), the specific moment of Fawkes flying back to drop the diary into Harry's lap after being driven off by Riddle's wand (book scene 41 - in the film Harry retrieves the diary himself from Ginny's hand), the sentinel/warning function (golden feather warning of Umbridge, book scenes 87-88), the post-GoF healing of Harry's leg (book scene 82), the comfort of settling on Harry's knee during the Priori Incantatem aftermath (book scenes 75-76), and the final departure from Hogwarts after Dumbledore's death (book scene 127). The film also omits the phoenix song lament after Dumbledore's death. These omissions reduce the texture of Fawkes's personality - particularly his proactive comfort-giving and his bond-signaling behaviors - but the core traits (fierce loyalty, purposeful action, healing, musical presence) are preserved in the Chamber sequence.",
+          "penalty_logic": "The main personality traits are present and observable in the film. The omissions reduce secondary behavioral texture (comfort-giving, sentinel role, the lament) but do not fundamentally alter the character's dominant traits. Minor penalty for loss of the gentler, more intimate behavioral moments and the sentinel/warning function.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Fawkes serves multiple distinct narrative functions across the books: (1) In CoS, he arrives as proof of Harry's loyalty to Dumbledore, blinds the Basilisk, heals Harry, drops the diary for Harry to destroy Riddle, and carries the group to safety - each action is a discrete, initiated act of agency. (2) In GoF, he heals Harry's leg after the graveyard. (3) In OotP, he serves as Dumbledore's sentinel (warning feather), participates in the battle in Dumbledore's office, and enables Dumbledore's escape by carrying him away. He also swallows the Killing Curse in the Ministry battle. (4) In HBP, he is present as Dumbledore discusses Snape's task. (5) After Dumbledore's death, his lament echoes over the grounds and his departure signals the end of an era. His agency is consistently active: he initiates arrivals, makes tactical decisions in combat, provides healing without being asked, and his departure is itself a narrative event.",
+          "film_portrayal": "The film preserves Fawkes's core CoS agency: arriving in the Chamber, blinding the Basilisk, healing Harry, and carrying the group out. His presence in Dumbledore's office (CoS and GoF films) is shown. In OotP, he participates in the office battle and enables Dumbledore's escape. These are the most structurally important functions and they are retained.",
+          "difference": "Several agency moments are lost or reduced. In the film version of the Chamber scene, Harry retrieves the diary from Ginny's hand himself rather than Fawkes dropping it into his lap after being driven off - this removes a specific act of Fawkes's agency (returning under fire to deliver the weapon). The GoF leg-healing is absent from the film. The sentinel/warning function (OotP feather warning) is absent. The post-Dumbledore-death lament and departure - which function as narrative closure and signal the loss of Dumbledore's era - are absent from HBP film. These are real agency losses, particularly the diary delivery and the departure.",
+          "penalty_logic": "The most structurally critical agency moments (blinding the Basilisk, healing Harry, carrying the group out, enabling Dumbledore's escape) are preserved. The diary delivery transfer to Harry's own action is a modest agency loss. The departure and lament are significant narrative function losses. Score reflects preserved core agency with meaningful secondary losses.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Fawkes is not a character with explicit internal conflict or stated motivations in the human sense. His motivations are expressed entirely through action: loyalty to Dumbledore, and by extension to those Dumbledore loves or who demonstrate loyalty to Dumbledore. Dumbledore explicitly states this: 'Nothing but that could have called Fawkes to you' (loyalty). His healing function appears instinctive - he heals without being asked. His departure after Dumbledore's death suggests his bond was personal, not institutional. There is no internal conflict to speak of - he is consistent and unwavering.",
+          "film_portrayal": "The film preserves the loyalty-driven motivation through Dumbledore's explicit statement ('Nothing but that could have called Fawkes to you') and through Fawkes's actions. The healing instinct is shown. The personal bond with Dumbledore is implied by his presence in the office.",
+          "difference": "The departure after Dumbledore's death - which is the clearest evidence that Fawkes's motivation is personal loyalty to Dumbledore rather than institutional attachment to Hogwarts - is absent from the films. This slightly weakens the characterization of his motivation as a deep personal bond rather than a general magical property.",
+          "penalty_logic": "Motivations are simple and consistent in the books; the film preserves the core loyalty motivation explicitly. The loss of the departure removes the strongest evidence of the personal nature of that bond, but the motivation itself is not changed or contradicted. Minor simplification.",
+          "evidence_status": "Directly evidenced for core motivation; reasonably inferred for the personal bond depth"
+        },
+        "character_arc": {
+          "book_baseline": "Fawkes has a flat arc in terms of personality - he does not change. However, he has a structural arc across the series: he begins as Dumbledore's companion and a symbol of loyalty and rebirth, grows in narrative importance through CoS (active agent), GoF (healer), OotP (combatant and escape enabler), and reaches a meaningful endpoint when he departs Hogwarts after Dumbledore's death - a moment that signals the end of the Dumbledore era and functions as a form of grief or completion. The burning-day cycle (death and rebirth) is established early and recurs. His arc is intentionally flat in character but has a clear narrative trajectory with a defined endpoint.",
+          "film_portrayal": "The film establishes the burning-day cycle in CoS and shows Fawkes's active role through CoS and OotP. The endpoint - departure after Dumbledore's death - is absent from the HBP film.",
+          "difference": "The departure is the most significant missing arc element. It is the only moment in the series where Fawkes's own trajectory reaches a conclusion. Without it, his arc simply stops rather than ending. The lament (phoenix song after Dumbledore's death) is also absent.",
+          "penalty_logic": "The arc is flat by design and the film respects that. The burning-day cycle is established. The missing endpoint (departure) is a real loss - it is the one moment that gives Fawkes's arc a conclusion - but the arc is not falsified or replaced. Score reflects a compressed but mostly faithful arc with a missing final step.",
+          "evidence_status": "Directly evidenced for what is present; directly evidenced for what is absent"
+        },
+        "key_relationships": {
+          "book_baseline": "Fawkes has two key relationships: (1) Dumbledore - a deep personal bond of mutual loyalty; Fawkes is Dumbledore's companion, sentinel, and protector; his departure after Dumbledore's death confirms the bond was personal. (2) Harry - a relationship of loyalty-recognition; Fawkes responds to Harry's loyalty to Dumbledore, comforts him physically (knee, shoulder), heals him twice, and the wand-core connection (both wands share Fawkes's tail feather) creates a structural link. The book also establishes Fawkes as a source of comfort for Harry specifically - settling on his knee during distress, squeezing his shoulder in the Chamber.",
+          "film_portrayal": "The Dumbledore relationship is shown through Fawkes's presence in the office, his participation in the OotP battle, and Dumbledore's explicit statements. The Harry relationship is shown through the Chamber sequence and the wand-core revelation in GoF. The comfort-giving moments (knee, shoulder) are largely absent.",
+          "difference": "The Dumbledore relationship loses its most defining moment (the departure). The Harry relationship loses the intimate comfort-giving scenes and the GoF leg-healing. The wand-core connection is preserved in the GoF film. The relationships are recognizable but the emotional depth of both is reduced.",
+          "penalty_logic": "Both key relationships are present and functional. The Dumbledore bond loses its conclusive evidence of personal depth. The Harry bond loses its most intimate moments. Relationships are mostly faithful with some compression and emotional flattening.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Fawkes's complexity comes from the accumulation of specific, purposeful acts across multiple books: the sentinel function, the healing of Harry's leg unprompted during a moment of emotional distress, the comfort of settling on Harry's knee, the diary delivery under fire, the Killing Curse absorption, the lament, and the departure. Each of these adds a layer - Fawkes is not just a plot device but a creature with apparent emotional attunement (he responds to loyalty, grief, and need), tactical intelligence (blinding the Basilisk, absorbing the Killing Curse), and a personal bond that ends with Dumbledore's death. The burning-day cycle also adds thematic complexity (death and rebirth as a recurring motif).",
+          "film_portrayal": "The film captures the most dramatic and plot-essential moments of Fawkes's complexity. The Chamber sequence is well-rendered. The OotP battle participation is present. The burning-day is established. What is lost is the quieter, more emotionally nuanced material: the comfort-giving, the unprompted healing, the sentinel role, the lament, and the departure.",
+          "difference": "The lost material is not trivial. The departure and lament are the moments that most clearly establish Fawkes as a creature with genuine emotional bonds rather than a magical utility. The comfort-giving scenes establish his attunement to Harry's emotional state. The sentinel function establishes his active role in Dumbledore's plans beyond combat. Without these, Fawkes is somewhat flattened into a 'loyal magical creature who helps in crises' rather than a being with apparent emotional depth and a personal story.",
+          "penalty_logic": "Noticeable simplification. The most dramatically visible complexity is preserved, but the quieter nuances that distinguish Fawkes as emotionally attuned and personally bonded are largely absent. The character is not reduced to a single trait but is missing the material that made him richest.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Fawkes dropping the diary into Harry's lap after being driven off by Riddle's wand (CoS book) - in the film Harry retrieves the diary himself from Ginny's hand",
+        "Fawkes healing Harry's leg wound after the graveyard (GoF book)",
+        "Fawkes settling on Harry's knee and providing comfort during the Priori Incantatem aftermath (GoF book)",
+        "Fawkes squeezing Harry's shoulder gently in the Chamber (CoS book)",
+        "Fawkes serving as Dumbledore's sentinel - the golden feather warning of Umbridge's approach (OotP book)",
+        "Fawkes's phoenix song lament echoing over the grounds after Dumbledore's death (HBP book)",
+        "Fawkes departing Hogwarts permanently after Dumbledore's death - the moment that signals the personal nature of his bond and closes his narrative arc (HBP book)",
+        "Fawkes gnawing cuttlebone during Dumbledore and Snape's conversation about killing Dumbledore (DH book)"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Fawkes is faithfully portrayed in his most structurally critical moments - the Chamber of Secrets sequence, the OotP battle, and the burning-day introduction - and his core identity (loyal, purposeful, healing, musically expressive) is preserved. The film loses the quieter, emotionally nuanced material: the comfort-giving scenes, the sentinel function, the unprompted healing in GoF, and most significantly the departure and lament after Dumbledore's death, which is the only moment that gives Fawkes's arc a conclusion and most clearly establishes his bond with Dumbledore as personal rather than functional. The diary delivery is also modestly transferred to Harry's own action. The result is a Fawkes who is recognizable and active but somewhat flattened - a loyal magical creature who helps in crises, rather than a being with apparent emotional attunement and a personal story that ends with his companion's death.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 28516,
+        "film_chars_sent": 156972,
+        "aliases": [],
+        "corpus_hash": "2ce6d4ff34a2",
+        "corpus_version": "1"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 2.5,

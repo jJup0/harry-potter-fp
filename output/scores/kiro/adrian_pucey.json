@@ -19,7 +19,7 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Adrian Pucey appears exclusively as a background Quidditch player in the book corpus. He is mentioned by name in commentary as a Slytherin Chaser \u2014 speeding toward goal posts, ducking Bludgers, dropping the Quaffle when distracted by the Snitch. No dialogue, no internal characterization, no personality traits are established beyond functional Quidditch participation.",
+          "book_baseline": "Adrian Pucey appears exclusively as a background Quidditch player in the book corpus. He is mentioned by name in commentary as a Slytherin Chaser — speeding toward goal posts, ducking Bludgers, dropping the Quaffle when distracted by the Snitch. No dialogue, no internal characterization, no personality traits are established beyond functional Quidditch participation.",
           "film_portrayal": "The film corpus is entirely empty. Adrian Pucey does not appear in any film scene provided.",
           "difference": "The character is completely absent from the films as represented in this corpus.",
           "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to evaluate. The scoring framework cannot measure fidelity when one side of the comparison does not exist.",
@@ -72,9 +72,9 @@
       },
       "lost_or_transferred_material": [],
       "score_caps_applied": [
-        "No caps applied. Scores are 0 across all dimensions solely because the film corpus is empty \u2014 no film appearance exists to evaluate. This is an absence of data, not a scored faithfulness failure."
+        "No caps applied. Scores are 0 across all dimensions solely because the film corpus is empty — no film appearance exists to evaluate. This is an absence of data, not a scored faithfulness failure."
       ],
-      "key_observations": "Adrian Pucey does not appear in the film corpus at all. All six dimension scores are 0 by default due to the complete absence of film material, not because of any measurable faithfulness failure. The book corpus itself establishes only a minimal background character \u2014 a named Slytherin Chaser referenced in Quidditch commentary with no dialogue, personality, arc, or relationships. Because neither side of the comparison yields substantive characterization material, confidence is Low across all dimensions and globally. No meaningful FP evaluation is possible.",
+      "key_observations": "Adrian Pucey does not appear in the film corpus at all. All six dimension scores are 0 by default due to the complete absence of film material, not because of any measurable faithfulness failure. The book corpus itself establishes only a minimal background character — a named Slytherin Chaser referenced in Quidditch commentary with no dialogue, personality, arc, or relationships. Because neither side of the comparison yields substantive characterization material, confidence is Low across all dimensions and globally. No meaningful FP evaluation is possible.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -82,7 +82,8 @@
         "book_chars_sent": 2946,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "ebbe9f266dde"
+        "corpus_hash": "ebbe9f266dde",
+        "corpus_version": "1"
       }
     }
   },

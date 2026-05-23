@@ -19,14 +19,14 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "The book corpus establishes Merope as a figure of secret, intense longing \u2014 she harbors a 'secret, burning passion' for Tom Riddle Sr. She is also a victim of abuse within the Gaunt household, fearful and suppressed. Her personality is defined by hidden desire, powerlessness, and tragic desperation.",
+          "book_baseline": "The book corpus establishes Merope as a figure of secret, intense longing — she harbors a 'secret, burning passion' for Tom Riddle Sr. She is also a victim of abuse within the Gaunt household, fearful and suppressed. Her personality is defined by hidden desire, powerlessness, and tragic desperation.",
           "film_portrayal": "Merope Gaunt does not appear in the film corpus. She has no dialogue, no scenes, and no direct presence in the films.",
           "difference": "The character is entirely absent from the films. No personality or voice can be evaluated.",
           "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to evaluate. The character simply does not exist in the film corpus.",
           "evidence_status": "Not enough evidence"
         },
         "narrative_role_agency": {
-          "book_baseline": "Merope is a structurally critical character \u2014 she is the mother of Voldemort, and her actions (using a love potion on Tom Riddle Sr., conceiving Tom Riddle Jr., abandoning her child) are the direct origin of Voldemort's existence and psychological formation. Her agency, however tragic and morally compromised, drives a key backstory.",
+          "book_baseline": "Merope is a structurally critical character — she is the mother of Voldemort, and her actions (using a love potion on Tom Riddle Sr., conceiving Tom Riddle Jr., abandoning her child) are the direct origin of Voldemort's existence and psychological formation. Her agency, however tragic and morally compromised, drives a key backstory.",
           "film_portrayal": "Merope does not appear in the films. Her narrative role is entirely absent from the film corpus.",
           "difference": "Her entire narrative function is removed from the films.",
           "penalty_logic": "Score of 0 reflects total absence, not a faithfulness comparison.",
@@ -40,7 +40,7 @@
           "evidence_status": "Not enough evidence"
         },
         "character_arc": {
-          "book_baseline": "Merope's arc moves from abused, suppressed daughter to desperate lover to abandoned, dying mother \u2014 a complete tragic arc that ends with her death in a Muggle orphanage after giving birth to Tom Riddle Jr.",
+          "book_baseline": "Merope's arc moves from abused, suppressed daughter to desperate lover to abandoned, dying mother — a complete tragic arc that ends with her death in a Muggle orphanage after giving birth to Tom Riddle Jr.",
           "film_portrayal": "No film material exists for this character.",
           "difference": "The arc is entirely absent.",
           "penalty_logic": "Score of 0 reflects total absence.",
@@ -54,7 +54,7 @@
           "evidence_status": "Not enough evidence"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "Merope is one of the most morally complex minor characters in the series \u2014 a victim who becomes a perpetrator (love potion as coercion), a figure of pity whose choices directly produce the series' central villain. Her complexity lies in the tension between her suffering and her agency in causing harm.",
+          "book_baseline": "Merope is one of the most morally complex minor characters in the series — a victim who becomes a perpetrator (love potion as coercion), a figure of pity whose choices directly produce the series' central villain. Her complexity lies in the tension between her suffering and her agency in causing harm.",
           "film_portrayal": "No film material exists for this character.",
           "difference": "All complexity and nuance are absent.",
           "penalty_logic": "Score of 0 reflects total absence.",
@@ -71,14 +71,14 @@
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Merope's entire characterization \u2014 her abused upbringing in the Gaunt household, her secret obsessive love for Tom Riddle Sr., her use of a love potion, her pregnancy and abandonment by Tom Riddle Sr., her death in a Muggle orphanage after giving birth to Voldemort \u2014 is entirely absent from the films.",
+        "Merope's entire characterization — her abused upbringing in the Gaunt household, her secret obsessive love for Tom Riddle Sr., her use of a love potion, her pregnancy and abandonment by Tom Riddle Sr., her death in a Muggle orphanage after giving birth to Voldemort — is entirely absent from the films.",
         "The Gaunt family backstory (HBP Chapter 10, 'The House of Gaunt') is not dramatized in the films.",
         "Merope's role as the tragic origin point of Voldemort's psychology and his inability to love is lost, removing a key layer of Voldemort's characterization from the films."
       ],
       "score_caps_applied": [
-        "No cap applied \u2014 score is 0 due to complete absence from the film corpus, not due to cap logic."
+        "No cap applied — score is 0 due to complete absence from the film corpus, not due to cap logic."
       ],
-      "key_observations": "Merope Gaunt does not appear in the film corpus at all. The score of 0 across all dimensions reflects her total absence from the films, not a judgment that what little was shown was unfaithful. The book corpus provided is also minimal \u2014 three brief references, all indirect \u2014 so confidence is Low across all dimensions. The evaluation cannot be a faithfulness comparison; it is simply a record of non-portrayal. Her absence removes a significant layer of Voldemort's origin story from the films, which is a meaningful adaptation loss, but that loss is captured in lost_or_transferred_material rather than in a faithfulness score that would be meaningless without film material to compare.",
+      "key_observations": "Merope Gaunt does not appear in the film corpus at all. The score of 0 across all dimensions reflects her total absence from the films, not a judgment that what little was shown was unfaithful. The book corpus provided is also minimal — three brief references, all indirect — so confidence is Low across all dimensions. The evaluation cannot be a faithfulness comparison; it is simply a record of non-portrayal. Her absence removes a significant layer of Voldemort's origin story from the films, which is a meaningful adaptation loss, but that loss is captured in lost_or_transferred_material rather than in a faithfulness score that would be meaningless without film material to compare.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -86,7 +86,8 @@
         "book_chars_sent": 422,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "d62fa39d805f"
+        "corpus_hash": "d62fa39d805f",
+        "corpus_version": "1"
       }
     }
   },

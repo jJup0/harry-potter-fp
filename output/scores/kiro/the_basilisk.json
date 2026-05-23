@@ -1,16 +1,96 @@
 {
   "character": "the Basilisk",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 15.0,
+    "motivations_internal_conflict": 13.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 9.0,
+    "total": 75.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 18,
+      "narrative_role_agency": 15,
+      "motivations_internal_conflict": 13,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 9,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "The Basilisk in the books is defined almost entirely through behavioral and physical description rather than interiority. Its 'personality' is that of an apex predator: relentless, methodical, and obedient to Parseltongue command. It does not hesitate, does not retreat except from roosters, and pursues Harry with heavy, deliberate movement. The book conveys its presence through sound (the slithering, the weight of its body on the floor), physical scale (fangs long as sabers, mouth wide enough to swallow Harry whole), and the visceral danger it radiates. It snaps furiously at Fawkes, lunges with precision, and when blinded continues to hunt by sound and smell. It is not malevolent in a thinking sense - it is an instrument of destruction, but one with animal persistence and ferocity.",
+          "film_portrayal": "The film preserves the core behavioral identity: the Basilisk is large, lethal, obedient to Riddle's Parseltongue commands, and hunts Harry after being blinded by Fawkes. It hisses in pain, thrashes, and strikes blindly. The film adds a roar when blinded, which is not in the books, and the physical confrontation is rendered as a more dynamic action sequence (Harry climbing the statue, sliding down the serpent's back). The fundamental behavioral pattern - predatory, relentless, instrument of Riddle - is intact.",
+          "difference": "The film adds a roar to the Basilisk when blinded, which is a minor addition not in the books. The book's Basilisk is described as hissing and snapping, not roaring. The film also compresses the hunt sequence, removing the moment where Harry hides in an alcove and the snake nearly finds him by smell alone - a scene that emphasizes the creature's sensory hunting rather than brute force. The book's emphasis on the weight and sound of the creature ('heavy body slithering heavily across the dusty floor') is partially lost in the film's more visually kinetic presentation.",
+          "penalty_logic": "The Basilisk has no true personality in the human sense - it is an animal. Its 'voice' is physical presence and behavioral pattern. The film preserves the essential pattern (predatory, obedient, lethal) but adds a roar and shifts emphasis from slow dread to kinetic action. This is a minor change that slightly alters the creature's texture without fundamentally changing what it is. A small penalty is warranted for the roar addition and the loss of the alcove scene's sensory-hunting emphasis.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "The Basilisk's narrative role is threefold: (1) it is the instrument of Slytherin's will, the weapon that has been petrifying and threatening to kill students; (2) it is the climactic physical antagonist Harry must defeat; (3) its venom and fang become plot-critical tools - the fang kills Harry in book 7's terms (via Horcrux destruction) and the venom nearly kills Harry in book 2. Its agency is entirely reactive - it acts only when called - but within that constraint it is the primary physical threat of the entire book.",
+          "film_portrayal": "The film preserves all three functions. The Basilisk is still the weapon behind the attacks, still the climactic antagonist Harry fights, and its fang is still used to destroy the diary Horcrux. In Deathly Hallows Part 1 and Part 2 (film corpus scenes 2-4), the basilisk fang's role as a Horcrux-destroying tool is preserved, with Hermione explaining the sword's impregnation with basilisk venom and the fang being used to destroy the diadem.",
+          "difference": "In the books, the basilisk fang used to destroy the diary in book 2 is the same fang Harry pulls from his own arm - a moment of desperate improvisation. In the film this beat is preserved. However, in Deathly Hallows, the book has Ron retrieve basilisk fangs from the Chamber himself (with Hermione), which is a significant act of agency and initiative for Ron. The film corpus (scene 2) shows Hermione explaining the basilisk venom connection, and scene 3 shows Hermione tossing Harry a basilisk fang to destroy the diadem - the retrieval of the fangs by Ron and Hermione from the Chamber is present in the film (DH Part 2) but the corpus here only partially captures it. The Basilisk's own narrative role is not diminished.",
+          "penalty_logic": "The Basilisk's own role and agency are preserved. The minor penalty reflects that the film's action-sequence framing slightly reduces the creature's function as a source of slow, inescapable dread (which is part of its narrative role in building tension) in favor of a more conventional monster-fight structure. This is a compression that modestly affects function.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "The Basilisk has no internal conflict and no motivation beyond obedience to Parseltongue command. It is an animal. Its 'motivation' is purely instinctual: it kills what it is told to kill, flees from roosters, and is driven by predatory instinct when hunting. There is no internal contradiction or moral dimension to evaluate.",
+          "film_portrayal": "The film portrays the same absence of internal motivation - the Basilisk acts on Riddle's commands and hunts by instinct when blinded. This is fully consistent.",
+          "difference": "No meaningful difference. The Basilisk has no motivations or internal conflict in either medium.",
+          "penalty_logic": "No penalty. A creature with no internal motivation in the books cannot be penalized for lacking internal motivation in the films. The score reflects the ceiling imposed by the character's nature rather than any adaptation failure. A score in the 11-13 range is appropriate because the motivations that exist (pure obedience/instinct) are correctly preserved, but the dimension is inherently limited for this character.",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "The Basilisk has no character arc in the traditional sense. It enters the story as a weapon, functions as a weapon, and dies as a weapon. Its trajectory is flat by design: it does not change, learn, or develop. The only 'arc' is its physical journey from the Chamber to death at Harry's hands, which is a plot arc rather than a character arc.",
+          "film_portrayal": "The film preserves this flat trajectory exactly. The Basilisk appears, hunts, is blinded, continues to hunt, and is killed. No arc is invented or removed.",
+          "difference": "No difference. The arc is flat in both, intentionally.",
+          "penalty_logic": "No penalty. Per the scoring rules, a character with an intentionally flat arc in the books scores full points if the arc is equally flat in the films. The score reflects the inherent ceiling for a non-developing creature rather than any adaptation failure.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "The Basilisk has two meaningful relational dynamics in the books. First, its relationship with Riddle/Voldemort: it is an instrument of his will, called by Parseltongue, and this relationship defines its entire existence in the story. Second, its relationship with Harry as antagonist: the fight between them is the climax of book 2, and the creature's venom nearly kills Harry, creating a physical and symbolic bond (the fang later destroys Horcruxes). The book also establishes the Basilisk's relationship with spiders (mortal enemies who flee it) and roosters (fatal to it), which are narratively important clues.",
+          "film_portrayal": "The Riddle-Basilisk relationship is preserved: Riddle calls it in Parseltongue and commands it to kill Harry. The Harry-Basilisk antagonist dynamic is preserved through the fight sequence. The spider-fleeing detail is referenced in the film corpus (the paper Hermione left mentions 'spiders flee before it') and the rooster detail is mentioned. However, the film does not show the roosters being killed by the Heir of Slytherin to prevent the Basilisk from being harmed - this is only referenced in the book corpus as a deduction Harry makes. The film compresses the relational texture between the Basilisk and its ecological enemies.",
+          "difference": "The rooster-killing subplot (Hagrid's roosters being killed to protect the Basilisk) is absent from the film as an active plot element, though the rooster detail is mentioned in the paper. The spider-fleeing relationship is referenced but not dramatized. These are minor compressions. The core relationships (Riddle's instrument, Harry's antagonist) are intact.",
+          "penalty_logic": "Minor penalty for the loss of the rooster subplot as an active relational element - in the books this is a clue that reveals the Heir of Slytherin's protective relationship with the Basilisk, adding a layer to how Riddle manages and protects his weapon. The film reduces this to a passing reference. The core dynamics are preserved.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The Basilisk's complexity in the books is primarily physical and atmospheric rather than psychological. Key nuances include: (1) the creature's vulnerability - it can be killed by a rooster's crow, it flees spiders, it can be blinded; (2) the sensory hunting after blinding - it tracks Harry by sound and smell, creating a specific kind of dread distinct from visual threat; (3) the alcove scene where Harry hides and the snake nearly detects him, emphasizing the creature's sensory acuity; (4) the physical cost of killing it - the fang that kills Harry is the same fang that nearly kills Harry, creating a symmetry of destruction; (5) the creature's role as a centuries-old being ('may live many hundreds of years') that has been dormant and is now unleashed.",
+          "film_portrayal": "The film preserves the vulnerability (blinding by Fawkes, killed by the sword), the physical cost (fang in Harry's arm), and the sensory hunting in a compressed form. The alcove scene is present in the film corpus (Harry hides in a side tunnel, the snake's head enters and withdraws). The centuries-old nature is not emphasized. The film adds kinetic spectacle (Harry climbing the statue, sliding down the snake) that replaces some of the book's atmospheric dread with action-movie energy.",
+          "difference": "The most significant loss is the atmospheric texture of the book's hunt sequence - the slow, heavy, sound-based dread of a blinded creature tracking by smell and hearing. The film's version is more visually dynamic and faster-paced, which changes the emotional register from horror to action. The alcove scene is present but compressed. The rooster subplot's nuance (the Heir actively protecting the Basilisk) is reduced. The creature's ancient nature is not conveyed.",
+          "penalty_logic": "The shift from atmospheric dread to kinetic action is a meaningful change in how the Basilisk functions as a source of terror - the book's version is more psychologically unsettling (the creature that can kill you without you seeing it, that hunts by sound in the dark) while the film's is more conventionally monstrous. This is a noticeable simplification of the creature's horror register, warranting a moderate penalty. The core physical facts are preserved but the texture that makes the Basilisk specifically frightening in the books is partially lost.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "The slow, atmospheric dread of the blinded Basilisk hunting Harry by sound and smell is compressed into a faster action sequence",
+        "The alcove scene where the Basilisk's head enters inches from Harry's face and withdraws is present in the film but significantly compressed",
+        "The roosters being killed by the Heir of Slytherin to protect the Basilisk is reduced from an active plot clue to a passing reference",
+        "The book's emphasis on the Basilisk's weight and sound ('heavy body slithering heavily across the dusty floor') as primary horror elements is replaced by visual spectacle",
+        "The Basilisk's centuries-old nature ('may live many hundreds of years') is not conveyed in the film",
+        "The specific detail that Hermione deduced the Basilisk's identity and wrote 'Pipes' on the page is preserved in the film but the full chain of Hermione's reasoning (given to Harry in the film) slightly redistributes the deductive agency"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "The Basilisk is a non-psychological character whose faithfulness is measured primarily through behavioral pattern, physical presence, narrative function, and atmospheric register. The film preserves all core functions - instrument of Riddle, climactic antagonist, source of plot-critical venom and fangs - and the essential behavioral identity (predatory, obedient, lethal, vulnerable to blinding and roosters). The primary adaptation loss is tonal: the book constructs the Basilisk as a source of slow, sensory, atmospheric horror (a creature that kills without being seen, that hunts by sound in darkness), while the film renders it as a more conventional action-movie monster. This shift in register is real but does not fundamentally alter what the Basilisk is or does. The score of 75 reflects a faithful but tonally compressed adaptation of a character whose complexity was always more atmospheric than psychological.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 12007,
+        "film_chars_sent": 103454,
+        "aliases": [],
+        "corpus_hash": "9434654aefdf",
+        "corpus_version": "1"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 0,

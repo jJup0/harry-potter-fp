@@ -19,14 +19,14 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Madam Puddifoot appears in a single scene in Order of the Phoenix. She is described as a very stout woman with a shiny black bun who addresses customers warmly ('m'dears'). Her shop \u2014 cramped, steamy, decorated with frills and bows \u2014 is an extension of her character: fussy, romantic, domestic. Her personality is minimal but distinct: a cheerful, slightly overbearing proprietress of a couples-oriented teashop.",
+          "book_baseline": "Madam Puddifoot appears in a single scene in Order of the Phoenix. She is described as a very stout woman with a shiny black bun who addresses customers warmly ('m'dears'). Her shop — cramped, steamy, decorated with frills and bows — is an extension of her character: fussy, romantic, domestic. Her personality is minimal but distinct: a cheerful, slightly overbearing proprietress of a couples-oriented teashop.",
           "film_portrayal": "Madam Puddifoot does not appear in the film corpus provided. The film corpus is empty.",
           "difference": "The character is entirely absent from the films as represented in the corpus.",
-          "penalty_logic": "A score of 0 is assigned because there is no film portrayal to evaluate. This is not a penalty for compression \u2014 the character simply does not exist in the film material provided.",
+          "penalty_logic": "A score of 0 is assigned because there is no film portrayal to evaluate. This is not a penalty for compression — the character simply does not exist in the film material provided.",
           "evidence_status": "Not enough evidence"
         },
         "narrative_role_agency": {
-          "book_baseline": "Madam Puddifoot's narrative role is purely environmental: her teashop sets the scene for Harry and Cho's disastrous Valentine's Day date in Order of the Phoenix. She has no agency beyond taking their order. The shop is referenced again in Half-Blood Prince as a place Harry imagines Ginny and Dean visiting. Her function is atmospheric and symbolic \u2014 the teashop represents romantic expectation and social awkwardness.",
+          "book_baseline": "Madam Puddifoot's narrative role is purely environmental: her teashop sets the scene for Harry and Cho's disastrous Valentine's Day date in Order of the Phoenix. She has no agency beyond taking their order. The shop is referenced again in Half-Blood Prince as a place Harry imagines Ginny and Dean visiting. Her function is atmospheric and symbolic — the teashop represents romantic expectation and social awkwardness.",
           "film_portrayal": "Absent from the film corpus.",
           "difference": "No film portrayal exists in the provided corpus.",
           "penalty_logic": "Score of 0 reflects absence, not a judgment of faithfulness.",
@@ -73,10 +73,10 @@
       "lost_or_transferred_material": [
         "Madam Puddifoot's single speaking appearance (taking Harry and Cho's order, addressing them as 'm'dears') is absent from the film corpus.",
         "Her physical description (very stout, shiny black bun) is not represented in the film corpus.",
-        "The atmospheric function of her teashop \u2014 frills, bows, cramped steaminess compared to Umbridge's office \u2014 may exist in the film set design but is not attributable to her as a character in the provided corpus."
+        "The atmospheric function of her teashop — frills, bows, cramped steaminess compared to Umbridge's office — may exist in the film set design but is not attributable to her as a character in the provided corpus."
       ],
       "score_caps_applied": [
-        "No caps applied. Scores are 0 across all dimensions solely because the film corpus is empty \u2014 there is no film portrayal to evaluate."
+        "No caps applied. Scores are 0 across all dimensions solely because the film corpus is empty — there is no film portrayal to evaluate."
       ],
       "key_observations": "Madam Puddifoot does not appear in the provided film corpus at all. All dimension scores are 0 not as a faithfulness penalty but because there is no film material to compare against. Confidence is Low across all dimensions for the same reason. She is a minor background character in the books with a single speaking appearance and no arc, motivation, or meaningful relationships, so even with full film representation, most dimensions would have limited applicability. The evaluation cannot be meaningfully completed without film corpus material.",
       "meta": {
@@ -86,7 +86,8 @@
         "book_chars_sent": 2881,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "95e1431d3e2b"
+        "corpus_hash": "95e1431d3e2b",
+        "corpus_version": "1"
       }
     }
   },

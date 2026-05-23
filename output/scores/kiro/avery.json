@@ -19,7 +19,7 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Avery appears across multiple books as a named Death Eater with a few defining traits: he is a survivor who avoided Azkaban by claiming Imperius Curse coercion (GoF), he is punished by Voldemort for providing wrong information about Bode (OotP), and as a Hogwarts student he is described by Lily Evans as 'evil' and associated with dark, cruel behavior (DH). He is a coward and an opportunist \u2014 he worms his way out of trouble, fails his master, and suffers the consequences.",
+          "book_baseline": "Avery appears across multiple books as a named Death Eater with a few defining traits: he is a survivor who avoided Azkaban by claiming Imperius Curse coercion (GoF), he is punished by Voldemort for providing wrong information about Bode (OotP), and as a Hogwarts student he is described by Lily Evans as 'evil' and associated with dark, cruel behavior (DH). He is a coward and an opportunist — he worms his way out of trouble, fails his master, and suffers the consequences.",
           "film_portrayal": "Avery does not appear in the film corpus. No dialogue, no scenes, no portrayal of any kind.",
           "difference": "Total absence. No personality or voice is established in the films.",
           "penalty_logic": "A score of 0 is the only possible score when the character has no film presence whatsoever. There is nothing to evaluate.",
@@ -40,7 +40,7 @@
           "evidence_status": "Not enough evidence"
         },
         "character_arc": {
-          "book_baseline": "Avery has no meaningful arc \u2014 he is a flat background Death Eater who appears across books as a named presence. His trajectory is: escaped justice post-war, returned to Voldemort's service, failed him, was punished. No growth or change is depicted.",
+          "book_baseline": "Avery has no meaningful arc — he is a flat background Death Eater who appears across books as a named presence. His trajectory is: escaped justice post-war, returned to Voldemort's service, failed him, was punished. No growth or change is depicted.",
           "film_portrayal": "No film presence.",
           "difference": "No arc of any kind is conveyed.",
           "penalty_logic": "Score of 0.",
@@ -71,18 +71,18 @@
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Avery's post-war survival via false Imperius claim (GoF) \u2014 not depicted in films",
-        "Avery's role as the Death Eater who gave Voldemort false intelligence about Bode's ability to retrieve the prophecy (OotP) \u2014 not depicted",
-        "Harry witnessing Avery's punishment through his scar connection to Voldemort (OotP) \u2014 not depicted",
-        "Avery's participation in the Department of Mysteries battle (OotP) \u2014 not depicted",
-        "Avery as a named member of Voldemort's inner circle across multiple books \u2014 not depicted",
-        "Avery as a Hogwarts-era associate of Snape, described as 'evil' by Lily Evans (DH) \u2014 not depicted",
-        "Slughorn's detention threat to young Avery in the HBP memory \u2014 not depicted"
+        "Avery's post-war survival via false Imperius claim (GoF) — not depicted in films",
+        "Avery's role as the Death Eater who gave Voldemort false intelligence about Bode's ability to retrieve the prophecy (OotP) — not depicted",
+        "Harry witnessing Avery's punishment through his scar connection to Voldemort (OotP) — not depicted",
+        "Avery's participation in the Department of Mysteries battle (OotP) — not depicted",
+        "Avery as a named member of Voldemort's inner circle across multiple books — not depicted",
+        "Avery as a Hogwarts-era associate of Snape, described as 'evil' by Lily Evans (DH) — not depicted",
+        "Slughorn's detention threat to young Avery in the HBP memory — not depicted"
       ],
       "score_caps_applied": [
-        "No caps applicable \u2014 character scores 0 across all dimensions due to complete absence from the film corpus."
+        "No caps applicable — character scores 0 across all dimensions due to complete absence from the film corpus."
       ],
-      "key_observations": "Avery is entirely absent from the film corpus. He receives a score of 0 in every dimension not because his portrayal is unfaithful, but because there is no portrayal to evaluate. The books establish him as a named, recurring Death Eater with specific narrative functions \u2014 most notably his role in the Bode intelligence failure in OotP and his school-era association with Snape \u2014 none of which are conveyed in the films. Confidence is Low across all dimensions because the film corpus provides zero evidence. This is a case of complete omission rather than adaptation infidelity.",
+      "key_observations": "Avery is entirely absent from the film corpus. He receives a score of 0 in every dimension not because his portrayal is unfaithful, but because there is no portrayal to evaluate. The books establish him as a named, recurring Death Eater with specific narrative functions — most notably his role in the Bode intelligence failure in OotP and his school-era association with Snape — none of which are conveyed in the films. Confidence is Low across all dimensions because the film corpus provides zero evidence. This is a case of complete omission rather than adaptation infidelity.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -90,7 +90,8 @@
         "book_chars_sent": 8635,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "47db71dc768d"
+        "corpus_hash": "47db71dc768d",
+        "corpus_version": "1"
       }
     }
   },

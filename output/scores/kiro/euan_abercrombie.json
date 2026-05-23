@@ -26,7 +26,7 @@
           "evidence_status": "Not enough evidence"
         },
         "narrative_role_agency": {
-          "book_baseline": "Euan's narrative function is minor but specific: he serves as a mirror reflecting Harry's social isolation in OotP. His horrified reaction to Harry \u2014 prompted by the Daily Prophet's smear campaign \u2014 shows that even new, impressionable students have been turned against Harry. He is a small but functional plot device illustrating Harry's alienation.",
+          "book_baseline": "Euan's narrative function is minor but specific: he serves as a mirror reflecting Harry's social isolation in OotP. His horrified reaction to Harry — prompted by the Daily Prophet's smear campaign — shows that even new, impressionable students have been turned against Harry. He is a small but functional plot device illustrating Harry's alienation.",
           "film_portrayal": "Euan Abercrombie does not appear in the film corpus.",
           "difference": "The character and his narrative function are entirely absent.",
           "penalty_logic": "No film presence means no agency can be evaluated. Score is 0.",
@@ -56,7 +56,7 @@
         "complexity_nuance_lost_material": {
           "book_baseline": "Euan is a minor character with limited complexity. His value lies in the specific moment: a new Gryffindor who should admire Harry instead recoils from him, which concisely dramatizes Harry's social isolation in OotP.",
           "film_portrayal": "Absent from films.",
-          "difference": "The entire character and the nuance he provides \u2014 the irony of a new Gryffindor fearing Harry \u2014 is lost.",
+          "difference": "The entire character and the nuance he provides — the irony of a new Gryffindor fearing Harry — is lost.",
           "penalty_logic": "Score is 0 due to complete absence.",
           "evidence_status": "Not enough evidence"
         }
@@ -72,13 +72,13 @@
       },
       "lost_or_transferred_material": [
         "Euan's horrified reaction to Harry, which illustrates the effectiveness of the Daily Prophet's smear campaign against him in OotP",
-        "The visual beat of a new Gryffindor \u2014 who should idolize Harry \u2014 being frightened of him, reinforcing Harry's alienation",
+        "The visual beat of a new Gryffindor — who should idolize Harry — being frightened of him, reinforcing Harry's alienation",
         "The Sorting scene moment of Euan wanting to 'sink through the floor', establishing his anxious, overwhelmed characterization"
       ],
       "score_caps_applied": [
-        "No caps formally applied \u2014 score is 0 across all dimensions due to complete absence from the film corpus, not due to cap triggers"
+        "No caps formally applied — score is 0 across all dimensions due to complete absence from the film corpus, not due to cap triggers"
       ],
-      "key_observations": "Euan Abercrombie does not appear in the films at all. A score of 0 across all dimensions is the only defensible result. His book role is minor \u2014 a functional background character whose primary value is dramatizing Harry's social isolation in OotP \u2014 but that function is entirely absent from the films. Confidence is Low across all dimensions because the film corpus provides nothing to evaluate; the scores reflect absence, not a judgment of quality.",
+      "key_observations": "Euan Abercrombie does not appear in the films at all. A score of 0 across all dimensions is the only defensible result. His book role is minor — a functional background character whose primary value is dramatizing Harry's social isolation in OotP — but that function is entirely absent from the films. Confidence is Low across all dimensions because the film corpus provides nothing to evaluate; the scores reflect absence, not a judgment of quality.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -86,7 +86,8 @@
         "book_chars_sent": 1196,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "7654e13e5630"
+        "corpus_hash": "7654e13e5630",
+        "corpus_version": "1"
       }
     }
   },

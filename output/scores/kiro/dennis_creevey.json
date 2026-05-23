@@ -10,7 +10,13 @@
     "total": 0.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
+    "comparative": {
+      "meta": {
+        "corpus_version": "1",
+        "prompt_version": "3.0"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 0,

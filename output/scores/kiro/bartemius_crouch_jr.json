@@ -1,21 +1,110 @@
 {
   "character": "Bartemius Crouch Jr.",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 17.0,
+    "narrative_role_agency": 15.0,
+    "motivations_internal_conflict": 9.0,
+    "character_arc": 9.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 64.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
+    "comparative": {
+      "personality_voice": 17,
+      "narrative_role_agency": 15,
+      "motivations_internal_conflict": 9,
+      "character_arc": 9,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the book corpus, Barty Jr. appears only at his trial. His voice is desperate, pleading, terrified — he screams for his father and mother repeatedly, denies involvement, and begs not to be sent to Azkaban. He is not yet the fanatical Death Eater he will become; he is a young man in chains, emotionally raw, clinging to family bonds. His speech is fragmented, panicked, repetitive ('I didn't do it, I didn't do it, I didn't know'). The contrast between his terror and his father's cold disavowal is the defining texture of his book appearance.",
+          "film_portrayal": "The film presents two modes of Barty Jr.: (1) a near-silent, tongue-flicking figure who casts Morsmordre at the World Cup and moves through scenes with menacing composure; (2) at his trial in the Pensieve, he is briefly defiant — 'Get your filthy hands off of me, you pathetic little men!' and 'Hello, father' — before being subdued. After revelation as the fake Moody, he is smug and theatrical: 'I'll show you mine if you show me yours' and 'I'll be welcomed back like a hero.' The tongue-flick is a film-invented physical tic used repeatedly as a sinister signature.",
+          "difference": "The book's Barty Jr. is defined by terror, desperation, and emotional collapse — a son begging his father. The film replaces this almost entirely with cool menace, defiance, and theatrical villainy. The pleading, fragmented, terrified voice is absent. The film's trial scene gives him one defiant outburst rather than sustained desperate pleading. The tongue-flick, used as a recurring personality marker, has no book basis in these scenes. The smug post-revelation dialogue ('I'll be welcomed back like a hero') is film-invented and consistent with a different characterization — confident, performative evil rather than the conflicted, desperate young man of the book trial.",
+          "penalty_logic": "The shift from terrified desperation to cool theatrical menace is a meaningful personality change. The book establishes a character whose defining emotional register in his only direct appearance is panic and grief; the film replaces this with composure and defiance. The tongue-flick as a repeated behavioral signature is an addition without book basis. However, the fanatical loyalty to Voldemort is preserved (the film's Barty Jr. is clearly a committed Death Eater), and the defiance at the trial is not entirely inconsistent with someone who also tortured Aurors. The change is significant but the character remains recognizable as a dangerous Death Eater. Score in the 14-17 range.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the book corpus, Barty Jr.'s narrative role is limited to the trial scene: he is the accused, the son, the object of his father's public disavowal. His agency is minimal — he is in chains, screaming. His narrative function here is to establish the father-son dynamic and the cruelty of Bartemius Crouch Sr. The broader book role (impersonating Moody, engineering the tournament, reviving Voldemort) is not shown in the book corpus but is canonical knowledge.",
+          "film_portrayal": "The film preserves his structural role as the architect of Voldemort's return — he casts Morsmordre, impersonates Moody throughout the year, puts Harry's name in the Goblet, engineers the tasks, and is unmasked at the end. His agency as the primary antagonist driving the plot is intact. The Pensieve trial scene shows him being captured and condemned. The post-revelation scene shows him confirming Voldemort's return with evident pride.",
+          "difference": "The core narrative function — Death Eater sleeper agent who engineers Voldemort's return — is fully preserved. The trial scene's role (establishing the Crouch family tragedy) is compressed: the film shows his capture and condemnation but removes the extended pleading that makes the father-son dynamic the emotional center. His agency as the disguised Moody is intact and arguably well-served by the film.",
+          "penalty_logic": "The primary narrative role and agency are preserved. The compression of the trial scene reduces his function as the emotional catalyst for understanding Crouch Sr., but his role as active antagonist is undiminished. Minor penalty for the loss of the trial's emotional function.",
+          "evidence_status": "Directly evidenced for film; reasonably inferred for full book role beyond corpus"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "The book corpus shows only one motivation explicitly: survival and family loyalty — he desperately wants his father to save him, denies involvement, and begs not to be sent to Azkaban. His fanatical loyalty to Voldemort (shown by his companions' declaration) is present but Barty Jr. himself does not voice it at trial — he denies everything. This creates an internal ambiguity: is he genuinely innocent, genuinely terrified, or performing innocence? The book (beyond this corpus) establishes that he was guilty and fanatically loyal, making his trial pleading either a survival instinct overriding ideology, or genuine fear coexisting with belief.",
+          "film_portrayal": "The film does not show the internal conflict between survival instinct and ideological commitment. The trial Barty Jr. is immediately defiant. The post-revelation Barty Jr. is purely ideologically driven — proud, certain, eager to be rewarded. The tension between the terrified son and the fanatical Death Eater is absent.",
+          "difference": "The book's most interesting motivational texture — the coexistence of terror, family need, and fanatical loyalty — is flattened. The film presents a character whose motivation is straightforwardly ideological from the start. The internal conflict (wanting his father's love vs. serving Voldemort; survival instinct vs. ideology) is not present in the film corpus.",
+          "penalty_logic": "This is a meaningful simplification. The motivational complexity that makes Barty Jr. more than a standard villain — his desperate need for his father's recognition, his terror, the ambiguity of his trial behavior — is removed. The film's motivation is coherent but one-dimensional. Score in the 8-10 range.",
+          "evidence_status": "Directly evidenced for book complexity; directly evidenced for film simplification"
+        },
+        "character_arc": {
+          "book_baseline": "The book corpus covers only the trial — the endpoint of one phase of his arc (capture and imprisonment). The full arc (radicalization, service to Voldemort, imprisonment, rescue by his mother, years hidden under Imperius at home, escape, impersonation of Moody, engineering Voldemort's return) is canonical but not in the corpus. The trial represents the moment of public condemnation and the father's disavowal.",
+          "film_portrayal": "The film shows: (1) the World Cup — active Death Eater casting Morsmordre; (2) the Pensieve trial — capture and condemnation; (3) the year-long impersonation; (4) unmasking and confession. The arc from captured prisoner to Voldemort's agent is present but the intermediate steps (rescue by mother, years under Imperius, escape) are absent from the film entirely.",
+          "difference": "The film's arc is compressed and missing the crucial middle section that explains how he went from Azkaban prisoner to Hogwarts infiltrator. The emotional arc of the trial — the son begging the father — is truncated, removing the starting emotional point of his imprisonment. The arc that exists in the film is functional but lacks the personal and emotional texture of the book's version.",
+          "penalty_logic": "The arc is incomplete — important steps are skipped (the mother's sacrifice, the years under Imperius, the escape). The trial's emotional dimension, which is the arc's emotional foundation, is compressed. However, the broad shape (fanatical Death Eater engineers Voldemort's return) is preserved. Score in the 8-10 range.",
+          "evidence_status": "Directly evidenced for what is present; reasonably inferred for what is absent based on canonical knowledge"
+        },
+        "key_relationships": {
+          "book_baseline": "The dominant relationship in the book corpus is with his father, Bartemius Crouch Sr. The dynamic is one of desperate need for paternal recognition versus cold public rejection. Barty Jr. screams 'I'm your son!' and 'Father, please!' — the emotional core is a son's terror at being disowned. Crouch Sr.'s 'You are no son of mine!' is the defining moment. The relationship with his mother (who weeps and later sacrifices herself to free him) is also present in the trial scene.",
+          "film_portrayal": "The film preserves the key line exchange: 'Hello, father' / 'You are no son of mine.' However, the emotional buildup — the repeated screaming, the mother's weeping, the sustained pleading — is absent. The film's trial Barty Jr. is defiant before being subdued, then delivers 'Hello, father' as a cool, almost sardonic greeting rather than a desperate plea. The mother is not shown weeping or present in the film's trial scene.",
+          "difference": "The father-son dynamic is present in skeleton form but the emotional texture is inverted: book Barty Jr. desperately seeks his father's mercy; film Barty Jr. greets him with defiance. The mother relationship is absent from the film entirely. The power dynamic shifts from son-begging-father to something closer to adversarial equals.",
+          "penalty_logic": "The key relationship is present but its emotional dynamic is substantially altered. The desperate need for paternal recognition — the defining emotional quality of the book relationship — is replaced by cool defiance. The mother relationship is lost entirely. This changes how the character is understood: the book Barty Jr. is a son who wanted his father's love; the film Barty Jr. is an ideological opponent who happens to share blood. Score in the 5-6 range.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The book corpus establishes a character of genuine complexity: a fanatical Death Eater who is also a terrified son; someone who tortured Aurors but screams for his mother; whose guilt is established by context but whose trial behavior is emotionally raw and humanizing. The contrast between his companions' proud defiance ('We alone were faithful!') and his own desperate denial creates a character who is neither simply brave-villain nor simply cowardly — he is something more uncomfortable and human.",
+          "film_portrayal": "The film Barty Jr. is consistently menacing and theatrical. The tongue-flick signals otherness and danger. His trial behavior is defiant. His post-revelation behavior is smug and ideologically certain. He is an effective villain but a simpler one — the humanizing terror and the uncomfortable complexity of the book trial are absent.",
+          "difference": "The film loses: (1) the sustained desperate pleading that humanizes him; (2) the contrast between his behavior and his companions' proud defiance; (3) the mother relationship; (4) the ambiguity of his trial behavior; (5) the emotional texture of the father-son dynamic. What remains is a competent, menacing villain without the contradictions that made the book character more than that.",
+          "penalty_logic": "The simplification is meaningful. The book's Barty Jr. is interesting precisely because he is both a torturer and a terrified son, both a fanatic and someone who begs for mercy. The film removes the second half of that equation. The tongue-flick adds a surface eccentricity but does not replace the lost depth. Score in the 8-10 range.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Sustained desperate pleading at trial ('Father, please... I didn't do it... don't send me back to the dementors')",
+        "Repeated screaming for his mother during the trial",
+        "The mother's visible grief (weeping, rocking) at the trial",
+        "The contrast between Barty Jr.'s desperate denial and his companions' proud defiance",
+        "The emotional dynamic of a son desperately seeking paternal recognition and mercy",
+        "The ambiguity of Barty Jr.'s trial behavior (terror coexisting with guilt)",
+        "The intermediate arc: mother's sacrifice, years hidden under Imperius at the Crouch home, escape",
+        "The tongue-flick as a personality marker is a film invention with no book basis in this corpus"
+      ],
+      "score_caps_applied": [
+        "Cap 3 (score above 75 if a core book function, decision, or emotional beat is transferred or removed): The emotional core of the trial scene — the son's desperate pleading and the humanizing terror — is removed and replaced with defiance, altering the character's most defining book moment. Cap applied, ceiling 75.",
+        "Cap 2 (score above 80 if key relationships change substantially): The father-son emotional dynamic is inverted from desperate need to cool defiance; the mother relationship is absent. Cap applied, ceiling 80 — subsumed by Cap 3."
+      ],
+      "key_observations": "The film preserves Barty Crouch Jr.'s structural role as the primary antagonist and the broad shape of his arc, and retains the key line 'You are no son of mine.' However, the most defining quality of his book appearance — the desperate, terrified son screaming for his father's mercy — is replaced by theatrical menace and cool defiance. This inverts the emotional dynamic of his only direct book appearance and removes the humanizing complexity that makes him more than a standard villain. The tongue-flick is a film-invented signature that adds surface eccentricity without replacing the lost depth. The mother relationship is entirely absent. The result is a recognizable but substantially simplified character whose motivational complexity and relational texture are significantly reduced.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2815,
+        "film_chars_sent": 23784,
+        "aliases": [
+          "Bartemius Crouch Jr",
+          "Barty Crouch Jr",
+          "Barty Crouch Jr."
+        ],
+        "corpus_hash": "fdaf24b5b861",
+        "corpus_version": "1"
+      }
+    }
   },
   "meta": {
     "screen_time_minutes": 16.25,
     "book_mentions": 26,
-    "screenplay_words": 0,
-    "book_words": 0
+    "screenplay_words": 197,
+    "book_words": 454
   }
 }

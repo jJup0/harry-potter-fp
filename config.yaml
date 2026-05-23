@@ -4,6 +4,9 @@ scoring:
   # Backend: 'rule_based', 'openai', 'kiro', 'comparative'
   backend: kiro
 
+  # Corpus version: bump this when corpus data changes (aliases, parsing, detection logic)
+  corpus_version: 1
+
   # Minimum total mentions (screen_time_words + book_mentions) to score a character
   min_mentions: 10
 

@@ -19,10 +19,10 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "In the books, Monsieur Delacour is a short, plump, good-natured Frenchman with a pointed black beard and high-heeled boots. He is warm, effusive, and socially enthusiastic \u2014 kissing Mrs. Weasley on both cheeks, holding her hands, pronouncing everything 'Charmant!', and offering cheerful advice about the enchanted razor. His voice is deep, his manner bouncing and beaming. He is a minor but textured presence: pleasant, helpful, and slightly comic in his exuberance.",
+          "book_baseline": "In the books, Monsieur Delacour is a short, plump, good-natured Frenchman with a pointed black beard and high-heeled boots. He is warm, effusive, and socially enthusiastic — kissing Mrs. Weasley on both cheeks, holding her hands, pronouncing everything 'Charmant!', and offering cheerful advice about the enchanted razor. His voice is deep, his manner bouncing and beaming. He is a minor but textured presence: pleasant, helpful, and slightly comic in his exuberance.",
           "film_portrayal": "The film corpus is entirely empty. Monsieur Delacour does not appear in any provided film scene.",
           "difference": "The character is entirely absent from the film corpus. No personality, voice, or behavioral trait can be evaluated.",
-          "penalty_logic": "A score of 0 is assigned because there is no film material to evaluate. This is not a penalty for compression \u2014 the character simply does not appear.",
+          "penalty_logic": "A score of 0 is assigned because there is no film material to evaluate. This is not a penalty for compression — the character simply does not appear.",
           "evidence_status": "Not enough evidence"
         },
         "narrative_role_agency": {
@@ -40,14 +40,14 @@
           "evidence_status": "Not enough evidence"
         },
         "character_arc": {
-          "book_baseline": "Monsieur Delacour has no arc. He appears briefly, is consistently warm and pleasant, and exits. His characterization is intentionally flat \u2014 a background figure of goodwill.",
+          "book_baseline": "Monsieur Delacour has no arc. He appears briefly, is consistently warm and pleasant, and exits. His characterization is intentionally flat — a background figure of goodwill.",
           "film_portrayal": "Absent.",
           "difference": "Cannot be evaluated.",
           "penalty_logic": "Score of 0 reflects absence of film material. Under normal circumstances a flat book arc faithfully rendered as flat in the film would score full points, but there is no film portrayal to assess.",
           "evidence_status": "Not enough evidence"
         },
         "key_relationships": {
-          "book_baseline": "His most visible relationship in the corpus is with Mrs. Weasley (warm, socially effusive, slightly comic) and with Fleur (paternal, proud \u2014 he walks her up the aisle). Both are brief but clear in emotional tone.",
+          "book_baseline": "His most visible relationship in the corpus is with Mrs. Weasley (warm, socially effusive, slightly comic) and with Fleur (paternal, proud — he walks her up the aisle). Both are brief but clear in emotional tone.",
           "film_portrayal": "Absent.",
           "difference": "Cannot be evaluated.",
           "penalty_logic": "Score of 0 reflects absence of film material.",
@@ -57,7 +57,7 @@
           "book_baseline": "Monsieur Delacour is a minor character with limited but consistent texture: the comic detail of high-heeled boots, the bouncing gait, the deep voice, the effusive Frenchness, the practical razor advice, the 'Charmant!' refrain. These details give him a small but distinct personality beyond a generic background figure.",
           "film_portrayal": "Absent.",
           "difference": "All of this texture is lost.",
-          "penalty_logic": "Score of 0 reflects total absence. The lost material \u2014 while minor in narrative weight \u2014 is the entirety of what defines him.",
+          "penalty_logic": "Score of 0 reflects total absence. The lost material — while minor in narrative weight — is the entirety of what defines him.",
           "evidence_status": "Not enough evidence"
         }
       },
@@ -79,9 +79,9 @@
         "His physical characterization: short, plump, high-heeled boots, pointed black beard, bouncing gait, deep voice"
       ],
       "score_caps_applied": [
-        "No cap formally applied \u2014 raw dimension scores sum to 0 due to complete absence from film corpus, which already reflects the maximum possible penalty."
+        "No cap formally applied — raw dimension scores sum to 0 due to complete absence from film corpus, which already reflects the maximum possible penalty."
       ],
-      "key_observations": "Monsieur Delacour does not appear in the film corpus at all. Every score is 0 not as a characterization penalty but as a reflection of total absence \u2014 there is simply no film material to evaluate. Confidence is Low across all dimensions for the same reason. The books establish him as a minor but textured background character whose most significant moment is walking Fleur up the aisle; all of this is lost in the films. A faithful evaluation cannot be performed without film evidence.",
+      "key_observations": "Monsieur Delacour does not appear in the film corpus at all. Every score is 0 not as a characterization penalty but as a reflection of total absence — there is simply no film material to evaluate. Confidence is Low across all dimensions for the same reason. The books establish him as a minor but textured background character whose most significant moment is walking Fleur up the aisle; all of this is lost in the films. A faithful evaluation cannot be performed without film evidence.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
@@ -89,7 +89,8 @@
         "book_chars_sent": 5163,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "d546fa0f7f58"
+        "corpus_hash": "d546fa0f7f58",
+        "corpus_version": "1"
       }
     }
   },

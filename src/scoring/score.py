@@ -110,13 +110,8 @@ def load_corpus(char_name):
 
 
 def corpus_hash(corpus):
-    """Short hash of corpus content for cache invalidation."""
-    import hashlib
-    h = hashlib.md5()
-    for sub in ("books", "screenplays"):
-        for s in corpus.get(sub, []):
-            h.update(json.dumps(s, sort_keys=True).encode()[:200])
-    return h.hexdigest()[:12]
+    """Deprecated - use corpus_version instead."""
+    return None
 
 
 def char_score_path(backend, char_name):
@@ -213,10 +208,11 @@ def main():
             current_prompt_major = ver.split(".")[0]
 
     # Resume: check which characters already have individual score files
-    # Skip only if same model AND same prompt major version AND same aliases
+    # Skip only if same model AND same prompt major version AND same aliases AND same corpus version
     already_scored = set()
     alias_mismatch = set()
-    corpus_mismatch = set()
+    corpus_version_mismatch = set()
+    current_corpus_version = str(scoring_config.get("corpus_version", 1))
     score_dir = os.path.join(OUTPUT_DIR, backend)
     if os.path.isdir(score_dir):
         for fname in os.listdir(score_dir):
@@ -229,31 +225,47 @@ def main():
             scored_model = meta.get("model")
             scored_prompt_ver = meta.get("prompt_version", "0.0")
             scored_major = scored_prompt_ver.split(".")[0]
-            if scored_model == current_model and scored_major == current_prompt_major:
-                char_name = data.get("character", "")
-                # Check aliases
-                scored_aliases = meta.get("aliases")
-                if scored_aliases is not None:
-                    current_aliases = get_character_aliases(char_name)
-                    if scored_aliases != current_aliases:
-                        alias_mismatch.add(fname[:-5])
-                        continue
-                # Check corpus hash
-                scored_hash = meta.get("corpus_hash")
-                if scored_hash is not None:
-                    corpus = load_corpus(char_name)
-                    if corpus_hash(corpus) != scored_hash:
-                        corpus_mismatch.add(fname[:-5])
-                        continue
-                already_scored.add(fname[:-5])
+            char_name = data.get("character", "")
+            if scored_model != current_model:
+                # Zero-scored characters (no film scenes) have no model - skip silently
+                if scored_model is None and data.get("overall", {}).get("total", 0) == 0:
+                    already_scored.add(fname[:-5])
+                else:
+                    print(f"    {char_name}: model mismatch ({scored_model} != {current_model})")
+                continue
+            if scored_major != current_prompt_major:
+                print(f"    {char_name}: prompt version mismatch (v{scored_major}.x != v{current_prompt_major}.x)")
+                continue
+            # Check aliases
+            scored_aliases = meta.get("aliases")
+            if scored_aliases is not None:
+                current_aliases = get_character_aliases(char_name)
+                if scored_aliases != current_aliases:
+                    print(f"    {char_name}: alias mismatch ({scored_aliases} != {current_aliases})")
+                    alias_mismatch.add(fname[:-5])
+                    continue
+            # Check corpus version
+            scored_corpus_ver = str(meta.get("corpus_version", 1))
+            if scored_corpus_ver != current_corpus_version:
+                print(f"    {char_name}: corpus version mismatch (v{scored_corpus_ver} != v{current_corpus_version})")
+                corpus_version_mismatch.add(fname[:-5])
+                continue
+            already_scored.add(fname[:-5])
     if already_scored:
         print(
-            f"  Resuming: {len(already_scored)} characters already scored (model={current_model}, prompt v{current_prompt_major}.x)"
+            f"  Cached: {len(already_scored)} characters (model={current_model}, prompt v{current_prompt_major}.x, corpus v{current_corpus_version})"
         )
     if alias_mismatch:
         print(f"  Re-scoring: {len(alias_mismatch)} characters with changed aliases")
-    if corpus_mismatch:
-        print(f"  Re-scoring: {len(corpus_mismatch)} characters with changed corpus")
+    if corpus_version_mismatch:
+        print(f"  Re-scoring: {len(corpus_version_mismatch)} characters with bumped corpus version")
+
+    # Clear split caches for characters that need rescoring
+    import shutil
+    for safe in alias_mismatch | corpus_version_mismatch:
+        split_dir = os.path.join(score_dir, f"{safe}_split")
+        if os.path.isdir(split_dir):
+            shutil.rmtree(split_dir)
 
     scored = 0
     to_score = []
@@ -263,7 +275,7 @@ def main():
             continue
         if name in SKIP_CHARACTERS:
             continue
-        safe = name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+        safe = re.sub(r"[^a-z0-9_]", "_", name.lower()).strip("_")
         if safe in already_scored:
             continue
         corpus = load_corpus(name)
@@ -302,11 +314,10 @@ def main():
         per_source = score_fn(name, corpus, scoring_config)
         overall = aggregate_scores(per_source)
         current_aliases = get_character_aliases(name)
-        c_hash = corpus_hash(corpus)
         for src_data in per_source.values():
             if isinstance(src_data, dict) and "meta" in src_data:
                 src_data["meta"]["aliases"] = current_aliases
-                src_data["meta"]["corpus_hash"] = c_hash
+                src_data["meta"]["corpus_version"] = current_corpus_version
         # Compute corpus word counts
         film_words = 0
         char_aliases = {a.lower() for a in get_character_aliases(name)} | {name.lower()}

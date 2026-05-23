@@ -19,7 +19,7 @@
       "complexity_nuance_lost_material": 0,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Anthony Goldstein is a minor Ravenclaw DA member. His only direct speech in the corpus is 'Hear, hear' in support of Hermione's argument against Umbridge's teaching \u2014 a small but telling signal of political awareness and alignment with the DA's cause. He is otherwise present as a background participant in group scenes.",
+          "book_baseline": "Anthony Goldstein is a minor Ravenclaw DA member. His only direct speech in the corpus is 'Hear, hear' in support of Hermione's argument against Umbridge's teaching — a small but telling signal of political awareness and alignment with the DA's cause. He is otherwise present as a background participant in group scenes.",
           "film_portrayal": "Anthony Goldstein does not appear in the film corpus at all.",
           "difference": "There is no film material to evaluate.",
           "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film portrayal to compare against. The scoring framework cannot be applied without film evidence.",
@@ -71,10 +71,10 @@
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Anthony Goldstein's vocal support of Hermione at the first DA meeting ('Hear, hear') \u2014 absent from films",
-        "Anthony Goldstein quietly disarming Zacharias Smith during DA practice \u2014 absent from films",
-        "Anthony Goldstein participating in the group defense of Harry on the Hogwarts Express \u2014 absent from films",
-        "Anthony Goldstein sheltering in the Room of Requirement during Deathly Hallows \u2014 absent from films"
+        "Anthony Goldstein's vocal support of Hermione at the first DA meeting ('Hear, hear') — absent from films",
+        "Anthony Goldstein quietly disarming Zacharias Smith during DA practice — absent from films",
+        "Anthony Goldstein participating in the group defense of Harry on the Hogwarts Express — absent from films",
+        "Anthony Goldstein sheltering in the Room of Requirement during Deathly Hallows — absent from films"
       ],
       "score_caps_applied": [],
       "key_observations": "Anthony Goldstein has no presence in the film corpus provided. All scores are 0 not because the portrayal is unfaithful but because there is no film portrayal to evaluate. Confidence is Low across all dimensions for the same reason. The book corpus establishes him as a minor but consistent DA member with small distinguishing moments; none of this material appears in the films, but the scoring framework requires a film baseline to produce a meaningful faithfulness score.",
@@ -85,7 +85,8 @@
         "book_chars_sent": 5236,
         "film_chars_sent": 0,
         "aliases": [],
-        "corpus_hash": "147a7279e5be"
+        "corpus_hash": "147a7279e5be",
+        "corpus_version": "1"
       }
     }
   },
