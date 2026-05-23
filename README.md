@@ -205,6 +205,10 @@ Dashboard: https://jjup0.github.io/harry-potter-fp/
 4. **Dumbledore v2 corpus may be split** - NOT AN ISSUE: all under albus_dumbledore/
 5. **Michael Corner scored 0** - likely empty corpus, needs investigation
 6. **110 characters flagged** - not on Wikipedia canonical list (mix of minor chars, truncated names, dedup issues)
+7. **Screenplays may contain deleted scenes** - Some screenplay sources include scenes that were cut from the theatrical release. This affects scoring for characters who only appear in deleted footage (e.g. Sir Cadogan in PoA). Affected characters get inflated scores because the scorer treats deleted scenes as part of the film. Characters known to be affected:
+   - **Sir Cadogan** - only in PoA deleted scenes, scored 78 (should be much lower or 0)
+   - **Nigel** - film-only character (composite of Colin/Dennis Creevey), has no book counterpart, scored 65 (should be 0 - FP is undefined for film-only characters)
+8. **Snape dimension distribution inverted** - Total 71 is defensible but personality (19/25) is too generous (Rickman played a fundamentally different, calmer character) and narrative_role (14/25) too harsh (spy function carried over intact). Dimensions partially cancel out to a reasonable total.
 
 ## Questions for Aitor (Unanswered)
 
