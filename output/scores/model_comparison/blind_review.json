@@ -1,0 +1,76 @@
+{
+  "reviews": [
+    {
+      "id": "A",
+      "quality": 8,
+      "reasoning": "Scores are well-calibrated and justifications are detailed with specific evidence. The personality_voice score of 11 is appropriate given the corpus shows early Ginny as shy/starstruck but with flashes of fire ('Leave him alone!'). The justification correctly identifies the OotP possession scene as a key loss (though not in corpus, it's a reasonable inference from the arc). The narrative_role_agency score of 9 is reasonable. One weakness: the justification references many scenes from books 5-7 that aren't in the provided corpus (OotP possession scene, HBP Quidditch, DH resistance), making claims that can't be verified against the given text. However, the CoS analysis is thoroughly grounded in the corpus. Calibration is appropriately harsh - the total of 47 reflects genuine significant reduction.",
+      "_original_index": 3,
+      "_model": "claude-sonnet-4.6",
+      "_run": 1
+    },
+    {
+      "id": "B",
+      "quality": 5,
+      "reasoning": "Scores are reasonable but justifications are generic and lack specific textual evidence. Claims like 'she's possessed by Riddle's diary and opens the Chamber' are correct but the justification never quotes specific lines or scenes from the corpus. The personality_voice score of 16 seems too generous given the corpus shows film Ginny with very few lines and mostly reactive presence. The narrative_role_agency claim that she 'helps Harry search for Horcruxes' is factually incorrect - she's explicitly excluded from the Horcrux hunt. The justifications read as summaries of general fan knowledge rather than evidence-based analysis. Calibration is slightly generous overall.",
+      "_original_index": 6,
+      "_model": "claude-haiku-4.5",
+      "_run": 1
+    },
+    {
+      "id": "C",
+      "quality": 6,
+      "reasoning": "Scores match B exactly (16/12/8/9/7/6) which is suspicious but the justifications are slightly more detailed. The evidence_status claims of 'Directly evidenced' are sometimes overstated - claims about 'teasing Ron about Lavender' and 'making sharp comments about Fleur' aren't in the provided corpus. The personality_voice score of 16 is too generous given the film corpus shows Ginny with minimal dialogue and mostly reactive lines. The justifications are better structured than B's with clearer logic, but still rely heavily on general knowledge rather than the specific corpus provided. The claim about 'initiating DA recruitment' isn't well-supported.",
+      "_original_index": 7,
+      "_model": "claude-haiku-4.5",
+      "_run": 2
+    },
+    {
+      "id": "D",
+      "quality": 9,
+      "reasoning": "The strongest entry. Justifications are highly specific, well-structured, and carefully grounded. The personality_voice analysis correctly identifies the progression from shy first-year to confident character with specific examples from the corpus ('Leave him alone!' in CoS). The narrative_role_agency section correctly identifies the OotP possession scene as the most critical loss and explains WHY it matters (Ginny is the only character with that experience). Scores of 11/9/8/7/6/6 are well-calibrated - appropriately harsh without being extreme. The key_observations section is insightful about the HBP film substituting 'atmospheric staging for character substance.' Evidence is carefully distinguished from inference.",
+      "_original_index": 4,
+      "_model": "claude-sonnet-4.6",
+      "_run": 2
+    },
+    {
+      "id": "E",
+      "quality": 5,
+      "reasoning": "Scores (16/11/8/9/6/7) are similar to B/C with personality_voice at 16, which seems too generous. The justifications are brief and generic - they make correct general claims but rarely cite specific evidence from the corpus. The claim that 'she pursues him actively, then accepts his rejection with dignity' conflates multiple books without grounding in specific scenes. The narrative_role_agency claim about 'the Room of Requirement kiss is initiated by her in the book; in the film, it's more passive' isn't verifiable from the provided corpus. Overall the analysis is correct in direction but lacks the specificity and evidence-grounding that would make it convincing.",
+      "_original_index": 8,
+      "_model": "claude-haiku-4.5",
+      "_run": 3
+    },
+    {
+      "id": "F",
+      "quality": 9,
+      "reasoning": "Excellent specificity and calibration. The personality_voice score of 10 is well-justified with specific film examples ('Good luck' in PS, 'Leave him alone' in CoS, the Fat Lady scene in PoA) that are directly verifiable in the corpus. The justification correctly identifies what the films ADD (shoelace scene, 'close your eyes' kiss) as evidence of personality alteration. The motivations score of 7 is appropriately harsh given the corpus shows no film exploration of Ginny's internal journey. The complexity score of 4 is bold but defensible - the corpus genuinely shows film Ginny reduced to minimal function. The total of 41 reflects genuine severity of reduction. One minor issue: references to scenes not in corpus (Bat-Bogey Hex, 'I know' exchange) but these are clearly labeled.",
+      "_original_index": 2,
+      "_model": "claude-opus-4.6",
+      "_run": 3
+    },
+    {
+      "id": "G",
+      "quality": 8,
+      "reasoning": "Well-calibrated scores (12/9/9/7/6/6) with solid justifications. The personality_voice score of 12 is slightly more generous than A/D's 11, which is defensible given the corpus does show some film moments of competence. The justification correctly grounds analysis in corpus-verifiable scenes (the CoS 'Leave him alone,' the PoA Fat Lady scene, the GoF World Cup moments). The motivations score of 9 is slightly generous - the corpus shows very little film exploration of Ginny's internal life. The key_observations section is well-written and insightful. Slightly less precise than D or F in distinguishing corpus-verified claims from general knowledge.",
+      "_original_index": 5,
+      "_model": "claude-sonnet-4.6",
+      "_run": 3
+    },
+    {
+      "id": "H",
+      "quality": 8,
+      "reasoning": "Scores (10/9/7/6/5/4) are appropriately harsh and well-justified. The personality_voice analysis is strong with specific film examples. The complexity score of 4 is bold but the justification supports it well. However, some claims reference scenes not in the provided corpus (feeding Harry a tart, the 'I know' exchange, fighting Bellatrix) without clearly marking them as outside the corpus. The justification for key_relationships correctly identifies that the film Harry-Ginny dynamic lacks foundation - the corpus shows their film interactions are minimal and functional. The total of 41 is harsh but defensible. Very similar to F in both scores and reasoning quality.",
+      "_original_index": 0,
+      "_model": "claude-opus-4.6",
+      "_run": 1
+    },
+    {
+      "id": "I",
+      "quality": 7,
+      "reasoning": "Scores match H exactly (10/9/7/6/5/4) and the justifications are very similar in structure and content, suggesting possible shared origin. The analysis is solid - correctly identifying the possession conversation as the most critical cut, correctly noting the film arc skips the middle development. The justification for character_arc is particularly good, explaining WHY the audience never sees why Harry falls for her. However, like H, it references many scenes not in the provided corpus without clear distinction. The 'key_observations' section about the score of 41 being self-referential is a nice touch but slightly breaks the analytical frame. Slightly less original than H despite identical scores.",
+      "_original_index": 1,
+      "_model": "claude-opus-4.6",
+      "_run": 2
+    }
+  ]
+}
