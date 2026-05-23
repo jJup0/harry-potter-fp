@@ -108,6 +108,16 @@ def load_corpus(char_name):
     return corpus
 
 
+def corpus_hash(corpus):
+    """Short hash of corpus content for cache invalidation."""
+    import hashlib
+    h = hashlib.md5()
+    for sub in ("books", "screenplays"):
+        for s in corpus.get(sub, []):
+            h.update(json.dumps(s, sort_keys=True).encode()[:200])
+    return h.hexdigest()[:12]
+
+
 def char_score_path(backend, char_name):
     """Path to individual character score file."""
     safe = char_name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
@@ -205,6 +215,7 @@ def main():
     # Skip only if same model AND same prompt major version AND same aliases
     already_scored = set()
     alias_mismatch = set()
+    corpus_mismatch = set()
     score_dir = os.path.join(OUTPUT_DIR, backend)
     if os.path.isdir(score_dir):
         for fname in os.listdir(score_dir):
@@ -218,13 +229,20 @@ def main():
             scored_prompt_ver = meta.get("prompt_version", "0.0")
             scored_major = scored_prompt_ver.split(".")[0]
             if scored_model == current_model and scored_major == current_prompt_major:
-                # Check aliases match
                 char_name = data.get("character", "")
+                # Check aliases
                 scored_aliases = meta.get("aliases")
                 if scored_aliases is not None:
                     current_aliases = get_character_aliases(char_name)
                     if scored_aliases != current_aliases:
                         alias_mismatch.add(fname[:-5])
+                        continue
+                # Check corpus hash
+                scored_hash = meta.get("corpus_hash")
+                if scored_hash is not None:
+                    corpus = load_corpus(char_name)
+                    if corpus_hash(corpus) != scored_hash:
+                        corpus_mismatch.add(fname[:-5])
                         continue
                 already_scored.add(fname[:-5])
     if already_scored:
@@ -233,55 +251,67 @@ def main():
         )
     if alias_mismatch:
         print(f"  Re-scoring: {len(alias_mismatch)} characters with changed aliases")
+    if corpus_mismatch:
+        print(f"  Re-scoring: {len(corpus_mismatch)} characters with changed corpus")
 
     scored = 0
-    try:
-        for char in characters:
-            name = char["name"]
-            if args.characters and name not in args.characters:
+    to_score = []
+    for char in characters:
+        name = char["name"]
+        if args.characters and name not in args.characters:
+            continue
+        if name in SKIP_CHARACTERS:
+            continue
+        safe = name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+        if safe in already_scored:
+            continue
+        corpus = load_corpus(name)
+        if not corpus["books"] and not corpus["screenplays"]:
+            st_val = screen_time.get(name, {}).get("_total", 0)
+            bm_val = book_mentions.get(name, {}).get("_total", 0)
+            if st_val + bm_val < min_mentions:
                 continue
-            if name in SKIP_CHARACTERS:
-                continue
-            # Check if already scored by filename
-            safe = name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
-            if safe in already_scored:
-                continue
-            corpus = load_corpus(name)
-            if not corpus["books"] and not corpus["screenplays"]:
-                st_val = screen_time.get(name, {}).get("_total", 0)
-                bm_val = book_mentions.get(name, {}).get("_total", 0)
-                if st_val + bm_val < min_mentions:
-                    continue
-            if args.top and scored >= args.top:
-                break
+        if args.top and len(to_score) >= args.top:
+            break
+        to_score.append((name, corpus))
 
-            print(f"  [{len(already_scored) + scored + 1}] {name}...")
-            per_source = score_fn(name, corpus, scoring_config)
-            overall = aggregate_scores(per_source)
+    print(f"  Scoring {len(to_score)} characters with {scoring_config.get('parallel', 10)} workers")
 
-            # Store current aliases in meta for cache invalidation
-            current_aliases = get_character_aliases(name)
-            for src_data in per_source.values():
-                if isinstance(src_data, dict) and "meta" in src_data:
-                    src_data["meta"]["aliases"] = current_aliases
+    def score_one(item):
+        name, corpus = item
+        print(f"  [start] {name}...", flush=True)
+        per_source = score_fn(name, corpus, scoring_config)
+        overall = aggregate_scores(per_source)
+        current_aliases = get_character_aliases(name)
+        c_hash = corpus_hash(corpus)
+        for src_data in per_source.values():
+            if isinstance(src_data, dict) and "meta" in src_data:
+                src_data["meta"]["aliases"] = current_aliases
+                src_data["meta"]["corpus_hash"] = c_hash
+        result = {
+            "character": name,
+            "overall": overall,
+            "per_source": per_source,
+            "meta": {
+                "screenplay_words": screen_time.get(name, {}).get("_total", 0),
+                "book_mentions": book_mentions.get(name, {}).get("_total", 0),
+            },
+        }
+        with open(char_score_path(backend, name), "w") as f:
+            json.dump(result, f, indent=2)
+        print(f"  [done] {name}: {overall.get('total', '?')}", flush=True)
+        return result
 
-            result = {
-                "character": name,
-                "overall": overall,
-                "per_source": per_source,
-                "meta": {
-                    "screenplay_words": screen_time.get(name, {}).get("_total", 0),
-                    "book_mentions": book_mentions.get(name, {}).get("_total", 0),
-                },
-            }
-
-            # Write individual file
-            with open(char_score_path(backend, name), "w") as f:
-                json.dump(result, f, indent=2)
-
-            scored += 1
-    finally:
-        pass
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    workers = scoring_config.get("parallel", 10)
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(score_one, item): item[0] for item in to_score}
+        for future in as_completed(futures):
+            try:
+                future.result()
+                scored += 1
+            except Exception as e:
+                print(f"  ERROR {futures[future]}: {e}", flush=True)
 
     # Collect all individual scores into combined file
     all_scores = []
