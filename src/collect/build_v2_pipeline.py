@@ -468,6 +468,18 @@ def detect_characters(text, alias_map):
     return sorted(found)
 
 
+def _is_context_candidate(text):
+    """Check if paragraph is likely a continuation (pronouns or dialogue)."""
+    t = text.strip()
+    # Starts with dialogue
+    if t.startswith('"') or t.startswith('\u201c'):
+        return True
+    # Starts with or has early pronouns
+    if re.match(r'^(She |Her |He |His |Him |They |"[^"]*" (she|he) )', t, re.IGNORECASE):
+        return True
+    return bool(re.search(r'\b(she|her|he|his|him)\b', t[:80].lower()))
+
+
 # --- Step 5: Build corpus ---
 
 
@@ -516,15 +528,34 @@ def build_corpus(alias_map):
             data = json.load(f)
         book = data["book"]
         for chapter in data["chapters"]:
-            for scene in chapter["scenes"]:
+            scenes = chapter["scenes"]
+            # First pass: direct mentions
+            char_indices = {}  # canonical -> set of indices
+            for i, scene in enumerate(scenes):
                 for char in scene.get("characters_mentioned", []):
-                    corpus.setdefault(char, {"screenplays": {}, "books": {}})
+                    char_indices.setdefault(char, set()).add(i)
+
+            # Second pass: add context paragraphs via heuristic
+            for char, indices in char_indices.items():
+                context = set()
+                for i in indices:
+                    for adj in (i - 1, i + 1):
+                        if adj < 0 or adj >= len(scenes) or adj in indices:
+                            continue
+                        adj_text = scenes[adj]["text"]
+                        if (_is_context_candidate(adj_text) or
+                                not scenes[adj].get("characters_mentioned")):
+                            context.add(adj)
+
+                corpus.setdefault(char, {"screenplays": {}, "books": {}})
+                for i in sorted(indices | context):
                     corpus[char]["books"].setdefault(book, []).append(
                         {
                             "source": book,
                             "chapter": chapter["chapter_title"],
-                            "text": scene["text"],
-                            "has_dialogue": scene.get("has_dialogue", False),
+                            "text": scenes[i]["text"],
+                            "has_dialogue": scenes[i].get("has_dialogue", False),
+                            "context": i in context,
                         }
                     )
 

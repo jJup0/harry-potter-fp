@@ -4,7 +4,7 @@ A data pipeline and scoring system that measures how faithfully Harry Potter cha
 
 ## How It Works (Non-Technical Summary)
 
-The system takes the 7 Harry Potter books and 8 film screenplays, finds every paragraph/scene where each character appears, and builds a per-character "corpus" of all their book material and all their film material. Then a local AI model (Gemma 4) reads both sides - up to ~15,000 characters of book text and ~15,000 of film text per character - along with Aitor's FP rubric, and scores how faithfully the film version matches the book version across 4 dimensions. The AI also draws on its own pre-trained knowledge of the series to fill in context beyond the provided excerpts. For major characters with huge corpora, the AI sees a representative sample rather than every single mention.
+The system takes the 7 Harry Potter books and 8 film screenplays, finds every paragraph/scene where each character appears, and builds a per-character "corpus" of all their book material and all their film material. Then an LLM (Claude Sonnet 4.6 via kiro-cli) reads the full corpus for each character along with the FP rubric, and scores how faithfully the film version matches the book version across 6 dimensions. The AI also draws on its own pre-trained knowledge of the series to fill in context beyond the provided excerpts.
 
 Results are cached so re-running only recalculates characters whose aliases, model, or prompt version changed. The final output is an interactive dashboard with rankings, per-dimension breakdowns, presence filters, scatter plots, and click-to-detail panels.
 
@@ -75,7 +75,11 @@ Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> 
 
 The corpus for each character is built by detecting their presence in every paragraph (books) or scene (screenplays).
 
-**Books:** Each book is split into chapters (via regex matching "CHAPTER" headings), then each chapter into paragraphs (by blank lines or indentation patterns). For each paragraph, the system checks if any known character name or alias appears as a whole word (case-insensitive, minimum 4 characters to avoid false positives). If a character's name/alias is found, that paragraph is added to their book corpus.
+**Books:** Each book is split into chapters (via regex matching "CHAPTER" headings), then each chapter into paragraphs (by blank lines or indentation patterns). Long paragraphs (>500 chars) are further split at sentence boundaries. For each paragraph, the system checks if any known character name or alias (>= 3 chars) appears as a whole word (case-insensitive). If a character's name/alias is found, that paragraph is added to their book corpus.
+
+**LLM augmentation:** After regex-based detection, each chapter is sent to Claude Sonnet 4.6 which identifies characters referenced by pronoun, nickname, or description (e.g. "He cast a spell" -> Harry Potter, "the Dark Lord" -> Lord Voldemort). The LLM outputs only a corrections dict (paragraph index -> characters to add), keeping output minimal (~500-1500 chars per chapter vs 25K+ input). Augmented results are saved in `output/parsed/books_augmented/`. This adds ~30% more character attributions.
+
+**Context heuristic:** Adjacent paragraphs are included in a character's corpus if they pass a heuristic filter: pronoun continuations (starts with she/he/they), dialogue continuations (starts with a quote), or paragraphs with zero detected characters. This captures pronoun-referenced actions without blanket padding.
 
 **Screenplays (v1 - wiki transcripts):** Parsed by detecting `Speaker: dialogue` patterns and `[stage directions]` in brackets. Scene breaks are detected by keywords in directions (e.g. "cut to", "meanwhile", "later"). A character is included in a scene if they speak (their name appears as a speaker) or their name/alias appears in a stage direction.
 
