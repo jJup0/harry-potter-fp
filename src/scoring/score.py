@@ -288,13 +288,23 @@ def main():
             if isinstance(src_data, dict) and "meta" in src_data:
                 src_data["meta"]["aliases"] = current_aliases
                 src_data["meta"]["corpus_hash"] = c_hash
+        # Compute corpus word counts
+        film_words = 0
+        for s in corpus.get("screenplays", []):
+            for d in s.get("dialogue", []):
+                film_words += len(d.get("text", "").split())
+            for d in s.get("directions", []):
+                film_words += len(d.split()) if isinstance(d, str) else 0
+        book_words = sum(len(s.get("text", "").split()) for s in corpus.get("books", []))
         result = {
             "character": name,
             "overall": overall,
             "per_source": per_source,
             "meta": {
-                "screenplay_words": screen_time.get(name, {}).get("_total", 0),
+                "screen_time_minutes": screen_time.get(name, {}).get("_total", 0),
                 "book_mentions": book_mentions.get(name, {}).get("_total", 0),
+                "screenplay_words": film_words,
+                "book_words": book_words,
             },
         }
         with open(char_score_path(backend, name), "w") as f:
