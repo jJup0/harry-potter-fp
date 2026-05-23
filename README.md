@@ -196,9 +196,9 @@ Dashboard: https://jjup0.github.io/harry-potter-fp/
 ## Known Issues
 
 1. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
-2. **HP3 screenplay coverage** - RESOLVED: now using Steve Kloves Full Tan Draft from Script Slug (v3)
-3. **Ron Weasley v2 corpus may be thin** - check if data split across directories
-4. **Dumbledore v2 corpus may be split** - check `albus_dumbledore` vs `dumbledore`
+2. **Book 2 source file missing chapter headings** - Chapters 7-8 and 13-18 have no detectable headings (OCR artifacts: tabs, mixed case, spaced letters). All text content is present but gets lumped into preceding chapters. Does not affect character detection or scoring since all paragraphs are processed regardless of chapter assignment.
+3. **Ron Weasley v2 corpus may be thin** - FIXED: was caused by 4-char alias minimum filtering out "Ron"
+4. **Dumbledore v2 corpus may be split** - NOT AN ISSUE: all under albus_dumbledore/
 5. **Michael Corner scored 0** - likely empty corpus, needs investigation
 6. **110 characters flagged** - not on Wikipedia canonical list (mix of minor chars, truncated names, dedup issues)
 
