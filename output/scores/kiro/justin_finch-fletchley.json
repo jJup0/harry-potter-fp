@@ -1,98 +1,16 @@
 {
   "character": "Justin Finch-Fletchley",
   "overall": {
-    "personality_voice": 10.0,
-    "narrative_role_agency": 8.0,
-    "motivations_internal_conflict": 7.0,
-    "character_arc": 7.0,
-    "key_relationships": 4.0,
-    "complexity_nuance_lost_material": 5.0,
-    "total": 41.0
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 10,
-      "narrative_role_agency": 8,
-      "motivations_internal_conflict": 7,
-      "character_arc": 7,
-      "key_relationships": 4,
-      "complexity_nuance_lost_material": 5,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "In the books, Justin is a Hufflepuff Muggle-born who is friendly, somewhat naive, and socially eager. He is notably trusting and open \u2014 he tells Harry he was destined for Eton before Hogwarts, signaling a certain middle-class pride. He becomes suspicious and fearful of Harry during CoS, showing he can shift from warmth to hostility under pressure. He is not a comic character but a realistic peer with social texture.",
-          "film_portrayal": "The corpus provided is empty. Evaluation relies on general knowledge: Justin appears very briefly in CoS with no meaningful dialogue or characterization. His personality is not established.",
-          "difference": "The film gives Justin no space to establish any personality traits \u2014 his friendliness, his Muggle-born pride, his fear of Harry, or his social texture are all absent.",
-          "penalty_logic": "With no corpus evidence and near-zero film characterization, a score in the lower range is appropriate. The character is present in name only.",
-          "evidence_status": "Not enough evidence"
-        },
-        "narrative_role_agency": {
-          "book_baseline": "In CoS, Justin serves a specific narrative function: he is one of Harry's Muggle-born peers who becomes a victim of the Basilisk and, crucially, one of the characters who suspects Harry of being the Heir of Slytherin. This gives him agency as a social antagonist and as a plot-relevant victim. His petrification raises stakes and his prior suspicion of Harry adds dramatic irony.",
-          "film_portrayal": "Justin appears in CoS but his role as a suspicious peer is not developed. His petrification occurs but without the prior social tension that gives it narrative weight.",
-          "difference": "His function as a suspicious Muggle-born peer who actively distrusts Harry \u2014 a key narrative beat \u2014 is removed. He is reduced to a background victim.",
-          "penalty_logic": "Loss of his active narrative role as a suspicious peer and his agency in confronting or avoiding Harry warrants a penalty. His petrification loses dramatic context.",
-          "evidence_status": "Reasonably inferred"
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "Justin's motivations are clear in CoS: fear of the Heir of Slytherin, distrust of Harry based on circumstantial evidence, and self-preservation as a Muggle-born. There is a small but real internal conflict between his earlier friendliness toward Harry and his later fear.",
-          "film_portrayal": "No motivation is established in the films. His shift from friendliness to suspicion is not shown.",
-          "difference": "The internal conflict between trust and fear is entirely absent.",
-          "penalty_logic": "Motivations are absent rather than simplified, warranting a score in the lower range.",
-          "evidence_status": "Not enough evidence"
-        },
-        "character_arc": {
-          "book_baseline": "Justin has a minor but complete arc in CoS: initial friendliness toward Harry, growing suspicion, petrification, and implicit resolution when the truth is revealed. It is a small arc but structurally present.",
-          "film_portrayal": "The arc is not present in the films. Only the petrification beat survives, without the before or after.",
-          "difference": "The arc's beginning (friendliness, then suspicion) and resolution are removed.",
-          "penalty_logic": "An arc that exists in the books but is reduced to a single plot point in the films warrants a penalty, though the arc was always minor.",
-          "evidence_status": "Reasonably inferred"
-        },
-        "key_relationships": {
-          "book_baseline": "Justin's most important relationship in the books is with Harry \u2014 moving from friendly acquaintance to fearful suspect. There is also a brief dynamic with Ernie Macmillan, who shares his suspicions. These relationships define his CoS characterization.",
-          "film_portrayal": "Neither relationship is developed in the films. Justin and Harry have no meaningful interaction that establishes the shift in dynamic.",
-          "difference": "The Harry-Justin dynamic, which is the core of his book characterization, is absent.",
-          "penalty_logic": "Loss of the defining relationship warrants a penalty.",
-          "evidence_status": "Reasonably inferred"
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "Justin's complexity comes from the contrast between his open, friendly Muggle-born identity and his capacity for fear-driven suspicion. His Eton detail adds social texture. His willingness to publicly distrust Harry adds a layer of peer pressure and social dynamics rarely shown in the series.",
-          "film_portrayal": "None of this texture is present in the films.",
-          "difference": "All nuance is absent. The character is a background extra.",
-          "penalty_logic": "The character is reduced to near-zero complexity in the films.",
-          "evidence_status": "Not enough evidence"
-        }
-      },
-      "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
-        "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
-      },
-      "lost_or_transferred_material": [
-        "Justin's Muggle-born pride and Eton background detail",
-        "Justin's active suspicion of Harry as the Heir of Slytherin",
-        "The social dynamic between Justin and Ernie Macmillan as suspicious peers",
-        "Justin's arc from friendliness to fear and back",
-        "The dramatic irony of Harry being suspected by a character he had befriended"
-      ],
-      "score_caps_applied": [
-        "Cap 4 applied: films preserve only broad identity (Hufflepuff student, petrification victim) while removing most of what defines the book characterization"
-      ],
-      "key_observations": "Both the book and film corpus provided are empty, so this evaluation relies entirely on general knowledge of the series. Justin Finch-Fletchley is a minor character whose entire book relevance is concentrated in CoS, where he functions as a suspicious Muggle-born peer and Basilisk victim. The films reduce him to a background presence with no dialogue, no established personality, no developed relationships, and no arc. The score reflects near-total loss of characterization rather than faithful compression. Confidence is Low across all dimensions due to the absence of corpus material.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 0,
-        "film_chars_sent": 0,
-        "aliases": [
-          "Justin"
-        ],
-        "corpus_hash": "d41d8cd98f00"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0.75,

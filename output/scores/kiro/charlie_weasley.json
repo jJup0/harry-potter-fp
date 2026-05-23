@@ -1,110 +1,16 @@
 {
   "character": "Charlie Weasley",
   "overall": {
-    "personality_voice": 5.0,
-    "narrative_role_agency": 3.0,
-    "motivations_internal_conflict": 4.0,
-    "character_arc": 6.0,
-    "key_relationships": 2.0,
-    "complexity_nuance_lost_material": 2.0,
-    "total": 22.0
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 5,
-      "narrative_role_agency": 3,
-      "motivations_internal_conflict": 4,
-      "character_arc": 6,
-      "key_relationships": 2,
-      "complexity_nuance_lost_material": 2,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "Charlie is warm, physically robust, good-humored, and unpretentious. He is passionate about dragons and Quidditch, speaks directly and casually, uses dry humor ('Really romantic date, Hagrid'), shows genuine care for family (worrying about Harry facing the Horntail, imitating his mother's anxious voice affectionately), and is comfortable in his own skin \u2014 no ambition for status, no interest in Ministry prestige. He teases lightly, gives practical information confidently, and integrates naturally into group scenes without dominating them. His voice is relaxed, warm, and grounded.",
-          "film_portrayal": "The film corpus is entirely empty. Charlie Weasley does not appear in any film scene provided.",
-          "difference": "There is no film portrayal whatsoever. Every personality trait, speech pattern, emotional tone, and behavioral tendency established in the books is absent from the films as represented in this corpus.",
-          "penalty_logic": "A complete absence of the character from the film corpus means no personality or voice is conveyed at all. This is the maximum possible deviation. Score reflects near-total absence.",
-          "evidence_status": "Directly evidenced \u2014 the film corpus is explicitly empty."
-        },
-        "narrative_role_agency": {
-          "book_baseline": "Charlie serves multiple narrative functions: he is the conduit for Norbert's removal in PS (his letter, his friends, his plan), a source of dragon expertise in GoF (briefing on the four breeds, warning about the Horntail, informing Harry of his standing after the first task), a participant in the Order of the Phoenix's international outreach, a grounding presence at family gatherings, and a minor but active agent in the Battle of Hogwarts (leading reinforcements to Hogwarts). He initiates, informs, organizes, and acts across multiple books.",
-          "film_portrayal": "No film scenes are present. None of these functions are shown.",
-          "difference": "All narrative agency is absent. The Norbert subplot resolution, the dragon-briefing role in GoF, the Order work, and the Battle of Hogwarts arrival are all unrepresented.",
-          "penalty_logic": "Complete absence eliminates all agency and narrative function. The transfer rule applies: any of his actions that were given to other characters in the films (e.g., Norbert's removal handled differently, dragon information conveyed by other means) would compound the penalty. Even without confirming transfers, the absence alone warrants the lowest range.",
-          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "Charlie's motivations are consistent and clear: love of dragons and magical creatures drives his career choice over more prestigious paths (he could have played Quidditch for England). He is loyal to family and genuinely protective of Harry. He has no internal conflict of note \u2014 he is settled, content, and purposeful. His motivations are simple but coherent: passion for his work, love for his family.",
-          "film_portrayal": "Not represented in the film corpus.",
-          "difference": "No motivations are conveyed. The absence means the audience has no basis to understand why Charlie does what he does.",
-          "penalty_logic": "Motivations cannot be conveyed if the character does not appear. However, since his motivations are relatively simple and flat (no deep internal conflict to lose), the penalty is slightly less severe than for a more conflicted character \u2014 but the complete absence still prevents any faithful portrayal.",
-          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
-        },
-        "character_arc": {
-          "book_baseline": "Charlie has a flat arc across the books \u2014 he is established early as the dragon-loving, Quidditch-talented older brother who chose passion over prestige, and he remains that throughout. His arc is not one of transformation but of consistent presence: he grows in narrative relevance (PS background figure \u2192 GoF active participant \u2192 DH Battle of Hogwarts combatant) without changing fundamentally as a person. A flat arc faithfully preserved scores well; a flat arc entirely absent scores poorly.",
-          "film_portrayal": "Not represented.",
-          "difference": "The flat arc is not shown at all. Even a flat arc requires some presence to register as faithful.",
-          "penalty_logic": "A flat arc can score full points if preserved. It cannot score well if the character is entirely absent, because the audience receives no arc \u2014 flat or otherwise. The score reflects that the arc exists in the books but is conveyed nowhere in the films.",
-          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
-        },
-        "key_relationships": {
-          "book_baseline": "Charlie's key relationships in the books are: (1) Ron \u2014 Charlie is a benchmark Ron measures himself against, a source of hand-me-downs and mild pressure; Ron speaks of him with a mix of pride and mild inadequacy. (2) Hagrid \u2014 mutual warmth around magical creatures; Hagrid asks after Charlie fondly, Charlie teases Hagrid gently about Madame Maxime. (3) Mrs. Weasley \u2014 Charlie is affectionate and slightly amused by her anxiety; he imitates her voice fondly and worries about her reaction to Harry's danger. (4) Harry \u2014 indirect but warm; Charlie helps Harry (Norbert, dragon intel) without being asked and expresses genuine concern.",
-          "film_portrayal": "None of these relationships are shown in the film corpus.",
-          "difference": "All relational dynamics are absent.",
-          "penalty_logic": "Complete absence removes every emotional dynamic. The relationships that define Charlie's place in the Weasley family and his connection to Harry are entirely unrepresented.",
-          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "Charlie's complexity is modest but real: he is the Weasley who chose passion over prestige (dragons over professional Quidditch or Ministry work), which quietly contrasts with Percy's ambition and Bill's cool competence. He is physically marked by his work (burns, calluses). He is warm but not sentimental, practical but not cold. He participates in family chaos with ease (table-smashing with Bill, singing at the wedding). He shows dry wit ('Really romantic date, Hagrid'), genuine concern for Harry, and easy authority over his dragon-keeping team. These details build a textured minor character.",
-          "film_portrayal": "None of this material is present in the film corpus.",
-          "difference": "All nuance, contradiction, texture, and complexity is lost. The contrast with Percy, the physical markers of his work, the dry humor, the family warmth, the professional competence \u2014 none of it is conveyed.",
-          "penalty_logic": "The complete absence of film material means every layer of complexity is lost. This is the maximum possible loss of nuance.",
-          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
-        }
-      },
-      "confidence": {
-        "global": "High",
-        "personality_voice": "High",
-        "narrative_role_agency": "High",
-        "motivations_internal_conflict": "Medium",
-        "character_arc": "Medium",
-        "key_relationships": "High",
-        "complexity_nuance_lost_material": "High"
-      },
-      "lost_or_transferred_material": [
-        "Norbert/Norberta subplot resolution: Charlie's letter, his plan, and his friends collecting the dragon from the Astronomy Tower (PS) \u2014 absent or handled differently in films",
-        "Dragon-briefing scene before the first task (GoF): Charlie identifying the four breeds, warning about the Horntail, expressing concern for Harry",
-        "Post-first-task scene: Charlie congratulating Harry and relaying his tied-first-place standing",
-        "Quidditch World Cup scenes: Charlie's commentary on Ireland vs Bulgaria, reassuring Ginny about Lynch, arguing with Mr. Weasley about cobbing",
-        "Dark Mark night: Charlie emerging from the tent injured, asking about the Dark Mark conjurer",
-        "Mad-Eye Moody briefing: Charlie explaining who Moody is to Harry",
-        "Charlie's hint about the Triwizard Tournament at King's Cross ('I might be seeing you all sooner than you think')",
-        "Burrow family scenes (GoF): table-smashing with Bill, dinner conversation, darning fireproof balaclava",
-        "Order of the Phoenix work: recruiting foreign wizards in Romania",
-        "Bill's wedding: Charlie as best man, singing 'Odo the Hero' with Hagrid",
-        "Harry's 17th birthday: Charlie's arrival, haircut scene, Norberta reveal to Hagrid",
-        "Battle of Hogwarts: Charlie leading reinforcements to Hogwarts",
-        "Characterization as the Weasley who chose passion (dragons) over prestige (professional Quidditch, Ministry career)",
-        "Physical characterization: burns, calluses, muscular build, weather-beaten face \u2014 markers of his dragon work",
-        "Dry humor and easy warmth in dialogue with Hagrid, family members, and Harry"
-      ],
-      "score_caps_applied": [
-        "Cap 4 (score above 70 not permitted): films preserve only broad identity at best \u2014 in this case not even that, as Charlie does not appear at all",
-        "Cap 3 (score above 75 not permitted): core book functions and acts of agency are entirely absent",
-        "Cap 1 (score above 85 not permitted): major complexity, agency, and narrative function are removed"
-      ],
-      "key_observations": "The film corpus for Charlie Weasley is entirely empty \u2014 he does not appear in a single film scene provided. This is the most extreme possible adaptation failure: not compression, not simplification, but complete absence. Every trait, relationship, narrative function, moment of agency, and layer of nuance established across seven books is unrepresented in the films. The score of 22 reflects this total absence while acknowledging that his arc is intentionally flat and his motivations relatively simple, which slightly limits the ceiling of what could have been lost compared to a more internally complex character. The confidence is High because the evidence is unambiguous: the book corpus is rich and the film corpus is empty.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 47620,
-        "film_chars_sent": 0,
-        "aliases": [
-          "Charlie"
-        ],
-        "corpus_hash": "d287547efe16"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0,

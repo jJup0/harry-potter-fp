@@ -5,90 +5,12 @@
     "narrative_role_agency": 0.0,
     "motivations_internal_conflict": 0.0,
     "character_arc": 0.0,
-    "key_relationships": 1.0,
+    "key_relationships": 0.0,
     "complexity_nuance_lost_material": 0.0,
-    "total": 1.0
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 1,
-      "complexity_nuance_lost_material": 0,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "The book corpus provides no dialogue, action, or behavioral description for Rodolphus. He appears only as a name on the Black family tapestry and as a name Harry vaguely recognizes with dread. No personality or voice can be established from this corpus alone.",
-          "film_portrayal": "The film corpus is empty. Rodolphus has no scenes, dialogue, or presence in the provided screenplay material.",
-          "difference": "There is nothing to compare. The books establish no personality from this corpus; the films provide no portrayal at all.",
-          "penalty_logic": "A score of 0 is assigned not as a faithfulness penalty but because there is no film material to evaluate. The dimension cannot be scored.",
-          "evidence_status": "Not enough evidence"
-        },
-        "narrative_role_agency": {
-          "book_baseline": "From the corpus, Rodolphus functions solely as a named connection on the Black family tree and as a name that triggers unease in Harry. His narrative role beyond this \u2014 as a Death Eater, Bellatrix's husband, participant in the Longbottom torture \u2014 is known from broader book knowledge but is not present in the provided corpus.",
-          "film_portrayal": "No film scenes are provided. Rodolphus does not appear in the film corpus.",
-          "difference": "The films omit him entirely from the provided material. His role as Bellatrix's husband and fellow Death Eater is not represented.",
-          "penalty_logic": "No film portrayal exists to evaluate. Score is 0 by absence, not by faithfulness failure that can be measured.",
-          "evidence_status": "Not enough evidence"
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "The corpus provides no evidence of Rodolphus's motivations. Broader book knowledge establishes him as a fanatical Voldemort loyalist, but this is outside the provided corpus.",
-          "film_portrayal": "No film material provided.",
-          "difference": "Motivations cannot be compared with no film presence and minimal book corpus evidence.",
-          "penalty_logic": "Score is 0 due to absence of evaluable material on both sides.",
-          "evidence_status": "Not enough evidence"
-        },
-        "character_arc": {
-          "book_baseline": "The corpus shows no arc. Rodolphus appears as a static name reference only.",
-          "film_portrayal": "No film material provided.",
-          "difference": "No arc exists in the corpus to compare.",
-          "penalty_logic": "Score is 0. There is no arc to evaluate in either direction.",
-          "evidence_status": "Not enough evidence"
-        },
-        "key_relationships": {
-          "book_baseline": "The one relationship evidenced in the corpus is his marriage to Bellatrix Black, shown by the double line connecting their names on the tapestry. This is the only relationship the corpus directly establishes.",
-          "film_portrayal": "No film scenes are provided. However, Rodolphus does appear briefly in the films (Goblet of Fire, Order of the Phoenix) alongside Bellatrix, preserving the marriage connection at a minimal level. This is outside the provided corpus but is part of the evaluator's knowledge base.",
-          "difference": "The marriage relationship is nominally preserved in the films but carries no emotional dynamic, tension, or dramatic function in either the corpus or the films generally. Bellatrix dominates all their shared scenes; Rodolphus is functionally a background presence.",
-          "penalty_logic": "A minimal score of 1 is awarded because the one relationship the corpus establishes \u2014 the marriage to Bellatrix \u2014 is technically present in the films. However, the dynamic is so underdeveloped in both corpus and films that no higher score is warranted.",
-          "evidence_status": "Reasonably inferred"
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "The corpus establishes no complexity or nuance for Rodolphus. He is a name that evokes dread in Harry \u2014 that is the full extent of the provided material.",
-          "film_portrayal": "No film material provided.",
-          "difference": "No complexity exists in the corpus to be lost or preserved.",
-          "penalty_logic": "Score is 0. There is no nuance in the corpus to evaluate.",
-          "evidence_status": "Not enough evidence"
-        }
-      },
-      "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
-        "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
-      },
-      "lost_or_transferred_material": [
-        "Rodolphus's participation in the torture of Frank and Alice Longbottom (established in broader book canon, not in this corpus) is not depicted in the films",
-        "His role as a named, feared Death Eater with individual identity is collapsed into background presence in the films",
-        "Any characterization distinguishing him from Bellatrix is absent in both corpus and films"
-      ],
-      "score_caps_applied": [
-        "No caps formally triggered \u2014 raw dimension scores are already at or near 0 due to absence of evaluable material"
-      ],
-      "key_observations": "Rodolphus Lestrange is effectively a non-character in both the provided book corpus and the film corpus. The book corpus reduces him to a name on a family tree and a vague source of dread. The film corpus is empty. A faithfulness score cannot be meaningfully computed. The single point awarded reflects only that his marriage to Bellatrix \u2014 the one relationship the corpus establishes \u2014 is nominally present in the films. Confidence is Low across all dimensions. This score reflects the absence of evaluable material, not a judgment that the films are faithful or unfaithful to a well-established book characterization.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 405,
-        "film_chars_sent": 0,
-        "aliases": [],
-        "corpus_hash": "3f44e73d657d"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0,

@@ -1,96 +1,16 @@
 {
   "character": "Demelza Robins",
   "overall": {
-    "personality_voice": 5.0,
-    "narrative_role_agency": 3.0,
-    "motivations_internal_conflict": 3.0,
-    "character_arc": 3.0,
-    "key_relationships": 2.0,
-    "complexity_nuance_lost_material": 3.0,
-    "total": 19.0
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 5,
-      "narrative_role_agency": 3,
-      "motivations_internal_conflict": 3,
-      "character_arc": 3,
-      "key_relationships": 2,
-      "complexity_nuance_lost_material": 3,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "In the books, Demelza is a capable, resilient Chaser who dodges Bludgers well, delivers messages matter-of-factly, endures Ron's aggression until she is reduced to tears, and is defended by a teammate. She is a minor but textured background character with observable reactions: she bleeds and zigzags away after being punched, she cries under Ron's bullying, and she delivers Snape's message with mild hedging ('er'). Her voice is brief but functional and grounded.",
-          "film_portrayal": "The film corpus is entirely empty. Demelza Robins does not appear in any provided screenplay scene.",
-          "difference": "The character is entirely absent from the films as evidenced by the corpus.",
-          "penalty_logic": "With zero film presence, no personality or voice can be evaluated as preserved. The score reflects near-total absence rather than any faithful portrayal.",
-          "evidence_status": "Directly evidenced"
-        },
-        "narrative_role_agency": {
-          "book_baseline": "Demelza serves as a Gryffindor Chaser, a minor plot node connecting Harry to Snape's detention message, a victim of Ron's aggression that illustrates his psychological deterioration, and a character whose distress prompts Peakes to defend her. She has small but real agency: she delivers a message, she reacts physically to being hit, she cries, and her suffering triggers another character's response.",
-          "film_portrayal": "Absent from the film corpus entirely.",
-          "difference": "All narrative functions are absent. The message-delivery role and the Ron-aggression illustration are either cut or transferred to other characters in the films.",
-          "penalty_logic": "Complete absence eliminates all agency and narrative function. Score reflects near-zero.",
-          "evidence_status": "Directly evidenced"
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "No deep internal conflict is established for Demelza in the corpus. Her motivations are implicit: she wants to play Quidditch well and she reacts to mistreatment. The corpus does not provide enough material to establish rich internal motivation.",
-          "film_portrayal": "Absent.",
-          "difference": "Whatever minimal motivation exists in the books is entirely unrepresented.",
-          "penalty_logic": "Absence means nothing is preserved. Score is near-floor, tempered by the fact that the books themselves provide limited motivational material, so the loss is proportionally smaller.",
-          "evidence_status": "Not enough evidence"
-        },
-        "character_arc": {
-          "book_baseline": "Demelza has no meaningful arc across the corpus. She is selected, she performs well, she is mistreated by Ron, she cries. There is no transformation or resolution specific to her. Her arc is functionally flat and minor.",
-          "film_portrayal": "Absent.",
-          "difference": "Even a flat arc requires the character to exist. She does not.",
-          "penalty_logic": "A flat arc faithfully preserved would score full points. A flat arc that is entirely absent scores near-zero because the character is not present to be flat.",
-          "evidence_status": "Directly evidenced"
-        },
-        "key_relationships": {
-          "book_baseline": "Two relationships are observable: (1) Harry selects and coaches her - a brief authority/player dynamic; (2) Ron punches her and bullies her to tears, and Peakes defends her - a victim/aggressor dynamic that illustrates Ron's deterioration and Peakes's loyalty. These relationships are functional rather than emotionally deep.",
-          "film_portrayal": "Absent.",
-          "difference": "Both relationships are unrepresented.",
-          "penalty_logic": "Complete absence removes both dynamics. The Ron aggression scene in particular is a meaningful characterization beat for multiple characters that is lost.",
-          "evidence_status": "Directly evidenced"
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "Demelza's nuance is modest but real: she is skilled (dodges Bludgers well), she is resilient enough to keep playing after being hit, she is human enough to cry under sustained bullying, and she inspires loyalty in Peakes. She also delivers a message with a slight hesitation ('er') that gives her a small naturalistic texture. These details make her more than a named placeholder.",
-          "film_portrayal": "Absent.",
-          "difference": "All of this texture is lost.",
-          "penalty_logic": "The nuance is minor relative to major characters, but it is entirely absent. The score reflects that the loss is real but proportionally limited given her minor role.",
-          "evidence_status": "Directly evidenced"
-        }
-      },
-      "confidence": {
-        "global": "Medium",
-        "personality_voice": "Medium",
-        "narrative_role_agency": "Medium",
-        "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Medium",
-        "complexity_nuance_lost_material": "Medium"
-      },
-      "lost_or_transferred_material": [
-        "Demelza delivering Snape's detention message to Harry (her only speaking scene)",
-        "Demelza being punched in the mouth by Ron during practice, illustrating Ron's psychological deterioration",
-        "Demelza being reduced to tears by Ron's sustained bullying",
-        "Peakes defending Demelza against Ron, a small loyalty beat dependent on her presence",
-        "Demelza's selection as Chaser and her skill at dodging Bludgers"
-      ],
-      "score_caps_applied": [
-        "Cap 4 applied: films preserve only the character's broad identity (named Gryffindor Chaser) but remove most of what defines her book characterization - score capped at 70, though raw dimension scores already fall well below this threshold."
-      ],
-      "key_observations": "Demelza Robins is entirely absent from the film corpus. She appears in the films briefly as a background Quidditch player but none of her book-specific scenes - the message delivery, the Ron aggression sequence, the tears, Peakes's defense of her - are represented in the provided screenplay material. Her total score of 19 reflects near-complete absence rather than any faithful adaptation. Confidence is Medium rather than High because the book corpus itself is limited, making some dimensions (motivations, arc) inherently uncertain. The most significant loss is the Ron-punches-Demelza sequence, which in the books serves as a concrete illustration of Ron's deteriorating mental state and is a small but real narrative function she uniquely fulfills.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 3505,
-        "film_chars_sent": 0,
-        "aliases": [],
-        "corpus_hash": "7c313c54eee7"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0,

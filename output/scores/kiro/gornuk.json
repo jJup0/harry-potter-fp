@@ -1,98 +1,16 @@
 {
   "character": "Gornuk",
   "overall": {
-    "personality_voice": 4.0,
-    "narrative_role_agency": 2.0,
-    "motivations_internal_conflict": 2.0,
-    "character_arc": 3.0,
-    "key_relationships": 1.0,
-    "complexity_nuance_lost_material": 2.0,
-    "total": 14.0
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 4,
-      "narrative_role_agency": 2,
-      "motivations_internal_conflict": 2,
-      "character_arc": 3,
-      "key_relationships": 1,
-      "complexity_nuance_lost_material": 2,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "Gornuk is a goblin who has fled Gringotts on principle, refusing degrading tasks from Death Eaters. He speaks with a deep, rough voice and communicates in Gobbledegook with Griphook, sharing private jokes. He laughs at goblin humor about the fake sword and the Death Eaters' ignorance. His personality is defined by goblin pride, dry humor, and quiet solidarity with other fugitives.",
-          "film_portrayal": "Gornuk does not appear in the film corpus at all. There are no scenes, lines, or references to him in the provided screenplay material.",
-          "difference": "The character is entirely absent from the films. None of his personality, voice, humor, or behavioral patterns are conveyed.",
-          "penalty_logic": "With zero film presence, no personality or voice can be evaluated as preserved. The score reflects near-total absence rather than any faithful portrayal. A minimal score above 0 is given only because the character exists in the broader Harry Potter film universe as a named goblin casualty mentioned in passing in some versions, but the corpus provides no film evidence whatsoever.",
-          "evidence_status": "Not enough evidence"
-        },
-        "narrative_role_agency": {
-          "book_baseline": "Gornuk functions as a minor but meaningful figure in the fugitive group: a goblin who chose flight over collaboration with Death Eaters, who participates in the campfire scene that delivers key plot information (the fake sword), and whose death is later announced on Potterwatch, marking the cost of resistance.",
-          "film_portrayal": "Gornuk does not appear in the film corpus. The campfire scene with Ted Tonks, Dean, Dirk Cresswell, and the goblins is not present in the provided screenplay material.",
-          "difference": "His entire narrative function - participation in the fugitive group, contribution to the sword revelation scene, and death as a marker of Death Eater violence - is absent.",
-          "penalty_logic": "Complete absence means complete loss of narrative role and agency. The score is near-zero.",
-          "evidence_status": "Not enough evidence"
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "Gornuk's motivation is explicitly stated through Griphook's parallel explanation and Gornuk's own laughter: goblin pride and refusal to submit to wizard authority. He left Gringotts because he was asked to perform duties 'ill-befitting the dignity of his race' and refused to be treated as a subordinate.",
-          "film_portrayal": "No film material exists in the corpus to evaluate.",
-          "difference": "Motivations are entirely absent from the film portrayal.",
-          "penalty_logic": "Cannot score above the floor when there is no film material. Minimal score assigned.",
-          "evidence_status": "Not enough evidence"
-        },
-        "character_arc": {
-          "book_baseline": "Gornuk has a minimal but complete arc: he flees Gringotts, joins the fugitive group, participates in the campfire scene, and is killed by Death Eaters. His arc is flat in terms of internal change but structurally complete as a minor character who dies for his resistance.",
-          "film_portrayal": "No film material exists in the corpus.",
-          "difference": "Arc is entirely absent.",
-          "penalty_logic": "No arc can be evaluated as preserved when the character does not appear. Minimal score assigned.",
-          "evidence_status": "Not enough evidence"
-        },
-        "key_relationships": {
-          "book_baseline": "Gornuk's most relevant relationship is with Griphook - they share goblin solidarity, communicate privately in Gobbledegook, and laugh together at jokes humans cannot follow. There is also a loose camaraderie with Ted Tonks and the fugitive group.",
-          "film_portrayal": "No film material exists in the corpus.",
-          "difference": "All relational dynamics are absent.",
-          "penalty_logic": "No relationships can be evaluated as preserved. Minimal score assigned.",
-          "evidence_status": "Not enough evidence"
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "Gornuk's complexity is modest but real: he is a goblin who acts on principle, shares private humor with Griphook, participates in a scene that reveals important plot information, and dies as a named casualty mourned on Potterwatch. His presence adds texture to the goblin resistance subplot and the cost of Voldemort's regime.",
-          "film_portrayal": "No film material exists in the corpus.",
-          "difference": "All nuance and complexity are lost. The campfire scene, the Potterwatch announcement of his death, and his role in the fugitive group are all absent.",
-          "penalty_logic": "Complete absence means complete loss of complexity and nuance. Minimal score assigned.",
-          "evidence_status": "Not enough evidence"
-        }
-      },
-      "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
-        "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
-      },
-      "lost_or_transferred_material": [
-        "The entire campfire scene with Ted Tonks, Dean Thomas, Dirk Cresswell, and the two goblins is absent from the films",
-        "Gornuk's participation in the revelation that the sword in Gringotts is a fake is lost",
-        "Gornuk's death as a named casualty of Death Eater violence is not conveyed in the film corpus",
-        "The Potterwatch minute's silence naming Gornuk alongside Ted Tonks and others is absent",
-        "The goblin solidarity dynamic between Gornuk and Griphook, including their private Gobbledegook exchange and shared laughter, is lost",
-        "Gornuk's motivation - refusal to perform duties degrading to goblin dignity - is never conveyed in the films"
-      ],
-      "score_caps_applied": [
-        "Cap 4 applied: films preserve only the character's name at most, removing essentially all defining book characterization",
-        "Cap 5 applied: motivations are absent rather than unclear"
-      ],
-      "key_observations": "Gornuk is a minor character in the books with a clearly defined role, motivation, and personality within the fugitive campfire scene. He is entirely absent from the film corpus provided. The low total score of 14 reflects near-complete non-portrayal rather than unfaithful portrayal - there is simply nothing in the films to evaluate. The confidence is Low across all dimensions because the film corpus is empty, making any score tentative. The small non-zero scores acknowledge that Gornuk exists as a named entity in the broader Harry Potter world and that his absence is a structural omission rather than an active misrepresentation, but the scoring framework cannot reward faithfulness that has no film evidence to support it.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 4905,
-        "film_chars_sent": 0,
-        "aliases": [],
-        "corpus_hash": "7017581b8fe9"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0,

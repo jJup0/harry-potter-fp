@@ -279,6 +279,24 @@ def main():
 
     def score_one(item):
         name, corpus = item
+        # Characters with no film scenes get deterministic zero
+        if not corpus.get("screenplays"):
+            print(f"  [skip] {name}: no film scenes", flush=True)
+            book_words = sum(len(s.get("text", "").split()) for s in corpus.get("books", []))
+            result = {
+                "character": name,
+                "overall": {"personality_voice": 0, "narrative_role_agency": 0, "motivations_internal_conflict": 0, "character_arc": 0, "key_relationships": 0, "complexity_nuance_lost_material": 0, "total": 0},
+                "per_source": {"not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."},
+                "meta": {
+                    "screen_time_minutes": screen_time.get(name, {}).get("_total", 0),
+                    "book_mentions": book_mentions.get(name, {}).get("_total", 0),
+                    "screenplay_words": 0,
+                    "book_words": book_words,
+                },
+            }
+            with open(char_score_path(backend, name), "w") as f:
+                json.dump(result, f, indent=2)
+            return result
         print(f"  [start] {name}...", flush=True)
         per_source = score_fn(name, corpus, scoring_config)
         overall = aggregate_scores(per_source)

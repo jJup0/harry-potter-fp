@@ -1,93 +1,16 @@
 {
   "character": "Daphne Greengrass",
   "overall": {
-    "personality_voice": 13.0,
-    "narrative_role_agency": 10.0,
-    "motivations_internal_conflict": 8.0,
-    "character_arc": 10.0,
-    "key_relationships": 5.0,
-    "complexity_nuance_lost_material": 7.0,
-    "total": 53.0
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
   },
   "per_source": {
-    "comparative": {
-      "personality_voice": 13,
-      "narrative_role_agency": 10,
-      "motivations_internal_conflict": 8,
-      "character_arc": 10,
-      "key_relationships": 5,
-      "complexity_nuance_lost_material": 7,
-      "justification": {
-        "personality_voice": {
-          "book_baseline": "The book corpus provides no dialogue, internal narration, or behavioral description for Daphne Greengrass. She appears only as a name in a list of students called for O.W.L. testing. No personality traits, voice, or emotional tone can be established from the corpus.",
-          "film_portrayal": "The film corpus is empty. Daphne Greengrass does not appear in any provided film scene.",
-          "difference": "The character is entirely absent from the films in the provided corpus. No comparison of personality or voice is possible.",
-          "penalty_logic": "Complete absence from the film corpus means no personality or voice is conveyed at all. The score reflects that the character is not portrayed rather than portrayed unfaithfully, but the result is the same: nothing is preserved.",
-          "evidence_status": "Not enough evidence"
-        },
-        "narrative_role_agency": {
-          "book_baseline": "In the corpus, Daphne Greengrass functions solely as a background student called for O.W.L. testing alongside more prominent characters. Her narrative role is minimal and purely structural - she marks the moment Hermione leaves for her exam. She has no agency in the provided scenes.",
-          "film_portrayal": "Absent from the film corpus entirely.",
-          "difference": "Even the minimal structural role she has in the books - being present at the O.W.L. exam - is not represented in the films.",
-          "penalty_logic": "Her book role is already negligible, so the loss is not dramatic. However, complete absence still means her narrative function is not carried over at all.",
-          "evidence_status": "Not enough evidence"
-        },
-        "motivations_internal_conflict": {
-          "book_baseline": "No motivations or internal conflicts are established in the corpus. The two scenes provide no insight into why she acts or what she wants.",
-          "film_portrayal": "Absent from the film corpus.",
-          "difference": "Nothing to compare.",
-          "penalty_logic": "No motivations are established in the books from this corpus, so their absence in the films cannot be penalized as a change. Score reflects the absence of any portrayal rather than a distortion.",
-          "evidence_status": "Not enough evidence"
-        },
-        "character_arc": {
-          "book_baseline": "No arc is established in the corpus. Daphne appears in one functional scene with no before or after development shown.",
-          "film_portrayal": "Absent from the film corpus.",
-          "difference": "No arc to compare.",
-          "penalty_logic": "The book corpus establishes no arc. The films show nothing. There is no arc to preserve or lose, but the complete absence of the character still means any arc that might exist across the full books is not represented.",
-          "evidence_status": "Not enough evidence"
-        },
-        "key_relationships": {
-          "book_baseline": "No relationships are established in the corpus. She is grouped with Anthony Goldstein, Gregory Goyle, and Hermione Granger for exam purposes only - no relational dynamic is described.",
-          "film_portrayal": "Absent from the film corpus.",
-          "difference": "No relationships to compare.",
-          "penalty_logic": "No relational dynamics are established in the book corpus, so none can be lost. Score reflects the absence of any film portrayal.",
-          "evidence_status": "Not enough evidence"
-        },
-        "complexity_nuance_lost_material": {
-          "book_baseline": "The corpus establishes no complexity or nuance for Daphne Greengrass. She is a name in a list.",
-          "film_portrayal": "Absent from the film corpus.",
-          "difference": "The character does not appear in the films at all based on the provided corpus.",
-          "penalty_logic": "While the book corpus itself provides almost no complexity to preserve, the complete omission from the films means whatever minimal presence she had - being a named Slytherin student in a significant exam scene - is lost entirely.",
-          "evidence_status": "Not enough evidence"
-        }
-      },
-      "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
-        "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
-      },
-      "lost_or_transferred_material": [
-        "Daphne Greengrass's presence at the O.W.L. examinations is not represented in the film corpus"
-      ],
-      "score_caps_applied": [
-        "Cap 4 applied: films preserve only the character's broad identity (a named Slytherin) but remove the only scene in which she appears - score capped below 70",
-        "Cap 7 applied: character is entirely absent from the film corpus, meaning the score reflects complete non-portrayal rather than faithful compression"
-      ],
-      "key_observations": "Daphne Greengrass is a background character with near-zero characterization in the provided book corpus - she appears only as a name in an exam grouping. The film corpus is entirely empty. Because she does not appear in the films at all, faithfulness cannot be assessed in any meaningful dimension. All scores and confidence levels are Low, reflecting the absence of film material rather than any specific distortion. The total score of 53 should be interpreted cautiously: it does not indicate moderate faithfulness, but rather that the book baseline itself is so minimal that the absence of a film portrayal cannot be scored as a dramatic betrayal of a richly established character.",
-      "meta": {
-        "type": "comparative",
-        "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
-        "book_chars_sent": 371,
-        "film_chars_sent": 0,
-        "aliases": [],
-        "corpus_hash": "d6b90503e52a"
-      }
-    }
+    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0."
   },
   "meta": {
     "screen_time_minutes": 0,
