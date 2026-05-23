@@ -1,0 +1,94 @@
+{
+  "character": "Ritchie Coote",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Ritchie Coote is described in a single line: he looks weedy but aims well. This establishes a minor physical contrast (unimposing appearance vs. effective skill) but provides no dialogue, emotional tone, or behavioral pattern.",
+          "film_portrayal": "Ritchie Coote does not appear in the film corpus.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "Absence means no personality or voice is conveyed. A score of 0 reflects complete non-portrayal, not a judgment of the character's importance.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Coote's narrative role is minimal: he is selected as one of Harry's two Beaters for the Gryffindor Quidditch team in HBP, functioning as a background team member. He has no active agency in the scenes provided.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "Complete absence; the role is not represented.",
+          "penalty_logic": "No portrayal means no agency or narrative function is preserved.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflict are established in the corpus. The character is too minor for this to be assessed.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "Nothing to compare.",
+          "penalty_logic": "Score of 0 reflects absence, not a characterization failure on a dimension that was never developed in the books either.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is established. Coote is a background character with a flat, functional role.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No arc to preserve or lose.",
+          "penalty_logic": "Score of 0 reflects absence. The flat book arc cannot be credited as preserved when the character does not appear.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relationship implied is with Harry as team captain who selects him. No emotional dynamic is established beyond selection.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No relationship is portrayed.",
+          "penalty_logic": "Score of 0 reflects absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The sole nuance is the weedy-appearance-vs-accurate-aim contrast. This is a single descriptive detail, not a developed complexity.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "Even this minimal detail is lost.",
+          "penalty_logic": "Nothing is preserved because the character does not appear.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Ritchie Coote's selection as Gryffindor Beater by Harry in HBP",
+        "The physical contrast detail: looks weedy but aims well"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Ritchie Coote is a background character in the books with no dialogue, no arc, and no developed relationships - defined by a single descriptive phrase. He does not appear in the film corpus at all. All dimension scores are 0 reflecting complete absence, not characterization failure. Confidence is Low across all dimensions because the book material itself is extremely limited, and there is no film material to evaluate. The 0 total is a structural consequence of non-appearance, not a commentary on the character's significance.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1069,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "40e3bfedab92"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 10
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "character": "Theodore Nott",
+  "overall": {
+    "personality_voice": 5.0,
+    "narrative_role_agency": 3.0,
+    "motivations_internal_conflict": 3.0,
+    "character_arc": 4.0,
+    "key_relationships": 2.0,
+    "complexity_nuance_lost_material": 3.0,
+    "total": 20.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 5,
+      "narrative_role_agency": 3,
+      "motivations_internal_conflict": 3,
+      "character_arc": 4,
+      "key_relationships": 2,
+      "complexity_nuance_lost_material": 3,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Theodore Nott appears in the books as a background Slytherin with a small but distinct identity: he is 'weedy-looking', associated with Malfoy's inner circle, and notably the son of a Death Eater (his father is named by Harry at the Ministry). He has no direct dialogue in the corpus but is described as part of a conspiratorial huddle, implying quiet menace and social alignment with Malfoy's faction without being a loud presence himself.",
+          "film_portrayal": "The film corpus is entirely empty. Theodore Nott does not appear in any provided screenplay scene.",
+          "difference": "There is no film portrayal to evaluate. The character is absent.",
+          "penalty_logic": "Complete absence means no personality or voice is conveyed. Even the minimal book characterization - quiet, weedy, Death Eater-adjacent, part of Malfoy's circle - is not represented. Score reflects near-total absence rather than faithful compression.",
+          "evidence_status": "Directly evidenced (absence)"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Nott's narrative role in the books is minor but functional: he is a background marker of the Slytherin Death Eater faction, used to show that Harry's naming of Death Eaters at the Ministry has social consequences within Hogwarts. His presence in the library scene signals that Malfoy's group is aware of and reacting to Harry's actions.",
+          "film_portrayal": "No film scenes provided. The character does not appear.",
+          "difference": "The narrative function - signaling Death Eater family connections among Slytherin students - is entirely absent.",
+          "penalty_logic": "With no presence, his agency and narrative role are zero in the films.",
+          "evidence_status": "Directly evidenced (absence)"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "The corpus implies Nott's motivation is social and familial loyalty - he is grouped with children of Death Eaters reacting to Harry naming their fathers. No internal conflict is explicitly shown in the limited corpus.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "No motivations are conveyed in the films because the character does not appear.",
+          "penalty_logic": "Absence means motivations are not communicated at all. Score is near-floor but not zero because the corpus itself is too thin to establish deep motivations even in the books.",
+          "evidence_status": "Reasonably inferred (book); Directly evidenced (absence in film)"
+        },
+        "character_arc": {
+          "book_baseline": "Nott has no meaningful arc in the provided corpus or in the broader books - he is a flat background character whose role does not evolve significantly across the series.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "A flat arc in the books is not replicated in the films because the character does not appear at all. However, since the arc is intentionally flat, the penalty is moderated - the films do not distort an arc that barely exists.",
+          "penalty_logic": "A flat book arc that is simply absent in the films is less damaging than a meaningful arc being removed. Score reflects absence without catastrophic arc distortion.",
+          "evidence_status": "Directly evidenced (absence)"
+        },
+        "key_relationships": {
+          "book_baseline": "Nott's only evidenced relationship is his association with Malfoy, Crabbe, and Goyle as part of the Death Eater-family Slytherin cluster. This is a background social bond, not a developed emotional relationship.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Even this minimal relational context is absent.",
+          "penalty_logic": "The relationship is thin in the books but entirely absent in the films.",
+          "evidence_status": "Directly evidenced (absence)"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Nott's complexity in the corpus is limited: he is 'weedy-looking' (suggesting he is not physically imposing like Crabbe/Goyle), yet aligned with the most dangerous faction. This small contrast - physical weakness, dangerous association - is the only nuance available in the corpus.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Even this minimal nuance is lost.",
+          "penalty_logic": "Nothing is preserved because the character does not appear.",
+          "evidence_status": "Directly evidenced (absence)"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Theodore Nott's entire presence as a background Death Eater-family Slytherin is absent from the films",
+        "The library scene showing Malfoy's group reacting to Harry naming their fathers - with Nott as a named participant - is not represented",
+        "The visual characterization of Nott as 'weedy-looking' yet dangerous-adjacent is lost",
+        "His function as a marker of the social consequences of Harry's Ministry testimony is not conveyed"
+      ],
+      "score_caps_applied": [
+        "Cap 4 applied: films preserve only the broadest identity (Slytherin student) at best, and in practice not even that - most defining book characterization is absent"
+      ],
+      "key_observations": "Theodore Nott is a minor background character in the books with a small but coherent identity: a weedy, quiet Slytherin whose father is a Death Eater, associated with Malfoy's inner circle. The film corpus is entirely empty - he does not appear in any provided screenplay scene. The low scores across all dimensions reflect complete absence rather than distortion. Confidence is uniformly Low because the book corpus itself is thin (three brief references, no direct dialogue) and the film corpus provides nothing to evaluate. The score of 20 is not a reflection of poor adaptation craft so much as the character simply not existing in the films at all.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1299,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "cd4623f8fd61"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 6
+  }
+}

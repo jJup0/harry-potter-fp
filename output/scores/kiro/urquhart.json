@@ -1,0 +1,95 @@
+{
+  "character": "Urquhart",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Urquhart appears as the new Slytherin Quidditch Captain in HBP. His only observable trait is physical dominance \u2014 he crushes Harry's hand during the captains' handshake \u2014 and he participates in a Quidditch match as a Chaser. The portrait 'Urquhart Rackharrow' in St Mungo's is a separate historical figure, not the same character. The book corpus provides almost no personality or voice data for the Quidditch Urquhart.",
+          "film_portrayal": "Urquhart does not appear in the film corpus.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "Complete absence means no personality or voice is conveyed. Score is 0, though confidence is low given the character's minimal book presence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Urquhart functions as Slytherin Quidditch Captain and Chaser in HBP, opposing Harry in a match. His narrative role is minor \u2014 a sporting antagonist with no plot-driving function.",
+          "film_portrayal": "Urquhart does not appear in the film corpus.",
+          "difference": "Complete absence. Even his minor role as Slytherin Captain is not represented.",
+          "penalty_logic": "No film presence means zero agency is conveyed.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflict are established in the corpus beyond competitive Quidditch participation.",
+          "film_portrayal": "Absent.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Nothing to evaluate; score is 0 by default due to absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is established. Urquhart is a flat, functional character in the books \u2014 a Quidditch opponent with no development.",
+          "film_portrayal": "Absent.",
+          "difference": "Complete absence.",
+          "penalty_logic": "A flat arc in the books that is simply absent in the films still scores 0 due to total non-appearance.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relationship implied is an adversarial sporting one with Harry during the Quidditch match. No emotional dynamic is developed.",
+          "film_portrayal": "Absent.",
+          "difference": "Complete absence.",
+          "penalty_logic": "No relationship dynamic is conveyed.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Urquhart is a very minor character with minimal complexity in the books. The hand-crushing detail and his role as Slytherin Captain are the only distinguishing features.",
+          "film_portrayal": "Absent.",
+          "difference": "Even the minimal book material \u2014 Slytherin Captain, physical presence, Quidditch participation \u2014 is entirely lost.",
+          "penalty_logic": "Complete absence removes all material, however thin.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Urquhart's role as Slytherin Quidditch Captain in HBP",
+        "The captains' handshake scene with Harry",
+        "Urquhart's participation as a Chaser in the Quidditch match"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Urquhart does not appear in the films at all. He is a very minor character in the books \u2014 essentially a named Slytherin Quidditch Captain with one brief physical interaction and a Quidditch appearance \u2014 so the characterization loss is limited in absolute terms, but the score is 0 across all dimensions due to complete absence. Confidence is uniformly low because the book corpus itself is sparse, and no film material exists for comparison. The 'Urquhart Rackharrow' portrait in Scene 2 is a distinct historical figure and not the same character being evaluated.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1405,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "1c0dfd677bd5"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 2
+  }
+}

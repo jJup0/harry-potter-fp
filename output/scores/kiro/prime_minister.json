@@ -1,0 +1,102 @@
+{
+  "character": "Prime Minister",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "The Prime Minister is a fully realized character across HBP Chapter 1. He is anxious, politically defensive, proud of his office, easily flustered, and prone to indignation when made to feel ignorant. He has a dry internal voice, suppresses panic with practiced composure, and oscillates between resentment of Fudge and reluctant sympathy for him. His speech is hesitant under pressure ('I... oh... very well'), assertive when his authority is challenged ('I decide who works for me'), and occasionally bursts into frustrated outrage ('Good grief, so it's your fault those people were killed!').",
+          "film_portrayal": "The Prime Minister does not appear in any film corpus scene. The film corpus is entirely empty for this character.",
+          "difference": "The character is completely absent from the films. No personality, voice, tone, or behavioral pattern is present.",
+          "penalty_logic": "A score of 0 is the only possible score when the character has no film presence whatsoever.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "The Prime Minister serves a unique structural function in HBP: he is the POV character for the opening chapter, providing a Muggle-eye view of the wizarding war's real-world consequences. He receives information, reacts, challenges Fudge, and is introduced to Scrimgeour. He is the conduit through which the reader understands the scale of Voldemort's return. He also appears by reference in earlier books as the recipient of Ministry briefings on Sirius Black, the Azkaban breakout, and the Triwizard Tournament.",
+          "film_portrayal": "Absent entirely from the films.",
+          "difference": "His entire narrative function - POV anchor, Muggle-world bridge, recipient of Ministry disclosures - is eliminated.",
+          "penalty_logic": "Zero agency, zero narrative role. Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "The Prime Minister is motivated by a desire to appear competent and in control, to protect his political standing, and to make sense of a world he was never prepared for. His internal conflict is between the need to maintain authority and the helplessness he feels when confronted with magical crises he cannot address or even publicly acknowledge. He resents Fudge but also pities him; he wants answers but fears them.",
+          "film_portrayal": "Absent entirely from the films.",
+          "difference": "All motivations and internal conflict are absent.",
+          "penalty_logic": "Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "Across his appearances (PoA references, HBP Chapter 1), the Prime Minister moves from total ignorance and terror at his first meeting with Fudge, through reluctant accommodation, to a weary, experienced resignation by HBP - he no longer panics at green flames, he knows what dementors are, he pushes back against both Fudge and Scrimgeour. This is a compressed but coherent arc of a man forced to grow into an impossible situation.",
+          "film_portrayal": "Absent entirely from the films.",
+          "difference": "Arc is entirely absent.",
+          "penalty_logic": "Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "His relationship with Fudge is the central dynamic: a power imbalance in which Fudge holds all the real information and authority, yet the Prime Minister asserts his dignity and occasionally gains the upper hand emotionally. His brief encounter with Scrimgeour establishes a different dynamic - Scrimgeour is colder, more efficient, and even less deferential. Both relationships define the Prime Minister's position as a powerful man rendered powerless by a world he cannot control.",
+          "film_portrayal": "Absent entirely from the films.",
+          "difference": "Both relationships are entirely absent.",
+          "penalty_logic": "Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The Prime Minister is one of the richest minor characters in the series precisely because he is given an entire chapter from his perspective. His complexity lies in the gap between his public role and his private helplessness, his mixture of pride and fear, his dry humor, his suppressed panic, his moments of genuine sympathy for Fudge, and his frustrated outbursts at the absurdity of his situation. The chapter is also tonally unique in the series - darkly comic, politically observant, and structurally bold.",
+          "film_portrayal": "Absent entirely from the films.",
+          "difference": "All complexity, nuance, and book-specific texture is lost.",
+          "penalty_logic": "Score is 0.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "High",
+        "character_arc": "High",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Entire HBP Chapter 1 POV sequence - the Prime Minister's interior experience of learning about Voldemort's return",
+        "The Prime Minister's first meeting with Fudge and his reaction to discovering the wizarding world",
+        "The running series of Ministry briefings (Sirius Black escape, Azkaban breakout, Triwizard Tournament creatures)",
+        "The Prime Minister's confrontation with Fudge over the Brockdale Bridge and the hurricane",
+        "The Prime Minister's introduction to Scrimgeour and his passive acceptance of Kingsley as a planted bodyguard",
+        "The Prime Minister's emotional arc from terror to weary resignation",
+        "The Muggle-world framing device that contextualizes the wizarding war's real-world impact",
+        "Fudge's line 'The trouble is, the other side can do magic too, Prime Minister' - delivered to an absent interlocutor in the films"
+      ],
+      "score_caps_applied": [
+        "No caps needed - raw dimension scores already total 0 due to complete absence from films"
+      ],
+      "key_observations": "The Prime Minister does not appear in any film. The film corpus is empty. All scores are 0 by necessity, not by judgment. This is not a case of compression or simplification - the character and the entire chapter built around him were cut entirely. The confidence is High because the absence is unambiguous. The book corpus is rich and detailed, making the loss equally unambiguous: a fully realized POV character, a unique tonal chapter, a Muggle-world bridge to the wizarding war, and two distinct ministerial relationships are all entirely absent from the film adaptations.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 33341,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "c26cfcb1e93a"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 99
+  }
+}

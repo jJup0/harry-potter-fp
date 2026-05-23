@@ -1,0 +1,101 @@
+{
+  "character": "Morfin Gaunt",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Morfin is a volatile, intellectually limited, Muggle-hating Gaunt who speaks in fragmented, suspicious sentences. He is proud of his hatred, easily confused, and pathetically loyal to his father's memory. His voice is crude and reactive.",
+          "film_portrayal": "Morfin does not appear in the films. The film corpus is empty.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "A score of 0 is the only possible score when the character has no film presence whatsoever.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Morfin serves as the key witness to Voldemort's origin story, the unwitting fall-guy for the Riddle murders, and the source of the memory Dumbledore extracts. His false confession and Voldemort's manipulation of him are central to understanding Voldemort's past and his Horcrux-making.",
+          "film_portrayal": "Morfin does not appear in the films.",
+          "difference": "His entire narrative function is absent. The Gaunt backstory and the memory of young Voldemort visiting him are cut from the films.",
+          "penalty_logic": "No film presence means no agency can be evaluated. Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Morfin's motivations are fear of his father, hatred of Muggles, and a pathetic attachment to Marvolo's ring as a family heirloom. His internal conflict is minimal \u2014 he is too broken to have complex inner life \u2014 but his obsession with the ring and his pride in Muggle-hatred are consistent and defining.",
+          "film_portrayal": "Morfin does not appear in the films.",
+          "difference": "All motivation is absent from the films.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "Morfin's arc spans from his first encounter with young Voldemort, through his false imprisonment, to his death in Azkaban still mourning the ring. It is a tragic arc of victimization \u2014 he is used, framed, and forgotten, dying without justice.",
+          "film_portrayal": "Morfin does not appear in the films.",
+          "difference": "The arc is entirely absent.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "Morfin's key relationships are with Marvolo (fearful deference, defined by his father's dominance), with young Voldemort (the encounter that destroys his life), and implicitly with Dumbledore (who extracts his memory too late to save him).",
+          "film_portrayal": "Morfin does not appear in the films.",
+          "difference": "All relationships are absent.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Morfin is a minor but textured character: simultaneously repellent and pitiable, a product of inbreeding and abuse, proud of his cruelty yet pathetically dependent on his father's approval. His victimization by Voldemort adds moral complexity to Voldemort's origin. His dying obsession with the ring rather than his own innocence is a quietly devastating detail.",
+          "film_portrayal": "Morfin does not appear in the films.",
+          "difference": "All complexity and nuance is lost.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Morfin's encounter with young Voldemort and his confusion of Voldemort for the Muggle Tom Riddle Sr.",
+        "Morfin's false confession to the Riddle murders and his pride in the crime he did not commit",
+        "Voldemort's manipulation of Morfin \u2014 Stupefying him, stealing his wand, implanting a false memory, and taking Marvolo's ring",
+        "Morfin's death in Azkaban mourning the ring rather than his own innocence",
+        "Dumbledore's extraction of Morfin's true memory and his failed attempt to secure Morfin's release",
+        "The entire Gaunt family backstory as shown through Morfin's memory",
+        "The moral and narrative function of Morfin as Voldemort's first framed victim and the origin of the Slytherin locket Horcrux chain"
+      ],
+      "score_caps_applied": [
+        "No caps applicable \u2014 character scores 0 across all dimensions due to complete absence from the films."
+      ],
+      "key_observations": "Morfin Gaunt does not appear in the films at all. The film corpus is empty. A score of 0 across all dimensions is the only defensible result. This is not a faithfulness failure in the sense of distortion \u2014 it is complete omission. His narrative function (establishing Voldemort's origins, the false imprisonment, the stolen wand and ring) is either cut entirely or conveyed through other means in the films without him. Confidence is Low across all dimensions because there is no film material to evaluate; the book baseline is clear but comparison is impossible.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 4910,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "3d879655a31a"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 63
+  }
+}

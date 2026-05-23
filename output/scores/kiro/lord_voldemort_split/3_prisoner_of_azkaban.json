@@ -1,0 +1,75 @@
+{
+  "personality_voice": 10,
+  "narrative_role_agency": 8,
+  "motivations_internal_conflict": 7,
+  "character_arc": 8,
+  "key_relationships": 5,
+  "complexity_nuance_lost_material": 5,
+  "justification": {
+    "personality_voice": {
+      "book_baseline": "In the PoA book corpus, Voldemort does not appear directly. He exists entirely as an absent, feared presence: referenced through others' terror (Stan refusing to say his name), through Harry's dementor-induced flashbacks (cold laughter, commanding voice - 'Stand aside, you silly girl... stand aside, now....'), through prophecy (Trelawney's harsh, inhuman voice), and through the political consequences of his fall. His personality is conveyed indirectly: ruthless, contemptuous of weakness, commanding, capable of cold humor ('a cackle of high-pitched laughter'), and inspiring absolute terror even in absence.",
+      "film_portrayal": "In the film corpus provided, Voldemort is referenced only by name or as 'You-Know-Who' in dialogue between other characters. He has no direct appearance, no voice, no action. The dementor flashback lines ('Stand aside, you silly girl') that convey his voice and contempt in the book are not present in the provided film scenes.",
+      "difference": "The book corpus conveys Voldemort's personality indirectly but meaningfully through his spoken words in Harry's flashbacks and through the specific texture of fear he inspires. The film corpus contains none of this - he is a pure abstraction, a name that causes hesitation. The contemptuous commanding voice, the cold laughter, the specific quality of his menace are absent from the provided film material.",
+      "penalty_logic": "The corpus is extremely limited for both book and film. The book at least conveys voice fragments and emotional texture through flashback. The film corpus provides nothing equivalent. However, given the corpus is PoA-specific and Voldemort is genuinely absent from both, the score must reflect that the film strips even the indirect characterization present in the book. Score is penalized but confidence is Low because this corpus is insufficient to evaluate Voldemort's personality across the full series.",
+      "evidence_status": "Directly evidenced within this corpus; broader series knowledge not applied per corpus-only instruction."
+    },
+    "narrative_role_agency": {
+      "book_baseline": "In the PoA book corpus, Voldemort's narrative role is that of the ultimate absent threat - the gravitational center around which all other threats (Black, Pettigrew, the dementors) orbit. His role is structurally essential: Black's escape, Pettigrew's betrayal, the Fidelius Charm, Harry's dementor visions, Trelawney's prophecy, and Dumbledore's closing wisdom all explicitly reference him as the axis of causation. He drives plot without appearing.",
+      "film_portrayal": "In the film corpus, Voldemort is referenced in Mr. Weasley's warning scene and Stan's Knight Bus dialogue, but with less structural weight. Mr. Weasley cannot even complete sentences about him, and the references are vaguer. The causal chain connecting Voldemort to Pettigrew, to the Fidelius Charm, to the specific nature of the betrayal is not present in the provided film scenes.",
+      "difference": "The book uses Voldemort as an active narrative engine even in absence - his past actions, his feared return, and his relationship to Pettigrew are all spelled out with specificity. The film corpus reduces him to a name that causes nervous hesitation, with the causal architecture largely absent from the provided scenes.",
+      "penalty_logic": "His narrative function as the structural cause of all events is present in the book corpus but significantly weakened in the film corpus. The film scenes show him as a feared name rather than as the specific causal agent whose past actions explain the present crisis.",
+      "evidence_status": "Directly evidenced from provided corpus."
+    },
+    "motivations_internal_conflict": {
+      "book_baseline": "Voldemort's motivations in the PoA corpus are conveyed through others: his drive for power, his use of servants, his vulnerability to betrayal by those servants (Pettigrew double-crossing his followers), and the specific dynamic that he would not want a servant indebted to Harry Potter. Dumbledore's line about the 'bond' created by Harry saving Pettigrew implies Voldemort's psychology - he values loyalty and power absolutely.",
+      "film_portrayal": "The film corpus does not contain the Shrieking Shack scene or Dumbledore's closing conversation where these motivations are articulated. Voldemort's psychology is not conveyed in the provided film scenes at all.",
+      "difference": "The book corpus conveys Voldemort's motivational texture (use of servants, intolerance of debt, absolute demand for loyalty) through dialogue and Dumbledore's analysis. The film corpus provides none of this.",
+      "penalty_logic": "Motivations are absent from the film corpus rather than changed, but absence in this context means the characterization is not supported. Penalized accordingly, with Low confidence.",
+      "evidence_status": "Not enough evidence in film corpus."
+    },
+    "character_arc": {
+      "book_baseline": "In PoA, Voldemort has a flat arc within the book - he is absent, weakened, and ends the book with Pettigrew escaping to potentially serve him again. The arc is one of slow, off-screen reconstitution. Trelawney's prophecy marks the turning point: 'The Dark Lord will rise again.' The arc ends with Dumbledore's acknowledgment that Voldemort may return, and Harry's guilt about enabling it.",
+      "film_portrayal": "The film corpus does not include Trelawney's prophecy scene or Dumbledore's closing conversation. The arc of Voldemort's slow return - the structural spine of PoA's ending - is not present in the provided film material.",
+      "difference": "The book's arc for Voldemort (absent but reconstituting, with Pettigrew as the agent of return) is conveyed through prophecy and Dumbledore's wisdom. The film corpus lacks both.",
+      "penalty_logic": "The arc cannot be evaluated from the film corpus as provided. Score reflects absence of arc material rather than a contradictory arc.",
+      "evidence_status": "Not enough evidence in film corpus."
+    },
+    "key_relationships": {
+      "book_baseline": "The key relationships conveyed in the PoA corpus are: Voldemort/Pettigrew (master/craven servant, with Pettigrew's betrayal of the Potters and his hiding from Voldemort's other followers), Voldemort/the Potters (murderer/victims, with Lily's sacrifice as the cause of his downfall), and Voldemort/Harry (the central antagonistic bond, conveyed through dementor flashbacks and Dumbledore's analysis of the life-debt).",
+      "film_portrayal": "The film corpus contains only passing references to Voldemort's relationship with Black ('loyal servant') and Harry ('only you stand in the way'). The Pettigrew relationship, the Lily/James dynamic, and the life-debt analysis are absent from the provided film scenes.",
+      "difference": "The relational texture that defines Voldemort in PoA - his relationship to Pettigrew's cowardice, to Lily's sacrifice, to the specific bond with Harry - is not present in the film corpus.",
+      "penalty_logic": "Key relationships are either absent or reduced to single-line references. The emotional and dramatic function of these relationships is lost in the provided film material.",
+      "evidence_status": "Not enough evidence in film corpus."
+    },
+    "complexity_nuance_lost_material": {
+      "book_baseline": "The PoA book corpus conveys Voldemort's complexity through indirection: his cold laughter before murder, his contemptuous commands, the specific psychology Dumbledore articulates (he would not want a servant indebted to Harry), the way his followers fear him even in his absence, and the texture of absolute terror he inspires even as a memory. He is complex precisely because he is absent - his presence is felt through its effects on everyone around him.",
+      "film_portrayal": "The film corpus reduces Voldemort to a name that causes hesitation. None of the indirect characterization - the flashback voice, the prophecy, Dumbledore's psychological analysis, the servant dynamics - is present in the provided scenes.",
+      "difference": "The book's method of characterizing Voldemort through his effects, his past words, and others' analysis of his psychology is almost entirely absent from the film corpus. What remains is a feared name.",
+      "penalty_logic": "The complexity that makes Voldemort a rich absent presence in PoA is stripped in the film corpus. The character is reduced to a plot function (the threat that motivates Black's escape) without the texture that makes him a character.",
+      "evidence_status": "Directly evidenced from provided corpus."
+    }
+  },
+  "confidence": {
+    "global": "Low",
+    "personality_voice": "Low",
+    "narrative_role_agency": "Low",
+    "motivations_internal_conflict": "Low",
+    "character_arc": "Low",
+    "key_relationships": "Low",
+    "complexity_nuance_lost_material": "Low"
+  },
+  "lost_or_transferred_material": [
+    "Voldemort's voice in Harry's dementor flashbacks ('Stand aside, you silly girl... stand aside, now....') - present in book corpus, absent from film corpus",
+    "Voldemort's cold laughter before murdering Lily - present in book corpus, absent from film corpus",
+    "Trelawney's prophecy about Voldemort's return - present in book corpus, absent from film corpus",
+    "Dumbledore's analysis of Voldemort's psychology regarding the life-debt and servant loyalty - present in book corpus, absent from film corpus",
+    "Pettigrew's specific relationship to Voldemort (hiding from his followers, the double-cross dynamic) - present in book corpus, absent from film corpus",
+    "The causal chain connecting Voldemort to the Fidelius Charm, Pettigrew's betrayal, and the Potters' deaths - detailed in book corpus, absent from film corpus"
+  ],
+  "score_caps_applied": [
+    "Cap 4 applied (score capped below 70): films preserve only Voldemort's broad identity as a feared name; most of what defines his characterization in this corpus is absent",
+    "Cap 5 considered: motivations and arc are unclear/absent in film corpus, supporting score below 60"
+  ],
+  "key_observations": "This corpus is exceptionally limited for evaluating Voldemort: he does not appear directly in either the PoA book or the provided film scenes. The book corpus conveys him richly through indirect means - flashback voice fragments, prophecy, Dumbledore's psychological analysis, and the specific causal architecture of Pettigrew's betrayal. The film corpus, as provided, reduces him almost entirely to a name that causes nervous hesitation in other characters. The indirect characterization that makes Voldemort a vivid absent presence in the book is largely absent from the provided film material. All scores carry Low confidence because the corpus is insufficient for a reliable evaluation - this reflects the corpus limitation, not a judgment about Voldemort's portrayal across the full film series.",
+  "book": "3_prisoner_of_azkaban"
+}

@@ -1,0 +1,103 @@
+{
+  "character": "Travers",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Travers is a Death Eater with a distinct voice: coolly contemptuous, socially hierarchical, casually cruel toward Muggle-borns (his mocking impersonation of a wandless witch begging for help), and status-conscious around other Death Eaters. He is suspicious but deferential to Bellatrix, probing but not aggressive. His speech is formal, slightly theatrical ('Gold, filthy gold!'), and laced with class-based disdain.",
+          "film_portrayal": "The film corpus is entirely empty. Travers does not appear in any provided film scene.",
+          "difference": "There is no film portrayal to evaluate.",
+          "penalty_logic": "With no film material, no score can be assigned. The score is 0 by default due to complete absence, not as a faithfulness judgment.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Travers serves multiple narrative functions: he is named at the Death Eater trials as a murderer (McKinnons), he appears as a threat during the Seven Potters escape, he is the primary obstacle during the Gringotts infiltration (forcing Harry to use Imperio twice), he is Imperiused and hidden in a crack in the wall, and he duels Parvati at the Battle of Hogwarts. He is an active antagonist whose presence drives tension and forces key decisions from Harry.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence from the film corpus.",
+          "penalty_logic": "Cannot score what does not appear.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Travers is a loyal Death Eater motivated by ideological alignment with Voldemort's regime and personal status within it. He is suspicious of Bellatrix's unexpected appearance but also eager to maintain social standing with her. No internal conflict is shown; he is a true believer.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Cannot score.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Travers has no meaningful arc; he is a flat antagonist who appears across multiple books as a consistent Death Eater presence. His arc is intentionally flat.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Cannot score.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "His most significant relationship in the corpus is with Bellatrix (or Hermione disguised as her): he is deferential but suspicious, probing her about her wand and her presence in Diagon Alley. He also has a peer relationship with other Death Eaters and a contemptuous relationship with Muggle-borns and goblins.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Cannot score.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Travers is a minor but textured character: his casual cruelty (mocking the wandless witch), his class snobbery (shaking Ron's hand with two fingers, deploring goblins), his theatrical speech, his suspicion balanced against deference to Bellatrix, and his role as an unwitting tool (Imperiused twice) all give him more texture than a generic Death Eater.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Cannot score.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Travers named as murderer of the McKinnons at the Death Eater trials (GoF)",
+        "Travers encountered during the Seven Potters escape \u2014 his hood falls off when cursed",
+        "Travers as the primary obstacle during the Gringotts infiltration, forcing Harry to use Imperio twice",
+        "Travers Imperiused and made to hide in a crack in the wall",
+        "Travers's casual cruelty toward wandless Muggle-borns (mocking impersonation)",
+        "Travers's class snobbery toward goblins and Ron (two-finger handshake)",
+        "Travers's theatrical, status-conscious dialogue in Diagon Alley",
+        "Travers dueling Parvati at the Battle of Hogwarts",
+        "Travers as a recurring Death Eater presence across multiple books"
+      ],
+      "score_caps_applied": [
+        "No caps applied \u2014 scores are 0 across all dimensions due to complete absence of film corpus material, not as a faithfulness judgment. The 0 reflects inability to evaluate, not confirmed unfaithfulness."
+      ],
+      "key_observations": "The film corpus provided contains no scenes featuring Travers. It is therefore impossible to evaluate faithfulness in any dimension. All scores are 0 and all confidence levels are Low, reflecting the absence of evaluable material rather than a determination that the film portrayal is unfaithful. In the books, Travers is a minor but distinctly characterized Death Eater with a recognizable voice, multiple narrative functions across four books, and a memorable role as the primary obstacle in the Gringotts infiltration. Whether any of this is preserved in the films cannot be determined from the provided corpus.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 14435,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "b11c0c671016"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 39
+  }
+}

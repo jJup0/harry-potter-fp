@@ -1,0 +1,97 @@
+{
+  "character": "Madam Puddifoot",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Madam Puddifoot appears in a single scene in Order of the Phoenix. She is described as a very stout woman with a shiny black bun who addresses customers warmly ('m'dears'). Her shop \u2014 cramped, steamy, decorated with frills and bows \u2014 is an extension of her character: fussy, romantic, domestic. Her personality is minimal but distinct: a cheerful, slightly overbearing proprietress of a couples-oriented teashop.",
+          "film_portrayal": "Madam Puddifoot does not appear in the film corpus provided. The film corpus is empty.",
+          "difference": "The character is entirely absent from the films as represented in the corpus.",
+          "penalty_logic": "A score of 0 is assigned because there is no film portrayal to evaluate. This is not a penalty for compression \u2014 the character simply does not exist in the film material provided.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Madam Puddifoot's narrative role is purely environmental: her teashop sets the scene for Harry and Cho's disastrous Valentine's Day date in Order of the Phoenix. She has no agency beyond taking their order. The shop is referenced again in Half-Blood Prince as a place Harry imagines Ginny and Dean visiting. Her function is atmospheric and symbolic \u2014 the teashop represents romantic expectation and social awkwardness.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film portrayal exists in the provided corpus.",
+          "penalty_logic": "Score of 0 reflects absence, not a judgment of faithfulness.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No internal conflict or meaningful motivation is established for Madam Puddifoot in the books. She is a background character with no discernible inner life beyond running her teashop.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film portrayal exists.",
+          "penalty_logic": "Score of 0 reflects absence. Even in the books, this dimension is essentially not applicable to this character.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Madam Puddifoot has no arc. She is a flat, static background character who appears in one scene and is referenced once more. No arc exists to evaluate.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film portrayal exists.",
+          "penalty_logic": "Score of 0 reflects absence. The arc dimension is not applicable to this character even in the books.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Madam Puddifoot has no meaningful relationship with any named character. She interacts briefly with Harry and Cho as their server, with no emotional dynamic established.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film portrayal exists.",
+          "penalty_logic": "Score of 0 reflects absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Madam Puddifoot is a minor atmospheric character. Her complexity is limited: the frilly, romantic teashop she runs contrasts with Harry's discomfort and is compared to Umbridge's office, giving her setting a subtle thematic function. Beyond that, she has no complexity to speak of.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film portrayal exists.",
+          "penalty_logic": "Score of 0 reflects absence. The teashop scene itself (Harry and Cho's date) does appear in the films, but Madam Puddifoot as a character is not present in the provided corpus.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Madam Puddifoot's single speaking appearance (taking Harry and Cho's order, addressing them as 'm'dears') is absent from the film corpus.",
+        "Her physical description (very stout, shiny black bun) is not represented in the film corpus.",
+        "The atmospheric function of her teashop \u2014 frills, bows, cramped steaminess compared to Umbridge's office \u2014 may exist in the film set design but is not attributable to her as a character in the provided corpus."
+      ],
+      "score_caps_applied": [
+        "No caps applied. Scores are 0 across all dimensions solely because the film corpus is empty \u2014 there is no film portrayal to evaluate."
+      ],
+      "key_observations": "Madam Puddifoot does not appear in the provided film corpus at all. All dimension scores are 0 not as a faithfulness penalty but because there is no film material to compare against. Confidence is Low across all dimensions for the same reason. She is a minor background character in the books with a single speaking appearance and no arc, motivation, or meaningful relationships, so even with full film representation, most dimensions would have limited applicability. The evaluation cannot be meaningfully completed without film corpus material.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2881,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "95e1431d3e2b"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 3
+  }
+}

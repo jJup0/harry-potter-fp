@@ -1,0 +1,104 @@
+{
+  "character": "Sturgis Podmore",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Podmore is a minor but distinct Order member: square-jawed, straw-haired, introduced with a wink, suggesting a relaxed or confident demeanor. He is curious (examining the microwave with Kingsley), participates in the escort mission, and is later revealed as an Azkaban convict who 'refused to speak in his own defence' - a detail that adds quiet stoicism or shame to his characterization.",
+          "film_portrayal": "Podmore does not appear in any film scene in the corpus. He has no dialogue, no physical presence, and no depiction of any kind.",
+          "difference": "Total absence. No personality or voice is conveyed.",
+          "penalty_logic": "A score of 0 is the only possible score when the character does not appear at all.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Podmore serves several narrative functions: he is a named Order member who participates in Harry's escort from Privet Drive, he is the reason the guard is 'one short' causing a delay, and most significantly he is the plot-relevant figure whose arrest at the Ministry becomes a key clue. Hermione deduces he was placed under the Imperius Curse by Lucius Malfoy while guarding the door to the Department of Mysteries, making him a concrete example of Voldemort's infiltration of the Order.",
+          "film_portrayal": "Absent from all films in the corpus.",
+          "difference": "His entire narrative function - Order escort member, Azkaban convict, Imperius Curse victim, Ministry infiltration clue - is absent.",
+          "penalty_logic": "Zero agency because zero presence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Podmore's most interesting dimension is his involuntary betrayal: Hermione theorizes he was Imperiused by Malfoy and compelled to attempt theft of the weapon in the Department of Mysteries. His refusal to speak in his own defence suggests either shame, confusion, or an inability to explain what happened to him. This creates a small but genuine internal conflict - a loyal Order member turned unwilling agent of Voldemort.",
+          "film_portrayal": "Absent.",
+          "difference": "The Imperius victimhood and the moral/psychological complexity of an Order member acting against his own side are entirely lost.",
+          "penalty_logic": "No portrayal means no motivations conveyed.",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "Podmore has a compressed but real arc across OotP: introduced as a trusted Order member, participates in Harry's protection, then disappears from active duty, is revealed to have been arrested and imprisoned, and is posthumously understood as an Imperius victim. It is a small arc from trusted ally to fallen casualty of Voldemort's infiltration.",
+          "film_portrayal": "Absent.",
+          "difference": "Arc is entirely absent.",
+          "penalty_logic": "No portrayal means no arc.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "Podmore's key relational context is his membership in the Order alongside Moody, Kingsley, Lupin, and others. His absence from guard duty directly affects the group's operation. He is also relationally connected to Lucius Malfoy as a victim, and to Dumbledore as a 'great friend' (per Percy's letter).",
+          "film_portrayal": "Absent.",
+          "difference": "No relationships depicted.",
+          "penalty_logic": "No portrayal means no relationships.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Despite minimal page time, Podmore carries genuine complexity: a loyal Order member who becomes an unwitting instrument of the enemy, whose silence in court is ambiguous (shame? confusion? Imperius residue?), and whose fate is a concrete illustration of how Voldemort is undermining Dumbledore's network from within. He is also a living link to the first Order via the photograph.",
+          "film_portrayal": "Absent.",
+          "difference": "All nuance, complexity, and thematic function are lost.",
+          "penalty_logic": "Complete absence eliminates all complexity.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "High",
+        "character_arc": "High",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Podmore's physical introduction and wink at Privet Drive (Order gathering scene)",
+        "His participation in Harry's aerial escort from Privet Drive",
+        "His absence causing the guard to be 'one short', creating a plot-relevant delay",
+        "His arrest and six-month Azkaban sentence for trespass and attempted robbery at the Ministry",
+        "His refusal to speak in his own defence at the Wizengamot",
+        "Hermione's deduction that he was placed under the Imperius Curse by Lucius Malfoy",
+        "His role as a concrete example of Voldemort infiltrating and weaponizing Order members",
+        "His appearance in the first Order photograph, connecting him to the original resistance",
+        "Percy's letter referencing him as a 'great friend of Dumbledore's' sent to Azkaban - used as anti-Dumbledore propaganda",
+        "The Department of Mysteries guard duty subplot and its connection to the prophecy arc"
+      ],
+      "score_caps_applied": [
+        "No caps applicable - base score is already 0 due to complete absence from films"
+      ],
+      "key_observations": "Sturgis Podmore does not appear in any film in the corpus. His score is 0 across all dimensions not as a judgment of adaptation quality but as a factual reflection of total absence. In the books he is a minor but narratively functional character: an Order member whose Imperius-driven betrayal illustrates Voldemort's infiltration of Dumbledore's network and provides a concrete clue in the Department of Mysteries subplot. None of this reaches the screen. Confidence is High because the absence is unambiguous - the film corpus is empty and the book corpus is sufficient to establish what was lost.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 5014,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "b1974b0b4c33"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 20
+  }
+}

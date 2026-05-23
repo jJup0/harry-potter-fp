@@ -1,0 +1,100 @@
+{
+  "character": "Hepzibah Smith",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Hepzibah is a vain, self-deluding, wealthy old woman who is flattered by Voldemort's attention. She is imperious with her house-elf, girlishly flirtatious with Tom Riddle despite the absurdity of the dynamic, and proud to the point of recklessness about her treasures. Her speech is exclamatory, gushing, and self-congratulatory ('You naughty boy!', 'Didn't I tell you I was distantly descended?'). She is oblivious to danger until a single moment of unease near the end.",
+          "film_portrayal": "The film corpus provided is empty. Hepzibah Smith does not appear in any film scene in the corpus.",
+          "difference": "The character is entirely absent from the film corpus. No personality or voice can be evaluated.",
+          "penalty_logic": "A score of 0 is assigned because there is no film material to evaluate. This is not a faithfulness judgment but a reflection of complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Hepzibah functions as the unwitting victim whose pride and vanity enable Voldemort to steal two of his future Horcrux objects. She is the narrative bridge between the founders' artifacts and Voldemort's possession of them. Her agency is limited but structurally essential: she chooses to show Voldemort the treasures, she controls access to them, and her death is the direct consequence of that encounter.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "Her narrative role - explaining the provenance of Hufflepuff's cup and Slytherin's locket to both Voldemort and the audience - is entirely absent from the film corpus.",
+          "penalty_logic": "Score of 0 due to complete absence. Cannot assess whether her role was transferred, compressed, or omitted.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Hepzibah's motivation is vanity and the desire to be admired. She shows Voldemort her treasures not out of generosity but to impress him and demonstrate her lineage and wealth. There is no meaningful internal conflict - she is straightforwardly self-satisfied - though a flicker of unease appears when she glimpses something wrong in Voldemort's eyes.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score of 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Hepzibah has no arc in the traditional sense. She appears in a single memory, is charmed and flattered, shows her treasures, experiences one moment of unease, and is dead two days later. Her arc is flat by design - she exists to be victimized, not to grow.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score of 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Her key relationship is with Tom Riddle/Voldemort: a one-sided dynamic in which she believes she is the object of his admiration and affection, while he is coldly manipulating her. The power imbalance is ironic - she thinks she holds it (wealth, treasures, social standing) while he actually holds it (charm weaponized as a tool). Her relationship with Hokey is that of an imperious mistress to a subservient elf.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score of 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Hepzibah is a minor but richly drawn character. Her vanity, her self-deception, her imperious treatment of Hokey, her reckless pride in her lineage, and her single moment of genuine unease all combine to make her a vivid and pathetic figure. She is not merely a plot device - she embodies the kind of complacent, status-obsessed wizarding world that Voldemort exploits.",
+          "film_portrayal": "Absent from the film corpus.",
+          "difference": "All of this texture is absent from the film corpus.",
+          "penalty_logic": "Score of 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "The entire Pensieve memory sequence showing Voldemort's visit to Hepzibah and the revelation of Hufflepuff's cup and Slytherin's locket",
+        "Hepzibah's vain, flirtatious personality and her self-deluding relationship with Voldemort",
+        "The dramatic irony of her showing Voldemort the very objects he will steal and use as Horcruxes",
+        "Her imperious treatment of Hokey the house-elf",
+        "Her single moment of unease when she glimpses something wrong in Voldemort's eyes",
+        "The narrative explanation of how Voldemort acquired both Hufflepuff's cup and Slytherin's locket"
+      ],
+      "score_caps_applied": [
+        "No caps applied - scores are 0 across all dimensions due to complete absence from the film corpus, not due to cap logic"
+      ],
+      "key_observations": "Hepzibah Smith does not appear in the film corpus at all. The scores of 0 across all dimensions reflect the impossibility of evaluating faithfulness when there is no film portrayal to compare against - they are not a judgment that the character was badly adapted, but a structural consequence of her complete omission. Confidence is Low across all dimensions for the same reason. In the films (Half-Blood Prince), the Pensieve memory of Voldemort visiting Hepzibah was cut entirely, removing the only scene in which she appears. This means the audience loses the direct dramatization of how Voldemort obtained the cup and locket, though the fact of his theft is referenced elsewhere. Her absence is a significant omission of book material, but the scoring framework cannot produce a meaningful faithfulness score where no film portrayal exists.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 8391,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "1816b9075420"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 26
+  }
+}

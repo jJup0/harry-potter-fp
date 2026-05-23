@@ -1,0 +1,100 @@
+{
+  "character": "Marietta Edgecombe",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Marietta is a reluctant, fearful informant. She is not malicious but acts out of self-interest and fear (her mother works for the Ministry). She is visibly distressed after betraying the DA, shaking her head, refusing to speak further, and covering her face. She is not a bold or active character \u2014 she is passive, frightened, and conflicted even in the act of betrayal itself.",
+          "film_portrayal": "The film corpus is entirely empty. Marietta does not appear in the films at all. Her role as the DA informant is transferred to Cho Chang.",
+          "difference": "The character is entirely absent from the films. All personality, voice, and behavioral traits are unrepresented.",
+          "penalty_logic": "A score of 0 is the only appropriate score when a character has no film presence whatsoever.",
+          "evidence_status": "Directly evidenced \u2014 the film corpus is empty."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Marietta's narrative function is critical: she is the one who betrays the DA to Umbridge, triggering the climax of the Hogwarts political arc in Order of the Phoenix. Her betrayal sets off Dumbledore's flight, Umbridge's takeover, and Harry's confrontation with Fudge. She is the plot catalyst for a major sequence of events.",
+          "film_portrayal": "Marietta is absent. Her betrayal is transferred to Cho Chang, who is depicted as the informant under the influence of Veritaserum \u2014 a significant reframing that also changes the moral weight of the act.",
+          "difference": "Her entire narrative function is transferred to another character. She does not exist in the films.",
+          "penalty_logic": "Score of 0. The character has no agency because she has no presence. The transfer rule applies fully.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty; transfer to Cho is general knowledge of the film adaptation."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Marietta's motivation is reasonably inferred from context: her mother works for the Ministry, giving her a personal stake in not being caught in anti-Ministry activity. Her distress after betraying the group suggests internal conflict \u2014 she is not triumphant or vindictive, but frightened and regretful.",
+          "film_portrayal": "Absent. No motivations are portrayed.",
+          "difference": "All motivational content is absent.",
+          "penalty_logic": "Score of 0.",
+          "evidence_status": "Reasonably inferred from book corpus; film corpus is empty."
+        },
+        "character_arc": {
+          "book_baseline": "Marietta's arc is minimal but present: she goes from DA member to informant, suffers the consequence of Hermione's hex (SNEAK spelled across her face), and is last seen wearing a balaclava to hide the marks \u2014 suggesting the hex is lasting and her social standing among peers is affected. It is a small arc of betrayal and consequence.",
+          "film_portrayal": "Absent.",
+          "difference": "No arc is portrayed.",
+          "penalty_logic": "Score of 0.",
+          "evidence_status": "Directly evidenced in book corpus (balaclava scene); film corpus is empty."
+        },
+        "key_relationships": {
+          "book_baseline": "Marietta's key relationship is with Cho Chang \u2014 they are close friends, and it is partly Cho's involvement in the DA that draws Marietta in despite her reluctance. The friendship is relevant because it contextualizes why Marietta joined and why her betrayal is painful for Cho's arc. She also has a functional relationship with Umbridge as informant.",
+          "film_portrayal": "Absent.",
+          "difference": "No relationships are portrayed.",
+          "penalty_logic": "Score of 0.",
+          "evidence_status": "Directly evidenced in book corpus; film corpus is empty."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Marietta is a morally complex minor character. She is not a villain \u2014 she is a frightened teenager with a conflict of interest who makes a bad choice and visibly suffers for it. The hex, her silence under questioning, her refusal to give further names, and the balaclava all add texture. She is also used to create tension between Harry and Cho, and Ron's anger about her is used as narrative cover for Harry's internal distress about the Pensieve. Her complexity lies in being simultaneously a betrayer and a victim of her own act.",
+          "film_portrayal": "Absent. All of this nuance is lost.",
+          "difference": "The entire character is removed. The moral complexity of the betrayal is also altered by transferring it to Cho under Veritaserum, which removes agency from the act entirely and changes its ethical texture.",
+          "penalty_logic": "Score of 0.",
+          "evidence_status": "Directly evidenced in book corpus; film corpus is empty."
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Marietta's role as DA informant transferred entirely to Cho Chang in the films",
+        "The moral complexity of a voluntary (if fearful) betrayal is replaced by an involuntary one (Veritaserum), changing the ethical texture of the act",
+        "Hermione's hex and its lasting consequence (SNEAK on Marietta's face, balaclava) are absent",
+        "Marietta's refusal to give further names under questioning \u2014 a small act of partial loyalty \u2014 is absent",
+        "The Cho/Marietta friendship dynamic and its role in contextualizing both characters is absent",
+        "Marietta's function as a narrative device allowing Harry's internal distress (Pensieve scene) to go unnoticed is absent"
+      ],
+      "score_caps_applied": [
+        "No caps needed \u2014 raw dimension scores already total 0 due to complete absence from the films"
+      ],
+      "key_observations": "Marietta Edgecombe does not appear in the films at all. Her entire role \u2014 betraying the DA to Umbridge \u2014 is transferred to Cho Chang, and even then the nature of the betrayal is fundamentally changed (coerced via Veritaserum rather than voluntary). Every dimension scores 0 not because the portrayal is unfaithful but because there is no portrayal to evaluate. Confidence is Low across all dimensions because there is no film material to analyze; the book baseline is reasonably clear from the corpus. The transfer of her function to Cho is the single most significant adaptation change, and it also alters Cho's characterization and the moral weight of the betrayal itself.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 3908,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "daabf3e9814b"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 39
+  }
+}

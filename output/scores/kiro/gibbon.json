@@ -1,0 +1,98 @@
+{
+  "character": "Gibbon",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Gibbon is a Death Eater who participates in the Battle of the Astronomy Tower. The books establish one behaviorally significant trait: he is described as reluctant or fearful - he ran back downstairs rather than wait alone for Dumbledore, suggesting cowardice or self-preservation instinct. He is killed by a Killing Curse during the fight.",
+          "film_portrayal": "Gibbon does not appear in the films at all. The film corpus is empty.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "A score of 0 is the only appropriate score when a character has no film presence whatsoever.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Gibbon serves a specific plot function: he breaks away from the Death Eater group, ascends the Astronomy Tower to cast the Dark Mark, then retreats back down and is killed by friendly fire. His actions directly set up Dumbledore's arrival at the tower and are part of the Death Eaters' coordinated plan.",
+          "film_portrayal": "Gibbon does not appear in the films. His narrative function - casting the Dark Mark from the tower - is either omitted or handled differently.",
+          "difference": "His entire narrative role is absent.",
+          "penalty_logic": "No film presence means no agency can be evaluated. Score is 0.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Gibbon's motivation is participation in the Death Eater mission to kill Dumbledore. His internal conflict is implied by his reluctance to wait alone on the tower - he follows orders but balks at the most dangerous part of the assignment, suggesting fear overriding loyalty.",
+          "film_portrayal": "Absent from the films.",
+          "difference": "No motivations or conflicts are conveyed because the character does not appear.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "Gibbon's arc is minimal but complete within a single battle: he participates in the invasion, is assigned the dangerous task of casting the Dark Mark, retreats out of fear, and is killed by a Killing Curse from his own side. It is a flat arc ending in death.",
+          "film_portrayal": "Absent from the films.",
+          "difference": "Arc is entirely absent.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "Gibbon's only relational context is as a subordinate Death Eater within the group led by Draco Malfoy during the tower mission. No individual relationship is developed.",
+          "film_portrayal": "Absent from the films.",
+          "difference": "No relationships are portrayed.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Gibbon is a minor character with limited but specific texture: the detail of him fleeing the tower out of fear, and dying by friendly fire, gives him a small but distinct identity within the battle - a Death Eater whose cowardice leads directly to his own death.",
+          "film_portrayal": "Absent from the films.",
+          "difference": "All book material is lost.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "High",
+        "character_arc": "High",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Gibbon casting the Dark Mark from the Astronomy Tower",
+        "Gibbon retreating from the tower out of apparent fear of waiting alone for Dumbledore",
+        "Gibbon being killed by a Killing Curse from a fellow Death Eater (friendly fire)",
+        "Gibbon's role as the Death Eater who breaks away from the group during the corridor fight"
+      ],
+      "score_caps_applied": [
+        "No caps applicable - character scores 0 across all dimensions due to complete absence from the films"
+      ],
+      "key_observations": "Gibbon is a minor Death Eater who appears only in Half-Blood Prince during the Battle of the Astronomy Tower. He has no film presence whatsoever - the film corpus is empty. His book role, while small, is functionally specific: he casts the Dark Mark, retreats out of fear, and dies by friendly fire. All of this is lost in the films. The score of 0 across all dimensions reflects total absence, not poor portrayal. Confidence is High because the absence is unambiguous.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2324,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "7037637f1216"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 3
+  }
+}

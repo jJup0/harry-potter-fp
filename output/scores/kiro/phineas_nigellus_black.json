@@ -1,0 +1,99 @@
+{
+  "character": "Phineas Nigellus Black",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Phineas Nigellus is established in the books as imperious, condescending, and aristocratic. He is dismissive of Muggle-borns ('Muggle-born... simple girl'), contemptuous of students questioning authority, and prone to theatrical indignation. He uses formal, elevated diction and delivers cutting remarks with a kind of bored superiority. He is also self-interested \u2014 he can be kept engaged by appealing to his curiosity or pride, and he will leave abruptly when he feels disrespected or bored.",
+          "film_portrayal": "The film corpus provided is empty. Phineas Nigellus Black does not appear in any film scene in the corpus.",
+          "difference": "There is no film material to evaluate. The character is entirely absent from the provided film corpus.",
+          "penalty_logic": "With no film appearances, no score can be assigned. A score of 0 reflects absence of evidence, not a judgment that the portrayal is unfaithful \u2014 it reflects that there is nothing to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Phineas Nigellus serves as an information conduit between Hogwarts and the trio in the field during Deathly Hallows. He relays key lore about goblin-made armor (that it absorbs only what strengthens it, which is critical to understanding why the sword can destroy Horcruxes), confirms when the sword was last used (by Dumbledore on the ring), and acts as an unwilling but structurally important link to the wider wizarding world. He also functions as a comic antagonist whose aristocratic disdain creates friction and humor.",
+          "film_portrayal": "No film appearances in the corpus.",
+          "difference": "Entirely absent from the film corpus.",
+          "penalty_logic": "Cannot be scored. No film material exists to compare against the book baseline.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Phineas Nigellus is motivated by pride in his lineage, contempt for those he considers beneath him, and a self-serving desire to avoid inconvenience. He is not loyal to Harry or the trio \u2014 he cooperates only when it suits him or when he is manipulated into it. There is a mild internal tension between his Slytherin/Black family pride and his nominal obligation as a Hogwarts headmaster portrait.",
+          "film_portrayal": "No film appearances in the corpus.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Phineas Nigellus has a flat arc \u2014 he begins and ends as a pompous, self-important aristocrat. There is no meaningful internal change. His arc is intentionally static; he is a recurring comic-antagonist presence whose value is functional and tonal rather than developmental.",
+          "film_portrayal": "No film appearances in the corpus.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "His most important relationship in the corpus is with Harry, characterized by mutual contempt barely held in check by necessity. He also has a brief but sharp dynamic with Ron (who silences him over Ginny) and Hermione (whom he dismisses as a 'simple girl' and a 'Muggle-born'). His connection to the Black family legacy and to Snape (as headmaster) is referenced but not dramatized in depth.",
+          "film_portrayal": "No film appearances in the corpus.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The book corpus shows a character with genuine comic texture: he is pompous but not stupid, condescending but occasionally useful, theatrical in his indignation but capable of delivering precise and important information (the goblin-silver lore, the last use of the sword). He is manipulable through his own vanity. The blindfold scene is a small but rich piece of characterization \u2014 he is outraged, theatrical, and ultimately outmaneuvered by teenagers he despises.",
+          "film_portrayal": "No film appearances in the corpus.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "The goblin-silver lore scene (Deathly Hallows): Phineas explains that goblin-made armor repels mundane dirt and imbibes only that which strengthens it \u2014 critical information for understanding why the sword can destroy Horcruxes. This is absent from the film corpus.",
+        "The blindfold scene: Hermione covers his portrait to prevent him from reporting their location; his theatrical outrage and the trio's manipulation of him are entirely absent.",
+        "His confirmation that Dumbledore last used the sword to break open a ring \u2014 a plot-relevant detail \u2014 is absent.",
+        "His dismissive contempt for Hermione as a 'Muggle-born' and 'simple girl', and Ron's sharp defense of Ginny, are absent.",
+        "His function as an unwilling information source and comic antagonist during the Horcrux hunt is entirely unrepresented."
+      ],
+      "score_caps_applied": [
+        "No caps applied \u2014 scores are 0 across all dimensions due to complete absence of film material in the corpus, not due to cap logic."
+      ],
+      "key_observations": "The film corpus provided contains no scenes featuring Phineas Nigellus Black. It is therefore impossible to evaluate the faithfulness of his film portrayal. All dimension scores are 0 and all confidence levels are Low, reflecting the absence of evaluable material rather than a finding of unfaithfulness. Note: Phineas Nigellus does appear in the Harry Potter films (notably in the Order of the Phoenix), so this evaluation is constrained entirely by the corpus provided. A meaningful FP score would require film corpus material to be supplied.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 7205,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "b61e663b2d6e"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 84
+  }
+}

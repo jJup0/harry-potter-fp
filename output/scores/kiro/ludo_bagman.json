@@ -1,0 +1,112 @@
+{
+  "character": "Ludo Bagman",
+  "overall": {
+    "personality_voice": 2.0,
+    "narrative_role_agency": 1.0,
+    "motivations_internal_conflict": 1.0,
+    "character_arc": 1.0,
+    "key_relationships": 1.0,
+    "complexity_nuance_lost_material": 1.0,
+    "total": 7.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 2,
+      "narrative_role_agency": 1,
+      "motivations_internal_conflict": 1,
+      "character_arc": 1,
+      "key_relationships": 1,
+      "complexity_nuance_lost_material": 1,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Bagman is defined by a cluster of tightly observable traits across the book corpus: relentless boyish enthusiasm (walks with springs on his feet, face gleaming like an excited Edam, bounces on the balls of his feet), a loud booming voice and jovial manner, reckless disregard for rules and consequences (anti-Muggle security, offering Harry illegal help, betting with underage twins), a short attention span that skips from topic to topic, and a persistent undercurrent of anxiety that breaks through when his gambling debts press in. He is warm, likable, and socially effortless in public, but privately strained and evasive. His speech is breezy, exclamatory, and full of deflection ('Oh details!', 'Not a dicky bird', 'Blowed if I can see'). He is not malicious but is deeply irresponsible and self-serving.",
+          "film_portrayal": "The film corpus is entirely empty. Ludo Bagman does not appear in any film scene provided.",
+          "difference": "Every observable trait - the voice, the bounce, the gambling, the rule-bending, the anxiety, the boyish charm, the evasiveness - is absent because the character does not appear in the films at all.",
+          "penalty_logic": "A character who does not appear cannot be evaluated as faithful. The score must reflect near-total absence. The minimum non-zero score acknowledges only that the character's name exists in the broader cultural record of the adaptation, but no personality or voice is conveyed.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Bagman serves multiple structural functions: he is the enthusiastic public face of the Triwizard Tournament (commentator, judge, task explainer), a rule-breaker who attempts to give Harry illegal assistance, a figure whose gambling debts and goblin entanglements form a subplot that explains his erratic behavior, and a historical node connecting the Death Eater trials to the present. He drives scenes, initiates contact with Harry, manages the tasks, and his flight after the third task is a plot event. His agency is high: he announces, organizes, judges, offers help, evades goblins, and ultimately runs.",
+          "film_portrayal": "No film scenes exist in the corpus. All of these functions are either cut entirely or redistributed to other characters (Dumbledore and McGonagall handle task explanations and announcements in the films).",
+          "difference": "Total absence. Every narrative function is lost or transferred.",
+          "penalty_logic": "Cap 3 applies (core functions transferred to other characters). Cap 4 applies (only broad identity could theoretically survive, but even that is absent). The score must be at the floor.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Bagman's motivations are layered: genuine love of sport and spectacle, desire to see a Hogwarts victory (favoritism toward Harry), compulsive gambling that has destroyed his finances, fear of the goblins he owes, and a self-deluding optimism that lets him dismiss serious problems (Bertha Jorkins, Crouch's absence) until they become crises. His internal conflict is between his public persona of cheerful competence and his private reality of debt, evasion, and irresponsibility. The Death Eater trial backstory adds a further layer: naivety or willful blindness that got him into trouble before.",
+          "film_portrayal": "None present.",
+          "difference": "All motivations and internal conflict are absent.",
+          "penalty_logic": "Score must be at the floor.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        },
+        "character_arc": {
+          "book_baseline": "Bagman begins as a cheerful, popular, seemingly competent Ministry official and ends as a fugitive who has fled his gambling debts, abandoned his post, and left Fred and George unpaid. The arc is a gradual unmasking: the buoyancy cracks (strained face in the forest, nervous meetings with goblins), the irresponsibility accumulates, and the final revelation of his debts and flight completes the picture of a man whose charm concealed a hollow core. It is a modest but coherent arc of exposure.",
+          "film_portrayal": "None present.",
+          "difference": "Arc is entirely absent.",
+          "penalty_logic": "Score must be at the floor.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        },
+        "key_relationships": {
+          "book_baseline": "Key relationships: (1) Bagman and Harry - a patron-like dynamic with an ulterior motive, Bagman repeatedly offering illegal help while Harry politely refuses; (2) Bagman and Crouch - a contrast pair, the loose cannon vs. the rigid bureaucrat, with mutual tension and Crouch's contempt for Bagman explicit; (3) Bagman and Fred and George - he takes their bet, cannot pay, and they pursue him; (4) Bagman and the goblins - a menacing creditor relationship that shadows his later appearances.",
+          "film_portrayal": "None present.",
+          "difference": "All relationships are absent.",
+          "penalty_logic": "Score must be at the floor.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Bagman is one of the richer minor characters in Goblet of Fire. His complexity comes from the gap between surface and substance: publicly beloved and enthusiastic, privately reckless and debt-ridden. The Death Eater trial scene adds moral ambiguity - was he naive or complicit? His favoritism toward Harry is both warm and corrupt. His dismissal of Bertha Jorkins is both callous and self-protective. His interactions with the goblins show a man trapped by his own choices. None of this is simple.",
+          "film_portrayal": "None present.",
+          "difference": "All complexity is absent. The character was cut entirely from the film adaptation of Goblet of Fire.",
+          "penalty_logic": "Cap 4 applies at minimum. The score must be at the floor. The small non-zero values assigned across dimensions reflect only the theoretical minimum acknowledgment that the character exists in the source material being adapted - not any actual faithful portrayal.",
+          "evidence_status": "Directly evidenced - the film corpus is empty."
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "High",
+        "character_arc": "High",
+        "key_relationships": "High",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Bagman's role as Triwizard Tournament commentator (cut entirely)",
+        "Bagman's role as task announcer and judge (functions absorbed by Dumbledore and McGonagall in the films)",
+        "Bagman's illegal offers of help to Harry during the tournament",
+        "Bagman's gambling subplot and debt to the goblins",
+        "Bagman's meetings with goblins at the Three Broomsticks",
+        "Bagman's dismissal of Bertha Jorkins' disappearance",
+        "Bagman's Death Eater trial backstory (Pensieve scene cut or restructured without him)",
+        "Bagman's flight after the third task",
+        "Fred and George's unpaid bet and pursuit of Bagman",
+        "The Bagman-Crouch contrast dynamic",
+        "Bagman's anti-Muggle security negligence at the World Cup",
+        "Bagman's wand-weighing ceremony role",
+        "Bagman's commentary during the first and second tasks",
+        "Bagman's boyish charm and public persona as cover for private irresponsibility"
+      ],
+      "score_caps_applied": [
+        "Cap 3: Core book functions, decisions, and acts of agency transferred to other characters - score cannot exceed 75 (moot given total absence)",
+        "Cap 4: Films preserve only broad identity but remove most defining book characterization - score cannot exceed 70 (moot given total absence)",
+        "Cap 5: Motivations and arc are absent/incoherent in the films - score cannot exceed 60 (moot given total absence)"
+      ],
+      "key_observations": "Ludo Bagman was cut entirely from the Harry Potter film series. The film corpus contains zero scenes. Every dimension scores at or near the floor not because of compression or simplification, but because the character does not exist in the adaptation at all. His narrative functions were redistributed to Dumbledore, McGonagall, and other existing characters. The confidence is High precisely because the evidence is unambiguous: total absence is the clearest possible finding. The small non-zero scores (1-2 per dimension) reflect the scoring floor rather than any actual faithful portrayal.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 81016,
+        "film_chars_sent": 0,
+        "aliases": [
+          "Bagman"
+        ],
+        "corpus_hash": "1d7efd757a0b"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 239
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "character": "Frank Longbottom",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Frank Longbottom does not speak or act in the book corpus. He is referenced only as a victim - an Auror subjected to the Cruciatus Curse. No personality, voice, or behavioral traits are directly evidenced from the corpus itself, though broader book knowledge establishes him as a respected, courageous Auror who resisted torture.",
+          "film_portrayal": "Frank Longbottom does not appear in the film corpus at all.",
+          "difference": "The character is entirely absent from the films in this corpus.",
+          "penalty_logic": "With no film appearance, no personality or voice can be evaluated. A score of 0 reflects absence, not a judgment of unfaithfulness per se - but the character simply cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Frank's narrative role in the book corpus is as a named victim whose torture drives the trial scene and contextualizes Neville's backstory. He has no active agency in the corpus - he is referenced, not present.",
+          "film_portrayal": "Frank Longbottom does not appear in the film corpus.",
+          "difference": "The trial scene (Goblet of Fire, Pensieve) is absent from the films, removing the only context in which Frank is named and his fate is formally established.",
+          "penalty_logic": "His narrative function - anchoring Neville's tragedy and the Bartemius Crouch Jr. trial - is lost entirely in the films. No score is possible.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflict are evidenced in the corpus. Frank is a passive reference point, not an active character with expressed motivations.",
+          "film_portrayal": "Absent from film corpus.",
+          "difference": "No film material exists to compare.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Frank has no arc in the corpus - he is referenced as a victim of past events. His arc (Auror, tortured, institutionalized) exists in broader book knowledge but is not dramatized in the corpus.",
+          "film_portrayal": "Absent from film corpus.",
+          "difference": "No film material exists to compare.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The corpus references Frank's relationship with his wife (also tortured) and implicitly with Neville. No emotional dynamics are directly shown.",
+          "film_portrayal": "Absent from film corpus.",
+          "difference": "No film material exists to compare.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Frank's complexity in the books lies in his status as a war hero reduced to a permanent patient at St. Mungo's - a tragedy that haunts Neville and contextualizes the cost of Voldemort's reign. The corpus only gestures at this through the trial reference.",
+          "film_portrayal": "Absent from film corpus.",
+          "difference": "The entire context establishing Frank's fate is absent from the films.",
+          "penalty_logic": "Cannot be scored.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "The Pensieve trial scene (Goblet of Fire) in which Frank is named as a torture victim and his fate is formally established is absent from the films.",
+        "The formal courtroom context that connects Frank's suffering to Bartemius Crouch Jr.'s conviction is not present in the films.",
+        "The emotional weight of Frank's torture being used to contextualize Neville's orphan-like upbringing is not conveyed through this scene in the films."
+      ],
+      "score_caps_applied": [
+        "No caps applied - character is entirely absent from the film corpus, making all dimension scores 0 by default rather than by cap."
+      ],
+      "key_observations": "Frank Longbottom does not appear in the film corpus at all. The book corpus itself is minimal - he is referenced as a named victim in a trial scene but never speaks or acts. Because the films omit the Pensieve trial sequence from Goblet of Fire, the formal establishment of his fate and its connection to Neville's backstory is lost. All scores are 0 and all confidence levels are Low due to complete absence of film material. This is not a faithfulness failure in the traditional sense - it is a non-portrayal. The scoring reflects the impossibility of evaluation rather than a characterization judgment.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1082,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "1c1e04b246d6"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 2
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "character": "Euan Abercrombie",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Euan Abercrombie is a first-year Gryffindor who is visibly terrified and overwhelmed at the Sorting. He stares at Harry with a 'horrified' expression, whispers nervously to a blond classmate, and is described as wanting to sink through the floor. His defining trait is acute anxiety and self-consciousness in a high-pressure social moment.",
+          "film_portrayal": "Euan Abercrombie does not appear in the film corpus at all.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "A score of 0 is the only appropriate score when a character has no film presence whatsoever. There is nothing to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Euan's narrative function is minor but specific: he serves as a mirror reflecting Harry's social isolation in OotP. His horrified reaction to Harry \u2014 prompted by the Daily Prophet's smear campaign \u2014 shows that even new, impressionable students have been turned against Harry. He is a small but functional plot device illustrating Harry's alienation.",
+          "film_portrayal": "Euan Abercrombie does not appear in the film corpus.",
+          "difference": "The character and his narrative function are entirely absent.",
+          "penalty_logic": "No film presence means no agency can be evaluated. Score is 0.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Euan's motivation is implicit: fear of the unknown and social conformity. He has absorbed the wider wizarding world's suspicion of Harry and reacts accordingly, despite being a brand-new student.",
+          "film_portrayal": "Absent from films.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Euan has no meaningful arc. He appears in one book (OotP) in a single scene cluster. His role is static and functional rather than developmental.",
+          "film_portrayal": "Absent from films.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to complete absence. A flat arc cannot be credited as preserved when the character does not appear.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Euan has no developed relationship with any character. His only interaction is a whispered exchange with an unnamed blond classmate and a horrified glance at Harry. The Harry dynamic is the only one with any narrative weight.",
+          "film_portrayal": "Absent from films.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Euan is a minor character with limited complexity. His value lies in the specific moment: a new Gryffindor who should admire Harry instead recoils from him, which concisely dramatizes Harry's social isolation in OotP.",
+          "film_portrayal": "Absent from films.",
+          "difference": "The entire character and the nuance he provides \u2014 the irony of a new Gryffindor fearing Harry \u2014 is lost.",
+          "penalty_logic": "Score is 0 due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Euan's horrified reaction to Harry, which illustrates the effectiveness of the Daily Prophet's smear campaign against him in OotP",
+        "The visual beat of a new Gryffindor \u2014 who should idolize Harry \u2014 being frightened of him, reinforcing Harry's alienation",
+        "The Sorting scene moment of Euan wanting to 'sink through the floor', establishing his anxious, overwhelmed characterization"
+      ],
+      "score_caps_applied": [
+        "No caps formally applied \u2014 score is 0 across all dimensions due to complete absence from the film corpus, not due to cap triggers"
+      ],
+      "key_observations": "Euan Abercrombie does not appear in the films at all. A score of 0 across all dimensions is the only defensible result. His book role is minor \u2014 a functional background character whose primary value is dramatizing Harry's social isolation in OotP \u2014 but that function is entirely absent from the films. Confidence is Low across all dimensions because the film corpus provides nothing to evaluate; the scores reflect absence, not a judgment of quality.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1196,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "7654e13e5630"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 5
+  }
+}

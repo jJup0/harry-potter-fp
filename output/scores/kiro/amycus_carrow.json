@@ -1,0 +1,101 @@
+{
+  "character": "Amycus Carrow",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Amycus is established as a lumpy, lopsided, wheezy, crude Death Eater with a volatile temper. He is sycophantic toward Draco ('Well done, Draco!'), mocking toward Dumbledore ('Look at him - what's happened to you, then, Dumby?'), and prone to sudden violent outbursts when he feels condescended to ('What's that mean, then, what's that mean?' yelled the Death Eater, suddenly violent). He is coarse, impatient, and contemptuous, with a wheezy giggle that contrasts with his brutality.",
+          "film_portrayal": "The film corpus is entirely empty. Amycus Carrow has no scenes in the provided screenplay material.",
+          "difference": "There is no film portrayal to evaluate.",
+          "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to assess. The character is absent from the film corpus entirely.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Amycus plays an active role in the Tower scene in Half-Blood Prince: he pressures Draco to kill Dumbledore, blasts Greyback away when he tries to act out of turn, and reports the situation to Snape. He is a driver of the scene's tension and one of the Death Eaters who successfully infiltrated Hogwarts.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "No film portrayal exists in the corpus.",
+          "penalty_logic": "Score of 0 reflects absence of evaluable material, not a faithfulness determination.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Amycus is motivated by loyalty to Voldemort and contempt for Dumbledore. He wants Draco to complete the kill to fulfill the Dark Lord's orders, and he is frustrated by Dumbledore's calm condescension.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Cannot be assessed.",
+          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Amycus has no meaningful arc; he is a flat antagonist who appears in the Tower scene and later as a Hogwarts teacher in Deathly Hallows. His function is structural, not developmental.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Cannot be assessed.",
+          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Key relationships include his sister Alecto (they operate as a pair, share a wheezy giggle dynamic), Draco (he pressures and implicitly threatens him), and Snape (he defers to him upon arrival). These are functional rather than emotionally deep.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Cannot be assessed.",
+          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Amycus is a minor but textured character: crude yet obedient to hierarchy, capable of sudden violence, contemptuous but also somewhat buffoonish. The contrast between his wheezy giggling and his brutal impatience gives him a small but distinct personality.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "All book material is lost from the film corpus.",
+          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Amycus's volatile outburst at Dumbledore's condescension ('What's that mean, then, what's that mean?')",
+        "Amycus blasting Greyback away to enforce the order that Draco must be the one to kill Dumbledore",
+        "Amycus's sycophantic praise of Draco ('Well done, Draco, well done!')",
+        "Amycus's mocking of Dumbledore's physical decline ('Look at him - what's happened to you, then, Dumby?')",
+        "The sibling dynamic between Amycus and Alecto (wheezy giggles, operating as a pair)",
+        "Amycus reporting the situation to Snape upon his arrival",
+        "Amycus's role as a Hogwarts teacher in Deathly Hallows (not represented in either corpus)"
+      ],
+      "score_caps_applied": [
+        "No caps applied - scores are 0 across all dimensions due to complete absence of film corpus material, not due to cap logic"
+      ],
+      "key_observations": "The film corpus for Amycus Carrow is entirely empty, making a faithfulness evaluation impossible. All scores are 0 with Low confidence solely because there is no film material to compare against the book baseline. This should not be read as a judgment that the film portrayal is unfaithful - it means the evaluation cannot be performed. The book corpus establishes a clear, if minor, characterization: a crude, volatile, buffoonish-yet-brutal Death Eater with a distinct voice and a specific functional role in the Astronomy Tower scene. Whether the films preserved or discarded this is unassessable from the provided data.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 4142,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "da4c57ebcbbe"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 1.0,
+    "book_mentions": 20
+  }
+}

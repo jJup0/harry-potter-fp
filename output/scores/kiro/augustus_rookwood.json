@@ -1,0 +1,95 @@
+{
+  "character": "Augustus Rookwood",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Rookwood appears only briefly in the books \u2014 referenced at his trial as a Ministry of Mysteries employee who ran an intelligence network for Voldemort. No direct dialogue or behavioral pattern is established in the corpus.",
+          "film_portrayal": "Rookwood does not appear in the film corpus provided.",
+          "difference": "The character is entirely absent from the films as represented in the corpus.",
+          "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to evaluate. The absence itself cannot be scored on a faithfulness scale.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Rookwood's book role is as a named Death Eater identified as a spy who exploited his Ministry position to build an intelligence network. His narrative function is minimal but specific: he is evidence of Voldemort's infiltration of the Ministry.",
+          "film_portrayal": "No film appearance in the corpus.",
+          "difference": "His narrative function as a named Ministry-infiltrating Death Eater is entirely absent from the films as shown in the corpus.",
+          "penalty_logic": "No film material exists to score. Score is 0 by default due to complete absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations are directly established in the two-scene corpus beyond his role as a Voldemort spy within the Ministry.",
+          "film_portrayal": "No film appearance.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to absence of film material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is discernible from the corpus. Rookwood is a flat, background character in the books \u2014 named, identified, and not developed further in the provided scenes.",
+          "film_portrayal": "No film appearance.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to absence of film material. A flat book arc with no film presence cannot be scored as faithful.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relational context in the corpus is Karkaroff naming him to Crouch, implying a relationship of informant/accused and a connection to Voldemort's network. No emotional dynamic is established.",
+          "film_portrayal": "No film appearance.",
+          "difference": "No film material to compare.",
+          "penalty_logic": "Score is 0 due to absence of film material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The corpus establishes only that Rookwood was a Ministry insider who ran a spy network for Voldemort. This is a specific and interesting detail \u2014 Ministry infiltration at a structural level \u2014 but the corpus does not develop it into complexity or nuance.",
+          "film_portrayal": "No film appearance.",
+          "difference": "The specific detail of a Ministry-embedded Death Eater intelligence network is lost entirely from the films as represented in the corpus.",
+          "penalty_logic": "Score is 0 due to absence of film material. The lost material is noted but cannot be scored as a faithfulness comparison without a film portrayal to compare against.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Rookwood's identity as a Department of Mysteries employee who ran a spy network inside the Ministry for Voldemort is not represented in the films."
+      ],
+      "score_caps_applied": [
+        "No caps applied. Scores are 0 across all dimensions due to complete absence of film material, not due to cap enforcement."
+      ],
+      "key_observations": "Augustus Rookwood does not appear in the provided film corpus at all. The book corpus itself is extremely limited \u2014 two scenes establishing only his name, Ministry affiliation, and role as a Death Eater spy. Because there is no film portrayal to evaluate, a faithfulness score cannot be meaningfully assigned. All dimension scores are 0 by default, and all confidence levels are Low. This is not a judgment that the films portray him unfaithfully \u2014 it is a judgment that there is no film portrayal to evaluate.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 361,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "686381833c11"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 19
+  }
+}

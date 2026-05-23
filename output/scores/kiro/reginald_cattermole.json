@@ -1,0 +1,100 @@
+{
+  "character": "Reginald Cattermole",
+  "overall": {
+    "personality_voice": 4.0,
+    "narrative_role_agency": 3.0,
+    "motivations_internal_conflict": 2.0,
+    "character_arc": 2.0,
+    "key_relationships": 2.0,
+    "complexity_nuance_lost_material": 3.0,
+    "total": 16.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 4,
+      "narrative_role_agency": 3,
+      "motivations_internal_conflict": 2,
+      "character_arc": 2,
+      "key_relationships": 2,
+      "complexity_nuance_lost_material": 3,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, the real Reg Cattermole appears only briefly: he is described as pale and wan after vomiting (from the Polyjuice potion Ron used), and his only line is a confused 'Hey \u2013 what's going on? What is this?' upon seeing two versions of himself. His personality is barely sketched \u2014 he is an ordinary Ministry employee, bewildered and physically weakened, not heroic or villainous.",
+          "film_portrayal": "The film corpus is entirely empty. Reg Cattermole does not appear in any provided film scene.",
+          "difference": "The character is absent from the films entirely. No voice, no personality, no behavior is conveyed.",
+          "penalty_logic": "Complete absence means no personality or voice is preserved. The score cannot be above the floor range.",
+          "evidence_status": "Directly evidenced \u2014 the film corpus is empty."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Reg's narrative function is structural: his identity is borrowed by Ron via Polyjuice Potion, enabling the trio's infiltration of the Ministry. His physical reappearance at the end of the scene creates the comedic and tense complication of two Reg Cattermoles confronting each other and his wife. He is a plot device whose real-world existence generates the crisis that forces the trio to flee.",
+          "film_portrayal": "Absent from the film corpus. His role as the 'real Reg' creating the double-identity crisis is not shown.",
+          "difference": "His narrative function \u2014 the complication of the double \u2014 is either cut or handled differently in the film without his physical presence.",
+          "penalty_logic": "The absence of the real Reg removes his only agency: appearing and triggering the crisis. This is a complete loss of narrative role.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No internal conflict is established for Reg in the books beyond implied concern for his wife (she is on trial for being Muggle-born). His motivation is simply to find her. This is minimal but present.",
+          "film_portrayal": "Not present in the film corpus.",
+          "difference": "Any motivation, however thin, is absent.",
+          "penalty_logic": "Complete absence. Score at floor.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
+        },
+        "character_arc": {
+          "book_baseline": "Reg has no arc in the traditional sense \u2014 he is a flat, functional character who appears at the end of the Ministry sequence as a complication. His 'arc' is simply: absent, then present, then bewildered.",
+          "film_portrayal": "Not present in the film corpus.",
+          "difference": "Even this minimal presence is absent.",
+          "penalty_logic": "No arc can be evaluated or preserved when the character does not appear.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
+        },
+        "key_relationships": {
+          "book_baseline": "His key relationship is with Mary Cattermole (his wife). Her relief at seeing 'Reg' (actually Ron) and then her confusion upon seeing the real Reg establishes a genuine emotional bond \u2014 she is desperate to reunite with him and flee with their children. The real Reg's appearance complicates this dynamic.",
+          "film_portrayal": "Not present in the film corpus.",
+          "difference": "The real Reg's relationship with Mary cannot be conveyed if he does not appear.",
+          "penalty_logic": "Complete absence of the relationship dynamic.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Reg's complexity is minimal but specific: the image of a pale, vomiting, bewildered man confronting a duplicate of himself while his wife looks between them is a small but vivid human moment. It grounds the Polyjuice sequence in real-world consequence \u2014 there is an actual person whose identity was stolen.",
+          "film_portrayal": "Not present in the film corpus.",
+          "difference": "The humanizing detail of the real Reg \u2014 the physical cost of the Polyjuice on him, his confusion, the double-identity confrontation \u2014 is entirely absent.",
+          "penalty_logic": "All nuance, however limited, is lost.",
+          "evidence_status": "Directly evidenced \u2014 film corpus is empty."
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "The real Reg Cattermole's physical appearance at the end of the Ministry sequence, creating the double-identity crisis",
+        "His only line of dialogue: 'Hey \u2013 what's going on? What is this?'",
+        "The visual/comedic beat of Mrs. Cattermole looking between two versions of her husband",
+        "The humanizing detail that he was physically ill (pale and wan from the Polyjuice effect on Ron)",
+        "His function as the complication that forces the trio to flee the Ministry"
+      ],
+      "score_caps_applied": [
+        "Cap 4: Character scores below 70 \u2014 films preserve only the broad identity (name referenced via Ron's disguise) but remove the actual character's appearance and all defining material.",
+        "Cap 5 considered: motivations and arc are absent rather than incoherent, but the result is the same \u2014 score remains low."
+      ],
+      "key_observations": "Reginald Cattermole is a minor functional character in the books whose sole purpose is to provide Ron's Polyjuice identity and then appear in person to create the crisis that ends the Ministry sequence. The film corpus is entirely empty \u2014 he does not appear at all in the provided screenplay material. This means no dimension of his book characterization is preserved in the films. All scores are at or near the floor, and all confidence levels are Low due to the complete absence of film evidence. The low total score (16) reflects not a rich character being badly adapted, but a thin character being entirely absent \u2014 which is itself a faithful reflection of how little there was to adapt, tempered by the fact that his specific narrative function (the double confrontation) appears to have been cut.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1821,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "7230560237ce"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 21
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "character": "Mulciber",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Mulciber is established in the books as a Death Eater who specialized in the Imperius Curse, forcing people to do horrific things. He is described by Lily Evans as 'creepy' and his behavior toward Mary Macdonald is characterized as 'evil' rather than merely mischievous. He is a named participant in the Battle of the Department of Mysteries under Lucius Malfoy's command.",
+          "film_portrayal": "Mulciber does not appear in any film scene in the provided corpus.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "There is no film material to evaluate. A score of 0 reflects absence, not unfaithfulness per se, but the scoring framework requires film portrayal to exist for any points to be awarded.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Mulciber functions as a named Death Eater with a specific criminal specialty (Imperius Curse), appears in Karkaroff's testimony at a Death Eater trial, is named as a participant in the Department of Mysteries battle, and serves as a concrete example of the dangerous company Snape keeps during his Hogwarts years.",
+          "film_portrayal": "Mulciber does not appear in any film scene in the provided corpus.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "No film agency to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No internal motivations are explicitly explored in the corpus; Mulciber is a background Death Eater whose motivations are implied by his allegiance and criminal acts.",
+          "film_portrayal": "Absent from films.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "No film material to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Mulciber has no meaningful arc in the books; he is a flat background figure referenced across different time periods (Marauder era, Goblet of Death Eater trial, Order of the Phoenix battle) but without personal development.",
+          "film_portrayal": "Absent from films.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "No film material to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The most narratively significant relationship context is Mulciber's association with Snape during their Hogwarts years, which Lily explicitly objects to. This relationship is used to illustrate Snape's drift toward dark company and is a point of conflict between Snape and Lily.",
+          "film_portrayal": "Absent from films.",
+          "difference": "Entirely absent.",
+          "penalty_logic": "No film material to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Mulciber's complexity is limited but specific: he is not a generic Death Eater \u2014 he has a named criminal specialty (Imperius Curse), a specific act against a named student (Mary Macdonald), and serves a narrative function in the Snape/Lily dynamic as a symbol of the path Snape is choosing.",
+          "film_portrayal": "Absent from films.",
+          "difference": "All of this material is lost.",
+          "penalty_logic": "No film material to evaluate.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Mulciber's appearance and named role in Karkaroff's Death Eater trial testimony (Goblet of Fire)",
+        "Mulciber's participation in the Battle of the Department of Mysteries under Lucius Malfoy",
+        "Mulciber's specific criminal specialty: forcing people under the Imperius Curse",
+        "Mulciber's act against Mary Macdonald, used by Lily to challenge Snape's choice of friends",
+        "Mulciber's function as a concrete symbol of Snape's dangerous social drift in the Marauder-era flashbacks"
+      ],
+      "score_caps_applied": [
+        "No caps applicable \u2014 character is entirely absent from the films; scores are 0 across all dimensions due to no film portrayal existing."
+      ],
+      "key_observations": "Mulciber does not appear in any film scene in the provided corpus. All scores are 0 not as a judgment of unfaithfulness but because there is no film portrayal to evaluate against the book baseline. Confidence is Low across all dimensions for the same reason. The book corpus establishes him as a minor but specific Death Eater with a named criminal specialty, a concrete harmful act, and a narrative function in the Snape/Lily storyline \u2014 none of which is represented in the films.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2646,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "33e7908f86c9"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 6
+  }
+}

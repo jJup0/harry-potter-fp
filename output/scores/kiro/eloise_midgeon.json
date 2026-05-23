@@ -1,0 +1,96 @@
+{
+  "character": "Eloise Midgeon",
+  "overall": {
+    "personality_voice": 13.0,
+    "narrative_role_agency": 10.0,
+    "motivations_internal_conflict": 10.0,
+    "character_arc": 10.0,
+    "key_relationships": 5.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 56.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 13,
+      "narrative_role_agency": 10,
+      "motivations_internal_conflict": 10,
+      "character_arc": 10,
+      "key_relationships": 5,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Eloise Midgeon exists in the books solely as a reference point - she is mentioned by Hermione as a student with notably severe acne, used as a comparative benchmark for how bad something else is. She has no dialogue, no direct appearance, and no observable personality or voice. Her only book function is as a named background student whose physical condition is common knowledge among peers.",
+          "film_portrayal": "Eloise Midgeon does not appear in the film corpus at all. She is absent entirely.",
+          "difference": "The character is not present in the films. However, since her book presence is itself extremely minimal - a single passing reference with no personality, voice, or dialogue - there is almost nothing to be unfaithful to in terms of personality and voice. The absence cannot be evaluated against a rich baseline.",
+          "penalty_logic": "A score in the 10-13 range reflects that the character is absent from the films entirely, which is a departure, but the book baseline is so thin that the penalty is moderated. There is no personality or voice to preserve or lose - only a name and a physical detail. The score reflects absence rather than distortion.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Eloise Midgeon's narrative role is purely referential. She functions as a background detail that grounds the Hogwarts world with texture - a named student whose acne is severe enough to serve as a hyperbolic comparison. She has no agency whatsoever; she does not act, decide, speak, or affect any scene.",
+          "film_portrayal": "She does not appear in the films.",
+          "difference": "Her referential narrative function - providing world texture through Hermione's comparison - is absent. However, since her role in the books is itself passive and referential rather than agentive, the loss is primarily one of world-building texture rather than agency.",
+          "penalty_logic": "Score of 10 reflects complete absence from the films. Her book role is minimal and non-agentive, so the penalty is not severe, but her complete omission means even her small referential function is lost.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflicts are established for Eloise Midgeon in the books. She is a name attached to a physical condition, mentioned in passing.",
+          "film_portrayal": "Absent from films.",
+          "difference": "Nothing to preserve or lose in this dimension.",
+          "penalty_logic": "Score of 10 reflects absence from the films. Since no motivations or conflicts exist in the books either, this is not a distortion penalty but an absence penalty - the character simply does not exist in the film adaptation.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Eloise Midgeon has no arc in the books. She is a static background reference with no development, change, or trajectory.",
+          "film_portrayal": "Absent from films.",
+          "difference": "A flat, non-existent arc in the books corresponds to a complete absence in the films. There is nothing to compress or distort.",
+          "penalty_logic": "Score of 10 reflects absence. Per the scoring rules, a flat arc in the books that is also flat in the films scores full points - but here the character is absent entirely rather than present-and-flat, which warrants a moderate penalty for non-inclusion rather than a faithfulness penalty.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "No relationships are established. Eloise is mentioned by Hermione but there is no dynamic, no interaction, no emotional connection depicted.",
+          "film_portrayal": "Absent from films.",
+          "difference": "No relationship material exists to preserve or lose.",
+          "penalty_logic": "Score of 5 reflects complete absence. Since no relationship dynamic exists in the books, this is purely an absence penalty rather than a distortion of an established dynamic.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Eloise Midgeon has no complexity or nuance in the books. She is a one-detail background character - her acne is her only defining characteristic, used instrumentally by Hermione for comparison.",
+          "film_portrayal": "Absent from films.",
+          "difference": "The single piece of characterization - her identity as a student with severe acne, used to ground the Hogwarts world - is lost. However, this is minimal texture rather than rich complexity.",
+          "penalty_logic": "Score of 8 reflects that while there is almost no complexity to lose, the complete absence from the films means even the minimal world-texture function she serves is gone. The penalty is modest because the book material itself is extremely thin.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Eloise Midgeon's single book appearance as a named Hogwarts student referenced by Hermione for her severe acne - a minor world-texture detail - is entirely absent from the films."
+      ],
+      "score_caps_applied": [
+        "Cap 4 applied (score above 70 not warranted): the films preserve only the character's name in broader cultural awareness but remove even her minimal book presence entirely.",
+        "Cap 5 considered: motivations and arc are not unclear or incoherent - they simply do not exist in either medium - so this cap is not the primary driver, but the overall absence supports the sub-60 total."
+      ],
+      "key_observations": "Eloise Midgeon is one of the most marginal characters in the Harry Potter books - she appears in a single sentence as a named reference point for Hermione's comparison, with no dialogue, no direct scene presence, no personality, no arc, and no relationships. Her entire book existence is a name attached to a physical condition. The films omit her entirely. Because the book baseline is so thin, the faithfulness evaluation is almost entirely an absence evaluation rather than a distortion evaluation. Scores across all dimensions are moderate-to-low not because the films distort her characterization, but because she does not exist in the films at all. Confidence is Low across all dimensions due to the extreme scarcity of source material. This score should be interpreted cautiously - it reflects non-inclusion of a near-invisible character rather than meaningful adaptation failure.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 257,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "cb5740bf36c0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 3
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "character": "Melinda Bobbin",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Melinda Bobbin appears only as a name dropped by Slughorn when inviting Harry to a dinner party. She is described as 'charming' and noted to come from a family that owns a large chain of apothecaries. No dialogue, actions, or direct characterization are present in the corpus.",
+          "film_portrayal": "Melinda Bobbin does not appear in the film corpus at all.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "A score of 0 is assigned because the character has no film presence whatsoever. There is nothing to evaluate for faithfulness.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Melinda Bobbin's narrative role in the books is minimal: she is mentioned as one of Slughorn's 'rising stars' invited to a dinner party, functioning as background texture for the Slug Club and Slughorn's social networking. She has no active agency in the corpus.",
+          "film_portrayal": "The character does not appear in the films.",
+          "difference": "Complete absence. Even her minor background function as a named Slug Club member is not present.",
+          "penalty_logic": "Score of 0 because there is no film portrayal to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflicts are established in the corpus. She is referenced only by name and family background.",
+          "film_portrayal": "Not present in the films.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Score of 0 because there is no film portrayal to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is established in the corpus. Melinda Bobbin has no discernible development across the three scenes provided.",
+          "film_portrayal": "Not present in the films.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Score of 0 because there is no film portrayal to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relationship implied is with Slughorn, as a member of his Slug Club. No emotional dynamic, tension, or meaningful interaction is shown.",
+          "film_portrayal": "Not present in the films.",
+          "difference": "Complete absence.",
+          "penalty_logic": "Score of 0 because there is no film portrayal to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The corpus establishes almost no complexity for Melinda Bobbin. She is a name with a single distinguishing detail (her family's apothecary business) used by Slughorn to make his dinner party sound appealing.",
+          "film_portrayal": "Not present in the films.",
+          "difference": "Complete absence. Even the minimal book material is lost.",
+          "penalty_logic": "Score of 0 because there is no film portrayal to evaluate.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Melinda Bobbin's existence as a named Slug Club member is not represented in the films.",
+        "Her family background (owners of a large chain of apothecaries) is not referenced in the films.",
+        "Her role as background texture for Slughorn's social world is absent."
+      ],
+      "score_caps_applied": [
+        "No caps formally applied; total is 0 due to complete absence from the film corpus, not cap enforcement."
+      ],
+      "key_observations": "Melinda Bobbin does not appear in the film corpus at all. In the books she is an extremely minor background character - mentioned by name once by Slughorn as a Slug Club invitee, with no dialogue, actions, or developed characterization. Because the films contain no portrayal of her whatsoever, a faithfulness score cannot be computed in any dimension. All scores are 0 and all confidence levels are Low. This is a case of complete omission rather than adaptation distortion.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 1348,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "254b13ddf085"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 1
+  }
+}

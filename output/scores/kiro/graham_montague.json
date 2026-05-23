@@ -1,0 +1,96 @@
+{
+  "character": "Graham Montague",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Montague appears only as a victim of Fred and George's prank \u2014 stuffed into a Vanishing Cabinet \u2014 and is referenced as confused and disoriented afterward, with his parents arriving in distress. He has no dialogue and no observable personality beyond being a Slytherin prefect who was targeted. His characterization is entirely functional: he exists to show the consequences of Fred and George's escalating rebellion.",
+          "film_portrayal": "Montague does not appear in the films at all. The film corpus is empty.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "A character who does not appear in the films cannot receive any score in any dimension. There is nothing to evaluate for faithfulness because there is no film portrayal to compare against.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Montague's narrative function is to be the inciting consequence of Fred and George stuffing him into the Vanishing Cabinet \u2014 an act that later becomes plot-relevant in Half-Blood Prince when Draco uses the same cabinet. He is a passive figure with no agency; his role is entirely as a plot object whose fate illustrates the chaos at Hogwarts under Umbridge.",
+          "film_portrayal": "Absent from the films entirely.",
+          "difference": "The character and his narrative function are completely removed.",
+          "penalty_logic": "No film portrayal exists, so no faithfulness score is possible.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflict are established in the corpus. Montague is a passive victim with no expressed interiority.",
+          "film_portrayal": "Absent.",
+          "difference": "N/A \u2014 character does not appear.",
+          "penalty_logic": "No film portrayal; score is 0 by absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is present. Montague begins confused and ends confused, with his parents arriving. There is no transformation or resolution shown in the corpus.",
+          "film_portrayal": "Absent.",
+          "difference": "N/A \u2014 character does not appear.",
+          "penalty_logic": "No film portrayal; score is 0 by absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relational context is his parents arriving angry, and the trio briefly debating whether to help him. No meaningful relationship dynamic is established.",
+          "film_portrayal": "Absent.",
+          "difference": "N/A \u2014 character does not appear.",
+          "penalty_logic": "No film portrayal; score is 0 by absence.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Montague is a minor functional character with no complexity established in the corpus. His primary book value is as a plot device connecting Order of the Phoenix to the Vanishing Cabinet subplot in Half-Blood Prince.",
+          "film_portrayal": "Absent.",
+          "difference": "The character is entirely removed, including his role as the connective tissue for the Vanishing Cabinet plot thread.",
+          "penalty_logic": "Complete absence means zero faithfulness. The Vanishing Cabinet's later importance in Half-Blood Prince is handled in the films without establishing this earlier consequence, removing whatever minimal narrative texture Montague provided.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "High",
+        "personality_voice": "High",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "High"
+      },
+      "lost_or_transferred_material": [
+        "Montague's entire appearance is absent from the films",
+        "The consequence of Fred and George stuffing Montague into the Vanishing Cabinet is not shown, removing the connective setup for the cabinet's later use by Draco in Half-Blood Prince"
+      ],
+      "score_caps_applied": [
+        "No caps applicable \u2014 character scores 0 across all dimensions due to complete absence from the films"
+      ],
+      "key_observations": "Graham Montague does not appear in the films at all. A faithfulness score of 0 is the only possible result \u2014 not because the portrayal is unfaithful, but because there is no portrayal to evaluate. His book role is minor and functional, serving primarily as a plot device whose fate foreshadows the Vanishing Cabinet subplot. Confidence is high on the dimensions where his book presence is clear (personality, agency, nuance) and low on dimensions where the books themselves provide no material (arc, motivations, relationships).",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 940,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "769204accdf0"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 33
+  }
+}

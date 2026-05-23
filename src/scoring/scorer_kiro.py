@@ -50,13 +50,195 @@ def _validate_response(parsed):
     return None
 
 
+SPLIT_THRESHOLD = int(os.environ.get("SPLIT_THRESHOLD", 500_000))
+
+
 def score_character(char_name, corpus, config):
     llm_config = config.get("llm", {})
     model = llm_config.get("model", "claude-sonnet-4.6")
-    try:
-        book_text = _prepare_corpus(corpus.get("books", []), "book")
-        film_text = _prepare_corpus(corpus.get("screenplays", []), "screenplay")
 
+    book_scenes = corpus.get("books", [])
+    film_scenes = corpus.get("screenplays", [])
+    total_book_chars = sum(len(s.get("text", "")) for s in book_scenes)
+
+    if total_book_chars > SPLIT_THRESHOLD:
+        return _score_split_by_book(char_name, book_scenes, film_scenes, model)
+    else:
+        return _score_single(char_name, book_scenes, film_scenes, model)
+
+
+def _score_split_by_book(char_name, book_scenes, film_scenes, model):
+    """Score per-book (parallel + cached) then merge via LLM."""
+    from collections import defaultdict
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    by_book = defaultdict(list)
+    for s in book_scenes:
+        by_book[s.get("source", "unknown")].append(s)
+
+    # Split film scenes by matching source
+    by_film = defaultdict(list)
+    for s in film_scenes:
+        by_film[s.get("source", "unknown")].append(s)
+
+    # Map book -> matching film(s)
+    # Book 7 maps to both deathly_hallows_p1 and p2
+    def get_film_scenes(book_name):
+        # Direct match first
+        if book_name in by_film:
+            return by_film[book_name]
+        # Book 7 -> films 7+8
+        if "deathly_hallows" in book_name:
+            return by_film.get("7_deathly_hallows_p1", []) + by_film.get("8_deathly_hallows_p2", [])
+        # Try matching by number prefix
+        prefix = book_name.split("_")[0]
+        for film_name, scenes in by_film.items():
+            if film_name.startswith(prefix + "_"):
+                return scenes
+        return []
+
+    # Cache dir for per-book scores
+    safe_name = char_name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+    cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "output", "scores", "kiro", f"{safe_name}_split")
+    os.makedirs(cache_dir, exist_ok=True)
+
+    def score_book(book_name, scenes):
+        cache_file = os.path.join(cache_dir, f"{book_name}.json")
+        if os.path.exists(cache_file):
+            with open(cache_file) as f:
+                print(f"    [{char_name}][{book_name}] cached", flush=True)
+                return json.load(f)
+        matching_film = get_film_scenes(book_name)
+        if not matching_film:
+            print(f"    [{char_name}][{book_name}] no matching film, skipping", flush=True)
+            return None
+        print(f"    [{char_name}][{book_name}] {len(scenes)} paragraphs, {len(matching_film)} film scenes", flush=True)
+        book_text = _prepare_corpus(scenes, "book")
+        film_text = _prepare_corpus(matching_film, "screenplay")
+        result = _score_call(char_name, book_text, film_text, model, tag=book_name)
+        if result:
+            result["book"] = book_name
+            with open(cache_file, "w") as f:
+                json.dump(result, f, indent=2)
+        return result
+
+    all_scores = []
+    with ThreadPoolExecutor(max_workers=7) as pool:
+        futures = {pool.submit(score_book, bk, sc): bk for bk, sc in sorted(by_book.items())}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                all_scores.append(result)
+
+    if not all_scores:
+        return _fallback(char_name)
+
+    # Merge via LLM
+    print(f"    [{char_name}][merge] synthesizing {len(all_scores)} book scores...", flush=True)
+    merged = _merge_scores(char_name, all_scores, model)
+    if not merged:
+        avg = {}
+        for key in DIMENSIONS:
+            avg[key] = round(sum(s[key] for s in all_scores) / len(all_scores), 1)
+        merged = avg
+
+    return {
+        "comparative": {
+            **{k: merged[k] for k in DIMENSIONS},
+            "justification": merged.get("justification", {}),
+            "confidence": merged.get("confidence", {}),
+            "lost_or_transferred_material": merged.get("lost_or_transferred_material", []),
+            "score_caps_applied": merged.get("score_caps_applied", []),
+            "key_observations": merged.get("key_observations", ""),
+            "meta": {
+                "type": "comparative",
+                "model": model,
+                "prompt_version": _get_prompt_version(),
+                "book_chars_sent": sum(len(s.get("text", "")) for s in book_scenes),
+                "film_chars_sent": sum(len(s.get("text", "")) for s in film_scenes if "text" in s),
+                "split_books": len(all_scores),
+            },
+        }
+    }
+
+
+def _merge_scores(char_name, per_book_scores, model):
+    """LLM call to merge per-book scores into a single final score."""
+    scores_summary = json.dumps([{
+        "book": s["book"],
+        "scores": {k: s[k] for k in DIMENSIONS},
+        "justification": s.get("justification", {}),
+        "key_observations": s.get("key_observations", ""),
+    } for s in per_book_scores], indent=2)
+
+    prompt = (
+        f"You scored {char_name}'s film faithfulness separately for each book. "
+        f"Now synthesize these into ONE final score.\n\n"
+        f"Per-book scores:\n{scores_summary}\n\n"
+        f"Consider: which books are most important for this character's arc? "
+        f"Where are the biggest faithfulness failures? Weight accordingly.\n\n"
+        f"Respond with ONLY a JSON object with the same schema:\n"
+        f'{{"scores": {{"personality_voice": <0-25>, "narrative_role_agency": <0-20>, '
+        f'"motivations_internal_conflict": <0-15>, "character_arc": <0-15>, '
+        f'"key_relationships": <0-10>, "complexity_nuance_lost_material": <0-15>}}, '
+        f'"total": <sum 0-100>, '
+        f'"confidence": {{"global": "High/Medium/Low"}}, '
+        f'"justification": {{...per dimension...}}, '
+        f'"lost_or_transferred_material": [...], '
+        f'"score_caps_applied": [...], '
+        f'"key_observations": "..."}}'
+    )
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        print(f"    [{char_name}][merge] attempt {attempt}/{MAX_RETRIES}...")
+        response = _call_kiro(prompt, model)
+        parsed = _extract_json(response)
+        if parsed is None:
+            continue
+        scores = parsed.get("scores")
+        if not scores:
+            continue
+        error = _validate_response(parsed)
+        if error:
+            print(f"    [{char_name}][merge] schema invalid - {error}")
+            continue
+        return {**scores, "justification": parsed.get("justification", {}),
+                "confidence": parsed.get("confidence", {}),
+                "lost_or_transferred_material": parsed.get("lost_or_transferred_material", []),
+                "score_caps_applied": parsed.get("score_caps_applied", []),
+                "key_observations": parsed.get("key_observations", "")}
+
+    print(f"    [{char_name}][merge] FAILED, falling back to average")
+    return None
+
+
+def _score_single(char_name, book_scenes, film_scenes, model):
+    book_text = _prepare_corpus(book_scenes, "book")
+    film_text = _prepare_corpus(film_scenes, "screenplay")
+    result = _score_call(char_name, book_text, film_text, model)
+    if not result:
+        return _fallback(char_name)
+    return {
+        "comparative": {
+            **{k: result[k] for k in DIMENSIONS},
+            "justification": result.get("justification", {}),
+            "confidence": result.get("confidence", {}),
+            "lost_or_transferred_material": result.get("lost_or_transferred_material", []),
+            "score_caps_applied": result.get("score_caps_applied", []),
+            "key_observations": result.get("key_observations", ""),
+            "meta": {
+                "type": "comparative",
+                "model": model,
+                "prompt_version": _get_prompt_version(),
+                "book_chars_sent": len(book_text),
+                "film_chars_sent": len(film_text),
+            },
+        }
+    }
+
+
+def _score_call(char_name, book_text, film_text, model, tag=None):
+    """Single scoring call. Returns parsed scores dict or None."""
+    try:
         with open(PROMPT_FILE) as f:
             system_prompt = f.read()
 
@@ -79,50 +261,39 @@ def score_character(char_name, corpus, config):
             f'"key_observations": "..."}}'
         )
 
+        prefix = f"[{char_name}][{tag}] " if tag else f"[{char_name}] "
         for attempt in range(1, MAX_RETRIES + 1):
-            print(f"    attempt {attempt}/{MAX_RETRIES}: calling kiro-cli ({model})...")
+            print(f"    {prefix}attempt {attempt}/{MAX_RETRIES}: calling kiro-cli ({model})...")
             t0 = time.time()
             response = _call_kiro(user_msg, model)
-            print(f"    kiro-cli took {time.time() - t0:.1f}s, got {len(response)} chars back")
+            print(f"    {prefix}kiro-cli took {time.time() - t0:.1f}s, got {len(response)} chars back")
             raw_file = os.path.join(
-                RAW_DIR, f"{char_name.lower().replace(' ', '_')}_attempt{attempt}.txt"
+                RAW_DIR, f"{char_name.lower().replace(' ', '_')}{'_' + tag if tag else ''}_attempt{attempt}.txt"
             )
             with open(raw_file, "w") as rf:
                 rf.write(response)
             parsed = _extract_json(response)
             if parsed is None:
-                print(f"    parse failed, raw: {response[:200]}")
+                print(f"    {prefix}parse failed, raw: {response[:200]}")
                 time.sleep(2)
                 continue
             error = _validate_response(parsed)
             if error:
-                print(f"    schema invalid - {error}")
+                print(f"    {prefix}schema invalid - {error}")
                 time.sleep(2)
                 continue
             scores = parsed["scores"]
-            return {
-                "comparative": {
-                    **{k: scores[k] for k in DIMENSIONS},
-                    "justification": parsed.get("justification", {}),
+            return {**scores, "justification": parsed.get("justification", {}),
                     "confidence": parsed.get("confidence", {}),
                     "lost_or_transferred_material": parsed.get("lost_or_transferred_material", []),
                     "score_caps_applied": parsed.get("score_caps_applied", []),
-                    "key_observations": parsed.get("key_observations", ""),
-                    "meta": {
-                        "type": "comparative",
-                        "model": model,
-                        "prompt_version": _get_prompt_version(),
-                        "book_chars_sent": len(book_text),
-                        "film_chars_sent": len(film_text),
-                    },
-                }
-            }
+                    "key_observations": parsed.get("key_observations", "")}
 
-        print(f"    FAILED after {MAX_RETRIES} attempts")
-        return _fallback(char_name)
+        print(f"    {prefix}FAILED after {MAX_RETRIES} attempts")
+        return None
     except Exception as e:
-        print(f"    ERROR: {e}")
-        return _fallback(char_name)
+        print(f"    {prefix}ERROR: {e}")
+        return None
 
 
 def _fallback(char_name):

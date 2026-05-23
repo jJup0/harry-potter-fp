@@ -1,0 +1,98 @@
+{
+  "character": "Amelia Bones",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Amelia Bones is established as fair, authoritative, and formidable. Tonks vouches for her fairness; she is described as a 'very gifted witch' who 'put up a real fight' against Voldemort himself. She heads the Department of Magical Law Enforcement, implying competence and institutional weight.",
+          "film_portrayal": "Amelia Bones does not appear in the film corpus provided. There are zero scenes, lines, or references to evaluate.",
+          "difference": "Total absence. No personality or voice is conveyed.",
+          "penalty_logic": "With no film material whatsoever, no faithfulness can be measured. A score of 0 reflects absence of portrayal, not a negative portrayal.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Amelia Bones serves as the presiding authority at Harry's disciplinary hearing (OotP), a respected institutional figure whose fairness matters to the plot, and a named casualty of Voldemort's personal violence (HBP), which signals the escalating danger of the war and shakes characters like Slughorn.",
+          "film_portrayal": "No film scenes provided. Her narrative functions - the hearing, her death as a war-escalation signal - are either absent or handled without her.",
+          "difference": "Complete absence of her narrative role in the film corpus.",
+          "penalty_logic": "No agency can be assessed without any film material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Her motivations are institutional and professional: upholding magical law fairly. No internal conflict is deeply explored in the corpus; she is a functional figure of just authority.",
+          "film_portrayal": "No film material present.",
+          "difference": "Cannot be evaluated.",
+          "penalty_logic": "No score can be assigned.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Amelia Bones has a flat arc in the books - she is introduced as a competent, fair authority figure and dies off-page as a war casualty. Her arc is not one of personal transformation but of institutional presence followed by significant death.",
+          "film_portrayal": "No film material present.",
+          "difference": "Cannot be evaluated.",
+          "penalty_logic": "No score can be assigned.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Her most relevant relational context in the corpus is her institutional relationship with Harry (as the authority presiding over his hearing) and her familial connection to Edgar Bones (her brother, a fallen Order member). Neither is deeply dramatized.",
+          "film_portrayal": "No film material present.",
+          "difference": "Cannot be evaluated.",
+          "penalty_logic": "No score can be assigned.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The books establish a compact but meaningful portrait: a fair, powerful witch in a position of institutional authority, whose death at Voldemort's hands is treated as a significant loss and a marker of the war's severity. Her brother's death in the First Wizarding War adds quiet family tragedy.",
+          "film_portrayal": "No film material present.",
+          "difference": "All of this material is absent from the film corpus.",
+          "penalty_logic": "No score can be assigned.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Amelia Bones presiding over Harry's disciplinary hearing in OotP - her role as fair institutional authority is absent or transferred",
+        "Her death as a named, significant war casualty signaling Voldemort's personal involvement and escalating danger (HBP)",
+        "Her function as a figure who shakes Slughorn into rejoining the wizarding world's conflict",
+        "Her familial connection to Edgar Bones, adding depth to the First Wizarding War's toll"
+      ],
+      "score_caps_applied": [
+        "No caps formally applied - scores are 0 across all dimensions due to complete absence of film corpus material, not due to cap enforcement"
+      ],
+      "key_observations": "The film corpus provided contains zero scenes featuring Amelia Bones. It is impossible to evaluate faithfulness without any film material to compare against the book baseline. All dimension scores are 0 and all confidence levels are Low, reflecting the absence of evaluable evidence rather than a judgment that the film portrayal is unfaithful. If Amelia Bones does appear in the films (she briefly appears in OotP), that material was not included in the corpus and cannot be assessed here.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 4074,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "207f441a4e78"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 27
+  }
+}

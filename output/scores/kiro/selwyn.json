@@ -1,0 +1,99 @@
+{
+  "character": "Selwyn",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Selwyn is a Death Eater who appears in two distinct contexts: the aerial chase in DH7 (where Voldemort demands his wand) and the Lovegood house raid. At the Lovegood house he is the dominant, aggressive voice - shouting threats, calling Xenophilius a 'lying piece of filth', and delivering a coldly menacing ultimatum about Luna. He is volatile, threatening, and capable of calculated cruelty in the same breath.",
+          "film_portrayal": "The film corpus is entirely empty. Selwyn does not appear in any provided film scene.",
+          "difference": "The character is entirely absent from the films as represented in the corpus.",
+          "penalty_logic": "With zero film presence, no personality or voice can be evaluated. Score is 0 by necessity, not by comparison.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Selwyn serves two narrative functions: he is a Death Eater in Voldemort's aerial pursuit (his wand is demanded by Voldemort, indicating he is present and armed), and he is the lead aggressor in the Lovegood house raid - interrogating Xenophilius, issuing threats, and driving the scene's tension. He has clear agency: he shouts, threatens, and issues the ultimatum that forces Xenophilius to act.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "No film role or agency to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Selwyn's motivation is straightforwardly that of a Death Eater hunting Harry Potter. At the Lovegood house he is driven by the mission to capture Harry, and his rage at Xenophilius stems from believing he has been lured into a trap. No internal conflict is evident - he is single-mindedly threatening.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "No film motivation to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Selwyn has no arc - he is a flat functional character who appears briefly in two episodes without development or change.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "A flat arc in the books would normally score full points if flat in the films too, but there is no film presence at all to confirm even flatness.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Selwyn's only meaningful relational dynamic in the corpus is with his unnamed partner Death Eater at the Lovegood house - a functional working relationship where the second man is cooler and more tactical while Selwyn is the aggressive one. He also has an indirect connection to Umbridge via the Selwyn family name she claims.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "Complete absence.",
+          "penalty_logic": "No film relationship to evaluate.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Selwyn's book complexity is limited but present: he is volatile yet capable of cold calculation (the Luna ultimatum is both a threat and a negotiating tactic), and he operates as part of a two-man team with a contrasting dynamic. The Selwyn family name also connects him obliquely to pure-blood ideology via Umbridge's claim.",
+          "film_portrayal": "No film scenes provided.",
+          "difference": "All book material is lost.",
+          "penalty_logic": "The entire character is absent from the film corpus. All nuance, however limited, is lost.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Selwyn's role in the aerial chase over Little Whinging (DH Part 1) - absent from film corpus",
+        "Selwyn's lead role in the Lovegood house raid, including his aggressive interrogation of Xenophilius",
+        "The coldly menacing Luna ultimatum ('we'll see if we can spare a bit of your daughter for you to bury')",
+        "The two-Death-Eater dynamic at the Lovegood house (volatile Selwyn vs. cooler partner)",
+        "The indirect Selwyn family name connection to Umbridge's pure-blood ideology"
+      ],
+      "score_caps_applied": [
+        "No caps formally applied - score is 0 across all dimensions due to complete absence from film corpus, not due to cap logic"
+      ],
+      "key_observations": "Selwyn does not appear in any provided film scene. The score of 0 across all dimensions reflects the complete absence of film material, not a judgment that the film portrayal is actively unfaithful - it simply does not exist in the corpus. Confidence is Low across the board because no comparison is possible. In the books, Selwyn is a minor but functional Death Eater with a distinct aggressive voice and a specific narrative role at the Lovegood house; none of this is represented in the films as evidenced here.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2499,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "e4879a564b5b"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 7
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "character": "Jimmy Peakes",
+  "overall": {
+    "personality_voice": 0.0,
+    "narrative_role_agency": 0.0,
+    "motivations_internal_conflict": 0.0,
+    "character_arc": 0.0,
+    "key_relationships": 0.0,
+    "complexity_nuance_lost_material": 0.0,
+    "total": 0.0
+  },
+  "per_source": {
+    "comparative": {
+      "personality_voice": 0,
+      "narrative_role_agency": 0,
+      "motivations_internal_conflict": 0,
+      "character_arc": 0,
+      "key_relationships": 0,
+      "complexity_nuance_lost_material": 0,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Jimmy Peakes is a short but broad-chested third-year Beater selected for Gryffindor. His only characterizing trait is physical capability - he hits Bludgers ferociously, hard enough to raise a lump on Harry's head. He also acts as a message-carrier in one scene, delivering Dumbledore's note to Harry.",
+          "film_portrayal": "Jimmy Peakes does not appear in the film corpus at all.",
+          "difference": "The character is entirely absent from the films.",
+          "penalty_logic": "With zero film presence, no personality or voice can be evaluated. Score is 0 by default, not as a penalty for unfaithfulness but because there is nothing to compare.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Jimmy serves two minor functions: he is selected as a Beater for the Gryffindor Quidditch team (a plot-relevant decision by Harry), and he delivers Dumbledore's summons to Harry, which triggers a key plot moment in HBP.",
+          "film_portrayal": "Jimmy Peakes does not appear in the film corpus.",
+          "difference": "Both functions - Beater selection and message delivery - are absent or handled differently in the films.",
+          "penalty_logic": "No film material exists to score. Score is 0 by default.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No internal conflict or explicit motivation is established beyond wanting to play Quidditch for Gryffindor.",
+          "film_portrayal": "No film appearance.",
+          "difference": "Absent entirely.",
+          "penalty_logic": "No film material to evaluate. Score is 0 by default.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Jimmy Peakes has no meaningful arc. He is a flat background character who joins the team and appears once more as a messenger. His arc is intentionally flat.",
+          "film_portrayal": "No film appearance.",
+          "difference": "Absent entirely.",
+          "penalty_logic": "No film material to evaluate. Score is 0 by default.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "The only relationship suggested is a functional one with Harry as team captain. No emotional dynamic is established beyond Harry's mild satisfaction at selecting him.",
+          "film_portrayal": "No film appearance.",
+          "difference": "Absent entirely.",
+          "penalty_logic": "No film material to evaluate. Score is 0 by default.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Jimmy Peakes is a very minor character with minimal complexity. His defining traits are physical (short, broad-chested, powerful Bludger hit) and functional (messenger). No contradictions or nuance are established.",
+          "film_portrayal": "No film appearance.",
+          "difference": "Absent entirely.",
+          "penalty_logic": "No film material to evaluate. Score is 0 by default.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Jimmy Peakes's selection as Gryffindor Beater is not depicted in the films",
+        "His delivery of Dumbledore's summons to Harry (HBP) is absent or handled differently"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Jimmy Peakes does not appear in the film corpus at all. All dimension scores are 0 not as a faithfulness penalty but because there is no film material to evaluate against the book baseline. Confidence is Low across all dimensions for the same reason. He is a very minor book character with no arc, minimal personality, and two small functional roles, so his absence from the films, while a complete omission, does not represent a significant adaptation loss in terms of characterization depth.",
+      "meta": {
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.0",
+        "book_chars_sent": 2675,
+        "film_chars_sent": 0,
+        "aliases": [],
+        "corpus_hash": "35e1c914a888"
+      }
+    }
+  },
+  "meta": {
+    "screenplay_words": 0,
+    "book_mentions": 12
+  }
+}
