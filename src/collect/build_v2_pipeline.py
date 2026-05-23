@@ -519,8 +519,10 @@ def build_corpus(alias_map):
                 corpus.setdefault(char, {"screenplays": {}, "books": {}})
                 corpus[char]["screenplays"].setdefault(film, []).append(entry)
 
-    # Books
-    bk_dir = os.path.join(PARSED_DIR, "books")
+    # Books - prefer augmented data if available
+    bk_dir_augmented = os.path.join(PARSED_DIR, "books_augmented")
+    bk_dir = bk_dir_augmented if os.path.isdir(bk_dir_augmented) else os.path.join(PARSED_DIR, "books")
+    print(f"  Using book data from: {os.path.basename(bk_dir)}")
     for fname in sorted(os.listdir(bk_dir)):
         if not fname.endswith(".json"):
             continue
