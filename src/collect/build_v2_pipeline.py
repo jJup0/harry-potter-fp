@@ -421,7 +421,7 @@ def detect_characters(text, alias_map):
     found = set()
     text_lower = text.lower()
     for alias, canonical in alias_map.items():
-        if len(alias) < 4:
+        if len(alias) < 3:
             continue
         if re.search(r"\b" + re.escape(alias) + r"\b", text_lower):
             found.add(canonical)
