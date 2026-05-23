@@ -429,7 +429,32 @@ def split_paragraphs(body):
                 current.append(stripped)
         if current:
             paragraphs.append(" ".join(current))
-    return [p.strip() for p in paragraphs if p.strip()]
+    result = [p.strip() for p in paragraphs if p.strip()]
+    # Split long paragraphs at sentence boundaries
+    split = []
+    for p in result:
+        if len(p) <= 500:
+            split.append(p)
+        else:
+            split.extend(_split_long_paragraph(p))
+    return split
+
+
+def _split_long_paragraph(text):
+    """Split a long paragraph at the next sentence end after 500 chars."""
+    chunks = []
+    while len(text) > 500:
+        # Find next period/!/? followed by space or quote after position 500
+        m = re.search(r'[.!?]["\u201d]?\s', text[400:])
+        if m:
+            cut = 400 + m.end()
+            chunks.append(text[:cut].strip())
+            text = text[cut:].strip()
+        else:
+            break
+    if text:
+        chunks.append(text)
+    return chunks
 
 
 def detect_characters(text, alias_map):
