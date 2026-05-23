@@ -2,7 +2,7 @@
 
 scoring:
   # Backend: 'rule_based', 'openai', 'kiro', 'comparative'
-  backend: comparative
+  backend: kiro
 
   # Minimum total mentions (screen_time_words + book_mentions) to score a character
   min_mentions: 10
@@ -26,7 +26,7 @@ scoring:
 
   # LLM backend config
   llm:
-    model: gemma4:e4b
+    model: claude-sonnet-4.6
     api_base: http://localhost:11434/v1
     api_key: ollama
     timeout: 600
