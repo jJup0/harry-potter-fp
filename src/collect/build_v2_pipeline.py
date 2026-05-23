@@ -24,6 +24,7 @@ import json
 import os
 import re
 import yaml
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
@@ -301,28 +302,34 @@ def parse_v1_screenplay(text, alias_map):
 def parse_all_screenplays(alias_map):
     """Parse all screenplays using best available source."""
     print("\nStep 3: Parsing screenplays...")
+    tasks = []
     for film in FILMS:
         path, source = get_screenplay_path(film)
         if not path:
             print(f"  {film}: NO SOURCE FOUND")
             continue
+        tasks.append((film, path, source))
 
-        with open(path, encoding="utf-8") as f:
-            text = f.read()
+    with ProcessPoolExecutor() as pool:
+        futures = {pool.submit(_parse_one_screenplay, film, path, source, alias_map): film
+                   for film, path, source in tasks}
+        for future in as_completed(futures):
+            film, scenes, source = future.result()
+            total_dialogue = sum(len(s["dialogue"]) for s in scenes)
+            print(f"  {film}: {len(scenes)} scenes, {total_dialogue} dialogue lines ({source})")
+            out_path = os.path.join(PARSED_DIR, "screenplays", f"{film}.json")
+            with open(out_path, "w") as f:
+                json.dump({"film": film, "source": source, "scenes": scenes}, f, indent=2)
 
-        if source == "v2_pdf":
-            scenes = parse_v2_screenplay(text, alias_map)
-        else:
-            scenes = parse_v1_screenplay(text, alias_map)
 
-        total_dialogue = sum(len(s["dialogue"]) for s in scenes)
-        print(
-            f"  {film}: {len(scenes)} scenes, {total_dialogue} dialogue lines ({source})"
-        )
-
-        out_path = os.path.join(PARSED_DIR, "screenplays", f"{film}.json")
-        with open(out_path, "w") as f:
-            json.dump({"film": film, "source": source, "scenes": scenes}, f, indent=2)
+def _parse_one_screenplay(film, path, source, alias_map):
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    if source in ("v2_pdf", "v3_scriptslug"):
+        scenes = parse_v2_screenplay(text, alias_map)
+    else:
+        scenes = parse_v1_screenplay(text, alias_map)
+    return film, scenes, source
 
 
 # --- Step 4: Parse books (reuse v1 logic) ---
@@ -331,46 +338,54 @@ def parse_all_screenplays(alias_map):
 def parse_all_books(alias_map):
     """Parse all books from v1 text files."""
     print("\nStep 4: Parsing books...")
+    tasks = []
     for book in BOOKS:
         path = os.path.join(BOOKS_DIR, f"{book}.txt")
         if not os.path.exists(path):
             print(f"  {book}: NOT FOUND")
             continue
+        tasks.append((book, path))
 
-        with open(path, encoding="utf-8") as f:
-            text = f.read()
+    with ProcessPoolExecutor() as pool:
+        futures = {pool.submit(_parse_one_book, book, path, alias_map): book
+                   for book, path in tasks}
+        for future in as_completed(futures):
+            book, parsed_chapters = future.result()
+            total_paras = sum(len(ch["scenes"]) for ch in parsed_chapters)
+            print(f"  {book}: {len(parsed_chapters)} chapters, {total_paras} paragraphs")
+            out_path = os.path.join(PARSED_DIR, "books", f"{book}.json")
+            with open(out_path, "w") as f:
+                json.dump({"book": book, "chapters": parsed_chapters}, f, indent=2)
 
-        chapters = split_chapters(text)
-        parsed_chapters = []
-        for ch_idx, chapter in enumerate(chapters):
-            paragraphs = split_paragraphs(chapter["body"])
-            scenes = []
-            for p_idx, para in enumerate(paragraphs):
-                if len(para) < 10:
-                    continue
-                chars = detect_characters(para, alias_map)
-                scenes.append(
-                    {
-                        "paragraph_index": p_idx,
-                        "text": para,
-                        "characters_mentioned": chars,
-                        "has_dialogue": '"' in para or "\u201c" in para,
-                    }
-                )
-            parsed_chapters.append(
+
+def _parse_one_book(book, path, alias_map):
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    chapters = split_chapters(text)
+    parsed_chapters = []
+    for ch_idx, chapter in enumerate(chapters):
+        paragraphs = split_paragraphs(chapter["body"])
+        scenes = []
+        for p_idx, para in enumerate(paragraphs):
+            if len(para) < 10:
+                continue
+            chars = detect_characters(para, alias_map)
+            scenes.append(
                 {
-                    "chapter_number": ch_idx + 1,
-                    "chapter_title": chapter["title"],
-                    "scenes": scenes,
+                    "paragraph_index": p_idx,
+                    "text": para,
+                    "characters_mentioned": chars,
+                    "has_dialogue": '"' in para or "\u201c" in para,
                 }
             )
-
-        total_paras = sum(len(ch["scenes"]) for ch in parsed_chapters)
-        print(f"  {book}: {len(parsed_chapters)} chapters, {total_paras} paragraphs")
-
-        out_path = os.path.join(PARSED_DIR, "books", f"{book}.json")
-        with open(out_path, "w") as f:
-            json.dump({"book": book, "chapters": parsed_chapters}, f, indent=2)
+        parsed_chapters.append(
+            {
+                "chapter_number": ch_idx + 1,
+                "chapter_title": chapter["title"],
+                "scenes": scenes,
+            }
+        )
+    return book, parsed_chapters
 
 
 def split_chapters(text):
