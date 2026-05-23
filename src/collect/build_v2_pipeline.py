@@ -492,6 +492,7 @@ def build_corpus(alias_map):
 
     # Screenplays
     sp_dir = os.path.join(PARSED_DIR, "screenplays")
+    unmatched_speakers = {}  # speaker -> count
     for fname in sorted(os.listdir(sp_dir)):
         if not fname.endswith(".json"):
             continue
@@ -507,6 +508,16 @@ def build_corpus(alias_map):
                 speaker = d["speaker"].lower()
                 if speaker in alias_map:
                     chars_in_scene.add(alias_map[speaker])
+                elif " and " in speaker:
+                    # Joint speakers like "Fred and George"
+                    for part in speaker.split(" and "):
+                        part = part.strip()
+                        if part in alias_map:
+                            chars_in_scene.add(alias_map[part])
+                        else:
+                            unmatched_speakers[d["speaker"]] = unmatched_speakers.get(d["speaker"], 0) + 1
+                else:
+                    unmatched_speakers[d["speaker"]] = unmatched_speakers.get(d["speaker"], 0) + 1
             # Scan dialogue text and directions for character mentions
             scene_text = " ".join(
                 [d.get("text", "") for d in scene.get("dialogue", [])] +
@@ -526,6 +537,35 @@ def build_corpus(alias_map):
             for char in chars_in_scene:
                 corpus.setdefault(char, {"screenplays": {}, "books": {}})
                 corpus[char]["screenplays"].setdefault(film, []).append(entry)
+
+    if unmatched_speakers:
+        # Filter out obvious non-characters
+        garbage = {"cont", "more", "all three", "crowd", "all", "both", "everyone",
+                   "students", "others", "voice", "voices", "boy", "girl", "man", "woman",
+                   "omitted", "continued"}
+        real_unmatched = {}
+        for k, v in unmatched_speakers.items():
+            low = k.lower().strip(".")
+            if v < 2 or len(k) < 4:
+                continue
+            if low in garbage:
+                continue
+            # Skip stage direction artifacts (end with period, contain spaces suggesting directions)
+            if k.endswith(".") or k.endswith(":"):
+                continue
+            if any(x in low for x in ("montage", "intercut", "pov", "angle", "view",
+                                        "close on", "cut to", "at work", "afternoon",
+                                        "night", "in the stands")):
+                continue
+            # Skip unnamed extras
+            if any(x in low for x in ("wizard", "goblin", "witch", "snatcher",
+                                       "waitress", "barman", "driver")):
+                continue
+            real_unmatched[k] = v
+        if real_unmatched:
+            print(f"\n  WARNING: {len(real_unmatched)} unmatched speakers (not in alias map):")
+            for speaker, count in sorted(real_unmatched.items(), key=lambda x: -x[1])[:20]:
+                print(f"    {count:>3}x  {speaker}")
 
     # Books - prefer augmented data if available
     bk_dir_augmented = os.path.join(PARSED_DIR, "books_augmented")
