@@ -290,11 +290,12 @@ def main():
                 src_data["meta"]["corpus_hash"] = c_hash
         # Compute corpus word counts
         film_words = 0
+        char_aliases = {a.lower() for a in get_character_aliases(name)} | {name.lower()}
         for s in corpus.get("screenplays", []):
             for d in s.get("dialogue", []):
-                film_words += len(d.get("text", "").split())
-            for d in s.get("directions", []):
-                film_words += len(d.split()) if isinstance(d, str) else 0
+                speaker = d.get("speaker", "").lower()
+                if any(alias in speaker or speaker in alias for alias in char_aliases if len(alias) >= 3):
+                    film_words += len(d.get("text", "").split())
         book_words = sum(len(s.get("text", "").split()) for s in corpus.get("books", []))
         result = {
             "character": name,

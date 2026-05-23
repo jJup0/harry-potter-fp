@@ -53,15 +53,16 @@ async function run() {
   assert(ginnyHasJust, 'Ginny Weasley should have justifications');
   await page.screenshot({path: path.join(SCREENSHOT_DIR, '02_ginny_detail.png'), fullPage: false});
 
-  // Test 6: Set filter to min 1000 screenplay words
+  // Test 6: Set filter to ~1000 screenplay words (slider 57 on log scale)
   await page.evaluate(() => {
     const slider = document.getElementById('film-slider');
-    slider.value = 1000;
+    slider.value = 57;
     slider.dispatchEvent(new Event('input'));
   });
   await new Promise(r => setTimeout(r, 500));
   const filteredText = await page.$eval('#presence-count', el => el.textContent);
-  console.log(`✓ After filter (1000 screenplay words): ${filteredText}`);
+  const filmValue = await page.$eval('#film-value', el => el.value);
+  console.log(`✓ After filter (slider=57, ~${filmValue} words): ${filteredText}`);
   await page.screenshot({path: path.join(SCREENSHOT_DIR, '03_filtered.png'), fullPage: false});
 
   // Test 7: Plotly charts rendered
@@ -71,9 +72,9 @@ async function run() {
 
   // Test 8: Full page screenshot
   await page.evaluate(() => {
-    const slider = document.getElementById('film-slider');
-    slider.value = 0;
-    slider.dispatchEvent(new Event('input'));
+    document.getElementById('film-slider').value = 10;
+    document.getElementById('book-slider').value = 0;
+    applyFilter();
   });
   await new Promise(r => setTimeout(r, 500));
   await page.screenshot({path: path.join(SCREENSHOT_DIR, '04_full_page.png'), fullPage: true});

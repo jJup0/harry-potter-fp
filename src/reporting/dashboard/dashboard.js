@@ -29,9 +29,25 @@ function getFilteredNames(minBook, minFilm) {
     .map(function(c) { return c.name; });
 }
 
+function applyFilterFromInput() {
+  var minBook = parseInt(document.getElementById('book-value').value) || 0;
+  var minFilm = parseInt(document.getElementById('film-value').value) || 0;
+  doFilter(minBook, minFilm);
+}
+
 function applyFilter() {
-  var minBook = parseInt(document.getElementById('book-slider').value);
-  var minFilm = parseInt(document.getElementById('film-slider').value);
+  var bookSliderVal = parseInt(document.getElementById('book-slider').value);
+  var filmSliderVal = parseInt(document.getElementById('film-slider').value);
+  var maxBook = Math.max.apply(null, CHARACTER_DATA.map(function(c) { return c.book_mentions; }));
+  var maxFilm = Math.max.apply(null, CHARACTER_DATA.map(function(c) { return c.screenplay_words; }));
+  var minBook = bookSliderVal === 0 ? 0 : Math.max(25, Math.floor(Math.pow(10, bookSliderVal / 100 * Math.log10(maxBook)) / 25) * 25);
+  var minFilm = filmSliderVal === 0 ? 0 : Math.max(25, Math.floor(Math.pow(10, filmSliderVal / 100 * Math.log10(maxFilm)) / 25) * 25);
+  document.getElementById('book-value').value = minBook;
+  document.getElementById('film-value').value = minFilm;
+  doFilter(minBook, minFilm);
+}
+
+function doFilter(minBook, minFilm) {
   var validNames = new Set(getFilteredNames(minBook, minFilm));
 
   // Update bar charts
@@ -154,13 +170,22 @@ window.addEventListener('load', function() {
   var filmValue = document.getElementById('film-value');
 
   bookSlider.addEventListener('input', function() {
-    bookValue.textContent = this.value;
     applyFilter();
   });
   filmSlider.addEventListener('input', function() {
-    filmValue.textContent = this.value;
     applyFilter();
   });
+
+  // Manual number input
+  document.getElementById('book-value').addEventListener('change', function() {
+    applyFilterFromInput();
+  });
+  document.getElementById('film-value').addEventListener('change', function() {
+    applyFilterFromInput();
+  });
+
+  // Apply initial filter (default min 10 screenplay words)
+  applyFilter();
 
   // Search
   document.getElementById('char-search').addEventListener('input', applySearch);
