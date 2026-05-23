@@ -12,10 +12,17 @@ import time
 import urllib.request
 
 PROMPT_FILE = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt.txt"
+    os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt_3.txt"
 )
 MAX_RETRIES = 3
-REQUIRED_SCORE_KEYS = {"personality", "narrative_role", "motivations", "character_arc"}
+DIMENSIONS = {
+    "personality_voice": 25,
+    "narrative_role_agency": 20,
+    "motivations_internal_conflict": 15,
+    "character_arc": 15,
+    "key_relationships": 10,
+    "complexity_nuance_lost_material": 15,
+}
 RAW_DIR = "/tmp/fp_raw_responses"
 os.makedirs(RAW_DIR, exist_ok=True)
 
@@ -36,12 +43,12 @@ def _validate_response(parsed):
     scores = parsed.get("scores")
     if not isinstance(scores, dict):
         return "Missing or invalid 'scores' object"
-    for key in REQUIRED_SCORE_KEYS:
+    for key, max_val in DIMENSIONS.items():
         val = scores.get(key)
         if not isinstance(val, (int, float)):
             return f"scores.{key} missing or not a number"
-        if val < 0 or val > 25:
-            return f"scores.{key}={val} out of range 0-25"
+        if val < 0 or val > max_val:
+            return f"scores.{key}={val} out of range 0-{max_val}"
     return None
 
 
@@ -51,25 +58,12 @@ def score_character(char_name, corpus, config):
         book_text = _prepare_corpus(corpus.get("books", []), "book")
         film_text = _prepare_corpus(corpus.get("screenplays", []), "screenplay")
 
-        # No truncation - send full corpus to LLM
-
         user_msg = (
             f"## Character: {char_name}\n\n"
             f"## BOOK CORPUS (scenes where {char_name} appears in the books)\n\n{book_text}\n\n"
             f"## FILM CORPUS (scenes where {char_name} appears in the screenplays)\n\n{film_text}\n\n---\n\n"
-            f"## SCORING RUBRIC\n\n"
-            f"Score how faithfully the FILM portrays {char_name} compared to the BOOKS. "
-            f"Four dimensions, each 0-25:\n"
-            f"- personality: Are their traits, tone, reactions the same? (25=identical, 0=unrecognizable)\n"
-            f"- narrative_role: Is their story function preserved? (25=identical, 0=eliminated)\n"
-            f"- motivations: Are their goals/fears/conflicts the same? (25=intact, 0=opposite)\n"
-            f"- character_arc: Is their evolution the same? (25=faithful, 0=nonexistent)\n\n"
-            f"Provide DETAILED justifications for each dimension with multiple specific examples "
-            f"citing scenes, dialogue, or moments from the corpus.\n\n"
-            f"Respond with ONLY a JSON object matching this exact schema:\n"
-            f'{{"character": "{char_name}", "scores": {{"personality": N, "narrative_role": N, "motivations": N, "character_arc": N}}, '
-            f'"justification": {{"personality": "...", "narrative_role": "...", "motivations": "...", "character_arc": "..."}}, '
-            f'"key_observations": "..."}}'
+            f"Score how faithfully the FILM portrays {char_name} compared to the BOOKS using the rubric from your system prompt.\n\n"
+            f"Respond with ONLY a JSON object matching the schema from the rubric."
         )
 
         for attempt in range(1, MAX_RETRIES + 1):
@@ -78,7 +72,6 @@ def score_character(char_name, corpus, config):
             )
             response = _call_api(user_msg, llm_config)
             print(f"    got {len(response)} chars back")
-            # Save raw response
             raw_file = os.path.join(
                 RAW_DIR, f"{char_name.lower().replace(' ', '_')}_attempt{attempt}.txt"
             )
@@ -94,15 +87,14 @@ def score_character(char_name, corpus, config):
                 print(f"    schema invalid - {error}")
                 time.sleep(2)
                 continue
-            # Valid response
             scores = parsed["scores"]
             return {
                 "comparative": {
-                    "personality": scores["personality"],
-                    "narrative_role": scores["narrative_role"],
-                    "motivations": scores["motivations"],
-                    "character_arc": scores["character_arc"],
+                    **{k: scores[k] for k in DIMENSIONS},
                     "justification": parsed.get("justification", {}),
+                    "confidence": parsed.get("confidence", {}),
+                    "lost_or_transferred_material": parsed.get("lost_or_transferred_material", []),
+                    "score_caps_applied": parsed.get("score_caps_applied", []),
                     "key_observations": parsed.get("key_observations", ""),
                     "meta": {
                         "type": "comparative",
@@ -124,10 +116,7 @@ def score_character(char_name, corpus, config):
 def _fallback(char_name):
     return {
         "comparative": {
-            "personality": 0,
-            "narrative_role": 0,
-            "motivations": 0,
-            "character_arc": 0,
+            **{k: 0 for k in DIMENSIONS},
             "meta": {
                 "type": "comparative",
                 "model": None,
@@ -159,23 +148,11 @@ def _call_api(user_msg, config):
     if api_key.startswith("$"):
         api_key = os.environ.get(api_key[1:], api_key)
 
+    with open(PROMPT_FILE) as f:
+        system_prompt = f.read()
+
     messages = [
-        {
-            "role": "system",
-            "content": (
-                "You are a literary analyst scoring Harry Potter character faithfulness (book vs film). "
-                "You always respond with ONLY a JSON object using exactly these keys in scores: "
-                "personality, narrative_role, motivations, character_arc. Each 0-25. No other keys."
-            ),
-        },
-        {
-            "role": "user",
-            "content": "Score Minerva McGonagall. personality, narrative_role, motivations, character_arc (each 0-25).",
-        },
-        {
-            "role": "assistant",
-            "content": '{"character": "Minerva McGonagall", "scores": {"personality": 23, "narrative_role": 22, "motivations": 21, "character_arc": 20}, "justification": {"personality": "Stern but caring demeanor preserved", "narrative_role": "Authority/mentor role intact", "motivations": "Loyalty to Dumbledore and students clear", "character_arc": "Slightly compressed in later films"}, "key_observations": "One of the most faithfully adapted characters"}',
-        },
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_msg},
     ]
 
@@ -221,7 +198,6 @@ def _call_api(user_msg, config):
     if not raw:
         raise ValueError("Empty API response")
     data = json.loads(raw)
-    # ollama native returns message.content, openai returns choices[0].message.content
     if "message" in data:
         return data["message"]["content"]
     return data["choices"][0]["message"]["content"]

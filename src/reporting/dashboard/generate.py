@@ -20,18 +20,22 @@ SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "scre
 BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "dashboard.html")
 
-DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]
+DIMENSIONS = ["personality_voice", "narrative_role_agency", "motivations_internal_conflict", "character_arc", "key_relationships", "complexity_nuance_lost_material"]
 DIM_LABELS = {
-    "personality": "Personality",
-    "narrative_role": "Narrative Role",
-    "motivations": "Motivations",
+    "personality_voice": "Personality & Voice",
+    "narrative_role_agency": "Narrative Role & Agency",
+    "motivations_internal_conflict": "Motivations",
     "character_arc": "Character Arc",
+    "key_relationships": "Key Relationships",
+    "complexity_nuance_lost_material": "Complexity & Nuance",
 }
 DIM_COLORS = {
-    "personality": "#e74c3c",
-    "narrative_role": "#3498db",
-    "motivations": "#2ecc71",
+    "personality_voice": "#e74c3c",
+    "narrative_role_agency": "#3498db",
+    "motivations_internal_conflict": "#2ecc71",
     "character_arc": "#f39c12",
+    "key_relationships": "#9b59b6",
+    "complexity_nuance_lost_material": "#1abc9c",
 }
 
 
@@ -56,6 +60,7 @@ def load_justifications():
         justifications[data["character"]] = {
             "justification": comp.get("justification", {}),
             "key_observations": comp.get("key_observations", ""),
+            "confidence": comp.get("confidence", {}),
         }
     return justifications
 
@@ -92,7 +97,7 @@ def fig_ranking_bar(scores, title="Top", ascending=False):
             go.Bar(
                 name=DIM_LABELS[dim],
                 x=names,
-                y=[s["overall"][dim] for s in subset],
+                y=[s["overall"].get(dim, 0) for s in subset],
                 marker_color=DIM_COLORS[dim],
                 customdata=totals,
                 hovertemplate="%{x}<br>" + DIM_LABELS[dim] + ": %{y:.1f}<br>Total: %{customdata}<extra></extra>",
@@ -205,6 +210,7 @@ def build_charts_html(scores):
 
 
 def build_character_cards_html(scores, justifications):
+    dim_maxes = {"personality_voice": 25, "narrative_role_agency": 20, "motivations_internal_conflict": 15, "character_arc": 15, "key_relationships": 10, "complexity_nuance_lost_material": 15}
     parts = []
     for s in scores:
         name = s["character"]
@@ -215,12 +221,18 @@ def build_character_cards_html(scores, justifications):
 
         dim_html = ""
         for dim in DIMENSIONS:
-            score = s["overall"][dim]
-            text = just.get(dim, "No justification available.")
+            score = s["overall"].get(dim, 0)
+            max_score = dim_maxes[dim]
+            # Handle both old format (string) and new format (dict with sub-fields)
+            dim_just = just.get(dim, "No justification available.")
+            if isinstance(dim_just, dict):
+                text = dim_just.get("penalty_logic", dim_just.get("difference", "No justification available."))
+            else:
+                text = dim_just
             dim_html += (
                 f'<div class="dim-row">'
                 f'<span class="dim-name">{DIM_LABELS[dim]}</span>'
-                f'<span class="dim-score">{score:.0f}/25</span>'
+                f'<span class="dim-score">{score:.0f}/{max_score}</span>'
                 f'<p class="dim-text">{text}</p>'
                 f'</div>'
             )
@@ -249,17 +261,16 @@ def build_dashboard(scores):
     char_data = []
     for s in scores:
         m = s.get("meta", {})
-        char_data.append({
+        entry = {
             "name": s["character"],
-            "personality": s["overall"]["personality"],
-            "narrative_role": s["overall"]["narrative_role"],
-            "motivations": s["overall"]["motivations"],
-            "character_arc": s["overall"]["character_arc"],
             "total": s["overall"]["total"],
             "book_mentions": m.get("book_mentions", 0),
             "screenplay_words": m.get("screenplay_words", 0),
             "presence": m.get("book_mentions", 0) + m.get("screenplay_words", 0),
-        })
+        }
+        for dim in DIMENSIONS:
+            entry[dim] = s["overall"].get(dim, 0)
+        char_data.append(entry)
 
     html = template.replace("{{CSS}}", load_css())
     html = html.replace("{{JS}}", load_js())

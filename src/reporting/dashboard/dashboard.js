@@ -1,8 +1,18 @@
 var DIM_LABELS = {
-  personality: 'Personality',
-  narrative_role: 'Narrative Role',
-  motivations: 'Motivations',
-  character_arc: 'Character Arc'
+  personality_voice: 'Personality & Voice',
+  narrative_role_agency: 'Narrative Role & Agency',
+  motivations_internal_conflict: 'Motivations',
+  character_arc: 'Character Arc',
+  key_relationships: 'Key Relationships',
+  complexity_nuance_lost_material: 'Complexity & Nuance'
+};
+var DIM_MAXES = {
+  personality_voice: 25,
+  narrative_role_agency: 20,
+  motivations_internal_conflict: 15,
+  character_arc: 15,
+  key_relationships: 10,
+  complexity_nuance_lost_material: 15
 };
 
 function updateChart(chartId, count) {
@@ -39,7 +49,7 @@ function applyFilter() {
     }
 
     var names = filtered.map(function(c) { return c.name; });
-    var dims = ['personality', 'narrative_role', 'motivations', 'character_arc'];
+    var dims = ['personality_voice', 'narrative_role_agency', 'motivations_internal_conflict', 'character_arc', 'key_relationships', 'complexity_nuance_lost_material'];
     for (var i = 0; i < dims.length; i++) {
       var vals = filtered.map(function(c) { return c[dims[i]]; });
       Plotly.restyle(plotDiv, {y: [vals], x: [names]}, [i]);
@@ -101,12 +111,19 @@ function showCharacterPanel(charName) {
   var html = '<h2 class="panel-title">' + charName + '</h2>';
   html += '<div class="panel-score">' + char.total + ' / 100</div>';
 
-  var dims = ['personality', 'narrative_role', 'motivations', 'character_arc'];
+  var dims = ['personality_voice', 'narrative_role_agency', 'motivations_internal_conflict', 'character_arc', 'key_relationships', 'complexity_nuance_lost_material'];
   for (var i = 0; i < dims.length; i++) {
     var dim = dims[i];
+    var dimJust = justDims[dim];
+    var justText = '';
+    if (typeof dimJust === 'object' && dimJust !== null) {
+      justText = dimJust.penalty_logic || dimJust.difference || 'No justification available.';
+    } else {
+      justText = dimJust || 'No justification available.';
+    }
     html += '<div class="panel-dim">';
-    html += '<div class="panel-dim-header"><span class="panel-dim-name">' + DIM_LABELS[dim] + '</span><span class="panel-dim-score">' + char[dim] + '/25</span></div>';
-    html += '<p class="panel-dim-text">' + (justDims[dim] || 'No justification available.') + '</p>';
+    html += '<div class="panel-dim-header"><span class="panel-dim-name">' + DIM_LABELS[dim] + '</span><span class="panel-dim-score">' + (char[dim] || 0) + '/' + DIM_MAXES[dim] + '</span></div>';
+    html += '<p class="panel-dim-text">' + justText + '</p>';
     html += '</div>';
   }
   if (obs) {

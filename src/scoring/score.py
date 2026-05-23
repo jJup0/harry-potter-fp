@@ -35,7 +35,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-DIMENSIONS = ["personality", "narrative_role", "motivations", "character_arc"]
+DIMENSIONS = ["personality_voice", "narrative_role_agency", "motivations_internal_conflict", "character_arc", "key_relationships", "complexity_nuance_lost_material"]
 BACKENDS = ["comparative"]
 
 SKIP_CHARACTERS = {
@@ -295,14 +295,15 @@ def main():
 
     print(f"\nScored {len(all_scores)} characters total ({scored} new)")
     print(
-        f"{'Character':<30} {'Pers':>5} {'Role':>5} {'Motiv':>5} {'Arc':>5} {'TOTAL':>7}"
+        f"{'Character':<30} {'Pers':>5} {'Role':>5} {'Motiv':>5} {'Arc':>5} {'Rel':>5} {'Cmplx':>5} {'TOTAL':>7}"
     )
-    print("-" * 63)
+    print("-" * 75)
     for s in all_scores[:25]:
         o = s["overall"]
         print(
-            f"{s['character']:<30} {o['personality']:>5} {o['narrative_role']:>5} "
-            f"{o['motivations']:>5} {o['character_arc']:>5} {o['total']:>7}"
+            f"{s['character']:<30} {o['personality_voice']:>5} {o['narrative_role_agency']:>5} "
+            f"{o['motivations_internal_conflict']:>5} {o['character_arc']:>5} "
+            f"{o['key_relationships']:>5} {o['complexity_nuance_lost_material']:>5} {o['total']:>7}"
         )
     print(f"\nSaved to {combined_path}")
 
