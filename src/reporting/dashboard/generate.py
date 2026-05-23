@@ -283,6 +283,15 @@ def build_dashboard(scores):
     html = html.replace("{{CHARTS}}", build_charts_html(scores))
     html = html.replace("{{CHARACTER_CARDS}}", build_character_cards_html(scores, justifications))
 
+    # Not in films table
+    not_in_films = [s for s in scores if s["overall"]["total"] == 0 and s["meta"].get("book_mentions", 0) > 0]
+    not_in_films.sort(key=lambda s: -s["meta"]["book_mentions"])
+    nif_html = '<div class="not-in-films-list">'
+    for s in not_in_films:
+        nif_html += f'<div class="nif-row"><span class="nif-name">{s["character"]}</span><span class="nif-mentions">{s["meta"]["book_mentions"]} mentions</span></div>'
+    nif_html += '</div>'
+    html = html.replace("{{NOT_IN_FILMS}}", nif_html)
+
     return html
 
 

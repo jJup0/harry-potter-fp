@@ -22,6 +22,7 @@ Resume logic:
 
 import json
 import os
+import re
 import sys
 import yaml
 
@@ -97,7 +98,7 @@ def get_character_aliases(char_name):
 
 
 def load_corpus(char_name):
-    dirname = char_name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+    dirname = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
     base = os.path.join(CORPUS_DIR, dirname)
     corpus = {"books": [], "screenplays": []}
     for sub in ("books", "screenplays"):
@@ -120,7 +121,7 @@ def corpus_hash(corpus):
 
 def char_score_path(backend, char_name):
     """Path to individual character score file."""
-    safe = char_name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+    safe = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
     d = os.path.join(OUTPUT_DIR, backend)
     os.makedirs(d, exist_ok=True)
     return os.path.join(d, f"{safe}.json")

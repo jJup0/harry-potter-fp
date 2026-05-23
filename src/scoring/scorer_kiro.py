@@ -97,7 +97,7 @@ def _score_split_by_book(char_name, book_scenes, film_scenes, model):
         return []
 
     # Cache dir for per-book scores
-    safe_name = char_name.lower().replace(" ", "_").replace(".", "_").replace("'", "_")
+    safe_name = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
     cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "output", "scores", "kiro", f"{safe_name}_split")
     os.makedirs(cache_dir, exist_ok=True)
 
