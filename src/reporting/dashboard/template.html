@@ -7,6 +7,14 @@
 </head>
 <body>
 <h1>Harry Potter Character Faithfulness Dashboard</h1>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('fp')">FP Scores</button>
+  <button class="tab-btn" onclick="switchTab('cids')">CIDS (Damage)</button>
+</div>
+
+<!-- FP TAB -->
+<div id="tab-fp" class="tab-content active">
 <p class="subtitle">FP = Personality + Narrative Role + Motivations + Character Arc (each /25, total /100)</p>
 
 <div class="stats">
@@ -28,19 +36,6 @@
 
 {{CHARTS}}
 
-<!-- Character detail panel -->
-<div id="detail-panel" class="detail-panel">
-  <button class="panel-close" onclick="closePanel()">&times;</button>
-  <div id="panel-content"></div>
-</div>
-<div id="panel-overlay" class="panel-overlay" onclick="closePanel()"></div>
-
-<script>
-var CHARACTER_DATA = {{CHARACTER_DATA_JSON}};
-var JUSTIFICATIONS = {{JUSTIFICATIONS_JSON}};
-</script>
-<script>{{JS}}</script>
-
 <h2>All Characters - Click for Scoring Details</h2>
 <div class="search-bar">
   <input type="text" id="char-search" placeholder="Search characters..." autocomplete="off">
@@ -50,6 +45,34 @@ var JUSTIFICATIONS = {{JUSTIFICATIONS_JSON}};
 <h2>Not in Films - Most Book Mentions</h2>
 <p class="note">Characters with significant book presence but no film screenplay scenes. Ordered by book mentions.</p>
 {{NOT_IN_FILMS}}
+</div>
+
+<!-- CIDS TAB -->
+<div id="tab-cids" class="tab-content">
+<p class="subtitle">CIDS = (100 - FP) x Weighted Infidelity Exposure. Measures how much damage unfaithful portrayals cause.</p>
+
+{{CIDS_CHARTS}}
+
+<h2>CIDS Rankings - Click for Damage Details</h2>
+<div class="search-bar">
+  <input type="text" id="cids-search" placeholder="Search characters..." autocomplete="off">
+</div>
+<div id="cids-cards"></div>
+</div>
+
+<!-- Detail panel (shared) -->
+<div id="detail-panel" class="detail-panel">
+  <button class="panel-close" onclick="closePanel()">&times;</button>
+  <div id="panel-content"></div>
+</div>
+<div id="panel-overlay" class="panel-overlay" onclick="closePanel()"></div>
+
+<script>
+var CHARACTER_DATA = {{CHARACTER_DATA_JSON}};
+var JUSTIFICATIONS = {{JUSTIFICATIONS_JSON}};
+var CIDS_DATA = {{CIDS_DATA_JSON}};
+</script>
+<script>{{JS}}</script>
 
 <p class="note">
   Scores generated via comparative LLM analysis (book corpus vs film corpus).<br>

@@ -252,3 +252,115 @@ window.addEventListener('load', function() {
     showCharacterPanel(name);
   }
 });
+
+// --- Tabs ---
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
+  document.querySelectorAll('.tab-content').forEach(function(el) { el.classList.remove('active'); });
+  document.getElementById('tab-' + tab).classList.add('active');
+  document.querySelector('.tab-btn[onclick*="' + tab + '"]').classList.add('active');
+  // Trigger resize so plotly charts render correctly
+  window.dispatchEvent(new Event('resize'));
+}
+
+// --- CIDS cards ---
+function buildCidsCards() {
+  var container = document.getElementById('cids-cards');
+  if (!container || !window.CIDS_DATA) return;
+  var html = '';
+  CIDS_DATA.forEach(function(d) {
+    html += '<div class="cids-card" onclick="showCidsPanel(\'' + d.name.replace(/'/g, "\\'") + '\')">';
+    html += '<div class="cids-header">';
+    html += '<span class="cids-name">' + d.name + '</span>';
+    html += '<span class="cids-fp">FP: ' + d.fp_score + '</span>';
+    html += '<span class="cids-sdl">SDL: ' + d.structural_damage_level + '/5</span>';
+    html += '<span class="cids-score">' + Math.round(d.cids) + '</span>';
+    html += '</div></div>';
+  });
+  container.innerHTML = html;
+}
+
+function showCidsPanel(charName) {
+  var d = CIDS_DATA.find(function(c) { return c.name === charName; });
+  if (!d) return;
+
+  var html = '<h2 class="panel-title">' + charName + '</h2>';
+  html += '<div class="panel-score" style="color:#e74c3c">CIDS: ' + Math.round(d.cids) + '</div>';
+  html += '<div style="margin-bottom:16px;color:#aaa">';
+  html += 'FP: ' + d.fp_score + '/100 | Adjusted CIDS: ' + Math.round(d.adjusted_cids);
+  html += ' | Structural Damage: ' + d.structural_damage_level + '/5</div>';
+
+  html += '<div class="panel-dim"><div class="panel-dim-header"><span class="panel-dim-name">Main Damage Causes</span></div>';
+  html += '<ul style="color:#ccc;font-size:0.9em;line-height:1.5;padding-left:20px">';
+  (d.main_damage_causes || []).forEach(function(c) { html += '<li>' + c + '</li>'; });
+  html += '</ul></div>';
+
+  html += '<div class="panel-dim"><div class="panel-dim-header"><span class="panel-dim-name">Damaging Scenes (' + d.damaging_scenes.length + ')</span></div>';
+  d.damaging_scenes.slice(0, 10).forEach(function(s) {
+    html += '<div style="margin:10px 0;padding:8px;background:#0f1a30;border-radius:6px;font-size:0.85em">';
+    html += '<div style="color:#f0c75e;font-weight:bold">' + s.scene + '</div>';
+    html += '<div style="color:#aaa;margin-top:4px">Type: ' + s.damage_type + ' | Exposure: ' + s.exposure + ' | Impact: ' + s.impact_weight + '/5</div>';
+    html += '<div style="color:#ccc;margin-top:4px">' + s.explanation + '</div>';
+    html += '</div>';
+  });
+  if (d.damaging_scenes.length > 10) {
+    html += '<p style="color:#666;font-size:0.85em">...and ' + (d.damaging_scenes.length - 10) + ' more</p>';
+  }
+  html += '</div>';
+
+  document.getElementById('panel-content').innerHTML = html;
+  document.getElementById('detail-panel').classList.add('active');
+  history.replaceState(null, '', '#cids=' + encodeURIComponent(charName));
+  panelJustOpened = true;
+  setTimeout(function() { panelJustOpened = false; }, 100);
+}
+
+// CIDS search
+function applyCidsSearch() {
+  var query = document.getElementById('cids-search').value.trim().toLowerCase();
+  document.querySelectorAll('.cids-card').forEach(function(card) {
+    var name = card.querySelector('.cids-name').textContent.toLowerCase();
+    card.style.display = (!query || name.includes(query)) ? '' : 'none';
+  });
+}
+
+// Init CIDS
+window.addEventListener('load', function() {
+  buildCidsCards();
+  var cidsSearch = document.getElementById('cids-search');
+  if (cidsSearch) cidsSearch.addEventListener('input', applyCidsSearch);
+
+  // CIDS bar chart click handler
+  var cidsBarContainer = document.getElementById('container-cids-bar');
+  if (cidsBarContainer) {
+    var plotDiv = cidsBarContainer.querySelector('.js-plotly-plot');
+    if (plotDiv) {
+      plotDiv.on('plotly_click', function(data) {
+        if (data.points && data.points.length > 0) {
+          showCidsPanel(data.points[0].x);
+        }
+      });
+    }
+  }
+
+  // CIDS scatter click handler
+  var cidsScatterContainer = document.getElementById('container-cids-scatter');
+  if (cidsScatterContainer) {
+    var plotDiv = cidsScatterContainer.querySelector('.js-plotly-plot');
+    if (plotDiv) {
+      plotDiv.on('plotly_click', function(data) {
+        if (data.points && data.points.length > 0) {
+          showCidsPanel(data.points[0].hovertext || data.points[0].text);
+        }
+      });
+    }
+  }
+
+  // Open from URL hash
+  var hash = window.location.hash;
+  if (hash.startsWith('#cids=')) {
+    switchTab('cids');
+    var name = decodeURIComponent(hash.substring('#cids='.length));
+    showCidsPanel(name);
+  }
+});

@@ -16,6 +16,7 @@ PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".
 DASHBOARD_DIR = os.path.dirname(os.path.abspath(__file__))
 SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
 SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_kiro.json")
+CIDS_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "cids")
 SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
 BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "dashboard.html")
@@ -63,6 +64,18 @@ def load_justifications():
             "confidence": comp.get("confidence", {}),
         }
     return justifications
+
+
+def load_cids():
+    cids_data = []
+    for fname in sorted(os.listdir(CIDS_DIR)):
+        if not fname.endswith(".json") or fname.startswith("_"):
+            continue
+        with open(os.path.join(CIDS_DIR, fname)) as f:
+            data = json.load(f)
+        cids_data.append(data)
+    cids_data.sort(key=lambda x: x.get("cids", 0), reverse=True)
+    return cids_data
 
 
 def load_template():
@@ -167,6 +180,52 @@ def fig_score_distribution(scores):
     return fig
 
 
+def fig_cids_bar(cids_data):
+    subset = cids_data[:50]
+    names = [d["character"] for d in subset]
+    cids_vals = [d["cids"] for d in subset]
+    adj_vals = [d["adjusted_cids"] for d in subset]
+    sdl_vals = [d["structural_damage_level"] for d in subset]
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        name="CIDS",
+        x=names,
+        y=cids_vals,
+        marker_color="#e74c3c",
+        customdata=list(zip(adj_vals, sdl_vals)),
+        hovertemplate="%{x}<br>CIDS: %{y:.0f}<br>Adjusted: %{customdata[0]:.0f}<br>SDL: %{customdata[1]}<extra></extra>",
+    ))
+    fig.update_layout(
+        title="Character Infidelity Damage Score (CIDS) - Top 50",
+        xaxis_title="Character",
+        yaxis_title="CIDS",
+        height=500,
+    )
+    return fig
+
+
+def fig_cids_scatter(cids_data):
+    fig = px.scatter(
+        pd.DataFrame([{
+            "character": d["character"],
+            "fp_score": d["fp_score"],
+            "cids": d["cids"],
+            "structural_damage_level": d["structural_damage_level"],
+        } for d in cids_data]),
+        x="fp_score",
+        y="cids",
+        color="structural_damage_level",
+        hover_name="character",
+        color_continuous_scale="YlOrRd",
+        title="FP Score vs CIDS (colour = Structural Damage Level)",
+        labels={"fp_score": "FP Score", "cids": "CIDS", "structural_damage_level": "SDL"},
+        height=500,
+    )
+    fig.update_traces(marker=dict(size=10))
+    return fig
+
+
 # --- HTML builders ---
 
 
@@ -199,6 +258,34 @@ def build_charts_html(scores):
                 '<option value="20" selected>20</option>'
                 '<option value="50">50</option>'
                 '<option value="100">100</option>'
+                '<option value="all">All</option>'
+                '</select>'
+            )
+            parts.append(f'<div class="chart-container" id="container-{name}">{dropdown}{chart_html}</div>')
+        else:
+            parts.append(f'<div class="chart-container" id="container-{name}">{chart_html}</div>')
+
+    return "\n".join(parts)
+
+
+def build_cids_charts_html(cids_data):
+    fig_bar = fig_cids_bar(cids_data)
+    fig_scatter = fig_cids_scatter(cids_data)
+
+    parts = []
+    for name, fig in [("cids-bar", fig_bar), ("cids-scatter", fig_scatter)]:
+        fig.update_layout(
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(22,33,62,0.8)",
+            font_color="#eee",
+        )
+        chart_html = fig.to_html(full_html=False, include_plotlyjs=False)
+        if name == "cids-bar":
+            dropdown = (
+                '<select class="count-select" onchange="updateChart(\'cids-bar\', this.value)">'
+                '<option value="10">10</option>'
+                '<option value="20" selected>20</option>'
+                '<option value="50">50</option>'
                 '<option value="all">All</option>'
                 '</select>'
             )
@@ -255,6 +342,7 @@ def build_character_cards_html(scores, justifications):
 
 def build_dashboard(scores):
     justifications = load_justifications()
+    cids_data = load_cids()
     template = load_template()
 
     # Build character data for JS filtering
@@ -272,15 +360,28 @@ def build_dashboard(scores):
             entry[dim] = s["overall"].get(dim, 0)
         char_data.append(entry)
 
+    # Build CIDS data for JS
+    cids_js_data = [{
+        "name": d["character"],
+        "fp_score": d["fp_score"],
+        "cids": d["cids"],
+        "adjusted_cids": d["adjusted_cids"],
+        "structural_damage_level": d["structural_damage_level"],
+        "main_damage_causes": d.get("main_damage_causes", []),
+        "damaging_scenes": d.get("damaging_scenes", []),
+    } for d in cids_data]
+
     html = template.replace("{{CSS}}", load_css())
     html = html.replace("{{JS}}", load_js())
     html = html.replace("{{CHARACTER_DATA_JSON}}", json.dumps(char_data))
     html = html.replace("{{JUSTIFICATIONS_JSON}}", json.dumps(justifications))
+    html = html.replace("{{CIDS_DATA_JSON}}", json.dumps(cids_js_data))
     html = html.replace("{{NUM_SCORED}}", str(len(scores)))
     html = html.replace("{{HIGHEST_FP}}", f"{scores[0]['overall']['total']:.0f}")
     html = html.replace("{{LOWEST_FP}}", f"{scores[-1]['overall']['total']:.0f}")
     html = html.replace("{{AVERAGE_FP}}", f"{sum(s['overall']['total'] for s in scores) / len(scores):.0f}")
     html = html.replace("{{CHARTS}}", build_charts_html(scores))
+    html = html.replace("{{CIDS_CHARTS}}", build_cids_charts_html(cids_data))
     html = html.replace("{{CHARACTER_CARDS}}", build_character_cards_html(scores, justifications))
 
     # Not in films table
