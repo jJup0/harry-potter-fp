@@ -22,6 +22,7 @@ DIMENSIONS = {
     "complexity_nuance_lost_material": 15,
 }
 KIRO_CWD = "/tmp/harry-potter-scoring-calls"
+RAW_DIR = "/tmp/harry-potter-scoring-raw"
 os.makedirs(KIRO_CWD, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
