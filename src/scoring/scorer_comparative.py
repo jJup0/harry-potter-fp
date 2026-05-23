@@ -62,8 +62,18 @@ def score_character(char_name, corpus, config):
             f"## Character: {char_name}\n\n"
             f"## BOOK CORPUS (scenes where {char_name} appears in the books)\n\n{book_text}\n\n"
             f"## FILM CORPUS (scenes where {char_name} appears in the screenplays)\n\n{film_text}\n\n---\n\n"
-            f"Score how faithfully the FILM portrays {char_name} compared to the BOOKS using the rubric from your system prompt.\n\n"
-            f"Respond with ONLY a JSON object matching the schema from the rubric."
+            f"Score how faithfully the FILM portrays {char_name} compared to the BOOKS.\n\n"
+            f"Respond with ONLY a JSON object with these exact keys:\n"
+            f'{{"character": "{char_name}", '
+            f'"scores": {{"personality_voice": <0-25>, "narrative_role_agency": <0-20>, '
+            f'"motivations_internal_conflict": <0-15>, "character_arc": <0-15>, '
+            f'"key_relationships": <0-10>, "complexity_nuance_lost_material": <0-15>}}, '
+            f'"total": <sum 0-100>, '
+            f'"confidence": {{"global": "High/Medium/Low", ...per dimension...}}, '
+            f'"justification": {{...per dimension with book_baseline, film_portrayal, difference, penalty_logic, evidence_status...}}, '
+            f'"lost_or_transferred_material": [...], '
+            f'"score_caps_applied": [...], '
+            f'"key_observations": "..."}}'
         )
 
         for attempt in range(1, MAX_RETRIES + 1):
