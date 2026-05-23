@@ -15,7 +15,7 @@ import plotly.express as px
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")
 DASHBOARD_DIR = os.path.dirname(os.path.abspath(__file__))
 SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "comparative")
-SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_comparative.json")
+SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_kiro.json")
 SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
 BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "dashboard.html")
