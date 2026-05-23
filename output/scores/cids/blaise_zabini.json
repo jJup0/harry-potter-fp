@@ -1,0 +1,71 @@
+{
+  "character": "Blaise Zabini",
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 21.0,
+  "cids": 819.0,
+  "damage_per_exposure": 96.4,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 900.9,
+  "main_damage_causes": [
+    "Complete removal of the Slug Club train lunch scene eliminates Zabini's defining characterization, background, and plot function in a single cut",
+    "Repositioning as a generic Slytherin enforcer in the Battle of Hogwarts contradicts his book identity as a cold social operator rather than a physical threat",
+    "Loss of his verbal sparring with Malfoy and his perceptive political observations removes the intelligence and sharp-tongued haughtiness that distinguish him from Crabbe and Goyle"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 - Hogwarts Express compartment, Blaise's reaction to Malfoy's hints",
+      "book_baseline": "In the book, Zabini reacts to Malfoy's cryptic hints about not returning to Hogwarts with scathing skepticism: 'And you think you'll be able to do something for him? Sixteen years old and not even fully qualified yet?' He is sharp, cutting, and unimpressed - his haughtiness extends even to Malfoy.",
+      "film_portrayal": "Blaise merely 'snorts derisively' and shakes his head smiling when Malfoy hints at bigger things. He is reduced to a passive, mildly amused bystander rather than the sharp-tongued skeptic who verbally challenges Malfoy.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Zabini's cold, cutting verbal challenge to Malfoy is one of his most characterful book moments - it shows he is no sycophant and will not defer even to Malfoy. The film replaces this with a generic dismissive reaction, flattening his distinct voice."
+    },
+    {
+      "scene": "Film Scene 2 - Hogwarts Express, absence of Slughorn's compartment scene",
+      "book_baseline": "The entire Slug Club train lunch is a defining scene for Zabini: his famous beautiful mother with seven dead husbands, his cold indifference to Harry and Neville, his contemptuous look at Ginny after she defends Harry, his filthy look at Harry as they leave, and his role as the conduit through which Harry infiltrates the Slytherin compartment. This scene establishes his personality, background, social position, and his function as Harry's unwitting spy-vehicle.",
+      "film_portrayal": "The Slug Club train lunch is entirely absent from the film. Zabini has no role in it. The Slug Club dinner in Slughorn's office (Film Scene 5) replaces it but Zabini is a silent background presence with no lines or characterization.",
+      "damage_type": "nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "This is the single richest scene for Zabini in the entire book corpus. His background (the mother, the gold), his personality (cold, contemptuous, haughty), his relationship dynamics (disdain for Gryffindors, willingness to needle Ginny), and his plot function (leading Harry to the Slytherin compartment) are all lost. The film Zabini is a cipher where the book Zabini is a fully sketched minor character."
+    },
+    {
+      "scene": "Film Scene 2 - Hogwarts Express, Zabini's report to Malfoy absent",
+      "book_baseline": "After the Slug Club lunch, Zabini returns to the Slytherin compartment and gives Malfoy a detailed, indifferent report of who attended. His delivery is cool and precise. He volunteers the observation about Slughorn avoiding Death Eater connections ('I don't think Slughorn's interested in Death Eaters'), which is a perceptive, politically aware remark that shows his intelligence.",
+      "film_portrayal": "This entire exchange is absent. The Slytherin compartment scene is compressed - Malfoy's hints about 'bigger things' happen without the framing of Zabini's report, and Zabini contributes nothing substantive.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Zabini's report is his primary plot function in HBP - it is the reason Harry follows him and hides in the compartment. Without it, Zabini loses his narrative purpose entirely. His perceptive political observation about Slughorn also disappears, removing a layer of his characterization as shrewd and self-interested."
+    },
+    {
+      "scene": "Film Scene 12 - Room of Requirement, Blaise as action combatant",
+      "book_baseline": "Zabini has no presence in the Battle of Hogwarts in the book corpus provided. His role is confined to HBP social scenes. He is not depicted as a combatant flanking Malfoy in the Room of Requirement.",
+      "film_portrayal": "Blaise is one of Malfoy's two flanking enforcers throughout the Room of Requirement sequence - he takes aim at Harry, has his wand expelled by Harry, and is rescued from the Fiendfyre by Ron on a broomstick. He functions as a Crabbe/Goyle substitute (Crabbe being replaced by Goyle, Goyle taking Crabbe's death-by-Fiendfyre role).",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Zabini is repositioned from a cold, socially calculating Slug Club member into a generic Slytherin thug. This is a category error - his book characterization is defined by haughtiness and social cunning, not physical menace. Being cast as muscle contradicts his established persona and conflates him with Crabbe and Goyle, characters he is explicitly distinguished from in the books."
+    },
+    {
+      "scene": "Film Scene 5 - Slug Club dinner, Zabini silent",
+      "book_baseline": "At Slug Club gatherings Zabini is interrogated by Slughorn about his mother, is present and socially engaged (if coldly so), and is specifically named and addressed. He is one of Slughorn's genuine targets of interest.",
+      "film_portrayal": "Zabini is present at the dinner but has only one line in the entire potions class scene ('Have you ever taken it, sir?') and is otherwise silent and undifferentiated from background students at the dinner itself.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent with the overall pattern of erasure - Zabini's social presence and the detail of his mother's notoriety (which explains Slughorn's interest in him) are never established, making his inclusion in the Slug Club seem arbitrary."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

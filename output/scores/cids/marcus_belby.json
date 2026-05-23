@@ -1,0 +1,53 @@
+{
+  "character": "Marcus Belby",
+  "fp_score": 64.0,
+  "infidelity_score": 36,
+  "weighted_infidelity_exposure": 3.5,
+  "cids": 126,
+  "damage_per_exposure": 50.4,
+  "structural_damage_level": 1,
+  "structural_damage_multiplier": 1.0,
+  "adjusted_cids": 126,
+  "main_damage_causes": [
+    "Nervous, genuine social anxiety replaced with deadpan comedy, misrepresenting Belby's core trait",
+    "Physical distress scene (choking) entirely absent, removing the most memorable and characterizing book moment",
+    "Belby used as background comic relief rather than a minor but distinct character with real discomfort"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 - Belby's response about his uncle",
+      "book_baseline": "Belby is thin, nervous, and visibly distressed when asked about his uncle - he chokes on food, eyes streaming, and gives a strained, uncomfortable 'Not... not much of him, no' - conveying genuine family estrangement and social anxiety",
+      "film_portrayal": "Belby delivers a deadpan, almost comedic line about his dad thinking potions are rubbish and trails off into a joke about 'a stiff one at the end of the day' - reframing his discomfort as dry humor rather than genuine nervous distress",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Belby is genuinely awkward and pained about his family situation; the film turns this into a throwaway gag, losing the authentic social anxiety and the pathos of a kid clearly uncomfortable with his family estrangement"
+    },
+    {
+      "scene": "Film Scene 2 - Belby never looks up from his plate",
+      "book_baseline": "Belby's nervousness is expressed through physical distress (choking) and strained speech, not silent withdrawal",
+      "film_portrayal": "Stage direction notes Belby 'never once looks up from his plate' throughout the scene, reducing him to a background prop who delivers one joke line",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book gives Belby small but distinct reactive moments; the film collapses him into near-invisibility except for a single comedic beat, flattening what little characterization he has"
+    },
+    {
+      "scene": "Film Scene 2 - Slughorn's dessert joke at Belby's expense",
+      "book_baseline": "No such joke exists; Slughorn's interest in Belby is genuine (if transactional) - he's probing for a connection to Damocles Belby and is somewhat sympathetic when the connection proves weak",
+      "film_portrayal": "Slughorn makes a joke implying Belby is a greedy eater ('if Belby leaves you any'), using him as comic relief",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reduces Belby further to a sight gag, undermining even the minor dignity the book affords him as a nervous but earnest student"
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

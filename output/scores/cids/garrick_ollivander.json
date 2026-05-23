@@ -1,0 +1,98 @@
+{
+  "character": "Garrick Ollivander",
+  "fp_score": 71.0,
+  "infidelity_score": 29.0,
+  "weighted_infidelity_exposure": 18.5,
+  "cids": 536.5,
+  "damage_per_exposure": 71.5,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 670.6,
+  "main_damage_causes": [
+    "The Shell Cottage interrogation is gutted of its substantive wandlore content (twin cores, borrowed wand failure, Gregorovitch), removing Ollivander's most important plot function and his intellectual honesty about the limits of his knowledge",
+    "Ollivander's moral complexity \u2014 his quiet guilt over arming Voldemort, his sharp vigilance about wand misuse, and the unsettling quality that makes Harry distrust him \u2014 is largely absent, leaving a warmer and simpler figure than the books intend",
+    "The film repurposes Ollivander as a partial Hallows exposition vehicle (contradicting the book's separation of wandlore from Hallow-lore) and as a defeatist foil for Harry, both of which distort his characterisation and his structural role"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 Ollivander's first meeting with Harry",
+      "book_baseline": "Ollivander measures Harry precisely with a self-operating tape measure, explains wand cores in detail, runs through many wands methodically, and grows visibly happier as the pile mounts. He is meticulous, professional, and slightly unsettling in his intensity.",
+      "film_portrayal": "The measuring sequence is cut entirely. Ollivander hands Harry wands with almost no ceremony or explanation of cores. The methodical craft and professional ritual are replaced with a brief, impressionistic montage.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The measuring ritual and core-explanation establish Ollivander as a master craftsman with exacting standards. Losing it flattens him slightly but does not alter his core characterization."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Ollivander's reaction to Voldemort's wand",
+      "book_baseline": "Ollivander says softly 'I'm sorry to say I sold the wand that did it' and shakes his head with evident regret and moral weight, then spots Hagrid and pivots. He also pointedly interrogates Hagrid about his broken wand, showing sharpness and suspicion.",
+      "film_portrayal": "The apology about selling Voldemort's wand is cut entirely. The Hagrid interrogation ('But you don't use them?') is also absent. Ollivander moves straight from the twin-cores revelation to dismissing Harry.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Ollivander carries a quiet guilt about having armed Voldemort and a sharp moral vigilance about wand misuse (the Hagrid exchange). Both are defining character notes. Their absence makes him warmer and less morally complex than the book intends \u2014 the reader's unease about him ('Harry wasn't sure he liked Mr. Ollivander too much') is never earned in the film."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Closing line about Voldemort",
+      "book_baseline": "'He-Who-Must-Not-Be-Named did great things \u2014 terrible, yes, but great.' Harry shivered. He wasn't sure he liked Mr. Ollivander too much. The line is delivered after Ollivander has already unsettled Harry with the scar-touch and the twin-cores revelation, compounding the discomfort.",
+      "film_portrayal": "The line is present but the scar-touch ('Mr. Ollivander touched the lightning scar on Harry's forehead with a long, white finger') is absent, and the line lands without the preceding physical intrusion that makes it so disturbing.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The scar-touch is the physical embodiment of Ollivander's unsettling boundary-crossing fascination. Without it, the closing line reads as eccentric rather than genuinely disquieting."
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Ollivander tortured at Malfoy Manor",
+      "book_baseline": "Harry witnesses via his Voldemort-vision Ollivander being tortured with the Cruciatus Curse, screaming in unendurable agony, begging for mercy. He insists he did not lie and genuinely believed a different wand would work. The scene establishes his suffering and his integrity under duress.",
+      "film_portrayal": "Ollivander is propped up by Wormtail, appears emaciated but is not shown being actively tortured in the scene. He says 'There must be a way! I'll think of something else!' \u2014 which reads as desperate appeasement rather than principled insistence on his honesty.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book Ollivander maintains that he did not lie \u2014 he genuinely believed his advice was correct. The film's 'I'll think of something else' makes him sound like he is trying to placate Voldemort rather than defend his professional integrity. This subtly shifts him from a man of principle under torture to a frightened collaborator."
+    },
+    {
+      "scene": "Film Scene 9 \u2013 Shell Cottage interrogation: Deathly Hallows",
+      "book_baseline": "When Harry asks about the Deathly Hallows, Ollivander looks utterly bewildered and genuinely does not know what they are. Harry looks into his face and believes him. This is a significant plot beat: the world's foremost wandlore expert is ignorant of the Hallows.",
+      "film_portrayal": "Ollivander immediately describes all three Hallows in detail ('The Elder Wand, the Resurrection Stone and the Invisibility Cloak... to possess them all is to make oneself the Master of Death') before hedging that he puts no stock in the tale.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is a meaningful inversion. In the book, Ollivander's ignorance of the Hallows is a plot-relevant data point \u2014 wandlore and the Hallows are separate traditions, and even the greatest wandmaker doesn't know about them. The film makes him a partial exposition vehicle for the Hallows instead, which contradicts the book's careful separation of wandlore from Hallow-lore and removes a meaningful beat of Harry realising he must look elsewhere."
+    },
+    {
+      "scene": "Film Scene 9 \u2013 Shell Cottage interrogation: twin cores and borrowed wand omitted",
+      "book_baseline": "The Shell Cottage interrogation is extensive. Ollivander explains the twin-cores problem, confirms he told Voldemort to borrow another wand, admits he cannot explain why Harry's wand still beat the borrowed one, and discusses wand allegiance at length. This is the scene's primary dramatic and informational content.",
+      "film_portrayal": "The entire twin-cores discussion, Ollivander's confession about advising Voldemort, and his bewilderment at Harry's wand's behaviour are cut. The scene jumps straight to wand identification and then the Hallows.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the book this conversation is structurally important: it closes the loop on why Voldemort sought the Elder Wand (the borrowed wand also failed, so he needed something categorically different), and it shows Ollivander's intellectual honesty in admitting the limits of his knowledge. Cutting it removes Ollivander's most substantive contribution to the plot and transfers the Elder Wand exposition to a much thinner exchange."
+    },
+    {
+      "scene": "Film Scene 9 \u2013 Ollivander's closing warning ('you really don't stand a chance')",
+      "book_baseline": "At the end of the Shell Cottage scene, Ollivander is stricken and apologetic about having told Voldemort about Gregorovitch. He is frightened but not defeatist toward Harry. His final note is one of guilt and residual fascination with the Elder Wand.",
+      "film_portrayal": "Ollivander tells Harry 'I'm afraid you really don't stand a chance' \u2014 a line with no book equivalent. It frames him as defeatist and positions Harry's response ('Then I guess I'll just have to kill him before he finds me') as the heroic rebuttal to Ollivander's pessimism.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Ollivander never tells Harry he has no chance. His ambivalence is about the Elder Wand's power, not about Harry's prospects. The film uses him as a foil to generate a crowd-pleasing Harry line, which misrepresents his character and reduces him to a plot device."
+    },
+    {
+      "scene": "Film Scene 11 \u2013 Boathouse: 'Ollivander was quite explicit about that'",
+      "book_baseline": "Voldemort's reasoning about needing to kill the Elder Wand's master comes from his own deduction and from what Ollivander told him under torture about wand allegiance passing through murder. The book is careful that Ollivander gave Voldemort incomplete or uncertain information.",
+      "film_portrayal": "Voldemort states 'Ollivander was quite explicit about that' \u2014 that the Elder Wand belongs to whoever killed its last owner. This makes Ollivander the direct source of Voldemort's (incorrect) theory about wand mastery passing through murder.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "In the book, Ollivander told Voldemort about the Elder Wand's existence and Gregorovitch's rumoured possession of it, but the specific theory that mastery passes through killing is Voldemort's own (flawed) extrapolation. Making Ollivander 'quite explicit' about this overstates his culpability and misrepresents the book's careful distinction between what Ollivander knew and what Voldemort assumed."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

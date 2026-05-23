@@ -1,0 +1,71 @@
+{
+  "character": "Leanne",
+  "fp_score": 70.0,
+  "infidelity_score": 30.0,
+  "weighted_infidelity_exposure": 8.5,
+  "cids": 255.0,
+  "damage_per_exposure": 63.8,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 280.5,
+  "main_damage_causes": [
+    "Leanne's agency and functional witness role transferred to Hagrid at the scene, removing her contribution to the plot",
+    "Emotional depth of Leanne's distress and Hermione's compassionate response entirely cut, flattening the human aftermath",
+    "Leanne's detailed testimony - including the Imperius suspicion and her guilt - reduced to bare logistics in McGonagall's office"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (road outside Hogsmeade) - Leanne's warning line",
+      "book_baseline": "Leanne tries to physically grab the package from Katie to stop her delivering it, showing active concern and a sustained argument. She does not know what the package contains.",
+      "film_portrayal": "Leanne shouts 'I warned her! I warned her not to touch it!' - implying she warned Katie not to touch the necklace specifically, which she could not have known about before it was unwrapped.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The line makes Leanne sound prescient or inconsistent - she couldn't have known touching it was dangerous. Minor continuity damage to her characterization as a concerned but uninformed friend."
+    },
+    {
+      "scene": "Film Scene 2 (road outside Hogsmeade) - Leanne's emotional absence after Katie falls",
+      "book_baseline": "Leanne screams alongside Katie, seizes Katie's ankles trying to pull her down, then sobs uncontrollably, is comforted by Hermione, and provides the key witness account on the spot. She is emotionally central to the aftermath.",
+      "film_portrayal": "After her one warning line, Leanne is silent and passive. Hermione does not comfort her. The emotional aftermath with Leanne is entirely absent - no sobbing, no Hermione putting an arm around her.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Leanne's distress and Hermione's compassionate response to her are cut, flattening both characters in this moment and removing the human cost of the incident beyond the spectacle of Katie rising."
+    },
+    {
+      "scene": "Film Scene 2 (road outside Hogsmeade) - Leanne provides no witness information at the scene",
+      "book_baseline": "At the scene Leanne immediately tells Harry the package tore and points to it, enabling Harry to identify the necklace and prevent Ron from touching it. She is the functional witness who triggers Harry's deduction.",
+      "film_portrayal": "Hagrid takes charge and directs Harry to the package himself ('Don' go touchin' tha' but by the wrappin's'). Leanne contributes nothing to the discovery or handling of the necklace.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Leanne's role as the witness who enables Harry's identification of the necklace and his Malfoy deduction is transferred to Hagrid. This removes her functional contribution to the plot and diminishes her agency in the scene."
+    },
+    {
+      "scene": "Film Scene 3 (McGonagall's office) - Leanne does not give the full account",
+      "book_baseline": "Leanne gives a detailed, halting, tearful account to McGonagall covering: Katie returning from the bathroom with the package, seeming odd, the argument about delivering unknown objects, the tussle, and her guilt about not recognising the Imperius Curse. She is so overcome she cannot finish.",
+      "film_portrayal": "Leanne gives only two brief factual lines - Katie went to the loo, came back with the package, said it was important to deliver it. No mention of Katie seeming odd, no argument detail, no guilt about the Imperius Curse, no emotional breakdown.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film strips Leanne's testimony to bare plot logistics. Her guilt ('I bet she'd been Imperiused and I didn't realize'), her emotional collapse, and the detail that Katie 'looked all funny' are all lost, removing the human and investigative texture of the scene."
+    },
+    {
+      "scene": "Film Scene 3 (McGonagall's office) - Leanne does not mention Katie seeming Imperiused",
+      "book_baseline": "Leanne volunteers the crucial observation that Katie 'looked all funny' when she said she had to deliver the package, and then breaks down with guilt suspecting Katie was Imperiused and she failed to notice. This is key investigative information.",
+      "film_portrayal": "Leanne says only that Katie said 'it was important she deliver it' with no mention of Katie's odd demeanour or any suspicion of Imperius.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Imperius detail and Leanne's self-reproach are absent, reducing her from a guilt-stricken witness with insight into a passive information relay. The clue about Katie's altered state is lost from her testimony."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

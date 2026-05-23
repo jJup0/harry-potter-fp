@@ -1,0 +1,71 @@
+{
+  "character": "Padma Patil",
+  "fp_score": 68.0,
+  "infidelity_score": 32.0,
+  "weighted_infidelity_exposure": 4.5,
+  "cids": 144.0,
+  "damage_per_exposure": 48.0,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 158.4,
+  "main_damage_causes": [
+    "Padma's assertive, self-respecting personality (sustained frustration, direct verbal challenge, dignified exit) is compressed into near-invisibility",
+    "Her independent agency - choosing to leave Ron and find better company - is removed, reducing her to a passive background figure",
+    "The film treats her as interchangeable with Parvati and as a prop for the Ron/Hermione dynamic rather than a character with her own reactions and arc"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "GoF Film - Yule Ball entrance / Ron pushes Padma",
+      "book_baseline": "Padma notices Ron's shabby robes and looks unenthusiastic but is present and engaged enough to later ask Ron to dance.",
+      "film_portrayal": "Ron physically pushes Padma forward into the Great Hall without acknowledgment; she is treated as a prop from the first moment.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The push reduces Padma to a passive object rather than a person with her own reaction to a disappointing date, collapsing her characterization before it begins."
+    },
+    {
+      "scene": "GoF Film - Yule Ball sitting / Padma asks Ron to dance",
+      "book_baseline": "Padma sits with arms and legs crossed, throwing disgruntled looks at Ron, then directly asks 'Are you going to ask me to dance at all?' - assertive, self-respecting, and verbally confrontational.",
+      "film_portrayal": "Padma asks 'Are you going to ask me to dance or not?' but the scene is compressed and her frustration is underplayed; she receives almost no screen time or reaction shots compared to the book's sustained sulking and direct challenge.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book gives Padma a sustained, clearly characterized arc of mounting frustration culminating in a direct verbal challenge. The film compresses this to a single throwaway line, losing the personality behind it."
+    },
+    {
+      "scene": "GoF Film - Yule Ball aftermath / Padma leaves and is abandoned",
+      "book_baseline": "After Ron refuses to dance, Padma snaps 'Fine' and goes to join Parvati and the Beauxbatons boys - an active, dignified exit showing self-respect. Later she and Parvati are seen at a distant table with Beauxbatons boys, having found better company.",
+      "film_portrayal": "Padma simply heads off after Ron's refusal; the film cuts away immediately. Her finding her own enjoyment with Beauxbatons students - a small but meaningful beat of agency - is absent.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Padma reclaims her evening on her own terms. The film omits this, leaving her exit characterless and removing the only moment where she exercises independent agency."
+    },
+    {
+      "scene": "GoF Film - Post-lake task corridor / Padma warming to Ron",
+      "book_baseline": "After the second task, Padma makes a point of talking to Ron every time they pass in corridors, showing she is now keen on him due to his newfound attention - a small but distinct character beat showing she has her own social and romantic responses.",
+      "film_portrayal": "This beat is entirely absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "A minor but humanizing moment that shows Padma as someone with genuine reactions and social agency is simply cut, consistent with the film's pattern of treating her as a background figure."
+    },
+    {
+      "scene": "GoF Film - Yule Ball opening / Patil twins greeting",
+      "book_baseline": "Padma is described as looking just as pretty as Parvati in bright turquoise robes, with dark eyes that linger critically on Ron's frayed robes - she arrives with aesthetic presence and immediate perceptive judgment.",
+      "film_portrayal": "The twins say 'Hello, boys' and Padma says 'Don't you look dashing' - a generic, undifferentiated greeting that gives Padma no individual voice or the critical appraisal of Ron the book establishes.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book establishes Padma as perceptive and discerning from her first moment with Ron. The film replaces this with a bland pleasantry, flattening her introduction."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

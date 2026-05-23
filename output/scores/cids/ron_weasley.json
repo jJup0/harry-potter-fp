@@ -1,0 +1,188 @@
+{
+  "character": "Ron Weasley",
+  "fp_score": 65.0,
+  "infidelity_score": 35.0,
+  "weighted_infidelity_exposure": 69.0,
+  "cids": 2415.0,
+  "damage_per_exposure": 105.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 3018.8,
+  "main_damage_causes": [
+    "Systematic redistribution of Ron's competence and intelligence to Hermione, reducing him to comic relief across the series",
+    "Compression of Ron's internal psychological life\u2014particularly his insecurities, jealousy, and self-worth arc\u2014which are the engine of his character development",
+    "Underplaying the reciprocal quality of the Harry-Ron friendship, which in the books is a relationship between equals rather than a hero and his sidekick"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film \u2013 Ron on the train (first meeting)",
+      "book_baseline": "Ron is curious, warm, and immediately establishes a genuine peer friendship with Harry; he shares food, explains the wizarding world, and shows real personality (embarrassment about poverty, excitement about Chocolate Frogs).",
+      "film_portrayal": "The scene is compressed; Ron's characterisation is reduced to wide-eyed reactions and a few comic lines. His emotional warmth and the reciprocal quality of the friendship (Harry finding Ron 'just as interesting') is lost.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The train scene is the foundation of the Harry-Ron friendship. Flattening Ron into a reactor rather than an equal partner weakens the bond that drives the entire saga."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Wingardium Leviosa class",
+      "book_baseline": "Ron's 'It's not very good, is it?' retort to Hermione is private and defensive; his later comment ('She's a nightmare, honestly') is overheard and causes real hurt, establishing his capacity for thoughtless cruelty and genuine remorse.",
+      "film_portrayal": "Ron's comment is played purely for comedy with no visible remorse; the emotional weight of having hurt Hermione is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The books show Ron can be hurtful but feels it; the film strips the moral texture, making him a comic sidekick rather than a flawed but empathetic person."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Troll bathroom / aftermath",
+      "book_baseline": "Ron's quick thinking with Wingardium Leviosa saves Hermione; his subsequent 'Good of her to get us out of trouble like that' shows grudging respect and the beginning of genuine friendship.",
+      "film_portrayal": "Ron's role in defeating the troll is present but his reflective acknowledgement of Hermione's sacrifice is cut, reducing the emotional pivot that births the trio's friendship.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's aftermath is the moment Ron begins to genuinely value Hermione; losing it delays the emotional grounding of the trio."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Chess scene / sacrifice",
+      "book_baseline": "Ron's chess sacrifice is a fully reasoned, emotionally articulate act of self-sacrifice; he explains the strategy clearly and tells Harry it must be him who goes on.",
+      "film_portrayal": "The sacrifice is present and reasonably well-executed, though Ron's strategic intelligence and the emotional weight of his words to Harry are somewhat compressed.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is Ron's defining moment of book one. The film preserves the action but softens the intellectual and emotional clarity that makes it heroic rather than merely dramatic."
+    },
+    {
+      "scene": "CoS Film \u2013 Flying car / Whomping Willow",
+      "book_baseline": "Ron is the one who suggests and executes the flying car plan; he shows initiative and takes responsibility.",
+      "film_portrayal": "Reasonably faithful, though Ron's agency in the decision is slightly backgrounded.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression but Ron's leadership in the decision is present enough not to constitute major damage."
+    },
+    {
+      "scene": "CoS Film \u2013 Slug Club / Polyjuice planning",
+      "book_baseline": "Ron is an active co-planner of the Polyjuice scheme; he contributes ideas, executes his part, and his Crabbe impersonation is played for genuine tension.",
+      "film_portrayal": "Ron's contributions to the plan are present but he is increasingly positioned as the comic foil while Hermione drives the intellectual work.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "A pattern begins here of redistributing Ron's competence to Hermione, which accumulates across films into a significant distortion."
+    },
+    {
+      "scene": "PoA Film \u2013 Shrieking Shack confrontation",
+      "book_baseline": "Ron, on a broken leg, stands up to Black: 'If you want to kill Harry, you'll have to kill us too.' This is one of his bravest moments, showing fierce loyalty despite physical pain.",
+      "film_portrayal": "The line is present but Ron's physical condition and the full weight of his defiance are underplayed; the scene moves quickly past his courage.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The books establish Ron's courage as equal to Harry's in this moment. The film's compression diminishes one of his most important character beats."
+    },
+    {
+      "scene": "GoF Film \u2013 Yule Ball / Ron's jealousy of Krum",
+      "book_baseline": "Ron's jealousy is portrayed with psychological complexity: he is hurt, confused about his own feelings for Hermione, and genuinely inarticulate about it. His row with Hermione is painful and revealing for both.",
+      "film_portrayal": "Ron's jealousy is played primarily for comedy ('He's a great big... ugly... er...'); the emotional undercurrent of his unacknowledged feelings for Hermione is largely absent.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Yule Ball is the first major signal of Ron's romantic feelings. Reducing it to comedy delays and weakens the emotional arc that culminates in DH."
+    },
+    {
+      "scene": "GoF Film \u2013 Ron's apology to Harry after the first task",
+      "book_baseline": "Ron's apology is awkward but genuine; Harry's response ('Forget it') and Ron's visible relief establish the depth of their friendship and Ron's capacity for self-awareness.",
+      "film_portrayal": "The reconciliation is present but brief; Ron's emotional journey through jealousy and shame is compressed into a few lines.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The books use this reconciliation to show Ron's growth; the film treats it as a plot beat rather than a character moment."
+    },
+    {
+      "scene": "OotP Film \u2013 Ron as prefect",
+      "book_baseline": "Ron's prefect badge is a significant moment: Harry's complicated feelings, Ron's pride and insecurity, and the dynamic shift in their friendship are all explored.",
+      "film_portrayal": "The prefect subplot is present but Ron's internal experience of it\u2014his pride, his awareness that Harry expected it, his gratitude\u2014is largely absent.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's prefect status is one of the few moments he achieves something Harry doesn't; losing its emotional texture removes a key beat in his self-worth arc."
+    },
+    {
+      "scene": "OotP Film \u2013 Ron's Quidditch Keeper arc",
+      "book_baseline": "Ron's Keeper storyline is a sustained arc about confidence, self-doubt, and the psychological effect of the Horcrux-adjacent locket (later) and peer pressure. His eventual success is earned.",
+      "film_portrayal": "The Quidditch arc is compressed; Ron's psychological struggle is present but the sustained nature of his self-doubt and the specificity of his improvement are lost.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The books use Quidditch to develop Ron's confidence arc across multiple books; the film's compression reduces it to a single-film subplot."
+    },
+    {
+      "scene": "HBP Film \u2013 Ron under love potion / hospital scene",
+      "book_baseline": "Ron's poisoning and recovery include the crucial 'Er-my-nee' moment and Hermione's hand-holding, which are emotionally resonant and advance their relationship naturally.",
+      "film_portrayal": "The scene is present and reasonably faithful; the 'Er-my-nee' moment is included.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; minor compression only."
+    },
+    {
+      "scene": "HBP Film \u2013 Ron and Lavender relationship",
+      "book_baseline": "Ron's relationship with Lavender is portrayed with psychological complexity: genuine physical attraction, emotional immaturity, and the dawning realisation that he wants Hermione. His cruelty to Hermione during this period is shown as genuinely hurtful.",
+      "film_portrayal": "The Lavender subplot is present but Ron's internal conflict and the specific cruelty of his behaviour toward Hermione are softened; it reads more as comic subplot than character study.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The books use the Lavender arc to show Ron's emotional immaturity and the cost of his avoidance of his real feelings. The film's lighter treatment weakens the payoff of the Ron-Hermione relationship."
+    },
+    {
+      "scene": "DH Part 1 Film \u2013 Ron's departure from the tent",
+      "book_baseline": "Ron's departure is a sustained, psychologically detailed breakdown driven by the Horcrux's amplification of his deepest insecurities (being overshadowed, unloved, second-best). His words to Harry are specific and devastating.",
+      "film_portrayal": "The departure is present and the Horcrux's influence is shown, but the specificity of Ron's insecurities and the full emotional violence of the argument are compressed.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Ron's darkest moment and the culmination of his self-worth arc. Compressing it reduces the impact of his return and the Horcrux's destruction."
+    },
+    {
+      "scene": "DH Part 1 Film \u2013 Ron destroying the locket Horcrux",
+      "book_baseline": "Ron's destruction of the locket is his defining heroic act: he faces his deepest fears (being unloved, overshadowed by Harry, rejected by Hermione) and overcomes them. The visions are specific and psychologically precise.",
+      "film_portrayal": "The scene is present and the visions are shown, but the full psychological specificity of Ron's fears and the emotional weight of his triumph are somewhat diluted by the visual spectacle.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the climax of Ron's entire character arc. The film preserves the action but the internal victory is less clearly articulated, reducing the cathartic payoff."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 Ron and Hermione kiss (Chamber of Secrets)",
+      "book_baseline": "The kiss follows Ron's spontaneous concern for the house-elves, showing his moral growth; Hermione is so moved she kisses him. The moment is earned by Ron's character development.",
+      "film_portrayal": "The kiss is present and the house-elf motivation is retained, but the emotional build-up and the specific quality of Ron's growth that makes Hermione's response credible are compressed.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The payoff of the Ron-Hermione relationship depends on Ron's demonstrated growth. Compressing the lead-up weakens the emotional logic of the moment."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 Ron's role in the final battle",
+      "book_baseline": "Ron is an active, courageous participant throughout the battle; he and Hermione act as a team, and his concern for the house-elves and his tactical thinking are on display.",
+      "film_portrayal": "Ron is present but increasingly reactive; several of his book moments (including specific acts of courage and tactical contribution) are either cut or given to other characters.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "In the final book Ron is Harry's equal partner; in the film he is increasingly a supporting presence, which undermines the trilogy-long arc of his development."
+    },
+    {
+      "scene": "Across multiple films \u2013 redistribution of Ron's competence to Hermione",
+      "book_baseline": "Ron has specific areas of competence: chess, Quidditch knowledge, wizarding world expertise, tactical thinking, and emotional intelligence in key moments. These are distributed across the trio.",
+      "film_portrayal": "Many of Ron's competent moments are either cut or transferred to Hermione (e.g., identifying Devil's Snare in PS/SS, various tactical suggestions in later films), reinforcing a pattern where Ron exists primarily as comic relief.",
+      "damage_type": "personality/voice",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most systemic damage to Ron's character across the adaptation. The cumulative effect is that film-Ron lacks the competence and respect that book-Ron earns, making his arc less credible and his friendship with Harry less equal."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

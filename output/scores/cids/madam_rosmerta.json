@@ -1,0 +1,80 @@
+{
+  "character": "Madam Rosmerta",
+  "fp_score": 68.0,
+  "infidelity_score": 32.0,
+  "weighted_infidelity_exposure": 23.5,
+  "cids": 752.0,
+  "damage_per_exposure": 88.5,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 940.0,
+  "main_damage_causes": [
+    "Rosmerta's agency as the curious, question-driving civilian voice in the PoA pub scene is transferred to the teachers, reducing her from a narrative engine to a reactive audience member",
+    "Her warm personal history with the Marauders is cut, removing the emotional grounding that makes her defence of Sirius and her later shock meaningful",
+    "Her entire HBP arc as an Imperius victim with direct plot function in the assassination attempts is absent, eliminating her only major narrative role across the saga"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Rosmerta confronts Fudge outside the pub",
+      "book_baseline": "In the book the conversation happens inside the Three Broomsticks at a table; Rosmerta serves drinks, participates as a curious and warm host, and the children overhear from under the table. The setting is intimate and accidental.",
+      "film_portrayal": "The conversation begins outside in the street, with Rosmerta as a passive recipient being led inside by Fudge. The accidental eavesdropping setup is replaced by Harry actively following them upstairs into a back room.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The shift in setting is minor but removes the organic, incidental quality of the book scene. Rosmerta loses her role as the natural host of the space; instead she is led around by Fudge. Low damage overall."
+    },
+    {
+      "scene": "Film Scene 2 - Rosmerta defends Sirius aggressively and dismissively",
+      "book_baseline": "In the book Rosmerta expresses genuine surprise and difficulty believing Sirius turned dark ('I still have trouble believing it... I'd have said you'd had too much mead'). She is curious, emotionally engaged, and asks probing questions throughout - she drives much of the conversation forward with her interest.",
+      "film_portrayal": "Rosmerta opens by flatly dismissing the Ministry's account as 'rot' and 'hearsay', citing the Daily Prophet and asserting Black would never have gone dark. She is combative and declarative rather than curious and emotionally conflicted.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Rosmerta is warm, curious, and emotionally nuanced - she finds it hard to believe but is open to being persuaded. The film turns her into a skeptic who lectures the Ministry. This flattens her personality and removes the emotional texture of her disbelief."
+    },
+    {
+      "scene": "Film Scene 2 - Rosmerta's role as conversation driver is stripped",
+      "book_baseline": "Rosmerta asks a long series of questions that structure the entire exposition: about the Fidelius Charm, about Black being Secret-Keeper, about Pettigrew, about whether Black is mad, about his plans. She is the engine of the scene, drawing out information through genuine curiosity.",
+      "film_portrayal": "Rosmerta asks only two short questions ('What could be worse?' and 'Peter Pettigrew?'). McGonagall and Fudge carry almost all the dialogue. Rosmerta is reduced to a reactive audience member.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Rosmerta's function in the book scene is substantial - she is the curious civilian voice that draws out the full backstory for the reader. Stripping her questions transfers her narrative agency to the teachers and significantly diminishes her presence and purpose in the scene."
+    },
+    {
+      "scene": "Film Scene 2 - Rosmerta's personal memory of Sirius and James is cut",
+      "book_baseline": "Rosmerta recalls Sirius and James warmly: 'Never saw one without the other... they used to make me laugh. Quite the double act, Sirius Black and James Potter!' This establishes her as someone with genuine personal history with the Marauders and gives the scene emotional weight.",
+      "film_portrayal": "This memory is entirely absent. Rosmerta has no personal recollection of Sirius and James as a pair. Her connection to that era is not established.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The personal memory humanises Rosmerta and deepens the tragedy of Sirius's apparent betrayal. Its absence makes her defence of Sirius feel abstract and political rather than rooted in lived experience, weakening both her characterisation and the emotional resonance of the scene."
+    },
+    {
+      "scene": "Film Scene 2 - Rosmerta's reaction to learning Harry is Sirius's godfather",
+      "book_baseline": "In the book this revelation is not the closing beat of the scene for Rosmerta; she continues asking questions after it, including about whether Black is mad and what he plans to do. The godfather detail is one of several revelations she absorbs.",
+      "film_portrayal": "The godfather revelation is the final dramatic beat of the scene and Rosmerta's last word is simply 'Harry' - a single stunned utterance. The scene ends there for her.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. The film uses Rosmerta as a vehicle for audience reaction rather than a character with her own ongoing curiosity. Small damage but consistent with the broader pattern of reducing her to a reactive presence."
+    },
+    {
+      "scene": "Film - Rosmerta's HBP role entirely absent",
+      "book_baseline": "In HBP Rosmerta has a significant arc: she is placed under the Imperius Curse by Malfoy, used to pass the cursed necklace to Katie Bell and poison the mead intended for Dumbledore, tips Malfoy off when Dumbledore leaves school, and is present on the street when Harry and Dumbledore return. Dumbledore himself deduces her involvement with compassion ('poor Rosmerta'). Harry then informs McGonagall of her curse. She is a victim with real plot function.",
+      "film_portrayal": "This entire arc is absent from the film corpus provided. Rosmerta does not appear in the HBP film material shown.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Rosmerta's HBP role is her most dramatically significant appearance in the entire series. Her victimisation under Imperius, her unwilling complicity in two near-murders, and her presence at the climactic return to Hogsmeade are all lost. This removes her only real narrative arc and eliminates her from the plot mechanics of HBP entirely."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

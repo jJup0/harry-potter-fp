@@ -1,0 +1,134 @@
+{
+  "character": "Lily Potter",
+  "fp_score": 52.0,
+  "infidelity_score": 48.0,
+  "weighted_infidelity_exposure": 38.0,
+  "cids": 1824.0,
+  "damage_per_exposure": 135.1,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 2736.0,
+  "main_damage_causes": [
+    "Lily's defining act of sacrificial agency -- her repeated refusals and physical shielding of Harry -- is never dramatised on screen across the entire series, only referenced in dialogue, removing the audience's direct witness to the saga's moral and narrative foundation.",
+    "The compression of Snape's memory sequence in DH1 eliminates Lily's voice, wit, moral courage, and agency almost entirely, reducing her from a principled, complex young woman to a series of silent images, which fatally undermines both her characterisation and Snape's arc.",
+    "A consistent pattern across multiple films of reassigning Lily's functional/tactical agency to James or other characters while retaining only her emotional register, reinforcing her as a feeling symbol rather than an acting person."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film - Petunia's speech about Lily",
+      "book_baseline": "Petunia's rant includes 'I was the only one who saw her for what she was -- a freak!' and bitterness about parents favouring Lily, establishing deep sibling resentment rooted in jealousy and exclusion.",
+      "film_portrayal": "Petunia says 'My perfect sister being who she was' and 'my mother and father were so proud' -- softening the word 'freak' into 'perfect sister', reframing Petunia's jealousy as wounded pride rather than contemptuous resentment. The venom is diluted.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tonal shift in how Lily is framed by Petunia. The book's 'freak' from Petunia's own mouth is harsher and more revealing of the Evans family dynamic. Film softens it slightly but the core beat survives."
+    },
+    {
+      "scene": "PS/SS Film - Mirror of Erised / Voldemort temptation",
+      "book_baseline": "The Mirror of Erised shows Harry his family. Voldemort does not appear in the mirror or offer to resurrect James and Lily as a temptation. Harry's desire is established earlier, separately, as a private grief.",
+      "film_portrayal": "Voldemort uses the mirror to show Harry his parents and offers to bring them back: 'Would you like to see your mother and father again? Together, we can bring them back.' James and Lily appear in the reflection as a manipulation tool.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film instrumentalises Lily (and James) as a temptation device for Voldemort's manipulation, which has no book basis. This reduces Lily to a bargaining chip and misrepresents Harry's relationship to his parents' memory -- in the books Harry never wavers toward Voldemort over his parents. It also cheapens the Mirror's earlier emotional resonance by retroactively making it a trap."
+    },
+    {
+      "scene": "PoA Film - Lupin's bridge speech about Lily",
+      "book_baseline": "The book does not contain this scene. Lupin's characterisation of Lily is conveyed through scattered references (Three Broomsticks, Pensieve). Lily's kindness is shown through her actions, not summarised by another character.",
+      "film_portrayal": "Lupin delivers an extended eulogy: 'She was not only a singularly gifted witch but an uncommonly kind woman. She had a way of seeing the beauty in whoever she met, even -- and perhaps most especially -- when that person couldn't see it in themselves.' This is original film dialogue.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This is actually a net positive addition in isolation -- it gives Lily characterisation the films otherwise lack. It is not unfaithful in a damaging sense; it adds rather than contradicts. Scored minimally only because it replaces the more complex, earned characterisation from the Pensieve with a tidy summary, slightly flattening her into a saint figure. Not a significant damage source."
+    },
+    {
+      "scene": "GoF Film - Lily's spirit at the Priori Incantatem",
+      "book_baseline": "Lily's echo speaks quietly and practically to Harry: she tells him when the connection breaks they will linger only moments, instructs him to get to the Portkey, and asks if he understands. James's echo speaks first with the same instruction. Both are calm, purposeful, parental.",
+      "film_portrayal": "Lily's spirit says only: 'Let go. Sweetheart, you're ready. Let go! Let go!' -- urgent, emotional, but stripped of the practical guidance. James gives the tactical instruction ('when the connection is broken, you must get to the Portkey'). Lily is reduced to emotional encouragement only.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "In the book both parents share the practical and emotional roles equally. The film reassigns the functional/tactical agency to James and gives Lily only the emotional register, reinforcing a gendered split (father = action, mother = feeling) that the book deliberately avoids. Lily's competence and clarity even in death is diminished."
+    },
+    {
+      "scene": "HBP Film - Slughorn's memory / Lily characterisation",
+      "book_baseline": "Slughorn describes Lily as 'one of the brightest I ever taught. Vivacious, you know. Charming girl... Very cheeky answers I used to get back too.' He also praises her Potions talent specifically. Her wit and intellectual sharpness are foregrounded.",
+      "film_portrayal": "Slughorn calls her 'exceedingly bright' and 'Lovely Lily' but the 'cheeky answers' and 'vivacious' qualities are absent. The fish-Francis memory adds emotional warmth but frames Lily primarily through her sacrifice and Slughorn's grief rather than her personality.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film retains Lily's brightness and warmth but loses her wit and cheekiness -- the qualities that make her a full person rather than a martyred ideal. Minor but consistent with a broader pattern of flattening her into pure virtue."
+    },
+    {
+      "scene": "DH1 Film - Snape's memories sequence (Lily's childhood / Hogwarts years)",
+      "book_baseline": "The Pensieve sequence in 'The Prince's Tale' shows: Lily's feisty reaction to being called a witch ('That's not a very nice thing to say!'), her moral courage in confronting Snape about Dark Magic and his friends, her sharp tongue ending the friendship ('You call everyone of my birth Mudblood'), her complex navigation of the Snape/James dynamic, and her agency throughout. She is funny, principled, and clear-eyed.",
+      "film_portrayal": "The film compresses this into brief, largely wordless vignettes: a flower trick, lying by a river, a silent argument in a courtyard, Lily walking toward James. Lily speaks almost no dialogue. Her moral confrontations with Snape over his Death Eater associations are entirely absent. The courtyard scene (film scene 21) shows her in tears walking to James with no context for why the friendship ended.",
+      "damage_type": "personality/voice",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most damaging single compression in the film corpus. The book's Lily is defined by her voice: her wit, her moral clarity, her willingness to call out both Snape and James, her principled ending of the friendship. The film reduces her to a series of silent images -- a pretty girl who cried and then chose James. Her agency in ending the Snape friendship (a morally complex, courageous act) is invisible. The audience cannot understand what Snape loved or what he lost, which undermines the emotional core of his arc and Lily's function as the saga's moral anchor."
+    },
+    {
+      "scene": "DH1 Film - Snape's memories: the Mudblood confrontation / friendship ending",
+      "book_baseline": "Lily confronts Snape outside Gryffindor Tower at night, delivers a precise, devastating indictment: 'You've chosen your way, I've chosen mine.' She refuses his apology not out of cruelty but principle -- she has made excuses for years and will no longer. This is one of her defining characterisation moments.",
+      "film_portrayal": "This scene is entirely absent from the film. The friendship ending is implied only by the silent courtyard scene.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Lily's most important act of moral agency in her backstory -- the principled, articulate ending of her friendship with Snape -- is completely cut. Without it, her character has no voice in her own story. The audience sees her only as an object of Snape's love, not as a subject making her own choices. This fundamentally damages the adaptation's ability to convey what Lily stood for."
+    },
+    {
+      "scene": "DH1 Film - Snape's memories: the Pensieve bullying scene / Lily defending Snape",
+      "book_baseline": "Lily intervenes forcefully against James bullying Snape, calls James 'an arrogant, bullying toerag', refuses to be impressed by his apology, and demonstrates both courage and moral consistency. This scene establishes her as someone who acts on principle regardless of social cost.",
+      "film_portrayal": "Absent from the film. The Marauder-era bullying dynamic is not shown at all in the Snape memory sequence.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The absence removes Lily's demonstrated moral courage in a social context, her complex relationship with both James and Snape, and the context for why Harry is disturbed by his father's behaviour. It also removes the irony that Lily defended Snape against James before eventually choosing James -- a nuance essential to understanding both relationships."
+    },
+    {
+      "scene": "DH1 Film - Lily's letter in Sirius's room",
+      "book_baseline": "Harry reads Lily's letter and is overwhelmed: 'proof that Lily Potter had lived, really lived, that her warm hand had once moved across this parchment.' He searches desperately for the second page. The letter reveals her warmth, humour (the vase Petunia sent), her worry about Wormy, her curiosity about Dumbledore. Harry studies her handwriting. This is a major emotional beat.",
+      "film_portrayal": "The letter is read in voiceover while Harry looks at it briefly. The emotional weight of Harry physically searching for the second page, studying her handwriting, the 'friendly little wave glimpsed from behind a veil' -- all absent. The scene is functional rather than felt.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film conveys the information but loses the emotional texture of Harry's connection to his mother as a real person. The book uses this moment to make Lily tangible and present; the film treats it as plot setup for the Bathilda Bagshot visit."
+    },
+    {
+      "scene": "DH2 Film - Forest scene with Resurrection Stone",
+      "book_baseline": "Lily's smile is 'widest of all'. She pushes her hair back, her green eyes 'searched his face hungrily, as though she would never be able to look at him enough.' Harry asks her to 'stay close to me.' She walks beside him as one of his four guides. Her presence is his courage.",
+      "film_portrayal": "Lily says 'You've been so brave, sweetheart', 'We never left, dear', and 'Always' in response to Harry's request to stay close. The scene is present and reasonably faithful in structure, though compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. The film captures the emotional core. Minor compression loses some of the physical detail of Lily's presence and the specific quality of her gaze, but this is not significantly damaging."
+    },
+    {
+      "scene": "DH1 Film - Godric's Hollow graveyard",
+      "book_baseline": "Harry reads the inscription slowly, reads the last words aloud, lets tears fall without trying to stop them, thinks about his parents' remains beneath the snow, and feels close to wishing he were sleeping under the snow with them. Hermione produces the wreath. The scene is extended and emotionally raw.",
+      "film_portrayal": "The scene is present and structurally faithful -- tombstones, inscription, Harry's tears, Hermione's wreath. Compressed but not distorted.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Faithful in substance. The compression loses some of Harry's interior monologue about his parents' physical remains and his death-wish adjacency, but the emotional beat lands. Not significantly damaging."
+    },
+    {
+      "scene": "DH2 Film - Snape's death / Potter house memory",
+      "book_baseline": "Voldemort's POV chapter shows Lily entering the sitting room, handing Harry to James, the domestic warmth of the scene, then Lily's desperate physical attempt to shield Harry with her body, her repeated pleading ('Not Harry, please no, take me, kill me instead'), and finally Snape cradling her body.",
+      "film_portrayal": "Film scene 24 shows Snape entering the room, glancing at the baby, then kneeling to cradle Lily's body. Her death itself (the pleading, the shielding) is not shown in Snape's memories -- only the aftermath. The PS/SS film shows only a green flash and a scream.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Lily's act of sacrificial agency -- the repeated refusals, the physical shielding, the explicit choice to die rather than step aside -- is never shown on screen across the entire film series. The audience is told about it (Dumbledore in PS/SS, Voldemort in GoF) but never witnesses it. This is the central act of the entire saga and Lily's defining moment of agency. Its absence across all films is the single largest structural damage to her character."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

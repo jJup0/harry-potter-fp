@@ -1,0 +1,89 @@
+{
+  "character": "Parvati Patil",
+  "fp_score": 64.0,
+  "infidelity_score": 36.0,
+  "weighted_infidelity_exposure": 25.0,
+  "cids": 900.0,
+  "damage_per_exposure": 100.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1125.0,
+  "main_damage_causes": [
+    "Systematic removal of Parvati's active voice and agency across all films, reducing her from a vocal, socially confident character to a silent background presence",
+    "The Yule Ball sequence - her largest film appearance - strips her of personality, interiority, and the small arc of disappointment and self-rescue the book provides, making her purely decorative",
+    "Complete absence of her Book 5 material (Umbridge confrontation, DA Reductor Curse, Battle of Hogwarts duel) eliminates every moment where she demonstrates courage, competence, and moral agency"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film GoF Scene 7 - Parvati's line relayed through Hermione",
+      "book_baseline": "In the books, Parvati directly tells Harry and Ron that Hagrid is looking for Harry (book scene 8 equivalent). She is a direct, present social actor.",
+      "film_portrayal": "The message is relayed as 'Ronald would like me to tell you that Seamus told him that Dean was told by Parvati that Hagrid's looking for you' - Parvati is reduced to a node in a comic telephone chain, never speaking for herself.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reduction of Parvati to a passive rumour-relay rather than a direct speaker, but the scene is primarily comedic and about Ron/Hermione's feud, so damage is limited."
+    },
+    {
+      "scene": "Film PoA Scene 6 - Boggart lesson: Parvati's boggart changed from mummy to vampire",
+      "book_baseline": "Parvati's boggart is a bandaged mummy that she defeats by making it trip on its own unraveling bandage - a specific, characterful moment showing her composure and wit under pressure.",
+      "film_portrayal": "Parvati's boggart is a vampire which she transforms into Carmen Miranda. The mummy and its specific defeat are replaced with a generic comic image.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's mummy boggart and Parvati's calm, clever defeat of it ('And my mummy!' she later boasts) gives her a small but distinct moment of competence and personality. The film substitutes a generic gag, erasing that characterisation."
+    },
+    {
+      "scene": "Film PoA Scene 3/4 - Divination: Parvati's active classroom voice absent",
+      "book_baseline": "Parvati is an engaged, vocal student in Divination - she asks questions, warns Harry about the tea leaves before the Hippogriff lesson, and is shown as a genuine believer who takes intellectual ownership of the subject.",
+      "film_portrayal": "Parvati has only one brief reaction shot (edging away from Ron after the red-haired man warning) and one line asking 'What is it, Professor?' about the Grim. Her active classroom participation and warnings to Harry are absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film collapses Parvati's Divination identity into a background extra with one reactive line, losing her established role as an enthusiastic, vocal believer who actively engages with the material and interacts meaningfully with Harry."
+    },
+    {
+      "scene": "Film GoF Scene 10/11 - Yule Ball: Parvati reduced to prop date",
+      "book_baseline": "Parvati is described as looking very pretty and composed; she takes charge on the dance floor, steers Harry, makes conversation, expresses opinions (about Moody's eye), shows frustration at being ignored, and ultimately leaves with dignity to dance with a Beauxbatons boy. She is a full social agent with feelings and reactions.",
+      "film_portrayal": "Parvati's only lines are 'She looks beautiful!', 'Hi!', 'Harry, take my waist', 'Now!', and 'Arm. Leg. I'm yours' to the Durmstrang student. Her frustration at Harry's inattention, her conversation, her personality, and her dignified exit are all absent. She functions purely as a decorative date.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Yule Ball is Parvati's largest scene in the entire film series. The book gives her genuine interiority, social confidence, and a small arc of disappointment and self-rescue. The film strips this entirely, making her a silent prop whose only function is to prompt Harry to dance. This damages the audience's ability to perceive her as a character at all."
+    },
+    {
+      "scene": "Film GoF Scene 11 - Parvati leaves with Durmstrang student, not Beauxbatons",
+      "book_baseline": "Parvati leaves with a boy from Beauxbatons, and later she and Padma are seen at a table with a crowd of Beauxbatons boys - a small but specific detail showing her social initiative.",
+      "film_portrayal": "Parvati leaves with a Durmstrang student. A minor factual inversion.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Trivial factual error with negligible characterisation impact, but it does slightly misrepresent her social choices."
+    },
+    {
+      "scene": "Film GoF Scene 10 - Parvati's book characterisation around the ball invitation absent",
+      "book_baseline": "In the book, Parvati goes into giggles when asked, then composes herself and says yes; she helps Harry find a date for Ron by suggesting her sister Padma; she shows social awareness, generosity, and agency in the whole invitation sequence.",
+      "film_portrayal": "The Patil twins simply appear outside the Great Hall saying 'Hello, boys' / 'Don't you look dashing.' The invitation scene is skipped entirely; there is no depiction of how Harry asked Parvati or her response.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Removing the invitation scene erases Parvati's most socially active book moment outside the ball itself - her giggly but warm acceptance, her practical help securing Padma for Ron, and her curiosity about Hermione's date. The film reduces her to someone who simply materialises as Harry's date."
+    },
+    {
+      "scene": "Film OotP/general - Parvati's DA competence and classroom resistance absent",
+      "book_baseline": "Book 5 gives Parvati significant active moments: she directly challenges Umbridge in DADA ('Aren't we supposed to show we can actually do the counter-curses?'), produces an impressive Reductor Curse in DA that destroys a table of Sneakoscopes, and duels Travers during the Battle of Hogwarts.",
+      "film_portrayal": "Parvati has no speaking role in the OotP or DH films in the corpus provided. Her Umbridge confrontation, DA achievement, and Battle of Hogwarts duel are all absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "These are Parvati's most substantive character moments across the entire saga - intellectual courage against authority, demonstrated magical competence, and combat participation. Their complete absence means the film audience never sees her as anything beyond a giggling background Gryffindor, fundamentally misrepresenting her arc and function."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

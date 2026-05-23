@@ -1,0 +1,152 @@
+{
+  "character": "Hermione Granger",
+  "fp_score": 71.0,
+  "infidelity_score": 29.0,
+  "weighted_infidelity_exposure": 23.5,
+  "cids": 681.5,
+  "damage_per_exposure": 68.2,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 749.7,
+  "main_damage_causes": [
+    "Systematic removal or compression of Hermione's independent intellectual contributions to plot resolution (most severely the PS/SS logic puzzle), reducing her from co-protagonist to support role in climactic moments",
+    "Recurring tendency to filter Hermione's emotional and social experiences through male characters' reactions (Ron's jealousy, Harry's admiration) rather than granting her interiority on her own terms",
+    "Transfer of Hermione's institutional agency \u2013 particularly the founding of the DA \u2013 toward Harry, reinforcing a hierarchy where her ideas become his initiatives"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film \u2013 Hermione's first appearance on the train",
+      "book_baseline": "Hermione is a fast-talking, socially oblivious know-it-all who barrels into the compartment uninvited, lectures Ron about his spell, and leaves without reading the room \u2013 endearingly awkward, not charming",
+      "film_portrayal": "Hermione is poised, helpful, and immediately likeable; she fixes Harry's glasses as a neat demonstration of competence, softening the abrasive first impression entirely",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Hermione is initially off-putting \u2013 that's the point. Her arc from insufferable to beloved friend requires the audience to understand why Ron dislikes her. The film skips the abrasiveness, making her arc shallower."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Troll bathroom scene",
+      "book_baseline": "Hermione is found crying in the bathroom because Ron's cruel public mockery wounded her; she then lies to McGonagall to protect the boys, her first act of genuine loyalty and moral courage",
+      "film_portrayal": "The emotional context of why she is there is compressed; her lie to McGonagall is present but the weight of her choosing to protect people who hurt her is not dwelt upon",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The lie is the pivot of the trio's friendship and Hermione's first demonstration that she values people over rules. The film rushes past it, reducing a character-defining moment to plot logistics."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Logic/potions puzzle in the underground chambers",
+      "book_baseline": "Hermione solves Snape's logic puzzle alone, demonstrating that her particular brand of intelligence \u2013 not magic \u2013 is what saves them; she explicitly tells Harry this is her moment to shine",
+      "film_portrayal": "The entire potions/logic puzzle sequence is cut; the trio goes straight from the chess game to Harry facing Quirrell",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Hermione's climactic contribution to the first book's resolution. Cutting it removes her equal heroic function in the finale and erases the thematic point that Muggle-style logic can defeat magic. Her role in the climax is reduced to zero."
+    },
+    {
+      "scene": "CoS Film \u2013 Hermione's research and deduction about the Basilisk",
+      "book_baseline": "Hermione independently deduces the monster is a Basilisk, researches it in the library, and is found Petrified clutching the torn page \u2013 her intelligence directly advances the plot even while incapacitated",
+      "film_portrayal": "Her deduction is present but compressed; the torn page clue and the full weight of her solo research process are minimised",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book makes explicit that Hermione solved the mystery before anyone else and left the answer for Harry to find. The film compresses this, reducing the elegance of her contribution."
+    },
+    {
+      "scene": "PoA Film \u2013 Hermione's Patronus attempt during the Dementor attack by the lake",
+      "book_baseline": "Hermione attempts the Patronus alongside Harry and produces a silver otter, demonstrating she has mastered the most advanced defensive charm taught that year",
+      "film_portrayal": "During the lake scene Hermione's Patronus attempt is shown as failing \u2013 she produces only a wisp and collapses",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book Hermione successfully casts a Patronus. Showing her fail while Harry succeeds reinforces a hierarchy where she is support rather than equal. It also contradicts her established mastery of the charm shown earlier in the film."
+    },
+    {
+      "scene": "PoA Film \u2013 Hermione punching Malfoy",
+      "book_baseline": "Hermione draws her wand on Malfoy, holds it under his nose, and he backs away \u2013 a controlled, wand-based confrontation that shows her as a witch asserting herself on her own terms",
+      "film_portrayal": "Hermione punches Malfoy with her fist, then draws her wand",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but telling: the change trades a specifically magical assertion of power for a crowd-pleasing physical gag. It's funny but slightly out of character for someone who defines herself through her wizarding identity."
+    },
+    {
+      "scene": "GoF Film \u2013 Hermione's emotional range around the Yule Ball / Ron",
+      "book_baseline": "Hermione is genuinely hurt by Ron's dismissiveness, cries, and delivers the pointed line about asking her before someone else did \u2013 emotionally complex and driving the Ron/Hermione arc",
+      "film_portrayal": "The confrontation is present but Hermione's emotional interiority is reduced; she is more reactive than the book's version which gives her clear interior motivation",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Yule Ball sequence is the clearest early signal of the Ron/Hermione romantic arc. The film handles it adequately but flattens Hermione's perspective, making her more of a plot device for Ron's jealousy than a character with her own feelings."
+    },
+    {
+      "scene": "OotP Film \u2013 Hermione's role in founding and running the DA",
+      "book_baseline": "Hermione conceives the DA, organises the meeting at the Hog's Head, drafts the secrecy agreement with a jinx, and is the intellectual architect of the group throughout",
+      "film_portrayal": "Harry is positioned as the clear leader and founder; Hermione's organisational role is present but her authorship of the concept is less foregrounded",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The DA is Hermione's idea in the book. Repositioning it as primarily Harry's initiative transfers her most significant act of institutional agency in the series to the male lead."
+    },
+    {
+      "scene": "HBP Film \u2013 Hermione's emotional response to Ron/Lavender and the birds scene",
+      "book_baseline": "Hermione's pain is acute and her conjured birds attacking Ron is a rare moment of losing control \u2013 immediately followed by Harry comforting her, showing emotional depth and vulnerability",
+      "film_portrayal": "The birds scene is present and effective, but the broader context of Hermione's sustained suffering and her intellectual rationalisation of her own feelings is compressed across the film",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Relatively minor \u2013 the film captures the emotional beat adequately, but the book's sustained portrayal of Hermione struggling to reconcile her feelings with her self-image is lost."
+    },
+    {
+      "scene": "DH1 Film \u2013 Hermione modifying her parents' memories",
+      "book_baseline": "Described in dialogue; Hermione explains she has Obliviated her parents and sent them to Australia, framed as a devastating sacrifice she made alone before the story begins",
+      "film_portrayal": "Shown in a wordless opening sequence \u2013 visually effective and emotionally resonant",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film actually handles this well visually. Minor damage only: the book's version emphasises Hermione's deliberate, planned sacrifice more explicitly, but the film's approach is a legitimate adaptation choice."
+    },
+    {
+      "scene": "DH1 Film \u2013 Hermione's role in the Ministry infiltration",
+      "book_baseline": "Hermione is the tactical planner of the Ministry operation, prepares the Polyjuice Potion, casts the protective enchantments, and her quick thinking (Stinging Jinx on Harry, Cushioning Charm in the vault fall) repeatedly saves the group",
+      "film_portrayal": "Her planning role is present but the film distributes competence more evenly; several of her specific saves are retained",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film largely preserves her function here. Minor compression of her intellectual leadership in the planning phase."
+    },
+    {
+      "scene": "DH2 Film \u2013 Hermione destroying the Hufflepuff Cup",
+      "book_baseline": "Hermione stabs the cup with a basilisk fang in the Chamber of Secrets \u2013 her act, her moment of destruction",
+      "film_portrayal": "Hermione destroys the cup in the Chamber of Secrets; this is faithfully adapted",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "No damage \u2013 faithfully adapted."
+    },
+    {
+      "scene": "DH2 Film \u2013 Final battle: Hermione's role",
+      "book_baseline": "Hermione fights throughout the battle, casts protective enchantments, and is present for key moments; she and Ron share a kiss after destroying the cup",
+      "film_portrayal": "The Ron/Hermione kiss is present; Hermione fights but her specific contributions in the battle are less individualised than in the book",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The battle's chaos means individual contributions are hard to track in any adaptation. Minor loss of Hermione's specific heroic moments."
+    },
+    {
+      "scene": "GoF Film \u2013 Hermione's reaction to being called 'the best in the year' by Slughorn (HBP) / general treatment as Krum's date",
+      "book_baseline": "Hermione is genuinely pleased by intellectual recognition but also self-aware about her social position; her relationship with Krum is portrayed with nuance \u2013 she likes him but is not swept away",
+      "film_portrayal": "In GoF, Hermione's transformation for the Yule Ball is treated as a Cinderella reveal moment, with Ron's stunned reaction as the emotional anchor",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The 'she cleans up well' framing centres male perception of Hermione's appearance as the emotional payoff of the scene. The book is more interested in Hermione's own experience of the evening. This is a recurring pattern across the films of filtering Hermione through male reactions."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

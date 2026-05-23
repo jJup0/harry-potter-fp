@@ -1,0 +1,62 @@
+{
+  "character": "Ernie Macmillan",
+  "fp_score": 75.0,
+  "infidelity_score": 25.0,
+  "weighted_infidelity_exposure": 12.5,
+  "cids": 312.5,
+  "damage_per_exposure": 78.1,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 343.8,
+  "main_damage_causes": [
+    "Removal of the direct library confrontation collapses Ernie's most characterful scene into passive eavesdropping, eliminating his defining mix of fear, stubbornness, and prejudice",
+    "Absence of the formal apology scene destroys Ernie's character arc, leaving him with no growth or resolution and weakening the foundation for his later role as a DA ally",
+    "Loss of the 'Caught in the act' accusation removes Ernie's theatrical, pompous voice at its most vivid, flattening his personality to an undifferentiated background skeptic"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Harry overhears Hufflepuffs (Library corridor)",
+      "book_baseline": "Ernie confronts Harry directly in the library, standing his ground while trembling, stubbornly defending his accusations face-to-face. He invokes his pure-blood lineage as self-protection, bites his white lips, and speaks with quavering but persistent conviction. The scene is a direct confrontation that Harry initiates.",
+      "film_portrayal": "Harry merely eavesdrops on Ernie gossiping with Hannah in a corridor and slips away without confronting him. The direct face-to-face confrontation, Ernie's trembling stubbornness, his pure-blood self-defense line, and Harry's angry interruption are all cut entirely.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book confrontation is Ernie's defining CoS scene - it shows his courage (standing firm while terrified), his prejudice in full detail, and his capacity for moral reasoning under pressure. Reducing it to overheard gossip strips Ernie of agency and removes the dramatic tension that makes his later apology meaningful. It also removes Harry's agency in seeking Justin out to clear his name."
+    },
+    {
+      "scene": "CoS Film - Ernie's 'Caught in the act' moment is absent",
+      "book_baseline": "Ernie arrives panting at the scene of Justin's Petrification, dramatically points at Harry and yells 'Caught in the act!' - a moment of theatrical accusation that McGonagall sharply rebukes with 'That will do, Macmillan!'",
+      "film_portrayal": "Ernie does not appear at this scene. McGonagall simply finds Harry alone with Justin. The dramatic accusation and McGonagall's rebuke of Ernie are absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This beat captures Ernie's pompous, dramatic personality at its peak and shows the school's suspicion of Harry reaching a public flashpoint. Its absence flattens Ernie's characterization and reduces the social pressure Harry faces."
+    },
+    {
+      "scene": "CoS Film - Ernie's formal apology in Herbology is absent",
+      "book_baseline": "Ernie seeks Harry out at the compost heap, takes a deep breath, formally apologizes for suspecting him, acknowledges he'd never attack Hermione, and extends a pudgy hand. He then joins Harry and Ron at the Shrivelfig, pivoting to suspect Malfoy instead.",
+      "film_portrayal": "No apology scene exists in the film. Ernie's arc from accuser to ally is never completed on screen.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The apology is the payoff of Ernie's entire CoS arc - prejudice acknowledged, relationship repaired, and character growth demonstrated. Without it, Ernie has no arc; he is simply a background accuser with no resolution. This also removes the moment that establishes him as a recurring ally in later books."
+    },
+    {
+      "scene": "CoS Film - Ernie's waving goodbye / wary glance at holiday departure",
+      "book_baseline": "By the holiday departure, Ernie is still convinced Harry is guilty and is noted as one of those who has not softened toward him.",
+      "film_portrayal": "The film shows Ernie and a few others casting wary glances as Harry departs for holiday - this beat is present but brief and undifferentiated from general crowd suspicion.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss - the film does convey general suspicion at this point, so the damage is minimal, but Ernie's specific persistent conviction is not individuated."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

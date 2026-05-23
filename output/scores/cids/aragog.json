@@ -1,0 +1,80 @@
+{
+  "character": "Aragog",
+  "fp_score": 80.0,
+  "infidelity_score": 20.0,
+  "weighted_infidelity_exposure": 11.0,
+  "cids": 220.0,
+  "damage_per_exposure": 40.0,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 242.0,
+  "main_damage_causes": [
+    "Harry's agency and detective intelligence are diminished: his deduction about Myrtle is compressed, and his deliberate manipulation of Slughorn at the burial under Felix Felicis is entirely removed, reducing him from active agent to passive participant in two key Aragog-adjacent scenes.",
+    "Aragog's relationship with Hagrid loses its darkest and most poignant dimension - the revelation that only Aragog's orders protected Hagrid from his own spider family is cut, flattening what should be a bittersweet coda to their bond.",
+    "Aragog's characterization is mildly softened: his fretfulness, irritability, and the specific detail that he refused to name the basilisk even to Hagrid are lost, reducing him from a textured dangerous creature to a more generic monster-sage."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Aragog's hollow: Aragog's fretful/irritable characterization absent",
+      "book_baseline": "Book Aragog is described as 'fretful' twice - annoyed at being woken, clicking pincers furiously, irritable and impatient. He is not a gracious host but a dangerous creature tolerating the visit grudgingly.",
+      "film_portrayal": "Film Aragog is calm, measured, almost dignified throughout. The fretfulness and irritability are entirely absent. He speaks with composed authority rather than agitated reluctance.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor tonal loss - Aragog's fretful quality adds texture to his characterization as a creature who is dangerous and barely tolerant, not a wise elder. The film flattens this into generic monster-sage."
+    },
+    {
+      "scene": "CoS Film - Aragog's hollow: Aragog does not explicitly refuse to name the creature",
+      "book_baseline": "Book Aragog says explicitly 'We do not speak of it! We do not name it! I never even told Hagrid the name of that dread creature, though he asked me, many times.' The refusal to name it even to Hagrid is a specific, memorable beat that conveys the basilisk's terror among all creatures.",
+      "film_portrayal": "Film Aragog says 'We do not speak of it! It is an ancient creature we spiders fear above all others.' The detail that he never told even Hagrid - despite being asked many times - is cut. The emphasis on the creature being unnameable is weakened.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but meaningful loss. The detail that Aragog withheld the name even from his beloved Hagrid underscores the basilisk's unique terror and adds poignancy to Hagrid's ignorance. Its absence slightly reduces the scene's thematic weight."
+    },
+    {
+      "scene": "CoS Film - Aragog's hollow: Aragog volunteers the bathroom location unprompted",
+      "book_baseline": "In the book, Aragog does not volunteer the bathroom detail as useful information. He mentions the girl was found in a bathroom incidentally while explaining his own innocence ('The girl was discovered in a bathroom'). Harry later, back in the dormitory, makes the deductive leap himself that she might never have left - it is presented as Harry's own insight arrived at while lying awake thinking.",
+      "film_portrayal": "In the film, Aragog states 'The girl was discovered in a bathroom' and the film then cuts directly to Harry using this to deduce Moaning Myrtle, collapsing Harry's independent deductive work into a near-direct tip from Aragog.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book carefully preserves Harry's agency: Aragog's mention is incidental, and Harry's deduction about Myrtle is his own intellectual achievement arrived at in quiet reflection. The film compresses this, making the clue feel more directly handed to Harry and reducing his detective agency."
+    },
+    {
+      "scene": "HBP Film - Aragog burial: Slughorn does not know Aragog's name",
+      "book_baseline": "In the book, Slughorn approaches the burial already engaged and interested. When he says 'Farewell, Aragog,' he knows the name - Hagrid has presumably told him. The eulogy flows naturally.",
+      "film_portrayal": "In the film, Slughorn begins 'Farewell...' then frowns, having forgotten or never known the name, and Hagrid has to supply it ('Aragog'). This is played for a small comic beat.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor deviation. The film's comic beat slightly undercuts the sincerity of the burial scene and makes Slughorn seem less engaged with Aragog as a subject, though it does not damage any major relationship or arc."
+    },
+    {
+      "scene": "HBP Film - Aragog burial: Hagrid's grief and the burial's emotional weight reduced",
+      "book_baseline": "The book devotes considerable space to Hagrid's grief over Aragog - he has been reading to him, is devastated, weeps repeatedly, and the burial is an emotionally significant event. The book also establishes that the other spiders now won't let Hagrid near their webs and nearly ate him retrieving the body - showing the cost of his loyalty to Aragog.",
+      "film_portrayal": "The film condenses the burial into a brief scene. The detail that the other spiders turned on Hagrid after Aragog's death - that only Aragog's orders had protected Hagrid all along - is entirely absent. This was a key revelation about Aragog's relationship with Hagrid.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's revelation that Aragog was the only thing standing between Hagrid and being eaten by his own 'family' is a darkly poignant coda to their relationship - Hagrid's love was genuine but the danger was always real. Losing this removes a meaningful layer from the Hagrid-Aragog bond and from Hagrid's characterization as someone who loves monsters that would kill him."
+    },
+    {
+      "scene": "HBP Film - Aragog burial: Felix Felicis / Harry's deliberate manipulation of Slughorn absent",
+      "book_baseline": "In the book, Harry is under the influence of Felix Felicis and consciously, cleverly manipulates Slughorn into attending the burial in order to get the memory. Harry knows not to drink, plays Hagrid's grief strategically, and the whole scene is Harry operating at peak cunning. This is a significant moment of Harry demonstrating agency and intelligence.",
+      "film_portrayal": "The film omits Felix Felicis from this scene entirely. Harry simply accompanies Hagrid and Slughorn appears. The deliberate manipulation and Harry's calculated sobriety while others drink are gone. Harry is a passive participant rather than an active agent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is the most damaging single change. The burial scene in the book is Harry's showcase of cunning under Felix Felicis - he engineers the entire situation. In the film it becomes a passive encounter. This damages Harry's characterization as a capable, strategically intelligent protagonist and removes the payoff of the Felix Felicis subplot as it relates to obtaining Slughorn's memory."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

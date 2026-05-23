@@ -1,0 +1,62 @@
+{
+  "character": "Sir Cadogan",
+  "fp_score": 78.0,
+  "infidelity_score": 22,
+  "weighted_infidelity_exposure": 8.5,
+  "cids": 187,
+  "damage_per_exposure": 53.4,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 205.7,
+  "main_damage_causes": [
+    "Elimination of the North Tower quest sequence removes the foundational scene that establishes Sir Cadogan as more than a one-note raving portrait, stripping the comic physicality and genuine bravery that make him memorable",
+    "Compression of his role to two brief appearances (introduction at portrait hole, break-in aftermath) reduces him to a background gag rather than a minor character with a complete arc",
+    "Absence of his dismissal removes narrative closure and the ironic payoff of his bravery-versus-incompetence characterization"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Sir Cadogan introduction at portrait hole",
+      "book_baseline": "In the book, Sir Cadogan's introduction is a full scene: he encounters Harry, Ron, and Hermione in a corridor, rages at them, falls facedown trying to sword-fight, struggles to remount his pony, fails to pull his sword from the grass, and then enthusiastically leads them on a quest to the North Tower - running through multiple paintings, shouting encouragement, and displaying a complete arc of buffoonish but genuinely brave energy across an extended sequence.",
+      "film_portrayal": "The film collapses the entire corridor quest sequence. Sir Cadogan is shown only at the portrait hole, already installed as guardian, brandishing his sword at students. The quest to the North Tower - his defining introductory scene - is entirely absent.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The quest scene is the primary vehicle for establishing Sir Cadogan's character: his comic physicality, his genuine bravery despite incompetence, his infectious enthusiasm, and his relationship with Harry specifically. Without it, the film audience only sees a raving portrait, losing the warmth and the reason anyone would find him endearing rather than merely annoying. Harry's mild fondness for him (evident in later book scenes) has no foundation."
+    },
+    {
+      "scene": "Film Scene 1 - Neville's list shown upfront",
+      "book_baseline": "In the book, Neville's habit of writing down passwords is revealed dramatically after the Black break-in, as the cause of the security breach. It is a plot-relevant revelation with consequences (Neville's guilt, McGonagall's fury, Sir Cadogan's dismissal).",
+      "film_portrayal": "The film has Neville openly display his list of passwords to the group in the very first Sir Cadogan scene, played for light comedy, before any break-in has occurred.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Defusing the dramatic irony of Neville's list reduces the impact of the later security breach scene. The audience already knows about the list, so the revelation carries no surprise. Minor damage since the break-in scene still functions, but the setup-payoff structure is weakened."
+    },
+    {
+      "scene": "Film Scene 3 - Black break-in interrogation; Dumbledore asks Sir Cadogan instead of McGonagall",
+      "book_baseline": "In the book, McGonagall herself pushes back through the portrait hole and interrogates Sir Cadogan directly. It is her scene: her authority, her horror, her white-faced reaction. Dumbledore is not present for this specific exchange.",
+      "film_portrayal": "Dumbledore asks Sir Cadogan the key question ('Is it possible that you let a mysterious man enter Gryffindor Tower tonight?'), taking the interrogation role from McGonagall.",
+      "damage_type": "relationship | agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "McGonagall's direct confrontation with Sir Cadogan - and her visible shock at his proud admission - is a character moment for her as much as for him. Reassigning the question to Dumbledore diminishes her agency in the scene and softens the specific McGonagall-Sir Cadogan dynamic the book establishes."
+    },
+    {
+      "scene": "Film Scene 3 - Sir Cadogan's dismissal absent",
+      "book_baseline": "After the break-in, Sir Cadogan is explicitly fired. His portrait is returned to its lonely landing on the seventh floor. This is a consequence that completes his arc as temporary guardian and restores the status quo.",
+      "film_portrayal": "The film does not depict or mention Sir Cadogan being dismissed. His tenure simply ends without consequence shown on screen.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Sir Cadogan's dismissal is the narrative closure of his role as guardian. Without it, his arc as portrait hole guardian has no ending, and the implicit joke - that the only portrait brave enough to volunteer was also the one who caused a security catastrophe - loses its punchline."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

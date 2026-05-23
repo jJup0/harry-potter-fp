@@ -1,0 +1,44 @@
+{
+  "character": "Susan Bones",
+  "fp_score": 52.0,
+  "infidelity_score": 48.0,
+  "weighted_infidelity_exposure": 1.5,
+  "cids": 72.0,
+  "damage_per_exposure": 72.0,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 79.2,
+  "main_damage_causes": [
+    "Susan's sole film appearance is used as a vehicle for Harry's scar reaction, stripping her of any individual characterisation",
+    "Her rich book role - bereaved family member, DA combatant, empathetic peer, niece of Amelia Bones - is entirely absent from the film corpus provided, leaving her as a name only",
+    "The mislabelling of her as 'a small redheaded girl' erases her visual distinctiveness as a character"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film 1 (Philosopher's Stone) - Sorting ceremony: Susan Bones described as 'a small redheaded girl'",
+      "book_baseline": "Susan Bones is a Hufflepuff student with no physical description suggesting red hair; she is a distinct character from the Weasley family and other redheads",
+      "film_portrayal": "The script/scene description labels Susan Bones as 'a small redheaded girl', conflating her visual identity with the Weasley family trait and muddying her as a distinct individual",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor misidentification in the scene description that gives Susan no distinguishing presence of her own, though it has negligible downstream effect given her minimal screen role in this film."
+    },
+    {
+      "scene": "Film 1 (Philosopher's Stone) - Sorting ceremony: Susan Bones receives no individual moment",
+      "book_baseline": "In the book Susan 'scuttled off to sit next to Hannah', a small but humanising beat showing her nervousness and her immediate bond with Hannah Abbott",
+      "film_portrayal": "Susan's sorting is used purely as a beat to show Harry's scar hurting and Snape staring at him; the camera and dialogue focus entirely on Harry's reaction, not Susan at all",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Susan's only appearance in the film corpus is instrumentalised as a backdrop for Harry's scar pain. The small characterising detail of her nervousness and her connection to Hannah is erased, and she is reduced to a named prop. This sets the template for her non-presence throughout the films."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

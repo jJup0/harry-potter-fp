@@ -1,0 +1,170 @@
+{
+  "character": "Lord Voldemort",
+  "fp_score": 66.0,
+  "infidelity_score": 34.0,
+  "weighted_infidelity_exposure": 58.0,
+  "cids": 1972.0,
+  "damage_per_exposure": 106.6,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 2958.0,
+  "main_damage_causes": [
+    "Voldemort's death is aestheticised into spectacular disintegration rather than the thematically essential 'ordinary mortal death of Tom Riddle', undermining the saga's central argument about the limits of power and the ordinariness of evil",
+    "The graveyard resurrection speech and the final duel's philosophical dimension are both compressed, reducing Voldemort from a self-aware, psychologically complex antagonist to a primarily physical threat \u2014 the films show what he does but not how he thinks",
+    "The Pensieve backstory sequences in HBP are significantly truncated, meaning the Horcrux hunt in DH lacks the motivational and psychological grounding Dumbledore intended, and the audience's understanding of why Voldemort is defeatable (his specific blindspots around love, loyalty, and the magic of sacrifice) is thinner than the books establish"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film \u2013 Quirrell/Voldemort reveal in the Mirror chamber",
+      "book_baseline": "Voldemort speaks from the back of Quirrell's head with cold menace; he attempts to manipulate Harry with promises of his parents, then orders Quirrell to seize him physically; the struggle is prolonged and agonising, with Harry burning Quirrell to ash through sustained contact while Voldemort screams 'KILL HIM!'",
+      "film_portrayal": "The confrontation is compressed; Voldemort's manipulation ('your parents would come back') is retained but the extended physical struggle, Quirrell crumbling piece by piece, and Voldemort's desperate screaming are truncated into a quick flash of light and Harry passing out",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's climax establishes Harry's active, painful, courageous destruction of Quirrell as his first real victory over Voldemort's power. The film reduces it to a passive collapse, weakening the sense that Harry's love-protection is a weapon he wields rather than something that simply happens around him."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Dumbledore's hospital-wing explanation of love",
+      "book_baseline": "Dumbledore explains at length that Voldemort cannot understand love, that Lily's sacrifice left a mark 'in Harry's very skin', and that Quirrell sharing his soul with Voldemort made him unable to touch Harry. He also tells Harry Voldemort is still out there and will try other ways to return.",
+      "film_portrayal": "The explanation is delivered almost identically in dialogue, but the scene is brief and warm rather than weighty; Dumbledore's warning that Voldemort 'will find other ways to come back' is present but tonally light, softened by the comedic Bertie Bott's bean beat",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tonal softening; the core information is conveyed. Damage is minimal."
+    },
+    {
+      "scene": "CoS Film \u2013 Tom Riddle's diary reveal and Chamber confrontation",
+      "book_baseline": "Riddle is calculating, cold, and explicitly hungry for information about how Harry survived Voldemort. He reveals the anagram deliberately, explains his contempt for his Muggle father's name, and taunts Harry about their 'strange likenesses'. His dialogue is rich with self-revelation about his psychology and ambitions.",
+      "film_portrayal": "The scene is largely faithful but Riddle's extended monologue about his past, his orphanage, his hatred of his Muggle name, and his deliberate construction of the 'Lord Voldemort' identity is condensed. The film keeps the anagram reveal but loses the texture of Riddle's self-mythologising.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The diary Riddle is the audience's first real window into Voldemort's psychology and origin. Condensing his self-explanation reduces the thematic weight of the 'choices vs abilities' lesson that follows and makes Dumbledore's later Pensieve lessons feel less grounded."
+    },
+    {
+      "scene": "PoA Film \u2013 Harry's vow to kill Sirius / emotional arc in Hogsmeade",
+      "book_baseline": "After overhearing the Three Broomsticks conversation, Harry is devastated and furious; he tells Ron and Hermione he hopes Black finds him because he intends to kill him. This rage is a defining character beat showing Harry's capacity for vengeance and foreshadowing his later mercy.",
+      "film_portrayal": "Harry's declaration ('I hope he finds me\u2026 I'm going to kill him') is present and delivered with conviction, which is faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; minimal damage."
+    },
+    {
+      "scene": "PoA Film \u2013 Shrieking Shack confrontation and Pettigrew reveal",
+      "book_baseline": "The confrontation is long and layered: Lupin and Black's reunion, the full explanation of the Marauders, Pettigrew's grovelling and self-justification, Harry's decision to spare him grounded in his father's legacy, and Lupin's self-recrimination about his cowardice all year. Pettigrew's escape via transformation is a tense sequence.",
+      "film_portrayal": "The scene is substantially compressed. Lupin's extended confession about his cowardice and betrayal of Dumbledore's trust is cut. The Marauder backstory is reduced. Pettigrew's pleading is shortened. The scene retains its key plot beats but loses the moral and emotional complexity.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Lupin's self-disgust and the full weight of the Marauders' history are important for understanding why Harry's mercy matters and what Pettigrew's debt will mean later. The compression makes the scene feel more like plot delivery than character revelation."
+    },
+    {
+      "scene": "GoF Film \u2013 Voldemort's graveyard resurrection monologue to the Death Eaters",
+      "book_baseline": "Voldemort delivers a lengthy, controlled, psychologically revealing speech to his assembled Death Eaters: he shames them for not seeking him, distinguishes the loyal (Lestranges) from the cowardly, addresses Lucius's failure, and explains his own errors with self-aware cunning. He is theatrical, cruel, and in complete command.",
+      "film_portrayal": "The speech is heavily compressed. Voldemort unmasks a few Death Eaters and delivers truncated lines, but the full tour of the circle, the individual shaming, the distinction between those in Azkaban and those who fled, and his self-analysis of his own mistakes are largely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This speech is one of the most important characterisation moments for Voldemort in the entire saga. It shows him as a leader who inspires through terror and shame, who is self-aware about his failures, and who has a complex relationship with loyalty. Its compression reduces him to a figure who simply tortures and threatens, losing the political and psychological dimension."
+    },
+    {
+      "scene": "GoF Film \u2013 Priori Incantatem / Voldemort's reaction to the echo-shades",
+      "book_baseline": "When the echo-shades of Voldemort's victims emerge, Voldemort is described as 'wide with shock' and 'almost fearful'; he fights to break the connection and is visibly destabilised. The shades actively harry him, whispering things he cannot hear, and his fear is palpable.",
+      "film_portrayal": "Voldemort's fear during the Priori Incantatem is present but brief; his expression of shock is shown but the sustained destabilisation and the shades actively tormenting him are not conveyed with the same weight.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Voldemort's vulnerability to the echoes of his victims \u2014 particularly his fear \u2014 is a crucial thematic beat: love and the dead can unsettle him in ways raw power cannot. Its underplaying slightly diminishes this."
+    },
+    {
+      "scene": "OotP Film \u2013 Voldemort's possession of Harry at the Ministry",
+      "book_baseline": "Voldemort possesses Harry and speaks through him, urging Dumbledore to kill Harry to destroy Voldemort. Harry experiences agonising pain but is expelled from possession by his grief for Sirius \u2014 love driving Voldemort out. Dumbledore explicitly notes this afterwards.",
+      "film_portrayal": "The possession sequence is visually rendered but the internal experience \u2014 Harry's grief for Sirius as the expulsive force, Voldemort speaking the words 'kill me now' through Harry \u2014 is compressed into a brief visual montage. The causal mechanism (love/grief expelling Voldemort) is not clearly articulated.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is the saga's clearest demonstration that love is Voldemort's actual weakness, not just a platitude. Harry's grief for Sirius physically expels Voldemort. Without this being legible, the thematic argument of the entire series \u2014 that love is the power Voldemort knows not \u2014 loses its most concrete proof point before the finale."
+    },
+    {
+      "scene": "OotP Film \u2013 Dumbledore's explanation of his distance from Harry all year",
+      "book_baseline": "Dumbledore gives a lengthy, remorseful confession: he kept Harry at a distance to prevent Voldemort using their connection, he withheld the prophecy out of misguided protectiveness, and he acknowledges this was a mistake born of caring too much. He takes full responsibility for Sirius's death.",
+      "film_portrayal": "Dumbledore's confession is present but significantly shortened. The full weight of his self-recrimination, the detailed explanation of his reasoning across the year, and his acknowledgement that he acted 'exactly as Voldemort expects fools who love to act' are compressed.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Harry-Dumbledore relationship is central to the saga. Dumbledore's full confession establishes him as fallible and Harry as someone whose trust was genuinely betrayed by a mentor's paternalism. Compression reduces this to a brief apology, weakening the complexity of their bond."
+    },
+    {
+      "scene": "HBP Film \u2013 Voldemort's backstory Pensieve sequences (orphanage, Slughorn, Hepzibah Smith, return to Hogwarts)",
+      "book_baseline": "The Pensieve lessons are extensive: Dumbledore shows Harry multiple memories building a detailed psychological portrait of Voldemort \u2014 his orphanage cruelty, his manipulation of Slughorn, his murder of the Riddles, his theft from Hepzibah Smith, and his return to Hogwarts to ask for the DADA job. Each memory reveals a specific facet of his character.",
+      "film_portrayal": "The orphanage scene and Slughorn memory are included. The Hepzibah Smith memory (cup and locket) is present. However, the Gaunt family memories, Morfin's framing, the Riddle murders, and the full return-to-Hogwarts confrontation with Dumbledore are absent or heavily compressed.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Pensieve lessons are the primary vehicle for understanding why Voldemort made Horcruxes, what objects he chose and why, and how his psychology connects to his choices. Without the Gaunt memories and the Riddle murders, the Horcrux hunt in DH lacks the motivational grounding Dumbledore intended Harry to have. The film partially compensates with the Slughorn memory but the cumulative portrait is significantly thinner."
+    },
+    {
+      "scene": "HBP Film \u2013 Dumbledore's death and Snape's flight",
+      "book_baseline": "After Dumbledore is killed, Harry pursues Snape in a rage, attempting multiple curses. Snape deflects everything with contemptuous ease, identifies himself as the Half-Blood Prince, and delivers the line with cold satisfaction before departing. Harry is left utterly defeated.",
+      "film_portrayal": "The pursuit and Snape's deflection of Harry's curses is present and largely faithful. The Half-Blood Prince reveal is delivered. This scene is one of the more faithful in the corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; minimal damage."
+    },
+    {
+      "scene": "DH1 Film \u2013 Voldemort's opening Malfoy Manor meeting",
+      "book_baseline": "Voldemort's opening monologue establishes his controlled menace, his awareness of his wand problem, his political intelligence (using Thicknesse), and his deliberate humiliation of Lucius. He is theatrical but precise, and his request for Lucius's wand is a calculated power display.",
+      "film_portrayal": "The scene is largely faithful and well-rendered. Voldemort's controlled menace, the wand request, and Charity Burbage's murder are all present. This is one of the stronger Voldemort scenes in the film series.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; minimal damage."
+    },
+    {
+      "scene": "DH2 Film \u2013 Voldemort's announcement that Harry is dead / address to Hogwarts",
+      "book_baseline": "Voldemort's speech over Harry's 'corpse' is a masterclass in psychological manipulation: he lies about Harry begging for mercy, he offers clemency to those who submit, and he is visibly shaken when Neville steps forward. His control is real but brittle.",
+      "film_portrayal": "Voldemort's speech is present but his lie that Harry 'begged for mercy' is replaced with a different framing about Harry abandoning his friends. The specific cruelty of the fabricated cowardice narrative is altered. His reaction to Neville is present.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The specific lie Voldemort tells \u2014 that Harry died begging \u2014 is psychologically precise: it targets the one thing that would most demoralise Harry's supporters. Changing it to a general abandonment narrative loses the calculated cruelty of his propaganda."
+    },
+    {
+      "scene": "DH2 Film \u2013 Final duel: Voldemort's death",
+      "book_baseline": "Voldemort dies in the Great Hall surrounded by witnesses, his Killing Curse rebounding from Harry's Expelliarmus because the Elder Wand refuses to kill its true master. He dies as Tom Riddle \u2014 mortal, ordinary, his body lying on the floor without spectacle. Harry explains the wand's allegiance publicly before the final exchange.",
+      "film_portrayal": "Voldemort disintegrates into ash and flakes away dramatically. The death is visually spectacular rather than mundanely mortal. The public explanation of the Elder Wand's allegiance is present but the final duel is relocated to a private chase sequence before the courtyard confrontation, and Voldemort's death lacks the 'ordinary mortality' quality of the book.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "Voldemort dying as an ordinary man \u2014 Tom Riddle, his body simply falling \u2014 is one of the saga's most important thematic statements: the most feared Dark wizard of all time was just a man who feared death and was destroyed by his own curse. The film's spectacular disintegration aestheticises his death and undermines the theme that he was never truly extraordinary, only terrifying. This is the single most structurally damaging change to Voldemort's portrayal."
+    },
+    {
+      "scene": "DH2 Film \u2013 Harry and Voldemort's final confrontation dialogue",
+      "book_baseline": "Harry publicly explains the Elder Wand's true allegiance to the assembled crowd, giving Voldemort a chance to feel remorse ('try for some remorse, Riddle'). The exchange is a battle of ideas as much as wands, with Harry demonstrating he understands Voldemort better than Voldemort understands himself.",
+      "film_portrayal": "The dialogue is compressed and relocated to a private chase. The 'try for some remorse' line is absent. Harry's public explanation of the wand's allegiance is present in the courtyard but the full philosophical confrontation \u2014 Harry naming Snape's true loyalty, offering Voldemort a chance at redemption \u2014 is truncated.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Harry's final confrontation with Voldemort is meant to demonstrate his moral superiority through understanding, not just magical power. He offers Voldemort remorse, names Snape's love as the thing Voldemort could never comprehend, and wins through knowledge. The film's version makes it primarily a physical/magical contest, reducing Harry's agency as a moral actor and Voldemort's defeat as a philosophical one."
+    },
+    {
+      "scene": "GoF Film \u2013 Voldemort's post-resurrection self-examination and speech about his own errors",
+      "book_baseline": "After rising, Voldemort explicitly tells his Death Eaters: 'I have been careless, and so have been thwarted by luck and chance\u2026 I understand those things that I did not understand before.' He acknowledges his own mistakes with cold self-awareness, which is a crucial character trait \u2014 he learns, adapts, and is not simply a force of evil but a calculating intelligence.",
+      "film_portrayal": "This self-reflective speech to the Death Eaters is largely absent from the film. Voldemort's acknowledgement of his own errors and his statement that he must be the one to kill Harry are present in DH1's opening but the GoF version's full self-analysis is not rendered.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Voldemort's capacity for self-criticism and strategic adaptation distinguishes him from a simple monster. Without this, his intelligence feels asserted rather than demonstrated, and his eventual defeat feels less earned \u2014 he should be someone who almost got it right, not someone who was always going to lose."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

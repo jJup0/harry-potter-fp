@@ -1,0 +1,62 @@
+{
+  "character": "Mary Cattermole",
+  "fp_score": 77.0,
+  "infidelity_score": 23.0,
+  "weighted_infidelity_exposure": 8.0,
+  "cids": 184.0,
+  "damage_per_exposure": 52.6,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 202.4,
+  "main_damage_causes": [
+    "Harry's personal agency in the rescue (freeing Mary, instructing her to flee) is redistributed to Hermione and Ron, diluting his moral centrality in the sequence",
+    "Mary's isolation and terror - which make Harry's intervention meaningful - are softened by Ron's comforting presence throughout the hearing",
+    "The collective dimension of the Muggle-born rescue is collapsed into a personal escape, removing Harry's ideological confrontation with the blood-purity regime"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Ron places hands on Mary's shoulders and she looks to him for reassurance",
+      "book_baseline": "In the book, Harry slips in alone behind Mary; Ron (as Reg) is not present in the courtroom providing physical comfort. Mary is isolated, terrified, sobbing, with no one to lean on until Harry acts.",
+      "film_portrayal": "Ron-as-Reg stands behind Mary, places hands on her shoulders, and she looks up to him for reassurance and smiles back at him during the hearing.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film softens Mary's isolation and vulnerability by giving her a comforting presence throughout the hearing. The book's point is that she is utterly alone and at the mercy of the tribunal until Harry intervenes - the comfort undercuts the horror of her situation."
+    },
+    {
+      "scene": "Film Scene 1 - Hermione casts Relashio to free Mary's chains",
+      "book_baseline": "In the book, Harry is the one who frees Mary - he runs down the steps, tries Diffindo, asks Hermione for help, then casts Relashio himself. It is Harry's act of agency and moral impulse.",
+      "film_portrayal": "Hermione leaps down and casts Relashio to free Mary's chains.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Harry's instinctive, personally driven act of freeing Mary - which the book frames as a moral choice he makes without a plan - is transferred to Hermione, reducing Harry's direct agency in the rescue."
+    },
+    {
+      "scene": "Film Scene 1 - Harry's instruction to Mary to flee is absent; Ron gives the warning in the Atrium instead",
+      "book_baseline": "Harry personally pulls Mary to her feet and delivers a direct, urgent speech: 'You're going to leave here with us. Go home, grab your children, and get out, get out of the country if you've got to. Disguise yourselves and run. You've seen how it is, you won't get anything like a fair hearing here.' This is a key moment of Harry's moral voice.",
+      "film_portrayal": "Harry says nothing of substance to Mary in the courtroom. The instruction to flee is given by Ron-as-Reg in the Atrium, framed as a husband-to-wife directive.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Harry's speech is one of his clearest expressions of moral outrage and protective instinct in the sequence. Moving it to Ron and recasting it as a domestic instruction strips Harry of a defining moment and changes the emotional register from righteous defiance to domestic urgency."
+    },
+    {
+      "scene": "Film Scene 2 - Mary kisses Ron-as-Reg and the real Reg appears without the crowd of other Muggle-borns",
+      "book_baseline": "The book has Harry address a crowd of Muggle-borns, declaring their blood 'purer than many of yours' and sending them all to safety via the fireplaces. Mary's reunion confusion with two Regs is one beat in a larger rescue of many people.",
+      "film_portrayal": "The Atrium scene focuses almost entirely on Mary kissing Ron, the real Reg appearing, and the trio escaping. The broader rescue of multiple Muggle-borns is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film reduces the Ministry rescue from a collective act of defiance - Harry saving a group of persecuted people - to a personal escape story. Mary's role as representative of a wider injustice is lost, and Harry's 'purer blood' speech, which directly confronts the regime's ideology, disappears entirely."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

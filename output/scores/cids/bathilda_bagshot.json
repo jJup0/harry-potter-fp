@@ -1,0 +1,98 @@
+{
+  "character": "Bathilda Bagshot",
+  "fp_score": 44.0,
+  "infidelity_score": 56.0,
+  "weighted_infidelity_exposure": 18.5,
+  "cids": 1036.0,
+  "damage_per_exposure": 129.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 1139.6,
+  "main_damage_causes": [
+    "Bathilda's function as a historical witness and named source is collapsed into Hermione's exposition, erasing her distinct voice and perspective on the Dumbledore-Grindelwald story",
+    "The pathos of her degradation - a celebrated historian forgotten, unvisited, her body desecrated - is compressed, losing the thematic resonance of Voldemort destroying the wizarding world's living memory",
+    "Her established relationships (with the Potters, with Dumbledore, as a peer of great wizards) are mentioned but never felt, so her fate carries horror without tragedy"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (wedding) - Harry doesn't recognize Bathilda's name",
+      "book_baseline": "Harry has read A History of Magic by Bathilda Bagshot as a first-year set text, references it in CoS doing homework, and Hermione treats her as a celebrated historian they both know well.",
+      "film_portrayal": "Harry says 'Who?' when Bathilda's name is mentioned, requiring Muriel to explain who she is. He then weakly says 'Oh right, slipped my mind.'",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but sloppy - Harry would know the name from his schoolbooks. It's played for a cheap laugh at Harry's expense and slightly undermines the established connection between Harry's world and Bathilda's work."
+    },
+    {
+      "scene": "Film Scene 3 (landing) - Hermione's reaction to Bathilda's name",
+      "book_baseline": "Hermione says 'Bathilda Bagshot, the author of - A History of Magic. So your parents knew her? She was an incredible magic historian.' She is genuinely impressed and engaged by the historical significance.",
+      "film_portrayal": "Hermione says 'Did she now?' with irony, as if gently mocking Harry for not knowing who Bathilda is, rather than expressing genuine scholarly enthusiasm.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Hermione's book-reverence and genuine excitement about magical history is flattened into a wry quip. Small but consistent with the films' tendency to reduce her scholarly character."
+    },
+    {
+      "scene": "Film Scene 4 (lane) - Harry identifies Bathilda without interaction",
+      "book_baseline": "Harry and Hermione stand in the street watching a muffled figure beckon them. Harry deliberates at length - wondering if Dumbledore told her to wait, whether she sensed them under the Cloak, whether her ability to detect them suggests Dumbledore-ish power. He asks 'Are you Bathilda?' only after careful thought. Hermione gives a tiny nervous nod before they approach.",
+      "film_portrayal": "Harry, while staring at his parents' ruined house with his back to the old woman, simply says 'You're Bathilda, aren't you?' without any of the deliberation or mutual decision-making with Hermione.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's careful, tense deliberation - Harry weighing reasons not to follow her, the shared nervous decision with Hermione - is replaced by Harry casually identifying her while distracted. This removes the suspense and the sense that Harry is making a considered (if risky) choice. It also removes Hermione's agency in the joint decision."
+    },
+    {
+      "scene": "Film Scene 5 (Bathilda's house interior) - Bathilda's characterization as vessel",
+      "book_baseline": "The book spends considerable time establishing Bathilda as a pitiable figure: she lights candles clumsily by hand having forgotten she can do magic, Harry takes the matches from her and finishes lighting them, she fumbles with logs for the fire while Hermione lights it for her. There is pathos - someone checks on her welfare, the question of when anyone last visited. She is a degraded but once-great person.",
+      "film_portrayal": "Bathilda returns holding matches and tries to light a candle clumsily. Harry takes over. The scene moves quickly to the photograph question. The extended pathos of her forgotten magic, the squalor, and the welfare concern are compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses Bathilda's condition to build dread and pathos simultaneously - she was a great historian now reduced to this, and nobody has checked on her. The film compresses this, losing the thematic weight of a celebrated life ending in neglect and violation. This matters because Bathilda's fate is a microcosm of Voldemort's desecration of the wizarding world's history."
+    },
+    {
+      "scene": "Film Scene 5 - Bathilda ignores Hermione / pushes her aside",
+      "book_baseline": "Bathilda shuffles past them, pushing Hermione aside as though she had not seen her - this is a sinister tell that the snake-controlled body is focused only on Harry (its target). Hermione asks questions directly to Bathilda and Bathilda gives no sign of hearing her, only responding to Harry.",
+      "film_portrayal": "The selective ignoring of Hermione is present but less systematically established. The film does show Bathilda pointing only at Harry for the upstairs trip, but the earlier pattern of Bathilda being blind to Hermione's existence is less developed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book carefully plants the clue that Bathilda/Nagini is fixated solely on Harry as prey. The film retains the upstairs gesture but loses some of the earlier sinister pattern, slightly reducing the dramatic irony for attentive readers."
+    },
+    {
+      "scene": "Film Scene 5 - Harry's reasoning about going upstairs alone",
+      "book_baseline": "Harry says 'Maybe Dumbledore told her to give the sword to me, and only to me?' and then looks into her milky eyes and says 'Yes, I think she does [know who I am].' He is making a reasoned (if flawed) judgment call.",
+      "film_portrayal": "Harry says 'It's all right. You stay here.' and silences Hermione with a raised hand, then winks at her. The reasoning about Dumbledore's possible instructions is absent.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Harry's internal reasoning - that Dumbledore may have specifically entrusted the sword to him alone - is what makes his decision to go upstairs alone feel like agency rather than recklessness. The film replaces this with a casual wink, making Harry seem carelessly overconfident rather than making a considered (if wrong) judgment."
+    },
+    {
+      "scene": "Film Scene 12 (tent) - Bathilda as conduit for Grindelwald exposition",
+      "book_baseline": "The Grindelwald connection is established through Rita Skeeter's book excerpts read by Harry, Bathilda's quoted testimony in that book ('He seemed a charming boy to me... Naturally I introduced him to poor Albus'), and Hermione reading from the book. Bathilda's own voice and perspective - her fondness for Grindelwald, her role as matchmaker, her quotes about the summer - are part of the revelation.",
+      "film_portrayal": "Hermione delivers the entire Grindelwald backstory as her own narration. Bathilda's role is reduced to a single line: 'He ended up in Godric's Hollow where his great aunt lived, Bathilda Bagshot. She introduced him to Dumbledore.' Bathilda's quoted testimony, her warmth toward Grindelwald, her perspective on Ariana's death - all gone.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "In the book, Bathilda's own words - her fondness for Grindelwald, her account of the boys' friendship, her description of Ariana's death and its aftermath - give her a distinct voice and perspective even in her degraded state. She is a witness to history. The film collapses all of this into Hermione's summary, erasing Bathilda's function as a historical source and her complex position as someone who loved Grindelwald and inadvertently enabled a dark wizard's rise. This also removes the irony that the woman whose body Voldemort desecrated was herself a key figure in the Grindelwald story."
+    },
+    {
+      "scene": "Film - Absence of Bathilda's historical stature established through the narrative",
+      "book_baseline": "The book establishes Bathilda's stature through multiple channels: she corresponded with the young Dumbledore as a peer, she was in regular contact with the Potters (Lily's letter describes her dropping in most days), she is cited as a source in Rita's book with direct quotes, she is mourned on Potterwatch as a named victim alongside Ted Tonks. Her death is treated as a significant loss to the wizarding world.",
+      "film_portrayal": "Bathilda appears only as a plot device in Godric's Hollow. Her historical significance is mentioned by Muriel and briefly by Hermione but never felt. Her death is not acknowledged in the film. The Potterwatch memorial is absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book makes Bathilda's fate tragic on two levels: a great historian reduced to a puppet, and a woman who knew Harry's parents intimately used as a weapon against their son. The film retains the horror of the snake-in-the-body but loses the tragedy of who Bathilda was. Without her established stature - as historian, as Dumbledore's early correspondent, as the Potters' neighbor and friend - her violation is just a monster-in-a-corpse scene rather than a desecration of living history."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "character": "Xenophilius Lovegood",
+  "fp_score": 77.0,
+  "infidelity_score": 23.0,
+  "weighted_infidelity_exposure": 19.0,
+  "cids": 437.0,
+  "damage_per_exposure": 51.4,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 480.7,
+  "main_damage_causes": [
+    "Xenophilius's defining eccentric voice and intellectual combativeness are replaced by expository passivity, collapsing him from a vivid comic-tragic figure into a functional plot device",
+    "The moral complexity of his betrayal is softened - the film reduces his active agency in trying to hand over Harry, making him more pitiable and less genuinely culpable than the book intends",
+    "Key characterization material (Gernumbli lore, the Hermione debate, the Krum confrontation) that establishes why his beliefs are sincere rather than sinister is cut, leaving the audience with less context to understand or feel the tragedy of his situation"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (wedding) - Xenophilius's unsolicited political speech",
+      "book_baseline": "At the wedding, Xenophilius is warmly eccentric, focused on gnome saliva and Gernumbli magic, delighting in Luna's bite as a potential gift. His conversation is whimsical and self-contained.",
+      "film_portrayal": "Xenophilius leans in and delivers a fierce, earnest political declaration about The Quibbler's support for Dumbledore and Harry, framed as urgent allegiance-signaling.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Xenophilius is obliviously eccentric, not politically intense. The film replaces his charming oddness with a conspiratorial urgency that misrepresents his core personality register."
+    },
+    {
+      "scene": "Film Scene 1 (wedding) - Gnome bite scene compressed and reattributed",
+      "book_baseline": "Luna discovers the gnome bite herself and shows her father; Xenophilius enthusiastically examines it and launches into Gernumbli lore, urging Luna not to repress any burgeoning opera or Mermish talent. It is a full comedic beat establishing his eccentric warmth and his relationship with Luna.",
+      "film_portrayal": "Luna mentions the bite briefly in passing as an introduction; Xenophilius delivers only the 'gnome saliva is enormously beneficial' line before pivoting to his political speech. The extended Gernumbli lore, the father-daughter dynamic, and the comedy are all cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The gnome bite scene is the primary vehicle for establishing Xenophilius's voice - his pseudo-scientific enthusiasm, his tender absurdity with Luna, and his comic obliviousness. Compressing it to a single line strips the character of his defining register."
+    },
+    {
+      "scene": "Film Scene 1 (wedding) - Viktor Krum confrontation absent",
+      "book_baseline": "Krum confronts Harry about Xenophilius wearing Grindelwald's symbol and threatens to duel him. Harry defends Xenophilius by suggesting he probably doesn't know what it means - establishing Xenophilius as unwittingly provocative but not sinister, and Harry as his defender.",
+      "film_portrayal": "The Krum confrontation is entirely absent. The symbol is noted visually but no one challenges Xenophilius about it at the wedding.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene establishes that Xenophilius wears the Hallows symbol out of genuine belief, not Dark allegiance, and that Harry intuitively trusts him. Its absence removes important early context that shapes how the audience should read Xenophilius throughout the film."
+    },
+    {
+      "scene": "Film Scene 5 (Lovegood house) - Erumpent horn confrontation truncated",
+      "book_baseline": "Xenophilius stubbornly insists the horn is a Crumple-Horned Snorkack horn through a sustained back-and-forth with Hermione, displaying mulish dogmatism and the comic tension between his beliefs and reality. He even reveals he bought it as a Christmas surprise for Luna.",
+      "film_portrayal": "Hermione identifies the horn as dangerous; Harry and Ron exchange a dismissive glance. Xenophilius is not present for the exchange and the confrontation is dropped entirely.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Erumpent horn argument is a key comedic and characterization beat - it shows Xenophilius's stubborn credulity and his love for Luna. The film removes his participation entirely, losing both the humor and the character texture."
+    },
+    {
+      "scene": "Film Scene 5/6 (Lovegood house) - Hallows debate and Xenophilius's intellectual confidence absent",
+      "book_baseline": "Xenophilius engages in a sustained, confident philosophical debate with Hermione - calling her 'painfully limited, narrow, close-minded,' deploying the 'prove it doesn't exist' argument, and holding his own with smug authority. He is intellectually combative and self-assured in his beliefs.",
+      "film_portrayal": "The debate is almost entirely cut. Xenophilius explains the Hallows and the Peverells efficiently but there is no sparring with Hermione, no 'limited and narrow' rebuke, no philosophical jousting. He is passive and expository.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The debate is central to Xenophilius's characterization as someone with genuine intellectual conviction in his eccentricities, not merely a harmless crank. Removing it flattens him into a plot-delivery device and loses the dynamic that makes his later betrayal more tragic."
+    },
+    {
+      "scene": "Film Scene 6 (Lovegood house) - Revelation of betrayal restructured; Xenophilius names Voldemort",
+      "book_baseline": "Harry deduces Luna's absence himself by noticing the dusty room, cold bed, and missing clothes, then confronts Xenophilius directly. Xenophilius's betrayal is exposed through Harry's detective work. Xenophilius then confesses he sent an owl to the Ministry.",
+      "film_portrayal": "Xenophilius himself volunteers the confession unprompted ('You're my only hope... they took my Luna... it's really you they want'), then triggers the Death Eaters by saying Voldemort's name aloud - which causes their immediate arrival.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Harry's perceptiveness exposes the betrayal - a meaningful moment of agency and detective skill. The film transfers this to Xenophilius confessing voluntarily, removing Harry's role. Additionally, the Voldemort-name-as-Taboo mechanism is used to trigger the Death Eaters, which changes the logic of the betrayal from a deliberate owl to an accidental trigger, softening Xenophilius's culpability and muddying the moral weight of his choice."
+    },
+    {
+      "scene": "Film Scene 6 (Lovegood house) - Xenophilius's active betrayal attempt and moral complexity reduced",
+      "book_baseline": "Xenophilius physically blocks the staircase to prevent the trio from escaping, draws his wand and fires a Stunning Spell at them (which hits the Erumpent horn), and is beaten by Death Eaters while sobbing for Luna. The scene is morally complex: a desperate father doing something genuinely terrible.",
+      "film_portrayal": "Xenophilius waves from the window trying to signal the Death Eaters, is blasted off his feet by them, and flees. The Erumpent horn is struck by a ricocheting spell hitting the Gurdyroot teapot. Xenophilius does not actively fire on the trio.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Xenophilius actively tries to hand over Harry - blocking escape and firing his wand - which makes his desperation genuinely dark and morally complex. The film reduces him to a passive signaler who is immediately punished by the Death Eaters, which softens the betrayal and reduces the moral weight of the scene. The audience's sympathy is managed too easily."
+    },
+    {
+      "scene": "Film Scene 5 (Lovegood house) - Luna's absence and Xenophilius's internal struggle cut",
+      "book_baseline": "Xenophilius undergoes a prolonged, visible internal struggle before agreeing to help - swallowing, eyes darting, described as undergoing 'painful internal struggle.' He lies about Luna being at the stream and the trio discuss his cowardice and hypocrisy while he is downstairs.",
+      "film_portrayal": "Xenophilius briefly hesitates, then dashes from the room. The extended internal struggle, the trio's discussion of his cowardice ('Cowardly old wart'), and the gradual dawning of suspicion are compressed or absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The slow build of Xenophilius's internal conflict - and the trio's growing unease - is what gives the betrayal its dramatic and emotional weight. Compressing it removes the tragic dimension of a man torn between his principles and his love for his daughter."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

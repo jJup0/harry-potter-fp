@@ -1,0 +1,107 @@
+{
+  "character": "Igor Karkaroff",
+  "fp_score": 65.0,
+  "infidelity_score": 35,
+  "weighted_infidelity_exposure": 28,
+  "cids": 980,
+  "damage_per_exposure": 93.3,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1225,
+  "main_damage_causes": [
+    "Karkaroff's arc of mounting paranoia and cowardly flight - the through-line of his character - is truncated: the Yule Ball Dark Mark conversation, the forest confrontation, and the flight/empty chair resolution are all cut, leaving his trajectory incomplete",
+    "His personality is flattened from a calculating, unctuous political operator with genuine menace into a blustering comic antagonist, most visibly in the post-goblet chamber scene",
+    "The thematic contrast between Karkaroff's cowardice and Snape's courage - explicitly stated by Dumbledore in the book - is lost entirely because Karkaroff's flight and its aftermath are absent from the film"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 4 - Post-goblet confrontation chamber",
+      "book_baseline": "Karkaroff protests with cold, steely political cunning: unctuous tone, calculated complaints about rule violations, demands to resubmit names, threatens to leave, lodges formal complaints with Ministry and International Confederation. His fury is controlled and self-interested.",
+      "film_portrayal": "Karkaroff dismisses Maxime as a 'French tart' and calls everything a 'conspiracy theory' in a blustering, crude, almost comedic way. The political shrewdness and unctuous diplomatic register are replaced with petty squabbling.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Karkaroff is a calculating political operator who masks self-interest behind formal grievance. The film reduces him to a bickering fool, losing the menace and cunning that make him credible as a former Death Eater and rival headmaster."
+    },
+    {
+      "scene": "Film Scene 4 - Post-goblet confrontation chamber (Moody confrontation absent)",
+      "book_baseline": "Moody enters the room and directly confronts Karkaroff, accusing him of planting Harry's name. Karkaroff tries to sound disdainful but his balled fists betray fear. Moody references Karkaroff's past ('as you ought to remember'), implying their shared history. Karkaroff's face burns with shame and fury.",
+      "film_portrayal": "This entire confrontation between Moody and Karkaroff in the chamber is absent. Karkaroff's visible fear of Moody, his barely-contained panic, and the hint of his Death Eater past surfacing in this moment are all cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Moody-Karkaroff dynamic in this scene is the first signal of Karkaroff's guilty conscience and fear. Its absence removes foreshadowing of the Dark Mark subplot and weakens the Moody-Karkaroff antagonism that runs through the book."
+    },
+    {
+      "scene": "Film Scene 5 - Sirius fireplace conversation",
+      "book_baseline": "Sirius gives a nuanced assessment: Karkaroff is a suspect but Sirius is genuinely uncertain whether he put Harry's name in the goblet. He notes Karkaroff's self-interested cowardice, his betrayal of fellow Death Eaters, and that he wouldn't return to Voldemort unless sure of protection. The analysis is tentative and layered.",
+      "film_portrayal": "Sirius flatly states 'Igor Karkaroff was a Death Eater. And no one, no one stops being a Death Eater,' presenting him as straightforwardly sinister with no ambiguity. The nuance about Karkaroff's cowardice and self-preservation is collapsed into a simple villain label.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses Karkaroff to explore moral complexity - a coward who betrayed people to save himself, now trapped between two dangers. The film's blunt framing removes this and makes the eventual revelation that Karkaroff is not the villain slightly less meaningful."
+    },
+    {
+      "scene": "Film Scene 6 - Karkaroff's trial (Pensieve)",
+      "book_baseline": "Karkaroff is shown sweating, desperate, calculating which names will buy his freedom. He tries Dolohov (already caught), Rosier (dead), then strikes gold with Rookwood. His panic when names prove worthless is vivid. He finally names Snape in desperation, straining against his chains. The scene shows a man trading others' lives for his own skin with full self-awareness.",
+      "film_portrayal": "The trial is condensed. Dolohov is cut entirely. Karkaroff goes straight to Rosier, then Rookwood, then Snape. The escalating desperation and the detail of him realising each name is worthless is compressed. However the core beats survive.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The compression reduces the portrait of Karkaroff's calculating self-preservation. The full sequence of failed names builds his desperation and moral bankruptcy more effectively than the shortened version. The damage is moderate since the key beats remain."
+    },
+    {
+      "scene": "Film Scene 7 - Snape's storeroom / Dark Mark reveal",
+      "book_baseline": "Karkaroff intrudes on Snape's Potions class, hovers anxiously for the entire double period to prevent Snape escaping, then shows Snape his Dark Mark on his forearm in private. He is described as 'extremely worried' and 'angry'. This is a sustained scene of paranoid anxiety that Harry witnesses by deliberately eavesdropping.",
+      "film_portrayal": "Karkaroff shows Snape his arm in a corridor/storeroom and they are immediately spotted by Harry. The scene is brief and the sustained paranoid hovering, the classroom intrusion, and Harry's deliberate eavesdropping are all cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene establishes Karkaroff's mounting terror over months as the Mark darkens - a slow-burn arc of a coward watching his doom approach. The film reduces it to a quick glimpse, losing the texture of his psychological deterioration."
+    },
+    {
+      "scene": "Film Scene 8 - Third task / maze (Karkaroff's arc conclusion absent)",
+      "book_baseline": "After Voldemort's return, it is revealed Karkaroff fled the moment the Dark Mark burned, confirming his cowardice. Snape contrasts himself with Karkaroff explicitly: 'I am not such a coward.' Karkaroff's empty chair at the Leaving Feast and Krum's contemptuous remark ('He stayed in his cabin and let us do the work') complete his arc as a self-serving coward who chose flight over loyalty to anyone.",
+      "film_portrayal": "Karkaroff's flight and its aftermath are entirely absent from the film. There is no empty chair, no Krum contempt, no Snape contrast. His arc simply ends without resolution.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Karkaroff's flight is the payoff of his entire arc - the coward who betrayed Death Eaters to save himself now runs again, and dies for it. The Snape contrast ('braver man by far than Igor Karkaroff') is a key thematic beat about moral courage. Losing this removes the completion of his character function and weakens the Snape characterisation that depends on it."
+    },
+    {
+      "scene": "Film - Karkaroff's scouting of the dragon task (absent)",
+      "book_baseline": "Karkaroff sneaks off his ship at night to spy on the first task, nearly colliding with Harry under the Invisibility Cloak. Harry deduces exactly what he is doing and concludes Karkaroff will tip off Krum, which is why Harry feels obligated to warn Cedric. This is active, scheming behaviour.",
+      "film_portrayal": "This scene is entirely absent. Karkaroff's active cheating on behalf of Krum is never shown.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The scouting scene shows Karkaroff as an active schemer willing to cheat, and motivates Harry's decision to warn Cedric. Its absence removes a dimension of Karkaroff's competitive ruthlessness and slightly weakens the logic of Harry's ethical choice."
+    },
+    {
+      "scene": "Film Scene 8 - Yule Ball / Karkaroff-Snape Dark Mark conversation (absent)",
+      "book_baseline": "Harry overhears Karkaroff telling Snape 'It's been getting clearer and clearer for months. I am becoming seriously concerned' while Snape tells him to flee. This is the first explicit on-page confirmation that both men feel the Mark returning, and Karkaroff's anxiety is palpable.",
+      "film_portrayal": "This conversation is absent from the film's Yule Ball sequence. Karkaroff is simply noted as 'nowhere to be seen' at the ball.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is important foreshadowing of Voldemort's return and Karkaroff's deteriorating mental state. Its absence means the film's Dark Mark subplot loses a key beat of Karkaroff's paranoia building across the year."
+    },
+    {
+      "scene": "Film - Karkaroff's confrontation with Dumbledore after Krum is attacked (absent)",
+      "book_baseline": "When Krum is found Stunned in the forest, Karkaroff erupts at Dumbledore, accusing him of treachery, double-dealing, and corruption. He spits on the ground at Dumbledore's feet, resulting in Hagrid slamming him against a tree. This is a dramatic scene showing Karkaroff's paranoia at its peak and his willingness to publicly humiliate himself.",
+      "film_portrayal": "This scene is entirely absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is one of Karkaroff's most vivid scenes - his paranoia boiling over into a public breakdown, spitting at Dumbledore, being physically manhandled by Hagrid. It shows the full extent of his unravelling and his genuine (if self-interested) protectiveness of Krum. Its absence is a significant loss of characterisation."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

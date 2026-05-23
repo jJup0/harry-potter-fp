@@ -1,0 +1,53 @@
+{
+  "character": "The Bloody Baron",
+  "fp_score": 54.0,
+  "infidelity_score": 46,
+  "weighted_infidelity_exposure": 5,
+  "cids": 230,
+  "damage_per_exposure": 115,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 253,
+  "main_damage_causes": [
+    "Replacement of the Baron's defining silent menace with comic exclamation, inverting his core characterization",
+    "Complete loss of his functional role as the sole authority over Peeves, which is his primary narrative purpose across the book series",
+    "Reduction to a single throwaway cameo that conveys none of the gravitas required for his later tragic backstory to land"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Bloody Baron's only appearance at the feast",
+      "book_baseline": "The Bloody Baron is described as gaunt, silent, staring, with blank eyes and silver-stained robes. He is given a wide berth by other ghosts. He is the only one who can control Peeves, commands fear and respect even from Nick, and is established as an authority figure whose name alone makes Peeves cower. He is never jovial or exclamatory.",
+      "film_portrayal": "The Bloody Baron appears briefly and utters 'Whoo-hoo-hoo!' in a gleeful, exclamatory way, prompting a student to point him out excitedly. This is his only appearance in the film corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Bloody Baron is defined by silence, menace, and gravitas - he is 'gaunt and silent', staring sinisterly, and feared even by other ghosts. A gleeful 'Whoo-hoo-hoo' directly contradicts this core characterization, replacing dread with comic buffoonery. It undermines the entire basis of his authority over Peeves."
+    },
+    {
+      "scene": "Film Scene 1 - Absence of established authority/control over Peeves",
+      "book_baseline": "The Baron's primary narrative function across multiple books is as the sole authority capable of controlling Peeves. Percy explicitly tells first years 'The Bloody Baron's the only one who can control him.' This is referenced repeatedly and is the Baron's defining role in the school ecosystem.",
+      "film_portrayal": "The film gives the Baron no establishment as an authority figure. His single appearance is a comic cameo. Since Peeves is also absent from the films, the Baron's defining function is entirely lost, but the characterization damage is that even his presence conveys none of the fear or gravitas that underpins that function.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Baron's role as Peeves's sole controller is a recurring structural element in the books - it explains the school's power dynamics among non-human inhabitants. The film reduces him to a one-line cameo with no hint of this authority, stripping his functional identity entirely."
+    },
+    {
+      "scene": "Film Scene 1 - Absence of the Baron's backstory as penitent murderer",
+      "book_baseline": "The Baron killed the Grey Lady (Helena Ravenclaw) in a rage, then killed himself in remorse. He wears chains as an act of penitence. This gives him tragic depth - he is not merely frightening but haunted by genuine guilt across centuries. This is revealed in Deathly Hallows but is part of his established character.",
+      "film_portrayal": "No trace of this tragic dimension is present. The Baron is a one-beat comic ghost with no interiority suggested.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "While the backstory reveal is a later-book event, the Baron's silent, staring, chain-wearing demeanor in earlier books seeds this tragedy. The film's jovial portrayal makes the eventual revelation (in DH films) feel disconnected rather than a recontextualization of established menace."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

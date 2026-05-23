@@ -1,0 +1,80 @@
+{
+  "character": "Corban Yaxley",
+  "fp_score": 71.0,
+  "infidelity_score": 29.0,
+  "weighted_infidelity_exposure": 13.5,
+  "cids": 391.5,
+  "damage_per_exposure": 71.2,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 430.7,
+  "main_damage_causes": [
+    "Loss of the Thicknesse/Imperius Curse achievement strips Yaxley of his most consequential plot action, reducing him from a competent architect of the Ministry's fall to a background enforcer",
+    "Removal of the Malfoy Manor approach sequence eliminates the only naturalistic personality-establishing material, leaving the film Yaxley with no voice or texture beyond functional menace",
+    "Softening of the Cattermole confrontation removes the ideological sadism that distinguishes Yaxley from generic Death Eater muscle"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film DH1 - Malfoy Manor meeting (Drawing Room scene)",
+      "book_baseline": "Yaxley arrives with Snape, walks through the Malfoy grounds, reacts to the peacock, hesitates at the drawing room door - establishing him as a peer-level Death Eater with presence and composure. He then actively challenges Snape's intelligence about Potter's transfer date, citing Dawlish, and competes for Voldemort's approval by reporting his Imperius Curse on Thicknesse and Ministry infiltration of Magical Transport.",
+      "film_portrayal": "Yaxley delivers only his counter-intelligence line about Dawlish. His entire report about placing the Imperius Curse on Thicknesse is cut and reassigned to context around Thicknesse himself. His line about having people in the Department of Magical Transport is also absent. His walk with Snape through the grounds and the peacock moment are entirely cut.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the book, Yaxley's Thicknesse coup is a significant plot beat - it is the mechanism by which the Ministry falls, and Yaxley is the one who accomplished it and reports it proudly. Removing this strips him of his most consequential action in the entire saga and eliminates his characterization as a competent, ambitious Death Eater who delivers real results. The film reassigns the Thicknesse context to background staging rather than Yaxley's achievement."
+    },
+    {
+      "scene": "Film DH1 - Malfoy Manor meeting (Drawing Room scene)",
+      "book_baseline": "Yaxley is described as having 'blunt features', walks as a peer alongside Snape, makes small talk, reacts to the peacock with contempt for Lucius's ostentation ('He always did himself well, Lucius. Peacocks'), and hesitates at the drawing room door - all establishing a distinct, gruff, sardonic personality.",
+      "film_portrayal": "The entire approach to Malfoy Manor with Snape is cut. Yaxley simply appears at the table. His personality-establishing moments (peacock snort, peer dynamic with Snape, the hesitation) are entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The walk-in sequence is the only moment in the books where Yaxley's personality is shown in an unguarded, naturalistic way. Its removal means the film Yaxley has no texture beyond functional menace."
+    },
+    {
+      "scene": "Film DH1 - Ministry of Magic Atrium (Cattermole confrontation)",
+      "book_baseline": "Yaxley's confrontation with Cattermole/Ron is laced with deliberate, sadistic cruelty: he invokes Mudblood slurs explicitly, makes a pointed remark about marrying a pureblood next time, gives Hermione an unpleasant conspiratorial smile expecting Harry/Runcorn to appreciate the bullying, and issues a specific threat tying the office repair to Mary Cattermole's blood status outcome.",
+      "film_portrayal": "The confrontation is shortened and the explicit Mudblood language, the 'marry a pureblood next time' line, the smile to Runcorn, and the blood-status threat are all cut. Yaxley is menacing but the ideological viciousness is softened.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene establishes Yaxley as not merely bureaucratically threatening but ideologically sadistic - he enjoys the power the blood-purity regime gives him over people. The film reduces this to generic intimidation, losing the specific character of his cruelty."
+    },
+    {
+      "scene": "Film DH1 - Courtroom interrogation scene",
+      "book_baseline": "Yaxley sits on the tribunal alongside Umbridge, laughs jeeringly at the 'greengrocers' line, and is an active co-prosecutor. He is then Stunned by Harry and slides to the floor. The book also has him earlier saying 'Spare us. The brats of Mudbloods do not stir our sympathies' during the hearing.",
+      "film_portrayal": "Yaxley is present on the tribunal but has no spoken lines during the interrogation itself. His 'Spare us' line is cut entirely. He is taken out by Ron with a single blast rather than Stunned by Harry.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss - Yaxley's jeering participation in the tribunal is reduced to a silent presence. The reassignment of who neutralizes him (Ron vs Harry) is a small functional shift with negligible impact."
+    },
+    {
+      "scene": "Film DH1 - Ministry escape / Grimmauld Place compromise",
+      "book_baseline": "Yaxley grabs Hermione during Disapparition, is too strong for her to shake off immediately, and is taken inside the Fidelius Charm's protection before she can repel him with a Revulsion Jinx - directly causing the loss of Grimmauld Place as a safe house, a major consequence the trio must reckon with.",
+      "film_portrayal": "The same plot beat occurs but is compressed and visualized differently (Yaxley pitches himself into the fireplace, the sequence is more action-oriented). The consequence - losing Grimmauld Place - is conveyed by Hermione in dialogue. The weight of Yaxley's specific agency in causing this is present but rushed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The core plot function is preserved. The compression slightly reduces the sense of Yaxley as a genuinely dangerous, physically formidable threat, but the consequence lands adequately."
+    },
+    {
+      "scene": "Film DH2 - Forbidden Forest clearing",
+      "book_baseline": "Yaxley and Dolohov patrol the forest looking for Harry, discuss whether he is coming, check the time, and lead Harry to the Death Eater gathering - a small but present role in the climactic sequence.",
+      "film_portrayal": "Yaxley enters the clearing and reports 'No sign of him, my Lord,' then silences Hagrid with a wand flick. His patrol with Dolohov is cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minimal loss. His function as a reporting Death Eater is preserved. The Dolohov patrol scene added texture but is not characterization-critical."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

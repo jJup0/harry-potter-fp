@@ -1,0 +1,71 @@
+{
+  "character": "Grawp",
+  "fp_score": 65.0,
+  "infidelity_score": 35.0,
+  "weighted_infidelity_exposure": 15.5,
+  "cids": 542.5,
+  "damage_per_exposure": 83.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 596.8,
+  "main_damage_causes": [
+    "Grawp is domesticated from a genuinely dangerous, barely-controllable creature into a gentle, gift-giving oaf, removing the moral complexity of Hagrid's attachment to him",
+    "The 'HAGGER' emotional core - the one moment that makes the Hagrid-Grawp bond comprehensible and moving - is entirely absent from the film",
+    "Grawp is given deliberate heroic agency in the forest rescue, misrepresenting his intelligence and transferring credit away from Hermione's plan"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Grawp introduction, Hermione picked up and put down gently",
+      "book_baseline": "Grawp is genuinely dangerous and barely controllable. He nearly seizes Hermione with a violent grab, forcing Harry to pull her behind a tree. Hagrid is knocked down and bleeds. The encounter is frightening and the children leave shaken, with Harry privately thinking Grawp can never be civilised.",
+      "film_portrayal": "Grawp picks Hermione up but sets her down gently after she commands 'Put me down! Now!' He then gives her a scooter bell as a gift. Hermione concludes he 'just needs a firm hand.' The scene is played for gentle comedy and warmth.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Grawp is a genuinely dangerous, barely-sentient creature whose presence creates real dread and moral complexity for Hagrid. The film domesticates him into a loveable oaf, removing the tension and the honest question of whether Hagrid's attachment to him is delusional and reckless."
+    },
+    {
+      "scene": "Film Scene 1 - Ron hits Grawp with a stick, Hermione takes charge",
+      "book_baseline": "Harry and Hermione are passive and terrified during the introduction. Hagrid is the one attempting (ineffectually) to manage Grawp with a bough. The children have no agency over Grawp and leave feeling helpless.",
+      "film_portrayal": "Ron hits Grawp's leg with a stick to make him release Hermione, and Hermione verbally commands him successfully. The trio are active and effective.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book deliberately makes the trio powerless against Grawp to establish the genuine danger and the weight of the promise Hagrid extracts from them. Making them effective undermines that burden and the thematic point about Hagrid's blind spot."
+    },
+    {
+      "scene": "Film Scene 1 - Grawp gives Hermione a scooter bell",
+      "book_baseline": "Grawp shows no affection or gift-giving behaviour. His only notable action toward Hermione is a violent grab. The name 'Hermy' is used in the forest centaur scene later, showing minimal recognition.",
+      "film_portrayal": "Grawp presents Hermione with a scooter bell as a token of affection, establishing a cute, friendly bond.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This invented beat sentimentalises Grawp and softens the unsettling nature of his attachment to Hermione, which in the book is more like an animal fixating on a scent than genuine affection."
+    },
+    {
+      "scene": "Film Scene 2 - Grawp rescues Harry and Hermione from Umbridge and the centaurs",
+      "book_baseline": "Grawp's appearance in the centaur clearing is accidental - he has broken free and is searching for Hagrid ('HAGGER!'). He does not rescue anyone; his arrival causes chaos and the centaurs fire arrows into his face. Harry and Hermione escape in the confusion while Grawp chases the centaurs in pain and rage.",
+      "film_portrayal": "Grawp deliberately grabs Umbridge and lifts her away, directly saving Harry and Hermione. He is acting as a protector. Hermione thanks him: 'Thank you, Grawp.'",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "In the book Hermione's plan works because she exploits the centaurs' pride - Grawp's arrival is incidental chaos, not a rescue. Giving Grawp deliberate heroic agency misrepresents his intelligence and nature, and transfers the credit for the escape from Hermione's cleverness to Grawp's intervention. It also removes the harrowing detail of Grawp being peppered with arrows and the genuine horror of the scene."
+    },
+    {
+      "scene": "Film Scene 2 - Grawp's motivation is finding Hagrid ('HAGGER') - absent from film forest scene",
+      "book_baseline": "Grawp's defining moment in the centaur clearing is his desperate, repeated cry for Hagrid ('HAGGER!' / 'WHERE HAGGER?' / 'GRAWP WANT HAGGER!'). This is the emotional core of his character: despite his brutishness, he has formed a genuine attachment to his half-brother.",
+      "film_portrayal": "In the film's forest scene Grawp simply grabs Umbridge. There is no searching for Hagrid, no 'Hagger' cry, no emotional dimension to his appearance.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The 'HAGGER' moment is the one beat that gives Grawp genuine pathos and makes Hagrid's attachment to him comprehensible and moving. Removing it strips the Hagrid-Grawp relationship of its emotional justification and reduces Grawp to a plot device."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

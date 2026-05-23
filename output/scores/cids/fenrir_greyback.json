@@ -1,0 +1,125 @@
+{
+  "character": "Fenrir Greyback",
+  "fp_score": 58.0,
+  "infidelity_score": 42.0,
+  "weighted_infidelity_exposure": 44.5,
+  "cids": 1869.0,
+  "damage_per_exposure": 113.3,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 2336.2,
+  "main_damage_causes": [
+    "Greyback's ideology, backstory, and personal connection to Lupin are entirely absent from all films, reducing him from a thematically resonant antagonist to a feral monster prop",
+    "His dominant agency in the Snatchers/Malfoy Manor sequence is transferred to Scabior, stripping his most active plot function in the final films",
+    "His defining characterization scene at the Astronomy Tower - the extended dialogue with Dumbledore revealing he attacks outside the full moon and revels in flesh - is almost entirely cut, removing the richest single window into his character"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "HBP Film Scene 3 - Borgin & Burkes back courtyard",
+      "book_baseline": "Greyback is never present at Borgin & Burkes. Malfoy uses Greyback's name as a threat to Borgin - invoking him as a feared enforcer from a distance. This establishes Greyback's reputation as a tool of terror wielded by the Malfoys.",
+      "film_portrayal": "Greyback is physically present in the back courtyard of Borgin & Burkes during what appears to be a Death Eater gathering/ritual with Bellatrix, Narcissa, and Draco. He is a visible participant rather than an absent threat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor scene-setting divergence. The book's use of Greyback as an absent threat is more chilling, but the film's version doesn't fundamentally misrepresent him - he is still associated with the Death Eater circle. Low damage."
+    },
+    {
+      "scene": "HBP Film Scene 4 - Attack on the Burrow (invented scene)",
+      "book_baseline": "No such attack on the Burrow occurs in the books. Greyback does not appear at the Burrow. His role in HBP is confined to the Astronomy Tower and its aftermath.",
+      "film_portrayal": "Greyback participates in an invented attack on the Burrow alongside Bellatrix, chasing Harry and Ginny through burning reeds. He is used as a physical threat/monster, responding to Bellatrix's clicking signal like a trained animal. He says 'Don't you smell clean' to Ginny in a predatory way.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The invented scene reduces Greyback to a leashed beast responding to Bellatrix's commands, which contradicts the books' portrayal of him as an independent, ideologically driven predator who operates on his own agenda. The 'clicking signal' dynamic makes him subordinate to Bellatrix in a way the books never establish. However, the predatory line toward Ginny is consistent with his book characterization. Net damage is moderate - he functions as a monster prop rather than a character."
+    },
+    {
+      "scene": "HBP Film Scene 5/6 - Astronomy Tower: Greyback's book dialogue entirely absent",
+      "book_baseline": "At the Astronomy Tower, Greyback has substantial dialogue with Dumbledore. He boasts about attacking outside the full moon, revels in his taste for human flesh ('throats to be ripped out... delicious'), taunts Dumbledore ('I could do you for afters'), and tries to kill Dumbledore himself before being blasted back. Dumbledore's exchange with him reveals Greyback's unique horror - attacking without transformation - and Draco's discomfort at having invited him.",
+      "film_portrayal": "Greyback is present but silent except for one line: 'He doesn't have the stomach. Like his father. Let me finish him. In my own way.' He has no exchange with Dumbledore, no boasting about flesh-eating, no attempt to attack Dumbledore independently.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Tower scene is the single richest characterization moment for Greyback in the entire series. His dialogue establishes that he attacks outside the full moon (a key horror detail), his sadistic pleasure in killing, and his specific threat to children. Dumbledore's disgust and the revelation about Draco's discomfort at Greyback's presence are all lost. The film reduces him to a single generic taunt. This is the most significant single loss of characterization in the adaptation."
+    },
+    {
+      "scene": "HBP Film Scene 6 - Astronomy Tower: Greyback's attempt on Dumbledore cut",
+      "book_baseline": "Greyback moves to kill Dumbledore himself ('I'll do it,' snarled Greyback, moving towards Dumbledore with his hands outstretched, his teeth bared), demonstrating his independent bloodlust and agency. He is blasted back by the brutal-faced Death Eater.",
+      "film_portrayal": "No such attempt occurs. Greyback makes no move on Dumbledore. His agency in the scene is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This moment shows Greyback as genuinely dangerous and uncontrollable even among Death Eaters - he acts on his own bloodlust regardless of orders. Its removal makes him passive and decorative in the scene that should be his defining moment."
+    },
+    {
+      "scene": "HBP Film Scene 7 - Post-tower flight: Greyback's attack on Harry cut",
+      "book_baseline": "During the flight from the castle, Greyback detaches from the fight and physically attacks Harry - leaping on him, filthy hair in his face, hot breath at his throat - before Harry petrifies him. This is a direct, dangerous physical confrontation.",
+      "film_portrayal": "This attack does not occur in the film. Greyback simply exits with the other Death Eaters.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Removes a moment that demonstrates Greyback's feral, opportunistic nature - he breaks from the group to personally attack Harry even during a retreat. Its absence makes him less threatening and removes a beat that shows his independence from the Death Eater chain of command."
+    },
+    {
+      "scene": "DH1 Film Scene 10 - Snatchers capture: Greyback's role transferred to Scabior",
+      "book_baseline": "In the books, Greyback leads the Snatchers and dominates the interrogation of Harry, Ron, and Hermione. He asks most of the questions, delivers the physical threats, punches Harry, identifies Harry from the scar, makes the decision to go to Malfoy Manor rather than the Ministry, and takes charge of transporting the prisoners. He is unambiguously the leader.",
+      "film_portrayal": "Scabior takes the dominant role in the interrogation - he asks most questions, sniffs Hermione's hair, makes the threatening remarks about her, and appears to lead the group. Greyback is present and delivers one line ('Hear that, ugly? The list says you're lying...') and punches Ron, but Scabior is clearly the focal Snatcher.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Greyback's leadership of the Snatchers and his dominant, menacing role in the capture sequence is a significant book function. Transferring this to Scabior (a minor book character) diminishes Greyback's agency and presence at a key plot moment. His predatory interest in Hermione ('delicious girl... what a treat... I do enjoy the softness of the skin') is also transferred to Scabior, removing a characterization beat that shows his specific threat to young people."
+    },
+    {
+      "scene": "DH1 Film Scene 11/12 - Malfoy Manor: Greyback's role transferred to Scabior",
+      "book_baseline": "At Malfoy Manor, Greyback announces their arrival, forces the prisoners to display Harry to the Malfoys, asserts his claim to the reward ('it's us that caught Potter, and it's us that'll be claiming the gold'), takes the prisoners to the cellar, and makes his predatory comment about Hermione to Ron ('Reckon she'll let me have a bit of the girl when she's finished with her?'). He is the active agent managing the prisoners throughout.",
+      "film_portrayal": "Scabior delivers the 'we won't be forgetting who caught him' line (Greyback's book line). Greyback is present but passive. Wormtail takes the prisoners to the cellar rather than Greyback. Greyback's predatory comment about Hermione to Ron is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Greyback's assertiveness with the Malfoys (claiming his reward, managing prisoners) and his specific predatory threat toward Hermione are both lost. The cellar escort being given to Wormtail removes Greyback's last active function in the Malfoy Manor sequence. His role is reduced to background presence."
+    },
+    {
+      "scene": "DH1 Film Scene 12 - Malfoy Manor: Bellatrix subduing Greyback cut",
+      "book_baseline": "Bellatrix stuns the other Snatchers but forces Greyback to his knees with an irresistible spell, interrogates him about the sword while he snarls and demands release ('Release me, woman!'), then frees him and he prowls behind an armchair. This shows both his defiance and his ultimate subordination.",
+      "film_portrayal": "Bellatrix stuns Scabior (who has taken Greyback's lines). Greyback simply exits with the others when dismissed. The confrontation between Bellatrix and Greyback does not occur.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene reveals Greyback's defiant personality even when overpowered - he snarls and demands release rather than submitting. This nuance of a dangerous creature who resents his subordination is entirely lost."
+    },
+    {
+      "scene": "DH2 Film Scene 13 - Battle of Hogwarts: Greyback's attack on Lavender",
+      "book_baseline": "Greyback attacks Lavender Brown in four-legged animal form, sinking his teeth into her. Hermione blasts him away, then Trelawney drops a crystal ball on his head. Ron and Neville bring him down later in the battle.",
+      "film_portrayal": "Greyback is shown with blood on his lips after attacking Lavender, then Hermione blasts him with a single spell and he drops, apparently finished. He does not appear again. The four-legged animal attack is not shown; he is simply seen standing over Lavender.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The film captures the essential beat (Greyback attacks Lavender, Hermione stops him) but loses the animalistic four-legged detail and the subsequent Trelawney/Ron-and-Neville beats. Minor damage - the core action is present."
+    },
+    {
+      "scene": "All films - Greyback's ideology and backstory never established",
+      "book_baseline": "Lupin's extended explanation of Greyback establishes him as ideologically driven: he wants to create enough werewolves to overcome wizards, specializes in biting children, raises them away from parents to hate normal wizards, and deliberately positions himself near victims at the full moon. He is not just a monster but a revolutionary with a cause. Crucially, he bit Lupin as a child in deliberate revenge against Lupin's father.",
+      "film_portrayal": "None of this is conveyed in any film. Greyback is presented purely as a feral physical threat with no ideology, no backstory, and no connection to Lupin's werewolf condition.",
+      "damage_type": "nuance/lost material | arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The absence of Greyback's ideology removes the thematic weight he carries in the books: he represents what Lupin fears becoming, the dark mirror of werewolf identity. His role in Lupin's backstory (biting him as a child) is never established in the films, which severs the personal dimension of Lupin's mission among the werewolves and his conflict with Greyback's worldview. This is the deepest structural damage - Greyback becomes a monster prop rather than a thematically resonant antagonist."
+    },
+    {
+      "scene": "All films - Greyback's non-Dark-Mark status never established",
+      "book_baseline": "The books explicitly note that Greyback was not granted the Dark Mark - he is permitted to wear Death Eater robes as hired muscle but is not of the inner circle. This is why he cannot summon Voldemort directly and must take Harry to Malfoy Manor. It defines his ambiguous, exploited status.",
+      "film_portrayal": "This distinction is never made. His status relative to the Death Eaters is undefined.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The non-Dark-Mark detail illuminates Greyback's position as a useful but despised tool of Voldemort - powerful enough to be feared, but not trusted enough for full membership. Its absence flattens his social position within the Death Eater hierarchy and removes a layer of meaning from his interactions with the Malfoys."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

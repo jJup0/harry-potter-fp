@@ -1,0 +1,71 @@
+{
+  "character": "Norbert",
+  "fp_score": 77.0,
+  "infidelity_score": 23.0,
+  "weighted_infidelity_exposure": 18.5,
+  "cids": 425.5,
+  "damage_per_exposure": 65.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 468.1,
+  "main_damage_causes": [
+    "The midnight tower smuggling sequence - the central act of agency for Harry and Hermione in this arc - is entirely removed and replaced by a passive off-screen Dumbledore intervention",
+    "Norbert's real danger (venom, Ron's poisoning, Malfoy's leverage) is softened into comedy, reducing the stakes of keeping an illegal dragon",
+    "Hagrid's genuine emotional depth around Norbert is deflated into comic relief, weakening a defining character trait"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film - Norbert's departure handled off-screen by Dumbledore",
+      "book_baseline": "Harry and Hermione smuggle Norbert under the invisibility cloak up to the astronomy tower at midnight, hand him to Charlie's friends, then get caught without the cloak on the way down. The entire sequence is a tense, consequential adventure that directly causes their detention and loss of house points.",
+      "film_portrayal": "Norbert is simply sent off to Romania by Dumbledore with no involvement from Harry, Hermione, or Ron. Hagrid mentions it in passing to Filch before the forest detention.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The midnight tower run is a major plot beat where Harry and Hermione exercise real agency and face real consequences. Removing it strips them of their role in solving the Norbert problem and eliminates the causal chain that leads to their detention - which in the film is instead just assigned without the same earned dramatic logic."
+    },
+    {
+      "scene": "Film - Ron's dragon bite and poisoning absent",
+      "book_baseline": "Norbert bites Ron, whose hand swells and turns green from the venom, landing him in the hospital wing. Malfoy exploits this to threaten exposure. Ron's suffering and vulnerability are central to the week's tension.",
+      "film_portrayal": "Ron is bitten briefly and it is played for a laugh (Norbert hiccups a fireball into Hagrid's beard instead being the comic beat). No poisoning, no hospital wing, no Malfoy leverage over Ron.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The bite's consequences give Norbert real danger and give Malfoy a concrete hold over the trio. Losing it softens both Norbert's threat and Malfoy's menace in this arc."
+    },
+    {
+      "scene": "Film - Malfoy's role in the Norbert exposure collapsed and reframed",
+      "book_baseline": "Malfoy spies through the window, steals Charlie's letter from Ron's book in the hospital wing, and tries to catch Harry and Hermione at the tower - but is himself caught by McGonagall, getting detention. His scheming backfires in a satisfying reversal.",
+      "film_portrayal": "Malfoy spies through the window and reports to McGonagall, but the letter/hospital wing subplot is gone. He ends up in detention alongside the trio, but the specific reversal of him being caught trying to catch them at the tower is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Malfoy-gets-his-comeuppance beat (McGonagall catching him at the tower) is a small but satisfying piece of plotting that rewards the reader. The film collapses this into a simpler report-and-punish structure, losing the irony."
+    },
+    {
+      "scene": "Film - Hagrid's emotional farewell to Norbert reduced to comic self-pity",
+      "book_baseline": "Hagrid is genuinely heartbroken, sobbing 'Mommy will never forget you!' while packing Norbert a teddy bear. His grief is real and the scene is both funny and touching. Later in book 3 he lists losing Norbert among his worst memories alongside his father's death.",
+      "film_portrayal": "Hagrid's grief is played as mild comic whining to Filch ('What if the other dragons are mean to him?'), deflated immediately by Filch's impatience. The emotional weight is undercut.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Hagrid's capacity for deep, unselfconscious love for dangerous creatures - played straight, not just for laughs - is a defining character trait. Reducing his farewell to a punchline weakens the sincerity that makes him endearing."
+    },
+    {
+      "scene": "Film - Neville's warning attempt at the tower absent",
+      "book_baseline": "Neville tries to warn Harry and Hermione about Malfoy's plan and is caught by McGonagall alongside them, receiving detention too. This is an early moment of Neville's loyalty and bravery, and his punishment motivates his later desperation in the common room scene.",
+      "film_portrayal": "Neville does not appear in this sequence at all.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss for Norbert's arc specifically, though it is part of a broader pattern of Neville's small acts of courage being trimmed. Low impact on Norbert's characterization directly."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

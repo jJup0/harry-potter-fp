@@ -1,0 +1,80 @@
+{
+  "character": "Frank Bryce",
+  "fp_score": 57.0,
+  "infidelity_score": 43.0,
+  "weighted_infidelity_exposure": 19.0,
+  "cids": 817.0,
+  "damage_per_exposure": 116.7,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 1225.5,
+  "main_damage_causes": [
+    "Frank's defining act of defiance - his spoken confrontation with Voldemort - is completely removed, eliminating his agency and the thematic point of his character",
+    "All backstory (war veteran, village suspicion, caretaker history, distrust of police) is absent, making his death meaningless rather than the death of a dignified, unjustly persecuted innocent",
+    "Frank's internal moral reasoning during the eavesdropping is lost, reducing him from an active moral agent to a passive victim who stumbles into his own death"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Frank's motivation for entering the house",
+      "book_baseline": "Frank sees lights and assumes local boys have broken in and started a fire. He acts out of a sense of responsibility as caretaker, deliberately fetches his key and walking stick, and enters with purpose.",
+      "film_portrayal": "Frank takes a flashlight and simply heads over. No internal reasoning, no assumption about boys, no deliberate preparation with key and stick. The caretaker motivation and his established history with the property are absent.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Frank as a man with a specific, grounded reason to act - he is the caretaker, he knows the house, he has a key. This makes his bravery credible and rooted in character. The film reduces it to a generic 'old man investigates light' beat with no characterization."
+    },
+    {
+      "scene": "Film Scene 1 - Frank's war background and village context entirely absent",
+      "book_baseline": "Frank is a WWII veteran with a stiff leg, deeply mistrusted by the village who believe he murdered the Riddles, yet he stubbornly stayed. This backstory explains his isolation, his distrust of police, his courage under pressure, and his defiance.",
+      "film_portrayal": "Frank is introduced with no backstory whatsoever. He is simply an unnamed old man in a cottage until Voldemort calls him 'the old Muggle caretaker'.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The village suspicion, his refusal to leave, his war-forged courage - all of this is what makes Frank's defiance of Voldemort meaningful and earned. Without it, his death is the death of a nobody rather than the death of a quietly dignified, unjustly persecuted man. The thematic weight of Voldemort killing an innocent Muggle who survived a war is entirely lost."
+    },
+    {
+      "scene": "Film Scene 1 - Frank's defiant confrontation with Voldemort",
+      "book_baseline": "Frank enters the room with a firmer grip on his walking stick, stands his ground, tells Voldemort he's heard enough to interest the police, bluffs about his wife knowing where he is, and demands Voldemort 'turn round and face me like a man.' His bravery is explicit and characterful.",
+      "film_portrayal": "Frank has no dialogue in the confrontation. He is killed immediately after Voldemort says 'Avada Kedavra' with no exchange. Frank never speaks to Voldemort at all.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Frank's defiant speech is his defining moment - a Muggle war veteran standing up to the most dangerous dark wizard alive and demanding he 'face me like a man.' This is the entire point of the character. Removing it strips Frank of all agency and dignity, and removes the thematic contrast between Frank's human courage and Voldemort's contempt for Muggles. It also removes the dramatic irony of Frank's bluff being seen through instantly."
+    },
+    {
+      "scene": "Film Scene 1 - Frank's line 'Bloody kids'",
+      "book_baseline": "Frank never says 'Bloody kids' in the book. His assumption about boys is an internal narrative thought, not spoken aloud.",
+      "film_portrayal": "Frank mutters 'Bloody kids' as his only line of dialogue in the entire film.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor issue in isolation, but this single throwaway line is Frank's entire characterization in the film. It reduces him to a grumpy old man stock type rather than the complex, dignified, unjustly persecuted figure of the book."
+    },
+    {
+      "scene": "Film Scene 1 - Frank overhearing the conversation",
+      "book_baseline": "Frank listens at length, processes what he hears, reasons that these are spies or criminals speaking in code, becomes aware the cold voice has killed a woman, decides he must go to the police, is frozen by fear but also by the need to keep listening. His internal moral reasoning is detailed.",
+      "film_portrayal": "Frank is shown approaching the door and hearing fragments, but none of his internal reasoning, his decision-making, or his moral response to what he hears is conveyed. The film skips directly to Nagini detecting him.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's eavesdropping sequence establishes Frank as an active moral agent - he is not just a passive victim but someone who understands danger, feels fear, and chooses to stay and gather information to protect others. The film makes him a passive bystander who happens to be overheard."
+    },
+    {
+      "scene": "Film Scene 1 - The mysterious young man",
+      "book_baseline": "There is no mysterious young man present in the book scene. The room contains only Voldemort (in the chair, unseen) and Wormtail.",
+      "film_portrayal": "A 'mysterious young man' steps into view and says 'I will not disappoint you, my Lord.' This character is not in the book version of this scene.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor addition that slightly muddles the scene's focus, though the damage is limited since the character is not identified and the core Voldemort/Wormtail dynamic remains."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

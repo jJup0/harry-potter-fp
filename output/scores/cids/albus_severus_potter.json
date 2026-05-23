@@ -1,0 +1,44 @@
+{
+  "character": "Albus Severus Potter",
+  "fp_score": 36.0,
+  "infidelity_score": 64.0,
+  "weighted_infidelity_exposure": 5.0,
+  "cids": 320.0,
+  "damage_per_exposure": 213.3,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 400.0,
+  "main_damage_causes": [
+    "Harry's 'you can choose Gryffindor' line removes the dramatic irony and tension that drives Albus's arc as a Slytherin outsider",
+    "Albus's anxiety is resolved too neatly on the platform, softening his defining trait of persistent unease and not-belonging",
+    "The film corpus is extremely limited (one scene), so full arc and relationship damage cannot be assessed - confidence is constrained accordingly"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Scene 1 - Platform 9\u00be, Albus expresses Slytherin anxiety",
+      "book_baseline": "In the book epilogue (Deathly Hallows), Albus quietly confides his fear of being sorted into Slytherin to Harry. The exchange is brief and tender, but Albus's anxiety is presented as a private, vulnerable moment between father and son.",
+      "film_portrayal": "The film expands the exchange and has Harry offer Albus an explicit opt-out: 'you can choose Gryffindor. The Sorting Hat takes your choice into account.' This reframes Albus's anxiety as something Harry actively tries to neutralize rather than simply reassure, and undercuts the dramatic irony that Albus will in fact be sorted into Slytherin.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The book's version preserves the dramatic tension: Harry reassures Albus but does not offer him an escape hatch, making the eventual Slytherin sorting a genuine surprise and source of conflict. The film's explicit 'you can choose Gryffindor' line defuses that tension prematurely and misrepresents how the Sorting Hat works for Albus specifically, weakening the foundation of his entire arc as an outsider in his own family's legacy."
+    },
+    {
+      "scene": "Scene 1 - Platform 9\u00be, Albus's demeanor and final wave",
+      "book_baseline": "Book Albus is visibly anxious and burdened throughout the platform scene. His fear is not resolved by the end; he boards the train still carrying that weight.",
+      "film_portrayal": "The script ends with Albus smiling, waving warmly to Harry, and settling in contentedly next to Rose. The anxiety is narratively closed off with warmth and excitement.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Albus's defining trait is that he does not fit the mold and carries that unease persistently. Ending the scene on a smile and a cheerful wave softens his characterization into a generic 'nervous but excited' first-year rather than a child genuinely burdened by his name and expectations."
+    }
+  ],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Low"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

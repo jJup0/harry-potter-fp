@@ -1,0 +1,89 @@
+{
+  "character": "Stan Shunpike",
+  "fp_score": 70.0,
+  "infidelity_score": 30.0,
+  "weighted_infidelity_exposure": 28.0,
+  "cids": 840.0,
+  "damage_per_exposure": 84.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1050.0,
+  "main_damage_causes": [
+    "Stan's wrongful arrest and Harry's repeated moral defence of him against Scrimgeour is entirely absent from the films, removing the most significant function Stan serves in the saga - as the concrete injustice that defines Harry's independence from corrupt authority.",
+    "The Knight Bus scene is compressed and Stan's gossipy, energetic personality is flattened into a weary, functional presence, with comic space transferred to the invented shrunken head - undermining the characterisation that makes his later story meaningful.",
+    "The Battle of the Seven Potters loses the specific moral weight of Harry sparing Stan personally, reducing a principled ethical choice grounded in three books of relationship to a generic tactical preference."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Knight Bus arrival, Stan's introduction",
+      "book_baseline": "Stan leaps out energetically and delivers his conductor spiel with evident pride in his role, dropping into casual cheekiness the moment he spots Harry on the ground.",
+      "film_portrayal": "Stan delivers the welcome speech 'wearily, drearily' - described as pasty, raccoon-eyed, looking like he hasn't seen the sun in years. The energy is flat and joyless.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Book Stan is a young man proud of his job who drops the professional act into cheeky banter. Film Stan is a drained, world-weary figure. This reframes his entire characterisation from enthusiastic working-class youth to a listless drone, undermining the warmth and comedy of the introduction."
+    },
+    {
+      "scene": "Film Scene 2 - Stan's suspicious questioning of Harry's name",
+      "book_baseline": "Stan persistently asks Harry's name, notices the scar, and is clearly curious and a little suspicious. Harry deflects with 'Neville Longbottom' and Stan accepts it, shifting to proud conductor mode.",
+      "film_portrayal": "Stan asks 'Wot you say your name was again?' and Harry says 'I didn't.' Stan peeks over the paper coolly and drops it. The scar-noticing, the name persistence, and the 'Neville Longbottom' exchange are all cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor loss - the name game is a small comic beat and the scar moment shows Stan's awareness of Harry's fame. Its absence slightly flattens the scene but has no downstream consequence since Stan's recognition of Harry is handled differently in the film."
+    },
+    {
+      "scene": "Film Scene 3 - Sirius Black discussion on the Knight Bus",
+      "book_baseline": "Stan is animated and gossipy about Sirius Black, swiveling in his armchair, chuckling over the paper, recounting the murder of thirteen people with relish, reacting with full-body terror when Harry says 'Voldemort', and chatting freely with Ern. He is a vivid, talkative presence.",
+      "film_portrayal": "Stan gives a brief, functional account of Black - a murderer, first to escape Azkaban, supporter of You-Know-Who. The extended gossipy exchange, the Voldemort panic, and the back-and-forth with Ern are all absent. The shrunken head fills much of the comic space.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Knight Bus scene is Stan's showcase: his gossipy, excitable, working-class voice is what makes him memorable. The film compresses this into functional exposition, transferring comic energy to the shrunken head (a film invention). Stan loses the personality that makes his later arrest and Harry's defence of him emotionally resonant."
+    },
+    {
+      "scene": "Film Scene 3 - Arrival at Leaky Cauldron, Stan absent from farewell",
+      "book_baseline": "Stan leaps onto the pavement when Harry meets Fudge, excitedly asks why Fudge called Harry 'Neville', helps carry the trunk, and calls out ''Bye, Neville!' - a warm, funny coda to the relationship.",
+      "film_portrayal": "The bus simply rockets off. Tom the innkeeper greets Harry directly. Stan has no farewell scene, no interaction with Fudge, no trunk-carrying, no parting joke.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but the farewell beat completes Stan's characterisation as an oblivious, good-natured presence. Its absence is minor in isolation but contributes to the overall thinning of Stan as a character."
+    },
+    {
+      "scene": "Film - Stan's arrest, Harry's defence of Stan (HBP content entirely absent)",
+      "book_baseline": "Stan's wrongful arrest is a recurring moral thread in HBP. Harry explicitly cites Stan's imprisonment when refusing to endorse Scrimgeour, equating it with the Ministry's dishonesty. Dumbledore also appeals for Stan. This is Harry's clearest act of moral independence from authority in the book.",
+      "film_portrayal": "The HBP film omits Stan's arrest entirely and omits Harry's confrontations with Scrimgeour over Stan. Harry's moral stand against the Ministry on Stan's behalf does not exist in the films.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Stan's wrongful imprisonment is not just a subplot - it is the concrete example Harry uses to demonstrate that the Ministry is corrupt and that he will not be their mascot. Removing it strips Harry of a specific, principled moral argument and weakens the Ministry-as-antagonist thread. The audience loses the sense that Harry's refusal of Scrimgeour is grounded in a real injustice he personally witnessed."
+    },
+    {
+      "scene": "Film DH1 - Battle of the Seven Potters, Stan Imperiused (absent)",
+      "book_baseline": "Harry sees Stan among the Death Eaters, recognises him as Imperiused, and uses Expelliarmus rather than a lethal spell - a defining moral choice that exposes Harry's identity and triggers the chase. Lupin and Kingsley explicitly discuss Harry's mercy toward Stan as the tactical error that revealed him.",
+      "film_portrayal": "The film includes the Seven Potters battle and Harry using Expelliarmus, but Stan Shunpike is not identified as the target. The specific moral weight - Harry sparing someone he knows personally, someone he believes is an innocent victim - is absent. The post-battle discussion does not name Stan.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the book, Harry's choice is not just 'use a non-lethal spell' but 'I will not kill Stan Shunpike, who I know is innocent.' The personal connection transforms a tactical decision into a moral statement about Harry's character. Without Stan being named, the film reduces this to a generic preference for Expelliarmus, losing the specific ethical weight Rowling built across three books."
+    },
+    {
+      "scene": "Film DH1 Scene 4 - Ron uses 'Stan Shunpike' as alias with Snatchers",
+      "book_baseline": "Ron uses Stan's name as a cover identity when caught by Snatchers, and Scabior says they know Stan - he's 'put a bit of work our way', implying Stan is known to the criminal underworld, adding dark irony to his earlier wrongful arrest.",
+      "film_portrayal": "The scene is present and largely faithful - Ron says 'Stan Shunpike', Scabior says 'Like 'ell you are, we know skinny Stan.' Ron then gives up and says 'Barney Weasley' (film invention replacing the book's different resolution).",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is mostly faithful. The small divergence is Ron's fallback name ('Barney Weasley' vs the book's different handling) and the loss of the book's implication that Stan has been doing work for the Snatchers - a detail that adds complexity to his Imperiused state. Damage is minimal."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "character": "Vernon Dursley",
+  "fp_score": 78.0,
+  "infidelity_score": 22.0,
+  "weighted_infidelity_exposure": 42.0,
+  "cids": 924.0,
+  "damage_per_exposure": 51.3,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1155.0,
+  "main_damage_causes": [
+    "Absence of Chapter One (Vernon's day-of-omens POV) removes the psychological foundation that makes Vernon's behaviour coherent \u2014 his active, knowing suppression of Harry's identity rather than mere ignorance or cruelty",
+    "Compression of the letters escalation sequence and the Dementor kitchen interrogation strips away the richly detailed portrait of Vernon under pressure \u2014 his paranoia, bluster, and characteristic attempts to map the magical world onto Muggle frameworks",
+    "Absence of Dumbledore's direct rebuke in HBP and the Petunia Howler scene in OotP removes the only moments of external accountability for Vernon's treatment of Harry, leaving his arc without moral consequence"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film 1 (PS) - Zoo/reptile house: Vernon's reaction to snake incident",
+      "book_baseline": "Vernon waits until Piers is gone, is so angry he can barely speak, manages only 'Go -- cupboard -- stay -- no meals' before collapsing into a chair needing brandy. His rage is barely contained, almost incapacitating.",
+      "film_portrayal": "Vernon shoves Harry against a wall and grabs his hair immediately on returning home, physically aggressive in front of others. The barely-contained, almost speechless fury of the book is replaced with straightforward physical intimidation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor shift: the book's Vernon is more psychologically menacing (rage so intense he can't speak), the film makes him more crudely physical. Small but flattens his particular brand of controlled, seething fury."
+    },
+    {
+      "scene": "Film 1 (PS) - Hagrid's hut: Vernon's confrontation with Hagrid",
+      "book_baseline": "Vernon attempts to assert authority ('I demand you leave'), is silenced by Hagrid bending his gun, then finds his voice again to deliver a vicious speech about Harry's parents ('weirdos... world's better off without them... asked for all they got'). He cycles between cowardice and spite, showing his cruelty toward Harry's dead parents explicitly.",
+      "film_portrayal": "Vernon says 'We swore when we took him in, we'd put a stop to all this rubbish' but the extended cruel speech about Harry's parents being 'weirdos' who 'asked for all they got' and the world being 'better off without them' is cut entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book speech is a key moment establishing the depth of Vernon's cruelty and contempt \u2014 not just fear of magic but active hatred of Harry's parents and their world. Its absence softens him from genuinely cruel to merely obstructive."
+    },
+    {
+      "scene": "Film 1 (PS) - Hagrid's hut: Vernon's attempt to stop Harry going to Hogwarts",
+      "book_baseline": "Vernon says 'He's not going' and 'I AM NOT PAYING FOR SOME CRACKPOT OLD FOOL TO TEACH HIM MAGIC TRICKS' \u2014 he is actively, loudly defiant even in the face of Hagrid, cycling between terror and bluster, asserting parental authority.",
+      "film_portrayal": "Vernon's defiance is present but compressed. The cycling dynamic of cowardice-then-bluster-then-cowardice that characterises his personality is truncated into simpler opposition.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. The rhythmic cowardice/bluster pattern that defines Vernon's voice is slightly flattened but the essential beats are present."
+    },
+    {
+      "scene": "Film 1 (PS) - Letters sequence: Vernon's escalating obsession",
+      "book_baseline": "Vernon's response to the letters is a multi-day, increasingly unhinged escalation: nailing the mail slot, boarding doors, humming 'Tiptoe Through the Tulips', driving erratically to 'shake them off', checking into a hotel, driving into forests and fields. His paranoid, almost comic desperation is richly detailed and reveals his character under pressure.",
+      "film_portrayal": "The escalation is compressed into a montage. The humming, the erratic driving, the hotel, the multiple location changes are largely cut. The film jumps relatively quickly to the rock hut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The extended letters sequence is one of Vernon's defining comic-menacing passages. The compression loses the portrait of a man coming apart at the seams \u2014 his particular blend of pomposity, paranoia, and stubbornness under absurd pressure. This is character-level material."
+    },
+    {
+      "scene": "Film 1 (PS) - King's Cross: Vernon's farewell",
+      "book_baseline": "Vernon wheels Harry's trunk in, then stops with a 'nasty grin' at the platforms, mocks Harry ('Your platform should be somewhere in the middle, but they don't seem to have built it yet'), says 'Have a good term' with an 'even nastier smile', and leaves with all three Dursleys laughing. It is deliberate, gleeful cruelty \u2014 he knows Harry is stranded.",
+      "film_portrayal": "This scene does not appear in the film corpus provided. Harry finds the platform via the Weasleys without the Dursley farewell scene.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book farewell is a crystallising moment of Vernon's sadism \u2014 he doesn't just fail to help, he actively engineers Harry's distress and laughs about it. Its absence removes a beat that shows Vernon at his most deliberately cruel rather than merely obstructive."
+    },
+    {
+      "scene": "Film 2 (CoS) - Dobby scene: Vernon's handling of the Mason dinner crisis",
+      "book_baseline": "Vernon attempts to smooth things over with the Masons ('Just our nephew \u2014 very disturbed'), promises Harry he'll 'flay him to within an inch of his life', hands him a mop, and nearly salvages the evening before the owl arrives. He is calculating and socially manipulative even in crisis.",
+      "film_portrayal": "Vernon's damage-control attempt is present in the screenplay excerpt ('I'm sorry. It's our nephew. Very disturbed...') but the full calculating quality \u2014 the near-recovery, the mop, the almost-saved deal \u2014 is compressed.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The calculating social face Vernon presents to the world (versus his behaviour toward Harry) is slightly compressed but the essential beat is present."
+    },
+    {
+      "scene": "Film 2 (CoS) - Vernon locks Harry up with bars and cat-flap",
+      "book_baseline": "Book establishes this as Vernon's deliberate, methodical punishment: padlocking Hedwig's cage, locking Harry's room, installing a cat-flap for food delivery, letting Harry out only for bathroom visits. It is systematic, almost bureaucratic cruelty.",
+      "film_portrayal": "The film shows Vernon fitting bars and a lock in montage, which is faithful in content. However the padlocking of Hedwig's cage (a separate cruelty) and the full systematic nature is slightly compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The montage captures the essence but the methodical, almost satisfied quality of Vernon's cruelty is slightly softened."
+    },
+    {
+      "scene": "Film 3 (PoA) - Aunt Marge inflation: Vernon lets go of Marge",
+      "book_baseline": "In the book, Vernon seizes one of Marge's feet trying to pull her down, is almost lifted himself, then Ripper bites his leg. He does not voluntarily release her \u2014 he is bitten off. His attempt to hold on, however self-interested, is present.",
+      "film_portrayal": "The film has Vernon grip Marge's hands as she rises, then deliberately let go and fall to his knees, watching her float away. This is a conscious choice to abandon her, which is not in the book.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but notable inversion: book Vernon tries to hold on (self-interest/family loyalty) and is forced to release; film Vernon makes a conscious choice to let her go. Slightly alters his characterisation in this moment."
+    },
+    {
+      "scene": "Film 3 (PoA) - Hogsmeade form negotiation",
+      "book_baseline": "Harry deliberately and cleverly leverages the Aunt Marge situation \u2014 threatening to 'accidentally let something slip' about St. Brutus's \u2014 to extract Vernon's promise to sign the form. Vernon recognises he's been outmanoeuvred, his 'teeth bared and a vein throbbing', but agrees. It is a rare moment of Harry having genuine agency over Vernon through wit.",
+      "film_portrayal": "The film shows Harry asking Vernon to sign 'something for school' and Vernon saying 'Later perhaps. If you behave.' The negotiation scene \u2014 Harry's calculated leverage, Vernon's recognition of being cornered \u2014 is absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The negotiation is one of the few book scenes where Harry outsmarts Vernon on Vernon's own terms. Its absence removes a moment of Harry's growing agency and Vernon's grudging recognition of it, and also removes a dimension of Vernon as someone who can be reasoned with (however unpleasantly) when his own interests are threatened."
+    },
+    {
+      "scene": "Film 5 (OotP) - Dementor aftermath: Vernon's kitchen interrogation",
+      "book_baseline": "Vernon's extended kitchen interrogation after the Dementor attack is a rich character scene: he blusters, asks what Dementors are, processes the information in his characteristic way ('Gave 'em the old one-two, did you?'), and ultimately tries to throw Harry out before being stopped by Petunia's Howler. His confusion, bluster, and the moment where he almost grasps the real danger are all present.",
+      "film_portrayal": "The film compresses this substantially. Vernon's 'Who did this to you, boy?' and 'You've finally driven him loopy!' are present but the extended interrogation \u2014 Vernon processing what Dementors are, his characteristic attempts to map the magical world onto Muggle frameworks, his expulsion attempt \u2014 is largely cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book kitchen scene is one of Vernon's most revealing: his bluster masking genuine fear, his attempts to understand a world he despises, and the moment Petunia's knowledge of Dementors shocks him. The compression loses significant character texture."
+    },
+    {
+      "scene": "Film 5 (OotP) - Vernon's expulsion attempt and Petunia's Howler",
+      "book_baseline": "Vernon's attempt to throw Harry out ('You can get out of this house, boy!') is a full scene with Vernon 'inflating', bellowing about everything that has gone wrong, referencing Marge, the Ford Anglia, Dudley's tail \u2014 a comprehensive catalogue of grievances. He is stopped only by Petunia's Howler. His subsequent deflation ('like an old tyre') when Petunia overrules him is a key dynamic moment.",
+      "film_portrayal": "This scene is absent from the film corpus. The Howler and its aftermath do not appear.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The expulsion attempt and Howler scene establishes the Vernon-Petunia dynamic (she overrules him on the fundamental question of Harry's presence), reveals that Petunia has hidden knowledge, and shows Vernon's bluster ultimately subordinate to Petunia's fear. Its absence damages the Dursley family dynamic and removes Petunia's most important characterisation moment."
+    },
+    {
+      "scene": "Film 6 (HBP) - Dumbledore's visit to Privet Drive",
+      "book_baseline": "Dumbledore visits, uses magic to seat the Dursleys on the sofa, conjures drinks that pester them, and delivers a direct rebuke: 'You have never treated Harry as a son. He has known nothing but neglect and often cruelty at your hands.' Vernon is rendered almost speechless by Dumbledore's presence, attempts rudeness, is cut off. The scene establishes Dumbledore's awareness of Harry's treatment and Vernon's impotence before genuine authority.",
+      "film_portrayal": "The film corpus does not contain this scene. Dumbledore's visit and his rebuke of the Dursleys is absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Dumbledore's rebuke of Vernon is the only moment in the series where Vernon is held directly accountable for his treatment of Harry by a figure of unambiguous authority. Its absence means Vernon faces no moral reckoning and the audience loses the explicit acknowledgement of the abuse. This is arc-level material for both Vernon and Harry."
+    },
+    {
+      "scene": "Film 7 (DH1) - Departure from Privet Drive: Vernon's goodbye",
+      "book_baseline": "Vernon attempts to shake Harry's hand but cannot bring himself to complete the gesture, closing his fist and swinging it 'like a metronome'. He says 'Well, this is good-bye then, boy' \u2014 awkward, unable to bridge the gap even at the final moment. His inability to perform even a basic human farewell is telling.",
+      "film_portrayal": "Vernon says 'Well, this is goodbye then, boy' and stares hard at Harry. The aborted handshake \u2014 the physical embodiment of his inability to connect \u2014 is absent. He simply turns and goes to the car.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The aborted handshake is a small but precise detail that captures Vernon's fundamental emotional blockage. Its absence is minor but removes a moment of unspoken characterisation."
+    },
+    {
+      "scene": "Film 7 (DH1) - Departure: Vernon's changing-his-mind sequence",
+      "book_baseline": "Vernon has been changing his mind every 24 hours for four weeks, repeatedly packing and unpacking the car. Harry's 'favourite moment' is Vernon collapsing under the weight of Dudley's dumbbells. Vernon's paranoid theory that it's all a plot to steal the house is present. This extended sequence shows Vernon's particular brand of stubborn, self-interested reasoning.",
+      "film_portrayal": "The film goes directly to the farewell scene. The four weeks of indecision, the house-theft conspiracy theory, the dumbbell collapse \u2014 all absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The extended indecision sequence is comic but also characterising \u2014 Vernon's paranoid self-interest, his inability to accept help from people he despises, his stubbornness. Its compression is minor damage."
+    },
+    {
+      "scene": "Film 1 (PS) - Chapter 1 equivalent: Vernon's day of omens",
+      "book_baseline": "The entire first chapter is Vernon's POV: his morning routine, noticing the cloaked people, overhearing 'the Potters', nearly calling Petunia, the old man hugging him, the cat, the evening news, his careful non-conversation with Petunia about her sister. Vernon is the protagonist of this chapter \u2014 anxious, self-interested, suppressing knowledge, protecting his 'normal' life.",
+      "film_portrayal": "The film begins with Dumbledore and McGonagall on Privet Drive. Vernon's entire day-of-omens chapter is absent. His interiority, his awareness of the wizarding world's existence, his deliberate choice to suppress knowledge of Harry's heritage \u2014 none of this is established.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Chapter One is foundational for Vernon's characterisation: it establishes that he is not merely ignorant but actively choosing to suppress and deny. His fear, his snobbery, his love for Petunia, his self-protective instincts, and his complicity in hiding Harry's identity are all established here. Without it, the film Vernon lacks the psychological depth that makes his later behaviour coherent rather than cartoonish. This is the single largest damage to the character."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

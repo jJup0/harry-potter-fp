@@ -1,0 +1,89 @@
+{
+  "character": "Fluffy",
+  "fp_score": 79.0,
+  "infidelity_score": 21.0,
+  "weighted_infidelity_exposure": 13.0,
+  "cids": 273.0,
+  "damage_per_exposure": 45.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 300.3,
+  "main_damage_causes": [
+    "Harry's agency in bypassing Fluffy is transferred to Snape (enchanted harp), removing a meaningful climactic contribution and the Hagrid-gift callback",
+    "Hagrid's post-climax guilt and confession scene is absent, leaving his character arc for this storyline without emotional resolution",
+    "Hermione's social intelligence and flattery as a plot tool is cut, reducing her characterization beyond pure academic competence"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Hagrid reveals Fluffy's name and origin",
+      "book_baseline": "Hagrid bought Fluffy off a Greek chappie he met in the pub.",
+      "film_portrayal": "Hagrid says he bought Fluffy off an Irish feller. Minor factual change but alters the specific detail Rowling chose.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Trivial nationality change with no meaningful consequence to characterization or plot."
+    },
+    {
+      "scene": "Film Scene 1 - Hagrid dismisses Snape suspicion after Fluffy reveal",
+      "book_baseline": "Hagrid is alarmed and hushing the trio, warning them not to meddle, but does not flatly defend Snape as innocent - he is evasive and protective of secrets rather than dismissive of their concern.",
+      "film_portrayal": "Hagrid says 'Codswallop. Professor Snape is a Hogwarts teacher' - a flat, almost contemptuous dismissal that makes him seem naive rather than evasive and protective.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Hagrid's book characterization is secretive and flustered, not dismissively credulous. Minor tone shift."
+    },
+    {
+      "scene": "Film Scene 2 - Hagrid reveals 'ain't a soul knows how to get past Fluffy except me and Dumbledore'",
+      "book_baseline": "In the book this key secret is extracted through Hermione's flattery over a longer, more careful conversation. Hagrid resists, then is gradually won over. The revelation feels earned and Hagrid immediately regrets it.",
+      "film_portrayal": "Hagrid blurts the secret almost unprompted in the middle of a short visit, with no flattery or social engineering from the trio. He self-corrects immediately but the ease of extraction removes the sense that this is a carefully guarded secret.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Hagrid as someone whose loyalty and discretion are genuine but exploitable through warmth and flattery - a nuanced flaw. The film collapses this into a simple slip, reducing Hagrid's characterization and removing Hermione's social intelligence as a plot tool."
+    },
+    {
+      "scene": "Film Scene 3 - Hagrid playing the flute outside his hut, trio approaches",
+      "book_baseline": "Harry takes Hagrid's Christmas flute with him specifically to use on Fluffy, having worked out the music solution. The flute is a meaningful callback to Hagrid's gift and Harry's resourcefulness.",
+      "film_portrayal": "Hagrid is shown playing the flute outside his hut as the trio approaches, visually telegraphing the music solution to the audience before the trio even enters the corridor. The trio does not bring the flute - Snape has already enchanted a harp. Harry's preparation and agency in solving the Fluffy obstacle is removed.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book Harry actively uses Hagrid's flute to put Fluffy to sleep - a small but meaningful act of agency that ties Hagrid's gift to the climax. In the film Snape has already done it with a harp, and Harry contributes nothing to bypassing Fluffy. This transfers agency away from Harry and removes a satisfying narrative callback."
+    },
+    {
+      "scene": "Film Scene 3 - Snape has already enchanted the harp / Fluffy already asleep",
+      "book_baseline": "The trio must actively put Fluffy to sleep themselves using the flute Harry brought. The open door signals Snape has been there but the trio still has to deal with Fluffy's waking.",
+      "film_portrayal": "Fluffy is already asleep when they arrive because Snape enchanted a harp. The trio only has to move his paw. Fluffy then wakes and nearly kills them as they jump through the trapdoor.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Harry's use of the flute is his only direct contribution to bypassing the first obstacle. Removing it strips him of agency at the start of the climactic sequence and eliminates the Hagrid-gift callback. The waking Fluffy moment adds peril but does not restore the lost agency."
+    },
+    {
+      "scene": "Film Scene 3 - Hagrid's guilt and confession scene absent from film climax",
+      "book_baseline": "After Harry recovers, Hagrid visits the hospital wing in tears, confessing 'It's all my ruddy fault! I told the evil git how ter get past Fluffy!' This is a significant emotional beat showing Hagrid's remorse, self-awareness, and the weight of his mistake.",
+      "film_portrayal": "This scene does not appear in the film corpus. Hagrid's guilt and confession are absent from the resolution.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The confession scene closes Hagrid's arc for this storyline - his flaw (inability to keep secrets, love of dangerous creatures) directly endangered Harry and he knows it. Its absence means Hagrid faces no emotional reckoning and the thematic consequence of his weakness is unresolved on screen."
+    },
+    {
+      "scene": "Film Scene 3 - Hermione's flattery of Hagrid to extract information is absent",
+      "book_baseline": "Hermione uses warm, calculated flattery ('We only wondered who Dumbledore had trusted enough to help him, apart from you') to get Hagrid to reveal the list of enchantments and confirm only he and Dumbledore know how to get past Fluffy. Harry and Ron beam at her for it.",
+      "film_portrayal": "The flattery scene does not occur. Information about the Stone's protections and Fluffy's secret is obtained through more direct, less socially intelligent exchanges.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is one of Hermione's best early characterization moments - showing she is not just book-smart but socially perceptive and strategically capable. Its absence flattens her into a purely academic character at this point in the story."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

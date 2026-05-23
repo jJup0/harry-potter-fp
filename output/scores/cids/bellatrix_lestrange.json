@@ -1,0 +1,107 @@
+{
+  "character": "Bellatrix Lestrange",
+  "fp_score": 78.0,
+  "infidelity_score": 22.0,
+  "weighted_infidelity_exposure": 39.5,
+  "cids": 869.0,
+  "damage_per_exposure": 66.8,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1086.2,
+  "main_damage_causes": [
+    "Compression and near-elimination of the Department of Mysteries sequence removes Bellatrix's most extended characterisation as a sadistic, ideologically-driven antagonist with a personal vendetta against Neville and a philosophical stance on Dark magic that echoes through later films.",
+    "Replacement of book-faithful scenes with invented spectacle (Burrow attack, Astronomy Tower antics) substitutes purposeful fanaticism with cartoonish villainy, flattening her from a complex true believer into a stock cackling villain.",
+    "Loss of the Voldemort humiliation scene and the compressed Spinner's End interrogation removes the only evidence of Bellatrix's vulnerability and the full depth of her ideological relationship with both Voldemort and Snape."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "OotP - Department of Mysteries confrontation",
+      "book_baseline": "Bellatrix is the dominant, terrifying Death Eater in the DoM: she commands the group, threatens to torture Ginny, taunts Harry with mock baby voice, engages in extended cat-and-mouse duel, delivers the lesson about Unforgivable Curses requiring genuine desire to cause pain, and is the one who kills Sirius after a prolonged duel.",
+      "film_portrayal": "Bellatrix is largely a background figure until Sirius's death. The extended DoM confrontation - her taunting Harry, threatening children, the chase through the Ministry, the Cruciatus duel in the Atrium - is almost entirely cut. She kills Sirius with a single 'Avada Kedavra' with minimal buildup.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The film strips Bellatrix of her most defining extended scene. Her sadism, tactical cunning, fanaticism, and the lesson about Unforgivable Curses (which pays off in DH) are all lost. Her role as the primary antagonist of this sequence is reduced to a single killing blow."
+    },
+    {
+      "scene": "OotP - Neville confrontation ('I have had the pleasure of meeting your parents')",
+      "book_baseline": "Bellatrix recognises Neville, savours the moment with genuine evil delight, and deliberately tortures him with Cruciatus to coerce Harry - a direct echo of what she did to his parents, making the scene deeply personal and thematically resonant.",
+      "film_portrayal": "Bellatrix's line to Neville ('How's Mom and Dad?') is present but the torture of Neville, her drawn-out sadistic pleasure in the moment, and the explicit connection to the Longbottom torture are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Neville-Bellatrix relationship is one of the saga's most important personal vendettas. Losing the torture scene removes the visceral stakes and the thematic mirror of her past crime."
+    },
+    {
+      "scene": "OotP - Atrium duel and Cruciatus lesson",
+      "book_baseline": "Harry chases Bellatrix into the Atrium, attempts Cruciatus on her, she is knocked down but recovers and delivers the key line: 'You need to really want to cause pain - to enjoy it.' This is a major character beat for both Harry and Bellatrix and a thematic statement about the nature of Dark magic.",
+      "film_portrayal": "The entire Atrium chase and duel is cut. Harry fires Cruciatus at Bellatrix in the DoM battle but the lesson and extended confrontation are absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This scene defines Bellatrix's philosophy of cruelty and directly seeds Harry's later use of Cruciatus in DH ('I see what Bellatrix meant'). Cutting it severs a thematic throughline across three films."
+    },
+    {
+      "scene": "HBP - Spinner's End (Unbreakable Vow scene)",
+      "book_baseline": "Bellatrix arrives hostile and suspicious, delivers a lengthy, passionate interrogation of Snape covering every point of his suspected treachery, is gradually silenced by his answers, and ends in astonished silence as she serves as Bonder - a complex arc from aggressor to reluctant witness.",
+      "film_portrayal": "Bellatrix's interrogation of Snape is drastically compressed. The detailed list of accusations, her passionate defence of her Azkaban loyalty, and her gradual discomfiture are cut. She is mostly reactive and her role as Bonder is retained but her ideological confrontation with Snape is gutted.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Spinner's End scene is the richest portrayal of Bellatrix's intelligence and fanaticism outside combat. The film reduces her to a suspicious bystander rather than a formidable ideological challenger."
+    },
+    {
+      "scene": "HBP - Burrow attack (invented scene)",
+      "book_baseline": "No such attack occurs in the book. Bellatrix does not attack the Burrow.",
+      "film_portrayal": "Bellatrix leads an attack on the Burrow at Christmas, burning it down, taunting Harry, and using Greyback as muscle. She is portrayed as a cackling, almost pantomime villain chasing Harry through reeds.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The invented scene replaces Bellatrix's book characterisation (calculating, fanatically loyal, operating under Voldemort's orders) with a gratuitous display of cackling villainy that serves no plot function and reduces her to a stock antagonist."
+    },
+    {
+      "scene": "HBP - Astronomy Tower ('Boo' to first year / destroying Great Hall window)",
+      "book_baseline": "Bellatrix is not present at the Astronomy Tower in the books in this capacity; her role in the Death Eater incursion is absent from the source.",
+      "film_portrayal": "Bellatrix leers at a first-year student and says 'Boo,' then gratuitously blasts the Great Hall window for no tactical reason, grinning 'like a mad child.'",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "These moments reduce Bellatrix to cartoonish villainy - random cruelty for spectacle rather than the purposeful, ideologically-driven fanaticism of the books."
+    },
+    {
+      "scene": "DH1 - Malfoy Manor (Hermione torture)",
+      "book_baseline": "Bellatrix tortures Hermione at length with Cruciatus and a knife, carves 'Mudblood' into her arm, and is driven by genuine terror about her vault being breached - a scene of sustained horror that establishes her as the saga's most personally dangerous villain.",
+      "film_portrayal": "The torture is present and effective but the 'Mudblood' carving is absent, and Bellatrix's specific terror about the vault (which Harry uses to deduce the Horcrux) is handled more briefly.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The carving is a lasting physical mark of Bellatrix's hatred that Hermione carries through the rest of the story. Its absence softens the scene's lasting impact on the character relationship."
+    },
+    {
+      "scene": "DH1 - Voldemort's war council ('I'd like to kill the boy')",
+      "book_baseline": "Bellatrix does not speak at the Malfoy Manor council in the book's opening chapter in this way; her role there is to sit closest to Voldemort, flushed with devotion, and be publicly humiliated about Andromeda's marriage.",
+      "film_portrayal": "Bellatrix volunteers to kill Harry herself ('I'd like to kill the boy'), which Voldemort dismisses. The humiliation scene about Andromeda/Tonks's marriage - which shows Bellatrix's vulnerability and Voldemort's casual cruelty toward even his most devoted follower - is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The humiliation scene is the only moment in the books where Bellatrix is publicly diminished by Voldemort, revealing the transactional and cruel nature of her devotion. Its absence removes a key dimension of their relationship."
+    },
+    {
+      "scene": "DH2 - Battle of Hogwarts (Bellatrix vs Molly Weasley)",
+      "book_baseline": "Bellatrix duels Hermione, Ginny and Luna simultaneously and is equal to all three before Molly intervenes. She taunts Molly about Fred's death ('When Mummy's gone the same way as Freddie?'). Her death laugh echoes her cousin Sirius's, a deliberate authorial parallel.",
+      "film_portrayal": "Bellatrix stands on a table spraying spells, nearly hits Ginny, taunts Molly with 'It's not like you don't have a spare' (about George/Fred), and is killed by Molly. The three-on-one duel is absent; the Sirius parallel laugh is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film replaces the book's carefully constructed parallel to Sirius's death and the three-on-one demonstration of Bellatrix's power with a simpler confrontation. The Fred taunt is changed to a George/spare joke, losing the specific cruelty of mocking a fresh bereavement."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

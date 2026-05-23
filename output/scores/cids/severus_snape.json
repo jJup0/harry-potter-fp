@@ -1,0 +1,233 @@
+{
+  "character": "Severus Snape",
+  "fp_score": 71.0,
+  "infidelity_score": 29.0,
+  "weighted_infidelity_exposure": 57.0,
+  "cids": 1653.0,
+  "damage_per_exposure": 75.1,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 2066.2,
+  "main_damage_causes": [
+    "The PS/SS Quidditch match scene actively confirms Snape as the jinxer rather than preserving the book's deliberate ambiguity, undermining the structural reveal and making Snape's protective role feel like a retcon",
+    "The DH Part 1 depiction of Snape cutting off George's ear presents an accidental misfired protective spell as an unexplained attack, the single most misleading distortion of his double-agent role",
+    "The DH Part 2 Headmaster arc omits all evidence of Snape protecting students under the Carrows, making the Prince's Tale feel like exoneration of a complicit villain rather than revelation of a concealed hero"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film \u2013 Potions class introduction",
+      "book_baseline": "Snape's opening speech is a whispered, mesmerizing lecture on the 'subtle science and exact art' of potion-making, establishing him as a teacher of genuine intellectual authority who commands silence without effort.",
+      "film_portrayal": "The speech is delivered but truncated and staged more as menacing theatre than intellectual seduction; the 'barely more than a whisper' quality and the sense that every student is genuinely caught is lost in favour of dramatic blocking.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Snape is terrifying partly because he is genuinely brilliant and commands respect through intellect. The film flattens this to pure intimidation, losing the complexity that makes his later revealed loyalty more credible."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Snape questions Harry in Potions",
+      "book_baseline": "Snape ignores Hermione's raised hand repeatedly, singles Harry out with cold precision, and takes a point for 'cheek' when Harry deflects to Hermione. The scene establishes calculated, targeted cruelty with a pedagogical veneer.",
+      "film_portrayal": "The film condenses the exchange and omits the repeated ignoring of Hermione and the point deduction for cheek, reducing it to a simpler 'fame isn't everything' sneer.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version shows Snape's cruelty as methodical and multi-layered. The film version is a quicker, blunter put-down that loses the sense of a teacher weaponising the classroom structure itself."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Quidditch match jinx scene",
+      "book_baseline": "Hermione notices Snape muttering a counter-curse to save Harry, not a jinx. The scene is deliberately ambiguous to the reader but Quirrell's later confession reveals Snape was protecting Harry throughout.",
+      "film_portrayal": "Hermione explicitly says 'He's jinxing the broom!' and sets Snape on fire to stop him. The film presents this as confirmed fact with no ambiguity, and Hermione's action is framed as heroic intervention against Snape.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book preserves crucial ambiguity that retroactively reframes Snape's entire first-year arc. The film collapses this into a false confirmation of guilt, damaging the structural reveal and making Snape's protective role feel like a retcon rather than a planted truth."
+    },
+    {
+      "scene": "PS/SS Film \u2013 Quirrell's reveal / Snape's counter-curse",
+      "book_baseline": "Quirrell tells Harry that Snape was muttering a counter-curse to save him during the Quidditch match, and that Hermione accidentally broke Snape's eye contact when she set him on fire.",
+      "film_portrayal": "Quirrell confirms Snape was trying to save Harry, but the film has already shown Hermione setting Snape on fire as an act against a jinxer, so the reveal lands as a correction of a false impression the film itself created rather than a recontextualisation of ambiguous evidence.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Because the film made the jinx accusation explicit rather than a character's mistaken inference, the reveal feels weaker and the audience has been actively misled rather than invited to share the characters' misreading."
+    },
+    {
+      "scene": "PoA Film \u2013 Snape's substitute DADA lesson",
+      "book_baseline": "Snape assigns werewolves specifically to expose Lupin, is openly contemptuous of Lupin's teaching, bullies Neville in front of another teacher's class, and gives Ron detention for defending Hermione. The scene shows vindictive abuse of institutional power.",
+      "film_portrayal": "The film includes the werewolf topic and Snape's dismissiveness but significantly compresses the bullying of Neville and the detention for Ron, and removes Snape's pointed commentary on Lupin's 'lack of organisation'.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene is important for showing Snape's pettiness extends to sabotaging a colleague he resents, which contextualises his later revelation about Lupin. The compression softens a key character beat."
+    },
+    {
+      "scene": "PoA Film \u2013 Shrieking Shack confrontation",
+      "book_baseline": "Snape arrives having followed Harry under the Invisibility Cloak, is consumed by 'gleaming fanaticism' and personal vengeance, binds Lupin, threatens to call Dementors for both Black and Lupin, shouts 'KEEP QUIET, YOU STUPID GIRL' at Hermione, and is described as 'beyond reason' with a 'mad glint' in his eyes. He is explicitly driven by a schoolboy grudge.",
+      "film_portrayal": "The film shows Snape arriving and being disarmed by Harry, but removes most of his unhinged dialogue, the binding of Lupin, the threat to give Lupin to the Dementors, and the screaming at Hermione. He is presented as menacing but controlled rather than fanatically vengeful.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Snape in this scene is genuinely frightening because his hatred has overridden his reason. This is essential context for understanding both his complexity and his limitations. The film's more composed version loses the sense that his grudge is a genuine psychological wound."
+    },
+    {
+      "scene": "PoA Film \u2013 Snape shields the trio from the werewolf",
+      "book_baseline": "When the werewolf transforms, Snape leaps to his feet and physically shields Harry, Ron and Hermione with his own body, an instinctive act of protection that occurs despite his hatred of them.",
+      "film_portrayal": "The film includes Snape stepping forward to shield the children, which is faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This moment is largely preserved. Minor tonal differences in staging but not a significant departure."
+    },
+    {
+      "scene": "PoA Film \u2013 Snape's hospital wing breakdown",
+      "book_baseline": "Snape enters the hospital wing shouting 'OUT WITH IT, POTTER', is described as 'beside himself', face twisted, spit flying, howling accusations. Fudge says he seems 'quite unbalanced'. This is a complete loss of composure driven by thwarted vengeance.",
+      "film_portrayal": "The film shows Snape angry and accusatory in the hospital wing but removes the most extreme language ('YOU DON'T KNOW POTTER', 'THEY HELPED HIM ESCAPE') and the physical description of his breakdown, presenting him as furious but not unhinged.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's breakdown is important because it shows the depth of Snape's psychological damage around Sirius Black. Softening it reduces the sense that his hatred is a genuine wound rather than professional antagonism."
+    },
+    {
+      "scene": "GoF Film \u2013 Snape at the Triwizard champion selection",
+      "book_baseline": "When Harry's name emerges, Snape makes 'a soft noise of impatient disbelief' and later shakes his head with lip curling. He is consistently sceptical and hostile throughout the scene.",
+      "film_portrayal": "The film largely preserves Snape's sceptical presence in this scene.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reasonably faithful. Minor compression but no significant distortion."
+    },
+    {
+      "scene": "GoF Film \u2013 Snape catches Harry in the corridor / Veritaserum threat",
+      "book_baseline": "Snape confronts Harry about stolen gillyweed and boomslang skin, threatens him with Veritaserum slipped into his pumpkin juice, and the scene establishes Snape's awareness of the Polyjuice Potion brewing and his ongoing surveillance of Harry.",
+      "film_portrayal": "The film includes this scene and the Veritaserum threat, which is largely faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reasonably preserved. The scene functions similarly in both versions."
+    },
+    {
+      "scene": "GoF Film \u2013 Snape reveals Dark Mark to Fudge",
+      "book_baseline": "Snape strides forward, pulls up his sleeve, and presents the Dark Mark to Fudge with the words 'There. The Dark Mark.' He then explains its function in detail. This is a moment of deliberate, courageous self-exposure in service of the truth.",
+      "film_portrayal": "The film includes this scene and it is largely faithful to the book.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Preserved adequately."
+    },
+    {
+      "scene": "GoF Film \u2013 Dumbledore sends Snape on his mission",
+      "book_baseline": "Dumbledore tells Snape 'you know what I must ask you to do' and Snape says 'I am' with a slightly paler face and glittering eyes, then sweeps out after Sirius. Dumbledore watches with 'a trace of apprehension'. This is a pivotal moment of Snape accepting his double-agent role.",
+      "film_portrayal": "The film includes this exchange and it is largely faithful.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Preserved adequately."
+    },
+    {
+      "scene": "OotP Film \u2013 Occlumency lessons",
+      "book_baseline": "The Occlumency lessons are extended, psychologically complex sessions in which Snape repeatedly penetrates Harry's mind, sees his most humiliating memories, and Harry accidentally breaks into Snape's memories. Snape's teaching method is brutal but the lessons reveal his own vulnerability. He eventually throws Harry out after the Pensieve incident.",
+      "film_portrayal": "The film compresses the lessons significantly, shows only fragments of the process, and while it includes the Pensieve memory of young Snape being bullied, it removes most of the lesson-by-lesson deterioration of the relationship and Snape's specific pedagogical cruelty and frustration.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The extended Occlumency arc is where the audience gets the deepest glimpse into Snape's psychology and where Harry begins to understand him as a damaged person. Compression loses the gradual mutual exposure that makes the Pensieve scene land with full weight."
+    },
+    {
+      "scene": "OotP Film \u2013 Pensieve scene (Snape's Worst Memory)",
+      "book_baseline": "Harry falls into Snape's Pensieve and witnesses teenage James and Sirius tormenting a 'stringy, pallid' Snape for no reason, with Snape calling Lily 'Mudblood' in humiliation. Harry is disturbed to recognise how it feels to be humiliated in a circle of onlookers. Snape catches Harry and physically throws him out, shaking with rage.",
+      "film_portrayal": "The film includes this scene and it is one of the more faithful adaptations in OotP, preserving the key beats including Snape catching Harry and throwing him out.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely preserved. The film handles this scene reasonably well."
+    },
+    {
+      "scene": "OotP Film \u2013 Snape's response to Harry's 'Padfoot' message",
+      "book_baseline": "Harry shouts 'He's got Padfoot at the place where it's hidden!' Snape's face is 'inscrutable' and he says 'I have no idea' to Umbridge, but Dumbledore later confirms Snape understood, immediately contacted the Order, and sent them to the Department of Mysteries. This is a crucial act of covert loyalty.",
+      "film_portrayal": "The film includes the exchange but Snape's subsequent action (contacting the Order) is only referenced in Dumbledore's later explanation, not shown. The scene itself is preserved.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film preserves the scene but because the Occlumency arc is compressed, the audience has less context for why Snape's covert response is significant. The payoff in Dumbledore's explanation lands less powerfully."
+    },
+    {
+      "scene": "HBP Film \u2013 Astronomy Tower / Snape kills Dumbledore",
+      "book_baseline": "Snape arrives, Dumbledore says 'Severus... please' in a tone that frightens Harry 'beyond anything he had experienced all evening' because Dumbledore is pleading. Snape looks at Dumbledore with 'revulsion and hatred etched in the harsh lines of his face' before casting the curse. This expression is later revealed to be directed at himself and the act he must perform.",
+      "film_portrayal": "The film preserves the scene's key action but Snape's facial expression is rendered as cold and determined rather than the book's 'revulsion and hatred'. The 'Severus... please' moment is present but the specific quality of Dumbledore's fear and Snape's visible anguish is muted.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The book's description of Snape's expression as 'revulsion and hatred' is a planted clue that he is revolted by what he must do. The film's more neutral rendering removes this retroactive recontextualisation, making the DH reveal feel more like a surprise twist than a planted truth."
+    },
+    {
+      "scene": "HBP Film \u2013 Snape reveals himself as the Half-Blood Prince",
+      "book_baseline": "After deflecting Harry's curses, Snape shouts 'You dare use my own spells against me, Potter? It was I who invented them \u2014 I, the Half-Blood Prince!' This is a moment of wounded pride breaking through his control, revealing the book as deeply personal.",
+      "film_portrayal": "The film includes this revelation but delivers it more quietly and with less of the wounded fury of the book version.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's delivery reveals that Snape's pride in his intellectual creations is a genuine vulnerability. The quieter film version loses the sense of a man whose self-worth is bound up in his inventions being used against him."
+    },
+    {
+      "scene": "DH Part 1 Film \u2013 Snape at Malfoy Manor / Death Eater meeting",
+      "book_baseline": "Snape provides Voldemort with the correct date of Harry's departure, having been instructed by Dumbledore's portrait to do so while planting the idea of decoys. He is playing an extraordinarily dangerous double game.",
+      "film_portrayal": "The film shows Snape at the meeting providing the information, which is faithful. The context of his double-agent role is not yet revealed to the audience, which is appropriate.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Handled appropriately for the narrative position."
+    },
+    {
+      "scene": "DH Part 1 Film \u2013 Snape cuts off George's ear",
+      "book_baseline": "During the Battle of the Seven Potters, Snape fires Sectumsempra at a Death Eater's wand hand but the spell hits George instead because the Death Eater moved. This is an accident during a genuine attempt to help.",
+      "film_portrayal": "The film has Lupin state simply 'Snape' when asked who did it, with no context given. The accidental nature is not conveyed and the scene implies Snape deliberately attacked George.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is a significant distortion. The book establishes this as a misfired protective spell, which is consistent with Snape's double-agent role. The film presents it as an unexplained attack, actively misleading the audience and making Snape appear to have harmed an Order member without cause."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 Snape as Headmaster (compressed)",
+      "book_baseline": "The books establish through Phineas Nigellus's reports that Snape is running a constant low-level resistance against the Carrows, protecting students where he can, sending Ginny, Neville and Luna to Hagrid rather than to genuine punishment, and operating within severe constraints.",
+      "film_portrayal": "The film shows Snape as a cold, authoritarian headmaster with no indication of his protective actions. Neville's account of Hogwarts under Snape focuses entirely on the Carrows' brutality with no suggestion Snape is mitigating it.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's Snape-as-headmaster is a man doing the hardest possible version of his double-agent role, protecting students while maintaining Voldemort's trust. The film presents him as simply complicit in the regime, making the Prince's Tale reveal feel more like exoneration of a villain than revelation of a hero."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 Snape's confrontation with McGonagall before fleeing",
+      "book_baseline": "Snape deflects McGonagall's spells with 'astonishing skill', redirecting two curses into the Carrows, then escapes through a window. McGonagall shouts 'Coward! COWARD!' This is Snape protecting the students even in flight.",
+      "film_portrayal": "The film includes this scene and it is largely faithful, including McGonagall's 'Coward!' cry.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reasonably preserved."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 The Prince's Tale memories",
+      "book_baseline": "The memories establish: Snape's childhood friendship with Lily, his sorting into Slytherin while she went to Gryffindor, his gradual drift toward Dark Arts and Death Eaters, his calling Lily 'Mudblood', his desperate plea to Dumbledore to save her, his grief at her death, his decades of protecting Harry for her sake, his agreement to kill Dumbledore, and his Patronus as a silver doe matching Lily's.",
+      "film_portrayal": "The film's Prince's Tale is substantially faithful and emotionally effective, covering the key beats of the Lily relationship, the hilltop scene with Dumbledore, the grief, the Patronus reveal, and the instruction about Harry being a Horcrux.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Prince's Tale is one of the film's stronger adaptations. Some compression of the Hogwarts years but the emotional core is preserved."
+    },
+    {
+      "scene": "DH Part 2 Film \u2013 Snape's death scene",
+      "book_baseline": "Snape's last act is to give Harry his memories, saying 'Take them... Take them!' and then 'Look... at... me...' so that the last thing he sees is Lily's eyes in Harry's face. He dies having given Harry everything he needs.",
+      "film_portrayal": "The film preserves 'Take them' and 'You have your mother's eyes' as Snape's last words, which is faithful to the emotional core.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The death scene is handled faithfully and with appropriate emotional weight."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

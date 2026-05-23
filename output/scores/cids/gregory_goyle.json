@@ -1,0 +1,89 @@
+{
+  "character": "Gregory Goyle",
+  "fp_score": 58.0,
+  "infidelity_score": 42.0,
+  "weighted_infidelity_exposure": 8.0,
+  "cids": 336.0,
+  "damage_per_exposure": 74.7,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 369.6,
+  "main_damage_causes": [
+    "Consistent reduction to silent background presence: across all films Goyle is given almost no dialogue or individual characterization, making him indistinguishable from Crabbe and erasing the specific texture of his stupidity, physical menace, and sycophancy that the books develop",
+    "Role swap with Crabbe in Deathly Hallows Part 2: Goyle is given Crabbe's death (Fiendfyre) and Crabbe's murderous agency, completely altering Goyle's actual fate and arc - in the books Goyle survives the Battle of Hogwarts",
+    "Loss of the Polyjuice interrogation characterization: the Chamber of Secrets scene where Malfoy contemptuously corrects Goyle's ignorance ('Azkaban - the wizard prison, Goyle') is cut, removing the clearest individual characterization Goyle receives in the early books"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film CoS Scene 5 - Polyjuice/Slytherin common room interrogation",
+      "book_baseline": "Goyle is established as slow-witted but physically imposing; Ron-as-Crabbe mimics Goyle's dull grunt and low intelligence. The book notes 'perhaps Crabbe and Goyle were always slow on the uptake.' Goyle's dullness is a consistent character trait played straight.",
+      "film_portrayal": "Goyle is reduced to a near-silent prop. The film compresses the interrogation and Goyle's characterization is entirely absent - he is simply a body in the cupboard. The 'Azkaban - the wizard prison, Goyle' exchange where Malfoy mocks Goyle's ignorance is cut entirely.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses the Polyjuice scene to establish Goyle's specific brand of stupidity through Malfoy's contemptuous corrections. Cutting this removes one of the few moments Goyle is characterized as an individual rather than a background figure."
+    },
+    {
+      "scene": "Film PoA Scene 9 - Shrieking Shack confrontation",
+      "book_baseline": "Crabbe and Goyle are described as frightened by the invisible mud-throwing near the Shrieking Shack - 'Their bulging muscles were no use against ghosts.' Goyle hops furiously trying to rub mud from his eyes. They flee in terror.",
+      "film_portrayal": "The film shows Crabbe and Goyle's knees giving out and falling headfirst into snow when Harry (invisible) trips them, then they simply run off. The specific comic detail of Goyle's helpless fury and the characterization of their physical toughness being useless against the unseen is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a small but telling character beat that showed Goyle's bravado collapsing when faced with something he couldn't punch."
+    },
+    {
+      "scene": "Film OotP Scene 18 - DA fireworks/Umbridge chaos",
+      "book_baseline": "Crabbe and Goyle are described as popping up wherever Harry went, 'slouching away looking disappointed when they saw him surrounded by people' - active antagonists during the Slytherin-Gryffindor tension. They flex muscles threateningly and act as physical enforcers.",
+      "film_portrayal": "Goyle is shown reacting comically to a firework - screaming and slapping it away - reducing him to slapstick comic relief with no menace. Crabbe gets hit by a firework too. The threatening physical presence is replaced with buffoonery.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The firework gag undercuts the physical menace Goyle carries in the books during this period of heightened tension, though it is a brief moment."
+    },
+    {
+      "scene": "Film DH2 Scene 29 - Room of Requirement confrontation",
+      "book_baseline": "In the book, Goyle casts Avada Kedavra at Hermione (an attempted murder), disobeys Malfoy's explicit order not to kill, and starts the Fiendfyre that kills him. He speaks ('We was hiding in the corridor outside... What's a die-dum?'), shows gormless glee, and his defiance of Malfoy is a key character moment showing he has grown beyond being merely Malfoy's follower.",
+      "film_portrayal": "Goyle fires Avada Kedavra and starts the Fiendfyre (faithful so far), and says 'C'mon, Draco. Don't be a prat. Just do 'im.' He gets one line of dialogue. However, the film replaces Crabbe with Goyle in this scene (Crabbe dies in the book; the film kills Goyle instead and keeps Crabbe absent). This means Goyle's book death is transferred - he dies here - but the specific characterization of Crabbe's murderous independence is now attributed to Goyle.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film swaps Crabbe and Goyle's roles in this scene (reportedly due to the actor playing Crabbe being unavailable). Goyle dies in the film doing what Crabbe does in the book. This means Goyle's actual book fate (surviving, being stunned by Hermione, slumping hopelessly in the corridor) is erased, and he is given Crabbe's death instead. The book's Goyle survives the Battle of Hogwarts; the film's Goyle dies in Fiendfyre. This is a significant structural change to the character's arc and fate."
+    },
+    {
+      "scene": "Film DH2 Scene 25 - Dungeon cell escape",
+      "book_baseline": "Goyle has no equivalent scene in the book during the Battle of Hogwarts in a dungeon cell.",
+      "film_portrayal": "Goyle is shown 'ruthless, flinging Housemates aside' to escape the dungeon cell when a giant breaks through. Draco grabs him in the corridor. This is original film material.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film adds a brief moment of Goyle being physically ruthless in self-preservation, which is consistent with his character but not from the books. Low damage as it does not contradict established characterization significantly."
+    },
+    {
+      "scene": "Film GoF Scene 15 - Snape/Goyle Polyjuice accusation",
+      "book_baseline": "No equivalent scene in the book where Snape directly accuses Goyle in this context.",
+      "film_portrayal": "Goyle says 'Yeah!' in agreement with Malfoy when Snape confronts Harry about stealing Polyjuice ingredients. This is the entirety of Goyle's contribution - a single-word affirmation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Goyle is reduced to a one-word echo of Malfoy, which while consistent with his follower role, represents the film's consistent pattern of giving him no independent characterization whatsoever."
+    },
+    {
+      "scene": "Film GoF Scene 16 - Voldemort graveyard/Death Eater roll call",
+      "book_baseline": "Voldemort calls 'Crabbe... Goyle' among the Death Eaters who failed him. The elder Goyle (Mr. Goyle) bows clumsily and mutters 'We will, Master.' This establishes the Goyle family's Death Eater status and Gregory's inheritance of that legacy.",
+      "film_portrayal": "Voldemort calls 'Crabbe! Goyle!' among the Death Eaters. The scene is present but the individual responses of the elder Goyle are not distinguished - the Death Eaters are largely anonymous in the film's graveyard sequence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's graveyard scene establishes that Gregory Goyle's thuggishness and loyalty to dark power is inherited - his father is a Death Eater who failed Voldemort. The film names Goyle but does not develop this context, weakening the thematic resonance of Gregory's later actions in DH."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

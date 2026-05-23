@@ -1,0 +1,62 @@
+{
+  "character": "Penelope Clearwater",
+  "fp_score": 69.0,
+  "infidelity_score": 31.0,
+  "weighted_infidelity_exposure": 7.0,
+  "cids": 217.0,
+  "damage_per_exposure": 72.3,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 238.7,
+  "main_damage_causes": [
+    "The Percy/Penelope romantic relationship is almost entirely excised from the film series, removing a humanising arc for Percy and reducing Penelope to a background extra in a single scene.",
+    "Penelope's petrification and its emotional impact on Percy are cut, eliminating her only plot-functional moment and a key beat of character vulnerability.",
+    "By the time her name is used as an alias in DH1, film audiences have no frame of reference for who Penelope Clearwater is, draining the moment of any resonance."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film DH1 Scene 2 - Snatchers capture scene",
+      "book_baseline": "In the book, Hermione gives the name 'Penelope Clearwater' when questioned by Scabior, demonstrating quick thinking and knowledge of a real person whose identity could plausibly hold up. The name is Hermione's invention under pressure.",
+      "film_portrayal": "The film assigns the same line ('Penelope Clearwater. Half-blood.') to Hermione, which is faithful to the book on the surface, but Penelope Clearwater as a character has no prior establishment in the film series. The name lands as a throwaway alias with zero resonance, stripping the moment of any intertextual weight.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Because Penelope Clearwater was never introduced in the Chamber of Secrets film (her relationship with Percy was cut), the alias Hermione uses carries no meaning for film-only audiences. The beat still functions mechanically but loses the subtle texture of Hermione drawing on a real person she knows."
+    },
+    {
+      "scene": "Film CoS Scene 1 - Great Hall lunch introduction",
+      "book_baseline": "The book establishes Percy and Penelope's relationship as a secret kept from the Weasley family, with Ginny accidentally discovering them kissing, Percy being visibly shaken by her petrification, and the twins gleefully exploiting the revelation. Penelope is a named, characterised Ravenclaw prefect with a real romantic dynamic with Percy.",
+      "film_portrayal": "The film shows Percy entering the Great Hall with Penelope Clearwater and exchanging a brief pleasantry with Nearly Headless Nick. She has no lines of substance, no name spoken aloud in meaningful context, no romantic chemistry shown, and the scene moves immediately away from them. She is background dressing.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The entire Percy/Penelope relationship arc - the secret courtship, Percy's emotional vulnerability when she is attacked, the twins' teasing, the bet on the Quidditch match - is absent from the film. This single fleeting appearance is the only trace of the relationship, reducing a meaningful humanising thread for Percy to a non-event."
+    },
+    {
+      "scene": "Film CoS - Absence of Penelope's petrification and Percy's reaction",
+      "book_baseline": "Penelope being petrified is a plot beat that humanises Percy: he is pale and stunned, unable to believe the monster would target a prefect, and his distress is genuine and affecting. It also gives Ginny's revelation about the secret relationship emotional stakes.",
+      "film_portrayal": "Penelope's petrification and Percy's reaction to it are entirely absent from the film.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Penelope's function as a victim who cracks Percy's composure and reveals his capacity for genuine feeling is lost entirely. Percy remains a pompous prefect with no humanising moment. The film loses a beat that connects the monster's threat to a named, known character rather than an abstraction."
+    },
+    {
+      "scene": "Film CoS - Absence of Firebolt scene (PoA material)",
+      "book_baseline": "In PoA, Penelope asks to hold Harry's Firebolt, Percy jokes about sabotage, and the couple have a bet on the Gryffindor/Ravenclaw match. Penelope is warm, curious, and participates naturally in the social fabric of Hogwarts.",
+      "film_portrayal": "This scene does not exist in the films. Penelope has no presence in the PoA film at all.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The scene establishes Penelope as a fully realised minor character with personality, sportsmanship, and a playful dynamic with Percy. Its absence means she never registers as a person in the film series, only as a name Hermione borrows in DH1."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

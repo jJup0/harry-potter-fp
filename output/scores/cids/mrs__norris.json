@@ -1,0 +1,116 @@
+{
+  "character": "Mrs. Norris",
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 13.5,
+  "cids": 364.5,
+  "damage_per_exposure": 48.6,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 401.0,
+  "main_damage_causes": [
+    "Systematic reduction of Mrs. Norris from independent patrol agent to passive companion animal at Filch's side, eliminating her defining autonomous surveillance function across all films",
+    "Compression of the Petrification scene in CoS removes the emotional depth of Filch's grief and Harry's reluctant pity, weakening the Filch-Mrs. Norris relationship that gives her narrative significance",
+    "Failure to establish Mrs. Norris as a solo threat students must actively fear and avoid, which in the books creates recurring tension and motivates character decisions (sneaking out, using the Invisibility Cloak, etc.)"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film CoS Scene 1 - Sorting Ceremony introduction",
+      "book_baseline": "Mrs. Norris is described as an active, independent patrol agent who roams corridors alone, detects rule-breakers, and fetches Filch with eerie precision - she is Filch's intelligence network.",
+      "film_portrayal": "Mrs. Norris is introduced as a passive prop beside Filch during Dumbledore's announcements, with red glowing eyes as a visual shorthand for menace. Her independent patrol function is not established.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's core characterization of Mrs. Norris is her autonomous surveillance role. The film reduces her to a visual accessory at Filch's feet, losing the sense that she is an active, semi-independent threat in the castle."
+    },
+    {
+      "scene": "Film CoS Scene 2 - Third-floor corridor encounter",
+      "book_baseline": "Mrs. Norris patrols alone and independently detects the trio; her arrival is a genuine threat because she will summon Filch. The book repeatedly emphasizes she operates without Filch present.",
+      "film_portrayal": "Mrs. Norris appears in the corridor and meows at Filch, who is already present and calling to her ('Anyone here, my sweet?'). She functions as a companion animal rather than an independent sentinel.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film collapses the book's dynamic where Mrs. Norris detects first and then summons Filch. Here Filch is already present and she is subordinate to him, removing her defining trait as an autonomous patrol agent."
+    },
+    {
+      "scene": "Film CoS Scene 3 - Library/restricted section night",
+      "book_baseline": "Mrs. Norris is described as prowling independently (Marauder's Map equivalent context in books; in PS she patrols corridors alone at night as an established threat). Harry fears her as a genuine independent hazard.",
+      "film_portrayal": "Mrs. Norris appears in the corridor after Harry exits the restricted section and 'meows and begins to follow him' - she is present but Filch arrives separately. She does function somewhat independently here.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is the closest the film comes to the book's portrayal of independent patrol, but it is brief and underplayed. Partial credit - minor damage only."
+    },
+    {
+      "scene": "Film CoS Scene 5 - Discovery of Petrified Mrs. Norris",
+      "book_baseline": "Filch's reaction is one of the most emotionally raw moments in the books: he shrieks, clutches his face in horror, slumps in a chair unable to look at her, and Harry feels genuine pity for him despite hating him. The scene establishes the depth of Filch's love for Mrs. Norris as his only companion.",
+      "film_portrayal": "Filch rounds on Harry immediately ('You've murdered my cat! I'll kill you!') and the scene moves quickly to accusation. His grief is present but compressed; the extended, pitiful collapse in the chair and Harry's complex sympathy are absent.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book uses Mrs. Norris's Petrification to humanize Filch - his devastation and Harry's reluctant pity are important character beats. The film prioritizes plot momentum over this emotional texture, weakening the Filch-Mrs. Norris bond that gives her narrative weight."
+    },
+    {
+      "scene": "Film CoS Scene 5 - Examination scene in Lockhart's office",
+      "book_baseline": "Dumbledore examines Mrs. Norris with great care and tenderness, his nose barely an inch from her fur, gently prodding. Filch is slumped in a chair, face in hands, unable to look at her. The scene is quiet and sorrowful.",
+      "film_portrayal": "The examination is condensed; Filch's sustained grief (slumped, face in hands, dry racking sobs) is reduced to a few lines of accusation. The tenderness of Dumbledore's examination is present but brief.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's extended examination scene reinforces Mrs. Norris's importance to Filch and the seriousness of the attack. Compression loses the emotional weight that makes Mrs. Norris matter beyond being a plot device."
+    },
+    {
+      "scene": "Film GoF Scene 8 - Yule Ball",
+      "book_baseline": "Mrs. Norris is not present at the Yule Ball in the books in any notable way. The books show her as a patrol animal, not a social companion Filch brings to events.",
+      "film_portrayal": "Filch is shown 'dancing' with Mrs. Norris at the Yule Ball - he holds her and sways with her as a dance partner.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While this is played for gentle comedy and does reflect Filch's attachment to Mrs. Norris, it softens the character into something whimsical rather than sinister. It is a minor tonal shift but does not significantly damage the adaptation."
+    },
+    {
+      "scene": "Film DH2 Scene 10 - Battle of Hogwarts assembly",
+      "book_baseline": "In the book's equivalent chaos, Mrs. Norris is briefly noted hissing at owls and batting at them - a small but characteristic moment of her territorial nature during the battle.",
+      "film_portrayal": "Mrs. Norris wends through Filch's legs as he bursts into the Great Hall. She is a passive companion prop. The brief active moment (hissing at owls) from the book is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a characteristic active moment. The film uses Mrs. Norris purely as a visual tag for Filch rather than showing any independent behavior."
+    },
+    {
+      "scene": "Film DH2 Scene 11 - Aftermath of battle",
+      "book_baseline": "Mrs. Norris has no specific noted presence in the book's aftermath scene.",
+      "film_portrayal": "Filch is shown quietly communing with Mrs. Norris in the aftermath - a tender, humanizing moment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is actually a faithful extension of the Filch-Mrs. Norris bond. Minimal damage - if anything it reinforces their relationship. Scored low as it is not unfaithful in a damaging way, but it is an invention."
+    },
+    {
+      "scene": "Film PoA Scene 7 - Entrance Hall dusk",
+      "book_baseline": "Mrs. Norris is described on the Marauder's Map as prowling independently, and Harry watches her tiny ink dot turn and sniff at something - she is an active, autonomous presence Harry must navigate around.",
+      "film_portrayal": "Mrs. Norris sits calmly by Filch as he stands guard. She hisses at a mouse. She is stationary and reactive rather than actively patrolling.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Another instance of Mrs. Norris reduced from active patroller to passive companion. Consistent pattern across films but individually minor."
+    },
+    {
+      "scene": "Films generally - absence of independent corridor patrol as ongoing threat",
+      "book_baseline": "Across multiple books (PS, CoS, GoF, HBP), Mrs. Norris is repeatedly established as an independent patrol threat - students fear her because she operates alone and will summon Filch. She appears on the Marauder's Map moving independently. Ron's suggestion to 'kidnap Mrs. Norris' for Stunning practice treats her as a genuine autonomous agent.",
+      "film_portrayal": "Across all films, Mrs. Norris consistently appears at Filch's side or in his immediate vicinity rather than patrolling independently. The films never establish her as a solo threat that students must actively avoid.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The cumulative effect of never showing Mrs. Norris patrol independently means the films fail to establish her defining function. She becomes Filch's pet rather than his deputy, losing the quality that makes her genuinely threatening and narratively interesting."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

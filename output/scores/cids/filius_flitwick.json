@@ -1,0 +1,152 @@
+{
+  "character": "Filius Flitwick",
+  "fp_score": 71.0,
+  "infidelity_score": 29.0,
+  "weighted_infidelity_exposure": 31.0,
+  "cids": 899.0,
+  "damage_per_exposure": 71.9,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 988.9,
+  "main_damage_causes": [
+    "Systematic removal of Flitwick's moments of active agency and quiet defiance (fireworks subversion, Snape confrontation, Dolohov kill) collapses him from a competent, courageous individual into a background ensemble member",
+    "Loss of the Three Broomsticks scene and dueling champion backstory removes the intellectual authority and personal history that give his battle-of-Hogwarts role its weight and credibility",
+    "Recurring reduction of his personality to slapstick (fork yelp, height jokes, name-checking) at the expense of the warm, witty, quietly dignified characterization the books establish"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (PS Charms class) - Flitwick's role reduced to brief exclamations",
+      "book_baseline": "Flitwick actively teaches, gives specific instructions ('swish and flick'), tells the Baruffio anecdote, praises Hermione warmly, and manages the class with personality and humor.",
+      "film_portrayal": "Flitwick delivers the core instructions but the Baruffio anecdote is cut; his personality is compressed to functional scene-setting. He gasps at Seamus's explosion but has no real comic or pedagogical presence beyond the minimum.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Baruffio anecdote is a small but characteristic moment of Flitwick's warm, slightly eccentric teaching style. Its absence flattens him from a vivid teacher into a functional prop."
+    },
+    {
+      "scene": "Film Scene 3 (GOF - Triwizard feast) - Flitwick's only appearance is a yelp",
+      "book_baseline": "Flitwick is a present, collegial staff member at major school events, shown chatting, reacting, and participating in communal life.",
+      "film_portrayal": "Flitwick's sole moment is a comedic yelp when Hagrid stabs his hand with a fork - pure slapstick with no dialogue or characterization.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reduces Flitwick to a sight gag. Minor in isolation but part of a pattern of trivializing him."
+    },
+    {
+      "scene": "Film Scene 4 (GOF - Quidditch World Cup arena) - Flitwick conducting the march",
+      "book_baseline": "No book equivalent; Flitwick is not described conducting music at the Tournament arena.",
+      "film_portrayal": "Flitwick appears conducting the Hogwarts march - a neutral, non-damaging addition that is faithful in spirit to his musical/charms role.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Not damaging - actually consistent with his character. Not scored as damage."
+    },
+    {
+      "scene": "Film Scene 5 (OOTP) - Umbridge measures Flitwick; he is passive",
+      "book_baseline": "Flitwick is described as untroubled by Umbridge's inspection ('he treated her like a guest, didn't seem to bother him at all'), and later actively subverts her by pretending he can't remove the Weasley fireworks himself.",
+      "film_portrayal": "Flitwick is shown being measured by Umbridge and looking at the tape measure with a mildly bemused expression - passive, slightly comic, no hint of the quiet defiance or composure the books establish.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Flitwick is quietly confident and subtly resistant to Umbridge. The film reduces him to a visual joke about his height, losing the characterization of composed, dignified defiance."
+    },
+    {
+      "scene": "Film Scene 5 (OOTP) - Flitwick's fireworks subversion entirely absent",
+      "book_baseline": "Flitwick deliberately feigns inability to remove the Weasley fireworks ('I could have got rid of the sparklers myself, of course, but I wasn't sure whether or not I had the authority'), then beams and closes the door in Umbridge's face - one of his most characterful book moments showing wit, courage, and solidarity with students.",
+      "film_portrayal": "This scene does not appear in the film at all. The fireworks subplot exists but Flitwick's role in it is absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Flitwick's single most defining moment of active character agency in the entire series - showing intelligence, quiet bravery, and moral solidarity. Its complete removal is the most damaging single omission for his characterization."
+    },
+    {
+      "scene": "Film Scene 6 (HBP) - Flitwick checking names at the door",
+      "book_baseline": "No direct equivalent scene, but Flitwick in the books is warm and familiar with students after years of teaching.",
+      "film_portrayal": "Flitwick is officious and rule-bound, refusing to recognize Harry by sight after five years ('No exceptions, Potter'), played for mild comedy.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor characterization inconsistency - the books' Flitwick is warm and personally engaged with students, not bureaucratically rigid. Small but adds to a pattern of flattening."
+    },
+    {
+      "scene": "Film Scene 7 (HBP Hogsmeade) - Flitwick declines Slughorn's invitation citing choir practice",
+      "book_baseline": "No direct equivalent, but consistent with Flitwick's musical interests established in the books.",
+      "film_portrayal": "Flitwick briefly mentions emergency choir practice - a neutral, characteristically consistent cameo.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Not damaging - consistent with his character. Not scored as damage."
+    },
+    {
+      "scene": "Film Scene 8 (HBP) - Flitwick conducting choir during the attack",
+      "book_baseline": "In the book, Flitwick is Stupefied by Snape (via deception through Hermione), which is a plot-significant moment showing Snape's ruthlessness and Flitwick's vulnerability.",
+      "film_portrayal": "Flitwick is shown conducting a choir in the Great Hall during the Death Eater infiltration, apparently unaware of events - his incapacitation by Snape is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Snape-Stupefies-Flitwick sequence is important: it shows Snape's willingness to harm a colleague and Hermione's guilt at being deceived. Replacing this with Flitwick obliviously conducting a choir removes plot function and makes the infiltration less dramatically coherent."
+    },
+    {
+      "scene": "Film Scene 9 (DH2 Great Hall assembly) - Flitwick stands passively by the wall",
+      "book_baseline": "In the book, Flitwick is one of the teachers who confronts Snape directly in the corridor, fires a spell at him, and chases him - an active moment of courage.",
+      "film_portrayal": "Flitwick stands by the left wall as Snape addresses the school. His hand 'twitches over his wand' but he takes no independent action; McGonagall initiates the confrontation.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book gives Flitwick an active role in the confrontation with Snape ('No! You'll do no more murder at Hogwarts!'). The film reduces him to a background figure whose wand-twitch is the only hint of agency, with McGonagall absorbing all the dramatic action."
+    },
+    {
+      "scene": "Film Scene 10/11 (DH2) - Flitwick's battle preparation role reduced",
+      "book_baseline": "Flitwick takes command of a group of fighters at Ravenclaw Tower, casts complex wind-based incantations from the smashed window, and is assigned a specific tactical role by Kingsley.",
+      "film_portrayal": "Flitwick participates in the shield-raising with McGonagall and Sprout and is seen holding his wand aloft. His specific tactical command role and the window incantation scene are absent; he functions as one of a group rather than an independent commander.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Flitwick as a competent, independently operating battle commander. The film collapses him into the ensemble of staff, losing his specific agency and competence display."
+    },
+    {
+      "scene": "Film Scene 17 (DH2 marble staircase) - Flitwick battles Death Eaters on stairs",
+      "book_baseline": "Book has Flitwick kill Dolohov ('Dolohov fall with a scream at Flitwick's hands') - a significant combat achievement.",
+      "film_portrayal": "Flitwick is shown battling Death Eaters on the stairs alongside Hagrid - present and active, but his specific kill of Dolohov is not identifiable or highlighted.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Flitwick killing Dolohov is one of the most concrete demonstrations of his combat ability in the books. Its absence (or invisibility in the chaos) loses a specific moment of agency that validates his status as a former dueling champion."
+    },
+    {
+      "scene": "Film - Flitwick's dueling champion backstory never referenced",
+      "book_baseline": "Hermione speculates in CoS that Flitwick 'was a dueling champion when he was young', establishing him as formidably skilled beyond classroom teaching.",
+      "film_portrayal": "This backstory is never mentioned or alluded to across all films.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Without this context, Flitwick's combat effectiveness in DH feels unearned and his overall characterization lacks the depth of a wizard who was once elite-level. It also removes a layer that recontextualizes his mild classroom manner."
+    },
+    {
+      "scene": "Film - Flitwick's Three Broomsticks conversation (POA) absent",
+      "book_baseline": "Flitwick participates substantively in the Three Broomsticks conversation, explaining the Fidelius Charm in technical detail ('An immensely complex spell...'), showing intellectual authority, and contributing personal recollections about James and Sirius ('You'd have thought Black and Potter were brothers!').",
+      "film_portrayal": "This scene does not feature Flitwick in any meaningful capacity in the film adaptation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is one of Flitwick's most substantial book appearances - he demonstrates genuine magical expertise, personal warmth toward the Potter family, and collegial ease. Its absence removes a key scene establishing him as intellectually authoritative and emotionally connected to the saga's history."
+    },
+    {
+      "scene": "Film - Flitwick's sugar mice gift to Harry (OOTP) absent",
+      "book_baseline": "Flitwick presses a box of squeaking sugar mice on Harry after his Quibbler interview, says 'Shh!' and hurries away - a small but warm act of solidarity and affection that shows his personal regard for Harry.",
+      "film_portrayal": "This moment does not appear in the film.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Small but characterful moment showing Flitwick's warmth toward Harry and quiet resistance to Umbridge. Its absence contributes to the film Flitwick feeling like a background figure rather than someone with a genuine relationship with the protagonist."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

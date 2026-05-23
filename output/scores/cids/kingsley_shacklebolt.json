@@ -1,0 +1,107 @@
+{
+  "character": "Kingsley Shacklebolt",
+  "fp_score": 76.0,
+  "infidelity_score": 24.0,
+  "weighted_infidelity_exposure": 33.0,
+  "cids": 792.0,
+  "damage_per_exposure": 72.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 990.0,
+  "main_damage_causes": [
+    "Removal of Kingsley's two primary agency moments - the Dumbledore office memory charm and the Battle of Hogwarts command speech - collapses him from an active decision-maker into a background fighter",
+    "Absence of Potterwatch and the Minister of Magic appointment eliminates both his moral voice and his arc resolution, leaving his character without thematic purpose or payoff",
+    "Consistent compression of his dialogue and reactions across OotP and DH reduces his distinctive calm authority and intelligence to a functional presence, losing the characterisation that makes his eventual leadership credible"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "OotP film - Moody's briefing at Privet Drive / escort to Grimmauld Place",
+      "book_baseline": "Kingsley is introduced as a calm, authoritative presence who speaks in a deep, reassuring voice. He makes independent observations ('he looks exactly like James'), engages Harry directly ('Remus says you're a good flier'), and is noted as a senior Auror. He swoops protectively around Harry during the flight.",
+      "film_portrayal": "Kingsley is reduced to a single functional line ('Dumbledore has persuaded the Minister to suspend your expulsion pending a formal hearing') delivered as a briefing officer. He has no personality, no warmth, no independent voice. His relationship with Harry is purely transactional.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Kingsley's calm authority and personal warmth from the first meeting. The film strips this to a plot-delivery function, losing the character's distinctive voice and the early rapport with Harry."
+    },
+    {
+      "scene": "OotP film - Dumbledore's office confrontation (Fudge orders arrest)",
+      "book_baseline": "Kingsley is an active, intelligent agent in this scene: he whispers a memory charm to protect Marietta, physically intimidates Umbridge into backing down ('You don't want to get yourself into trouble'), exchanges meaningful looks with McGonagall showing shared fear and loyalty, and Dumbledore later praises him as 'remarkably quick on the uptake.' He is then hexed by Dumbledore as a necessary cover, demonstrating his deep integration into the Order's covert operations.",
+      "film_portrayal": "Kingsley is present as a named guard ('Dawlish, Shacklebolt, you will escort Dumbledore to Azkaban') but contributes nothing active. His only moment is a single admiring quip after Dumbledore escapes: 'Well, you may not like him, Minister, but you can't deny Dumbledore has got style.' The memory charm, the intimidation of Umbridge, the meaningful exchange with McGonagall, and Dumbledore's praise are all absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Kingsley's single most defining scene in OotP - it shows his quick thinking, moral courage, and covert loyalty to Dumbledore while maintaining his Ministry cover. The film replaces all of this with a throwaway admiring quip, collapsing a demonstration of competence and agency into a comic beat."
+    },
+    {
+      "scene": "DH Part 1 film - Seven Potters briefing and departure",
+      "book_baseline": "Kingsley is a full participant in the planning scene. He is paired with Hermione (by thestral), reassures her with a smile knowing she lacks broomstick confidence, and is established as someone who has left his post protecting the Muggle Prime Minister because Harry is 'more important' - a line that carries weight given how much the books emphasise his PM assignment.",
+      "film_portrayal": "The 'You're more important' exchange is retained (Film Scene 5), which is faithful. However, Kingsley's pairing with Hermione and his reassuring smile toward her nervous thestral-riding are absent from the screenplay. His role in the briefing is minimal.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss - the 'You're more important' line is kept, preserving the key character beat. The absent reassurance to Hermione is a small relationship nuance, not structurally damaging."
+    },
+    {
+      "scene": "DH Part 1 film - Post-flight debrief at the Burrow",
+      "book_baseline": "Kingsley is a commanding presence in the aftermath: he challenges Harry's identity with the Dumbledore password, reports his own battle ('followed by five, injured two, might've killed one'), pieces together Voldemort's movements analytically, expresses sharp frustration ('Small comfort!'), and ultimately has to leave to return to Downing Street - reinforcing his dual role. He is the most active voice in the debrief alongside Lupin.",
+      "film_portrayal": "The film (Scene 6) shows Kingsley challenging Lupin with the password and lowering his wand - this is faithful. However, his battle report, his analytical deductions about Voldemort switching targets, his frustration, and his departure back to Downing Street are all cut. The debrief is heavily compressed.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Kingsley's competence as a field operative and strategic thinker is demonstrated through his debrief contributions. Cutting his report and analysis reduces him from an active participant to a doorman who checks passwords."
+    },
+    {
+      "scene": "DH Part 1 film - Wedding Patronus warning",
+      "book_baseline": "The Patronus warning ('The Ministry has fallen. Scrimgeour is dead. They are coming.') arrives as a lynx - Kingsley's established Patronus - and the books have already shown Lupin crediting Kingsley: 'Kingsley saved us. Thanks to his warning most of the wedding guests were able to Disapparate.' This frames Kingsley as the person who actively saved lives at a critical moment.",
+      "film_portrayal": "The Patronus and its message are faithfully reproduced in the film (Scene 7). The subsequent line from Lupin crediting Kingsley for saving the guests is absent (it occurs in a later scene the film skips), but the warning itself is intact and attributed to Shacklebolt's voice.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The warning scene itself is faithful. The lost credit from Lupin is a minor omission - the audience can infer Kingsley sent the warning from the Patronus. Low damage."
+    },
+    {
+      "scene": "DH Part 2 film - Battle of Hogwarts command role",
+      "book_baseline": "Kingsley steps onto the raised platform in the Room of Requirement and delivers the battle plan to the assembled fighters - assigning tower groups, ground teams, and approving Fred and George for the passageways. He is the operational commander of the Order's forces, the most senior figure directing the defence.",
+      "film_portrayal": "In the film (Scene 8), Kingsley is listed among those who emerge with Harry into the Great Hall, and he appears fighting on the battlements (Scenes 9, 10, 11). However, his command speech in the Room of Requirement is entirely absent. McGonagall takes the organisational role. Kingsley's specific battle-plan delivery, his assignment of roles, and his approval of Fred and George are all cut.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Kingsley's second major agency moment in the saga - he is the military commander of the Battle of Hogwarts for the Order. Removing his command role and folding it into McGonagall's authority strips him of his most significant plot function in the final film, reducing him to a background fighter."
+    },
+    {
+      "scene": "DH Part 2 film - Voldemort duels McGonagall, Slughorn, Kingsley simultaneously",
+      "book_baseline": "Kingsley duels Voldemort alongside McGonagall and Slughorn, is blasted backward by Voldemort's fury at Bellatrix's death, and is named as one of the three who held Voldemort at bay long enough for Harry to act. This is a moment of enormous heroic stature.",
+      "film_portrayal": "The film does not show this three-on-one duel with Voldemort. Kingsley is present in battle scenes but his specific confrontation with Voldemort is not depicted.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Being one of three wizards to duel Voldemort directly is a defining heroic moment. Its absence means the film audience never sees Kingsley at his most consequential, weakening the payoff of his arc as the Order's most capable fighter."
+    },
+    {
+      "scene": "DH Part 2 film - Named temporary Minister of Magic",
+      "book_baseline": "The epilogue of the battle establishes that Kingsley Shacklebolt has been named temporary Minister of Magic - the culmination of his arc from covert Order operative to the leader who rebuilds the wizarding world.",
+      "film_portrayal": "This is not depicted or mentioned in the film's battle aftermath. The film ends without acknowledging Kingsley's appointment.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Kingsley's appointment as Minister is the payoff of his entire arc - the trusted, competent, morally grounded Auror becomes the person who rebuilds what Voldemort destroyed. Its absence means his character has no resolution and the thematic point (good people taking power after tyranny) is lost."
+    },
+    {
+      "scene": "DH Part 1 film - Potterwatch radio broadcast absent",
+      "book_baseline": "Kingsley appears on Potterwatch as 'Royal', delivering a measured, morally clear argument against 'Wizards first' ideology: 'I'd say that's one short step from Wizards first to Purebloods first, and then to Death Eaters. We're all human, aren't we? Every human life is worth the same, and worth saving.' This is his most articulate expression of the values he fights for, and Lee Jordan jokes he'd vote Kingsley for Minister.",
+      "film_portrayal": "Potterwatch does not appear in the DH films at all. This entire sequence is cut.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Potterwatch is the only moment in the books where Kingsley's moral philosophy is stated explicitly. It foreshadows his becoming Minister and establishes why he deserves that role. Its absence means the film audience has no insight into what Kingsley stands for beyond competent loyalty, and the Minister appointment (itself cut) would have felt earned had this scene existed."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

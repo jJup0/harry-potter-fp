@@ -1,0 +1,125 @@
+{
+  "character": "Nagini",
+  "fp_score": 57.0,
+  "infidelity_score": 43.0,
+  "weighted_infidelity_exposure": 28.5,
+  "cids": 1225.5,
+  "damage_per_exposure": 116.7,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 1838.2,
+  "main_damage_causes": [
+    "Nagini's role as a Horcrux is never explicitly established in dialogue, removing the structural logic that makes her destruction the prerequisite for Voldemort's mortality and the key to Dumbledore's endgame plan",
+    "The enchanted protective sphere and Dumbledore's behavioral signal to Snape are both omitted, collapsing the careful book architecture around Nagini into generic monster-chase action sequences",
+    "Nagini's function as Voldemort's literal life-support (venom for his restoration) is cut entirely, stripping her of the biological intimacy that explains Voldemort's attachment and her unique status among his Horcruxes"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "GoF Film Scene 1 - Frank Bryce opening",
+      "book_baseline": "Nagini is heard hissing to Voldemort from offscreen, then slithers past Frank in the corridor - a slow, terrifying encounter where Frank is paralyzed with fright as the twelve-foot snake passes him, then delivers intelligence to Voldemort about the eavesdropper. Nagini's role as Voldemort's spy and familiar is established through her independent movement and Parseltongue report.",
+      "film_portrayal": "Nagini slithers out of a skull in the opening shot as a visual flourish, then simply slithers into the room past Frank with no corridor encounter. The scene compresses her role to a brief atmospheric cameo; her act of reporting Frank to Voldemort is retained in dialogue but her independent agency and the terror of the corridor passage is lost.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's corridor sequence establishes Nagini as an active, intelligent spy who independently scouts and reports - her first defining characterization. The film reduces this to a visual prop entrance, losing the establishment of her as Voldemort's eyes and ears."
+    },
+    {
+      "scene": "GoF Film Scene 1 - Nagini milking / Voldemort dependency",
+      "book_baseline": "Voldemort explicitly states he needs Nagini's venom to survive: 'Who is to milk Nagini?' and later confirms a potion from unicorn blood and snake venom restored him to a rudimentary body. Nagini is structurally essential to Voldemort's survival and resurrection, not merely a pet.",
+      "film_portrayal": "The milking dialogue and Voldemort's dependency on Nagini's venom are entirely absent. The film never establishes that Nagini's venom was instrumental in Voldemort's survival or restoration.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Nagini's function as a literal life-support mechanism for Voldemort is a key element of her importance to the saga. Removing it strips her of structural significance and weakens the audience's understanding of why Voldemort keeps her so close - reducing her from essential instrument to mere companion."
+    },
+    {
+      "scene": "HBP Film Scene 2 - Horcrux revelation / Nagini as Horcrux",
+      "book_baseline": "Dumbledore explicitly identifies Nagini as a suspected Horcrux, explaining the reasoning in detail: Voldemort used her to kill Frank Bryce and likely made her his sixth Horcrux at that moment. Dumbledore notes Voldemort is unusually fond of her and has unusual control over her. This is a named, reasoned revelation.",
+      "film_portrayal": "Nagini appears only as a flash image among the Horcrux montage when Harry touches the ring. She is never verbally identified as a Horcrux by Dumbledore in this scene. The audience receives no explicit explanation of her Horcrux status or the reasoning behind it.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The book's explicit identification of Nagini as a Horcrux - with Dumbledore's reasoning about the Frank Bryce murder - is central to the entire Deathly Hallows plot. Without this scene, her destruction as the final Horcrux lacks the narrative weight and clarity it requires. The film never compensates with equivalent exposition."
+    },
+    {
+      "scene": "DH1 Film Scene 3 - Death Eater meeting, Nagini as floor presence",
+      "book_baseline": "In the book equivalent (Voldemort's POV chapters), Nagini is draped over Voldemort's shoulders or kept close as a mark of his power and intimacy with her. She is a symbol of his authority and their bond.",
+      "film_portrayal": "Nagini slopes slowly over the feet of those present, unnerving the Death Eaters. This is a reasonable adaptation choice and broadly faithful to her intimidating presence, though she is on the floor rather than on Voldemort's person.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor repositioning - the intimidation function is preserved. Minimal damage."
+    },
+    {
+      "scene": "DH1 Film Scene 3 - 'Nagini... Dinner'",
+      "book_baseline": "In the book, Voldemort says 'Dinner, Nagini' and the snake slithers from his shoulders to the table to consume Charity Burbage. The moment is cold and matter-of-fact, emphasizing Voldemort's complete dehumanization of his victims and his casual intimacy with the snake.",
+      "film_portrayal": "The line 'Nagini... Dinner' is retained and the action is the same. This is faithful.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "Faithful. No damage."
+    },
+    {
+      "scene": "DH2 Film Scene 10 - Boathouse / Snape's death, Nagini's cage",
+      "book_baseline": "In the book, Nagini is enclosed in an enchanted, starry, transparent protective sphere - a glittering cage that floats in midair. Voldemort rolls the cage onto Snape before commanding the snake to kill. Harry watches from hiding, unable to penetrate the protection. The cage is a significant visual and narrative element establishing that Nagini is Voldemort's most protected asset.",
+      "film_portrayal": "The protective sphere/cage is absent. Nagini simply circles the room on the floor. Voldemort turns his wand on Nagini and commands 'Kill,' and the snake strikes Snape directly. The enchanted cage - which in the book is a key signal that Nagini is a Horcrux under special protection - is entirely removed.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The enchanted cage is the visual embodiment of Dumbledore's instruction to Harry: when Voldemort keeps Nagini under magical protection rather than sending her to do his bidding, that is the signal. Removing it severs the connection between Dumbledore's plan and its execution, and removes the visual cue that Nagini is uniquely precious. It also eliminates Harry's moment of helplessness as he watches from hiding, unable to act."
+    },
+    {
+      "scene": "DH2 Film Scene 10 - Harry's hidden witness role at Snape's death",
+      "book_baseline": "Harry, Ron and Hermione watch through a crack in a crate, hidden under the Invisibility Cloak. Harry bites his knuckles to avoid crying out. He watches Snape's foot trembling on the floor afterward and makes the decision to enter and help. This is a moment of agonized helplessness and moral weight for Harry.",
+      "film_portrayal": "Harry, Ron and Hermione are present watching but the scene is compressed. The physical detail of Harry's hidden anguish (biting knuckles, the crack in the crate) is absent, reducing the scene's impact on Harry's interiority. However the basic witness structure is retained.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The compression loses Harry's agonized helplessness, which is partly a Nagini-related damage since it is her protection that renders Harry powerless. Minor but real loss of the scene's emotional texture."
+    },
+    {
+      "scene": "DH2 Film Scenes 14-22 - Nagini's death: Neville kills her in open courtyard battle",
+      "book_baseline": "In the book, Nagini's destruction is a separate, dedicated mission. Harry explicitly tasks Neville with killing the snake. Neville decapitates her with the Sword of Gryffindor during the battle, but this happens as a discrete act. The snake is the last Horcrux and her death is the prerequisite for Voldemort's mortality - a structurally critical moment.",
+      "film_portrayal": "Nagini's death is folded into a chaotic extended chase sequence across the castle. Ron and Hermione attempt to kill her with a Basilisk fang (invented for the film), fail, and are chased. Neville ultimately kills her in the courtyard immediately before the final duel, in a moment that is dramatically effective but structurally repositioned. The Basilisk fang attempt is a significant invention.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film's chase sequence, while dramatically engaging, diffuses the weight of Nagini's destruction as the final Horcrux. The Basilisk fang attempt by Ron and Hermione (not in the books) adds action but dilutes the clarity of Neville's singular act. More significantly, the film never clearly communicates to the audience that Nagini's death is the moment Voldemort becomes mortal - the structural logic is obscured by the chaos of the sequence."
+    },
+    {
+      "scene": "DH2 Film Scene 6 - Voldemort speaks to Nagini after Gringotts, 'stay close'",
+      "book_baseline": "In the book, Voldemort's internal monologue establishes that he decides to keep Nagini with him at all times, no longer sending her on missions - this is the signal Dumbledore told Snape to watch for, indicating Voldemort fears for her safety because she is his last Horcrux.",
+      "film_portrayal": "Voldemort speaks to Nagini in Parseltongue: 'you, my friend, must stay close.' This is a reasonable adaptation of the book's internal decision, though it lacks the specific significance Dumbledore attached to this behavioral change.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film captures the surface behavior (keeping Nagini close) but without the prior establishment of Dumbledore's instruction to Snape, the moment carries no narrative weight. The audience has no reason to understand this as the signal that Nagini is the last Horcrux."
+    },
+    {
+      "scene": "DH2 Film Scenes 16-17 - Nagini chases Harry up marble staircase",
+      "book_baseline": "In the book, Nagini is kept in her enchanted protective sphere throughout the battle. She does not independently chase Harry through the castle. Harry is acutely aware he cannot attack her due to her protection.",
+      "film_portrayal": "Nagini freely pursues Harry up the marble staircase, is struck by spells (unharmed), and Voldemort screams 'Leave her!' with visible rage when Harry targets her. This is an invented action sequence.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "While dramatically effective, this sequence contradicts the book's logic that Nagini is under impenetrable magical protection during the battle. It also invents a Voldemort emotional reaction (rage at Harry targeting Nagini) that, while consistent with his attachment to her, replaces the book's more chilling cold protectiveness. The sequence makes Nagini a conventional action-movie threat rather than a carefully guarded final Horcrux."
+    },
+    {
+      "scene": "DH2 Film - Absence of Dumbledore's explicit Nagini-as-Horcrux instruction to Snape",
+      "book_baseline": "Dumbledore tells Snape explicitly: when Voldemort stops sending Nagini to do his bidding and keeps her under magical protection, that is the signal to tell Harry what he must do. This connects Nagini's behavior directly to the timing of Harry learning he is a Horcrux.",
+      "film_portrayal": "This instruction is entirely absent from the films. The Snape memory sequence in the Pensieve does not include this beat.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is the most structurally damaging omission. Nagini's role as the final Horcrux, the behavioral signal Dumbledore designed into his plan, and the connection between her protection and the timing of Harry's sacrifice are all severed. The audience has no framework to understand Nagini's narrative function in the endgame, reducing her from a carefully plotted structural element to a monster that needs killing."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

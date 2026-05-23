@@ -1,0 +1,89 @@
+{
+  "character": "Elphias Doge",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 10.0,
+  "cids": 280.0,
+  "damage_per_exposure": 43.1,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 308.0,
+  "main_damage_causes": [
+    "Doge's fierce, emotionally volatile defense of Dumbledore is flattened into polite, measured responses, losing the defining trait of passionate loyalty that borders on blind devotion",
+    "The extended Muriel confrontation - the scene that most fully characterizes Doge in the books - is heavily compressed, removing most of his pushback and leaving Muriel unchallenged",
+    "Invented film-only content (the owl subplot) displaces book-faithful characterization without adding equivalent depth"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (wedding) - Doge's emotional reaction to Dumbledore's death omitted",
+      "book_baseline": "Doge tears up, pours champagne in a flutter of nervous pleasure, whispers about the shock of Dumbledore's death with genuine grief - his deep personal loss is palpable and establishes the intimacy of their friendship",
+      "film_portrayal": "Doge pours champagne in a nervous flutter but the emotional weight is muted - no tears, no whispered grief, the moment passes quickly into information exchange",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's Doge is visibly grief-stricken; the film skips the tearful moment that grounds his loyalty and love for Dumbledore as personal rather than merely historical"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Doge's anger at Rita Skeeter replaced with measured disapproval",
+      "book_baseline": "Doge's face floods with angry color; he calls Skeeter a vulture, admits he became 'rather rude' and called her 'an interfering trout' - he is passionate, indignant, and combative in defending Dumbledore",
+      "film_portrayal": "Doge calmly calls Skeeter 'a vulture' in response to Muriel's prompt, with no flush of anger, no admission of his own rudeness, no personal confrontation history with Skeeter",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book establishes Doge as fiercely protective to the point of losing composure; the film flattens this into polite disapproval, losing the passionate loyalty that defines his character"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Doge's sustained defense of Dumbledore against Muriel collapsed",
+      "book_baseline": "Doge repeatedly interrupts, contradicts, and emotionally pushes back against Muriel across a long exchange - defending Kendra, denying Ariana was a Squib, insisting on Albus's grief, looking wretched and near tears throughout",
+      "film_portrayal": "Doge has only two brief rejoinders to Muriel before the scene moves on; the extended back-and-forth defense is absent, and Muriel dominates almost unchallenged",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Doge is a persistent, emotionally invested defender who fights for Dumbledore's reputation beat by beat; the film reduces him to a bystander while Muriel holds the floor, losing the tension of his loyalty under siege"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Doge's horror at the coffin-side brawl revelation omitted",
+      "book_baseline": "When Muriel reveals Aberforth broke Albus's nose at Ariana's funeral, Doge looks as if he has been stabbed - 'How do you -?' he croaks, visibly devastated, revealing the depth of his protectiveness and the intimacy of his knowledge",
+      "film_portrayal": "This revelation and Doge's reaction are entirely absent from the film scene",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This moment is one of Doge's most vivid characterization beats - his horror shows both his fierce loyalty and the limits of what even he knew about Dumbledore; its absence flattens him"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Doge's wheezy, excitable voice and physical comedy absent",
+      "book_baseline": "Doge is described with a 'rather high-pitched, wheezy voice' and a moth-eaten fez; his speech is full of wheezed interjections ('Untrue! Absolutely untrue!', 'Ariana was not a Squib!') giving him a distinctive, slightly absurd but earnest quality",
+      "film_portrayal": "Film Doge speaks in measured, articulate sentences with no wheezing, no physical eccentricity emphasized, no exclamatory outbursts",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book's Doge has a specific comic-yet-sincere register; the film gives him a generic elderly-wizard voice, losing the texture that makes him memorable"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Invented 'owls in distress' subplot replaces book content",
+      "book_baseline": "The book conversation covers Doge's obituary, his anger at Skeeter, and the Ariana/Dumbledore family secrets - all directly relevant to Harry's growing understanding of Dumbledore",
+      "film_portrayal": "Doge tells Harry about owls arriving in distress from great distances, referencing Dumbledore's elliptical messages and stress - this exchange has no basis in the book",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The invented owl subplot replaces book-faithful content with filler that gives Doge a slightly mysterious, atmospheric role rather than his actual function as a passionate, partial defender of Dumbledore's legacy"
+    },
+    {
+      "scene": "Film Scene 2 (wedding) - Doge disapparates with a cheerful farewell during the attack",
+      "book_baseline": "Doge has no such exit line in the book; the attack scene does not feature him departing with pleasantries",
+      "film_portrayal": "As chaos erupts, Doge extends his hand and says 'Nice meeting you, Mr. Potter!' before disapparating - a comedic, slightly absurd exit",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but the cheerful farewell mid-crisis tips Doge toward comic relief rather than the earnest, emotionally serious figure the book presents; it undercuts the gravity of his loyalty"
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

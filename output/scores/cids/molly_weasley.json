@@ -1,0 +1,134 @@
+{
+  "character": "Molly Weasley",
+  "fp_score": 81.0,
+  "infidelity_score": 19.0,
+  "weighted_infidelity_exposure": 28.0,
+  "cids": 532.0,
+  "damage_per_exposure": 42.6,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 665.0,
+  "main_damage_causes": [
+    "Complete omission of the OotP Boggart scene, which is the only window into Molly's private fears and the emotional foundation for her Battle of Hogwarts climax",
+    "Systematic compression or removal of scenes where Molly takes active positions in arguments (PoA warning debate, OotP Order debate), reducing her from a character with convictions to a reactive presence",
+    "Loss of the Molly-Fleur arc resolution and the sustained domestic comedy of HBP, which together show Molly's capacity for growth and self-correction"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Burrow arrival / scolding scene",
+      "book_baseline": "Molly's rage at the boys is extended and volcanic \u2014 she shouts herself hoarse before turning warmly to Harry. The transition from fury to warmth is a full dramatic arc. She also confronts Arthur about the enchanted car with sharp wit ('you made sure there was a loophole when you wrote that law').",
+      "film_portrayal": "The scolding is compressed to a few lines. The confrontation with Arthur about the car is entirely cut. Molly's wit, her sustained fury, and the comedic domestic authority she wields over Arthur are all absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Molly as someone whose anger is formidable and whose domestic authority extends to her husband. Cutting the Arthur confrontation removes a key dimension of her character \u2014 that she is sharp, funny, and not merely reactive to her children."
+    },
+    {
+      "scene": "CoS Film - Howler scene (Great Hall)",
+      "book_baseline": "The Howler is a written device; in the book Molly's voice thunders through the hall. The content includes fury about the car, shame about Arthur's inquiry at work, and a sudden warm aside to Ginny about making Gryffindor \u2014 showing Molly can hold multiple emotional registers simultaneously.",
+      "film_portrayal": "The Howler is present and includes the Ginny aside, which is faithful. However the specific detail about Arthur facing an inquiry at work \u2014 which in the book causes Harry genuine guilt \u2014 is omitted.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss: the inquiry detail deepens Harry's guilt and Molly's stakes, but the core of the scene is preserved."
+    },
+    {
+      "scene": "CoS Film - Flourish and Blotts / Malfoy confrontation",
+      "book_baseline": "Molly is 'beside herself with fury' after the brawl and scolds Arthur publicly: 'A fine example to set for your children... brawling in public... what Gilderoy Lockhart must've thought.' She is embarrassed and angry at Arthur, not just at Malfoy.",
+      "film_portrayal": "Molly is largely a bystander. She does not scold Arthur after the confrontation. Her post-brawl reaction \u2014 the embarrassed fury at her husband \u2014 is cut entirely.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but characteristic moment lost: Molly's tendency to be mortified by public scenes and redirect anger at Arthur is part of her comic domestic voice."
+    },
+    {
+      "scene": "PoA Film - Leaky Cauldron / warning scene",
+      "book_baseline": "The books establish a private argument between Molly and Arthur overheard by Harry. Molly argues passionately that Harry should NOT be told about Sirius Black \u2014 'the truth would terrify him,' 'he's happy not knowing.' This is a substantive position she defends at length, showing her protective instinct can shade into paternalism.",
+      "film_portrayal": "Arthur alone warns Harry. Molly is present but silent. The entire debate between the parents \u2014 Molly's position, her reasoning, her being overruled \u2014 is cut. Arthur delivers the warning solo.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of Molly's most revealing book scenes: she takes a clear, defensible but flawed position and argues it against her husband. The film transfers the entire scene's function to Arthur, erasing Molly's moral complexity and her role as a character with genuine (if overprotective) convictions about Harry's welfare."
+    },
+    {
+      "scene": "OotP Film - Grimmauld Place dinner / Order information debate",
+      "book_baseline": "Molly wages a sustained, multi-page argument against Sirius about how much Harry should be told. She is passionate, articulate, and loses \u2014 but her position ('he's not a member of the Order, he's fifteen') is treated as a legitimate maternal concern, not mere obstruction. The exchange 'He's not your son' / 'He's as good as. Who else has he got?' / 'He's got me!' is a defining character moment.",
+      "film_portrayal": "The debate is compressed to a brief exchange. The key lines ('He's not your son' / 'He's as good as') are present, which is faithful. However the extended argument \u2014 Molly's specific objections, her appeal to Arthur, her being systematically overruled by Lupin and others \u2014 is truncated.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The core emotional beats survive but the sustained intellectual engagement Molly brings to the argument is compressed. Her position reads more as reflexive protectiveness than a considered stance, slightly flattening her."
+    },
+    {
+      "scene": "OotP Film - Boggart scene (drawing room)",
+      "book_baseline": "Molly encounters the Boggart alone and cannot defeat it as it cycles through the dead bodies of her family members. She breaks down sobbing: 'I see them dead all the time... I dream about it.' This is the emotional centrepiece of her arc in OotP \u2014 her private terror, her vulnerability, her fear about Percy. It is entirely self-contained and deeply characterising.",
+      "film_portrayal": "The Boggart scene is completely absent from the film.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the single most damaging omission for Molly's character across all films. The Boggart scene is the only moment in the entire saga where Molly's internal life \u2014 her fear, her grief about Percy, her terror of losing her family \u2014 is made visible. Without it, her Battle of Hogwarts cry 'NOT MY DAUGHTER' loses its full emotional foundation. The audience has never seen what she is fighting to protect at the deepest level."
+    },
+    {
+      "scene": "OotP Film - Ron's prefect badge / celebration",
+      "book_baseline": "Molly's joy at Ron's prefect badge is exuberant and slightly comic \u2014 she shrieks, kisses him repeatedly, immediately starts planning rewards, and is visibly more excited than Ron. Her pride in conventional achievement (prefects, Head Boy) is a running character note.",
+      "film_portrayal": "This scene is absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a characteristic comic beat that illustrates Molly's values and her relationship with Ron."
+    },
+    {
+      "scene": "GoF Film - Hospital wing after the maze / maternal hug",
+      "book_baseline": "Mrs. Weasley hugs Harry 'as though by a mother' \u2014 Harry has no memory of ever being hugged like this. She holds him while he breaks down. 'It wasn't your fault, Harry.' This is one of the most emotionally significant Harry-Molly moments in the series.",
+      "film_portrayal": "The scene is present and the hug occurs, but it is brief. The extended emotional weight \u2014 Harry's breakdown, Molly holding him through it, the specific narration about him having no memory of a mother's hug \u2014 cannot be conveyed in the same way on screen. The scene is present but compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The scene exists but the interiority that makes it devastating in the book (Harry's specific thought about never having been hugged like a mother hugs) is inaccessible to film without voiceover. Some damage to the relationship's emotional depth."
+    },
+    {
+      "scene": "HBP Film - Molly's anxiety / clock at mortal peril",
+      "book_baseline": "Molly carries the family clock around the house because all nine hands point to 'mortal peril.' She discusses it with Harry in a 'unconvincingly casual voice.' Her anxiety is constant, low-level, and humanising throughout the Burrow chapters.",
+      "film_portrayal": "The clock appears briefly. Molly's sustained anxiety about it \u2014 her carrying it room to room, her forced casualness with Harry \u2014 is not developed. She functions primarily as a warm hostess.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The film shows Molly as warm and functional but strips the undercurrent of dread that runs through her HBP characterisation, making her slightly one-dimensional in this film."
+    },
+    {
+      "scene": "HBP Film - Molly's disapproval of Fleur",
+      "book_baseline": "Molly's dislike of Fleur is sustained, petty, and comic \u2014 she calls her 'Phlegm' (via Ginny), is visibly irritated by her presence, and her eventual acceptance after Fleur's speech at Bill's bedside is a genuine character arc with a satisfying resolution.",
+      "film_portrayal": "Molly's friction with Fleur is present but muted. The extended domestic comedy of Molly's jealousy and irritation is compressed. The resolution at Bill's bedside \u2014 where Molly and Fleur unexpectedly embrace \u2014 is absent from the film.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Molly-Fleur arc is a small but complete character story: Molly's protectiveness of Bill, her snobbery about Fleur, and her genuine change of heart. Losing the resolution means Molly's pettiness is shown without the redemptive beat that balances it."
+    },
+    {
+      "scene": "DH1 Film - Seven Potters / George's injury",
+      "book_baseline": "Molly's reaction to George's injury is visceral and sustained. She tends to him, weeps, and the scene establishes her as the emotional centre of the family crisis.",
+      "film_portrayal": "Molly screams and tends to George. This is largely faithful. The scene is one of the better Molly moments in the films.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Mostly faithful; minor compression only."
+    },
+    {
+      "scene": "DH2 Film - Battle of Hogwarts / 'NOT MY DAUGHTER'",
+      "book_baseline": "Molly throws off her cloak, duels Bellatrix alone ('Get back! She is mine!'), and kills her with a curse 'directly over her heart.' The moment is earned by everything we know of Molly \u2014 the Boggart, her losses, her ferocity.",
+      "film_portrayal": "The scene is present and largely faithful. Molly's line, her duel, and the kill are all included. Bellatrix's taunting line about having 'a spare' is added, which sharpens the moment. This is one of the most faithful Molly scenes in the entire film series.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. The only damage is contextual: because the Boggart scene was cut in OotP, the full emotional resonance of this moment is diminished for the audience, though the scene itself is well-executed."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

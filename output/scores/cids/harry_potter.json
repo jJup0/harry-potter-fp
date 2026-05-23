@@ -1,0 +1,1288 @@
+{
+  "character": "Harry Potter",
+  "fp_score": 76.0,
+  "infidelity_score": 24.0,
+  "weighted_infidelity_exposure": 435.5,
+  "cids": 10452.0,
+  "damage_per_exposure": 62.4,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 15678.0,
+  "main_damage_causes": [
+    "Removal of Hermione's potions puzzle eliminates her most significant act of independent agency in the climax, reducing her from co-protagonist to support role at the critical moment",
+    "Compression of the Norbert/dragon subplot removes the 150-point loss, social ostracism, and Harry's experience of collective consequence, flattening a meaningful character arc",
+    "Loss of the Madam Malkin's first meeting between Harry and Draco collapses an independently established rivalry into a single throwaway exchange, weakening the foundation of their antagonism",
+    "Compression of Harry's sustained internal arc around Parseltongue and Slytherin identity, reducing a weeks-long psychological crisis to a single scene and weakening the thematic payoff of Dumbledore's 'choices' speech",
+    "Cutting of the Burrow sequences and deathday party, which removes the emotional grounding of Harry's relationships with the Weasley family and his loyalty to marginal figures like Nick"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 Dumbledore arrives at Privet Drive",
+      "book_baseline": "McGonagall has spent the entire day watching the Dursleys as a cat, is deeply troubled, and engages Dumbledore in a substantive conversation about the wisdom of leaving Harry there, the danger of his fame, and her genuine emotional distress at Lily and James's deaths.",
+      "film_portrayal": "McGonagall appears only briefly; the extended conversation about Harry's future, her emotional grief, and her pointed objections to the Dursleys are compressed to a few lines. Her all-day vigil and the weight of her concern are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "McGonagall's book scene establishes her as emotionally invested, perceptive, and willing to challenge Dumbledore. Losing this flattens her into a passive bystander at a pivotal moment and removes early texture from the Dumbledore\u2013McGonagall relationship."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Hagrid delivers Harry",
+      "book_baseline": "Hagrid arrives on Sirius's borrowed motorcycle, is visibly devastated (howling like a wounded dog, sobbing into a handkerchief), and shares a tender farewell with baby Harry. Dumbledore must shush him. The emotional weight of the night is palpable.",
+      "film_portrayal": "Hagrid is subdued and brief. There is no howling grief, no handkerchief, no extended farewell. His devastation at losing Lily and James and handing Harry over is largely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Hagrid's overwhelming, uncontrollable love and grief is a defining character trait introduced in this very first scene. Softening it reduces the emotional stakes of the night and slightly misrepresents who Hagrid is."
+    },
+    {
+      "scene": "Film Scene 7 \u2013 Hagrid reveals the wizarding world / Petunia's outburst",
+      "book_baseline": "Petunia's revelation is a long, bitter, jealousy-soaked speech that reveals years of resentment toward Lily, her own exclusion from the magical world, and her deliberate choice to suppress Harry's identity. It is one of the most psychologically rich moments in the chapter.",
+      "film_portrayal": "Petunia's speech is present but compressed. The full depth of her jealousy, the detail about wanting to go to Hogwarts herself, and the layered bitterness are truncated.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Petunia's motivation for mistreating Harry is rooted in jealousy of Lily, not mere dislike of magic. Losing this nuance makes her a simpler villain and removes a thread that pays off across the entire saga."
+    },
+    {
+      "scene": "Film Scene 9 \u2013 Leaky Cauldron / Diagon Alley introduction",
+      "book_baseline": "Harry meets Quirrell at the Leaky Cauldron and has a brief but telling exchange; Hagrid explains Quirrell's backstory (vampires in the Black Forest, a hag, never been the same since). This plants early misdirection and characterises Quirrell as genuinely traumatised.",
+      "film_portrayal": "Quirrell appears and shakes Harry's hand (or declines to), but Hagrid's explanatory backstory about Quirrell's past trauma is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The backstory deepens the misdirection around Quirrell and makes the eventual reveal more satisfying. Its absence slightly weakens the mystery plotting."
+    },
+    {
+      "scene": "Film Scene 14 \u2013 Madam Malkin's / Draco Malfoy first meeting",
+      "book_baseline": "Harry meets Draco alone (Hagrid waits outside with ice cream). The conversation is extended: Draco is snobbish about Muggle-borns, asks Harry's surname, and Harry forms a clear negative impression before knowing who Draco is. Harry later tells Hagrid, who contextualises it.",
+      "film_portrayal": "The Madam Malkin's scene is cut entirely. Harry and Draco's first meeting is moved to Hogwarts, just before the Sorting, where Draco's blood-purity prejudice is reduced to a single crack about the Weasleys.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book meeting establishes the Harry\u2013Draco dynamic before Hogwarts, shows Harry independently judging Draco's character, and gives Hagrid a chance to contextualise pure-blood prejudice. Moving it to Hogwarts collapses this into a throwaway moment and removes Harry's independent moral reasoning."
+    },
+    {
+      "scene": "Film Scene 15 \u2013 Leaky Cauldron meal / Hagrid tells Harry about Voldemort",
+      "book_baseline": "The full Voldemort backstory is told at the hut on the rock, not in the Leaky Cauldron. It is long, detailed, and emotionally devastating for Harry, who processes it in real time. Harry also asks about Voldemort's fate and Hagrid's own expulsion.",
+      "film_portrayal": "The backstory is moved to a quiet meal in the Leaky Cauldron and is significantly compressed. The emotional processing, Harry's dawning horror, and Hagrid's own vulnerability (his expulsion, his inability to say the name) are condensed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The hut scene is Harry's first reckoning with his own history and identity. Compressing it reduces the emotional weight of Harry learning the truth about his parents' deaths and his own significance."
+    },
+    {
+      "scene": "Film Scene 17 \u2013 King's Cross / Hagrid leaves Harry alone",
+      "book_baseline": "Hagrid gives Harry his ticket and leaves. Harry is genuinely stranded and panicking, unable to find the platform, rejected by a guard, and nearly out of time. His resourcefulness in following the Weasleys is earned through real desperation.",
+      "film_portrayal": "The scene is present but Harry's panic and the failed attempt to ask the guard are brief. The sense of genuine helplessness before he spots the Weasleys is reduced.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reduction in Harry's vulnerability and the stakes of the moment, but the core beat survives."
+    },
+    {
+      "scene": "Film Scene 18 \u2013 Train / Ron and Harry meet",
+      "book_baseline": "Harry and Ron's friendship develops over a long, warm compartment scene: sharing food (Harry's first experience of generosity), Chocolate Frogs, Ron's family insecurities, discussion of houses, Voldemort, and Scabbers. It is the foundation of their friendship.",
+      "film_portrayal": "The scene is present but compressed. Ron's family insecurities (living in brothers' shadows, not being able to afford an owl) are largely absent, as is the extended conversation about Voldemort and Harry saying the name aloud for the first time.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The train scene is the primary bonding moment for Harry and Ron. Losing Ron's vulnerability and the Voldemort conversation removes depth from both characters and from the friendship's foundation."
+    },
+    {
+      "scene": "Film Scene 19 \u2013 Train / Hermione's introduction",
+      "book_baseline": "Hermione enters looking for Neville's toad, delivers a rapid-fire monologue establishing her as anxious, over-prepared, and socially oblivious. She corrects Ron's spell, impresses with her own, and leaves. Ron's 'she's a nightmare' comment and Harry's agreement establish their initial dynamic.",
+      "film_portrayal": "Hermione's introduction is broadly faithful, though her anxious monologue about having read all the course books is shortened. The scene is largely intact.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression; the essential characterisation survives."
+    },
+    {
+      "scene": "Film Scene 21 \u2013 Sorting / McGonagall's welcome speech",
+      "book_baseline": "McGonagall's pre-Sorting speech is brief in the book. The Sorting Hat sings a song. Harry's internal anxiety, his memory of Hagrid's warning about Slytherin, and the hat's extended internal dialogue with Harry ('Not Slytherin, eh?') are all present.",
+      "film_portrayal": "The Sorting Hat song is cut. The film retains the hat's internal dialogue with Harry but the song's world-building function (explaining the houses) is replaced by McGonagall's speech.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The song is a minor loss of texture; the essential Sorting scene is intact."
+    },
+    {
+      "scene": "Film Scene 26 \u2013 Snape's first Potions class",
+      "book_baseline": "Snape's opening speech is a masterpiece of menace and intellectual seduction. His targeted humiliation of Harry (three unanswered questions, a point taken for 'cheek' when Harry suggests Hermione answer) is methodical and establishes a sustained antagonism. Harry's internal defiance and confusion are detailed.",
+      "film_portrayal": "The scene is present and largely faithful, though Harry's internal voice (his anger, his confusion about why Snape hates him, his determination not to look away) is necessarily absent. The point-taking for suggesting Hermione answer is retained.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The scene translates well; the loss of Harry's interiority is an inherent medium limitation rather than an unfaithful choice."
+    },
+    {
+      "scene": "Film Scene 28 \u2013 Flying lesson / McGonagall recruits Harry",
+      "book_baseline": "McGonagall is furious when she summons Harry, leads him in silence while he fears expulsion, then reveals she has found Wood. She tells Harry his father was an excellent Quidditch player. The scene balances terror and relief.",
+      "film_portrayal": "The scene is present. McGonagall's line about Harry's father being a Seeker is retained. The terror of the walk is conveyed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Broadly faithful; minor compression of Harry's internal dread."
+    },
+    {
+      "scene": "Film Scene 31 \u2013 Halloween / Troll in the dungeon",
+      "book_baseline": "Harry and Ron go to warn Hermione because they feel guilty (Ron's 'she's a nightmare' comment made her cry all day). This guilt is the emotional engine of the scene and the seed of their friendship with Hermione.",
+      "film_portrayal": "Harry and Ron go to warn Hermione, but the guilt motivation is present only implicitly. Ron's discomfort is shown but the explicit acknowledgement that they caused her distress is reduced.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The guilt-driven rescue is what transforms the trio's dynamic. Softening it slightly reduces the earned quality of Hermione's subsequent loyalty."
+    },
+    {
+      "scene": "Film Scene 32 \u2013 Troll fight",
+      "book_baseline": "Harry jumps on the troll's neck and shoves his wand up its nose by accident. Ron performs Wingardium Leviosa to levitate the club. Hermione lies to McGonagall to protect them. The scene ends with an awkward, wordless 'Thanks' that founds the friendship.",
+      "film_portrayal": "The scene is broadly faithful. Hermione's lie is retained. The wordless 'Thanks' is present.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; the troll fight translates well to screen."
+    },
+    {
+      "scene": "Film Scene 33 \u2013 Quidditch match / Hermione sets Snape on fire",
+      "book_baseline": "Hermione notices Snape muttering and keeping eye contact, deduces he is jinxing the broom, fights her way to him, and sets his robes alight. She also knocks Quirrell over, accidentally breaking his eye contact. The scene establishes Hermione's quick thinking and decisive action.",
+      "film_portrayal": "The scene is present. Hermione uses 'Lacarnum Inflamarae' (a film invention) rather than simply setting fire with her wand. The accidental Quirrell collision is retained.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor invented spell name; the scene's function and Hermione's agency are intact."
+    },
+    {
+      "scene": "Film Scene 34 \u2013 Post-Quidditch / Snape in the forest",
+      "book_baseline": "After the match, Harry follows Snape into the forest and overhears Snape threatening Quirrell, demanding to know if he has found out how to get past Fluffy, and referencing Quirrell's 'hocus-pocus.' This is a key piece of misdirection.",
+      "film_portrayal": "This scene is cut entirely. The forest confrontation between Snape and Quirrell does not appear in the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The scene is important misdirection that makes Snape appear guilty and Quirrell appear a victim. Its absence means the film relies more heavily on other cues to sustain the Snape red herring, slightly weakening the mystery structure."
+    },
+    {
+      "scene": "Film Scene 35 \u2013 Christmas / Mirror of Erised",
+      "book_baseline": "Harry visits the mirror three nights in a row, becoming obsessed. Ron sees himself as head boy and Quidditch captain. Dumbledore's conversation with Harry is warm and philosophically rich, including the socks joke and the implication that Dumbledore may not have been fully truthful about what he sees.",
+      "film_portrayal": "The scene is present and largely faithful. The socks joke is cut. Dumbledore's possible untruthfulness is not hinted at.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The socks joke and the hint of Dumbledore's opacity are small but characterful losses. The scene's core is intact."
+    },
+    {
+      "scene": "Film Scene 35 \u2013 Christmas / Invisibility Cloak note",
+      "book_baseline": "The note says 'Your father left this in my possession before he died. It is time it was returned to you. Use it well.' Harry is deeply moved and spends time wondering who sent it. The mystery of the sender is a thread.",
+      "film_portrayal": "The note is read aloud and the mystery is present, but Harry's extended emotional processing of his father's possession is brief.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression of an emotionally significant moment."
+    },
+    {
+      "scene": "Film Scene 39 \u2013 Norbert / Dragon subplot",
+      "book_baseline": "The Norbert subplot is extended: Ron is bitten and hospitalised, Malfoy finds Charlie's letter in Ron's book, the midnight tower handoff, and the consequence (losing 150 points, detention) are all present. The 150-point loss devastates Harry's standing with Gryffindor.",
+      "film_portrayal": "The dragon subplot is compressed. Ron's hospitalisation and the letter discovery are absent. The point loss and social ostracism Harry suffers are not shown.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The 150-point loss and subsequent social ostracism are a significant arc beat: Harry experiences the cost of rule-breaking and the weight of collective responsibility. Removing this removes a meaningful consequence and a period of genuine unpopularity that shapes Harry's character development."
+    },
+    {
+      "scene": "Film Scene 35 \u2013 Forbidden Forest detention",
+      "book_baseline": "The detention group splits: Harry goes with Malfoy and Fang; Hagrid goes with Ron and Hermione. Harry and Malfoy witness the cloaked figure drinking unicorn blood. Firenze rescues Harry and delivers the unicorn blood / Voldemort speech. Malfoy's cowardice (screaming and fleeing) is prominent.",
+      "film_portrayal": "The scene is present and broadly faithful. Malfoy's cowardice is retained. Firenze's speech is compressed but the key information is conveyed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression; the scene's essential function is intact."
+    },
+    {
+      "scene": "Film Scene 41 \u2013 Pre-climax / Harry deduces the stranger was Voldemort",
+      "book_baseline": "Harry, Ron, and Hermione piece together that the stranger who gave Hagrid the dragon egg extracted the Fluffy secret. Harry goes to McGonagall, who dismisses him. Snape appears and threatens Harry. The decision to go through the trapdoor that night is Harry's alone, driven by moral urgency.",
+      "film_portrayal": "The deduction scene is present. McGonagall's dismissal is retained. However, the scene where Snape threatens Harry in the corridor (warning him about nighttime wandering) is moved and slightly reframed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reordering; the essential beats survive."
+    },
+    {
+      "scene": "Film Scene 41 \u2013 Neville confrontation before the trapdoor",
+      "book_baseline": "Neville physically blocks the portrait hole and threatens to fight Harry, Ron, and Hermione to stop them losing more points. Hermione uses the Full Body-Bind. Harry feels guilty leaving Neville paralysed on the floor. This is Neville's first act of genuine courage.",
+      "film_portrayal": "The scene is present and largely faithful. Neville's courage is intact. Hermione's 'You're a little scary sometimes, you know that? Brilliant, but scary' (Ron's line in the book) is reassigned.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor line reassignment; the scene's function is intact."
+    },
+    {
+      "scene": "Film Scene 42 \u2013 Underground chambers / Devil's Snare",
+      "book_baseline": "Hermione knows Devil's Snare hates light and warmth, conjures blue flames, and saves Harry and Ron. Ron panics ('there's no wood!') and Hermione snaps at him. Harry's calm under pressure contrasts with Ron's panic.",
+      "film_portrayal": "The scene is present. Hermione uses 'Lumos Solem' (a film invention). Ron's 'Lucky we didn't panic' line (ironic, since he did) is retained.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor invented spell; the scene's character dynamics are intact."
+    },
+    {
+      "scene": "Film Scene 42 \u2013 Underground chambers / Potions puzzle",
+      "book_baseline": "Hermione solves Snape's logic puzzle (seven bottles, a riddle). She deduces which bottle lets Harry go forward and which lets her go back. She explicitly states 'This isn't magic \u2014 it's logic,' celebrating a non-magical skill. Harry goes on alone; Hermione returns for Ron.",
+      "film_portrayal": "The potions puzzle is cut entirely. Harry goes directly from the chess room to the final chamber.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The potions puzzle is Hermione's defining moment in the climax: her logical intelligence saves Harry where magic cannot. Cutting it removes her most significant act of agency in the entire book and eliminates the thematic point that logic and cleverness matter as much as magic."
+    },
+    {
+      "scene": "Film Scene 42 \u2013 Final chamber / Quirrell reveal and Voldemort confrontation",
+      "book_baseline": "Harry keeps Quirrell talking, lies about what he sees in the mirror, gets the Stone through the mirror's logic, and physically grapples with Quirrell. Voldemort's face on the back of Quirrell's head speaks directly to Harry, offering to reunite him with his parents. Harry refuses and burns Quirrell with his touch.",
+      "film_portrayal": "The scene is broadly present. However, Voldemort's offer to bring back Harry's parents (using the mirror to show James and Lily) is a film addition not in the book. In the book, Voldemort says Harry's parents died begging for mercy and taunts him; he does not offer to resurrect them.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's addition of Voldemort offering to resurrect Harry's parents is a significant change to Voldemort's characterisation: in the book he is purely threatening and contemptuous, not manipulative in this way. It also changes Harry's refusal from defiance of evil to resistance of temptation, subtly altering the moral stakes."
+    },
+    {
+      "scene": "Film Scene 42 \u2013 Hospital wing / Dumbledore's explanations",
+      "book_baseline": "Dumbledore answers Harry's questions at length: why Voldemort wanted to kill him (cannot tell him yet), why Quirrell couldn't touch him (his mother's love), the invisibility cloak (his father left it), Snape's hatred (James saved Snape's life, Snape resented the debt). The conversation is philosophically rich.",
+      "film_portrayal": "The conversation is compressed. The Snape backstory (James saving Snape's life) is cut entirely. The 'why did Voldemort want to kill me' question is answered with 'I cannot tell you today' but without the weight of the book exchange.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Snape backstory is important for understanding Snape's complex relationship with Harry across the series. Its absence means film audiences lose a key piece of Snape's motivation and the irony of his protection of Harry."
+    },
+    {
+      "scene": "Film Scene 43 \u2013 End-of-year feast / House Cup",
+      "book_baseline": "Dumbledore awards points to Hermione (cool logic), Harry (nerve and courage), Ron (best-played game of chess), and Neville (standing up to friends). The social ostracism Harry suffered after the 150-point loss makes the reversal emotionally resonant.",
+      "film_portrayal": "The points are awarded. However, because the 150-point loss and social ostracism were cut, the reversal lacks the emotional weight it has in the book. Ron receives points for chess (retained), but the context of his sacrifice being witnessed by the school is absent.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The payoff of the house cup reversal depends on the earlier low point of Harry's social ostracism. Without that arc, the feast is celebratory but not cathartic."
+    },
+    {
+      "scene": "CoS Film - Harry's birthday / Dursley breakfast scene",
+      "book_baseline": "Harry endures a full morning of Dursley cruelty, uses wit and sarcasm to needle Dudley ('You've forgotten the magic word'), laughs under the table at Dudley's sycophantic compliment script, and sits in the garden singing bitterly to himself. His loneliness, dark humor, and resilience are all on display.",
+      "film_portrayal": "The breakfast scene is cut entirely. Harry is shown passively sitting in his room. His birthday isolation is reduced to Dudley taunting him through the cat-flap. The wit, the garden scene, and Harry's internal voice are absent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book establishes Harry's sardonic humor and active psychological resistance to the Dursleys as core character traits. The film reduces him to a passive victim, losing the voice that makes him sympathetic rather than merely pitiable."
+    },
+    {
+      "scene": "CoS Film - Dobby's first visit (bedroom scene)",
+      "book_baseline": "Harry manages Dobby with patience, genuine empathy ('You can't have met many decent wizards'), and quick thinking under pressure. He asks Dobby to sit as an equal, feels genuine compassion for Dobby's enslavement, and actively tries to help while keeping the situation under control. He also shows real anger when he discovers Dobby stole his letters.",
+      "film_portrayal": "Dobby jumps on the bed like a trampoline. Harry's empathetic line about decent wizards is retained but the scene is played more broadly for comedy. The nuanced emotional arc\u2014Harry's compassion, his growing suspicion, his anger at the stolen letters\u2014is compressed and the emotional texture flattened.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor flattening of Harry's empathy and emotional intelligence in a scene that otherwise tracks the book reasonably well."
+    },
+    {
+      "scene": "CoS Film - Dobby drops the pudding / Ministry letter",
+      "book_baseline": "Harry desperately pleads with Dobby, tries to negotiate, and is genuinely terrified of the consequences. His helplessness is acute: he cannot use magic, cannot stop Dobby, and is trapped. The scene ends with Uncle Vernon locking him up with bars on the window and a cat-flap\u2014a sustained period of imprisonment described over several days.",
+      "film_portrayal": "The scene plays out similarly but the multi-day imprisonment is compressed into a brief montage. The sustained psychological weight of Harry's captivity\u2014the cold soup, Hedwig's disgust, Harry's despair about Hogwarts\u2014is largely lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The compression removes the sense of genuine desperation and helplessness that makes the Weasley rescue feel earned."
+    },
+    {
+      "scene": "CoS Film - Weasley rescue from Privet Drive",
+      "book_baseline": "The rescue is a collaborative, methodical operation: Fred and George pick the lock with a hairpin (showing Muggle ingenuity), Harry helps carry his trunk, and the escape is tense but controlled. Harry shouts 'See you next summer!' as they fly away\u2014a moment of triumphant defiance.",
+      "film_portrayal": "The rescue is dramatized with Hedwig heroically pecking Uncle Vernon's hand and Harry dangling from the window in a near-death sequence. The tone shifts from clever teamwork to action-movie peril. The 'See you next summer!' line is cut.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book's version shows Harry's defiant humor and the Weasley twins' practical cleverness. The film replaces this with manufactured jeopardy, losing Harry's triumphant voice."
+    },
+    {
+      "scene": "CoS Film - Arrival at the Burrow / de-gnoming",
+      "book_baseline": "Harry spends weeks at the Burrow before Diagon Alley. The de-gnoming scene, Quidditch practice in the paddock, Mr. Weasley's Muggle obsession at the dinner table, and Harry's growing sense of belonging are all developed at length. This is described as 'the happiest month of his life.'",
+      "film_portrayal": "The stay at the Burrow is compressed to a brief morning scene. De-gnoming, Quidditch practice, and the extended family warmth are entirely cut. The film jumps almost immediately to Diagon Alley.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Burrow sequences establish Harry's emotional baseline\u2014what he is fighting to return to\u2014and deepen his bond with the Weasley family. Cutting them weakens the emotional stakes of the entire story and reduces the Weasleys to plot functions rather than Harry's surrogate family."
+    },
+    {
+      "scene": "CoS Film - Borgin and Burkes / Knockturn Alley",
+      "book_baseline": "Harry overhears Lucius Malfoy selling Dark objects and berating Draco for being beaten in exams by Hermione. Lucius's contempt for Arthur Weasley ('that flea-bitten, Muggle-loving fool') is heard directly. Harry feels 'a hot surge of anger.' The scene plants the Vanishing Cabinet (mentioned by Filch later) and establishes Lucius as genuinely dangerous.",
+      "film_portrayal": "The scene is largely faithful but the Vanishing Cabinet's label ('Crushing Cabinet') is changed and its significance as a planted detail is altered. Lucius's line about Arthur Weasley is cut. The scene is otherwise well-executed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of foreshadowing and one character-defining line for Lucius."
+    },
+    {
+      "scene": "CoS Film - Flourish and Blotts / Lucius Malfoy confrontation",
+      "book_baseline": "Lucius insults the Weasleys about their poverty ('I suppose your parents will go hungry for a month'), Ron lunges at Malfoy, and Arthur Weasley physically moves to hit Lucius before Hagrid restrains him. Lucius drops Ginny's book back in her cauldron with contempt. The class tension is visceral and personal.",
+      "film_portrayal": "Lucius is given additional dialogue (touching Harry's scar, the 'Voldemort is not gone' exchange with Harry) that is invented for the film. The book's specific insult about the Weasleys going hungry is replaced. Arthur moves to hit Lucius but Hagrid stops him\u2014this is retained. The scene is expanded but in a different direction.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The invented scar-touching exchange shifts focus from class/blood prejudice to Harry's personal mythology. The book's sharper economic humiliation of the Weasleys is softened."
+    },
+    {
+      "scene": "CoS Film - Missing the Hogwarts Express / flying the car",
+      "book_baseline": "Harry and Ron's decision to fly the car is impulsive but also reflects genuine reasoning: they cannot get back through the barrier, they don't know if Mr. and Mrs. Weasley can return, and they feel they have no choice. The journey is initially exhilarating\u2014'like being plunged into a fabulous dream'\u2014before becoming exhausting and frightening. Harry's internal experience of the flight is richly described.",
+      "film_portrayal": "The decision is made quickly and the flight is mostly action-comedy (near-miss with the train, dangling out the door). The book's extended, ambivalent experience of the flight\u2014the joy curdling into discomfort\u2014is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The film loses the emotional arc of the flight, which mirrors Harry's broader experience of the wizarding world: initially magical, then dangerous and exhausting."
+    },
+    {
+      "scene": "CoS Film - Snape's office / McGonagall / Dumbledore aftermath",
+      "book_baseline": "Harry actively lies to Dumbledore about how they found the car, protecting Mr. Weasley. He feels genuine shame. McGonagall is furious but almost smiles when Harry argues about Gryffindor points. Harry negotiates cleverly. Dumbledore's disappointment is more painful than shouting would be. The scene ends with Harry and Ron eating sandwiches alone, processing what happened.",
+      "film_portrayal": "The scene is compressed. Harry's lie to protect Mr. Weasley is absent\u2014the film doesn't establish that Mr. Weasley illegally enchanted the car in a way Harry needs to cover for. The sandwiches scene is cut. McGonagall's near-smile is absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Harry's active moral choice to protect Mr. Weasley\u2014lying to Dumbledore at personal risk\u2014is a small but meaningful demonstration of his loyalty and ethical agency. Its removal makes the scene purely reactive."
+    },
+    {
+      "scene": "CoS Film - Lockhart's pre-class interaction / 'gave you the bug' scene",
+      "book_baseline": "Lockhart corners Harry before Herbology and delivers a self-aggrandizing speech claiming Harry flew the car to get more publicity after their photo together\u2014'gave you the bug.' Harry is speechless with indignation. This establishes Lockhart's delusional narcissism and Harry's helpless frustration with him.",
+      "film_portrayal": "This scene is cut entirely. Lockhart's classroom introduction and the pixie lesson replace it as the primary Lockhart characterization.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The scene is a sharp comic beat that also shows Harry's powerlessness against adult authority figures who are wrong. Its absence slightly reduces Lockhart's specific brand of oblivious narcissism."
+    },
+    {
+      "scene": "CoS Film - Harry hearing the voice during detention / corridor chase",
+      "book_baseline": "Harry hears the voice during detention with Lockhart, then hears it again on Halloween after the deathday party. He chases it through the corridors with Ron and Hermione, who cannot hear it. Ron's concern ('Hearing voices no one else can hear isn't a good sign') is a specific, worried line. Harry's isolation in this experience is emphasized.",
+      "film_portrayal": "The film combines and slightly restructures these voice-hearing moments. The Halloween deathday party context is retained but the specific texture of Harry's isolation\u2014Ron's worried line, Harry's private terror\u2014is compressed. The film handles this reasonably but loses some of Harry's internal anxiety.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression of Harry's psychological isolation around the voice."
+    },
+    {
+      "scene": "CoS Film - Nearly Headless Nick's deathday party",
+      "book_baseline": "Harry, Ron, and Hermione attend the deathday party as a favor to Nick, who asks Harry to tell Sir Patrick he finds Nick frightening. The party is described in rich detail: rotten food, ghostly music, Peeves tormenting Myrtle, the Wailing Widow. Harry's discomfort and loyalty to Nick are both present.",
+      "film_portrayal": "The deathday party is cut entirely. The film goes directly from Lockhart's detention to Harry hearing the voice in the corridor.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The deathday party establishes Harry's loyalty to marginal figures (Nick), introduces Myrtle in context, and provides the atmospheric Halloween setting that makes the discovery of Mrs. Norris more shocking. Its removal also cuts Harry's first introduction to Myrtle, making her bathroom appearance later feel less grounded."
+    },
+    {
+      "scene": "CoS Film - Hermione's research / Chamber of Secrets legend via McGonagall",
+      "book_baseline": "The legend of the Chamber is revealed through Professor Binns in History of Magic, after Hermione interrupts his lesson\u2014the only time a student has ever done so. Binns is astonished. The scene is comic and characterizes Hermione's intellectual drive and the class's sudden engagement.",
+      "film_portrayal": "The legend is delivered by McGonagall in Transfiguration, after Hermione asks. The scene is competent but loses the specific comedy of Binns being interrupted, and the characterization of History of Magic as the one class that suddenly becomes interesting.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor loss of comic texture and Hermione characterization. McGonagall delivering the exposition is more dramatically efficient but less true to the book's world-building."
+    },
+    {
+      "scene": "CoS Film - Harry overhearing Hufflepuffs in the library",
+      "book_baseline": "Harry hides in the Invisibility section of the library and overhears Ernie Macmillan building a detailed case against him. Harry emerges and confronts Ernie directly, arguing back with genuine anger. The exchange is extended and Harry holds his own, though Ernie remains unconvinced.",
+      "film_portrayal": "Harry overhears the Hufflepuffs from outside a room but does not confront them. He simply walks away. The direct confrontation is cut.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book, Harry actively defends himself\u2014he doesn't just suffer suspicion passively. The confrontation shows his courage and his frustration. Removing it makes Harry more passive and victimized than the book intends."
+    },
+    {
+      "scene": "CoS Film - Filch's office / Kwikspell letter",
+      "book_baseline": "Harry discovers Filch's Kwikspell letter while waiting in his office after being caught with muddy robes. Nearly Headless Nick has arranged for Peeves to crash a Vanishing Cabinet to distract Filch. Harry reads the letter, realizes Filch is a Squib, and Filch's humiliation and rage when he realizes Harry may have read it is a significant character moment. Nick's favor to Harry is also established.",
+      "film_portrayal": "The Kwikspell letter is glimpsed briefly\u2014Harry picks it up as he leaves Snape's office after the flying car incident. The extended scene in Filch's office, Nick's intervention, and the emotional weight of Filch's humiliation are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book's version gives Filch genuine pathos and establishes Nick's friendship with Harry. The film reduces it to a throwaway visual gag."
+    },
+    {
+      "scene": "CoS Film - Riddle's diary discovery / Harry's obsession with it",
+      "book_baseline": "Harry finds the diary in Myrtle's bathroom after Ron warns him it could be dangerous (citing Ministry-confiscated books). Harry is drawn to it in an almost inexplicable way, keeps picking it up, feels Riddle is 'a friend he'd half-forgotten.' His dormitory is ransacked and the diary stolen before he can fully investigate. The theft creates genuine urgency.",
+      "film_portrayal": "The diary is found similarly, but Harry's psychological pull toward it\u2014the uncanny sense of recognition\u2014is not conveyed. The dormitory ransacking and diary theft are present but Harry's obsessive relationship with the diary before it's stolen is compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Harry is drawn to Riddle in a way that foreshadows their deeper connection (Voldemort's soul fragment). The film loses this unsettling undercurrent."
+    },
+    {
+      "scene": "CoS Film - Tom Riddle memory / Dumbledore encounter fifty years ago",
+      "book_baseline": "Harry enters the diary memory and witnesses Riddle in Dippet's office, then follows him to the dungeons where he catches Hagrid. The scene includes Riddle's conversation with Dippet about wanting to stay at Hogwarts rather than return to the Muggle orphanage\u2014establishing Riddle's motivation and his half-blood, orphaned background. Young Dumbledore appears briefly, already suspicious.",
+      "film_portrayal": "The film cuts Riddle's conversation with Dippet entirely. Harry enters the memory in a corridor and witnesses only the confrontation with Hagrid. Riddle's motivation (fear of returning to the orphanage, desire to stay at Hogwarts) is absent. The parallel with Harry\u2014both orphans who found their home at Hogwarts\u2014is lost.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Dippet scene is crucial: it establishes that Riddle and Harry share the same fundamental motivation (Hogwarts as the only true home), making Dumbledore's later 'strange likenesses' speech land with full weight. Without it, the Harry-Riddle parallel feels asserted rather than demonstrated."
+    },
+    {
+      "scene": "CoS Film - Polyjuice Potion / Slytherin common room interrogation",
+      "book_baseline": "Harry and Ron discover Malfoy doesn't know who opened the Chamber, genuinely deflating their theory. Malfoy reveals his father told him to keep his head down, that the last time a Mudblood died, and that there's a secret chamber under Malfoy Manor. Ron nearly punches Malfoy when he says he hopes it's Granger who dies. The scene ends with them barely escaping as the potion wears off.",
+      "film_portrayal": "The scene is largely faithful. Malfoy's line about hoping it's Granger who dies is retained. The escape is dramatized with Harry's scar surfacing through Goyle's forehead. The key information (Malfoy doesn't know who it is) is preserved.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression; the scene is one of the film's more faithful adaptations of a complex book sequence."
+    },
+    {
+      "scene": "CoS Film - Hermione's cat-hair Polyjuice transformation",
+      "book_baseline": "Hermione's transformation into a cat-human hybrid is played as genuinely distressing. She spends weeks in the hospital wing, de-whiskering. Harry and Ron visit daily, bringing homework. The experience is humiliating and isolating for Hermione.",
+      "film_portrayal": "The transformation is played for comedy (Ron: 'Look at your tail'). Hermione's weeks in the hospital wing are shown briefly. The humiliation and isolation are present but lighter in tone.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tonal shift; the film handles this adequately but loses some of Hermione's vulnerability."
+    },
+    {
+      "scene": "CoS Film - Valentine's Day / singing dwarf",
+      "book_baseline": "Harry is mortified by the singing valentine from Ginny, delivered in front of a corridor of students including Malfoy. He tries to escape, the dwarf tackles him, his bag splits, and Riddle's diary spills out\u2014which Malfoy grabs. Harry uses Expelliarmus to retrieve it, earning points loss. Ginny is humiliated. The scene is both comic and plot-critical.",
+      "film_portrayal": "The Valentine's Day scene is cut entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The scene serves multiple functions: it develops Ginny's crush on Harry (important for her vulnerability to the diary), it shows Harry using Expelliarmus offensively for the first time (foreshadowing the climax), and it's a key moment of social humiliation that humanizes both Harry and Ginny. Its removal is a meaningful loss."
+    },
+    {
+      "scene": "CoS Film - Harry's Parseltongue anxiety / Slytherin heir suspicion arc",
+      "book_baseline": "Harry spends weeks genuinely uncertain whether he might be Slytherin's heir. He lies awake wondering if he could do something horrible without knowing it. He remembers the Sorting Hat's offer of Slytherin. Fred and George's jokes ('Make way for the Heir of Slytherin') are the only relief. His internal crisis is sustained and psychologically real.",
+      "film_portrayal": "Harry expresses this anxiety briefly in one scene before the holidays ('Maybe they're right... I didn't know I could speak Parseltongue. What else don't I know about myself?'). The sustained weeks of self-doubt are compressed to a single conversation.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This arc is central to the book's thematic argument about identity and choice. Harry's prolonged uncertainty about his own nature makes Dumbledore's 'it is our choices' speech the climax of a genuine internal journey. The film's compression reduces it to a passing worry, weakening the payoff."
+    },
+    {
+      "scene": "CoS Film - Aragog scene / forest sequence",
+      "book_baseline": "The forest sequence is genuinely terrifying. Harry and Ron are carried by giant spiders, dropped before Aragog, and nearly eaten. The car's rescue is a surprise. Ron is sick in the pumpkin patch afterward. Harry lies awake afterward realizing Moaning Myrtle might be the girl who died.",
+      "film_portrayal": "The film expands the forest sequence with an extended car chase through the forest. The core scene with Aragog is faithful. Ron's terror is well-conveyed. The car chase is invented but tonally consistent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The invented car chase is an addition rather than a distortion. Minor."
+    },
+    {
+      "scene": "CoS Film - Chamber of Secrets climax / Harry vs. Riddle",
+      "book_baseline": "Harry confronts Riddle with genuine anger, defending Hagrid and Dumbledore. He tells Riddle his mother's love stopped him\u2014'My common Muggle-born mother.' He calls Riddle 'a wreck' and 'barely alive.' Harry's defiance is active and articulate. He pulls the sword from the hat while hiding under it on the floor, in a moment of desperate prayer.",
+      "film_portrayal": "Harry's confrontation with Riddle is largely faithful. The 'my mother's love' speech is present. Harry climbs the statue to reach the Sorting Hat\u2014a more visually dynamic but less desperate version of the book's moment. The film handles the climax well overall.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film's version of the climax is one of its strongest sequences. Minor tonal differences in how Harry retrieves the sword."
+    },
+    {
+      "scene": "CoS Film - Dumbledore's 'choices' speech / Sorting Hat confirmation",
+      "book_baseline": "Dumbledore explains that Voldemort transferred some of his powers to Harry, including Parseltongue. He then delivers the 'it is our choices' speech and hands Harry the sword with Godric Gryffindor's name\u2014the proof Harry needs. The scene resolves Harry's sustained identity crisis.",
+      "film_portrayal": "The scene is largely faithful and well-executed. The key lines are preserved. The emotional payoff works.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "This scene is one of the film's most faithful. No significant damage."
+    },
+    {
+      "scene": "CoS Film - Dobby's freedom / sock trick",
+      "book_baseline": "Harry's plan to free Dobby is spontaneous and clever\u2014he stuffs the diary into his own sock and gives it to Malfoy, who throws it to Dobby in disgust. Dobby then blasts Malfoy down the stairs. Harry's final exchange with Dobby ('Just promise never to try and save my life again') is warm and funny.",
+      "film_portrayal": "The scene is largely faithful. Harry mouths 'open it' to Dobby, who finds the sock inside the diary. The mechanics are slightly different (Harry gives the diary directly to Malfoy rather than the book being inside the sock from the start) but the outcome is the same.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor mechanical difference in how the trick works. The spirit of the scene is preserved."
+    },
+    {
+      "scene": "CoS Film - End feast / Hagrid's return",
+      "book_baseline": "The feast is in pajamas, lasting all night. Harry's best moments include Hermione running toward him, Justin apologizing, Hagrid cuffing them so hard they fall into their trifle, and 400 points securing the House Cup. The celebration is chaotic and joyful.",
+      "film_portrayal": "The feast is more formal. Hagrid's return is a dignified, emotional moment with a standing ovation. Harry's line 'There's no Hogwarts without you, Hagrid' is invented for the film. The pajama chaos is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The film's version is more sentimental and less chaotically joyful than the book's. The invented line for Harry is uncharacteristically earnest. Minor."
+    },
+    {
+      "scene": "Film - Opening scene (Harry practicing Lumos Maxima)",
+      "book_baseline": "Harry is secretly doing homework by flashlight under blankets, studying A History of Magic and writing an essay - establishing him as academically engaged, intellectually curious, and resourceful under oppression",
+      "film_portrayal": "Harry is practicing a spell (Lumos Maxima) from Extreme Incantations - a showy, rule-breaking act with no academic purpose",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Harry's love of learning and his determination to do schoolwork despite the Dursleys. The film replaces this with casual rule-breaking magic practice, subtly shifting Harry from intellectually motivated to impulsive."
+    },
+    {
+      "scene": "Film - Harry's birthday and the Hogsmeade form negotiation with Vernon",
+      "book_baseline": "Harry coldly and cleverly blackmails Vernon into signing the Hogsmeade form by threatening to slip up in front of Marge - a calculated, self-possessed act of agency showing Harry's growing shrewdness",
+      "film_portrayal": "This negotiation is entirely absent. Harry simply asks Vernon to sign 'something for school' and is brushed off. The form subplot is handled passively via McGonagall later.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's negotiation scene is one of Harry's most assertive moments in the series to this point - he outmaneuvers an adult through leverage and calm threat. Its removal strips Harry of demonstrated cunning and self-advocacy, making him more passive."
+    },
+    {
+      "scene": "Film - Marge inflation scene",
+      "book_baseline": "Harry endures days of Marge's abuse with gritted teeth, consciously restraining himself for the Hogsmeade form. He finally snaps only when she insults his dead father directly. His subsequent flight is panicked and guilt-ridden.",
+      "film_portrayal": "The multi-day buildup is compressed to one dinner. Harry snaps when Marge insults his mother, not his father. He then defiantly tells Vernon 'She deserved it' and storms out with apparent confidence.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Harry is ashamed and frightened after losing control; the film's Harry is defiant and righteous. This removes the internal conflict about self-control that runs through the book's early chapters and makes Harry seem more coolly heroic than emotionally volatile."
+    },
+    {
+      "scene": "Film - Harry's reaction after leaving Privet Drive / Knight Bus sequence",
+      "book_baseline": "Harry is consumed by panic and guilt after running away - he fears expulsion, Azkaban, and has no plan. He is genuinely frightened and vulnerable. He gives a false name (Neville Longbottom) to Stan to hide his identity.",
+      "film_portrayal": "Harry is noticeably less panicked. He doesn't give a false name. The emotional weight of his precarious situation is largely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent flattening of Harry's fear and vulnerability in the early chapters, which the book uses to establish the stakes before Fudge's leniency surprises him."
+    },
+    {
+      "scene": "Film - Mr. Weasley's warning at the Leaky Cauldron",
+      "book_baseline": "Harry overhears Mr. and Mrs. Weasley arguing privately about whether to tell him Black is after him. Harry pieces this together himself by eavesdropping - an act of initiative. He processes the information alone at night and reaches his own conclusions about his safety.",
+      "film_portrayal": "Mr. Weasley tells Harry directly and openly at the Leaky Cauldron in a brief, straightforward conversation. Harry is a passive recipient of information.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The eavesdropping scene in the book shows Harry's resourcefulness and gives him private, unfiltered information he must process alone. The film's direct delivery removes his initiative and the important beat of Harry deciding independently how to feel about the threat."
+    },
+    {
+      "scene": "Film - Harry's internal response to learning Black is after him",
+      "book_baseline": "After overhearing the Weasleys, Harry's primary reaction is notably calm - he is more bothered about losing Hogsmeade than about Black. This is a carefully written character beat showing Harry's unusual relationship with danger and his pragmatic self-assessment.",
+      "film_portrayal": "This nuanced reaction is absent. Harry's emotional response to the Black threat is more conventionally fearful and serious.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Harry explicitly prioritizes Hogsmeade over his own safety, which is both darkly funny and revealing about his character. This idiosyncratic response is lost, making Harry's psychology more generic."
+    },
+    {
+      "scene": "Film - Boggart lesson: Harry blocked from facing the Boggart",
+      "book_baseline": "Lupin stops Harry from facing the Boggart because he fears it will become Voldemort and cause a scene. Harry is hurt and assumes Lupin thinks him incapable. Their subsequent conversation reveals Harry's boggart would actually be a Dementor - which impresses Lupin. Harry receives no points for the lesson.",
+      "film_portrayal": "Lupin stops Harry, the Boggart becomes a Dementor anyway (in front of the class), and Lupin banishes it himself. The private conversation about why Lupin intervened is moved to the Hogsmeade weekend scene on the bridge.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's sequence builds the Lupin-Harry relationship through Harry's wounded pride and Lupin's subsequent respect. The film collapses this into a less intimate exchange and removes Harry's moment of being genuinely impressed by Lupin's insight about fear."
+    },
+    {
+      "scene": "Film - Hogsmeade visit via Marauder's Map (first visit)",
+      "book_baseline": "Harry uses the map alone, navigates the passage carefully, and joins Ron and Hermione in Honeydukes. He then explores Hogsmeade properly - Zonko's, the post office, the Three Broomsticks. He overhears the conversation about Black and Pettigrew while hiding under a table.",
+      "film_portrayal": "Harry uses the Invisibility Cloak (given by Fred and George in the same scene as the map). He goes to Hogsmeade, throws snowballs at Malfoy, and overhears the conversation while invisible in a back room. The map's role in the visit is minimal.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book carefully separates the map and cloak as tools Harry uses with deliberation. The film conflates them, slightly reducing the sense of Harry's careful planning, though the core scene functions adequately."
+    },
+    {
+      "scene": "Film - Harry's reaction to learning Black is his godfather / betrayed his parents",
+      "book_baseline": "Harry is consumed by a murderous hatred. He lies awake imagining killing Black. He explicitly thinks about revenge and tells Ron and Hermione he doesn't know what he wants to do but the idea of doing nothing is 'almost more than he could stand.' This is a dark, morally complex portrait.",
+      "film_portrayal": "Harry says directly and simply: 'I hope he finds me. But when he does, I'm going to be ready. When he does, I'm going to kill him.' This is delivered as a dramatic declaration in the snow.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Harry is privately tormented and morally confused - he doesn't know if he wants to kill Black, and his friends have to talk him down. The film's Harry makes a clean, dramatic statement of intent that is more cinematic but less psychologically true. The internal conflict is externalized and simplified."
+    },
+    {
+      "scene": "Film - Patronus lessons: Harry's chosen memory",
+      "book_baseline": "Harry tries multiple memories - first riding a broomstick (too weak), then Gryffindor winning the House Cup (also fails). He eventually uses the memory of first learning he was a wizard and would leave the Dursleys. The process of finding the right memory is part of his emotional journey.",
+      "film_portrayal": "Harry says his memory is 'seeing his parents' faces, just talking to me' - an imagined or uncertain memory he's not sure is real. 'It's the best I have.'",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's choice is more poignant and cinematically elegant but replaces a book beat where Harry's happiest memory is escape from the Dursleys - which is both darkly revealing and thematically important. The film version also introduces ambiguity about whether the memory is real, which the book does not."
+    },
+    {
+      "scene": "Film - Snape's substitution lesson (werewolves)",
+      "book_baseline": "Snape assigns a two-roll essay on werewolves with 'particular emphasis on recognizing and killing them' - a pointed attempt to expose Lupin. Harry, Ron, and Hermione discuss Snape's motives. Harry later confronts Snape in his office after being caught with the map.",
+      "film_portrayal": "The lesson is present but the confrontation in Snape's office (where Snape taunts Harry about his father and Harry shouts 'Shut up!') is moved to a corridor encounter over the Marauder's Map.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor restructuring. The corridor scene preserves most of the key dialogue, though the office setting in the book adds to the power dynamic."
+    },
+    {
+      "scene": "Film - Harry's decision not to kill Pettigrew in the Shrieking Shack",
+      "book_baseline": "Harry physically stands between Pettigrew and the raised wands of Black and Lupin. He explicitly states: 'I'm not doing this for you. I'm doing it because I don't reckon my dad would've wanted them to become killers - just for you.' This is Harry's central moral act of the book.",
+      "film_portrayal": "Harry says: 'I don't reckon my father'd want his best friends to become killers for a worthless piece of vermin like Pettigrew. Besides: Dead, the truth dies with him. Alive... you're free.' The mercy is reframed partly as strategic (keeping Pettigrew alive to prove Sirius's innocence).",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Harry acts from pure moral principle - mercy for its own sake, honoring his father's character. The film adds a pragmatic justification ('dead, the truth dies with him') that dilutes the moral purity of the act. This is one of Harry's defining moments in the series."
+    },
+    {
+      "scene": "Film - Sirius's escape and the godfather conversation",
+      "book_baseline": "The conversation about Harry potentially living with Sirius happens in the tunnel under the Whomping Willow, in darkness, tentatively. Sirius is stiff and uncertain. Harry's explosion of joy ('Are you insane? Of course I want to leave the Dursleys!') is one of the book's most emotionally resonant moments.",
+      "film_portrayal": "The conversation happens outside under the moonlight, more openly. Harry's response is wistful and forward-looking ('I'll never have to go back to the Dursleys... I think he'd like that, after all those years in Azkaban'). It is observed from a distance by Hermione.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's version is more intimate and explosive - Harry's desperate longing for a home erupts in a way that defines his emotional core. The film's version is more subdued and observed externally, losing the private intensity of the moment."
+    },
+    {
+      "scene": "Film - The Patronus at the lake: Harry realizing it was himself",
+      "book_baseline": "Harry waits by the lake expecting his father to appear, then has the realization that he himself was the caster. He acts on this realization and produces a full corporeal stag Patronus. The moment is explicitly connected to his father - 'Prongs rode again last night' - and Dumbledore later explains Harry found his father inside himself.",
+      "film_portrayal": "This sequence is largely preserved, though the Dumbledore conversation explaining the thematic significance ('You found him inside yourself') is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film executes the action well but omits Dumbledore's closing conversation with Harry that explicitly ties the Patronus to James Potter and to Harry's identity. This conversation is thematically central to the book's arc."
+    },
+    {
+      "scene": "Film - Dumbledore's closing conversation with Harry (Pettigrew's life debt)",
+      "book_baseline": "Dumbledore tells Harry that saving Pettigrew created a life debt - 'When one wizard saves another wizard's life, it creates a certain bond' - and that this may matter in the future. He also explicitly connects Harry's Patronus to James. These are significant foreshadowing and thematic beats.",
+      "film_portrayal": "This entire conversation is absent from the film.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The life debt (payable in Goblet of Fire) and the Patronus-as-James thematic resolution are both lost. The film ends Harry's arc without the reflective closure Dumbledore provides, and removes important connective tissue to future installments."
+    },
+    {
+      "scene": "Film - Trelawney's prophecy delivery",
+      "book_baseline": "Trelawney makes her real prophecy during Harry's individual exam, in the tower room. Harry is alone with her. The prophecy is delivered in a harsh, alien voice. Harry then wonders if it was real and tells Dumbledore, who confirms it as her second genuine prediction.",
+      "film_portrayal": "The prophecy is delivered in a corridor/classroom setting after Hermione has stormed out. The Dumbledore confirmation conversation is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The prophecy is delivered effectively, but the Dumbledore confirmation and his wry comment about Trelawney's 'total of two real predictions' is lost, reducing the scene's payoff."
+    },
+    {
+      "scene": "Film - Lupin's farewell scene",
+      "book_baseline": "Lupin gives Harry back both the Invisibility Cloak and the Marauder's Map, explicitly saying he is no longer Harry's teacher so he doesn't feel guilty. He says James 'would have been highly disappointed if his son had never found any of the secret passages out of the castle.' This is warm, specific, and character-defining.",
+      "film_portrayal": "Lupin gives Harry the Firebolt (implicitly from Sirius via Buckbeak's feather). The map is blanked by Lupin with 'Mischief managed.' The specific dialogue about James and the passages is replaced with a more general statement about knowing Harry's parents through knowing himself.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's farewell is warmer in tone but loses the specific, earned quality of Lupin returning Harry's possessions and the James Potter connection to the map. The replacement dialogue is more generic."
+    },
+    {
+      "scene": "Film \u2013 Opening graveyard scene (Voldemort/Wormtail dialogue)",
+      "book_baseline": "Wormtail nervously but persistently argues for using a substitute instead of Harry, driven by fear and self-preservation. Voldemort patiently but menacingly dismantles each objection, revealing his obsessive fixation on Harry specifically and his cold psychological dominance over Wormtail.",
+      "film_portrayal": "Wormtail's suggestion is reduced to a single throwaway line ('if we were to do it without the boy'). The extended psychological chess match\u2014Voldemort accusing Wormtail of wanting to desert him, Wormtail's panicked justifications, Voldemort's chilling patience\u2014is entirely absent.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book scene establishes Voldemort's specific, reasoned obsession with Harry's blood and his cold mastery over subordinates. The film reduces this to a plot-delivery device, losing the menace and the logic behind Voldemort's plan."
+    },
+    {
+      "scene": "Film \u2013 Harry waking from the dream (Chapter 1 equivalent)",
+      "book_baseline": "Harry spends considerable time alone processing the dream: examining his scar, thinking through what he saw, weighing whether to contact Hermione, Ron, or Sirius, and revealing his emotional self-sufficiency and longing for a parental figure. He consciously decides to write to Sirius.",
+      "film_portrayal": "Harry wakes at the Burrow, Hermione is already there, and the scene moves immediately to the World Cup departure. Harry's solitary reflection, his reasoning about who to contact, and his emotional interiority are entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's opening establishes Harry's isolation at the Dursleys, his independent thinking, and his relationship with Sirius as a chosen confidant. Moving him to the Burrow and removing the reflection strips his agency and the emotional stakes of the Sirius connection."
+    },
+    {
+      "scene": "Film \u2013 Dursleys / Weasley arrival at Privet Drive",
+      "book_baseline": "The Weasleys arrive via Floo powder through the blocked fireplace, causing chaos. Mr. Weasley's delight at Muggle objects, the Ton-Tongue Toffee incident, and Harry's use of Sirius as leverage over Uncle Vernon are all present. The scene establishes Harry's home situation and his growing confidence in standing up to the Dursleys.",
+      "film_portrayal": "The Dursleys are entirely absent. Harry is already at the Burrow at the film's start.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Privet Drive scenes establish Harry's social isolation, his maturation in handling the Dursleys, and the contrast between his two worlds. Their removal also eliminates the Ton-Tongue Toffee, which characterises Fred and George's entrepreneurial spirit and Mr. Weasley's principled anger."
+    },
+    {
+      "scene": "Film \u2013 Harry's internal decision to write to Sirius / Sirius as godfather figure",
+      "book_baseline": "Harry's realisation that Sirius is the person he wants\u2014'someone like a parent'\u2014is a key emotional beat. He writes a carefully considered letter, downplaying his worry. The relationship is shown as chosen and emotionally significant.",
+      "film_portrayal": "Sirius communicates via the fireplace at Harry's initiative but the emotional weight of Harry choosing Sirius as his primary confidant and parental substitute is not established. The relationship feels functional rather than deeply personal.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Harry-Sirius dynamic is one of the emotional cores of the novel. Reducing it to information-exchange scenes loses the pathos of Harry's orphan longing and Sirius's significance as a chosen family member."
+    },
+    {
+      "scene": "Film \u2013 Ron's jealousy arc (post-Goblet selection)",
+      "book_baseline": "Ron's jealousy is sustained over weeks. Harry is genuinely hurt and angry, refuses to chase Ron, and the estrangement is resolved only after the first task when Ron sees the real danger. The arc explores friendship, envy, and the cost of fame.",
+      "film_portrayal": "The falling-out is compressed into a single brief exchange and resolved almost immediately after the first task with minimal emotional development.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The sustained estrangement in the book meaningfully explores how fame strains friendship and Harry's loneliness. The film's compression makes the reconciliation feel unearned and removes a significant character dimension from both Harry and Ron."
+    },
+    {
+      "scene": "Film \u2013 Moody's Defence Against the Dark Arts lessons (Unforgivable Curses)",
+      "book_baseline": "Moody demonstrates the curses methodically, uses spiders, and the Cruciatus demonstration visibly traumatises Neville (whose parents were tortured). Moody privately comforts Neville afterward with a book, a moment of unexpected kindness that deepens both characters.",
+      "film_portrayal": "The lesson is present but Neville's specific trauma response and Moody's private act of kindness toward him are absent. The lesson is played more for spectacle.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to foreshadow Neville's backstory and show 'Moody' as a complex figure. Losing Moody's kindness to Neville removes a layer of the impostor's manipulation and Neville's arc."
+    },
+    {
+      "scene": "Film \u2013 Barty Crouch Jr. casting the Dark Mark",
+      "book_baseline": "The Dark Mark is cast by Barty Crouch Jr. using Harry's stolen wand, which is a crucial plot point. Harry's wand going missing in the Top Box is established, and the investigation implicates Winky.",
+      "film_portrayal": "Barty Jr. is shown casting the Mark but the wand-theft mechanism and Winky's involvement are absent. The film shows him casting it openly without the book's careful framing.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's wand-theft plot is a carefully constructed mystery that implicates multiple characters and establishes Barty Jr.'s cunning. Its removal simplifies the conspiracy and removes Winky's tragic subplot."
+    },
+    {
+      "scene": "Film \u2013 Winky and house-elf subplot",
+      "book_baseline": "Winky is a significant character: her loyalty to Crouch, her dismissal, her alcoholism at Hogwarts, and her knowledge of Crouch's secrets all contribute to the mystery and to Hermione's S.P.E.W. arc. Dobby's reappearance at Hogwarts and his role in providing gillyweed are also present.",
+      "film_portrayal": "Winky is entirely absent. Dobby is absent. Neville provides the gillyweed instead.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Winky's arc is integral to the mystery of Barty Crouch Sr.'s behaviour and to Hermione's house-elf activism. Her removal, along with Dobby's, eliminates a thematic thread about servitude and loyalty that runs through the book. It also removes Dobby's meaningful contribution to Harry's survival."
+    },
+    {
+      "scene": "Film \u2013 Hermione's S.P.E.W. campaign",
+      "book_baseline": "Hermione's campaign for house-elf rights is a sustained subplot: she creates badges, rattles collecting tins, argues with Ron and Harry, and visits the Hogwarts kitchens. It establishes her moral seriousness and foreshadows later themes.",
+      "film_portrayal": "S.P.E.W. is entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "The subplot develops Hermione's character beyond academic achievement and introduces the wizarding world's systemic injustice. Its absence makes her characterisation thinner and removes thematic depth about power and exploitation."
+    },
+    {
+      "scene": "Film \u2013 Barty Crouch Sr.'s deterioration and forest appearance",
+      "book_baseline": "Crouch's mysterious absences, his appearance in the forest raving and warning Dumbledore, and his murder by his own son are carefully built up. Harry finds him on the Marauder's Map first, and the scene with Krum is preceded by Harry's growing suspicion.",
+      "film_portrayal": "Crouch Sr. appears briefly in the forest scene but his prior mysterious behaviour and the Marauder's Map subplot are absent. His death is mentioned but not dramatised with the same weight.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Crouch Sr. arc is a major mystery thread. Its compression removes the sense of a conspiracy unravelling and reduces a complex character to a plot device."
+    },
+    {
+      "scene": "Film \u2013 The Pensieve / Karkaroff and Bagman trials",
+      "book_baseline": "Harry falls into Dumbledore's Pensieve and witnesses three trials: Karkaroff naming Death Eaters (including Snape), Bagman's acquittal, and Barty Crouch Jr.'s sentencing by his own father. This reveals backstory for multiple characters and contextualises the present threat.",
+      "film_portrayal": "The Pensieve scene is present but compressed: only the Karkaroff trial and Barty Jr.'s sentencing are shown. Bagman's trial is absent. The scene is shorter and less contextually rich.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Bagman's trial establishes his moral ambiguity and his history with Rookwood, which contextualises his suspicious behaviour throughout the book. Its absence weakens the Bagman subplot."
+    },
+    {
+      "scene": "Film \u2013 Sirius communicating via fireplace only",
+      "book_baseline": "Sirius returns to a cave near Hogsmeade, communicates by owl and fireplace, and meets Harry, Ron, and Hermione in person at the cave. He is thin, living on rats, and the meeting conveys his sacrifice and the depth of his concern for Harry.",
+      "film_portrayal": "Sirius appears only as a face in the fireplace. The cave meeting, his physical deterioration, and the in-person emotional exchange are absent.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The cave meeting is one of the most emotionally resonant Harry-Sirius scenes in the book, showing Sirius's sacrifice and Harry's gratitude. Its absence reduces their relationship to remote communication and loses the physical reality of Sirius's fugitive existence."
+    },
+    {
+      "scene": "Film \u2013 Neville's parents / Longbottom backstory",
+      "book_baseline": "Harry learns from Dumbledore (after the Pensieve) that Neville's parents were tortured into insanity by Barty Crouch Jr. and the Lestranges. This recontextualises Neville's entire character and the Cruciatus demonstration.",
+      "film_portrayal": "Neville's parents are never mentioned. The connection between the Cruciatus demonstration and Neville's personal trauma is not made explicit.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This revelation is one of the most important character moments in the book for both Neville and Harry. Its absence means Neville remains a comic figure rather than a character with profound personal tragedy, and the Cruciatus scene loses its emotional depth."
+    },
+    {
+      "scene": "Film \u2013 Voldemort's graveyard monologue and Death Eater reunion",
+      "book_baseline": "Voldemort delivers a detailed account of his fall and return, names absent Death Eaters, tortures one as an example, and explains his specific reasons for needing Harry's blood. The scene establishes his political intelligence and the Death Eater hierarchy.",
+      "film_portrayal": "The monologue is present but significantly shortened. The torture of a Death Eater as a demonstration of power, the naming and shaming of absent followers, and the detailed explanation of the blood magic are compressed.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's graveyard scene establishes Voldemort as a political operator, not just a monster. The compression reduces him to a more straightforwardly threatening villain and loses the ideological texture of his movement."
+    },
+    {
+      "scene": "Film \u2013 Harry's Priori Incantatem / ghost echoes",
+      "book_baseline": "The ghost echoes of Voldemort's victims\u2014including Cedric, Bertha Jorkins, an old man, and Harry's parents\u2014speak to Harry, encourage him, and buy him time. James Potter tells Harry his mother is coming and instructs him. The scene is deeply emotional and thematically central.",
+      "film_portrayal": "The echoes appear but their dialogue is minimal. James Potter's instructions are present but the emotional weight of Harry's parents speaking to him at length, and the specific appearances of Bertha Jorkins and the old man, are reduced.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Priori Incantatem scene is the emotional climax of the book. While the film captures the visual, the reduction of the parents' dialogue diminishes the payoff of Harry's orphan arc and the thematic statement about love persisting beyond death."
+    },
+    {
+      "scene": "Film \u2013 Dumbledore's calm demeanour after Harry's name is drawn",
+      "book_baseline": "The book explicitly states Dumbledore asked Harry calmly and quietly whether he put his name in the Goblet.",
+      "film_portrayal": "Dumbledore grabs Harry and shakes him aggressively, shouting 'Did you put your name in the Goblet of Fire?'",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This is a well-documented deviation. Dumbledore's defining characteristic is his calm authority. The aggressive physical reaction contradicts his established characterisation and has become one of the most-cited adaptation errors in the series."
+    },
+    {
+      "scene": "Film \u2013 Fred and George's Triwizard ambitions and Weasleys' Wizard Wheezes",
+      "book_baseline": "Fred and George's attempt to enter the tournament, their Aging Potion scheme, and their ongoing development of Weasleys' Wizard Wheezes (including the blackmail subplot involving Bagman's leprechaun gold debt) are sustained threads that develop their entrepreneurial characters.",
+      "film_portrayal": "The Aging Potion scene is present but the Bagman debt subplot and the sustained Wizard Wheezes development are absent.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Bagman debt subplot gives Fred and George agency and moral complexity, and Harry's gift of his winnings to them at the end is more meaningful when the audience understands their financial situation and ambitions."
+    },
+    {
+      "scene": "Film \u2013 Harry giving his Triwizard winnings to Fred and George",
+      "book_baseline": "Harry gives his thousand Galleons to Fred and George for the joke shop, telling them to buy Ron better dress robes and not to tell their mother. It is a generous, characterful act that closes multiple threads.",
+      "film_portrayal": "This scene is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The gesture encapsulates Harry's generosity, his discomfort with the prize money given Cedric's death, and his investment in Fred and George's future. Its absence removes a meaningful character beat at the film's close."
+    },
+    {
+      "scene": "Film \u2013 Harry's summer isolation and internal state",
+      "book_baseline": "Harry spends weeks in a state of mounting rage, frustration, and existential dread: hiding in flowerbeds to catch news, throwing away unopened chocolates, feeling abandoned by Dumbledore and his friends, wrestling with guilt over Cedric, and consciously resisting the urge to fight Dudley's gang. His anger is richly textured and self-aware.",
+      "film_portrayal": "The summer is compressed to a brief swing-set scene. Harry watches a family longingly, suggesting loneliness and orphan pathos rather than the book's specific political fury and sense of injustice. The nuanced internal monologue\u2014his resentment at being kept ignorant, his pride in what he survived, his self-restraint\u2014is entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Harry is angry for specific, justified reasons he can articulate. The film substitutes generic orphan sadness, making his later outbursts seem like emotional instability rather than earned frustration, which undermines audience sympathy and misrepresents his character arc."
+    },
+    {
+      "scene": "Film \u2013 Harry's rage at Grimmauld Place (arrival scene)",
+      "book_baseline": "Harry's shouting match with Ron and Hermione is a sustained, specific outburst: he lists exactly what he endured (the graveyard, Cedric's death, being kept ignorant), feels ashamed afterwards, and the scene ends with him choosing to share information with Ron anyway\u2014showing his loyalty overcoming his anger.",
+      "film_portrayal": "Harry's anger is compressed into a brief confrontation. The specific grievances, the shame, and the deliberate choice to trust Ron despite his anger are cut. The film presents the anger as a personality trait rather than a reasoned response.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Losing the specificity of Harry's grievances and his self-correction makes him seem simply volatile rather than a person with legitimate complaints who is also capable of self-reflection."
+    },
+    {
+      "scene": "Film \u2013 Occlumency lessons and Harry's failure to practise",
+      "book_baseline": "Harry's failure at Occlumency is a moral failing he is aware of: he finds the lessons humiliating, stops practising partly out of resentment toward Snape, and is drawn to the corridor dreams because he wants to see what's there. This conscious choice directly causes Sirius's death and is the book's central tragic mechanism.",
+      "film_portrayal": "The film shows Occlumency lessons but does not establish Harry's deliberate neglect of practice or his guilty awareness that he is choosing curiosity over safety. The causal chain between his failure and Sirius's death is obscured.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's tragedy hinges on Harry's culpability\u2014he made choices that got Sirius killed. The film removes this moral weight, making the outcome feel like bad luck rather than consequence, which damages the arc's emotional and thematic core."
+    },
+    {
+      "scene": "Film \u2013 Harry's reaction to the Pensieve memory of James bullying Snape",
+      "book_baseline": "Harry is profoundly shaken by seeing his father as a bully. He spends days in misery, questions his idealized image of James, feels sorry for Snape, and has a long conversation with Sirius and Lupin that forces him to accept his father's flaws while also understanding context. This is a major coming-of-age beat.",
+      "film_portrayal": "The Pensieve scene is shown but Harry's extended emotional aftermath\u2014the days of distress, the conversation with Sirius and Lupin, the reckoning with his father's character\u2014is entirely absent. Harry simply walks out of Snape's office.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is one of Harry's most important maturation moments in the book: learning that heroes are flawed and that his own anger may have inherited roots. Cutting the aftermath removes a key step in his emotional development and his relationship with his father's memory."
+    },
+    {
+      "scene": "Film \u2013 Snape's response to Harry's 'He's got Padfoot' message",
+      "book_baseline": "Harry shouts the coded message at Snape as a last resort. The book makes clear Snape understood and did alert the Order\u2014this is confirmed by Dumbledore later. Harry's failure to recognise this is part of his tragic misreading of Snape throughout the series.",
+      "film_portrayal": "Snape's face is unreadable and the film does not confirm or deny that he acted on the message. The scene plays as Snape simply ignoring Harry, which is consistent with the film's flatter portrayal of Snape but loses the tragic irony.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Snape did the right thing despite his hatred of Harry; the film leaves this ambiguous, slightly flattening the long-game complexity of Snape's character that pays off in later books."
+    },
+    {
+      "scene": "Film \u2013 Sirius's death and Harry's grief",
+      "book_baseline": "Harry's grief is explosive and prolonged: he tries to reach through the veil, is physically restrained by Lupin, chases Bellatrix, attempts the Cruciatus Curse, and then has a devastating conversation with Nearly Headless Nick about death and ghosts. The grief is specific, embodied, and philosophically engaged.",
+      "film_portrayal": "Harry watches Sirius fall, screams, and chases Bellatrix. The scene is emotionally effective but the aftermath\u2014the Nick conversation, the extended devastation, the two-way mirror discovery\u2014is absent or compressed.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book uses Sirius's death to force Harry into confronting mortality and the limits of magic. The film's compression means the death lands as a plot event rather than a transformative experience."
+    },
+    {
+      "scene": "Film \u2013 Dumbledore's explanation and the prophecy revelation",
+      "book_baseline": "Dumbledore's office scene is the emotional and thematic climax of the book: Harry destroys the office in rage, Dumbledore explains his mistakes in keeping Harry ignorant, reveals the full prophecy, and acknowledges that his love for Harry caused him to make bad decisions. Harry's anger at Dumbledore is validated.",
+      "film_portrayal": "The scene is significantly compressed. Harry does not destroy the office. Dumbledore's self-reproach is brief. The full prophecy is delivered but the extended emotional reckoning between Harry and Dumbledore\u2014the core of the book's resolution\u2014is truncated.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "This scene is the structural and emotional payoff of the entire book. Harry's rage at Dumbledore, Dumbledore's admission of fault, and the mutual reckoning are what give the story its thematic weight about the cost of paternalism and the burden of prophecy. Compressing it significantly damages the adaptation's ability to deliver on what the book builds toward."
+    },
+    {
+      "scene": "Film \u2013 Harry's isolation and the 'saving-people thing'",
+      "book_baseline": "Hermione explicitly names Harry's 'saving-people thing' as a character flaw Voldemort is exploiting. Harry is furious but cannot entirely deny it. This is a moment of genuine self-knowledge and vulnerability.",
+      "film_portrayal": "The exchange is present but brief. Harry's internal conflict about whether Hermione is right\u2014his awareness that she may have a point\u2014is not developed. The film moves quickly to action.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this moment to show Harry's capacity for self-criticism even under pressure. The film's compression makes it feel like a plot obstacle rather than a character insight."
+    },
+    {
+      "scene": "Film \u2013 Kreacher's role and Harry's failure to treat him well",
+      "book_baseline": "Kreacher's betrayal is the direct result of Sirius treating him with contempt and Harry failing to heed Hermione's warnings. Dumbledore explicitly tells Harry this: Kreacher is what wizards made him. The tragedy is that kindness could have prevented Sirius's death.",
+      "film_portrayal": "Kreacher appears briefly and his role in the plot is present but the moral lesson\u2014that Harry and Sirius's failure of empathy contributed to Sirius's death\u2014is not articulated. Dumbledore does not deliver the speech about Kreacher being a product of his treatment.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book uses Kreacher to make a pointed argument about how the powerful treat the vulnerable. Losing this removes a key thematic layer and reduces Harry's culpability in Sirius's death."
+    },
+    {
+      "scene": "Film \u2013 Ron's prefect badge and Harry's jealousy",
+      "book_baseline": "Harry's complex reaction to Ron becoming prefect\u2014his initial jealousy, his self-examination about whether he is arrogant, and his deliberate choice to be genuinely happy for Ron\u2014is a significant character moment showing his capacity for self-awareness and generosity.",
+      "film_portrayal": "The prefect subplot is present but Harry's internal struggle and self-examination are absent. The film shows Ron getting the badge without exploring Harry's reaction.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is one of the book's clearest demonstrations that Harry is not simply a hero but someone who actively works against his own less admirable impulses. Its absence makes him slightly flatter."
+    },
+    {
+      "scene": "Film \u2013 Percy's estrangement from the Weasley family",
+      "book_baseline": "Percy's betrayal of his family\u2014his letter to Ron urging him to abandon Harry, his slamming the door on Molly\u2014is developed across multiple scenes and contributes to the book's portrait of how Voldemort's return fractures families and institutions.",
+      "film_portrayal": "Percy appears briefly at the Ministry hearing but his estrangement from the family is not developed. His letter to Ron is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Percy's arc is a microcosm of the book's theme about institutional cowardice and family loyalty under pressure. Its absence reduces the thematic richness of the Ministry's corruption."
+    },
+    {
+      "scene": "Film \u2013 Harry's relationship with Cho Chang",
+      "book_baseline": "The Cho subplot is a sustained study in miscommunication: Harry's inability to understand her grief, the disastrous Valentine's Day date, Hermione's explanation of Cho's emotional complexity, and Harry's eventual acceptance that the relationship cannot work. It is also tied to Marietta's betrayal and Cho's defence of her friend.",
+      "film_portrayal": "The relationship is compressed to a kiss and a brief falling-out. The Valentine's Day scene, Hermione's analysis, and the nuanced portrait of Cho's grief are absent or heavily truncated.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "While not a central relationship, the Cho subplot in the book does meaningful work in showing Harry's emotional immaturity and his difficulty understanding others' grief. Its compression makes it feel like a throwaway romance."
+    },
+    {
+      "scene": "Film: Dumbledore collecting Harry from Privet Drive (omitted entirely)",
+      "book_baseline": "Dumbledore visits the Dursleys, delivers a pointed moral rebuke about their treatment of Harry, uses magic to humorously torment them, discusses Sirius's will, introduces Kreacher, and has a warm/awkward walk with Harry to Budleigh Babberton \u2014 establishing Dumbledore's wit, moral authority, and deepening his relationship with Harry outside Hogwarts",
+      "film_portrayal": "Harry is simply deposited at the Burrow by Dumbledore off-screen. The Dursley confrontation, Sirius's will, Kreacher's ownership, and the entire Privet Drive sequence are cut.",
+      "damage_type": "arc | relationship",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Privet Drive visit is the first time Harry and Dumbledore interact as near-equals outside school. Dumbledore's rebuke of the Dursleys, his playful use of magic, and his frank discussion of Sirius's legacy all deepen the mentor relationship that the film's climax depends on emotionally. Kreacher's ownership transfer also sets up plot threads for Deathly Hallows. Losing this removes crucial relationship texture and Dumbledore's characterisation as both formidable and warmly human."
+    },
+    {
+      "scene": "Film: Dumbledore's characterisation throughout \u2014 reduced gravitas and moral weight",
+      "book_baseline": "Dumbledore is witty, gently authoritative, occasionally stern, and carries a sense of controlled power. He delivers moral pronouncements with weight (e.g. rebuking the Dursleys, explaining the prophecy's meaning, discussing love as Harry's power).",
+      "film_portrayal": "Dumbledore is warmer and more avuncular but loses the steely moral authority. Key speeches (the prophecy discussion, the explanation of love as power) are cut or truncated. His 'mawkishness' line on the Astronomy Tower replaces substantive emotional exchange.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film's Dumbledore is likeable but thinner. The book's Dumbledore uses this year to prepare Harry philosophically and emotionally for what is coming \u2014 the long speeches about the prophecy, free will, and love are not decoration but the thematic core of the novel. Their absence makes his death feel less like the loss of a guiding philosophy and more like the loss of a kindly headmaster."
+    },
+    {
+      "scene": "Film: The prophecy discussion and its meaning (omitted)",
+      "book_baseline": "In the broom shed at the Burrow, Dumbledore tells Harry to share the prophecy with Ron and Hermione, and later in his office delivers a lengthy, crucial argument: the prophecy only matters because Voldemort chose to act on it; Harry is free to choose his path; his power is love. This is the philosophical heart of the book.",
+      "film_portrayal": "No equivalent scene exists. The prophecy's meaning and Dumbledore's argument about free will vs. destiny are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is arguably the most important conversation in the entire series. Dumbledore's argument that Harry is not a slave to prophecy but acts from love and choice is the thematic resolution of the saga's central question. Its absence means the film's Harry has no articulated reason to face Voldemort beyond obligation, gutting the emotional and philosophical stakes of the finale."
+    },
+    {
+      "scene": "Film: Pensieve lessons \u2014 Voldemort's backstory reduced to two memories only",
+      "book_baseline": "Harry and Dumbledore view multiple memories: Bob Ogden's (the Gaunt family), a young Dumbledore meeting Riddle at the orphanage, Slughorn's (tampered), Hokey's (Hepzibah Smith), and Dumbledore's own (Voldemort returning to Hogwarts). Each adds a layer to Voldemort's psychology and the Horcrux theory.",
+      "film_portrayal": "Only two Pensieve sequences are shown: young Dumbledore at the orphanage, and the tampered Slughorn memory. The Gaunt family, Hepzibah Smith/the cup and locket, and Voldemort's return to Hogwarts are all cut.",
+      "damage_type": "arc | agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The missing memories are not background colour \u2014 they are the evidence base for the Horcrux theory. Without the Gaunt memory, the locket's significance is unexplained. Without Hepzibah Smith, the cup Horcrux has no introduction. Without Voldemort's return to Hogwarts, the Defence Against the Dark Arts curse and Voldemort's attachment to the school are lost. The film's Dumbledore arrives at 'seven Horcruxes' with far less demonstrated reasoning, weakening the intellectual credibility of the mission."
+    },
+    {
+      "scene": "Film: Burrow attack by Bellatrix and Greyback (invented)",
+      "book_baseline": "No such attack occurs. Harry spends Christmas at the Burrow peacefully, has a conversation with Lupin about werewolves and Greyback, and speaks privately with Mr. Weasley about Malfoy.",
+      "film_portrayal": "Bellatrix and Greyback attack the Burrow, burning it down. Harry chases Bellatrix into the reeds. Ginny and Harry fight side by side.",
+      "damage_type": "relationship | arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The invented attack serves to manufacture action and a Harry/Ginny bonding moment, but it replaces the book's quieter, more character-rich Christmas. The Lupin conversation (revealing Greyback bit him as a child, establishing werewolf politics) is lost. More damagingly, the attack creates a false sense of escalating threat that the book handles through news reports and atmosphere rather than direct assault on the Weasley home \u2014 a tonal distortion."
+    },
+    {
+      "scene": "Film: Harry/Ginny relationship \u2014 development replaced by a single kiss in the Room of Requirement",
+      "book_baseline": "Harry's feelings for Ginny develop slowly and organically over months: Quidditch, shared humour, the 'monster in his chest,' the tension around Dean, the Quidditch victory kiss. Harry's internal conflict about Ron is extensively rendered.",
+      "film_portrayal": "Ginny initiates a kiss in the Room of Requirement while hiding the Potions book. The relationship is established almost entirely through this single scene and a few glances.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Harry/Ginny arc is one of the few romantic storylines Rowling develops with genuine interiority. The film's version removes Harry's agency (Ginny kisses him) and the slow burn that makes the eventual relationship feel earned. The 'monster in his chest' \u2014 Harry's most vivid emotional metaphor in the book \u2014 is entirely absent, making the relationship feel thin and convenient rather than emotionally significant."
+    },
+    {
+      "scene": "Film: Ron/Hermione tension \u2014 reduced and simplified",
+      "book_baseline": "Ron and Hermione's relationship is developed through months of jealousy, the Lavender subplot, Hermione's birds, Ron's 'Hermione' in the hospital, and careful mutual acknowledgement. Harry observes all of this with wry awareness.",
+      "film_portrayal": "The broad strokes are present but compressed. The hospital scene ('Her-my-oh-nee') is retained but the sustained build is truncated.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Moderate damage \u2014 the key beats survive but the texture is thinner. The film does capture the essential dynamic, but the sustained comedic and emotional development of the book is compressed into a few scenes, making the payoff feel slightly unearned."
+    },
+    {
+      "scene": "Film: Snape/Dumbledore argument on the Astronomy Tower (invented)",
+      "book_baseline": "No such scene exists before the tower confrontation. Hagrid overhears an argument between Dumbledore and Snape in the forest, where Snape says he doesn't want to 'do it anymore' \u2014 this is the only hint of their private arrangement.",
+      "film_portrayal": "Harry witnesses Snape on the Astronomy Tower telling Dumbledore 'you ask too much' and 'I don't want to do this anymore,' with Dumbledore firmly insisting Snape agreed and there is nothing more to discuss.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The invented scene partially telegraphs Snape's conflict, which the book keeps more ambiguous. However, it also somewhat undermines the shock of Snape's action at the climax by making his reluctance visible. The book's version (Hagrid's overheard fragment) is more elegantly placed and more ambiguous. Minor damage \u2014 the scene is not incoherent, but it reduces mystery."
+    },
+    {
+      "scene": "Film: Dumbledore's death scene \u2014 Harry is not frozen by a spell",
+      "book_baseline": "Dumbledore silently casts a Full Body-Bind on Harry before Malfoy arrives, trapping Harry under the Invisibility Cloak. Harry is forced to watch helplessly, unable to intervene. The spell breaks when Dumbledore dies, confirming his death to Harry.",
+      "film_portrayal": "Dumbledore tells Harry to hide below the tower. Harry watches through the grating but is not magically frozen \u2014 he chooses to stay hidden, wand drawn, and does not act.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This change is more significant than it appears. In the book, Harry's helplessness is absolute and externally imposed \u2014 Dumbledore removes his agency to protect him, and the spell's breaking is the moment Harry knows Dumbledore is dead. In the film, Harry chooses not to act, which raises uncomfortable questions about his passivity and removes the elegant mechanical confirmation of Dumbledore's death. It also removes Dumbledore's final act of protection, which is thematically important."
+    },
+    {
+      "scene": "Film: Snape reveals himself as the Half-Blood Prince during the chase",
+      "book_baseline": "Harry discovers 'This book is the property of the Half-Blood Prince' written inside the cover. The identity is not revealed until Snape himself declares it during the flight from Hogwarts, as a moment of bitter pride.",
+      "film_portrayal": "Snape reveals it in the same chase scene, but the film has not built the Half-Blood Prince mystery with the same depth \u2014 fewer spells used, less time spent on the book's annotations, and the Sectumsempra incident is the primary connection.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The reveal lands adequately but with less impact because the film has not invested as heavily in the Prince's annotations as a source of Harry's growth and moral ambiguity. The book's Harry has a complex relationship with the Prince's voice \u2014 admiring it, being seduced by it, then horrified. The film compresses this to one spell and one incident."
+    },
+    {
+      "scene": "Film: Horcrux explanation and identification \u2014 compressed and partially inaccurate",
+      "book_baseline": "Dumbledore carefully identifies known and suspected Horcruxes: the diary (destroyed), the ring (destroyed), the locket, the cup, the snake, and something of Ravenclaw's or Gryffindor's. He explains his reasoning in detail and acknowledges uncertainty.",
+      "film_portrayal": "Dumbledore identifies the diary and ring, mentions the locket and cup via Harry's vision when touching the ring, and references Nagini. The Ravenclaw/Gryffindor unknown Horcrux is not mentioned. The reasoning is compressed into a brief exchange.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The missing unknown Horcrux (which becomes the diadem in Deathly Hallows) is a significant omission that will create continuity problems for the next film. More broadly, Dumbledore's careful, evidence-based reasoning about Voldemort's psychology \u2014 his magpie tendency, his attachment to founders' objects \u2014 is reduced to a vision montage, losing the intellectual rigour that makes Dumbledore's approach distinctive."
+    },
+    {
+      "scene": "Film: The cave sequence \u2014 'Kill me' demand omitted",
+      "book_baseline": "As Dumbledore drinks the potion, he begs Harry to kill him, to make it stop. Harry is forced to keep pouring the potion into Dumbledore's mouth while Dumbledore screams 'Kill me!' This is one of the most harrowing passages in the series.",
+      "film_portrayal": "The film includes 'Kill me Harry!' as a line, but the sustained horror of the book \u2014 Dumbledore's repeated screaming, Harry's anguish at forcing the potion down \u2014 is compressed.",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film does include the key line but the sustained duration of the book's ordeal \u2014 which establishes just how terrible the cost of this mission is \u2014 is shortened. Moderate damage to the emotional weight of the sequence."
+    },
+    {
+      "scene": "Film: Post-Dumbledore's death \u2014 no funeral scene",
+      "book_baseline": "Dumbledore's funeral is a major set piece: merpeople sing, centaurs fire arrows, Fawkes laments, the white tomb forms. Harry breaks up with Ginny. The scene is the emotional culmination of the book and Harry's declaration of intent to hunt Horcruxes.",
+      "film_portrayal": "No funeral. The film cuts from Dumbledore's body in the courtyard to Harry on the Astronomy Tower with Hermione, Ron and Ginny, where he declares he won't return to Hogwarts.",
+      "damage_type": "arc | relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The funeral is not merely spectacle \u2014 it is the moment the wizarding world formally acknowledges its greatest loss, and the moment Harry makes his choice. The Harry/Ginny breakup, which is a significant character moment for both, is entirely absent. The film's ending is emotionally thinner as a result, and the transition to Deathly Hallows loses its proper foundation."
+    },
+    {
+      "scene": "Film: Harry/Ginny breakup (omitted)",
+      "book_baseline": "After the funeral, Harry tells Ginny he cannot be with her because Voldemort will use her against him. Ginny accepts this with dignity. It is a mature, painful scene that establishes both characters' understanding of the war's cost.",
+      "film_portrayal": "No breakup occurs. The film ends with Harry and Ginny apparently still together, with Hermione merely advising Harry to keep 'snogging to a minimum' around Ron.",
+      "damage_type": "relationship | agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The breakup is Harry's first truly adult decision \u2014 choosing duty over personal happiness, and protecting someone he loves by distancing himself. Its absence removes a key moment of Harry's moral and emotional maturity, and creates a continuity problem for Deathly Hallows where the relationship status is unclear."
+    },
+    {
+      "scene": "Film: Scrimgeour confrontation at Christmas (omitted)",
+      "book_baseline": "Scrimgeour corners Harry at the Burrow, attempts to recruit him as a Ministry poster boy, and Harry refuses with pointed references to Stan Shunpike and Umbridge's scars. 'Dumbledore's man through and through' is Harry's declaration of loyalty.",
+      "film_portrayal": "Scrimgeour does not appear in the film at all.",
+      "damage_type": "arc | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Scrimgeour confrontation establishes Harry's political independence and his refusal to be used \u2014 a theme that runs through the series. 'Dumbledore's man through and through' is one of Harry's finest moments. Its absence means the film's Harry has no articulated relationship with the Ministry's failures, weakening the political dimension of the story."
+    },
+    {
+      "scene": "DH Part 1 - Dursley departure",
+      "book_baseline": "The Dursley farewell is a full scene with Vernon's paranoid conspiracy theories about the house, Harry's exasperated wit, Dudley's surprising emotional moment ('I don't think you're a waste of space'), Petunia's trembling near-speech, and Harry's complex mix of relief and unexpected tenderness. The scene earns its emotional weight through comedy and character.",
+      "film_portrayal": "Compressed to a brief exchange. Vernon's comic paranoia is cut entirely. Petunia's near-speech is replaced with a single line about losing a sister. Dudley's moment is retained but stripped of its buildup. The scene loses its tonal complexity and Harry's sardonic voice.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Dursley farewell is the last beat of Harry's childhood and establishes his emotional baseline entering the hunt. Petunia's near-speech in particular is a long-deferred character payoff. The film replaces earned comedy and ambiguity with a single sentimental line, flattening both Harry's voice and Petunia's arc."
+    },
+    {
+      "scene": "DH Part 1 - Hermione Obliviates her parents (opening)",
+      "book_baseline": "The book describes Hermione having already performed the Memory Charm before the story begins; it is referenced in passing. The act is established as done, not dramatized.",
+      "film_portrayal": "The film opens with Hermione performing the Obliviate on her parents in real time, erasing herself from family photographs. This is an invented scene.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The invented scene is emotionally effective and not strictly unfaithful to the spirit of the book, but it front-loads Hermione's sacrifice in a way the book deliberately does not, slightly shifting her characterization from someone who acts practically and moves on to someone defined by visible suffering. Minor damage."
+    },
+    {
+      "scene": "DH Part 1 - Voldemort's Malfoy Manor speech / wand request",
+      "book_baseline": "Voldemort's opening monologue is about the problem of twin cores and his need to borrow a wand. He is cold, self-aware about his own errors, and philosophically menacing. He acknowledges his own mistakes ('I have been careless'). The scene establishes his intelligence and self-critical ruthlessness.",
+      "film_portrayal": "The film restructures the scene so Voldemort explains the twin-core problem immediately and requests Lucius's wand. The self-reflective quality ('I have been careless... I understand better now') is cut. Voldemort is more straightforwardly threatening and less intellectually self-aware.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Voldemort's willingness to acknowledge his own errors is a key character trait that distinguishes him from a simple villain and makes him more frightening. Removing this self-awareness reduces the complexity of his menace."
+    },
+    {
+      "scene": "DH Part 1 - Seven Potters: Harry's resistance and Moody's authority",
+      "book_baseline": "Harry loudly refuses the plan, argues against it, and is only overridden by Moody's authority and the group's collective pressure. Harry's protective instinct and his eventual reluctant compliance are dramatized at length. The scene establishes his character under pressure.",
+      "film_portrayal": "Harry's resistance is present but abbreviated. The extended argument and Moody's forceful override are compressed. The scene moves quickly to the transformation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. Harry's protective instinct is still visible but the scene loses some of the texture of his relationship with Moody and his genuine moral conflict."
+    },
+    {
+      "scene": "DH Part 1 - Hedwig's death",
+      "book_baseline": "Hedwig is killed by a stray Killing Curse while in her cage in the sidecar, a random and senseless death that Harry cannot prevent. He is devastated but must keep fighting. The randomness is the point.",
+      "film_portrayal": "Hedwig flies free of her cage and swoops to protect Harry from a Death Eater, dying heroically in his defense.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's version is deliberately unheroic \u2014 Hedwig dies pointlessly, caged, as a symbol of the war's indifference to innocence. The film transforms this into a heroic sacrifice, undermining the thematic point about the cost of war and replacing it with conventional sentiment."
+    },
+    {
+      "scene": "DH Part 1 - Expelliarmus / Stan Shunpike confrontation",
+      "book_baseline": "Harry uses Expelliarmus on Stan Shunpike during the aerial chase, which identifies him as the real Harry to the Death Eaters. Lupin later confronts Harry about this, and Harry defends his choice with moral conviction: 'I won't blast people out of my way just because they're there. That's Voldemort's job.' This is a key statement of Harry's ethical identity.",
+      "film_portrayal": "The Stan Shunpike moment is cut. Harry's use of Expelliarmus identifies him via Hedwig's defense instead. The subsequent Lupin confrontation and Harry's moral defense are absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is one of the most important character beats in the entire book. Harry's insistence on Expelliarmus over lethal force, and his articulation of why, is the ethical core of his character and directly foreshadows the climax where Expelliarmus defeats Voldemort. Removing it severs the thematic through-line and strips Harry of a defining moral choice."
+    },
+    {
+      "scene": "DH Part 1 - Mad-Eye's death and the toast",
+      "book_baseline": "Mad-Eye's death is announced by Bill, received in stunned silence, and followed by Mr. Weasley conjuring glasses of firewhisky for a toast. Harry's speech about trusting everyone in the room, and Lupin's pitying response comparing him to James, are central character moments. The firewhisky 'seared Harry's throat... firing him with something that was like courage.'",
+      "film_portrayal": "The death is announced and received with appropriate gravity. The firewhisky toast is absent. Harry's trust speech is present but abbreviated. Lupin's comparison to James and its implications are cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The toast and Lupin's James comparison establish Harry's inheritance of his father's fatal loyalty and foreshadow the Lupin confrontation at Grimmauld Place. Their absence weakens the thematic setup."
+    },
+    {
+      "scene": "DH Part 1 - Lupin confrontation at Grimmauld Place",
+      "book_baseline": "Lupin arrives at Grimmauld Place and asks to join the trio, claiming Tonks will be safe at her parents'. Harry erupts at him, calling him a coward, accusing him of wanting to play Sirius, and saying his father would have wanted him to stay with his child. Lupin blasts Harry into a wall and leaves. Harry immediately regrets it but believes it was necessary. This is one of Harry's most morally complex moments.",
+      "film_portrayal": "This scene is entirely absent from the film.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This scene is critical to Harry's characterization as someone who acts on moral conviction even when it costs him personally, and to Lupin's arc of cowardice and redemption. Its absence removes Harry's most difficult moral choice in the early part of the book and eliminates the context for Lupin's eventual return to Tonks and his death. It also removes a key exploration of the theme of parental responsibility that runs through the saga."
+    },
+    {
+      "scene": "DH Part 1 - Dumbledore's history / Muriel at the wedding",
+      "book_baseline": "Harry's conversation with Elphias Doge and Muriel at the wedding is extended and detailed. Muriel provides specific, damaging gossip about Ariana, Kendra, and Dumbledore's youth. Harry is genuinely disturbed and his faith in Dumbledore begins to crack here, before Godric's Hollow.",
+      "film_portrayal": "The conversation is compressed. Muriel appears briefly and mentions Bathilda Bagshot and Godric's Hollow. The extended revelations about Ariana and Kendra are cut. Harry's crisis of faith in Dumbledore is not seeded here.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Harry's gradual disillusionment with Dumbledore is a major arc of the book. The wedding conversation is the first crack. Without it, Harry's later rage at Dumbledore (after Godric's Hollow and in the Forest of Dean) feels less earned."
+    },
+    {
+      "scene": "DH Part 1 - Kreacher's backstory and transformation",
+      "book_baseline": "Kreacher tells the full story of Regulus's sacrifice at length, weeping. Harry treats him with unexpected kindness, gives him the fake locket, and Kreacher is transformed \u2014 becoming loyal, cooking elaborate meals, and taking pride in his work. This is a major subplot about the treatment of house-elves and its consequences.",
+      "film_portrayal": "Kreacher's backstory is compressed to a brief summary. His transformation is shown (he becomes helpful) but the emotional weight of the scene and the extended period of his loyalty are truncated.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Kreacher's arc is one of the book's most pointed statements about how the treatment of 'lesser' beings reflects on wizarding society. The compression reduces it to a plot convenience rather than a thematic statement."
+    },
+    {
+      "scene": "DH Part 1 - Ron's departure",
+      "book_baseline": "Ron's departure is precipitated by the Horcrux's influence but also by genuine grievances that have been building. The argument is extended and painful. Ron says 'Your parents are dead. You have no family.' Harry is devastated. Hermione runs after Ron calling his name. The aftermath \u2014 Harry and Hermione's silent grief, the weeks of tension \u2014 is extensively developed.",
+      "film_portrayal": "The argument is present and Ron's departure is dramatized. However, the film adds a line where Ron accuses Harry of having feelings for Hermione ('I saw you two the other night'), which is not in the book and misrepresents the nature of Harry and Hermione's relationship.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The invented jealousy line ('I saw you two') transforms Ron's departure from a crisis of faith and Horcrux-induced despair into romantic jealousy. This misrepresents Ron's character (his insecurities are about inadequacy, not romantic rivalry in this moment), Harry and Hermione's relationship (which is explicitly sibling-like), and the nature of the Horcrux's power. It also makes Ron look more petty."
+    },
+    {
+      "scene": "DH Part 1 - Harry and Hermione dance",
+      "book_baseline": "No such scene exists in the book. Harry and Hermione's time alone after Ron's departure is characterized by grief, silence, and mutual support. They do not dance.",
+      "film_portrayal": "Harry puts on a radio and invites Hermione to dance. They dance together, briefly happy, before the static returns.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The dance scene, while emotionally well-intentioned, creates an ambiguity about Harry and Hermione's relationship that the book is careful to avoid. Combined with the invented jealousy line, it feeds a misreading of their bond that the book explicitly refutes. It also softens the bleakness of this period in a way that undercuts the narrative."
+    },
+    {
+      "scene": "DH Part 1 - Godric's Hollow: Harry's internal state",
+      "book_baseline": "Harry's desire to go to Godric's Hollow is explicitly not just about Bathilda or the sword \u2014 it is about his parents' graves, his sense of home, and his need to understand his own origins. He is drawn there by something 'inexplicable.' Hermione is the one who raises the sword theory.",
+      "film_portrayal": "The film presents Harry's motivation as primarily about finding the sword (via Hermione's theory about Godric Gryffindor's birthplace). Harry's deeper, more personal pull toward the place is present but less articulated.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The film captures the emotional weight of the graveyard visit but slightly rationalizes Harry's motivation, reducing the irrational, grief-driven pull that makes the visit feel both inevitable and dangerous."
+    },
+    {
+      "scene": "DH Part 1 - Bathilda Bagshot sequence",
+      "book_baseline": "The horror of the Bathilda sequence is built slowly: the smell, her strange behavior, her inability to speak English, the Parseltongue conversation Harry doesn't realize is happening. The revelation that she is a snake-corpse is genuinely shocking. Harry loses his wand in the chaos.",
+      "film_portrayal": "The sequence is effectively adapted. The Parseltongue element is retained. The horror is well-executed. Harry's wand is broken by Hermione's rebounding curse during the escape.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. Minor compression of the buildup reduces some dread, but the core scene is intact."
+    },
+    {
+      "scene": "DH Part 1 - Harry's rage at Dumbledore (Forest of Dean)",
+      "book_baseline": "After Godric's Hollow, Harry's fury at Dumbledore is extended and specific: he feels Dumbledore left him nothing, gave him no map, no plan, and that his trust was misplaced. 'Never the whole truth! Never!' This is a sustained, articulate crisis of faith.",
+      "film_portrayal": "Harry's anger at Dumbledore is present but compressed. The extended internal monologue and the specific articulation of betrayal are reduced.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Harry's disillusionment with Dumbledore is a major arc that pays off in the King's Cross chapter. Compressing his rage reduces the emotional stakes of his eventual reconciliation with Dumbledore's memory."
+    },
+    {
+      "scene": "DH Part 1 - Xenophilius Lovegood visit",
+      "book_baseline": "The visit is tense and extended. Lovegood's betrayal is revealed gradually. The Deathly Hallows explanation is given in full. Harry becomes obsessed with the Hallows to the detriment of the Horcrux mission \u2014 this obsession is a character flaw that the book develops over weeks.",
+      "film_portrayal": "The visit is well-adapted. However, Harry's subsequent Hallows obsession \u2014 the weeks of distraction, his growing estrangement from Ron and Hermione, his scar visions becoming blurry \u2014 is compressed into a brief montage.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Harry's Hallows obsession is a deliberate character flaw \u2014 he is seduced by the promise of power just as Dumbledore was. The film compresses this to the point where it barely registers as a flaw, weakening the parallel with Dumbledore and reducing the significance of Harry's eventual choice of Horcruxes over Hallows."
+    },
+    {
+      "scene": "DH Part 1 - Potterwatch",
+      "book_baseline": "The Potterwatch broadcast is a significant scene: it provides news of Ted Tonks's death, Dean Thomas's escape, and Lupin's message to Harry ('follow your instincts'). It reconnects Harry to the wider world and provides emotional grounding after weeks of isolation.",
+      "film_portrayal": "Potterwatch is absent from Part 1. Ted Tonks's death is not mentioned. The emotional reconnection the broadcast provides is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The absence of Potterwatch removes a key emotional beat and the news of Ted Tonks's death, which matters for Tonks's arc. It also removes Lupin's message, which is a small but meaningful moment of reconciliation after the Grimmauld Place confrontation."
+    },
+    {
+      "scene": "DH Part 2 - Snape's memories (Prince's Tale)",
+      "book_baseline": "The Prince's Tale is one of the most complex and emotionally devastating chapters in the series. It covers Snape's entire life: his childhood friendship with Lily, his sorting, his jealousy of James, the 'Mudblood' incident, his years as a Death Eater, his bargain with Dumbledore, his grief, his Patronus, and the full revelation of his role as a double agent motivated entirely by love for Lily. The chapter recontextualizes the entire series.",
+      "film_portrayal": "The memories are presented as a montage. Key scenes are included (young Snape and Lily, the Sorting, the Mudblood incident, Snape's grief, the doe Patronus). However, the extended scenes of Snape's adult relationship with Dumbledore, his moral complexity, and the full weight of his sacrifice are compressed. The scene where Dumbledore asks Snape to kill him is present but abbreviated.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Prince's Tale is the emotional climax of Snape's arc and one of the most important chapters in the series. The film captures the broad strokes but the compression reduces the full weight of Snape's sacrifice and the complexity of his relationship with Dumbledore. The revelation still lands, but with less force than the book achieves."
+    },
+    {
+      "scene": "DH Part 2 - Harry's walk to the forest",
+      "book_baseline": "Harry's walk to the forest is one of the most interior passages in the series. He thinks about Dumbledore's betrayal, about the nature of his sacrifice, about Ron and Hermione. He deliberately does not say goodbye. He uses the Resurrection Stone and is accompanied by his parents, Sirius, and Lupin. The scene is suffused with grief, acceptance, and love.",
+      "film_portrayal": "Harry tells Ron and Hermione he is going. They react with horror. He says goodbye to them. He then walks to the forest alone and uses the Stone.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Harry's decision not to say goodbye is a deliberate act of will \u2014 he knows he would not be able to leave if he did. The film's version, where he tells them and they react, reduces the solitude and self-determination of his sacrifice. The book's version is more devastating precisely because it is silent."
+    },
+    {
+      "scene": "DH Part 2 - King's Cross / Dumbledore conversation",
+      "book_baseline": "The King's Cross chapter is extensive. Dumbledore explains the Horcrux mechanics, the twin-core connection, the nature of Lily's sacrifice, and the Deathly Hallows. He confesses his own failures and obsessions. He asks Harry's forgiveness. The conversation is philosophically rich and emotionally complex.",
+      "film_portrayal": "The conversation is present but compressed. Key explanations are retained. Dumbledore's confession of his own failures and his request for forgiveness are abbreviated. The full philosophical weight of the exchange is reduced.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The King's Cross chapter is the culmination of Harry's arc with Dumbledore. The compression reduces the emotional resolution of Harry's disillusionment and Dumbledore's self-reckoning."
+    },
+    {
+      "scene": "DH Part 2 - Final duel: Harry's speech to Voldemort",
+      "book_baseline": "Harry and Voldemort circle each other for an extended period. Harry explains the Elder Wand's true allegiance (Draco, then Harry), offers Voldemort the chance to feel remorse, and the duel ends when Voldemort's Killing Curse rebounds off Harry's Expelliarmus. The scene is about Harry's knowledge and moral superiority, not physical combat.",
+      "film_portrayal": "The film precedes the final confrontation with an extended physical chase through the castle (Harry and Voldemort grappling, Apparating, falling). The final exchange retains some of Harry's explanation but is much shorter. The emphasis is on spectacle rather than the battle of wills and knowledge.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's final duel is deliberately anti-climactic in physical terms \u2014 it ends with a single spell, Expelliarmus, the same spell Harry refused to abandon throughout the book. This is the payoff of the Expelliarmus/Stan Shunpike thread (which was cut from Part 1). The film's extended physical combat replaces this thematic resolution with action spectacle, and since the Expelliarmus thread was cut, the final spell has no resonance. This is the most structurally damaging single change in the adaptation."
+    },
+    {
+      "scene": "DH Part 2 - Voldemort's death",
+      "book_baseline": "Voldemort 'fell backward, arms splayed, the slit pupils of the scarlet eyes rolling upward. Tom Riddle hit the floor with a mundane finality, his body feeble and shrunken.' He dies like a man, not a monster. The ordinariness of his death is the point.",
+      "film_portrayal": "Voldemort disintegrates into ash and flakes away dramatically.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's version of Voldemort's death is deliberately mundane \u2014 he dies as Tom Riddle, a mortal man, stripped of his pretensions to immortality. The film's spectacular disintegration restores the grandiosity the book deliberately denies him, undermining the thematic point about the ordinariness of death."
+    },
+    {
+      "scene": "DH Part 2 - Neville kills Nagini",
+      "book_baseline": "Neville pulls the Sword of Gryffindor from the Sorting Hat (which Voldemort has placed on his head and set alight) and kills Nagini. This happens in the chaos of the battle's resumption, after Harry has revealed himself.",
+      "film_portrayal": "Neville kills Nagini during the final battle, after Harry has revealed himself. The Sorting Hat element is present. The sequence is broadly faithful.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. Minor staging differences do not significantly damage the scene."
+    },
+    {
+      "scene": "DH Part 2 - Elder Wand disposal",
+      "book_baseline": "Harry uses the Elder Wand to repair his own holly wand, then announces he will return it to Dumbledore's tomb. His reasoning: if he dies a natural death, the wand's power will be broken. He keeps his own wand.",
+      "film_portrayal": "Harry snaps the Elder Wand and throws the pieces off a bridge. He does not repair his own wand.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version is more nuanced: Harry doesn't destroy the wand out of fear of its power but returns it to its resting place, trusting in his own mortality to end its power. He also repairs his original wand, which is symbolically important \u2014 he reclaims his own identity. The film's destruction is more dramatic but less thoughtful, and the failure to repair the holly wand is a missed symbolic beat."
+    },
+    {
+      "scene": "DH Part 2 - Aberforth scene",
+      "book_baseline": "Aberforth's confrontation with Harry is extended and painful. He tells the full story of Ariana's life and death, his resentment of Albus, and his belief that Harry is being used. Harry's response \u2014 'I need to. Because if I don't, I don't know who I am anymore' \u2014 is a key statement of his identity.",
+      "film_portrayal": "The scene is present and Aberforth's bitterness is conveyed. The full story of Ariana is abbreviated. Harry's response is present in compressed form.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Aberforth scene is the last test of Harry's faith in Dumbledore before the endgame. Its compression reduces the weight of Harry's choice to trust Dumbledore despite everything."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "split": true
+  }
+}

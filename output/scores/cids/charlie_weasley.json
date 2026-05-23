@@ -1,0 +1,53 @@
+{
+  "character": "Charlie Weasley",
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 14.5,
+  "cids": 565.5,
+  "damage_per_exposure": 125.7,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 622.1,
+  "main_damage_causes": [
+    "Charlie's only plot-functional moment (resolving the Norbert crisis) is reassigned to Dumbledore, eliminating his sole demonstration of competence and agency in the first film",
+    "His richest characterization scene across the entire series (dragon enclosure in Goblet of Fire) is cut entirely, leaving him as a name only",
+    "Across all three films he appears in the corpus, Charlie is consistently reduced to an expository reference rather than a present, speaking character, preventing any personality from registering with film audiences"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film 1 - Ron mentions Charlie offhandedly to explain his absence at Christmas",
+      "book_baseline": "Charlie is established as a legendary Quidditch captain who 'could have played for England,' a benchmark Harry is measured against, and someone Hagrid specifically asks after with warmth. His Romania work is a recurring point of pride and family identity.",
+      "film_portrayal": "Charlie is mentioned only as the reason Ron's parents are away ('my parents decided to go to Romania to visit my brother, Charlie. He's studying dragons there') - a throwaway plot device to explain why Ron stays at Hogwarts, with no personality, warmth, or characterization attached.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The mention is purely functional. The book uses this same beat to reinforce Charlie's identity and Ron's family pride; the film strips it to logistics."
+    },
+    {
+      "scene": "Film 1 - Norbert subplot: Charlie's role reduced to an offscreen destination",
+      "book_baseline": "Charlie is the active solution to the Norbert crisis. Harry proposes sending Norbert to Charlie specifically, Charlie writes back with a detailed plan, his friends fly in on broomsticks at midnight, and Harry and Hermione personally hand Norbert over. Charlie's network, competence, and care are all demonstrated. He is a named, present participant in the plot.",
+      "film_portrayal": "Hagrid simply states 'Dumbledore sent him off to Romania to live in a colony.' Charlie is not named in this context, not contacted, not involved. The entire correspondence arc, the midnight tower handoff, and Charlie's friends are cut. Charlie has zero agency or presence in resolving the subplot.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the books this is Charlie's most substantial plot function in Philosopher's Stone - he is the competent, connected older brother whose expertise solves a real problem. The film reassigns the resolution to Dumbledore as an offscreen administrative act, erasing Charlie's only meaningful action in the story and replacing his characterization (dragon expert with useful contacts) with a blank."
+    },
+    {
+      "scene": "Film 4 - Hagrid mentions Charlie brought the dragons but Charlie does not appear",
+      "book_baseline": "Charlie is physically present at the dragon enclosure. He briefs Hagrid on the breeds, expresses genuine concern for Harry ('I didn't dare tell Mum... she's already having kittens'), jokes with Hagrid ('Really romantic date, Hagrid'), warns about the Horntail's danger, and after the task rushes to tell Harry he tied for first and that he's sending their mother an owl. He is warm, competent, protective, and funny across multiple exchanges.",
+      "film_portrayal": "Charlie is mentioned by Hagrid ('His brother Charlie helped to bring him over from Romania') but does not appear on screen. All his dialogue, his concern for Harry, his humor, his post-task congratulations, and his emotional connection to the family are absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is Charlie's richest scene in the entire book series. His physical presence, professional authority over the dragons, and personal warmth toward Harry establish him as a fully realized character. The film reduces him to a name dropped in exposition, losing the relationship dimension (Charlie worrying about Harry like a surrogate older brother) and his only extended characterization across all seven books."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

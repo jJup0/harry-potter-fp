@@ -1,0 +1,80 @@
+{
+  "character": "Angelina Johnson",
+  "fp_score": 40.0,
+  "infidelity_score": 60.0,
+  "weighted_infidelity_exposure": 18.5,
+  "cids": 1110.0,
+  "damage_per_exposure": 170.8,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1387.5,
+  "main_damage_causes": [
+    "Complete omission of the OotP captaincy arc, which is the only extended characterization Angelina receives across the entire book series",
+    "Consistent reduction to a silent background extra in Quiddting scenes, preventing any personality or voice from being established in earlier films",
+    "Loss of the GoF Triwizard entry scene, which is the only non-Quidditch moment showing her ambition and social warmth"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - First Quidditch match (PS/SS)",
+      "book_baseline": "Angelina is introduced as a skilled, assertive Chaser who scores and is celebrated. Lee Jordan's commentary highlights her as 'an excellent Chaser' with personality. She is a named, active presence with agency on the pitch.",
+      "film_portrayal": "Angelina scores twice and is visible, but is entirely silent and undifferentiated from the other Chasers. She has no lines, no personality, and no distinct presence beyond being a body on a broom.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this match to establish Angelina as a confident, capable player with a distinct identity. The film reduces her to a background extra, missing the first opportunity to characterize her."
+    },
+    {
+      "scene": "Film Scene 3 - Quidditch match in storm (PoA)",
+      "book_baseline": "In the book's storm match, Angelina is an active Chaser competing throughout. She is not struck by lightning; the Dementors cause Harry to fall. The match is a team effort with Angelina as a functioning participant.",
+      "film_portrayal": "A lightning bolt strikes Angelina's broom, setting it on fire, and she plummets to the pitch - used as a dramatic visual beat with no follow-up. She is treated as a prop for spectacle rather than a character.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Angelina is used as a disposable visual casualty to heighten storm drama. The book never has this happen to her. It reduces her to a stunt object and removes her from the match entirely with no narrative acknowledgment."
+    },
+    {
+      "scene": "Film Scene 4 - Yule Ball ask (GoF)",
+      "book_baseline": "Fred calls across the common room to Angelina. She gives him 'an appraising sort of look,' says 'All right, then' with a grin, and turns back to her conversation - confident, unbothered, and in control of the exchange. Her reaction shows self-possession and dry humor.",
+      "film_portrayal": "Fred throws a note at Angelina. She reads it, laughs, and agrees. The exchange is played as a quick comedic beat. Her appraising look and composed self-possession are absent; she is a punchline to Fred's joke rather than an equal participant.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's version establishes Angelina as someone who evaluates Fred on her own terms and agrees from a position of confidence. The film's note-throwing gag strips her of that composure and makes her reactive rather than self-possessed."
+    },
+    {
+      "scene": "Film - Entire OotP arc absent",
+      "book_baseline": "In OotP, Angelina is Gryffindor Quidditch Captain - a major recurring role. She manages the team with authority, confronts Harry repeatedly over detentions, shows stress and vulnerability, apologizes when she's been too hard, fights Umbridge's ban, recruits replacement players, and leads the team through a difficult season. This is her most substantial characterization across the entire series.",
+      "film_portrayal": "Angelina has no named presence or lines in the OotP film. Her captaincy, her relationship with Harry, her leadership arc, and her emotional journey through the Umbridge year are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the core of Angelina's character. Her OotP arc shows her as a complex leader - demanding, fair, stressed, self-aware, and resilient. Losing it entirely means the film never develops her beyond a background Chaser, eliminating her only substantial narrative function and all meaningful characterization."
+    },
+    {
+      "scene": "Film - GoF Triwizard entry absent",
+      "book_baseline": "Angelina enters her name in the Goblet of Fire, arrives in the Great Hall grinning with pride, announces it to Harry, Ron, and Hermione, and receives warm support from Hermione and Fred. When Harry is chosen instead, she swoops down on him with a mix of disappointment and Gryffindor loyalty. This shows her ambition, courage, and social warmth.",
+      "film_portrayal": "Angelina's Triwizard entry is not depicted. She has no scene around the Goblet, no announcement, no reaction to Harry being chosen.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is one of the few moments in the books where Angelina's ambition and personality are shown outside Quidditch. Its absence removes a dimension of her character and a moment of genuine warmth between her and the main trio."
+    },
+    {
+      "scene": "Film - Battle of Hogwarts appearance absent",
+      "book_baseline": "Angelina is present in the Room of Requirement during the Battle of Hogwarts, listed among returning allies including Oliver Wood, Katie Bell, and Alicia Spinnet - confirming she fought for Hogwarts.",
+      "film_portrayal": "Angelina has no identifiable presence in the Battle of Hogwarts sequence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor absence, but it removes the closing confirmation of her loyalty and courage. Low weight given the crowded ensemble nature of the battle."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

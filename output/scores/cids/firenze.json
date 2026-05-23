@@ -1,0 +1,71 @@
+{
+  "character": "Firenze",
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 14.5,
+  "cids": 565.5,
+  "damage_per_exposure": 113.1,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 706.9,
+  "main_damage_causes": [
+    "Removal of the Bane/Ronan confrontation eliminates Firenze's defining moral stance - choosing conscience over centaur prophecy at personal cost - which is the foundation of his entire arc across the series",
+    "Absence of Harry riding Firenze severs the concrete cause of his banishment, making his OotP situation feel unmotivated for film-only audiences",
+    "Compression of the forest dialogue into exposition delivery strips Firenze of his distinctive philosophical voice and epistemic humility, reducing him from a principled individualist to a functional rescue figure"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS film - Forest rescue scene: Firenze's introduction and warning to Bane",
+      "book_baseline": "Firenze confronts Bane and Ronan directly, rearing in anger and declaring 'I set myself against what is lurking in this forest, Bane, yes, with humans alongside me if I must.' He makes a principled, defiant moral stand against centaur passivity, explicitly choosing conscience over prophecy.",
+      "film_portrayal": "The confrontation with Bane and Ronan is entirely absent. Firenze simply rescues Harry and delivers exposition with no conflict, no defiance, no moral cost. He faces no opposition from his herd.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The confrontation is the defining moment of Firenze's character in book 1 - it establishes him as a centaur willing to break with his kind on moral grounds, at personal cost. Without it, his later banishment in OotP has no emotional foundation, and his core trait (conscience over prophecy) is invisible."
+    },
+    {
+      "scene": "PS/SS film - Forest scene: Firenze's pedagogical explanation of unicorn blood",
+      "book_baseline": "Firenze leads Harry through a careful, multi-step Socratic dialogue: unicorn blood, the cursed half-life, the logic of needing the Stone as a bridge to immortality. He asks questions, waits for Harry to reason it out, and speaks with measured gravity. He also explicitly names the moral horror: 'you have slain something pure and defenseless.'",
+      "film_portrayal": "Firenze delivers the unicorn blood explanation as a compressed monologue with minimal back-and-forth. The Socratic structure is flattened. The moral weight ('monstrous thing') is reduced. Harry then leaps to the Voldemort/Stone conclusion himself almost immediately, with Firenze only prompting once.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Firenze is a careful, philosophically-minded teacher who draws out understanding rather than lecturing. The film collapses this into functional exposition delivery, losing his distinctive voice and the moral gravity he attaches to the unicorn's death."
+    },
+    {
+      "scene": "PS/SS film - Forest scene: Firenze's parting words",
+      "book_baseline": "Firenze's farewell includes: 'The planets have been read wrongly before now, even by centaurs. I hope this is one of those times.' This is a crucial character beat - a centaur expressing epistemic humility about his own people's certainty, and genuine hope for Harry.",
+      "film_portrayal": "Firenze says only 'Harry Potter, this is where I leave you. You're safe now. Good luck.' The reflection on fallible prophecy is entirely absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This line is the seed of Firenze's entire OotP teaching philosophy - that centaur knowledge is imperfect and humility is required. Losing it removes a defining intellectual trait and makes his later classroom scenes feel disconnected from his PS/SS introduction."
+    },
+    {
+      "scene": "PS/SS film - Forest scene: Firenze's name and self-introduction",
+      "book_baseline": "Firenze introduces himself by name unprompted, lowering himself so Harry can mount, establishing a dignified, considerate character who takes initiative in the relationship.",
+      "film_portrayal": "Firenze is not named in the forest scene at all during the encounter. He is only identified by Hagrid's greeting ('Hello there, Firenze') after the fact. He does not introduce himself to Harry.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but the self-introduction establishes Firenze as an individual with dignity and agency in the relationship with Harry, not merely a rescuing creature. The film reduces him to a named background figure identified by Hagrid."
+    },
+    {
+      "scene": "PS/SS film - Forest scene: Harry riding Firenze",
+      "book_baseline": "Harry rides on Firenze's back through the forest - a significant act that Bane condemns as degrading ('Have you no shame? Are you a common mule?'). Firenze accepts this cost knowingly. The physical act of carrying Harry is part of his sacrifice.",
+      "film_portrayal": "Harry does not ride Firenze. Firenze simply stands between Harry and the threat, then Harry walks away. The riding - and all its implications - is absent.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The riding is the specific act that gets Firenze banished and is the source of Bane's fury across multiple books. Without it, the later banishment (referenced in OotP) loses its concrete cause, and Firenze's willingness to accept humiliation for Harry's sake - a key dimension of his sacrifice - disappears entirely."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

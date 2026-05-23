@@ -1,0 +1,89 @@
+{
+  "character": "The Sorting Hat",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 26.5,
+  "cids": 742.0,
+  "damage_per_exposure": 82.4,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 927.5,
+  "main_damage_causes": [
+    "Elimination of the hat's sung voice removes its established character and the series' recurring use of its songs as thematic commentary, most critically the Order of the Phoenix warning song which carries direct saga-level meaning about unity.",
+    "Invention of the Chamber of Secrets office scene externalises Harry's Slytherin identity crisis prematurely, undermining the psychological depth of his private conflict and weakening the payoff of the Dumbledore conversation that is the book's thematic climax.",
+    "Reduction of the Deathly Hallows burning-hat sequence to a low-stakes rubble discovery strips Neville's sword-drawing of its symbolic power as an act of courage under Voldemort's direct persecution, losing the structural echo of Harry's own desperate plea in the Chamber."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film 1 (Philosopher's Stone) - Sorting Hat song omitted",
+      "book_baseline": "The hat sings a full original song introducing itself, describing all four houses, and demonstrating its wit and personality as a sentient magical artifact with genuine character.",
+      "film_portrayal": "The hat speaks only brief functional lines during sorting. No song is performed. The hat's wit, self-awareness, and poetic voice are entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The song establishes the hat as a character with genuine wit and charm, not merely a prop. Its absence flattens the hat into a sorting mechanism and removes the moment of communal wonder the books use to introduce Hogwarts culture."
+    },
+    {
+      "scene": "Film 1 (Philosopher's Stone) - Harry's internal experience under the hat",
+      "book_baseline": "Harry grips the stool in anxiety, the hat speaks privately in his ear with nuance ('Hmm, difficult'), and Harry actively thinks 'Not Slytherin' as a private desperate plea born of fear and self-doubt.",
+      "film_portrayal": "Harry whispers 'Not Slytherin, not Slytherin' audibly, making his plea semi-public rather than an internal moral moment. The hat's private deliberation is compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's version is an intimate internal moment of agency and self-definition. Making it audible slightly externalises what should be a private moral choice, though the core beat survives."
+    },
+    {
+      "scene": "Film 2 (Chamber of Secrets) - Sorting Hat scene in Dumbledore's office",
+      "book_baseline": "Harry hesitates, wonders privately whether to try the hat on again, and the scene is entirely internal and unspoken. The hat is simply present on the shelf as a silent symbol.",
+      "film_portrayal": "Harry actually puts the hat on and it speaks to him directly, confirming 'you would have done well in Slytherin' and Harry angrily throws it off shouting 'You're wrong!' This is an invented scene.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book keeps Harry's Slytherin anxiety as a private, festering internal conflict that pays off in the Dumbledore conversation later. The film externalises and partially resolves it early, reducing the weight of the later Dumbledore dialogue and making Harry's self-doubt less psychologically complex."
+    },
+    {
+      "scene": "Film 2 (Chamber of Secrets) - Chamber climax, hat delivers sword",
+      "book_baseline": "The basilisk sweeps the hat into Harry's arms; Harry desperately rams it on his head and silently pleads 'Help me - help me - please help me' while eyes screwed shut. The sword then appears inside it. This is a moment of pure desperate faith.",
+      "film_portrayal": "Fawkes drops the hat at Harry's feet. Harry sees the sword glinting inside it from a distance atop the statue and retrieves it in a more action-oriented, visually confident sequence. The private desperate prayer to the hat is absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's version makes the hat an active respondent to Harry's plea - a moment of Dumbledore's trust made manifest. Harry's helpless, eyes-shut prayer is a key beat of vulnerability and faith. The film turns it into a visual action discovery, losing the emotional and thematic resonance of the hat as a conduit of Dumbledore's loyalty."
+    },
+    {
+      "scene": "Film 2 (Chamber of Secrets) - Post-Chamber Dumbledore conversation, Sorting Hat's role in Harry's identity",
+      "book_baseline": "Harry raises the Sorting Hat's consideration of Slytherin as a genuine existential crisis ('So I should be in Slytherin'). Dumbledore's response - that the hat put him in Gryffindor because Harry asked - is the thematic climax of the book's identity arc.",
+      "film_portrayal": "The conversation is present and largely faithful, but because the film already had Harry confront the hat directly in Dumbledore's office earlier, the revelation carries less weight. The prior invented scene has pre-empted the emotional stakes.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The earlier invented hat scene bleeds tension from this crucial moment. In the book, this is the first time Harry fully articulates his Slytherin fear to Dumbledore; in the film it feels like a follow-up rather than a revelation."
+    },
+    {
+      "scene": "Film 5 (Order of the Phoenix) - Sorting Hat warning song omitted",
+      "book_baseline": "The hat sings an unprecedented political warning song about the founders' division, urging unity against external threat. Students and teachers are visibly unsettled. Hermione later explicitly invokes it as Dumbledore's message. It is the hat's most significant narrative function across the series.",
+      "film_portrayal": "Ron briefly summarises that 'the Sorting Hat urged us all to be brave and strong in these troubled times' in a dismissive throwaway line ('easy for it to say - it's a hat'). The song itself is entirely absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the hat's highest-stakes moment in the entire series. The warning song establishes the hat as a prophetic, politically aware voice and directly supports the saga's theme of unity versus division. Reducing it to Ron's sarcastic summary strips it of all weight and removes a key piece of Dumbledore's indirect communication to the school during his most constrained year."
+    },
+    {
+      "scene": "Film 7/8 (Deathly Hallows) - Neville and the Sorting Hat at the Battle of Hogwarts",
+      "book_baseline": "Voldemort forces the hat onto Neville's head and sets it on fire as a public punishment and demonstration of power. Neville pulls the sword from the burning hat - an act of courage under literal fire that mirrors Harry's act in CoS and fulfils the hat's Gryffindor promise.",
+      "film_portrayal": "Neville finds the hat in the rubble after the battle, puts it on casually, hears a brief whisper of encouragement, then later pulls the sword from it in the confrontation with Voldemort. The burning is absent; the hat is not weaponised against Neville by Voldemort.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's version is structurally essential: Voldemort's act of burning the hat is his attempt to end Sorting and erase house identity, and Neville pulling the sword from the flames is a direct act of defiance that proves the hat's Gryffindor judgment correct under maximum duress. The film's version loses the symbolic stakes entirely - the hat becomes a convenient prop rather than a site of ideological conflict."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

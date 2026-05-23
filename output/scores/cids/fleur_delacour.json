@@ -1,0 +1,152 @@
+{
+  "character": "Fleur Delacour",
+  "fp_score": 55.0,
+  "infidelity_score": 45.0,
+  "weighted_infidelity_exposure": 48.0,
+  "cids": 2160.0,
+  "damage_per_exposure": 120.0,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 3240.0,
+  "main_damage_causes": [
+    "Complete omission of the hospital wing scene (HBP) - Fleur's defining moment of depth, courage, and vindication is never shown, meaning the film audience never understands her as anything other than a beautiful, slightly irritating presence",
+    "Systematic reduction of Fleur to visual spectacle across GoF - her first task attempt, her wand weighing, her pre-task courage, her contemptuous reaction to Harry, and her farewell are all cut, collapsing her from a vivid antagonist-to-ally arc into a decorative background figure",
+    "Absence of the HBP Burrow material removes all context for the Weasley family's hostility toward her and all setup for her vindication, making her arc in DH incomprehensible to film-only audiences"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "GoF Film - Champion selection / Fleur's reaction to Harry being chosen",
+      "book_baseline": "Fleur reacts with contempt and dismissiveness when Harry is named fourth champion, calling him 'zis little boy' and stamping her foot in outrage, showing her arrogance but also her passionate investment in the tournament's fairness. She argues fiercely with Bagman.",
+      "film_portrayal": "Fleur is given no reaction scene at all. She simply walks into the chamber after being announced champion. Her contemptuous dismissal of Harry, her argument with Bagman, and her 'little boy' remark are entirely absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's chamber scene establishes Fleur's arrogance, her sharp tongue, and her fierce competitive pride early on. Losing it removes the foundation for her later arc of softening toward Harry. The audience never sees the version of Fleur Harry has to overcome his prejudice against."
+    },
+    {
+      "scene": "GoF Film - Wand weighing / Ollivander scene",
+      "book_baseline": "Fleur is examined first by Ollivander, reveals her wand contains a veela hair from her grandmother, confirming her part-veela heritage. She gives Harry a patronizing look when he tries to clean his wand. She glides back to her seat smiling at Cedric.",
+      "film_portrayal": "The wand weighing scene is entirely absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The scene establishes Fleur's veela heritage explicitly (not just implied by her beauty), her composed superiority, and a small moment of condescension toward Harry. Its absence means the film never confirms her part-veela nature through her own voice, reducing her to a visual effect rather than a character with a defined magical identity."
+    },
+    {
+      "scene": "GoF Film - Pre-task tent / Fleur's composure and courage",
+      "book_baseline": "Fleur is pale and clammy in the tent, clearly frightened, but leaves with her head held high clutching her wand. Harry feels warmth toward her for this display of courage under fear. She shows determined resignation having already known about the dragons.",
+      "film_portrayal": "The pre-task tent scene is compressed. Fleur's specific emotional state - the fear she masters, the head-held-high exit - is not shown. There is no moment of Harry feeling warmth toward her.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is the first crack in Harry's (and the audience's) negative perception of Fleur - seeing her frightened but brave. Losing it means the relationship shift after the lake task has no prior groundwork, making Fleur's arc from antagonist-adjacent to ally feel unearned."
+    },
+    {
+      "scene": "GoF Film - First task / Fleur's performance",
+      "book_baseline": "Fleur attempts a charm to put her dragon into a trance, partially succeeds, but her skirt catches fire when the dragon snores. She extinguishes it with water from her wand. Ron describes it admiringly as a 'sort of charm.' She scores well enough to continue.",
+      "film_portrayal": "Fleur's first task attempt is entirely skipped. Dumbledore announces she 'has unfortunately been forced to retire' with no depiction of her attempt at all.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film denies Fleur any active screen presence in the first task. The book shows her as a skilled, inventive witch who nearly succeeds with a sophisticated approach. The film reduces her to an off-screen failure announced by Dumbledore, stripping her of agency and competence in the most visible showcase of the tournament."
+    },
+    {
+      "scene": "GoF Film - Second task / Fleur's failure and rescue of Gabrielle",
+      "book_baseline": "Fleur is attacked by grindylows and fails to reach Gabrielle. She is shown hysterical on the bank, fighting Madame Maxime to get back in the water, screaming for Gabrielle. When Harry surfaces with Gabrielle she is overcome with relief and gratitude, kisses Harry on both cheeks, then kisses Ron too.",
+      "film_portrayal": "Fleur is shown briefly trapped underwater screaming. On the surface, she helps pull Ron and Gabrielle from the water, kisses Harry and Ron in thanks. The hysterical mother-like desperation for Gabrielle is compressed but partially present.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film retains the emotional core of this beat reasonably well - Fleur's gratitude and the kisses are present. The loss is in the intensity of her desperation for Gabrielle and her self-reproach ('I deserved zero'), which humanizes her. Minor damage only."
+    },
+    {
+      "scene": "GoF Film - Yule Ball / Fleur criticizing Hogwarts decorations",
+      "book_baseline": "Fleur spends the ball criticizing Hogwarts decorations to Roger Davies, comparing everything unfavorably to Beauxbatons, slapping the table impatiently. Davies is too dazzled to care. This shows her snobbery but also her passionate pride in her own school.",
+      "film_portrayal": "Fleur is shown at the ball in a beautiful gown, but her extended monologue criticizing the decorations and her table-slapping impatience are absent. She is purely decorative.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The ball scene is one of the book's richest Fleur moments - she is insufferable but vivid, with a specific voice and opinions. The film makes her a beautiful backdrop. This contributes to the pattern of the film using Fleur as visual spectacle rather than character."
+    },
+    {
+      "scene": "GoF Film - Third task / Fleur's scream and fate in the maze",
+      "book_baseline": "Harry hears Fleur scream in the maze, worries about her, wonders if she sent up red sparks. He thinks 'one champion down' with complicated feelings. It is later revealed Moody stunned her. Her fate is a source of genuine tension and moral complexity for Harry.",
+      "film_portrayal": "Fleur is shown running scared in the maze, screaming, and is seen unconscious on the ground by Viktor. Harry runs to her but she is swallowed by the undergrowth. Harry sends up red sparks on her behalf.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film actually shows Fleur's maze fate more visually than the book does, though it removes Harry's internal moral conflict about being relieved a competitor is down. Minor damage - the scene functions adequately."
+    },
+    {
+      "scene": "GoF Film - End of year farewell",
+      "book_baseline": "Fleur seeks Harry out to say goodbye, tells him she hopes to get a job at Hogwarts to improve her English, says 'It 'az been a pleasure meeting you.' Harry's spirits lift watching her go. This is a warm, gracious farewell showing genuine growth in their relationship.",
+      "film_portrayal": "Fleur says 'Au revoir, Ron' as she leaves, with no farewell to Harry. The moment of her seeking Harry out, expressing warmth and future plans, is absent.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's farewell is the culmination of Fleur and Harry's arc across GoF - from her dismissing him as a 'little boy' to genuinely valuing him. The film replaces this with a throwaway line to Ron. The relationship arc has no closing beat, and the audience has no reason to understand why Fleur would later be so warm to Harry at the Burrow."
+    },
+    {
+      "scene": "HBP Film - Fleur at the Burrow / her presence and personality",
+      "book_baseline": "Fleur is a constant, vivid, slightly maddening presence at the Burrow - complaining about food, criticizing Tonks, talking about wedding plans, imitating Celestina Warbeck, feeding Bill bits of turkey. She is self-absorbed but not malicious, and the Weasley women's hostility toward her is a running comic thread.",
+      "film_portrayal": "HBP the film largely omits the Burrow sequences where Fleur is present. Her extended stay, her personality clashes with Mrs. Weasley and Ginny, and the 'Phlegm' dynamic are absent.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The HBP Burrow material is where Fleur is most fully herself - irritating, vain, but also genuinely loving toward Bill. Its absence means the audience has no context for why the Weasley women dislike her, and no setup for her hospital wing vindication scene, which is the most important Fleur scene in the entire saga."
+    },
+    {
+      "scene": "HBP Film - Hospital wing / Fleur's declaration of love for Bill",
+      "book_baseline": "After Bill is mauled by Greyback, Mrs. Weasley implies the wedding may be off. Fleur erupts with passionate fury: 'What do I care how he looks? I am good-looking enough for both of us!' She pushes Mrs. Weasley aside to tend Bill herself. Mrs. Weasley immediately accepts her. This is Fleur's defining moment - revealing genuine depth beneath the vanity.",
+      "film_portrayal": "This scene does not appear in HBP the film. Bill's mauling happens off-screen and the hospital wing confrontation is entirely absent.",
+      "damage_type": "arc | agency/function",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most important Fleur scene in the entire book series. It recontextualizes everything - her vanity is real but her love is deeper. It resolves the Weasley family's hostility toward her, it parallels the Tonks/Lupin subplot, and it establishes her as a woman of genuine courage and loyalty. Its complete absence is the primary structural damage to Fleur's adaptation. The audience of the films never understands who Fleur really is."
+    },
+    {
+      "scene": "DH Film Part 1 - Seven Potters / Fleur's 'I'm 'ideous' line",
+      "book_baseline": "Fleur checks herself in the microwave door after taking Polyjuice Potion and says 'Bill, don't look at me - I'm 'ideous.' This is a rare moment of self-deprecating humor, showing she can laugh at herself.",
+      "film_portrayal": "The line is present in the screenplay/film: 'Bill, look away -- I'm 'ideous.' This beat is retained.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This moment is actually faithfully adapted. No damage."
+    },
+    {
+      "scene": "DH Film Part 1 - After Mad-Eye's death / Fleur's accusation",
+      "book_baseline": "Fleur, tear tracks on her face, snaps at the group that someone must have been careless and let slip the date - she glares around daring anyone to contradict her. This shows her sharp analytical mind and her willingness to confront uncomfortable truths even in grief.",
+      "film_portrayal": "The post-battle debrief at the Burrow is present but Fleur's specific accusation and her challenging glare are not given to her. The dialogue is redistributed or absent.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book gives Fleur a moment of fierce, clear-eyed intelligence in a crisis. The film's version of this scene does not give her this voice, continuing the pattern of reducing her to a supportive presence rather than an active, opinionated participant."
+    },
+    {
+      "scene": "DH Film Part 1 - Shell Cottage / Fleur as caretaker and host",
+      "book_baseline": "Fleur is a constant, warm, slightly irritable presence at Shell Cottage - caring for Ollivander and Griphook, cooking, managing the overcrowded house, having a genuine conversation with Harry about Gabrielle, showing both her warmth and her dislike of the goblin.",
+      "film_portrayal": "Shell Cottage scenes are compressed. Fleur appears briefly, blocks Harry from seeing Griphook ('He's too weak'), and provides Hermione with a cloak. Her extended domestic presence, her conversation with Harry, and her emotional texture are largely absent.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Shell Cottage material is where Fleur's post-HBP character - warm, capable, fully integrated into the Weasley resistance - should be visible. The film reduces her to a functional gatekeeper. The conversation where she tells Harry 'you saved my sister's life, I do not forget' is lost, which is the clearest statement of her loyalty to Harry."
+    },
+    {
+      "scene": "DH Film Part 1 - Wedding scene / Fleur as bride",
+      "book_baseline": "Fleur walks up the aisle emitting a silvery glow that beautifies everyone around her. The ceremony is described with warmth. Fleur is the radiant center of a joyful scene.",
+      "film_portrayal": "The wedding is shown and Fleur is present as bride, dancing with Bill. The scene functions adequately as a backdrop to Harry's conversation with Doge and Muriel.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The wedding is present and Fleur is visible, though she has no lines or individual focus. Given the film's overall treatment of her, this is consistent but not an additional major damage point beyond what is already scored."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

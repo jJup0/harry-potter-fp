@@ -1,0 +1,80 @@
+{
+  "character": "Moaning Myrtle",
+  "fp_score": 79.0,
+  "infidelity_score": 21.0,
+  "weighted_infidelity_exposure": 15.5,
+  "cids": 325.5,
+  "damage_per_exposure": 50.1,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 358.1,
+  "main_damage_causes": [
+    "Compression of the GoF prefects' bathroom scene eliminates Myrtle's most emotionally developed moment, reducing her from a genuinely pathetic and occasionally sharp character to a plot device",
+    "Removal of the Deathday Party introduction strips the social context (Peeves's cruelty, Hermione's guilt) that establishes why Myrtle is sympathetic rather than merely comic",
+    "Consistent prioritisation of Myrtle's flirtatious/comic function over her loneliness and self-dramatising grief flattens her into a one-note running joke"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Myrtle's introduction in the bathroom",
+      "book_baseline": "Myrtle is introduced gradually through Peeves taunting her at the Deathday Party, then later in her bathroom. Her glum, sulky, self-pitying personality is established across multiple interactions. She is squat, lank-haired, thick-spectacled, and deeply sensitive about being mocked.",
+      "film_portrayal": "Myrtle's entire introduction is compressed into a single jump-scare gag: she races out of the wall, delivers her own insult list ('fat, ugly, miserable, moping, moaning Myrtle'), sobs, and dives into the toilet. The Deathday Party scene is cut entirely, removing Peeves's cruelty and Hermione's embarrassment as context.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's introduction layers Myrtle's victimhood through Peeves's active cruelty and Hermione's guilt. The film collapses this into a one-note comedy beat, losing the social dynamic that makes Myrtle sympathetic rather than merely comic."
+    },
+    {
+      "scene": "CoS Film - Myrtle recounting her death (bathroom/Chamber entrance scene)",
+      "book_baseline": "Myrtle's whole aspect changes when Harry asks how she died - she looks as though she has never been asked such a flattering question. She recounts it 'with relish' and 'swelled importantly', showing she takes genuine pride and pleasure in the drama of her own death. She also mentions haunting Olive Hornby and being forced back to the toilet by the Ministry.",
+      "film_portrayal": "Myrtle delivers the death story with a flirty smile toward Harry ('Hello, Harry. What do you want?') and is marked as '(flattered)' and '(smiles, flirty)'. The relish and self-importance are present but filtered through overt romantic interest in Harry rather than her own theatrical self-regard.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor shift - the flirtatiousness is present in the books too, but the film front-loads it here in a way that reduces her complex self-dramatising pride to simple crush behaviour."
+    },
+    {
+      "scene": "CoS Film - Myrtle and the diary discovery",
+      "book_baseline": "When Harry finds the diary, Myrtle is crying loudly about the book being thrown at her, floods the bathroom, and delivers her 'Let's all throw books at Myrtle' speech with wounded indignation. Ron's 'fifty points if you can get it through her nose' line is said quietly and she doesn't hear it. Harry and Ron then leave while she continues wailing.",
+      "film_portrayal": "The scene plays largely faithfully, but Myrtle explicitly shouts 'I HEARD THAT!' after Ron's nose comment, then Harry and Ron dash out. This makes her slightly more alert and reactive rather than obliviously self-absorbed in her grief.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but the book's version - where she doesn't hear the joke - reinforces her self-absorption. The film version makes her more conventionally reactive, slightly softening her comic obliviousness."
+    },
+    {
+      "scene": "GoF Film - Prefects' bathroom scene (entire interaction)",
+      "book_baseline": "Myrtle spies on Harry from a tap, is caught, and engages in an extended, tonally rich scene: she is morose about not being visited, slyly admits to watching Cedric, bosses Harry around with evident enjoyment ('who seemed to be thoroughly enjoying bossing him around'), becomes genuinely distressed when Harry mentions breathing ('Tactless!'), and delivers a long, pathetic monologue about nobody missing her when she died and haunting Olive Hornby. She asks if Harry will visit again, knowing he won't. The scene establishes her as lonely, self-pitying, occasionally sharp, and genuinely sad.",
+      "film_portrayal": "The film version is heavily truncated. Myrtle appears, gives the egg hint, mentions Cedric ('the handsome one'), helps Harry decode the clue, and the scene ends. Her moroseness about not being visited, the 'Tactless!' moment about breathing, the Olive Hornby monologue, and her plaintive farewell are all cut. She functions purely as an exposition delivery mechanism.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's bathroom scene is Myrtle's most fully realised character moment across the entire saga - it gives her genuine pathos, wit, and a window into her lonely afterlife. The film strips this to pure plot function, eliminating the emotional texture that makes her more than a comic ghost. Her relationship with Harry (she genuinely likes him; he feels guilty but won't visit) is lost entirely."
+    },
+    {
+      "scene": "GoF Film - Myrtle underwater during the second task",
+      "book_baseline": "Myrtle appears underwater during the second task, points Harry toward the merpeople ('You want to try over there!'), and notes she won't go closer because they chase her. This is a small but characterful moment showing she inhabits the lake as well as the pipes, and that she actively helps Harry.",
+      "film_portrayal": "This moment is absent from the film corpus provided. The second task proceeds without any Myrtle appearance underwater.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss - a small beat of Myrtle being genuinely useful and showing the breadth of her ghostly existence. Its absence is low-impact but contributes to the overall thinning of her presence."
+    },
+    {
+      "scene": "HBP Film - Malfoy crying in the bathroom scene",
+      "book_baseline": "Myrtle is actively comforting Malfoy ('Don't... tell me what's wrong... I can help you...'). During the duel she screams 'No! No! Stop it! Stop! STOP!' and after Sectumsempra she wails 'MURDER! MURDER IN THE BATHROOM! MURDER!' with 'increasingly evident enjoyment' as Snape tends to Malfoy. Snape dismisses her with 'Go' and she swoops back into her toilet. Her enjoyment of the drama is noted explicitly.",
+      "film_portrayal": "The film corpus does not contain the HBP bathroom scene. Based on the book corpus entries 207-219, this scene exists in the book with Myrtle playing a meaningful role as Malfoy's unlikely confidante and dramatic witness.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's HBP bathroom scene is Myrtle's most surprising characterisation moment - she is genuinely comforting to Malfoy, establishing an unexpected bond between two lonely, bullied figures. If absent or reduced in the film, this relationship dynamic and the complexity it adds to both characters is lost. Confidence is lower here as the HBP film content is not in the provided corpus."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

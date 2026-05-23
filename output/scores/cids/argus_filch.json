@@ -1,0 +1,161 @@
+{
+  "character": "Argus Filch",
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 33.5,
+  "cids": 871.0,
+  "damage_per_exposure": 54.4,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 958.1,
+  "main_damage_causes": [
+    "Removal of the Book 1 trophy room chase sequence, which is the single most important scene establishing Filch as a competent, menacing antagonist who knows the castle and actively hunts students",
+    "Compression and relocation of the Kwikspell discovery strips away the primary humanizing moment for Filch, reducing him from a tragic figure whose cruelty stems from shame and powerlessness to a simple comic villain",
+    "Absence of the GoF staircase/golden egg scene and the OotP whipping-form scene removes the two richest later characterizations, leaving Filch as a background presence rather than a developed recurring character"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film - Restricted Section night scene",
+      "book_baseline": "Filch is a constant, terrifying presence throughout Harry's night wanderings. He is described as knowing every secret passageway, popping up suddenly, and being genuinely feared. His pale wild eyes look straight through Harry in the invisibility cloak scene, creating real menace.",
+      "film_portrayal": "Filch appears briefly shouting 'Who's there? I know you're in there' in the library, then is used as a comic device - he arrives carrying the broken lantern and announces the clue to Snape and Quirrell ('it's still hot, that means there's a student out of bed'), inadvertently helping the plot rather than threatening it.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Filch is a genuine, wheezing, omnipresent threat who collaborates with Snape as an informant. The film reduces him to a bumbling announcer who delivers exposition. His menace is deflated."
+    },
+    {
+      "scene": "PS/SS Film - Trophy room/corridor chase (absent)",
+      "book_baseline": "The midnight duel setup leads to an extended, tense chase through the castle where Filch hunts the children through the trophy room and gallery of suits of armor, speaking to Mrs. Norris ('Sniff around, my sweet'), nearly catching them multiple times, and being tricked by Peeves. This is a defining scene for Filch as a credible antagonist.",
+      "film_portrayal": "The entire trophy room chase sequence is cut. The film goes directly from the staircase moving to the third-floor corridor encounter with Fluffy. Filch's role as active hunter is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "This is the single most extended Filch scene in Book 1, establishing him as a genuine threat who nearly catches the trio, knows the castle intimately, and works in tandem with Mrs. Norris. Its removal eliminates the most important demonstration of his competence and menace as an antagonist."
+    },
+    {
+      "scene": "PS/SS Film - Snape's office / Filch bandaging Snape's leg (absent)",
+      "book_baseline": "Harry stumbles upon Filch bandaging Snape's injured leg, establishing Filch's close alliance with Snape and his role as a trusted confidant within the staff power structure. This is a key moment of characterization showing Filch's loyalties.",
+      "film_portrayal": "This scene does not appear in the film. Snape's injury is not shown, and Filch's relationship with Snape as a trusted ally is never established.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book explicitly notes Filch is 'too friendly with Snape' and would never help the students. The film never establishes this alliance, losing a dimension of Filch's character and his place in the castle's internal politics."
+    },
+    {
+      "scene": "CoS Film - Kwikspell letter discovery (simplified)",
+      "book_baseline": "Harry discovers the Kwikspell envelope in Filch's office after an extended, humiliating scene where Filch is filling out a punishment form with relish, is interrupted by Peeves (orchestrated by Nearly Headless Nick), and returns to find Harry may have read his secret. Filch's reaction is one of the most humanizing moments in the books - he is mortified, his eyes popping, a tic in his cheek, stammering incoherently. Harry feels a flash of pity.",
+      "film_portrayal": "The Kwikspell letter is discovered in Snape's office when Harry spots it on the floor after the flying car incident. Filch simply snatches it back with embarrassment. The entire office scene, the punishment form, Peeves's intervention, and Filch's complex emotional breakdown are cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Kwikspell scene is the primary moment of humanization for Filch - it reveals his Squib status through his own vulnerability and shame, and generates genuine audience sympathy. The film's version strips this to a throwaway gag, losing the pathos that makes Filch more than a one-note villain and that contextualizes his bitterness toward students."
+    },
+    {
+      "scene": "CoS Film - Mrs. Norris Petrification scene",
+      "book_baseline": "Filch's reaction to finding Mrs. Norris is one of raw grief. He is described as slumped in a chair, face in his hands, dry racking sobs, unable to look at her. Harry, despite detesting Filch, feels sorry for him. Filch's accusation of Harry is driven by genuine anguish and his paranoid belief Harry saw the Kwikspell letter.",
+      "film_portrayal": "Filch's grief is present but compressed. The film retains his accusation and the Squib revelation but loses the extended description of his sobbing collapse. The moment of Harry feeling pity for Filch is not conveyed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to deepen Filch beyond caricature - his love for Mrs. Norris is his one genuine vulnerability. The film handles it adequately but loses the specific beat of Harry's sympathy, which is important for audience understanding of Filch's humanity."
+    },
+    {
+      "scene": "CoS Film - Filch's post-attack behavior (absent)",
+      "book_baseline": "After Mrs. Norris is Petrified, Filch paces the attack site obsessively, scrubs the message from the wall, and prowls the corridors red-eyed, lunging at students for 'breathing loudly' and 'looking happy.' This extended portrait of grief-driven cruelty is one of the richest characterizations of Filch in the series.",
+      "film_portrayal": "None of this post-attack behavior is shown. The film moves on from the Petrification scene without depicting Filch's obsessive mourning.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "This material establishes that Filch's cruelty is inseparable from his grief and powerlessness - he cannot protect the one thing he loves. Its absence keeps him as a flat antagonist rather than a tragic one."
+    },
+    {
+      "scene": "CoS Film - Detention in the Forbidden Forest",
+      "book_baseline": "Filch leads the students to detention with relish, leering about old punishments ('hang you by your wrists from the ceiling'), taunting Malfoy about werewolves with 'cracking glee,' and telling Hagrid not to be too friendly with the students as they're there to be punished. He departs with 'I'll be back at dawn, for what's left of them.'",
+      "film_portrayal": "Filch is present and delivers the 'pity they let the old punishments die' line about thumbscrews, which is a condensed version of the book's chains/ceiling speech. The werewolf taunting is retained. The characterization is broadly faithful but compressed.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. The film retains the essential sadistic relish but loses some of the specific texture of Filch's cruelty. Low damage."
+    },
+    {
+      "scene": "PoA Film - Hogsmeade visit / Filch checking names",
+      "book_baseline": "Filch is described checking names against a long list, peering suspiciously into every face. His role as gatekeeper and his suspicious nature toward Harry specifically (sniffing him for Dungbombs in Book 5) is a recurring characterization beat.",
+      "film_portrayal": "Filch appears briefly checking students through to Hogsmeade. This is faithful in function but minimal in characterization.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The function is preserved; the texture of his suspicion is thin but not damaging."
+    },
+    {
+      "scene": "PoA Film - Filch and the Marauder's Map (absent)",
+      "book_baseline": "The extended staircase scene where Filch climbs toward Harry (trapped in the trick step), clutching the golden egg, desperate to finally catch Peeves and get him expelled, is a rich comic-tense scene. Filch's plaintive argument with Snape about prioritizing Peeves over Snape's office, his reluctance to give up the egg to Moody, and his muttering to Mrs. Norris as he retreats ('Never mind, my sweet... we'll see Dumbledore in the morning') are all vivid characterization.",
+      "film_portrayal": "This scene does not appear in the PoA film (it is from GoF). Noting for accuracy: the Marauder's Map staircase scene is a GoF book scene.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 0,
+      "explanation": "N/A - this is a GoF book scene; assessed separately below."
+    },
+    {
+      "scene": "GoF Film - Filch and the golden egg staircase scene (absent)",
+      "book_baseline": "One of the longest and most characterful Filch scenes in the series. Filch climbs toward the trapped Harry, clutching the egg, arguing with Snape about Peeves, being overruled by Moody, and retreating muttering to Mrs. Norris. His obsessive desire to finally expel Peeves, his deference to authority, and his tenderness toward Mrs. Norris are all on display.",
+      "film_portrayal": "This scene does not appear in the GoF film. Filch's role in the film is reduced to brief background appearances.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The absence of this scene removes the most extended and nuanced Filch moment in the later books, where his obsessions, his relationship with Mrs. Norris, and his place in the castle hierarchy are all richly dramatized."
+    },
+    {
+      "scene": "OotP Film - Filch and Umbridge alliance",
+      "book_baseline": "Filch's alliance with Umbridge is one of his most important characterization arcs. He is described as being in 'an extremely good mood,' humming, telling Harry that things are changing, gleefully anticipating being allowed to whip students, fetching the approval-for-whipping form and kissing it, prowling with a horsewhip. His bowing and scraping to Umbridge ('not at all, ma'am, not at all, bowing as low as his rheumatism would permit') is both comic and sinister.",
+      "film_portrayal": "The film shows Filch hanging Educational Decrees and working alongside Umbridge, and includes the fireworks scene where he swats at them with a broom. The whipping form scene and his explicit gleeful monologue to Harry on the stairs are absent. His characterization as Umbridge's eager instrument is present but less developed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Filch-Umbridge alliance is one of the darkest and most revealing portraits of Filch - showing that his sadism is not just bluster but would become real cruelty given institutional permission. The film conveys the alliance but loses the specific horror of his eagerness for the whipping authorization."
+    },
+    {
+      "scene": "OotP Film - Filch and Fred/George's swamp (absent)",
+      "book_baseline": "After Fred and George's departure, Filch is described prowling with a horsewhip, gnashing his teeth as he is given the task of punting students across the swamp, fitting a new door after the Cleansweep holes. This is a rich comic-humiliating portrait of Filch being defeated by chaos.",
+      "film_portrayal": "The swamp is shown but Filch's specific role in managing it (punting students across) is not depicted.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of comic characterization."
+    },
+    {
+      "scene": "HBP Film - Filch and Malfoy at Slughorn's party",
+      "book_baseline": "Filch drags Malfoy to Slughorn by the ear, wheezing, jowls aquiver, with 'the maniacal light of mischief-detection in his bulging eyes.' He is outraged when Snape vouches for Malfoy and lets him go, his expression of 'outraged disappointment' noted. This is a brief but vivid cameo.",
+      "film_portrayal": "Filch brings Malfoy to Slughorn and the scene plays out with Filch in a rougher grip. Snape intervenes. The scene is broadly faithful though Filch's specific emotional reaction (outraged disappointment) is not emphasized.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The scene functions correctly; slight loss of Filch's specific emotional texture."
+    },
+    {
+      "scene": "DH Film - McGonagall/Filch 'find Peeves' scene",
+      "book_baseline": "During the Battle of Hogwarts, McGonagall tells Filch to find Peeves. Filch stammers 'P-Peeves?' as though he has never heard the name, despite having complained about him for a quarter century. McGonagall shouts 'Yes, Peeves, you fool!' This is a brief but perfectly observed comic beat that captures Filch's bewildered uselessness in a crisis.",
+      "film_portrayal": "This exchange does not appear in the DH films. Filch's role in the Battle of Hogwarts is reduced to the 'students out of bed' entrance and the dungeon scene with the Slytherins.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a characteristic comic beat, but the dungeon scene is a reasonable substitute for Filch's role in the battle."
+    },
+    {
+      "scene": "DH Film - Filch locking Slytherins in dungeon",
+      "book_baseline": "In the book, McGonagall instructs Filch to escort Slytherin House from the Hall, and separately the evacuation is overseen by Filch and Madam Pomfrey. Filch's role is functional and undramatic.",
+      "film_portrayal": "The film gives Filch a memorable scene where he locks the Slytherins in dungeon cages and says 'Nighty-night,' then watches in horror as a giant breaks through the ceiling. This is an invention not in the books.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This is actually a slight positive invention - it gives Filch a memorable moment consistent with his character (petty satisfaction at locking up students). It does not damage the adaptation; if anything it is one of the film's better uses of Filch. Scored minimally as it is a deviation from the source."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

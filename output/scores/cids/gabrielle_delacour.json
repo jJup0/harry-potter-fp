@@ -1,0 +1,53 @@
+{
+  "character": "Gabrielle Delacour",
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 4.5,
+  "cids": 121.5,
+  "damage_per_exposure": 48.6,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 133.7,
+  "main_damage_causes": [
+    "Gabrielle is reduced to a silent rescued object with no personality, lines, or recurring presence across the films",
+    "Her post-GoF characterization (hero-worship of Harry, bridesmaid role, presence at the Burrow) is entirely absent from HBP and DH adaptations",
+    "The brief cheek-kiss slightly misrepresents her book characterization as a shy, childlike admirer rather than an active minor character"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film GoF - Post-lake rescue: Gabrielle kisses Harry",
+      "book_baseline": "In the book, Fleur hugs Gabrielle in relief, then thanks Harry verbally. Gabrielle waves at Harry and he waves back grinning - a sweet, childlike interaction. No kiss occurs.",
+      "film_portrayal": "Gabrielle kisses Harry on the cheek unprompted before Fleur thanks him. The moment is played for light comedy/charm.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Gabrielle in the book is an 8-year-old who waves shyly. The kiss slightly ages and romanticizes her in a way inconsistent with the book's portrayal, though it is brief and minor."
+    },
+    {
+      "scene": "Film GoF - Gabrielle's absence from the Weasley wedding and pre-wedding scenes",
+      "book_baseline": "In HBP and DH, Gabrielle is a present, active character at the Burrow: she follows Fleur around helping with preparations, jabbers in French, is named as a bridesmaid alongside Ginny, wears a golden dress at the wedding, and flirtatiously bats her eyelashes at Harry. She is a small but distinct presence with personality.",
+      "film_portrayal": "Gabrielle does not appear in the HBP or DH films in any capacity. The wedding scenes omit her entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Her role as bridesmaid and her continued admiration of Harry (and Ginny's jealous throat-clearing) is a small but characterful thread. Its absence removes a recurring minor character beat and the payoff of her GoF rescue having lasting meaning within the Delacour family dynamic."
+    },
+    {
+      "scene": "Film DH - Fleur's line 'You saved her, even though she wasn't yours to save' moved to GoF post-lake scene",
+      "book_baseline": "In the book this line is spoken by Fleur, not Gabrielle, and Gabrielle is present as a distinct character. The moment is about Fleur's gratitude, not Gabrielle's agency.",
+      "film_portrayal": "The film collapses Gabrielle's entire characterization into a single wordless cameo (the cheek kiss) and a brief appearance. She has no lines, no personality, and no presence beyond being the rescued object.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Gabrielle in the books is not merely a passive hostage - she waves at Harry, hero-worships him, assists at the Burrow, and is a bridesmaid. The film reduces her entirely to a prop rescued from the lake, stripping all characterization."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

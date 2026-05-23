@@ -1,0 +1,125 @@
+{
+  "character": "Arthur Weasley",
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 28.0,
+  "cids": 728.0,
+  "damage_per_exposure": 60.7,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 800.8,
+  "main_damage_causes": [
+    "Systematic removal of Arthur's moments of physical and moral agency (the Flourish and Blotts brawl, the Death Eater fight at the World Cup) reduces him from a man with genuine fire to a purely gentle figure",
+    "Compression of expository and domestic scenes strips away the layered self-awareness and wit that distinguish book-Arthur - particularly the loophole dialogue and the Ministry office visit",
+    "The invented Burrow attack in HBP prioritises action spectacle over the quieter character-driven scenes the books use to develop Arthur's relationship with Harry and his professional dignity"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Flourish and Blotts confrontation",
+      "book_baseline": "Arthur physically throws himself at Lucius Malfoy, knocking him into a bookshelf, driven by genuine fury at Malfoy's insult to his family and the Grangers. He gets a cut lip. This is a rare, important moment of passionate, physical courage.",
+      "film_portrayal": "Arthur merely moves to hit Malfoy but is physically restrained by Hagrid before landing a blow. He backs away passively.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The book's brawl is one of Arthur's most defining moments - it shows he has genuine fire beneath his gentle exterior and will physically defend his family's honour. The film transfers the restraining function to Hagrid and removes Arthur's agency entirely, making him look weak rather than passionate."
+    },
+    {
+      "scene": "CoS Film - Burrow morning arrival / car conversation",
+      "book_baseline": "Arthur is asleep when the boys arrive, wakes guiltily, and has a layered exchange with Molly about the car - he tries to cite the legal loophole he himself wrote, showing his self-aware complicity and wit. He then eagerly asks Harry about the flying car before catching himself.",
+      "film_portrayal": "Arthur enters already awake and cheerful, the loophole dialogue and guilty dynamic with Molly is entirely cut. His reaction to the car is compressed to a single excited line before a token correction.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The loophole scene is key characterisation: it shows Arthur is not merely naive but knowingly bends rules for his passions, and that his relationship with Molly involves affectionate sparring. Cutting it flattens him to simple enthusiasm."
+    },
+    {
+      "scene": "PoA Film - Leaky Cauldron warning to Harry",
+      "book_baseline": "Harry overhears Arthur and Molly arguing privately about whether to warn Harry about Sirius Black. Arthur passionately argues Harry has a right to know and needs to be on guard, showing his respect for Harry's autonomy and his willingness to defy Ministry guidance.",
+      "film_portrayal": "Arthur pulls Harry aside for a brief, nervous, one-on-one warning. He struggles to say 'Voldemort', hedges repeatedly, and asks Harry to swear not to go looking for Black - framing it primarily as a plea for safety rather than a principled stand for Harry's right to information.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book version shows Arthur as principled and intellectually engaged, willing to argue with Molly on Harry's behalf. The film version makes him nervous and deferential, and his inability to say Voldemort (which the books never attribute to him consistently) makes him seem timid rather than thoughtful."
+    },
+    {
+      "scene": "GoF Film - Portkey / World Cup arrival",
+      "book_baseline": "Arthur is knowledgeable, organised, and quietly authoritative throughout the World Cup trip - explaining Portkeys in detail, managing the group, engaging Amos Diggory as a peer, and showing genuine expertise about Ministry logistics.",
+      "film_portrayal": "Arthur is reduced largely to cheerful exclamations ('Haven't the foggiest. Keep up!'), comic bewilderment, and enthusiasm. His competence and explanatory role is largely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The books establish Arthur as genuinely knowledgeable about the wizarding world even if naive about Muggles. The film leans so heavily on his bumbling enthusiasm that his professional competence disappears."
+    },
+    {
+      "scene": "GoF Film - Death Eater attack at campsite",
+      "book_baseline": "Arthur immediately takes charge, rolls up his sleeves, directs his children with specific assignments, and goes to help Ministry wizards combat the Death Eaters - showing courage and professional responsibility.",
+      "film_portrayal": "Arthur tells the group to get back to the Portkey and leaves. His active role fighting Death Eaters is not shown. He reappears only briefly after the Dark Mark appears.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book gives Arthur a clear heroic function - he fights. The film reduces him to an evacuation coordinator and his courage under fire is invisible to the audience."
+    },
+    {
+      "scene": "GoF Film - Dark Mark aftermath / Crouch confrontation",
+      "book_baseline": "Arthur actively defends Harry and the children against Crouch's accusations, argues calmly and logically for Winky's innocence, and shows moral clarity about the elf's treatment.",
+      "film_portrayal": "Arthur's defence of the children is brief and he is quickly sidelined by Barty Crouch Sr. His advocacy for Winky is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's reasoned defence of both the children and Winky demonstrates his fairness and moral courage. Cutting this removes a scene that shows him as a principled adult authority figure."
+    },
+    {
+      "scene": "OotP Film - Ministry hearing escort",
+      "book_baseline": "Arthur escorts Harry through the Ministry with quiet anxiety but also genuine warmth and competence - navigating the building, managing the changed hearing time, showing Harry his cramped office, and confronting Malfoy and Fudge afterwards with restrained but clear anger.",
+      "film_portrayal": "The escort is compressed. Arthur's office visit is cut entirely. His confrontation with Malfoy on Level Nine is present but brief, and his subsequent analysis of Malfoy's influence is shortened.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The office scene humanises Arthur's professional marginalisation and his dignity within it. Its absence removes texture from his character and the Ministry's treatment of pro-Muggle wizards."
+    },
+    {
+      "scene": "OotP Film - Snake attack / hospital visit",
+      "book_baseline": "Arthur's snake attack and hospitalisation is a major emotional arc. His cheerful resilience in hospital, his secret experiment with Muggle stitches, and his gentle humour throughout show his character under pressure.",
+      "film_portrayal": "The hospital scenes are cut almost entirely. Arthur's stitches subplot and his ward conversations are absent. His recovery is shown only briefly at Grimmauld Place.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The stitches subplot is a small but revealing character beat - Arthur's irrepressible curiosity about Muggle medicine even when injured shows his defining trait under genuine duress. Its absence is a missed opportunity."
+    },
+    {
+      "scene": "HBP Film - Christmas at the Burrow / workshop scene",
+      "book_baseline": "Arthur is largely absent from the HBP book's Burrow sections beyond background presence. The film invents a Bellatrix attack on the Burrow.",
+      "film_portrayal": "The film adds an invented Death Eater attack on the Burrow at Christmas, during which Arthur participates in the chase through the reeds. The Burrow is set on fire.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "While this gives Arthur screen time, the invented attack contradicts the books' established logic (the Burrow is never attacked while the family is present in this period) and replaces character-driven scenes with action spectacle. The workshop scene where Arthur confides in Harry about Draco is a reasonable film invention that partially compensates, but the attack itself damages the adaptation's fidelity to the books' tone and plotting."
+    },
+    {
+      "scene": "DH Film - Battle of Hogwarts / Fred's death",
+      "book_baseline": "Arthur is present at Fred's body, stroking Molly's hair while tears cascade down his cheeks - a moment of quiet, devastated paternal grief.",
+      "film_portrayal": "Arthur is present but the specific detail of him stroking Molly's hair while weeping is rendered faithfully in the film. This scene is largely faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor: the film handles this moment adequately, though the compressed battle context means Arthur's grief has less accumulated weight than in the book."
+    },
+    {
+      "scene": "DH Film - Ministry infiltration / lift scene",
+      "book_baseline": "Arthur, disguised as Runcorn, confronts Harry (disguised as Runcorn) in the lift with quiet fury about Dirk Cresswell, showing moral backbone even under surveillance. Harry warns him he is being tracked.",
+      "film_portrayal": "This scene is present and reasonably faithful - Arthur's anger at Runcorn and Harry's warning are both included.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression only. The scene functions adequately in the film."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

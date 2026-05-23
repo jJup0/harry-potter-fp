@@ -1,0 +1,107 @@
+{
+  "character": "Rufus Scrimgeour",
+  "fp_score": 60.0,
+  "infidelity_score": 40.0,
+  "weighted_infidelity_exposure": 51,
+  "cids": 2040.0,
+  "damage_per_exposure": 127.5,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 3060.0,
+  "main_damage_causes": [
+    "Complete omission of the HBP film means Scrimgeour's defining characterization scenes - the PM introduction, the Christmas garden confrontation, and the funeral encounter - never occur, leaving the DH will scene without the relational and thematic foundation it requires",
+    "The DH will scene is significantly softened: the interrogation is truncated, the wand-jab confrontation is removed, and an invented conciliatory exchange replaces the cold hostility of the book, reframing Scrimgeour as a tragic sympathetic figure rather than a flawed authoritarian whose death earns grudging posthumous respect",
+    "Transfer of Scrimgeour's key deductive moment (Snitch flesh-memory) to Hermione strips his most visible display of competence and cunning, reducing him from a formidable adversary to a procedural functionary"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 - Ministry atrium speech",
+      "book_baseline": "Scrimgeour operates through private political maneuvering, direct confrontation, and shrewd one-on-one pressure. His public persona is implied but never shown as a set-piece speech.",
+      "film_portrayal": "Opens with Scrimgeour delivering a formal public address to Ministry employees, framing him primarily as a wartime spokesman.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor reframing - the speech is not unfaithful in content, but it substitutes a public-facing moment for the book's emphasis on his private, calculating political nature. Low damage as it is brief and not contradictory."
+    },
+    {
+      "scene": "Film Scene 4 - Will delivery, omission of interrogation tactics",
+      "book_baseline": "Scrimgeour methodically interrogates each of the trio separately (or tries to), probing for hidden meanings behind each bequest, pressing on the Deluminator, the book, and the Snitch with pointed questions designed to extract intelligence. He attempts to divide them by calling them individually.",
+      "film_portrayal": "Scrimgeour moves through the will delivery much more briskly, skipping most of the pointed interrogation. He does not attempt to separate them, does not press Ron and Hermione with follow-up questions about the Deluminator or the book, and does not pursue the Snitch's flesh-memory angle himself.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's will scene is a chess match where Scrimgeour's intelligence and political cunning are on full display - he is probing for Horcrux-related intelligence without knowing what he is looking for. Stripping the interrogation removes his shrewdness and transfers the Snitch insight to Hermione in a later scene, diminishing his function as a formidable adversary and reducing the scene's tension."
+    },
+    {
+      "scene": "Film Scene 4 - Snitch flesh-memory deduction given to Hermione",
+      "book_baseline": "Scrimgeour himself deduces and articulates the Snitch's flesh-memory enchantment, demonstrating his expertise and forcing Harry into a corner. It is Scrimgeour's trap.",
+      "film_portrayal": "Scrimgeour simply places the Snitch in Harry's palm without the flesh-memory explanation. The insight is given to Hermione in a later scene (Film Scene 5).",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is a direct transfer of Scrimgeour's most impressive moment of deductive competence to another character. It makes him look less formidable and knowledgeable, and removes the adversarial pressure that defines the book scene."
+    },
+    {
+      "scene": "Film Scene 4 - Omission of wand-jab confrontation and loss of temper",
+      "book_baseline": "The will scene escalates to Scrimgeour jabbing Harry in the chest with his wand hard enough to singe his T-shirt, losing his composure entirely, and Harry responding 'It's time you earned it' before showing his Umbridge scar a second time. Scrimgeour then regrets his outburst.",
+      "film_portrayal": "No physical confrontation occurs. Scrimgeour exits quietly after a brief exchange, looking haunted rather than angry.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The wand-jab is the moment that reveals Scrimgeour's authoritarian streak beneath the political polish - he is dangerous, not merely bureaucratic. Its removal makes him seem merely weary and sympathetic rather than a genuinely threatening figure who abuses his power when challenged. It also removes Harry's second display of the Umbridge scar, which is a key thematic beat about institutional accountability."
+    },
+    {
+      "scene": "Film Scene 4 - 'I won't pretend to be your friend... not your enemy' exchange",
+      "book_baseline": "Scrimgeour never offers Harry any conciliatory framing in the will scene. The encounter ends in cold mutual hostility with no softening.",
+      "film_portrayal": "Scrimgeour tells Harry 'I won't pretend to be your friend, Mr. Potter. But I assure you I'm not your enemy,' and references Dumbledore saying something similar. He then gazes out the window with haunted eyes and implies he came without a guard because he no longer needs one - suggesting vulnerability and perhaps nobility.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This invented exchange reframes Scrimgeour as a tragic, self-aware figure who knows he is doomed and is making a kind of peace. The book's Scrimgeour is not self-aware in this way during his final encounter with Harry - he is still politically maneuvering. This softening undermines the moral complexity of his death: in the books, Harry's grudging respect comes from learning post-mortem that Scrimgeour died protecting him, not from any warmth shown in life."
+    },
+    {
+      "scene": "Film - Complete omission of HBP garden confrontation at Christmas",
+      "book_baseline": "The Christmas garden scene is Scrimgeour's defining characterization moment: his manipulation via Percy, his political pitch to Harry, Harry's systematic dismantling of his arguments, the Stan Shunpike challenge, the 'Dumbledore's man through and through' exchange, and Harry's first display of the Umbridge scar. It establishes the Scrimgeour-Harry dynamic that all subsequent encounters build on.",
+      "film_portrayal": "The scene does not exist in the film. The HBP film omits Scrimgeour entirely.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single largest source of damage. Without this scene, the audience has no basis for understanding Harry's contempt for Scrimgeour, the Ministry's cynical use of Harry as a symbol, or Scrimgeour's own complexity as a flawed but not evil man. The DH will scene and his death lose most of their weight because the prior relationship has not been established. The 'Dumbledore's man through and through' line - one of the saga's key statements of loyalty - is also lost."
+    },
+    {
+      "scene": "Film - Complete omission of HBP Prime Minister introduction scene",
+      "book_baseline": "The opening of HBP establishes Scrimgeour's physical presence (lion-like, shrewd, tough), his brusque efficiency with the PM, his political dominance, and his immediate contrast with Fudge. It is the reader's first full impression of him.",
+      "film_portrayal": "The PM scene does not appear in the HBP film. Scrimgeour is absent from HBP entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "The PM scene establishes Scrimgeour's commanding presence and competence before his flaws are revealed. Without it, the film audience meets him only in the DH will scene, with no foundation for his authority or the respect he commands even from those who distrust him."
+    },
+    {
+      "scene": "Film - Complete omission of Dumbledore's funeral confrontation (HBP end)",
+      "book_baseline": "After Dumbledore's funeral, Scrimgeour approaches Harry again, repeating his request for cooperation. Harry refuses again, repeats 'Dumbledore's man through and through,' and Scrimgeour limps away in cold fury. This is their final book-6 encounter and cements the dynamic.",
+      "film_portrayal": "No such scene exists in the film.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This scene shows Scrimgeour's persistence and political ruthlessness even in the immediate aftermath of Dumbledore's death - he cannot stop calculating. Its absence removes a key beat in the Harry-Scrimgeour antagonism and weakens the payoff of Scrimgeour's death in DH."
+    },
+    {
+      "scene": "Film Scene 4 - Omission of 31-day delay challenge and Ministry legal overreach",
+      "book_baseline": "Hermione challenges Scrimgeour on the Decree for Justifiable Confiscation, the 31-day limit, and the Ministry's bad faith in holding the bequests. Scrimgeour is put on the defensive legally and morally. This exchange characterizes him as someone who bends rules under the guise of authority.",
+      "film_portrayal": "No legal challenge occurs. The delay in delivering the will is not addressed.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Removing this exchange loses a dimension of Scrimgeour's authoritarian overreach and Hermione's challenge to it. It makes the will delivery seem routine rather than a politically motivated delay, softening the Ministry's bad faith."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

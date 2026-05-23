@@ -1,0 +1,80 @@
+{
+  "character": "Muriel",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 24.5,
+  "cids": 686.0,
+  "damage_per_exposure": 98.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 857.5,
+  "main_damage_causes": [
+    "Near-total removal of Muriel's narrative function as the catalyst for Harry's crisis of faith in Dumbledore, stripping the scene of its arc-level consequence",
+    "Flattening of Muriel's personality - her physical vulgarity, malicious delight, and indiscriminate cruelty are replaced with generic sharp-tongued elder, losing the specific comic grotesque Rowling created",
+    "Loss of the Ariana/Kendra/Aberforth material means Harry's motivation for Godric's Hollow and his internal reckoning with Dumbledore's legacy lacks its book-established origin"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Muriel's entrance and seating",
+      "book_baseline": "Muriel barges in uninvited, demands a chair from a Weasley cousin ('You there! Give me your chair, I'm a hundred and seven!'), physically swings it around with surprising strength, and plants herself between Doge and Harry - a forceful, domineering intrusion that establishes her as a force of nature.",
+      "film_portrayal": "Muriel is already seated at an adjacent table when she speaks up. She does not demand a chair, does not physically impose herself, and does not insert herself into the conversation - she simply interjects from a distance.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Muriel is physically aggressive and socially domineering in a comic way. The film softens her entrance, losing the vivid character beat that establishes her as someone who bulldozes her way into situations."
+    },
+    {
+      "scene": "Film Scene 1 - Muriel's champagne-guzzling and physical comedy",
+      "book_baseline": "Muriel repeatedly drains her goblet, snaps her bony fingers at passing waiters for refills, belches, and has champagne dribble down her chin. Her physical vulgarity undercuts her social pretension and is a running comic thread throughout the scene.",
+      "film_portrayal": "Muriel holds a glass of champagne but none of the drinking, belching, finger-snapping, or dribbling behaviour is present. She is composed and controlled throughout.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Muriel is a grotesque comic figure - her physical excess is inseparable from her character. Removing it makes her a generic gossipy old woman rather than the specific, vivid creation Rowling wrote."
+    },
+    {
+      "scene": "Film Scene 1 - Muriel's gossip about Ariana, Kendra, and the Dumbledore family",
+      "book_baseline": "Muriel delivers an extended, multi-beat monologue covering: Ariana possibly being a Squib and imprisoned; Kendra being domineering and ashamed; Ariana never attending Hogwarts or St. Mungo's; the possibility Kendra killed Ariana or vice versa; Aberforth punching Albus at Ariana's funeral; and Bathilda as the likely source for Skeeter. This is the primary mechanism by which Harry (and the reader) first learns the dark truth about Dumbledore's past.",
+      "film_portrayal": "Muriel mentions only that Dumbledore's father killed three Muggles and that Bathilda Bagshot lives in Godric's Hollow and likely talked to Skeeter. The entire Ariana storyline, the Squib theory, Kendra's imprisonment of her daughter, and Aberforth's funeral brawl are completely absent.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is Muriel's primary narrative function in the saga. Her gossip is the catalyst for Harry's crisis of faith in Dumbledore - the 'diseased things nesting in his brain' that haunt him for much of DH Part 1. Without it, Harry's later doubt about Dumbledore loses its specific origin and emotional grounding. The film replaces substantive, arc-driving revelation with a single throwaway scandal (the father/Muggles detail), gutting the scene's structural purpose."
+    },
+    {
+      "scene": "Film Scene 1 - Harry's emotional reaction to Muriel's revelations",
+      "book_baseline": "Harry is visibly shaken by Muriel's disclosures. He later lies awake thinking about them, compares Dumbledore's treatment of Ariana to the Dursleys' treatment of himself, and explicitly tells Hermione that 'Muriel said stuff about Dumbledore at the wedding' as a reason to go to Godric's Hollow. The scene plants seeds of doubt that grow throughout the book.",
+      "film_portrayal": "Harry receives only the minor scandal about Percival Dumbledore. He sits 'speechless' briefly before the Patronus interrupts. There is no internal reckoning, no crisis of faith seeded here.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "Harry's motivation for wanting to visit Godric's Hollow is split between his parents' graves and his need to interrogate the truth about Dumbledore. The film removes the second, deeper motivation entirely, making his later urgency about Bathilda and Godric's Hollow harder to understand and reducing his internal arc around Dumbledore's legacy."
+    },
+    {
+      "scene": "Film Scene 1 - Muriel's rudeness to Harry ('Barry'), Hermione, and the Weasleys",
+      "book_baseline": "Muriel calls Harry 'Barry' repeatedly and mockingly, insults Hermione's posture and ankles, tells George his ears are lopsided, and is described by Ron as a 'nightmare' who was banned from Christmas after Fred and George's Dungbomb. Her indiscriminate rudeness is a consistent character trait played for dark comedy.",
+      "film_portrayal": "Muriel calls Harry 'my boy' and is condescending but not specifically rude to him or others present. The insults to Hermione and George are absent. Her rudeness is generic rather than specific and targeted.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of comic texture and character specificity. The book's Muriel is an equal-opportunity insulter; the film's is merely a gossipy elder. Low impact on the adaptation overall but contributes to a flattened portrayal."
+    },
+    {
+      "scene": "Film Scene 1 - Muriel's delight in scandal and cruelty to Doge",
+      "book_baseline": "Muriel is explicitly described as enjoying herself hugely as she distresses Doge. She cackles, steamrollers over his objections, and the recitation of old scandals elates her. Her cruelty is not incidental - it is her defining trait, the engine of the scene.",
+      "film_portrayal": "Muriel is pointed and sharp but not visibly gleeful or cruel. She does not steamroller Doge; the exchange is more of a civilised disagreement. The sadistic pleasure Rowling gives her is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Muriel's malicious delight is what makes her memorable and what Hermione later correctly identifies when she warns Harry not to trust 'a malicious old woman like Muriel.' Without it, the character loses her edge and Hermione's later characterisation of her rings hollow."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

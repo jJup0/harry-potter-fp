@@ -1,0 +1,98 @@
+{
+  "character": "The Grey Lady",
+  "fp_score": 68.0,
+  "infidelity_score": 32.0,
+  "weighted_infidelity_exposure": 22.0,
+  "cids": 704.0,
+  "damage_per_exposure": 78.2,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 880.0,
+  "main_damage_causes": [
+    "Helena's full backstory - the theft, the flight to Albania, the Baron's murder - is almost entirely omitted, collapsing a rich character into vague emotional suffering",
+    "Harry's active, combative role in breaking down her resistance is replaced by soft manipulation, reducing his agency and urgency at a key late-saga moment",
+    "The payoff to the Bloody Baron mystery seeded across the whole series is lost, severing a saga-level thread"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 4 - Harry already knows her name before she reveals it",
+      "book_baseline": "Helena's identity as Rowena's daughter is a revelation she makes herself mid-conversation, after her composure slips. She is angry with herself for letting it slip: 'She looked angry with herself.' The disclosure is a crack in her armor.",
+      "film_portrayal": "Harry arrives already knowing her name and parentage ('It's Helena, isn't it? Helena Ravenclaw. Rowena's daughter. Luna told me.'), removing the dramatic unmasking entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's slow reveal of her identity is tied to her emotional vulnerability - she slips up and hates herself for it. The film flattens this into a simple greeting, losing the moment that first cracks her haughty composure."
+    },
+    {
+      "scene": "Film Scene 4 - Helena volunteers the diadem topic unprompted",
+      "book_baseline": "Harry has to explicitly ask for information about the diadem. Helena is cold, dismissive, and tries to leave multiple times. Harry has to push hard and even shout at her.",
+      "film_portrayal": "Helena says 'You seek my mother's diadem' before Harry even raises the subject, volunteering the topic herself.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Book Helena is guarded and resistant; she does not open doors for Harry. Having her anticipate and name the subject herself makes her cooperative rather than reluctant, undermining her defining haughtiness."
+    },
+    {
+      "scene": "Film Scene 4 - Harry's persuasion strategy replaces emotional confrontation",
+      "book_baseline": "Harry breaks through Helena's resistance by getting angry, shouting at her, and challenging her loyalty ('or aren't you interested in that?'). Her composure slips under pressure and she begins to stammer. It is an emotionally charged confrontation.",
+      "film_portrayal": "Harry persuades her with a calculated appeal - 'I want to destroy it' - framed as giving her what she wants. He is gentle, stepping closer, saying 'Trust me.' The scene is intimate and almost tender.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Book Harry is desperate and combative; book Helena is proud and crumbles under moral challenge. The film replaces this with a soft manipulation scene that changes both characters' registers and removes the raw urgency of the book exchange."
+    },
+    {
+      "scene": "Film Scene 4 - Helena's motivation reframed as guilt/pain over the diadem itself",
+      "book_baseline": "Helena's wound is her betrayal of her mother - she stole the diadem out of ambition, was tracked down and murdered, and has carried that guilt. Her pain is relational and moral. She tells the story in full, including the Baron stabbing her.",
+      "film_portrayal": "Helena speaks only of wanting to be like her mother and growing to hate the diadem ('the pain I felt... the pain I feel even now'). The Baron, the murder, the flight to Albania, and the full backstory are entirely absent.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Helena is defined by a specific, tragic moral failure - theft, flight, murder. The film reduces her to vague emotional suffering about the object itself. This strips her of her actual character and the backstory that makes her sympathetic and specific."
+    },
+    {
+      "scene": "Film Scene 4 - The Baron's story omitted entirely",
+      "book_baseline": "Helena reveals that the Baron - the Slytherin ghost - was sent by her dying mother, tracked her to Albania, and stabbed her when she refused to return. This explains the Baron's chains and bloodstained robes, a mystery seeded since Philosopher's Stone.",
+      "film_portrayal": "The Baron is never mentioned. The murder is never mentioned. Albania is never mentioned.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is a payoff to a seven-book mystery about the Bloody Baron. Its omission is a structural loss - it severs a thread running through the entire saga and removes the only explanation for one of Hogwarts' most prominent ghosts."
+    },
+    {
+      "scene": "Film Scene 4 - Tom Riddle's manipulation of Helena reduced and reframed",
+      "book_baseline": "Harry deduces that Riddle charmed the story out of Helena the same way he charmed information from others, and explicitly connects this to Riddle's own desire to possess objects he had no right to. Harry mutters a sympathetic note: 'He could be charming when he wanted.' Helena's shame is palpable.",
+      "film_portrayal": "Helena says only that 'another swore to destroy it... but he lied,' then erupts in anger ('He defiled it! With Dark Magic!'). There is no sense of her having been deceived or manipulated - she presents as knowing and angry rather than ashamed.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Book Helena's guilt includes having been fooled by Riddle - a parallel to her original theft, both acts of misplaced trust. The film removes her shame and replaces it with righteous anger, losing the thematic resonance of her repeated victimhood."
+    },
+    {
+      "scene": "Film Scene 4 - Harry's deduction about Riddle hiding the diadem on his job-interview night removed",
+      "book_baseline": "Harry has a live deductive breakthrough mid-conversation: he works out that Riddle hid the diadem in the castle the night he came to ask Dumbledore for a teaching job. He says it aloud, Helena is bewildered, and he runs off. This is a key moment of Harry's active intelligence.",
+      "film_portrayal": "Helena simply tells Harry the diadem is 'in the castle, in the place where everything is hidden' and gives him the cryptic Room of Requirement clue. Harry has no deductive moment; he just receives the answer.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book gives Harry an active intellectual victory - he connects the dots himself. The film makes him a passive recipient of Helena's directions. This transfers agency from Harry to Helena and removes one of the few moments in the finale where Harry reasons his way to an answer."
+    },
+    {
+      "scene": "Film Scene 4 - 'You remind me of him a bit' played as romantic/intimate beat",
+      "book_baseline": "This line does not exist in the book. Harry and Helena's interaction is tense and urgent, not intimate.",
+      "film_portrayal": "Helena says 'Strange... you remind me of him a bit...' while standing inches from Harry, after he has been stepping toward her saying 'Trust me.' Harry is described as 'stung' and 'a bit lost himself,' momentarily forgetting why he came.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This invented beat introduces an odd quasi-romantic undertone and briefly derails Harry's focus. It also implicitly compares Harry to Voldemort in a way the book never does in this scene, muddying Harry's characterization at a critical moment."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

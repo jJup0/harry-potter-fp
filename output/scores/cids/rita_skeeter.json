@@ -1,0 +1,98 @@
+{
+  "character": "Rita Skeeter",
+  "fp_score": 64.0,
+  "infidelity_score": 36.0,
+  "weighted_infidelity_exposure": 40.5,
+  "cids": 1458.0,
+  "damage_per_exposure": 108.0,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1822.5,
+  "main_damage_causes": [
+    "Removal of Hermione's Animagus investigation and Rita's capture eliminates the most significant independent agency Hermione exercises in GoF and severs the causal chain leading to the OotP Quibbler interview",
+    "Consistent reduction of Rita from a calculating, dangerous professional to a broad comic figure undermines the books' sustained critique of sensationalist journalism and the real harm it causes to Harry, Hagrid, and Hermione",
+    "Absence of the Hagrid article, Three Broomsticks confrontation, and Witch Weekly hate mail removes the relational and emotional stakes that make Rita a genuine antagonist rather than a recurring joke"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "GoF Film - Broom cupboard interview (Scene 4)",
+      "book_baseline": "Rita is predatory and manipulative but professionally controlled: she steers Harry with leading questions, feigns sympathy, and lets the Quick-Quotes Quill do the distorting. She is calculating, not broadly comedic. She is 43, elaborately coiffed, jeweled spectacles, crocodile bag \u2014 a specific, menacing aesthetic.",
+      "film_portrayal": "Rita is played broadly for laughs, winking at Harry, giggling, delivering lines with pantomime villainy. The menace and cold professionalism are replaced with camp. She repeatedly and obviously gets Harry's age wrong (calling him 12 when he's 14) as a running gag, which reduces her from a dangerous manipulator to a buffoon.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Rita is frightening because she is competent and deliberate \u2014 her distortions are calculated, not accidental. Making her a comic figure who can't even get basic facts right undermines the threat she poses and the reason her articles do real damage to Harry, Hagrid, and others."
+    },
+    {
+      "scene": "GoF Film - Broom cupboard interview: Quick-Quotes Quill dynamic (Scene 4)",
+      "book_baseline": "Harry notices the quill writing fabrications in real time ('I have NOT got tears in my eyes!'), establishing the mechanism of Rita's dishonesty and Harry's helpless frustration as she talks over his denials. This is a key beat showing how the press manufactures narrative.",
+      "film_portrayal": "The Quick-Quotes Quill is present but the film does not show Harry reading its fabrications and reacting with outrage. The specific line about 'glistening with the ghosts of my past' is delivered as a voiceover joke rather than a moment of genuine violation. The horror of watching your words be replaced in real time is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses the quill to dramatise media fabrication as something Harry experiences viscerally. The film converts it to a throwaway gag, losing the thematic weight about how journalism distorts truth \u2014 a thread that runs through the entire Rita arc."
+    },
+    {
+      "scene": "GoF Film - Rita approaches Harry and Hermione before the first task (Scene 6)",
+      "book_baseline": "Rita is not present at the champions' tent before the first task in this way. Her intrusions are calculated and she operates through access and manipulation, not by simply wandering into restricted areas and making quips.",
+      "film_portrayal": "Rita appears at the tent entrance, delivers the line 'Young love. How... stirring' about Harry and Hermione, snaps a photo, and leaves. This is invented. It reduces her to a one-liner delivery device and misrepresents how she gathers material (she eavesdrops covertly, not by walking up openly).",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent with the film's pattern of making Rita a broad comic presence rather than a covert, calculating one. The Animagus reveal later loses some of its force if Rita is already shown operating openly."
+    },
+    {
+      "scene": "GoF Film - Rita's Animagus reveal and Hermione's trap are entirely absent",
+      "book_baseline": "Hermione spends months investigating how Rita eavesdrops, deduces she is an unregistered Animagus (beetle), catches her in a jar, and uses this as leverage to silence her for a year. This is one of Hermione's most significant independent acts of agency in the series \u2014 she outsmarts a dangerous adult adversary through sustained intellectual effort.",
+      "film_portrayal": "The entire subplot is cut. Rita simply disappears from the film after the first task. There is no investigation, no jar, no confrontation, no leverage. Hermione's triumph over Rita does not exist in the GoF film.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most damaging single omission. It removes Hermione's most proactive and independently achieved victory in the book, eliminates the explanation for why Rita goes quiet, and strips the Rita arc of its resolution. It also removes the setup for Rita's coerced cooperation in OotP (the Quibbler interview), which the films handle differently but which loses its earned quality without this backstory."
+    },
+    {
+      "scene": "GoF Film - Rita's harassment of Hagrid (Dumbledore's Giant Mistake article) is absent",
+      "book_baseline": "Rita interviews Hagrid, twists his words, and publishes a piece outing his giant heritage, causing him real distress and near-resignation. Harry confronts Rita in the Three Broomsticks. Hermione's fury ('You horrible woman') and her vow to get Rita back are pivotal character moments. Rita's cold put-down of Hermione ('Sit down, you silly little girl') establishes the personal antagonism that motivates Hermione's investigation.",
+      "film_portrayal": "None of this appears in the film. Hagrid's giant heritage is revealed differently (to Harry directly, sentimentally), and Rita's role in weaponising it is absent. The Three Broomsticks confrontation does not occur.",
+      "damage_type": "relationship",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "The Hagrid article and the Three Broomsticks scene establish Rita as someone who causes genuine harm to people Harry loves, not just to Harry himself. It also establishes the Hermione-Rita antagonism that drives the Animagus subplot. Without it, Rita's threat feels abstract and Hermione's motivation for pursuing her disappears."
+    },
+    {
+      "scene": "GoF Film - 'Harry Potter's Secret Heartache' / Witch Weekly article absent",
+      "book_baseline": "Rita publishes a piece in Witch Weekly portraying Hermione as a scarlet woman stringing Harry and Krum along, generating hate mail including bubotuber pus. This causes Hermione real suffering, deepens the Rita-as-threat theme, and leads to Hermione's key line about investigating Rita's methods.",
+      "film_portrayal": "The Witch Weekly article appears briefly \u2014 Hermione reads the headline about being 'plain but ambitious' \u2014 but the hate mail, the bubotuber pus, and Hermione's suffering are entirely cut. The article is a one-line joke rather than a source of genuine harm.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this article to show Rita's reach extends to targeting teenage girls with mob harassment. Reducing it to a throwaway line removes the stakes and Hermione's personal investment in stopping Rita."
+    },
+    {
+      "scene": "OotP Film - Rita coerced Quibbler interview is absent",
+      "book_baseline": "Hermione arranges a meeting at the Hog's Head, produces the captive beetle, and forces a reluctant, unemployed, resentful Rita to conduct a truthful interview with Harry for The Quibbler \u2014 for free, under threat of exposure. Rita's degraded appearance (lank hair, chipped nails, missing jewels), her resentment, her professional cynicism about the Prophet, and her eventual compliance are all richly characterised. This is the payoff of the entire GoF Rita arc.",
+      "film_portrayal": "The Quibbler interview with Harry exists in the OotP film but Rita is not involved. The interview is conducted differently, removing Rita entirely from this plot function.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This scene is the culmination of Hermione's arc against Rita across two books. Its absence means Hermione's intellectual victory is never dramatised, Rita's comeuppance never lands, and the satisfying reversal of power (the journalist now controlled by a teenage girl) is lost entirely. It also removes Rita's most complex characterisation \u2014 her cynical but accurate analysis of the Prophet's relationship with the Ministry."
+    },
+    {
+      "scene": "DH Part 1 Film - Rita Skeeter at Dumbledore's funeral / 'Life and Lies' context (Scene 11)",
+      "book_baseline": "Rita's biography is a source of active anguish for Harry, who reads it with fury and has to wrestle with whether its claims about Dumbledore are true. The book shows Rita at the funeral with a notebook, still working. Harry's emotional response to the biography \u2014 rage, then doubt, then the painful process of seeking truth \u2014 is a major arc in DH.",
+      "film_portrayal": "The film shows the Daily Prophet headline and Rita's photo with the book cover in a brief kitchen scene (Scene 11). The biography exists as a plot device to deliver the Grindelwald information via Hermione's summary (Scene 14), but Harry's personal anguish over it, his fury at Rita, and his wrestling with Dumbledore's reputation are compressed into a single conversation.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book uses Rita's biography as the engine of Harry's crisis of faith in Dumbledore \u2014 a sustained, painful arc. The film delivers the same information but removes Harry's emotional journey through it, making his eventual acceptance of Dumbledore's flaws feel less earned."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "character": "Sirius Black",
+  "fp_score": 62.0,
+  "infidelity_score": 38.0,
+  "weighted_infidelity_exposure": 46.0,
+  "cids": 1748.0,
+  "damage_per_exposure": 112.8,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 2622.0,
+  "main_damage_causes": [
+    "The film systematically removes Sirius's psychological deterioration from confinement, eliminating the arc that explains his fatal recklessness at the Ministry and making his death feel unmotivated rather than tragically self-determined",
+    "The emotional core of the Harry-Sirius relationship - Harry's desperate longing for family and the tunnel scene offering him a home - is severely compressed, gutting the relationship's emotional stakes and making Sirius's death less devastating to the audience",
+    "Sirius's key character flaw (projecting James onto Harry, his pettiness, his neglect of Kreacher) is largely absent, flattening him into an uncomplicated heroic figure and removing the tragic dimension that his own choices contributed to his death"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PoA Film - Sirius's first appearance in the Shrieking Shack",
+      "book_baseline": "Sirius is gaunt and wild but immediately shows complexity: he asks Ron to lie down to protect his leg, speaks with urgency about Pettigrew, and demonstrates clear-headed purpose despite 12 years in Azkaban. His first words to Harry are 'I thought you'd come and help your friend' - showing he anticipated Harry's loyalty.",
+      "film_portrayal": "Sirius is portrayed as more overtly menacing and unstable on arrival. The film compresses his initial characterization, cutting his careful, reasoned explanation of why he's there and his concern for Ron's injury. He comes across as more erratic.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes immediately that Sirius, despite his appearance, is still sharp, caring, and purposeful. The film's more unhinged portrayal undermines the reveal that he is innocent and sane."
+    },
+    {
+      "scene": "PoA Film - Sirius's speech about being Harry's godfather and offering a home",
+      "book_baseline": "In the tunnel, Sirius tentatively, almost shyly, raises the possibility of Harry living with him - 'I'll understand, of course, if you want to stay with your aunt and uncle.' Harry's explosive joy ('Are you insane? Of course I want to leave!') is one of the most emotionally significant moments in the series. Sirius's face breaks into 'the first true smile Harry had seen upon it.'",
+      "film_portrayal": "The tunnel conversation is cut entirely. The offer and Harry's ecstatic response are replaced by a brief rooftop exchange ('I want to go with you') that lacks the book's emotional buildup, Sirius's hesitancy, and Harry's desperate longing for family.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the emotional climax of the Harry-Sirius relationship and the first time Harry has genuine hope for a real home and family. Cutting it guts the relationship's emotional foundation and makes Sirius's death in OotP significantly less devastating."
+    },
+    {
+      "scene": "PoA Film - Sirius's explanation of how he escaped Azkaban",
+      "book_baseline": "Sirius explains at length that he maintained sanity by knowing he was innocent (not a happy thought, so dementors couldn't feed on it), that he transformed into a dog to feel less human emotion, and that seeing Pettigrew in the newspaper gave him an obsessive purpose that cleared his mind enough to slip out as a dog when thin enough.",
+      "film_portrayal": "The film gives only a truncated version of this explanation, losing the nuance of how innocence itself - not happiness - was his anchor, and the specific mechanics of his escape.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's explanation is thematically rich - innocence as a form of protection against despair is a meaningful idea. The film reduces it to a simpler 'I'm an Animagus' answer."
+    },
+    {
+      "scene": "PoA Film - Sirius taunting Harry ('You're less like your father than I thought')",
+      "book_baseline": "After Harry refuses to let Sirius come to Hogsmeade in disguise, Sirius says coldly 'You're less like your father than I thought. The risk would've been what made it fun for James.' This is a genuine character flaw - Sirius projecting James onto Harry and being petty when denied.",
+      "film_portrayal": "This exchange is absent from the film. The film's Sirius has no such moment of pettiness or projection.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This moment is important for showing Sirius's flaw - his tendency to see Harry as James reborn - which Mrs. Weasley explicitly calls out. Without it, Sirius is flattened into an uncomplicated heroic figure."
+    },
+    {
+      "scene": "PoA Film - The Hogsmeade pub scene / learning Sirius is godfather",
+      "book_baseline": "Harry overhears the full conversation in the Three Broomsticks: McGonagall, Fudge, Rosmerta, and Hagrid all contribute to a rich portrait of Sirius as James's best friend, best man, godfather, and apparent betrayer. Harry then looks at the wedding photo and sees a young, handsome, laughing Sirius - 'recognizable as the man who had laughed at Harry's parents' wedding.'",
+      "film_portrayal": "The film condenses this to McGonagall and Fudge only, losing Hagrid's emotional testimony ('I COMFORTED THE MURDERIN' TRAITOR!') and Rosmerta's recollection of Sirius and James as a beloved 'double act.' The wedding photo moment is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book builds Sirius's pre-Azkaban identity through multiple witnesses, making his fall more tragic. The film's compressed version loses the community's grief and the contrast between who Sirius was and what he apparently became."
+    },
+    {
+      "scene": "PoA Film - Harry's internal conflict about killing Sirius",
+      "book_baseline": "Harry spends considerable time consumed by a 'hatred such as he had never known' and genuinely contemplates revenge. He imagines killing Sirius, hears his mother screaming, and is explicitly described as not knowing what he wanted to do - 'the idea of doing nothing, while Black was at liberty, was almost more than he could stand.'",
+      "film_portrayal": "The film shows Harry's anger but does not develop his internal moral struggle over revenge. His decision not to kill Sirius in the Shack feels more reactive than the result of a genuine internal conflict.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Harry's temptation toward revenge and his ultimate choice of mercy is a key moral moment. The book makes clear he genuinely wanted to kill Sirius and chose not to - the film softens this into something less morally weighty."
+    },
+    {
+      "scene": "PoA Film - Sirius's confrontation with Snape in the Shack",
+      "book_baseline": "Sirius says 'Piss off' to Snape, calls him 'Snivelus' in the Shack scene, and is explicitly sneering and contemptuous. When Snape is disarmed by Harry, Sirius says 'You should have let me deal with him' - showing his ongoing hatred is personal and unresolved.",
+      "film_portrayal": "The film includes the confrontation but softens some of Sirius's more contemptuous lines and the depth of his hatred for Snape.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but the book's Sirius is more openly hostile and petty toward Snape, which is a genuine character flaw that the film slightly smooths over."
+    },
+    {
+      "scene": "OotP Film - Sirius at Grimmauld Place / his confinement and deterioration",
+      "book_baseline": "The book devotes substantial space to Sirius's growing depression and recklessness at Grimmauld Place: he becomes 'moodier and surlier,' withdraws to Buckbeak's room, is stung by Snape's taunts about cowardice, and his confinement is shown as genuinely damaging him. Mrs. Weasley explicitly worries he confuses Harry with James.",
+      "film_portrayal": "The film shows Sirius as largely energetic and supportive during his Grimmauld Place scenes. His psychological deterioration from confinement is not developed. The scene where he snaps at Harry ('You're less like your father') is absent, as is the sustained portrait of a man being destroyed by imprisonment.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Sirius's deterioration in OotP is essential context for why he recklessly goes to the Ministry. Without showing his psychological damage from confinement, his death feels less inevitable and his character arc is incomplete."
+    },
+    {
+      "scene": "OotP Film - Sirius's argument with Mrs. Weasley about Harry",
+      "book_baseline": "The book has a full, heated argument where Sirius insists Harry is 'not a child,' Mrs. Weasley says 'He's not James, Sirius!' and Sirius retorts 'He's got me!' - revealing his projection of James onto Harry and his desperate need to be needed. Lupin has to physically restrain Sirius.",
+      "film_portrayal": "The film includes a version of this argument but it is compressed and loses the specific accusation that Sirius sees Harry as James, which is the psychologically crucial element.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The James-projection flaw is central to understanding Sirius's character and his relationship with Harry. Its absence means the audience never fully understands why Sirius makes the fatal choice to go to the Ministry."
+    },
+    {
+      "scene": "OotP Film - Sirius's death scene",
+      "book_baseline": "Sirius is 'laughing' at Bellatrix as he duels her - 'Come on, you can do better than that!' - showing his reckless bravado even in mortal danger. He falls through the veil with 'the look of mingled fear and surprise on his godfather's wasted, once-handsome face.' Harry's denial is prolonged and agonizing.",
+      "film_portrayal": "The film's death scene is visually effective but Sirius's laughing taunt to Bellatrix is present. However, the aftermath - Harry's prolonged denial, Lupin physically restraining him, Harry's screaming 'He's not dead!' - is compressed, reducing the emotional devastation.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's death and aftermath are among the most emotionally significant passages in the series. The film's compression reduces the impact of the loss that drives Harry's arc through HBP and DH."
+    },
+    {
+      "scene": "OotP Film - Sirius's gift of the two-way mirror",
+      "book_baseline": "Sirius gives Harry a two-way mirror at the start of term with instructions to use it if he needs to talk. Harry never uses it, and after Sirius's death discovers it too late - the tragedy being that he could have contacted Sirius before going to the Ministry and confirmed he was safe.",
+      "film_portrayal": "The two-way mirror subplot is entirely absent from the film. Harry never receives it, never fails to use it, and the specific tragedy of that missed connection is lost.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The mirror is crucial to Harry's guilt after Sirius's death - he had a way to check if Sirius was safe and didn't use it. This deepens Harry's culpability and grief. Its absence removes a layer of tragic irony and Harry's moral weight in the outcome."
+    },
+    {
+      "scene": "OotP Film - Kreacher's role in Sirius's death",
+      "book_baseline": "Dumbledore explicitly explains that Kreacher's betrayal - enabled by Sirius's neglect and cruelty toward him - is what allowed Voldemort to lure Harry to the Ministry. Sirius's failure to treat Kreacher with basic dignity directly caused his own death.",
+      "film_portrayal": "Kreacher appears but his role in the plot against Sirius is not explained in the film. The causal chain between Sirius's treatment of Kreacher and his death is absent.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is the book's most pointed statement about Sirius's character flaw having real consequences. His death is partly his own fault - a tragic irony the film eliminates, making his death feel more like external bad luck than the result of his own choices."
+    },
+    {
+      "scene": "HBP Film - Sirius's absence from Harry's grief and motivation",
+      "book_baseline": "In HBP, Harry's grief over Sirius is a sustained presence. He thinks of Sirius repeatedly, the home he might have had, and Sirius's death is explicitly cited as part of what drives Harry's commitment to defeating Voldemort. Dumbledore references Sirius's death in their private lessons.",
+      "film_portrayal": "The film largely moves past Sirius's death without sustained acknowledgment of Harry's grief. Sirius is mentioned but not as a living emotional presence in Harry's motivation.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Sirius's death should cast a long shadow over HBP. The film's relative silence on Harry's grief diminishes the emotional continuity of the character's loss."
+    },
+    {
+      "scene": "DH Film - Sirius's appearance via Resurrection Stone",
+      "book_baseline": "Sirius appears 'tall and handsome, and younger by far than Harry had seen him in life. He loped with an easy grace, his hands in his pockets and a grin on his face' - restored to his pre-Azkaban self. He tells Harry dying is 'quicker than falling asleep' and confirms 'We are part of you. Invisible to anyone else.'",
+      "film_portrayal": "The film includes this scene and it is reasonably faithful, though brief. Sirius's restored youth and ease are conveyed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; minor compression only. The scene works adequately in the film."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

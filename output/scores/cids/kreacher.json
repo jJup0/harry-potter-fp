@@ -1,0 +1,98 @@
+{
+  "character": "Kreacher",
+  "fp_score": 48.0,
+  "infidelity_score": 52.0,
+  "weighted_infidelity_exposure": 44.5,
+  "cids": 2314.0,
+  "damage_per_exposure": 201.2,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 3471.0,
+  "main_damage_causes": [
+    "Complete excision of 'Kreacher's Tale' removes the emotional and thematic core of the character - his grief, Regulus's sacrifice, and the mechanism of his transformation - making his arc from hostile to loyal entirely unmotivated",
+    "The Sirius-Kreacher antagonism is never established as consequential, severing the causal chain between Sirius's indifference and his death and eliminating the saga's moral argument about how the powerful treat those beneath them",
+    "Kreacher's post-transformation domestic presence and Battle of Hogwarts climax are absent, meaning the arc has no visible middle and no payoff, reducing him to a plot device (find Mundungus) rather than a character with a completed journey"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "OotP film - Kreacher's first appearance at Grimmauld Place",
+      "book_baseline": "Kreacher enters muttering a long, continuous stream of insults under his breath - calling people Mudbloods, werewolves, blood traitors, scum - while performing theatrical bows and pretending not to be heard. He is sly, layered, and darkly comic: his muttered asides are audible to everyone yet he maintains the fiction of deference. He is described in vivid physical detail and his muttering is a defining character trait.",
+      "film_portrayal": "Kreacher appears briefly, mutters a short line ('Mudblood and werewolves, and traitors and thieves...'), makes eye contact with Harry, carries a drawer, and is dismissed by Sirius in seconds. The sustained, layered muttering pattern - his defining voice - is reduced to a single expository line. The sly theatrical quality is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Kreacher's muttering is not mere comic relief; it establishes his dual-register speech (false deference + audible contempt), his intelligence, and his ideological loyalty to the Black family. Collapsing it to one line strips the voice that makes him a distinct, memorable character rather than a generic hostile elf."
+    },
+    {
+      "scene": "OotP film - Sirius dismisses Kreacher ('That's enough of your bile. Away with you')",
+      "book_baseline": "Sirius and Kreacher have an extended, mutually contemptuous relationship shown across many scenes. Sirius threatens him with clothes, physically throws him from rooms, and their dynamic is explicitly identified by Dumbledore as the proximate cause of Sirius's death. The relationship is a sustained, morally complex thread.",
+      "film_portrayal": "Sirius dismisses Kreacher with a single sharp line and immediately pivots to warm conversation with Harry. The scene then becomes entirely about Sirius showing Harry the family tree. The Sirius-Kreacher antagonism is presented as a minor irritant rather than a dangerous, consequential dynamic.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The film loses the causal chain: Sirius's contemptuous treatment of Kreacher \u2192 Kreacher's betrayal \u2192 Sirius's death. Without seeing the relationship as genuinely toxic and consequential, Dumbledore's later explanation ('indifference and neglect often do much more damage than outright dislike') lands without foundation, and Sirius's death loses moral weight."
+    },
+    {
+      "scene": "DH1 film - Kreacher interrogation scene (replaces 'Kreacher's Tale')",
+      "book_baseline": "Harry questions Kreacher about the locket, triggering an extended, emotionally devastating monologue in which Kreacher recounts Regulus's sacrifice: being sent to Voldemort, drinking the potion, escaping via house-elf magic, Regulus returning to die in his place, and Kreacher's decades of grief and failed attempts to destroy the locket. Hermione weeps. Even Ron is moved. Harry gives Kreacher the fake locket as a gift. Kreacher's transformation from hostile to loyal begins here through an act of genuine kindness and recognition of his suffering.",
+      "film_portrayal": "Kreacher is dragged in by one ear, gives hostile one-line answers under duress (Ron physically chokes him), confirms the locket existed and Mundungus took it, and is then simply ordered 'Find him' - vanishing with a crack. No backstory, no Regulus narrative, no emotional revelation, no gift of the locket, no transformation.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging cut. 'Kreacher's Tale' is the scene that recontextualizes everything: Kreacher's hostility, Regulus's heroism, the nature of house-elf slavery, and Harry's moral growth in choosing compassion. It is also the mechanism by which Kreacher becomes loyal and useful. The film replaces a structurally essential scene with a coercive interrogation, making Harry's later warm relationship with Kreacher (cooking, Battle of Hogwarts) appear from nowhere and stripping the thematic argument about how you treat those beneath you."
+    },
+    {
+      "scene": "DH1 film - Kreacher returns with Mundungus (no saucepan assault, no 'perhaps just one more, Master Harry')",
+      "book_baseline": "Kreacher returns triumphant, reports formally, then attacks Mundungus with a saucepan when Mundungus insults Sirius's memory. When Harry stops him, Kreacher asks 'Perhaps just one more, Master Harry, for luck?' - a moment of dark humor that shows his transformed loyalty and personality. He then stands guard with loathing fixed on Mundungus.",
+      "film_portrayal": "Kreacher returns and delivers his report. The saucepan assault and the 'one more for luck' line are absent. Kreacher has no personality beat in this scene.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The saucepan moment is the payoff of Kreacher's arc - the first glimpse of his fierce, darkly comic loyalty to Harry. Without it, his transformation has no visible expression and the character remains flat through the rest of the film."
+    },
+    {
+      "scene": "DH1 film - Kreacher as domestic presence at Grimmauld Place (cooking, care for trio)",
+      "book_baseline": "After receiving the locket, Kreacher's cooking improves dramatically. He serves the trio meals, takes their cloaks, reminds Harry to wash his hands, promises steak-and-kidney pie on their return from the Ministry. Harry reflects with genuine regret on leaving Kreacher behind when they must abandon Grimmauld Place. The house has become 'a kind of home' partly because of Kreacher.",
+      "film_portrayal": "None of this domestic warmth is present. After the interrogation scene Kreacher vanishes from the film entirely until the Battle of Hogwarts.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The domestic scenes are the visible evidence of Kreacher's transformation and Harry's growth as someone who treats a house-elf with dignity. Their absence means the Battle of Hogwarts appearance ('Fight for my Master, defender of house-elves!') is completely unmotivated. The arc from enslaved hostile elf to willing, loyal ally is the entire point of the character."
+    },
+    {
+      "scene": "DH1 film - Battle of Hogwarts: Kreacher leads house-elves",
+      "book_baseline": "Kreacher leads the Hogwarts house-elves into battle wearing Regulus's locket, crying 'Fight! Fight! Fight for my Master, defender of house-elves! Fight the Dark Lord, in the name of brave Regulus!' This is the culmination of his arc: loyalty earned through kindness, Regulus's sacrifice honored, house-elf agency asserted.",
+      "film_portrayal": "This scene does not appear in the film corpus provided. Kreacher's role in the Battle of Hogwarts is absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Kreacher's battle cry is the thematic resolution of everything the books argue about house-elf treatment. It validates Hermione's advocacy, Dumbledore's warnings, and Harry's choice to show kindness. Its absence means the saga's argument about slavery and dignity has no payoff through this character."
+    },
+    {
+      "scene": "OotP film - Kreacher's betrayal of Sirius (absent/unexplained)",
+      "book_baseline": "Kreacher's betrayal is a major plot revelation: he exploited Sirius's careless 'get out' order, went to Narcissa and Bellatrix, fed Voldemort the information that Harry would go to any lengths to save Sirius, injured Buckbeak to keep Sirius occupied, and lied to Harry in the fire. Dumbledore's explanation is a moral reckoning for Harry about the consequences of how Sirius treated Kreacher.",
+      "film_portrayal": "The film shows Kreacher briefly in Sirius's room (OotP) and does not develop the betrayal plot. The causal chain - Sirius's treatment \u2192 Kreacher's resentment \u2192 deliberate betrayal \u2192 Sirius's death - is not established. Kreacher's gleeful cackling in the fire ('Master will not come back from the Department of Mysteries!') and Dumbledore's subsequent moral explanation are absent.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Without the betrayal arc being legible, Sirius's death loses its moral dimension entirely. The books use Kreacher to argue that indifference to those in your power has real consequences. The film presents Sirius's death as a battle casualty rather than the result of a chain of choices. This is a structural loss."
+    },
+    {
+      "scene": "DH1 film - Ron physically chokes Kreacher during interrogation",
+      "book_baseline": "Harry orders Kreacher to answer truthfully and Kreacher complies, bound by ownership. When Kreacher calls Hermione a Mudblood Harry forbids it. The scene is tense but Harry is in control and treats Kreacher with increasing consideration as the story emerges. Physical violence against Kreacher is not part of this scene.",
+      "film_portrayal": "Ron grabs Kreacher by the throat and chokes him when Kreacher insults Hermione, releasing him only when Hermione protests. Harry then says 'Answer her.'",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This reframes the interrogation as coercive physical intimidation rather than Harry exercising legitimate ownership with growing empathy. It makes the trio look brutal toward a creature the books are asking us to pity, and it undermines the thematic point that kindness - not force - is what changes Kreacher."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

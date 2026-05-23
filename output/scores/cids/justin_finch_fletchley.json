@@ -1,0 +1,62 @@
+{
+  "character": "Justin Finch-Fletchley",
+  "fp_score": 73.0,
+  "infidelity_score": 27,
+  "weighted_infidelity_exposure": 4,
+  "cids": 108,
+  "damage_per_exposure": 43.2,
+  "structural_damage_level": 1,
+  "structural_damage_multiplier": 1.0,
+  "adjusted_cids": 108,
+  "main_damage_causes": [
+    "Compression of Justin's introduction removes the class/background characterisation that contextualises his Muggle-born identity and the Eton detail Ernie later references",
+    "Harry's active confrontation of the Hufflepuffs is replaced with passive retreat, reducing his agency in defending himself against the Heir of Slytherin rumours",
+    "The end-of-year apology scene is cut entirely, leaving the Justin-Harry misunderstanding arc without a resolution beat"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (Dueling Club) - Justin's introduction",
+      "book_baseline": "Justin introduces himself warmly in Herbology, shaking hands with Harry, Hermione, and Ron, demonstrating social confidence and class-conscious background (Eton, mother's approval). He is enthusiastic about Lockhart and openly Muggle-born.",
+      "film_portrayal": "Justin meets Harry briefly at the Dueling Club, offers his hand, and says only 'I know who you are. We all do. Even us Muggle-borns.' The Herbology introduction, the Eton detail, the hand-shaking of Hermione and Ron, and the extended Lockhart enthusiasm are all absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film collapses Justin's characterful introduction into a single throwaway line. The Eton/class background detail is important because it later explains why Ernie says Justin 'let slip' he was Muggle-born - a plot-relevant detail the film retains without the setup. Minor damage since the film does establish he is Muggle-born."
+    },
+    {
+      "scene": "Film Scene 1 (Dueling Club) - Justin's reaction to Parseltongue incident",
+      "book_baseline": "Justin storms off angrily, shouting 'What do you think you're playing at?' Harry is confused and hurt, expecting gratitude. Justin's fear and anger are understandable given he genuinely believed Harry was directing the snake at him. This sets up Justin hiding in his dormitory and the Hufflepuff gossip scene.",
+      "film_portrayal": "Justin backs away terrified but says only 'What are you playing at?' before the scene moves on. The film captures the beat but compresses it - Justin's storming out and Harry's wounded expectation of gratitude are not developed.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film hits the functional plot beat but loses the texture of Justin's justified anger and Harry's specific emotional wound at being feared rather than thanked. Low damage as the core dynamic is preserved."
+    },
+    {
+      "scene": "Film Scene 1 (Library/Hufflepuff gossip) - Justin hiding and Ernie's speech",
+      "book_baseline": "Harry actively goes looking for Justin to explain himself, finds the Hufflepuffs in the library, overhears Ernie's detailed case against Harry (referencing Filch, Creevey, the Eton slip), and confronts them directly. Justin is hiding in the dormitory. Harry's attempt to clear his name and Justin's specific fear of being targeted as Muggle-born are both present.",
+      "film_portrayal": "Harry overhears Ernie's speech from outside a room (not the library). The scene is functionally present but Harry does not confront the Hufflepuffs - he slips away. The detail that Justin told Harry he was down for Eton is retained in Ernie's dialogue, but without the prior Herbology scene establishing it, it lands without context.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book Harry confronts Ernie directly and argues his case - showing agency and courage. In the film he simply walks away muttering. This removes a small but meaningful moment of Harry standing up for himself and engaging with the suspicion directly rather than retreating from it."
+    },
+    {
+      "scene": "Film Scene 2 (End feast) - Justin's apology to Harry",
+      "book_baseline": "Justin hurries over from the Hufflepuff table to wring Harry's hand and apologize endlessly for suspecting him. This is an explicit, emotionally satisfying resolution of their arc - Justin's fear, his false accusation, and his ultimate recognition of Harry's innocence.",
+      "film_portrayal": "Justin is shown returning to his seat at the Hufflepuff table as one of the revived students. He has no lines, no interaction with Harry, and no apology. The camera simply notes his presence.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book gives Justin a closing beat that resolves the arc of suspicion and misunderstanding between him and Harry. The film drops this entirely. While Justin is a minor character, this resolution also functions as a small thematic payoff - the Muggle-born student who feared Harry recognising the truth. Its absence leaves the relationship arc incomplete."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

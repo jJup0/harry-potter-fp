@@ -1,0 +1,62 @@
+# version: 1.0
+You are scoring how much DAMAGE {character}'s unfaithful film portrayal causes to the Harry Potter adaptation.
+
+FP (faithfulness) score: {fp_score}/100. Higher = more faithful. You are measuring the DAMAGE caused by the unfaithful parts.
+
+TASK: Compare the book corpus against the film corpus below. Identify every scene or beat where the film portrayal diverges from the book characterization. For each, assign an exposure value and impact weight.
+
+EXPOSURE (how long the unfaithful moment lasts):
+- 0.5 = brief/partial unfaithful moment (a line, a reaction)
+- 1 = one clearly unfaithful scene beat
+- 2 = extended unfaithful scene or multiple beats in one scene
+- 3 = long scene dominated by unfaithful portrayal
+
+IMPACT WEIGHT (how much it matters to the adaptation):
+1 = Minor: small line, tone shift, isolated issue
+2 = Trait altered: personality, voice, humor, confidence, flaw, or behavior pattern changed
+3 = Relationship altered: emotional dynamic, chemistry, rivalry, friendship, family bond, or romantic relationship weakened/changed
+4 = Agency/function damaged: character loses important decision, action, moral choice, courage, or plot function (or it transfers to another character)
+5 = Structural: affects a major arc, central relationship, protagonist development, saga theme, climax, or audience understanding
+
+RULES:
+- Only score UNFAITHFUL moments. Faithful portrayal = 0 damage.
+- Absence only counts as damage if it removes defining characterization, agency, relationship development, or arc material.
+- One entry per distinct unfaithful beat. Do not group multiple films into one entry.
+- If a scene is unfaithful in multiple independent ways, list them separately.
+- Do not double-count the same change.
+- Cite specific evidence from the corpus. If evidence is limited, lower confidence.
+
+STRUCTURAL DAMAGE LEVEL (one global rating for this character):
+1 = Local only: isolated lines or minor traits
+2 = Character-level: affects how the character is perceived overall
+3 = Relationship-level: affects an important relationship or group dynamic
+4 = Arc-level: affects a major emotional, moral, or narrative arc
+5 = Saga-level: affects audience understanding of the wider story or central themes
+
+=== BOOK CORPUS ===
+{book_corpus}
+
+=== FILM CORPUS ===
+{film_corpus}
+
+Respond with ONLY a JSON object (no markdown fences):
+{{
+  "damaging_scenes": [
+    {{
+      "scene": "<film + brief scene identifier>",
+      "book_baseline": "<what the book establishes>",
+      "film_portrayal": "<what the film does instead>",
+      "damage_type": "<personality/voice | agency/function | motivation/internal conflict | arc | relationship | nuance/lost material>",
+      "exposure": <0.5|1|2|3>,
+      "impact_weight": <1-5>,
+      "explanation": "<why this causes damage to the adaptation>"
+    }}
+  ],
+  "structural_damage_level": <1-5>,
+  "main_damage_causes": ["<cause 1>", "<cause 2>", "<cause 3>"],
+  "confidence": {{
+    "global": "<High|Medium|Low>",
+    "exposure_estimate": "<High|Medium|Low>",
+    "impact_assessment": "<High|Medium|Low>"
+  }}
+}}

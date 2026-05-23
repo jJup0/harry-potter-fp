@@ -1,0 +1,107 @@
+{
+  "character": "Quirinus Quirrell",
+  "fp_score": 69.0,
+  "infidelity_score": 31.0,
+  "weighted_infidelity_exposure": 18.0,
+  "cids": 558.0,
+  "damage_per_exposure": 69.8,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 697.5,
+  "main_damage_causes": [
+    "The film prematurely signals the Quirrell-Voldemort connection (scar-glance handshake refusal, early corridor confrontation) undermining the misdirection that is the character's entire structural function",
+    "Quirrell's interiority - his backstory of corruption, his suffering under Voldemort, his sustained cowardice-as-cover classroom persona - is almost entirely absent, reducing him from a thematically resonant cautionary figure to a plot-delivery mechanism",
+    "The climactic reveal collapses Quirrell's autonomous menace too quickly into Voldemort's face, and invents a parents-in-mirror manipulation that misrepresents both Harry's character and the Mirror of Erised's function"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Leaky Cauldron meeting",
+      "book_baseline": "Quirrell is pale, nervous, twitching, stammers through a full exchange about Defense Against the Dark Arts, mentions vampires and zombies, looks terrified at the thought of them - establishing him as a joke figure whose cowardice is the cover story",
+      "film_portrayal": "Quirrell appears briefly, delivers one stammered line, then refuses Harry's handshake by looking at his scar and backing away - a moment that hints at the Voldemort connection far too early and removes the extended comedic cowardice characterization",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Leaky Cauldron scene is the foundation of Quirrell's cover: a bumbling, terrified teacher who can barely discuss his own subject. The film truncates this and replaces it with a suspicious scar-glance that telegraphs the twist, undermining the misdirection the character depends on."
+    },
+    {
+      "scene": "Film Scene 1 - Quirrell refuses handshake",
+      "book_baseline": "Quirrell grasps Harry's hand and stammers his pleasure at meeting him - physical contact is unremarkable and the twist that he cannot touch Harry is a late-act revelation",
+      "film_portrayal": "Quirrell visibly recoils from Harry's offered hand, staring at his scar - implying he fears or recognizes something about Harry from the very first meeting",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "This directly spoils the climactic revelation that Quirrell cannot touch Harry due to Lily's protection. In the book that moment is a surprise; the film plants a visible clue in scene one that attentive viewers will retroactively decode, collapsing the mystery structure."
+    },
+    {
+      "scene": "Film Scene 7 - Restricted Section corridor: Snape confronts Quirrell",
+      "book_baseline": "Harry overhears Snape and Quirrell in the forest; Quirrell is outdoors, petrified with fear after Snape's threats, standing still as though frozen - the scene is private and Harry must climb a tree to witness it",
+      "film_portrayal": "Snape physically shoves Quirrell against a wall in a corridor near the Restricted Section, in a more aggressive and public staging; the confrontation is compressed and repositioned",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor staging change, but the forest scene's isolation and Quirrell's petrified stillness afterward conveys his genuine terror more effectively than a corridor shove. Small loss of atmospheric characterization."
+    },
+    {
+      "scene": "Film Scene 9 - Final chamber: Quirrell's reveal and confrontation",
+      "book_baseline": "Quirrell is articulate, cold, and in full control once unmasked - he laughs sharply, explains the Quidditch jinx, reveals he let the troll in, discusses Snape's countercurse, engages in extended dialogue about Voldemort's philosophy, tries multiple times to seize the Stone, physically wrestles Harry, screams in agony as his flesh blisters and is destroyed piece by piece while Voldemort shrieks orders",
+      "film_portrayal": "Quirrell is unmasked, delivers a condensed version of the reveal dialogue, then Voldemort takes over almost immediately as the speaking presence; Quirrell's physical destruction is rapid and visually stylized (crumbling to ash on contact) rather than the prolonged, agonizing blistering of the book",
+      "damage_type": "agency/function | personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's climax gives Quirrell significant autonomous menace - he is competent, cold, and dangerous in his own right before Voldemort speaks. The film collapses him into a vessel for Voldemort's face almost immediately, reducing his independent villainy and the horror of a man who chose this fate."
+    },
+    {
+      "scene": "Film Scene 9 - Voldemort's mirror manipulation of Harry",
+      "book_baseline": "Voldemort speaks through Quirrell's mouth as a disembodied high voice; he does not appear visually until the turban is unwrapped; his manipulation of Harry via the mirror is purely verbal",
+      "film_portrayal": "Voldemort's face on the back of Quirrell's head speaks directly and also projects James and Lily Potter in the mirror as a temptation, offering to reunite Harry with his parents if he hands over the Stone",
+      "damage_type": "motivation/internal conflict | arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film invents a manipulation tactic - using Harry's grief for his parents - that does not exist in the book. In the book Harry simply lies about what he sees and the Stone transfers magically. The film's version makes Harry momentarily tempted by his parents' image, which misrepresents his character and cheapens the Mirror of Erised's earlier emotional resonance by weaponizing it."
+    },
+    {
+      "scene": "Film Scene 9 - Absence of Quirrell's backstory monologue",
+      "book_baseline": "Quirrell explains at length how he met Voldemort while traveling, how he was a foolish young man with ideas about good and evil, how Voldemort showed him 'there is only power,' how he has served faithfully but let him down, how Voldemort punished him and decided to keep a closer watch - establishing Quirrell as a tragic figure who was corrupted through weakness and misplaced idealism",
+      "film_portrayal": "This entire backstory is absent; Quirrell's motivation and the nature of his corruption are never explained in the film",
+      "damage_type": "motivation/internal conflict | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Without this monologue Quirrell is simply a villain-vessel with no interiority. The book's Quirrell is a cautionary figure - a weak man seduced by power - which gives the character thematic weight. The film loses this entirely, making him a plot device rather than a character."
+    },
+    {
+      "scene": "Film Scene 9 - Absence of Quirrell's sobbing scene and 'I find it hard to follow my master's instructions'",
+      "book_baseline": "Harry hears Quirrell sobbing 'No - no - not again, please' and 'All right - all right' before Quirrell emerges pale and about to cry, establishing that Voldemort is actively tormenting him and that Quirrell is suffering under his possession",
+      "film_portrayal": "This scene does not occur in the film; there is no moment showing Quirrell as a victim of Voldemort's cruelty prior to the climax",
+      "damage_type": "nuance/lost material | motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The sobbing scene adds moral complexity - Quirrell is both villain and victim. It foreshadows Dumbledore's later line that Voldemort shows as little mercy to followers as enemies. Its absence flattens Quirrell into an uncomplicated antagonist."
+    },
+    {
+      "scene": "Film Scene 5 - Troll aftermath: Quirrell's reaction",
+      "book_baseline": "Quirrell takes one look at the troll, lets out a faint whimper, and sits quickly down on a toilet clutching his heart - a comic beat that reinforces his established cowardice persona",
+      "film_portrayal": "Quirrell looks at the troll and makes a brief nervous comment about it possibly waking up, then laughs awkwardly - the whimper and toilet-clutching are absent",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of a character-consistent comic beat that reinforces the cowardice cover. Minor but the book's version is more committed to the joke."
+    },
+    {
+      "scene": "Film Scene 3 - Quirrell teaching with iguana",
+      "book_baseline": "Quirrell's classes are described as 'a bit of a joke' - his classroom smells of garlic, he tells dubious stories about zombies and vampires, goes pink when asked about his zombie fight and changes the subject, establishing sustained classroom incompetence as his cover",
+      "film_portrayal": "Quirrell is shown briefly holding an iguana mid-lesson with a single stammered line; the garlic smell, the zombie/vampire stories, the classroom atmosphere of absurdity are entirely absent",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film never establishes Quirrell's classroom persona as a joke. This matters because the book's sustained incompetence is what makes him invisible as a suspect - the film skips the groundwork that makes the twist land."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

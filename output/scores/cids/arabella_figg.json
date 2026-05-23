@@ -1,0 +1,71 @@
+{
+  "character": "Arabella Figg",
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 12.5,
+  "cids": 337.5,
+  "damage_per_exposure": 67.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 371.3,
+  "main_damage_causes": [
+    "Removal of the Mundungus confrontation strips Mrs. Figg of her most active, agency-driven moment and her most distinctive characterisation as a fierce, loyal Order member",
+    "Flattening of her personality from hysterical, vivid, and chaotic to calm and expository removes the comic-serious texture that makes her memorable",
+    "Reduction of her hearing testimony transfers her plot function (corroborating witness) to Dumbledore, undermining the purpose of her years-long surveillance of Harry"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Mrs. Figg arrives after Dementor attack",
+      "book_baseline": "Mrs. Figg arrives in a panic, grizzled hair escaping her hairnet, carpet slippers flopping, string bag clanking. She is hysterical, furious at Mundungus, physically beats him with her cat-food bag, shrieks orders at Harry, and takes charge of the situation with frantic urgency.",
+      "film_portrayal": "Mrs. Figg arrives calmly, delivers a few composed lines ('Don't put away your wand, Harry. They might come back.' / 'The whole world's gone topsy-turvy.'), and leads them home without any hysteria, fury, or confrontation with Mundungus.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Mrs. Figg is a vivid, chaotic presence - shrieking, physically violent with Mundungus, wringing her hands. The film flattens her into a calm, slightly dotty exposition-delivery device. Her distinctive voice and energy are lost."
+    },
+    {
+      "scene": "Film Scene 1 - Mundungus Fletcher confrontation entirely absent",
+      "book_baseline": "Mrs. Figg's most memorable moment in OotP is her furious physical assault on Mundungus with her cat-food bag, screaming at him for abandoning his post, forcing him to go report to Dumbledore. This is a major character beat showing her loyalty, temper, and active role in the Order.",
+      "film_portrayal": "Mundungus does not appear at all in this sequence. The entire confrontation is cut.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Mundungus confrontation is the scene that most defines Mrs. Figg as an active, fierce Order member rather than a passive observer. Its removal strips her of her most significant moment of agency and reduces her to a bystander who escorts Harry home."
+    },
+    {
+      "scene": "Film Scene 1 - Mrs. Figg's Squib status and its implications unexplored",
+      "book_baseline": "Harry asks why she never told him she was a Squib; she explains she couldn't. Her inability to see Dementors clearly (only feeling them) is dramatised at the hearing and is a plot-relevant detail. Her Squib identity is central to her character and her long deception of Harry.",
+      "film_portrayal": "Mrs. Figg mentions Dumbledore asked her to keep an eye on Harry, but her Squib status is never stated in this scene. The film omits the revelation entirely from the alleyway encounter.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Squib revelation recontextualises Harry's entire childhood relationship with Mrs. Figg and explains why she was chosen as his watcher. Losing it from the alleyway scene (where it lands most naturally) weakens both her character and the audience's understanding of Dumbledore's network."
+    },
+    {
+      "scene": "Film Scene 2 - Ministry hearing testimony",
+      "book_baseline": "Mrs. Figg gives nervous but determined testimony, corrects herself when she says Dementors were 'running', goes pink with embarrassment when pressed on what they looked like (she can only feel them, not see them clearly), but rallies to give a precise account of Harry's Patronus. She is scared but resolute, and her limitations as a Squib witness are dramatically present.",
+      "film_portrayal": "Mrs. Figg's testimony is reduced to two lines: a confused answer about the boys vs. the Dementors, and a brief description of coldness and lost happiness. Her detailed account of Harry's Patronus, her nervousness, her self-correction, and her indignant assertion that Squibs can see Dementors are all cut.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Mrs. Figg's testimony is Harry's key piece of supporting evidence and her finest moment of courage. The film reduces it to near-nothing, with Dumbledore doing the heavy argumentative lifting instead. Her function as Harry's witness - the reason she was placed near him for years - is effectively transferred to Dumbledore."
+    },
+    {
+      "scene": "Film Scene 2 - Mrs. Figg's indignant assertion about Squibs seeing Dementors cut",
+      "book_baseline": "'Yes, we can!' said Mrs Figg indignantly - a small but characterful moment of pride and self-assertion in a hostile room, pushing back against Fudge's implied dismissal of her credibility.",
+      "film_portrayal": "This line and the exchange about Squib perception are entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but telling moment of character - Mrs. Figg refusing to be dismissed - is lost. Minor in isolation but contributes to the overall flattening of her personality."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

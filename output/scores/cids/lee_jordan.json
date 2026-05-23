@@ -1,0 +1,53 @@
+{
+  "character": "Lee Jordan",
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 8,
+  "cids": 312.0,
+  "damage_per_exposure": 78.0,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 343.2,
+  "main_damage_causes": [
+    "Lee's distinctive, biased, personality-driven commentary voice is replaced with neutral functional announcing, erasing his most defining trait",
+    "The recurring comedic McGonagall/Lee correction dynamic is entirely absent, removing a consistent relationship beat",
+    "Lee's identity as Fred and George's best friend is never established, reducing him to a background function rather than a character"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1-2 \u2014 Quidditch commentary throughout the match",
+      "book_baseline": "Lee's commentary is a running, witty, biased, personality-rich performance across the entire match. He calls plays in detail, makes partisan remarks, gets warned repeatedly by McGonagall, and his voice is a constant comedic and narrative presence. His commentary is a defining character beat across multiple books.",
+      "film_portrayal": "Lee's commentary is reduced to a handful of neutral, functional announcements: introducing the game, naming a scorer, announcing the Snitch catch and points. No bias, no McGonagall corrections, no personality, no humor. He is essentially a PA system.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The books establish Lee's commentary style as a core character trait \u2014 partisan, funny, boundary-pushing, constantly reined in by McGonagall. The film strips this entirely, leaving him as a generic announcer with no distinguishable voice."
+    },
+    {
+      "scene": "Film Scene 1-2 \u2014 Absence of McGonagall/Lee dynamic",
+      "book_baseline": "The repeated 'JORDAN!' / 'Sorry, Professor' exchange is a recurring comedic relationship beat across multiple Quidditch matches. McGonagall's exasperated but fond tolerance of Lee is a small but consistent relationship thread.",
+      "film_portrayal": "McGonagall never corrects Lee. The dynamic does not exist in the film.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "A recurring, charming relationship beat between Lee and McGonagall is entirely absent, removing a small but consistent source of warmth and comedy that characterizes both figures."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Lee's role as Fred and George's close friend",
+      "book_baseline": "Lee is consistently identified as the Weasley twins' best friend throughout the books \u2014 shopping with them, planning schemes, assisting their Skiving Snackbox demos, going into business discussions with them. He is a named member of their social unit.",
+      "film_portrayal": "Lee appears only as a commentator. His friendship with Fred and George is never established or visible in the film.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film reduces Lee to a functional role (commentator) and never establishes his relationship with Fred and George, losing a meaningful social bond that contextualizes all three characters."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

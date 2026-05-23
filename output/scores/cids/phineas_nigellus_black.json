@@ -1,0 +1,53 @@
+{
+  "character": "Phineas Nigellus Black",
+  "fp_score": 26.0,
+  "infidelity_score": 74.0,
+  "weighted_infidelity_exposure": 17.0,
+  "cids": 1258.0,
+  "damage_per_exposure": 228.7,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 1383.8,
+  "main_damage_causes": [
+    "Near-total absence from the film adaptation despite meaningful book appearances across OOTP and DH",
+    "Complete loss of his defining personality traits: sardonic superiority, Black family pride, contempt for Muggle-borns, and reluctant compliance",
+    "Removal of his plot-functional role as the trio's reluctant informant in DH, including the sword-of-Gryffindor intelligence that advances the Horcrux hunt"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film \u2013 Dumbledore's office after Arthur Weasley attack",
+      "book_baseline": "Phineas Nigellus is present in the headmaster's office portrait and is given a direct instruction by Dumbledore: go to his Grimmauld Place portrait and tell the Weasley children to come by portkey. He is a functional relay agent with a distinct, reluctant-but-obedient personality, and his compliance is shown with his characteristic haughty manner.",
+      "film_portrayal": "Phineas is reduced to a single line of instruction from Dumbledore ('Phineas, you must go to your portrait at Grimmauld Place...') with no response, no personality, no visible compliance or reaction. He is a prop, not a character.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film uses Phineas purely as a named messenger device. His sardonic, superior personality is entirely absent. He gets no lines, no reaction, no characterization. The audience learns nothing about who he is."
+    },
+    {
+      "scene": "Film \u2013 entire film corpus (absence of Grimmauld Place portrait scene)",
+      "book_baseline": "In DH, Phineas Nigellus is carried by Hermione in her beaded bag and serves as a recurring, reluctant informant. He is blindfolded, argues with the trio, insults Hermione as a 'Muggle-born' and 'simple girl', defends Snape, is protective of Black family honor (outraged at Mundungus stealing heirlooms), and ultimately provides the critical intelligence about the sword of Gryffindor being used by Dumbledore to destroy a Horcrux. This is his most substantial characterization in the entire series.",
+      "film_portrayal": "This entire sequence is absent from the film corpus provided. Phineas has no presence in the DH film material shown here.",
+      "damage_type": "agency/function | arc | nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Grimmauld Place / beaded bag scenes are where Phineas Nigellus is most fully realized as a character: his pride, his bigotry, his reluctant usefulness, his loyalty to Slytherin and the Black family, and his inadvertent delivery of a plot-critical clue. Losing all of this removes his entire narrative function in the endgame and collapses him to a near-zero presence in the adaptation."
+    },
+    {
+      "scene": "Film \u2013 absence of OOTP Hogwarts office scenes (hissing at Harry, reacting to Mundungus theft)",
+      "book_baseline": "In OOTP, Phineas Nigellus appears in Dumbledore's office and hisses disapprovingly at Harry's impertinence, voices his contempt for students questioning authority, and later storms out of his frame in outrage when he learns Mundungus has been stealing Black heirlooms \u2014 a moment that reveals his fierce pride in his family's legacy.",
+      "film_portrayal": "None of these beats appear in the film. The only OOTP appearance is the single wordless instruction scene.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "These moments establish Phineas as a recurring comic-antagonist presence with a consistent voice: snobbish, pro-authority, fiercely proud of the Black name. Without them, his one film appearance has no context and he reads as a generic portrait extra."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

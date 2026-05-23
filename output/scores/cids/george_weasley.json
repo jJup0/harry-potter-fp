@@ -1,0 +1,170 @@
+{
+  "character": "George Weasley",
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 37.5,
+  "cids": 975.0,
+  "damage_per_exposure": 59.1,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1218.8,
+  "main_damage_causes": [
+    "Complete removal of the GoF Bagman/gambling subplot eliminates George's most significant individual arc \u2014 financial vulnerability, moral complexity, resilience, and the origin of the joke shop \u2014 creating a cascade of lost payoff in HBP",
+    "Consistent flattening of George's individual voice into undifferentiated twin comedy, removing moments where he demonstrates emotional intelligence, grounded practicality, and distinct reactions separate from Fred",
+    "Loss of small but accumulative character-defining beats (Muggle lock-picking pride, mother-threat horror, Percy-estrangement hurt) that establish George as more than a comedy prop"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PS/SS Film - Platform 9\u00be (Scene 1)",
+      "book_baseline": "George actively pranks Mrs. Weasley by pretending to be Fred, showing his quick wit and the twins' seamless comedic partnership as a defining character trait from the very first appearance.",
+      "film_portrayal": "The prank is reversed: it is Fred who claims to be George, and George who stays silent. The lines are split differently, diluting George's individual comic agency in the moment.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor misattribution of who delivers the prank, but it slightly blurs George's individual identity from his first scene."
+    },
+    {
+      "scene": "PS/SS Film - Quidditch match (Scene 5)",
+      "book_baseline": "Fred and George are active, named Beaters whose tactical decisions and banter during the match are noted. George specifically tries to redirect the rogue Bludger and communicates the problem to Wood.",
+      "film_portrayal": "George gets one warning shout ('HARRY! WATCH OUT!') and bats the Bludger once. The twins' active tactical role, their communication with Wood about the tampered Bludger, and George's specific dialogue about requesting a time-out are all absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "George's competence as a Beater and his proactive role in identifying and managing the rogue Bludger threat is reduced to a single reactive shout."
+    },
+    {
+      "scene": "CoS Film - Flourish and Blotts brawl (Scene 7)",
+      "book_baseline": "Fred and George attempt to physically attack Malfoy when he insults Hermione ('Flint had to dive in front of Malfoy to stop Fred and George jumping on him'). This shows their fierce loyalty and protective instincts.",
+      "film_portrayal": "Fred and George lunge at Malfoy and are held back by Wood, which is present, but the moment is brief and their protective motivation is not foregrounded \u2014 the scene pivots quickly to Ron's backfiring spell.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The twins' fierce loyalty to Hermione is present but undercut by the scene's rapid pivot to Ron's comedic slug curse."
+    },
+    {
+      "scene": "CoS Film - Rescue from Privet Drive (Scene 6)",
+      "book_baseline": "George uses a hairpin to pick the lock on Harry's door, Fred and George coordinate the trunk extraction with specific dialogue, and George hands the hairpin to Ron to free Hedwig. Their Muggle-knowledge pride and methodical competence are highlighted.",
+      "film_portrayal": "The rescue is compressed into a screenplay excerpt format and the hairpin/lock-picking detail and George's specific pride in Muggle skills are absent. The scene is functional but strips the characterful detail.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "A small but telling character beat \u2014 George's pride in practical Muggle skills \u2014 is lost, reducing a moment that distinguishes him from the typical wizard."
+    },
+    {
+      "scene": "PoA Film - Marauder's Map handover (Scenes 15-16)",
+      "book_baseline": "Both Fred and George participate equally in the handover scene, with George activating the map ('I solemnly swear') and both delivering the backstory about stealing it from Filch. George specifically says 'We owe them so much' about the Marauders.",
+      "film_portrayal": "George activates the map and delivers 'We owe them so much' and the key exposition. Fred is present but George carries the scene. This is largely faithful, though the emotional weight of giving away their prized possession ('It's a wrench giving it to you') is present.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reasonably faithful; minor compression reduces the sense of genuine sacrifice in parting with the map."
+    },
+    {
+      "scene": "PoA Film - Hospital wing after Quidditch fall (Scene 14)",
+      "book_baseline": "George delivers the key comfort line about the match result ('Diggory got the Snitch... He tried to call it off. Wanted a rematch') and the mathematical Quidditch Cup analysis, showing his practical, grounded support for Harry.",
+      "film_portrayal": "George delivers 'Yeah, c'mon, Ron. We'll walk you off the Astronomy Tower and see how you come out looking' \u2014 a joke at Ron's expense rather than comfort for Harry. The substantive match analysis and George's role as the one who delivers hard news kindly is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film replaces George's grounded, practically supportive voice with a generic twin joke, losing a moment that shows his emotional intelligence beneath the humor."
+    },
+    {
+      "scene": "GoF Film - Aging Potion attempt (Scene 22)",
+      "book_baseline": "Fred and George's attempt is a carefully planned, confident act of rule-bending that they take seriously as a challenge to Dumbledore's Age Line. Their failure and subsequent good humor about their beards shows resilience and self-awareness.",
+      "film_portrayal": "The scene is present and largely faithful \u2014 the beards, the fight, the crowd reaction. However, the film plays it more broadly for comedy, and the twins' specific reasoning and confidence in their plan ('it's so pathetically dimwitted') is compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Mostly faithful but slightly flattened; the twins' self-aware meta-humor about their own plan is reduced."
+    },
+    {
+      "scene": "GoF Film - Bagman/gambling subplot (Scene 22 onwards)",
+      "book_baseline": "Fred and George's arc of being cheated by Bagman, their attempts to recover their savings, their blackmail letter, and Harry ultimately giving them his Triwizard winnings is a significant subplot establishing their entrepreneurial drive, vulnerability, and the origin of the joke shop.",
+      "film_portrayal": "The Bagman subplot is entirely absent from the films. The twins appear at the World Cup and tournament but their financial jeopardy, the blackmail attempt, and Harry's gift of the winnings are all cut.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most significant damage to George (and Fred) in GoF. Their vulnerability, their moral complexity (blackmail), their resilience, and the emotional weight of Harry's gift \u2014 which funds the joke shop \u2014 are entirely lost. The joke shop in HBP consequently appears without earned backstory."
+    },
+    {
+      "scene": "OotP Film - Skiving Snackbox testing on first-years (Scene 28)",
+      "book_baseline": "Fred and George test their products on first-years with clinical detachment, genuinely believing they've done nothing wrong, and are stopped by Hermione's threat to write to their mother \u2014 which genuinely horrifies them. This shows their moral blind spot and their respect for Molly beneath the bravado.",
+      "film_portrayal": "The Skiving Snackbox subplot is present but compressed. The specific scene of testing on first-years and Hermione's 'I'll write to your mother' threat \u2014 and the twins' genuine horror at this \u2014 is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "A revealing character moment showing George's genuine moral blind spot and his deep-seated respect for his mother is lost."
+    },
+    {
+      "scene": "OotP Film - Quidditch ban / attacking Malfoy (Scene 28)",
+      "book_baseline": "George attacks Malfoy after Malfoy insults their mother and Harry's dead mother. George is banned from Quidditch for life alongside Harry. He is then seen 'glowering at everyone' and sloping off to bed. This is a moment of genuine rage and consequence for George.",
+      "film_portrayal": "The Quidditch match, Malfoy's provocation, and the attack are present. George's involvement in the attack on Malfoy is shown. However, the specific insult about their mother that triggers George (as distinct from Harry) and George's subsequent emotional state are not individually foregrounded.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "George's specific trigger \u2014 the insult to his mother \u2014 and his individual emotional aftermath are subsumed into a general twin reaction, reducing his distinct moral character."
+    },
+    {
+      "scene": "OotP Film - Departure from Hogwarts (Scene 29)",
+      "book_baseline": "Fred and George's departure is a triumphant, carefully staged act of rebellion: the swamp, the 'Accio brooms' moment, George's 'Special discounts to Hogwarts students who swear they're going to use our products to get rid of this old bat,' and Peeves saluting them. George has specific lines and agency in the exit.",
+      "film_portrayal": "The departure scene is present with fireworks and brooms, but George's specific parting shot about discounts and the full theatrical staging of the exit is compressed. The Peeves salute is absent (Peeves is not in the films).",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "George's individual voice in the departure \u2014 his specific defiant offer to students \u2014 is lost, reducing his distinct contribution to what becomes a shared twin moment."
+    },
+    {
+      "scene": "HBP Film - Weasleys' Wizard Wheezes (Scene 31)",
+      "book_baseline": "Harry's visit to the shop is a triumphant payoff to the Triwizard winnings gift. George specifically thanks Harry ('You gave us our start-up loan, we haven't forgotten') and refuses his money. The shop represents George and Fred's fulfilled dream, earned through the GoF arc.",
+      "film_portrayal": "The shop scene is present and George has dialogue. However, because the Bagman/winnings arc was cut from GoF, the emotional payoff of George's gratitude to Harry is absent. George's line about the start-up loan has no resonance because the audience never saw Harry give it.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The structural damage from cutting the GoF subplot manifests here: George's gratitude and the shop's emotional significance are hollow without the earned backstory."
+    },
+    {
+      "scene": "DH1 Film - George losing his ear (Scenes 39-42)",
+      "book_baseline": "George's 'holey/holy' joke upon waking is a defining moment of his character \u2014 humor as coping mechanism, resilience in the face of permanent injury, and the twins' bond. Fred's response ('Pathetic! With the whole wide world of ear-related humor before you') is equally characteristic.",
+      "film_portrayal": "The scene is present and largely faithful. George delivers 'I'm holy. Holey, Fred, geddit?' and Fred responds 'With the whole wide world of ear-related humor at your disposal, you go for holey? Pathetic.' This is one of the most faithful George moments in the entire film series.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is well-handled. Minor point: the film slightly rushes past the emotional weight of the moment to get to Mad-Eye's death news."
+    },
+    {
+      "scene": "DH2 Film - Fred's death (Scene 53)",
+      "book_baseline": "Fred dies laughing, mid-joke, with Percy \u2014 a reconciliation moment. George kneels at his head. The family surrounds Fred. The book gives this extended, devastating space.",
+      "film_portrayal": "Fred's death is shown with George kneeling over him, the family gathered. The film handles this with appropriate gravity. However, the specific detail that Fred died laughing with Percy \u2014 the reconciliation payoff \u2014 is not clearly conveyed.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The loss of the Percy reconciliation context means Fred's death loses its bittersweet dimension, and George's grief is shown but not the full weight of what was just restored before being taken away."
+    },
+    {
+      "scene": "DH2 Film - Battle of Hogwarts, George fighting (Scenes 49-52)",
+      "book_baseline": "George fights alongside Fred and Arthur, and later alongside Bill and Arthur against Bellatrix. He has specific combat moments and is present as an active defender.",
+      "film_portrayal": "George appears in the battle scenes but has no individual dialogue or distinguishable combat moments. He is visually present but functionally anonymous.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In his final battle appearance before Fred's death, George has no individual agency or voice, reducing him to background presence at a crucial moment."
+    },
+    {
+      "scene": "OotP Film - Percy estrangement / George's reaction (Scene 26 onwards)",
+      "book_baseline": "George has a specific 'uncharacteristically ugly look' when discussing Percy's betrayal, showing that beneath the jokes he feels the family rupture deeply. He also has the 'world's biggest prat' line at Christmas.",
+      "film_portrayal": "Percy's estrangement is present in the films but George's specific emotional reactions to it \u2014 the ugly look, the Christmas confrontation \u2014 are not individually attributed to him.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "George's capacity for genuine hurt beneath his humor, specifically regarding Percy, is lost to generic family-group reactions."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

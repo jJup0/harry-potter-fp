@@ -1,0 +1,53 @@
+{
+  "character": "Rolanda Hooch",
+  "fp_score": 80.0,
+  "infidelity_score": 20.0,
+  "weighted_infidelity_exposure": 10.5,
+  "cids": 210.0,
+  "damage_per_exposure": 46.7,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 231.0,
+  "main_damage_causes": [
+    "Competence and composure undermined in her most prominent scene (Neville's accident), replacing authoritative control with flustered slapstick",
+    "Active refereeing function gutted across the Quidditch match, removing her role as the disciplinary authority of the sport",
+    "Dry, precise instructional voice flattened into generic background teacher, losing the small character details that distinguish her"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1-2 \u2013 Neville's flying accident",
+      "book_baseline": "Hooch shouts 'Come back, boy!' and rushes to Neville after he falls, bending over him with a face 'as white as his', gently saying 'it's all right, up you get', then firmly warns the class with her arm around Neville as she leads him away. She is authoritative, composed under pressure, and genuinely caring.",
+      "film_portrayal": "Hooch stutters and stumbles over Neville's name ('M-M-M-Mr. Longb-!') while he careens wildly, dives out of the way to avoid being hit, and is largely reactive and flustered throughout. She does not catch or meaningfully help Neville \u2014 he saves himself by catching on a torch. Her composure and competence are undercut.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book establishes Hooch as a sharp, hawk-eyed professional who takes charge instantly. The film turns the same scene into slapstick at her expense, making her look incompetent and flustered rather than authoritative. Her defining trait \u2014 calm command of the air \u2014 is damaged in her most prominent scene."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 'With feeling!' line during 'Up!' exercise",
+      "book_baseline": "Hooch walks up and down the rows correcting grips and technique; she is a precise, no-nonsense instructor. She also pointedly tells Malfoy he has been doing it wrong for years, which delights Harry and Ron.",
+      "film_portrayal": "Hooch's only instructional interjection is a light 'With feeling!' to students struggling with 'Up!' The correction of Malfoy's grip \u2014 a small but characterful moment showing her impartiality and dry authority \u2014 is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a moment that showed Hooch's impartiality and dry wit. The 'With feeling!' replacement is breezy rather than authoritative, softening her edge slightly, though the overall scene still functions."
+    },
+    {
+      "scene": "Film Scene 3-4 \u2013 First Quidditch match refereeing",
+      "book_baseline": "Hooch referees actively throughout: she speaks directly to Flint about fouls, orders free shots, zooms between players to break up fights, shrieks penalties at specific offenders by name, and is a constant disciplinary presence managing a dirty game.",
+      "film_portrayal": "Hooch's refereeing is reduced to releasing the balls, saying 'Now I want a nice clean game from all of you', blowing her whistle when Harry catches the Snitch, and announcing 'Gryffindor wins!' She does not intervene in any foul play; the dirty Slytherin tactics go unchallenged on screen.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "In the books Hooch is the active moral and disciplinary authority of every match \u2014 she penalises fouls, confronts captains, and physically intervenes. The film strips this function almost entirely, reducing her to a ceremonial starter and finisher. Her role as the impartial enforcer of fair play, which recurs across multiple books, is invisible here."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

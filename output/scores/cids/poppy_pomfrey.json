@@ -1,0 +1,107 @@
+{
+  "character": "Poppy Pomfrey",
+  "fp_score": 80.0,
+  "infidelity_score": 20.0,
+  "weighted_infidelity_exposure": 10.5,
+  "cids": 210.0,
+  "damage_per_exposure": 32.3,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 231.0,
+  "main_damage_causes": [
+    "The PoA hospital wing confrontation sequence - her richest and most characterful book appearance - is heavily compressed, losing the clearest expression of her defining trait (patient welfare above all authority) and her most vivid comic-yet-principled voice.",
+    "Her role as an active, outspoken institutional conscience (criticising dementor deployment, challenging Fudge and Snape, enforcing rules against Dumbledore himself) is systematically reduced across multiple films, leaving only her functional healing role intact.",
+    "Repeated loss of small but accumulative character texture - the wry asides, the protective gestures, the watchful presence - means the film version reads as a competent but generic matron rather than the distinct, feisty individual the books establish."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film Scene 1 (Hospital Wing - Skele-Gro) - added line",
+      "book_baseline": "Madam Pomfrey scolds that Harry should have been brought straight to her, delivers the Skele-Gro grimly, and mutters disapprovingly about dangerous sports and inept teachers while re-settling him.",
+      "film_portrayal": "After Harry grimaces at the potion, Pomfrey quips 'Well, what did you expect - pumpkin juice?' - a wisecrack not in the book that softens her stern, no-nonsense professional manner into something more comedic.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tone shift. The book's Pomfrey is brisk and disapproving, not quippy. The added joke slightly misrepresents her voice but is isolated and brief."
+    },
+    {
+      "scene": "CoS Film Scene 1 (Hospital Wing - Colin Petrification night) - Pomfrey's reaction reduced",
+      "book_baseline": "Madam Pomfrey is pulled from bed in her nightdress and cardigan, whispers 'What happened?', gasps at Colin's petrification, says 'Good gracious!', and reacts with visible horror at the melted camera film - a full, emotionally present scene.",
+      "film_portrayal": "Pomfrey bustles in, gasps once, and is largely a background presence. Her lines ('What happened?', 'Good gracious!', 'Melted... all melted...') and the emotional texture of her reaction are cut or compressed. She has no spoken dialogue in this sequence in the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses Pomfrey's layered reactions (shock, horror, professional assessment) to convey the gravity of the Chamber threat. Reducing her to a silent background figure loses her function as an emotional register for the audience and strips a small but characterful scene beat."
+    },
+    {
+      "scene": "CoS Film Scene 2 (Hospital Wing - Hermione cat-form) - Pomfrey characterisation absent",
+      "book_baseline": "Madam Pomfrey places curtains around Hermione's bed to spare her shame, tends her over several weeks, sweeps over with medicine at key moments, and is described as having taken protective, compassionate charge of the situation.",
+      "film_portrayal": "Pomfrey appears only briefly; Hermione references her ('Any day now, according to Madam Pomfrey') but Pomfrey herself is not shown exercising the protective, discreet care the book depicts. Her compassionate management of a humiliating situation is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of the characterisation of Pomfrey as someone who shields students' dignity, not just heals their bodies. Isolated and low-stakes."
+    },
+    {
+      "scene": "CoS Film Scene 2 (Hospital Wing - Hermione petrified, paper in fist) - Pomfrey as obstacle",
+      "book_baseline": "Harry and Ron must manoeuvre carefully to avoid Madam Pomfrey's watchful eye while extracting the paper from Hermione's fist - she is an active, alert presence they must work around, reinforcing her vigilant guardianship of patients.",
+      "film_portrayal": "Pomfrey bars the door initially, is persuaded by Ron's appeal, then exits. The boys retrieve the paper without needing to evade her. Her role as a watchful guardian who must be circumvented is replaced by a brief sympathetic gatekeeper moment.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reduction of her function as an alert, ever-present ward guardian. The book's version adds mild tension and reinforces her character; the film simplifies it without significant damage."
+    },
+    {
+      "scene": "PoA Film Scene 3 (Boggart lesson context) - Pomfrey entirely absent from dementor aftermath",
+      "book_baseline": "After Harry collapses on the train, Madam Pomfrey is summoned to McGonagall's office, examines Harry, clucks disapprovingly about dementors at a school, takes his pulse, feels his forehead, debates whether he needs the hospital wing, and approves of Lupin giving chocolate - a full scene establishing her as Harry's medical advocate and a voice of institutional conscience.",
+      "film_portrayal": "Pomfrey does not appear in the McGonagall office scene at all. The medical check and her commentary on dementors ('Setting dementors around a school...', 'He's all clammy') are cut entirely.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Her role as a moral voice criticising the dementor deployment and as Harry's immediate medical advocate is lost. This is one of her stronger characterisation moments in PoA - she is both practically competent and ethically outspoken. Its absence reduces her to a background figure in the film."
+    },
+    {
+      "scene": "PoA Film Scene 3 - Hospital wing sequence (Sirius/Fudge/Snape confrontation) - Pomfrey's advocacy compressed",
+      "book_baseline": "Pomfrey is a sustained, forceful presence: she tries to force Fudge and Snape out ('Minister, Professor! I must insist you leave - Potter is my patient'), physically stuffs chocolate into Harry's mouth to silence him and push him back to bed, shouts 'For heaven's sake! Is this a hospital wing or not?', purses her lips and slams her office door when dismissed by Dumbledore, then returns to enforce chocolate-eating and provides the alibi for Harry and Hermione. She is indignant, protective, and inadvertently comic.",
+      "film_portrayal": "Pomfrey is present but her confrontational advocacy is heavily reduced. The chocolate-stuffing moment, her repeated ejections of authority figures, and her slamming door exit are absent or compressed. She functions mainly as a background presence rather than an active, feisty patient-protector.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "This is the richest single sequence for Pomfrey's character in the entire book series - she is simultaneously fierce, funny, and principled. Compressing it loses the clearest expression of her defining trait: that her patients' welfare overrides all other authority, including Dumbledore's. The film reduces a vivid character to a functional extra."
+    },
+    {
+      "scene": "GoF Film Scene 4 (Ron poisoned - hospital wing) - Pomfrey present but characterisation thin",
+      "book_baseline": "Pomfrey enforces the six-visitor rule, is briefly confused by Hagrid's size, bustles off to clean muddy footprints, and is a warm, wry, professionally firm presence throughout Ron's recovery. She also keeps Ron from attending the Quidditch match and later mends Harry's cracked skull briskly.",
+      "film_portrayal": "Pomfrey is present and ministers to Ron but her specific character beats (the visitor-count confusion, the footprint-cleaning, the wry competence) are absent. She functions as set dressing rather than a characterised individual.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of texture. Her warmth and wry humour in this scene are part of what makes her more than a plot function, but the damage is minor and isolated."
+    },
+    {
+      "scene": "HBP Film Scene 5 (Astronomy Tower) - Pomfrey replaced by Snape as first-response instinct",
+      "book_baseline": "Harry's first instinct on seeing Dumbledore weakened is 'We need to get you up to the school, sir... Madam Pomfrey' - she is the automatic, trusted first resort for any serious injury, reinforcing her institutional centrality.",
+      "film_portrayal": "Harry says 'We need to get you up to the hospital, sir, to Madam Pomfrey' - this line is present and faithful. No damage here.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "Actually faithful - line is retained. No damage to score."
+    },
+    {
+      "scene": "DH Film Scene 7 (Battle of Hogwarts - Great Hall triage) - Pomfrey reduced to background",
+      "book_baseline": "Madam Pomfrey and a group of helpers treat the injured on the raised platform; she is named as one of the two people overseeing the evacuation alongside Filch; she is an active, named presence in the castle's last defence.",
+      "film_portrayal": "Pomfrey is visible treating the wounded in the Great Hall but is not named or given any dialogue or distinct action. Her role in the evacuation is not shown. She is an unnamed background figure.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. In the saga's climax she should be a recognisable, named presence doing her duty. Being reduced to an unnamed extra slightly diminishes the sense that Hogwarts' full community is defending itself, but the damage is small given her limited arc investment in the films overall."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

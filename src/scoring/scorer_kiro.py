@@ -342,6 +342,8 @@ def _call_kiro(prompt, model):
 def _extract_json(response_text):
     """Extract JSON from kiro-cli output which may contain markdown formatting."""
     # Try to find a JSON block in markdown fences
+    # Strip ANSI escape codes
+    response_text = re.sub(r"\x1b\[[0-9;]*m", "", response_text)
     match = re.search(r"```(?:json)?\s*\n(.*?)\n```", response_text, re.DOTALL)
     if match:
         try:

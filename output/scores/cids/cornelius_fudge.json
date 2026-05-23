@@ -1,0 +1,116 @@
+{
+  "character": "Cornelius Fudge",
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 44.5,
+  "cids": 1157.0,
+  "damage_per_exposure": 77.1,
+  "structural_damage_level": 3,
+  "structural_damage_multiplier": 1.25,
+  "adjusted_cids": 1446.2,
+  "main_damage_causes": [
+    "Compression of the GoF hospital wing confrontation removes the psychological depth of Fudge's denial, which is the engine of his entire antagonist arc across two films",
+    "Reduction of Fudge's role in the PoA Three Broomsticks scene transfers his narrative agency to McGonagall, stripping him of his most substantial early characterization moment",
+    "Absence of the HBP Prime Minister scene eliminates the tragic resolution of Fudge's arc, leaving him as an unresolved flat antagonist rather than a cautionary figure"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PoA Film - Leaky Cauldron meeting (Scene 3)",
+      "book_baseline": "Fudge is warm, paternal, almost fawning toward Harry - buttering crumpets, pouring tea, smiling 'like an uncle surveying a favorite nephew', clearly relieved Harry is safe and politically motivated to keep him happy. He is evasive but charming, deflecting questions about punishment with jovial dismissal.",
+      "film_portrayal": "Fudge is curt and businesslike. The extended warm tea-and-crumpets scene is stripped to a brief exchange. The paternal warmth, the crumpet-buttering, the 'favorite nephew' dynamic, and Fudge's nervous evasiveness about Black are all absent or compressed. The film Fudge simply informs Harry of the situation and warns him not to wander.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book scene establishes Fudge's defining trait: he is not malicious but self-serving and politically calculating, using warmth as a tool. His fawning over Harry here contrasts powerfully with his later persecution of Harry in OotP. Losing this texture flattens him into a generic authority figure and removes the irony of his later turn."
+    },
+    {
+      "scene": "PoA Film - Leaky Cauldron (Scene 3) - Hogsmeade refusal",
+      "book_baseline": "Fudge refuses to sign Harry's Hogsmeade permission form, citing rules ('rules are rules'), but the exchange reveals his discomfort - he is clearly bending every other rule for Harry yet draws the line here, showing the limits of his indulgence and his bureaucratic instinct.",
+      "film_portrayal": "The Hogsmeade permission form exchange is entirely absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of a character beat that showed Fudge's inconsistency - lavishing Harry with favors while hiding behind procedure when convenient. Small but contributes to the flattening of his characterization."
+    },
+    {
+      "scene": "PoA Film - Three Broomsticks conversation (Scenes 4-5)",
+      "book_baseline": "Fudge leads the conversation about Black with authority and detail. He recounts the Pettigrew scene with emotional weight ('I still dream about it sometimes'), defends the dementors uncomfortably, and reveals insider knowledge about Black's demeanor in Azkaban - 'asked if I'd finished with my newspaper, cool as you please'. He is the primary narrator of the backstory.",
+      "film_portrayal": "Fudge's role in the Three Broomsticks conversation is drastically reduced. McGonagall takes over as the primary narrator of the Potters' betrayal. Fudge contributes only brief lines ('Ha! Tell that to Peter Pettigrew!', 'Black was vicious'). His extended, emotionally textured account - including his personal trauma at the scene, his description of Black in Azkaban, and his gruff authority - is almost entirely cut.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "In the book, this scene is Fudge's most substantial characterization moment outside of GoF/OotP. He functions as an authoritative, emotionally complex narrator who simultaneously reveals his own limitations (defending dementors, accepting the official story uncritically). Transferring this role to McGonagall strips Fudge of narrative agency and removes the irony that the man who will later persecute Harry is here the one explaining why Harry should fear Black."
+    },
+    {
+      "scene": "GoF Film - Quidditch World Cup Top Box (Scene 11)",
+      "book_baseline": "Fudge greets Harry warmly 'in a fatherly fashion', introduces him proudly to the Bulgarian minister, and is shown as socially comfortable and politically at ease - a man who enjoys his status. His friendly relationship with Lucius Malfoy is noted but not dwelt upon.",
+      "film_portrayal": "Fudge's greeting of Harry is reduced to a brief amplified announcement ('Good evening!') opening the match. The personal warmth, the fatherly handshake, the introduction to the Bulgarian minister, and the social texture of his Top Box presence are absent. Malfoy's line about being 'in the Minister's box by personal invitation' establishes the Fudge-Malfoy connection but Fudge himself barely registers as a character.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Top Box scene establishes Fudge at his most comfortable and likeable before his decline. The contrast between this warm, socially confident minister and the paranoid, obstinate figure of OotP is important for the arc. The film reduces him to a functional announcer."
+    },
+    {
+      "scene": "GoF Film - Post-graveyard hospital wing confrontation (Scene 14)",
+      "book_baseline": "Fudge's refusal to believe Voldemort has returned is a long, psychologically detailed scene. He moves through disbelief, a 'curious smile', citing Rita Skeeter, questioning Harry's sanity, dismissing Snape's Dark Mark, and finally retreating with 'He can't be back, Dumbledore, he just can't be...' - a plea rather than a denial. His final act of dropping Harry's prize money on the bedside table is a telling detail of guilty conscience.",
+      "film_portrayal": "The confrontation is compressed. Fudge's psychological journey - the smile, the Rita Skeeter reference, the questioning of Harry's sanity, the extended argument about Death Eaters, Snape showing the Dark Mark - is largely cut. The film Fudge simply refuses ('He's not back') and the scene moves quickly. His final 'He's back' line at the very end of the film (after seeing Voldemort in the Ministry atrium) is his only significant moment.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the pivotal scene establishing Fudge's defining flaw for the saga: willful denial driven by political self-interest and fear. The book gives him a full psychological portrait - he is not stupid, he is choosing not to believe because belief would destroy his world. The film's compression reduces this to a simple 'no' which loses the tragic dimension Dumbledore identifies ('blinded by the love of the office you hold'). This undermines the OotP arc which depends on understanding why Fudge behaves as he does."
+    },
+    {
+      "scene": "GoF Film - Dumbledore's instructions to reassemble the Order (Scene 14)",
+      "book_baseline": "After Fudge leaves, Dumbledore explicitly states 'Fudge's attitude, though not unexpected, changes everything' and begins mobilizing the Order. This frames Fudge's denial as the inciting event for the war's second phase.",
+      "film_portrayal": "This framing is absent. The film does not explicitly connect Fudge's denial to the Order's mobilization in the same direct way.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Losing this explicit framing reduces Fudge's structural role in the saga - he is not just a bureaucrat in denial but the man whose denial directly enables Voldemort's resurgence by preventing coordinated resistance."
+    },
+    {
+      "scene": "OotP Film - Ministry hearing (Scene 16)",
+      "book_baseline": "Fudge presides over Harry's hearing with barely concealed hostility and procedural manipulation - changing the time and location, smirking, interrupting, shouting, turning brick-red, citing Rita Skeeter, and becoming increasingly unhinged as Dumbledore outmaneuvers him. His pettiness, paranoia, and abuse of institutional power are on full display across an extended scene.",
+      "film_portrayal": "The hearing is significantly compressed. Fudge's smirking, his Rita Skeeter reference, his shouting about the house-elf and Aunt Marge, his increasingly magenta face, and much of his procedural bullying are cut or reduced. The film version is more efficient but loses the portrait of a man using institutional power as a personal weapon.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The hearing is the fullest portrait of Fudge as antagonist - petty, vindictive, procedurally corrupt, and increasingly desperate. The book's extended version shows him as a genuinely dangerous figure who has weaponized the Ministry against a child. The film's compression reduces him to a stern bureaucrat rather than an active persecutor, weakening the audience's understanding of why the Order treats him as a serious threat."
+    },
+    {
+      "scene": "OotP Film - Dumbledore's Army discovery / Dumbledore's escape (Scene 18)",
+      "book_baseline": "Fudge is 'radiant with glee', bouncing on his toes, quivering with delight at catching Dumbledore. He shouts at Percy to send notes to the Daily Prophet, orders Dumbledore to Azkaban, and is then left stunned and humiliated when Dumbledore escapes. His final 'Well, Minerva, I'm afraid this is the end of your friend Dumbledore' is immediately undercut. He is shown as both triumphant and then pathetically wrong.",
+      "film_portrayal": "Fudge is present and orders Dumbledore's arrest, but the gleeful bouncing, the quivering delight, the Percy-and-Daily-Prophet moment, and the extended humiliation are compressed. The film captures the functional beats but not the full portrait of Fudge at his most petty and self-satisfied.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is Fudge's comic-villainous peak - his triumph is immediate and his humiliation complete. The book's fuller version makes his downfall more satisfying and his character more vivid. The compression is not catastrophic but loses texture."
+    },
+    {
+      "scene": "OotP Film - Fudge sees Voldemort in the Atrium (Scene 20)",
+      "book_baseline": "Fudge arrives in pyjamas under his cloak, gibbering ('Merlin's beard - here - here! - in the Ministry of Magic!'). He is shown as genuinely shocked and broken. His subsequent blustering at Dumbledore about the Portkey and his final whimpering 'He can't be back, Dumbledore, he just can't be...' from GoF is echoed in his complete collapse here.",
+      "film_portrayal": "Fudge's arrival and reaction are reduced to a single line: 'He's back.' The gibbering, the pyjamas detail, the blustering about the unauthorized Portkey, and the extended collapse of his denial are absent. His acknowledgment is immediate and undramatic.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's version of this moment is the payoff of Fudge's entire arc across GoF and OotP - a man who spent a year destroying Harry and Dumbledore to avoid this truth is finally forced to confront it, and he is broken by it. The film's single line 'He's back' is functional but eliminates the dramatic weight of the arc's resolution. The audience does not feel the full cost of his denial."
+    },
+    {
+      "scene": "HBP Book content - Fudge's visit to the Muggle Prime Minister (absent from films)",
+      "book_baseline": "The HBP opening chapter gives Fudge his most humanizing and structurally important scene: a broken, sacked man visiting the Prime Minister to introduce his successor, admitting his failures, and showing genuine regret. It recontextualizes his entire arc as a tragedy of a limited man overwhelmed by events beyond him.",
+      "film_portrayal": "This scene does not appear in any film. Fudge's sacking is referenced only obliquely.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Prime Minister scene is the culmination of Fudge's arc - it transforms him from antagonist to tragic figure and provides closure. Its absence means the films never complete his character journey. Audiences only see his villainy and denial without the humanizing resolution, leaving him as a flat obstacle rather than a rounded character whose fall carries meaning."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

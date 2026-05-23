@@ -1,0 +1,80 @@
+{
+  "character": "the Basilisk",
+  "fp_score": 75.0,
+  "infidelity_score": 25.0,
+  "weighted_infidelity_exposure": 16.0,
+  "cids": 400.0,
+  "damage_per_exposure": 61.5,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 440.0,
+  "main_damage_causes": [
+    "Harry's moment of desperate vulnerability and the thematic meaning of the sword-from-the-hat is replaced by physical action-hero spectacle, weakening the book's core idea that courage under helplessness is what defines a Gryffindor",
+    "Hermione's intellectual agency in solving the basilisk mystery is compressed and partially transferred to Harry, reducing her function as the trio's problem-solver",
+    "Minor relationship texture between Ron and Hermione is played for awkward comedy rather than warmth, lightly undermining their arc"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS Film - Chamber confrontation: Harry retrieves sword by climbing statue",
+      "book_baseline": "Harry is on the floor, desperate, with no options left. He rams the Sorting Hat onto his head and mentally pleads for help while flat on the ground. The sword appears inside the hat as a response to his need and courage in extremis.",
+      "film_portrayal": "Harry spots the sword glittering inside the hat after Fawkes drops it, then boldly climbs the Slytherin statue to reach it, fighting the basilisk on the way up in an action-hero sequence.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's version is a moment of profound vulnerability - Harry has nothing left and asks for help. The sword coming to him through the hat is a magical response to demonstrated loyalty and courage under despair. The film turns it into a physical feat of daring, removing the thematic weight of the hat as a conduit of Gryffindor's legacy and replacing inner courage with external action-hero bravado."
+    },
+    {
+      "scene": "CoS Film - Fawkes blinds the basilisk before Harry has engaged it",
+      "book_baseline": "Harry is running blind with eyes shut, tripping and falling, completely helpless. Fawkes blinds the basilisk mid-chase while Harry is on the ground, buying him the chance to fight.",
+      "film_portrayal": "Fawkes blinds the basilisk while Harry watches the shadow play on the wall, then Harry turns and looks directly at the now-blind basilisk's bloody eye sockets before engaging.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book emphasises Harry's terror and blindness throughout - he cannot look. The film lets Harry watch the blinding happen via shadows and then look at the basilisk freely once blinded, reducing the sustained tension of a boy fighting a lethal creature he can never see."
+    },
+    {
+      "scene": "CoS Film - Riddle taunts dying Harry at length with monologue",
+      "book_baseline": "After Harry is fanged, Riddle watches but the focus is on Harry's fading consciousness and his desperate crawl to the diary. The act of stabbing the diary is described as instinctive, without thinking.",
+      "film_portrayal": "Riddle delivers an extended gloating monologue ('So ends the famous Harry Potter... you'll be back with your dear Mudblood mother soon') while Harry lies dying, framing it as a villain set-piece.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor inflation of Riddle's screen time at the expense of the intimate, fading interiority of Harry's final act. The book's instinctive, unthinking stab of the diary is more powerful than acting under a villain's speech."
+    },
+    {
+      "scene": "CoS Film - Hermione's deduction replaced by written note",
+      "book_baseline": "Hermione works out the basilisk independently and writes 'pipes' on the torn page as a note. Harry and Ron then reason through all the victims themselves using Hermione's page and their own knowledge (roosters, Aragog's clue about the bathroom).",
+      "film_portrayal": "Harry and Ron find Hermione's torn page and Harry does essentially all the deductive reasoning aloud, with 'Pipes' being Hermione's only visible contribution shown as a handwritten word on the page.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Hermione's intellectual agency - working out the basilisk, the pipes, and warning the first person she met to use a mirror - is compressed into a single scrawled word. Harry gets the full deduction scene, diminishing Hermione's role as the one who actually solved the mystery."
+    },
+    {
+      "scene": "CoS Film - Ron and Hermione reunion: awkward handshake",
+      "book_baseline": "The book has no equivalent reunion scene at this point in CoS; the broader series establishes Ron and Hermione's growing closeness and eventual relationship as a slow-burn arc.",
+      "film_portrayal": "When Hermione runs in and embraces Harry, she then turns to Ron and they share an awkward pause before shaking hands stiffly.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The handshake plays the Ron-Hermione dynamic for comedy at the expense of their emotional bond. It undercuts the warmth of their friendship at a moment of relief and mildly damages the groundwork for their eventual relationship arc."
+    },
+    {
+      "scene": "DH1 Film - Basilisk fang used to destroy diadem by Hermione",
+      "book_baseline": "In the book, the diadem is destroyed by Fiendfyre in the Room of Requirement, not by a basilisk fang. Hermione carries basilisk fangs from the Chamber to destroy the cup Horcrux at Gringotts.",
+      "film_portrayal": "Hermione tosses Harry a basilisk fang in the corridor and he uses it to destroy the diadem immediately after escaping the Room of Requirement.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is a DH film compression that reassigns the method of destruction. It is a plot mechanics change rather than a characterisation damage, but it does slightly misrepresent the basilisk's role in the saga - the fang's significance is diluted by being used as a generic Horcrux-destroyer in multiple contexts beyond its book function."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

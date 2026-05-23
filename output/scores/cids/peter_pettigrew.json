@@ -1,0 +1,116 @@
+{
+  "character": "Peter Pettigrew",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 28.0,
+  "cids": 784.0,
+  "damage_per_exposure": 74.7,
+  "structural_damage_level": 4,
+  "structural_damage_multiplier": 1.5,
+  "adjusted_cids": 1176.0,
+  "main_damage_causes": [
+    "The complete removal of Wormtail's death-by-silver-hand in DH severs the saga-level thematic payoff of Harry's mercy in PoA, destroying the most important narrative consequence of Pettigrew's entire arc",
+    "Compression of the Shrieking Shack confrontation removes the psychological depth that makes Pettigrew a coherent character rather than a plot device - his cowardice-as-philosophy, his groveling, and the moral cross-examination are the only scenes that explain why he betrayed his friends",
+    "Absence of young Pettigrew (Pensieve, Order photograph) and the Spinner's End resentment scene means film audiences never see the insecure hanger-on whose need for powerful protectors drove his betrayal, leaving his motivation opaque"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "PoA Film - Shrieking Shack confrontation (Pettigrew transformation and confession)",
+      "book_baseline": "Pettigrew undergoes an extended, psychologically rich confrontation: he grovels, pleads, appeals to each person individually, offers self-justifications ('He was taking over everywhere! What was there to be gained by refusing him?'), is exposed through sustained cross-examination by Lupin and Black, and reveals his cowardice as a deeply embedded character trait. He crawls to Ron, Hermione, and Harry in sequence. The scene runs many pages and is the moral and dramatic climax of his arc.",
+      "film_portrayal": "The confrontation is heavily compressed. Pettigrew transforms, says a few lines ('I didn't mean to! The Dark Lord, you have no idea...'), appeals briefly to Ron and Hermione, then is silenced. The sustained groveling, the philosophical exchange about cowardice vs. loyalty, and Sirius's devastating speech ('You always liked big friends who'd look after you') are cut or truncated to a few exchanges.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's confrontation is the only scene that fully establishes Pettigrew as a psychologically coherent character - a coward who chose self-preservation over loyalty, not a cartoonish villain. Compressing it strips the moral weight from Harry's mercy decision and reduces Pettigrew to a plot device."
+    },
+    {
+      "scene": "PoA Film - Shrieking Shack: Pettigrew's self-justification speech",
+      "book_baseline": "Pettigrew delivers a revealing self-justification: 'He was taking over everywhere! What was there to be gained by refusing him?' and 'He would have killed me, Sirius!' - showing a man who rationalized betrayal through fear and self-interest, not pure evil. Black's counter ('Only innocent lives, Peter!') frames the moral stakes explicitly.",
+      "film_portrayal": "Pettigrew says only 'I didn't mean to! The Dark Lord, you have no idea the weapons he possesses! Ask yourself what you would have done, Sirius. What would you have done!' The film collapses his rationalization into a single deflecting question, removing the explicit cowardice-as-philosophy dimension.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version establishes that Pettigrew is not merely scared but morally bankrupt - he chose the winning side for gain. The film's version makes him seem more sympathetically terrified, softening the condemnation and reducing the thematic clarity about what kind of person betrays their friends."
+    },
+    {
+      "scene": "PoA Film - Pettigrew's escape during werewolf chaos",
+      "book_baseline": "Pettigrew seizes Lupin's dropped wand, stuns Ron and Crookshanks, and Harry actively tries to stop him with 'Expelliarmus' - Pettigrew transforms and escapes through Ron's manacle. Harry's agency in attempting to prevent the escape is clear, and the failure has weight.",
+      "film_portrayal": "Pettigrew grabs the wand, Harry casts Expelliarmus (the wand flies away), Pettigrew simply grins hideously and transforms into a rat, darting off. The mechanics are simplified and Pettigrew's cunning in exploiting the chaos is reduced to a blank grin and disappearance.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reduction in Pettigrew's active cunning during escape, but the core beat (he escapes) is preserved. Low damage."
+    },
+    {
+      "scene": "PoA Film - Three Broomsticks exposition scene",
+      "book_baseline": "McGonagall describes Pettigrew as someone who 'hero-worshipped Black and Potter, never quite in their league, talent-wise' and expresses personal regret for being sharp with him. Fudge describes him as 'little Peter Pettigrew' who confronted Black sobbing 'Lily and James, Sirius! How could you?' - establishing his emotional attachment to the Potters and his apparent bravery before the 'murder.'",
+      "film_portrayal": "The scene is present but McGonagall's personal regret and the detail about Pettigrew's talent level relative to the others is absent. The emotional texture of how the wizarding world perceived Pettigrew - as a lesser but loyal friend - is thinned.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The loss of McGonagall's regret and the 'never quite in their league' detail removes early foreshadowing of Pettigrew's inferiority complex, which is the psychological root of his betrayal. Minor damage since the scene still functions."
+    },
+    {
+      "scene": "GoF Film - Little Hangleton graveyard resurrection scene",
+      "book_baseline": "Wormtail is depicted in extended psychological detail: trembling, sobbing, his voice breaking, showing revulsion as he carries Voldemort's homunculus body, cutting off his own hand while 'his voice broke into petrified sobs.' After the resurrection, he collapses, cradling his stump, sobbing. Voldemort then cruelly grants him a silver hand while acknowledging he returned 'out of fear, not loyalty' and 'you deserve this pain.' The scene establishes Wormtail as a man trapped by his own cowardice, suffering for it.",
+      "film_portrayal": "The ritual is present but Wormtail's psychological suffering is significantly compressed. The film renders the ritual efficiently but removes the extended sobbing, the revulsion at carrying Voldemort's body, and the nuanced exchange where Voldemort explicitly names Wormtail's cowardice before rewarding him. Wormtail's emotional state is conveyed visually but without the verbal texture.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's graveyard scene is the fullest portrait of Wormtail's trapped, suffering existence under Voldemort. The film preserves the plot function but loses the psychological dimension that makes Wormtail pitiable as well as contemptible - relevant to Dumbledore's later point about the life-debt."
+    },
+    {
+      "scene": "GoF Film - Voldemort's speech to Death Eaters: Wormtail's characterization",
+      "book_baseline": "Voldemort publicly humiliates Wormtail before the assembled Death Eaters: 'You returned to me, not out of loyalty, but out of fear of your old friends. You deserve this pain, Wormtail.' He also recounts Wormtail finding Bertha Jorkins ('a stroke of brilliance I would not have thought possible from you') - establishing Wormtail's low status even among Death Eaters and Voldemort's contemptuous use of him.",
+      "film_portrayal": "Voldemort says only 'Out of fear, not loyalty. Still, you have proved yourself useful these past few months, Wormtail.' The extended public humiliation, the detailed account of Wormtail's journey back to Voldemort, and the explicit statement that he deserves pain are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Wormtail's position in the Death Eater hierarchy as the lowest of the low - despised even by his master. This context makes his later silver hand 'reward' more ironic and his eventual mercy moment in DH more meaningful. The film's version is functional but thematically thinner."
+    },
+    {
+      "scene": "HBP Film - Spinner's End: Wormtail's role",
+      "book_baseline": "Wormtail has a sustained scene at Spinner's End where he actively resists Snape's dismissiveness ('I am not your servant!'), asserts himself ('I can speak to him myself if I want to!'), and is caught eavesdropping. He is shown as resentful, sulky, and chafing under Snape's authority - a man with wounded pride despite his degraded position.",
+      "film_portrayal": "Wormtail appears only briefly - he opens the door, leads the sisters in, and is dismissed with 'Run along, Wormtail.' His resentment, the argument about servitude, and the eavesdropping are entirely cut.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Spinner's End scene is the only moment in the later books where Pettigrew shows any residual self-assertion. Cutting it reduces him to a purely passive functionary and removes the last glimpse of the wounded ego beneath the servility - relevant to understanding why a 'moment of mercy' is still possible in him."
+    },
+    {
+      "scene": "DH Film - Malfoy Manor cellar: Wormtail's death",
+      "book_baseline": "Wormtail's silver hand turns on him when he hesitates to strangle Harry - his moment of pity (letting Harry go) triggers the hand Voldemort gave him to kill him. Harry and Ron try desperately to pull the hand away. Pettigrew dies because of one small unconscious impulse of mercy. Dumbledore had foreseen this: 'You understood Wormtail too... You knew there was a bit of regret there, somewhere.' This is the payoff of Harry's mercy in PoA.",
+      "film_portrayal": "Wormtail is stunned by Dobby (knocked stiff as a board down the stairs) and his wand is taken. He does not strangle Harry, there is no moment of hesitation or mercy, and he does not die in the film at all - he simply disappears from the narrative after being stunned.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "This is the most structurally damaging change. The entire thematic payoff of Harry sparing Pettigrew in PoA - Dumbledore's prophecy that 'the time may come when you will be very glad you saved Pettigrew's life' - is completely destroyed. The life-debt, the silver hand as ironic punishment, the moment of mercy that kills him: all gone. The saga-level theme about the power of mercy and the consequences of compassion is severed. Audiences who only watched the films never see why Harry's decision in PoA mattered."
+    },
+    {
+      "scene": "PoA Film - Harry's mercy speech",
+      "book_baseline": "Harry says: 'I'm not doing this for you. I'm doing it because -- I don't reckon my dad would've wanted them to become killers -- just for you.' This is a moral statement about Harry's values, not a strategic calculation.",
+      "film_portrayal": "Harry says: 'I don't reckon my father'd want his best friends to become killers for a worthless piece of vermin like Pettigrew. Besides: Dead, the truth dies with him. Alive... you're free.' The film adds a pragmatic justification (dead = truth dies, alive = Sirius goes free) that partially undermines the purely moral basis of the book's mercy.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Harry acts from pure moral principle; the film's Harry also acts from strategic self-interest (freeing Sirius). This dilutes the thematic weight of the mercy and makes the later payoff (Pettigrew's death from the life-debt) feel less earned, since the mercy was partly transactional."
+    },
+    {
+      "scene": "OotP/HBP Films - Pettigrew's absence from Order photograph and Marauder backstory",
+      "book_baseline": "OotP establishes Pettigrew's place in the original Order photograph - 'flushed with pleasure at his inclusion in this coolest of gangs' - and the Pensieve scene in OotP shows young Pettigrew watching James with 'avid anticipation,' sniggering at Snape's humiliation, and being described as anxiously chewing his nails during exams. This builds a portrait of a hanger-on who craved belonging and approval.",
+      "film_portrayal": "The OotP film omits the Order photograph scene with Pettigrew. The Pensieve sequence in OotP is not included in the films at all. Pettigrew's youth and his relationship to the Marauder group as an insecure follower is never shown.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Without seeing young Pettigrew - anxious, approval-seeking, thrilled to be included - audiences lack the psychological foundation for his betrayal. The books show a man who always needed powerful protectors; the films show only the result without the cause."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

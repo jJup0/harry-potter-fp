@@ -1,0 +1,98 @@
+{
+  "character": "Fawkes",
+  "fp_score": 82.0,
+  "infidelity_score": 18.0,
+  "weighted_infidelity_exposure": 9.5,
+  "cids": 171.0,
+  "damage_per_exposure": 38.0,
+  "structural_damage_level": 2,
+  "structural_damage_multiplier": 1.1,
+  "adjusted_cids": 188.1,
+  "main_damage_causes": [
+    "Fawkes's active agency is reduced: the diary delivery and the 'Don't leave me' beat are removed, converting the phoenix from a loyal participant with independent initiative into primarily a healer and transport mechanism.",
+    "Harry's defiant speech to Riddle about his mother's sacrifice is cut, removing the earliest explicit articulation of the love-protection theme and Harry's moral courage in the face of death.",
+    "The emotional texture of the Fawkes-Harry bond (shoulder-squeeze, wing-sweep, glowing tunnel walk) is thinned, leaving the relationship functional rather than felt."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (Chamber) - Fawkes arrival: no shoulder-squeeze or emotional bond",
+      "book_baseline": "When Fawkes arrives in the Chamber, he grips Harry's shoulder gently with his golden claws, a moment of physical reassurance and connection. Harry breathes his name with recognition and relief.",
+      "film_portrayal": "Fawkes swoops in and drops the Sorting Hat. The gentle shoulder-squeeze and Harry's whispered 'Fawkes' are absent. The arrival is functional rather than emotionally resonant.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The shoulder-squeeze is a small but defining beat of the Fawkes-Harry bond - the phoenix offering comfort in a moment of terror. Its absence flattens the relationship to utility."
+    },
+    {
+      "scene": "Film Scene 2 (Chamber) - Harry's internal courage-building while Riddle taunts",
+      "book_baseline": "Harry explicitly weighs his odds, thinks fast, and consciously decides to provoke Riddle sooner rather than later to save Ginny. He delivers a defiant speech about his mother's sacrifice, shaking with suppressed rage.",
+      "film_portrayal": "Harry does not deliver the speech about his Muggle-born mother or articulate why Voldemort failed. The confrontation moves quickly to Riddle's anagram reveal without Harry's moral defiance or his reasoning about Lily's sacrifice.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Harry's speech is his first articulation of the love-protection theme central to the saga. Removing it strips him of moral agency and loses the earliest explicit statement of why Voldemort could not kill him - material that matters for audience understanding of the wider story."
+    },
+    {
+      "scene": "Film Scene 2 (Chamber) - Fawkes blinding the Basilisk: no 'Don't leave me' moment",
+      "book_baseline": "Harry shuts his eyes and feels Fawkes's wing sweep his cheek as the phoenix takes flight toward the Basilisk. Harry internally cries 'Don't leave me!' but holds back, knowing a phoenix has no chance against the king of serpents - then is proved wrong.",
+      "film_portrayal": "Harry watches the action on the wall as shadows. The intimate moment of Harry fearing abandonment and then being vindicated by Fawkes's courage is not present.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The 'Don't leave me' beat defines Fawkes as a loyal companion who exceeds Harry's expectations. Its absence reduces Fawkes to a plot device rather than a character whose faithfulness is emotionally demonstrated."
+    },
+    {
+      "scene": "Film Scene 2 (Chamber) - Phoenix tears healing: Harry tells Ginny the explanation aloud",
+      "book_baseline": "The healing is wordless and instinctive on Fawkes's part. Harry only realises what is happening as the pain leaves and the wound closes. Riddle notices and says 'Phoenix tears... healing powers... I forgot' - showing even Riddle is caught off guard.",
+      "film_portrayal": "Harry narrates aloud to Ginny: 'Of course. Dumbledore told me. Phoenix tears have healing powers.' The moment is explained rather than experienced.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tonal damage: the film trades a moment of wonder and discovery for expository dialogue, slightly reducing the magic of the scene and Fawkes's agency as a healer."
+    },
+    {
+      "scene": "Film Scene 2 (Chamber) - Fawkes delivers the diary to Harry",
+      "book_baseline": "After Riddle fires at Fawkes and the phoenix takes flight, Fawkes swoops back and drops the diary into Harry's lap - a decisive, independent act that gives Harry the means to destroy Riddle.",
+      "film_portrayal": "Harry crawls to Ginny and takes the diary from her hands himself. Fawkes does not deliver it. Harry uses the basilisk fang he already holds.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Fawkes actively provides the instrument of Riddle's destruction - a meaningful demonstration of the phoenix's loyal intelligence. The film reassigns this function to Harry's own initiative, which is not wrong per se, but removes a key beat of Fawkes as an active participant rather than a passive healer."
+    },
+    {
+      "scene": "Film Scene 2 (post-Chamber tunnel) - Fawkes leads the group out and glows in the dark",
+      "book_baseline": "Fawkes leads the group back through the tunnel, his wide scarlet wings emitting a soft golden glow that lights the darkness. He is explicitly the guide who leads them to safety.",
+      "film_portrayal": "Fawkes flies them directly out of the pipe in one sequence. The tunnel-walking scene with Fawkes glowing as a lantern is condensed away.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of a characterising beat - Fawkes as a literal light in darkness - but the essential function (carrying them out) is retained."
+    },
+    {
+      "scene": "Film Scene 2 (Dumbledore's office aftermath) - Dumbledore's loyalty speech and Fawkes on his knee",
+      "book_baseline": "Dumbledore strokes Fawkes on his knee and tells Harry: 'Nothing but real loyalty could have called Fawkes to you.' This is the explicit thematic statement linking Fawkes to loyalty as a value.",
+      "film_portrayal": "Dumbledore delivers the loyalty line but it is slightly compressed. Fawkes perches on a pedestal behind Dumbledore rather than on his knee being stroked during the conversation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The physical intimacy of Dumbledore stroking Fawkes while delivering the loyalty theme reinforces the bond between wizard and phoenix. The film retains the line but loses the visual embodiment of it."
+    },
+    {
+      "scene": "Film - Fawkes's lament after Dumbledore's death and departure (book HBP material absent from film corpus)",
+      "book_baseline": "After Dumbledore dies, Fawkes sings a lament over the grounds all night, then departs Hogwarts forever when Harry realises the phoenix has gone - just as Dumbledore has left the world. This is one of the most emotionally significant Fawkes moments in the saga.",
+      "film_portrayal": "This material is from a later film (HBP) and is not present in the CoS film corpus being scored. Not applicable to this film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "Not scored - outside the scope of the CoS film."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}

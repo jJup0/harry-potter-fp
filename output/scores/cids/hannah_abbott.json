@@ -1,0 +1,44 @@
+{
+  "character": "Hannah Abbott",
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 2.5,
+  "cids": 67.5,
+  "damage_per_exposure": 45.0,
+  "structural_damage_level": 1,
+  "structural_damage_multiplier": 1.0,
+  "adjusted_cids": 67.5,
+  "main_damage_causes": [
+    "Hannah's only substantive film appearance relocates her book dialogue from a direct social interaction to overheard gossip, weakening the interpersonal dimension of her tentative defence of Harry",
+    "Her anxious, questioning voice (consistent across book scenes 6, 8, 19, 21, 37) is present only in vestigial form in the film corpus provided, leaving her personality largely unestablished on screen",
+    "The film corpus shows Hannah with no independent scenes beyond the single corridor exchange, meaning the cumulative book portrait (OWL stress breakdown, DA member, Battle of Hogwarts participant, Seamus pairing) has no film equivalent to score - absence of defining material rather than active misrepresentation"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "CoS film Scene 73 - Hufflepuff corridor conversation overheard by Harry",
+      "book_baseline": "In CoS book, Hannah is present in the Herbology corridor conversation with Ernie and actively participates face-to-face with Harry and Ron, working at the same Shrivelfig. The encounter is direct and social, with Hannah voicing her uncertainty about Harry ('He always seems so nice, though') in his presence after he has joined their group.",
+      "film_portrayal": "Hannah's defence of Harry ('He always seems so nice, though. And, after all, he is the one who made You Know Who disappear.') is delivered as gossip overheard through a door, never to Harry's face. Hannah has no awareness Harry is listening and the moment of tentative social courage is stripped of its interpersonal weight.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book the exchange happens in Harry's company during Herbology, making Hannah's defence a small act of social bravery directed at Ernie in front of Harry. The film converts it to unknowing gossip, removing the interpersonal dynamic and reducing Hannah to a background voice rather than a peer engaging directly with the situation."
+    },
+    {
+      "scene": "CoS film Scene 73 - Hannah's line omits the book's uncertainty qualifier",
+      "book_baseline": "Book Hannah says 'He always seems so nice, though' followed by 'and, well, he's the one who made You-Know-Who disappear. He can't be all bad, can he?' - the trailing question marks and 'well' signal genuine moral uncertainty and a character thinking aloud.",
+      "film_portrayal": "Film Hannah says 'He always seems so nice, though. And, after all, he is the one who made You Know Who disappear.' The hedging question ('He can't be all bad, can he?') is dropped, flattening her voice from uncertain-but-reasoning to a simple declarative statement.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but the book's phrasing characterises Hannah as someone who reasons carefully and seeks reassurance. The film line is functionally similar but loses the nuance of her anxious, questioning personality established across multiple book scenes."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6"
+  }
+}
