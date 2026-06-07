@@ -313,7 +313,7 @@ def build_character_cards_html(scores, justifications):
             # Handle both old format (string) and new format (dict with sub-fields)
             dim_just = just.get(dim, "No justification available.")
             if isinstance(dim_just, dict):
-                text = dim_just.get("penalty_logic", dim_just.get("difference", "No justification available."))
+                text = dim_just.get("penalty_logic", dim_just.get("synthesis", dim_just.get("difference", "No justification available.")))
             else:
                 text = dim_just
             dim_html += (
@@ -340,9 +340,10 @@ def build_character_cards_html(scores, justifications):
     return "\n".join(parts)
 
 
-def build_dashboard(scores):
+def build_dashboard(scores, exclude=None):
+    exclude = exclude or set()
     justifications = load_justifications()
-    cids_data = load_cids()
+    cids_data = [d for d in load_cids() if d["character"] not in exclude]
     template = load_template()
 
     # Build character data for JS filtering
@@ -397,10 +398,17 @@ def build_dashboard(scores):
 
 
 def main():
+    import yaml
+
+    with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
+        config = yaml.safe_load(f)
+    exclude = set(config.get("scoring", {}).get("exclude_from_dashboard", []))
+
     scores, screen_time, book_mentions = load_data()
+    scores = [s for s in scores if s["character"] not in exclude]
     print(f"Building dashboard with {len(scores)} characters...")
 
-    html = build_dashboard(scores)
+    html = build_dashboard(scores, exclude)
 
     with open(OUTPUT_FILE, "w") as f:
         f.write(html)

@@ -182,10 +182,13 @@ def _merge_scores(char_name, per_book_scores, model):
         f'"key_relationships": <0-10>, "complexity_nuance_lost_material": <0-15>}}, '
         f'"total": <sum 0-100>, '
         f'"confidence": {{"global": "High/Medium/Low"}}, '
-        f'"justification": {{...per dimension...}}, '
+        f'"justification": {{"personality_voice": "<string>", "narrative_role_agency": "<string>", '
+        f'"motivations_internal_conflict": "<string>", "character_arc": "<string>", '
+        f'"key_relationships": "<string>", "complexity_nuance_lost_material": "<string>"}}, '
         f'"lost_or_transferred_material": [...], '
         f'"score_caps_applied": [...], '
-        f'"key_observations": "..."}}'
+        f'"key_observations": "..."}}\n\n'
+        f"Each justification value MUST be a plain string (not a nested object)."
     )
 
     for attempt in range(1, MAX_RETRIES + 1):

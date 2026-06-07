@@ -133,7 +133,7 @@ function showCharacterPanel(charName) {
     var dimJust = justDims[dim];
     var justText = '';
     if (typeof dimJust === 'object' && dimJust !== null) {
-      justText = dimJust.penalty_logic || dimJust.difference || 'No justification available.';
+      justText = dimJust.penalty_logic || dimJust.synthesis || dimJust.difference || 'No justification available.';
     } else {
       justText = dimJust || 'No justification available.';
     }
