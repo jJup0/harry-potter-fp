@@ -7,45 +7,45 @@
   "complexity_nuance_lost_material": 0,
   "justification": {
     "personality_voice": {
-      "book_baseline": "Sirius Black does not appear in the book corpus provided. The corpus covers Philosopher's Stone material only, where Sirius is mentioned once by name (Hagrid says 'Young Sirius Black lent it to me' referring to the motorcycle) but does not speak, act, or appear as a character.",
-      "film_portrayal": "Sirius Black does not appear in the film corpus provided. The film corpus covers Philosopher's Stone material only, and the motorcycle scene omits even the brief mention of Sirius by name.",
-      "difference": "There is no film portrayal of Sirius Black in this corpus to evaluate against the book baseline.",
-      "penalty_logic": "No score can be assigned. The corpus contains no material depicting Sirius Black as a character in either medium.",
+      "book_baseline": "Sirius Black does not appear in any of the book corpus scenes provided. He is mentioned once by name in Scene 8 (Hagrid tells Dumbledore he borrowed the motorcycle from 'young Sirius Black') and once in Scene 13 (Hagrid says he'll return Sirius his bike). No personality, voice, dialogue, or behavioral evidence for Sirius is present in the book corpus.",
+      "film_portrayal": "Sirius Black does not appear in any of the film corpus scenes provided. He is not mentioned by name in any of the screenplay excerpts.",
+      "difference": "Both corpora contain essentially no material for Sirius Black. The book corpus contains only two indirect name-references with zero characterization. The film corpus contains zero references.",
+      "penalty_logic": "There is no basis on which to score any dimension. The corpus does not contain Sirius Black scenes from either medium. Scoring would require fabricating an evaluation from outside the corpus, which the methodology prohibits.",
       "evidence_status": "Not enough evidence"
     },
     "narrative_role_agency": {
-      "book_baseline": "In the provided corpus, Sirius exists only as a name dropped by Hagrid. No narrative role or agency is established within this corpus.",
-      "film_portrayal": "Sirius does not appear in the film corpus.",
+      "book_baseline": "Not present in the provided corpus.",
+      "film_portrayal": "Not present in the provided corpus.",
       "difference": "No comparable material exists in either corpus.",
-      "penalty_logic": "No score can be assigned.",
+      "penalty_logic": "Cannot evaluate.",
       "evidence_status": "Not enough evidence"
     },
     "motivations_internal_conflict": {
-      "book_baseline": "No motivations or internal conflict for Sirius are present in the provided corpus.",
-      "film_portrayal": "Sirius does not appear in the film corpus.",
-      "difference": "No comparable material exists.",
-      "penalty_logic": "No score can be assigned.",
+      "book_baseline": "Not present in the provided corpus.",
+      "film_portrayal": "Not present in the provided corpus.",
+      "difference": "No comparable material exists in either corpus.",
+      "penalty_logic": "Cannot evaluate.",
       "evidence_status": "Not enough evidence"
     },
     "character_arc": {
-      "book_baseline": "No arc material for Sirius is present in the provided corpus.",
-      "film_portrayal": "Sirius does not appear in the film corpus.",
-      "difference": "No comparable material exists.",
-      "penalty_logic": "No score can be assigned.",
+      "book_baseline": "Not present in the provided corpus.",
+      "film_portrayal": "Not present in the provided corpus.",
+      "difference": "No comparable material exists in either corpus.",
+      "penalty_logic": "Cannot evaluate.",
       "evidence_status": "Not enough evidence"
     },
     "key_relationships": {
-      "book_baseline": "No relationship dynamics for Sirius are present in the provided corpus.",
-      "film_portrayal": "Sirius does not appear in the film corpus.",
-      "difference": "No comparable material exists.",
-      "penalty_logic": "No score can be assigned.",
+      "book_baseline": "Not present in the provided corpus.",
+      "film_portrayal": "Not present in the provided corpus.",
+      "difference": "No comparable material exists in either corpus.",
+      "penalty_logic": "Cannot evaluate.",
       "evidence_status": "Not enough evidence"
     },
     "complexity_nuance_lost_material": {
-      "book_baseline": "No characterization material for Sirius is present in the provided corpus.",
-      "film_portrayal": "Sirius does not appear in the film corpus.",
-      "difference": "No comparable material exists.",
-      "penalty_logic": "No score can be assigned.",
+      "book_baseline": "Not present in the provided corpus.",
+      "film_portrayal": "Not present in the provided corpus.",
+      "difference": "No comparable material exists in either corpus.",
+      "penalty_logic": "Cannot evaluate.",
       "evidence_status": "Not enough evidence"
     }
   },
@@ -58,10 +58,10 @@
     "key_relationships": "Low",
     "complexity_nuance_lost_material": "Low"
   },
-  "lost_or_transferred_material": [
-    "The book corpus contains a single mention of Sirius Black by Hagrid ('Young Sirius Black lent it to me') establishing his existence and his connection to Hagrid and the motorcycle. This line is absent from the film corpus, where the motorcycle's owner is not named."
+  "lost_or_transferred_material": [],
+  "score_caps_applied": [
+    "No score assigned: corpus contains no Sirius Black scenes in either medium. Scoring any dimension would require fabricating evidence outside the provided corpus, which the methodology explicitly prohibits. All dimensions scored 0 to reflect absence of evaluable material, not a faithfulness judgment."
   ],
-  "score_caps_applied": [],
-  "key_observations": "The provided corpus \u2014 both book and film \u2014 covers only Philosopher's Stone material, in which Sirius Black is not a present character. He is named once in the book corpus (Hagrid's line about the motorcycle) and not at all in the film corpus. There is no basis on which to evaluate any dimension of his portrayal. All scores are 0 and all confidence levels are Low, reflecting the complete absence of evaluable material, not a judgment that the films portray him unfaithfully. A meaningful FP evaluation of Sirius Black would require corpus material from Prisoner of Azkaban onward.",
+  "key_observations": "The provided corpus does not contain any scenes featuring Sirius Black in either the book or film excerpts. The book corpus includes two passing name-mentions (Hagrid borrowed the motorcycle from 'young Sirius Black'; Hagrid will return the bike to Sirius) with zero characterization. The film corpus contains no mention of Sirius at all. The corpus appears to cover only Harry Potter and the Philosopher's Stone material, in which Sirius Black does not appear as a character. A meaningful FP evaluation is not possible from this corpus. All scores are set to 0 and confidence is Low across all dimensions to reflect the total absence of evaluable evidence, not to imply the film portrayal is unfaithful.",
   "book": "1_philosophers_stone"
 }

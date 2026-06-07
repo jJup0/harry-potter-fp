@@ -182,13 +182,13 @@ def _merge_scores(char_name, per_book_scores, model):
         f'"key_relationships": <0-10>, "complexity_nuance_lost_material": <0-15>}}, '
         f'"total": <sum 0-100>, '
         f'"confidence": {{"global": "High/Medium/Low"}}, '
-        f'"justification": {{"personality_voice": "<string>", "narrative_role_agency": "<string>", '
-        f'"motivations_internal_conflict": "<string>", "character_arc": "<string>", '
-        f'"key_relationships": "<string>", "complexity_nuance_lost_material": "<string>"}}, '
+        f'"justification": {{"<dimension>": {{"book_baseline": "<string>", "film_portrayal": "<string>", '
+        f'"difference": "<string>", "evidence_status": "<string>", "penalty_logic": "<string>"}}, ...}}, '
         f'"lost_or_transferred_material": [...], '
         f'"score_caps_applied": [...], '
         f'"key_observations": "..."}}\n\n'
-        f"Each justification value MUST be a plain string (not a nested object)."
+        f"Each justification dimension MUST be an object with exactly these keys: "
+        f"book_baseline, film_portrayal, difference, evidence_status, penalty_logic."
     )
 
     for attempt in range(1, MAX_RETRIES + 1):
