@@ -109,11 +109,6 @@ def load_corpus(char_name):
     return corpus
 
 
-def corpus_hash(corpus):
-    """Deprecated - use corpus_version instead."""
-    return None
-
-
 def char_score_path(backend, char_name):
     """Path to individual character score file."""
     safe = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
@@ -167,7 +162,7 @@ def main():
 
     config = load_config()
     scoring_config = config.get("scoring", {})
-    backend = args.backend or scoring_config.get("backend", "rule_based")
+    backend = args.backend or scoring_config.get("backend", "comparative")
 
     score_fn = get_scorer(backend)
     characters = load_characters()
