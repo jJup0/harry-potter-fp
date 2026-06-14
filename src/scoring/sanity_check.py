@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Sanity-check FP scores against web knowledge via kiro-cli with web search."""
-import json, os, re, subprocess, sys, time
+import json, os, re, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 PROJECT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.join(PROJECT, "src"))
+from llm import call_kiro as _call_kiro, extract_json
+
 SCORES_DIR = os.path.join(PROJECT, "output", "scores", "kiro")
 RESULTS_DIR = os.path.join(PROJECT, "output", "sanity_checks")
 MODEL = "claude-sonnet-4.6"
@@ -16,17 +19,7 @@ def result_path(char_name):
 
 
 def call_kiro(prompt):
-    result = subprocess.run(
-        ["kiro-cli", "chat", "--no-interactive", "--model", MODEL, "--trust-tools=web_search"],
-        input=prompt,
-        capture_output=True,
-        text=True,
-        timeout=120,
-        cwd=PROJECT,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"kiro-cli failed: {result.stderr[:200]}")
-    return result.stdout
+    return _call_kiro(prompt, model=MODEL, trust_tools="web_search", timeout=120, cwd=PROJECT)
 
 
 def check_one(score_file):

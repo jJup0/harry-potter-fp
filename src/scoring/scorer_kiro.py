@@ -6,8 +6,11 @@ and parses the JSON response.
 import json
 import os
 import re
-import subprocess
 import time
+
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from llm import call_kiro, extract_json as _extract_json
 
 PROMPT_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt_3.txt"
@@ -329,35 +332,4 @@ def _prepare_corpus(scenes, source_type):
 
 
 def _call_kiro(prompt, model):
-    result = subprocess.run(
-        ["kiro-cli", "chat", "--no-interactive", "--model", model, "--trust-tools="],
-        input=prompt,
-        capture_output=True,
-        text=True,
-        timeout=600,
-        cwd=KIRO_CWD,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"kiro-cli failed (exit {result.returncode}): {result.stderr[:200]}")
-    return result.stdout
-
-
-def _extract_json(response_text):
-    """Extract JSON from kiro-cli output which may contain markdown formatting."""
-    # Try to find a JSON block in markdown fences
-    # Strip ANSI escape codes
-    response_text = re.sub(r"\x1b\[[0-9;]*m", "", response_text)
-    match = re.search(r"```(?:json)?\s*\n(.*?)\n```", response_text, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(1).strip())
-        except json.JSONDecodeError:
-            pass
-    # Try to find raw JSON object
-    match = re.search(r"\{.*\}", response_text, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(0))
-        except json.JSONDecodeError:
-            pass
-    return None
+    return call_kiro(prompt, model=model, cwd=KIRO_CWD)

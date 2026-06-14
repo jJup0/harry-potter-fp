@@ -12,9 +12,12 @@ Usage:
 import json
 import os
 import re
-import subprocess
 import sys
 import time
+
+PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
+from llm import call_kiro, extract_json
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 PARSED_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
@@ -53,38 +56,18 @@ def augment_chapter(chapter_data, book_tag=""):
 
     print(f"  {book_tag} Sending {len(user_msg):,} chars ({len(scenes)} paras)...", flush=True)
     start = time.time()
-    result = subprocess.run(
-        ["kiro-cli", "chat", "--no-interactive", "--model", "claude-sonnet-4.6", "--agent", "blank-agent"],
-        input=prompt,
-        capture_output=True,
-        text=True,
-        cwd=KIRO_CWD,
-    )
+    try:
+        output = call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent", cwd=KIRO_CWD)
+    except RuntimeError as e:
+        print(f"  {book_tag} FAILED: {e}", flush=True)
+        return {}
     elapsed = time.time() - start
-
-    # Strip ANSI
-    output = re.sub(r'\x1b\[[0-9;]*[a-zA-Z]|\x1b\[\?[0-9]*[a-zA-Z]', '', result.stdout).strip()
     print(f"  {book_tag} Response: {len(output)} chars ({elapsed:.1f}s)", flush=True)
 
-    if result.returncode != 0:
-        print(f"  {book_tag} STDERR: {result.stderr[:300]}", flush=True)
-        return {}
-
-    # Extract JSON object
-    json_match = re.search(r'\{[^{}]*\}', output, re.DOTALL)
-    if not json_match:
-        # Try multiline
-        json_match = re.search(r'\{[\s\S]*\}', output)
-    if not json_match:
+    corrections = extract_json(output)
+    if corrections is None:
         print(f"  {book_tag} FAILED: no JSON found", flush=True)
         print(f"  {book_tag} Raw (first 300): {output[:300]}", flush=True)
-        return {}
-
-    try:
-        corrections = json.loads(json_match.group())
-    except json.JSONDecodeError as e:
-        print(f"  {book_tag} FAILED: JSON parse error: {e}", flush=True)
-        print(f"  {book_tag} Match (first 300): {json_match.group()[:300]}", flush=True)
         return {}
 
     added = sum(len(v) for v in corrections.values())

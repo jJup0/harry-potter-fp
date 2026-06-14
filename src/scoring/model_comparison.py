@@ -10,9 +10,12 @@ Usage:
 import json
 import os
 import re
-import subprocess
 import sys
 import time
+
+PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
+from llm import call_kiro as _call_kiro_shared, extract_json
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 PROMPT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt_3.txt")
@@ -124,32 +127,7 @@ def build_scoring_prompt(book_text, film_text):
 
 
 def call_kiro(prompt, model):
-    result = subprocess.run(
-        ["kiro-cli", "chat", "--no-interactive", "--model", model, "--agent", "blank-agent"],
-        input=prompt,
-        capture_output=True,
-        text=True,
-        timeout=600,
-        cwd=KIRO_CWD,
-    )
-    output = re.sub(r'\x1b\[[0-9;]*[a-zA-Z]|\x1b\[\?[0-9]*[a-zA-Z]', '', result.stdout).strip()
-    return output
-
-
-def extract_json(text):
-    match = re.search(r"```(?:json)?\s*\n(.*?)\n```", text, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(1).strip())
-        except json.JSONDecodeError:
-            pass
-    match = re.search(r"\{.*\}", text, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(0))
-        except json.JSONDecodeError:
-            pass
-    return None
+    return _call_kiro_shared(prompt, model=model, agent="blank-agent", cwd=KIRO_CWD)
 
 
 def score_once(prompt, model, run_id):
