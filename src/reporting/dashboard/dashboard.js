@@ -191,7 +191,7 @@ window.addEventListener('load', function() {
   document.getElementById('char-search').addEventListener('input', applySearch);
 
   // Set initial chart range
-  var isMobile = window.innerWidth < 768;
+  var isMobile = window.matchMedia('(max-width: 768px)').matches;
   var defaultN = isMobile ? 5 : 20;
   ['top', 'bottom'].forEach(function(id) {
     var container = document.getElementById('container-' + id);
