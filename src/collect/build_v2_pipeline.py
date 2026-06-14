@@ -483,6 +483,20 @@ def _is_context_candidate(text):
 # --- Step 5: Build corpus ---
 
 
+# Impersonation rules: in certain book+chapter ranges, one character is actually
+# another character in disguise. Re-attribute mentions accordingly.
+# Books format: (book, chapter_range, apparent_character, real_character)
+IMPERSONATION_RULES_BOOKS = [
+    # GoF chapters 12-34: "Moody" is Barty Crouch Jr impersonating him
+    ("4_goblet_of_fire", range(12, 35), "Alastor Moody", "Bartemius Crouch Jr."),
+]
+# Screenplays format: (film, apparent_character, real_character)
+# All GoF screenplay scenes with "Moody" are the impersonator (real Moody is in the trunk)
+IMPERSONATION_RULES_SCREENPLAYS = [
+    ("4_goblet_of_fire", "Alastor Moody", "Bartemius Crouch Jr."),
+]
+
+
 def build_corpus(alias_map):
     """Build per-character corpus from parsed data."""
     print("\nStep 5: Building character corpus...")
@@ -535,8 +549,14 @@ def build_corpus(alias_map):
             }
 
             for char in chars_in_scene:
-                corpus.setdefault(char, {"screenplays": {}, "books": {}})
-                corpus[char]["screenplays"].setdefault(film, []).append(entry)
+                # Apply screenplay impersonation re-attribution
+                actual = char
+                for rule_film, apparent, real in IMPERSONATION_RULES_SCREENPLAYS:
+                    if film == rule_film and char == apparent:
+                        actual = real
+                        break
+                corpus.setdefault(actual, {"screenplays": {}, "books": {}})
+                corpus[actual]["screenplays"].setdefault(film, []).append(entry)
 
     if unmatched_speakers:
         # Filter out obvious non-characters
@@ -579,11 +599,17 @@ def build_corpus(alias_map):
         book = data["book"]
         for chapter in data["chapters"]:
             scenes = chapter["scenes"]
-            # First pass: direct mentions
+            ch_num = chapter["chapter_number"]
+            # First pass: direct mentions (with impersonation re-attribution)
             char_indices = {}  # canonical -> set of indices
             for i, scene in enumerate(scenes):
                 for char in scene.get("characters_mentioned", []):
-                    char_indices.setdefault(char, set()).add(i)
+                    actual = char
+                    for rule_book, rule_range, apparent, real in IMPERSONATION_RULES_BOOKS:
+                        if book == rule_book and ch_num in rule_range and char == apparent:
+                            actual = real
+                            break
+                    char_indices.setdefault(actual, set()).add(i)
 
             # Second pass: add context paragraphs via heuristic
             for char, indices in char_indices.items():
