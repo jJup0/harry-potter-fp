@@ -25,7 +25,7 @@ def call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent",
 
     result = subprocess.run(
         cmd, input=prompt, capture_output=True, text=True,
-        timeout=timeout, cwd=cwd or PROJECT_ROOT,
+        timeout=timeout, cwd=cwd or "/tmp",
     )
     if result.returncode != 0:
         raise RuntimeError(f"kiro-cli failed (exit {result.returncode}): {result.stderr[:300]}")
