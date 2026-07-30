@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scorer_kiro import _call_kiro, _prepare_corpus, _extract_json
+from deleted_scenes import filter_deleted_scenes
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
@@ -51,6 +52,10 @@ def load_corpus(char_name):
         if os.path.exists(path):
             with open(path) as f:
                 corpus[sub] = json.load(f).get("scenes", [])
+    # Exclude deleted/non-theatrical scenes from film corpus
+    corpus["screenplays"], _ = filter_deleted_scenes(
+        corpus["screenplays"], char_name
+    )
     return corpus
 
 

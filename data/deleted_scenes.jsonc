@@ -1,0 +1,88 @@
+// Hand-maintained list of deleted/non-theatrical scenes in the screenplay corpus.
+//
+// These scenes exist in our screenplay sources but were NOT in the theatrical
+// release. They are tagged (not dropped) so they remain available as trivia
+// material, but are excluded from FP and CIDS scoring.
+//
+// HOW TO ADD AN ENTRY:
+//   1. Find the scene in output/corpus/<character>/screenplays/scenes.json
+//   2. Note the "source" (e.g. "7_deathly_hallows_p1") and "scene_index"
+//   3. Add an entry below with the film, scene_index, affected characters,
+//      reason, and optionally a text_snippet for human verification.
+//
+// Fields:
+//   film          - matches the "source" field in corpus scenes.json
+//   scene_index   - integer index within that film's parsed scenes
+//   characters    - list of canonical character names affected
+//   reason        - one of: "deleted_scene", "extended_edition", "draft_only"
+//   note          - free-text explanation for the client
+//   text_snippet  - (optional) a short snippet from dialogue/directions to help
+//                   verify the match is correct when reviewing
+{
+  "entries": [
+    {
+      "film": "3_prisoner_of_azkaban",
+      "scene_index": 58,
+      "characters": ["Sir Cadogan"],
+      "reason": "deleted_scene",
+      "note": "Sir Cadogan guarding the portrait hole. Deleted from theatrical cut.",
+      "text_snippet": "Who dares challenge Sir Cadogan!"
+    },
+    {
+      "film": "3_prisoner_of_azkaban",
+      "scene_index": 87,
+      "characters": ["Sir Cadogan"],
+      "reason": "deleted_scene",
+      "note": "Sir Cadogan scene. Deleted from theatrical cut.",
+      "text_snippet": null
+    },
+    {
+      "film": "3_prisoner_of_azkaban",
+      "scene_index": 91,
+      "characters": ["Sir Cadogan"],
+      "reason": "deleted_scene",
+      "note": "Sir Cadogan scene. Deleted from theatrical cut.",
+      "text_snippet": null
+    },
+    {
+      "film": "2_chamber_of_secrets",
+      "scene_index": 5,
+      "characters": ["Ernie Macmillan"],
+      "reason": "deleted_scene",
+      "note": "Lockhart's pixie class - Ernie's mention was in a deleted portion.",
+      "text_snippet": "Ernie and few others cast wary glances"
+    },
+    {
+      "film": "7_deathly_hallows_p1",
+      "scene_index": 15,
+      "characters": ["Vernon Dursley", "Dudley Dursley"],
+      "reason": "extended_edition",
+      "note": "Dursley farewell - extended edition scene, not in theatrical release.",
+      "text_snippet": "Time for the teary farewell"
+    },
+    {
+      "film": "7_deathly_hallows_p1",
+      "scene_index": 16,
+      "characters": ["Vernon Dursley", "Petunia Dursley", "Dudley Dursley"],
+      "reason": "extended_edition",
+      "note": "Dursley farewell - extended edition scene, not in theatrical release.",
+      "text_snippet": "I've lived in this house twenty"
+    },
+    {
+      "film": "7_deathly_hallows_p1",
+      "scene_index": 17,
+      "characters": ["Vernon Dursley", "Petunia Dursley", "Dudley Dursley"],
+      "reason": "extended_edition",
+      "note": "Dursley farewell - extended edition scene, not in theatrical release.",
+      "text_snippet": "Well, this is goodbye then, boy"
+    },
+    {
+      "film": "8_deathly_hallows_p2",
+      "scene_index": 166,
+      "characters": ["Draco Malfoy"],
+      "reason": "draft_only",
+      "note": "Draco tosses his wand to Harry during the final battle. Present in early screenplay draft but never filmed for theatrical release.",
+      "text_snippet": "Draco's hand whips forward and -- to"
+    }
+  ]
+}
