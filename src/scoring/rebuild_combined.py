@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Rebuild scores_comparative.json from individual score files."""
+"""Rebuild scores_kiro.json from individual score files."""
 
 import json
 import os
 
-SCORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "output", "scores", "comparative")
-OUTPUT = os.path.join(os.path.dirname(__file__), "..", "..", "output", "scores", "scores_comparative.json")
+SCORE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "output", "scores", "kiro")
+OUTPUT = os.path.join(os.path.dirname(__file__), "..", "..", "output", "scores", "scores_kiro.json")
 
 all_scores = []
 for fname in sorted(os.listdir(SCORE_DIR)):

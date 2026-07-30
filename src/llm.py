@@ -1,4 +1,4 @@
-"""Shared LLM calling utilities for kiro-cli and ollama backends."""
+"""Shared LLM calling utilities for the kiro-cli backend."""
 
 import json
 import os

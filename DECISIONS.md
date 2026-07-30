@@ -169,7 +169,9 @@ harry-potter-aitor/
 
 ---
 
-## Ollama Comparative Scoring (2026-05-09)
+## Ollama Comparative Scoring (2026-05-09) [RETIRED]
+
+> This backend and all its outputs were removed in favor of kiro-cli scoring. Kept here for historical reference.
 
 Model `gemma4:e4b` via ollama native API (`/api/chat`). ~20s per character.
 

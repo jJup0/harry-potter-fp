@@ -29,11 +29,11 @@ Aitor's original rules (in Spanish, `data/fp_rules.txt` and `data/fp_rules.md`) 
 | Data collection | Done | Books, screenplays, character registry, metrics |
 | Corpus building | Done | 228 characters (v1), 216 characters (v2 after dedup) |
 | Metrics | Done | Screen time (actual minutes), book mentions (actual counts) |
-| LLM comparative scoring | Working | 209/216 scored via ollama (gemma4:e4b), with justifications |
+| LLM scoring | Done | 202/216 scored via kiro-cli (claude-sonnet-4.6), 6 dimensions with justifications |
 | Character validation | Done | Wikipedia cross-reference, alias tracking |
-| Reports & dashboard | Done | Generated from comparative scores |
+| Reports & dashboard | Done | Generated from kiro scores |
 
-**Current state:** The comparative scorer works end-to-end with local ollama. 209 characters have real LLM-generated FP scores with per-dimension justifications. Scoring cache tracks aliases and auto-invalidates when dedup rules change.
+**Current state:** 202 characters have LLM-generated FP scores (6 dimensions, max 100) with per-dimension justifications via kiro-cli and claude-sonnet-4.6. 80 characters have no film corpus and score 0. Scoring cache tracks aliases and auto-invalidates when dedup rules change.
 
 ## Quick Start
 
@@ -47,11 +47,11 @@ python3 src/collect/fetch_wikipedia_characters.py
 # Validate our characters against Wikipedia (flags unknowns)
 python3 src/collect/validate_characters.py
 
-# Run comparative LLM scoring (requires ollama with gemma4:e4b or config change)
-python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
+# Run LLM scoring (requires kiro-cli with claude-sonnet-4.6)
+python3 -u src/scoring/score.py --backend kiro --characters "Dobby" "Severus Snape"
 
-# Run comparative scoring for top N characters by corpus size
-python3 -u src/scoring/score.py --backend comparative --top 50
+# Run scoring for top N characters by corpus size
+python3 -u src/scoring/score.py --backend kiro --top 50
 
 # Generate reports from existing scores
 python3 src/reporting/generate_reports.py
@@ -63,7 +63,7 @@ python3 src/reporting/generate_dashboard.py
 ### Data Flow
 
 ```
-Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM comparative) -> Reports/Dashboard
+Raw sources -> Parse -> Dedup -> Character corpus -> Score (LLM via kiro-cli) -> Reports/Dashboard
 ```
 
 1. **Raw sources**: Book text files + screenplay text files + Aitor's xlsx metrics
@@ -125,8 +125,8 @@ The corpus for each character is built by detecting their presence in every para
 │   ├── corpus/                     # Per-character corpus
 │   ├── characters.yaml             # Character registry (built from Aitor's data)
 │   ├── scores/
-│   │   ├── comparative/            # Per-character score JSONs (with alias tracking)
-│   │   └── scores_comparative.json # Combined scores
+│   │   └── kiro/                   # Per-character score JSONs (authoritative)
+│   │   └── scores_kiro.json        # Combined scores
 │   ├── reports/                    # CSV + markdown reports
 │   └── dashboard.html              # Interactive Plotly dashboard
 ├── src/
@@ -139,7 +139,7 @@ The corpus for each character is built by detecting their presence in every para
 │   ├── metrics/                    # Metrics computation
 │   ├── scoring/
 │   │   ├── score.py                # Main CLI (--backend, --characters, --top)
-│   │   ├── scorer_comparative.py   # LLM scorer (book+film in one call)
+│   │   ├── scorer_kiro.py          # LLM scorer (kiro-cli, book+film comparative)
 │   │   └── prompts/scoring_prompt.txt  # English FP rubric for LLM
 │   └── reporting/                  # Reports + dashboard generators
 ├── config.yaml                 # Scoring configuration (model, thresholds)
@@ -150,7 +150,7 @@ The corpus for each character is built by detecting their presence in every para
 
 ### Scoring Cache & Invalidation
 
-Each per-character score file in `output/scores/comparative/` stores metadata about the conditions under which it was scored:
+Each per-character score file in `output/scores/kiro/` stores metadata about the conditions under which it was scored:
 - `meta.model` - LLM model used
 - `meta.prompt_version` - prompt major.minor version
 - `meta.aliases` - alias list active when scored
@@ -160,27 +160,22 @@ On resume, a score is re-run if:
 - Prompt major version bumped
 - Alias list for that character changed (dedup rules updated)
 
-### Scoring Backends
+### Scoring Backend
 
-| Backend | How it works | Status |
-|---------|-------------|--------|
-| `comparative` | Sends book+film corpus together to LLM, gets comparative FP scores | Working (209/216 chars scored) |
-| `rule_based` | Placeholder: scores based on corpus size | Removed |
-| `openai` | Standard OpenAI chat completions API | Legacy, superseded |
-| `kiro` | Pipes prompt to kiro-cli | Legacy, superseded |
+The sole scoring backend is `kiro`, which pipes the book+film corpus and rubric to kiro-cli (claude-sonnet-4.6) and parses the structured JSON response. Scores are stored in `output/scores/kiro/`.
 
-## Sample Output (Comparative Scorer)
+## Sample Output
 
-Top scores from the 209 characters scored so far:
+Top scores from the 122 characters with film corpus:
 
-| Character | Pers | Role | Motiv | Arc | Total |
-|-----------|------|------|-------|-----|-------|
-| Madam Rosmerta | 25 | 25 | 25 | 25 | 100 |
-| Bill Weasley | 25 | 25 | 25 | 24 | 99 |
-| Garrick Ollivander | 25 | 25 | 24 | 24 | 98 |
-| Harry Potter | 22 | 24 | 23 | 22 | 91 |
-| Severus Snape | 18 | 22 | 20 | 15 | 75 |
-| Ginny Weasley | 15 | 18 | 14 | 12 | 59 |
+| Character | Pers/25 | Role/20 | Motiv/15 | Arc/15 | Rels/10 | Lost/15 | Total |
+|-----------|---------|---------|----------|--------|---------|---------|-------|
+| Gilderoy Lockhart | 22 | 17 | 13 | 13 | 7 | 10 | 82 |
+| Minerva McGonagall | 21 | 16 | 13 | 13 | 8 | 11 | 82 |
+| Molly Weasley | 21 | 16 | 13 | 13 | 8 | 10 | 81 |
+| Harry Potter | 20 | 17 | 12 | 11 | 7 | 9 | 76 |
+| Severus Snape | 19 | 14 | 11 | 11 | 7 | 9 | 71 |
+| Ginny Weasley | 13 | 11 | 9 | 8 | 5 | 7 | 53 |
 
 Each score includes per-dimension justifications citing specific book/film evidence.
 
@@ -201,7 +196,7 @@ Dashboard: https://jjup0.github.io/harry-potter-fp/
 
 ## Known Issues
 
-1. **Reports/dashboard use rule-based scores** - need regeneration from comparative scores
+1. **80 characters have no film corpus** - scored 0, excluded from ranking (issue #36 owns the data problem)
 2. **Book 2 source file missing chapter headings** - Chapters 7-8 and 13-18 have no detectable headings (OCR artifacts: tabs, mixed case, spaced letters). All text content is present but gets lumped into preceding chapters. Does not affect character detection or scoring since all paragraphs are processed regardless of chapter assignment.
 3. **Ron Weasley v2 corpus may be thin** - FIXED: was caused by 4-char alias minimum filtering out "Ron"
 4. **Dumbledore v2 corpus may be split** - NOT AN ISSUE: all under albus_dumbledore/
