@@ -26,6 +26,8 @@ import re
 import sys
 import yaml
 
+from deleted_scenes import filter_deleted_scenes
+
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
 CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
@@ -274,6 +276,10 @@ def main():
         if safe in already_scored:
             continue
         corpus = load_corpus(name)
+        # Exclude deleted/non-theatrical scenes from film corpus
+        corpus["screenplays"], _ = filter_deleted_scenes(
+            corpus["screenplays"], name
+        )
         if not corpus["books"] and not corpus["screenplays"]:
             st_val = screen_time.get(name, {}).get("_total", 0)
             bm_val = book_mentions.get(name, {}).get("_total", 0)
