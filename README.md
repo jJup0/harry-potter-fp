@@ -87,6 +87,8 @@ The corpus for each character is built by detecting their presence in every para
 
 **Screenplays (v2/v3 - proper format):** Parsed by detecting `INT./EXT.` scene headers and ALL-CAPS speaker names. A character is included if they speak or their name appears in the character list for that scene.
 
+**Screenplay-only limitation:** The film corpus is derived entirely from screenplay text. Characters who appear on screen without dialogue or named stage directions (e.g. background D.A. members, non-speaking extras like the Knight Bus driver) will have an empty film corpus even if they are visibly present in the film. This is a structural limitation - screenplays do not name background characters. See `data/film_presence_gaps.json` for the full gap analysis and which characters need client confirmation of on-screen presence.
+
 **Alias resolution:** All character names are mapped through `KNOWN_CHARACTERS` in `build_character_registry.py`, which maps variants (e.g. "Sybil Trelawney", "Professor Trelawney", "Trelawney") to a single canonical name. The alias map is built as lowercase -> canonical for matching.
 
 **Minimum threshold:** Characters need at least 10 combined book mentions + screen time to be eligible for scoring.
