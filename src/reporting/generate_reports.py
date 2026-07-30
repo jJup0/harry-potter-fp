@@ -11,6 +11,8 @@ import csv
 import json
 import os
 
+import yaml
+
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "reports")
@@ -114,7 +116,11 @@ def generate_ranking_table(scored, unscored):
 
 def generate_character_reports(scored):
     """Generate a detailed markdown report per character."""
+    import shutil
+
     reports_dir = os.path.join(OUTPUT_DIR, "characters")
+    if os.path.exists(reports_dir):
+        shutil.rmtree(reports_dir)
     os.makedirs(reports_dir, exist_ok=True)
 
     for rank, s in enumerate(scored, 1):
@@ -169,8 +175,22 @@ def generate_character_reports(scored):
 
 
 def main():
+    with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
+        config = yaml.safe_load(f)
+    scoring_cfg = config.get("scoring", {})
+    exclude = set(
+        scoring_cfg.get("exclude_from_output")
+        or scoring_cfg.get("exclude_from_dashboard")
+        or []
+    )
+
     all_scores = load_scores()
     print(f"Loaded {len(all_scores)} score files from {SCORES_DIR}")
+
+    if exclude:
+        before = len(all_scores)
+        all_scores = [s for s in all_scores if s["character"] not in exclude]
+        print(f"  Excluded {before - len(all_scores)} characters: {sorted(exclude)}")
 
     # Separate scored (total > 0) from unscored (no film corpus)
     scored = [s for s in all_scores if s["overall"].get("total", 0) > 0]

@@ -4,8 +4,8 @@ scoring:
   # Backend: 'kiro'
   backend: kiro
 
-  # Characters to exclude from dashboard (film-only, deleted scenes only, etc.)
-  exclude_from_dashboard:
+  # Characters to exclude from all outputs (dashboard, reports, CSV)
+  exclude_from_output:
     - "Albus Severus Potter"
     - "Nigel"
 
