@@ -1,4 +1,4 @@
-# version: 1.0
+# version: 2.0
 You are scoring how much DAMAGE {character}'s unfaithful film portrayal causes to the Harry Potter adaptation.
 
 FP (faithfulness) score: {fp_score}/100. Higher = more faithful. You are measuring the DAMAGE caused by the unfaithful parts.
@@ -25,6 +25,15 @@ RULES:
 - If a scene is unfaithful in multiple independent ways, list them separately.
 - Do not double-count the same change.
 - Cite specific evidence from the corpus. If evidence is limited, lower confidence.
+
+ANTI-HALLUCINATION / EVIDENCE STATUS RULES:
+- Every damaging_scenes entry MUST be based on material that is actually present in the provided corpus above.
+- Do NOT cite scenes, lines, or events from your pretrained knowledge of the films as if they appear in the film corpus. If a scene is not in the FILM CORPUS section above, you cannot use it as evidence of film portrayal.
+- Do NOT cite book material that is not in the BOOK CORPUS section above as evidence of what the book establishes.
+- You may use your pretrained knowledge to INTERPRET or CONTEXTUALIZE corpus evidence, but the underlying scene/quote must be physically present in the corpus text.
+- If you know a damaging scene exists from your training data but it does not appear in the provided corpus, do NOT include it. The corpus is the sole source of truth for what material is available.
+- For each entry, the "scene" field must reference a scene that is demonstrably present in the film corpus. The "book_baseline" must reference material present in the book corpus.
+- If the corpus is too limited to identify damaging scenes, return fewer entries and set confidence to "Low". Do not invent entries to fill out the list.
 
 STRUCTURAL DAMAGE LEVEL (one global rating for this character):
 1 = Local only: isolated lines or minor traits

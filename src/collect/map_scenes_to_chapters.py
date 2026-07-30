@@ -19,6 +19,9 @@ PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
 from llm import call_kiro, extract_json
 
+KIRO_CWD = "/tmp/harry-potter-scene-mapping"
+os.makedirs(KIRO_CWD, exist_ok=True)
+
 SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
 BOOKS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scene_chapter_mapping")
@@ -98,7 +101,8 @@ def map_film(film_name):
     print(f"  [{film_name}] {len(scene_summaries)} scenes, {len(chapters)} chapters, ~{len(prompt)//4} tokens", flush=True)
 
     t0 = time.time()
-    response = call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent")
+    response = call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent",
+                         cwd=KIRO_CWD)
     print(f"  [{film_name}] response in {time.time()-t0:.1f}s", flush=True)
 
     parsed = extract_json(response)

@@ -23,6 +23,15 @@ RAW_DIR = "/tmp/harry-potter-cids-raw"
 os.makedirs(CIDS_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
+
+def _get_prompt_version():
+    """Extract major.minor version from first line of cids_prompt.txt."""
+    with open(PROMPT_FILE) as f:
+        first_line = f.readline().strip()
+    import re as _re
+    m = _re.search(r"version:\s*([\d.]+)", first_line)
+    return m.group(1) if m else "0.0"
+
 STRUCTURAL_MULTIPLIERS = {1: 1.0, 2: 1.1, 3: 1.25, 4: 1.5, 5: 2.0}
 MAX_RETRIES = 3
 
@@ -61,8 +70,14 @@ def score_cids(char_name, fp_score, corpus, model):
     safe = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
     out_path = os.path.join(CIDS_DIR, f"{safe}.json")
     if os.path.exists(out_path):
-        print(f"  [cached] {char_name}", flush=True)
-        return json.load(open(out_path))
+        with open(out_path) as f:
+            cached = json.load(f)
+        cached_version = cached.get("meta", {}).get("prompt_version", "1.0")
+        current_version = _get_prompt_version()
+        # Invalidate if major version changed
+        if cached_version.split(".")[0] == current_version.split(".")[0]:
+            print(f"  [cached] {char_name}", flush=True)
+            return cached
 
     book_text = _prepare_corpus(corpus["books"], "book")
     film_text = _prepare_corpus(corpus["screenplays"], "screenplay")
@@ -129,7 +144,7 @@ def score_cids(char_name, fp_score, corpus, model):
         "main_damage_causes": parsed.get("main_damage_causes", []),
         "damaging_scenes": parsed["damaging_scenes"],
         "confidence": parsed.get("confidence", {}),
-        "meta": {"model": model},
+        "meta": {"model": model, "prompt_version": _get_prompt_version()},
     }
 
     with open(out_path, "w") as f:
@@ -231,7 +246,7 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         "main_damage_causes": unique_causes[:5],
         "damaging_scenes": all_scenes,
         "confidence": {"global": "Medium", "exposure_estimate": "Medium", "impact_assessment": "Medium"},
-        "meta": {"model": model, "split": True},
+        "meta": {"model": model, "split": True, "prompt_version": _get_prompt_version()},
     }
 
     with open(out_path, "w") as f:
