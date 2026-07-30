@@ -19,7 +19,9 @@ def result_path(char_name):
 
 
 def call_kiro(prompt):
-    return _call_kiro(prompt, model=MODEL, trust_tools="web_search", timeout=120, cwd=PROJECT)
+    cwd = "/tmp/harry-potter-sanity-checks"
+    os.makedirs(cwd, exist_ok=True)
+    return _call_kiro(prompt, model=MODEL, trust_tools="web_search", timeout=120, cwd=cwd)
 
 
 def check_one(score_file):

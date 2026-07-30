@@ -21,6 +21,9 @@ PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
 from llm import call_kiro, extract_json
 
+KIRO_CWD = "/tmp/harry-potter-cut-scenes"
+os.makedirs(KIRO_CWD, exist_ok=True)
+
 SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
 BOOKS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
 MAPPING_DIR = os.path.join(PROJECT_ROOT, "output", "scene_chapter_mapping")
@@ -161,7 +164,8 @@ def process_chapter(book_name, chapter, film_names):
     print(f"  {tag} sending ~{len(prompt)//4} tokens...", flush=True)
     t0 = time.time()
     try:
-        response = call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent")
+        response = call_kiro(prompt, model="claude-sonnet-4.6", agent="blank-agent",
+                             cwd=KIRO_CWD)
     except Exception as e:
         print(f"  {tag} FAILED: {e}", flush=True)
         return None
