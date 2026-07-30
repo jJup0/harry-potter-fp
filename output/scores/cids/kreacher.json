@@ -3,11 +3,10 @@
   "fp_score": 48.0,
   "infidelity_score": 52.0,
   "weighted_infidelity_exposure": 44.5,
-  "cids": 2314.0,
-  "damage_per_exposure": 201.2,
+  "cids": 429.6,
+  "damage_per_exposure": 37.4,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 3471.0,
+  "adjusted_cids": 429.6,
   "main_damage_causes": [
     "Complete excision of 'Kreacher's Tale' removes the emotional and thematic core of the character - his grief, Regulus's sacrifice, and the mechanism of his transformation - making his arc from hostile to loyal entirely unmotivated",
     "The Sirius-Kreacher antagonism is never established as consequential, severing the causal chain between Sirius's indifference and his death and eliminating the saga's moral argument about how the powerful treat those beneath them",
@@ -94,5 +93,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 2314.0,
+  "adjusted_cids_v1": 3471.0
 }

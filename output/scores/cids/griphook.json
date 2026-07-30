@@ -3,11 +3,10 @@
   "fp_score": 67.0,
   "infidelity_score": 33.0,
   "weighted_infidelity_exposure": 32.5,
-  "cids": 1072.5,
-  "damage_per_exposure": 93.3,
+  "cids": 229.9,
+  "damage_per_exposure": 20.0,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1340.6,
+  "adjusted_cids": 229.9,
   "main_damage_causes": [
     "Removal of Harry's morally compromised promise and planned deception of Griphook, which eliminates the ethical symmetry that makes Griphook's betrayal meaningful rather than simply villainous",
     "Excision of Griphook's political consciousness and the goblin-rights debate, reducing him from a principled non-human being with legitimate grievances to a mercenary with a single neutral line",
@@ -121,5 +120,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1072.5,
+  "adjusted_cids_v1": 1340.6
 }

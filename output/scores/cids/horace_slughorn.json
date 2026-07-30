@@ -3,11 +3,10 @@
   "fp_score": 78.0,
   "infidelity_score": 22.0,
   "weighted_infidelity_exposure": 30.0,
-  "cids": 660.0,
-  "damage_per_exposure": 50.8,
+  "cids": 149.9,
+  "damage_per_exposure": 11.5,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 825.0,
+  "adjusted_cids": 149.9,
   "main_damage_causes": [
     "Harry's agency in the recruitment and memory-extraction arcs is systematically reduced, making him a passive celebrity lure rather than an active manipulator who earns Slughorn's trust and exploits his weaknesses",
     "Slughorn's defining 'spider' collector behavior - the systematic network cultivation, the pointed exclusion of the unconnected, the sustained intelligent evasion - is compressed into isolated comic beats, softening his moral complexity into genial eccentricity",
@@ -121,5 +120,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 660.0,
+  "adjusted_cids_v1": 825.0
 }

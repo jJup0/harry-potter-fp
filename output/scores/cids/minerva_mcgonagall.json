@@ -3,11 +3,10 @@
   "fp_score": 82.0,
   "infidelity_score": 18.0,
   "weighted_infidelity_exposure": 47.5,
-  "cids": 855.0,
-  "damage_per_exposure": 36.4,
+  "cids": 138.6,
+  "damage_per_exposure": 5.9,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1068.8,
+  "adjusted_cids": 138.6,
   "main_damage_causes": [
     "Systematic omission of McGonagall's emotional interiority and warmth \u2014 the films consistently cut the moments where her stern exterior cracks to reveal grief, pride, humor, or personal investment, leaving her as a functional authority figure rather than a complex person",
     "Loss of her role as Harry's active champion \u2014 the careers consultation scene (OotP) and several smaller moments where she fights specifically for Harry are absent, removing the personal dimension of her loyalty to him",
@@ -247,5 +246,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 855.0,
+  "adjusted_cids_v1": 1068.8
 }

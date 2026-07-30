@@ -3,11 +3,10 @@
   "fp_score": 68.0,
   "infidelity_score": 32.0,
   "weighted_infidelity_exposure": 22.0,
-  "cids": 704.0,
-  "damage_per_exposure": 78.2,
+  "cids": 199.0,
+  "damage_per_exposure": 22.1,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 880.0,
+  "adjusted_cids": 199.0,
   "main_damage_causes": [
     "Helena's full backstory - the theft, the flight to Albania, the Baron's murder - is almost entirely omitted, collapsing a rich character into vague emotional suffering",
     "Harry's active, combative role in breaking down her resistance is replaced by soft manipulation, reducing his agency and urgency at a key late-saga moment",
@@ -94,5 +93,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 704.0,
+  "adjusted_cids_v1": 880.0
 }

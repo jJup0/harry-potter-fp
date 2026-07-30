@@ -3,11 +3,10 @@
   "fp_score": 71.0,
   "infidelity_score": 29.0,
   "weighted_infidelity_exposure": 57.0,
-  "cids": 1653.0,
-  "damage_per_exposure": 75.1,
+  "cids": 233.6,
+  "damage_per_exposure": 10.6,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 2066.2,
+  "adjusted_cids": 233.6,
   "main_damage_causes": [
     "The PS/SS Quidditch match scene actively confirms Snape as the jinxer rather than preserving the book's deliberate ambiguity, undermining the structural reveal and making Snape's protective role feel like a retcon",
     "The DH Part 1 depiction of Snape cutting off George's ear presents an accidental misfired protective spell as an unexplained attack, the single most misleading distortion of his double-agent role",
@@ -229,5 +228,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1653.0,
+  "adjusted_cids_v1": 2066.2
 }

@@ -3,11 +3,10 @@
   "fp_score": 60.0,
   "infidelity_score": 40.0,
   "weighted_infidelity_exposure": 51,
-  "cids": 2040.0,
-  "damage_per_exposure": 127.5,
+  "cids": 342.0,
+  "damage_per_exposure": 21.4,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 3060.0,
+  "adjusted_cids": 342.0,
   "main_damage_causes": [
     "Complete omission of the HBP film means Scrimgeour's defining characterization scenes - the PM introduction, the Christmas garden confrontation, and the funeral encounter - never occur, leaving the DH will scene without the relational and thematic foundation it requires",
     "The DH will scene is significantly softened: the interrogation is truncated, the wand-jab confrontation is removed, and an invented conciliatory exchange replaces the cold hostility of the book, reframing Scrimgeour as a tragic sympathetic figure rather than a flawed authoritarian whose death earns grudging posthumous respect",
@@ -103,5 +102,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 2040.0,
+  "adjusted_cids_v1": 3060.0
 }

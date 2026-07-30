@@ -3,11 +3,10 @@
   "fp_score": 72.0,
   "infidelity_score": 28.0,
   "weighted_infidelity_exposure": 29.0,
-  "cids": 812.0,
-  "damage_per_exposure": 77.3,
+  "cids": 171.7,
+  "damage_per_exposure": 16.4,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 893.2,
+  "adjusted_cids": 171.7,
   "main_damage_causes": [
     "The Hufflepuff Quidditch match - McLaggen's defining consequential scene - is entirely absent, removing his only plot function and the payoff of all his established arrogance.",
     "McLaggen's core personality trait (entitled social-climbing self-promoter) is replaced by crude physical lechery, misrepresenting the specific nature of his arrogance.",
@@ -103,5 +102,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 812.0,
+  "adjusted_cids_v1": 893.2
 }

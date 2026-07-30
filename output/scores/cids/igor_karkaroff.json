@@ -3,11 +3,10 @@
   "fp_score": 65.0,
   "infidelity_score": 35,
   "weighted_infidelity_exposure": 28,
-  "cids": 980,
-  "damage_per_exposure": 93.3,
+  "cids": 233.8,
+  "damage_per_exposure": 22.3,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1225,
+  "adjusted_cids": 233.8,
   "main_damage_causes": [
     "Karkaroff's arc of mounting paranoia and cowardly flight - the through-line of his character - is truncated: the Yule Ball Dark Mark conversation, the forest confrontation, and the flight/empty chair resolution are all cut, leaving his trajectory incomplete",
     "His personality is flattened from a calculating, unctuous political operator with genuine menace into a blustering comic antagonist, most visibly in the post-goblet chamber scene",
@@ -103,5 +102,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 980,
+  "adjusted_cids_v1": 1225
 }

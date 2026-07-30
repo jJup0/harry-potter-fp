@@ -23,7 +23,7 @@ RAW_DIR = "/tmp/harry-potter-cids-raw"
 os.makedirs(CIDS_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
-STRUCTURAL_MULTIPLIERS = {1: 1.0, 2: 1.1, 3: 1.25, 4: 1.5, 5: 2.0}
+import math
 MAX_RETRIES = 3
 
 
@@ -110,9 +110,8 @@ def score_cids(char_name, fp_score, corpus, model):
         s.get("exposure", 0) * s.get("impact_weight", 0)
         for s in parsed["damaging_scenes"]
     )
-    cids = infidelity * wie
     sdl = parsed.get("structural_damage_level", 1)
-    multiplier = STRUCTURAL_MULTIPLIERS.get(sdl, 1.0)
+    cids = infidelity * math.log2(1 + wie) * (1 + sdl / 8)
 
     total_exposure = sum(s.get("exposure", 0) for s in parsed["damaging_scenes"])
 
@@ -121,11 +120,10 @@ def score_cids(char_name, fp_score, corpus, model):
         "fp_score": fp_score,
         "infidelity_score": infidelity,
         "weighted_infidelity_exposure": wie,
-        "cids": cids,
+        "cids": round(cids, 1),
         "damage_per_exposure": round(cids / total_exposure, 1) if total_exposure > 0 else 0,
         "structural_damage_level": sdl,
-        "structural_damage_multiplier": multiplier,
-        "adjusted_cids": round(cids * multiplier, 1),
+        "adjusted_cids": round(cids, 1),
         "main_damage_causes": parsed.get("main_damage_causes", []),
         "damaging_scenes": parsed["damaging_scenes"],
         "confidence": parsed.get("confidence", {}),
@@ -206,9 +204,8 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
     # Compute final CIDS
     infidelity = 100 - fp_score
     wie = sum(s.get("exposure", 0) * s.get("impact_weight", 0) for s in all_scenes)
-    cids = infidelity * wie
     total_exposure = sum(s.get("exposure", 0) for s in all_scenes)
-    multiplier = STRUCTURAL_MULTIPLIERS.get(max_sdl, 1.0)
+    cids = infidelity * math.log2(1 + wie) * (1 + max_sdl / 8)
 
     # Deduplicate causes, keep top 3
     seen = set()
@@ -223,11 +220,10 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         "fp_score": fp_score,
         "infidelity_score": infidelity,
         "weighted_infidelity_exposure": wie,
-        "cids": cids,
+        "cids": round(cids, 1),
         "damage_per_exposure": round(cids / total_exposure, 1) if total_exposure > 0 else 0,
         "structural_damage_level": max_sdl,
-        "structural_damage_multiplier": multiplier,
-        "adjusted_cids": round(cids * multiplier, 1),
+        "adjusted_cids": round(cids, 1),
         "main_damage_causes": unique_causes[:5],
         "damaging_scenes": all_scenes,
         "confidence": {"global": "Medium", "exposure_estimate": "Medium", "impact_assessment": "Medium"},

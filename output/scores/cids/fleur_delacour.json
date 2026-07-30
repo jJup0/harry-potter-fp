@@ -3,11 +3,10 @@
   "fp_score": 55.0,
   "infidelity_score": 45.0,
   "weighted_infidelity_exposure": 48.0,
-  "cids": 2160.0,
-  "damage_per_exposure": 120.0,
+  "cids": 379.0,
+  "damage_per_exposure": 21.1,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 3240.0,
+  "adjusted_cids": 379.0,
   "main_damage_causes": [
     "Complete omission of the hospital wing scene (HBP) - Fleur's defining moment of depth, courage, and vindication is never shown, meaning the film audience never understands her as anything other than a beautiful, slightly irritating presence",
     "Systematic reduction of Fleur to visual spectacle across GoF - her first task attempt, her wand weighing, her pre-task courage, her contemptuous reaction to Harry, and her farewell are all cut, collapsing her from a vivid antagonist-to-ally arc into a decorative background figure",
@@ -148,5 +147,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 2160.0,
+  "adjusted_cids_v1": 3240.0
 }

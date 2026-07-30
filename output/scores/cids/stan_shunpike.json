@@ -3,11 +3,10 @@
   "fp_score": 70.0,
   "infidelity_score": 30.0,
   "weighted_infidelity_exposure": 28.0,
-  "cids": 840.0,
-  "damage_per_exposure": 84.0,
+  "cids": 200.4,
+  "damage_per_exposure": 20.0,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1050.0,
+  "adjusted_cids": 200.4,
   "main_damage_causes": [
     "Stan's wrongful arrest and Harry's repeated moral defence of him against Scrimgeour is entirely absent from the films, removing the most significant function Stan serves in the saga - as the concrete injustice that defines Harry's independence from corrupt authority.",
     "The Knight Bus scene is compressed and Stan's gossipy, energetic personality is flattened into a weary, functional presence, with comic space transferred to the invented shrunken head - undermining the characterisation that makes his later story meaningful.",
@@ -85,5 +84,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 840.0,
+  "adjusted_cids_v1": 1050.0
 }

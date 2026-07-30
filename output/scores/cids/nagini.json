@@ -3,11 +3,10 @@
   "fp_score": 57.0,
   "infidelity_score": 43.0,
   "weighted_infidelity_exposure": 28.5,
-  "cids": 1225.5,
-  "damage_per_exposure": 116.7,
+  "cids": 314.9,
+  "damage_per_exposure": 30.0,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 1838.2,
+  "adjusted_cids": 314.9,
   "main_damage_causes": [
     "Nagini's role as a Horcrux is never explicitly established in dialogue, removing the structural logic that makes her destruction the prerequisite for Voldemort's mortality and the key to Dumbledore's endgame plan",
     "The enchanted protective sphere and Dumbledore's behavioral signal to Snape are both omitted, collapsing the careful book architecture around Nagini into generic monster-chase action sequences",
@@ -121,5 +120,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1225.5,
+  "adjusted_cids_v1": 1838.2
 }

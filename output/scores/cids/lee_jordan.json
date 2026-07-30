@@ -3,11 +3,10 @@
   "fp_score": 61.0,
   "infidelity_score": 39.0,
   "weighted_infidelity_exposure": 8,
-  "cids": 312.0,
-  "damage_per_exposure": 78.0,
+  "cids": 154.5,
+  "damage_per_exposure": 38.6,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 343.2,
+  "adjusted_cids": 154.5,
   "main_damage_causes": [
     "Lee's distinctive, biased, personality-driven commentary voice is replaced with neutral functional announcing, erasing his most defining trait",
     "The recurring comedic McGonagall/Lee correction dynamic is entirely absent, removing a consistent relationship beat",
@@ -49,5 +48,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 312.0,
+  "adjusted_cids_v1": 343.2
 }

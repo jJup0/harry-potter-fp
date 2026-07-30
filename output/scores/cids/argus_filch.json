@@ -3,11 +3,10 @@
   "fp_score": 74.0,
   "infidelity_score": 26.0,
   "weighted_infidelity_exposure": 33.5,
-  "cids": 871.0,
-  "damage_per_exposure": 54.4,
+  "cids": 166.0,
+  "damage_per_exposure": 10.4,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 958.1,
+  "adjusted_cids": 166.0,
   "main_damage_causes": [
     "Removal of the Book 1 trophy room chase sequence, which is the single most important scene establishing Filch as a competent, menacing antagonist who knows the castle and actively hunts students",
     "Compression and relocation of the Kwikspell discovery strips away the primary humanizing moment for Filch, reducing him from a tragic figure whose cruelty stems from shame and powerlessness to a simple comic villain",
@@ -157,5 +156,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 871.0,
+  "adjusted_cids_v1": 958.1
 }

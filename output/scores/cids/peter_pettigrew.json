@@ -3,11 +3,10 @@
   "fp_score": 72.0,
   "infidelity_score": 28.0,
   "weighted_infidelity_exposure": 28.0,
-  "cids": 784.0,
-  "damage_per_exposure": 74.7,
+  "cids": 204.0,
+  "damage_per_exposure": 19.4,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 1176.0,
+  "adjusted_cids": 204.0,
   "main_damage_causes": [
     "The complete removal of Wormtail's death-by-silver-hand in DH severs the saga-level thematic payoff of Harry's mercy in PoA, destroying the most important narrative consequence of Pettigrew's entire arc",
     "Compression of the Shrieking Shack confrontation removes the psychological depth that makes Pettigrew a coherent character rather than a plot device - his cowardice-as-philosophy, his groveling, and the moral cross-examination are the only scenes that explain why he betrayed his friends",
@@ -112,5 +111,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 784.0,
+  "adjusted_cids_v1": 1176.0
 }

@@ -3,11 +3,10 @@
   "fp_score": 78.0,
   "infidelity_score": 22.0,
   "weighted_infidelity_exposure": 25.0,
-  "cids": 550.0,
-  "damage_per_exposure": 61.1,
+  "cids": 155.1,
+  "damage_per_exposure": 17.2,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 825.0,
+  "adjusted_cids": 155.1,
   "main_damage_causes": [
     "Complete omission of Dobby's GoF/OotP/HBP appearances removes the arc of his growth as a free elf and his deepening friendship with Harry, making his death an emotional event without adequate foundation",
     "Consistent use of Dobby as comic relief (bouncing on bed, 'maim or seriously injure') undercuts his earnestness and the political seriousness of his enslavement, reducing him from a thematically significant character to a mascot",
@@ -112,5 +111,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 550.0,
+  "adjusted_cids_v1": 825.0
 }

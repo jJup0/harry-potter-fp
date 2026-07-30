@@ -3,11 +3,10 @@
   "fp_score": 82.0,
   "infidelity_score": 18.0,
   "weighted_infidelity_exposure": 26.5,
-  "cids": 477.0,
-  "damage_per_exposure": 31.8,
+  "cids": 107.6,
+  "damage_per_exposure": 7.2,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 524.7,
+  "adjusted_cids": 107.6,
   "main_damage_causes": [
     "Systematic omission of Lockhart's classroom reenactment lessons removes the sustained pattern of his incompetence and self-promotion as a teacher, reducing him from a systemic comic menace to a single-incident joke",
     "Absence of several mid-film scenes (Valentine's Day, Hagrid visit, corridor escort, false credit-claiming) strips away the texture of Lockhart's social behaviour and his effect on the wider school community, flattening him into a plot device rather than a fully inhabited comic character",
@@ -166,5 +165,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 477.0,
+  "adjusted_cids_v1": 524.7
 }

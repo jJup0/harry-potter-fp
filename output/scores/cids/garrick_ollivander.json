@@ -3,11 +3,10 @@
   "fp_score": 71.0,
   "infidelity_score": 29.0,
   "weighted_infidelity_exposure": 18.5,
-  "cids": 536.5,
-  "damage_per_exposure": 71.5,
+  "cids": 170.9,
+  "damage_per_exposure": 22.8,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 670.6,
+  "adjusted_cids": 170.9,
   "main_damage_causes": [
     "The Shell Cottage interrogation is gutted of its substantive wandlore content (twin cores, borrowed wand failure, Gregorovitch), removing Ollivander's most important plot function and his intellectual honesty about the limits of his knowledge",
     "Ollivander's moral complexity \u2014 his quiet guilt over arming Voldemort, his sharp vigilance about wand misuse, and the unsettling quality that makes Harry distrust him \u2014 is largely absent, leaving a warmer and simpler figure than the books intend",
@@ -94,5 +93,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 536.5,
+  "adjusted_cids_v1": 670.6
 }

@@ -3,11 +3,10 @@
   "fp_score": 82.0,
   "infidelity_score": 18.0,
   "weighted_infidelity_exposure": 9.5,
-  "cids": 171.0,
-  "damage_per_exposure": 38.0,
+  "cids": 76.3,
+  "damage_per_exposure": 17.0,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 188.1,
+  "adjusted_cids": 76.3,
   "main_damage_causes": [
     "Fawkes's active agency is reduced: the diary delivery and the 'Don't leave me' beat are removed, converting the phoenix from a loyal participant with independent initiative into primarily a healer and transport mechanism.",
     "Harry's defiant speech to Riddle about his mother's sacrifice is cut, removing the earliest explicit articulation of the love-protection theme and Harry's moral courage in the face of death.",
@@ -94,5 +93,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 171.0,
+  "adjusted_cids_v1": 188.1
 }

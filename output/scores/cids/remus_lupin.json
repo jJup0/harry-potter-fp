@@ -3,11 +3,10 @@
   "fp_score": 71.0,
   "infidelity_score": 29.0,
   "weighted_infidelity_exposure": 55.5,
-  "cids": 1609.5,
-  "damage_per_exposure": 78.5,
+  "cids": 253.2,
+  "damage_per_exposure": 12.4,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 2414.2,
+  "adjusted_cids": 253.2,
   "main_damage_causes": [
     "Complete removal of the Grimmauld Place confrontation scene (DH1) destroys Lupin's moral arc around fatherhood, self-loathing, and cowardice, leaving his DH characterisation structurally incoherent",
     "Removal of the Shell Cottage birth scene eliminates the resolution of Lupin's arc, meaning his death has no earned emotional payoff as a father who overcame his fears",
@@ -193,5 +192,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1609.5,
+  "adjusted_cids_v1": 2414.2
 }

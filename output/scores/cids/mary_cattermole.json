@@ -3,11 +3,10 @@
   "fp_score": 77.0,
   "infidelity_score": 23.0,
   "weighted_infidelity_exposure": 8.0,
-  "cids": 184.0,
-  "damage_per_exposure": 52.6,
+  "cids": 91.1,
+  "damage_per_exposure": 26.0,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 202.4,
+  "adjusted_cids": 91.1,
   "main_damage_causes": [
     "Harry's personal agency in the rescue (freeing Mary, instructing her to flee) is redistributed to Hermione and Ron, diluting his moral centrality in the sequence",
     "Mary's isolation and terror - which make Harry's intervention meaningful - are softened by Ron's comforting presence throughout the hearing",
@@ -58,5 +57,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 184.0,
+  "adjusted_cids_v1": 202.4
 }

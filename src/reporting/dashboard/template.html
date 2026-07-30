@@ -49,7 +49,7 @@
 
 <!-- CIDS TAB -->
 <div id="tab-cids" class="tab-content">
-<p class="subtitle">CIDS = (100 - FP) x Weighted Infidelity Exposure. Measures how much damage unfaithful portrayals cause.</p>
+<p class="subtitle">CIDS = (100 - FP) * log2(1 + WIE) * (1 + SDL/8). Measures how much damage unfaithful portrayals cause, with logarithmic dampening on exposure.</p>
 
 {{CIDS_CHARTS}}
 

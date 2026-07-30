@@ -3,11 +3,10 @@
   "fp_score": 75.0,
   "infidelity_score": 25.0,
   "weighted_infidelity_exposure": 16.0,
-  "cids": 400.0,
-  "damage_per_exposure": 61.5,
+  "cids": 127.7,
+  "damage_per_exposure": 19.7,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 440.0,
+  "adjusted_cids": 127.7,
   "main_damage_causes": [
     "Harry's moment of desperate vulnerability and the thematic meaning of the sword-from-the-hat is replaced by physical action-hero spectacle, weakening the book's core idea that courage under helplessness is what defines a Gryffindor",
     "Hermione's intellectual agency in solving the basilisk mystery is compressed and partially transferred to Harry, reducing her function as the trio's problem-solver",
@@ -76,5 +75,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 400.0,
+  "adjusted_cids_v1": 440.0
 }

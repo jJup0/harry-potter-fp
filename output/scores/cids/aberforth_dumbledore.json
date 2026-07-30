@@ -3,11 +3,10 @@
   "fp_score": 68.0,
   "infidelity_score": 32.0,
   "weighted_infidelity_exposure": 38.5,
-  "cids": 1232.0,
-  "damage_per_exposure": 117.3,
+  "cids": 254.6,
+  "damage_per_exposure": 24.2,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 1848.0,
+  "adjusted_cids": 254.6,
   "main_damage_causes": [
     "Complete omission of Aberforth's Ariana monologue, which is the emotional and moral foundation of his character and a major source of Dumbledore's moral complexity",
     "Removal of the Hogsmeade Death Eater confrontation, which is the primary demonstration of Aberforth's active courage, cunning, and competence",
@@ -76,5 +75,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1232.0,
+  "adjusted_cids_v1": 1848.0
 }

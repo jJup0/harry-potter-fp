@@ -3,11 +3,10 @@
   "fp_score": 68.0,
   "infidelity_score": 32.0,
   "weighted_infidelity_exposure": 43.0,
-  "cids": 1376.0,
-  "damage_per_exposure": 86.0,
+  "cids": 240.2,
+  "damage_per_exposure": 15.0,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1720.0,
+  "adjusted_cids": 240.2,
   "main_damage_causes": [
     "Complete omission of the OotP death conversation, which is Nick's thematically most significant scene and directly serves Harry's grief arc and the saga's treatment of mortality",
     "Omission of the deathday party and the Headless Hunt corridor scene, which together constitute the bulk of Nick's characterisation as a complex, emotionally vulnerable figure rather than comic relief",
@@ -112,5 +111,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1376.0,
+  "adjusted_cids_v1": 1720.0
 }

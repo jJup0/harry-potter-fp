@@ -3,11 +3,10 @@
   "fp_score": 66.0,
   "infidelity_score": 34.0,
   "weighted_infidelity_exposure": 58.0,
-  "cids": 1972.0,
-  "damage_per_exposure": 106.6,
+  "cids": 300.0,
+  "damage_per_exposure": 16.2,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 2958.0,
+  "adjusted_cids": 300.0,
   "main_damage_causes": [
     "Voldemort's death is aestheticised into spectacular disintegration rather than the thematically essential 'ordinary mortal death of Tom Riddle', undermining the saga's central argument about the limits of power and the ordinariness of evil",
     "The graveyard resurrection speech and the final duel's philosophical dimension are both compressed, reducing Voldemort from a self-aware, psychologically complex antagonist to a primarily physical threat \u2014 the films show what he does but not how he thinks",
@@ -166,5 +165,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 1972.0,
+  "adjusted_cids_v1": 2958.0
 }

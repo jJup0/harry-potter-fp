@@ -3,11 +3,10 @@
   "fp_score": 58.0,
   "infidelity_score": 42.0,
   "weighted_infidelity_exposure": 8.0,
-  "cids": 336.0,
-  "damage_per_exposure": 74.7,
+  "cids": 166.4,
+  "damage_per_exposure": 37.0,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 369.6,
+  "adjusted_cids": 166.4,
   "main_damage_causes": [
     "Consistent reduction to silent background presence: across all films Goyle is given almost no dialogue or individual characterization, making him indistinguishable from Crabbe and erasing the specific texture of his stupidity, physical menace, and sycophancy that the books develop",
     "Role swap with Crabbe in Deathly Hallows Part 2: Goyle is given Crabbe's death (Fiendfyre) and Crabbe's murderous agency, completely altering Goyle's actual fate and arc - in the books Goyle survives the Battle of Hogwarts",
@@ -85,5 +84,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 336.0,
+  "adjusted_cids_v1": 369.6
 }

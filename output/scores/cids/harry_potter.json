@@ -3,11 +3,10 @@
   "fp_score": 76.0,
   "infidelity_score": 24.0,
   "weighted_infidelity_exposure": 435.5,
-  "cids": 10452.0,
-  "damage_per_exposure": 62.4,
+  "cids": 315.7,
+  "damage_per_exposure": 1.9,
   "structural_damage_level": 4,
-  "structural_damage_multiplier": 1.5,
-  "adjusted_cids": 15678.0,
+  "adjusted_cids": 315.7,
   "main_damage_causes": [
     "Removal of Hermione's potions puzzle eliminates her most significant act of independent agency in the climax, reducing her from co-protagonist to support role at the critical moment",
     "Compression of the Norbert/dragon subplot removes the 150-point loss, social ostracism, and Harry's experience of collective consequence, flattening a meaningful character arc",
@@ -1284,5 +1283,7 @@
   "meta": {
     "model": "claude-sonnet-4.6",
     "split": true
-  }
+  },
+  "cids_v1": 10452.0,
+  "adjusted_cids_v1": 15678.0
 }

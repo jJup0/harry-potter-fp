@@ -3,11 +3,10 @@
   "fp_score": 70.0,
   "infidelity_score": 30.0,
   "weighted_infidelity_exposure": 7.0,
-  "cids": 210.0,
-  "damage_per_exposure": 70.0,
+  "cids": 112.5,
+  "damage_per_exposure": 37.5,
   "structural_damage_level": 2,
-  "structural_damage_multiplier": 1.1,
-  "adjusted_cids": 231.0,
+  "adjusted_cids": 112.5,
   "main_damage_causes": [
     "Harry's morally weighted use of Imperio is transferred to Ron, removing a key instance of Harry's willingness to use Dark Magic and the internal conflict that accompanies it",
     "The film invents a distinct personality and institutional authority for Bogrod (45-year speech, angry awakening) where the book deliberately keeps him a blank, Imperiused instrument",
@@ -58,5 +57,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 210.0,
+  "adjusted_cids_v1": 231.0
 }

@@ -3,11 +3,10 @@
   "fp_score": 71.0,
   "infidelity_score": 29.0,
   "weighted_infidelity_exposure": 31.0,
-  "cids": 899.0,
-  "damage_per_exposure": 64.2,
+  "cids": 199.4,
+  "damage_per_exposure": 14.2,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 1123.8,
+  "adjusted_cids": 199.4,
   "main_damage_causes": [
     "Loss of Lucius's political intelligence and calculated double-life: the Borgin and Burkes speech about prudence, the Ministry corridor influence over Fudge, and the newspaper quote scene are either cut or compressed, reducing him from a sophisticated political operator to a theatrical bully",
     "Theatrical villain additions (touching Harry's scar, kicking Dobby, 'while you can', 'Mark my words') replace the book's cold aristocratic menace with pantomime villainy, flattening his characterisation",
@@ -175,5 +174,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 899.0,
+  "adjusted_cids_v1": 1123.8
 }

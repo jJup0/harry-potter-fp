@@ -58,6 +58,21 @@ python3 src/reporting/generate_reports.py
 python3 src/reporting/generate_dashboard.py
 ```
 
+## CIDS (Character Infidelity Damage Score)
+
+CIDS measures the cumulative damage caused by an unfaithful film portrayal, combining how unfaithful the character is (100 - FP), how much screen time is spent on damaging deviations (WIE), and how structurally important those deviations are (SDL).
+
+```
+CIDS = (100 - FP) * log2(1 + WIE) * (1 + SDL/8)
+```
+
+- **100 - FP**: infidelity score (0-100). Higher means less faithful.
+- **WIE** (Weighted Infidelity Exposure): sum of (exposure * impact_weight) across all damaging scenes identified by the LLM. Unbounded - a protagonist with 140 damaging scenes gets WIE ~435.
+- **log2(1 + WIE)**: logarithmic dampening prevents protagonists from dominating the ranking purely on volume. Harry Potter's WIE of 435 becomes log2(436) = 8.77 instead of a raw 435x multiplier.
+- **SDL** (Structural Damage Level, 1-5): how structurally important the character's deviations are. Applied as a continuous term (1 + SDL/8), giving a range of 1.125 to 1.625.
+
+The previous formula (`CIDS = (100 - FP) * WIE * lookup_table[SDL]`) was unbounded in WIE, so protagonists always topped the ranking regardless of how faithful their portrayal was.
+
 ## Architecture
 
 ### Data Flow

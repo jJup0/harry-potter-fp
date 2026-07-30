@@ -3,11 +3,10 @@
   "fp_score": 36.0,
   "infidelity_score": 64.0,
   "weighted_infidelity_exposure": 5.0,
-  "cids": 320.0,
-  "damage_per_exposure": 213.3,
+  "cids": 227.5,
+  "damage_per_exposure": 151.7,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 400.0,
+  "adjusted_cids": 227.5,
   "main_damage_causes": [
     "Harry's 'you can choose Gryffindor' line removes the dramatic irony and tension that drives Albus's arc as a Slytherin outsider",
     "Albus's anxiety is resolved too neatly on the platform, softening his defining trait of persistent unease and not-belonging",
@@ -40,5 +39,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 320.0,
+  "adjusted_cids_v1": 400.0
 }

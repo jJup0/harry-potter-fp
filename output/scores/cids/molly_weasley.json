@@ -3,11 +3,10 @@
   "fp_score": 81.0,
   "infidelity_score": 19.0,
   "weighted_infidelity_exposure": 28.0,
-  "cids": 532.0,
-  "damage_per_exposure": 42.6,
+  "cids": 126.9,
+  "damage_per_exposure": 10.2,
   "structural_damage_level": 3,
-  "structural_damage_multiplier": 1.25,
-  "adjusted_cids": 665.0,
+  "adjusted_cids": 126.9,
   "main_damage_causes": [
     "Complete omission of the OotP Boggart scene, which is the only window into Molly's private fears and the emotional foundation for her Battle of Hogwarts climax",
     "Systematic compression or removal of scenes where Molly takes active positions in arguments (PoA warning debate, OotP Order debate), reducing her from a character with convictions to a reactive presence",
@@ -130,5 +129,7 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6"
-  }
+  },
+  "cids_v1": 532.0,
+  "adjusted_cids_v1": 665.0
 }
