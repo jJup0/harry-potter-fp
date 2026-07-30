@@ -16,9 +16,11 @@ Dashboard: https://jjup0.github.io/harry-potter-fp/
 
 FP (Fidelidad del Personaje / Character Faithfulness) is a 0-100 score measuring one thing only: **how faithful a character's film portrayal is to their book counterpart**. It does NOT measure importance, screen time, charisma, or actor quality.
 
-FP = Personality (0-25) + Narrative Role (0-25) + Motivations (0-25) + Character Arc (0-25)
+FP = Personality & Voice (0-25) + Narrative Role & Agency (0-20) + Motivations & Internal Conflict (0-15) + Character Arc (0-15) + Key Relationships (0-10) + Complexity & Lost Material (0-15)
 
-A character with 30 seconds of screen time can score 100 if those 30 seconds are faithful. The full scoring rubric (in Spanish) is in `data/fp_rules.txt`, and the English LLM prompt translation is in `src/scoring/prompts/scoring_prompt.txt`.
+A character with 30 seconds of screen time can score 100 if those 30 seconds are faithful.
+
+Aitor's original rules (in Spanish, `data/fp_rules.txt` and `data/fp_rules.md`) define a 4-dimension version with each dimension out of 25. The scorer extended this to 6 dimensions to separate relationships and lost material from the broader categories, and all current scores use the 6-dimension rubric. The authoritative definition is the one in the LLM prompt: `src/scoring/prompts/scoring_prompt_3.txt`.
 
 ## Project Status
 

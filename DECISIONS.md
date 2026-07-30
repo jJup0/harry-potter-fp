@@ -47,6 +47,11 @@ FP does **NOT** measure: importance, screen time, charisma, actor quality, or li
 
 **FP = Personality + Narrative Role + Motivations + Character Arc** (each 0–25, total 0–100)
 
+> Superseded: the scorer uses a 6-dimension rubric (Personality & Voice /25, Narrative Role &
+> Agency /20, Motivations & Internal Conflict /15, Character Arc /15, Key Relationships /10,
+> Complexity & Lost Material /15). See `src/scoring/prompts/scoring_prompt_3.txt`. The
+> 4-dimension formula above is Aitor's original specification, retained for the record.
+
 ### Scoring Bands
 
 | Dimension | 23–25 | 18–22 | 12–17 | 6–11 | 0–5 |

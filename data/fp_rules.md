@@ -1,5 +1,13 @@
 # FP Scoring Rules (Character Faithfulness)
 
+> **Superseded as the scoring rubric.** This document is Aitor's original 4-dimension
+> specification, kept as the source record. All current scores use the 6-dimension rubric
+> defined in `src/scoring/prompts/scoring_prompt_3.txt`: Personality & Voice (0-25),
+> Narrative Role & Agency (0-20), Motivations & Internal Conflict (0-15), Character Arc (0-15),
+> Key Relationships (0-10), Complexity & Lost Material (0-15). The extension splits
+> relationships and lost material out of the broader categories; what FP measures and the
+> golden rules below are unchanged.
+
 ## What FP Measures
 
 FP measures ONE thing only: **how faithful the character is in the films compared to the books.**
