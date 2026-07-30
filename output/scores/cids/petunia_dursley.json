@@ -1,107 +1,98 @@
 {
   "character": "Petunia Dursley",
-  "fp_score": 63.0,
-  "infidelity_score": 37.0,
-  "weighted_infidelity_exposure": 34.0,
-  "cids": 261.0,
-  "damage_per_exposure": 21.7,
-  "structural_damage_level": 3,
-  "adjusted_cids": 261.0,
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 40.5,
+  "cids": 314.4,
+  "damage_per_exposure": 25.2,
+  "structural_damage_level": 4,
+  "adjusted_cids": 314.4,
   "main_damage_causes": [
-    "Removal of the OotP Dursley kitchen sequence eliminates Petunia's only moments of independent agency, involuntary revelation, and humanising connection to Harry - the Howler, the Dementor knowledge, and the 'Back?' recognition scene are all lost, collapsing her into a passive background figure for the middle of the series.",
-    "Compression of Snape's memories in DH removes the Prince's Tale material about young Petunia - her longing for magic, her letter to Dumbledore, and the platform argument - which is the only source text explanation for why she became who she is, leaving her film characterisation without a psychological foundation.",
-    "The invented DH farewell dialogue ('I lost a sister') resolves Petunia's arc with an emotional articulation the books deliberately withhold, misrepresenting the character's defining inability to bridge the gap with Harry and softening the unresolved coldness that is true to her."
+    "The near-complete omission of Petunia's pivotal Order of the Phoenix arc \u2014 the Dementor-knowledge revelation, the Howler ('Remember my last'), and Harry's recognition of her as his mother's sister \u2014 removes the emotional and narrative spine of her characterisation across the saga, leaving her as a one-dimensional antagonist rather than a tragic figure defined by suppressed longing and guilt.",
+    "The muting of the King's Cross platform scene (young Petunia having written to Dumbledore begging to attend Hogwarts) strips away the foundational psychological explanation for her hatred of magic, preventing the audience from understanding that her cruelty towards Harry and Lily is rooted in exclusion and envy rather than mere bigotry.",
+    "Cumulative softening and flattening of Petunia's voice and agency throughout \u2014 converting her from a sharp, cold, actively cruel domestic controller into a background presence or briefly flustered figure \u2014 erodes her as a psychologically coherent character and diminishes the weight of her eventual farewell and the broader theme that the magical world's indifference to Muggle-born family members has human consequences."
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film - Petunia's Hogwarts revelation (Hagrid's hut)",
-      "book_baseline": "Petunia's outburst is a torrent of long-suppressed resentment: jealousy of Lily's gifts, bitterness at being overlooked by her parents, contempt for James, and a sense of superiority as the 'normal' one. It reads as years of festering emotion finally erupting.",
-      "film_portrayal": "Petunia delivers the same information but the performance is flatter and more matter-of-fact. The line 'My perfect sister being who she was' replaces the book's raw 'Lily this and Lily that, they were proud of having a witch in the family!' The deep parental-favouritism wound and the specific jealousy of being the overlooked daughter are compressed and softened.",
+      "scene": "Film 1 (Philosopher's Stone) - Hagrid's hut, Petunia's outburst about Lily",
+      "book_baseline": "Book establishes Petunia's resentment as layered and long-suppressed: she was 'the only one who saw her for what she was \u2014 a freak,' felt overlooked by her parents ('Lily this and Lily that'), and harbours a deep, complicated jealousy masked as moral superiority. Her outburst in the book is described as something 'she had been wanting to say all this for years,' implying years of pent-up, complex emotion including envy and hurt, not just contempt.",
+      "film_portrayal": "Petunia's speech ('My perfect sister being who she was... I was the only one to see her for what she was. A freak!') is delivered but the nuance of parental favouritism and Petunia's wounded longing is stripped to simple contempt. The phrase 'my perfect sister' is used dismissively rather than with the bitter ache the books layer beneath it. There is no indication of the longing and jealousy that makes Petunia's hatred of magic complicated rather than merely petty.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's version establishes Petunia's core psychological wound - sibling jealousy rooted in parental preference - which underpins all her subsequent behaviour toward Harry. The film version conveys the facts but loses the emotional texture that makes her a comprehensible, if unsympathetic, character."
+      "explanation": "The film converts Petunia's psychologically rich resentment \u2014 rooted in envy, parental neglect, and wounded love \u2014 into flat contempt. This removes the audience's ability to understand her as anything other than a villain, which damages the deeper characterisation established in the books and later made explicit in the Deathly Hallows farewell and the Howler sequence."
     },
     {
-      "scene": "PS/SS Film - Petunia's domestic characterisation (opening scenes)",
-      "book_baseline": "Petunia is described as thin, blonde, with nearly twice the usual amount of neck from craning over garden fences spying on neighbours. She is gossipy, status-obsessed, and sharply reactive. Her voice is shrill and her manner snappish.",
-      "film_portrayal": "Petunia is present and functional but her defining trait of nosy neighbourhood surveillance and social-status anxiety is not dramatised. She is largely a background figure in the zoo-day sequence, with her characterisation subordinated to Vernon's.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "Minor loss of the specific flavour of Petunia's pettiness - the nosiness and social performance - that distinguishes her from Vernon. She becomes generically unpleasant rather than specifically Petunia-ish."
-    },
-    {
-      "scene": "CoS Film - Petunia and the pudding/Masons scene",
-      "book_baseline": "Petunia has spent the day preparing her 'masterpiece' pudding; her investment in impressing the Masons is personal and domestic. When it is destroyed she is frantic and humiliated. She chases the Masons outside offering ice cream, a small but revealing moment of desperate social performance.",
-      "film_portrayal": "The script retains 'We have ice cream' as Petunia chases the Masons out, which is faithful. However the scene is handled primarily as Vernon's crisis; Petunia's personal investment in the pudding as a domestic achievement and her specific humiliation are not foregrounded.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss of Petunia's domestic pride as a character trait. Low damage overall."
-    },
-    {
-      "scene": "PoA Film - Petunia and Aunt Marge ('Nothing. He didn't work. He was unemployed.')",
-      "book_baseline": "When Marge asks about Harry's father, Petunia says 'He -- didn't work. Unemployed.' with visible tension. The book notes that both Vernon and Petunia look 'extremely tense' - they are complicit in the lie and uncomfortable with Marge's escalating cruelty about Lily.",
-      "film_portrayal": "The film retains the line almost verbatim ('Nothing. That is... he didn't work. He was -- unemployed.') and marks Petunia as 'agitated.' This is largely faithful.",
+      "scene": "Film 1 (Philosopher's Stone) - Hagrid's hut, Petunia's line 'We had to say something'",
+      "book_baseline": "In the book, Petunia does not offer any justification or apologetic framing when Harry challenges the car crash lie. Her response is aggressive and defensive ('Of course we knew! How could you not be...'), with no concession. The lie about the car crash is part of a systematic effort to suppress Harry's identity, not a reluctant necessity.",
+      "film_portrayal": "Petunia says 'We had to say something' in response to Harry's shock about the car crash lie. This is a small but notable softening \u2014 it frames the deception as a reluctant practical measure rather than part of deliberate, cold suppression.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Mostly faithful. Minimal damage; the agitation is present. Slight loss of the shared complicit discomfort between Vernon and Petunia."
+      "explanation": "A minor but real softening of Petunia's culpability. The book Petunia is unrepentant; this line briefly humanises and excuses her in a way the book does not support, slightly undercutting her portrayal as someone who chose cruelty rather than finding herself forced into it."
     },
     {
-      "scene": "OotP Film - Petunia and the Howler / 'Remember my last'",
-      "book_baseline": "The Howler is a pivotal moment: Petunia receives a message from Dumbledore referencing a prior communication ('Remember my last, Petunia'), goes pale and shaking, and makes the unilateral decision that Harry stays - overriding Vernon. This reveals she has a secret history with Dumbledore, that she knows more than she admits, and that she has agency in Harry's protection. Harry is stunned; it is the first crack in her facade.",
-      "film_portrayal": "The Howler scene is cut entirely from the OotP film. Petunia's decision to keep Harry, her secret correspondence with Dumbledore, and her moment of unilateral authority over Vernon are all absent. The film simply moves Harry to Grimmauld Place without this beat.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is the most damaging single cut for Petunia's character. The Howler scene is the one moment in the series where Petunia acts with independent moral agency - she chooses to protect Harry against Vernon's wishes, driven by something she knows and will not explain. Its removal collapses her into a purely passive figure and eliminates the hint of a more complex inner life that pays off in DH. It also removes the audience's first concrete signal that Petunia's relationship with the magical world is not simple hatred."
-    },
-    {
-      "scene": "OotP Film - Petunia's knowledge of Dementors ('They guard the wizard prison, Azkaban')",
-      "book_baseline": "Petunia blurts out knowledge of Dementors and Azkaban, then claps her hand over her mouth in horror. Harry is stunned - this is the first time he has ever heard her voluntarily reveal knowledge of the magical world. The book notes he 'was astounded that she had remembered this scrap of information... when she usually put all her energies into pretending it didn't exist.' She explains she overheard 'that awful boy' (Snape) telling Lily. This is a major crack in her pretence.",
-      "film_portrayal": "This exchange is cut from the OotP film. Petunia never reveals this knowledge on screen.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film 2 (Chamber of Secrets) - Script/scene 9, Mason dinner preparation",
+      "book_baseline": "The book establishes Petunia as an active, enthusiastic co-architect of Harry's exclusion and misery during the Mason dinner preparation. She snaps at Harry, gives him pittance food, whistles him around like a servant, and is genuinely invested in performing normalcy. Her energy is sharp, controlling, and coldly efficient.",
+      "film_portrayal": "The film screenplay (scene 9) renders Petunia largely as a background presence \u2014 confirming her role ('In the lounge, waiting to welcome them graciously') in a pleasant, cooperative tone and fussing over the pudding. She loses the snapping, food-withholding, and servant-like commands that characterise her cruelty in this sequence in the books.",
+      "damage_type": "personality/voice",
       "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The Dementor-knowledge moment is the first on-screen evidence that Petunia's hatred is layered over genuine awareness and suppressed connection to Lily's world. Its absence, combined with the Howler cut, means the film Petunia has no moment of involuntary revelation. The relationship between Petunia and Lily's memory is flattened to simple rejection."
+      "impact_weight": 2,
+      "explanation": "Petunia's active participation in Harry's domestic subjugation \u2014 withholding food, barking orders, treating him as less than human \u2014 is reduced to pleasant domesticity. This mutes one of the clearest windows into her everyday cruelty and her role as an equal partner in Harry's mistreatment, not merely a passive bystander to Vernon's aggression."
     },
     {
-      "scene": "OotP Film - Petunia's moment of recognition ('Back?' / looking at Harry as Lily's sister)",
-      "book_baseline": "When Harry says Voldemort is back, Petunia looks at him 'as she had never looked at him before' - with wide, fearful eyes rather than dislike. Harry fully appreciates for the first time that she is his mother's sister and shares his understanding of what Voldemort's return means. Her 'furious pretence' falls away momentarily. This is one of the most humanising moments Petunia has in the entire series.",
-      "film_portrayal": "Cut entirely along with the OotP Dursley kitchen sequence.",
+      "scene": "Film 2 (Chamber of Secrets) - Scene 11A/11B, pudding aftermath outside house",
+      "book_baseline": "In the book, after the pudding disaster, Aunt Petunia is described as having to 'run and get [Vernon] a large brandy' and Harry spends the aftermath scrubbing the kitchen while shaking. Petunia's role is hands-on household control \u2014 she digs out ice cream for the Masons and actively manages damage control. She is a functioning, cold manager of the situation.",
+      "film_portrayal": "In the screenplay, Petunia races outside after the Masons crying 'We have ice cream!' \u2014 a moment of flustered desperation that is closer to comic buffoonery than to the cold, controlled damage-manager of the books.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but characteristic shift: book Petunia is a cold social manager even in crisis; film Petunia becomes slightly comic and flustered. Cumulatively, these tone shifts erode her as a figure of controlled domestic menace."
+    },
+    {
+      "scene": "Film 3 (Prisoner of Azkaban) - Scene 13, Aunt Marge dinner / James Potter discussion",
+      "book_baseline": "When Aunt Marge asks about James Potter, Petunia responds in the book with 'They looked extremely tense' and Vernon deflects. Petunia does not volunteer information. The book carefully shows Petunia as someone who suppresses all mention of the Potters, consistent with her lifelong effort to pretend they do not exist.",
+      "film_portrayal": "In the screenplay (scene 13), Petunia speaks up when asked about Harry's father, saying '(agitated) Nothing. That is... he didn't work. He was -- unemployed.' She is the one who provides the lie about James, rather than Vernon covering. She is described as 'agitated,' showing visible discomfort.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book assigns this deflection to Vernon while Petunia stays tense and silent \u2014 consistent with her pattern of suppression regarding her sister's family. Having Petunia speak and lie about James is not strongly contradicted by the books, but her visible agitation and active participation shifts her characterisation slightly toward complicit liar rather than silent suppressor. A minor deviation, but it affects consistency."
+    },
+    {
+      "scene": "Film 5 (Order of the Phoenix) - Scene 14, Dementor attack aftermath / kitchen confrontation",
+      "book_baseline": "The book gives Petunia a major, structurally significant moment: she identifies Dementors unprompted ('They guard the wizard prison, Azkaban'), then is appalled at herself, goes pale, and is shown to have retained knowledge of the magical world from listening to 'that awful boy' (Snape) talk to Lily. Harry is 'astounded' \u2014 it is the first time he sees her as someone with genuine hidden knowledge and emotional complexity about her sister. The moment culminates in the Howler ('Remember my last, Petunia'), her decision to let Harry stay, and the first time Harry fully appreciates she is his mother's sister. The book explicitly states: 'for the very first time in his life, Harry fully appreciated that Aunt Petunia was his mother's sister... Her large, pale eyes were not narrowed in dislike or anger, they were wide and fearful.' This is a watershed moment in their relationship.",
+      "film_portrayal": "In the film (scene 14 of the corpus), the kitchen confrontation after the Dementor attack is truncated. Vernon accuses Harry, Petunia checks on Dudley, and the expelled letter arrives. There is no Petunia Dementor-knowledge moment, no Howler addressed specifically to Petunia, no 'Remember my last' scene, and no moment of Harry seeing his aunt as his mother's sister for the first time. Petunia is present but her transformative, structurally important scene is entirely absent from the film corpus provided.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging absence in the corpus. The Howler and Dementor-knowledge scene is the pivot point of Petunia's arc across the entire saga \u2014 it reveals her hidden knowledge, her unspoken connection to Lily, and the reason she kept Harry (Dumbledore's prior communication, 'Remember my last'). Without it, the audience loses the emotional and narrative foundation for Petunia's complexity, Harry's eventual empathy for her, and the meaning of her farewell in Deathly Hallows. It also severs the Dumbledore-Petunia backstory thread that the books use to recontextualise her hostility as something more than simple hatred. The structural damage to Petunia's character arc and her relationship with Harry is severe."
+    },
+    {
+      "scene": "Film 5 (Order of the Phoenix) - Scene 14, Petunia's farewell / departure",
+      "book_baseline": "In the book, when the Order arrives to take Harry away, the farewell sequence includes Petunia's emotional response to Dudley's unexpected kindness to Harry, her 'burst into tears' moment (hugging Dudley rather than Harry, which Hestia finds outrageous), and her final 'Well \u2014 good-bye' to Harry alone in the hallway \u2014 understated, awkward, and loaded with everything unspoken between them. The book states she 'did not seem to have expected to find herself alone with Harry.'",
+      "film_portrayal": "The film corpus (scene 14) shows Petunia and the Dursleys departing, with Petunia opening the car door and fussing ('Ready, Duddy?'). The specific farewell beats \u2014 Petunia's tears over Dudley's comment about Harry, the awkward one-on-one goodbye, the loaded silence \u2014 are not present in the corpus. Petunia's physical farewell to Harry is reduced to functional departure staging.",
       "damage_type": "relationship",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "This is the closest the books come to showing a genuine, if fleeting, human connection between Harry and Petunia - a shared grief and shared fear. Its absence means the film audience never sees Petunia as anything other than an obstacle. The Harry-Petunia relationship remains one-dimensional on screen."
+      "explanation": "The farewell scene is one of the few moments where the books allow Petunia's suppressed, complicated feelings about Harry and Lily to surface obliquely. Her tearful but misdirected emotional response (weeping over Dudley's comment rather than embracing Harry directly) and the final private goodbye are small but resonant beats that humanise her without exonerating her. Losing them flattens the Petunia-Harry relationship at its most important farewell moment."
     },
     {
-      "scene": "DH Part 1 Film - Petunia's farewell ('You didn't just lose a mother... I lost a sister')",
-      "book_baseline": "In the books, Petunia's farewell is wordless and cold. She 'marched towards the door without looking at him' after a bare 'Well - good-bye.' There is no reconciliation, no acknowledgement. The book's Petunia cannot bring herself to bridge the gap even at the final moment.",
-      "film_portrayal": "The film gives Petunia a scripted emotional farewell: 'You didn't just lose a mother that night in Godric's Hollow, you know. I lost a sister.' She also says 'You think I don't know what they're capable of?' This is invented dialogue not in the books, giving Petunia an explicit emotional articulation she never achieves in the source text.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This change is double-edged: it gives Petunia more emotional depth than the books allow her at this moment, but it does so by resolving a tension the books deliberately leave unresolved. The book's Petunia cannot say this - her inability to acknowledge Lily or Harry is the point. The film's version is more sympathetic but less true to the character's arc, which ends in the books on unresolved coldness. It misrepresents the nature of Petunia's damage."
-    },
-    {
-      "scene": "DH Part 1 Film - Young Petunia in Snape's memories (weedy field scene)",
-      "book_baseline": "The Prince's Tale gives detailed context for young Petunia: her mixed curiosity and disapproval of Lily's magic, her longing ('How do you do it?' with 'definite longing in her voice'), her jealousy of Snape's closeness to Lily, her writing to Dumbledore to ask to attend Hogwarts, and her cruelty on the platform ('A special school for freaks'). This is the fullest explanation of who Petunia is and why.",
-      "film_portrayal": "The film's version of Snape's memories is radically compressed. Young Petunia appears briefly: she knocks the flower from Lily's hand and pulls her away from young Snape. The letter to Dumbledore, the platform argument, the longing to attend Hogwarts, and the specific wound of rejection are all absent.",
+      "scene": "Film 7 (Deathly Hallows Part 1 equivalent) - Snape's memories / young Petunia on platform (scene 17)",
+      "book_baseline": "The book's King's Cross flashback (via Snape's memories) shows young Petunia begging Dumbledore by letter to be allowed into Hogwarts ('You didn't think it was such a freak's school when you wrote to the headmaster and begged him to take you'), then turning on Lily with cruelty born of wounded jealousy and exclusion. This is the foundational scene explaining why Petunia is the way she is \u2014 she wanted to belong to the magical world and was rejected, converting longing into contempt.",
+      "film_portrayal": "The film corpus (scene 17) shows young Snape watching Lily and Petunia argue on the platform through a train window, with their voices muted. Petunia's argument with Lily \u2014 including the revelation that she wrote to Dumbledore begging to attend Hogwarts \u2014 is reduced to a muted visual of them arguing, then Lily running onto the train in tears. The crucial dialogue establishing Petunia's hidden desire for the magical world is absent from the film corpus.",
       "damage_type": "arc",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "The Prince's Tale material is the definitive explanation of Petunia's psychology - her jealousy was rooted in genuine desire to be part of Lily's world, not mere contempt. Without it, the film audience has no access to the origin of her bitterness. Her entire characterisation across eight films lacks its explanatory foundation. This is the single largest structural gap in the film's treatment of Petunia."
+      "explanation": "The revelation that Petunia wrote to Dumbledore asking to attend Hogwarts is the key to understanding her entire character \u2014 her hatred of magic is rooted in envy and rejection, not purely in Muggle pride. Without this moment being audible and clear, the audience cannot understand that Petunia is a figure of tragic self-denial rather than simple bigotry. This is the backstory that makes Dumbledore's Howler ('Remember my last') and Petunia's lifetime of cruelty coherent as a psychological portrait. Its absence or muting significantly damages audience understanding of her as a character."
     },
     {
-      "scene": "HBP Film - Dumbledore's visit to Privet Drive (Petunia's reaction)",
-      "book_baseline": "Petunia is present during Dumbledore's visit and is notably 'oddly flushed' when Dumbledore references the protection magic and Harry's treatment. Dumbledore directly addresses the Dursleys' failure to treat Harry as a son. Petunia's flushed reaction suggests some residual guilt or awareness.",
-      "film_portrayal": "The Dursley farewell and Dumbledore's visit to Privet Drive are cut from the HBP film. Dumbledore's direct moral accounting of the Dursleys' treatment of Harry - and Petunia's reaction to it - is absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The loss of Dumbledore's rebuke and Petunia's flushed response removes a moment that hints at suppressed conscience. Minor but contributes to the overall flattening of Petunia's inner life on screen."
+      "scene": "Film 6 (Half-Blood Prince equivalent) - Scene from book corpus / Dumbledore's visit to Privet Drive",
+      "book_baseline": "In the book, during Dumbledore's visit, Petunia is present when Dumbledore directly and gravely reproaches the Dursleys: 'You have never treated Harry as a son. He has known nothing but neglect and often cruelty at your hands.' Petunia is described as 'oddly flushed' at the end of this speech \u2014 a rare crack in her armour suggesting shame or guilt. She also corrects Dumbledore on Harry's age ('No, he doesn't... He's a month younger than Dudley'), showing she pays attention to Harry's existence even while pretending indifference.",
+      "film_portrayal": "The film corpus does not contain the Dumbledore visit to Privet Drive scene (it is referenced in the book corpus scenes 490-507 but absent from the film corpus). Petunia's 'oddly flushed' response to Dumbledore's reproach, her correction of his statement about Harry's age, and the entire scene of Dumbledore confronting the Dursleys on Harry's behalf is not present in the film corpus.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Dumbledore's reproach to the Dursleys, and Petunia's visible shame response, is one of the few moments where the books signal that Petunia may carry some guilt about her treatment of Harry. Her correction about his age also shows she is not as indifferent as she pretends. The absence of this scene removes a narratively important beat in Petunia's arc \u2014 the moment when her treatment of Harry is formally named and condemned by the most authoritative figure in the story, in her presence."
     }
   ],
   "confidence": {
@@ -110,8 +101,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1258.0,
-  "adjusted_cids_v1": 1572.5
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.0"
+  }
 }

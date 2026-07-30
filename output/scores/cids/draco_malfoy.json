@@ -1,234 +1,605 @@
 {
   "character": "Draco Malfoy",
-  "fp_score": 71.0,
-  "infidelity_score": 29.0,
-  "weighted_infidelity_exposure": 45.5,
-  "cids": 220.9,
-  "damage_per_exposure": 10.8,
-  "structural_damage_level": 3,
-  "adjusted_cids": 220.9,
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 212.0,
+  "cids": 324.9,
+  "damage_per_exposure": 4.2,
+  "structural_damage_level": 4,
+  "adjusted_cids": 324.9,
   "main_damage_causes": [
-    "The HBP film's invented Death Eater initiation ceremony undermines the entire premise of Draco's arc \u2014 that he is coerced rather than willing \u2014 which is the source of his tragedy and moral complexity.",
-    "Compression of Draco's months-long psychological deterioration in HBP means the Astronomy Tower scene lacks the earned weight it has in the book; the audience has not witnessed enough of his suffering to fully understand why he cannot act.",
-    "The DH2 invention of Draco throwing Harry his wand resolves the deliberate moral ambiguity of Draco's arc with an unearned heroic gesture, flattening a complex character into a conventional redemption beat."
+    "Removal of the Diagon Alley first meeting eliminates the only scene showing Draco's unguarded, genuine self and his blood-purity beliefs as ingrained conviction rather than performed cruelty, flattening him into a purely reactive antagonist",
+    "Compression of the train compartment and Entrance Hall scenes loses the crucial dimension that Draco is attempting to recruit Harry as an ally, reducing a thwarted social relationship to simple enmity and removing the 'pink tinge' moment that shows Draco's real emotional investment in Harry's approval",
+    "The forest scene's climactic beat \u2014 where Hagrid calls Draco's father-threat and Draco submits by dropping his gaze \u2014 is under-dramatised, losing the key early demonstration that Draco's invocations of his father are hollow and that he cannot actually follow through on his threats when directly challenged",
+    "Omission of the post-Dumbledore-suspension gloating sequence, which is Draco's most defining arc moment in the book \u2014 his crowing triumph followed by deflation \u2014 leaving his rise-and-fall trajectory incomplete",
+    "Compression of the Polyjuice interrogation scene, cutting Draco's petulant desire to be the Heir's associate and his inadvertent revelation about the Malfoy manor, which strips a nuanced layer of his father-subordinated characterisation"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/CoS Film \u2013 Diagon Alley first meeting (Madam Malkin's omitted)",
-      "book_baseline": "Harry meets Draco alone at Madam Malkin's before Hogwarts. Draco is arrogant, boastful, casually classist, and dismissive of Hagrid. Harry forms his first impression organically, disliking him before they even know each other's names.",
-      "film_portrayal": "The Madam Malkin's encounter is entirely cut. Their first meeting is compressed to the Hogwarts entrance corridor, stripping away Draco's unprompted snobbery, his dismissal of Hagrid, and Harry's gradual, earned dislike.",
-      "damage_type": "personality/voice | nuance/lost material",
+      "scene": "Film Scene 1 \u2013 Entrance Hall meeting before Sorting",
+      "book_baseline": "Book Scenes 21-27: On the Hogwarts Express, Draco introduces himself with studied carelessness ('Oh, this is Crabbe and this is Goyle... and my name's Malfoy, Draco Malfoy'), delivers a pointed class-warfare speech about Weasleys having 'red hair, freckles, and more children than they can afford', and offers his hand to Harry. The scene is rich with social calculation: Draco is performing superiority for an audience, sizing Harry up as a potential ally, and reacting with visible wounded pride (a 'pink tinge in his pale cheeks') when rejected. The Diagon Alley meeting (Scenes 1-18) also precedes this and establishes Draco's drawling boredom, snobbery about Muggle-borns, and his assumption of social dominance.",
+      "film_portrayal": "In Film Scene 1, the first meeting is compressed into the Entrance Hall moments before Sorting, cutting the train compartment scene entirely. Draco's opening gambit is reduced to confirming Harry's identity ('It's true then, what they're saying on the train. Harry Potter has come to Hogwarts'), introducing Crabbe and Goyle, then delivering a shortened version of the Weasley insult and the 'wrong sort' offer. The Diagon Alley meeting is also absent from the film corpus. The entire texture of Draco's opening performance \u2014 his drawling boredom, his attempted seduction of Harry as a social project, his stung reaction to rejection \u2014 is flattened into a briefer, more cartoonishly villainous confrontation.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Draco in his first appearances as a social operator who genuinely wants Harry as an ally and is performing aristocratic ease. The film collapses this into a one-note antagonist cameo. The loss of the Diagon Alley scene and the compression of the train scene removes the dimension that Draco is recruiting Harry, not merely insulting him, which matters for understanding their rivalry as a thwarted relationship rather than simple enmity."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Draco's hand-extension and Harry's refusal",
+      "book_baseline": "Book Scene 26-27: Draco extends his hand to Harry and Harry refuses it. Draco then goes pink in the cheeks \u2014 a rare moment of genuine, involuntary emotion that cracks his performed composure. The book narrates: 'Draco Malfoy didn't go red, but a pink tinge appeared in his pale cheeks.' This is the first sign that Draco actually wanted the alliance and feels the sting of rejection personally.",
+      "film_portrayal": "Film Scene 1 shows Draco extending his hand and Harry refusing, but the film gives no visible indication of wounded pride or emotional reaction from Draco. He simply glares before McGonagall taps him away. The stage direction notes only 'Malfoy glares' \u2014 there is no equivalent of the 'pink tinge' moment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The blush is a small but diagnostically important detail: it shows Draco has genuine emotional investment in Harry's approval, making him more than a bully. Its absence means the film's Draco is all performance with no vulnerability underneath, which reduces him from a complex social creature to a standard antagonist."
+    },
+    {
+      "scene": "Film Scene 6 \u2013 Flying lesson: Malfoy taunts Harry with Remembrall",
+      "book_baseline": "Book Scenes 69-80: After Neville's accident, Malfoy laughs at Neville ('Did you see his face, the great lump?'), then picks up the Remembrall and threatens to put it up a tree. When Harry challenges him in the air, the book shows Malfoy as a genuinely skilled flier who has been 'hovering level with the topmost branches of an oak', looking 'stunned' when Harry matches him, and eventually backing down by throwing the Remembrall rather than fighting. His retreat \u2014 'trying to sneer, but looking worried' \u2014 is a key beat showing Draco folds under direct physical challenge.",
+      "film_portrayal": "Film Scene 6 shows Malfoy taunting Harry ('What's the matter, Potter? Bit beyond your reach?') and hovering above, but the exchange of dialogue is reduced. The film keeps the core action but loses Draco's intermediate psychological beat of being genuinely stunned and worried. His lines in the air are brief taunts rather than the book's more specific dynamic where Harry's aggression visibly unsettles him before he throws the ball.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor damage: the core confrontation is present. The loss is the specific moment of Draco's visible concern under pressure, which the book uses to establish a pattern \u2014 Draco postures but retreats when directly confronted without his support structure. The film preserves the plot beat but loses the psychological texture."
+    },
+    {
+      "scene": "Film Scene 10 \u2013 McGonagall catches Malfoy; detention in the forest",
+      "book_baseline": "Book Scenes 174-196: Malfoy is caught by McGonagall while trying to expose Harry and the dragon. In the forest, he openly shows fear ('I'm not going in that forest' with 'a note of panic in his voice'), complains it is 'servant stuff', invokes his father ('if my father knew I was doing this'), and then crucially \u2014 when Hagrid calls his bluff about going home \u2014 'didn't move. He looked at Hagrid furiously, but then dropped his gaze.' This is a defining character moment: Draco's threats about his father are exposed as hollow; he backs down when directly challenged. He also sneaks up on Neville in the forest as a prank, showing his cruelty persists even when frightened.",
+      "film_portrayal": "Film Scene 10 shows Malfoy receiving detention alongside Harry, Ron, and Hermione. In the forest, he says 'This is servant's stuff' and mentions his father ('You wait till my father hears about this'), and shows fear of werewolves. However, the specific beat where Hagrid calls his bluff \u2014 'if you think your father'd rather you were expelled, get back to the castle and pack' \u2014 and Draco drops his gaze and stays, is compressed or absent as a distinct dramatic moment. The film moves quickly past this into the forest action.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's forest sequence contains one of Draco's most important early characterisation moments: his father-threat is called, he cannot follow through, and he silently submits. This establishes the pattern that Lucius Malfoy is both Draco's weapon and his cage \u2014 Draco cannot actually leave Hogwarts just because things are unpleasant, because his father's approval requires his success there. The film keeps the surface behaviour (fear, complaints about father) but loses the climactic beat of submission, reducing the scene's value in charting Draco's dependency and hollow bravado."
+    },
+    {
+      "scene": "Film Scene 10 \u2013 Draco in the Forbidden Forest with Harry (unicorn scene)",
+      "book_baseline": "Book Scenes 207-210: Harry and Malfoy walk together through the forest, and it is Malfoy who first spots the dead unicorn ('Look \u2014 he murmured, holding out his arm to stop Malfoy. Something bright white was gleaming'). When the hooded figure appears and begins drinking the unicorn's blood, Malfoy 'let out a terrible scream and bolted.' The book then has Harry left alone, paralysed by fear and scar pain, rescued by Firenze. The sequence gives Draco a moment of shared discovery before his flight, and his screaming departure is played as pure animal terror.",
+      "film_portrayal": "Film Scene 10 shows Harry and Malfoy walking together with Fang, and Malfoy holding the lamp. Malfoy screams and runs when the figure is seen drinking the unicorn's blood. The film preserves the core action. However, Harry's line in the film \u2014 'If I didn't know better, Draco, I'd say you were scared' \u2014 spoken before the encounter, and Malfoy's defiant 'Scared, Potter? Did you hear that? Come on, Fang. Scared!' \u2014 adds a bravado exchange not present in the book corpus for this scene that actually gives Malfoy slightly more texture here.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film's pre-encounter bravado exchange is a minor addition that functions adequately. The core terror and flight are preserved. Damage here is minimal \u2014 the scene works as adaptation. Rated low accordingly."
+    },
+    {
+      "scene": "Film Scene 11 \u2013 House Cup ceremony: Malfoy's reaction",
+      "book_baseline": "Book Scene 219: When points are awarded to Gryffindor and Slytherin loses the House Cup, Harry notices Malfoy looking as though 'he couldn't have looked more stunned and horrified if he'd just had the Body-Bind Curse put on him.' This is a specific, almost comedic image of total psychological collapse \u2014 Draco's year-long smugness evaporating in an instant.",
+      "film_portrayal": "Film Scene 11 shows Malfoy with 'a cringing look on his face' and later 'angrily throws his [hat] on the table in defeat.' The stage directions also note 'Malfoy looks quite uncertain now.' The anger and defeat are present, but the film's Malfoy throws his hat in anger \u2014 an active, aggressive response \u2014 whereas the book's Malfoy is described as frozen in stunned horror, which is more humiliating and revealing of his dependence on Slytherin status.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor tonal difference. The book's image of Draco paralysed with horror is more psychologically revealing than the film's angry hat-throw. The film's version makes him look petulant; the book's version makes him look devastated. Small but the distinction matters to his characterisation as someone for whom status is existential rather than merely desirable."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Absence of Diagon Alley meeting",
+      "book_baseline": "Book Scenes 1-18: The Diagon Alley meeting at Madam Malkin's is Draco's first appearance. It establishes his drawling boredom, his casual cruelty about Hagrid ('a sort of savage'), his blood-purity ideology ('I really don't think they should let the other sort in'), his obliviousness to how he is coming across, and crucially that he has no idea who Harry is. This is the only scene where Draco is not performing for an audience \u2014 he is simply being himself with a stranger, which makes his prejudices feel natural and ingrained rather than performed.",
+      "film_portrayal": "The film corpus contains no Diagon Alley scene with Malfoy. The first meeting is moved to the Entrance Hall, where Draco already knows who Harry is ('It's true then, what they're saying on the train') and is immediately performing.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The book scene establishes Draco's character independently of Harry's fame \u2014 he's already insufferable before he knows who Harry is. Cutting it removes the foundation of their rivalry and makes Draco's hostility feel reactive rather than innate."
+      "impact_weight": 3,
+      "explanation": "The Diagon Alley scene is the only window into Draco's unguarded, unperforming self in Book 1. It establishes that his blood-purity views are genuinely held convictions rather than calculated provocations, and that his social aggression is habitual rather than targeted. Its absence means the film's Draco is always 'on' \u2014 always aware of Harry, always performing \u2014 which makes him feel more like a designed antagonist and less like a person shaped by his upbringing. This is a meaningful loss for audience understanding of what Draco actually is."
     },
     {
-      "scene": "PS Film \u2013 Train compartment introduction",
-      "book_baseline": "Draco insults the Weasleys with specific, cutting knowledge ('My father told me all the Weasleys have red hair, freckles, and more children than they can afford'), threatens Harry's parents' memory, and is visibly stung when Harry rejects his hand. A pink tinge appears in his cheeks \u2014 a rare crack in his composure.",
-      "film_portrayal": "The insult to the Weasleys is present but the threat about Harry's parents ('you'll go the same way') is cut. The physical detail of Draco's embarrassed flush is absent. The scene is shorter and less charged.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book shows Draco is capable of genuine cruelty and also genuine wounded pride. The film flattens him into a generic bully, losing the nuance that he can be hurt and that his threats have real menace."
-    },
-    {
-      "scene": "PS Film \u2013 Quidditch match / Malfoy dementor prank",
-      "book_baseline": "At the second Quidditch match, Malfoy and cronies dress as dementors to frighten Harry, are caught by McGonagall, and receive detention and point deductions. Malfoy's scheming is petty but inventive.",
-      "film_portrayal": "This incident does not occur in the PS film (it belongs to PoA). In PoA the film does include it briefly. No significant damage here \u2014 noting for completeness.",
+      "scene": "Film Scene 5 \u2013 Potions class: Draco's role reduced",
+      "book_baseline": "Book Scenes 46-52: In Potions, Draco and his friends snigger at Harry's humiliation by Snape, and Snape explicitly praises Malfoy's work ('He was just telling everyone to look at the perfect way Malfoy had stewed his horned slugs'). Draco is positioned as Snape's favourite, the Slytherin counterpoint to Harry \u2014 succeeding exactly where Harry is publicly humiliated.",
+      "film_portrayal": "Film Scene 5 shows Malfoy smirking and looking on during Snape's interrogation of Harry, but Snape does not explicitly praise Malfoy's work in the film corpus for this scene. Malfoy is present and visibly pleased but his specific role as Snape's praised student is not dramatised in the available film dialogue.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor omission; the dementor prank is present in PoA film in condensed form."
+      "explanation": "Minor loss. The dynamic of Malfoy as Snape's pet \u2014 the structural opposite of Harry in the classroom \u2014 is implied by his smirking presence but not made explicit. This slightly weakens the establishment of the Snape-Malfoy axis that will matter in later books, but within Book 1's adaptation scope the damage is limited."
     },
     {
-      "scene": "CoS Film \u2013 Borgin and Burkes / Draco's petulance",
-      "book_baseline": "Draco whines to his father about Harry's Nimbus and Hermione beating him in exams. Lucius publicly shames him ('I would have thought you'd be ashamed that a girl of no wizard family beat you in every exam'). Draco is abashed and angry \u2014 a rare moment of vulnerability and humiliation within his family dynamic.",
-      "film_portrayal": "The scene is present but Draco's whining is condensed. Lucius's sharp rebuke about Hermione outperforming him is cut. The father-son dynamic loses its edge.",
-      "damage_type": "relationship | nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book establishes that Draco is not simply empowered by his father \u2014 he is also judged and found wanting by him. This pressure is part of what drives Draco's arc in HBP. Softening it weakens the foundation of his later desperation."
-    },
-    {
-      "scene": "CoS Film \u2013 Slytherin common room Polyjuice scene",
-      "book_baseline": "Draco reveals he doesn't know who the Heir of Slytherin is, wishes he could help them, hopes Granger dies, and discloses his father's instructions to keep his head down. He is genuinely in the dark \u2014 not the mastermind \u2014 which is a crucial revelation.",
-      "film_portrayal": "The scene is present and reasonably faithful. Draco's ignorance and his 'I hope it's Granger' line are retained. Faithful enough.",
+      "scene": "Film Scene 2 (Flourish and Blotts) - Draco's 'Mudblood' scene",
+      "book_baseline": "In the book, Malfoy calls Hermione a 'Mudblood' during a Quidditch pitch confrontation after she defends the Gryffindor team's merit. The moment erupts with immediate physical reactions from Fred, George, Alicia, and Ron, with Harry noting 'there was an instant uproar.' Malfoy's cruelty lands in a context of genuine rivalry and peer group dynamics. Harry himself knows at once it was 'something really bad.'",
+      "film_portrayal": "The film moves the 'Mudblood' slur to the Quidditch courtyard scene, which is broadly faithful, but Harry's reaction is changed: the script explicitly states 'everyone reacts as if Malfoy has said something horrific -- everyone save Harry, who looks puzzled.' This shifts Harry's ignorance to the foreground and reduces Malfoy's cruelty to a vehicle for a Hermione/Hagrid explanation scene, slightly flattening the peer-shock dynamic.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Largely faithful; minor compression does not significantly damage characterisation."
+      "explanation": "Minor dilution: the slur's impact on the peer group is slightly softened because Harry's puzzlement becomes the narrative focus rather than the collective outrage. Malfoy's viciousness is still clear but the communal horror that defines the book moment is reduced."
     },
     {
-      "scene": "PoA Film \u2013 Hippogriff lesson / Buckbeak attack",
-      "book_baseline": "Malfoy deliberately provokes Buckbeak after being warned, calls it a 'great ugly brute.' He is reckless and arrogant. After being scratched he milks the injury theatrically, winking at Crabbe and Goyle while performing pain for Pansy. The fakery is explicit.",
-      "film_portrayal": "The provocation and injury are present. However, the film adds Harry rushing forward and Buckbeak lowering its head to Harry \u2014 making Harry the hero of the moment in a way that slightly shifts focus. Malfoy's theatrical fakery (the wink to Crabbe and Goyle) is retained in a brief scene.",
+      "scene": "Film Scene 2 (Quidditch courtyard) - Draco as Slytherin Seeker reveal",
+      "book_baseline": "In the book, Malfoy is 'smirking all over his pale, pointed face' and gloats with smooth, practiced superiority. He delivers the broom boast with calculated smugness, using wealth as a weapon deliberately. He is in full control of the social dynamic and enjoys every moment of Gryffindor discomfort.",
+      "film_portrayal": "The film is broadly faithful here. Draco says 'Unlike some, my father can afford to buy the best,' which captures the essence. The scene is largely on-book.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Near-faithful. The film condenses Malfoy's gloating but retains the core dynamic. Minimal damage."
+    },
+    {
+      "scene": "Film Scene 3 (Slytherin common room under Polyjuice) - Draco's ignorance of the Heir",
+      "book_baseline": "In the book, the Polyjuice interrogation scene is a crucial revelation: Malfoy genuinely does not know who the Heir of Slytherin is, says 'I wish I knew who it is... I could help them,' and reveals his father has kept him deliberately in the dark ('Father won't tell me anything'). He also says 'I hope it's Granger' with relish, and speculates that the last time a Mudblood died. His petulance, his desire to be involved but being excluded by his own father, and his casual cruelty are all present. He also reveals the secret chamber under the Malfoy manor drawing room.",
+      "film_portrayal": "The film version of this scene cuts Malfoy's most revealing line: 'I wish I knew who it is' (book scene 248) \u2014 his petulant longing to be included \u2014 is absent. The film also cuts the detail about the secret chamber under the Malfoy manor (book scene 257), which showed Draco inadvertently revealing his family's hidden Dark Arts cache. The film Draco still says he doesn't know, but the dimension of his frustrated exclusion by his father is significantly compressed.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Polyjuice scene reveals something nuanced about Draco: he is not the Heir, he wants to be associated with the Heir but is kept ignorant by Lucius, and he is simultaneously cruel and pathetically out of the loop. The film retains his ignorance but strips the petulant 'I wish I knew' beat and the manor chamber revelation, losing the portrait of a boy who is dangerous but also subordinated and excluded by his own father. This weakens the Lucius-Draco power dynamic subtly."
+    },
+    {
+      "scene": "Film Scene 3 (Slytherin common room) - Draco strutting after Dumbledore's suspension",
+      "book_baseline": "In the book, after Dumbledore is suspended, 'Draco Malfoy was strutting around the school as though he had just been appointed Head Boy.' He gloats openly in Potions, saying 'I always thought Father might be the one who got rid of Dumbledore,' and sycophantically suggests Snape apply for headmaster, promising his father's vote. He also says 'Pity it wasn't Granger' about the petrified students (book scene 308). This is a full scene of Draco at his most unguarded and nastily triumphant, revealing his father-worship and his cruelty.",
+      "film_portrayal": "This entire post-suspension strutting sequence \u2014 Draco's gloating in Potions, his sycophantic suggestion that Snape apply for headmaster, his 'Pity it wasn't Granger' line in the post-suspension period \u2014 does not appear in the film corpus. The film moves directly from the Hagrid/Dumbledore departure scene to the spider-following sequence without a scene of Draco capitalising on his father's victory.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is a significant omission. The book's Draco-gloating-after-Dumbledore's-suspension scene is one of his most defining moments in Chamber of Secrets: it shows his father-worship in its most naked form, his cruelty toward Muggle-borns at its peak confidence, and his social power in Slytherin. It also establishes him as actively threatening rather than merely reactive. Its absence removes a key beat in Draco's arc of rise and fall within the year \u2014 his crowing triumph before the eventual humiliation when Lucius is exposed and sacked."
+    },
+    {
+      "scene": "Film Scene 1 (Borgin and Burkes) - Draco reaching for the Hand of Glory",
+      "book_baseline": "In the book, Draco calmly examines the Hand of Glory and says 'Can I have that?' with self-assurance. He also pauses to smirk at a cursed opal necklace card and examines a hangman's rope with interest \u2014 showing his comfort and fascination with Dark objects as a natural extension of his upbringing.",
+      "film_portrayal": "The film adds a moment where 'the HAND GRABS HIM. Draco shrieks, manages to slip free, then calms. He eyes the hand with malicious glee.' This slapstick fright reaction \u2014 Draco shrieking \u2014 is entirely invented and not in the book corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Draco is entirely composed and at home in Borgin and Burkes, fascinated by dark objects without fear. The added shriek undercuts his established ease with dark magic paraphernalia, making him momentarily buffoonish. While small, it is antithetical to the character trait the book is establishing in this scene \u2014 that the Malfoy world of dark objects is normal and comfortable to Draco, not startling."
+    },
+    {
+      "scene": "Film Scene 2 (Quidditch match) - Malfoy crashes into beam",
+      "book_baseline": "In the book during the Quidditch match, Malfoy taunts Harry ('Training for the ballet, Potter?') and is competitive and menacing. He does not crash; Harry wins the Snitch by spotting it near Malfoy's ear while Malfoy is busy laughing at him, and Malfoy's face shows he 'looked ready to kill' at the result. Malfoy is humiliated by his own inattention but remains a credible rival throughout.",
+      "film_portrayal": "The film has Malfoy crash spectacularly into a wooden beam during the trench chase, spiralling out and landing 'flat on his back in the middle of the pitch.' This is a physical slapstick humiliation invented for the film \u2014 Malfoy is knocked out of the running by his own incompetence during the chase, not by Harry outplaying him.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Mostly faithful, but the film's staging emphasises Harry's bravery over Malfoy's calculated manipulation of the situation for sympathy and to damage Hagrid. The wink is present but underplayed."
+      "explanation": "The book preserves Malfoy as a credible Quidditch threat who is beaten by Harry's superior focus and opportunism, not by crashing into scenery. The film's slapstick crash reduces Malfoy to a comedic foil and undermines the rivalry's competitive tension. It shifts the dynamic from Harry outthinking Malfoy to Malfoy simply failing on his own, which is a meaningful character distinction."
     },
     {
-      "scene": "PoA Film \u2013 Hogsmeade snowball ambush (invisible Harry)",
-      "book_baseline": "Harry, under the Invisibility Cloak, pelts Malfoy with mud/snowballs at Hogsmeade. Malfoy is terrified and humiliated, running away. The scene shows Malfoy's cowardice when he cannot identify his attacker.",
-      "film_portrayal": "The film version has Harry throwing snowballs at Malfoy near the Shrieking Shack. Malfoy's terror and flight are present. Reasonably faithful in spirit.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 2 (Chamber of Secrets reveal / McGonagall classroom) - Malfoy smiling to himself",
+      "book_baseline": "The book does not place Malfoy prominently in McGonagall's Transfiguration class during the Chamber of Secrets legend explanation in a way that singles him out with a knowing reaction.",
+      "film_portrayal": "The film script notes: 'Malfoy sits calmly, smiling to himself' and 'Ron's eyes shift. Malfoy sits calmly, smiling to himself' during McGonagall's explanation of the Chamber. This implies Malfoy has insider knowledge, nudging the audience toward suspecting him as the Heir.",
+      "damage_type": "motivation/internal conflict",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Largely faithful; Malfoy's cowardice when facing an unseen threat is conveyed."
+      "explanation": "This is a minor addition that slightly misrepresents Malfoy by implying he has genuine insider knowledge of the Chamber, when the book ultimately reveals he is as ignorant as everyone else about the Heir's identity. It is a small red-herring characterisation choice that nudges his portrayal toward 'actually knows something' rather than 'loudly performing knowledge he doesn't have.'"
     },
     {
-      "scene": "PoA Film \u2013 Hermione punches Malfoy",
-      "book_baseline": "Hermione first raises her wand at Malfoy, then punches him. Malfoy steps back from the wand, then is floored by the punch. He runs away with Crabbe and Goyle. The sequence shows Malfoy backing down from a direct magical threat before the physical one.",
-      "film_portrayal": "The film has Hermione raise her wand, then punch Malfoy. He stumbles back against a tree 'cross-eyed with fear' before the punch. The cowardice is present and arguably more visually explicit.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Faithful in substance. No significant damage."
+      "scene": "Film Scene 3 (end) - Lucius Malfoy final confrontation; Draco absent",
+      "book_baseline": "In the book's climax, Lucius Malfoy arrives at Dumbledore's office with Dobby and is confronted and humiliated. Draco is mentioned at the very end: 'Draco was no longer strutting around the school as though he owned the place. On the contrary, he looked resentful and sulky' \u2014 establishing his fall from social dominance as a direct consequence of his father's exposure and disgrace.",
+      "film_portrayal": "The film's final confrontation (Film Scene 3, Dumbledore's office) involves only Lucius and Dobby. Draco is entirely absent from this resolution. There is no filmic equivalent of showing Draco's deflated, resentful aftermath. The film ends without any image of Draco's fall.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book closes Draco's arc for the year with a clear image of his comeuppance: his strut replaced by resentment and sulkiness after his father's humiliation. The film omits this entirely, leaving Draco's year-arc unresolved on screen. Audiences do not see his social fall as a consequence of Lucius's exposure, which is the moral payoff of his earlier crowing triumph."
     },
     {
-      "scene": "GoF Film \u2013 Malfoy as ferret / 'My father will hear about this'",
-      "book_baseline": "After being transfigured into a ferret by Moody, Malfoy mutters about his father while pale-eyed and still in pain. He is resentful but cowed. The scene establishes his dependence on Lucius as a shield.",
-      "film_portrayal": "The ferret scene is present. Malfoy shouts 'My father will hear about this!' loudly and defiantly before being transformed \u2014 making it a punchline rather than a moment of genuine threat-making. The book has him mutter it after the fact, more quietly and with genuine grievance.",
+      "scene": "Film Scene 3 (EXT. Paddock - Hagrid's Hut): Malfoy pushes past Harry and strides toward Buckbeak unprompted",
+      "book_baseline": "Book Scene 61-62: Malfoy, Crabbe, and Goyle had 'taken over Buckbeak' as part of the class rotation \u2014 Malfoy did not push past Harry to get there. He approaches Buckbeak within the structured lesson context, patting his beak and 'looking disdainful' before making his insulting remark. His provocation is casual arrogance, not aggressive physical assertion.",
+      "film_portrayal": "Malfoy physically pushes past Harry and strides toward Buckbeak immediately after Harry's successful ride, framing the action as a direct competitive response to Harry rather than a separate turn in class. The film adds 'If Potter can do it, it must be easy' \u2014 collapsing his arrogance into reactive jealousy of Harry rather than the book's more general contemptuous overconfidence.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film turns Malfoy's father-invocation into a comic beat that the audience laughs at. The book version is more unsettling \u2014 it's a real threat that Moody takes seriously. This shift reduces Malfoy from a genuinely dangerous social actor to a figure of fun."
+      "explanation": "The book's Malfoy is arrogantly self-assured independent of Harry \u2014 his insult to Buckbeak flows from generalised contempt for dangerous creatures and Hagrid's class. The film reframes his motivation as jealousy and competitive one-upmanship with Harry, flattening a multidimensional flaw into a simpler Harry-reactive antagonism. This subtly diminishes the autonomy of his characterisation."
     },
     {
-      "scene": "GoF Film \u2013 World Cup Top Box / Draco's contemptuous aside",
-      "book_baseline": "Draco sits between his parents, shoots Harry, Ron and Hermione 'one contemptuous look' and turns away. Lucius's interaction with Fudge and the Weasleys is the focus; Draco is a silent, observing presence absorbing his father's social power.",
-      "film_portrayal": "Draco has a brief speaking line ('Don't boast, Draco') from Lucius and a contemptuous look. The scene is compressed but the dynamic is present.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor compression. The father-son dynamic is sketched adequately."
+      "scene": "Film Scene 3 (EXT. Paddock): Malfoy's fake Dementor warning to Harry during Care of Magical Creatures",
+      "book_baseline": "Book Scene 50: Malfoy says 'Careful, Potter, there's a dementor behind you' \u2014 this is a one-line taunt in the context of Hagrid's lesson before Buckbeak's entrance, used to mock Harry's earlier fainting on the train. It is a brief, contemptuous jibe delivered in the paddock, showing his cruelty but not causing Harry to physically react in fear.",
+      "film_portrayal": "The film places this taunt earlier in the paddock scene (before Buckbeak appears), and Harry visibly JUMPS and wheels around in fear before finding nothing \u2014 then the Slytherins collectively mock him with 'OOH' sounds. The scene is staged to make Harry look foolish and vulnerable in front of the whole class rather than as a passing barb.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book Malfoy's taunt is fleeting and Harry is not shown to physically flinch from it in this context. The film amplifies the moment into a staged public humiliation, which shifts the power dynamic between Malfoy and Harry: the book maintains Harry's composure under Malfoy's taunts more consistently. The film makes Malfoy's cruelty more theatrically effective at Harry's expense, damaging the balance of their rivalry."
     },
     {
-      "scene": "GoF Film \u2013 Malfoy taunting Harry about the tournament / 'Potter Stinks' badges",
-      "book_baseline": "Malfoy distributes POTTER STINKS badges, taunts Harry repeatedly through the term, and uses the tournament to maximise Harry's humiliation. He is gleeful and inventive in his cruelty.",
-      "film_portrayal": "The badges are shown briefly. Malfoy's sustained campaign of mockery across the term is compressed to a few moments. His line about his father betting Harry won't last ten minutes is present but the cumulative drip of cruelty is lost.",
+      "scene": "Film Scene 3 (EXT. Paddock): Absence of Malfoy's book-specific sneering about the Monster Book of Monsters and Hagrid's competence",
+      "book_baseline": "Book Scenes 42-49: Malfoy delivers a sustained, multi-line sneering attack on Hagrid's lesson \u2014 'Oh, how silly we've all been! We should have stroked them! Why didn't we guess!', 'Oh, tremendously funny! Really witty, giving us books that try and rip our hands off!', and 'God, this place is going to the dogs... my father'll have a fit when I tell him.' These lines establish Malfoy as verbally precise, withering, and institutionally threatening \u2014 his sarcasm is articulate and his weapon is social/political power via his father.",
+      "film_portrayal": "The film reduces Malfoy's pre-Buckbeak contribution to a single functional question ('And exactly how do we do that?') and then one line about his father after Hagrid leaves ('God, this place is going to the dogs. Wait until my father hears Dumbledore's got this oaf teaching classes.'). The extended sardonic commentary about the books is entirely absent.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film cannot replicate the sustained nature of Malfoy's campaign, but the compression makes him feel like a background irritant rather than a persistent, creative antagonist."
+      "explanation": "The book's Malfoy is a precisely vicious verbal antagonist whose wit and sarcasm are defining traits. Losing his multi-line mockery of the Monster Books strips away the most characteristic expression of his voice in this scene \u2014 his cruelty is intelligent and performative for an audience (the class), not just reactive. The film version is blunter and less menacing in a sophisticated sense."
     },
     {
-      "scene": "GoF Film \u2013 Malfoy absent from Quidditch match / Harry's suspicion",
-      "book_baseline": "Harry notices Malfoy skipping the Quidditch match and is suspicious. This feeds his growing obsession with Malfoy's activities \u2014 a character beat that prefigures HBP.",
-      "film_portrayal": "This subplot is entirely absent from the GoF film.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 5 (INT. Lupin's Classroom - Boggart lesson): Malfoy mutters 'It's this class that's ridiculous'",
+      "book_baseline": "Book Scene 140-141: Malfoy's antagonism toward Lupin is described as persistent and socially performed \u2014 'Look at the state of his robes... He dresses like our old houseelf' said loudly as Lupin passed, used to try to undermine Lupin's authority. Malfoy targets Lupin's poverty and social status as ammunition, performed for an audience.",
+      "film_portrayal": "Malfoy mutters 'It's this class that's ridiculous' softly during the Riddikulus drill. This is a generic, low-energy grumble rather than the book's targeted, audience-directed classism toward Lupin.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss; the GoF film has no room for this and it is not load-bearing for Draco's arc in that film."
+      "explanation": "Minor but directionally consistent with the broader pattern: the film reduces Malfoy's pointed, classist, socially weaponised antagonism toward Lupin to a generic sulky mutter. The book's version is more revealing of his character \u2014 he attacks specific vulnerabilities (poverty, appearance) to delegitimise people, not just generalised dismissiveness."
     },
     {
-      "scene": "OotP Film \u2013 Malfoy as Inquisitorial Squad member / docking points",
-      "book_baseline": "Malfoy relishes his Inquisitorial Squad power, docks points from Gryffindor and Hufflepuff, and uses institutional authority as a weapon. He corners Harry and delivers him to Umbridge. This is Malfoy at his most politically dangerous \u2014 using systems rather than brute force.",
-      "film_portrayal": "Malfoy is shown as an Inquisitorial Squad member and does catch Harry. However, the sustained point-docking campaign and his systematic abuse of prefect/squad authority across the term is compressed to a single scene.",
+      "scene": "Film Scene 6 (INT. Lupin's Classroom - Snape substitute): Malfoy lets out a low howl at Hermione's answer",
+      "book_baseline": "The book corpus does not contain this specific Potions/DADA substitute scene in comparable detail. However, the film corpus establishes Malfoy performing a low howl to mock Hermione's answer about werewolves, which Snape then weaponises against Hermione. The book consistently shows Malfoy's cruelty toward Hermione as contemptuous and classist (Mudblood slurs etc.) \u2014 targeted and personal.",
+      "film_portrayal": "Malfoy's howl is a puerile, almost playful provocation \u2014 more 'class clown' than 'malicious aristocrat.' It reads as generic schoolboy mockery rather than the calculated class-based cruelty of the books.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small moment but symptomatic: the film replaces Malfoy's characteristic calculated contempt with low-effort buffoonery. The howl is cheap mockery; the book's Malfoy would deploy something more precisely demeaning. Marginal damage in isolation."
+    },
+    {
+      "scene": "Film Scene 7 (EXT. Shrieking Shack): Malfoy's confrontation with Ron and Hermione",
+      "book_baseline": "Book Scenes 193-215: In the book, Harry is under the Invisibility Cloak and uses it to pelt Malfoy with mud, terrify Crabbe and Goyle as a 'ghost,' and ultimately gets spotted when the cloak slips. Malfoy comes to the Shrieking Shack area and taunts Ron (not Hermione) about his family sleeping in one room. The incident is primarily Harry's active prank \u2014 he has agency, plans the mud-throwing, and the comedy comes from his invisible sabotage. Malfoy and Crabbe run in genuine fear when Harry's head is briefly visible.",
+      "film_portrayal": "The film replaces mud with snowballs (Harry under the cloak) and sets the encounter outside the Shrieking Shack in winter. Malfoy taunts both Ron and Hermione, beginning to say 'filthy little mud--' (the Mudblood slur cut short by a snowball). Harry physically kicks Malfoy, pulls his ski mask over his eyes, and boots him away. The physical comedy is broader and more slapstick. Malfoy's fear response ('Wait a minute, there's something out here!') is more overtly panicked and comedic.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film makes Malfoy more broadly comedic and physically hapless \u2014 being kicked, spun, booted over a rise. The book's version has Malfoy genuinely frightened but retaining some attempt at bravado (trying to locate the source, staring madly around). More importantly, the film begins the Mudblood slur and cuts it short, which is an odd half-measure \u2014 the book's Malfoy uses the slur with full deliberate cruelty (established elsewhere in the series). The truncated slur here makes him seem checked/interrupted rather than the agent of that cruelty. The slapstick framing also slightly diminishes him as a credible threat."
+    },
+    {
+      "scene": "Film Scene 10 (EXT. near monoliths): Malfoy spying on Hagrid with binoculars, 'Father said I can keep the head'",
+      "book_baseline": "Book Scene 232-237: Malfoy laughs derisively as the class walks back to the castle after Hagrid loses the case, and then delivers his cruelest line when he overhears Hagrid crying \u2014 'Look at him blubber! Have you ever seen anything quite as pathetic? And he's supposed to be our teacher!' This is a public, face-to-face cruelty aimed at destroying Hagrid's dignity before his students.",
+      "film_portrayal": "The film has Malfoy and his group spying on Hagrid with binoculars from a distance near stone monoliths, saying 'Did you see the big, fat blubbering oaf?! Oh, this is going to be rich. Did I tell you, Father said I can keep the head.' This shifts the cruelty from a direct, face-to-face public attack (book) to a covert, sneering voyeurism.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Malfoy is at his most cruelly direct here \u2014 confronting Hagrid's grief publicly and to his face (even if Hagrid doesn't hear every word). This is what triggers Hermione's iconic slap. The film version has Malfoy performing his cruelty at a safe distance, which makes him seem more cowardly and less potently threatening. The 'I can keep the head' line also introduces a macabre detail not in the book corpus that shifts tone toward ghoulish rather than socially vicious. The trigger for Hermione's response (film: punch) is also altered \u2014 she confronts him in the Sundial Garden separately, which fragments the cause-effect chain."
+    },
+    {
+      "scene": "Film Scene 11 (EXT. Sundial Garden): Hermione punches Malfoy rather than slapping him",
+      "book_baseline": "Book Scene 238-243: Hermione slaps Malfoy 'across the face with all the strength she could muster' \u2014 a open-handed slap. Malfoy staggers, then retreats when Hermione raises her wand. The book is explicit: both Harry and Ron made 'furious moves toward Malfoy' first, but Hermione got there first. The slap is impulsive, emotional, and immediately followed by Hermione drawing her wand.",
+      "film_portrayal": "Hermione delivers a 'looping right' punch to Malfoy's jaw, putting him 'flat on his back.' The choreography is more physically dramatic \u2014 a full boxing-style punch rather than a slap.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Relatively minor adaptation choice, but the slap in the book is a specific, well-known character beat. The film's punch is more cinematically satisfying but changes the texture of the moment \u2014 a slap reads as passionate, personal, spontaneous fury; a punch reads as more controlled aggression. Neither fundamentally damages the scene's function, but it is a departure from the book's specific characterisation of Hermione's response. Low damage."
+    },
+    {
+      "scene": "Film Scene 8/9 (EXT. Black Lake): Absence of Malfoy's Potions class manipulation \u2014 fake injury, making Harry and Ron do his prep work",
+      "book_baseline": "Book Scenes 86-137: Malfoy's extended fake-injury arc in Potions is a defining extended characterisation moment \u2014 he milks the sling to make Ron cut his roots and Harry skin his shrivelfig, winks at Crabbe and Goyle while performing bravery for Pansy, hints about Sirius Black's connection to Harry, and uses the entire situation to threaten Hagrid's job. This sequence shows Malfoy at his most manipulatively sophisticated: strategic, politically connected, and capable of sustained deception.",
+      "film_portrayal": "The film corpus contains no equivalent of this Potions class sequence. Malfoy's fake injury is acknowledged (he holds court in the Great Hall with his sling, Film Scene 3-4) but the sustained Potions manipulation, the political threats about his father and the Ministry, the Sirius Black provocation, and the winking-at-Crabbe confirmation that he's faking are entirely absent from the film corpus provided.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most damaging single absence in the corpus. The Potions scene is the fullest expression of Malfoy's sophisticated villainy in PoA \u2014 it shows him as a strategic manipulator who uses social and political leverage, not just playground taunts. His wink to Crabbe/Goyle confirms his cynicism; his Sirius Black provocation shows he has access to Death Eater intelligence; his threats about his father demonstrate real institutional power. Without this, Malfoy in the film is primarily a physical/verbal bully with no demonstrated strategic depth. His function as a politically dangerous antagonist (rather than a schoolyard one) is severely damaged."
+    },
+    {
+      "scene": "Film corpus: Absence of Malfoy's Quidditch foul (grabbing the Firebolt's tail) and dementor-costume sabotage attempt",
+      "book_baseline": "Book Scenes 275-280: During the Gryffindor-Slytherin Quidditch match, Malfoy physically grabs the Firebolt's tail to prevent Harry catching the Snitch \u2014 a blatant foul that earns a penalty. Book Scene 188-190: Before the match, Malfoy, Crabbe, Goyle, and Flint dress in dementor costumes to frighten Harry off his broom \u2014 caught and punished by McGonagall. Book Scene 155: After Gryffindor's earlier loss, 'Malfoy spent much of their next Potions class doing dementor imitations across the dungeon.' These incidents collectively show Malfoy's willingness to cheat and sabotage rather than compete fairly.",
+      "film_portrayal": "The film corpus provided contains no Quidditch match scenes, no dementor-costume sabotage scene, and no dementor-imitation taunting in Potions. These are entirely absent from the provided film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "The Quidditch foul and dementor-costume sabotage are important demonstrations of Malfoy's character: he cheats when he cannot win fairly, and he targets Harry's specific psychological vulnerability (dementors) as a weapon. This shows premeditation and cruelty beyond simple bullying. Without these, the film Malfoy lacks demonstrated willingness to sabotage and physically interfere \u2014 his antagonism remains verbal and social rather than active and dangerous. The dementor-costume scene also involves Malfoy recruiting Crabbe, Goyle, and even Flint (a sixth-year team captain) \u2014 showing his social authority and planning. Note: confidence on this entry is Medium as the film corpus may simply not cover these match scenes, rather than them being definitively cut."
+    },
+    {
+      "scene": "Film Scene 13 (EXT. Sundial Garden - time-reversed POV): Malfoy's line 'I'll get that jumped-up Mudblood one of these days'",
+      "book_baseline": "Book Scene 238-243: Malfoy retreats after Hermione slaps him and raises her wand \u2014 he mutters 'C'mon' and disappears into the dungeons. There is no equivalent 'I'll get that jumped-up Mudblood' line in the book corpus. The book's Malfoy is silenced and retreats; his specific threat is enacted through institutional means (his father, the governors) not personal revenge promises.",
+      "film_portrayal": "As Harry and Hermione (time-turned) hide under the bridge, Malfoy is heard saying 'Not a word of this to anyone, understood! I'll get that jumped-up Mudblood one of these days. Mark my words...' This is a film-original line delivered in retreat.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The added line makes Malfoy's threat explicit and personal-revenge-focused, which is slightly at odds with the book's version where his power operates through his father and institutional channels rather than personal vendettas he vocalises. It also makes him sound more like a conventional bully who promises future revenge after defeat, rather than someone who exercises real power through other means. Minor damage \u2014 the Mudblood slur is consistent with his characterisation \u2014 but the framing of personal revenge rather than structural power is a small mischaracterisation."
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Malfoy confronts Harry near Hagrid's cabin before the ferret incident",
+      "book_baseline": "In the book, the 'POTTER STINKS' badge scene involves Malfoy drawing his wand and goading Harry in a tense standoff ('Go on, then, Potter... Moody's not here to look after you now - do it, if you've got the guts'). Malfoy is calculating, cruel, and provocative \u2014 he escalates to a genuine duel attempt. He calls Hermione a Mudblood, holds out a badge to her mockingly. The exchange is a multi-beat confrontation grounded in mutual enmity and Malfoy's class/blood bigotry.",
+      "film_portrayal": "In the film, Malfoy is sitting in a tree and calls down to Harry. His dialogue is reduced to taunting about the bet with his father ('My father and I have a bet, you see. I don't think you're gonna last ten minutes in this tournament. He disagrees. He thinks you won't last five.'). There is no Mudblood slur, no badge offered to Hermione, no wand drawn by Malfoy, no genuine duel attempt. The menace is superficial and comedic in setup rather than genuinely threatening.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film strips Malfoy's bigotry and cold aggression from the scene, replacing it with light banter about a bet. His willingness to duel and his blood-prejudice cruelty toward Hermione \u2014 both core to who he is \u2014 are absent. This softens him into a garden-variety antagonist rather than the ideologically motivated bully the books establish."
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Harry's response to Malfoy before the ferret transformation",
+      "book_baseline": "Book Malfoy provokes Harry into a mutual duel, and the jinxes fired by both of them ricochet \u2014 Harry hits Goyle, Malfoy's Densaugeo hits Hermione. Malfoy is an active agent who initiates magical violence. The scene establishes his nastiness and his willingness to use magic against Hermione specifically.",
+      "film_portrayal": "Harry says 'He's vile and cruel, and you're just pathetic' and physically pushes Malfoy. Malfoy responds with 'Pathetic?' before Moody intervenes. Malfoy does not draw his wand or cast any spell at all in this sequence; the aggression is largely displaced onto Harry's physical shove. Malfoy is passive rather than the instigator of magical violence.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "By making Harry the physical aggressor (the shove) and removing Malfoy's wand-drawn escalation and the Densaugeo hex on Hermione, the film inverts the dynamic. Book Malfoy is dangerous and cruel \u2014 he actually injures Hermione with a spell. Film Malfoy just stands there and gets turned into a ferret for saying almost nothing. This strips him of meaningful antagonist agency and removes the direct harm he causes Hermione, which matters for their relationship and his characterisation as genuinely threatening."
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Ferret sequence and aftermath ('My father will hear about this!')",
+      "book_baseline": "After being restored by McGonagall, book Malfoy's 'pale eyes were still watering with pain and humiliation' and he mutters something with the words 'my father' distinguishably. Moody responds by telling him he knows his father 'of old' and warning him he's keeping a close eye on his son. Malfoy answers resentfully. The scene establishes Malfoy's humiliation, his instinctive retreat to his father's name as protection, and the power dynamic between him and Moody.",
+      "film_portrayal": "Film Malfoy simply shouts 'My father will hear about this!' and runs away. The line is delivered as a punchline and played for laughs; the entire exchange with Moody about knowing his father is absent. Malfoy flees immediately. McGonagall's rebuke of Moody is present but Malfoy has no further interaction.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "'My father will hear about this' becomes a running joke in the films, but here its first deployment is stripped of the resentment, pain, and the pointed Moody-Malfoy exchange that contextualises it in the books. The loss of Moody's warning ('I know your father of old, boy') removes important texture about Lucius Malfoy's Death Eater past and Draco's awareness of his family's vulnerability. The humiliation lands as pure comedy rather than a moment that also reveals Draco's dependence on his father's power."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Malfoy at the World Cup Top Box",
+      "book_baseline": "Books establish a full exchange: Lucius Malfoy humiliates Arthur Weasley about the seats ('What did you have to sell to get seats in the Top Box?'), fixes Hermione with a contemptuous look tied explicitly to blood-purity prejudice, and Draco 'shot Harry, Ron, and Hermione one contemptuous look, then settled himself between his mother and father.' Lucius tells Draco 'Don't boast, Draco' but in a context where Draco has been bragging. The family unit is presented as a coherent bloc of aristocratic disdain.",
+      "film_portrayal": "Lucius delivers 'Well, put it this way: if it rains, you'll be the first to know' (about the seats), then tells Draco 'Don't boast, Draco. There's no need with these people' and 'Do enjoy yourself, won't you? While you can' to the Weasleys. Draco himself has no lines at all in this scene and no individualised reaction. He is entirely passive; his contempt is not shown.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Draco is a silent accessory to his father in this scene. The book gives him at least a contemptuous look and individuated presence; the film collapses him entirely behind Lucius. Minor in isolation, but part of a pattern of reducing Draco's independent characterisation in favour of letting Lucius carry all the menace."
+    },
+    {
+      "scene": "Film Scene 5 \u2014 Malfoy slaps the boy during the second task celebration",
+      "book_baseline": "The book corpus for this moment does not include a post-second-task scene with Malfoy slapping anyone. In the books, Malfoy is present at Dumbledore's end-of-year speech muttering dismissively to Crabbe and Goyle, and at the final train confrontation he is threatening and menacing about Voldemort's return. His cruelty is ideological and verbal, not randomly physical toward neutral parties.",
+      "film_portrayal": "Malfoy slaps a boy (apparently a supporter cheering for Harry) during the crowd celebration after the second task. It is a brief, wordless moment of petty physical cruelty with no book equivalent and no ideological weight.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The slap is not grounded in anything from the book corpus and trades Malfoy's characteristic ideological cruelty for random thuggishness. It is a minor moment but slightly misrepresents the nature of his antagonism \u2014 he is a bully with a worldview, not merely a goon who hits people."
+    },
+    {
+      "scene": "Film \u2014 Absence of Malfoy's Dark Mark/campsite scene taunting (Book Scenes 20\u201338)",
+      "book_baseline": "The book devotes an extended scene to Malfoy standing alone in the woods, watching the Death Eater riot with visible satisfaction, taunting the trio about Hermione being targeted as a Muggle-born ('they're after Muggles'), using the slur 'Mudblood', and cryptically implying his father may be among the rioters ('Well... if they were, I wouldn't be likely to tell you, would I, Potter?'). This is one of the most important Draco scenes in the book: it establishes his knowledge of and complicity in Death Eater activities, his genuine menace, his blood prejudice in action, and the first crack of ambiguity about his father.",
+      "film_portrayal": "The film's campsite/riot sequence (Film Scene 2) contains no appearance by Draco at all. He is entirely absent from this sequence. The trio flee the camp, Barty Crouch Jr. casts the Dark Mark, and no Malfoy confrontation occurs.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most damaging single omission in the corpus. The woods confrontation is the scene that most clearly positions Draco as knowingly connected to the Death Eater world \u2014 not just a school bully but someone with real ties to Voldemort's movement. His implication that his father may be among the masked figures, his satisfaction at the riot, and his specific targeting of Hermione as a Muggle-born in a context of genuine danger are all essential to understanding his arc across the series. Removing it means the film audience never sees Draco as complicit in political violence, only as a school-yard antagonist. It also removes a major beat of his relationship with Hermione and the trio."
+    },
+    {
+      "scene": "Film \u2014 Absence of train compartment scene with dress robes mockery and Triwizard taunting (Book Scenes 53\u201370)",
+      "book_baseline": "On the Hogwarts Express, Malfoy enters uninvited, seizes Ron's dress robes, mocks them in front of everyone ('they were very fashionable in about eighteen ninety'), taunts Ron about the Triwizard Tournament and his family's poverty, and smugly reveals he knows about the tournament because 'my father told me about it ages ago' while implying Arthur Weasley is too unimportant to be told. This scene establishes Malfoy's class cruelty, his pride in his father's insider access, and his deliberate targeting of Ron's insecurities.",
+      "film_portrayal": "The film has Ron receive his dress robes by post parcel (Film Scene 4) and be mocked by Harry and the twins \u2014 but Malfoy is entirely absent from this. The dress robe humiliation is present but transferred to a domestic/friendly context. There is no train confrontation with Malfoy at all.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Removing Malfoy's targeted class-based humiliation of Ron on the train loses a key beat in the Malfoy-Ron dynamic. In the books, Malfoy's cruelty toward Ron is specifically about poverty and social status \u2014 he exploits Ron's most painful vulnerability. The film's Ron-dress-robes comedy exists but is friendly ribbing, not Malfoy's calculated class contempt. This weakens the Malfoy-Ron rivalry and removes Malfoy's establishment as a figure who uses material privilege as a weapon."
+    },
+    {
+      "scene": "Film \u2014 Absence of Malfoy's Rita Skeeter collaboration / walkie-talkie scene (Book Scenes 228\u2013230, 259\u2013260)",
+      "book_baseline": "The books show Harry, Ron and Hermione watching Malfoy speaking into his hand under a tree \u2014 later revealed to be him feeding information to Rita Skeeter (who was an unregistered Animagus hiding as a beetle). Hermione deduces 'He knew, of course. That's how she's been getting all those nice little interviews with the Slytherins.' This establishes Malfoy as an active schemer who weaponises the press against Harry and Hagrid.",
+      "film_portrayal": "The Rita Skeeter subplot is present in the film but Malfoy's role as her Slytherin source is entirely absent. There is no walkie-talkie/hand-speaking scene, no reveal of his collaboration. Rita operates independently in the film without Malfoy's involvement being shown.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Malfoy's active scheming \u2014 using Rita Skeeter as a proxy weapon against Harry and Hagrid \u2014 is a demonstration that he operates beyond direct confrontation, using adult systems and influence to cause harm. Losing this removes a layer of his cunning and his capacity for indirect malice, reducing him to a face-to-face bully rather than someone who orchestrates attacks through institutions. It also severs his connection to the Hagrid-exposure subplot."
+    },
+    {
+      "scene": "Film \u2014 Absence of Malfoy's sustained campaign against Hagrid after the half-giant revelation (Book Scenes 191\u2013209)",
+      "book_baseline": "After Rita Skeeter exposes Hagrid as half-giant, Malfoy gloats 'at every possible opportunity', whispering 'Missing your half-breed pal? Missing the elephant-man?' to Harry when teachers are nearby so he can't retaliate. He is gleeful at Hagrid's absence and explicitly tries to weaponise social shame around Hagrid's heritage. This is a sustained, vindictive campaign that shows Malfoy's bigotry in action over time.",
+      "film_portrayal": "The film does not include this subplot at all. Hagrid's half-giant status is not revealed via Skeeter in the film, and there is no corresponding Malfoy harassment campaign. Malfoy has no role in Hagrid's storyline beyond his classroom presence.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This sustained campaign is important because it shows Malfoy's blood-purity bigotry extending beyond Hermione to attack Hagrid \u2014 and doing so cowardly, via press and whispers when authority figures are present. It demonstrates his patience and vindictiveness as ongoing character traits, not just hot-headed duelling. Its absence means his ideological cruelty is significantly underrepresented in the film."
+    },
+    {
+      "scene": "Film \u2014 Absence of final train confrontation where Malfoy threatens Harry about the Dark Lord's return (Book Scenes 263\u2013276)",
+      "book_baseline": "On the return journey, Malfoy enters the compartment looking 'more pleased with themselves, more arrogant and more menacing, than Harry had ever seen them.' He delivers a pointed, sinister speech: 'You've picked the losing side, Potter! I warned you!... They'll be the first to go, now the Dark Lord's back!' This is then followed by Malfoy, Crabbe and Goyle being hexed into unconsciousness by Harry, Ron, Hermione, Fred and George working together. Malfoy's speech is his most explicitly ideological moment in the book \u2014 aligning himself with Voldemort's return.",
+      "film_portrayal": "This train confrontation is entirely absent from the film corpus. The film ends after the third task, graveyard, and Dumbledore-Fudge confrontation without any return-train scene involving Malfoy.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the second most damaging omission. Malfoy's final speech \u2014 explicitly declaring his allegiance to Voldemort's side and threatening Ron and Hermione \u2014 is the culmination of his arc in Goblet of Fire. It marks his transition from school bully to proto-Death Eater and is his clearest declaration of ideology over the course of the novel. Its absence means the film Malfoy never takes a political stand, never makes his allegiance explicit, and his story in this instalment ends without a defining statement. This significantly damages audience understanding of where Malfoy is heading across the saga."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 King's Cross platform, Malfoy taunts Harry",
+      "book_baseline": "Book Scene 30\u201335: On the Hogwarts Express, Malfoy confronts Harry with pointed, prefect-authority-wielding menace \u2014 he leverages his new badge, mocks Harry for not being made prefect, and delivers the cryptic 'dogging your footsteps' line that Harry and Hermione immediately clock as potentially meaningful regarding Sirius. The exchange is loaded with subtext and genuine unease.",
+      "film_portrayal": "Malfoy's platform taunt ('I'm surprised the Ministry is still letting you walk around free, Potter. You better enjoy it while you can. I expect there's a cell in Azkaban with your name on it') is a brief, generic sneer with no prefect leverage, no subtext about Sirius, and no lasting unease. Ron dismisses it with 'It's only Malfoy. What do you expect?' \u2014 actively deflating any threat.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film reduces Malfoy's opening salvo from a multi-layered provocation that establishes his new authority and hints at dangerous knowledge about Sirius, to a throwaway schoolyard jab. The dismissal by Ron further undercuts Malfoy's menace. The book's version plants genuine paranoia about Sirius's safety; the film version is quickly forgotten."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Arrival at Hogwarts, no Inquisitorial Squad / prefect-abuse establishment",
+      "book_baseline": "Book Scenes 30, 39\u201340: Malfoy is immediately shown abusing his prefect badge \u2014 pushing second-years out of the way for a private coach, bullying a first-year within minutes of receiving it. Hermione is furious and threatens to report him. This pattern of petty tyranny using institutional power is a defining character beat throughout the book.",
+      "film_portrayal": "There is no depiction of Malfoy abusing his prefect status at arrival or anywhere in the early film. The prefect badge is not referenced in the film corpus at all in this context.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "A key dimension of book-Malfoy in Order of the Phoenix is his eagerness to weaponize institutional authority the moment it is granted. Removing this pattern means the film Malfoy lacks the thematic throughline of corrupt petty power that culminates in the Inquisitorial Squad scenes. His later Squad behaviour lands with less weight because the groundwork is absent."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Fireworks in Great Hall; Malfoy dodges firework passively",
+      "book_baseline": "The book does not describe this specific fireworks scene in the provided corpus, but across Scenes 28\u201335, 50\u201357, 62\u201368, 89\u201397, 101, Malfoy is consistently the active aggressor \u2014 initiating taunts, weaponising knowledge, orchestrating psychological warfare. He is never a passive bystander.",
+      "film_portrayal": "Film Scene 3 shows Malfoy merely dodging a firework that accidentally comes his way during Fred and George's fireworks display, with no active role. He is a background figure reacting to chaos rather than causing or exploiting it.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but symptomatic of the film's pattern of repositioning Malfoy as a reactor rather than an initiator. The book's Malfoy seizes every opportunity; the film's Malfoy here merely flinches."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 DA discovery; Malfoy catches Luna and reports to Umbridge",
+      "book_baseline": "Book Scenes 175\u2013179: Malfoy uses a Trip Jinx on Harry in a corridor, actively catches him, shouts for Umbridge, and is rewarded with 50 points. He is then sent to round up more DA members, hunting them through the school with relish. This is proactive, gleeful cruelty combined with political cunning \u2014 he is Umbridge's willing enforcer.",
+      "film_portrayal": "Film Scene 2 shows Filch, Malfoy, Crabbe and Goyle together discovering Luna and chasing students. The corpus presents this as a group action ('Filch, Malfoy, Crabbe and Goyle see Luna walk in and they run') with no individualised depiction of Malfoy's Trip Jinx, his personal capture of Harry, or Umbridge rewarding him specifically.",
       "damage_type": "agency/function | personality/voice",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book's Malfoy understands institutional power and weaponises it. The film reduces this to a single gotcha moment. His political intelligence \u2014 one of his most distinctive traits \u2014 is underplayed."
+      "explanation": "The book scene is one of Malfoy's most consequential individual acts: he personally brings Harry to Umbridge through his own cunning and initiative, earning favour and facilitating the near-exposure of Dumbledore. The film collapses this into a group chase, stripping Malfoy of individual agency and the specific satisfaction of his calculated betrayal."
     },
     {
-      "scene": "OotP Film \u2013 Department of Mysteries confrontation",
-      "book_baseline": "Lucius Malfoy leads the Death Eaters, is authoritative and menacing, repeatedly demands the prophecy, and is ultimately defeated. Draco is not present at the DoM \u2014 this is entirely Lucius's scene.",
-      "film_portrayal": "Lucius leads the Death Eaters at the DoM. Draco is not present. Faithful.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Faithful to the book on this point."
-    },
-    {
-      "scene": "HBP Film \u2013 Draco in Borgin and Burkes (ceremony substituted)",
-      "book_baseline": "Harry hides in the Vanishing Cabinet and overhears Draco complaining and Lucius selling Dark objects. Draco asks for the Hand of Glory. The scene is about Lucius's power and Draco's subordinate, petulant position within it.",
-      "film_portrayal": "The film replaces the book's Borgin and Burkes scene with Harry, Ron and Hermione following Draco to a back courtyard where a Death Eater initiation ceremony is implied (cauldron, fire, Draco extending his left arm). This is invented \u2014 the book has no such ceremony at this point.",
-      "damage_type": "motivation/internal conflict | arc",
+      "scene": "Film Scene 4 \u2013 Umbridge's office; Malfoy present but reduced",
+      "book_baseline": "Book Scenes 230\u2013248: In Umbridge's office, Malfoy plays an active, sustained role \u2014 holding Harry's wand, throwing it up and catching it one-handed while smirking, laughing at Ron being called a buffoon, watching Hermione 'with a hungry expression' when she pretends to reveal a weapon, and eagerly volunteering to accompany Umbridge into the Forest ('Professor Umbridge, I think some of the Squad should come with you'). His greed and ambition are explicitly noted by Umbridge herself as a liability.",
+      "film_portrayal": "Film Scene 4: Malfoy appears briefly \u2014 'Caught this one trying to help the Weasley girl' \u2014 delivering a single line before receding entirely. There is no wand-taunting, no hungry watching of Hermione's deception, no eager request to join Umbridge, and no Umbridge noting his untrustworthiness. He is present as a functionary, not a character.",
+      "damage_type": "personality/voice | nuance/lost material | agency/function",
       "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The office scene is where the book reveals Malfoy's ambition and greed as double-edged \u2014 he is useful to Umbridge but also a potential liability whose hunger for power she must manage. The film removes all of this texture, reducing him to a delivery mechanism for a captured prisoner. His character's complexity in this climactic sequence is entirely lost."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Department of Mysteries; Lucius Malfoy absent, replaced by generic Death Eaters",
+      "book_baseline": "Book Scenes 254\u2013303: Lucius Malfoy is the commanding Death Eater throughout the Department of Mysteries sequence. He leads negotiations with Harry ('To me, Potter'), demonstrates cold political intelligence ('He has a great weakness for heroics'), controls Bellatrix's violence to preserve the prophecy ('I TOLD YOU, NO!'), and is ultimately physically defeated by Harry (Impedimenta) and Tonks. This is the culmination of his book-long arc as Voldemort's most powerful Ministry-connected operative.",
+      "film_portrayal": "The film corpus for Scene 4 shows the Department of Mysteries sequence without any named Death Eater dialogue attributed to Lucius Malfoy. The confrontation is depicted through visual action (Sirius being tortured by Voldemort in Harry's vision) without the sustained negotiation sequence that defines Lucius in the book.",
+      "damage_type": "arc | agency/function | relationship",
+      "exposure": 3,
       "impact_weight": 4,
-      "explanation": "The film's invented ceremony makes Draco appear to embrace his Death Eater role willingly and publicly. The book's entire HBP arc depends on Draco being coerced, terrified, and increasingly unable to go through with his mission. Showing him apparently choosing it in a ritual undermines the tragedy of his arc and the ambiguity that makes him compelling."
+      "explanation": "Lucius Malfoy's entire book arc \u2014 from Ministry corridors to Azkaban via his commanding role in the DoM \u2014 depends on this scene as its payoff. He is the primary antagonist of the fifth book's political plot. While Lucius is technically a separate character from Draco, Draco's characterisation throughout the book is explicitly tied to his father's power and reputation ('I'm going to make you pay for what you've done to my father'). Removing Lucius's commanding DoM presence also diminishes the stakes of Draco's later threat in Book Scene 317, which the film has no equivalent for."
     },
     {
-      "scene": "HBP Film \u2013 Draco on the Hogwarts Express (Petrificus Totalus)",
-      "book_baseline": "Draco discovers Harry hiding under the Invisibility Cloak, paralyses him, stamps on his nose ('That's from my father'), covers him with the cloak, and treads on his fingers as he leaves. The violence is cold, deliberate, and personal \u2014 revenge for Lucius's imprisonment.",
-      "film_portrayal": "This scene is present and largely faithful. Draco paralyses Harry, stamps on his nose, covers him with the cloak, and leaves him for the journey back to London.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Faithful. The 'that's from my father' line is present. No significant damage."
+      "scene": "Film Scene 1 \u2013 No Quidditch match / 'Weasley is our King' sequence",
+      "book_baseline": "Book Scenes 61\u2013130: Malfoy orchestrates a sustained campaign of psychological warfare against Ron through the 'Weasley is our King' song, personally mocking Ron dropping the Quaffle (Scene 101), and after Gryffindor wins, deliberately taunting Harry about Ron's performance, then escalating to insults about Harry's dead mother and the Weasleys' poverty \u2014 provoking the physical attack that leads to Harry and the Weasley twins being banned from Quidditch. This is one of Malfoy's most extended and consequential sequences in the book.",
+      "film_portrayal": "There is no Quidditch match, no 'Weasley is our King' campaign, and no post-match provocation in the film corpus. This entire arc is absent.",
+      "damage_type": "arc | relationship | nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This sequence demonstrates Malfoy at his most strategically cruel: the song is a sustained operation rather than a single taunt, and the post-match escalation to attacking Harry's dead mother reveals a calculated willingness to wound at the deepest level. It also shows his effect on relationships \u2014 Ron's confidence, Harry's rage, Fred and George's restraint breaking. Removing it eliminates the book's most developed demonstration of Malfoy's cruelty as a weapon rather than mere schoolboy nastiness."
     },
     {
-      "scene": "HBP Film \u2013 Draco's deterioration across the year (compressed)",
-      "book_baseline": "Harry obsessively tracks Draco on the Marauder's Map across months. Draco grows visibly thinner, greyer, more haunted. He skips Quidditch. He is seen crying in Moaning Myrtle's bathroom. His psychological collapse is gradual and detailed.",
-      "film_portrayal": "The film shows Draco looking pale and stressed in a few scenes, including the bathroom scene. However, the sustained, months-long deterioration \u2014 the Marauder's Map tracking, the missed Quidditch match, the growing desperation \u2014 is heavily compressed.",
-      "damage_type": "arc | motivation/internal conflict",
+      "scene": "Film Scene 1/2 \u2013 No 'Weasley is our King' psychological warfare on Ron throughout the year",
+      "book_baseline": "Book Scene 101: 'When Draco Malfoy imitated Ron dropping the Quaffle (which he did whenever they came within sight of each other), Ron's ears glowed red and his hands shook so badly that he was likely to drop whatever he was holding.' This is a recurring, patterned campaign of targeted psychological damage to Ron's confidence.",
+      "film_portrayal": "No equivalent campaign against Ron's confidence exists in the film corpus. Malfoy and Ron have no meaningful antagonistic dynamic shown.",
+      "damage_type": "relationship | nuance/lost material",
       "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "Draco's HBP arc is fundamentally about a boy being destroyed by an impossible task. The book earns the Astronomy Tower scene through months of visible suffering. The film's compression means the audience has not witnessed enough of his collapse to fully feel the weight of his inability to kill Dumbledore."
+      "impact_weight": 3,
+      "explanation": "The book establishes Malfoy as specifically targeting Ron \u2014 the most vulnerable member of the trio \u2014 in a way that damages Ron's self-worth over the entire year. This is a distinct relationship dynamic (Malfoy vs. Ron) that the film entirely omits, making Malfoy's antagonism appear directed only at Harry and losing the dimension of his cruelty toward those he perceives as weak."
     },
     {
-      "scene": "HBP Film \u2013 Draco crying in Moaning Myrtle's bathroom",
-      "book_baseline": "Harry discovers Draco crying over a sink, genuinely broken. Draco says 'I can't do it... it won't work... and unless I do it soon... he says he'll kill me.' This is the most vulnerable Draco has ever been shown \u2014 stripped of all pretence.",
-      "film_portrayal": "The bathroom scene is present. Draco is shown crying. The fight breaks out. The scene is faithful in its key beats.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Largely faithful. The vulnerability is conveyed."
+      "scene": "Film \u2013 No Inquisitorial Squad point-docking scene / corridor confrontation",
+      "book_baseline": "Book Scenes 185\u2013196: After Dumbledore's flight, Malfoy emerges with the Inquisitorial Squad badge, docks points from Gryffindor and Hufflepuff, sneers at Ron as 'Weasel King,' and lords his new institutional power over Harry, Ron and Hermione. This is the apex of his arc as Umbridge's instrument of oppression.",
+      "film_portrayal": "The film corpus contains no equivalent Inquisitorial Squad corridor scene. The Squad is referenced only functionally (Malfoy delivering Harry to Umbridge's office in a single line).",
+      "damage_type": "arc | agency/function | personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Inquisitorial Squad is Malfoy's fullest expression of the book's theme: corruption of institutional power by those who abuse it for personal satisfaction. Malfoy with his Squad badge is a miniature Umbridge, a Voldemort-in-waiting who weaponises rules against the people he despises. The film's failure to depict this scene means his arc as a junior authoritarian is invisible, and the thematic parallel between Ministry tyranny at the top and schoolboy tyranny at the bottom is lost."
     },
     {
-      "scene": "HBP Film \u2013 Astronomy Tower confrontation",
-      "book_baseline": "Draco disarms Dumbledore, holds him at wandpoint for an extended scene. Dumbledore talks him down \u2014 'You are not a killer, Draco.' Draco's wand hand is visibly trembling and dropping by a fraction when the Death Eaters arrive. He has effectively chosen not to kill Dumbledore before Snape intervenes.",
-      "film_portrayal": "The scene is present and reasonably faithful. Draco disarms Dumbledore, the dialogue about not being a killer is present, his hand trembles, and he is clearly unable to act. The scene is somewhat compressed but the key moral beat is intact.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film \u2013 No Hogwarts Express ambush / DA retribution at end of year",
+      "book_baseline": "Book Scenes 329\u2013331: Malfoy, Crabbe and Goyle attempt to ambush Harry on the train home; DA members retaliate en masse, leaving all three 'resembling nothing so much as three gigantic slugs.' This is a narratively satisfying close to Malfoy's year-long campaign \u2014 the DA's collective power defeats him \u2014 and Ernie's satisfaction references Malfoy's point-docking, closing that loop.",
+      "film_portrayal": "No equivalent end-of-year train scene exists in the film corpus.",
+      "damage_type": "arc | nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film captures the essential moment but the extended book dialogue \u2014 Dumbledore's offer of protection, Draco's admission that Voldemort will kill him, the offer to hide his family \u2014 is truncated. The full weight of Dumbledore's compassion toward Draco and Draco's genuine wavering is reduced."
+      "explanation": "The train ambush provides narrative closure for Malfoy's arc and validates the DA's formation as a practical defence. Its absence means Malfoy's year ends without consequence or comeuppance within the school sphere, weakening both his arc and the DA's thematic payoff."
     },
     {
-      "scene": "HBP Film \u2013 Draco's flight after Dumbledore's death",
-      "book_baseline": "Snape forces Draco out. During the flight across the grounds, Draco is described as 'stunned' and paralysed. He is not triumphant. He is a boy who has just watched a man die partly because of him.",
-      "film_portrayal": "Draco is shown being led away by Snape. He looks back at the castle. The scene is brief but his shell-shocked state is conveyed.",
+      "scene": "Film Scene 3 \u2013 Snape's Pensieve memory; Malfoy referenced only obliquely",
+      "book_baseline": "Book Scene 213: Harry, processing the Pensieve memory of James bullying Snape, muses that he could only justify such behaviour if the victim were someone who 'really deserved it . . . perhaps Malfoy or somebody.' This internal thought uses Malfoy as Harry's own moral reference point for justified cruelty \u2014 a telling self-revelation.",
+      "film_portrayal": "The film's Pensieve sequence (Film Scene 3) shows the memory of James and Snape but Harry's internal moral reckoning with Malfoy as a reference point is absent \u2014 as internal monologue, it could not easily be depicted, but no equivalent beat exists.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Adequate. The film does not show Draco celebrating, which is correct."
+      "explanation": "Minor damage, but the book uses Malfoy as a lens for Harry's self-examination about inherited prejudice and justified cruelty. The film's omission of this interiority is unsurprising given the medium, but it represents a lost dimension of Malfoy's function as a moral measuring stick."
     },
     {
-      "scene": "DH1 Film \u2013 Malfoy Manor / Draco refusing to identify Harry",
-      "book_baseline": "Draco is brought to identify Harry. He says 'I can't \u2014 I can't be sure' and walks away to stand by his mother. His father is desperate and excited; Draco is reluctant and frightened. His expression is 'full of reluctance, even fear' \u2014 the opposite of his father's avidity.",
-      "film_portrayal": "The scene is present. Draco says 'I can't... I can't be sure' and retreats. His reluctance is visible. Lucius's desperation is shown. The contrast between father and son is present.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Faithful in its essentials. The moral distinction between Draco and Lucius at this moment is conveyed."
-    },
-    {
-      "scene": "DH2 Film \u2013 Room of Requirement / Draco throws Harry his wand",
-      "book_baseline": "In the book, Draco does not throw Harry his wand in the Battle of Hogwarts. Harry disarms Draco weeks earlier at Malfoy Manor. The DH2 film invents a scene where Draco tosses Harry his wand during the final battle.",
-      "film_portrayal": "The film invents a moment where Draco throws Harry his wand, prompting Ron to say 'Well done, Malfoy!' This is not in the books.",
-      "damage_type": "arc | agency/function",
+      "scene": "Film Scene 6 \u2013 Borgin & Burkes back courtyard ceremony",
+      "book_baseline": "The book establishes that Draco visited Borgin & Burkes alone, secretly, having slipped away from his mother. He intimidated Borgin with threats involving Fenrir Greyback and demanded help fixing the Vanishing Cabinet. The visit is furtive, calculating, and reveals Draco's cold agency and cunning. There is no initiation ceremony; his Dark Mark is something acquired off-page, and his mission is already underway.",
+      "film_portrayal": "The film invents a scene in which Draco is surrounded by Greyback, Bellatrix, Narcissa, and other figures around a cauldron in the back courtyard of Borgin & Burkes. He extends his left arm toward the cauldron in what Harry, Ron, and Hermione interpret as an initiation ceremony. This is a fabricated visual spectacle not present in the books.",
+      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This invention is well-intentioned but actually damages Draco's arc. In the book, Draco's redemptive ambiguity is subtle \u2014 he doesn't identify Harry at the Manor, he lowers his wand on the Tower. The film's explicit heroic gesture is too neat and too active. It resolves ambiguity that the books deliberately leave unresolved, and it gives Draco a clean redemptive beat he does not earn in the narrative."
+      "explanation": "In the books, Draco's recruitment as a Death Eater is implied and off-page; his agency is shown through his cunning solo visit to Borgin, his threats, and his secretive planning. The film replaces this with a passive, theatrical initiation ritual in which Draco is surrounded by adults and appears to be acted upon rather than acting himself. This weakens his characterisation as a self-driven, calculating operator and instead frames him as a passive initiate, reducing his early-arc menace and independence."
     },
     {
-      "scene": "DH2 Film \u2013 Draco crossing to Voldemort's side in the courtyard",
-      "book_baseline": "In the book's equivalent moment, Draco's crossing to Voldemort's side is not depicted in this way. The Malfoys are present at the forest clearing but their dynamic is about survival, not allegiance.",
-      "film_portrayal": "The film shows Draco walking across to join his parents on Voldemort's side in the courtyard, with Ron muttering 'He saved your life' as Draco passes. Draco 'falters briefly, stung.' This is a film invention.",
-      "damage_type": "arc | relationship",
+      "scene": "Film Scene 7 \u2013 Hogwarts Express compartment, Harry's suspicion debate",
+      "book_baseline": "The book establishes that Harry snuck into Malfoy's compartment under the Invisibility Cloak, observed Malfoy boasting obliquely to Zabini and Pansy about having 'bigger and better things' ahead and possibly not returning to Hogwarts, and that Malfoy showed signs of self-importance and concealed excitement about his mission. Harry also overheard Malfoy's dismissive comments about Slughorn not inviting him. The eavesdropping is Harry's covert intelligence-gathering, and Malfoy's words carry genuine menace and pride.",
+      "film_portrayal": "The film reduces the train sequence drastically. Malfoy's boastful dialogue is condensed to a brief, vague comment about not seeing himself 'wasting time in Charms class next year' and 'we'll see who's laughing in the end.' There is no extended eavesdropping scene with Zabini's report on Slughorn's party, no Malfoy dismissing Slughorn, and no layered portrait of Malfoy's wounded pride mixed with dangerous ambition.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The invented crossing is dramatically effective but simplifies Draco's position. The book's Malfoys are not triumphant Death Eaters at this point \u2014 they are terrified survivors trying to find Draco. The film's staging makes Draco's choice look more deliberate and more cowardly than the book warrants."
+      "explanation": "The book's train scene is rich with characterisation: Malfoy's wounded ego over Slughorn, his oblique pride about his mission, his contempt for normal schooling. The film loses almost all of this texture, leaving Malfoy's early arc motivation thinner and his psychological complexity flattened. The audience loses the sense that Malfoy is genuinely excited and self-important about his task at this early stage, which is important context for tracking his deterioration later."
+    },
+    {
+      "scene": "Film Scene 10 \u2013 Hogwarts Express, Petrificus and nose-stamp",
+      "book_baseline": "In the book, after stamping on Harry's nose and covering him with the Invisibility Cloak, Malfoy says 'That's from my father' before treading on Harry's fingers and leaving him for the return journey to London. This line is crucial: it establishes that Malfoy's violence is explicitly framed as filial loyalty and revenge for Lucius's imprisonment, giving the act moral and emotional weight.",
+      "film_portrayal": "The film includes the nose-stamp and the cloak disposal, but omits the line 'That's from my father.' Malfoy instead references Harry's dead mother ('she was dead before you could wipe the drool off your chin'), making the cruelty personal and petty rather than a deliberate act of familial vengeance.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The omission of 'That's from my father' removes the explicit link between Draco's violence and his devotion to Lucius, which is one of the book's key early signals that Draco's mission is rooted in family loyalty rather than pure ideology. The replacement line about Harry's mother is generically cruel but lacks the specific emotional architecture the book builds. It slightly reduces the audience's understanding of what drives Draco throughout the film."
+    },
+    {
+      "scene": "Film Scene 12 \u2013 Arrival at Hogwarts, Snape vouches for Malfoy and the walking stick",
+      "book_baseline": "The book does not contain a scene at the castle entrance in which Snape publicly vouches for Malfoy or in which Malfoy carries his father's walking stick. In the book, Malfoy's arrival is not highlighted, and the early dynamic between Snape and Malfoy is one of Malfoy actively avoiding Snape and resenting his interference.",
+      "film_portrayal": "The film invents a scene in which Filch examines Lucius's walking stick among Malfoy's belongings, Snape steps from the shadows to vouch for Malfoy ('It's alright, Mr. Filch. I can vouch for Mr. Malfoy'), and Malfoy regards Snape 'warily.' The stick becomes a prop signalling Draco's attachment to his imprisoned father.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The invented scene creates a public, protective relationship between Snape and Malfoy from the very start of term, which undercuts the book's carefully built tension of Malfoy actively avoiding and resenting Snape's attempts to help him. In the books, their early-term dynamic is one of Malfoy's hostility toward Snape's interference; the film softens this by immediately showing Snape as a benign protector. This weakens the dramatic revelation later when their antagonism is exposed."
+    },
+    {
+      "scene": "Film Scene 24 \u2013 Dark corridor confrontation, Snape and Malfoy after the party",
+      "book_baseline": "The book's equivalent scene (overheard through a keyhole by Harry at the Christmas party) is extended and psychologically rich. Malfoy is defiant, hostile, and paranoid toward Snape, accusing him of wanting to 'steal his glory,' refusing to share his plan, claiming to have better allies, and telling Snape to put him in detention if he likes. Malfoy's hostility toward Snape is a defining characterisation beat showing his paranoid independence and his refusal to accept help even when he desperately needs it.",
+      "film_portrayal": "The film's corridor version is severely truncated. Malfoy slumps in 'lazy insolence,' admits maybe he hexed Katie Bell, declares 'I was chosen for this! Out of all others. Me!' and 'I won't fail him,' and exits. Snape notes he is 'afraid.' The entire texture of Malfoy's paranoid refusal to confide in Snape, his accusations that Snape wants to steal his glory, his defiant listing of alternative helpers, and his contemptuous dismissal of Snape's authority are all absent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's overheard argument is one of the most important characterisation scenes for Draco in HBP. His paranoid, cornered defiance toward Snape \u2014 'You want to steal my glory!' \u2014 reveals the psychological pressure he is under and his increasingly irrational, pride-driven isolation. The film replaces this with a much simpler declaration of devotion to Voldemort and bravado. Draco loses his complexity, his paranoia, his voice, and critically his antagonistic dynamic with Snape, which is central to understanding why he acts alone on the tower."
+    },
+    {
+      "scene": "Film Scene 29 \u2013 Room of Requirement, dead bird in the cabinet",
+      "book_baseline": "The book does not contain a scene of Draco testing the Vanishing Cabinet by placing a live bird inside and finding it dead. In the books, Draco's testing of the cabinet is described only obliquely through Harry's surveillance and Dobby's reports; the emotional texture of his work is conveyed through his physical deterioration and increasingly haggard appearance.",
+      "film_portrayal": "The film invents a scene in which Draco lovingly cradles a white bird, places it in the cabinet, and upon reopening finds it dead. He contemplates a white feather, looks 'briefly lost,' and then blinks and closes the cabinet. The scene is designed to generate sympathy and show Draco's emotional conflict.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While the invented scene is not strictly damaging \u2014 it does add emotional texture \u2014 it slightly misrepresents how Draco's internal conflict is built in the source material. The book conveys his deterioration through his physical appearance, his paranoid secrecy, and ultimately his breakdown in the bathroom. The film externalises his conflict through invented visual symbolism (the dead bird) rather than the accumulation of psychological pressure the book builds. The damage is minor but it does represent a substitution of invented sentiment for book-established characterisation."
+    },
+    {
+      "scene": "Film Scene 33 \u2013 Bathroom confrontation / Sectumsempra",
+      "book_baseline": "The book's bathroom scene is a critical arc moment. Malfoy is discovered by Harry weeping over the sink, telling Moaning Myrtle 'I can't do it... it won't work... and unless I do it soon... he says he'll kill me.' He is shaking, genuinely broken. When Harry enters, Malfoy's first instinct is to wheel and hex, and he attempts 'Crucio' \u2014 an Unforgivable \u2014 before Harry responds with Sectumsempra. Moaning Myrtle's presence and her sympathy for Malfoy are established in the book.",
+      "film_portrayal": "The film compresses the scene. Malfoy's crying is shown but no dialogue to Moaning Myrtle is present; the emotional breakdown is rendered visually but without the specific spoken admission of his fear and his 'I can't do it' despair. The wand duel proceeds similarly, with Malfoy attempting 'Cruci\u2014' before Harry's Sectumsempra. The dark flash of something on Malfoy's shirtsleeve (the Dark Mark) is added as a visual beat.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The omission of Malfoy's spoken words to Myrtle \u2014 'No one can help me... I can't do it... he says he'll kill me' \u2014 removes the most explicit book statement of his internal conflict and terror. The book uses this moment to crystallise everything that has been building: Draco is not a committed villain but a terrified boy in over his head. The film conveys this visually but loses the specificity of the dialogue that makes his torment unambiguous to the audience."
+    },
+    {
+      "scene": "Film Scene 38 \u2013 Astronomy Tower, Malfoy confronts Dumbledore",
+      "book_baseline": "The book's tower scene is the culmination of Draco's arc. He arrives alone ahead of the Death Eaters, having come on ahead deliberately. He disarms Dumbledore, initially has him at his mercy, and engages in an extended dialogue in which Dumbledore offers him sanctuary, notes his feeble attempts at murder, and tells him 'You are not a killer.' Draco's wand hand is trembling, he is genuinely conflicted, he demands to know how Dumbledore knew it was him, he reveals his plan (the Vanishing Cabinets, Rosmerta under Imperius, the enchanted coins) partly because he 'seemed compelled to keep talking.' His wand begins to drop just before the Death Eaters burst through.",
+      "film_portrayal": "The film retains the broad structure but significantly compresses the dialogue. Draco reveals the Vanishing Cabinet mechanism more quickly, the extended back-and-forth about Rosmerta, the enchanted coins, and the poisoned mead is condensed or absent. The revelation of Malfoy's scheme comes primarily through Dumbledore guessing ('Of course... Rosmerta') rather than through Malfoy's compelled, almost boastful confessions. Malfoy's line 'I've got to kill you or he'll kill me' is present but the surrounding texture \u2014 his demand that Dumbledore acknowledge how far he got, his twisted pride \u2014 is reduced.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The tower scene is the apex of Draco's arc in HBP: the moment where his pride, terror, incompetence as a villain, and buried decency all converge. The book gives him extended agency in the scene \u2014 he is the one who confesses, who reveals, who nearly chooses differently. The film's compression reduces his agency in his own climactic moment, with Dumbledore doing more of the narrative work through deduction. Draco's twisted pride in how far he got ('But I got this far, didn't I? They thought I'd die in the attempt') is largely absent from the film, which loses a key dimension of his character: the boy who desperately needs to be seen to have succeeded."
+    },
+    {
+      "scene": "Film Scene 38 \u2013 Astronomy Tower, Snape's arrival and Malfoy's response",
+      "book_baseline": "In the book, when Snape arrives on the tower, he pushes Malfoy roughly out of the way and kills Dumbledore himself. Harry observes that Malfoy had lowered his wand before the Death Eaters arrived. After the killing, Snape seizes Malfoy by the scruff of the neck and forces him through the door. The book explicitly states that Harry 'did not believe that Malfoy would have killed Dumbledore' and notes 'the tiniest drop of pity mingled with his dislike.' Draco's expression at Dumbledore's death is not described in detail in the corpus.",
+      "film_portrayal": "The film shows Draco 'stunned, staring at the empty place where Dumbledore stood only seconds before' after Snape kills him. The visual of Draco's frozen shock is present. What is lost is the book's explicit note of Malfoy's wand having dropped \u2014 the clearest signal of his choice \u2014 which Harry specifically observes and which underpins Harry's later reflection.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book makes Harry's observation of Malfoy's dropping wand explicit and uses it as the basis for Harry's post-tower reflection ('He did not believe that Malfoy would have killed Dumbledore'). The film renders Draco's choice ambiguous through stunned inaction rather than an observable physical lowering of the wand. This slightly reduces the clarity of Draco's moral choice at the climax, though the film does convey his inability to act through his trembling and hesitation throughout the scene."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Unbreakable Vow scene, Narcissa and Snape",
+      "book_baseline": "The book's Unbreakable Vow scene contains Narcissa's extended, desperate pleading \u2014 she falls at Snape's feet, clutches his robes, weeps \u2014 and Bellatrix's specific challenge that Snape is a coward who will 'slither back into his hole.' Crucially, the book has Bellatrix articulate her contempt for Snape in detail and her astonishment when he agrees. The scene also establishes, through Narcissa's dialogue, that Draco 'isn't shrinking away from his duty, he seems glad of a chance to prove himself, excited at the prospect' (from Bellatrix), which is important context for Draco's initial attitude.",
+      "film_portrayal": "The film condenses the scene significantly. Narcissa's emotional breakdown is present but abbreviated. Bellatrix's challenge ('It's just empty words... he'll slither back into his hole. Bloody coward') is present. However, the specific detail that Draco himself 'seems glad of a chance to prove himself, excited at the prospect' \u2014 the line that establishes his initial willing eagerness \u2014 is absent from the film's version. The film skips directly to Snape's offer to help and the Vow itself.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Bellatrix's observation that Draco is initially 'excited' and 'glad' to prove himself is an important early characterisation note that contextualises his later deterioration \u2014 he started willing and proud, and was broken by the reality of the task. The film's omission of this detail means the audience begins Draco's arc without understanding his initial emotional state, slightly flattening the arc from eagerness to terror."
+    },
+    {
+      "scene": "Film DH1 - Drawing Room / Malfoy Manor opening (Scene 3)",
+      "book_baseline": "Book establishes Draco staring up at Charity Burbage's body in terror, glancing quickly at Voldemort and away again, terrified to make eye contact. When Voldemort asks 'What say you, Draco?' about babysitting the werewolf cubs, Draco looks in terror at his father, then catches his mother's eye and she shakes her head almost imperceptibly. Draco is shown as a terrified teenager trapped in a situation he cannot control, with internal family communication conveying shared dread. When Charity is killed, Draco falls out of his chair onto the floor - a visceral, involuntary physical reaction.",
+      "film_portrayal": "The film script notes only that 'Draco nervously stares at the body above' and later 'Draco watches a teardrop strike the table.' The specific moment of Voldemort singling Draco out with the humiliating 'babysit the cubs' question is entirely absent. The subtle family dynamic - Narcissa's barely perceptible head shake, Draco's terrified glance at his father, the silent communication under Voldemort's nose - is lost. Draco falling from his chair when Charity is killed is not scripted.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's drawing room scene is the primary establishment of Draco's psychological state at the saga's opening: he is not a triumphant Death Eater but a frightened boy whose family is being publicly humiliated and punished. The specific singling-out by Voldemort, the silent family communication, and the physical collapse at the murder all characterize him as a victim of circumstance rather than a willing participant. Losing these beats softens the portrait of his captivity and reduces the audience's basis for later sympathy."
+    },
+    {
+      "scene": "Film DH1 - Malfoy Manor arrival / identification scene (Scenes 5-8)",
+      "book_baseline": "Book establishes that it is Narcissa who first scrutinizes Harry's swollen face and takes charge of the identification process, calling Draco over herself. Draco approaches reluctantly, keeping his distance from Greyback, 'seemed as scared of looking at Harry as Harry was of looking at him.' When pressed by his father Lucius - who is 'beside himself with excitement' - Draco's expression is 'full of reluctance, even fear.' Draco says 'I can't - I can't be sure' and walks away toward the fireplace where his mother stood. When asked about Hermione he says 'I... maybe... yeah' and about Ron 'Yeah... it could be' with his back turned to the prisoners. The book makes explicit that Draco is deliberately not identifying them. Harry notices Draco's face up close: while his father looked excited, 'Draco's expression was full of reluctance, even fear.'",
+      "film_portrayal": "The film has Bellatrix take charge and summon Draco ('Get Draco,' 'Ah, Draco. Come here, darling'). Bellatrix physically nudges Draco forward until he is inches from Harry. Lucius steps forward with his wine glass 'sloshing' - a detail that diminishes him. Harry explicitly confronts Draco: 'Why didn't you tell her? Bellatrix. You knew it was me. But you didn't say anything.' This direct dialogue makes Draco's non-identification an explicit, acknowledged act visible to Blaise and Goyle, rather than the book's subtler ambiguous reluctance witnessed only by Harry. The film also has Bellatrix - not Narcissa - as the authority figure orchestrating the identification, reassigning dramatic control away from the Malfoy family unit.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's identification scene is carefully constructed so that Draco's non-identification is ambiguous and deniable - he could be genuinely unsure. This ambiguity is central to his moral arc: he is not heroically refusing, he is simply failing to condemn, which is a more complex and honest portrait of moral cowardice edging toward conscience. Harry's film line 'You knew it was me. But you didn't say anything' collapses this ambiguity into an explicit acknowledgment, robbing the moment of its moral complexity and making Draco's protection of Harry too overt and deliberate. Additionally, transferring authority in the scene from Narcissa to Bellatrix weakens the Malfoy family dynamic established in the books."
+    },
+    {
+      "scene": "Film DH1 - Drawing room confrontation / Bellatrix calls the Dark Lord (Scene 9)",
+      "book_baseline": "Book establishes that after Harry and Ron burst into the drawing room, 'Lucius, Narcissa, Draco and Greyback wheeled about' and jets of light fly from Draco's, Narcissa's, and Greyback's wands. When Bellatrix orders 'Draco, pick them up!' he retrieves the fallen wands. When the chandelier falls, 'Draco doubled over, his hands covering his bloody face.' Harry then 'leapt over an armchair and wrested the three wands from Draco's grip.' The book also establishes that it is Lucius Malfoy who summons Voldemort - 'Lucius Malfoy called the Dark Lord' is implied by Bellatrix's command structure - but critically in the book Bellatrix calls 'The Dark Lord is coming, Harry Potter' suggesting the summons has been made. The Cruciatus torture vision of Draco being forced to torture Rowle ('Draco, give Rowle another taste of our displeasure... Do it, or feel my wrath yourself') is book-established context for Draco's coercion.",
+      "film_portrayal": "The film script has Bellatrix order 'Call him, Draco' - meaning summon Voldemort via the Dark Mark. Draco hesitates. But then 'Lucius doesn't, pulling up his sleeve and touching his finger to the DARK MARK on his forearm.' This transfers the act of summoning Voldemort from an ambiguous or Bellatrix-led moment to Lucius explicitly, while Draco's hesitation is noted but then bypassed. The net effect is that Draco's hesitation is staged as a beat but immediately overridden, giving him a visible moment of reluctance without consequence or follow-through.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film creates a staged hesitation for Draco that is immediately nullified by Lucius acting instead. This is actually a more damaging structural choice than simply having Draco comply: it gives Draco a visible moral moment and then resolves it externally, suggesting he would have refused but was preempted. This distorts his characterization - in the books his reluctance is subtler and his complicity more passive. The film's version risks reading as Draco being covertly heroic, which misrepresents his arc of gradual, reluctant drift away from Voldemort rather than active resistance."
+    },
+    {
+      "scene": "Film DH2 - Room of Requirement confrontation (Scenes 18-19)",
+      "book_baseline": "Book establishes Draco with Crabbe and Goyle (not Blaise). Crabbe is the dominant threat who repeatedly defies Draco's orders: 'I don't take your orders no more, Draco. You an' your dad are finished.' Draco repeatedly tries to prevent Crabbe from killing Harry - 'The Dark Lord wants him alive,' 'STOP! The Dark Lord wants him alive,' 'Don't kill him! DON'T KILL HIM!' - because Draco understands Voldemort's orders and is trying to fulfill them, not out of mercy. Draco is wandless after Hermione's spell, cowering 'behind a three-legged wardrobe.' His authority has completely collapsed - his henchmen have turned on him. The scene shows Draco's total loss of power and social standing among Death Eater circles.",
+      "film_portrayal": "The film replaces Crabbe with Blaise (likely for casting reasons). More significantly, the film gives Draco the opening confrontation line 'Well, well, what brings you here, Potter?' - a composed, almost theatrical opening. The film also adds the exchange where Harry asks why Draco didn't identify him at Malfoy Manor, and Draco's conflicted, twitching response. Goyle (filling Crabbe's role) sets the fire. The film removes the extended sequence where Draco desperately orders Crabbe to stop - the complete collapse of his authority among his own followers. The film's Draco is more composed and more overtly conflicted/sympathetic than the book's Draco, who is attempting to execute Voldemort's orders and finding even that denied to him.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Room of Requirement scene is a culminating moment for Draco's arc of diminishment: he has lost all power, his own henchmen defy him openly, and he is reduced to cowering. The film softens this by giving him a composed opening, staging him as visibly conflicted about Harry (the Malfoy Manor callback), and eliding the full humiliation of Crabbe's open defiance. The replacement of Crabbe with Blaise also loses the specific dynamic of a lifelong servant openly declaring 'you an' your dad are finished' - one of the most damning statements about the Malfoy family's collapsed status. This reduces the dramatic payoff of his arc."
+    },
+    {
+      "scene": "Film DH2 - Courtyard / Draco crossing to Voldemort's side (Scene 27)",
+      "book_baseline": "Book establishes that during the battle's lull, Draco is seen on the upper landing 'pleading with another masked Death Eater' saying 'I'm Draco Malfoy, I'm Draco, I'm on your side!' Harry Stunned the Death Eater as they passed, saving Draco. Ron then punched Draco from under the Cloak, and Ron yelled 'And that's the second time we've saved your life tonight, you two-faced bastard!' Draco's position in the battle is ambiguous and desperate - he is not fighting for either side but trying to survive. The book makes no scene of Draco publicly crossing to Voldemort's side in front of the assembled crowd.",
+      "film_portrayal": "The film constructs a public scene in the courtyard where Lucius summons Draco forth in front of both factions. Draco hesitates, Lucius says 'Draco, don't be stupid,' Narcissa says 'Come, Draco' with quiet authority, and Draco crosses the gulf between factions while 'avoiding the baleful glances directed his way.' Ron mutters 'He saved your life' as Draco passes. Narcissa then hands Draco Harry's wand. Draco 'stares at it bleakly.' Voldemort says 'Well done, Draco.'",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the most structurally damaging scene in the film corpus. The book never has Draco publicly cross to Voldemort's side in a staged, witnessed moment of apparent betrayal. The book's Draco is in a chaotic middle ground - not fighting for Voldemort, not fighting for Harry, just surviving. The film invents a public act of apparent collaboration that the book does not contain, which significantly damages audience perception of his character at a critical moment. Ron's line 'He saved your life' as Draco crosses is meant to add irony, but the visual of Draco walking to Voldemort's side - receiving Harry's wand from his mother and being praised by Voldemort - creates a definitive image of betrayal that the books deliberately avoid. The book preserves Draco's ambiguity to the end; the film stages a false climax of his moral failure just before the final battle resolves."
+    },
+    {
+      "scene": "Film DH2 - Room of Requirement escape / Draco's farewell (Scene 21)",
+      "book_baseline": "Book establishes that after escaping the fire, 'Draco fell off the broom and lay facedown, gasping, coughing, and retching' and his first words were 'C-Crabbe... C-Crabbe...' grieving for his dead friend. Ron says 'He's dead' harshly. Draco and Goyle then 'remained slumped hopelessly on the corridor floor; neither of them had wands.' They subsequently vanish from Harry's sight. The book gives Draco a genuine grief reaction for Crabbe - his companion since childhood - which humanizes him at a key moment.",
+      "film_portrayal": "The film script shows 'Draco, staring fearfully at Harry. Blaise scrambles up and off. Draco lingers briefly, then finally rises and follows, but as he reaches the end of the corridor, he looks back. He begins to say something, then continues on.' Ron says 'You're bloody well welcome! Prat.' The grief for Crabbe/Goyle's death is absent. Instead Draco is given a lingering, almost tender farewell look at Harry - beginning to say something he cannot say.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film replaces Draco's genuine grief for his dead childhood friend (a humanizing beat that shows he has real emotional bonds, not just calculated alliances) with a sentimental almost-moment directed at Harry. This is a net loss: it trades authentic characterization (grief, loss, the human cost of war even for those on the wrong side) for a more conventionally redemptive gesture toward the protagonist. Draco's relationship with Crabbe and Goyle, however limited, was real; the film's substitution of a wistful look at Harry is tonally false to the character."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1319.5,
-  "adjusted_cids_v1": 1649.4
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.0"
+  }
 }
