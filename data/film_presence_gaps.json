@@ -1,0 +1,79 @@
+{
+  "_description": "Film presence gap analysis for issue #36. Documents the root cause of characters scoring 0 due to empty film corpus, and what can/cannot be determined from repo data alone.",
+  "_methodology": "Cross-referenced screen_time_v2.json, output/corpus/*/screenplays/scenes.json, output/scores/kiro/*.json, and raw screenplay text across all sources (v1/v2/v3/merged).",
+  "_date": "2026-07-30",
+
+  "screenplay_only_gaps": {
+    "_description": "Characters with measured screen time in data/source/metrics who are NOT named in any screenplay source (v1, v2, v3, or merged). These characters are visibly on screen but cannot be detected from screenplay text alone.",
+    "characters": [
+      {
+        "name": "Ernie Prang",
+        "screen_time_minutes": 1.0,
+        "film": "3_prisoner_of_azkaban",
+        "evidence": "screen_time_v2.json shows 1.0 min in PoA. grep -ri 'prang' across all four screenplay directories returns 0 matches. Character is the Knight Bus driver.",
+        "status": "on_screen_non_speaking",
+        "scorable": false,
+        "reason_not_scorable": "No screenplay text names this character. A non-speaking appearance provides no material against which faithfulness can be judged."
+      }
+    ]
+  },
+
+  "stale_scores": {
+    "_description": "Characters that have film corpus (from v2 corpus rebuild) but whose kiro scores are stale from corpus_version 1 when they had empty corpus. These need rescoring, not a presence fix.",
+    "count": 20,
+    "characters": [
+      "Albert Runcorn", "Alicia Spinnet", "Alice Longbottom", "Amycus Carrow",
+      "Augustus Rookwood", "Avery", "Bane", "Demelza Robins",
+      "Frank Longbottom", "Hepzibah Smith", "Ignotus Peverell", "Irma Pince",
+      "Mafalda Hopkirk", "Millicent Bulstrode", "Prime Minister",
+      "Romilda Vane", "Rosier", "Travers", "Walden Macnair",
+      "Wilhelmina Grubbly-Plank"
+    ],
+    "action": "Rescore with current corpus. No data fix needed - this is a cache invalidation issue."
+  },
+
+  "needs_client_confirmation": {
+    "_description": "Characters with truly empty film corpus (0 scenes) AND no measured screen time. We cannot determine from repo data whether they appear on screen. Client must confirm which (if any) are visibly present in the films.",
+    "_note": "We deliberately refuse to assert film presence based on pretrained knowledge of film credits or casting. See issue #37 for why.",
+    "count": 59,
+    "example_characters": [
+      {"name": "Michael Corner", "book_mentions": 80, "note": "Client's original example in #36. Possibly in D.A. scenes (OotP) but not named in any screenplay source and has no measured screen time."},
+      {"name": "Anthony Goldstein", "book_mentions": 26, "note": "D.A. member. Not in any screenplay source, no screen time data."},
+      {"name": "Terry Boot", "book_mentions": 21, "note": "D.A. member. Not in any screenplay source, no screen time data."},
+      {"name": "Zacharias Smith", "book_mentions": 33, "note": "D.A. member. Not in any screenplay source, no screen time data."},
+      {"name": "Dennis Creevey", "book_mentions": 41, "note": "Not in any screenplay source, no screen time data."},
+      {"name": "Marietta Edgecombe", "book_mentions": 33, "note": "Not in any screenplay source, no screen time data. Her betrayal role was merged into Cho Chang in the films."}
+    ],
+    "full_list": [
+      "Adrian Pucey", "Amelia Bones", "Andromeda Tonks", "Anthony Goldstein",
+      "Antonin Dolohov", "Apolline Delacour", "Aurora Sinistra", "Bertha Jorkins",
+      "Caractacus Burke", "Cuthbert Binns", "Daphne Greengrass", "Dedalus Diggle",
+      "Dennis Creevey", "Dirk Cresswell", "Eloise Midgeon", "Emmeline Vance",
+      "Euan Abercrombie", "Florean Fortescue", "Gibbon",
+      "Gornuk", "Graham Montague", "Griselda Marchbanks", "Hestia Jones",
+      "James Potter II", "Jimmy Peakes", "Ludo Bagman", "Madam Malkin",
+      "Madam Puddifoot", "Magorian", "Marietta Edgecombe", "Marvolo Gaunt",
+      "Melinda Bobbin", "Merope Gaunt", "Michael Corner", "Miles Bletchley",
+      "Monsieur Delacour", "Morfin Gaunt", "Mulciber", "Peeves", "Pigwidgeon",
+      "Reginald Cattermole", "Ritchie Coote", "Rodolphus Lestrange", "Roger Davies",
+      "Ronan", "Rose Weasley", "Selwyn", "Septima Vector", "Sturgis Podmore",
+      "Ted Tonks", "Terry Boot", "The Fat Friar", "Theodore Nott", "Thorfinn Rowle",
+      "Urquhart", "Walburga Black", "Wilkie Twycross",
+      "Winky", "Zacharias Smith"
+    ]
+  },
+
+  "summary": {
+    "total_characters_in_registry": 216,
+    "total_scored_kiro": 202,
+    "scored_zero_total": 80,
+    "scored_zero_breakdown": {
+      "stale_scores_have_corpus_now": 20,
+      "truly_empty_corpus_no_screen_time": 59,
+      "truly_empty_corpus_with_screen_time": 1
+    },
+    "evidence_backed_screenplay_gaps": 1,
+    "needs_client_confirmation": 59,
+    "needs_rescoring_stale": 20
+  }
+}
