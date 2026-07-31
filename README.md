@@ -161,4 +161,3 @@ Open bugs and data-quality problems are tracked as
 | [docs/pipeline.md](docs/pipeline.md) | Corpus building, caching, prompts, dashboard internals |
 | [DATA_SOURCES.md](DATA_SOURCES.md) | Per-source quality assessment and which screenplay wins per film |
 | [DECISIONS.md](DECISIONS.md) | Decision log, including retired approaches |
-| [AGENTS.md](AGENTS.md) | Conventions for automated agents working in this repo |
