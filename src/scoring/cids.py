@@ -336,8 +336,16 @@ def main():
     for r in results[:25]:
         print(f"{r['character']:<30} {r['fp_score']:>4} {r['cids']:>7.0f} {r['adjusted_cids']:>7.0f} {r['structural_damage_level']:>4}")
 
-    # Save summary
+    # Save summary - always rebuilt from every file on disk, never from just
+    # this run's results, otherwise a --characters run truncates the index.
     summary_path = os.path.join(CIDS_DIR, "_summary.json")
+    all_results = []
+    for fname in sorted(os.listdir(CIDS_DIR)):
+        if not fname.endswith(".json") or fname.startswith("_"):
+            continue
+        with open(os.path.join(CIDS_DIR, fname)) as f:
+            all_results.append(json.load(f))
+    all_results.sort(key=lambda x: x.get("cids", 0), reverse=True)
     with open(summary_path, "w") as f:
         json.dump([{
             "character": r["character"],
@@ -345,7 +353,7 @@ def main():
             "cids": r["cids"],
             "adjusted_cids": r["adjusted_cids"],
             "structural_damage_level": r["structural_damage_level"],
-        } for r in results], f, indent=2)
+        } for r in all_results], f, indent=2)
     print(f"\nSaved summary to {summary_path}")
 
 
