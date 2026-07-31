@@ -402,7 +402,12 @@ def main():
 
     with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
         config = yaml.safe_load(f)
-    exclude = set(config.get("scoring", {}).get("exclude_from_dashboard", []))
+    scoring_cfg = config.get("scoring", {})
+    exclude = set(
+        scoring_cfg.get("exclude_from_output")
+        or scoring_cfg.get("exclude_from_dashboard")
+        or []
+    )
 
     scores, screen_time, book_mentions = load_data()
     scores = [s for s in scores if s["character"] not in exclude]

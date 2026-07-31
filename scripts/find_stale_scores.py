@@ -6,7 +6,7 @@ sys.path.insert(0, "src/collect")
 from build_character_registry import KNOWN_CHARACTERS
 import re
 
-SCORE_DIR = "output/scores/comparative"
+SCORE_DIR = "output/scores/kiro"
 
 def safe_dirname(name):
     return re.sub(r"[^a-z0-9_]", "_", name.lower()).strip("_")

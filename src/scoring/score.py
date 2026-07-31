@@ -2,12 +2,14 @@
 """
 FP Scoring Framework - main entry point.
 
-Scores each character on 4 dimensions (each out of 25, total 100):
-  - Personality, Narrative Role, Motivations, Character Arc
+Scores each character on 6 dimensions (total 100):
+  - Personality & Voice (0-25), Narrative Role & Agency (0-20),
+    Motivations & Internal Conflict (0-15), Character Arc (0-15),
+    Key Relationships (0-10), Complexity & Lost Material (0-15)
 
 Usage:
-  python3 -u src/scoring/score.py --backend comparative --top 216
-  python3 -u src/scoring/score.py --backend comparative --characters "Dobby" "Severus Snape"
+  python3 -u src/scoring/score.py --backend kiro --top 216
+  python3 -u src/scoring/score.py --backend kiro --characters "Dobby" "Severus Snape"
 
 Resume logic:
   Writes individual JSON files per character to output/scores/<backend>/.
@@ -39,7 +41,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 DIMENSIONS = ["personality_voice", "narrative_role_agency", "motivations_internal_conflict", "character_arc", "key_relationships", "complexity_nuance_lost_material"]
-BACKENDS = ["comparative", "kiro"]
+BACKENDS = ["kiro"]
 
 SKIP_CHARACTERS = {
     "You",
@@ -120,11 +122,7 @@ def char_score_path(backend, char_name):
 
 
 def get_scorer(backend):
-    if backend == "comparative":
-        import scorer_comparative
-
-        return scorer_comparative.score_character
-    elif backend == "kiro":
+    if backend == "kiro":
         import scorer_kiro
 
         return scorer_kiro.score_character
@@ -164,7 +162,7 @@ def main():
 
     config = load_config()
     scoring_config = config.get("scoring", {})
-    backend = args.backend or scoring_config.get("backend", "comparative")
+    backend = args.backend or scoring_config.get("backend", "kiro")
 
     score_fn = get_scorer(backend)
     characters = load_characters()

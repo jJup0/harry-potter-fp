@@ -1,11 +1,11 @@
 # Configuration for Harry Potter Character Faithfulness Project
 
 scoring:
-  # Backend: 'rule_based', 'openai', 'kiro', 'comparative'
+  # Backend: 'kiro'
   backend: kiro
 
-  # Characters to exclude from dashboard (film-only, deleted scenes only, etc.)
-  exclude_from_dashboard:
+  # Characters to exclude from all outputs (dashboard, reports, CSV)
+  exclude_from_output:
     - "Albus Severus Potter"
     - "Nigel"
 
@@ -18,28 +18,9 @@ scoring:
   # Parallel scoring workers
   parallel: 10
 
-  # Rule-based scoring rules (TODO: replace with Aitor's rules)
-  # Each dimension is scored 0-25, total FP = sum of all 4 (0-100)
-  rules:
-    personality:
-      # How well the character's personality traits are portrayed
-      # Criteria TBD from Aitor's document
-      weight: 25
-    narrative_role:
-      # How faithfully the character's role in the story is represented
-      weight: 25
-    motivations:
-      # How well the character's motivations are conveyed
-      weight: 25
-    character_arc:
-      # How faithfully the character's development/arc is portrayed
-      weight: 25
-
   # LLM backend config
   llm:
     model: claude-sonnet-4.6
-    api_base: http://localhost:11434/v1
-    api_key: ollama
     timeout: 600
     temperature: 0.3
     delay_seconds: 1
