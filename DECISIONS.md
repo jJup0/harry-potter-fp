@@ -99,73 +99,16 @@ Translated scoring prompt: `src/scoring/prompts/scoring_prompt.txt`
 
 ### Reporting
 - Ranked table: `output/reports/ranking.csv` + `ranking.md`
-- Per-character reports: `output/reports/characters/` (197 markdown files)
+- Per-character reports: `output/reports/characters/` (120 markdown files)
 - Dashboard: `output/dashboard.html` (interactive Plotly, 6 charts)
 
 ---
 
 ## Project Structure
 
-```
-harry-potter-aitor/
-├── data/
-│   ├── raw/
-│   │   ├── books/                  # v1: 7 individual book text files
-│   │   ├── screenplays/            # v1: 8 wiki transcript text files
-│   │   ├── screenplays_v2/         # v2: 8 PDF-extracted screenplay texts
-│   │   └── books_v2/               # v2: PDF + epub extracted (not primary)
-│   ├── parsed/                     # v1 parsed JSON (scenes, chapters)
-│   ├── v2/
-│   │   ├── characters.yaml         # v2 character registry
-│   │   ├── parsed/                 # v2 parsed JSON
-│   │   └── corpus/                 # v2 per-character corpus
-│   ├── metrics/
-│   │   ├── screen_time.json        # v1: word-count estimates
-│   │   ├── screen_time_v2.json     # v2: Aitor's actual minutes
-│   │   ├── book_mentions.json      # v1: regex-based estimates
-│   │   ├── book_mentions_v2.json   # v2: Aitor's actual counts
-│   │   └── completeness.json
-│   ├── freind-input-data/          # Aitor's raw input files
-│   ├── fp_rules.txt                # Extracted FP rules (Spanish)
-│   └── characters.yaml             # v1 character registry
-├── corpus/                         # v1 per-character corpus
-├── src/
-│   ├── collect/
-│   │   ├── download_books.sh
-│   │   ├── download_screenplays.py
-│   │   ├── build_character_registry.py
-│   │   ├── parse_screenplays.py
-│   │   ├── parse_books.py
-│   │   ├── process_friend_data.py  # v2 data extraction
-│   │   └── build_v2_pipeline.py    # v2 unified pipeline
-│   ├── corpus/
-│   │   └── build_corpus.py
-│   ├── metrics/
-│   │   ├── compute_metrics.py
-│   │   └── check_completeness.py
-│   ├── scoring/
-│   │   ├── score.py                # Main scorer (--backend, --characters, --top)
-│   │   ├── llm_scorer.py           # LLM backend (kiro-cli + OpenAI API)
-│   │   └── prompts/
-│   │       └── scoring_prompt.txt  # Aitor's FP rules as LLM prompt
-│   └── reporting/
-│       ├── generate_reports.py     # CSV + markdown reports
-│       └── generate_dashboard.py   # Interactive Plotly HTML
-├── output/
-│   ├── scores/
-│   │   ├── scores.json             # Rule-based scores
-│   │   └── scores_llm.json         # LLM scores (when available)
-│   ├── reports/
-│   │   ├── ranking.csv
-│   │   ├── ranking.md
-│   │   └── characters/             # Per-character markdown reports
-│   └── dashboard.html              # Interactive visualization
-├── config.yaml                     # Scoring config (backend, thresholds, LLM settings)
-├── requirements.txt                # pyyaml, plotly, pandas, openpyxl, pymupdf, ebooklib
-├── PLAN.md                         # Task tracking
-├── DECISIONS.md                    # This file
-└── questions-for-aitor.md
-```
+See the layout section in [README.md](README.md#repository-layout). The tree that used to live
+here described the pre-reorganisation layout (`data/raw/`, `data/v2/`, a top-level `corpus/`) and
+had been wrong since source and derived data were separated into `data/` and `output/`.
 
 ---
 
