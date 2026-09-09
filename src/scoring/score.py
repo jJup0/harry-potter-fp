@@ -113,6 +113,18 @@ def load_corpus(char_name):
     return corpus
 
 
+def film_corpus_empty(char_name):
+    """True if the character has no film scenes left after deleted-scene cuts.
+
+    This is what the deterministic zero score means, so it is also the only
+    condition under which a cached zero stays valid. Corpora change as parsing
+    and the deleted-scene list change, in both directions.
+    """
+    corpus = load_corpus(char_name)
+    kept, _ = filter_deleted_scenes(corpus.get("screenplays", []), char_name)
+    return not kept
+
+
 def char_score_path(backend, char_name):
     """Path to individual character score file."""
     safe = re.sub(r"[^a-z0-9_]", "_", char_name.lower()).strip("_")
@@ -181,32 +193,22 @@ def main():
 
     print(f"Scoring with '{backend}' backend")
 
-    # Determine current model and prompt major version for resume checks
+    # Determine current model and prompt major version for resume checks.
+    # Read it from the scorer itself so this can never drift from the prompt the
+    # scorer actually sends - it previously read scoring_prompt.txt while the
+    # scorer used scoring_prompt_3.txt, so a major bump would have been ignored.
     current_model = scoring_config.get("llm", {}).get("model", "")
-    prompt_version_file = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        "src",
-        "scoring",
-        "prompts",
-        "scoring_prompt.txt",
-    )
-    # Try reading from the prompt file directly
-    prompt_file = os.path.join(
-        PROJECT_ROOT, "src", "scoring", "prompts", "scoring_prompt.txt"
-    )
-    current_prompt_major = "0"
-    if os.path.exists(prompt_file):
-        with open(prompt_file) as f:
-            first_line = f.readline().strip()
-        if first_line.startswith("# version:"):
-            ver = first_line.split(":", 1)[1].strip()
-            current_prompt_major = ver.split(".")[0]
+    from scorer_kiro import _get_prompt_version
+
+    current_prompt_major = _get_prompt_version().split(".")[0]
 
     # Resume: check which characters already have individual score files
     # Skip only if same model AND same prompt major version AND same aliases AND same corpus version
     already_scored = set()
     alias_mismatch = set()
     corpus_version_mismatch = set()
+    corpus_gained = set()
+    corpus_emptied = set()
     current_corpus_version = str(scoring_config.get("corpus_version", 1))
     score_dir = os.path.join(OUTPUT_DIR, backend)
     if os.path.isdir(score_dir):
@@ -221,12 +223,38 @@ def main():
             scored_prompt_ver = meta.get("prompt_version", "0.0")
             scored_major = scored_prompt_ver.split(".")[0]
             char_name = data.get("character", "")
-            if scored_model != current_model:
-                # Zero-scored characters (no film scenes) have no model - skip silently
-                if scored_model is None and data.get("overall", {}).get("total", 0) == 0:
+            scored_total = data.get("overall", {}).get("total", 0)
+            if scored_model is None and scored_total == 0:
+                # Written by the deterministic zero path, which fires when the film
+                # corpus is empty. Valid only while that is still true - characters
+                # whose corpus later gained scenes were otherwise pinned at 0 forever.
+                if film_corpus_empty(char_name):
                     already_scored.add(fname[:-5])
                 else:
-                    print(f"    {char_name}: model mismatch ({scored_model} != {current_model})")
+                    print(f"    {char_name}: zero score but film corpus is no longer empty")
+                    corpus_gained.add(fname[:-5])
+                continue
+            if scored_total == 0 and meta.get("film_chars_sent", 0) == 0:
+                # An LLM zero, but the scorer sent it no film text. Older scorer
+                # versions did that even when the corpus had scenes, so the zero
+                # reflects a broken call rather than a judgement. Gate on the
+                # recorded byte count so a rescore cannot loop: once the model has
+                # actually seen film text, its verdict stands.
+                if film_corpus_empty(char_name):
+                    already_scored.add(fname[:-5])
+                else:
+                    print(f"    {char_name}: scored 0 from an empty film corpus, but {len(load_corpus(char_name)['screenplays'])} film scenes exist")
+                    corpus_gained.add(fname[:-5])
+                continue
+            if scored_total and film_corpus_empty(char_name):
+                # The inverse: a real score whose film corpus has since emptied,
+                # usually through the deleted-scene list. Sir Cadogan sat at 78
+                # with nothing left in the films.
+                print(f"    {char_name}: scored {scored_total} but film corpus is now empty")
+                corpus_emptied.add(fname[:-5])
+                continue
+            if scored_model != current_model:
+                print(f"    {char_name}: model mismatch ({scored_model} != {current_model})")
                 continue
             if scored_major != current_prompt_major:
                 print(f"    {char_name}: prompt version mismatch (v{scored_major}.x != v{current_prompt_major}.x)")
@@ -254,10 +282,14 @@ def main():
         print(f"  Re-scoring: {len(alias_mismatch)} characters with changed aliases")
     if corpus_version_mismatch:
         print(f"  Re-scoring: {len(corpus_version_mismatch)} characters with bumped corpus version")
+    if corpus_gained:
+        print(f"  Re-scoring: {len(corpus_gained)} characters pinned at 0 whose film corpus is no longer empty")
+    if corpus_emptied:
+        print(f"  Re-scoring: {len(corpus_emptied)} characters with a stale score and an empty film corpus")
 
     # Clear split caches for characters that need rescoring
     import shutil
-    for safe in alias_mismatch | corpus_version_mismatch:
+    for safe in alias_mismatch | corpus_version_mismatch | corpus_gained | corpus_emptied:
         split_dir = os.path.join(score_dir, f"{safe}_split")
         if os.path.isdir(split_dir):
             shutil.rmtree(split_dir)
@@ -289,6 +321,8 @@ def main():
 
     print(f"  Scoring {len(to_score)} characters with {scoring_config.get('parallel', 10)} workers")
 
+    failures = []
+
     def score_one(item):
         name, corpus = item
         # Characters with no film scenes get deterministic zero
@@ -311,6 +345,12 @@ def main():
             return result
         print(f"  [start] {name}...", flush=True)
         per_source = score_fn(name, corpus, scoring_config)
+        if not per_source:
+            # No score file is written, so the next run retries this character.
+            # Writing zeros here used to silently overwrite real scores and then
+            # look identical to "absent from the films" in every report.
+            failures.append(name)
+            return None
         overall = aggregate_scores(per_source)
         current_aliases = get_character_aliases(name)
         for src_data in per_source.values():
@@ -347,11 +387,19 @@ def main():
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {pool.submit(score_one, item): item[0] for item in to_score}
         for future in as_completed(futures):
+            name = futures[future]
             try:
-                future.result()
-                scored += 1
+                if future.result() is not None:
+                    scored += 1
             except Exception as e:
-                print(f"  ERROR {futures[future]}: {e}", flush=True)
+                print(f"  ERROR {name}: {e}", flush=True)
+                failures.append(name)
+
+    if failures:
+        errors_path = os.path.join(OUTPUT_DIR, backend, "_errors.json")
+        with open(errors_path, "w") as f:
+            json.dump({"failed": sorted(set(failures))}, f, indent=2)
+        print(f"\n{len(set(failures))} characters failed and were left unscored, listed in {errors_path}")
 
     # Collect all individual scores into combined file
     all_scores = []
@@ -378,6 +426,12 @@ def main():
             f"{s['character']:<30} {o['total']:>7}"
         )
     print(f"\nSaved to {combined_path}")
+
+    # A run where everything failed is an operational failure, not a result.
+    # Five characters silently timing out used to look like a table of zeros.
+    if to_score and scored == 0:
+        print("ERROR: every character in this run failed to score", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

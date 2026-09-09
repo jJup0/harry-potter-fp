@@ -166,7 +166,9 @@ def _score_split_by_book(char_name, book_scenes, film_scenes, model):
                 "model": model,
                 "prompt_version": _get_prompt_version(),
                 "book_chars_sent": sum(len(s.get("text", "")) for s in book_scenes),
-                "film_chars_sent": sum(len(s.get("text", "")) for s in film_scenes if "text" in s),
+                # Screenplay scenes carry directions and dialogue, never a "text"
+                # key, so summing .text here reported 0 for every split character.
+                "film_chars_sent": len(_prepare_corpus(film_scenes, "screenplay")),
                 "split_books": len(all_scores),
             },
         }
@@ -321,19 +323,16 @@ def _score_call(char_name, book_text, film_text, model, tag=None, films=None):
 
 
 def _fallback(char_name):
-    return {
-        "comparative": {
-            **{k: 0 for k in DIMENSIONS},
-            "meta": {
-                "type": "comparative",
-                "model": None,
-                "prompt_version": _get_prompt_version(),
-                "book_chars_sent": 0,
-                "film_chars_sent": 0,
-                "error": True,
-            },
-        }
-    }
+    """Signal a failed scoring call.
+
+    Returns None rather than a zero-score record. A zero here is
+    indistinguishable from a character genuinely absent from the films, and it
+    used to overwrite real scores on transient failures - a run with a missing
+    API key once replaced five real scores with zeros. The caller leaves the
+    character unscored so the next run retries it.
+    """
+    print(f"  [fail] {char_name}: scoring call failed, leaving unscored", flush=True)
+    return None
 
 
 def _prepare_corpus(scenes, source_type):
