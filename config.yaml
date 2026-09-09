@@ -5,9 +5,24 @@ scoring:
   backend: kiro
 
   # Characters to exclude from all outputs (dashboard, reports, CSV)
+  # The animals are also in SKIP_CHARACTERS in score.py, which stops them being
+  # scored again. They need to be here as well because their score files already
+  # exist and the reporting layer reads whatever is on disk.
   exclude_from_output:
     - "Albus Severus Potter"
     - "Nigel"
+    - "Hedwig"
+    - "Buckbeak"
+    - "Fang"
+    - "Fawkes"
+    - "Aragog"
+    - "Fluffy"
+    - "Norbert"
+    - "Nagini"
+    - "Crookshanks"
+    - "Pigwidgeon"
+    - "Mrs. Norris"
+    - "the Basilisk"
 
   # Corpus version: bump this when corpus data changes (aliases, parsing, detection logic)
   corpus_version: 1

@@ -71,8 +71,23 @@ SKIP_CHARACTERS = {
     "Radio",
     "Howler",
     "Pixie",
+    # Animals. They score well because the rubric rewards faithful portrayal and a
+    # dog that behaves like the book's dog is faithful, but a character-faithfulness
+    # ranking topped by a boarhound and a phoenix is not presentable. Sentient
+    # non-humans stay in: centaurs, house-elves, goblins and ghosts speak, have
+    # motives and carry arcs, which is what the rubric measures.
     "Hedwig",
     "Buckbeak",
+    "Fang",
+    "Fawkes",
+    "Aragog",
+    "Fluffy",
+    "Norbert",
+    "Nagini",
+    "Crookshanks",
+    "Pigwidgeon",
+    "Mrs. Norris",
+    "the Basilisk",
 }
 
 
