@@ -77,6 +77,29 @@ Known entries: Sir Cadogan's three PoA scenes (all deleted, leaving him no film 
 Dursleys' Deathly Hallows farewell (extended edition), Ernie Macmillan's Chamber of Secrets scene,
 and Draco Malfoy's Deathly Hallows Part 2 wand toss (draft only).
 
+### Scenes reported without an index
+
+Aitor reports deleted scenes by title and film, not by position in our corpus
+(`data/hp_deleted_scenes_EN.csv`, imported to `data/deleted_scenes_reported.jsonc` by
+`scripts/import_deleted_scenes_csv.py`). These cannot use the mechanism above, because scene
+segmentation is far too coarse in half the films to cut safely: PoA, HBP and both Deathly Hallows
+parse into 160-190 scenes, but Chamber of Secrets parses into 8 blocks averaging 2400 words, so
+dropping the block holding Lockhart's deleted quiz would take most of his theatrical material with
+it.
+
+They are instead injected into the FP and CIDS prompts as an "exclude from scoring" section listing
+the scene titles and descriptions, placed after the film corpus. Injection is narrowed twice: to
+scenes tagged with that character, and to films actually present in the corpus being scored, so the
+split-by-book path only ever sees the scenes for the film in front of it.
+
+`src/collect/tag_deleted_scene_characters.py` fills in the `characters` field per scene with one LLM
+call each, resolving free-form names through the registry alias map. It is resumable per scene and
+the results are hand-correctable in the jsonc.
+
+`src/scoring/test_deleted_scenes.py` is the dry run for both mechanisms: it prints what each
+character would have cut or injected, writes the trivia report, and writes the rescore list to
+`output/reports/deleted_scenes_rescore_list.txt`.
+
 ## Score caching and invalidation
 
 Each file in `output/scores/kiro/` records the conditions it was produced under:
@@ -98,7 +121,7 @@ Practical notes:
 - `scoring.corpus_version` in config.yaml exists to invalidate everything after a corpus change, but
   a zero-score file has `meta.model` of null and the resume logic currently treats that as
   intentionally unscored, so zero-scored characters are never revisited. This is a known bug.
-- The CIDS prompt is at version 2.0 while most cached CIDS files predate it, so running
+- The CIDS prompt is at version 2.1 while most cached CIDS files predate it, so running
   `src/scoring/cids.py` with no `--characters` filter will re-score every character with a film
   corpus. Always pass `--characters` unless a full re-run is the intent.
 
@@ -107,7 +130,7 @@ Practical notes:
 | File | Used by |
 |---|---|
 | `src/scoring/prompts/scoring_prompt_3.txt` | FP, authoritative 6-dimension rubric |
-| `src/scoring/prompts/cids_prompt.txt` | CIDS, version 2.0 |
+| `src/scoring/prompts/cids_prompt.txt` | CIDS, version 2.1 |
 
 Both prompts forbid the model from presenting pretrained film knowledge as corpus evidence: it may
 use that knowledge to interpret what the corpus contains, but every cited scene must rest on
