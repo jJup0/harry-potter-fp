@@ -85,10 +85,24 @@ def score_cids(char_name, fp_score, corpus, model):
             cached = json.load(f)
         cached_version = cached.get("meta", {}).get("prompt_version", "1.0")
         current_version = _get_prompt_version()
-        # Invalidate if major version changed
-        if cached_version.split(".")[0] == current_version.split(".")[0]:
-            print(f"  [cached] {char_name}", flush=True)
-            return cached
+        # Invalidate if major version changed, or if the FP score this was derived
+        # from has since moved. CIDS is a function of FP, so a stale fp_score means
+        # every number in the file is wrong - infidelity, cids and adjusted_cids.
+        fp_drifted = (
+            fp_score is not None
+            and cached.get("fp_score") is not None
+            and abs(float(cached["fp_score"]) - float(fp_score)) > 1e-6
+        )
+        if cached_version.split(".")[0] == current_version.split(".")[0] and not fp_drifted:
+            # A split result missing book chunks is incomplete, not cached.
+            incomplete = cached.get("meta", {}).get("books_failed") or []
+            if incomplete:
+                print(f"  [incomplete] {char_name}: retrying, {len(incomplete)} book(s) previously failed", flush=True)
+            else:
+                print(f"  [cached] {char_name}", flush=True)
+                return cached
+        if fp_drifted:
+            print(f"  [stale] {char_name}: FP moved {cached['fp_score']} -> {fp_score}", flush=True)
 
     book_text = _prepare_corpus(corpus["books"], "book")
     film_text = _prepare_corpus(corpus["screenplays"], "screenplay")
@@ -191,6 +205,12 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
     all_scenes = []
     all_causes = []
     max_sdl = 1
+    # A book whose chunk errored or came back unparseable used to be skipped
+    # silently, and the merged score was written as if complete - Harry Potter and
+    # Minerva McGonagall were both scored on six of seven books without any record
+    # of it. Track them so the result can say so and be retried.
+    scored_books = []
+    failed_books = []
 
     for book_name in sorted(by_book.keys()):
         book_scenes = by_book[book_name]
@@ -213,6 +233,7 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
             response = _call_kiro(prompt, model)
         except Exception as e:
             print(f"  [{char_name}][{book_name}] error: {e}", flush=True)
+            failed_books.append(book_name)
             continue
 
         raw_path = os.path.join(RAW_DIR, f"{safe}_{book_name}_raw.txt")
@@ -222,7 +243,10 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         parsed = _extract_json(response)
         if not parsed or "damaging_scenes" not in parsed:
             print(f"  [{char_name}][{book_name}] failed to parse", flush=True)
+            failed_books.append(book_name)
             continue
+
+        scored_books.append(book_name)
 
         all_scenes.extend(parsed["damaging_scenes"])
         all_causes.extend(parsed.get("main_damage_causes", []))
@@ -259,8 +283,21 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         "main_damage_causes": unique_causes[:5],
         "damaging_scenes": all_scenes,
         "confidence": {"global": "Medium", "exposure_estimate": "Medium", "impact_assessment": "Medium"},
-        "meta": {"model": model, "split": True, "prompt_version": _get_prompt_version()},
+        "meta": {
+            "model": model,
+            "split": True,
+            "prompt_version": _get_prompt_version(),
+            "books_scored": scored_books,
+            "books_failed": failed_books,
+        },
     }
+
+    if failed_books:
+        print(
+            f"  [{char_name}] INCOMPLETE: {len(failed_books)} of "
+            f"{len(scored_books) + len(failed_books)} books failed ({', '.join(failed_books)})",
+            flush=True,
+        )
 
     with open(out_path, "w") as f:
         json.dump(result, f, indent=2)
