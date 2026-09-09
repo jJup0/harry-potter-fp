@@ -91,6 +91,10 @@ SKIP_CHARACTERS = {
     "Pigwidgeon",
     "Mrs. Norris",
     "the Basilisk",
+    # Enchanted objects. The Sorting Hat speaks and has a personality, so the rubric
+    # scores it happily, but it is not a character an audience would expect in a
+    # character-faithfulness ranking any more than the animals are.
+    "The Sorting Hat",
 }
 
 
