@@ -14,16 +14,22 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) + "/src")
 from presence import presence
+from paths import (
+    BOOK_MENTIONS_FILE,
+    CIDS_DIR,
+    CONFIG_FILE,
+    DASHBOARD_FILE,
+    KIRO_SCORES_DIR,
+    KIRO_SCORES_FILE,
+    SCREEN_TIME_FILE,
+)
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")
 DASHBOARD_DIR = os.path.dirname(os.path.abspath(__file__))
-SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
-SCORES_FILE = os.path.join(PROJECT_ROOT, "output", "scores", "scores_kiro.json")
-CIDS_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "cids")
-SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
-BOOK_MENTIONS_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json")
-OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "dashboard.html")
+SCORES_DIR = KIRO_SCORES_DIR
+SCORES_FILE = KIRO_SCORES_FILE
+OUTPUT_FILE = DASHBOARD_FILE
 
 DIMENSIONS = ["personality_voice", "narrative_role_agency", "motivations_internal_conflict", "character_arc", "key_relationships", "complexity_nuance_lost_material"]
 DIM_LABELS = {
@@ -402,7 +408,7 @@ def build_dashboard(scores, exclude=None):
 def main():
     import yaml
 
-    with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
+    with open(CONFIG_FILE) as f:
         config = yaml.safe_load(f)
     scoring_cfg = config.get("scoring", {})
     exclude = set(

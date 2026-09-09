@@ -13,15 +13,18 @@ import re
 import sys
 import time
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
+# Bootstrap: src/ must be importable before paths.py can be imported.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from llm import call_kiro as _call_kiro_shared, extract_json
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-PROMPT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt_3.txt")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus", "ginny_weasley")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "model_comparison")
-KIRO_CWD = "/tmp/harry-potter-scoring-calls"
+from paths import (
+    CORPUS_DIR as _CORPUS_ROOT,
+    KIRO_SCORING_CWD as KIRO_CWD,
+    MODEL_COMPARISON_DIR as OUTPUT_DIR,
+    SCORING_PROMPT_FILE as PROMPT_FILE,
+)
+
+CORPUS_DIR = _CORPUS_ROOT / "ginny_weasley"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(KIRO_CWD, exist_ok=True)
 

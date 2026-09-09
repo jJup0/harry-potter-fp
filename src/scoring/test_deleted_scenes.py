@@ -23,7 +23,10 @@ from deleted_scenes import (
     reported_scenes_for,
 )
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Bootstrap: src/ must be importable before paths.py can be imported.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import PROJECT_ROOT
+from score import SKIP_CHARACTERS
 CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
 
 
@@ -158,6 +161,8 @@ def main():
     print("=" * 60)
     needs_rescore = []
     for char in sorted(characters):
+        if char in SKIP_CHARACTERS:
+            continue
         scenes = load_film_scenes(char)
         _, excluded = filter_deleted_scenes(scenes, char, deleted_data)
         if excluded:
@@ -168,9 +173,15 @@ def main():
                 print(f"  - {char}: corpus cut ({remaining} scenes remain)")
                 needs_rescore.append(char)
     for char in injected:
+        if char in SKIP_CHARACTERS:
+            continue
         if char not in needs_rescore:
             print(f"  - {char}: prompt injection")
             needs_rescore.append(char)
+
+    skipped = sorted(set(characters) & SKIP_CHARACTERS)
+    if skipped:
+        print(f"\n  ({len(skipped)} tagged characters omitted, score.py skips them: {', '.join(skipped)})")
 
     print(f"\n{len(needs_rescore)} characters to rescore. Pass to score.py as:")
     print("  --characters " + " ".join(f'"{c}"' for c in sorted(needs_rescore)))

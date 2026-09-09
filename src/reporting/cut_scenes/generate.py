@@ -4,9 +4,12 @@
 import json
 import os
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")
-CUT_SCENES_DIR = os.path.join(PROJECT_ROOT, "output", "cut_scenes")
-OUTPUT_FILE = os.path.join(PROJECT_ROOT, "output", "cut_scenes.html")
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+from paths import CUT_SCENES_DIR, CUT_SCENES_FILE
+
+OUTPUT_FILE = CUT_SCENES_FILE
 PAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 BOOK_NAMES = {

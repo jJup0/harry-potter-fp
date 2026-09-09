@@ -26,8 +26,7 @@ DIMENSIONS = {
     "key_relationships": 10,
     "complexity_nuance_lost_material": 15,
 }
-KIRO_CWD = "/tmp/harry-potter-scoring-calls"
-RAW_DIR = "/tmp/harry-potter-scoring-raw"
+from paths import KIRO_SCORING_CWD as KIRO_CWD, KIRO_SCORING_RAW_DIR as RAW_DIR
 os.makedirs(KIRO_CWD, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 

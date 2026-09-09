@@ -6,7 +6,7 @@ import re
 import subprocess
 import time
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+from paths import PROJECT_ROOT
 
 ANSI_RE = re.compile(r'\x1b\[[0-9;]*[a-zA-Z]|\x1b\[\?[0-9]*[a-zA-Z]')
 

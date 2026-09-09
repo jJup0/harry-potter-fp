@@ -17,17 +17,25 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (
+    CUT_SCENES_DIR,
+    KIRO_CUT_SCENES_CWD,
+    PARSED_BOOKS_DIR,
+    PARSED_SCREENPLAYS_DIR,
+    PROJECT_ROOT,
+    SCENE_CHAPTER_MAPPING_DIR,
+)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
 from llm import call_kiro, extract_json
 
-KIRO_CWD = "/tmp/harry-potter-cut-scenes"
+KIRO_CWD = str(KIRO_CUT_SCENES_CWD)
 os.makedirs(KIRO_CWD, exist_ok=True)
 
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "screenplays")
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
-MAPPING_DIR = os.path.join(PROJECT_ROOT, "output", "scene_chapter_mapping")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "cut_scenes")
+SCREENPLAYS_DIR = PARSED_SCREENPLAYS_DIR
+BOOKS_DIR = PARSED_BOOKS_DIR
+MAPPING_DIR = SCENE_CHAPTER_MAPPING_DIR
+OUTPUT_DIR = CUT_SCENES_DIR
 
 FILM_BOOK_MAP = {
     "1_philosophers_stone": "1_philosophers_stone",

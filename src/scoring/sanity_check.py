@@ -3,12 +3,15 @@
 import json, os, re, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-PROJECT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, os.path.join(PROJECT, "src"))
+# Bootstrap: src/ must be importable before paths.py can be imported.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from llm import call_kiro as _call_kiro, extract_json
 
-SCORES_DIR = os.path.join(PROJECT, "output", "scores", "kiro")
-RESULTS_DIR = os.path.join(PROJECT, "output", "sanity_checks")
+from paths import (  # noqa: E402  bootstrap above must run first
+    KIRO_SANITY_CHECKS_CWD,
+    KIRO_SCORES_DIR as SCORES_DIR,
+    SANITY_CHECKS_DIR as RESULTS_DIR,
+)
 MODEL = "claude-sonnet-4.6"
 WORKERS = int(os.environ.get("WORKERS", "5"))
 
@@ -19,7 +22,7 @@ def result_path(char_name):
 
 
 def call_kiro(prompt):
-    cwd = "/tmp/harry-potter-sanity-checks"
+    cwd = str(KIRO_SANITY_CHECKS_CWD)
     os.makedirs(cwd, exist_ok=True)
     return _call_kiro(prompt, model=MODEL, trust_tools="web_search", timeout=120, cwd=cwd)
 

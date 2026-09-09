@@ -9,14 +9,15 @@ import re
 import yaml
 from collections import Counter
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_merged")
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
-OUTPUT = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import ALIAS_FILE, BOOKS_DIR, CHARACTERS_FILE, SCREENPLAYS_DIR
+
+OUTPUT = CHARACTERS_FILE
 
 # Canonical name -> list of aliases that should merge into it
 # This also serves as the "full name" registry
-ALIAS_FILE = os.path.join(PROJECT_ROOT, "data", "manual-character-alias-mapping.jsonc")
 
 
 def _load_jsonc(path):

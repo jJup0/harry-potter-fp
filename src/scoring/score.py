@@ -30,12 +30,15 @@ import yaml
 
 from deleted_scenes import filter_deleted_scenes
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
-METRICS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "metrics")
-CONFIG_FILE = os.path.join(PROJECT_ROOT, "config.yaml")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "scores")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (
+    CHARACTERS_FILE,
+    CONFIG_FILE,
+    CORPUS_DIR,
+    METRICS_DIR,
+    PROJECT_ROOT,
+    SCORES_DIR as OUTPUT_DIR,
+)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

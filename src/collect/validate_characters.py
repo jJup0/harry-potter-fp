@@ -10,20 +10,16 @@ Usage:
 import json
 import os
 import re
+import sys
 
 import yaml
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CHARACTERS_FILE = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
-WIKIPEDIA_FILE = os.path.join(
-    PROJECT_ROOT, "data", "reference", "wikipedia_hp_characters.json"
-)
-
-# Import alias map from registry
-import sys
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 from build_character_registry import KNOWN_CHARACTERS
+from paths import CHARACTERS_FILE, KIRO_SCORES_DIR, WIKIPEDIA_CHARACTERS_FILE
+
+WIKIPEDIA_FILE = WIKIPEDIA_CHARACTERS_FILE
 
 
 def load_wikipedia_names():
@@ -55,7 +51,7 @@ def build_known_names_set():
     return names
 
 
-SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
+SCORES_DIR = KIRO_SCORES_DIR
 
 # Words that mark a registry entry as a role or crowd label rather than a person.
 ROLE_WORDS = {

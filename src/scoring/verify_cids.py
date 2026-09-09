@@ -12,9 +12,8 @@ import os
 import re
 import sys
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CIDS_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "cids")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import CIDS_DIR, CORPUS_DIR
 
 # Map scene-field film prefixes to corpus source identifiers
 FILM_PREFIX_TO_SOURCE = {

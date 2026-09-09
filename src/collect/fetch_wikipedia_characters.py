@@ -12,8 +12,12 @@ import re
 import urllib.request
 import datetime
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-OUTPUT = os.path.join(PROJECT_ROOT, "data", "reference", "wikipedia_hp_characters.json")
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import WIKIPEDIA_CHARACTERS_FILE
+
+OUTPUT = WIKIPEDIA_CHARACTERS_FILE
 URL = "https://en.wikipedia.org/w/index.php?title=List_of_Harry_Potter_characters&action=raw"
 
 

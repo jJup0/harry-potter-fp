@@ -12,9 +12,10 @@ cids_v1 if it already exists (i.e. safe to re-run).
 import json
 import math
 import os
+import sys
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CIDS_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "cids")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import CIDS_DIR
 
 
 def recompute_file(path):

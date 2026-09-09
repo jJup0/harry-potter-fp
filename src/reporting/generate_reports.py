@@ -15,11 +15,12 @@ import sys
 import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from presence import presence
+from paths import CONFIG_FILE, KIRO_SCORES_DIR, REPORTS_DIR
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "reports")
+SCORES_DIR = KIRO_SCORES_DIR
+OUTPUT_DIR = REPORTS_DIR
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 DIMENSIONS = [
@@ -188,7 +189,7 @@ def generate_character_reports(scored):
 
 
 def main():
-    with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
+    with open(CONFIG_FILE) as f:
         config = yaml.safe_load(f)
     scoring_cfg = config.get("scoring", {})
     exclude = set(

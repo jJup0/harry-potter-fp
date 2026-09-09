@@ -23,17 +23,19 @@ KNOWN ISSUES:
 import json
 import os
 import re
+import sys
+
 import yaml
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-
-# Source paths
-BOOKS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "books")
-SCREENPLAYS_DIR = os.path.join(PROJECT_ROOT, "data", "source", "screenplays_merged")
-SCREEN_TIME_FILE = os.path.join(PROJECT_ROOT, "data", "source", "metrics", "screen_time_v2.json")
-BOOK_MENTIONS_FILE = os.path.join(
-    PROJECT_ROOT, "data", "source", "metrics", "book_mentions_v2.json"
+# Bootstrap: src/ must be importable before paths.py can be imported.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (  # noqa: E402  bootstrap above must run first
+    BOOKS_DIR,
+    BOOK_MENTIONS_FILE,
+    PROJECT_ROOT,
+    SCREENPLAYS_DIR,
+    SCREEN_TIME_FILE,
 )
 
 # Output paths

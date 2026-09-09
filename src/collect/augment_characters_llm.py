@@ -15,14 +15,19 @@ import re
 import sys
 import time
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (
+    KIRO_LLM_PARSE_CWD,
+    PARSED_BOOKS_AUGMENTED_DIR,
+    PARSED_BOOKS_DIR,
+    PROJECT_ROOT,
+)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
 from llm import call_kiro, extract_json
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-PARSED_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books")
-AUGMENTED_DIR = os.path.join(PROJECT_ROOT, "output", "parsed", "books_augmented")
-KIRO_CWD = "/tmp/harry-potter-llm-parse"
+PARSED_DIR = PARSED_BOOKS_DIR
+AUGMENTED_DIR = PARSED_BOOKS_AUGMENTED_DIR
+KIRO_CWD = str(KIRO_LLM_PARSE_CWD)
 os.makedirs(AUGMENTED_DIR, exist_ok=True)
 os.makedirs(KIRO_CWD, exist_ok=True)
 

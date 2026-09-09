@@ -27,7 +27,14 @@ import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (
+    CHARACTERS_FILE,
+    DELETED_SCENES_REPORTED_FILE,
+    DELETED_SCENE_CHARACTERS_DIR,
+    KIRO_DELETED_SCENE_CWD,
+    PROJECT_ROOT,
+)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src"))
 from llm import call_kiro, extract_json
 sys.path.insert(0, os.path.join(PROJECT_ROOT, "src", "collect"))
@@ -35,12 +42,12 @@ from build_character_registry import build_alias_to_canonical, resolve_name
 
 import yaml
 
-KIRO_CWD = "/tmp/harry-potter-deleted-scene-tagging"
+KIRO_CWD = str(KIRO_DELETED_SCENE_CWD)
 os.makedirs(KIRO_CWD, exist_ok=True)
 
-REPORTED_PATH = os.path.join(PROJECT_ROOT, "data", "deleted_scenes_reported.jsonc")
-REGISTRY_PATH = os.path.join(PROJECT_ROOT, "output", "characters.yaml")
-OUT_DIR = os.path.join(PROJECT_ROOT, "output", "deleted_scene_characters")
+REPORTED_PATH = DELETED_SCENES_REPORTED_FILE
+REGISTRY_PATH = CHARACTERS_FILE
+OUT_DIR = DELETED_SCENE_CHARACTERS_DIR
 
 PROMPT = """You are identifying which Harry Potter characters appear in a scene that was \
 deleted from the theatrical cut of the films.
