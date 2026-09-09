@@ -1,161 +1,134 @@
 {
   "character": "Luna Lovegood",
-  "fp_score": 73.0,
-  "infidelity_score": 27.0,
-  "weighted_infidelity_exposure": 44.5,
-  "cids": 204.5,
-  "damage_per_exposure": 12.0,
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 32.0,
+  "cids": 180.3,
+  "damage_per_exposure": 12.9,
   "structural_damage_level": 3,
-  "adjusted_cids": 204.5,
+  "adjusted_cids": 180.3,
   "main_damage_causes": [
-    "Removal of Luna's agency in the Ravenclaw tower sequence (DH2) and the dementor/Patronus rescue scene strips her two most important functional contributions to the plot",
-    "Compressed and reframed introduction (OotP) loses the multi-layered first impression that establishes her humor, dignity, sharp edges, and social context, replacing it with a simpler 'wise eccentric' archetype",
-    "Invented Neville romance and added philosophical lines (Dobby death scene, bridge scene) reframe Luna as a sage/mentor/love-interest rather than a genuinely strange, self-sufficient peer"
+    "Collapsed and decontextualised introduction: the rich train-compartment scene that establishes Luna's multi-layered personality \u2014 her laughter, her sharpness, her singsong dignity \u2014 is replaced by a functional Thestral beat, leaving her defined primarily by the 'Loony' label and visual eccentricity rather than demonstrated character.",
+    "Loss of Luna's voiced intellectual combativeness: the Hog's Head debate (Heliopaths, arguing with Hermione), the Rotfang Conspiracy delivery, and the Ravenclaw riddle scene are all absent or compressed, removing the evidence that Luna's credulity is assertive and held with conviction rather than passive or comic.",
+    "Removal of Luna's highest-agency moments: the book's cellar rope sequence, the Ravenclaw common room mission with Harry (riddle and Stunner), and the theatrical cut of her Dobby graveside eulogy together strip her of the scenes where she acts most decisively and speaks most truthfully \u2014 converting her from a co-agent of the climax into a supportive presence."
   ],
   "damaging_scenes": [
     {
-      "scene": "OotP Film - Train/carriage introduction",
-      "book_baseline": "Luna is introduced in a full compartment scene: reading The Quibbler upside-down, wearing butterbeer cork necklace, wand behind ear, staring unblinkingly at Harry, making deadpan observations about Ron and Parvati, laughing uproariously at Ron's baboon joke, defending her father's magazine coldly when mocked. A rich, multi-beat introduction establishing her eccentricity, dignity, humor, and sharp edges.",
-      "film_portrayal": "Luna appears briefly in the carriage already en route to Hogwarts, delivers only the Thestral line and a single Nargle quip. The Quibbler, the upside-down reading, the cork necklace introduction, the Ron/Parvati commentary, the prolonged laughter, and her cold defense of her father are all absent. Hermione introduces her as 'Loony Lovegood' with a condescending 'What an interesting necklace' - a line that belongs to no book character and frames Luna as an object of mockery rather than someone with her own presence.",
-      "damage_type": "personality/voice",
+      "scene": "OotP Film - Carriage scene / first introduction",
+      "book_baseline": "Book establishes Luna over a full train compartment scene: she is protuberant-eyed, dreamy, reading The Quibbler upside-down, wearing butterbeer cork necklace and wand behind ear. She speaks in a singsong voice, laughs explosively at Ron's joke, defends her father's magazine with cold sharpness when mocked, and gives Harry genuine comfort about the Thestrals. Her introduction is layered \u2014 odd but perceptive, socially isolated but dignified.",
+      "film_portrayal": "The film collapses Luna's introduction to a single line in the carriage ('You're not going mad. I can see them too. You're just as sane as I am.') and Hermione's immediate, belittling introduction ('Everyone, this is Loony Love \u2014 Luna Lovegood. What an interesting necklace.'). The rich train-compartment scene \u2014 the Quibbler upside-down, the laughter, the singsong Ravenclaw motto, the cork necklace conversation \u2014 is entirely absent. Luna arrives without context or established oddness.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The book introduction is the foundational establishment of Luna's character: her humor, her dignity under mockery, her sharp wit, her loyalty to her father. Collapsing it to two lines and having Hermione mock her removes the audience's first and most important impression of who Luna is."
+      "explanation": "The book's introduction is the foundational scene for understanding who Luna is: eccentric but grounded, perceptive, capable of both laughter and dignity. The film strips this to a functional plot beat (Thestrals) and hands Hermione a dismissive framing line. Audiences never see Luna as a fully realised character before she is labelled 'Loony.' The layers of her personality \u2014 the humour, the sharpness, the dreamy self-possession \u2014 are lost at the moment they most needed to be established."
     },
     {
-      "scene": "OotP Film - Hermione's 'Loony Lovegood' introduction line",
-      "book_baseline": "'Loony' is a cruel nickname used by students who bully Luna. Ginny uses it casually in the book but corrects herself. Harry feels embarrassed to be seen with her. The nickname signals social cruelty Luna endures, not how her friends address her.",
-      "film_portrayal": "Hermione - one of Harry's closest friends and a character coded as morally upright - introduces Luna to Harry as 'Loony Lovegood' with no correction or embarrassment.",
+      "scene": "OotP Film - Hermione's belittling introduction line",
+      "book_baseline": "In the books, Ginny introduces Luna matter-of-factly ('there's only Loony Lovegood in here') and the nickname is an ambient cruelty of the school. Hermione's attitude toward Luna is privately sceptical but she does not perform public mockery at the moment of introduction.",
+      "film_portrayal": "Hermione says 'Everyone, this is Loony Love \u2014 Luna Lovegood. What an interesting necklace,' using the cruel nickname to introduce her to Harry and framing Luna's accessories as objects of mild ridicule on first meeting.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "This misattributes casual cruelty to Hermione and frames Luna's introduction through mockery from a sympathetic character, undermining both Hermione's characterization and Luna's dignity from the first moment."
+      "explanation": "Hermione's opening dismissal of Luna establishes their dynamic as one of condescension rather than the book's more nuanced scepticism-but-respect. It also deprives Luna of a neutral or warm introduction and frontloads her with the 'Loony' label in a way that frames her as an object of amusement rather than a character in her own right."
     },
     {
-      "scene": "OotP Film - Luna's Thestral scene replaces train scene as primary introduction",
-      "book_baseline": "The Thestral conversation happens at the carriages and is a brief, poignant moment. Luna's full personality has already been established on the train.",
-      "film_portrayal": "The Thestral scene is moved earlier and becomes Luna's primary introduction, with added dialogue about her mother's death delivered almost immediately upon meeting Harry. Luna also delivers the political insight ('if I were You-Know-Who, I'd want you to feel cut off') which has no book equivalent.",
+      "scene": "OotP Film - Luna feeding Thestrals / lost-shoes scene replaces train scene depth",
+      "book_baseline": "The book establishes Luna's awareness of Thestrals in the carriage alongside Ron's scepticism and Hermione's dismissal, embedding Luna in the group dynamic. The lost-possessions corridor scene near the end of OotP provides the emotional payoff of Harry's pity turning to genuine connection, with Luna's quiet acceptance of cruelty and her reference to her mother and the veil.",
+      "film_portrayal": "The Thestral scene is relocated to Luna alone feeding them outside, which Harry witnesses. The conversation about her mother and death is condensed and moved here. The corridor lost-shoes scene is retained but compressed. The key book line 'It was like having friends' (from HBP) gives the film a late acknowledgement of her isolation, but the foundational group scenes that would make that line land with full weight are absent from OotP.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Moving the Thestral scene to a solo moment removes Luna from the social dynamic of the carriage and isolates her further before she is even established in the group. The emotional resonance of Harry feeling sorry for Luna in the corridor depends on having seen her accepted and then ignored throughout the year \u2014 a rhythm the film partially loses."
+    },
+    {
+      "scene": "OotP Film - DA meetings: Luna as background participant",
+      "book_baseline": "Books show Luna as a genuine if uneven DA participant, contributing during practice, speaking up with her DA meeting, and \u2014 crucially \u2014 presenting her own Patronus (a hare). Her political views (Heliopaths, Fudge's conspiracy) are voiced assertively in the Hog's Head recruitment scene, where she argues with Hermione and refuses to be silenced.",
+      "film_portrayal": "Luna appears in DA scenes and is seen casting Expelliarmus and Expecto Patronum (the hare Patronus is briefly visible). However, the Hog's Head debate \u2014 where Luna challenges Hermione about Heliopaths and demonstrates she will hold her ground intellectually \u2014 is entirely absent. Luna's voice in the DA is reduced to visual presence and brief spell-casting.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Frontloading the mother's death and adding a strategically shrewd political observation reframes Luna as a wise, emotionally available mentor figure rather than an eccentric peer. Her book introduction earns emotional depth gradually; the film shortcuts to it, flattening the character."
-    },
-    {
-      "scene": "OotP Film - DA meeting / Patronus practice",
-      "book_baseline": "Luna attends DA meetings and is described as 'patchy' - occasionally effective, sometimes just making Justin's hair stand on end. She participates but is not singled out as exceptional.",
-      "film_portrayal": "Luna successfully casts a Patronus (a hare) during the DA session, shown as a clear success alongside other members.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor inflation of competence, low damage on its own but contributes to a pattern of the film making Luna more straightforwardly capable and less genuinely odd."
+      "explanation": "The Hog's Head scene establishes that Luna's credulity is not passive \u2014 she argues back, cites evidence, and becomes genuinely angry. Without it, the film's Luna is simply odd and compliant rather than someone who holds convictions and defends them. Her intellectual combativeness, which is part of her dignity, is lost."
     },
     {
       "scene": "OotP Film - Department of Mysteries battle",
-      "book_baseline": "Luna is captured, gagged, and held by Slytherins. She stands 'limply by the side of her captor, gazing vaguely out of the window as though rather bored.' She later helps free Harry and Ron from ropes, bewitches doors, is knocked unconscious by a Death Eater, and helps Ginny walk. Her bravery is quiet and practical.",
-      "film_portrayal": "Luna participates in the battle with wand drawn, casts Levicorpus, and calls out 'Well done, Neville!' The capture scene and her specific acts of practical courage (freeing ropes, supporting Ginny) are compressed or absent.",
+      "book_baseline": "Book gives Luna significant agency in the DoM: she helps mount the Thestrals (she is already seated side-saddle and helps others mount), bewitches doors alongside Neville, is struck by a Death Eater and falls unconscious, and is one of the wounded but unbowed survivors. Her calmness under pressure ('well, we'll have to fly, won't we?') and practical competence are established.",
+      "film_portrayal": "The film shows Luna in the battle, casting Levicorpus and saying 'Well done, Neville,' and being captured with the others. Her proactive role in the Thestral sequence (helping others mount, being already seated) is compressed into the carriage scene context that precedes it. The film does show her fighting. However, the specific beats of her mounting Thestrals first and helping others, and her calm insistence on flying to the Ministry, are absent.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Luna is brave in a distinctively unbothered, practical way - her boredom while captured is characterful. The film replaces this with generic battle participation, losing the specific texture of her courage."
+      "explanation": "The book Luna who calmly insists 'we'll have to fly' and is already seated side-saddle before anyone else \u2014 demonstrating competence and composure that surprises the group \u2014 is replaced by a Luna who is simply present in the action. This removes a key moment of her quiet, unconventional capability being demonstrated practically."
     },
     {
-      "scene": "OotP Film - End of year corridor scene (lost possessions)",
-      "book_baseline": "Harry finds Luna pinning notices about her stolen possessions. She tells him people hide her things because they think she's odd. Harry feels genuine pity. She comforts him about Sirius by referencing the voices behind the veil and her own mother's death. It is the most emotionally intimate scene Luna has in OotP and establishes her as someone who has processed grief with genuine equanimity.",
-      "film_portrayal": "The scene is present but significantly compressed. Luna's line about her mother is retained but the full exchange - the stolen possessions, Harry's pity, her serene acceptance, the extended conversation about the veil and hearing the dead - is truncated. Luna's closing line about things coming back is given but the emotional weight of the full scene is reduced.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This scene is the payoff of Luna and Harry's relationship in OotP - it establishes genuine friendship, mutual recognition of grief, and Luna's unique spiritual comfort. Compressing it reduces the emotional foundation of their bond."
-    },
-    {
-      "scene": "HBP Film - Train scene / Spectrespecs introduction",
-      "book_baseline": "Luna boards the train selling Quibblers, wearing Spectrespecs, and joins Harry, Neville in a compartment. She makes the 'It was like having friends' comment which Harry finds uncomfortable. She deflects Romilda Vane's rudeness with characteristic honesty. Harry defends her.",
-      "film_portrayal": "Luna finds Harry under the Invisibility Cloak using 'Wrackspurts' as explanation, fixes his broken nose with Episkey, and walks him to the castle. The 'It was like having friends' moment is present in the screenplay but the full compartment scene establishing her social isolation and Harry's active defense of her is restructured.",
-      "damage_type": "relationship",
-      "exposure": 1,
+      "scene": "HBP Film - 'It was like having friends' scene on train",
+      "book_baseline": "Book (HBP train) has Luna saying 'I enjoyed the meetings too. It was like having friends.' This is one of her most characteristically honest and painful lines, delivered without self-pity. Harry feels a squirming mixture of pity and embarrassment. It crystallises her social isolation and her matter-of-fact acceptance of it.",
+      "film_portrayal": "The film includes this line in the HBP train scene (film corpus scenes 7-11 show Luna on the train distributing Quibblers, and scene 11 shows her saying 'It's alright. I enjoyed our walk. It was like being with a friend' to Harry after he apologises for making her miss the carriages). The line is present but recontextualised: instead of referring to DA meetings and the whole year's friendship, it refers to a single walk with Harry. The communal resonance is reduced to a bilateral moment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's train scene is important for establishing Harry's active friendship with Luna and her painful honesty about her social position. The film restructures this into a more plot-functional encounter."
+      "explanation": "The book line lands hard because it encompasses a whole year of DA meetings \u2014 a group that accepted her. The film version reduces this to one walk, which is touching but does not carry the same weight about her chronic isolation and how meaningful the DA was to her specifically as a community."
     },
     {
-      "scene": "HBP Film - Quidditch commentary",
-      "book_baseline": "Luna commentates the Quidditch match in a wonderfully chaotic way - ignoring the score, diagnosing Zacharias Smith with 'Loser's Lurgy', commenting on cloud shapes, requiring McGonagall to repeatedly correct her. It is a comic set piece that showcases her unique perspective.",
-      "film_portrayal": "Luna's lion hat is seen in the stands roaring, but she does not commentate the match. The commentary set piece is absent.",
+      "scene": "HBP Film - Luna spots Felix Felicis in Harry's hand",
+      "book_baseline": "In the book, Luna is not present at the Great Hall breakfast scene where Harry appears to give Ron Felix Felicis. The scene in the film where Luna notices Harry putting something in Ron's cup is a film addition \u2014 this is not a direct book-to-film divergence causing damage to book characterisation.",
+      "film_portrayal": "Luna arrives at the table wearing the lion hat and says 'You look dreadful, Ron' and then notices the Felix Felicis, asking 'Is that why you just put something in his cup? Is it a tonic?' Harry winks at her to keep quiet.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a minor added scene that is generally faithful to Luna's perceptiveness and good-natured complicity with Harry. It is not damaging. Scoring at minimum to flag it was assessed and found neutral."
+    },
+    {
+      "scene": "HBP Film - Slughorn's party: Luna with Worple",
+      "book_baseline": "In the book, Luna accompanies Harry to Slughorn's party as a genuine social companion; she converses with Professor Trelawney about Firenze and delivers the Rotfang Conspiracy line to Slughorn's group, causing Harry to inhale mead. She remains present with him throughout. The party is a scene of Luna in a social environment, eccentric but engaged.",
+      "film_portrayal": "The film shows Luna in spangled silver robes walking with Harry to the party. The film corpus shows Luna talking to Eldred Worple (who references her father as 'a seriously unbalanced man'). The Rotfang Conspiracy line and the Trelawney conversation appear to be absent or heavily compressed in the film version shown in the corpus; the corpus does not contain these exchanges in the film version of the party scene.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The Quidditch commentary is one of Luna's most purely delightful book scenes - it shows her eccentricity as genuinely funny and charming rather than just strange. Its absence removes a key moment of the audience enjoying Luna on her own terms."
+      "explanation": "The Rotfang Conspiracy moment is Luna's most distinctive contribution to the HBP party scene \u2014 it demonstrates that her absurdist political beliefs are delivered with perfect sincerity and that Harry finds her genuinely funny rather than merely tolerable. If absent from the film, this removes the payoff of the invitation: Harry chose her because she is 'good value,' and the scene should demonstrate that. Instead Luna's role at the party appears limited to social presence and a brief exchange where her father is mocked."
     },
     {
-      "scene": "HBP Film - Slughorn's party",
-      "book_baseline": "Luna accompanies Harry as a friend (he invites her on impulse). She makes the Rotfang Conspiracy comment about Aurors using Dark Magic and gum disease, causing Harry to laugh so hard he inhales mead. She continues discussing it with Trelawney after Harry slips away. She is socially at ease in her own way.",
-      "film_portrayal": "Luna attends the party with Harry. The Rotfang Conspiracy moment is absent from the film. Luna's role at the party is minimal.",
-      "damage_type": "personality/voice",
+      "scene": "HBP Film - Luna's Quidditch commentary",
+      "book_baseline": "Book has Luna commentating the Gryffindor vs Hufflepuff match with characteristic irrelevance \u2014 she discusses Loser's Lurgy, interestingly shaped clouds, and repeatedly ignores the score in favour of personal observations. McGonagall has to repeatedly correct her. It is comic but also characterises Luna as someone whose inner world genuinely overrides external convention.",
+      "film_portrayal": "The film corpus references Luna's lion hat roaring in the Quidditch stands in HBP (film scene 15), and the OotP corpus mentions Luna's lion hat from OotP. The HBP Quidditch commentary scene does not appear in the film corpus provided, suggesting it was cut from the theatrical release or not included in this corpus.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The Rotfang Conspiracy is one of Luna's funniest and most characteristic moments - absurd conspiracy delivered with complete sincerity, making Harry genuinely laugh. Its absence removes a key beat of her humor and her effect on Harry."
+      "impact_weight": 1,
+      "explanation": "If the commentary scene was cut, it removes one of Luna's most purely characterful moments in HBP \u2014 a scene that is entirely hers, comedic, and establishes her as someone whose peculiarity is joyful rather than merely strange. It is not structurally critical but it is one of the book's most memorable Luna passages."
     },
     {
-      "scene": "DH1 Film - Bill and Fleur's wedding",
-      "book_baseline": "Luna arrives with Xenophilius in yellow robes, immediately sees through Harry's disguise ('Oh, have you changed that too?'), dances alone on the dance floor waving her arms, and Ron defends her father to Krum. She is present, active, and characterful throughout.",
-      "film_portrayal": "Luna appears briefly, is present at the wedding, but her seeing through Harry's disguise is retained. However her solo dancing and the full texture of her presence at the wedding is compressed.",
+      "scene": "DH1 Film - Wedding scene: Luna pulls Harry away ('Come, Daddy, Harry doesn't want to talk to us')",
+      "book_baseline": "At the wedding, Luna greets Harry warmly and with her usual perceptive honesty. She interacts with her father naturally. The book has her dancing alone on the floor, Ron admiringly calling her 'great,' and her participation in the group.",
+      "film_portrayal": "In the film (corpus scene 18), Luna says 'Come, Daddy. Harry doesn't want to talk to us right now. He's just too nice to say so.' This is presented as Luna reading Harry's social situation perceptively. However, this line is absent from the book and gives Luna a slightly self-deprecating quality \u2014 assuming Harry doesn't want to talk to them \u2014 that the book Luna, who dances alone unselfconsciously and engages everyone on her own terms, does not have.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor compression; the disguise recognition is kept which is the most important beat."
+      "explanation": "A small but notable shift: book Luna would not pre-emptively excuse herself on Harry's behalf. Her self-awareness about being odd does not translate into social withdrawal or self-effacement on behalf of others. The film line slightly undermines her usual serene self-possession by having her anticipate rejection and act on it."
     },
     {
-      "scene": "DH1 Film - Lovegood house visit (Luna's absence)",
-      "book_baseline": "Luna is genuinely absent - kidnapped by Death Eaters. Harry discovers this by noticing her clothes are gone and her bed unslept in. The discovery is a detective beat that shows Harry's attentiveness and care for Luna.",
-      "film_portrayal": "Luna's absence is handled similarly but Harry's active deduction from physical evidence (empty wardrobe, unslept bed, only four place settings) is replaced by Xenophilius simply confessing more quickly.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss of Harry's active concern for Luna expressed through observation."
-    },
-    {
-      "scene": "DH1 Film - Cellar at Malfoy Manor",
-      "book_baseline": "Luna takes charge in the cellar: she finds the nail, works the ropes, manages the light with the Deluminator, keeps Ron still, coordinates with Ollivander, and wants to stay and help Harry rather than leave. She is calm, practical, and brave.",
-      "film_portrayal": "Luna is present and helpful in the cellar. She closes Dobby's eyes and delivers the added line 'That's what reminds us how lucky we are to be alive' - a line with no book equivalent that frames her as a wisdom-dispensing figure.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The added philosophical line after Dobby's death turns Luna into a grief counselor delivering a lesson. The book's Luna would close his eyes tenderly and say something like 'Now he could be sleeping' - which the film does keep - but the added line tips her from eccentric-but-grounded into sage-mentor, which is a different character."
-    },
-    {
-      "scene": "DH2 Film - Luna stops Harry on the bridge",
-      "book_baseline": "In the book, Harry goes to the Ravenclaw common room with Luna, they navigate the castle together under the Invisibility Cloak, Luna answers the riddle to enter ('A circle has no beginning'), and Luna stuns Alecto Carrow. Luna is Harry's active partner throughout this sequence.",
-      "film_portrayal": "Luna stops Harry on the bridge and tells him to talk to someone dead (the Grey Lady), then sends him off alone saying 'I think it best if you two talk alone.' She does not accompany him to the common room or answer the riddle or stun Alecto.",
+      "scene": "DH1 Film - Cellar at Malfoy Manor: Luna's role compressed",
+      "book_baseline": "In the book, Luna is active in the cellar: she finds the nail, works to free Harry and Ron's ropes, tells Ron to stay still so she can see, urges Dobby to take them, and when asked to go says 'Harry, we want to help you.' She is composed and practical throughout. She then closes Dobby's eyes and speaks the eulogy at his grave, which is the emotional centrepiece of her arc.",
+      "film_portrayal": "The film corpus (scene 30) shows Luna in the cellar: she identifies Harry, comments on his bleeding, notices the mirror shard, helps manage the escape with Dobby, and agrees to go. She is present and active. However, the rope-cutting sequence \u2014 with the nail, working in the dark, 'Ron please stay still' \u2014 is absent; instead Dobby apparates and takes charge. The film version of the Dobby eulogy scene is marked as NON-THEATRICAL (cut), meaning Luna's graveside words ('Thank you so much, Dobby, for rescuing me...') and her act of closing his eyes while speaking are lost from the theatrical release.",
       "damage_type": "agency/function",
       "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is the most significant agency loss in the film corpus. Luna's entire active role in the Ravenclaw tower sequence - navigating the castle, answering the riddle, stunning Alecto, being present when McGonagall arrives - is removed. She is reduced to a pointer who sends Harry to do things alone. The riddle answer ('A circle has no beginning') is a beautiful character moment showing her lateral thinking; its removal is a direct loss of her function and characterization."
-    },
-    {
-      "scene": "DH2 Film - Battle of Hogwarts (Patronus/dementor scene absent)",
-      "book_baseline": "Luna arrives with Ernie and Seamus to cast Patronuses that drive back the dementors when Harry, Ron and Hermione are overwhelmed. Luna encourages Harry ('That's right... come on, think of something happy... We're all still here, we're still fighting'). Her silver hare Patronus is named. This is her most heroic moment in the saga.",
-      "film_portrayal": "The dementor/Patronus scene during the battle does not occur in the film. Luna participates in the battle generally and stuns Death Eaters in the courtyard, but this specific scene - her most important heroic act - is absent.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "Luna saving Harry, Ron and Hermione from dementors while encouraging Harry to produce his Patronus is her single most important heroic act in the entire saga. Its absence removes her most significant contribution to the final battle and the moment that most clearly demonstrates her courage and her bond with Harry."
-    },
-    {
-      "scene": "DH2 Film - End of battle / Harry and Luna on bench",
-      "book_baseline": "After the battle Harry finds himself sitting beside Luna. She offers to distract everyone so he can slip away with his Invisibility Cloak, crying 'Oooh, look, a Blibbering Humdinger!' - a final, perfect encapsulation of her character: practical, loyal, and delightfully herself.",
-      "film_portrayal": "Luna sits beside Neville in the Great Hall aftermath. The Harry-and-Luna bench scene and her final Blibbering Humdinger distraction are absent.",
-      "damage_type": "arc",
-      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The bench scene is Luna's closing character moment in the saga - it completes her arc with Harry and ends on a note that is quintessentially her. Its absence means Luna has no proper farewell scene with Harry and her character ends without resolution."
+      "explanation": "The book's cellar scene gives Luna practical agency (working the ropes) and the graveside eulogy is her single most emotionally significant moment in the entire series \u2014 she steps forward when no one else does, speaks for the group, and demonstrates that her directness and lack of social convention serve genuine emotional truth. With the graveside scene cut from theatrical release (per the non-theatrical exclusion note), this is a material loss. The film retains her closing Dobby's eyes in the theatrical version (scene 31 corpus shows this), but removes her spoken eulogy. The rope sequence loss also reduces her practical agency."
     },
     {
-      "scene": "DH2 Film - Neville's 'I'm mad for her' line",
-      "book_baseline": "There is no romantic subplot between Neville and Luna in the books. They are friends and DA members. The films invented this pairing.",
-      "film_portrayal": "Neville tells Harry mid-battle 'I'm mad for her! Think it's about time I told her, seeing as there's a pretty good chance we'll both be dead by dawn!' Luna and Neville are shown sitting together at the end.",
+      "scene": "DH2 Film - Luna shouts Harry's name on the bridge / leads him to Grey Lady",
+      "book_baseline": "In the book, the mission to find the diadem involves Harry and Luna going together to the Ravenclaw common room, Luna answering the eagle knocker riddle ('a circle has no beginning'), and Luna Stunning Alecto Carrow. Luna's role is substantial: she navigates the riddle, acts decisively, and guides Harry through Hogwarts using the Marauder's Map together.",
+      "film_portrayal": "The film (scenes 38-41) has Luna shouting Harry's name on the bridge ('HARRY POTTER! YOU LISTEN TO ME RIGHT NOW!'), correctly redirecting him to speak to the dead rather than the living, and then leading him to the corridor where the Grey Lady is found. She declines to accompany him further ('I think it best if you two talk alone'). The Ravenclaw common room sequence \u2014 riddle, Stunner on Alecto \u2014 is absent; instead Harry goes alone.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film gives Luna a strong assertive moment (shouting Harry down on the bridge) that is faithful to her directness. However, by having her stay behind while Harry speaks to the Grey Lady alone, and by cutting the Ravenclaw common room sequence entirely, the film removes Luna's most active combat moment in the final battle (Stunning Alecto), her intellectual contribution (answering the riddle), and her sustained partnership with Harry in the castle's most dangerous stretch. The bridge scene partially compensates but her role is reduced from co-agent to guide."
+    },
+    {
+      "scene": "DH2 Film - Final battle: Luna and Neville romantic subplot added",
+      "book_baseline": "The books contain no romantic relationship or even suggestion between Luna and Neville. Luna ends the series sailing to Sweden with her father. Neville's romantic interests are not developed toward Luna in canon.",
+      "film_portrayal": "The film (scene 43) adds Neville saying 'Haven't seen Luna, have you? I'm mad for her! Think it's about time I told her, seeing as there's a pretty good chance we'll both be dead by dawn!' and in scene 46, Luna sits down close beside Neville in the Great Hall aftermath and smiles at him.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Inventing a romantic subplot for Luna changes how the audience understands her social world and her relationships. In the books Luna's isolation is real and poignant; giving her a romantic partner softens this and redirects her emotional arc toward a conventional resolution she doesn't have in the source material."
+      "explanation": "Introducing a Neville/Luna romantic subplot that has no basis in the books reframes Luna's relationship with Neville \u2014 which in the books is friendly but not romantically charged \u2014 and gives her a conventional romantic resolution the books deliberately withhold. It also slightly reduces Luna to a romantic interest for another character rather than a figure who stands independently. The damage is moderate because it is brief and not developed, but it alters the audience's understanding of who Luna is in relation to the group."
     }
   ],
   "confidence": {
@@ -164,8 +137,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1201.5,
-  "adjusted_cids_v1": 1501.9
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

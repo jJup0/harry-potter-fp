@@ -1,89 +1,98 @@
 {
   "character": "Dudley Dursley",
-  "fp_score": 61.0,
-  "infidelity_score": 39.0,
-  "weighted_infidelity_exposure": 22.0,
-  "cids": 242.6,
-  "damage_per_exposure": 30.3,
-  "structural_damage_level": 3,
-  "adjusted_cids": 242.6,
+  "fp_score": 57.0,
+  "infidelity_score": 43.0,
+  "weighted_infidelity_exposure": 17.0,
+  "cids": 269.0,
+  "damage_per_exposure": 35.9,
+  "structural_damage_level": 4,
+  "adjusted_cids": 269.0,
   "main_damage_causes": [
-    "Dudley's calculated psychological manipulation and deliberate cruelty are consistently softened into generic comic-relief spoiled-child behaviour, losing the specificity that makes him a compelling antagonist.",
-    "The film removes or compresses the key scenes showing Harry gaining power over Dudley (the garden magic-threat scene, the Dementor alley moral complexity), flattening the evolution of their dynamic and reducing Harry's domestic agency.",
-    "Dudley's interior life \u2014 glimpsed through the Dementor's effect on him and culminating in his farewell \u2014 is largely absent from the film corpus, which means his redemption arc is either entirely lost or lands without the necessary groundwork."
+    "Theatrical cut of Dudley's farewell in Deathly Hallows Part 1 removes the entire culmination of his redemption arc, leaving his character journey incomplete for cinema audiences",
+    "Dudley's consistent book characterisation as dim, slow-witted, and calculatedly cruel is intermittently replaced by wit (Chamber of Secrets second-bedroom line) or slapstick victimhood (zoo enclosure), misrepresenting his voice and intelligence",
+    "The dementor aftermath and Dudley's internal experience - the most important material for his arc - is present in Order of the Phoenix but its payoff is severed by the Deathly Hallows cut, making the earlier investment dramatically inert"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film 1 (Sorcerer's Stone) - Zoo birthday scene: Dudley wakes Harry",
-      "book_baseline": "Book establishes Dudley as a calculating bully who uses fake crying to manipulate his parents, throws tantrums about present counts, and actively excludes Harry. He punches Harry in the ribs at the snake tank ('Out of the way, you,' he said, punching Harry in the ribs). His cruelty is deliberate and premeditated.",
-      "film_portrayal": "Dudley cheerfully wakes Harry by jumping on the stairs above his cupboard and calling out 'Wake up, cousin! We're going to the zoo!' \u2014 a moment of almost playful energy rather than contemptuous exclusion. The film omits Dudley punching Harry at the snake tank; instead Dudley simply shoves him aside without the explicit violence of the book.",
+      "scene": "Philosopher's Stone - Zoo/reptile house: Dudley falls into enclosure",
+      "book_baseline": "In the book, Dudley is pushed aside by Harry falling when Dudley punches him in the ribs ('Out of the way, you,' he said, punching Harry in the ribs). The glass vanishes and the snake escapes; Dudley and Piers leap back with howls of horror. Dudley is not trapped inside the enclosure.",
+      "film_portrayal": "The film has Dudley shove Harry to the floor and then lean on the glass, which vanishes causing Dudley to fall into the enclosure and become trapped, visually the butt of the joke. He is shown splashing in a pool of water while Harry snickers at him.",
       "damage_type": "personality/voice",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Dudley is a deliberate, physically abusive bully from the very first scenes. Opening with a cheerful wake-up call softens his introduction and removes the physical cruelty at the zoo that establishes his character. The punch in the ribs is the direct cause of Harry falling and the glass vanishing \u2014 its absence mildly weakens the causal chain and the sense of Dudley's casual violence."
+      "impact_weight": 1,
+      "explanation": "The book keeps Dudley as the active aggressor (punching Harry) who is then frightened; the film converts the moment into slapstick humiliation of Dudley. While minor, it slightly softens Dudley's menace by making him the comic victim rather than the bully who strikes Harry."
     },
     {
-      "scene": "Film 1 (Sorcerer's Stone) - Birthday present tantrum",
-      "book_baseline": "Book Dudley counts 36 presents, goes 'red in the face,' and his parents immediately capitulate with promises of two more presents, then 39 total. He does hard mental arithmetic slowly ('Thirty... thirty...'), revealing dim-wittedness alongside entitled manipulation. His fake crying is explicitly noted: 'it had been years since he'd really cried \u2014 but he knew that if he screwed up his face and wailed, his mother would give him anything he wanted.' The tantrum is a masterclass in weaponised helplessness.",
-      "film_portrayal": "The film retains the present-counting complaint and Petunia's capitulation but compresses and softens it. The slow, laborious arithmetic ('thirty... thirty...') and the explicit authorial note about fake crying are absent. The scene plays as a simple spoiled-child moment rather than exposing Dudley's calculated manipulation of his parents.",
+      "scene": "Philosopher's Stone - Birthday morning: present count",
+      "book_baseline": "The book presents the present-counting scene with precise, deadpan comedy. Dudley counts 36 presents, then 37 with Aunt Marge's included, then throws a tantrum demanding two more, reaching 39. The scene establishes his spoiled, calculating nature and his deliberate manipulation of his parents through fake crying.",
+      "film_portrayal": "The film keeps the count at 36 vs 37 and Petunia's promise of two more, but the extended fake-crying manipulation (Dudley 'screwed up his face and wailed') and the detail that he hadn't really cried in years are absent. The tantrum is more straightforwardly childish rather than the calculated performance the book describes.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book's tantrum scene reveals Dudley as not just spoiled but strategically manipulative \u2014 he performs emotion to extract reward. Losing the fake-crying detail and the dim arithmetic removes a layer of characterisation that distinguishes him from a generic spoiled child."
+      "explanation": "The book's version reveals Dudley as a manipulator who performs emotion strategically; the film reduces this to ordinary childish complaint, losing a subtle but telling characterisation beat."
     },
     {
-      "scene": "Film 1 (Sorcerer's Stone) - Hagrid's hut: Dudley eats Harry's birthday cake",
-      "book_baseline": "Book has no equivalent moment of Dudley eating Harry's cake during Hagrid's visit. Dudley is terrified and hides behind his parents. His characterisation in this scene is cowardice and greed (he fidgets at the sausages), and the pig-tail is Hagrid's punishment for Vernon's insult \u2014 accidentally aimed at Dudley.",
-      "film_portrayal": "The film adds a visual gag in which Dudley, unnoticed by everyone, steals and eats Harry's birthday cake while the adults argue. This is a film-original invention presenting Dudley as a comic glutton rather than a frightened, cowardly bully.",
+      "scene": "Philosopher's Stone - Hagrid's arrival: Dudley eats Harry's cake",
+      "book_baseline": "The book has no equivalent scene of Dudley eating Harry's birthday cake during Hagrid's visit. Dudley's behaviour during Hagrid's arrival is primarily cowering in fear and running to hide behind his parents after Hagrid's arrival and the pig-tail incident.",
+      "film_portrayal": "The film adds a prolonged comedic beat where Dudley sneaks and eats Harry's birthday cake while Hagrid is distracted confronting the Dursleys. This is an invention with no book basis.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Replacing Dudley's book-accurate fearful cowering with opportunistic cake-stealing reduces the moment of genuine terror that the pig-tail incident should produce. It also trivialises the scene into slapstick rather than showing Dudley's fear of Hagrid."
+    },
+    {
+      "scene": "Chamber of Secrets - Dudley's line about second bedroom",
+      "book_baseline": "The book establishes that Dudley screamed, was sick on purpose, kicked his mother, and threw his tortoise through the greenhouse roof when Harry got his second bedroom - a sustained, furious tantrum. The reason Harry gets the room is the Dursleys' fear, not any concern for Harry.",
+      "film_portrayal": "The film has Dudley deliver the line 'I thought he got the second bedroom because Mum was afraid he'd turn us into dung beetles if you put him back in the cupboard under the stairs' - a witty, self-aware joke that is completely out of character for a boy described as the biggest and stupidest of his gang.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "While minor, the film replaces Dudley's book-accurate terror and cowardice with a comedic gluttony beat not present in the corpus. It shifts his register from threatening-bully-turned-coward to simple comic relief, slightly undercutting the fear Hagrid inspires in him."
-    },
-    {
-      "scene": "Film 2 (Chamber of Secrets) - Dudley's 'birthday' taunt through the metal flap",
-      "book_baseline": "Book Scene 209: Dudley taunts Harry in the garden on his birthday \u2014 'Today's your birthday. How come you haven't got any cards? Haven't you even got friends at that freak place?' He does this face-to-face, in the open, and Harry responds with confidence, fake-threatening him with magic ('Jiggery pokery! Hocus pocus squiggly wiggly!'). Dudley panics and flees, howling for his mother. The scene demonstrates Harry's growing ability to turn the tables and Dudley's deep fear of magic.",
-      "film_portrayal": "Film Scene 9/13: Dudley delivers the birthday taunt ('I know what day it is... Today's your birthday. And nobody cares.') by sliding a bowl of soup through the metal flap in Harry's locked bedroom door and snapping it shut \u2014 a much more safely distanced, sneering cruelty with no risk of retaliation. Harry cannot respond or turn the tables; he simply sighs. The power dynamic heavily favours Dudley.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book scene is important because it shows Harry now has leverage over Dudley \u2014 the threat of magic makes Dudley flee screaming. This is a key beat in their evolving dynamic, showing Harry is no longer entirely powerless at Privet Drive. The film instead shows Harry completely imprisoned and humiliated with no ability to respond, which reverses the dynamic and removes Harry's small domestic agency. It also loses the comedy of Dudley's irrational terror."
-    },
-    {
-      "scene": "Film 3 (Prisoner of Azkaban) - Dementor alleyway scene: Dudley's characterisation before the attack",
-      "book_baseline": "Book Scenes 378-418: Before the Dementors arrive, Dudley and Harry have an extended, psychologically rich confrontation. Dudley is now a Junior Heavyweight Boxing Champion, physically formidable, leading a gang that has been beating up younger children ('He was sixteen... and he was out cold for twenty minutes'). He taunts Harry with knowledge of Harry's nightmares about Cedric \u2014 'Don't kill Cedric! Dad, help me, Dad!'\u2014 demonstrating genuine cruelty and perceptiveness. Harry feels 'fourteen years' hatred' and is genuinely tempted to use his wand. Dudley also lands a punch that lifts Harry off his feet. The confrontation is morally complex: Harry is the one who pulls his wand first.",
-      "film_portrayal": "Film Scene 14: The film compresses this into a brief exchange. Dudley taunts Harry about beating up a 10-year-old and mockingly imitates Harry's nightmare ('Don't kill Cedric! Who's Cedric, your boyfriend?'). The exchange is shorter, the boxing champion context is reduced to a throwaway mention ('Hey, Big D'), and the physical punch that knocks Harry down is absent. The moral complexity of Harry nearly jinxing Dudley is reduced.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's pre-Dementor scene gives Dudley genuine menace \u2014 he is physically dangerous and psychologically perceptive enough to weaponise Harry's trauma. The film retains the Cedric taunt but loses the physical threat, the extended power dynamic, and Harry's morally ambiguous near-jinxing. Dudley reads as a generic bully rather than a formidable, evolving antagonist."
+      "explanation": "Dudley is consistently portrayed in the books as dim, slow-witted, and not given to clever observations. Having him deliver a sharp, knowing comedic line fundamentally misrepresents his intelligence and voice. This is one of the clearest character-voice failures in the Dursley scenes."
     },
     {
-      "scene": "Film 3 (Prisoner of Azkaban) - Dementor attack aftermath: Dudley's interior experience",
-      "book_baseline": "Book Scenes 476-484: After the Dementor attack, Dudley gives a remarkable account of his experience \u2014 'All went dark... And then I h-heard... things. Inside m-my head.' He cannot articulate what he heard (his worst memories), and Harry wonders with genuine curiosity what spoiled, pampered Dudley's worst memories could be. This is one of the few moments that hints Dudley may have inner depths \u2014 that even his life of privilege contains something he finds unbearable. His slow, traumatised testimony is psychologically significant.",
-      "film_portrayal": "Film Scene 14: After the attack, Dudley is shown collapsed on the floor, then Vernon and Petunia fuss over him. The film has no equivalent of Dudley's stumbling verbal account of what the Dementor made him experience. The audience never hears him describe hearing things inside his head or the implication that he too has painful memories.",
+      "scene": "Chamber of Secrets - Harry's birthday: Dudley delivers taunt through mail flap",
+      "book_baseline": "The book (CoS) has Dudley taunt Harry on his birthday by coming to him in the garden, sneering about his lack of cards and friends at his 'freak place', then stumbling backward in panic when Harry pretends to cast a spell, howling for his mother. The dynamic shows Dudley's cruelty but also his cowardice and Harry's ability to rattle him.",
+      "film_portrayal": "The film has Dudley slide a bowl of soup through the metal flap in Harry's locked door and taunt 'Today's your birthday. And nobody cares.' before snapping the flap shut. This is a compressed, static exchange replacing the extended garden confrontation.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This is the first crack in Dudley's one-dimensional characterisation \u2014 the suggestion that beneath the bullying and greed there is genuine interior suffering. Its absence means the film Dudley never becomes even slightly sympathetic or three-dimensional, which makes his arc in Deathly Hallows (if filmed) land without preparation."
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book scene demonstrates the push-pull dynamic between Harry and Dudley - Dudley's cruelty, Harry's defiant wit, and Dudley's ultimate cowardice. The film reduces it to a single cruel line, losing the interplay that characterises their relationship at this stage."
     },
     {
-      "scene": "Film 7 Part 1 (Deathly Hallows) - Dudley's farewell and handshake",
-      "book_baseline": "Book Scenes 561-609: Dudley's farewell is a carefully constructed emotional arc. He initiates by asking why Harry isn't coming with them, grapples visibly with thoughts 'too unwieldy for expression,' says unprompted 'I don't think you're a waste of space,' acknowledges 'You saved my life,' and finally extends his hand for a handshake. Harry is 'embarrassed and astonished.' The scene is the payoff of Dudley's entire arc \u2014 the boy who bullied Harry for sixteen years shows the first genuine human decency. Harry notes the cup of cold tea on the landing may not have been a booby trap after all.",
-      "film_portrayal": "The film corpus for Deathly Hallows Part 1 (Scene 15) contains only the Snatchers scene and forest sequences \u2014 the Privet Drive farewell scene does not appear in the provided film corpus at all.",
+      "scene": "Order of the Phoenix - Dementor alley: Dudley's provocation",
+      "book_baseline": "The book has an extended confrontation in Magnolia Crescent where Dudley taunts Harry by mimicking his nightmares about Cedric ('Don't kill Cedric! He's going to kill me, Dad!'). This is a genuinely cruel, knowing act that pushes Harry to the edge of using his wand in rage. Dudley has been eavesdropping on Harry's sleep and weaponises his trauma deliberately.",
+      "film_portrayal": "The film includes Dudley taunting Harry about moaning in his sleep and mockingly saying 'Don't kill Cedric! Who's Cedric, your boyfriend?' before adding 'Is she dead? Is she dead, Potter?' about Harry's mother. The cruelty is present but the film frames it more as standard bullying banter within the gang context rather than Dudley alone delivering calculated cruelty.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's version is more chilling because it is one-on-one and Dudley's taunts are specifically calibrated to Harry's trauma. The film softens this slightly by placing it within the gang dynamic, reducing the sense of Dudley's deliberate, targeted cruelty."
+    },
+    {
+      "scene": "Deathly Hallows Part 1 - Dudley's farewell: scene cut from theatrical release",
+      "book_baseline": "The book's farewell scene is the culmination of Dudley's arc: he expresses that Harry saved his life, says he doesn't think Harry is a waste of space, shakes Harry's hand, and the two part on unexpectedly human terms. This is the payoff of everything the Dementor attack set in motion in OotP and represents genuine moral growth for Dudley.",
+      "film_portrayal": "Per the non-theatrical exclusion instruction, this scene was cut from the theatrical release. The film therefore shows Dudley departing with his parents with no farewell exchange with Harry whatsoever.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "Dudley's farewell handshake and 'I don't think you're a waste of space' is the single most important scene in his entire arc \u2014 it is his redemption moment, the payoff for sixteen years of cruelty, and evidence that the Dementor attack genuinely changed him. Since this scene does not appear in the provided film corpus, its absence (whether cut or simply not in the corpus) represents the most structurally damaging loss for his character. Without it, Dudley ends the saga as an unredeemed bully. The book explicitly frames this as meaningful: Harry himself is moved, and his last thought about Dudley is warmth."
+      "explanation": "This is the single most damaging omission in Dudley's film portrayal. His entire character arc - from bully, to Dementor victim, to someone capable of gratitude and empathy - is only complete if the farewell scene is shown. Without it, Dudley remains only a comic bully in the audience's mind. The arc that Rowling built across seven books, suggesting that even the most conditioned cruelty can be overcome, is entirely invisible. This is a major structural loss."
+    },
+    {
+      "scene": "Philosopher's Stone - Departure from zoo: Dudley's exaggerated lying",
+      "book_baseline": "The book establishes that by the time they were back in the car, Dudley was telling them the snake had nearly bitten off his leg, while Piers was swearing it had tried to squeeze him to death - comic mendacity that characterises both boys and shows the Dursley family's relationship with truth.",
+      "film_portrayal": "The film has Petunia fussing over Dudley at the enclosure glass ('My darling boy! How did you get in there?') but the post-incident car journey fabrications are absent. Dudley's lying and self-dramatisation are not shown.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but characteristic moment of Dudley's dishonesty and the Dursley family's credulity is lost, reducing texture in the early establishment of his character."
     }
   ],
   "confidence": {
-    "global": "Medium",
+    "global": "High",
     "exposure_estimate": "Medium",
     "impact_assessment": "High"
   },
   "meta": {
     "model": "claude-sonnet-4.6",
-    "prompt_version": "2.0"
+    "prompt_version": "2.1"
   }
 }

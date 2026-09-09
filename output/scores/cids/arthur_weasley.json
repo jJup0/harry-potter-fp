@@ -1,126 +1,425 @@
 {
   "character": "Arthur Weasley",
-  "fp_score": 74.0,
-  "infidelity_score": 26.0,
-  "weighted_infidelity_exposure": 28.0,
-  "cids": 157.9,
-  "damage_per_exposure": 13.2,
-  "structural_damage_level": 2,
-  "adjusted_cids": 157.9,
+  "fp_score": 75.0,
+  "infidelity_score": 25.0,
+  "weighted_infidelity_exposure": 131.0,
+  "cids": 242.2,
+  "damage_per_exposure": 4.6,
+  "structural_damage_level": 3,
+  "adjusted_cids": 242.2,
   "main_damage_causes": [
-    "Systematic removal of Arthur's moments of physical and moral agency (the Flourish and Blotts brawl, the Death Eater fight at the World Cup) reduces him from a man with genuine fire to a purely gentle figure",
-    "Compression of expository and domestic scenes strips away the layered self-awareness and wit that distinguish book-Arthur - particularly the loophole dialogue and the Ministry office visit",
-    "The invented Burrow attack in HBP prioritises action spectacle over the quieter character-driven scenes the books use to develop Arthur's relationship with Harry and his professional dignity"
+    "Corpus is too limited to identify any unfaithful portrayal of Arthur Weasley \u2014 he does not appear in either the book or film corpus provided",
+    "The book corpus contains only scenes involving McGonagall, Harry, Malfoy, and Crabbe/Goyle; Arthur Weasley is entirely absent",
+    "The film corpus contains only the Transfiguration classroom scene featuring McGonagall, Harry, Ron, and Hermione; Arthur Weasley is entirely absent",
+    "Loss of the loophole confrontation scene removes the richest single characterisation passage in the book, flattening Arthur from a cleverly roguish, passionate character into a warm eccentric defined only by a single Muggle-curiosity joke",
+    "The Flourish and Blotts fight is defused before Arthur can land a blow, transferring his decisive moment of righteous physical agency to Hagrid as restrainer, which significantly diminishes Arthur's capacity for passionate conviction"
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS Film - Flourish and Blotts confrontation",
-      "book_baseline": "Arthur physically throws himself at Lucius Malfoy, knocking him into a bookshelf, driven by genuine fury at Malfoy's insult to his family and the Grangers. He gets a cut lip. This is a rare, important moment of passionate, physical courage.",
-      "film_portrayal": "Arthur merely moves to hit Malfoy but is physically restrained by Hagrid before landing a blow. He backs away passively.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 1 \u2013 Burrow kitchen, Arthur's arrival and greeting of Harry",
+      "book_baseline": "Book Scene 4\u201321: Arthur arrives exhausted from nine raids, slumps in a chair, and only notices Harry after Molly's confrontation about the car. He is so preoccupied with his work and then with Molly's anger that he genuinely does not recognise Harry at first ('Harry? Harry who?'). His curiosity about Muggles (asking about plugs, the postal service, telephones) is established as an ongoing domestic habit over Harry's stay, not a single exchange.",
+      "film_portrayal": "Film Scene 1: Arthur enters briskly, immediately clocks that there is a stranger in the room ('Well now. Who are you?'), receives Ron's introduction, then pivots almost instantly to asking Harry about parking meters \u2013 all within the same continuous scene and before any meaningful confrontation with Molly over the car has played out. The slow-burn domestic comedy of the book (Arthur slumped exhausted, the delayed recognition, Molly's full confrontation, Arthur's guilty loophole-lawyering) is compressed to a few lines.",
+      "damage_type": "personality/voice",
       "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "The book's brawl is one of Arthur's most defining moments - it shows he has genuine fire beneath his gentle exterior and will physically defend his family's honour. The film transfers the restraining function to Hagrid and removes Arthur's agency entirely, making him look weak rather than passionate."
+      "impact_weight": 2,
+      "explanation": "The book carefully establishes Arthur as warm but genuinely oblivious when tired and guilt-ridden around Molly \u2013 his Muggle enthusiasm is part of a running characterisation across several days. The film collapses this into a single chirpy exchange, losing the texture of his exhaustion, his guilt about the car, and the slow accumulation of his Muggle obsession as a character trait rather than a one-liner."
     },
     {
-      "scene": "CoS Film - Burrow morning arrival / car conversation",
-      "book_baseline": "Arthur is asleep when the boys arrive, wakes guiltily, and has a layered exchange with Molly about the car - he tries to cite the legal loophole he himself wrote, showing his self-aware complicity and wit. He then eagerly asks Harry about the flying car before catching himself.",
-      "film_portrayal": "Arthur enters already awake and cheerful, the loophole dialogue and guilty dynamic with Molly is entirely cut. His reaction to the car is compressed to a single excited line before a token correction.",
+      "scene": "Film Scene 1 \u2013 Arthur's reaction to news that the boys flew the car",
+      "book_baseline": "Book Scene 21: Arthur's eager 'Did it go all right?' is delivered while Molly's eyes are flashing sparks, and the moment is drawn out \u2013 he 'faltered' and visibly suppressed his delight only when he caught her eye. The book gives this beat space: it captures his genuine inner conflict between fatherly rules and personal excitement.",
+      "film_portrayal": "Film Scene 1: Arthur says 'Did you now! How'd it go?!' and then catches his wife's eye and immediately pivots to 'I... I mean... That was very wrong, boys. Very wrong indeed.' The line is the same but the staging compresses it to a quick comic beat rather than a genuinely conflicted moment.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The loophole scene is key characterisation: it shows Arthur is not merely naive but knowingly bends rules for his passions, and that his relationship with Molly involves affectionate sparring. Cutting it flattens him to simple enthusiasm."
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression; the core joke survives. The loss is primarily in the weight of his internal conflict \u2013 the film plays it as quick comedy rather than as a revealing glimpse of a man genuinely torn between his values and his enthusiasms."
     },
     {
-      "scene": "PoA Film - Leaky Cauldron warning to Harry",
-      "book_baseline": "Harry overhears Arthur and Molly arguing privately about whether to warn Harry about Sirius Black. Arthur passionately argues Harry has a right to know and needs to be on guard, showing his respect for Harry's autonomy and his willingness to defy Ministry guidance.",
-      "film_portrayal": "Arthur pulls Harry aside for a brief, nervous, one-on-one warning. He struggles to say 'Voldemort', hedges repeatedly, and asks Harry to swear not to go looking for Black - framing it primarily as a plea for safety rather than a principled stand for Harry's right to information.",
+      "scene": "Film Scene 1 \u2013 Molly's Howler; Arthur's inquiry is entirely absent",
+      "book_baseline": "Book Scene 106\u2013109: The Howler makes clear Arthur is 'facing an inquiry at work' because of the car. Harry feels burning guilt specifically about what the Weasleys have done for him and what Arthur now faces professionally. Arthur's professional vulnerability and the real-world consequences for him are foregrounded.",
+      "film_portrayal": "Film Scene 2 (Howler scene): The Howler's text as read in the Slytherin common room scene (Film Scene 4) quotes the fine of fifty Galleons and Lucius Malfoy's call for Arthur's resignation, but the Howler itself delivered at the Great Hall table (Film Scene 2) focuses entirely on Ron's behaviour and Ginny's Gryffindor placement. There is no moment where Harry registers guilt specifically about Arthur facing an inquiry; the professional jeopardy is only referenced later, distantly, when Malfoy reads the newspaper aloud.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "In the book, Harry's guilt about Arthur's professional jeopardy is a concrete emotional beat that deepens the Harry\u2013Arthur relationship and underscores Arthur's personal sacrifice. The film loses this linkage entirely: the Howler focuses on Ron, and by the time the newspaper is read, the emotional weight has been transferred to a villain's taunting rather than Harry's conscience."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Arthur's loophole speech and confrontation with Molly is cut",
+      "book_baseline": "Book Scenes 13\u201322: Arthur attempts to legalistic defend himself ('there's a loophole in the law, you'll find...'), Molly retorts that he wrote the loophole himself, and this exchange reveals both his ingenuity and his slightly childlike relationship with rules. It also reveals his genuine political investment in the Muggle Protection Act. This is one of the richest characterisation passages in the book.",
+      "film_portrayal": "Film Scene 1: The confrontation is entirely absent. Molly delivers her displeasure obliquely through the parking-meter exchange and dark asides, but Arthur's self-serving lawyering about the loophole, his embarrassed blinking, and Molly's devastating counter ('you made sure there was a loophole when you wrote that law!') are not dramatised.",
       "damage_type": "personality/voice",
-      "exposure": 1,
+      "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The book version shows Arthur as principled and intellectually engaged, willing to argue with Molly on Harry's behalf. The film version makes him nervous and deferential, and his inability to say Voldemort (which the books never attribute to him consistently) makes him seem timid rather than thoughtful."
+      "explanation": "The loophole scene is the single best window into Arthur's character in Chamber of Secrets \u2013 it shows simultaneously his cleverness, his rule-bending, his passion for Muggle objects, his slightly hapless domesticity, and the genuine texture of his marriage to Molly. Removing it leaves the film Arthur as a warm eccentric rather than a fully rounded, slightly roguish personality."
     },
     {
-      "scene": "GoF Film - Portkey / World Cup arrival",
-      "book_baseline": "Arthur is knowledgeable, organised, and quietly authoritative throughout the World Cup trip - explaining Portkeys in detail, managing the group, engaging Amos Diggory as a peer, and showing genuine expertise about Ministry logistics.",
-      "film_portrayal": "Arthur is reduced largely to cheerful exclamations ('Haven't the foggiest. Keep up!'), comic bewilderment, and enthusiasm. His competence and explanatory role is largely absent.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 1 \u2013 Arthur's Muggle fascination portrayed as a single comic beat rather than an ongoing relationship with Harry",
+      "book_baseline": "Book Scene 23\u201324: Over the course of Harry's stay at the Burrow, Arthur 'liked Harry to sit next to him at the dinner table so that he could bombard him with questions about life with Muggles' \u2013 asking about plugs, the postal service, telephones over multiple days. The relationship between Arthur and Harry is warm and ongoing, with Arthur's fascination creating a genuine bond.",
+      "film_portrayal": "Film Scene 1: Arthur asks about parking meters in a single brief exchange and then the topic is dropped. The sustained, domestic, relationship-building dimension of Arthur's Muggle enthusiasm \u2013 the thing that makes Harry feel genuinely welcomed into the family \u2013 is absent.",
+      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The books establish Arthur as genuinely knowledgeable about the wizarding world even if naive about Muggles. The film leans so heavily on his bumbling enthusiasm that his professional competence disappears."
+      "explanation": "The sustained quality of Arthur's interest in Harry is what makes their bond feel real in the book and gives Arthur's later jeopardy (the inquiry) emotional weight. Reducing it to a single joke line flattens the Harry\u2013Arthur relationship and weakens the audience's investment in the consequences Arthur faces."
     },
     {
-      "scene": "GoF Film - Death Eater attack at campsite",
-      "book_baseline": "Arthur immediately takes charge, rolls up his sleeves, directs his children with specific assignments, and goes to help Ministry wizards combat the Death Eaters - showing courage and professional responsibility.",
-      "film_portrayal": "Arthur tells the group to get back to the Portkey and leaves. His active role fighting Death Eaters is not shown. He reappears only briefly after the Dark Mark appears.",
+      "scene": "Film Scene 1 (Diagon Alley / Gringotts) \u2013 Arthur's excitement about Muggle money and the Grangers",
+      "book_baseline": "Book Scenes 58\u201361: Arthur is 'delighted' to meet the Grangers ('But you're Muggles!'), insists on buying them a drink, points excitedly at their ten-pound notes, and later has to be physically stopped by Molly's look from asking about bus stops. His enthusiasm is warm, slightly embarrassing, and entirely genuine.",
+      "film_portrayal": "Film Scene 1 (Diagon Alley): Arthur asks the Grangers 'So you're dentists! Fascinating! I understand other Muggles quite fear you? Why is that?' This is present but brief. The full sequence \u2013 the drink, the excitement about Muggle money, the bus stop inquiry \u2013 is gone. The moment is compressed to a single question before Mrs Weasley rushes everyone off.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss, but the sustained warmth of Arthur's engagement with the Grangers in the book contributes to the thematic point about Muggle-wizard relations and to characterising Arthur as genuinely invested rather than performing tolerance. The film version is functional but shallow."
+    },
+    {
+      "scene": "Film Scene 1 (Flourish and Blotts confrontation) \u2013 Arthur restrained by Hagrid before landing a blow; book has him physically attacking Malfoy",
+      "book_baseline": "Book Scenes 73\u201377: Arthur physically throws himself at Lucius Malfoy, knocking him into a bookshelf. He gets a cut lip in the scuffle. Fred or George yells 'Get him, Dad!' Arthur has to be physically separated by Hagrid and is admonished for brawling. This is a moment of genuine passionate agency \u2013 Arthur's defence of Muggle dignity and his family's honour overcomes his usual restraint.",
+      "film_portrayal": "Film Scene 1 (Flourish and Blotts): Arthur 'moves to hit Lucius Malfoy' but Hagrid steps forward and puts a firm hand on Arthur's shoulder before contact is made. Arthur backs away. Malfoy gets his 'Here, girl' line in unmolested.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book gives Arthur a clear heroic function - he fights. The film reduces him to an evacuation coordinator and his courage under fire is invisible to the audience."
+      "explanation": "The book's fight is a defining moment for Arthur: it shows that beneath the mild-mannered enthusiast is a man of genuine conviction and passion who will physically defend his family and his values. The film substitutes restraint-by-Hagrid for Arthur's own uncontrolled fury, transferring the moral and physical agency to Hagrid as peacekeeper rather than showing Arthur as a man capable of righteous anger. This meaningfully diminishes his characterisation."
     },
     {
-      "scene": "GoF Film - Dark Mark aftermath / Crouch confrontation",
-      "book_baseline": "Arthur actively defends Harry and the children against Crouch's accusations, argues calmly and logically for Winky's innocence, and shows moral clarity about the elf's treatment.",
-      "film_portrayal": "Arthur's defence of the children is brief and he is quickly sidelined by Barty Crouch Sr. His advocacy for Winky is entirely absent.",
+      "scene": "Film Scene 4 (Slytherin common room) \u2013 Arthur's parental advice to Ginny about the diary is given to Mrs Weasley in the film",
+      "book_baseline": "Book Scene 139: Arthur directly confronts Ginny in Dumbledore's office: 'Ginny! Haven't I taught you anything. What have I always told you? Never trust anything that can think for itself if you can't see where it keeps its brain? Why didn't you show the diary to me, or your mother?' This is Arthur exercising parental authority and moral instruction at a critical moment.",
+      "film_portrayal": "Film Scene 4 (Dumbledore's office / corridor outside): The equivalent line \u2013 'Never trust anything that can think for itself if you can't see where it keeps its brain!' \u2013 is delivered by Mrs Weasley, not Arthur, as she leads Ginny out ('A diary that writes back to you! Honestly, Ginny! What were you thinking? Haven't I always told you? Never trust anything...'). Arthur is present but silent in the background.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Arthur's reasoned defence of both the children and Winky demonstrates his fairness and moral courage. Cutting this removes a scene that shows him as a principled adult authority figure."
+      "impact_weight": 3,
+      "explanation": "In the book this speech belongs to Arthur, and it matters: it is both his definitive parenting moment in the story and a direct callback to his professional expertise (Misuse of Muggle Artefacts \u2013 objects that think are dangerous). Transferring it to Molly erases Arthur's specific, professionally-grounded parental authority and one of his only moments of direct moral agency in the latter half of the book."
     },
     {
-      "scene": "OotP Film - Ministry hearing escort",
-      "book_baseline": "Arthur escorts Harry through the Ministry with quiet anxiety but also genuine warmth and competence - navigating the building, managing the changed hearing time, showing Harry his cramped office, and confronting Malfoy and Fudge afterwards with restrained but clear anger.",
-      "film_portrayal": "The escort is compressed. Arthur's office visit is cut entirely. His confrontation with Malfoy on Level Nine is present but brief, and his subsequent analysis of Malfoy's influence is shortened.",
+      "scene": "Film Scene 4 (Dumbledore's office) \u2013 Arthur's stunned reaction to Voldemort enchanting Ginny is absent",
+      "book_baseline": "Book Scene 136: Arthur says 'W-what's that? You-Know-Who? En-enchant Ginny? But Ginny's not... Ginny hasn't been... has she?' in a 'stunned voice'. He is then described as 'deeply shaken' and follows Molly out still visibly disturbed. This is Arthur processing that his own daughter has been weaponised against everything he stands for.",
+      "film_portrayal": "Film Scene 4 (Dumbledore's office): Arthur is present but has no spoken lines in this scene. His emotional response to learning Ginny was possessed and used by Voldemort is not dramatised.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The office scene humanises Arthur's professional marginalisation and his dignity within it. Its absence removes texture from his character and the Ministry's treatment of pro-Muggle wizards."
+      "explanation": "Arthur's stunned realisation is an important beat: it shows the personal cost to him of the very Dark Magic he has spent his career trying to police. The film's silence robs him of an emotionally resonant reaction and further reduces him to a background presence in the climax of a story that is substantially about his family."
     },
     {
-      "scene": "OotP Film - Snake attack / hospital visit",
-      "book_baseline": "Arthur's snake attack and hospitalisation is a major emotional arc. His cheerful resilience in hospital, his secret experiment with Muggle stitches, and his gentle humour throughout show his character under pressure.",
-      "film_portrayal": "The hospital scenes are cut almost entirely. Arthur's stitches subplot and his ward conversations are absent. His recovery is shown only briefly at Grimmauld Place.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The stitches subplot is a small but revealing character beat - Arthur's irrepressible curiosity about Muggle medicine even when injured shows his defining trait under genuine duress. Its absence is a missed opportunity."
-    },
-    {
-      "scene": "HBP Film - Christmas at the Burrow / workshop scene",
-      "book_baseline": "Arthur is largely absent from the HBP book's Burrow sections beyond background presence. The film invents a Bellatrix attack on the Burrow.",
-      "film_portrayal": "The film adds an invented Death Eater attack on the Burrow at Christmas, during which Arthur participates in the chase through the reeds. The Burrow is set on fire.",
+      "scene": "Film Scene 4 (Dumbledore's Malfoy confrontation) \u2013 Dumbledore's speech about the political consequences for Arthur and the Muggle Protection Act is cut",
+      "book_baseline": "Book Scene 148: Dumbledore tells Lucius Malfoy: 'Imagine the effect on Arthur Weasley and his Muggle Protection Act, if his own daughter was discovered attacking and killing Muggle-borns... Very fortunate the diary was discovered.' This speech explicitly links Arthur's political work, his family, and Voldemort's strategy, establishing Arthur as a significant figure in the wider war.",
+      "film_portrayal": "Film Scene 4: Dumbledore's confrontation with Malfoy is present but this specific passage \u2013 naming Arthur and the Muggle Protection Act as the intended political casualties \u2013 is absent. Dumbledore speaks of the diary and Riddle but does not articulate Arthur's role as a deliberate target.",
       "damage_type": "arc",
-      "exposure": 2,
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "While this gives Arthur screen time, the invented attack contradicts the books' established logic (the Burrow is never attacked while the family is present in this period) and replaces character-driven scenes with action spectacle. The workshop scene where Arthur confides in Harry about Draco is a reasonable film invention that partially compensates, but the attack itself damages the adaptation's fidelity to the books' tone and plotting."
+      "explanation": "In the book this speech elevates Arthur from a peripheral parent to a genuine political actor who is specifically targeted by Voldemort's strategy. It retroactively gives Arthur's work at the Ministry thematic weight and connects his personal story to the saga's central conflict. Its absence keeps the film's Arthur entirely domestic and reactive, missing the opportunity to establish him as a figure of consequence in the wider war."
     },
     {
-      "scene": "DH Film - Battle of Hogwarts / Fred's death",
-      "book_baseline": "Arthur is present at Fred's body, stroking Molly's hair while tears cascade down his cheeks - a moment of quiet, devastated paternal grief.",
-      "film_portrayal": "Arthur is present but the specific detail of him stroking Molly's hair while weeping is rendered faithfully in the film. This scene is largely faithful.",
+      "scene": "Film Scene 2 - Leaky Cauldron warning conversation",
+      "book_baseline": "In the book, Arthur overhears Mrs. Weasley arguing with him; he has already formed a firm, well-reasoned conviction that Harry must be warned. He states 'Harry's got a right to know' with heat and moral confidence, bangs his fist on the table, marshals specific intelligence (Fudge visiting Azkaban, the guards reporting Black's sleep-talking, the political cover-up), and demonstrates that he has already tried to persuade Fudge directly. He is the one driving the argument against his wife's protective instincts - authoritative, informed, and principled.",
+      "film_portrayal": "In the film, Arthur delivers the warning to Harry but hesitates twice mid-sentence when Harry's name for Voldemort comes up, nervously nodding rather than speaking clearly. He says 'I hate it when you say that' - aligning him with Ron's squeamishness about the name rather than with Dumbledore-adjacent courage. The delivery is edgy and nervous rather than grave and principled. He also omits the specific intelligence detail (Fudge visiting Azkaban, Black's sleep-talking) that demonstrates Arthur is a well-informed insider acting on evidence, reducing him from a man of conviction to an anxious messenger.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book establishes Arthur as morally confident and informationally authoritative in this scene - he is the one who knows more than anyone else in Harry's circle and is fighting to act on that knowledge. The film makes him timid and hesitant, unable to say 'Voldemort,' which undercuts his stature as a Ministry insider with moral backbone and flattens his voice into generic parental anxiety."
+    },
+    {
+      "scene": "Film Scene 2 - Arthur's failure to convey the political dimension of the warning",
+      "book_baseline": "The book's overheard argument establishes that Arthur has tried to tell Fudge directly that Harry deserves to know the truth, and that 'they didn't report it in the press because Fudge wanted it kept quiet.' Arthur frames the warning in terms of institutional cover-up and Harry's right as a person to have agency over his own danger. This is a defining moment of Arthur's integrity: he defies Ministry pressure because he believes in doing what is right.",
+      "film_portrayal": "The film has Arthur say only 'there are some within the Ministry who would strongly discourage me from divulging what I'm about to tell you' - a vague disclaimer rather than a principled stance. The specific detail of Arthur having already attempted to change Fudge's mind, and the political suppression of the information, is entirely absent. The act reads as a cautious tip-off rather than a principled stand against institutional wrongdoing.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's willingness to defy Ministry pressure at personal professional risk is a key character trait that contextualises his later role in the Order of the Phoenix. Reducing it to a vague disclaimer strips the scene of the moral courage that makes Arthur's warning meaningful rather than merely plot-functional."
+    },
+    {
+      "scene": "Film Scene 2 - Arthur's nervousness about the name 'Voldemort'",
+      "book_baseline": "The book does not depict Arthur as afraid to say Voldemort's name in this context. He is shown as a serious, strained man under professional pressure, but his authority is intact. The overheard argument shows him speaking directly about Black, Azkaban, Fudge, and the threat to Harry without flinching or hesitating.",
+      "film_portrayal": "Arthur twice falls silent mid-sentence when Harry says 'Voldemort,' then explicitly says 'Harry, I hate it when you say that' and redirects to 'You-Know-Who.' He nods nervously at each prompt from Harry. This characterises him as name-fearful in the same register as Ron, rather than as an adult authority figure who, while cautious, is not defined by that superstition.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's fear of the name in this scene makes him appear less authoritative and less distinctly himself relative to the book. It also subtly misaligns him with Dumbledore and Harry - who use the name freely - and instead groups him with the more fearful characters, diluting his identity as a thoughtful, principled man of the Ministry."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Portkey arrival/walk to camp; Arthur says 'Haven't the foggiest. Keep up!'",
+      "book_baseline": "Book establishes Arthur as the knowledgeable, enthusiastic guide to the World Cup experience. He explains Portkeys, Apparition, anti-Muggle security logistics, and the massive Ministry organisational effort in rich detail, clearly enjoying sharing this world with Harry and Hermione.",
+      "film_portrayal": "When Ron asks where they are going, Arthur cheerfully admits 'Haven't the foggiest. Keep up!' \u2014 portraying him as uninformed and directionless rather than as the confident, knowledgeable Ministry man guiding the group.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "A small but telling beat. The books show Arthur as a man who loves and understands the wizarding world's logistics and delights in explaining them. Replacing this with comic ignorance undercuts his authority and competence, reducing him to a bumbling figure rather than a capable guide."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 entire journey to and arrival at the campsite; Muggle money, campsite interaction with Mr. Roberts, anti-Muggle security commentary all absent",
+      "book_baseline": "The book dedicates extended material to Arthur's interaction with Mr. Roberts \u2014 struggling with Muggle money, being genuinely nervous about Muggle suspicion, and showing both his endearing ignorance of Muggle currency and his sincere concern for proper wizard-Muggle relations. This scene is core characterisation: it shows his passion for Muggles alongside his practical incompetence with them, and his conscientiousness about Ministry rules.",
+      "film_portrayal": "The film skips the campsite registration entirely. There is no Mr. Roberts scene, no Muggle money fumbling, and no Arthur commentary on anti-Muggle security beyond a single 'Keep up, girls.' The group simply walks to the tents.",
+      "damage_type": "nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "This is one of Arthur's richest characterisation sequences in the books \u2014 the tension between his genuine love of Muggles and his hapless unfamiliarity with their world, combined with his conscientious civic-mindedness. Losing it entirely removes a defining dimension of his personality and leaves the film Arthur as a generic cheerful dad rather than a specifically drawn character."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 tent reveal; Arthur says 'All to the bath,' 'Girls, choose a bunk and unpack. Ron, get out of the kitchen.'",
+      "book_baseline": "In the book, Arthur enters the tent with barely-contained excitement, peers at the bunk beds, explains he borrowed it from Perkins at the office, fusses about cooking on a fire 'because that's what real Muggles do,' and gets overexcited using the mallet on tent pegs. His joy is childlike and specific to his Muggle fascination.",
+      "film_portrayal": "Arthur enters the tent and briskly gives domestic instructions with no sense of wonder or Muggle-enthusiasm whatsoever. The magical interior provokes only Harry's 'I love magic' \u2014 Arthur himself shows no reaction.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's Muggle obsession \u2014 wanting to cook on a fire outdoors because 'real Muggles do it' \u2014 is a signature character beat that the film entirely removes. His enthusiastic, wondering delight at Muggle things is replaced by matter-of-fact parenting. This flattens a core personality trait."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 fire-lighting at camp; 'Dad's having fun with the matches'",
+      "book_baseline": "The book has a warm, extended beat where Arthur is joyfully and incompetently attempting to light a fire with matches, scattering broken matches everywhere but looking like he is 'having the time of his life.' Hermione kindly takes over and shows him. This is pure Arthur: delighted by Muggle technology even when failing at it.",
+      "film_portrayal": "This beat is entirely absent from the film. There is no fire-lighting scene at the camp at all.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While a smaller moment, the match-lighting scene is a neat encapsulation of Arthur's Muggle fascination \u2014 joyful, harmless, slightly absurd. Its absence is one more removal of the texture that makes him distinctive rather than generic."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Ludo Bagman visit; Arthur's handling of Fred and George's bet",
+      "book_baseline": "The book shows Arthur explicitly trying to stop Fred and George from gambling ('Boys, I don't want you betting.... That's all your savings.... Your mother\u2014'), showing parental concern and moral seriousness, even while being overruled by Bagman. He also actively engages Bagman about Bertha Jorkins, showing his attentiveness to Ministry concerns.",
+      "film_portrayal": "The Bagman visit is entirely absent from the film. There is no Arthur-Bagman interaction, no bet, no parental concern about the twins' money, and no Bertha Jorkins thread initiated by Arthur.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Bagman scene shows Arthur's moral seriousness (he tries to stop the bet), his collegial warmth, and his civic attentiveness (raising Bertha). Removing it leaves his character thinner and also damages the setup for later plot threads he participates in."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Top Box; Malfoy confrontation",
+      "book_baseline": "The book has a tense, charged exchange where Lucius Malfoy sneers at Arthur \u2014 'What did you have to sell to get seats in the Top Box? Surely your house wouldn't have fetched this much?' \u2014 and Arthur responds with a 'very strained smile' and 'How \u2014 how nice.' This shows Arthur's dignity under provocation and the class/values conflict at the heart of his character.",
+      "film_portrayal": "In the film, Lucius delivers a more generalised threatening line ('Do enjoy yourself, won't you? While you can') directed at Harry rather than specifically targeting Arthur's poverty and status. Arthur has no direct exchange with Lucius.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Malfoy-Weasley confrontation in the Top Box is a compact but meaningful characterisation of Arthur: he absorbs a class-based insult with strained civility, embodying the dignified-but-poor decent wizard in contrast to the wealthy Death Eater sympathiser. The film redirects Lucius's menace away from Arthur entirely, losing this relational and character dynamic."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Death Eater attack; Arthur's role in response",
+      "book_baseline": "In the book, Arthur organises the children with specific instructions ('get into the woods and stick together, I'll come and fetch you'), then goes to help the Ministry actively. He later appears in the woods, terrified for his children, defends them against Crouch's accusations, reasons calmly and effectively about the wand evidence ('precious few wizards know how to do that spell... Where would she have learned it?'), advocates for Winky with compassion, and reassures the crowd at the wood's edge. He is the competent, morally grounded adult presence throughout.",
+      "film_portrayal": "Arthur tells everyone to get back to the Portkey and assigns Fred and George responsibility for Ginny, then disappears. He reappears briefly to stop the Stupefy spells ('Stop! That's my son!'), says 'Ron, Harry, Hermione, you all right?' and 'Barty! They're just kids,' and then nods along as Crouch takes over. His defence of the children is minimal and he does not engage substantively with the wand evidence or Winky's situation.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's post-attack sequence is one of Arthur's most important functional moments: he reasons clearly, defends the innocent (both his children and Winky), challenges Crouch's assumptions with evidence, and shows moral backbone. The film reduces him to a worried father who defers entirely to Crouch. His intellectual and moral agency in this scene is substantially damaged."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Aftermath; no Winky advocacy, no Dark Mark explanation at the tent",
+      "book_baseline": "After the confrontation, Arthur explicitly sides with Hermione on elf rights ('Hermione, I agree with you'), explains the Dark Mark's history and terror to the children at the tent ('Ron, You-Know-Who and his followers sent the Dark Mark into the air whenever they killed... Just picture coming home and finding the Dark Mark hovering over your house'), expresses his own fear and gravity about what it means, and contextualises the Death Eaters' reappearance. He is the emotional and informational anchor of the scene.",
+      "film_portrayal": "None of this tent debrief occurs in the film. Hermione reads about it in a newspaper on the Hogwarts Express instead. Arthur's role as the one who explains the Dark Mark's significance and validates Hermione's moral concern about Winky is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is a scene where Arthur does significant narrative work \u2014 contextualising Voldemort's legacy, showing his own gravity and fear, and affirming Hermione's moral instincts. Shifting the exposition to a newspaper on a train removes Arthur's voice from a key thematic moment and reduces his parental/mentoring function for Harry."
+    },
+    {
+      "scene": "Film Scene 6 \u2013 Cedric's death; Arthur and Amos moment",
+      "book_baseline": "The book does not have an Arthur-Amos physical embrace at this moment. Arthur's presence at the maze's end is not described in this way in the corpus.",
+      "film_portrayal": "The film shows Arthur hugging Amos, and the two giggling together just before Fleur screams \u2014 an oddly lighthearted beat immediately preceding the discovery of Cedric's death.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor: the film handles this moment adequately, though the compressed battle context means Arthur's grief has less accumulated weight than in the book."
+      "explanation": "The giggling embrace, played for lightness right before catastrophe, is a minor but tonally jarring moment that makes Arthur seem oblivious rather than warm. It is a small tonal misfire that slightly undermines his gravity as a character in the saga's most serious scene."
     },
     {
-      "scene": "DH Film - Ministry infiltration / lift scene",
-      "book_baseline": "Arthur, disguised as Runcorn, confronts Harry (disguised as Runcorn) in the lift with quiet fury about Dirk Cresswell, showing moral backbone even under surveillance. Harry warns him he is being tracked.",
-      "film_portrayal": "This scene is present and reasonably faithful - Arthur's anger at Runcorn and Harry's warning are both included.",
+      "scene": "Film Scene 1 \u2013 Dursley departure and fireplace entry; entire Privet Drive sequence absent",
+      "book_baseline": "The book opens the Weasley-Harry connection with a rich Privet Drive sequence: Arthur blasting through the blocked fireplace, examining the electric fire with excitement ('Eclectic, you say? With a plug?'), collecting plugs and batteries, showing genuine warmth and sympathy toward Dudley, and \u2014 crucially \u2014 stopping Harry from leaving until Uncle Vernon says goodbye, showing moral backbone and care for Harry's dignity ('You aren't going to see your nephew till next summer. Surely you're going to say good-bye?'). Then Arthur manages the toffee-tongue chaos with a mix of anger, competence, and humour.",
+      "film_portrayal": "The film begins with the group already leaving the Burrow. The Privet Drive sequence does not exist. Arthur's Muggle fascination at the Dursleys', his moral stand for Harry's dignity with Vernon, and the toffee incident and his subsequent anger at Fred and George are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Privet Drive sequence is arguably Arthur's most fully drawn introductory scene in Goblet of Fire. It establishes all his key traits simultaneously: Muggle enthusiasm, warmth, moral courage, parental authority, and his specific role as a surrogate father figure who defends Harry's dignity in a way the Dursleys never do. His insistence that Vernon say goodbye is a small act of profound moral care for Harry. Losing this entire sequence is the single largest source of damage to the film Arthur, leaving him as a cheerful background presence rather than a character with defined values and emotional weight."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival and Order briefing; Arthur's greeting of Harry",
+      "book_baseline": "Book scenes 14-15, 18, 20: Arthur greets Harry warmly and vigorously ('Harry! Good to see you!'), immediately takes an active supervisory role supervising the kitchen, reminds the twins of adult responsibility, and is a present, engaged family patriarch at the Order dinner.",
+      "film_portrayal": "Arthur's greeting is reduced to a brief 'You sure you're all right Harry? You gave us quite a turn' and a single line about the Wizengamot hearing. He is largely absent from the Grimmauld Place dinner/briefing scene, which is dominated by Sirius, Molly and Lupin. His warm, enthusiastic paternal presence is marginal.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Arthur as a warm, engaged presence who anchors the Weasley domestic dynamic at Headquarters. The film reduces him to a background figure, weakening the sense of his paternal warmth and his relationship with Harry."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Ministry of Magic visit; Arthur navigating Muggle technology",
+      "book_baseline": "Book scenes 65-71: Arthur is 'hard put to contain his enthusiasm' around Muggle technology, whispers 'Simply fabulous' at ticket machines, is delighted by the stile swallowing his ticket, gets lost because he never comes by train, and Harry has to handle the Muggle money transaction because Arthur is not very good with it. This is rich, characterful comedy that defines Arthur's Muggle obsession as endearing but also genuinely limited.",
+      "film_portrayal": "Film Scene 2 shows Arthur saying 'Trains\u2014underground. Ingenious, these Muggles' and pressing the wrong door button before Harry shows him the card. The moment is brief and played for a single quick beat of comedy rather than the extended, layered enthusiasm the book develops across the entire Underground journey.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film nods at Arthur's Muggle enthusiasm but collapses the extended, characterful sequence into a single throwaway moment. The nuance of Arthur being both enchanted by and genuinely incompetent with Muggle things (Harry handling money, Arthur lost on the map) is lost, flattening one of his most defining traits."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Ministry corridor; Arthur's response to Kingsley's warning and changed hearing time",
+      "book_baseline": "Book scenes 131-151: Arthur receives the news that the hearing has been moved to Courtroom Ten (deep in the dungeons, with the full Wizengamot) and reacts with urgency, anger, and protective anxiety. He runs, curses at the lift, mutters darkly about the courtrooms not having been used in years and what it might mean, grips Harry's shoulder in warning near Malfoy, and is visibly agitated throughout. He cannot enter the courtroom and waits outside pale and apprehensive (scene 155).",
+      "film_portrayal": "In Film Scene 2, Kingsley whispers in Arthur's ear, Arthur says 'Merlin's beard. Thank you, Kingsley. They've changed the time of your hearing,' then calmly coaches Harry ('speak only when you're spoken to\u2026 truth will out') before saying 'I'm not allowed in, I'm afraid. Good luck, Harry.' The urgency, the running, the fury at the Ministry's manipulation, and the visible anxiety while waiting are all absent.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's agitated, protective scramble through the Ministry is a key moment showing his fierce loyalty to Harry and his anger at Ministry abuse of power. Replacing it with calm reassurance removes the emotional stakes and makes Arthur seem passive rather than protectively engaged."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Ministry Level Nine corridor; encounter with Lucius Malfoy",
+      "book_baseline": "Book scenes 165-179: After the hearing, Arthur encounters Lucius Malfoy talking to Fudge. He grips Harry's shoulder in warning, responds curtly and with barely contained anger to Malfoy's sneer about his job, does not let go of Harry until Malfoy disappears, and then delivers an incisive political analysis of how Malfoy buys influence. He explicitly says he will leave a note for Dumbledore and shows sharp political awareness.",
+      "film_portrayal": "The Lucius Malfoy corridor encounter is entirely absent from the film corpus. The film cuts from the courtroom directly to Grimmauld Place celebrations.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This scene is important for Arthur's characterisation: it shows his protective instinct, his political intelligence, his awareness of how Malfoy corrupts the Ministry, and his proactive role as an Order intelligence asset. Its absence removes a moment where Arthur acts with agency and moral clarity, and also removes important world-building about Ministry corruption delivered through his voice."
+    },
+    {
+      "scene": "Film Scene 2 / Film Scene 3 \u2013 Christmas at St Mungo's; Arthur's stitches subplot",
+      "book_baseline": "Book scenes 266-283, 295-309: Arthur is shown in hospital cheerful and characterful, making extra chairs appear with his wand, showing compassionate interest in the werewolf patient (advising him about Lupin without naming him), deflecting questions about Voldemort's snake with wry humor, and then being caught out by Molly for secretly trying Muggle stitches on his wounds because of his irrepressible fascination with Muggle medicine \u2014 a comic scene that perfectly encapsulates his character.",
+      "film_portrayal": "Film Scene 3 shows Arthur returning home cured at Christmas ('Cured! Completely cured!'), raising a toast to Harry, and being warmly domestic. The St Mungo's hospital visit scenes, the stitches subplot, the werewolf patient compassion moment, and the extended family hospital dynamic are entirely absent.",
+      "damage_type": "personality/voice | nuance/lost material | relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The stitches scene is one of the most beloved and character-defining moments for Arthur in the entire book series \u2014 it is funny, warm, and perfectly illustrates how his Muggle obsession is both endearing and genuinely impractical. Its absence, replaced by a brief domestic Christmas scene, significantly flattens Arthur's characterisation and removes a key family dynamic moment between him and Molly."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Christmas at Grimmauld Place; Arthur's toast",
+      "book_baseline": "Book scene 193: Arthur proposes a toast 'To Ron and Hermione, the new Gryffindor prefects!' \u2014 a moment of paternal pride in his own children. His return home after hospitalisation (scene 313-321) is a warm ensemble moment, and he is described as walking 'proudly' amid his family.",
+      "film_portrayal": "In Film Scene 3, Arthur's toast is 'To Mr. Harry Potter, without whom I would not be here.' While not inaccurate to his gratitude, the film replaces his book toast (celebrating his own children's achievement) with an exclusively Harry-focused toast, repositioning Arthur primarily as a recipient of Harry's heroism rather than as a father celebrating his family.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Replacing the prefects toast with a Harry-gratitude toast subtly shifts Arthur's function from proud father to grateful beneficiary. It weakens the portrayal of his relationship with his own children and reduces him to a supporting figure in Harry's story rather than the head of his own family unit."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Sirius conversation with Harry about the snake attack; Arthur's role",
+      "book_baseline": "Book scenes 249-252: Harry tells Sirius privately that he was the snake who attacked Arthur, expressing fear that Voldemort is inside him. Sirius responds with firm, reassuring pragmatism, telling Harry he's in shock and to stop blaming himself. Arthur himself, when Harry visits him in hospital (scene 274), handles the attack with characteristic wry deflection: 'It's very simple \u2014 I'd had a very long day, dozed off, got sneaked up on and bitten,' protecting Harry from guilt.",
+      "film_portrayal": "In Film Scene 3, Harry tells Sirius 'I was the snake. And afterwards\u2026 I wanted to\u2026 This connection between me and Voldemort, what if I'm becoming more like him?' Sirius's response is not shown in the corpus. Arthur's own gracious, protective deflection of the attack in hospital is absent. Arthur has no direct interaction with Harry about the attack in the film corpus.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Arthur's gracious, self-deprecating handling of his own near-death attack \u2014 specifically framed to protect Harry from guilt \u2014 is a quietly powerful character moment showing his emotional generosity. Its absence means a key dimension of his relationship with Harry, and of his character under duress, is lost."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Percy subplot; Arthur's reaction to Percy's betrayal",
+      "book_baseline": "Book scenes 9-11, 162: Percy has told Arthur he is an idiot, threatened to publicly disown the family, and slammed the door in Molly's face. At the Ministry after the hearing, Percy marches past Arthur without acknowledgment; 'the lines around Mr Weasley's mouth tightened slightly, but other than this he gave no sign that he had seen his third son.' This restrained, dignified grief is characteristic.",
+      "film_portrayal": "The Percy estrangement subplot is entirely absent from the film corpus. There is no depiction of Arthur's pain at Percy's betrayal or his dignified restraint in response.",
+      "damage_type": "arc | relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Arthur's quiet suffering over Percy's betrayal, and his dignified refusal to make a scene, is one of the most emotionally resonant aspects of his characterisation in Order of the Phoenix. It shows depth beneath his cheerful exterior. Its complete absence from the film removes an important arc dimension and weakens the portrayal of Arthur as a man who bears real personal cost for his values."
+    },
+    {
+      "scene": "Film Scene 3 (INT. MR. WEASLEY'S WORKSHOP - NIGHT) \u2014 Arthur's conversation with Harry about Draco/Vanishing Cabinet",
+      "book_baseline": "In the book, Arthur's engagement with Harry's Malfoy theory is spread across two distinct, carefully characterised moments: at King's Cross (Book Scenes 50\u201364) where Arthur listens with 'mingled exasperation and amusement,' expresses genuine scepticism ('I doubt it, to be honest, Harry'), and is clearly humoring Harry while still taking him seriously enough to investigate; and at Christmas (Book Scenes 80\u201385) where Arthur has already searched the Malfoy house and reports back, then listens to Harry's new information about Snape with measured, open scepticism. In both cases Arthur is portrayed as a competent Ministry man who follows procedure, forms his own views, and gently but honestly pushes back on Harry.",
+      "film_portrayal": "The film collapses both book conversations into a single workshop scene. Arthur has already sent an agent to Borgin & Burkes and identified the Vanishing Cabinet \u2014 meaning the investigative leg-work and the process of Arthur being gradually persuaded are both skipped. Arthur simply delivers intelligence to Harry as a briefing, positioning him as a helpful information-conduit rather than a sceptic doing his own thinking. The King's Cross conversation (with its humorous exasperation and honest doubt) is entirely absent, and the Christmas conversation's procedural weight is absorbed into one quick exchange.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Arthur's two-scene arc of scepticism-then-investigation-then-update is a key part of his book characterisation as a capable, independently-minded Ministry official who takes Harry seriously without being credulous. Collapsing it into a single intelligence-delivery scene strips Arthur of his sceptical voice, his procedural agency, and his earned relationship with Harry as a trusted adult confidant. The damage is moderate rather than severe because Arthur does still function as an ally and does share useful information, but the texture of the relationship \u2014 honest pushback, earned trust, adult competence \u2014 is lost."
+    },
+    {
+      "scene": "Film Scene 3 (INT. MR. WEASLEY'S WORKSHOP - NIGHT) \u2014 Arthur's emotional disclosure about the family being followed",
+      "book_baseline": "The book (Scenes 6\u201318) portrays Arthur arriving home late, cheerful despite exhaustion, engaged in the security-question routine with Molly with warmth and humour ('Mollywobbles'), enthusiastically catching up with Harry, and discussing his new Ministry role with evident pride. His domestic warmth, his gentle humour, and his ability to maintain lightness under pressure are defining traits. There is no scene in the book corpus where Arthur privately expresses vulnerability or fear to Harry.",
+      "film_portrayal": "In the workshop scene, Arthur confides to Harry: 'We're being followed, all of us. Molly doesn't leave the house most days. It's not been easy.' He 'tries a smile, but it fades. He frowns, pained.' This is a private moment of visible emotional fragility directed at Harry, a teenager.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Arthur maintains warmth, humour, and quiet resilience even under wartime pressure \u2014 his coping mechanism is engagement and lightness, not confiding distress. Having him visibly falter and share his anxiety with Harry shifts his characterisation toward fragility and changes the adult-child dynamic. It also transfers emotional weight onto Harry in a way the books reserve for other characters (Lupin, Dumbledore). The damage is real but limited in scope \u2014 it is one beat, and it is not inconsistent with someone under genuine pressure \u2014 so impact weight is moderate."
+    },
+    {
+      "scene": "Film Scene 1 (INT. WEASLEY HOUSE - NIGHT) \u2014 Christmas party: Arthur present but silent in group scene",
+      "book_baseline": "Book Scenes 71\u201393 establish a rich Christmas Eve at the Burrow where Arthur is an active, warm presence: he is drowsing contentedly over a satsuma, engages Harry in a substantive private conversation about Ministry failures and Stan Shunpike, listens carefully to Harry's intelligence about Snape and Malfoy, offers his own interpretation ('Snape was simply pretending \u2014'), leaps up to offer eggnog and deflect tension, and mediates the group dynamic. He is socially warm, politically candid with Harry, and quietly authoritative.",
+      "film_portrayal": "Film Scene 1 places Arthur at the Christmas party as a background figure \u2014 the scene directions note 'Harry sits in deep conversation with Lupin, Tonks, and Mr. Weasley' but all the substantive dialogue is given to Lupin. Arthur has no lines in this scene. The conversation about Draco and Snape is dominated by Lupin, and Arthur is present but functionally silent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book the Christmas Eve conversation is one of Arthur's most substantive scenes in the novel: he is Harry's chosen confidant, he offers his own reading of the Snape situation, and his relationship with Harry as a trusted adult is developed. Transferring all meaningful dialogue to Lupin erases Arthur's role as Harry's primary adult ally in this moment. The book explicitly notes Harry chose Arthur as the right person to confide in (Scene 51); the film gives that relational function to Lupin instead. This is a meaningful relationship-level loss."
+    },
+    {
+      "scene": "Film Scene 6 & 7 (EXT. WEASLEY HOUSE PORCH / EXT. REEDS - NIGHT) \u2014 Burrow attack: Arthur's role in the action",
+      "book_baseline": "The Burrow attack by Bellatrix and Greyback does not appear in the book corpus at all \u2014 it is a film-original scene. The book corpus contains no equivalent event. Arthur therefore has no book baseline for this specific scene.",
+      "film_portrayal": "Arthur shouts 'Harry, no!' and 'Ginny, stay with your mother!' then joins Ron, Fred, and George chasing into the reeds. He is present and mobile but does not distinguish himself \u2014 the dramatic action belongs to Harry and Ginny, who jointly defeat Greyback. Arthur arrives in the clearing after the threat is neutralised.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Because this scene is entirely film-original with no book baseline, the damage is minimal \u2014 Arthur cannot lose agency he never had in the source text. His marginal role in the action is mildly consistent with the pattern of reducing his active presence, but without a book scene to betray, the impact is low. Scored at minimum weight for completeness as a minor pattern-reinforcing beat."
+    },
+    {
+      "scene": "Film Scene 3 (INT. MR. WEASLEY'S WORKSHOP) \u2014 Absence of Arthur's domestic warmth, humour, and the 'Mollywobbles' scene",
+      "book_baseline": "Book Scenes 11\u201318 contain one of Arthur's most charming and characterful moments in the entire novel: his insistence on the security-question protocol despite Molly's exasperation, his playful extraction of 'Mollywobbles,' his weary but cheerful arrival home, his immediate delight at seeing Harry, and his engaged conversation about Metamorph-Medals. These scenes establish the warmth and gentle humour that define his marriage and his personality.",
+      "film_portrayal": "The film has no equivalent of the late-night homecoming scene. The 'Mollywobbles' exchange, the security-question routine, and Arthur's warm domestic persona upon arriving home are entirely absent from the film corpus. The only Arthur-at-home material in the corpus is the workshop scene, which is tonally serious.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The homecoming scene is the primary vehicle in the book for Arthur's defining personality traits \u2014 his playful humour, his loving marriage, his procedural conscientiousness worn lightly. Its absence means the film audience loses the clearest expression of who Arthur is as a person rather than as a plot function. The Weasley marriage is also slightly flattened. The damage is character-level: it affects overall perception of Arthur without altering any specific plot relationship or arc."
+    },
+    {
+      "scene": "Film corpus overall \u2014 Absence of Arthur's Ministry promotion and professional identity",
+      "book_baseline": "Book Scenes 6\u20139 establish Arthur's new role heading the Office for the Detection and Confiscation of Counterfeit Defensive Spells and Protective Objects in considerable detail. Mrs. Weasley is bursting with pride; the role is contextualised as important wartime work; Arthur's previous marginalisation by Slughorn ('never had much time for Arthur') is contrasted with his current advancement. This gives Arthur professional identity, social status, and a meaningful wartime function beyond being Harry's host.",
+      "film_portrayal": "No mention of Arthur's promotion or his Ministry role appears anywhere in the film corpus. His professional life is entirely absent. The only Ministry-adjacent reference is his vague comment about being followed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Arthur's promotion is one of the few moments in the series where his professional competence and advancement are foregrounded. Its absence reinforces a pattern (consistent across the film series) of reducing Arthur to domestic background rather than a capable professional with his own standing. Within HBP specifically it also removes context for why he is a credible source of intelligence about the Malfoys and the Dark artefacts trade. The damage is character-level."
+    },
+    {
+      "scene": "DH Part 1 - Ministry lift scene (cut: 'Mr Weasley confronts Runcorn')",
+      "book_baseline": "Book Scene 151-156: Arthur Weasley confronts Runcorn directly and fiercely in the lift, defending Dirk Cresswell: 'Dirk Cresswell is ten times the wizard you are... and if he survives Azkaban, you'll have to answer to him.' He is morally courageous, outspoken against injustice even at personal risk, and tries to warn Harry-as-Runcorn that he is being tracked.",
+      "film_portrayal": "The scene is cut from the theatrical release per the non-theatrical exclusion note. Arthur's fierce moral confrontation with Runcorn and his direct, principled defence of a persecuted colleague are entirely absent. In the surviving film lift scene (Film Scene 12), Arthur merely exchanges pleasantries with Ron-as-Reg Cattermole, expresses sympathy about his wife's questioning, and exits without moral confrontation. Harry-as-Runcorn delivers the tracking warning to Arthur's back as the doors close, but Arthur registers only 'suspicion and confusion.'",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book establishes Arthur as someone willing to speak truth to power and confront corrupt Ministry figures directly at personal risk. This is a defining beat of his moral courage under the Death Eater-controlled Ministry. Its removal eliminates his most active, principled moment in the entire film and reduces him to a passive bystander in the Ministry sequence, with the thematic weight of warning and resistance transferred entirely to Harry."
+    },
+    {
+      "scene": "DH Part 1 - Shed scene (cut: 'Arthur Weasley and his Muggle toys')",
+      "book_baseline": "Book Scene 69: Arthur secretly hides parts of Sirius's motorbike in the chicken coop, tinkering with Muggle contraptions with gleeful enthusiasm while asking Harry not to mention it to Molly. Book Scene 15 also shows Hagrid noting 'Arthur's done a bit o' tinkerin'' on the bike. This warmly characterises his childlike delight in Muggle objects as a defining personality trait \u2014 one of the most beloved and consistent aspects of his characterisation across the entire saga.",
+      "film_portrayal": "The shed scene is cut from the theatrical release per the non-theatrical exclusion note. Arthur's defining enthusiasm for Muggle objects \u2014 here repurposed meaningfully as Potterwatch radios for the Order \u2014 is entirely absent from the film. No equivalent scene establishes this trait anywhere in the surviving film corpus for this instalment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "While this trait is not structurally essential, Arthur's Muggle obsession is one of his most distinctive and humanising characteristics across the series. Its absence in this film means the theatrical cut provides no warm, character-specific material for Arthur at all in DH Part 1, flattening him into a purely functional presence. The loss is compounded because the cut scene also gave him a meaningful emotional beat with Ron."
+    },
+    {
+      "scene": "DH Part 1 - Post-battle arrival at the Burrow (Film Scene 4-5)",
+      "book_baseline": "Book Scene 24-25: Arthur bursts in demanding to see his son immediately, shouting 'I'll prove who I am, Kingsley, after I've seen my son, now back off if you know what's good for you!' \u2014 the only time Harry has ever heard him shout. He drops to his knees beside George. Book Scene 32-33: Arthur announces Mad-Eye's death with blunt grief ('Mad-Eye. Dead.') and then conjures twelve glasses of firewhisky, leading the toast with quiet authority.",
+      "film_portrayal": "Film Scene 4: Arthur's arrival is folded into the general reunion; he asks 'Are we the last? Where's George?' and 'Remus. Where's my son?' \u2014 measured and quiet rather than the explosive parental desperation of the book. Film Scene 5: Mad-Eye's death is announced by Bill, not Arthur. Arthur has no lines in the toast sequence; the toast and conjuring of drinks does not appear in the film corpus at all.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to show a rare rupture in Arthur's characteristic mildness \u2014 his fury and terror as a father overrides his usual deference. The film softens this to a worried question, losing the emotional specificity. Additionally, his function as the one who names the loss and leads the communal grief ritual (the firewhisky toast) is removed, diminishing his role as the family's emotional anchor in crisis."
+    },
+    {
+      "scene": "DH Part 1 - Scrimgeour will scene (Film Scene 9)",
+      "book_baseline": "Book Scene 88-102: Arthur is present and nervous when Scrimgeour arrives, exchanges a worried look with Molly, and when he hears raised voices bursts into the room alongside Mrs. Weasley. He asks what Scrimgeour wanted once the Minister has gone. He is present throughout as a protective, concerned parental figure monitoring the situation.",
+      "film_portrayal": "Film Scene 9: The Scrimgeour scene takes place in the sitting room with only Harry, Ron, Hermione, and Scrimgeour. Arthur is entirely absent from the scene and its aftermath. He does not burst in upon hearing raised voices; there is no worried parental surveillance of the encounter. Scrimgeour's line 'There will be no need for you to accompany us, Arthur' (book Scene 89) and Arthur's exclusion as a plot point is not present.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor compression only. The scene functions adequately in the film."
+      "explanation": "A minor but illustrative loss: the book establishes Arthur as a watchful, protective presence alert to danger to Harry and his children even from official Ministry figures. His absence from the film version of this scene is not damaging on its own but contributes to the overall pattern of Arthur being present only as background."
+    },
+    {
+      "scene": "DH Part 2 - Battle of Hogwarts deployment (Film Scene 14)",
+      "book_baseline": "Book Scene 178: Kingsley assigns Arthur, along with Lupin, to lead groups into the grounds during the battle \u2014 a named command role. Book Scene 185: Arthur and Percy are specifically noted fighting together, flooring Thicknesse side by side \u2014 a moment that doubles as a reconciliation beat enacted through shared action.",
+      "film_portrayal": "Film Scene 14: Arthur appears only in a list of names read off as people emerging with Harry. He is given no lines, no command role, and no distinct moment. Film Scene 16: He fights alongside Fred and George on the battlements but has no named tactical function. The Percy reconciliation enacted through joint combat (book Scene 185) is absent; Percy's return is shown in Film Scene 14 but without the specific father-son combat beat.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book gives Arthur a named command function in the battle and uses his joint combat with Percy as a wordless expression of reconciliation after Percy's long estrangement. Both are lost. The reconciliation in the film (Film Scene 14, Percy's return) is purely verbal and does not involve Arthur in any active way, removing the emotional payoff of father and son fighting side by side."
+    },
+    {
+      "scene": "DH Part 2 - Fred's death / Great Hall aftermath (Film Scene 17)",
+      "book_baseline": "Book Scene 180: Arthur is shown actively present at Fred's body \u2014 Mr. Weasley stroking Mrs. Weasley's hair while tears cascade down his cheeks. He is a named, emotionally present figure in the family's grief.",
+      "film_portrayal": "Film Scene 17: The film shows George kneeling over Fred's body, Ron joining the family, Ginny and Hermione's grief, and Arthur described as 'distraught' in the background. Arthur is visually present but has no lines and no individualised action \u2014 he is part of the grief tableau rather than a distinct emotional presence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book gives Arthur a specific, tender gesture \u2014 stroking Molly's hair while weeping \u2014 that characterises him as simultaneously grief-stricken and still trying to comfort his wife. The film reduces him to background grief, losing the specificity of his paternal and spousal role in the family's worst moment."
+    },
+    {
+      "scene": "DH Part 2 - Courtyard / Harry's apparent death (Film Scene 19)",
+      "book_baseline": "The book corpus does not contain an exact equivalent scene for this specific moment, but book Scene 185 establishes Arthur as an active, named combatant through the battle's end.",
+      "film_portrayal": "Film Scene 19: When Ginny rushes toward Voldemort upon seeing Harry's apparently dead body, Arthur steps between her and Voldemort and wraps his daughter in his arms. This is a protective, fatherly act. This moment is original to the film and represents a rare instance of Arthur being given active agency and emotional specificity.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is scored at minimal damage because it is actually a faithful-to-spirit invention \u2014 Arthur acting as a protective father is entirely consistent with his book characterisation. It is noted here only for completeness; it does not damage the adaptation and is one of the few moments where the film grants Arthur individualised action. Net damage is negligible."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 728.0,
-  "adjusted_cids_v1": 800.8
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

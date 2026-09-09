@@ -1,134 +1,143 @@
 {
   "character": "Dolores Umbridge",
-  "fp_score": 77.0,
-  "infidelity_score": 23.0,
-  "weighted_infidelity_exposure": 20.0,
-  "cids": 126.3,
-  "damage_per_exposure": 11.0,
-  "structural_damage_level": 2,
-  "adjusted_cids": 126.3,
+  "fp_score": 75.0,
+  "infidelity_score": 25.0,
+  "weighted_infidelity_exposure": 37.5,
+  "cids": 181.0,
+  "damage_per_exposure": 11.7,
+  "structural_damage_level": 3,
+  "adjusted_cids": 181.0,
   "main_damage_causes": [
-    "Compression of the detention sequence collapses Umbridge's defining trait - patient, sustained sadism disguised as institutional correction - into a single scene with an uncharacteristically direct line about deserving punishment, making her a conventional bully rather than a bureaucratic monster",
-    "Loss of the sustained inspection campaign details (Snape interrogation, McGonagall careers confrontation, Hagrid pantomime) removes the methodical, escalating nature of her institutional predation and her ideological bigotry against half-breeds",
-    "The added 'I must not tell lies' callback in the centaur scene and other small embellishments give Harry neat revenge moments that replace the book's more unsettling ambiguity, slightly softening the horror of Umbridge by making her defeatable in satisfying ways"
+    "Compression of the first DADA lesson and multi-session detention arc removes the foundational portrait of Umbridge's bureaucratic sadism and patient cruelty, thinning her from a methodical institutional torturer to a more conventionally unpleasant authority figure",
+    "Absence of key inspection scenes (McGonagall's Transfiguration class, Hagrid's Thestral lesson) and the careers advice confrontation removes the full picture of Umbridge as a systematic discriminator and her specific antagonistic relationships with faculty members who resist her",
+    "Compression of the Educational Decrees escalation arc into visual montage rather than dramatised cause-and-effect sequences weakens the thematic portrait of how incremental tyranny operates and how collective resistance erodes institutional power, reducing Umbridge's arc from Headmistress to fugitive to a less legible trajectory"
   ],
   "damaging_scenes": [
     {
-      "scene": "OotP Film - Umbridge's first DADA lesson",
-      "book_baseline": "Umbridge runs a tightly controlled, methodical classroom with elaborate rituals of submission (chanting her name, hands up, wands away). She is patient, calculating, and enjoys the slow exercise of bureaucratic power. Her cruelty is cold and deliberate.",
-      "film_portrayal": "The lesson is compressed into a brief exchange. The ritualistic control elements (chanting, repeated hand-raising protocols, the full theatre of submission) are largely absent. Her classroom dominance is shown but not felt as a sustained, suffocating system.",
+      "scene": "Order of the Phoenix - Umbridge's first DADA lesson (classroom sequence)",
+      "book_baseline": "The book establishes Umbridge's first lesson as a masterclass in bureaucratic menace: she runs a tightly controlled, infantilising classroom with pointed teeth on display, enforces rote choral responses, ignores raised hands selectively (notably turning away from Harry), engages in a prolonged battle of wills with Hermione and Harry over the uselessness of theory, and culminates in Harry's outburst about Voldemort and Cedric's murder. Umbridge's control, passive-aggressive sweetness, and cold institutional authority are all on full display across many beats.",
+      "film_portrayal": "The film compresses the lesson heavily. The choral greeting ritual, the selective ignoring of raised hands, the extended Hermione confrontation, Ron's interjection, Dean Thomas's challenge about Lupin, and the 'extremely dangerous half-breeds' remark are all absent or truncated. The film moves quickly to Harry's outburst without the slow, suffocating bureaucratic build-up that establishes Umbridge's method of control. The classroom power dynamic is thinned to a brief exchange.",
       "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's lesson is crucial for establishing Umbridge as a bureaucratic sadist who derives pleasure from enforced compliance rituals. The film reduces this to a policy dispute, losing the texture of her control-obsession."
-    },
-    {
-      "scene": "OotP Film - Detention with the blood quill",
-      "book_baseline": "Harry endures multiple nights of detention, silently refusing to show pain, treating it as a private battle of wills. He conceals the injury from Ron and Hermione for days out of pride and a sense that this is between him and Umbridge. The scars are permanent. Umbridge watches with satisfaction, examining his hand with her ringed fingers.",
-      "film_portrayal": "The detention is shown in a single compressed scene. Umbridge delivers a line about Harry deserving punishment ('you know, deep down, you deserve to be punished'). The multi-night ordeal, Harry's stoic concealment, and the slow escalation of injury are absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The book's detention sequence is the core of Umbridge's sadism - she is not impulsive but patient, savouring Harry's suffering across many nights. The film's single scene and the added line about deserving punishment makes her more overtly villainous but less chillingly bureaucratic. The line also removes Harry's agency in the private battle of wills."
+      "explanation": "The extended first lesson is the primary vehicle for establishing Umbridge's defining trait: her weaponised sweetness, her bureaucratic sadism, and her method of slow institutional suffocation. The film's compression removes the layered portrait of how she operates - the selective deafness, the infantilising tone aimed at near-adults, the pointed-teeth smile. Audiences lose the sense of just how methodically she dominates a room, which undercuts the horror of her later escalations."
     },
     {
-      "scene": "OotP Film - Umbridge's line 'you deserve to be punished'",
-      "book_baseline": "Umbridge never explicitly tells Harry he deserves punishment in such direct terms. Her cruelty is wrapped in sweetness and institutional language - she frames everything as policy, correction, and helping him. She never drops the mask of saccharine authority.",
-      "film_portrayal": "Umbridge says directly: 'Because you know, deep down, you deserve to be punished. Don't you, Mr. Potter?' This is a moment of naked sadism with the mask off.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Umbridge's defining trait is that she never admits to cruelty - she always frames it as care, correction, or Ministry policy. Having her explicitly tell Harry he deserves punishment collapses her into a conventional bully and removes the insidious quality that makes her so disturbing."
-    },
-    {
-      "scene": "OotP Film - Trelawney's sacking scene",
-      "book_baseline": "Umbridge watches Trelawney's breakdown with undisguised gloating enjoyment, described as 'revolting' by Harry. She is callous and triumphant, telling Trelawney 'it was your home' with relish. She then clashes with Dumbledore over her authority limits.",
-      "film_portrayal": "The scene is present and reasonably faithful. Umbridge is cold and dismissive. The confrontation with Dumbledore over banishment rights is included.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Mostly faithful. Minor loss of the explicit gloating enjoyment described in the book, but the scene functions adequately."
-    },
-    {
-      "scene": "OotP Film - Hagrid inspection scene",
-      "book_baseline": "Umbridge speaks to Hagrid in an exaggeratedly loud, slow voice as though he is foreign and stupid, mimes walking and pointing to indicate talking, and mutters notes like 'Has to resort to crude sign language' and 'Appears to have poor short-term memory' loudly enough for students to hear. This is a sustained, methodical humiliation.",
-      "film_portrayal": "The inspection of Hagrid is shown but compressed. Umbridge's sustained pantomime of treating Hagrid as sub-human (the miming, the loud slow speech, the running commentary of demeaning clipboard notes) is largely absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Hagrid inspection is one of Umbridge's most revealing scenes - her bigotry against half-breeds is expressed through methodical, performative cruelty designed to humiliate in front of students. Losing this loses a key dimension of her prejudice as institutional practice."
-    },
-    {
-      "scene": "OotP Film - Umbridge's anti-half-breed prejudice (Lupin legislation, classroom comments)",
-      "book_baseline": "Umbridge refers to 'extremely dangerous half-breeds' in her first lesson. Sirius reveals she drafted anti-werewolf legislation that made it nearly impossible for Lupin to find work. Her bigotry is systemic and has real-world consequences for named characters.",
-      "film_portrayal": "Sirius's line 'Training you to kill half-breeds?' is present but played as a joke. The anti-werewolf legislation and its impact on Lupin are not mentioned. The classroom 'half-breeds' comment is absent.",
+      "scene": "Order of the Phoenix - Umbridge's start-of-term speech at the feast",
+      "book_baseline": "The book gives Umbridge a full coded speech - 'progress for progress's sake must be discouraged... pruning wherever we find practices that ought to be prohibited' - which Hermione immediately decodes as Ministry interference at Hogwarts. Staff reactions (McGonagall's hawklike expression, Sprout's eyebrows) and Dumbledore's pointed applause all establish the speech as a political declaration. No new teacher has ever interrupted Dumbledore, making this a shocking power move.",
+      "film_portrayal": "The film includes the speech and the key 'pruning/prohibited' line, and Harry correctly identifies her Ministry connection. This beat is relatively intact in the film corpus, though the staff micro-reactions and the full weight of her interrupting Dumbledore are present only briefly. The film does preserve the essential political signal.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Umbridge's bigotry against non-humans is a structural part of her character - she is not just a Ministry stooge but an ideological bigot whose prejudice has already harmed people the audience cares about. Losing this reduces her to a power-hungry bureaucrat rather than a true believer in blood hierarchy."
-    },
-    {
-      "scene": "OotP Film - Umbridge ordering the Dementor attack on Harry",
-      "book_baseline": "Umbridge reveals in the climax that she ordered the Dementor attack on Harry the previous summer, acting unilaterally without Ministry knowledge: 'He never knew I ordered Dementors to go after Potter last summer.' This is a shocking revelation of her willingness to commit murder outside official channels.",
-      "film_portrayal": "This confession is present in the film during the Cruciatus scene and is one of the more faithful moments.",
-      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Largely faithful. The confession is included."
+      "explanation": "The core political signal survives, but the rich ensemble of staff horror and the institutional significance of a teacher interrupting Dumbledore mid-feast is compressed. The damage is minor - the audience receives the necessary information - but the texture of Umbridge's audacity is thinner."
     },
     {
-      "scene": "OotP Film - Umbridge's Cruciatus threat",
-      "book_baseline": "Umbridge works herself up to threatening the Cruciatus Curse through a process of self-justification, talking herself into it while shifting her weight nervously. She is genuinely frightening because she is a Ministry official crossing into illegal torture while rationalising it as necessary.",
-      "film_portrayal": "The Cruciatus threat is present and the Dementor confession is included. The scene is reasonably faithful to the book's intent.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Mostly faithful. The key beats are present."
-    },
-    {
-      "scene": "OotP Film - Centaur scene: Umbridge's capture",
-      "book_baseline": "Umbridge provokes the centaurs through sustained bigotry ('filthy half-breeds', 'beasts', 'uncontrolled animals'), then casts Incarcerous on Magorian, triggering her own capture. She is carried away screaming. Harry's parting line 'I must not tell lies' is not in the book - he simply watches her go.",
-      "film_portrayal": "Umbridge calls the centaurs 'filthy half-breeds' and is captured. Harry says 'I'm sorry, Professor. I must not tell lies' as she is taken away. Grawp is involved in the film version, grabbing Umbridge before the centaurs take her.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Harry's scripted parting line is a crowd-pleasing addition that gives him a neat revenge moment not in the book. In the book Harry simply watches - the satisfaction is implicit and earned through the reader's accumulated anger. The film's explicit callback slightly cheapens the moment and gives Harry a quip where the book gives him silence. The Grawp involvement also changes the mechanics of her capture."
-    },
-    {
-      "scene": "OotP Film - Umbridge's sustained inspection campaign (Trelawney probation, Snape interrogation, McGonagall confrontation)",
-      "book_baseline": "The inspection campaign is extended and detailed: Umbridge puts Trelawney on probation with sustained harassment, interrogates Snape about his failed DADA applications, and has a full confrontation with McGonagall during Harry's careers advice. These scenes show Umbridge as a methodical institutional predator.",
-      "film_portrayal": "The Snape inspection is reduced to a brief exchange. The McGonagall careers advice confrontation is absent. Trelawney's probation is shown but compressed. The sustained campaign of inspections across multiple teachers is collapsed.",
+      "scene": "Order of the Phoenix - Detention scenes with the Blood Quill",
+      "book_baseline": "The book devotes extended space to four detentions: Harry's stoic endurance, his deliberate silence ('good evening' and 'goodnight' only), his refusal to show weakness, his private resolution that this is a battle of wills between himself and Umbridge. Umbridge monitors him with satisfaction, comments on his wounds ('Ah... that ought to serve as a reminder'), and the scars become permanent. The detentions are a private crucible that develops Harry's character and Umbridge's sadistic patience.",
+      "film_portrayal": "The film depicts the first detention and the blood quill writing. It includes Umbridge's key line about not needing ink and her watching him with a smile. However, the film omits: Harry's multi-session stoic endurance across four evenings, Umbridge's clinical observation of when wounds stop healing, her remark about 'etching the message a little deeper', and crucially the scene where she examines his hand and Harry feels his scar burn simultaneously. The film also omits Harry's conscious decision to keep this private from Ron and Hermione as a matter of pride and private battle.",
       "damage_type": "nuance/lost material",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The inspection campaign is how the book shows Umbridge's institutional power expanding systematically. Losing the McGonagall careers confrontation in particular removes a key scene showing Umbridge's overreach and McGonagall's defiance, and loses the moment where Umbridge reveals her political ambitions ('You want Cornelius Fudge replaced by Albus Dumbledore!')."
+      "impact_weight": 3,
+      "explanation": "The multi-detention arc is where Umbridge's sadism becomes most concrete and intimate. The book's Umbridge is a patient torturer who appreciates slow suffering; the film reduces this to a single scene with a disturbing visual. Harry's interior response - his pride, his silence, his refusal to give her satisfaction - is also lost, damaging his characterisation alongside hers. The full weight of her institutional cruelty, deployed quietly over many nights, is not conveyed."
     },
     {
-      "scene": "OotP Film - Educational Decrees accumulation",
-      "book_baseline": "The Educational Decrees accumulate throughout the book as a running demonstration of Umbridge's expanding power - each one a new encroachment. Students and staff react to each one. The decrees are numbered and specific.",
-      "film_portrayal": "Decrees are shown being posted by Filch in a montage. The cumulative oppressive effect is conveyed visually but the specific content and reactions to individual decrees are largely absent.",
+      "scene": "Order of the Phoenix - Umbridge reveals she sent the Dementors (Cruciatus threat scene)",
+      "book_baseline": "The book has Umbridge threaten Harry with the Cruciatus Curse in her office, and in doing so voluntarily reveals: 'He never knew I ordered Dementors to go after Potter last summer.' This is a crucial revelation - she is not merely a Ministry bureaucrat following orders but the hidden architect of Harry's attempted destruction. It reframes everything that preceded it and makes her one of the saga's most dangerous figures: someone who operates outside official sanction for personal motives.",
+      "film_portrayal": "The film includes this scene and Umbridge does threaten use of an Unforgivable Curse, and Hermione's 'That's illegal' line is present. The Dementor confession line 'What Cornelius doesn't know won't hurt him. He never knew I ordered Dementors to go after Potter last summer' is present in the film corpus (Scene 5). This beat appears to be preserved.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The confession is present in the film corpus, which is significant. However the film's compressed surrounding context - Umbridge's panting excitement, her apparent pleasure in the act, her justification 'Someone had to act... I was the one who actually did something about it' - may be thinner. The line itself is a high-impact revelation and its presence mitigates damage significantly. Minor damage from contextual thinning only."
+    },
+    {
+      "scene": "Order of the Phoenix - Trelawney's sacking scene",
+      "book_baseline": "The book shows Umbridge watching Trelawney's public humiliation 'with an expression of gloating enjoyment' as she sobs over her trunks, and describes Umbridge as 'revolted' Harry at the sight. Umbridge tells Trelawney this is no longer her home, shows callous pleasure at her distress, and is then outmanoeuvred by Dumbledore who asserts his authority over the castle. Umbridge stands 'stock still, staring' as Dumbledore produces Firenze - she is genuinely blindsided.",
+      "film_portrayal": "The film includes this scene. Umbridge is present for Trelawney's eviction, McGonagall comforts Trelawney, and Dumbledore asserts his castle authority. However, the non-theatrical exclusion list removes 'Umbridge inspects Trelawney' from the scored film corpus, meaning the build-up through the inspection that makes the sacking feel earned is absent. The sacking scene itself, per the theatrical film corpus, is present but the preceding context of the inspection is excluded.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "Minor loss. The visual montage conveys the general idea, though the specific escalation and staff/student reactions that make each decree feel like a new defeat are absent."
+      "impact_weight": 2,
+      "explanation": "With the Trelawney inspection excluded from the scored film corpus, the sacking arrives without the full context of Umbridge's sustained campaign against her. The audience sees the outcome but not the methodical institutional harassment that preceded it. The sacking scene itself conveys cruelty, but the sense of a carefully planned campaign of destruction is weakened."
     },
     {
-      "scene": "DH1 Film - Umbridge at the Muggle-Born Registration Commission",
-      "book_baseline": "Umbridge presides over the tribunal with cold bureaucratic efficiency, using institutional language to strip Muggle-borns of their wands and identity. She wears the locket and claims it is a 'family heirloom' with the S standing for Selwyn. Her Patronus - a cat - glows because she is happy in her element. The scene shows her as a true believer in blood purity ideology, not just a Ministry functionary.",
-      "film_portrayal": "The tribunal scene is present and largely faithful. Umbridge's Patronus cat is shown protecting the prosecutors. The locket is visible. The 'one mustn't tell lies, Dolores' callback from Harry is added.",
-      "damage_type": "personality/voice",
+      "scene": "Order of the Phoenix - Umbridge inspects McGonagall (Transfiguration classroom)",
+      "book_baseline": "The book gives a detailed inspection scene where McGonagall ignores Umbridge's 'hem, hem' three times, delivers the devastating line 'I do not generally permit people to talk when I am talking', reduces Umbridge to scribbling furiously, and then refuses to be followed around the classroom. The scene establishes the faculty resistance and provides comedic satisfaction while showing Umbridge's limits when facing a peer of equal institutional standing.",
+      "film_portrayal": "The McGonagall inspection scene does not appear to be present in the theatrical film corpus. The film corpus shows Umbridge inspecting Snape in Potions (briefly noted in scene descriptions) and references to inspections generally, but the specific McGonagall Transfiguration confrontation with its iconic 'hem, hem' exchange and McGonagall's dominant response is not evidenced in the film corpus scenes.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The McGonagall-Umbridge inspection is one of the most satisfying relationship beats in the book, establishing the faculty as active resistors rather than passive victims, and defining the McGonagall-Umbridge dynamic that pays off later. Its absence removes a key dimension of Umbridge's institutional position - she is not all-powerful, she can be dominated by pure force of personality from a peer - and weakens the ensemble resistance narrative."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge inspects Hagrid (Thestral lesson)",
+      "book_baseline": "The book devotes an extended scene to Umbridge's inspection of Hagrid's Thestral lesson, during which she speaks to him loudly and slowly as though he is foreign and slow, mimes walking and pointing for him, takes notes like 'Has to resort to crude sign language' and 'Appears to have poor short-term memory', uses Malfoy and Parkinson to humiliate him publicly, and reduces Hermione to shaking with fury ('You hag, you evil hag!'). The scene is a precise depiction of institutional racism and cruelty toward a marginalised figure.",
+      "film_portrayal": "The Thestral inspection is not present in the theatrical film corpus. Umbridge does visit Hagrid's cabin after his return (book scenes 448-483 have film parallels in Scene 3 of the film corpus), but the specific inspection of the Thestral lesson with its sustained public humiliation of Hagrid is absent from the film.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This scene is one of Umbridge's most revealing: her cruelty is not merely petty but systematically targeted at those society already marginalises (Hagrid as a half-giant, as a creature-care teacher). The scene also galvanises student and staff emotional responses in ways that deepen the resistance narrative. Its absence removes a major dimension of Umbridge's characterisation as an agent of discriminatory institutional power, reducing her to a more generic authority figure."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge's anti-werewolf legislation / Sirius's context",
+      "book_baseline": "The book establishes via Sirius that Umbridge 'drafted a bit of anti-werewolf legislation two years ago that makes it almost impossible for him [Lupin] to get a job', which Harry connects to Lupin's shabbier appearance. This establishes Umbridge as someone whose cruelty has real-world consequences beyond Hogwarts, whose prejudice is legislative and systematic, and contextualises her 'half-breeds' remark from the first lesson.",
+      "film_portrayal": "This information is not conveyed in the film. The film's Umbridge makes no direct reference to anti-werewolf legislation and while she uses 'half-breed' in the first lesson implicitly (via the 'You're not letting us use magic at all' exchange with Sirius referencing 'training you to kill half-breeds'), the specific backstory of her targeting Lupin through legislation is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The anti-werewolf legislation establishes that Umbridge's prejudice has already caused serious harm before she arrives at Hogwarts. It transforms her from a Ministry functionary into someone with a pre-existing ideological agenda against 'half-breeds'. Without it, her cruelty reads as situational rather than principled, and a key link between her Hogwarts behaviour and the later Muggle-Born Registration Commission (Deathly Hallows) is severed."
+    },
+    {
+      "scene": "Order of the Phoenix - Educational Decrees accumulation and Umbridge as Headmistress",
+      "book_baseline": "The book tracks the steady accumulation of Educational Decrees (22-29), Umbridge's escalating control, her use of the Inquisitorial Squad, her alliance with Filch, her surveillance of owls and fires, her banning of Harry and the twins from Quidditch, and her increasingly desperate response to the school-wide rebellion. As Headmistress she is shown as a figure of increasingly impotent fury.",
+      "film_portrayal": "The film compresses this arc significantly. Educational Decrees appear on noticeboards and Filch hammers them up, but the individual decrees and their specific effects are not tracked. The Inquisitorial Squad appears only briefly. The Quidditch ban is not shown. The sustained escalation of Umbridge's institutional control, and its erosion through collective resistance, is compressed into montage rather than dramatised sequence.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The escalating decree-and-resistance arc is structurally important: it charts how tyranny operates through incremental normalisation, and how collective resistance can erode even institutional power. Compressing it into montage loses the sense of cause and effect - each decree as a response to resistance, each resistance as a response to a decree. Umbridge's arc from High Inquisitor to Headmistress to cornered, impotent figure is less legible in the film."
+    },
+    {
+      "scene": "Order of the Phoenix - Fred and George's departure (Umbridge confrontation in corridor)",
+      "book_baseline": "The book has Umbridge descend on the swamp scene, invoke Educational Decree Twenty-five, offer Filch the chance to whip the twins, be publicly humiliated as the twins summon their confiscated brooms (one still trailing Umbridge's chain), call them 'old bat' to their faces, and screech 'STOP THEM!' as they fly away past Peeves. Fred tells Peeves to 'Give her hell from us'. Umbridge then spends her first afternoon as Headmistress running from classroom to classroom while teachers feign helplessness with the fireworks.",
+      "film_portrayal": "The film includes the fireworks sequence and Fred and George's departure, and Umbridge is present and visibly overwhelmed. The film corpus shows Umbridge walking into the Great Hall during the fireworks, looking up and gasping, and the general chaos. However the specific corridor confrontation, Umbridge invoking Decree Twenty-five, her offering Filch whipping rights, and her screaming 'STOP THEM' while the twins fly past are present in condensed form. The teachers' passive resistance (McGonagall's 'It unscrews the other way' to Peeves) is not confirmed in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The departure scene in the film captures the visual spectacle but likely loses the specific beats that define Umbridge's institutional impotence: her invoking of increasingly desperate authority (corporal punishment decrees) while being publicly defied. The teachers' deliberate non-cooperation is a key structural beat showing how authority depends on willing compliance, which is weakened by its apparent absence."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge's careers advice scene (McGonagall confrontation)",
+      "book_baseline": "The book has a prolonged three-way confrontation where Umbridge attempts to undermine Harry's Auror ambition using her pink note about his poor marks, McGonagall systematically dismantles every attempt ('He has achieved high marks in all Defence Against the Dark Arts tests set by a competent teacher'), Umbridge invokes his criminal record, and McGonagall finally stands up to declare 'I will assist you to become an Auror if it is the last thing I do!' The scene ends in shouting between the two teachers.",
+      "film_portrayal": "This scene is not present in the theatrical film corpus. The careers advice confrontation between McGonagall and Umbridge does not appear in the film scenes provided.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The careers advice scene is the fullest expression of the McGonagall-Umbridge antagonism and the most direct statement of McGonagall's commitment to Harry. It also establishes Harry's Auror ambition as something both fought over and worth fighting for. Its absence removes a key relationship beat and reduces the McGonagall-Umbridge dynamic to a series of classroom skirmishes without this culminating declaration."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge in the centaur sequence (Forest)",
+      "book_baseline": "The book has Umbridge invoke Ministry law at the centaurs ('Law Fifteen B... near-human intelligence... responsible for its actions'), refuse to stop calling them 'filthy half-breeds' even as Hermione begs her to stop, and cast Incarcerous on Magorian before being carried off screaming. Her final words are about being Senior Undersecretary. The sequence shows her institutional prejudice leading directly to her downfall - she cannot stop applying bureaucratic frameworks even when facing lethal danger.",
+      "film_portrayal": "The film includes this sequence. Umbridge does invoke her Ministry title ('I am Dolores Umbridge! Senior Undersecretary...'), calls centaurs 'filthy half-breeds', and casts Incarcerous. Grawp grabs her before the centaurs carry her off. The film also adds Harry's line 'I'm sorry, Professor. I must not tell lies' - a satisfying callback not in the book at this moment. The core beats are present.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Mostly faithful. The added Harry callback line is a minor embellishment. The scene effectively conveys Umbridge's ideological investment in the persecution."
+      "explanation": "The film's centaur sequence largely preserves the key characterisation. The added 'I must not tell lies' line is a film-original beat that works well. Minor compression of Umbridge's sustained legalistic argument with the centaurs loses some of the specific irony of her applying bureaucratic frameworks to creatures who have no interest in them, but the core portrait survives."
     },
     {
-      "scene": "OotP Film - Umbridge's start-of-term speech",
-      "book_baseline": "Umbridge's speech is a masterpiece of coded Ministry-speak that Hermione alone decodes as a declaration of intent to control Hogwarts. The speech is long enough that students tune out, but the teachers listen with growing alarm. Dumbledore's interruption by Umbridge is unprecedented and shocking.",
-      "film_portrayal": "The speech is compressed to a few lines ending with 'prune practices that ought to be prohibited.' Hermione decodes it for Harry. The shock of Umbridge interrupting Dumbledore is present but the sustained length that makes the speech feel like an occupation is lost.",
+      "scene": "Deathly Hallows Part 1 - Muggle-Born Registration Commission courtroom",
+      "book_baseline": "The book has Umbridge presiding over the Commission with her silver cat Patronus (glowing because 'she was so happy here, in her element'), wearing the stolen locket and claiming 'S stands for Selwyn... I am related to the Selwyns', interrogating Mary Cattermole with cold bureaucratic precision, ordering Dementors to remove defendants. It is the culmination of her character arc - her prejudice now has full institutional sanction and lethal consequences. Harry is moved to attack by her lie about the locket being a 'family heirloom'.",
+      "film_portrayal": "The film corpus (Scenes 11-15) includes this sequence. Umbridge is present presiding over the Commission, the locket is around her neck, Harry identifies it and confronts her, and the 'You're lying. And one mustn't tell lies, Dolores' line is present. The Patronus cat is noted. The scene is substantially present in the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Deathly Hallows courtroom scene is well-preserved in the film corpus. The key beats - the locket, the Patronus, the Muggle-Born persecution, Harry's callback line - are all present. The damage is minimal; some compression of the interrogation's cold procedural detail may reduce the full horror of her bureaucratic enjoyment, but the characterisation of Umbridge as willing persecutor with institutional power is intact."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge's post-centaur recovery (hospital wing)",
+      "book_baseline": "The book shows Umbridge in the hospital wing, hair full of twigs, staring at the ceiling, apparently in shock. Ron makes clip-clop noises and she sits bolt upright in terror. She has not spoken since returning. Dumbledore retrieved her from the centaurs without a scratch. She leaves the school the next day, chased by Peeves with a walking stick and a sock full of chalk while staff 'half-heartedly' restrain students watching her flee. McGonagall is heard expressing regret she cannot run cheering after Umbridge herself because Peeves borrowed her walking stick.",
+      "film_portrayal": "The film's ending (Scene 6) shows a newspaper headline indicating 'Umbridge suspended from Hogwarts for pending investigation'. The hospital wing scene, the clip-clop moment, and the departure scene with Peeves are not present in the film corpus. The film replaces the ignominious physical departure with an administrative outcome.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The compression is understandable for film but loses the sense of Umbridge's speech as a slow, suffocating takeover. The key coded message is preserved through Hermione's decoding."
+      "impact_weight": 2,
+      "explanation": "The departure sequence is the satisfying conclusion of Umbridge's arc at Hogwarts - the institutional bully driven out by the institution she tried to control, while her fellow teachers openly celebrate. McGonagall's remark about the walking stick is a perfect capsule of staff solidarity. Replacing this with a newspaper headline removes the communal catharsis and the specifically social humiliation that mirrors her own use of public humiliation against others."
     }
   ],
   "confidence": {
@@ -137,8 +146,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 460.0,
-  "adjusted_cids_v1": 506.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

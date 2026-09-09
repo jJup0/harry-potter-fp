@@ -1,26 +1,26 @@
 {
   "character": "Ernie Macmillan",
-  "fp_score": 29.0,
-  "infidelity_score": 71.0,
-  "weighted_infidelity_exposure": 0.5,
-  "cids": 46.7,
-  "damage_per_exposure": 93.4,
+  "fp_score": 33.0,
+  "infidelity_score": 67.0,
+  "weighted_infidelity_exposure": 1,
+  "cids": 75.4,
+  "damage_per_exposure": 75.4,
   "structural_damage_level": 1,
-  "adjusted_cids": 46.7,
+  "adjusted_cids": 75.4,
   "main_damage_causes": [
-    "The film corpus provided is extremely limited \u2014 only two Knight Bus scenes from Prisoner of Azkaban are present, covering Ernie Prang (the bus driver), not Ernie Macmillan (the Hufflepuff student) who is the subject of the book corpus",
-    "Ernie Macmillan's rich book characterization \u2014 his arc from suspicious accuser in CoS to apologetic peer, his pompous but loyal DA membership, his prefect anxieties, his brave stand at the Battle of Hogwarts casting a Patronus \u2014 has no corresponding film corpus evidence to score against, meaning damage cannot be assessed from corpus alone",
-    "The absence of any Ernie Macmillan film scenes in the provided corpus prevents scoring of his most significant book moments: the CoS accusation and apology arc, his OotP DA participation and prefect hesitation, and his DH Battle of Hogwarts Patronus"
+    "The film corpus is extremely limited \u2014 only two Knight Bus scenes from Prisoner of Azkaban are present, featuring only Ernie Prang (the bus driver), not Ernie Macmillan (the Hufflepuff student), who is the subject of the bulk of the book corpus",
+    "All of Ernie Macmillan's characterization \u2014 his pomposity, his accusation of Harry as Slytherin's heir, his apology, his DA membership, his prefect anxiety, his Battle of Hogwarts Patronus \u2014 appears extensively in the book corpus but has no corresponding film corpus material to compare against",
+    "Without film corpus scenes featuring Ernie Macmillan, the scoring system's anti-hallucination rules prevent assigning damage scores to his many absent or altered book moments, severely limiting the damage assessment despite a low FP score of 33"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Corpus Scene 1-2 (Knight Bus scenes, PoA): Ernie Prang depicted as unnamed background driver",
-      "book_baseline": "Book establishes Ernie Prang as a named character with small but distinct personality: he is an elderly wizard in thick glasses who grunts monosyllabic responses ('Ar'), shudders at mention of Azkaban guards ('them Azkaban guards give me the collywobbles'), and engages minimally but distinctly with Stan and Harry throughout the ride",
-      "film_portrayal": "The film Knight Bus scenes contain no named 'Ernie Macmillan' \u2014 the film corpus shows Ernie Prang (the driver) is present but rendered as a purely functional, silent background figure described only as 'an unshaven wizard in thick glasses' with no dialogue, no name spoken, and no personality beats. All of the book's minor Ernie Prang characterization is absent. Note: Ernie Prang and Ernie Macmillan are different characters; the film corpus contains no appearance of Ernie Macmillan at all.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
+      "scene": "Film corpus scenes 1-2 (Knight Bus scenes, POA): Ernie Prang is a background driver with no characterization beyond physical description and minimal grunts",
+      "book_baseline": "Book corpus scenes 48-61: Ernie Prang is a distinct character with a name, personality traits (collywobbles about Azkaban guards, shivering at mention of them), dialogue exchanges with Stan, and an 'owlish face' that peers interestedly at Harry",
+      "film_portrayal": "Ernie Prang is entirely silent and undifferentiated in the film corpus \u2014 all dialogue and personality that belongs to him in the books (collywobbles line, shivering, conversational back-and-forth with Stan) is either cut or reassigned. The film corpus shows him only as a visual presence described as 'unshaven wizard in thick glasses' with no spoken lines attributed to him.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
       "impact_weight": 1,
-      "explanation": "Ernie Prang's small personality (collywobbles line, monosyllabic presence) is lost in the film rendering him purely functional, but this is a minor background character moment with low adaptation stakes."
+      "explanation": "Ernie Prang is a minor character and his absence from meaningful dialogue causes only local damage. His few book moments establish a warm, nervous personality that contrasts with Stan's bravado, but this is a small supporting role and its loss does not affect any major arc or relationship."
     }
   ],
   "confidence": {
@@ -30,6 +30,6 @@
   },
   "meta": {
     "model": "claude-sonnet-4.6",
-    "prompt_version": "2.0"
+    "prompt_version": "2.1"
   }
 }

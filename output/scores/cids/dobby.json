@@ -1,117 +1,161 @@
 {
   "character": "Dobby",
-  "fp_score": 78.0,
-  "infidelity_score": 22.0,
-  "weighted_infidelity_exposure": 25.0,
-  "cids": 155.1,
-  "damage_per_exposure": 17.2,
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 41.5,
+  "cids": 219.1,
+  "damage_per_exposure": 14.1,
   "structural_damage_level": 4,
-  "adjusted_cids": 155.1,
+  "adjusted_cids": 219.1,
   "main_damage_causes": [
-    "Complete omission of Dobby's GoF/OotP/HBP appearances removes the arc of his growth as a free elf and his deepening friendship with Harry, making his death an emotional event without adequate foundation",
-    "Consistent use of Dobby as comic relief (bouncing on bed, 'maim or seriously injure') undercuts his earnestness and the political seriousness of his enslavement, reducing him from a thematically significant character to a mascot",
-    "Removal of Dobby's key acts of agency (gillyweed, DA warning, Malfoy surveillance) strips him of the narrative function that justifies his importance and makes his sacrifice feel proportionate"
+    "Wholesale absence from three films (GoF, OotP, HBP) eliminates the entire arc of Dobby as a joyful free elf, his deepening friendship with Harry, and multiple plot-critical contributions, making his death in DH emotionally under-earned for film audiences.",
+    "Transfer of Dobby's key plot functions (gillyweed, Room of Requirement reveal, Malfoy surveillance) to other characters (Neville, Kreacher) systematically strips him of agency and reduces him to a cameo figure rather than a recurring ally.",
+    "Compression and tonal shifts in CoS and DH scenes \u2014 particularly the loss of the free-elf liberation speech, the clue-giving revelation, and the gravestone-carving \u2014 flatten Dobby's moral complexity, ingenuity, and the thematic weight of his arc from enslaved creature to free elf who dies by his own choice."
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS Film - Dobby's first appearance (bedroom scene)",
-      "book_baseline": "Dobby arrives with quiet, nervous dignity. He sits on the bed when invited, weeps at being treated as an equal, and engages in a sustained emotional conversation with Harry about his enslavement, the plot, and his genuine care for Harry's safety. The scene is intimate and establishes Dobby's complex inner life.",
-      "film_portrayal": "Dobby bounces on the bed like a trampoline before Harry arrives, playing the scene for physical comedy. The emotional weight of being asked to sit as an equal is compressed and rushed. The sustained conversation about house-elf enslavement and Dobby's suffering is heavily truncated.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Dobby is earnest and emotionally complex from the first moment. The film's opening physical comedy undercuts the pathos of his situation before it can land."
-    },
-    {
-      "scene": "CoS Film - Dobby's warning scene: omission of letter-withholding motivation",
-      "book_baseline": "Dobby reveals he has been intercepting Harry's letters for months, using Harry's loneliness and belief his friends have forgotten him as leverage to keep him away from Hogwarts. This is a morally complex act \u2014 Dobby causes real harm out of genuine love, and Harry's anger is earned.",
-      "film_portrayal": "The letter interception is present but compressed. The full weight of Dobby having engineered Harry's emotional isolation all summer \u2014 and Harry's genuine fury \u2014 is not developed. The scene moves quickly to the pudding.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's Dobby is willing to hurt Harry emotionally to protect him physically \u2014 a morally interesting contradiction. The film softens this, reducing Dobby's moral complexity."
-    },
-    {
-      "scene": "CoS Film - Pudding scene: Dobby drops pudding on the Masons",
-      "book_baseline": "The pudding falls and splatters only on the kitchen floor/walls. The Masons are not directly hit. The disaster is contained to the Dursleys' humiliation with their guests.",
-      "film_portrayal": "The pudding falls directly onto the Masons, covering them head to foot. They flee immediately. This is played as broad slapstick.",
+      "scene": "CoS Film Scene 1 / Harry's bedroom - Dobby jumping on the bed",
+      "book_baseline": "Book establishes Dobby entering quietly and sitting nervously, matching the tone of a creature terrified of his own disobedience but earnestly compelled to warn Harry. His first appearance is solemn and reverent, not playful.",
+      "film_portrayal": "Dobby is jumping on Harry's bed like a trampoline when Harry enters, presenting him as immediately comic and undignified before any emotional weight is established.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor tonal shift \u2014 the film amplifies the comedy at the expense of the book's more grounded consequence. Low damage but consistent with a pattern of playing Dobby for laughs."
+      "explanation": "A brief but tone-setting divergence. The book's Dobby enters with solemnity befitting the gravity of his mission; the film opens with slapstick. Minor because the scene quickly recovers the earnest emotional register."
     },
     {
-      "scene": "CoS Film - Hospital wing scene: Dobby's confession about the Bludger",
-      "book_baseline": "Dobby delivers a lengthy, emotionally rich speech about what Harry means to house-elves, the Dark Days, and why he cannot let Harry stay. He explicitly connects Harry's survival to hope for all enslaved magical creatures. This is Dobby's most politically and emotionally significant speech in CoS.",
-      "film_portrayal": "The speech is drastically cut. Dobby says only that house-elves were treated like vermin and that Harry triumphed. The broader political dimension \u2014 Dobby as representative of an oppressed class for whom Harry is a symbol of hope \u2014 is almost entirely absent.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This speech is the thematic core of Dobby's function in CoS: he is not just a comic sidekick but a representative of magical slavery. Cutting it removes the political dimension of his character and weakens the house-elf arc that runs through the entire saga."
-    },
-    {
-      "scene": "CoS Film - Dobby's signalling scene in Dumbledore's office",
-      "book_baseline": "Dobby silently and repeatedly signals Harry \u2014 pointing at the diary, then at Lucius Malfoy, then hitting himself \u2014 giving Harry the crucial clue that Lucius planted the diary. Harry reads the signals and acts on them. Dobby is an active agent in exposing Lucius.",
-      "film_portrayal": "Dobby nods meaningfully from the diary to Lucius, and Harry notices. The signalling is present but compressed to a single beat rather than the sustained, desperate pantomime of the book.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book gives Dobby genuine narrative agency in the resolution \u2014 he is the one who tips Harry off. The film preserves this but reduces its dramatic weight."
-    },
-    {
-      "scene": "CoS Film - Dobby's freeing scene: Lucius's threat and Dobby's response",
-      "book_baseline": "After being freed, Dobby confronts Lucius with fierce, repeated commands: 'You shall not harm Harry Potter. You shall go now.' He blasts Lucius down the stairs and stands over him pointing, forcing him to leave. Dobby is genuinely formidable and protective.",
-      "film_portrayal": "Dobby steps between Harry and Lucius and blasts him with a single bang. Lucius then delivers a threat to Harry ('You'll meet the same sticky end as your parents') before leaving. The scene is shorter and Dobby's commanding presence is reduced to a single defensive act.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's Dobby is genuinely powerful and authoritative in this moment \u2014 he doesn't just defend, he commands. The film reduces this to a single blast, and then cedes the scene's final beat to Lucius's threat rather than Dobby's triumph."
-    },
-    {
-      "scene": "CoS Film - Absence of Dobby's clue explanation at the end",
-      "book_baseline": "After being freed, Dobby explains to Harry that his denial that the plot involved 'He-Who-Must-Not-Be-Named' was itself a clue \u2014 Voldemort, before he changed his name, could be freely named. This shows Dobby's intelligence and his careful navigation of his constraints.",
-      "film_portrayal": "This exchange is entirely absent. The film ends with Dobby's freedom and Harry's instruction never to save his life again.",
+      "scene": "CoS Film Scene 1 / Harry's bedroom - Dobby's self-punishment on the floor",
+      "book_baseline": "Book has Dobby bang his head on the window and then the wall, with Harry physically intervening and restraining him. The self-punishment is disturbing and pathetic, underscoring the horror of Dobby's enslavement.",
+      "film_portrayal": "Dobby bangs his head on the floor rather than the wall/window, and the staging is played more broadly for comedy (eyes spinning dizzily). The restraint and the deeper horror of enslavement are de-emphasised.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A small but telling omission \u2014 it removes evidence of Dobby's cleverness and his active effort to help Harry within his constraints."
+      "explanation": "A minor staging shift that tilts the self-punishment away from disturbing pathos toward slapstick. Slightly undermines the book's darker portrait of what enslavement does to Dobby psychologically."
     },
     {
-      "scene": "GoF/OotP/HBP - Dobby's entire post-CoS arc (Hogwarts kitchen, wages, socks, DA warning, Malfoy surveillance) is absent from films",
-      "book_baseline": "Books 4-6 develop Dobby extensively: he works at Hogwarts for wages, wears eccentric clothes, gives Harry gillyweed saving the second task, warns the DA about Umbridge, tails Draco for Harry, and defends Harry against Kreacher. He is a recurring presence with genuine friendship, growth, and agency.",
-      "film_portrayal": "Dobby disappears entirely after CoS and reappears only in Deathly Hallows Part 1. All of his GoF, OotP, and HBP appearances are cut. The gillyweed is given to Neville in GoF. The DA warning is absent. The Malfoy surveillance is absent.",
+      "scene": "CoS Film Scene 1 / Harry's bedroom - Dobby's warning and letter-withholding revelation",
+      "book_baseline": "Book has a full, layered exchange: Dobby reveals he has withheld Harry's letters as a manipulative tactic to make Harry believe his friends have forgotten him, showing cunning and desperation alongside genuine care. Harry's anger and Dobby's guilt are both clearly rendered. Dobby is shown to be a morally complex actor willing to deceive to protect.",
+      "film_portrayal": "The film retains this beat but compresses it, losing some of the emotional texture of Harry's hurt at being manipulated and Dobby's guilty, sly delivery of the line about friends not writing.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film hits the narrative beat but flattens the moral complexity of Dobby's deception. The book's Dobby is craftier and more conflicted here; the film rushes past it."
+    },
+    {
+      "scene": "CoS Film Scene 1 / Pudding scene - Dobby's agency and tragic expression",
+      "book_baseline": "Book has Dobby give Harry a 'tragic look' and say 'Then Dobby must do it, sir, for Harry Potter's own good,' before dropping the pudding. This frames the act as genuinely sorrowful coercion \u2014 Dobby is anguished at having to hurt Harry's standing.",
+      "film_portrayal": "The film preserves the line and the tragic expression but then has Dobby snap his fingers and the pudding fall directly onto the Masons (rather than onto the floor/kitchen as in the book), playing the consequence more broadly for comedy.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor staging choice that shifts the pudding scene's tone from desperate, pitiful act to broad comic set-piece, slightly diluting Dobby's anguish."
+    },
+    {
+      "scene": "CoS Film Scene 2 / Hospital wing night scene - Dobby omits Chamber of Secrets speech",
+      "book_baseline": "Book has Dobby deliver an extended, impassioned speech about what Harry's survival meant to house-elves \u2014 'If he knew what he means to us, to the lowly, the enslaved, we dregs of the magical world!' \u2014 explicitly connecting Harry's significance to the wider oppression of house-elves. This is a key moment establishing the political/moral stakes of Harry's story for non-human beings.",
+      "film_portrayal": "The film omits this speech entirely. Dobby explains the Bludger and references the Chamber repeating itself, but the connection to the broader house-elf condition and Harry as a symbol of liberation is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This speech is foundational to understanding why Dobby is so devoted to Harry beyond personal gratitude \u2014 it situates Harry as a figure of hope for an entire oppressed class. Its removal reduces Dobby's motivation to simple personal attachment and loses a thematic thread about liberation."
+    },
+    {
+      "scene": "CoS Film Scene 2 / Hospital wing night scene - Dobby's disclosure about Chamber",
+      "book_baseline": "Book has Dobby explicitly say 'now that the Chamber of Secrets is open once more' before catching himself and cracking the water jug on his own head. Harry then presses him about whether the Chamber has been opened before and who opened it last time, with Dobby clearly in agony about what he can and cannot say. This is a substantive, tense scene of partial revelation.",
+      "film_portrayal": "The film compresses this: Dobby says 'history is to repeat itself' and is then asked 'You mean, this has happened before?' before vanishing. The detail that the Chamber is 'open once more' (implying prior opening) and the tortured back-and-forth about who is responsible is truncated.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The compression loses some of the dramatic tension of Dobby's partial disclosures and his genuine torment at being bound to silence, but the core information survives."
+    },
+    {
+      "scene": "CoS Film Scene 3 / Dumbledore's office - Dobby dragged by ear, kicked by Lucius",
+      "book_baseline": "Book has Dobby arrive cowering behind Lucius's legs, carrying a stained rag to polish Malfoy's shoes, radiating abject terror. His bandaged hands (from ironing them as punishment) are mentioned. He watches the confrontation silently and communicates with Harry through meaningful looks and gestures. After Lucius kicks him through the door, Harry hears Dobby squealing in pain. The scene is harrowing in its depiction of Dobby's abuse.",
+      "film_portrayal": "The film retains the kick and the squealing but omits the bandaged hands (a visible physical mark of ongoing abuse), the shoe-polishing detail, and the full extent of Dobby's terrified body language during Lucius's confrontation with Dumbledore.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The bandaged hands are a concrete, visceral symbol of Dobby's ongoing punishment that the book planted in the hospital wing scene and pays off here. Their absence reduces the impact of the abuse being depicted."
+    },
+    {
+      "scene": "CoS Film Scene 3 / Corridor outside Dumbledore's office - Dobby's freedom and defensive magic",
+      "book_baseline": "Book has Dobby give a full, fierce speech after blasting Lucius: 'You shall not harm Harry Potter! You shall go now... You shall not touch Harry Potter. You shall go now.' He points 'threateningly' down at Lucius, forcing him to leave. This is Dobby's most overtly heroic and assertive moment in the book, showing he has genuine power and will use it decisively to protect Harry.",
+      "film_portrayal": "Film has Dobby simply step between Harry and Lucius and \u2014 with a BANG \u2014 blast Malfoy backwards, then deliver a shortened version: 'You shall not harm Harry Potter!' Lucius then delivers his parting threat to Harry before leaving. Dobby's extended commanding speech is cut and his follow-up defiant 'You shall go now' directives are absent.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Dobby is actively commanding and forcing Lucius to retreat through sheer will and power; the film's version is briefer and less assertive. The loss of the repeated 'You shall go now' commands diminishes the full expression of Dobby's liberated agency at this climactic moment."
+    },
+    {
+      "scene": "CoS Film Scene 3 / Corridor - Dobby's freedom revelation and sock clue explanation",
+      "book_baseline": "Book has a coda where Harry asks Dobby about the lie that the plot had nothing to do with Voldemort, and Dobby explains it was a clue: 'Was giving you a clue. The Dark Lord, before he changed his name, could be freely named, you see?' This shows Dobby's hidden ingenuity \u2014 he was working within the constraints of his enslavement to give Harry as much information as possible.",
+      "film_portrayal": "This exchange is entirely absent from the film. The scene ends with Dobby's freedom and Harry's instruction to 'never try to save my life again.'",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The clue-giving revelation reframes Dobby's earlier cryptic behaviour as cleverness rather than mere evasion. It shows Dobby was a more active, intelligent ally than he appeared, navigating his constraints with ingenuity. Its loss makes Dobby seem less resourceful."
+    },
+    {
+      "scene": "DH Part 1 Film Scenes 4-7 / Malfoy Manor rescue - Dobby's characterisation compressed",
+      "book_baseline": "Book has an extended, emotionally rich sequence: Dobby arrives trembling and petrified to be back in the Malfoys' home ('it was clear that he was petrified'), yet pushes through this terror. He takes multiple actions \u2014 dropping the chandelier, Disapparating groups of prisoners, confronting Bellatrix and Narcissa, disarming Narcissa. He also tries to help steer Harry during the Disapparition. The full weight of his personal courage \u2014 returning to the place of his enslavement \u2014 is foregrounded.",
+      "film_portrayal": "The film retains the key actions but compresses Dobby's internal terror at being back at the Malfoys'. The detail that he is shaking and petrified to be in his former masters' home is present but less dwelt upon. His line 'Dobby meant only to maim or seriously injure, not kill' is a film-added line (not in book corpus) that injects dark humour into what is a more purely heroic moment in the book.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's added comic line ('meant only to maim or seriously injure') undercuts the gravitas of Dobby's courageous return to his place of torment. The book's version is purely heroic at this moment; the film tips it into comedy, slightly diminishing the emotional stakes of his bravery."
+    },
+    {
+      "scene": "DH Part 1 Film Scene 8 / Shell Cottage - Dobby's death",
+      "book_baseline": "Book has Harry physically lay Dobby on the grass, cry 'Dobby \u2014 no \u2014 HELP!', cradle him as he dies, hear his last words ('Harry... Potter...'), and then spend an extended passage digging the grave by hand as an act of grief and tribute. Harry's grief is described as diminishing Voldemort's intrusion on his mind. The death functions as a major emotional turning point that steels Harry's resolve.",
+      "film_portrayal": "The film retains the death scene with reasonable fidelity: Dobby's last words, Harry catching him, the dagger, the grave. The manual grave-digging is preserved. Luna closes his eyes (as in the book). The scene is well-executed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film handles Dobby's death well. Minor losses include the extended book passage about grief driving out Voldemort and the full graveside speeches from Ron and Dean, but the core emotional beat is intact. The excluded scene (Luna at the grave) removes some resonance but per the instructions this is treated as absent."
+    },
+    {
+      "scene": "DH Part 1 Film Scene 8 / Shell Cottage - Absence of gravestone inscription moment",
+      "book_baseline": "Book has Harry carefully carve 'HERE LIES DOBBY, A FREE ELF' into the stone himself, choosing a shorter wand that 'felt friendlier,' deliberately performing this act manually. This is a loaded moment \u2014 Harry inscribing Dobby's identity as a free being is the culmination of Dobby's arc from enslaved house-elf to free elf who dies in service of his own choice.",
+      "film_portrayal": "The film shows the gravestone with the inscription but does not show Harry carving it. The stone simply appears. The deliberate, meaningful act of Harry personally inscribing 'A FREE ELF' is lost.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The act of carving the inscription is not merely decorative \u2014 it is Harry's conscious, effortful tribute to Dobby's identity as a free being, closing the arc that began when Harry freed him. The film's omission of this act loses the closure of Dobby's thematic arc and Harry's role in completing it."
+    },
+    {
+      "scene": "Goblet of Fire / Entire film - Dobby absent from film",
+      "book_baseline": "Book has Dobby appear prominently in GoF: at the Quidditch World Cup (via Winky's mention of him), working in the Hogwarts kitchens for wages as a free elf, exchanging Christmas presents with Harry, and crucially providing Harry with gillyweed that saves his life in the second task. Dobby also steals the gillyweed from Snape's stores. His arc as a free, wage-earning, joyful elf is fully developed.",
+      "film_portrayal": "Dobby is entirely absent from the Goblet of Fire film. The gillyweed is provided by Neville Longbottom instead. All of Dobby's appearances, his free-elf characterisation, his friendship with Harry, and his role in the second task are absent.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This is the most damaging single omission. Without the intervening books, Dobby's death in DH1 lacks the accumulated emotional weight of years of friendship and loyalty. The audience has not seen him grow into a free elf, has not seen his relationship with Harry deepen, and has not seen him act with increasing courage and agency. His death consequently lands as the loss of a minor character rather than a beloved friend. The transfer of the gillyweed to Neville also removes one of Dobby's most significant acts of agency."
+      "explanation": "This is the largest single structural loss in Dobby's adaptation. GoF is the book where Dobby flourishes as a free elf \u2014 joyful, employed, making choices, giving gifts, saving Harry through his own initiative. His transfer of agency (gillyweed) to Neville removes a key moment where Dobby's freedom and ingenuity directly affect the plot. The warm friendship between Dobby and Harry developed across multiple GoF scenes is entirely absent, making the emotional weight of Dobby's death in DH less earned for film-only audiences."
     },
     {
-      "scene": "DH1 Film - Dobby's rescue at Malfoy Manor: 'meant only to maim or seriously injure'",
-      "book_baseline": "Dobby shouts 'You shall not hurt Harry Potter!' and drops the chandelier. He is fierce and unambiguous in his defiance of his former masters.",
-      "film_portrayal": "Dobby says 'Dobby meant only to maim or seriously injure, not kill.' This is played as a comic line.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "In what should be Dobby's most heroic and emotionally charged scene, the film inserts a comedy beat. This undercuts the gravity of his defiance and his sacrifice, and is tonally inconsistent with the scene's function as the setup for his death."
+      "scene": "Order of the Phoenix / Entire film - Dobby absent from film",
+      "book_baseline": "Book has Dobby appear multiple times: informing Harry about and showing him the Room of Requirement (a plot-critical contribution), decorating the DA room for Christmas, warning Harry about Umbridge's raid on the DA (arriving trembling at the DA meeting), and generally being a loyal presence who actively contributes to the DA storyline.",
+      "film_portrayal": "Dobby is entirely absent from the Order of the Phoenix film. Neville provides Harry with the information about the Room of Requirement instead. The DA warning scene is absent.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Dobby's role in revealing the Room of Requirement and warning about Umbridge are two significant plot contributions transferred entirely to other characters (Neville) or cut. This removes Dobby from a key phase of his arc as a free elf actively choosing to help Harry, and further weakens the foundation for his DH heroism. Film audiences have no sense of the ongoing friendship and trust between Dobby and Harry built across years."
     },
     {
-      "scene": "DH1 Film - Dobby's death scene",
-      "book_baseline": "Harry is devastated. He digs the grave by hand, refusing magic, as a gift to Dobby. He reflects on Dobby's meaning, on grief driving out Voldemort, on love. The grave inscription 'HERE LIES DOBBY, A FREE ELF' is Harry's own act of tribute. The scene is a major emotional and thematic turning point \u2014 Harry emerges from it with clarity and purpose.",
-      "film_portrayal": "The death scene is moving and largely faithful in its immediate beats. Harry digs the grave by hand. Luna closes Dobby's eyes and speaks. The gravestone is shown. However, the interior monologue \u2014 Harry's grief as a shield against Voldemort, the thematic weight of love and freedom \u2014 is necessarily absent, and the scene is shorter.",
-      "damage_type": "arc",
-      "exposure": 1,
+      "scene": "Half-Blood Prince / Entire film - Dobby absent from film",
+      "book_baseline": "Book has Dobby (and Kreacher) assigned by Harry to tail Draco Malfoy, a significant plot function. Dobby goes without sleep for a week out of devotion, reports back dutifully, and his intelligence-gathering directly informs Harry's understanding of Draco's activities. He also fights Kreacher on Harry's behalf.",
+      "film_portrayal": "Dobby is entirely absent from the Half-Blood Prince film. The surveillance of Malfoy by house-elves is cut entirely.",
+      "damage_type": "agency/function",
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The film handles the death with care, but because Dobby's arc has been absent for five films, the scene cannot carry the full weight it should. The thematic resonance \u2014 a free elf dying for the boy who freed him, grief as love \u2014 is present visually but lacks the foundation the books built. The damage here is primarily upstream (the missing arc) manifesting at the moment of payoff."
+      "explanation": "The Malfoy surveillance subplot gives Dobby meaningful plot agency in HBP \u2014 he is Harry's loyal operative. Its absence removes another chapter of Dobby's post-freedom characterisation and his active, chosen service to Harry as a free being."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "Medium",
+    "exposure_estimate": "High",
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 550.0,
-  "adjusted_cids_v1": 825.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

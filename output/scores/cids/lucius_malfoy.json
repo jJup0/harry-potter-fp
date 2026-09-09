@@ -1,170 +1,134 @@
 {
   "character": "Lucius Malfoy",
-  "fp_score": 71.0,
-  "infidelity_score": 29.0,
-  "weighted_infidelity_exposure": 31.0,
-  "cids": 199.4,
-  "damage_per_exposure": 14.2,
+  "fp_score": 68.0,
+  "infidelity_score": 32.0,
+  "weighted_infidelity_exposure": 25.0,
+  "cids": 206.8,
+  "damage_per_exposure": 19.7,
   "structural_damage_level": 3,
-  "adjusted_cids": 199.4,
+  "adjusted_cids": 206.8,
   "main_damage_causes": [
-    "Loss of Lucius's political intelligence and calculated double-life: the Borgin and Burkes speech about prudence, the Ministry corridor influence over Fudge, and the newspaper quote scene are either cut or compressed, reducing him from a sophisticated political operator to a theatrical bully",
-    "Theatrical villain additions (touching Harry's scar, kicking Dobby, 'while you can', 'Mark my words') replace the book's cold aristocratic menace with pantomime villainy, flattening his characterisation",
-    "The Malfoy family degradation arc (HBP imprisonment consequences, DH parental desperation) is compressed or stripped of its emotional motivation, weakening the payoff of their ambiguous redemption in the final act"
+    "Loss of Lucius's defining political intelligence and survival instinct \u2014 particularly the 'not prudent to appear less than fond of Harry Potter' line and the World Cup/Dark Mark rebuke specifics \u2014 reduces him from a calculating operator to a more generic aristocratic villain",
+    "The climactic arc moment of Lucius as a parent who has abandoned Voldemort's cause in favour of his son (book DH) is undermined by the film's final courtyard scene, where he still directs Draco to Voldemort's side, reversing the book's humanising conclusion",
+    "Voldemort's explicit naming of Lucius's true motive at the Boathouse ('you wish the battle to cease so you can find your son') \u2014 the single most humanising line Lucius receives in the saga \u2014 is absent, leaving his DH arc as fearful cowardice rather than a father's love"
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS Film Scene 1 - Borgin and Burkes: missing 'Touch nothing, Draco' and quelling look",
-      "book_baseline": "Lucius enters lazily, commands Draco with cold authority ('Touch nothing, Draco'), and delivers a quelling look when Draco complains about Harry - demonstrating controlled, patrician dominance over his son",
-      "film_portrayal": "The 'Touch nothing' command and the quelling look are absent; Lucius moves straight to business without establishing his cold parental authority",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss of the patrician control that defines Lucius's relationship with Draco; the scene still conveys his character adequately through other lines"
-    },
-    {
-      "scene": "CoS Film Scene 1 - Borgin and Burkes: missing political calculation speech",
-      "book_baseline": "Lucius explicitly warns Draco it is 'not prudent to appear less than fond of Harry Potter' - revealing his calculating political mind, his awareness of public image, and his double life as a Death Eater in hiding",
-      "film_portrayal": "This entire exchange is cut. The film Lucius goes straight to selling without revealing his political cunning or his awareness of the need to maintain a respectable facade",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This speech is the clearest book demonstration of Lucius's intelligence and his cynical double-life strategy. Its absence means the film never establishes him as a calculating political operator - only as a sneering bully. This undermines the later revelation that he has been manipulating the Ministry for years."
-    },
-    {
-      "scene": "CoS Film Scene 1 - Flourish and Blotts: touching Harry's scar",
-      "book_baseline": "Lucius does not touch Harry; he is coldly contemptuous and verbally cutting, maintaining aristocratic distance",
-      "film_portrayal": "Lucius reaches out and physically parts Harry's hair to reveal the scar, a tactile, invasive gesture that reads as theatrical villainy rather than cold aristocratic menace",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The gesture makes Lucius overtly theatrical and physically menacing in a way that undercuts his book characterisation as a man whose power comes from social and political dominance, not physical intimidation. It tips him toward pantomime villain."
-    },
-    {
-      "scene": "CoS Film Scene 1 - Flourish and Blotts: 'Mark my words' exit line",
-      "book_baseline": "After Dobby frees himself, Lucius lunges at Harry ('You've lost me my servant, boy!') and is repelled by Dobby. He then leaves with a last incensed stare - no parting speech",
-      "film_portrayal": "Lucius delivers a composed, threatening speech: 'Mark my words, Harry Potter. You'll meet the same sticky end as your parents one of these days. They were meddlesome fools too.' Then storms off",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "In the book Lucius is genuinely rattled and furious - he lunges physically. The film replaces this loss of composure with a cool, composed threat, making him seem more in control than he is and losing the moment where Harry genuinely gets under his skin. It also adds a direct threat to Harry's life that the book does not include here, making him cartoonishly villainous."
-    },
-    {
-      "scene": "CoS Film Scene 3 - Slytherin common room: Lucius quoted in newspaper",
-      "book_baseline": "No equivalent scene; Lucius's political attacks on Arthur Weasley are conveyed through the Borgin and Burkes scene and the Flourish and Blotts confrontation",
-      "film_portrayal": "Draco reads a Daily Prophet quote from Lucius attacking Arthur Weasley as 'unfit' and calling for the Muggle Protection Act to be scrapped - this is faithful to book characterisation and actually adds useful texture",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is largely faithful and not damaging; minor note only that it is a secondary source (newspaper quote) rather than direct characterisation, slightly flattening him to an off-screen political villain in this moment"
-    },
-    {
-      "scene": "CoS Film Scene 3 - Dumbledore's office finale: Lucius kicks Dobby",
-      "book_baseline": "Lucius is described as having his hand twitch toward his wand when cornered by Dumbledore, then turning to leave. He does not kick Dobby in the office - Dobby is at his ankles throughout and Lucius ignores him until called to leave",
-      "film_portrayal": "Lucius explicitly kicks Dobby through the door as he exits, with Dobby's painful squeals echoing in the corridor",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The kick is a piece of added cruelty that makes Lucius's abuse of Dobby explicit and cartoonish. The book's Lucius is cruel through neglect and contempt, not theatrical physical abuse in front of witnesses including Dumbledore. It reduces a complex class-based cruelty to simple sadism."
-    },
-    {
-      "scene": "GoF Film Scene 6/7 - Quidditch World Cup: 'Don't boast, Draco' and 'Do enjoy yourself while you can'",
-      "book_baseline": "Lucius nods sneeringly to Weasley, barely acknowledges Harry and company under Fudge's gaze, and is restrained by the Minister's presence. His contempt is expressed through pointed social condescension, not open threats",
-      "film_portrayal": "Lucius tells Draco 'Don't boast, there's no need with these people' (broadly faithful) but adds 'Do enjoy yourself, won't you? While you can' - a veiled threat delivered with a cold smile directly to Harry and the Weasleys",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The added 'while you can' is a knowing, theatrical villain line that foreshadows the Death Eater attack in a way the book Lucius would never risk in front of the Minister of Magic. It makes him reckless and overtly sinister rather than carefully controlled."
-    },
-    {
-      "scene": "GoF Film Scene 7 - Graveyard: Lucius unmasked by Voldemort",
-      "book_baseline": "Voldemort singles out Lucius by name ('my slippery friend'), accuses him of not trying to find him, references his exploits at the World Cup, and Lucius responds with swift, practiced excuses. Voldemort then rebukes him for running from the Dark Mark. The exchange establishes Lucius as a skilled political survivor who has been playing both sides",
-      "film_portrayal": "Voldemort pulls off Lucius's mask and Lucius falls to his knees. Lucius says 'My Lord, had I detected any sign, a whisper of your whereabouts...' and then delivers the line 'I assure you, my Lord, I have never renounced the old ways. The face I have been obliged to present each day since your absence - that is my true mask.' Voldemort dismisses him ('there were signs, and more than whispers')",
+      "scene": "CoS Film - Borgin and Burkes: omission of Lucius's political shrewdness and Draco discipline",
+      "book_baseline": "In the book, Lucius delivers a politically calculating speech to Borgin about Ministry raids and the Muggle Protection Act, names Arthur Weasley as a 'flea-bitten, Muggle-loving fool', and demonstrates cold, calculating intelligence. He also silences Draco's complaints about Harry with 'You have told me this at least a dozen times already' and warns it is 'not prudent to appear less than fond of Harry Potter' \u2014 showing sophisticated political survival instinct. He then haggles and conducts business with authority.",
+      "film_portrayal": "Per the non-theatrical material exclusion note, the Borgin and Burkes Draco-discipline scene (where Lucius quells Draco's Potter-obsession with a politically shrewd warning) is cut from the theatrical release. The theatrical film corpus shows only a truncated version of the Borgin visit: Lucius's dialogue about the Ministry raids survives, but the key line about it not being prudent to appear less than fond of Harry Potter \u2014 the clearest single demonstration of Lucius's political survival intelligence in the entire book \u2014 is absent.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film version is broadly faithful but loses the specific accusation about running from the Dark Mark at the World Cup, which in the book directly connects Lucius's cowardice to a specific act. The film Lucius's speech ('that is my true mask') is actually more eloquent and self-aware than the book version, slightly elevating him. Net damage is minor but the loss of the Dark Mark cowardice detail weakens the specific texture of his double life."
+      "explanation": "The excised line is the most concise encapsulation of Lucius's defining trait: he is a political survivor who masks his true allegiances behind social calculation. Losing it reduces him from a cunning operator to a straightforwardly contemptuous villain, flattening his complexity."
     },
     {
-      "scene": "OotP Film Scene 8 - Ministry of Magic corridor: Lucius with Fudge",
-      "book_baseline": "Harry is shocked and furious to see Lucius walking freely with Fudge after naming him as a Death Eater. Lucius is coolly contemptuous ('Patronus Potter'), makes a pointed remark about Harry 'wriggling out of tight holes', and Arthur Weasley later explains Lucius's long history of buying influence at the Ministry",
-      "film_portrayal": "This scene is substantially cut. Lucius appears only briefly at the World Cup and in the Department of Mysteries. The Ministry corridor encounter establishing his political influence over Fudge is absent from the film",
+      "scene": "CoS Film Scene 1 - Flourish and Blotts: Lucius touches Harry's scar and taunts him",
+      "book_baseline": "In the book, Lucius's confrontation at Flourish and Blotts is entirely verbal and social. He does not physically touch Harry. He sneers at the Weasleys' poverty and the Grangers' Muggle status, using class contempt as his weapon. He never reaches out to handle Harry physically. The interaction is about social dominance and ideological contempt, conducted with aristocratic restraint.",
+      "film_portrayal": "The film has Lucius physically run his fingers across Harry's fringe to expose the lightning bolt scar \u2014 an intimate, tactile gesture \u2014 and deliver the line 'Forgive me, Mr. Potter. But your scar is legend. As, of course, is the wizard who gave it to you.' He then engages in a somewhat philosophical exchange about Voldemort's return, ending with the 'brave or foolish' line.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The physical touching of Harry is a significant personality departure. Book Lucius keeps contempt at an aristocratic, verbal distance \u2014 he would not demean himself by touching a boy he despises. The gesture makes film Lucius feel theatrically menacing rather than coldly superior. It also shifts his characterisation from class-based social contempt toward a more personal, almost fascinated antagonism with Harry, which is not the book relationship."
+    },
+    {
+      "scene": "CoS Film Scene 1 - Flourish and Blotts: Lucius slips diary into Ginny's cauldron without detection setup",
+      "book_baseline": "The book establishes (via Harry's later deduction and Dumbledore's confirmation) that Lucius used the moment of confronting the Weasleys at Flourish and Blotts to secretly plant the diary in Ginny's cauldron. The book corpus (Scene 53) shows Lucius reaching into Ginny's cauldron and extracting a battered textbook \u2014 the implication being this is also when he plants the diary. It is a moment of cold, calculated malice: using the public confrontation as cover for a covert Dark act.",
+      "film_portrayal": "In the film, Lucius is shown reaching into the cauldron and removing the battered textbook, then tossing it back with 'Here, girl. Take your book. It's the best your father can give you.' The diary planting is therefore implied to happen at this moment, but the film does not give Lucius any subtle visual acknowledgment of what he is doing. The entire moment reads as pure class contempt rather than a cover for a calculated criminal act.",
       "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book's Ministry corridor scene is crucial for establishing why Voldemort's return goes unacknowledged - Lucius's influence over Fudge is a structural element of the political plot. Its absence means the film never shows Lucius as a political operator corrupting the Ministry, reducing him to a combat Death Eater in the DoM sequence only."
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The dual-purpose nature of the moment \u2014 public contempt masking a covert criminal act \u2014 is a defining demonstration of Lucius's intelligence and ruthlessness. The film treats it purely as a contempt display, losing the layer of calculated villainy that makes his later exposure so satisfying."
     },
     {
-      "scene": "OotP Film Scene 9/10 - Department of Mysteries: Lucius leading Death Eaters",
-      "book_baseline": "Lucius is the commanding Death Eater throughout - he organises the pursuit ('split into pairs'), delivers the 'your race is run' speech, taunts Neville about his grandmother, and is clearly in charge of the operation. He is cool, controlled, and professionally menacing",
-      "film_portrayal": "Lucius appears and removes his hood, delivers 'Did you actually believe children stood a chance against us?' and 'Give me the prophecy now, or watch your friends die.' He is present but the extended command sequences and individual taunts (Neville's grandmother) are compressed or cut",
+      "scene": "CoS Film Scene 3 - Dumbledore's Office: Lucius enters in fury, Dobby scene, sock trick",
+      "book_baseline": "The book describes Lucius arriving in a fury, dishevelled, with Dobby still cleaning his shoes \u2014 details that show his rushed, uncharacteristic loss of composure. He stands frozen with hand twitching toward his wand when Dumbledore implies he planted the diary. When Harry tricks him into freeing Dobby, he lunges at Harry yelling 'You've lost me my servant, boy!' and must be restrained by Dobby. He then leaves with a 'last, incensed stare' \u2014 his control utterly shattered.",
+      "film_portrayal": "The film shows Lucius arriving and being wrong-footed by Dumbledore's return, delivering 'From the beginning, my only concern has been the welfare of this school and its students.' When confronted with the diary implication he gives a chilly 'Prove it!' He then kicks Dobby through the door. After the sock trick, he charges at Harry saying 'You've lost me my servant!' and is blasted back by Dobby. His final line is the added threat: 'Mark my words, Harry Potter. You'll meet the same sticky end as your parents one of these days. They were meddlesome fools too.'",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film adds a composed, theatrical villain's threat ('Mark my words... meddlesome fools') as the exit line, replacing the book's image of Lucius genuinely stripped of composure and forced to flee by a free house-elf. The book moment is a humiliation; the film softens it into a dignified villain's parting shot. The book's Lucius is authentically rattled and diminished. The film's Lucius recovers his menace on the way out, reducing the cathartic quality of his defeat."
+    },
+    {
+      "scene": "CoS Film Scene 3 - Dumbledore's Office: Lucius kicks Dobby through the door",
+      "book_baseline": "The book does not describe Lucius kicking Dobby. Lucius says 'Come, Dobby \u2014 I said, come' and Dobby does not move because he is holding the sock. There is no kicking. Lucius's cruelty to Dobby is established throughout as psychological and structural (the house-elf system) rather than gratuitous physical violence in a public setting.",
+      "film_portrayal": "The film shows Lucius explicitly kicking Dobby through the door of Dumbledore's office while Harry, Dumbledore, and others watch.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While Lucius is certainly cruel to Dobby in the books, the public theatrical kicking in front of Dumbledore is inconsistent with his character as an aristocrat who maintains appearances. It makes him cartoonishly brutal rather than cold and calculating. It is a minor but real personality distortion."
+    },
+    {
+      "scene": "PoA Film Scene 4/5 - Buckbeak hearing: Lucius at the Committee",
+      "book_baseline": "The book establishes Lucius as operating through influence and intimidation behind the scenes \u2014 he 'stood up and said his bit' and the Committee did 'exactly what he told 'em.' Hagrid reports that Lucius 'threatened 'em, I expect' and that the executioner Macnair is an old pal of Malfoy's. Dumbledore himself says Lucius's influence is pervasive. This is Lucius exercising systemic power through corruption of institutions.",
+      "film_portrayal": "The film corpus (Scene 4) has Hagrid describe the hearing with Lucius getting up 'and said his bit \u2014 you know, how Buckbeak was a deadly dangerous beast.' The institutional corruption angle (threatening Committee members, Macnair being Malfoy's ally) is absent from the film corpus shown. The portrayal reduces to Lucius simply being a persuasive witness rather than a corrupter of the process.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Lucius's power in the books derives from his ability to corrupt institutions through money and intimidation. The Buckbeak case is the clearest demonstration of this in PoA. Losing the corruption angle reduces him to a loudmouthed complainer rather than a systemic threat \u2014 a meaningful reduction in his characterisation as a dangerous political operator."
+    },
+    {
+      "scene": "GoF Film Scene 7 - Graveyard: Lucius's Death Eater reunion, Voldemort's rebuke",
+      "book_baseline": "The book gives Lucius a specific, named confrontation with Voldemort in the graveyard circle. Voldemort calls him 'my slippery friend,' notes he 'still ready to take the lead in a spot of Muggle-torture' but that he never tried to find Voldemort, referencing his running from the Dark Mark at the World Cup. Lucius responds with a swift, desperate denial ('I was constantly on the alert... nothing could have prevented me'). Voldemort rebukes him for running from the Mark. This is a precise, humiliating public dressing-down that establishes Lucius's double life and his cowardice within the Death Eater hierarchy.",
+      "film_portrayal": "The film (Scene 7) shows Voldemort unmasking Lucius ('Not even you, Lucius') and Lucius responding: 'My Lord, had I detected any sign; a whisper of your whereabouts \u2013 ' before being cut off by Voldemort's 'Oh, there were signs, my slippery friend, and more than whispers!' Lucius then delivers: 'I assure you, my Lord, I have never renounced the old ways! The face I have been obliged to present each day since your absence, that is my true mask.' Voldemort moves on without the specific rebuke about running from the Dark Mark at the World Cup.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's specific rebuke \u2014 'you ran from my Mark... you have disappointed me' \u2014 establishes Lucius as a coward who flinched when tested and is now desperately flattering Voldemort to recover standing. The film replaces this with Lucius delivering an almost dignified statement of loyalty ('that is my true mask'), which inadvertently makes him sound more committed and less hypocritically self-serving than the book intends. The humiliation is softened, and his characteristic survival-at-all-costs cowardice is underplayed."
+    },
+    {
+      "scene": "OotP Film Scene 8 - Ministry corridor: Lucius with Fudge",
+      "book_baseline": "The book establishes in detail that Lucius Malfoy spends money on institutions ('giving generously to all sorts of things for years... gets him in with the right people... then he can ask favours... delay laws he doesn't want passed') and uses this access to corrupt the Ministry. Arthur Weasley explicitly explains the mechanism of Lucius's influence to Harry. The Ministry encounter reveals Lucius operating his corruption network in real time.",
+      "film_portrayal": "The film (Scene 8) shows Lucius and Fudge in conversation on Level Nine before moving to Fudge's office, with Arthur noting Lucius was there. The systematic explanation of how Lucius buys influence \u2014 Arthur's speech about generous contributions and delayed laws \u2014 does not appear in the film corpus shown.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Arthur's explanation of Lucius's corruption mechanism is one of the book's clearest articulations of how dark wizard families maintain power in a nominally democratic society. Its absence means the film audience does not understand the structural threat Lucius represents \u2014 he becomes a personal menace rather than a systemic one."
+    },
+    {
+      "scene": "OotP Film Scene 9/10 - Department of Mysteries: Lucius commanding the Death Eaters",
+      "book_baseline": "In the book, Lucius is firmly in command of the Death Eater operation in the Department of Mysteries. He commands the group tactically ('Leave Nott, leave him... Jugson, come back here, we need to organise! We'll split into pairs...'), negotiates with Harry about the prophecy with cold intelligence, and maintains authority over Bellatrix. He is the designated mission leader.",
+      "film_portrayal": "The film (Scenes 9 and 10) shows Lucius confronting Harry and asking for the prophecy, but his tactical command of the Death Eater group ('splitting into pairs,' ordering specific Death Eaters) is absent. Bellatrix is visually and dramatically dominant in the sequence. When the Order arrives, Lucius's wand is disarmed and he is relatively quickly neutralised. The film gives Bellatrix the dominant presence in the battle.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film retains Lucius's leadership role but compresses it significantly. The loss of his tactical command dialogue and the Neville taunt reduces his menace and competence. He is present but less dominant than the book establishes."
+      "impact_weight": 3,
+      "explanation": "Lucius's role as mission commander is a key demonstration of his standing in Voldemort's hierarchy and his operational capability. In the film, Bellatrix dominates the sequence dramatically, which \u2014 combined with Lucius's relatively quick defeat \u2014 reduces him from a capable leader to a secondary presence. His humiliating arrest loses some weight because his command authority was never fully established."
     },
     {
-      "scene": "OotP Film Scene 10 - Department of Mysteries: Lucius stunned by Harry",
-      "book_baseline": "Lucius is disarmed during the Order's arrival and the general battle; he is not specifically singled out as being stunned by Harry",
-      "film_portrayal": "Harry specifically stuns Lucius with 'Expelliarmus' during the battle, and Lucius is shown falling. Later in DH1, Harry stuns him again at Malfoy Manor",
-      "damage_type": "personality/voice",
+      "scene": "DH1 Film Scene 13 - Malfoy Manor drawing room: Lucius's degradation under Voldemort",
+      "book_baseline": "The book opens DH with Lucius visibly physically deteriorated \u2014 'skin appeared yellowish and waxy,' 'eyes sunken and shadowed,' voice 'hoarse.' He is publicly humiliated when Voldemort takes his wand and taunts him ('Such lies, Lucius'). His hand shakes as he wipes sweat from his lip. Narcissa's brief touch on his wrist is his only comfort. He is a broken man.",
+      "film_portrayal": "The film (Scene 13) shows Lucius 'sallow and beaten' being asked for his wand. He rolls it across the table after Narcissa nods. Voldemort taunts him ('You can't possibly think I would give you my wand... How do you live with yourself, Lucius?'). The visual degradation is present, but certain specific humiliations from the book \u2014 Voldemort noting the Malfoys look unhappy, 'Why do the Malfoys look so unhappy with their lot?', Lucius's hand shaking as he wipes sweat \u2014 are condensed. However, the core dynamic is substantially intact in the film corpus.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor: making Harry personally responsible for defeating Lucius twice is a small dramatic simplification but not significantly damaging"
+      "explanation": "The film captures the broad strokes of Lucius's degradation but slightly reduces the specificity of his physical terror and Voldemort's prolonged sadistic attention to the Malfoy family's discomfort. Minor damage only, as the essential dynamic is present."
     },
     {
-      "scene": "HBP Film Scene 11/12 - Lucius's arrest shown via newspaper",
-      "book_baseline": "Lucius's arrest and imprisonment in Azkaban following the DoM battle is referenced in dialogue (Narcissa visits Snape because 'Lucius is in jail'). His fall from grace and Voldemort's punishment of the family through Draco's mission is a major arc element",
-      "film_portrayal": "Lucius's arrest is shown via a newspaper photograph at a train station. The film does not dramatise the consequences for the Malfoy family or Voldemort's anger at Lucius's failure in any meaningful way",
+      "scene": "DH1 Film Scene 17/18 - Malfoy Manor arrival: Lucius eagerly wanting to summon Voldemort",
+      "book_baseline": "The book shows Lucius as desperately, almost pathetically eager when he thinks Harry has been caught \u2014 'Harry had never heard Lucius Malfoy so excited' \u2014 and he physically grabs Bellatrix's wrist to prevent her from summoning Voldemort before him ('Potter has been brought to my house, and it is therefore upon my authority'). This is a man so broken and desperate for redemption that he fights his sister-in-law for the right to deliver Harry. It is simultaneously pitiable and revealing.",
+      "film_portrayal": "The film (Scenes 17/18) shows Lucius stepping forward to tell Draco 'If we're the ones who hand Potter over to the Dark Lord, everything will be forgiven' and being told to stand back by Bellatrix. He later touches his Dark Mark to summon Voldemort. The specific struggle with Bellatrix over who has the authority to summon \u2014 with its revelation of Lucius's desperate need for redemption \u2014 is significantly compressed, with Bellatrix immediately dominant and Lucius relatively passive.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Lucius at Malfoy Manor is a fascinatingly pitiable figure \u2014 his desperation to redeem himself in Voldemort's eyes by personally delivering Harry is his defining character moment in DH. The film reduces this to a comparatively mild statement to Draco, then has Lucius summarily pushed aside. The audience does not feel the depth of his fallen desperation, which is central to understanding his arc."
+    },
+    {
+      "scene": "DH2 Film Scene 22 - Boathouse: Lucius asking Voldemort to call off the battle",
+      "book_baseline": "In the book, Lucius sits in the dark, 'ragged and still bearing the marks of the punishment he had received,' one eye puffy and closed, and desperately pleads for news of his son. When Voldemort dismisses him coldly, he still asks \u2014 trembling \u2014 whether it would be more prudent to call off the battle and seek Harry himself. Voldemort sees through him instantly: 'Do not pretend, Lucius. You wish the battle to cease so that you can discover what has happened to your son.' The exchange humanises Lucius through his parental desperation while exposing his now-total powerlessness.",
+      "film_portrayal": "The film (Scene 22) shows Lucius asking 'Forgive me, my Lord, but wouldn't it be more prudent to call off this battle and seek the boy yourself?' Voldemort responds 'I do not need to seek the boy!' Voldemort then asks 'How do you live with yourself, Lucius?' before dismissing him to find Snape. The explicit book moment where Voldemort names Lucius's true motive (parental love for Draco) \u2014 the single most humanising moment Lucius receives in the entire saga \u2014 is absent from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Voldemort's 'Do not pretend, Lucius \u2014 you wish the battle to cease so you can find your son' is the book's most humanising line for Lucius. It reframes his entire DH arc as a father's love overcoming ideology. Its absence means the film Lucius reads as simply a frightened coward rather than a man whose parental love has become his defining trait. This is significant arc damage."
+    },
+    {
+      "scene": "DH2 Film Scene 24 - Final courtyard: Lucius calling Draco to Voldemort's side",
+      "book_baseline": "In the book's equivalent moment, Lucius and Narcissa are described as 'running through the crowd, not even attempting to fight, screaming for their son' \u2014 a final image of two people whose ideology has completely collapsed in favour of pure parental survival. They have abandoned Voldemort's cause entirely and are simply parents looking for their child.",
+      "film_portrayal": "The film (Scene 24) shows Lucius calling 'Draco' and nodding him forward to Voldemort's side with 'Draco, don't be stupid.' He is actively directing his son to cross to the Death Eater faction, framing it as a rational survival choice. Narcissa then calls 'Come, Draco' in a quiet, absolute tone. The film's Lucius is still operating as a Death Eater loyalist directing his son, rather than the book's frantic parent who has abandoned ideology.",
       "damage_type": "arc",
       "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's HBP arc for Lucius - imprisoned, disgraced, his son given a suicide mission as punishment - is the culmination of his entire trajectory from powerful Death Eater to broken man. The film reduces this to a newspaper headline, losing the arc that makes the DH Malfoy family scenes meaningful."
-    },
-    {
-      "scene": "DH1 Film Scene 13 - Malfoy Manor meeting: Lucius's wand surrender",
-      "book_baseline": "Lucius's skin is yellowish and waxy, his eyes sunken. He makes an involuntary movement expecting to receive Voldemort's wand in exchange - a gesture of pathetic hope that Voldemort mocks with 'Give you my wand, Lucius? My wand?' His hand shakes as he wipes sweat. He is utterly broken",
-      "film_portrayal": "Lucius is shown as haggard and beaten. He rolls the wand across the table after Narcissa's nod. Voldemort's 'My wand?' mockery is present. The scene is broadly faithful but Lucius has fewer lines and his internal degradation is conveyed visually rather than through the extended humiliation dialogue",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film captures the visual degradation but loses some of the specific dialogue that makes Lucius's fall so complete - particularly Voldemort's extended questioning of why the Malfoys look unhappy. The scene works but is compressed."
-    },
-    {
-      "scene": "DH1 Film Scene 17/18 - Malfoy Manor capture: Lucius's excited identification of Harry",
-      "book_baseline": "Lucius is described as 'avid' and excited in a way Harry has never heard before - 'Draco, if we are the ones who hand Potter over to the Dark Lord, everything will be forgiven.' He is desperate, pathetically eager, circling Harry to examine him. This is the most undignified we ever see him",
-      "film_portrayal": "Lucius says 'Look close, Draco. If we're the ones who hand Potter over to the Dark Lord, everything will be forgiven' but is then immediately shut down by Scabior and Bellatrix. He staggers back 'nervously next to his wife' and is largely sidelined for the rest of the scene",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film captures the desperation but Lucius is quickly marginalised by Bellatrix. The book's extended scene of Lucius physically circling Harry, his avid excitement, his attempt to summon Voldemort himself and his confrontation with Bellatrix over who gets credit - all of this is compressed. The film loses the full portrait of his degradation and desperate bid for redemption."
-    },
-    {
-      "scene": "DH1 Film Scene 19 - Malfoy Manor escape: Lucius calls the Dark Mark",
-      "book_baseline": "In the book it is Lucius who attempts to touch his Dark Mark to summon Voldemort, and Bellatrix who stops him ('STOP! Do not touch it, we shall all perish'). This is a key moment - Lucius is still trying to assert authority and claim credit",
-      "film_portrayal": "In the film it is Lucius who touches his Dark Mark (pulling up his sleeve), not Bellatrix stopping him but rather the chandelier falling interrupting events. The dynamic is altered - Bellatrix's role in stopping him is lost",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss of the specific power dynamic between Lucius and Bellatrix in this moment, but the overall scene function is preserved"
-    },
-    {
-      "scene": "DH2 Film Scene 22 - Boathouse: Lucius asks Voldemort to call off the battle",
-      "book_baseline": "Lucius sits in the darkest corner, ragged, one eye still swollen from punishment. He asks Voldemort to call off the battle not out of cowardice but out of desperate parental love for Draco. Voldemort sees through him immediately: 'Do not pretend, Lucius. You wish the battle to cease so that you can discover what has happened to your son.' This is Lucius's most human moment",
-      "film_portrayal": "Lucius asks 'wouldn't it be more prudent to call off this battle and seek the boy yourself?' Voldemort responds 'I do not need to seek the boy' and then 'How do you live with yourself, Lucius?' before dismissing him to find Snape. The parental motivation is absent - it reads as strategic advice rather than a father's desperation",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's boathouse scene is Lucius's most humanising moment - his love for Draco breaking through his servility. The film removes this motivation entirely, making his question read as tactical rather than parental. Voldemort's 'how do you live with yourself' is a film addition that makes Lucius seem more pathetic without the compensating humanity of the parental love. This damages the Malfoy family arc."
-    },
-    {
-      "scene": "DH2 Film Scene 24 - Final battle courtyard: Lucius calling Draco to Voldemort's side",
-      "book_baseline": "In the book the Malfoys run through the crowd 'not even attempting to fight, screaming for their son' - they have already abandoned Voldemort's cause and are simply parents looking for their child",
-      "film_portrayal": "Lucius calls 'Draco' and nods for him to cross to Voldemort's side, with 'Draco, don't be stupid.' Narcissa then calls him more quietly. This reads as Lucius still trying to align with Voldemort for safety rather than purely parental desperation",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film's version is ambiguous - is Lucius calling Draco to Voldemort's side for safety or out of continued loyalty? The book is clear they have abandoned the cause. The film's Lucius still appears to be playing the political game rather than being purely a desperate father, slightly muddying his redemption arc."
+      "impact_weight": 4,
+      "explanation": "The book's final image of Lucius and Narcissa \u2014 screaming for their son, not fighting, having abandoned Voldemort \u2014 is the culmination of their arc from fanatical collaborators to parents who choose their child over their ideology. The film replaces this with Lucius still performing the role of Death Eater patriarch, directing Draco to Voldemort's side. This is a meaningful arc reversal at the climactic moment of his character journey. The book's Lucius has already internally defected; the film's Lucius appears still compliant, which undermines the arc established across the series."
     }
   ],
   "confidence": {
@@ -173,8 +137,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 899.0,
-  "adjusted_cids_v1": 1123.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -1,80 +1,125 @@
 {
   "character": "Gregory Goyle",
-  "fp_score": 58.0,
-  "infidelity_score": 42.0,
-  "weighted_infidelity_exposure": 8.0,
-  "cids": 166.4,
-  "damage_per_exposure": 37.0,
-  "structural_damage_level": 2,
-  "adjusted_cids": 166.4,
+  "fp_score": 67.0,
+  "infidelity_score": 33.0,
+  "weighted_infidelity_exposure": 27.5,
+  "cids": 219.3,
+  "damage_per_exposure": 18.3,
+  "structural_damage_level": 3,
+  "adjusted_cids": 219.3,
   "main_damage_causes": [
-    "Consistent reduction to silent background presence: across all films Goyle is given almost no dialogue or individual characterization, making him indistinguishable from Crabbe and erasing the specific texture of his stupidity, physical menace, and sycophancy that the books develop",
-    "Role swap with Crabbe in Deathly Hallows Part 2: Goyle is given Crabbe's death (Fiendfyre) and Crabbe's murderous agency, completely altering Goyle's actual fate and arc - in the books Goyle survives the Battle of Hogwarts",
-    "Loss of the Polyjuice interrogation characterization: the Chamber of Secrets scene where Malfoy contemptuously corrects Goyle's ignorance ('Azkaban - the wizard prison, Goyle') is cut, removing the clearest individual characterization Goyle receives in the early books"
+    "Crabbe-Goyle actor substitution in Deathly Hallows Part 2 fundamentally alters Goyle's narrative fate, transferring Crabbe's book-death to Goyle and eliminating his survival arc, which removes the small moral point of the trio rescuing even a bully",
+    "Systematic exclusion of the individualized characterization beats that distinguish Goyle from Crabbe (the dull eyes, the gorilla arms, the specific stupid reactions, the voice) reduces him to an indistinguishable background thug across all eight films",
+    "The Half-Blood Prince subplot of Goyle being Polyjuiced into a girl as a coerced lookout - which contextualizes his radicalization and provides his most nuanced characterization - is entirely absent, making his murderous turn in the Room of Requirement feel unmotivated"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film CoS Scene 5 - Polyjuice/Slytherin common room interrogation",
-      "book_baseline": "Goyle is established as slow-witted but physically imposing; Ron-as-Crabbe mimics Goyle's dull grunt and low intelligence. The book notes 'perhaps Crabbe and Goyle were always slow on the uptake.' Goyle's dullness is a consistent character trait played straight.",
-      "film_portrayal": "Goyle is reduced to a near-silent prop. The film compresses the interrogation and Goyle's characterization is entirely absent - he is simply a body in the cupboard. The 'Azkaban - the wizard prison, Goyle' exchange where Malfoy mocks Goyle's ignorance is cut entirely.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
+      "scene": "Chamber of Secrets - Polyjuice/Slytherin common room interrogation (film scenes 4-5)",
+      "book_baseline": "Books establish Goyle as a large, stupid, menacing physical presence who acts as Malfoy's loyal bodyguard. The drugging and impersonation sequence in the books gives Goyle modest but distinct characterization: his greedy eating, his dull expression, his bristly hair and gorilla arms described in detail, and Ron's observation that 'you don't know how bizarre it is to see Goyle thinking.' The books show Goyle's low-grunt voice, his thick wrists, his dull deep-set eyes, and his role as a recognizable physical type that Harry must convincingly inhabit.",
+      "film_portrayal": "The theatrical film omits the scenes where the real Crabbe and Goyle are drugged, dragged away, and locked in a cupboard (these are listed as excluded non-theatrical material). As a result, the film loses all of Goyle's direct characterization in this sequence. The Slytherin common room scene exists in the film but Goyle's specific physical traits, behavioral cues, and the humor derived from Ron mimicking his stupidity are absent from the theatrical cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The book uses the Polyjuice scene to establish Goyle's specific brand of stupidity through Malfoy's contemptuous corrections. Cutting this removes one of the few moments Goyle is characterized as an individual rather than a background figure."
+      "explanation": "The Polyjuice sequence is one of the only sustained moments in the early films where Goyle receives any individualized characterization beyond standing silently behind Malfoy. The book uses the transformation to vividly describe Goyle's physicality and stupidity in ways that make him a distinct (if minor) character. Losing the preparation scenes removes this material entirely from the theatrical adaptation."
     },
     {
-      "scene": "Film PoA Scene 9 - Shrieking Shack confrontation",
-      "book_baseline": "Crabbe and Goyle are described as frightened by the invisible mud-throwing near the Shrieking Shack - 'Their bulging muscles were no use against ghosts.' Goyle hops furiously trying to rub mud from his eyes. They flee in terror.",
-      "film_portrayal": "The film shows Crabbe and Goyle's knees giving out and falling headfirst into snow when Harry (invisible) trips them, then they simply run off. The specific comic detail of Goyle's helpless fury and the characterization of their physical toughness being useless against the unseen is lost.",
+      "scene": "Prisoner of Azkaban - Great Hall feast (film scene 6)",
+      "book_baseline": "Books establish Crabbe and Goyle as Malfoy's constant flanking presence, described as 'large and thuggish cronies' who respond to everything with dull chortling. Their presence is a consistent visual shorthand for Malfoy's social power and intimidation.",
+      "film_portrayal": "In film scene 6, Malfoy 'flanked by the ever-present Crabbe and Goyle' feigns a dead faint at the mention of dementors. Goyle is present but entirely silent and reactive, functioning purely as visual backdrop with no individualizing behavior.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent pattern: Goyle is reduced to a background prop. The book gives him slightly more texture even in crowd scenes (chortling, chuckling trollishly, sniggering) while the film renders him purely decorative."
+    },
+    {
+      "scene": "Prisoner of Azkaban - Hippogriff lesson (film scenes 7-8)",
+      "book_baseline": "Book establishes Crabbe and Goyle as actively plotting to disrupt the lesson ('Harry had a nasty feeling they were plotting how best to disrupt the lesson'), not listening to Hagrid's instructions, and looking 'deeply disappointed' when Harry succeeds. After Buckbeak slashes Malfoy, Crabbe and Goyle 'flexed their muscles threateningly.' Their menace and complicity in Slytherin group dynamics is active.",
+      "film_portrayal": "Film scene 8 shows Goyle laughing along with Malfoy and Crabbe at Harry's expense and being present when Malfoy approaches Buckbeak, but the specific behavioral beats - the plotting, the deep disappointment, the muscle-flexing threat after the injury - are absent. Goyle is a silent presence in the paddock.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of active menace characterization. The book's Goyle has slightly more villainous texture in this scene; the film's Goyle simply stands there."
+    },
+    {
+      "scene": "Prisoner of Azkaban - Shrieking Shack approach / snowball ambush (film scene 9)",
+      "book_baseline": "Book has Crabbe and Goyle looking scared when pelted with invisible snowballs under Harry's cloak - 'Their bulging muscles were no use against ghosts.' Goyle specifically 'hopped furiously on the spot, trying to rub it out of his small, dull eyes.' Then both run away in fear behind Malfoy when Harry reveals his floating head.",
+      "film_portrayal": "Film scene 9 compresses this: Crabbe and Goyle start toward Ron and Hermione threateningly but then their 'knees go out and they fall headfirst into the snow' before being sent stumbling over the rise. The specific detail of Goyle's frightened reaction and his rubbing mud from his eyes is lost, replaced by a more generic physical comedy pratfall.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of a small but telling character beat that showed Goyle's bravado collapsing when faced with something he couldn't punch."
+      "explanation": "The book's version of this scene gives Goyle a fleeting moment of individualized comic cowardice. The film version is funnier overall but strips the specific characterization of Goyle's frightened helplessness against the invisible threat."
     },
     {
-      "scene": "Film OotP Scene 18 - DA fireworks/Umbridge chaos",
-      "book_baseline": "Crabbe and Goyle are described as popping up wherever Harry went, 'slouching away looking disappointed when they saw him surrounded by people' - active antagonists during the Slytherin-Gryffindor tension. They flex muscles threateningly and act as physical enforcers.",
-      "film_portrayal": "Goyle is shown reacting comically to a firework - screaming and slapping it away - reducing him to slapstick comic relief with no menace. Crabbe gets hit by a firework too. The threatening physical presence is replaced with buffoonery.",
-      "damage_type": "personality/voice",
+      "scene": "Prisoner of Azkaban - Quidditch match Dementor disguise (film scene 13 context)",
+      "book_baseline": "Book scene 165: Goyle was standing underneath Malfoy, who was on Goyle's shoulders, all of them wearing Dementor robes to try to frighten Harry off his broom. McGonagall gives detention to all of them. Ron laughs watching Malfoy fight to extricate himself with 'Goyle's head still stuck inside it.' Goyle functions as a literal physical support structure for Malfoy's scheme - his body used as a prop - which is both humiliating and characteristic.",
+      "film_portrayal": "The film (scene 13 shows the Firebolt test outdoors; the Quidditch Dementor prank is not depicted in the provided film corpus). The scene does not appear to be present in the film corpus as provided.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Dementor disguise prank is a memorable scene where Goyle's physical bulk is used literally as scaffolding for Malfoy's scheme, and the aftermath image of Goyle's head stuck in robes is one of the funnier Goyle-specific beats in the books. Its absence removes one of the few scenes where Goyle's body and stupidity combine for a distinct comic-villainous moment."
+    },
+    {
+      "scene": "Goblet of Fire - Voldemort graveyard resurrection (film scene 15-16)",
+      "book_baseline": "In the graveyard scene, Voldemort calls out 'Crabbe... Goyle' among the Death Eaters who bow clumsily and mutter dully 'We will, Master...' implying the fathers of Crabbe and Goyle are present Death Eaters. This connects the Hogwarts bully duo to the wider Death Eater network and gives their menace at school a sinister ideological grounding.",
+      "film_portrayal": "Film scene 16 has Voldemort call out 'Crabbe! Gah, Macnair! Goyle!' when unmasking Death Eaters. This moment is present in the film corpus. However the film presents it as a quick beat without the 'bowed clumsily, muttering dully' characterization of the book's Death Eater fathers.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The connection between the Hogwarts Goyle and his Death Eater father is touched on in the film but the specific detail of clumsy, dull deference - which mirrors son Gregory's own characterization exactly - is lost. The parallel between father and son stupidity/servility is a small but meaningful piece of thematic characterization."
+    },
+    {
+      "scene": "Order of the Phoenix - Umbridge inspection of Care of Magical Creatures (film scene 18 context)",
+      "book_baseline": "Book scene: Goyle gives a stupid grin when Umbridge asks about injuries in the Care of Magical Creatures class, and Malfoy hastens to answer before Goyle can say something unhelpful. This is a small but telling moment - Goyle's instinct to grin stupidly, Malfoy's reflexive management of him.",
+      "film_portrayal": "This Umbridge inspection scene at Care of Magical Creatures does not appear to be present in the provided film corpus for Order of the Phoenix. The film corpus for OotP (scenes 17-19) does not include this specific beat.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The firework gag undercuts the physical menace Goyle carries in the books during this period of heightened tension, though it is a brief moment."
+      "explanation": "A minor moment of Goyle's characterization - the stupid grin, the almost-speaking - is lost. Small in isolation but part of the consistent pattern of trimming Goyle's marginal character beats."
     },
     {
-      "scene": "Film DH2 Scene 29 - Room of Requirement confrontation",
-      "book_baseline": "In the book, Goyle casts Avada Kedavra at Hermione (an attempted murder), disobeys Malfoy's explicit order not to kill, and starts the Fiendfyre that kills him. He speaks ('We was hiding in the corridor outside... What's a die-dum?'), shows gormless glee, and his defiance of Malfoy is a key character moment showing he has grown beyond being merely Malfoy's follower.",
-      "film_portrayal": "Goyle fires Avada Kedavra and starts the Fiendfyre (faithful so far), and says 'C'mon, Draco. Don't be a prat. Just do 'im.' He gets one line of dialogue. However, the film replaces Crabbe with Goyle in this scene (Crabbe dies in the book; the film kills Goyle instead and keeps Crabbe absent). This means Goyle's book death is transferred - he dies here - but the specific characterization of Crabbe's murderous independence is now attributed to Goyle.",
+      "scene": "Order of the Phoenix - Train ambush by DA members (book only, absent from film)",
+      "book_baseline": "Book: On the Hogwarts Express home, Malfoy, Crabbe and Goyle attempt to ambush Harry in the corridor. DA members in a nearby compartment see it through the glass and hex all three, leaving them looking like 'three gigantic slugs squeezed into Hogwarts uniform.' They are hoisted into the luggage rack. Ron notes 'Goyle's mum'll be really pleased, though. He's loads better-looking now.' This is one of Goyle's most extended scenes where he participates in active aggression and receives humiliating comeuppance.",
+      "film_portrayal": "This scene does not appear in the provided film corpus for Order of the Phoenix. The film omits the train ambush entirely.",
       "damage_type": "agency/function",
       "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The train ambush is one of the more active scenes for Goyle in the books - he participates in an unprovoked attack and is spectacularly humiliated. Its absence removes a moment where Goyle has genuine threatening agency followed by satisfying defeat, which is part of his function as a low-level antagonist throughout the series."
+    },
+    {
+      "scene": "Half-Blood Prince - Hogwarts Express compartment (film scenes 20-21)",
+      "book_baseline": "Book: In the Hogwarts Express compartment, Crabbe and Goyle are 'gawping at Malfoy' with 'mouths open like gargoyles' as Malfoy hints at his secret mission. 'Crabbe and Goyle were both sitting with their mouths open like gargoyles. Pansy was gazing down at Malfoy as though she had never seen anything so awe-inspiring.' Goyle pulling his trunk down hits the invisible Harry on the head, and Goyle 'threw the door open and muscled his way out into a crowd of second years, punching them aside.' These are active, individualized characterization beats.",
+      "film_portrayal": "Film scenes 20-21 show Crabbe and Goyle slumbering in a separate compartment. When the action moves to Malfoy's compartment, Goyle is present and silent. The specific gaping, the open-mouthed astonishment, the trunk hitting Harry, and the door-muscling exit are absent. Goyle's replacement character for the mission scenes (Blaise Zabini) takes narrative space that Goyle occupied in the book.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film partially transfers Goyle's role in the Half-Blood Prince train scene to Blaise Zabini, who becomes Malfoy's more articulate companion. Goyle's book characterization - the dumb gaping, the physical clumsiness that accidentally injures Harry - is replaced by an absence. The substitution diminishes Goyle's function as the stupid-but-dangerous physical sidekick in this crucial scene that establishes the year's threat."
+    },
+    {
+      "scene": "Half-Blood Prince - Malfoy uses Crabbe and Goyle as Polyjuiced lookouts (book only, absent from film)",
+      "book_baseline": "Books: Harry discovers that Malfoy is using Crabbe and Goyle transformed via Polyjuice Potion into young girls to stand guard outside the Room of Requirement. Ron's reaction: 'He's got Crabbe and Goyle transforming into girls? Blimey... no wonder they don't look too happy these days.' Harry speculates Malfoy controls them by showing them his Dark Mark. This gives Goyle a significant subplot function: his complicity in the mission, his degradation, and his coerced servitude under threat.",
+      "film_portrayal": "This subplot is absent from the provided film corpus. The film does not depict Goyle being used as a Polyjuiced lookout. The Room of Requirement surveillance is shown differently.",
+      "damage_type": "agency/function",
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The film swaps Crabbe and Goyle's roles in this scene (reportedly due to the actor playing Crabbe being unavailable). Goyle dies in the film doing what Crabbe does in the book. This means Goyle's actual book fate (surviving, being stunned by Hermione, slumping hopelessly in the corridor) is erased, and he is given Crabbe's death instead. The book's Goyle survives the Battle of Hogwarts; the film's Goyle dies in Fiendfyre. This is a significant structural change to the character's arc and fate."
+      "explanation": "This is a meaningful loss. The Polyjuiced lookout subplot gives Goyle his most nuanced characterization in the later books: he is degraded (transformed into a girl), coerced (implied through Dark Mark threat), and yet complicit. It contextualizes his later willingness to use Avada Kedavra in the Room of Requirement as the action of someone who has been progressively radicalized. Without this setup, Goyle's murderous turn in the Deathly Hallows feels more abrupt. The relationship between Malfoy's manipulation and Goyle's eventual independent violence is lost."
     },
     {
-      "scene": "Film DH2 Scene 25 - Dungeon cell escape",
-      "book_baseline": "Goyle has no equivalent scene in the book during the Battle of Hogwarts in a dungeon cell.",
-      "film_portrayal": "Goyle is shown 'ruthless, flinging Housemates aside' to escape the dungeon cell when a giant breaks through. Draco grabs him in the corridor. This is original film material.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film adds a brief moment of Goyle being physically ruthless in self-preservation, which is consistent with his character but not from the books. Low damage as it does not contradict established characterization significantly."
+      "scene": "Deathly Hallows Part 2 - Room of Requirement confrontation (film scenes 29)",
+      "book_baseline": "Book: In the Room of Requirement, Goyle speaks in 'surprisingly soft' voice 'like a small child promised a large bag of sweets' about being rewarded. He asks 'What's a die-dum?' with genuine stupidity. He fires Avada Kedavra twice, the second time at Hermione specifically. He sets the Fiendfyre ('Goyle set the bloody place on fire'). He ends up unconscious, rescued by Ron and Hermione, and survives. Crabbe dies in the book by casting Fiendfyre he cannot control.",
+      "film_portrayal": "Film scene 29: Goyle speaks ('C'mon, Draco. Don't be a prat. Just do 'im.') and fires Avada Kedavra. In the film, it is Goyle - not Crabbe - who casts the Fiendfyre and dies in it (confirmed by 'the flames devour Goyle' and 'Serves him right'). This is a deliberate substitution: Crabbe's death from the books is transferred to Goyle in the film (Crabbe's actor was unavailable due to legal issues).",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the most significant single deviation. In the books, it is Crabbe who dies casting Fiendfyre, and Goyle who survives (unconscious, rescued). The film swaps their fates, making Goyle the one who casts the cursed fire and dies. This changes Goyle's entire narrative arc: in the books he survives to face post-war consequences; in the film he dies a villain's death. The book's Goyle is rescued by Harry's side despite everything, which is a small but meaningful moral point about the trio's decency. The film's Goyle gets 'Serves him right' as his epitaph. Beyond the arc change, Goyle's book dialogue in this scene - the childlike voice about rewards, the genuine confusion about 'die-dum' - is replaced with terse aggression, removing his last characterization beat."
     },
     {
-      "scene": "Film GoF Scene 15 - Snape/Goyle Polyjuice accusation",
-      "book_baseline": "No equivalent scene in the book where Snape directly accuses Goyle in this context.",
-      "film_portrayal": "Goyle says 'Yeah!' in agreement with Malfoy when Snape confronts Harry about stealing Polyjuice ingredients. This is the entirety of Goyle's contribution - a single-word affirmation.",
+      "scene": "Deathly Hallows Part 2 - Dungeon cells (film scene 25)",
+      "book_baseline": "Book does not have a direct equivalent dungeon cell scene in this form, but Goyle throughout the series is characterized as someone who does whatever Malfoy dictates without independent thought.",
+      "film_portrayal": "Film scene 25: 'Goyle is ruthless, flinging Housemates aside while Blaise follows in his wake' as they escape the giant-destroyed dungeon cell. Draco reaches out from darkness and grabs Goyle. This shows Goyle with momentary physical ruthlessness and then submission to Draco's guidance.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Goyle is reduced to a one-word echo of Malfoy, which while consistent with his follower role, represents the film's consistent pattern of giving him no independent characterization whatsoever."
-    },
-    {
-      "scene": "Film GoF Scene 16 - Voldemort graveyard/Death Eater roll call",
-      "book_baseline": "Voldemort calls 'Crabbe... Goyle' among the Death Eaters who failed him. The elder Goyle (Mr. Goyle) bows clumsily and mutters 'We will, Master.' This establishes the Goyle family's Death Eater status and Gregory's inheritance of that legacy.",
-      "film_portrayal": "Voldemort calls 'Crabbe! Goyle!' among the Death Eaters. The scene is present but the individual responses of the elder Goyle are not distinguished - the Death Eaters are largely anonymous in the film's graveyard sequence.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's graveyard scene establishes that Gregory Goyle's thuggishness and loyalty to dark power is inherited - his father is a Death Eater who failed Voldemort. The film names Goyle but does not develop this context, weakening the thematic resonance of Gregory's later actions in DH."
+      "explanation": "Minor note: the film gives Goyle a flash of physical ruthlessness (flinging housemates) that is consistent with his book characterization, so this is not damaging per se. But the substitution of Blaise for Crabbe as Goyle's companion throughout this film means Goyle's established duo dynamic with Crabbe - present for seven years of books - is replaced in the final film."
     }
   ],
   "confidence": {
@@ -83,8 +128,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 336.0,
-  "adjusted_cids_v1": 369.6
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

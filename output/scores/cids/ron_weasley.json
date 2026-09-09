@@ -1,189 +1,866 @@
 {
   "character": "Ron Weasley",
-  "fp_score": 65.0,
-  "infidelity_score": 35.0,
-  "weighted_infidelity_exposure": 69.0,
-  "cids": 295.0,
-  "damage_per_exposure": 12.8,
+  "fp_score": 67.0,
+  "infidelity_score": 33.0,
+  "weighted_infidelity_exposure": 224.5,
+  "cids": 354.7,
+  "damage_per_exposure": 3.7,
   "structural_damage_level": 3,
-  "adjusted_cids": 295.0,
+  "adjusted_cids": 354.7,
   "main_damage_causes": [
-    "Systematic redistribution of Ron's competence and intelligence to Hermione, reducing him to comic relief across the series",
-    "Compression of Ron's internal psychological life\u2014particularly his insecurities, jealousy, and self-worth arc\u2014which are the engine of his character development",
-    "Underplaying the reciprocal quality of the Harry-Ron friendship, which in the books is a relationship between equals rather than a hero and his sidekick"
+    "The foundational train conversation establishing Ron's insecurities about his brothers and poverty is entirely cut, severing the psychological root of his defining character trait and making his Mirror of Erised vision contextually hollow for film audiences.",
+    "Two key scenes are confirmed cut from the theatrical release \u2014 the trio-formation moment after the troll and the Mirror of Erised obsession arc \u2014 removing the most emotionally resonant instances of Ron as a protective, grounded friend rather than reactive comic relief.",
+    "Cumulative compression of Ron's active voice, bravado, and moral agency across multiple early scenes (duel arrangement, Hagrid visits, Neville mentorship) shifts his screen persona toward passive sidekick, losing the texture that makes his chess sacrifice feel like a character climax rather than a plot function.",
+    "Systematic reassignment of Ron's investigative contributions and explanatory lines to Hermione, reducing him from an active intellectual partner to a reactor and comic relief",
+    "Compression of friendship and character-building scenes into action or plot beats, stripping the emotional texture of Ron's loyalty, worry, and voice that defines his role in the books"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film \u2013 Ron on the train (first meeting)",
-      "book_baseline": "Ron is curious, warm, and immediately establishes a genuine peer friendship with Harry; he shares food, explains the wizarding world, and shows real personality (embarrassment about poverty, excitement about Chocolate Frogs).",
-      "film_portrayal": "The scene is compressed; Ron's characterisation is reduced to wide-eyed reactions and a few comic lines. His emotional warmth and the reciprocal quality of the friendship (Harry finding Ron 'just as interesting') is lost.",
+      "scene": "PS - Train compartment introduction: Ron's family background and insecurities",
+      "book_baseline": "Book establishes Ron's deep anxiety about living up to his brothers, his embarrassment about poverty ('they couldn't aff-- I mean, I got Scabbers instead', ears going pink), and his genuine emotional complexity. He volunteers this vulnerability unprompted, showing self-awareness and a need to connect. His insecurities about being overshadowed are so defining that Dumbledore later identifies them as Ron's deepest desire.",
+      "film_portrayal": "The film skips the entire conversation about Ron's brothers, his hand-me-downs, his feelings of inadequacy, and his embarrassment about money. The train scene is reduced to brief introductions, candy sharing, and Chocolate Frogs. Ron's poverty and family-pressure anxieties are entirely absent from this foundational scene.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This conversation is the primary vehicle for establishing Ron as a fully dimensional character rather than comic sidekick. His insecurities about being overshadowed by his brothers are his defining psychological trait \u2014 confirmed by the Mirror of Erised sequence. Without this scene, the film audience has no basis for understanding what Ron sees in the mirror, and his arc of self-worth throughout the series loses its foundation."
+    },
+    {
+      "scene": "PS - Train compartment: Ron's reciprocal curiosity about Harry",
+      "book_baseline": "The book explicitly notes 'Harry found Ron just as interesting as Ron found him' \u2014 Ron asks about Muggles, engages in genuine two-way friendship-building, and Harry appreciates the reciprocity. Ron reassures Harry ('You won't be. There's loads of people who come from Muggle families') about being behind in magic, showing emotional intelligence.",
+      "film_portrayal": "Ron is almost entirely reactive \u2014 he gawks at Harry's scar ('Wicked!') and lets Harry lead. The mutual curiosity and Ron's reassurance of Harry are absent. Ron's role is reduced to an audience for Harry rather than a peer forming a genuine bond.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The train scene is the foundation of the Harry-Ron friendship. Flattening Ron into a reactor rather than an equal partner weakens the bond that drives the entire saga."
+      "explanation": "The book establishes the Harry-Ron friendship as mutual and equal from the very first meeting. The film tips the dynamic toward Harry-centric admiration, weakening Ron's status as a true peer and subtly undermining the foundation of their friendship's emotional authenticity."
     },
     {
-      "scene": "PS/SS Film \u2013 Wingardium Leviosa class",
-      "book_baseline": "Ron's 'It's not very good, is it?' retort to Hermione is private and defensive; his later comment ('She's a nightmare, honestly') is overheard and causes real hurt, establishing his capacity for thoughtless cruelty and genuine remorse.",
-      "film_portrayal": "Ron's comment is played purely for comedy with no visible remorse; the emotional weight of having hurt Hermione is absent.",
+      "scene": "PS - Sorting ceremony: Ron's anxiety about being sorted",
+      "book_baseline": "Ron is 'pale green' with nerves before the Sorting, worried specifically about being placed in Slytherin and disappointing his family. He also tells Harry Fred's lie about it hurting, showing his own anxiety-driven credulity. His fear is rooted in family expectation pressure.",
+      "film_portrayal": "Ron's pre-Sorting anxiety is shown briefly (he gulps), but the specific fear of Slytherin and the weight of family expectation \u2014 which directly ties to his inferiority complex \u2014 are not articulated. The hat sorts him instantly with 'Another Weasley. I know just what to do with you,' which is played as a simple, confident result.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Ron's dread of Slytherin and family disappointment is another layer of the same defining insecurity. Its absence is a small but cumulative loss to the characterisation of his psychological complexity."
+    },
+    {
+      "scene": "PS - After Quidditch match: Ron's reaction and nosebleed",
+      "book_baseline": "Ron is described as jumping up and down in the distance cheering, then seen with 'a heavy nosebleed' from his fight with Malfoy in the stands \u2014 having physically defended Harry and Neville's honour by attacking Malfoy. He then excitedly recounts giving Malfoy a black eye and Neville taking on Crabbe and Goyle.",
+      "film_portrayal": "The film shows Ron fighting Malfoy in the stands and the nosebleed aftermath ('I gave Malfoy a black eye') is mentioned by Ron himself in dialogue after the match. This beat is largely preserved.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The books show Ron can be hurtful but feels it; the film strips the moral texture, making him a comic sidekick rather than a flawed but empathetic person."
+      "impact_weight": 1,
+      "explanation": "This is largely faithful. Minor scoring only for slight compression of Ron's enthusiastic retelling, which in the book further demonstrates his loyalty and impulsiveness. Confidence is lower on this entry as the film does capture the essential beat."
     },
     {
-      "scene": "PS/SS Film \u2013 Troll bathroom / aftermath",
-      "book_baseline": "Ron's quick thinking with Wingardium Leviosa saves Hermione; his subsequent 'Good of her to get us out of trouble like that' shows grudging respect and the beginning of genuine friendship.",
-      "film_portrayal": "Ron's role in defeating the troll is present but his reflective acknowledgement of Hermione's sacrifice is cut, reducing the emotional pivot that births the trio's friendship.",
-      "damage_type": "relationship",
+      "scene": "PS - Wingardium Leviosa class: Ron's mean comment about Hermione",
+      "book_baseline": "Ron's 'no wonder no one can stand her, she's a nightmare, honestly' is delivered in the corridor after class, and Harry notices Hermione has overheard and is in tears. Ron then says 'She must've noticed she's got no friends' \u2014 showing genuine callousness. He looks 'a bit uncomfortable' but does not immediately apologise or show remorse.",
+      "film_portrayal": "The film preserves Ron's 'She's a nightmare, honestly! No wonder she hasn't got any friends!' line and Hermione overhearing it in the corridor. This beat is faithfully adapted.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's aftermath is the moment Ron begins to genuinely value Hermione; losing it delays the emotional grounding of the trio."
+      "impact_weight": 1,
+      "explanation": "Largely faithful. The film captures the cruelty and Hermione overhearing. Minor note: Ron's follow-up dismissal ('So? She must've noticed she's got no friends') is absent, very slightly softening his callousness, but the core beat is intact."
     },
     {
-      "scene": "PS/SS Film \u2013 Chess scene / sacrifice",
-      "book_baseline": "Ron's chess sacrifice is a fully reasoned, emotionally articulate act of self-sacrifice; he explains the strategy clearly and tells Harry it must be him who goes on.",
-      "film_portrayal": "The sacrifice is present and reasonably well-executed, though Ron's strategic intelligence and the emotional weight of his words to Harry are somewhat compressed.",
-      "damage_type": "agency/function",
+      "scene": "PS - Troll aftermath in bathroom: the birth of the Golden Trio friendship",
+      "book_baseline": "After the troll, Hermione lies to McGonagall to protect Harry and Ron. Ron drops his wand in shock at Hermione lying. The book notes 'it was as if Snape had started handing out sweets.' All three awkwardly say 'thanks' to each other without making eye contact. The narrator explicitly states 'It was really lucky that Harry now had Hermione as a friend' \u2014 framing the trio's formation as a conscious, valued moment.",
+      "film_portrayal": "This scene is listed as cut non-theatrical material ('The birth of the Golden Trio'). The film moves directly from the bathroom confrontation to the morning after. The explicit moment of trio-formation \u2014 the awkward mutual thanks, the shared acknowledgment \u2014 is absent from the theatrical release.",
+      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is Ron's defining moment of book one. The film preserves the action but softens the intellectual and emotional clarity that makes it heroic rather than merely dramatic."
+      "explanation": "The book treats this as the definitive founding moment of the trio's friendship. Its absence means the film never clearly dramatises the transition from three separate individuals to a chosen unit. The audience understands they are friends afterward but misses the emotional beat that seals it, weakening the relational arc for all three characters."
     },
     {
-      "scene": "CoS Film \u2013 Flying car / Whomping Willow",
-      "book_baseline": "Ron is the one who suggests and executes the flying car plan; he shows initiative and takes responsibility.",
-      "film_portrayal": "Reasonably faithful, though Ron's agency in the decision is slightly backgrounded.",
+      "scene": "PS - Mirror of Erised: Ron's vision and Harry's response",
+      "book_baseline": "Ron sees himself alone, as Head Boy, holding both the Quidditch Cup and the House Cup \u2014 the best of all his brothers. He and Harry bicker over mirror time ('You had it to yourself all last night'), and Ron tugs Harry away from obsessing over the mirror, showing protective instinct. Dumbledore later explicitly cites Ron's vision: 'Ronald Weasley, who has always been overshadowed by his brothers, sees himself standing alone, the best of all of them.'",
+      "film_portrayal": "The Mirror of Erised obsession sequence \u2014 Harry returning multiple nights, Ron worrying about him and urging him to stop \u2014 is listed as cut non-theatrical material. In the theatrical film, Ron sees himself as Head Boy and Quidditch Captain (preserved in one brief visit), but the repeated visits, Ron's growing concern for Harry, and the dynamic of Ron being the responsible one pulling Harry back from the mirror's addiction are all lost.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The cut material removes a rare instance of Ron being the emotionally grounded, protective friend rather than the comic follower. It also strips away the resonance of Dumbledore's later explanation of Ron's desires, since the audience has seen only a single glance rather than a vision that clearly expresses his deepest longing. The film retains the content of what Ron sees but loses the significance."
+    },
+    {
+      "scene": "PS - Malfoy corridor insult / Ron lunges at Malfoy defending family honour",
+      "book_baseline": "Malfoy tells Ron his family 'have more children than they can afford' and later taunts him about being a gamekeeper. Ron lunges at Malfoy ('dived at Malfoy') when Malfoy mocks Hagrid's hut compared to the Weasley home. Snape deducts points from Ron but Hagrid defends him: 'He was provoked.' Ron's fierce pride in his family \u2014 even when poor \u2014 is a defining trait.",
+      "film_portrayal": "The film shows Malfoy's 'Red hair, and a hand-me-down robe? You must be a Weasley' line at the Sorting, and Ron snickers at Malfoy's name. The corridor/Christmas tree scene where Ron physically lunges at Malfoy in defence of his family's honour is not present in the film corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's fierce, hot-tempered pride in his family \u2014 attacking Malfoy even at cost to himself \u2014 is a key character trait that distinguishes him from merely being a passive, embarrassed poor boy. Its absence slightly flattens his dignity and agency in the Malfoy rivalry."
+    },
+    {
+      "scene": "PS - Wizard's duel setup: Ron as Harry's second",
+      "book_baseline": "Ron actively arranges the duel, explains what a 'second' does ('to take over if you die,' delivered casually), and suggests 'throw it away and punch him on the nose' if Harry's wand fails \u2014 showing his scrappy, practical, darkly comic voice. He is an active participant in the plan, not just a follower.",
+      "film_portrayal": "The midnight duel plotline is absent from the film entirely. The nocturnal adventure leading to the three-headed dog discovery is reframed as an accidental stumbling onto the forbidden corridor, with the duel subplot and all its Ron characterisation cut.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The duel scene showcases Ron's particular brand of humour, his practical bravado, and his active involvement in Harry's decisions. Without it, early film Ron is more passive. However, the dog-encounter scene still happens, so structural damage is limited."
+    },
+    {
+      "scene": "PS - Chess chamber: Ron's sacrifice",
+      "book_baseline": "Ron devises the strategy, takes command ('neither of you are that good at chess'), and volunteers his own sacrifice with full understanding of the consequences \u2014 'pale but determined.' He says 'don't hang around once you've won' and is knocked unconscious. It is entirely his plan and his moment of courage.",
+      "film_portrayal": "The film preserves this scene well. Ron directs the game, assigns positions, and makes the sacrifice. His line 'Do you wanna stop Snape from getting that Stone or not? Harry, it's you that has to go on. I know it. Not me. Not Hermione. You!' is a faithful and well-executed rendering of his book characterisation.",
       "damage_type": "agency/function",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor compression but Ron's leadership in the decision is present enough not to constitute major damage."
+      "explanation": "Largely faithful. Minor note only: in the book Ron's command of the game is even more assertive ('now don't be offended but neither of you are that good at chess'), and Hermione and Harry are more explicitly deferential to his expertise. The film compresses this slightly but the essential agency and heroism are intact. Low damage score."
     },
     {
-      "scene": "CoS Film \u2013 Slug Club / Polyjuice planning",
-      "book_baseline": "Ron is an active co-planner of the Polyjuice scheme; he contributes ideas, executes his part, and his Crabbe impersonation is played for genuine tension.",
-      "film_portrayal": "Ron's contributions to the plan are present but he is increasingly positioned as the comic foil while Hermione drives the intellectual work.",
-      "damage_type": "personality/voice",
+      "scene": "PS - Hagrid's hut visit after Snape/Potions lesson",
+      "book_baseline": "Ron accompanies Harry to Hagrid's and plays an active social role \u2014 chatting about his brother Charlie, reassuring Harry about Snape ('Snape's always taking points off Fred and George'), and generally being a warm, curious, conversational companion. The scene establishes Ron's easy camaraderie with Hagrid and his knowledge of the wizarding world.",
+      "film_portrayal": "The early casual Hagrid hut visit (after Potions, first week) is not depicted in the film corpus. Ron's relaxed social presence in that setting is absent.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "A pattern begins here of redistributing Ron's competence to Hermione, which accumulates across films into a significant distortion."
+      "impact_weight": 1,
+      "explanation": "A minor loss \u2014 the scene establishes Ron's warmth and worldly knowledge in a low-stakes setting, contributing to his texture as a character. Its absence is noticeable in cumulative terms but not structurally damaging on its own."
     },
     {
-      "scene": "PoA Film \u2013 Shrieking Shack confrontation",
-      "book_baseline": "Ron, on a broken leg, stands up to Black: 'If you want to kill Harry, you'll have to kill us too.' This is one of his bravest moments, showing fierce loyalty despite physical pain.",
-      "film_portrayal": "The line is present but Ron's physical condition and the full weight of his defiance are underplayed; the scene moves quickly past his courage.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The books establish Ron's courage as equal to Harry's in this moment. The film's compression diminishes one of his most important character beats."
-    },
-    {
-      "scene": "GoF Film \u2013 Yule Ball / Ron's jealousy of Krum",
-      "book_baseline": "Ron's jealousy is portrayed with psychological complexity: he is hurt, confused about his own feelings for Hermione, and genuinely inarticulate about it. His row with Hermione is painful and revealing for both.",
-      "film_portrayal": "Ron's jealousy is played primarily for comedy ('He's a great big... ugly... er...'); the emotional undercurrent of his unacknowledged feelings for Hermione is largely absent.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The Yule Ball is the first major signal of Ron's romantic feelings. Reducing it to comedy delays and weakens the emotional arc that culminates in DH."
-    },
-    {
-      "scene": "GoF Film \u2013 Ron's apology to Harry after the first task",
-      "book_baseline": "Ron's apology is awkward but genuine; Harry's response ('Forget it') and Ron's visible relief establish the depth of their friendship and Ron's capacity for self-awareness.",
-      "film_portrayal": "The reconciliation is present but brief; Ron's emotional journey through jealousy and shame is compressed into a few lines.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The books use this reconciliation to show Ron's growth; the film treats it as a plot beat rather than a character moment."
-    },
-    {
-      "scene": "OotP Film \u2013 Ron as prefect",
-      "book_baseline": "Ron's prefect badge is a significant moment: Harry's complicated feelings, Ron's pride and insecurity, and the dynamic shift in their friendship are all explored.",
-      "film_portrayal": "The prefect subplot is present but Ron's internal experience of it\u2014his pride, his awareness that Harry expected it, his gratitude\u2014is largely absent.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Ron's prefect status is one of the few moments he achieves something Harry doesn't; losing its emotional texture removes a key beat in his self-worth arc."
-    },
-    {
-      "scene": "OotP Film \u2013 Ron's Quidditch Keeper arc",
-      "book_baseline": "Ron's Keeper storyline is a sustained arc about confidence, self-doubt, and the psychological effect of the Horcrux-adjacent locket (later) and peer pressure. His eventual success is earned.",
-      "film_portrayal": "The Quidditch arc is compressed; Ron's psychological struggle is present but the sustained nature of his self-doubt and the specificity of his improvement are lost.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The books use Quidditch to develop Ron's confidence arc across multiple books; the film's compression reduces it to a single-film subplot."
-    },
-    {
-      "scene": "HBP Film \u2013 Ron under love potion / hospital scene",
-      "book_baseline": "Ron's poisoning and recovery include the crucial 'Er-my-nee' moment and Hermione's hand-holding, which are emotionally resonant and advance their relationship naturally.",
-      "film_portrayal": "The scene is present and reasonably faithful; the 'Er-my-nee' moment is included.",
-      "damage_type": "relationship",
+      "scene": "PS - Ron telling Neville to stand up to Malfoy",
+      "book_baseline": "After Neville is body-bound by Malfoy outside the library, Ron tells him directly: 'You've got to stand up to him, Neville! He's used to walking all over people, but that's no reason to lie down in front of him and make it easier.' This is a moment of Ron showing moral clarity and acting as a mentor figure.",
+      "film_portrayal": "This scene is not present in the film corpus. The moment of Ron giving Neville moral guidance is absent.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Largely faithful; minor compression only."
+      "explanation": "A small but meaningful absence \u2014 it shows Ron as capable of moral seriousness and mentorship, not just comic relief. It also adds irony when Neville later uses Ron's own words against him at the portrait hole. The loss of this irony is a minor but real adaptation cost."
     },
     {
-      "scene": "HBP Film \u2013 Ron and Lavender relationship",
-      "book_baseline": "Ron's relationship with Lavender is portrayed with psychological complexity: genuine physical attraction, emotional immaturity, and the dawning realisation that he wants Hermione. His cruelty to Hermione during this period is shown as genuinely hurtful.",
-      "film_portrayal": "The Lavender subplot is present but Ron's internal conflict and the specific cruelty of his behaviour toward Hermione are softened; it reads more as comic subplot than character study.",
-      "damage_type": "motivation/internal conflict",
+      "scene": "PS - End-of-year points: Dumbledore awards Ron 50 points",
+      "book_baseline": "Dumbledore explicitly awards Ron fifty points for 'the best-played game of chess Hogwarts has seen in many years.' Ron goes purple. Percy loudly tells other prefects 'My brother, you know! My youngest brother! Got past McGonagall's giant chess set!' \u2014 a moment of family pride that directly answers Ron's core insecurity about being overshadowed.",
+      "film_portrayal": "The film preserves this scene. Dumbledore awards Ron 50 points second (after Hermione's implied award), Ron looks surprised and pleased, and the Gryffindor table erupts. The essential beat is intact.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. Percy's proud announcement of 'My youngest brother!' \u2014 the specific family-validation payoff for Ron's core arc \u2014 is absent in the film, which is a small loss of resonance. But the public recognition itself is preserved. Low damage."
+    },
+    {
+      "scene": "Chamber of Secrets - Rescue from Privet Drive (Film Scene 1/Scene 17)",
+      "book_baseline": "In the book, Ron proactively explains the situation to Harry during the rescue, mentions he's been trying to reach Harry for weeks, references Errol and Percy's owl, and expresses genuine worry. The conversation is warm and chatty, establishing Ron's loyal, concerned friendship and his characteristic mix of humour and anxiety. Ron says 'Happy birthday' is notably absent in the book rescue itself.",
+      "film_portrayal": "The rescue is compressed into action beats. Ron's emotional concern and chatty exposition about failed owl attempts is stripped away. The film has Ron deliver 'Happy Birthday' as a cheerful punchline after the escape, reframing the reunion as breezy rather than rooted in weeks of genuine worry.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Ron's loyalty through his detailed account of failed attempts to contact Harry and his palpable relief. The film reduces Ron to a plot-delivery vehicle in an action sequence, losing the emotional texture of the friendship that underpins the whole story."
+    },
+    {
+      "scene": "Chamber of Secrets - The Burrow arrival and de-gnoming (Film Scene 2/Scene 19)",
+      "book_baseline": "The book devotes considerable space to Ron nervously watching Harry's reaction to the Burrow, feeling self-conscious about its modest appearance, and being visibly relieved when Harry calls it 'the best house I've ever been in.' Ron's ears go pink. The de-gnoming scene shows Ron as knowledgeable and at ease in his own world, explaining gnome behaviour with casual expertise. Ron also discusses Mr Weasley's boring Ministry job with wry familiarity.",
+      "film_portrayal": "The film retains Ron's brief 'It's not much' and Harry's 'I think it's brilliant' exchange, but the de-gnoming scene is entirely absent. Ron's expertise and confidence in his own magical home environment \u2014 one of the few spaces where he is the authority \u2014 is lost. The Burrow visit is condensed to a brief interior scene focused on magical objects rather than Ron's character.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "De-gnoming is one of Ron's defining moments of competence and ease. He teaches Harry something for once, reversing their usual dynamic. Its absence removes a beat that complicates Ron's 'less capable than Hermione' image and shows him thriving in his own context."
+    },
+    {
+      "scene": "Chamber of Secrets - Ron's explanation of Muggle Artefacts Office (Film Scene 2/Scene 19)",
+      "book_baseline": "In the book, Ron's account of his father's work is long, funny, and detailed \u2014 the tea-set story, the sugar tongs clamped to a man's nose, Perkins the old warlock. Ron tells it with comic relish, demonstrating his storytelling voice and his affectionate but slightly embarrassed relationship with his father's eccentric enthusiasms.",
+      "film_portrayal": "Ron gives a flat two-line functional summary: 'Dad works at the Ministry of Magic. In the Misuse of Muggle Artefacts Office. That's when wizards bewitch something to drive Muggles mad. Shrinking door keys, that kind of thing.' The comic anecdote is entirely gone.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Ron's voice in the books is defined by rambling, funny anecdotes delivered with timing and warmth. This is a small but representative instance of the film flattening his dialogue into exposition, stripping away the personality that makes him distinctive as a narrator-companion."
+    },
+    {
+      "scene": "Chamber of Secrets - Flying car journey to Hogwarts (Film Scenes 33A-35)",
+      "book_baseline": "The book's flying car journey is a sustained character piece. Ron and Harry laugh together, eat toffees, get thirsty, chat about Quidditch, and Ron talks cajolingly to the car ('not far now') as it begins to fail. Ron's relationship with the car is tender and anthropomorphising. The humour and camaraderie build the friendship. Ron's fear during the Whomping Willow attack is balanced by his earlier joy.",
+      "film_portrayal": "The film turns the journey into a compressed action-comedy sequence. The hours of companionable travel, the toffees, the thirst, and Ron's affectionate monologue to the dying car are cut. What remains is played primarily for spectacle and pratfalls. Ron nearly losing Harry out of the car door adds invented jeopardy not in the book.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The journey is one of the longest sustained Ron-and-Harry friendship scenes in the book. Its compression into an action setpiece loses hours of companionable, funny, character-building material that establishes their bond as something genuinely enjoyable rather than purely plot-functional."
+    },
+    {
+      "scene": "Chamber of Secrets - Snape's office / McGonagall confrontation after car crash (Film Scene 37)",
+      "book_baseline": "In the book, Ron actively participates in the confrontation: he launches into the explanation for McGonagall, he quips ('We'll go and get our stuff'), he comments to Harry afterwards about their luck. Harry's strategic intervention about Gryffindor house points is a joint moment of cunning between the two boys. Ron's relief and darkly comic reaction ('I thought we'd had it') closes the scene warmly.",
+      "film_portrayal": "Ron's agency in the confrontation is reduced. He gets one brief line ('We'll go and get our stuff' / 'Well, you're going to expel us, aren't you?') but Harry dominates the scene and the Gryffindor points gambit is absent. The aftermath sandwich scene (Ron's relief, their late-night conversation) is cut entirely.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book gives Ron several active contributions that show his quick thinking and resilience under pressure. The film reduces him to a bystander in a scene that should demonstrate his character alongside Harry's."
+    },
+    {
+      "scene": "Chamber of Secrets - Hermione asks about the Chamber in McGonagall's class (Film Scene 62)",
+      "book_baseline": "In the book this scene does not exist. The Chamber of Secrets backstory is established more gradually and organically through Ron (who heard about it from Bill), through history lessons, and through Harry and Ron's research. Ron contributes the key line that 'rings a bell' about the Chamber, connecting it to something Bill told him.",
+      "film_portrayal": "The film invents a classroom scene where Hermione asks McGonagall to explain the Chamber's full history. Ron is present but passive. His book contribution \u2014 being the one who has family knowledge connecting the Chamber to Slytherin history \u2014 is eliminated. The information is now delivered by Hermione asking and McGonagall explaining.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book, Ron's older brother network (Bill, Percy, Charlie) gives him a knowledge base Harry lacks. Ron's 'it rings a sort of bell... might've been Bill' is a small but genuine contribution to the investigation. The film reassigns information-gathering entirely to Hermione, further eroding Ron's function as an independent contributor."
+    },
+    {
+      "scene": "Chamber of Secrets - Mudblood incident and slug-vomiting (Film Scenes 45-46)",
+      "book_baseline": "In the book, Ron immediately identifies 'Mudblood' as the worst possible insult and acts out of genuine moral outrage on Hermione's behalf. At Hagrid's, Ron delivers the important explanation of what 'Mudblood' means with passionate disgust, even while vomiting slugs. The scene shows Ron's instinctive moral compass and his loyalty. His explanation ('It's disgusting... dirty blood... most wizards are half-blood anyway') is substantive.",
+      "film_portrayal": "The film preserves the incident and the slug scene but substantially compresses Ron's explanation of 'Mudblood.' In the film, Hermione herself explains the term to Harry ('It means dirty blood... someone like me'). Ron's role is reduced to a belch and 'It's disgusting!' The moral weight of the explanation, and Ron's ownership of it, transfers to Hermione.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Ron explaining 'Mudblood' while physically suffering the consequences of defending Hermione is one of his finest moments \u2014 it shows loyalty, moral clarity, and self-sacrifice simultaneously. Giving Hermione the explanation instead is a pattern-level reassignment of Ron's meaningful contributions to Hermione, damaging the dynamic of the trio."
+    },
+    {
+      "scene": "Chamber of Secrets - Ron's spider phobia revelation (Film Scene 59 corridor / book spider corridor scene)",
+      "book_baseline": "In the book, Ron's spider phobia is revealed with backstory: Fred turned his teddy bear into a spider when he was three because he broke Fred's toy broomstick. Ron tells this with vulnerable embarrassment. Hermione still tries not to laugh. The detail humanises Ron and gives his fear a specific, family-rooted origin.",
+      "film_portrayal": "The film shows Ron's spider phobia (backing away from the spiders on the wall after Mrs Norris is found) but the book's explanatory conversation \u2014 with the teddy bear backstory \u2014 is absent from the film corpus. Ron's phobia appears as a simple character trait without the humanising origin story.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The backstory is a small but characteristic piece of Ron's characterisation, showing the Weasley sibling dynamic and giving his fear personal roots rather than making it a generic comic beat. Its loss is minor but representative of the film's consistent trimming of Ron's interiority."
+    },
+    {
+      "scene": "Chamber of Secrets - Polyjuice planning / library scene (Film Scene 64)",
+      "book_baseline": "In the book, Ron's objection to the Polyjuice plan is sustained and specific: he worries about being stuck as Slytherins forever, objects to Crabbe's toenails, and his pushback is overcome gradually by Hermione's steely argument. Ron also makes the key observation that the potion will take a month, and points out 'Malfoy could've attacked half the Muggle-borns by then' \u2014 showing he grasps the stakes even while being reluctant.",
+      "film_portrayal": "The film compresses the library scene significantly. Ron's 'When do we start?' is an enthusiastic line that replaces his book-Ron's more characteristic reluctance followed by commitment. The film Ron jumps in eagerly after Hermione says it'll be dangerous, which is a personality inversion \u2014 book Ron is brave but cautious, not recklessly eager.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Book Ron's reluctant-but-committed pattern is a defining character trait. His 'When do we start?' in the film replaces a more nuanced arc of worry followed by loyalty. It makes him generically brave rather than specifically Weasley-brave: someone who goes along despite fear, not someone who charges in."
+    },
+    {
+      "scene": "Chamber of Secrets - Parseltongue revelation / common room (Film Scene 71)",
+      "book_baseline": "In the book, Ron's reaction to Harry being a Parselmouth is carefully calibrated: he immediately says 'This is bad' and explains the cultural weight ('It's not a very common gift'), shows genuine concern rather than fear of Harry, and supports Harry even while acknowledging how it looks. He says ''Course I do' when Harry asks if Ron believes him, but adds 'But you must admit it's weird.' The balance of belief and discomfort is precise.",
+      "film_portrayal": "The film preserves the broad strokes but Ron's specific line 'Are you mad!' when Harry asks if he should have told Dumbledore about the voice reads as slightly harsher than the book. More importantly, the film Hermione delivers the Slytherin/Parseltongue cultural context ('There's a reason the symbol of Slytherin house is a serpent...') which in the book is split between Ron and Hermione. Ron's role as cultural explainer is again partially reassigned.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor but consistent pattern: the film gives Hermione explanatory lines that in the book belong to Ron, gradually shifting Ron from an active contributor with his own knowledge base to a reactor."
+    },
+    {
+      "scene": "Chamber of Secrets - Polyjuice Potion execution / Slytherin common room (Film Scenes 80-86)",
+      "book_baseline": "In the book, Ron as Crabbe shows quick thinking: he corrects Malfoy's 'Peter Weasley' to 'Percy' automatically, showing the Weasley instinct even under Polyjuice. He also physically restrains himself from punching Malfoy multiple times while clenching Crabbe's fists, showing the tension between his identity and his disguise. His 'stomachache' improvisation when his fury shows is believably in-character.",
+      "film_portrayal": "The film preserves the 'Percy/Weasley' correction and the stomachache line, which is positive. However, the film cuts the scene where Ron recognises Riddle's award (cut per the non-theatrical exclusion list), removing a key Ron contribution. The Slytherin common room scene is mostly faithful to the book in what remains.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The exclusion of the Ron-remembers-Riddle scene (per the non-theatrical list) removes Ron's single most important investigative contribution to the diary mystery. In the book, Ron connecting Riddle's name to the trophy he polished during detention is a moment of Ron's memory and experience paying off. Its loss means Harry and Hermione solve the diary puzzle without Ron's contribution."
+    },
+    {
+      "scene": "Chamber of Secrets - Visiting Hermione in hospital wing / finding the page (Film Scene 123)",
+      "book_baseline": "In the book, Harry retrieves the page from Hermione's clenched fist while Ron keeps watch \u2014 a tense, collaborative moment. Ron then contributes actively to decoding the basilisk clues, including the key insight about the plumbing. Both boys work through the logic together over the page.",
+      "film_portrayal": "The film has Harry notice the paper and Ron keep watch, which is faithful. However Ron's line 'You don't think Lockhart could be the heir of Slytherin, do you?' \u2014 played for a laugh \u2014 is the most substantial thing he says in the scene, positioning him as comic relief at the moment of the story's key revelation. His active contribution to working out the basilisk logic is compressed.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "At the story's investigative climax, Ron is positioned primarily as comic relief ('Right. Forget I said it.') rather than as an active reasoner. The book Ron works through the basilisk logic as a genuine intellectual partner. The film Ron provides a laugh line."
+    },
+    {
+      "scene": "Chamber of Secrets - Forest / spider hollow sequence (Film Scenes 119-121D)",
+      "book_baseline": "In the book, Ron's terror in the forest is sustained and genuine, including his near-paralysis, his repeated 'oh no oh no oh no', and the detail that he is still shaking and vomiting after the encounter. His fear is not played for laughs but treated as a real response to genuine horror. His 'Can you believe our luck' after escaping is hollow and fearful, not funny.",
+      "film_portrayal": "The film plays Ron's fear primarily for comedy throughout. 'Why spiders? Why couldn't it be follow the butterflies?' is an invented laugh line. Ron's terror during the spider attack is rendered as physical comedy (wide eyes, rigid posture, comic screaming). His post-escape anger at Hagrid ('Follow the spiders! If he ever gets out of Azkaban I'll kill Hagrid') is present but delivered as exasperated comedy rather than traumatised fury.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book treats Ron's phobia and his courage in facing it despite genuine terror as a serious character moment \u2014 he goes into the forest knowing spiders are there because Harry needs him. The film converts this into a comic setpiece, which diminishes the courage implicit in Ron's action and reduces his emotional depth."
+    },
+    {
+      "scene": "Chamber of Secrets - Ginny taken / corridor scene / going to Lockhart (Film Scene 126)",
+      "book_baseline": "In the book, Ron is devastated by Ginny's abduction but actively proposes going to see Lockhart, explaining his reasoning ('He's going to try and get into the Chamber. We can tell him where we think it is'). Ron is the one who suggests the plan. He also asks Harry the agonising question about whether Ginny might still be alive, and Harry honestly doesn't know. Ron's leadership here is clear.",
+      "film_portrayal": "In the film, Harry proposes going to see Lockhart ('C'mon. Let's go see Lockhart. He may be a brainless git, but he's going to try and get into the Chamber'). Ron follows. Ron does ask if there's any chance Ginny's not dead, and Harry reassures him \u2014 this is faithful. But the initiative for the plan transfers to Harry.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "When it is his own sister in mortal danger, book Ron's response is to formulate a plan. The film transfers that initiative to Harry, reducing Ron to an emotional reactor rather than an active agent in the crisis most personal to him. This is one of the most significant agency losses in the film."
+    },
+    {
+      "scene": "Chamber of Secrets - Confronting Lockhart / Chamber descent (Film Scene 128-132)",
+      "book_baseline": "In the book, Ron and Harry jointly confront Lockhart and force him at wandpoint into the Chamber. Ron's 'You can go first' when threatening Lockhart with the drop is a moment of grim, controlled anger. In the tunnel, Ron keeps Lockhart at wandpoint while Harry leads. After the rockfall, Ron immediately commits to trying to shift the rocks and sends Harry on with characteristic self-sacrifice.",
+      "film_portrayal": "The film is broadly faithful here. Ron's 'A bloody lot of good if it's a two-hundred-foot drop onto jagged rocks' is an effective line. Ron shoving Lockhart in is present. The rockfall and separation are handled faithfully, with Ron committing to clearing the rocks. This is one of the more faithful Ron sequences in the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression but no significant distortion. Ron's courage and loyalty in the descent are largely preserved. The main loss is tonal \u2014 the book's grim, frightened determination is slightly lightened \u2014 but this is a relatively low-damage sequence."
+    },
+    {
+      "scene": "Chamber of Secrets - Ginny's rescue / reunion in tunnel (Film Scene 134)",
+      "book_baseline": "In the book, Ron's reunion with Ginny after Harry brings her back through the rockfall is emotionally direct: he seizes her and pulls her through, his relief visible and raw. The book explicitly shows Ron's emotional state throughout as one of barely-suppressed terror for his sister.",
+      "film_portrayal": "The film has Ron wriggle through the gap and hug Ginny warmly, which is faithful. His 'You're alive. I can't believe it' is genuine. However the film then immediately pivots to Ron's comedic aside ('Remind you of anyone?' about Ginny worrying about expulsion), which lightens the emotional register of the reunion more quickly than the book does.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor tonal issue. The film uses humour to manage the emotional scene slightly more than the book, which is a consistent pattern \u2014 Ron's genuine emotional moments are often punctuated by jokes in the film where the book lets them breathe longer."
+    },
+    {
+      "scene": "Chamber of Secrets - End feast / Hermione reunion (Film Scene 137)",
+      "book_baseline": "In the book, the end-of-year feast is described as Harry's happiest moment: Hagrid cuffing Ron and Harry so hard they go into their trifle, Ron's four hundred points securing the House Cup, Hermione running to them. Ron's joy is full and physical and shared equally with Harry in the narration.",
+      "film_portrayal": "The film has Hermione run to embrace Harry first, saying 'You solved it!' Harry says 'With loads of help from you.' Then Hermione and Ron have an awkward handshake instead of an embrace. While this handshake is a comic character beat, it positions Ron as slightly outside the central emotional resolution. Harry and Hermione are the emotional centrepiece; Ron is an adjunct.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book treats Harry and Ron as equal heroes of the year. The film's framing \u2014 Hermione embraces Harry, shakes hands with Ron \u2014 subtly repositions the trio's emotional hierarchy in a way that marginalises Ron as the central friendship partner he is in the books."
+    },
+    {
+      "scene": "POA Film - Snape's class (page 394 scene)",
+      "book_baseline": "In the book, when Snape calls Hermione an 'insufferable know-it-all,' Ron loudly defends her: 'You asked us a question and she knows the answer! Why ask if you don't want to be told?' \u2014 a moment of genuine loyalty and protectiveness that earns him a detention. Ron's willingness to stand up to Snape on Hermione's behalf, at personal cost, is a defining character beat.",
+      "film_portrayal": "In the film, when Snape insults Hermione, Ron instead says 'He's got a point, you know' \u2014 siding with Snape against Hermione. This reverses the book beat entirely.",
+      "damage_type": "relationship | personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of the most damaging single inversions in the film. The book uses this moment to show Ron's loyalty and decency beneath his sometimes-dismissive surface \u2014 he will risk Snape's wrath to defend Hermione. The film turns him into someone who publicly agrees with the teacher bullying his friend. This damages the Ron-Hermione relationship arc (which depends on the audience sensing underlying care beneath their bickering) and misrepresents Ron's core character as a loyal friend."
+    },
+    {
+      "scene": "POA Film - Boggart lesson (Ron's spider boggart)",
+      "book_baseline": "In the book, Ron faces the boggart-spider, his legs vanish and it rolls helplessly \u2014 Ron succeeds with the spell. Lupin then intervenes when Harry steps forward, preventing Harry from facing a boggart-Voldemort. The scene establishes Ron's courage in stepping up despite genuine fear, and his humor.",
+      "film_portrayal": "In the film, the boggart gains roller skates and shuffles in place \u2014 a slightly different comic beat. Ron's fundamental courage is present here and not substantially damaged, though the film gives him less distinctive voice in the surrounding classroom chatter.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor divergence. The film preserves Ron's core moment facing the spider and the general comedic dynamic. The change to roller skates rather than vanishing legs is trivial. Confidence in this entry is lower; damage is minimal."
+    },
+    {
+      "scene": "POA Film - Leaky Cauldron / train corridor, Ron's voice and humor",
+      "book_baseline": "The book establishes Ron's specific comic voice and warmth across multiple scenes: his letter to Harry apologizing for the phone call with self-deprecating humor, his excited planning about Hogsmeade (Honeydukes monologue), his wry commentary on Scabbers, his easy camaraderie with Harry. Ron's humor is observational and grounded.",
+      "film_portrayal": "The film's opening Leaky Cauldron scene gives Ron some comic lines ('A cat! Is that what they told you? Looks more like a pig with hair') and keeps his Scabbers protectiveness. However, the extended warmth of his written correspondence, the Honeydukes enthusiasm speech, and the easy back-and-forth of the train journey are compressed or absent. The film Ron is more reactive than generative.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The compression of Ron's establishing characterization \u2014 his letter, his Hogsmeade enthusiasm, his natural wit \u2014 means the film audience gets a thinner version of his personality in the first act. The Honeydukes monologue in particular (sugar quills you can suck in class, etc.) is a signature Ron moment that establishes his warmth, humor, and appetite for life. Its absence slightly flattens him as a character during the setup."
+    },
+    {
+      "scene": "POA Film - Hogsmeade / Shrieking Shack confrontation with Malfoy (invisibility cloak sequence)",
+      "book_baseline": "In the book, Harry is invisible and intervenes, throwing mud at Malfoy. Ron plays a supporting comic role ('Very haunted up here, isn't it?') while Harry does the action. Ron's amusement and solidarity are genuine, and he helps cover for Harry when Crabbe stumbles on the cloak.",
+      "film_portrayal": "In the film, the sequence plays out similarly in broad strokes, with Harry under the cloak pelting Malfoy. Ron's 'Very haunted up here' equivalent line is present in spirit. This scene is reasonably faithful. The film also adds Ron pelting Harry and Hermione with snowballs afterward, which is an invented moment of playfulness that fits his character.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor divergence. The film handles this sequence adequately and even adds a small Ron-appropriate comic moment. Damage is negligible."
+    },
+    {
+      "scene": "POA Film - Shrieking Shack: Ron defending Harry against Black",
+      "book_baseline": "In the book, Ron \u2014 injured, in pain, barely able to stand \u2014 pulls himself upright and tells Black: 'If you want to kill Harry, you'll have to kill us too!' He repeats this even when told to lie down, clinging to Harry for support while still defying Black. This is one of Ron's most courageous book moments: physically broken but morally unbowed.",
+      "film_portrayal": "In the film, Hermione delivers the 'If you want to kill Harry you'll have to kill us too' line first and most prominently, with Ron present but her voice dominating the defiance. Ron does echo some version of the sentiment but Hermione is given primary agency in this crucial moment of loyalty.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is a high-damage adaptation choice. The book gives Ron this moment specifically because it subverts expectations \u2014 the 'sidekick' who is physically helpless summons extraordinary moral courage. Transferring the primary voice of defiance to Hermione (who is more consistently portrayed as competent throughout the film) erodes one of Ron's most important character-defining moments in the entire series to this point. It damages the audience's sense of Ron's inner loyalty and courage, and diminishes his function in the trio's emotional dynamic."
+    },
+    {
+      "scene": "POA Film - Shrieking Shack: Ron's reaction to Scabbers/Pettigrew revelation",
+      "book_baseline": "In the book, Ron is deeply conflicted and vocal throughout the Pettigrew revelation \u2014 resisting, arguing ('You're both mental'), insisting Scabbers is just a rat, then being genuinely horrified ('I let you sleep in my bed!'). His emotional journey from defensive pet-owner to revolted victim of deception is carefully written.",
+      "film_portrayal": "The film compresses Ron's reaction. He gets 'M-me? It's lunatic' and 'So what?' re: the missing toe, and draws back in disgust when Pettigrew appeals to him. The key line 'I let you sleep in my bed!' is absent. The full arc of Ron's dawning horror is truncated in favor of moving the plot forward.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's emotional response to Pettigrew is part of what makes the Shrieking Shack scene work on a human level \u2014 he is the one most personally violated by the deception, having harbored Pettigrew for years. The truncation of his reaction reduces his presence as an affected party to a plot device (holder of the rat) rather than a character experiencing betrayal. This is moderate damage."
+    },
+    {
+      "scene": "POA Film - Time-turner sequence: Ron left behind in hospital wing",
+      "book_baseline": "In the book, Ron is unconscious/incapacitated through the time-turner sequence. He wakes at the end confused, asks what happened, and Harry tells Hermione to explain. Ron's exclusion is structural but handled with warmth \u2014 he's briefed afterward and remains part of the trio's shared secret.",
+      "film_portrayal": "In the film, Ron is similarly left behind (injured) during the time-turner sequence. When Dumbledore gives the hint, he says 'Sorry Ron, but seeing as you can't walk...' before Hermione loops the time-turner around Harry and herself. Ron's bafflement ('How'd you two get over there?') when they return is played for a brief comic beat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Ron's exclusion from the climactic action sequence is inherent to the plot and not an adaptation distortion \u2014 it happens in the book too. The film handles it acceptably. Minor damage only from the slight comic diminishment of his confusion on return."
+    },
+    {
+      "scene": "POA Film - Firebolt arrival (end of film)",
+      "book_baseline": "In the book, the Firebolt arrives on the Hogwarts Express via Sirius's owl, and Ron's joy and excitement are genuine and detailed \u2014 he examines it eagerly, asks to hold it, is thrilled for Harry. The warmth of the trio's friendship at the end of term is fully rendered.",
+      "film_portrayal": "In the film, the Firebolt is placed in the closing sequence with Ron presenting it to Harry with clear delight ('It's yours, mate'). Ron's enthusiasm is present and the moment works, though the context (on the train, from Sirius) is restructured. This is largely faithful in spirit.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor structural change to when/how the Firebolt arrives, but Ron's characterization in the moment (loyal, enthusiastic, delighted for Harry) is preserved. Negligible damage."
+    },
+    {
+      "scene": "POA Film - Ron's ongoing feud with Hermione over Crookshanks (compressed/absent)",
+      "book_baseline": "The book devotes considerable space to Ron's fierce, sustained anger over Crookshanks attacking Scabbers \u2014 his upset at Lavender's rabbit news ('Don't mind Hermione, she doesn't think other people's pets matter'), his refusal to make up, his eventual grief over Scabbers' apparent death. This arc humanizes Ron and makes Hermione's eventual apology meaningful.",
+      "film_portrayal": "The film retains some of the Ron-Hermione Crookshanks conflict (opening Leaky Cauldron scene, the dormitory accusation after Black's break-in), but many of the intermediate beats \u2014 Ron's sustained coldness, the Lavender rabbit moment, Ron's grief being played out over time \u2014 are absent or compressed. The reconciliation in Hagrid's hut is handled via Hagrid forcing a handshake/hug, which is a film invention.",
+      "damage_type": "relationship | personality/voice",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The books use the Lavender arc to show Ron's emotional immaturity and the cost of his avoidance of his real feelings. The film's lighter treatment weakens the payoff of the Ron-Hermione relationship."
+      "explanation": "The Crookshanks conflict is one of the few subplots in PoA that is primarily Ron's emotional story. His stubbornness, his genuine attachment to Scabbers despite claiming he's boring, his hurt pride \u2014 these are all character-revealing. The film's compression removes the sustained texture of this arc and replaces the organic reconciliation with a scene where Hagrid engineers it from outside, reducing Ron's agency in his own emotional journey. The Lavender rabbit moment in particular, where Ron's snap at Hermione reveals class-based defensive solidarity, is entirely lost."
     },
     {
-      "scene": "DH Part 1 Film \u2013 Ron's departure from the tent",
-      "book_baseline": "Ron's departure is a sustained, psychologically detailed breakdown driven by the Horcrux's amplification of his deepest insecurities (being overshadowed, unloved, second-best). His words to Harry are specific and devastating.",
-      "film_portrayal": "The departure is present and the Horcrux's influence is shown, but the specificity of Ron's insecurities and the full emotional violence of the argument are compressed.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is Ron's darkest moment and the culmination of his self-worth arc. Compressing it reduces the impact of his return and the Horcrux's destruction."
+      "scene": "POA Film - 'Return from Hogsmeade' scene (NON-THEATRICAL - excluded per instructions)",
+      "book_baseline": "N/A - excluded per non-theatrical material instructions",
+      "film_portrayal": "N/A - excluded per non-theatrical material instructions",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is listed as cut from theatrical release and is excluded from scoring per the corpus instructions. The book's version (Ron and Hermione returning from Hogsmeade laden with sweets for Harry, the warmth and slight guilt of the exchange) represents lost relational material but cannot be scored against the film since it is not in the theatrical corpus."
     },
     {
-      "scene": "DH Part 1 Film \u2013 Ron destroying the locket Horcrux",
-      "book_baseline": "Ron's destruction of the locket is his defining heroic act: he faces his deepest fears (being unloved, overshadowed by Harry, rejected by Hermione) and overcomes them. The visions are specific and psychologically precise.",
-      "film_portrayal": "The scene is present and the visions are shown, but the full psychological specificity of Ron's fears and the emotional weight of his triumph are somewhat diluted by the visual spectacle.",
+      "scene": "Goblet of Fire - Ron's jealousy/cold shoulder after Harry's name emerges from Goblet",
+      "book_baseline": "In the book, Ron's jealousy is a genuine, sustained wound - he goes cold and distant for weeks, believing Harry entered secretly and didn't tell him. Harry is deeply hurt by the loss of his best friend. Ron's internal struggle involves real envy rooted in always being overshadowed, and his eventual reconciliation after the first task is emotionally earned. The book shows Ron was 'white and staring at Harry as though he were a ghost' before apologising.",
+      "film_portrayal": "The film compresses Ron's jealousy into a single dorm scene where Ron says 'Might've let your best friend know, though' and 'Ron Weasley, Harry Potter's stupid friend.' The sustained weeks-long estrangement is almost entirely absent from what the film shows. The reconciliation after the first task exists but the preceding emotional arc is severely truncated, making Ron's jealousy feel petty and brief rather than a meaningful character flaw rooted in deep insecurity.",
       "damage_type": "arc",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "This is the climax of Ron's entire character arc. The film preserves the action but the internal victory is less clearly articulated, reducing the cathartic payoff."
+      "explanation": "The book devotes many chapters to Ron's jealousy as a genuine arc about his insecurity living in Harry's shadow and having older brothers to compete with. This is one of Ron's most important character moments in the entire saga. The film reduces it to one scene, stripping out the weeks of silent treatment, Harry's loneliness without his best friend, and the emotional weight of their reconciliation. The audience loses insight into Ron's core flaw and Harry's dependence on Ron's friendship."
     },
     {
-      "scene": "DH Part 2 Film \u2013 Ron and Hermione kiss (Chamber of Secrets)",
-      "book_baseline": "The kiss follows Ron's spontaneous concern for the house-elves, showing his moral growth; Hermione is so moved she kisses him. The moment is earned by Ron's character development.",
-      "film_portrayal": "The kiss is present and the house-elf motivation is retained, but the emotional build-up and the specific quality of Ron's growth that makes Hermione's response credible are compressed.",
+      "scene": "Goblet of Fire - Ron's reconciliation speech after first task ('I reckon they're trying to do you in')",
+      "book_baseline": "In the book, Ron's reconciliation is fumbling and genuine - he tries to apologise, Harry cuts him off saying 'forget it', and there is real warmth in the awkward reunion. Ron then emotionally supports Harry by raving about his performance against the dragon. The moment 'Ron's indignation on his behalf was worth about a hundred points to him' captures the depth of Harry's need for Ron specifically.",
+      "film_portrayal": "In the film Ron says 'I reckon you have to be barking mad to put your own name in the Goblet of Fire' and then tries to credit himself with warning Harry about the dragons via an absurdly convoluted chain ('I told Hermione to tell you that Seamus told me that Parvati told Dean...'), played largely for laughs. The sincerity of the apology is undercut by the comedic framing.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The payoff of the Ron-Hermione relationship depends on Ron's demonstrated growth. Compressing the lead-up weakens the emotional logic of the moment."
+      "explanation": "The book's reconciliation underlines how much Ron and Harry's friendship means to both of them. The film plays it for laughs, which deflates the emotional payoff of a weeks-long estrangement and reduces Ron to a comic figure rather than a genuinely remorseful friend. The 'worth a hundred points' emotional resonance is entirely absent."
     },
     {
-      "scene": "DH Part 2 Film \u2013 Ron's role in the final battle",
-      "book_baseline": "Ron is an active, courageous participant throughout the battle; he and Hermione act as a team, and his concern for the house-elves and his tactical thinking are on display.",
-      "film_portrayal": "Ron is present but increasingly reactive; several of his book moments (including specific acts of courage and tactical contribution) are either cut or given to other characters.",
+      "scene": "Goblet of Fire - Ron's behaviour at the Yule Ball (ignoring Padma, glaring at Hermione and Krum)",
+      "book_baseline": "In the book, Ron's anger at Hermione going with Krum is portrayed as rooted in incipient jealousy of romantic feeling, but also genuine loyalty concerns about Krum being Hogwarts's competitor. His rudeness to Padma is shown, and his blazing row with Hermione afterward ('Next time there's a ball, ask me before someone else does, and not as a last resort!') is a pivotal moment. Harry privately thinks Hermione has 'got the point much better than Ron had', acknowledging Ron's unrecognised feelings.",
+      "film_portrayal": "The film retains Ron ignoring Padma and glaring at Hermione and Krum, and includes the 'fraternizing with the enemy' argument and a version of the post-ball row. However, the nuance that Harry privately recognises Ron's suppressed romantic feelings is absent. Ron comes across primarily as petty and jealous rather than someone experiencing confused, unrecognised feelings for his best friend.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film captures the surface behaviour but loses the subtle interiority that contextualises Ron's jealousy as early romantic feeling. This matters for the Ron-Hermione relationship arc across the saga. Without that subtext, Ron simply appears boorish."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's concern for Hermione when she is hexed by Malfoy (corridor Snape scene)",
+      "book_baseline": "In the book, Ron notices Hermione's tooth hex, grabs her hand to show Snape, and both he and Harry shout at Snape together when Snape refuses to act. This shows Ron's fierce protectiveness of Hermione even during their period of tension. It also ends bitterly when Ron turns back to sit with Dean and Seamus rather than Harry, maintaining the estrangement while showing his care for Hermione.",
+      "film_portrayal": "This scene does not appear in the film corpus. The Malfoy corridor confrontation and the Snape interaction are absent entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The absence removes a moment that shows Ron's capacity for protective loyalty even while at his worst. It also removes a texture of the Ron-Hermione relationship and a dimension of Ron's complex relationship with Harry during the estrangement period."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's reaction to Harry's scar hurting and the Voldemort dream (opening Burrow sequence)",
+      "book_baseline": "In the book, when Harry finally tells Ron and Hermione about his scar hurting and the dream at the Burrow, Ron is 'simply dumbstruck' and offers bracingly practical reassurance ('It was only a dream. Just a nightmare'). Later when Harry connects his scar with the Dark Mark appearing, Ron hisses 'Don't - say - his - name!' showing his instilled fear of Voldemort's name. Ron's emotional response is a blend of concern, denial, and superstition.",
+      "film_portrayal": "On the train, Hermione is the one who notices Harry's scar hurting and prompts him to contact Sirius. Ron's role in this exchange is minimal - he provides a line about the Death Eaters at the World Cup ('Loads, according to Dad') but the intimate friendship dynamic where Ron is the first person Harry thinks of confiding in is replaced by Hermione driving the scene.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes that Ron is Harry's primary confidant and emotional anchor. The film consistently shifts this function to Hermione, subtly eroding the specific quality of Harry and Ron's friendship as distinct from Harry and Hermione's."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's boastful retelling of being the hostage in the lake",
+      "book_baseline": "In the book, Ron's retelling of being the lake hostage grows increasingly embellished over time - by a week later he is telling people he 'struggled single-handedly against fifty heavily armed merpeople' and had his wand hidden up his sleeve. This is a characterful comic moment showing Ron's desire for attention and his slight vanity, but Hermione's sharp retort ('What were you going to do, snore at them?') deflates it and he reverts to the truth. This scene shows Ron's loveable boastfulness and his sensitivity to being teased.",
+      "film_portrayal": "This scene does not appear in the film corpus. The aftermath of the second task showing Ron's embellished storytelling is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "A small but characterful moment showing Ron's comic vanity and desire for his own share of glory is entirely absent. It is a minor loss but contributes to the thinning of Ron's comic and human texture in the adaptation."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's poverty and emotional reaction to leprechaun gold/Omnioculars",
+      "book_baseline": "The book carefully develops Ron's sensitivity about the Weasley family's poverty across the novel - his embarrassment at the dress robes, his touchiness when Harry buys the Omnioculars, his shame when he discovers the leprechaun gold he gave Harry had vanished, his statement 'I hate being poor.' This is a sustained character thread that explains many of Ron's behaviours including his jealousy of Harry.",
+      "film_portrayal": "The film includes the dress robes embarrassment well, but the Omnioculars scene where Ron goes red and Harry has to insist on buying them is absent from the film corpus. The leprechaun gold realisation scene (Ron discovering he accidentally paid Harry with vanishing gold) is also absent, removing 'I hate being poor' as an explicit character statement.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's poverty is a defining aspect of his character that underpins his jealousy of Harry and his family dynamics. The film retains the dress robes but loses the quieter, more painful moments where Ron confronts his financial disadvantage. This weakens the psychological grounding for his behaviour throughout the film."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's role in helping Harry prepare for tasks (practicing hexes, Summoning Charm)",
+      "book_baseline": "In the book, after their reconciliation Ron throws himself into helping Harry prepare - practicing Stunning Spells (and being Stunned repeatedly himself), working on hexes, and being a willing if grumbling partner in revision sessions. His commitment to helping Harry is shown through physical sacrifice. Ron says 'I'm aching all over' from being Stunned. This shows the depth of his friendship and loyalty when not clouded by jealousy.",
+      "film_portrayal": "The preparation montage aspect of Ron helping Harry practice for the third task does not appear as distinct scenes in the film corpus. Ron's active participation in helping Harry train is largely invisible in the film.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's willingness to endure discomfort to help Harry is a meaningful demonstration of his loyalty and the quality of their friendship post-reconciliation. Its absence means the audience sees the friendship restored but not demonstrated through action, weakening the emotional statement of the reconciliation."
+    },
+    {
+      "scene": "Goblet of Fire - Ron confronting Fred and George about potential blackmail in the Owlery",
+      "book_baseline": "In the book, Ron hears Fred and George discussing blackmail and confronts them directly, saying 'It's my business if you're blackmailing someone' and refusing to back down even when threatened. He expresses genuine moral concern, saying they could 'end up in serious trouble'. He ultimately decides not to tell Percy because Percy 'would probably do a Crouch and turn them in.' This shows Ron's moral compass and his complex family loyalty.",
+      "film_portrayal": "This scene does not appear in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "A small scene that shows Ron's moral independence and his navigation of family loyalty. Its absence is a minor loss of character nuance but not structurally damaging."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's reaction to Hagrid being half-giant",
+      "book_baseline": "In the book, Ron's reaction to learning Hagrid is half-giant is shown as reflecting ingrained wizarding prejudice - he is genuinely disturbed, explains to Harry that giants 'just like killing, everyone knows that', and even Harry notices Ron 'looked as though he would have liked to reply scathingly' to Hermione's anti-prejudice argument but held back. This is a meaningful moment showing Ron as a product of his cultural environment, with biases he's not entirely aware of.",
+      "film_portrayal": "This conversation between Harry and Ron about giants does not appear in the film corpus. The reaction to Hagrid's heritage is not explored through Ron's perspective.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this moment to give Ron genuine moral complexity - he is loyal to Hagrid but culturally conditioned to fear giants. This complexity is entirely absent from the film's Ron, who is consequently flatter and less realistically situated within wizarding society."
+    },
+    {
+      "scene": "Goblet of Fire - Ron's dismissiveness toward S.P.E.W. and house-elf welfare",
+      "book_baseline": "The book gives Ron multiple scenes of thoughtless dismissiveness toward house-elf welfare ('They. Like. It. They like being enslaved!') that Hermione challenges at length. Sirius explicitly corrects Ron: 'She's got the measure of Crouch better than you have, Ron. If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.' Ron is not villainised but shown as carrying lazy assumptions that he gradually, partially challenges.",
+      "film_portrayal": "S.P.E.W. and the entire house-elf welfare subplot is absent from the film. Ron's dismissiveness and the Sirius correction do not appear.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "While S.P.E.W. is a known adaptation casualty, its absence removes a thread that develops Ron's moral blind spots and his relationship with Hermione's values. The Sirius line directly commenting on Ron's character is a meaningful piece of characterisation lost entirely."
+    },
+    {
+      "scene": "OotP - Grimmauld Place reunion, Ron deflects Harry's anger with a joke",
+      "book_baseline": "In the books, Ron is genuinely caught between loyalty to Harry and obedience to Dumbledore. He acknowledges Harry's frustration, admits they wanted to write, and engages seriously with Harry's anger. He says 'We told Dumbledore we wanted to tell you what was going on. We did, mate.' Ron also shares in the argument and defends Harry against Hermione's more passive responses.",
+      "film_portrayal": "The film reduces Ron's role in the reunion almost entirely. Fred and George arrive and quip ('Don't bottle it up, mate, let it out'), effectively displacing Ron's role as Harry's primary peer confidant. Ron's line is reduced to 'We wanted to write, mate. Really, we did. Only...' before Hermione takes over the explanation. Ron's genuine conflict and emotional engagement with Harry's grievance is absent.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Grimmauld reunion establishes Ron as a full participant in the emotional reckoning with Harry \u2014 he advocates for Harry to Dumbledore, defends him, and shares the tension. The film cedes this ground to Hermione and the twins, thinning Ron's role as Harry's closest male friend and ally at the moment Harry most needs peer validation."
+    },
+    {
+      "scene": "OotP - Dormitory confrontation with Seamus, Ron defends Harry",
+      "book_baseline": "Ron steps up assertively and aggressively when Seamus challenges Harry. He uses his prefect authority ('Yeah, I'm also a prefect!'), glares at the dormitory, and asks 'Anyone else's parents got a problem with Harry?' Ron is proactive, loyal, and even a little intimidating \u2014 this is a moment of genuine courage and friendship.",
+      "film_portrayal": "The film preserves Ron stepping in ('Yeah, I do. Does anyone else got a problem with Harry?') and his basic loyalty, but strips the prefect authority angle entirely \u2014 there is no badge-brandishing, no use of institutional leverage. His line is present but decontextualised, without the prefect dimension that gives it extra weight in the book.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to link Ron's new prefect identity to a concrete act of loyalty. The film loses this layering \u2014 Ron defends Harry, but the moment doesn't reinforce his growing authority or character development. It's a small but real flattening of his arc."
+    },
+    {
+      "scene": "OotP - Ron becoming Keeper, secret practice revealed to Harry",
+      "book_baseline": "Ron secretly practises Keeper skills every evening, hides it from Harry out of embarrassment, and is emotionally vulnerable when Harry discovers him. The scene is rich with Ron's insecurity, his desire to prove himself independently of Harry, and his relief at Harry's genuine enthusiasm. Harry thinks Ron is 'pretty good' and they bond over it.",
+      "film_portrayal": "This entire subplot \u2014 the secret practices, the emotional reveal, Ron's private aspiration and vulnerability \u2014 is completely absent from the film corpus. Ron's Keeper arc appears only through the Quidditch match sequences, where his failures are foregrounded. The private, humanising dimension of his ambition is entirely lost.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The secret Keeper practice scene is one of the most humanising Ron moments in the book \u2014 it shows initiative, vulnerability, a private dream pursued without Harry's shadow. Without it, the film's Ron fails publicly with no established context of private effort or aspiration, making him look simply incompetent rather than anxious and striving."
+    },
+    {
+      "scene": "OotP - Umbridge's blood quill detention, Ron discovers the wounds",
+      "book_baseline": "Ron discovers the wounds on Harry's hand by accident, reacts with horror ('The old hag! She's sick! Go to McGonagall, say something!'), and is clearly distressed on Harry's behalf. He pushes Harry to act, and only reluctantly accepts Harry's reasoning for staying silent. This is a moment of Ron functioning as Harry's protector and moral voice.",
+      "film_portrayal": "Ron's discovery of the wound and his reaction are compressed to a single brief line ('Bloody hell, Harry, the woman is torturing you. If the parents knew about this...'). The emotional weight of Ron's horror and his advocacy for Harry is present but drastically abbreviated, and the exchange is quickly displaced by Hermione taking over the conversation.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to show Ron as Harry's emotional guardian \u2014 someone who refuses to normalise the abuse and pushes back. The film's version exists but is so brief it registers as a throwaway line rather than a meaningful beat of friendship and concern."
+    },
+    {
+      "scene": "OotP - Ron's prefect badge reveal and emotional reaction",
+      "book_baseline": "The prefect badge scene is extended and nuanced: Ron is genuinely stunned, moves the badge around obsessively, is embarrassed by his mother's effusive pride, and has a private, honest exchange with Harry where he says 'I never thought it would be me! I thought it would be you!' Harry internally wrestles with jealousy before genuinely congratulating Ron. The scene develops Ron's identity and his relationship with Harry.",
+      "film_portrayal": "This entire scene is absent from the film corpus. Ron's prefect status is acknowledged only functionally (he goes to the prefect carriage, patrols corridors) with no emotional texture around the badge reveal, no Mrs Weasley celebration, no Ron/Harry moment of honest vulnerability.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The prefect badge reveal is one of the few moments in the series where Ron achieves something Harry didn't and where their friendship is tested and affirmed. Its total absence removes a significant dimension of Ron's individual identity and his relationship with Harry in year five."
+    },
+    {
+      "scene": "OotP - Weasley is Our King, Ron's psychological deterioration under pressure",
+      "book_baseline": "The book dedicates extended space to Ron's psychological fragility under the Slytherins' taunting \u2014 his green-faced terror before matches, his inability to perform under scrutiny, the Slytherins' deliberate psychological campaign. The narrative treats this with empathy and shows it as a serious character struggle with anxiety and self-worth.",
+      "film_portrayal": "The film shows Ron performing poorly in the match but the psychological build-up \u2014 weeks of taunting, his escalating anxiety, the pre-match nausea, Hermione's instruction not to let him see the badges \u2014 is largely compressed. The film does not adequately establish the sustained psychological pressure Ron is under, reducing his poor performance to simple incompetence.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Without the extended build-up of Ron's anxiety arc, his Quidditch failures read as a character flaw (he's just bad) rather than a sympathetic portrayal of performance anxiety under targeted bullying. The film loses the empathetic framing the book provides."
+    },
+    {
+      "scene": "OotP - Percy's letter, Ron tears it up",
+      "book_baseline": "Ron receives Percy's manipulative letter advising him to drop Harry. Ron reads it, grows furious, tears it into pieces and throws it in the fire, saying Percy is 'the world's biggest git.' This is a moment of fierce loyalty to Harry and rejection of Ministry pressure, showing Ron's moral clarity.",
+      "film_portrayal": "Percy's letter and Ron's reaction to it are entirely absent from the film corpus. The Percy estrangement subplot is mentioned briefly but the specific beat of Ron being personally targeted and choosing Harry over Ministry-endorsed advice is lost.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Ron tearing up Percy's letter is a concrete act of moral agency \u2014 he is directly pressured to abandon Harry and refuses. Its absence removes a moment where Ron's loyalty is tested not by circumstance but by explicit personal pressure, weakening the audience's sense of his active commitment to Harry."
+    },
+    {
+      "scene": "OotP - DA founding meeting, Zacharias Smith confrontation",
+      "book_baseline": "Ron aggressively defends Harry against Zacharias Smith's scepticism ('Here's an idea, why don't you shut your mouth?') and is a full co-founder of the DA alongside Hermione and Harry. He actively recruits members and co-leads the Hog's Head meeting.",
+      "film_portrayal": "The film shows Ron present at the Hog's Head meeting and contributing ('Why? Because You-Know-Who's back, you toss-pot') but his role as a genuine co-founder and co-recruiter of the DA is subordinated. The film's framing positions Hermione as the intellectual architect and Harry as the leader, with Ron largely as an enthusiastic bystander.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book Ron is a genuine co-architect of the DA \u2014 he and Hermione together persuade Harry, he co-recruits members, and he defends the idea. The film reduces him to a reactive supporter, which across the film cumulates into a pattern of Ron losing functional agency in group decisions."
+    },
+    {
+      "scene": "OotP - Department of Mysteries, Ron bewitched by the brain",
+      "book_baseline": "In the book, Ron's encounter with the brain is involuntary but also partly driven by his disoriented, magically-affected state. He is shown as genuinely incapacitated (still fighting the brain, giggling helplessly, bleeding), and his condition is treated as serious and frightening. His 'Harry, you know who this girl is... Loony Lovegood' line shows the depth of his impairment.",
+      "film_portrayal": "The brain encounter is absent from the film corpus entirely. Ron's role in the Department of Mysteries sequence is reduced to running through corridors and surviving. The specific vulnerability, dark comedy, and genuine danger of the brain attack \u2014 which in the book scars him permanently (thoughts leave deeper scarring than almost anything else) \u2014 is completely cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The brain attack is a memorable, character-specific moment of Ron being genuinely endangered in a distinctive way. Its absence, combined with the cuts to his recovery in the hospital wing, removes a thread that shows Ron bearing real physical and psychological costs from the battle."
+    },
+    {
+      "scene": "OotP - Hospital wing aftermath, Ron's warmth and humour in recovery",
+      "book_baseline": "In the book's hospital wing aftermath, Ron is shown distributing Chocolate Frogs generously, making jokes about Umbridge's catatonic state (clip-clopping noises), propping a Dumbledore card against his water jug, and commenting wryly on events. He is warm, funny, and resiliently himself. This is important characterisation \u2014 Ron bouncing back with humour after genuine trauma.",
+      "film_portrayal": "This entire hospital wing sequence \u2014 Ron's jokes, his generosity with sweets, his commentary \u2014 is absent from the film corpus. The film jumps past the recovery period almost entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The hospital wing scene is one of the most purely characterful Ron moments in the book \u2014 it shows his resilience, warmth, and humour after real danger. Its absence means the film's Ron ends the story without a scene that demonstrates his essential personality and his value to the ensemble."
+    },
+    {
+      "scene": "OotP - Ron sceptical of Hermione's DA idea, then genuinely persuaded",
+      "book_baseline": "Ron's conversion from scepticism to enthusiasm about the DA is shown across multiple scenes. He grumbles about extra work ('Come off it, we're behind on homework'), then independently and genuinely argues Harry's case ('Let's think... first year, you saved the Philosopher's Stone... second year, you killed the Basilisk...'). This is Ron as Harry's active advocate, not a passive supporter.",
+      "film_portrayal": "The film shows Ron making the case for Harry briefly ('Look on the bright side, you can't be any worse than old toad face') but the extended, enthusiastic recitation of Harry's achievements \u2014 Ron building the case point by point \u2014 is compressed. The film's Ron is supportive but not the eloquent advocate the book portrays.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Ron's point-by-point defence of Harry's qualifications is a rare moment of Ron being verbally persuasive and intellectually engaged on Harry's behalf. Its compression into a single quip loses the texture of Ron as someone who actively thinks about and articulates Harry's worth."
+    },
+    {
+      "scene": "OotP - Cho confrontation over Ron's Quidditch-team loyalty question",
+      "book_baseline": "Ron unnecessarily interrogates Cho about her Tornados support in front of Harry, embarrassing Harry and causing Cho to leave. Ron is oblivious to the social damage he's caused. Hermione rounds on him, and Ron is entirely confused. This is a specific, funny, and revealing moment of Ron's social blindness.",
+      "film_portrayal": "This scene is absent from the film corpus. Cho and Harry's interactions are handled differently, without Ron's blundering intrusion and its aftermath.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but genuine piece of characterisation showing Ron's social obliviousness in a comedic register. Its absence is a minor loss of personality texture."
+    },
+    {
+      "scene": "OotP - Ron and Hermione's sustained bickering dynamic throughout the year",
+      "book_baseline": "The book extensively portrays Ron and Hermione bickering \u2014 over SPEW, over homework, over Kreacher, over Sirius, over Snape \u2014 with Harry often caught in the middle and eventually snapping at them. This dynamic is a running characterisation thread showing Ron's stubbornness, directness, and the friction that underlies his deepening relationship with Hermione.",
+      "film_portrayal": "The film largely strips the Ron/Hermione bickering dynamic. Their relationship is shown as warmly functional. Ron's stubbornness on issues like SPEW, his irritability about homework, and his ongoing friction with Hermione are almost entirely absent. The closest the film gets is brief comic moments.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Ron/Hermione friction is not merely comic texture \u2014 it is the foundation of their eventual romantic relationship and a key expression of Ron's personality (opinionated, blunt, resistant to Hermione's authority). Its near-total absence in the film means both Ron's personality and the relationship's trajectory are significantly flattened."
+    },
+    {
+      "scene": "Half-Blood Prince - Attic scene at the Burrow (Film Scene 2)",
+      "book_baseline": "In the book, Ron wakes Harry enthusiastically, hits him on the head accidentally, and the trio have a warm, lively reunion morning scene with Ron pulling up a cardboard box to sit on, asking about Dumbledore, deflecting Hermione's warnings with humor. Ron is active, curious, and warm.",
+      "film_portrayal": "The film replaces the book's warm morning reunion with a late-night attic scene where Ron is relatively passive, delivering a few lines about Mrs. Weasley's concerns. The extended book scene establishing Ron's curiosity, warmth, and friendship dynamic is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's reunion scene establishes Ron's personality - his humor, physical comedy, and emotional warmth toward Harry. The film's replacement loses the specific texture of his characterization and the trio dynamic early in the story."
+    },
+    {
+      "scene": "Half-Blood Prince - Potions class, book competition (Film Scene 10)",
+      "book_baseline": "In the book, Ron gets a battered copy of the textbook only after Harry takes the new one. Ron struggles throughout the lesson with his potion turning like 'liquid licorice,' and though disappointed, is supportive of Harry winning the Felix Felicis. Ron's limitations in Potions are established as genuine and consistent.",
+      "film_portrayal": "In the film, Ron actually wrests the new textbook away from Harry when the Bezoar box tips, grinning as he goes off with it. This makes Ron momentarily competitive and shrewd in a way that undermines the book's clear dynamic where Harry's luck with the old book is a matter of chance.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but notable inversion: in the book Ron gets the worse book by circumstance; in the film he actively takes the better one. It's a minor character beat but slightly misrepresents Ron's disposition."
+    },
+    {
+      "scene": "Half-Blood Prince - Quidditch tryouts, Hermione confounding McLaggen (Film Scene 11)",
+      "book_baseline": "In the book, Ron saves five penalties in a row during the shootout and wins the Keeper spot on genuine merit in the moment (even if Hermione's Confundus on McLaggen was a factor). Ron's performance is described in detail - his nerves, his saves, his relief. He looks 'extremely pleased with himself and even taller than usual.'",
+      "film_portrayal": "The film condenses the tryout heavily. Ron's individual saves are shown only cursorily in montage. The specific emotional beat of Ron's triumph and his swelling pride is diminished. His nervousness is present but his victorious relief is less individuated.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses the tryout to establish Ron's arc around confidence and Quidditch - a recurring theme throughout HBP. Condensing this into montage reduces the emotional groundwork for his later crisis of confidence."
+    },
+    {
+      "scene": "Half-Blood Prince - Dormitory conversation about Ginny and Dean (Film Scene 17)",
+      "book_baseline": "In the book, this conversation is entirely absent. Harry experiences his growing feelings for Ginny as an internal struggle - the 'monster' in his chest - and is careful to suppress thoughts of her. He is self-aware, conflicted, and keeps things to himself. His attraction is characterized by internal turmoil, not articulation.",
+      "film_portrayal": "The film adds a new scene where Harry and Ron lie awake discussing what Dean 'sees in Ginny,' with Harry saying she's 'smart, funny, attractive' and noting her 'nice skin.' Ron then pivots awkwardly to say 'Hermione's got nice skin.' This makes both characters more explicitly and somewhat clumsily aware of their respective attractions in a way the books handle with far more internal subtlety.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Ron's characterization in the book around his feelings for Hermione is conveyed through behavior, jealousy, and inadvertent moments - not explicit late-night pillow-talk. The film's approach reduces the nuance of both characters' emotional development and makes Ron seem more self-aware about Hermione in a way that undercuts the gradual, tortured nature of the book's romantic subplot."
+    },
+    {
+      "scene": "Half-Blood Prince - Slughorn's party / Ron and Lavender / Hermione's reaction (Film Scene 19 replaces book arc)",
+      "book_baseline": "In the book, the aftermath of Ron snogging Lavender at the Quidditch celebration party is drawn out over weeks. Ron is simultaneously guilty, defensive, and oblivious. He treats Hermione with 'icy sneering indifference,' becomes aggressive and short-tempered, and his Quidditch performance collapses under the emotional weight. He mutters about Krum, insists he's a 'free agent,' and refuses to end things with Lavender despite being miserable. The book shows Ron at his worst - petty, cowardly about relationships, and emotionally stunted.",
+      "film_portrayal": "The film compresses this arc significantly. The scene where Hermione sends birds at Ron occurs, but the extended period of Ron's cruelty to Hermione, his deteriorating Quidditch performance tied to his emotional state, and the full texture of his jealousy and defensiveness are largely absent. In the film Ron quickly pivots to a corridor conversation where he speaks with breezy confidence ('It's chemical. Will it last? Who knows?').",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Ron-Lavender-Hermione triangle is central to Ron's character arc in HBP - it shows his emotional immaturity, his cowardice in relationships, his capacity for cruelty when jealous, and ultimately the depth of his feelings for Hermione. The film's compression loses the weeks-long deterioration that makes his eventual reaching for Hermione meaningful."
+    },
+    {
+      "scene": "Half-Blood Prince - Ron on the train discussing Unbreakable Vow (Film Scene 21)",
+      "book_baseline": "In the book, Ron and Harry discuss the Unbreakable Vow over Christmas at the Burrow while peeling sprouts. Ron provides crucial exposition about what the Vow means, recounts Fred and George's attempt to make him take one as a child, and his father's furious reaction. It's a scene that shows Ron's family history and his comfort sharing memories. He then engages seriously with Harry's theory about Snape and Malfoy, ultimately siding with Harry.",
+      "film_portrayal": "In the film, the conversation is moved to the Hogwarts Express and is significantly shortened. The personal family anecdote about Fred, George, and his father is entirely absent. Ron is mainly reactive, lying on his back, distracted by Lavender fogging the compartment window.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The loss of the sprout-peeling scene and the Fred/George/Dad anecdote removes a humanizing, characterful moment that shows Ron's family warmth and his own history. The film version of Ron is passive and distracted where the book Ron is engaged and informative."
+    },
+    {
+      "scene": "Half-Blood Prince - Ron's love potion episode, behaviour toward Romilda (Film Scenes 22-24)",
+      "book_baseline": "In the book, Ron under the love potion is played for comedy but also reveals something about his nature - he becomes pathetically devoted, punches Harry when Harry calls it a joke, and is generally pitiable. After the antidote, Harry notes Ron is 'devastated.' The scene then naturally leads into the mead poisoning with Harry having to think quickly.",
+      "film_portrayal": "The film handles this scene reasonably faithfully - Ron's devotion to Romilda, the punch (as a thrown box), Slughorn's office, the antidote and subsequent poisoning are all present. However, Ron's line upon recovering ('These girls are gonna kill me, Harry') is a film invention that gives him a quippy, self-aware comedic exit line that somewhat deflates the genuine peril of the moment.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor tonal shift - the book Ron recovers and is then unconscious; the film gives him a punchline that slightly undercuts the genuine drama. Small but representative of the film's tendency to soften Ron's more vulnerable moments with humor."
+    },
+    {
+      "scene": "Half-Blood Prince - Hospital wing after poisoning, Ron calling for Hermione (Film Scene 25)",
+      "book_baseline": "In the book, Ron mutters 'Er-my-nee' in his sleep while unconscious, which is an inadvertent, unguarded moment. Hermione's presence is described as having 'hurtled, white-faced' to Harry and been 'clench-jawed and frightened-looking' throughout. The moment of Ron reaching out is not clearly directed by Ron - he 'reached out blindly.'",
+      "film_portrayal": "The film stages Ron semi-consciously reaching out and saying 'Her-my-o-nee' in a way that is more deliberate and legible as a romantic declaration. Dumbledore then remarks 'Ah, to be young and feel love's keen sting' and beams, tidily packaging what the book left ambiguous and private. The scene is played more for audience payoff.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version is more ambiguous and therefore more emotionally true - Ron's feelings leak out unconsciously. The film's staging, amplified by Dumbledore's comment, turns it into a neat romantic moment that reduces the naturalistic complexity of Ron's character and the slow-burn of the relationship."
+    },
+    {
+      "scene": "Half-Blood Prince - Ron post-breakup corridor scene (Film Scene 20)",
+      "book_baseline": "In the book, after the Ron-Lavender relationship ends, Ron is described as 'not minding' it was over, admitting 'It was pretty bad while she was yelling, but at least I didn't have to finish it.' He then confesses cowardly relief at not having had to break up with her himself. Harry notes his 'coward' character here. Ron also asks about Hermione and Krum. The characterization is of someone emotionally avoidant but self-aware enough to feel guilty about it.",
+      "film_portrayal": "The film's corridor scene (Scene 20) has Ron speaking with breezy confidence: 'What Lav and I have - well, let's just say there was no stopping it. It's chemical. Will it last? Who knows? Point is, I'm a free agent.' This Ron sounds almost suave - detached, philosophical, not the cowardly, guilty, emotionally immature Ron of the books.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This invented film dialogue gives Ron a coolness and emotional detachment that directly contradicts his book characterization as someone fumbling with relationships and prone to avoidance and guilt. It makes him seem more sophisticated than he is in the source material."
+    },
+    {
+      "scene": "Half-Blood Prince - Ron's skepticism about Malfoy throughout (Film Scenes 6, 16, 28)",
+      "book_baseline": "In the book, Ron is skeptical of Harry's Malfoy-is-a-Death-Eater theory but his skepticism is rooted in genuine reasoning and he eventually comes around. He actively helps with the Marauder's Map investigation, suggests Hogsmeade as a possibility, and is a real thinking partner. He also notes 'I never said it was all in your head' and affirms Harry at key moments. His support is imperfect but real.",
+      "film_portrayal": "In the film, Ron's skepticism is more dismissive ('You're barking. What would You-Know-Who want with a sod like Malfoy?') and he functions primarily as a voice of comic deflation. His active participation in the investigation - the Marauder's Map scenes, the Kreacher/Dobby moment, the Room of Requirement deduction - is either reduced or reattributed to Harry and Hermione as the primary investigators.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "In the final book Ron is Harry's equal partner; in the film he is increasingly a supporting presence, which undermines the trilogy-long arc of his development."
+      "explanation": "The book's Ron is a genuine investigative partner in the Malfoy subplot. The film reduces him largely to a skeptical bystander, which diminishes his function in the plot and his status as Harry's intellectual equal in the friendship. His agency in the mystery plot is significantly curtailed."
     },
     {
-      "scene": "Across multiple films \u2013 redistribution of Ron's competence to Hermione",
-      "book_baseline": "Ron has specific areas of competence: chess, Quidditch knowledge, wizarding world expertise, tactical thinking, and emotional intelligence in key moments. These are distributed across the trio.",
-      "film_portrayal": "Many of Ron's competent moments are either cut or transferred to Hermione (e.g., identifying Devil's Snare in PS/SS, various tactical suggestions in later films), reinforcing a pattern where Ron exists primarily as comic relief.",
-      "damage_type": "personality/voice",
-      "exposure": 3,
+      "scene": "Half-Blood Prince - Loss of OWL results scene",
+      "book_baseline": "The book has an extended, important scene where the trio receive their OWL results. Ron gets seven OWLs, which Mrs. Weasley praises as more than Fred and George got together. Ron is delighted, reads out his grades, is characteristically pleased about not caring about Divination and History of Magic. He punches Harry on the shoulder saying 'Knew you'd be top at Defense Against the Dark Arts.' This is a defining moment of Ron's academic achievement and family pride.",
+      "film_portrayal": "This scene is entirely absent from the film corpus. The OWL results and Ron's seven OWLs - a genuine achievement that reframes him as capable and hardworking despite his comic-relief role - are never acknowledged.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The OWL scene is important for Ron's dignity and status. Seven OWLs is a real academic achievement that the book uses to show Ron is more than comedic support. Without it, the film loses a moment that humanizes and elevates him, contributing to a flatter, more one-note portrayal."
+    },
+    {
+      "scene": "Half-Blood Prince - Loss of Ron's Quidditch confidence arc and Harry's fake Felix Felicis trick",
+      "book_baseline": "The book devotes considerable space to Ron's crisis of confidence before the Slytherin match - weeks of bad training, aggression, nearly resigning, Harry lying awake thinking of how to help him. Harry's decision to fake the Felix Felicis dose is a meaningful act of friendship and psychological insight. Ron's triumph is earned and his realization ('I saved goals without help') is a genuine arc moment.",
+      "film_portrayal": "The film compresses this significantly. The weeks of Ron's deteriorating play, his aggression toward teammates, his near-resignation, and Harry's sustained effort to support him are reduced to a brief morning scene. The Felix Felicis fake-out is present but the emotional weight of the arc - Ron learning he can do it himself - is much diminished.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This arc is one of the most important Ron-centric sequences in HBP, showing his vulnerability, Harry's depth of friendship, and Ron's growth in self-belief. The compression loses the sustained character work that makes Ron's Quidditch triumph emotionally resonant."
+    },
+    {
+      "scene": "Half-Blood Prince - Loss of sprout-peeling Christmas scene with Fred, George and Ron",
+      "book_baseline": "The book has a warm, funny scene of Ron and Harry peeling sprouts while Fred and George tease Ron about Lavender. Ron handles the banter with good humor, makes a rude gesture, nearly throws a knife, and discusses the Unbreakable Vow with depth and detail including the personal family story. This is quintessential Ron - funny, warm, embedded in his family.",
+      "film_portrayal": "This scene does not appear in the film corpus. The domestic Christmas texture, Ron's family banter with the twins, and the specific character warmth of this scene are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Burrow Christmas scenes are important for establishing Ron's warmth, his family relationships, and his comedy that is rooted in genuine affection rather than buffoonery. The loss contributes to a thinner portrayal of Ron's domestic self."
+    },
+    {
+      "scene": "Half-Blood Prince - End of film, Ron's commitment to Harry's mission (cut scene noted in non-theatrical material)",
+      "book_baseline": "In the book, after Dumbledore's funeral, Ron explicitly and movingly commits to going with Harry: 'We're with you whatever happens.' He says 'What?' with genuine surprise at Harry's attempt to go alone, then insists: 'We'll be there, Harry... And then we'll go with you, wherever you're going.' This is one of the most important statements of Ron's loyalty and friendship in the entire saga.",
+      "film_portrayal": "Per the non-theatrical exclusion note, the scene where Harry tells Ron and Hermione they are brilliant and they refuse to leave him was cut from the theatrical release. This means Ron's explicit declaration of loyalty at the saga's turning point is absent from the theatrical film.",
+      "damage_type": "relationship",
+      "exposure": 2,
       "impact_weight": 4,
-      "explanation": "This is the most systemic damage to Ron's character across the adaptation. The cumulative effect is that film-Ron lacks the competence and respect that book-Ron earns, making his arc less credible and his friendship with Harry less equal."
+      "explanation": "Ron's commitment speech at the end of HBP is a culminating moment for his friendship with Harry and his own courage. Its loss from the theatrical film means the transition into Deathly Hallows lacks the foundational statement of Ron's loyalty that the book establishes. This is significant structural damage to his relationship arc."
+    },
+    {
+      "scene": "DH Part 1 - Ron's departure from the tent (camping montage / argument scene)",
+      "book_baseline": "In the book, Ron's departure is a slow-building collapse: weeks of hunger, the Horcrux's amplification of genuine insecurities, and a specific argument in which Ron articulates his fear for his family (Ginny in the Forbidden Forest, George's injury, his parents' danger). He also confronts Harry about Hermione having said she was disappointed. The emotional rupture is multi-layered and Ron is clearly aware of, and ashamed of, his own weakness.",
+      "film_portrayal": "The film compresses the deterioration into a shorter montage and then erupts into a confrontation where Ron's cruelest line \u2014 'Your parents are dead! You have no family!' \u2014 is followed almost immediately by a physical scuffle. More damagingly, the film adds a jealousy beat: Ron claims he 'saw' Harry and Hermione together ('I saw you two the other night'), implying romantic suspicion as a primary driver of his departure. The book never includes this; Ron's departure is about inadequacy, fear for family, and the Horcrux's malice \u2014 not romantic jealousy directed at Harry.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Reframing Ron's departure around romantic jealousy of Harry rather than fear for his family and feelings of inadequacy makes him look petty and small rather than humanly overwhelmed. It also cheapens the Horcrux's power as an amplifier of genuine, pre-existing insecurities about his worth rather than manufactured jealousy. The book's Ron is more sympathetic because his fears are real and recognisable; the film's Ron risks looking simply possessive."
+    },
+    {
+      "scene": "DH Part 1 - Scrimgeour will-reading scene",
+      "book_baseline": "When Scrimgeour asks Ron about his relationship with Dumbledore, Ron honestly admits they were not close \u2014 'I reckon I was just another Weasley to him' \u2014 before Hermione shoots him a stop-talking look, and Scrimgeour pounces. This is a small but telling Ron beat: he is honest to a fault, slightly naive politically, and then recovers. The book uses it to reveal Ron's unpretentious nature and his genuine uncertainty about his own significance to Dumbledore.",
+      "film_portrayal": "The film retains the exchange but truncates it so Ron's self-deprecation ('I reckon I was just another Weasley to him') is followed immediately by cutting away to Hermione, removing the beat where Ron registers that he has said the wrong thing and the moment of social learning that follows.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor loss, but the book uses this exchange to show Ron's ingenuousness and his genuine lack of pretension about his own importance. Truncating it slightly flattens his voice in this scene."
+    },
+    {
+      "scene": "DH Part 1 - Tent/camping montage, Ron's critiques of Harry and Hermione's planning",
+      "book_baseline": "In the book, Ron's resentment during the camping period is partly driven by the Horcrux but is also a genuine reflection of his personality under stress: he becomes irascible and critical, but he also keeps the group moving by suggesting visits to places, insisting on action, and taking practical charge when Harry drifts into Hallows obsession. The book explicitly notes that 'Ron seemed to be taking charge' during Harry's passive Hallows-obsession period, and Ron drives forward the Horcrux search.",
+      "film_portrayal": "In the film's montage, Ron is shown sulking and trailing behind Harry and Hermione, visually positioned as the dead weight of the trio. The shot of him lagging behind while Harry and Hermione walk side by side frames him as the outsider. His practical leadership qualities during Harry's drift are not shown because Harry's Hallows obsession arc is significantly compressed in the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The visual language of the film consistently positions Ron as trailing and peripheral during the camping sequence. This undermines the book's careful rehabilitation of Ron as someone who, despite his flaws, steps up and drives the mission when Harry checks out. The audience sees Ron as a drag on the group rather than an intermittent but genuine contributor."
+    },
+    {
+      "scene": "DH Part 1 - Ron's return and Hermione's punching scene",
+      "book_baseline": "In the book, when Ron returns, Hermione's fury is entirely about abandonment \u2014 weeks of fear, grief, and being left behind. She punches him, then screams about how they could have been dead. Ron's explanation involves the Snatchers, splinching, and the Deluminator. The emotional tenor is devastated fury giving way to complicated relief. The book also shows Ron telling Harry 'after you left, she cried for a week' \u2014 confirmed by Harry's narration.",
+      "film_portrayal": "The film version largely captures this beat, including Hermione's punches and Ron's Deluminator explanation. However, Ron is given the additional line in the film 'Don't think this changes anything' and explains the locket's visions, adding 'Do you know what it was like for me to hear those words coming from you! To see you doing those things --' before stopping himself. This references the Horcrux's false images of Harry and Hermione kissing, layering on the jealousy theme introduced at his departure. The book's Ron does not dwell on the Horcrux's visions in his reunion with Hermione in this way.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Reintroducing the romantic jealousy thread at the reconciliation scene keeps the Harry-Hermione-Ron triangle as a lens through which Ron's absence is interpreted, rather than allowing it to rest cleanly on abandonment and fear. This subtly damages the Ron-Hermione dynamic by making her reconciliation partially about reassuring him she doesn't prefer Harry romantically, rather than about her fury at being left and her relief at his return."
+    },
+    {
+      "scene": "DH Part 1 - Ghoul-in-pajamas / family protection plan (absent from film)",
+      "book_baseline": "One of the book's most significant Ron character moments is the ghoul plan: Ron and his father have spent weeks disguising the family ghoul as a pustule-covered Ron to make the Death Eaters believe he is bedridden with Spattergroit. This demonstrates extraordinary forethought, loyalty, and courage \u2014 Ron has planned for the possibility of his own disappearance and has actively protected his family. It is also the moment Harry realises 'the measure they had taken to protect their families made him realize, more than anything else could have done, that they really were going to come with him.'",
+      "film_portrayal": "The ghoul plan is entirely absent from the film. There is no equivalent scene establishing that Ron has made concrete, dangerous preparations to protect his family before leaving. His commitment to the mission is shown through dialogue and attitude but not through this specific, revealing act of premeditated sacrifice.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The ghoul plan is the clearest proof in the book that Ron is not just tagging along but has made serious, thoughtful preparations. Its absence means the film audience has no equivalent moment demonstrating Ron's autonomous, proactive courage before the trio departs. This weakens the emotional foundation for understanding why Harry feels so devastated when Ron leaves: the film never showed the full depth of Ron's commitment."
+    },
+    {
+      "scene": "DH Part 1 - Horcrux research scene / Beedle the Bard / 'Babbitty Rabbitty' (partially lost)",
+      "book_baseline": "The book's late-night discussion of Beedle the Bard, the Deluminator, and Horcrux research contains a wonderful Ron character beat: he is the only one of the three who knows the children's stories, having been raised in a Wizarding household. When Hermione has never heard of 'Babbitty Rabbitty and her Cackling Stump,' Ron is incredulous \u2014 'Come off it!' \u2014 and for the first and almost only time in the series, Ron possesses cultural knowledge that Hermione lacks. This is a small but humanising reversal that affirms Ron's Wizarding background as genuinely valuable.",
+      "film_portrayal": "The film includes Ron recognising the Beedle stories ('Mum used to read me those! The Wizard and the Hopping Pot, Babbitty Rabbity and her Cackling Stump...') and Harry and Hermione staring blankly at him, which is faithful. This is one of the scenes that is relatively well preserved.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This beat is largely preserved in the film, with Ron's cultural knowledge highlighted. Only minor compression occurs. Damage is minimal."
+    },
+    {
+      "scene": "DH Part 1 - Ministry infiltration: Ron as Reg Cattermole / Percy encounter",
+      "book_baseline": "In the book, Ron navigating the Ministry as Reg Cattermole involves being terrorised by Yaxley about his wife's blood status hearing, having to improvise fixing a raining office, and a near-miss with his own father. Each beat reveals Ron's improvisation under pressure and his compassion \u2014 he genuinely worries about Cattermole's wife as a real person. The scene with Percy passing in the lift is silent in the book; Percy simply sees Mr Weasley and turns red, and Harry tries to get out twice. Ron's encounter with Percy does not occur in the book.",
+      "film_portrayal": "The film largely captures Ron's Cattermole arc. However, there is a significant addition: when Percy appears in the lift, Ron (as himself, having transformed) tells Percy flatly 'Piss off.' This is an invented confrontation and does not exist in the book.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book Ron does not confront Percy in the Ministry \u2014 there is no opportunity for it. The film's invented 'Piss off' line presents Ron as harbouring active hostility toward Percy in a moment of maximum tension and risk, when book-Ron would be entirely focused on survival. While the Ron-Percy estrangement is real in the books, this invented venting is tonally off and makes Ron look reckless at exactly the moment he should be most careful."
+    },
+    {
+      "scene": "DH Part 1 - Ron casting Imperius on Bogrod at Gringotts",
+      "book_baseline": "In the book, Harry casts the Imperius Curse on both Travers and Bogrod during the Gringotts infiltration. This is a morally significant moment for Harry \u2014 using an Unforgivable Curse \u2014 and the book makes Harry the agent of this moral transgression. Ron does not cast Imperius on anyone during the vault infiltration.",
+      "film_portrayal": "In the film, after the Thief's Downfall strips their disguises, it is Ron who casts 'Imperio!' on Bogrod to re-establish control. Harry and Hermione raise their wands but are too slow, and Ron fires first. Griphook approves: 'Well done.'",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Transferring the Imperius cast from Harry to Ron moves a morally weighted action away from the protagonist, where it belongs thematically, to Ron. In the book this is one of several places Harry crosses ethical lines under pressure, establishing the moral cost of the mission. Giving it to Ron instead dilutes Harry's arc while giving Ron an action beat that isn't his. It also changes Ron's character: the book's Ron would be uncomfortable with Unforgivable Curses; the film's Ron casts one without apparent hesitation."
+    },
+    {
+      "scene": "DH Part 2 - Ron's initiative in going to the Chamber of Secrets",
+      "book_baseline": "In the book, Ron's idea to go to the Chamber of Secrets for basilisk fangs is one of his finest moments. He thinks of it himself, executes it (speaking Parseltongue by imitating Harry's sounds), and Hermione explicitly credits him: 'It was Ron, all Ron's idea! Wasn't it absolutely brilliant?' Ron then insists Hermione be the one to stab the cup: 'You do it' \u2014 giving her agency. The scene is framed as Ron's genuine intellectual contribution to the mission.",
+      "film_portrayal": "The film preserves this beat well. Ron's idea is credited to him, the Parseltongue improvisation is present with the explanation that Harry 'talks in his sleep,' Hermione stabs the cup, and Ron's agency is clear. The moment is one of the film's more faithful Ron scenes.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is largely faithful. The book explanation ('I had to have a few goes to get it right') is replaced by the simpler 'Harry talks in his sleep,' which is a slight compression but does not damage the scene's essential meaning. Damage is minimal."
+    },
+    {
+      "scene": "DH Part 2 - Ron wanting to protect the house-elves before the battle",
+      "book_baseline": "Before Harry and Ron head to find the diadem, Ron stops to advocate for the house-elves: 'We can't order them to die for us. We don't want anymore Dobbies, do we?' This is a major character moment \u2014 Ron, who spent six books dismissing Hermione's elf welfare concerns, spontaneously advocates for their safety. It is the direct trigger for Hermione's first kiss with Ron. The scene demonstrates Ron's genuine moral growth.",
+      "film_portrayal": "The film preserves this beat, including the kiss. Ron's line about the house-elves is present and the kiss follows. However, Ron's line in the film is slightly compressed and the emotional weight of his growth \u2014 that this represents years of Hermione's influence finally landing \u2014 is not textually emphasised, though the scene is largely intact.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The scene is present and the kiss occurs. The film does not underline the irony of Ron now advocating for elves, which is the specific resonance the book provides, but the essential beat is preserved. Minor damage only from lost context."
+    },
+    {
+      "scene": "DH Part 2 - Ron's Patronus during the Dementor attack on the grounds",
+      "book_baseline": "During the Dementor attack on the grounds, Harry, Ron, and Hermione all attempt Patronuses. Ron produces a silver terrier that flickers and expires \u2014 he cannot sustain it in the face of the grief and despair following Fred's death. This is a specifically noted failure, showing the human cost of what has happened to him.",
+      "film_portrayal": "The film shows the Dementor attack on the grounds and Luna, Ernie, and Seamus arriving to save them with their Patronuses, but the specific detail of Ron's Patronus flickering and failing is present in the book corpus and not clearly rendered as a distinct beat in the film's surviving theatrical material. The sequence shows the trio overwhelmed before rescue.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book specifically notes Ron's silver terrier 'burst into the air, flicker feebly, and expire' \u2014 a moment showing the Dementor attack hitting him hardest after Fred's death. The film's sequence conveys the trio being overwhelmed but does not give this individualised beat to Ron. Minor loss of specific emotional characterisation."
+    },
+    {
+      "scene": "DH Part 2 - Ron and Hermione post-Fred's death / battle continuation",
+      "book_baseline": "After Fred's death, Ron is depicted as consumed by grief and rage \u2014 he wants to fight, to punish, to abandon the Horcrux mission and pursue revenge. Hermione physically restrains him: 'LISTEN RON!' and 'we've got to kill the snake!' Ron's face is 'contorted, smeared with dust and smoke, and he was shaking with rage and grief.' This is a fully realised grief response that humanises him.",
+      "film_portrayal": "The film's battle sequences are heavily compressed, and while Ron's presence near Fred's body is shown, the specific beat of Hermione restraining a grief-maddened Ron and talking him back to the mission is not fully staged as a discrete scene. The emotional through-line exists but is compressed within the battle chaos.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book gives Ron a fully realised grief arc in the immediate aftermath of Fred's death \u2014 rage, the desire to abandon the mission for revenge, and being talked down by Hermione. This is exactly the kind of raw emotional characterisation that distinguishes book-Ron from a supporting player. Its compression in the film means Ron's grief over Fred, his twin's death being one of the most personally devastating events of the series for him, is not given adequate screen space."
+    },
+    {
+      "scene": "DH Part 1 - Harry's Hallows obsession period / Ron taking charge",
+      "book_baseline": "In the book, there is an extended period where Harry becomes consumed by Hallows obsession and effectively checks out of the Horcrux mission. During this period, the book explicitly states Ron takes charge: 'Ron seemed to be taking charge' \u2014 he insists on visiting locations, keeps the group moving, proposes plans, and tries to maintain momentum. This is a crucial reversal of the trio's dynamic that demonstrates Ron's growth and genuine leadership capacity.",
+      "film_portrayal": "The film compresses the Hallows obsession arc significantly. Harry's drift is present but shorter, and the specific beat of Ron stepping up as the de facto leader during this period is not staged. The film jumps more quickly to the Potterwatch sequence and then to Gringotts.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Hallows period is where Ron demonstrates the most sustained, independent leadership of the entire series. His patient, practical insistence on keeping the mission moving while Harry is mentally elsewhere is one of his clearest acts of mature friendship. The film's compression of this arc means audiences never see Ron in this leadership role, maintaining the impression that Harry is always the functional leader and Ron the follower."
+    },
+    {
+      "scene": "DH Part 1 - Potterwatch sequence and Ron's knowledge / contextualisation",
+      "book_baseline": "The Potterwatch sequence in the book is preceded by Ron spending weeks attempting to tune in to the programme, demonstrating persistent effort and dedication. He also contextualises the Taboo on Voldemort's name (learned at the Ministry) and explains the Snatcher network in detail, revealing substantive knowledge he gathered independently. The Potterwatch discovery is his personal achievement.",
+      "film_portrayal": "The Potterwatch sequence is not present in the theatrical film. Ron's weeks of effort tuning the wireless, his excitement at finding the programme, and his role in gathering independent intelligence about Snatchers and the Taboo are all absent from the theatrical cut. (The Taboo information is delivered by an injured Ron in a scene that is listed as a cut scene.)",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Ron's persistent, solitary effort to tune Potterwatch, his role in delivering Taboo information, and the discovery of the broadcast are removed from the theatrical film. These are scenes where Ron functions as an independently resourceful member of the trio, gathering real-world intelligence. Their absence reinforces the pattern of Ron as reactive rather than proactive."
+    },
+    {
+      "scene": "DH Part 2 - Ron's urge to go after Voldemort / 'Never!' at the Shrieking Shack",
+      "book_baseline": "After Voldemort's ultimatum, the book shows Ron saying 'Don't listen to him' and contributing to the discussion of what to do. The film gives Ron the line 'Never! Do you hear me! NEVER!' bellowed at Voldemort's voice, which is not in the book. In the book this moment is quiet and internal for Harry.",
+      "film_portrayal": "Ron bellows 'Never! Do you hear me! NEVER!' at Voldemort's echoing ultimatum, a line invented for the film. While this is a brave, defiant moment, it is not book material.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The invented 'Never!' line is a positive characterisation \u2014 it shows Ron's defiance \u2014 but it is not faithful to the source material, which keeps this moment quieter and more inward-focused. The addition slightly inflates Ron's verbal heroics in a scene the book treats with more restraint. This is a minor unfaithfulness that happens to be flattering rather than damaging, but still constitutes a divergence from the book's characterisation."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 2415.0,
-  "adjusted_cids_v1": 3018.8
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

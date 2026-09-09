@@ -2,134 +2,325 @@
   "character": "Dean Thomas",
   "fp_score": 65.0,
   "infidelity_score": 35.0,
-  "weighted_infidelity_exposure": 25.0,
-  "cids": 226.2,
-  "damage_per_exposure": 22.6,
+  "weighted_infidelity_exposure": 57.5,
+  "cids": 282.5,
+  "damage_per_exposure": 11.3,
   "structural_damage_level": 3,
-  "adjusted_cids": 226.2,
+  "adjusted_cids": 282.5,
   "main_damage_causes": [
-    "Complete omission of the DH1 fugitive arc, which is the only extended sequence where Dean functions as an independent character with his own voice, moral choices, and thematic relevance",
-    "Systematic removal of Dean's speaking moments in confrontational or politically charged scenes (Umbridge's DADA class, Seamus conflict aftermath), collapsing his characterization from independently courageous to passive background presence",
-    "Insufficient development of the Dean-Ginny relationship as a credible romantic obstacle, weakening the emotional stakes of Harry's jealousy arc in HBP"
+    "Complete erasure of Dean's Muggle cultural identity (soccer fandom, red card protest) which is his primary distinguishing trait in the book corpus",
+    "Reduction to a single generic background line with no personality, voice, or humor, making him indistinguishable from unnamed students",
+    "Absence of the red card/Quidditch match exchange, which is the book corpus's most sustained and characterizing scene for Dean and also carries his key social dynamic with Ron",
+    "Dean Thomas's defining book trait \u2014 confident, independent vocal challenges to authority (Lockhart, Binns) \u2014 is almost entirely absent from the film, replaced by silence or a single passive line, reducing him from a character with voice to a background figure.",
+    "The humanizing parallel between Dean and Harry (both Muggle-raised, navigating the wizarding world similarly) is omitted, losing a small but meaningful connective thread that gives Dean individuality within the dormitory group."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 (CoS) - Post-Parseltongue incident",
-      "book_baseline": "Book establishes Dean as a dormitory presence who reacts with the group but is not singled out for fear of Harry; the general unease is diffuse among classmates.",
-      "film_portrayal": "Film script notes 'Even Seamus, Neville, and Dean Thomas walk by without a word' - Dean is explicitly named as one who cold-shoulders Harry, giving him a slightly hostile edge in this moment.",
+      "scene": "Film corpus Scene 1 \u2014 Great Hall/classroom sequences: Dean's line 'Hey, look! Neville's got a Remembrall!'",
+      "book_baseline": "The book corpus establishes Dean Thomas as a character with a distinct voice tied to soccer fandom and Muggle cultural identity (West Ham poster, red card protests, argument with Ron about soccer vs. Quidditch). His personality is defined by confident, passionate, culturally-grounded opinions \u2014 he pushes back on wizarding assumptions from a Muggle-world perspective. He also shows creative talent (good at drawing, paints the Gryffindor lion on the banner).",
+      "film_portrayal": "Dean's only spoken line in the film corpus is a neutral, undifferentiated observational remark \u2014 'Hey, look! Neville's got a Remembrall!' \u2014 which could have been said by any background student. It carries none of his book-established personality: no Muggle-world perspective, no soccer references, no assertive voice, no humor.",
       "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor: Dean's silence is consistent with the general school mood but naming him specifically slightly sharpens his reaction beyond what the book establishes for him individually."
-    },
-    {
-      "scene": "Film Scene 8 (PoA) - Sir Cadogan corridor",
-      "book_baseline": "Book (Scene 80) establishes Dean as someone who offers practical help to Harry - he offers to forge Uncle Vernon's signature on the Hogsmeade form, showing initiative and loyalty.",
-      "film_portrayal": "Dean's line about the Fat Lady ('What d'you expect? After what happened to the Fat Lady, none of the other pictures would take the job') is a witty expository quip. The forged-signature offer is entirely absent from the film.",
-      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The forged-signature offer is a small but characterful moment showing Dean's practical loyalty and willingness to bend rules for Harry. Its absence removes a beat that distinguishes Dean as an active, helpful friend rather than a background presence."
+      "explanation": "The film corpus reduces Dean to a generic background student. His one line is entirely interchangeable with any other character. The book corpus establishes him as having a specific, memorable identity (Muggle soccer fan, confident debater, creative artist) that differentiates him within the Gryffindor friend group. This erasure of his distinct voice means his personality traits are simply absent from the adaptation as evidenced by the corpus."
     },
     {
-      "scene": "Film Scene 7 (PoA) - Boggart lesson",
-      "book_baseline": "Book (Scenes 68-74) gives Dean a full Boggart turn: his fear is a disembodied eyeball that becomes a severed hand, which he traps in a mousetrap with 'Riddikulus'. He then celebrates afterward ('And the hand!' said Dean, waving his own around).",
-      "film_portrayal": "Dean steps up and his Boggart (a cobra) becomes a jack-in-the-box. The scene is present but compressed; his post-lesson celebration with Seamus is cut entirely.",
+      "scene": "Film corpus Scene 1 \u2014 Quidditch preparation/banner context is absent from film corpus",
+      "book_baseline": "Book corpus Scenes 9\u201310 establish Dean as actively creative and loyal: he paints the 'Potter for President' banner with a Gryffindor lion, demonstrating artistic skill and personal investment in Harry's success. This is a small but characterizing beat showing his talents and his place within the friendship group.",
+      "film_portrayal": "The film corpus contains no equivalent scene or acknowledgment of Dean's artistic contribution. The banner scene and Dean's role in it are entirely absent from the provided film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The loss of the banner-painting beat removes a small but genuine character-defining moment that showed Dean's creative skill and group belonging. While low individual impact, it contributes to the cumulative flattening of his characterization in the film corpus."
+    },
+    {
+      "scene": "Film corpus Scene 1 \u2014 Quidditch match red card scene absent from film corpus",
+      "book_baseline": "Book corpus Scenes 12\u201316 contain Dean's most characterful extended moment: his passionate red card outburst during the Quidditch match, his argument with Ron ('But this isn't soccer, Dean'), and Hagrid siding with him. This scene crystallizes his Muggle identity, his humor, his confidence in asserting his own cultural framework against wizarding norms, and his social dynamic with Ron.",
+      "film_portrayal": "No equivalent scene exists in the provided film corpus. Dean has no presence at the Quidditch match in the film corpus material, and the red card exchange \u2014 his single most personality-defining moment in the book corpus \u2014 is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The red card scene is the book corpus's primary vehicle for Dean's characterization: it shows his Muggle-world confidence, his humor, his willingness to argue his perspective, and his relationship with Ron. Its absence from the film corpus removes the one extended beat that would have made him a distinct, memorable supporting character rather than an anonymous background figure. This also weakens the wider Gryffindor group dynamic, which in the book corpus is enriched by the diverse Muggle/wizarding perspectives of its members."
+    },
+    {
+      "scene": "Film Scene 2 / Film Scene 3 - Gryffindor Common Room after Dueling Club (Scene 71): Seamus, Neville, and Dean walk by without a word",
+      "book_baseline": "Book Scene 7: Dean and Seamus are shown shaking with silent laughter at Lockhart, indicating an easy, relaxed camaraderie with the wider group. Book Scene 34: Dean Thomas loudly and confidently challenges Lockhart's claim about Hagrid's arrest ('Says who?'), showing Dean as someone with backbone who speaks up for what is right.",
+      "film_portrayal": "Film corpus Scene 2 (Scene 71): After Harry speaks Parseltongue at the Dueling Club, 'Even Seamus, Neville, and Dean Thomas walk by without a word' \u2014 Dean is lumped into the fearful, suspicious crowd that shuns Harry, with no distinguishing voice or action of his own.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book establishes Dean as someone with enough confidence to openly challenge authority figures (Lockhart) and enough loyalty to stand by friends. The film reduces him to a silent, suspicious bystander at a key moment of social isolation for Harry, erasing his distinct voice and flattening his characterization into generic crowd behavior."
+    },
+    {
+      "scene": "Film Scene 3 - Gryffindor Common Room announcement (Scene 108): Dean Thomas's one line of dialogue",
+      "book_baseline": "Book Scene 34: Dean Thomas loudly and independently challenges Lockhart \u2014 'Says who?' \u2014 when Lockhart dismisses concern for Hagrid, showing moral courage, independent thinking, and willingness to speak up against authority. Book Scene 18: Dean also pushes back intellectually in Binns's class ('But maybe you've got to be related to Slytherin...'), showing curiosity and engagement.",
+      "film_portrayal": "Film Scene 108: Dean's single line in the entire film corpus is 'I don't care what anyone says. As long as Dumbledore's here, Hogwarts will be here.' This is a passive, reassuring statement of faith rather than an active challenge or display of agency. It is essentially a warm filler line with no edge, humor, or independence.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Dean's book characterization includes intellectual curiosity, dry wit (laughing at Lockhart), and moral courage (defending Hagrid against Lockhart's dismissal). The film distills his entire speaking presence into one anodyne line of reassurance, stripping away the defining traits \u2014 confidence, humor, and willingness to push back \u2014 that make him a distinct supporting character rather than a background prop."
+    },
+    {
+      "scene": "Film Scene 2 - Post-Lockhart class corridor (Scene 42B): Dean Thomas absent from the named characters walking the corridor",
+      "book_baseline": "Book Scene 7 and Scene 10: Dean and Seamus are explicitly named as reacting together to Lockhart's class \u2014 laughing at the quiz, stopping laughing when the cage is revealed. They are individually identified participants in the scene's comedy and tension.",
+      "film_portrayal": "Film Scene 42B: After the pixie chaos, the corridor scene names 'Hermione, Ron, Harry and Neville' as the ones walking together and discussing Lockhart. Dean is entirely absent from this named group despite being present in the classroom.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but consistent pattern: Dean is present in the book's social fabric of the Gryffindor boys but absent from the film's named character moments. This contributes to the cumulative thinning of his presence and his relationship with the core trio and the dormitory group."
+    },
+    {
+      "scene": "Film Scene 1 - Great Hall / Post scene (Scene 41): Dean's only functional appearance is the throwaway 'Post is here!' line",
+      "book_baseline": "Book Scene 21: Dean and Seamus are explicitly named as the ones who beckon Harry, Ron and Hermione over to the notice board about the Dueling Club, showing enthusiasm and social initiative. Book Scene 24: Dean is given a humanizing character detail \u2014 like Harry, he grew up with Muggles and chose his subjects by jabbing his wand at the list \u2014 connecting him to Harry's Muggle-raised experience.",
+      "film_portrayal": "Film Scene 41: Dean's only line in this section of the film is 'Post is here!' \u2014 a purely functional announcement with no characterization value whatsoever. The Muggle-raised detail and the social initiative of beckoning friends are both absent.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses Dean to create a small but meaningful parallel with Harry (both Muggle-raised, both navigating the wizarding world somewhat improvisationally). This humanizing detail and his social role as an enthusiastic peer are entirely absent from the film, replaced by a one-word functional line. The character is instrumentalized rather than characterized."
+    },
+    {
+      "scene": "Film Scene 2 (Divination class) - Dean's line replaced by Seamus asking 'The Grin?'",
+      "book_baseline": "Book Scene 5/7: Dean Thomas is the one who asks 'What is it, Professor?' at once, stepping forward with curiosity, and later shrugs in shared confusion with Harry about the Grim, showing him as engaged, socially aware, and quick to respond.",
+      "film_portrayal": "In the film, Dean's speaking role in the Divination scene is reduced to a single line ('But what does it mean, Professor?'). The more prominent confused reaction beat \u2014 the shrug, the shared moment of not understanding \u2014 is displaced. The confusion beat is reassigned to Seamus ('The Grin? What's the Grin?'), who takes the comedic ignorance role, while Dean is left with only a flat expository question.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The Boggart content is changed (eyeball/hand to cobra/jack-in-the-box) and his enthusiastic post-lesson banter is lost. Minor damage - the scene is present but the specific characterization of his fear and his celebratory personality afterward is flattened."
+      "explanation": "The book gives Dean a moment of social initiative (asking first, sharing a look with Harry) and positions him as perceptive enough to register the group's alarm. The film reassigns the more characterful confused-comedy beat to Seamus, leaving Dean with a generic filler line. Minor but measurable flattening of his individual voice."
     },
     {
-      "scene": "Film Scene 5 (OotP) - Umbridge's first DADA lesson",
-      "book_baseline": "Book (Scenes 175-183) gives Dean three substantial speaking turns defending practical magic use and Professor Lupin against Umbridge, showing courage and independent thinking in a hostile environment.",
-      "film_portrayal": "In the film, Harry takes the confrontational role with Umbridge almost entirely. Dean has one line ('Auror?') asking for clarification about Moody, which is a different scene entirely. His defense of Lupin and challenge to Umbridge's theory-only approach is absent.",
+      "scene": "Film Scene 3 (Boggart lesson) - Dean's boggart interaction",
+      "book_baseline": "Book Scenes 15-21: Dean's boggart is a severed hand that creeps like a crab; he successfully casts Riddikulus and traps it in a mousetrap. Afterwards he is visibly excited and boastful ('And the hand! said Dean, waving his own around'), showing pride, humor, and confident participation. He also shouts 'Cool, sit!' in amazement at a prior moment, demonstrating an enthusiastic, expressive personality.",
+      "film_portrayal": "In the film, Dean's boggart is a giant cobra that transforms into a jack-in-the-box. The scene is brief ('Next!' follows immediately with no celebratory beat for Dean), and there is no post-lesson excited exchange where Dean waves his hand around and brags. The communal celebration moment from the book \u2014 where Dean and Seamus congratulate each other \u2014 is entirely absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses the boggart lesson and its aftermath to show Dean as genuinely brave, humorous, and socially warm \u2014 a boy who takes pride in small victories and jokes with friends. The film compresses his turn to a visual gag with no emotional follow-through, stripping the personality and camaraderie the book builds around this scene. The change to the boggart itself (cobra vs. severed hand) is a neutral adaptation choice, but the loss of the post-lesson celebration removes a defining characterization beat."
+    },
+    {
+      "scene": "Film Scene 4 (Sir Cadogan / Fat Lady corridor) - Dean's expository line",
+      "book_baseline": "Book Scene 29/32: Dean is shown making imaginative speculative suggestions ('He could've flown in') and taking bold stances in defense of people he respects ('He's the best Defense Against the Dark Arts teacher we've ever had,' said Dean Thomas boldly). These moments show Dean as someone with initiative, conviction, and a willingness to speak up.",
+      "film_portrayal": "In the film's Sir Cadogan scene, Dean's only line is a flat expository statement explaining why no other portrait would take the job guarding Gryffindor tower. The line is purely functional world-building with no personality, opinion, or emotional color. It does not reflect the bold, enthusiastic, or imaginative Dean of the books.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Dean's film dialogue in this scene is purely utilitarian \u2014 he exists to deliver information to the audience, not to express character. The book consistently gives Dean opinionated, bold, or imaginative contributions to group conversations. This scene replaces that with a neutral expository function, further flattening his individual voice across the film."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Dean's single line asking about Moody being an Auror",
+      "book_baseline": "The book corpus establishes Dean Thomas as a background presence who engages socially with Harry, Ron, Seamus and the wider Gryffindor group across multiple scenes \u2014 at the Quidditch World Cup, in the dormitory, in lessons, at the Halloween feast, and at the post-first-task party where Dean's artistic talent is highlighted (he draws impressive banners of Harry and the Horntail). He is a characterized supporting figure with observable personality traits.",
+      "film_portrayal": "Dean's sole spoken contribution in the entire film corpus is a one-word question \u2014 'Auror?' \u2014 in response to Ron explaining Moody. He functions as a near-invisible extra with a single reactive utterance.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book establishes Dean as a socially present Gryffindor with a distinct personality \u2014 artistic, supportive of Harry, engaged in dormitory banter. The film reduces him to a single reactive word, erasing the characterization the books build over multiple scenes and stripping him of any discernible personality for the audience."
+    },
+    {
+      "scene": "Film Scene 5 \u2014 Second task crowd reaction, Dean and Seamus laughing",
+      "book_baseline": "The book corpus shows Dean as genuinely part of Harry's social circle, celebrating with him at the post-first-task party (drawing banners), sharing dormitory life, and being present at key Gryffindor communal moments. His relationship with Harry is warm and supportive.",
+      "film_portrayal": "During the second task, when Harry is struggling (choking on gillyweed before entering the water), Dean and Seamus are shown laughing at him. The dialogue confirms: 'Dean and Seamus laugh' while Neville panics thinking he's killed Harry.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Dean is a supportive housemate who celebrates Harry's successes and draws celebratory banners for him. Having Dean laugh at Harry's distress during a dangerous task subtly undermines the Gryffindor solidarity and Dean's characterization as a genuine friend rather than a bystander who finds Harry's suffering amusing."
+    },
+    {
+      "scene": "Film Scene 2 \u2014 The convoluted message chain ('Ronald would like me to tell you that Seamus told him that Dean was told by Parvati...')",
+      "book_baseline": "The book corpus does not establish Dean as a passive conduit in a comedy telephone-chain. Dean is a socially active character who interacts directly with Harry. The book shows Dean discussing Triwizard entrants directly with Harry at the Halloween feast (Scene 22-24), acting as a peer with direct social agency.",
+      "film_portrayal": "Dean is inserted into a comedic message relay \u2014 'Dean was told by Parvati' \u2014 as a named link in a chain of intermediaries passing a message between Ron and Harry. He is not present in the scene, merely invoked as a passive node in a joke.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While minor in isolation, this usage reduces Dean to a named prop in a comedy bit rather than an agent. It is the film's most substantive use of Dean's name, and it characterizes him as someone who gossips through intermediaries rather than acting directly \u2014 an inversion of his book characterization as a direct social participant. Low impact weight because it is brief and comedic in intent."
+    },
+    {
+      "scene": "Film \u2014 Absence of Dean's artistic contribution at the post-first-task celebration",
+      "book_baseline": "Book Scene 32 explicitly establishes that Dean Thomas, described as 'very good at drawing,' put up impressive new banners depicting Harry on his Firebolt around the Horntail, as well as banners showing Cedric with his head on fire. This is a defining character detail \u2014 artistic talent and loyalty to Harry expressed through his specific skill.",
+      "film_portrayal": "The post-first-task Gryffindor celebration is shown in the film (Ron reconciles with Harry, the common room cheers), but Dean's artistic contribution and the banners he drew are entirely absent. No mention or visual of his handiwork appears.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is one of the most concrete, individuating details the book gives Dean Thomas in the entire Goblet of Fire \u2014 it names a specific talent and shows him expressing friendship through that talent. Its removal means the film never establishes Dean as anything other than a face in the crowd, losing the one scene that would have given him a distinct identity and demonstrated his loyalty to Harry in a creative, characterful way."
+    },
+    {
+      "scene": "Order of the Phoenix - Dormitory arrival / Seamus confrontation scene",
+      "book_baseline": "In the book, Dean is a quiet, observant presence during the Seamus-Harry confrontation. He listens hard while pretending not to (bending over his trunk), and when Ron asks if anyone else has a problem with Harry, Dean defuses tension with dry, pragmatic humour: 'My parents are Muggles, mate. They don't know nothing about no deaths at Hogwarts, because I'm not stupid enough to tell them.' This is a distinct character beat showing Dean's wit, his different perspective as a Muggle-born, and his implicit support for Harry without grandstanding.",
+      "film_portrayal": "The film collapses the dormitory scene entirely. The 'Good holiday?' exchange is transplanted to a corridor/common room context and stripped of the private, late-night dormitory atmosphere. Dean's key line about his Muggle parents \u2014 his most individuated moment in the entire book \u2014 is absent from the film corpus. His role in the confrontation is reduced to a brief 'All right. Better than Seamus's, anyway' before Harry takes over the argument. Dean's Muggle-born identity and his grounded, sardonic voice are lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Muggle-parents line is Dean's single most characterising moment in Book 5 \u2014 it establishes his voice, his background, his pragmatism, and his loyalty. Removing it collapses him from a witty, grounded Muggle-born with a distinct perspective into a silent background figure. The film gives him only a one-line set-up for Seamus's grievance, stripping any individual identity from the scene."
+    },
+    {
+      "scene": "Order of the Phoenix - Dormitory confrontation: Dean's silent aftermath",
+      "book_baseline": "After the confrontation, the book shows Dean attempting to comfort Harry the next morning: 'Don't worry about it, Harry... he's just...' \u2014 and then being unable to finish, following Seamus out in an awkward pause. This shows Dean caught between loyalty to his roommate Seamus and sympathy for Harry, a small but human moment of conflict and social discomfort.",
+      "film_portrayal": "This moment does not appear in the film corpus. The morning-after beat is entirely absent. Dean has no follow-up presence that would show him navigating the social tension of the dormitory.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor loss, but it removes the only moment that shows Dean in genuine internal conflict \u2014 wanting to be kind to Harry but constrained by his friendship with Seamus. Without it, Dean has no emotional interiority in the adaptation."
+    },
+    {
+      "scene": "Order of the Phoenix - DADA classroom: Dean challenging Umbridge",
+      "book_baseline": "In the book, Dean actively challenges Umbridge in the first DADA lesson. He raises his hand, gives his name when asked, supports Harry's position ('If we're going to be attacked, it won't be risk-free'), and when cut off, speaks up again to defend Lupin ('If you mean Professor Lupin, he was the best we ever \u2014') and again after Umbridge smears Moody ('Well, he turned out to be a maniac, didn't he? Mind you, we still learned loads.'). Dean is one of the most vocal dissenters in the classroom, showing civic courage and loyalty to past teachers.",
+      "film_portrayal": "In the film corpus, Harry takes all the confrontational lines in the DADA classroom scene. Dean's challenges to Umbridge \u2014 the Lupin defence, the Moody line, the risk-free rebuttal \u2014 are entirely absent or reassigned. The only line that survives in any form is Harry's 'If we're going to be attacked, it won't be risk-free,' which the film gives to Harry himself, not Dean.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is the most significant single loss for Dean. In the books, he is one of the few students who publicly stands up to Umbridge with named, quoted dialogue \u2014 defending Lupin, challenging the Ministry's sanitised curriculum. In the film, Harry absorbs all resistance, and Dean disappears as an agent in the scene. The transfer removes Dean's courage and his role as a voice of student dissent, reducing him to background."
+    },
+    {
+      "scene": "Order of the Phoenix - Hog's Head meeting / Dumbledore's Army formation",
+      "book_baseline": "In the book, Dean contributes to the Hog's Head meeting by suggesting 'Maybe an unused classroom?' as a practice location \u2014 a small but active contribution to forming the DA. He is also listed as one of the students who arrives at the pub and signs the parchment.",
+      "film_portrayal": "Dean appears in the Hog's Head scene in the film corpus only with 'Blimey, Harry, I didn't know you could do that' \u2014 a line of mild admiration directed at Harry's credentials. His practical suggestion about a classroom location is absent. His role shifts from active contributor to passive admirer.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The replacement of Dean's practical, constructive contribution ('Maybe an unused classroom?') with a star-struck reaction line ('Blimey, Harry') reframes his relationship to Harry from peer and collaborator to audience member. It is a small but consistent pattern of flattening Dean's agency into admiration."
+    },
+    {
+      "scene": "Order of the Phoenix - Centaur/Firenze scene: Dean's offensive question",
+      "book_baseline": "In the book, Dean asks Firenze 'Did Hagrid breed you, like the Thestrals?' \u2014 a question that lands as offensive, to which Firenze turns slowly and Dean backtracks in embarrassment ('I didn't \u2014 I meant \u2014 sorry'). This is a revealing character moment: Dean is curious and enthusiastic but sometimes blunders socially, which gives him texture and fallibility.",
+      "film_portrayal": "The Firenze/Centaur classroom scene does not appear to be present in the film corpus provided. This moment is entirely absent from the adaptation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor but humanising moment for Dean \u2014 showing his curiosity, his occasional social clumsiness, and his capacity for embarrassment \u2014 is lost. It is the only scene in the book corpus that gives Dean a flaw, making him more three-dimensional. Its absence keeps him a flat background character."
+    },
+    {
+      "scene": "Order of the Phoenix - DA training sessions: Dean's participation and Seamus arc",
+      "book_baseline": "In the book, Dean brings Seamus to his first-ever DA meeting, an act that reflects their friendship and Dean's commitment to the group. Seamus's progress ('I'm trying! \u2014 Look \u2014 ah \u2014 it's gone... but it was definitely something hairy, Harry!') is framed around Dean having recruited him. This gives Dean an active role in reintegrating Seamus into the Harry-supporting faction.",
+      "film_portrayal": "In the film corpus, Seamus's apology to Harry happens in a corridor scene separate from the DA, and there is no indication Dean brokered or facilitated it. The DA training montage in the film shows Dean present but silent and undifferentiated. The specific beat of Dean recruiting Seamus is absent.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Dean's role as the bridge between Seamus and Harry \u2014 bringing his friend back into the fold \u2014 is a meaningful relational function. The film handles Seamus's reconciliation independently, removing Dean's agency in that arc and reducing the Dean-Seamus friendship to an assumed background detail rather than something the film actively shows."
+    },
+    {
+      "scene": "Film Scene 2 - Hogwarts Express aisle: Dean whispering to Ginny",
+      "book_baseline": "Book establishes Dean and Ginny as a genuine couple with social presence; Dean is described as a real boyfriend Ginny actively chooses to spend time with (Scenes 5, 18, 20). He has personality, dialogue, and participates in dormitory life with Seamus, Harry, and Ron.",
+      "film_portrayal": "Dean appears in the aisle merely whispering to Ginny, who is 'more interested' in her Pygmy Puff than him. He has no lines, no characterization, and is depicted as less engaging to Ginny than a ball of fluff. He is purely decorative backdrop.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Dean is a real presence in the social world of Gryffindor with voice and personality. The film reduces him to a mute prop in his own relationship scene, stripping him of individuality and making the Ginny/Dean relationship feel hollow from the outset."
+    },
+    {
+      "scene": "Film Scene 3 - Quidditch tryouts montage: Dean's role as Chaser",
+      "book_baseline": "Book Scenes 23-29 establish Dean's selection as Chaser as a meaningful narrative event: Harry corners him after Transfiguration, Dean reacts with genuine excitement, his first thought is to tell Ginny, and Harry observes him flying well that evening. The selection has social consequence (Seamus's sourness, common room muttering).",
+      "film_portrayal": "Dean is shown in the tryout montage as a Chaser in a brief passing shot \u2014 he jets high, lets the Quaffle roll off his fingers into Ginny's hands. There is no scene of Harry selecting him, no conversation, no Dean reacting with excitement, no mention of his wanting to tell Ginny, and no social fallout with Seamus.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Dean's repeated willingness to speak up against authority in the book establishes him as independently courageous, not just a follower of Harry. Removing these lines collapses his characterization and transfers the confrontational dynamic entirely to Harry, losing Dean's distinct voice."
+      "explanation": "The book uses Dean's selection to simultaneously advance Harry's growing awareness of Ginny, show Dean's enthusiasm and connection to Ginny, and establish the Harry-Seamus tension. The film collapses this into a background montage beat, losing all relational and characterization texture around Dean and eliminating the moment that links his Quidditch role to the romantic subplot."
     },
     {
-      "scene": "Film Scene 14 (OotP) - Return to dormitory / Seamus conflict",
-      "book_baseline": "Book (Scenes 153-170) gives Dean a nuanced role in the Seamus conflict: he listens carefully, stays diplomatically neutral ('My parents are Muggles, mate... they don't know nothing about no deaths'), tries to smooth things over afterward ('Don't worry about it, Harry... he's just...'), and ultimately follows Seamus out awkwardly, showing loyalty torn between friends.",
-      "film_portrayal": "The film condenses this to a brief exchange. Dean's line 'All right. Better than Seamus's, anyway' is present, and the confrontation happens, but Dean's careful diplomatic neutrality, his Muggle-parents explanation, and his awkward attempt to comfort Harry afterward are all cut.",
+      "scene": "Film Scene 4 - Three Broomsticks: Dean and Ginny in dark corner",
+      "book_baseline": "Book Scene 20 has Harry speculating that Ginny and Dean are 'cozily closeted in Madam Puddifoot's Tea Shop' \u2014 their Hogsmeade presence is implied but not witnessed. The book's Harry experiences jealousy internally, and Dean's presence registers through Harry's imagination rather than direct observation.",
+      "film_portrayal": "Dean and Ginny are seated in a dark corner of the Three Broomsticks, first holding hands, then visibly kissing, directly in Harry and Ron's line of sight. Ron reacts with visible disgust and wants to leave. Harry's reaction is not shown \u2014 the scene focuses on Ron's discomfort and Hermione's reasonable pushback.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film externalises and redirects what in the book is Harry's private, escalating jealousy into Ron's simpler brotherly possessiveness. Harry's internal 'monster' \u2014 his central emotional arc around Ginny \u2014 is absent from this scene, reducing Dean's role as the object of Harry's jealousy to a background irritant for Ron rather than a catalyst for Harry's self-realisation."
+    },
+    {
+      "scene": "Film Scene 5 - Boys' dormitory conversation: Ron asks what Dean sees in Ginny",
+      "book_baseline": "Book Scenes 33-43 establish Harry's jealousy as intense, visceral, and conflicted \u2014 he wants to 'jinx Dean into a jelly,' imagines Ginny kissing himself instead, and spends the night wrestling with his feelings. Dean himself is the direct cause of Harry's turmoil. Dean's characterisation in these scenes is as a genuine romantic rival, not an abstraction.",
+      "film_portrayal": "Ron asks 'What do you suppose Dean sees in her?' and Harry responds that she's 'smart, funny, attractive \u2014 got nice skin.' The scene is played for gentle comedy about Ron's protectiveness and Harry's awkward awareness of Ginny. Dean is discussed as an absence \u2014 not present, not threatening, only hypothetically considered.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's dormitory scenes are where Harry's jealousy regarding Dean is most raw and revelatory for his arc. The film converts this into a low-stakes comedic exchange. Dean as a rival with genuine weight \u2014 the figure who provokes Harry's 'monster' \u2014 is entirely absent from his own discussion. The emotional stakes of Harry's internal conflict with respect to Dean are flattened."
+    },
+    {
+      "scene": "Film Scene 6 - Slughorn's supper: Ginny arrives with red eyes",
+      "book_baseline": "Book Scene 62-63 establishes that Dean laughed at McLaggen hitting Harry with a Bludger, which provoked Ginny to row with him \u2014 demonstrating Dean's social insensitivity and foreshadowing the relationship's deterioration. Dean's specific failure here (laughing at Harry's injury) characterises him and gives Ginny agency in pushing back.",
+      "film_portrayal": "Hermione whispers to Harry that Ginny and Dean have 'been fighting again' and that Ginny's eyes are red. Dean is not mentioned by name in this scene in the corpus. The cause of the fight is unspecified in this scene; it is presented only as a pattern ('again') without Dean's specific action being attributed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film reduces a specific, characterising beat \u2014 Dean laughing at Harry's serious injury \u2014 to a vague pattern of fighting. This removes the moment that defines Dean's social blind spot and that gives Ginny her particular motivation for souring on the relationship, slightly diminishing the intelligibility of their breakup."
+    },
+    {
+      "scene": "Film Scene 9 - Castle corridor: Ginny in alcove while Dean laughs with Seamus",
+      "book_baseline": "Book Scene 79 shows Harry observing Dean looking 'unhappy' after the breakup, presenting Dean as genuinely affected by the split \u2014 a person with emotional investment. The relationship's end has weight for Dean too.",
+      "film_portrayal": "Dean is shown laughing with Seamus in an alcove while Ginny sits apart looking subdued. Ginny notices Harry and gives a 'feeble wave.' Dean is oblivious to Ginny's mood and engaged only with Seamus, appearing indifferent to any relational tension.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book grants Dean emotional depth at the point of the breakup \u2014 he looks unhappy, suggesting the relationship mattered to him. The film frames this final image of Dean/Ginny as Dean carelessly socialising while Ginny pines, which inverts the book's characterisation of Dean as genuinely hurt and makes the relationship's end feel one-sided and shallow."
+    },
+    {
+      "scene": "Film Scene 12 (Room of Requirement) - Dean's single line 'Where is it?'",
+      "book_baseline": "Book Scenes 3, 7, 9, 12, 16, 17, 19, 75: Dean is an active, vocal participant in the fugitive group \u2014 he asks questions, advocates for Harry's credibility as the Chosen One, shows curiosity about goblin politics, voices concern for Ginny, and immediately declares 'We're fighting' upon learning Harry has returned.",
+      "film_portrayal": "Dean's entire presence in the Room of Requirement is reduced to one functional question \u2014 'Where is it?' \u2014 with no personality, no enthusiasm, no voice beyond a plot-utility prompt.",
       "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This is one of Dean's most characterful book sequences - showing him as a thoughtful, diplomatically positioned character caught between loyalties. The film reduces him to a bystander, losing the nuance that distinguishes him from Seamus."
-    },
-    {
-      "scene": "Film Scene 16 (HBP) - Weasley's Wizard Wheezes / train",
-      "book_baseline": "Book (Scenes 252-258) establishes Dean and Ginny as a couple with some chemistry; Ginny chooses to meet Dean on the train rather than sit with Harry, which triggers Harry's first pang of jealousy.",
-      "film_portrayal": "Film Scene 17 shows Dean whispering to Ginny on the train while she's more interested in her Pygmy Puff. Dean is present but passive and slightly ignored. The dynamic subtly diminishes Dean's appeal and the genuine relationship quality.",
-      "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's Dean-Ginny relationship needs to feel real enough that Harry's jealousy is credible and that Ginny's eventual choice of Harry feels meaningful. Making Dean slightly marginal in their shared scenes weakens this dynamic."
+      "explanation": "The book establishes Dean as someone with opinions, warmth, and initiative. His one-word film contribution erases this, reducing him to a background extra at the moment he re-enters the main narrative after months of hardship."
     },
     {
-      "scene": "Film Scene 18 (HBP) - Quidditch tryouts montage",
-      "book_baseline": "Book (Scenes 275-281) gives Dean a proper recruitment scene: Harry corners him after Transfiguration, asks if he's still interested in playing Chaser, Dean reacts with genuine excitement ('Cheers, Harry! Blimey, I can't wait to tell Ginny!'). His flying quality is established through Harry's internal assessment.",
-      "film_portrayal": "The film montage shows Dean making a pass to Ginny during tryouts, which is competent but the personal recruitment conversation, Dean's excited reaction, and his immediate thought to tell Ginny are all absent.",
+      "scene": "Film Scene 14 (Battlements) - Dean as a messenger boy for Kingsley",
+      "book_baseline": "Book Scene 75: Dean arrives at Hogwarts and immediately declares 'We're fighting' and produces his fake Galleon, showing proactive, self-motivated courage. He does not wait to be assigned errands \u2014 he asserts himself as a combatant.",
+      "film_portrayal": "Dean's first active role in the Battle of Hogwarts is to serve as a messenger between Kingsley and McGonagall, given orders, sent off, and recalled \u2014 a purely logistical, subordinate function with no dialogue that reflects his own agency or will to fight.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Dean seizes his own role in the battle the moment he arrives. The film demotes him to a runner who waits for instructions, stripping the character of the autonomous, courageous re-entry the book gives him and replacing it with functional errand-running."
+    },
+    {
+      "scene": "Film Scene 15 (Battlements) - Dean as passive bystander watching the sky",
+      "book_baseline": "Book Scene 80-81: During the battle, Dean wins himself a wand and is shown actively dueling Dolohov face-to-face, then exploiting a moment of distraction to knock out a Death Eater with a Stunning Spell \u2014 a concrete act of individual combat courage.",
+      "film_portrayal": "Dean is shown standing with Fred, George, and Seamus, stricken, staring at the night sky. No action, no wand, no combat \u2014 purely reactive and passive.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The book gives Dean a meaningful combat moment \u2014 winning a wand independently and using it effectively in a high-stakes duel. The film replaces this with a tableau of wide-eyed inaction, losing the only scene in the books where Dean's courage under fire is directly demonstrated."
+    },
+    {
+      "scene": "Film Scene 16 (Courtyard) - Dean trades spells generically",
+      "book_baseline": "Book Scene 80-81: Dean's combat is specific and purposeful \u2014 he duels Dolohov, a named and dangerous Death Eater, and his action is described with consequence (knocking him out), and is directly tied to the trio's movement through the castle.",
+      "film_portrayal": "The script notes 'Dean trades spells with a Death Eater' as background action in a crowded courtyard sequence. No name, no consequence noted, no narrative connection \u2014 generic background fighting.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book scene establishes Dean's enthusiasm and his connection to Ginny as intertwined. Minor loss but it removes a moment that humanizes Dean beyond background player."
+      "explanation": "Though Dean does appear fighting, the specificity of his book duel (Dolohov, a consequential opponent) is entirely lost. The film's version is indistinguishable from any unnamed background fighter, eroding what small individual distinction the books give him."
     },
     {
-      "scene": "Film Scene 19 (HBP) - Three Broomsticks",
-      "book_baseline": "Book (Scenes 284-295) uses Dean and Ginny's snogging scene (discovered by Harry and Ron) as a major emotional catalyst for Harry's jealousy arc. Dean's embarrassed reaction and quick departure when confronted are characterized.",
-      "film_portrayal": "Film Scene 19 shows Harry spotting Dean and Ginny in the pub corner kissing. Ron wants to leave. The scene is present but the corridor confrontation (where Dean is caught snogging Ginny, Ron explodes, Dean departs looking relieved) is absent. Dean has no lines or characterized reaction.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Dean's role as the romantic obstacle in Harry's jealousy arc requires enough presence to make the rivalry feel real. The film reduces him to a visual prop in the background rather than a character Harry must reckon with."
+      "scene": "Film Scene 13 (Great Hall confrontation with Snape) - Dean listed among arrivals with no distinct presence",
+      "book_baseline": "Book Scene 75: Dean actively participates in the DA reunion, produces his fake Galleon as a symbol of his membership and readiness, and verbally commits to fighting \u2014 a moment of individual voice and identity.",
+      "film_portrayal": "Dean is named in the stage direction as one of the figures who emerges from the shadows alongside the Order and DA, but has no lines and no distinguishing action in this scene. He is listed like furniture.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A moment the book uses to give Dean individual voice and agency \u2014 the Galleon, the declaration, the initiative \u2014 is reduced in the film to a walk-on crowd appearance. The cumulative effect across scenes of having no lines of genuine character is significant even if each individual instance is minor."
     },
     {
-      "scene": "Film Scene 22 (HBP) - Quidditch match",
-      "book_baseline": "Book (Scene 297) has Dean shout 'Party up in the common room, Seamus said! C'mon, Ginny, Demelza!' after Gryffindor wins - he's exuberant, part of the team celebration, and still on good terms with Ginny at this point.",
-      "film_portrayal": "Dean calls out to Ginny during the match ('Ginny! Let's go!') as a Chaser directing play. His post-match celebration presence is not characterized beyond the montage.",
+      "scene": "Film Scene 18 (Great Hall aftermath) - Dean laughing with Seamus",
+      "book_baseline": "Book Scenes 49-52: In the aftermath at Shell Cottage, Dean participates meaningfully in Dobby's burial \u2014 producing a woolen hat for the elf, saying 'Thanks' at the graveside \u2014 demonstrating emotional attunement and solidarity. He has been through trauma (Malfoy Manor cellar, months as a fugitive) that gives him earned emotional weight.",
+      "film_portrayal": "Dean and Seamus are shown laughing together at a table in the Great Hall aftermath. While not inaccurate in tone (survivors finding relief), it presents Dean without any acknowledgment of his unique journey or emotional depth \u2014 he's a smiling background figure.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Small loss of Dean's team-player exuberance and his comfortable dynamic with Ginny before their breakup."
+      "explanation": "The film's final image of Dean is cheerful background noise. The book's Dean carries specific weight \u2014 a fugitive, a Malfoy Manor survivor, a boy who buried Dobby. The film gives no indication any of this happened to him, which is a mild but real loss of earned emotional texture."
     },
     {
-      "scene": "Film Scene 36 (DH1) - Room of Requirement reunion",
-      "book_baseline": "Book (Scenes 429, 432) has Dean arrive with Luna, immediately declare 'We're fighting, aren't we?' showing he's come back specifically to fight, and then call to Luna ('Come on, Luna') as they head into battle together - showing initiative and camaraderie.",
-      "film_portrayal": "Film Scene 36 shows Dean present in the Room of Requirement and asking 'Where is it?' about the Horcrux. His fighting declaration and his specific bond with Luna heading into battle are present but brief.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Dean's 'We're fighting' declaration in the book is a small but meaningful moment of agency - he's not there because Harry summoned him, he's there because he chose to fight. The film preserves the presence but softens the proactive declaration."
-    },
-    {
-      "scene": "Film Scene 38 (DH2) - Battlements",
-      "book_baseline": "Book (Scene 434-435) has Dean win himself a wand in battle and face Dolohov directly, showing combat competence and courage. He also exploits a Death Eater's distraction to knock him out with a Stunning Spell.",
-      "film_portrayal": "Film Scene 38 shows Dean as a messenger between Kingsley/Lupin and McGonagall on the battlements - a support role. His combat scene (winning a wand, dueling Dolohov) is present in Scene 40 description but brief.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book gives Dean a genuine combat moment showing he can hold his own in the final battle. The film's primary use of him as a messenger slightly diminishes this, though his combat presence is not entirely absent."
-    },
-    {
-      "scene": "Film - Entire DH1 fugitive arc (absent)",
-      "book_baseline": "Book (Scenes 355-424) gives Dean a substantial arc as a fugitive: traveling with Ted Tonks and goblins, discussing his uncertain blood status and absent father, defending Harry's reputation to skeptics ('I know Harry Potter... I reckon he's the real thing'), being captured by Snatchers, imprisoned in Malfoy Manor, escaping with Harry's group, helping bury Dobby, and staying at Shell Cottage. This is his most developed independent characterization in the series.",
-      "film_portrayal": "Dean appears briefly in DH1 as a prisoner in Malfoy Manor cellar and is rescued. The entire fugitive journey - his conversations about his father, his defense of Harry, his relationship with Ted Tonks, his independent survival - is entirely absent.",
+      "scene": "Absent from film corpus: Dean's entire fugitive arc (forest camp, eavesdropping, Malfoy Manor cellar escape, Shell Cottage)",
+      "book_baseline": "Book Scenes 1-19, 26-52, 57-70: Dean's extended arc as a Muggle-born fugitive \u2014 traveling with Ted Tonks and goblins, providing Harry crucial intelligence about the sword, being imprisoned in Malfoy Manor, refusing to leave Harry during the escape ('We can't leave you here'), contributing a woolen hat to Dobby's burial, sharing sleeping quarters with Harry and Ron \u2014 constitutes substantial characterization: his blood status vulnerability, his loyalty, his courage, his connection to the wider Muggle-born persecution theme.",
+      "film_portrayal": "None of this material appears in the film corpus. Dean's fugitive journey, his role as an intelligence source, his Malfoy Manor captivity, and his Shell Cottage period are entirely absent.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This is the most significant damage to Dean's portrayal. The fugitive arc is the only point in the series where Dean functions as an independent character with his own story, moral voice, and development outside Harry's immediate orbit. His uncertainty about his blood status mirrors the series' themes about identity and prejudice. Its complete removal means Dean never transcends background character status in the films, and his presence at the Battle of Hogwarts lacks the earned weight it has in the books."
+      "explanation": "The book uses Dean's arc to ground the Muggle-born persecution as a lived human experience rather than an abstraction. His uncertainty about his father's wizarding status, his months as a fugitive, and his solidarity with Harry and Ron at Shell Cottage all serve the saga's thematic concern with blood status injustice. Removing all of it means the film's Dean has no arc, no backstory of suffering, and no earned place among the survivors in the final hall \u2014 he is simply a familiar face who showed up for the battle."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 875.0,
-  "adjusted_cids_v1": 1093.8
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

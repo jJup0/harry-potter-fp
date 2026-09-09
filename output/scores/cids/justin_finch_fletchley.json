@@ -1,63 +1,62 @@
 {
   "character": "Justin Finch-Fletchley",
-  "fp_score": 73.0,
-  "infidelity_score": 27,
-  "weighted_infidelity_exposure": 4,
-  "cids": 70.5,
-  "damage_per_exposure": 28.2,
-  "structural_damage_level": 1,
-  "adjusted_cids": 70.5,
+  "fp_score": 51.0,
+  "infidelity_score": 49.0,
+  "weighted_infidelity_exposure": 6.5,
+  "cids": 178.0,
+  "damage_per_exposure": 71.2,
+  "structural_damage_level": 2,
+  "adjusted_cids": 178.0,
   "main_damage_causes": [
-    "Compression of Justin's introduction removes the class/background characterisation that contextualises his Muggle-born identity and the Eton detail Ernie later references",
-    "Harry's active confrontation of the Hufflepuffs is replaced with passive retreat, reducing his agency in defending himself against the Heir of Slytherin rumours",
-    "The end-of-year apology scene is cut entirely, leaving the Justin-Harry misunderstanding arc without a resolution beat"
+    "Removal of the introductory friendship scene (non-theatrical cut) eliminates the established relationship that gives the snake incident's aftermath its emotional and dramatic weight",
+    "Absence of Justin's apology at the end-of-year feast leaves his personal arc structurally incomplete, removing the reconciliation that closes his narrative function",
+    "Loss of characterising details (the Eton backstory, the cheerful confiding personality) reduces Justin from a specific, vivid individual to a generic frightened bystander, weakening the thematic point about how fear distorts genuine friendships"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 (Dueling Club) - Justin's introduction",
-      "book_baseline": "Justin introduces himself warmly in Herbology, shaking hands with Harry, Hermione, and Ron, demonstrating social confidence and class-conscious background (Eton, mother's approval). He is enthusiastic about Lockhart and openly Muggle-born.",
-      "film_portrayal": "Justin meets Harry briefly at the Dueling Club, offers his hand, and says only 'I know who you are. We all do. Even us Muggle-borns.' The Herbology introduction, the Eton detail, the hand-shaking of Hermione and Ron, and the extended Lockhart enthusiasm are all absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film collapses Justin's characterful introduction into a single throwaway line. The Eton/class background detail is important because it later explains why Ernie says Justin 'let slip' he was Muggle-born - a plot-relevant detail the film retains without the setup. Minor damage since the film does establish he is Muggle-born."
-    },
-    {
-      "scene": "Film Scene 1 (Dueling Club) - Justin's reaction to Parseltongue incident",
-      "book_baseline": "Justin storms off angrily, shouting 'What do you think you're playing at?' Harry is confused and hurt, expecting gratitude. Justin's fear and anger are understandable given he genuinely believed Harry was directing the snake at him. This sets up Justin hiding in his dormitory and the Hufflepuff gossip scene.",
-      "film_portrayal": "Justin backs away terrified but says only 'What are you playing at?' before the scene moves on. The film captures the beat but compresses it - Justin's storming out and Harry's wounded expectation of gratitude are not developed.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film hits the functional plot beat but loses the texture of Justin's justified anger and Harry's specific emotional wound at being feared rather than thanked. Low damage as the core dynamic is preserved."
-    },
-    {
-      "scene": "Film Scene 1 (Library/Hufflepuff gossip) - Justin hiding and Ernie's speech",
-      "book_baseline": "Harry actively goes looking for Justin to explain himself, finds the Hufflepuffs in the library, overhears Ernie's detailed case against Harry (referencing Filch, Creevey, the Eton slip), and confronts them directly. Justin is hiding in the dormitory. Harry's attempt to clear his name and Justin's specific fear of being targeted as Muggle-born are both present.",
-      "film_portrayal": "Harry overhears Ernie's speech from outside a room (not the library). The scene is functionally present but Harry does not confront the Hufflepuffs - he slips away. The detail that Justin told Harry he was down for Eton is retained in Ernie's dialogue, but without the prior Herbology scene establishing it, it lands without context.",
-      "damage_type": "agency/function",
+      "scene": "Chamber of Secrets - Duelling Club introduction (cut scene / non-theatrical)",
+      "book_baseline": "In the book, Justin introduces himself to Harry warmly before the Duelling Club, shaking his hand and displaying a cheerful, socially confident personality. He mentions knowing who Harry is, asks about the flying car, and enthuses about Lockhart. This establishes him as a friendly, gregarious Hufflepuff with a distinct voice and an existing cordial relationship with Harry prior to the snake incident.",
+      "film_portrayal": "The scene where Justin introduces himself to Harry at the Duelling Club was cut from the theatrical release. The film corpus marks this scene as non-theatrical material to be excluded. As a result, the film never establishes any friendly prior relationship between Harry and Justin before the snake incident. The audience has no reason to understand why Harry is hurt or confused by Justin's hostile reaction.",
+      "damage_type": "relationship | nuance/lost material",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "In the book Harry confronts Ernie directly and argues his case - showing agency and courage. In the film he simply walks away muttering. This removes a small but meaningful moment of Harry standing up for himself and engaging with the suspicion directly rather than retreating from it."
+      "impact_weight": 3,
+      "explanation": "The book's Duelling Club introduction is the only scene where Justin and Harry establish a warm, friendly rapport. Its removal means the film audience receives no context for the relationship dynamic that makes the snake incident's aftermath so painful for Harry. The contrast between Justin's earlier friendliness and his later fear and accusation is a key emotional beat; without it, Justin becomes a near-stranger whose hostility carries no dramatic irony."
     },
     {
-      "scene": "Film Scene 2 (End feast) - Justin's apology to Harry",
-      "book_baseline": "Justin hurries over from the Hufflepuff table to wring Harry's hand and apologize endlessly for suspecting him. This is an explicit, emotionally satisfying resolution of their arc - Justin's fear, his false accusation, and his ultimate recognition of Harry's innocence.",
-      "film_portrayal": "Justin is shown returning to his seat at the Hufflepuff table as one of the revived students. He has no lines, no interaction with Harry, and no apology. The camera simply notes his presence.",
-      "damage_type": "relationship",
+      "scene": "Chamber of Secrets - Duelling Club snake incident, Justin's reaction to Harry",
+      "book_baseline": "In the book, after Harry speaks Parseltongue and the snake slumps away, Harry looks up at Justin 'expecting to see Justin looking relieved, or puzzled, or even grateful.' Justin shouts 'What do you think you're playing at?' and storms out. The book emphasises Harry's genuine confusion and hurt because he thought he had just saved Justin. The prior friendly introduction makes this reversal land harder.",
+      "film_portrayal": "In the film corpus (Film Scene 1, the Duelling Club sequence), Justin backs away terrified and says 'What are you playing at?' The reaction is present, but because the introductory friendship scene was cut (non-theatrical), the audience has no established relationship to contrast against. Justin is essentially a stranger reacting with fear. The emotional weight of the betrayal of a friendly acquaintance is absent.",
+      "damage_type": "relationship | nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book gives Justin a closing beat that resolves the arc of suspicion and misunderstanding between him and Harry. The film drops this entirely. While Justin is a minor character, this resolution also functions as a small thematic payoff - the Muggle-born student who feared Harry recognising the truth. Its absence leaves the relationship arc incomplete."
+      "explanation": "The film retains Justin's fearful accusation but strips it of context. Without the prior warmth established in the cut introduction scene, the moment reads as a generic frightened bystander rather than a friend turning on Harry, reducing the scene's emotional resonance and Harry's sense of isolation."
+    },
+    {
+      "scene": "Chamber of Secrets - Library/Hufflepuff conversation overheard by Harry",
+      "book_baseline": "In the book, the Hufflepuff conversation Harry overhears includes the detail that 'Justin's been waiting for something like this to happen ever since he let slip to Potter he was Muggle-born. Justin actually told him he'd been down for Eton.' This backstory, combined with the prior friendly introduction, gives Justin a specific, character-rich history: he is a Muggle-born who had openly shared personal information with Harry and now fears that trust was misplaced. His paranoia is rooted in a real prior interaction.",
+      "film_portrayal": "In the film corpus (Film Scene 1, library corridor), Ernie tells Hannah 'Justin let it slip to Potter that he was Muggle-born.' The Eton detail is absent. More significantly, since the introductory scene is cut, the audience has no sense of Justin having previously confided in Harry or of a betrayed friendship. The conversation reduces Justin to a plot device (a Muggle-born hiding from Harry) rather than a character with a defined personality and backstory.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Eton detail and the backstory of Justin having openly, cheerfully shared his background with Harry are defining characterisation moments. Their loss (partly through the cut introduction, partly through omission here) strips Justin of specificity. He becomes a generic frightened Muggle-born rather than a particular, vivid individual, weakening the thematic point about how fear of Slytherin's heir erodes even genuine friendships."
+    },
+    {
+      "scene": "Chamber of Secrets - End feast, Justin apologises to Harry",
+      "book_baseline": "In the book, at the end-of-year feast, 'Justin hurrying over from the Hufflepuff table to wring his hand and apologize endlessly for suspecting him' is listed as one of the best moments of the night for Harry. This is a meaningful reconciliation beat that closes the arc of Justin's suspicion and hostility, affirming the restored friendship and Justin's good character.",
+      "film_portrayal": "In the film corpus (Film Scene 2, the Great Hall feast at the end), Justin is noted as simply rejoining his fellow Hufflepuffs: 'Justin Finch-Fletchley joins his fellow Hufflepuffs.' There is no apology, no reconciliation with Harry, and no acknowledgement of the arc of suspicion and fear that ran through the film. The emotional resolution of Justin's storyline is entirely absent.",
+      "damage_type": "arc | relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The apology scene is the closing beat of Justin's personal arc across the story. Its absence means Justin's journey from friendly acquaintance to frightened accuser to repentant friend is left structurally incomplete in the film. The audience receives no closure on the relationship or on Justin's moral rehabilitation, and Harry's emotional relief at being vindicated in the eyes of someone who feared him is lost."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
+    "exposure_estimate": "Medium",
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 108,
-  "adjusted_cids_v1": 108
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

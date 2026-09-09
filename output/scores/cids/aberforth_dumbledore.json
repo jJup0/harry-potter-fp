@@ -1,81 +1,98 @@
 {
   "character": "Aberforth Dumbledore",
-  "fp_score": 68.0,
-  "infidelity_score": 32.0,
-  "weighted_infidelity_exposure": 38.5,
-  "cids": 254.6,
-  "damage_per_exposure": 24.2,
+  "fp_score": 73.0,
+  "infidelity_score": 27.0,
+  "weighted_infidelity_exposure": 36.0,
+  "cids": 211.0,
+  "damage_per_exposure": 19.2,
   "structural_damage_level": 4,
-  "adjusted_cids": 254.6,
+  "adjusted_cids": 211.0,
   "main_damage_causes": [
-    "Complete omission of Aberforth's Ariana monologue, which is the emotional and moral foundation of his character and a major source of Dumbledore's moral complexity",
-    "Removal of the Hogsmeade Death Eater confrontation, which is the primary demonstration of Aberforth's active courage, cunning, and competence",
-    "Inversion of the Ariana-Aberforth relationship dynamic, erasing his identity as her true caretaker and replacing it with a version that centers Albus even in his failures"
+    "Omission of Aberforth's central monologue about Ariana removes the emotional and moral core of his characterisation, leaving him as a bitter cynic without the specific grief, love, and backstory that justify his position.",
+    "Reversal of the Ariana\u2013Aberforth bond (attributing her devotion to Albus rather than Aberforth) dismantles the relational logic underpinning his estrangement from his brother and his personal stake in the events of the saga.",
+    "Removal of Aberforth's active confrontation of Grindelwald as a teenager and his participation in the Battle of Hogwarts strips him of moral agency at both the backstory and climactic levels, reducing a character defined by inarticulate but real courage to a purely reactive figure."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 4 - Aberforth's account of Ariana",
-      "book_baseline": "Aberforth delivers a long, emotionally devastating monologue about Ariana's attack, his mother's death, his own role as her caretaker ('I was her favourite'), his confrontation with Grindelwald and Albus, the three-way duel, and Ariana's death. He breaks down, voice cracking. This is the emotional and moral core of his character - a man who sacrificed his own youth to care for his sister while Albus chased glory, and who carries survivor's guilt.",
-      "film_portrayal": "Aberforth gives no account of Ariana's story at all. He gestures to the painting and says 'My brother sacrificed many things in his journey to find power, including her. She was devoted to him - he gave her everything, but time.' Then he exits. The entire backstory, the confrontation with Grindelwald, the duel, Ariana's death, Aberforth's role as her caretaker, and his grief are completely absent.",
-      "damage_type": "arc | nuance/lost material | relationship",
-      "exposure": 3,
-      "impact_weight": 5,
-      "explanation": "This is the single most defining scene for Aberforth in the entire saga. His monologue establishes why he distrusts Albus, why he is bitter and isolated, what he sacrificed, and what he lost. Without it, his antagonism toward Albus reads as vague resentment rather than earned grief. The audience loses the moral complexity of Albus Dumbledore's past, the tragedy of Ariana, and Aberforth's identity as the overlooked, self-sacrificing brother. His character is reduced to a grumpy innkeeper with a grudge."
-    },
-    {
-      "scene": "Film Scene 4 - Aberforth's extended argument with Harry about trust and Dumbledore",
-      "book_baseline": "The book argument is long and substantive: Aberforth challenges Harry on whether Dumbledore was honest with him, invokes the family history of 'secrets and lies,' pushes Harry to admit he cannot fully trust Dumbledore, and Harry is genuinely shaken. Harry ultimately pushes back with conviction. The exchange is a real moral and emotional contest between two people who both loved and were hurt by Albus.",
-      "film_portrayal": "The film compresses this into a shorter exchange. Aberforth's challenge is more abstract ('What makes you think you can trust him?') and Harry's response is rewritten as an emotional declaration about personal identity ('Because I need to. Because if I don't, I don't know who I am anymore'). This shifts the scene from a substantive debate about Dumbledore's honesty into a scene about Harry's emotional resolve.",
-      "damage_type": "motivation/internal conflict | personality/voice",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book version forces Harry to confront real doubts about Dumbledore and choose faith despite them - a meaningful moral act. The film version makes Harry's trust a matter of personal need rather than reasoned conviction, which softens the critique of Dumbledore and reduces Aberforth's challenge to a foil for Harry's character moment rather than a legitimate counter-voice."
-    },
-    {
-      "scene": "Film Scene 4 - Aberforth's pessimism and defeatism",
-      "book_baseline": "In the book, Aberforth is pessimistic and urges Harry to flee, but his defeatism is grounded in specific, articulated reasoning: the Order is broken, Voldemort has won, Harry is being used. He also ultimately relents and helps, showing he is not truly without hope - just without illusions. His gruffness coexists with genuine care (he sent Dobby, he kept watch in the mirror, he feeds the Hogwarts resistance).",
-      "film_portrayal": "The film preserves the surface pessimism but strips it of its specific reasoning. Aberforth's defeatism feels more like a character trait than a considered position. The film does retain his practical help, but the tension between his stated hopelessness and his actual actions is less developed.",
-      "damage_type": "nuance/lost material | personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book Aberforth is a man who has thought hard about the situation and reached a bleak conclusion he acts against anyway - that contradiction is his depth. The film version is simply a grumpy pessimist, losing the complexity of someone who keeps fighting while believing it is futile."
-    },
-    {
-      "scene": "Film Scene 2 - Aberforth's confrontation with Death Eaters (Hogsmeade street)",
-      "book_baseline": "The book gives Aberforth a full, bravura scene: he faces down multiple Death Eaters alone, bluffs about his Patronus being a goat, threatens them with exposure of their illegal dealings at his pub, and manipulates them into backing down through a combination of nerve, cunning, and leverage. It is a showcase of his street-smart courage and his long-established relationship with the criminal underworld.",
-      "film_portrayal": "This entire confrontation scene is omitted. Aberforth simply opens the door and says 'In here, Potter.' The Death Eaters are confused by Harry's Patronus but there is no confrontation, no bluffing, no leverage, no goat Patronus moment.",
-      "damage_type": "agency/function | nuance/lost material",
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's account of Ariana and Albus",
+      "book_baseline": "Book corpus (Scenes 143\u2013186) establishes Aberforth delivering an extended, emotionally devastating first-person account of Ariana's suffering, his own role as her primary caretaker ('I was her favourite\u2026 I could get her to eat when she wouldn't do it for my mother'), his confrontation with Grindelwald and Albus, the three-way duel, and Ariana's death. This monologue is the cornerstone of Aberforth's characterisation: a man of deep, inarticulate love, long-suppressed grief, and specific moral authority over his brother's failures.",
+      "film_portrayal": "The film (Scene 4) entirely omits Aberforth's personal narrative. He does not describe Ariana's attack by Muggle boys, his role as her carer, his confrontation with Grindelwald, the duel, or Ariana's death. Instead he offers only a compressed, abstract charge: 'My brother sacrificed many things, Mr. Potter, in his journey to find power, including her. She was devoted to him \u2014 he gave her everything, but time.' This reduces a detailed, emotionally specific monologue to a single vague line of grievance.",
+      "damage_type": "nuance/lost material",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This scene is the primary demonstration of Aberforth's competence, courage, and cunning. It shows he is not merely Albus's bitter brother but a capable, resourceful man who has survived under Death Eater occupation through wit. Its removal means his first impression in the film is purely reactive rather than active, and a key dimension of his character - pragmatic bravery - is never established."
+      "explanation": "The monologue is the only moment in the entire saga where Aberforth is given full dramatic agency to speak in his own voice about his own life. Its removal strips him of his defining characterisation \u2014 the grieving, fiercely loving brother \u2014 and replaces it with a generic antagonist pose. It also removes the audience's understanding of exactly what Albus sacrificed and why Aberforth's bitterness is justified, degrading the moral complexity of Dumbledore's arc."
     },
     {
-      "scene": "Film Scene 5/6 - Aberforth's role in the Hogwarts resistance",
-      "book_baseline": "The book establishes that Aberforth has been actively supplying food to the students hiding in the Room of Requirement for an extended period, serving as their lifeline. He also tips off Percy Weasley about the battle, helping bring him back to his family. During the battle itself he fights, leads students, and shouts tactical information. He is a meaningful participant in the resistance.",
-      "film_portrayal": "Aberforth's supply role is referenced only in passing via Seamus's joke about his cooking. His role tipping off Percy is absent. In the post-battle scene he sits with Oliver Wood sharing a drink and gives Harry a stoic nod.",
-      "damage_type": "agency/function | nuance/lost material",
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's role as Ariana's primary caretaker",
+      "book_baseline": "Book corpus (Scenes 152\u2013157) establishes that Aberforth \u2014 not Albus \u2014 was Ariana's favoured caretaker. He could get her to eat, calm her rages, and she helped him feed the goats. This detail is the emotional heart of his character: his bond with her is particular, tender, and earned through daily care.",
+      "film_portrayal": "The film reverses this. Aberforth says Ariana 'was devoted to him [Albus]' and that Albus 'gave her everything, but time.' This frames the Albus\u2013Ariana bond as the central one and erases Aberforth's unique relationship with her entirely.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "By attributing Ariana's devotion to Albus rather than Aberforth, the film undermines the very reason Aberforth's grief carries moral weight. His anger at Albus is rooted in the fact that he \u2014 not Albus \u2014 was her carer, and Albus's distraction with Grindelwald was a betrayal of a specific, intimate family responsibility. The film's inversion makes Aberforth's grievance less legible and his relationship with Ariana nearly invisible."
+    },
+    {
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's confrontation of Grindelwald and Albus",
+      "book_baseline": "Book corpus (Scenes 170\u2013179) establishes that the teenage Aberforth directly confronted both Albus and Grindelwald, told them to abandon their plans, and pulled his wand when Grindelwald cursed him \u2014 showing him as physically brave, morally clear-sighted, and willing to act even against his more powerful brother and his friend.",
+      "film_portrayal": "This confrontation is entirely absent from the film corpus. No version of this scene appears in the theatrical material provided.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The confrontation is the one moment in the books where Aberforth exercises clear moral agency, standing up to two more powerful wizards on behalf of his vulnerable sister. Its absence means the film Aberforth has no demonstrated heroism or courage in his backstory \u2014 only bitterness and resignation. This flattens him from a morally active figure into a passive one."
+    },
+    {
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's challenge to Harry and his eventual yielding",
+      "book_baseline": "Book corpus (Scenes 95\u2013210) shows a prolonged, multi-beat exchange in which Aberforth argues strenuously that the war is lost and Harry should flee, Harry pushes back, and Aberforth's resistance is worn down until he finally \u2014 without explicit capitulation \u2014 gets up and activates the portrait. The book also includes Harry invoking Dumbledore's dying vision (Scenes 191\u2013193), a moment that visibly affects Aberforth and shifts the dynamic.",
+      "film_portrayal": "The film (Scene 4) condenses this exchange significantly. Harry's invocation of Dumbledore's final tormented visions ('He thought he was back there with you and Grindelwald') is absent. Aberforth's yielding comes after Harry's declaration of faith in Dumbledore, but the specific emotional lever \u2014 Harry telling Aberforth that his brother died in anguish over Ariana \u2014 is cut.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Aberforth is moved partly by the revelation that Albus was not free of guilt even at death \u2014 that he still suffered over Ariana. This gives Aberforth's decision to help a richer motivation: not just grudging pragmatism but a partial reconciliation with his brother's memory. The film's version makes his yield feel more like defeat than resolution, weakening the emotional arc of the scene."
+    },
+    {
+      "scene": "DH2 - Sitting room night (Scene 4): Film insult to Harry ('You're lying\u2026 That's what a fool does')",
+      "book_baseline": "Book corpus (Scenes 95\u2013136) shows Aberforth challenging Harry sharply but never accusing him of lying or calling him a fool. Aberforth's critique is directed at Albus ('Secrets and lies, that's how we grew up') and at the danger of blind trust, not at Harry's personal integrity.",
+      "film_portrayal": "The film (Scene 4) has Aberforth tell Harry directly: 'You're lying. Not just to me, which doesn't matter, but to yourself as well. That's what a fool does.' This is a direct personal attack on Harry's honesty and intelligence not present in the book exchange.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "While Aberforth is blunt and cynical in both versions, the book's version directs his bitterness at Albus and at circumstance, not at Harry personally. The film's phrasing makes him more gratuitously hostile toward Harry, slightly distorting his voice from 'grieving realist' toward 'antagonist,' and weakens the sense that he ultimately respects and protects Harry."
+    },
+    {
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's description of Ariana's condition and their father's sacrifice",
+      "book_baseline": "Book corpus (Scenes 145\u2013151) establishes that Ariana was attacked by Muggle boys who saw her doing magic and tried to stop her doing it again, that the trauma broke something in her, and that their father went to Azkaban rather than reveal why he attacked those boys \u2014 protecting Ariana at the cost of his own freedom. This backstory humanises the entire Dumbledore family.",
+      "film_portrayal": "None of this backstory appears in the film corpus. The film version of Aberforth provides no account of Ariana's attack, her condition, or Percival Dumbledore's sacrifice.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Without this material, the film audience has no understanding of why Ariana was hidden, what her condition actually was, or the family's pattern of self-sacrifice and secrecy. Aberforth's grief and anger lack the specific grounding that makes them comprehensible rather than merely bitter. The father's sacrifice \u2014 a direct parallel to Harry's own situation \u2014 is entirely lost."
+    },
+    {
+      "scene": "DH2 - Sitting room night (Scene 4): Aberforth's self-identification as the brother who stayed",
+      "book_baseline": "Book corpus (Scene 164\u2013166) has Aberforth explicitly state: 'I'd have looked after her, I told him so, I didn't care about school, I'd have stayed home and done it.' This positions him as the responsible sibling who offered sacrifice and was overruled, not merely a resentful outsider.",
+      "film_portrayal": "This declaration is absent from the film. The film Aberforth voices grievance but never articulates what he was willing to do or what was taken from him.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Aberforth is quietly heroic throughout the final act - sustaining the resistance, fighting in the battle, providing intelligence. The film reduces this to a background presence. The stoic nod in the Great Hall is the entirety of his post-tunnel characterization, which fails to pay off his established role."
+      "explanation": "The absence of this line means the film Aberforth appears to criticise without having offered an alternative. In the book, his moral authority comes precisely from his willingness to sacrifice his own education and ambitions for Ariana. Without it, his critique of Albus reads as jealousy rather than earned grievance."
     },
     {
-      "scene": "Film Scene 4 - Aberforth's description of Ariana's relationship with him vs. Albus",
-      "book_baseline": "'I was her favourite. Not Albus - he was always up in his bedroom reading his books and counting his prizes... He didn't want to be bothered with her. She liked me best. I could get her to eat when she wouldn't do it for my mother, I could calm her down.' This establishes Aberforth as Ariana's true caretaker and the emotional center of her life, and reframes Albus's greatness as partly built on neglect of family.",
-      "film_portrayal": "Aberforth says 'She was devoted to him - he gave her everything, but time.' This inverts the book's dynamic: in the film Ariana is devoted to Albus, whereas in the book she was closest to Aberforth. The film's line also frames Albus as the primary figure in her life who simply failed to give enough time, rather than as someone who was largely absent while Aberforth did the actual caring.",
-      "damage_type": "relationship | personality/voice",
+      "scene": "DH2 - Battle of Hogwarts (Scene 7 / post-battle Great Hall): Aberforth's role in the battle",
+      "book_baseline": "Book corpus (Scenes 231\u2013246) shows Aberforth actively fighting in the Battle of Hogwarts: blocking corridors, leading students, offering tactical commentary (north battlements, giants), and personally Stunning Rookwood. He is a combatant, not merely a bystander.",
+      "film_portrayal": "The film's post-battle scene (Scene 7) shows Aberforth sitting with Oliver Wood drinking something strong and giving Harry 'a stoic nod.' No fighting is depicted or referenced.",
+      "damage_type": "agency/function",
       "exposure": 0.5,
-      "impact_weight": 3,
-      "explanation": "This inversion is small in screen time but significant in meaning. It erases Aberforth's identity as Ariana's true caretaker and primary bond, which is the source of his deepest grief and his most legitimate grievance against Albus. It also softens the critique of Albus by making him the central figure in Ariana's life rather than an absent one."
+      "impact_weight": 2,
+      "explanation": "While the film does show him present in the aftermath, his active participation in the battle \u2014 which in the book is the payoff for his earlier reluctance, showing he did not in fact give up \u2014 is entirely invisible. The 'stoic nod' reads as passive rather than as the concluding beat of a character arc from cynicism to action."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
+    "exposure_estimate": "Medium",
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1232.0,
-  "adjusted_cids_v1": 1848.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

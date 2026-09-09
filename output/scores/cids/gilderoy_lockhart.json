@@ -1,161 +1,170 @@
 {
   "character": "Gilderoy Lockhart",
-  "fp_score": 82.0,
-  "infidelity_score": 18.0,
-  "weighted_infidelity_exposure": 26.5,
-  "cids": 107.6,
-  "damage_per_exposure": 7.2,
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 25.0,
+  "cids": 164.5,
+  "damage_per_exposure": 10.3,
   "structural_damage_level": 2,
-  "adjusted_cids": 107.6,
+  "adjusted_cids": 164.5,
   "main_damage_causes": [
-    "Systematic omission of Lockhart's classroom reenactment lessons removes the sustained pattern of his incompetence and self-promotion as a teacher, reducing him from a systemic comic menace to a single-incident joke",
-    "Absence of several mid-film scenes (Valentine's Day, Hagrid visit, corridor escort, false credit-claiming) strips away the texture of Lockhart's social behaviour and his effect on the wider school community, flattening him into a plot device rather than a fully inhabited comic character",
-    "Compression of key one-on-one scenes (the greenhouse confrontation with Harry, the extended detention) removes the private, unperformed dimension of his narcissism, making his self-obsession feel like public performance rather than genuine psychological condition"
+    "Loss of the classroom quiz scene (excluded per non-theatrical instruction) removes the foundational demonstration of Lockhart's narcissistic pedagogy, thinning the sustained portrait of his incompetence as a teacher from a pattern into isolated incidents",
+    "Absence of multiple mid-film character scenes (Greenhouse Three monologue, re-enactment lessons, Valentine's Day, Colin Creevey corridor) means the film Lockhart is only visible at plot-functional moments rather than as a persistent, grinding presence in Harry's daily school life \u2014 reducing him from a character to a series of set pieces",
+    "The film loses several scenes showing Lockhart's hypocrisy and self-delusion in private or semi-private registers (lecturing Harry on fame-seeking while being more fame-hungry himself, patronising Hagrid, claiming credit for stopping the attacks) so the film version reads as straightforwardly vain rather than as the specific variety of deluded fraud Rowling constructs"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - First DADA class: quiz and pixies",
-      "book_baseline": "Book establishes Lockhart's quiz as a narcissistic exercise spanning three sides of paper, followed by him awarding Hermione ten points and then releasing pixies with theatrical bravado. After the chaos, he dives under his desk and abandons the trio to clean up.",
-      "film_portrayal": "Film condenses the quiz to a few lines of dialogue read aloud by Harry and Ron, cutting the full absurdist scope of the quiz (thirty questions, three sides of paper, the roguish wink, the detailed results). The abandonment beat is preserved but the buildup that makes Lockhart's self-obsession feel systematic is truncated.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
+      "scene": "Chamber of Secrets - Lockhart's first DADA class (quiz scene cut per non-theatrical exclusion)",
+      "book_baseline": "The book establishes Lockhart's quiz as a defining moment of his narcissism and incompetence as a teacher: questions solely about his favourite colour (lilac), birthday gifts, and secret ambitions. The class reacts with disbelief and silent laughter. This scene crystallises his self-obsession and sets up the pixie disaster as part of a coherent portrait of a fraud performing competence.",
+      "film_portrayal": "The quiz scene is excluded from the theatrical release per the non-theatrical exclusion instruction. The film's first class jumps directly to Lockhart's introduction speech and then the pixie release, losing the sustained comedic portrait of his narcissistic pedagogy and the class's dawning realisation of his absurdity.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The quiz is the single most concentrated demonstration of Lockhart's delusional narcissism as a teacher. Reducing it to three sample questions read as a quick joke strips the sustained, deadpan absurdity that defines his classroom persona and makes him feel like a one-note gag rather than a fully realised comic monster."
+      "explanation": "The quiz is the clearest single demonstration that Lockhart treats his teaching post purely as a vehicle for self-promotion. Without it, the film loses a full beat of character-building that establishes the pattern of incompetence before the pixie disaster. The film Lockhart still reads as vain, but the texture of his fraudulence as educator is thinner."
     },
     {
-      "scene": "Film Scene 2 - Post-pixie corridor: Hermione defends Lockhart",
-      "book_baseline": "After the pixie disaster, Ron roars in disbelief. The book has no scene where Hermione actively defends Lockhart's competence to Harry and Ron immediately after the debacle.",
-      "film_portrayal": "Hermione tells Harry 'Rubbish. Read his books. You'll see all the amazing things he's done,' and 'I'm sure Professor Lockhart just wanted to give us some hands-on experience.' Ron's rebuttal 'He says he's done' is the punchline.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor addition that slightly exaggerates Hermione's credulity for comic effect. The book's Hermione is besotted but not quite this blind immediately after a visible failure. Low damage as it is brief and the joke lands without distorting her arc."
-    },
-    {
-      "scene": "Film Scene 3 - Detention in Lockhart's office: fan mail scene",
-      "book_baseline": "The book devotes a long, miserable scene to Harry addressing envelopes while Lockhart prattles about fame, celebrity, and his fans for nearly four hours. Lockhart's monologue is rich with self-congratulatory aphorisms. Harry hears the voice mid-scene and Lockhart is oblivious, then dismisses Harry with a comment about not expecting a treat like this every detention.",
-      "film_portrayal": "The film compresses the scene significantly. Lockhart delivers only two aphorisms ('Fame's a fickle friend, Harry. Celebrity is as celebrity does') before the voice interrupts. The four-hour duration and the sustained tedium of Lockhart's self-absorption are lost. The scene ends abruptly after the voice exchange.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The extended detention is where Lockhart's oblivious self-promotion is most sustained and where his complete inability to perceive anything beyond himself is most clearly established. Compressing it loses the cumulative comic horror of being trapped with him and weakens the contrast between his vapid chatter and the genuinely sinister voice Harry hears."
-    },
-    {
-      "scene": "Film Scene 2 - Greenhouse Three: Lockhart's encounter with Professor Sprout",
-      "book_baseline": "Lockhart intercepts Harry outside the greenhouse, closes the door in Sprout's face, and delivers a lengthy, condescending speech claiming Harry flew the car to get publicity after their front-page photo together. He compares Harry's fame unfavourably to his own Witch Weekly awards. The scene is a sustained display of his delusional self-importance and his casual cruelty toward Harry.",
-      "film_portrayal": "This scene is entirely absent from the film. There is no equivalent moment where Lockhart privately condescends to Harry about seeking fame.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This is one of the book's most revealing Lockhart scenes: it shows him alone with Harry, without an audience, still performing the same narcissistic routine. Its absence removes a key demonstration that his self-obsession is not just public posturing but a genuine psychological condition. It also removes the specific dynamic where Lockhart patronises Harry one-on-one."
-    },
-    {
-      "scene": "Film Scene 3 - Dueling Club: Lockhart's post-Expelliarmus spin",
-      "book_baseline": "After being blasted off the stage by Snape, Lockhart totters back up and claims he 'felt it would be instructive to let them see' the disarming charm, implying he allowed it. He then drops his wand during the blocking demonstration and covers it with 'my wand is a little overexcited.' Snape is visibly murderous; Lockhart seems genuinely oblivious to the danger.",
-      "film_portrayal": "The film preserves the post-Expelliarmus spin ('it was very obvious what you were about to do, if I had wanted to stop you it would have been only too easy') but cuts the wand-dropping moment during the blocking demonstration entirely. Snape's suggestion to teach blocking is taken up without the embarrassing fumble.",
+      "scene": "Chamber of Secrets - Lockhart's classroom, pixie lesson (Film Scene 3/42)",
+      "book_baseline": "In the book, after the pixies are released and chaos ensues, Lockhart attempts his spell ('Peskipiksi Pesternomi'), it fails completely, a pixie steals his wand, and he dives under his desk to avoid being hit by the falling chandelier. He then instructs Harry, Ron, and Hermione to put the pixies back and sweeps out, leaving them to deal with the mess.",
+      "film_portrayal": "The film retains the broad outline but Lockhart joins the stampede to the door rather than diving under his desk \u2014 he flees with the students rather than cowering separately beneath his own furniture. The specific humiliation of hiding under his desk (while Neville falls from the chandelier) is lost.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The wand drop is a small but telling physical comedy beat that shows Lockhart's incompetence bleeding through even his most basic actions. Its absence is minor but removes one layer of the dueling club's cumulative humiliation of him."
+      "explanation": "A minor loss. The desk-hiding is a precise comic beat that underlines his cowardice in a more pathetic, specific way than simply fleeing. The film version still conveys cowardice but loses the particular quality of his shameless self-preservation while a student dangles from the ceiling."
     },
     {
-      "scene": "Film Scene 3 - Dueling Club: Lockhart's blocking instruction to Harry",
-      "book_baseline": "Lockhart tells Harry 'When Draco points his wand at you, you do this,' attempts a complicated wiggling action, drops his wand, and says 'my wand is a little overexcited.' Harry asks him to show the blocking move again; Lockhart cuffs him merrily and says 'Just do what I did, Harry!' Harry mutters 'What, drop my wand?' Lockhart isn't listening.",
-      "film_portrayal": "This exchange is cut. The film moves directly from Snape suggesting Malfoy and Potter to them taking their places, with Lockhart only calling 'Wands at the ready!'",
+      "scene": "Chamber of Secrets - Greenhouse Three / Whomping Willow encounter (Film: absent from film corpus)",
+      "book_baseline": "The book has Lockhart intercept Harry outside Greenhouse Three, dismiss Professor Sprout by closing the door in her face, and deliver a lengthy monologue blaming Harry's flying-car stunt on the 'taste for publicity' Lockhart himself gave him. He compares Harry's scar unfavourably to his own Witch Weekly Most-Charming-Smile Award, tells Harry he was 'just as much of a nobody' at twelve, and gives a hearty wink before striding off. This scene is key to establishing Lockhart's delusional self-importance and his specific dynamic with Harry: he genuinely believes Harry craves fame like he does.",
+      "film_portrayal": "This scene does not appear in the film corpus at all. The film has no equivalent moment where Lockhart privately lectures Harry about fame and publicly patronises him outside a class.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The greenhouse scene is one of the richest character moments for Lockhart in the book: it shows him as not merely vain but genuinely convinced of his own worldview, incapable of reading Harry's contempt, and condescending in a specific, absurd way. Its absence means the film Lockhart lacks this private register of delusion \u2014 we only see him perform for crowds, never embarrass himself one-on-one in a sustained way before the climax."
+    },
+    {
+      "scene": "Chamber of Secrets - Colin Creevey corridor / signed photo scene (Film: absent from film corpus)",
+      "book_baseline": "The book has Lockhart clamp Harry to his side when he finds him with Colin Creevey, stage a double portrait, tell the crowd to move along, and then lecture Harry that handing out signed photos 'looks a tad bigheaded' \u2014 while himself keeping a stack handy at all times. He escorts Harry to his classroom with his arm around him, burning with humiliation. This scene shows Lockhart's hypocrisy (lecturing Harry on self-promotion while doing exactly that) and his social obliviousness.",
+      "film_portrayal": "No equivalent scene appears in the film corpus. The film's Harry-Colin dynamic exists but Lockhart does not insert himself into it in this way.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene provides the clearest illustration of Lockhart's hypocrisy \u2014 warning Harry against the very behaviour he exemplifies \u2014 and his physical imposition on Harry (clamping him to his side). The film loses this specific comedic register of oblivious double-standard, making Lockhart's vanity slightly less layered."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart's DADA lessons: dramatic re-enactments (Film: absent from film corpus)",
+      "book_baseline": "The book describes a sustained pattern across multiple lessons: Lockhart reads from his books and re-enacts dramatic moments, casting Harry as a Transylvanian villager, a yeti with a head cold, a vampire on a lettuce diet, and a werewolf. This establishes a recurring dynamic of Harry being humiliated, Lockhart being obliviously self-aggrandising, and the class enduring a useless teacher.",
+      "film_portrayal": "The film has no scenes showing these re-enactment lessons. After the pixie disaster, the film does not depict Lockhart's subsequent classroom behaviour at all.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The re-enactment lessons are important to sustaining the portrait of Lockhart as an ongoing, grinding failure as a teacher \u2014 not just a one-off with the pixies. They also build Harry's specific resentment and the class's collective suffering. Without them, Lockhart's classroom incompetence reads as a single incident rather than a consistent pattern."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart claims credit for stopping the attacks (Film: absent from film corpus)",
+      "book_baseline": "The book has Lockhart overheard by Harry telling McGonagall he's personally responsible for the cessation of attacks, tapping his nose and winking, claiming the culprit must have known Lockhart was close to catching him. This is a key beat of his delusional self-importance intersecting with the actual plot.",
+      "film_portrayal": "No equivalent scene appears in the film corpus. The film does not show Lockhart making this claim.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "A minor loss. The scene adds a specific layer of Lockhart's fraudulence \u2014 not just taking credit for others' past deeds but actively claiming credit for plot-relevant events happening in real time. Its absence slightly reduces his role as a comic obstacle to the mystery's resolution."
+    },
+    {
+      "scene": "Chamber of Secrets - Valentine's Day decoration (Film: absent from film corpus)",
+      "book_baseline": "The book has Lockhart organise a Valentine's Day event with dwarf cupids delivering singing valentines, announcing it cheerfully at breakfast in lurid pink robes, citing the forty-six cards he himself received, and suggesting colleagues show Lockhart-approved 'spirit.' McGonagall's jaw muscles work, Snape looks as though fed Skele-Gro. This scene demonstrates Lockhart's social power (he can impose school-wide events) and his total unawareness of colleagues' contempt.",
+      "film_portrayal": "No Valentine's Day scene appears in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Valentine's scene is the clearest demonstration that Lockhart has genuine institutional influence \u2014 Dumbledore permits his schemes \u2014 and the most vivid picture of staff suffering under him. Its absence removes a dimension of his character: that his delusion extends to believing he is beloved by colleagues who visibly despise him."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart visits Hagrid / advice on kelpies (Film: absent from film corpus)",
+      "book_baseline": "The book has Harry, Ron, and Hermione hide behind a bush to watch Lockhart leave Hagrid's hut, loudly offering to lend Hagrid his book on kelpie removal, implying his superiority. Hagrid later describes Lockhart as having given unsolicited advice. Hagrid tells Harry he told Lockhart Harry is more famous without trying, and Lockhart didn't like it.",
+      "film_portrayal": "No equivalent scene appears in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor loss. The scene develops Lockhart's relationship with Hagrid (condescension toward a colleague he considers beneath him) and gives Hagrid a small moment of defending Harry against Lockhart's jealousy. It adds texture to Lockhart's snobbery but its absence is not structurally significant."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart's fan mail detention, voice heard in wall (Film Scene 49)",
+      "book_baseline": "The book establishes the detention as a long, grinding ordeal: Harry addresses envelopes for hours while Lockhart prattles about fame ('Fame's a fickle friend'), and Harry hears the mysterious voice in the wall. Lockhart is oblivious and dismissive, suggesting Harry is drowsy. The scene ends with Lockhart remarking Harry mustn't expect 'a treat like this' every detention \u2014 the last word of self-satisfied obliviousness.",
+      "film_portrayal": "The film retains the core of this scene faithfully \u2014 candlelit office, fan mail, Lockhart's self-congratulation, Harry hearing the voice, Lockhart not hearing it, and Lockhart's dismissive response. The film version is slightly compressed but the characterisation is consistent with the book.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The 'drop my wand' exchange is a sharp, character-defining comedy beat showing Lockhart's incompetence and Harry's exasperated wit. Its loss is minor but removes a moment that crystallises the absurdity of Lockhart as a dueling instructor."
+      "explanation": "Largely faithful. Minor compression means the full texture of the four-hour ordeal and Lockhart's final parting line about not expecting this 'treat' every time are lost, slightly softening the relentlessness of his self-absorption, but the core damage is minimal."
     },
     {
-      "scene": "Film Scene 3 - Dueling Club: Lockhart's 'Allow me!' with the snake",
-      "book_baseline": "Snape tells Harry not to move and says he'll get rid of the snake. Lockhart shouts 'Allow me!' and his spell sends the snake flying and enrages it, directing it toward Justin. This is a direct demonstration of Lockhart's dangerous incompetence overriding a competent wizard's instruction.",
-      "film_portrayal": "The film preserves this beat faithfully, including Snape's 'Don't move, Potter, I'll get rid of it for you' and Lockhart's 'Allow me!' intervention.",
+      "scene": "Chamber of Secrets - Lockhart after Mrs Norris Petrified, in his office (Film Scene 59)",
+      "book_baseline": "In the book, when the group convenes in Lockhart's office, the photographs on his walls show Lockharts dodging out of sight with their hair in rollers \u2014 a comic detail of vanity. Lockhart hovers around Dumbledore making suggestions, claims he knows the countercurse, references Ouagadougou, counts murders he's prevented until Dumbledore cuts him off, and then tries to claim credit when Dumbledore announces Mrs Norris is Petrified ('Ah! I thought so!'). Snape coldly corrects him on the Mandrake Restorative Draught.",
+      "film_portrayal": "The film retains Lockhart's Ouagadougou reference, his countercurse claim, and his 'Precisely! So unlucky I wasn't there' response to Dumbledore. The hair-in-rollers detail is absent. The specific exchange about the Mandrake Restorative Draught and Snape's correction ('I believe I am the Potions master at this school') is absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Snape correction scene is a small but pointed moment showing Lockhart overreaching into Snape's domain and being publicly humiliated by a peer \u2014 it reinforces his lack of actual competence. Its absence is a minor loss. The hair-in-rollers detail is a nice vanity joke but inconsequential."
+    },
+    {
+      "scene": "Chamber of Secrets - Dueling Club, Lockhart's blocking demonstration (Film Scene 70)",
+      "book_baseline": "The book has Lockhart attempt a 'complicated sort of wiggling action' with his wand to demonstrate a blocking charm and drop it, then cover with 'Whoops \u2014 my wand is a little overexcited.' When Harry asks to see the blocking charm again, Lockhart tells him to 'just do what I did' without having demonstrated anything useful. This is a precise beat of incompetence-concealed-by-bluster.",
+      "film_portrayal": "The film corpus includes the Dueling Club scene but does not appear to include the specific wand-drop/blocking demonstration moment. The film moves from Snape disarming Lockhart to Snape suggesting Harry and Malfoy duel, with Lockhart selecting them himself ('Let's have a volunteer pair. Potter, Weasley, how about you?'). The blocking demonstration with the dropped wand is not evidenced in the film corpus.",
       "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss. The dropped-wand moment is a tight comic beat that shows Lockhart's technical incompetence in his own supposed area of expertise. Without it, his failure at the Dueling Club reads as a single embarrassment (being disarmed by Snape) rather than compounded by an inability even to demonstrate a basic blocking charm."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart allows Harry and Ron to ditch his escort to History of Magic (Film: absent from film corpus)",
+      "book_baseline": "The book has Harry and Ron deliberately flatter Lockhart into abandoning his escort duty by agreeing with his complaints about security measures being unnecessary, allowing them to slip away to Moaning Myrtle's bathroom. Lockhart is so easily manipulated by agreement that he abandons a duty McGonagall assigned specifically because Harry tells him he agrees.",
+      "film_portrayal": "No equivalent scene appears in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor loss. The scene shows Lockhart as specifically susceptible to flattery to the point of professional negligence \u2014 a precise character note. Its absence removes one demonstration of how his vanity makes him functionally useless as a protector, though this is established by other means."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart removes Harry's bones after Quidditch match (Film Scene 65)",
+      "book_baseline": "The book has Harry explicitly say 'No!' and 'I'll keep it like this, thanks' and 'Why can't I just go to the hospital wing?' Lockhart overrides him, performs the spell, and removes all bones. His response is the classic Lockhart non-apology: 'Ah... the point is, the bones are no longer broken.' Ron's reaction ('if Harry had wanted deboning he would have asked') captures the absurdity.",
+      "film_portrayal": "The film retains this scene faithfully. Harry protests ('No... no... not you'), Lockhart overrides him ('Poor boy doesn't know what he's saying'), performs the spell, and delivers the same non-apology. Hagrid's reaction ('He doesn't 'ave any bones at all!') replaces Ron's line. The characterisation is consistent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Essentially faithful. The film shifts the reactive punchline from Ron to Hagrid, which slightly reduces the peer-group mockery of Lockhart, but the core portrait of his disastrous overconfidence is intact."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart's staffroom entrance / teachers cornering him (Film Scene 125)",
+      "book_baseline": "The book describes Lockhart entering the staffroom beaming, having 'dozed off,' unaware of the gravity of the situation, and then being cornered by colleagues who cite his own boasts back at him \u2014 Sprout, Flitwick, and Snape each with specific quotes. Lockhart blanches and physically transforms: 'He didn't look remotely handsome anymore. His lip was trembling, and in the absence of his usually toothy grin, he looked weak-chinned and feeble.' This is the moment the mask fully slips.",
+      "film_portrayal": "The film retains this scene with good fidelity: Lockhart enters cheerily ('So sorry. Dozed off. What have I missed?'), Snape and McGonagall cite his boasts, he stammers ('D-did I? I don't recall...') and caves ('V-very well. I'll \u2014 I'll be in my office, getting \u2014 getting ready.'). The physical description of his collapse is conveyed through Kenneth Branagh's performance per the stage directions, and the stammering dialogue matches the book's intent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. The specific line about looking 'weak-chinned and feeble' is a prose observation that cannot be directly filmed, but the scene's function \u2014 the unmasking of the fraud \u2014 is intact. Minor execution difference only."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart's office, attempted flight and Memory Charm confession (Film Scene 128)",
+      "book_baseline": "The book has Lockhart explicitly confess the full mechanics of his fraud: he tracked down the real heroes, asked how they did it, then Obliviated them. He also explicitly mentions the Armenian warlock and the witch with a harelip who banished the Bandon Banshee. He then attempts a Memory Charm on Harry and Ron before being disarmed. The confession is detailed, self-justifying, and reveals genuine cynicism ('My books wouldn't have sold half as well if people didn't think I'd done all those things').",
+      "film_portrayal": "The film retains the Armenian warlock reference, the core confession ('My books wouldn't have sold half as well...'), the Memory Charm attempt, and Harry's Expelliarmus. The film adds a line not in the book corpus: 'You want fame, you have to be prepared for a long, hard slog' \u2014 framing Lockhart as oddly self-aware about the labour of fraud. Ron's line 'Is there anything you can do?' and Lockhart's pivot to revealing his Memory Charm skill is handled differently: in the film it flows more naturally as a threat. The harelip detail is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Mostly faithful. The added 'long, hard slog' line gives film Lockhart a faint trace of self-awareness about his own cynicism that the book Lockhart lacks \u2014 book Lockhart is more purely delusional. This is a small but real tonal shift. The harelip detail is a minor loss. Overall the confession scene functions correctly."
+    },
+    {
+      "scene": "Chamber of Secrets - Lockhart in the tunnel, faking unconsciousness / seizing Ron's wand (Film Scene 132)",
+      "book_baseline": "In the book, Lockhart's knees give way at the sight of the snakeskin, then he dives at Ron, knocking him down, seizes his wand, and delivers the 'The adventure ends here, boys!' speech including the threat to bind a limited edition in snakeskin. He then fires the Memory Charm with Ron's defective wand, which backfires.",
+      "film_portrayal": "The film has Lockhart pass out entirely ('THUD! They turn. Lockhart has passed out. Heart of a lion, this one.'), then Ron kneels by him and Lockhart's eyes open and he 'quick as a fox' snatches Ron's wand. The 'adventure ends here' speech is retained with added detail about binding a limited edition in snakeskin. This is consistent with the book in substance though the staging (full faint vs. knees giving way) differs slightly.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor staging difference. The film's full faint followed by quick recovery is slightly more comedic and less pathetic than the book's collapsing knees. Both convey his cowardice and opportunism. The core beat is intact."
+    },
+    {
+      "scene": "Chamber of Secrets - St Mungo's Hospital visit (Books 4/5 reference \u2014 absent from film series covered by corpus)",
+      "book_baseline": "The book (Order of the Phoenix) shows Lockhart in the permanent spell damage ward at St Mungo's, cheerfully oblivious, offering autographs, having signed photos to himself on his wall, receiving fan mail from Gladys Gudgeon, and asking if Harry and the others live there. He has childlike joy and no memory of who he was. This is both comic and faintly tragic.",
+      "film_portrayal": "This scene does not appear in the film corpus provided, which covers only Chamber of Secrets. Its absence is noted but falls outside the scored film.",
+      "damage_type": "nuance/lost material",
       "exposure": 0,
       "impact_weight": 0,
-      "explanation": "Faithful. No damage."
-    },
-    {
-      "scene": "Film - Lockhart's reenactments in DADA class (book-only material)",
-      "book_baseline": "The book describes a sustained pattern across multiple lessons: Lockhart reads from his books and reenacts dramatic scenes, forcing Harry to play a Transylvanian villager, a yeti with a head cold, a vampire on a lettuce diet, and a werewolf. He assigns homework to write poems about his defeat of the Wagga Wagga Werewolf. This establishes his classroom as a theatre of self-promotion.",
-      "film_portrayal": "None of these reenactment lessons appear in the film. After the pixie lesson, Lockhart's classroom teaching is not shown again until the dueling club.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The reenactment lessons are the primary vehicle for showing Lockhart's classroom incompetence as a sustained, systemic pattern rather than a single incident. Their complete absence means the film Lockhart's fraudulence as a teacher rests almost entirely on the pixie scene, making him feel like a one-joke character rather than a consistently, inventively useless educator."
-    },
-    {
-      "scene": "Film - Lockhart visiting Hagrid / giving advice on kelpies",
-      "book_baseline": "Harry, Ron, and Hermione hide behind a bush and overhear Lockhart condescendingly offering Hagrid advice on getting kelpies out of a well, promising to send a signed copy of his book. Hagrid later tells Harry that Lockhart said Harry didn't need to hand out signed photos because Harry was more famous than Lockhart without trying, and that Lockhart didn't like hearing that.",
-      "film_portrayal": "This scene is entirely absent. There is no moment of Lockhart condescending to Hagrid or of Hagrid deflating Lockhart's ego.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The Hagrid visit establishes two important things: Lockhart's condescension extends to colleagues, not just students, and Hagrid's earthy common sense punctures Lockhart's ego in a way that reveals Lockhart's insecurity beneath the bluster. Its absence removes a dimension of Lockhart's social behaviour and a warm character beat for Hagrid."
-    },
-    {
-      "scene": "Film - Lockhart's Valentine's Day decoration of the Great Hall",
-      "book_baseline": "Lockhart decorates the Great Hall with pink flowers and heart-shaped confetti, wears lurid pink robes, announces he has received forty-six valentines, and deploys dwarf cupids to deliver valentines around the school. McGonagall has a muscle twitching in her cheek; Snape looks as though he has been fed Skele-Gro. Lockhart cheerfully suggests Snape demonstrate love potions and calls Flitwick a 'sly old dog.'",
-      "film_portrayal": "This scene is entirely absent from the film.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The Valentine's Day scene is the fullest expression of Lockhart's oblivious self-celebration and his complete disregard for professional norms. It also shows his effect on the wider staff and provides comic relief at the midpoint of the story. Its absence removes a significant character beat and a moment that shows Lockhart actively imposing his personality on the entire school."
-    },
-    {
-      "scene": "Film - Lockhart claiming he has stopped the attacks / hints about Hagrid",
-      "book_baseline": "The book has Lockhart repeatedly and publicly claiming credit for stopping the attacks, tapping his nose knowingly at McGonagall, and in class dismissing Hagrid's arrest with disgusting cheeriness and hints that he always suspected Hagrid. Harry is so irritated he wants to throw a book at Lockhart's face.",
-      "film_portrayal": "The film omits Lockhart's self-congratulatory claims about stopping the attacks and his insinuations about Hagrid in the classroom. His cheerful entrance to the staff meeting ('So sorry, dozed off, what have I missed?') is preserved but the sustained pattern of false credit-claiming is not shown.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Lockhart's repeated false claims of credit for stopping the attacks are a key part of his character: they show his self-promotion is not merely harmless vanity but actively misleading and potentially dangerous. The classroom scene with Hagrid's arrest is particularly important as it shows Lockhart's moral shallowness. Their absence softens his villainy."
-    },
-    {
-      "scene": "Film - Lockhart escorting students to class / being manipulated by Harry and Ron",
-      "book_baseline": "Lockhart escorts students to class as a security measure, boasting that the danger has passed. Harry and Ron manipulate him into abandoning them by agreeing with his complaints about the inconvenience, and he hurries off to 'prepare his class.' Ron sneers that he's gone to curl his hair.",
-      "film_portrayal": "This scene is entirely absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "A minor but revealing scene showing Lockhart's vanity making him easily manipulated by two twelve-year-olds. Its absence is a small loss of character texture."
-    },
-    {
-      "scene": "Film Scene 4 - Lockhart's office: the confession and Memory Charm attempt",
-      "book_baseline": "Lockhart's confession is detailed and specific: he explains the ugly Armenian warlock, the witch with a harelip who banished the Bandon Banshee, his process of tracking people down and using Memory Charms. He is impatiently dismissive ('My dear boy, do use your common sense'). He then attempts the Memory Charm with his own wand; Harry disarms him first with Expelliarmus. Ron's wand is then used in the tunnel.",
-      "film_portrayal": "The film preserves the confession closely, including the Armenian warlock detail. However, the film adds a line: 'You want fame, you have to be prepared for a long, hard slog' - a self-justifying rationalisation not in the book. The disarming is preserved. The film also has Lockhart faint at the snake skin before grabbing Ron's wand, rather than the book's knees-giving-way followed by a deliberate dive at Ron.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The added 'long hard slog' line slightly softens Lockhart's confession by giving him a self-serving but almost sympathetic rationalisation. In the book he is purely cynical and dismissive. Minor damage to the sharpness of his villainy in this scene."
-    },
-    {
-      "scene": "Film Scene 4 - Tunnel: Lockhart faints vs. deliberate dive",
-      "book_baseline": "In the tunnel, Lockhart's knees give way at the sight of the snake skin. He then makes a deliberate, calculated dive at Ron to grab his wand - a moment of sudden, predatory agency that recontextualises his cowardice as active malice.",
-      "film_portrayal": "The film has Lockhart pass out entirely ('THUD! They turn. Lockhart has passed out. Heart of a lion, this one.') and then his eyes open and he grabs Ron's wand. The faint is played for comedy; the grab is still present but the transition from apparent unconsciousness to cunning action is less clearly a deliberate feint.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's Lockhart makes a calculated, predatory move - his knees give way but he is watching and waiting. The film's full faint followed by eye-opening reads more as opportunism than premeditation. This slightly reduces the menace of the moment and the sense that Lockhart, even in cowardice, is actively dangerous."
-    },
-    {
-      "scene": "Film - St Mungo's visit (book-only, GoF/OotP era)",
-      "book_baseline": "In Order of the Phoenix, Harry visits St Mungo's and encounters Lockhart in the long-term spell damage ward. He is cheerful, vacant, obsessed with autographs, has signed photos to himself in childish writing, and mentions Gladys Gudgeon still writes weekly. The scene shows the permanent human cost of his Memory Charm backfiring and provides dark comedy.",
-      "film_portrayal": "The St Mungo's scene does not appear in any of the films covered by this corpus.",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The St Mungo's scene is the final chapter of Lockhart's arc: the fraud permanently undone by his own weapon, reduced to a cheerful shell. Its absence (in a later film, outside this film's scope) means his arc ends at the tunnel with no epilogue. Within Chamber of Secrets itself, the film does show his memory-wiped state briefly, so the immediate consequence is present. Damage is moderate and partially outside this film's scope."
-    },
-    {
-      "scene": "Film Scene 3 - Mrs Norris discovery: Lockhart's office as gathering point",
-      "book_baseline": "When Mrs Norris is found, Lockhart eagerly volunteers his office as the nearest available room, looking 'excited and important.' Inside, the photos of Lockhart dodge out of sight with their hair in rollers. Lockhart hovers around Dumbledore making suggestions, counts murders he has prevented, and claims he could whip up a Mandrake Restorative Draught in his sleep, prompting Snape's icy rebuke.",
-      "film_portrayal": "The film preserves Lockhart's Transmogrifian Torture diagnosis, his Ouagadougou anecdote, his 'Precisely! So unlucky I wasn't there' response to Dumbledore's Petrification diagnosis, and his offer to make the countercurse. The photos dodging with hair in rollers is cut. The Mandrake Draught offer and Snape's rebuke are cut.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The Mandrake Draught offer and Snape's rebuke ('I believe I am the Potions master at this school') is a sharp beat showing Lockhart overreaching into other teachers' domains. Its absence is a minor loss. The hair-in-rollers detail is a small but delightful piece of characterisation showing his vanity extends to his photographs."
+      "explanation": "Outside corpus scope \u2014 not scored."
     }
   ],
   "confidence": {
@@ -164,8 +173,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 477.0,
-  "adjusted_cids_v1": 524.7
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

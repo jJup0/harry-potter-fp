@@ -1,180 +1,641 @@
 {
   "character": "Albus Dumbledore",
-  "fp_score": 71.0,
-  "infidelity_score": 29.0,
-  "weighted_infidelity_exposure": 32.0,
-  "cids": 201.1,
-  "damage_per_exposure": 14.4,
-  "structural_damage_level": 3,
-  "adjusted_cids": 201.1,
+  "fp_score": 65.0,
+  "infidelity_score": 35.0,
+  "weighted_infidelity_exposure": 264.5,
+  "cids": 422.8,
+  "damage_per_exposure": 5.1,
+  "structural_damage_level": 4,
+  "adjusted_cids": 422.8,
   "main_damage_causes": [
-    "The GoF 'Goblet of Fire' scene directly contradicts Dumbledore's defining trait of calm composure and trust in Harry, creating a character inconsistency that undermines the mentor-student relationship across the entire saga.",
-    "Systematic compression of the Pensieve lesson sequences in HBP removes the sustained intellectual partnership between Dumbledore and Harry, reducing Dumbledore from a self-aware, fallible mentor to a more generic wise-man figure.",
-    "Truncation of Dumbledore's confessional and self-reckoning moments (King's Cross, the hospital wing in OotP) reduces the emotional payoff of his arc as a great but deeply flawed man who acknowledges his mistakes."
+    "Wholesale removal of Dumbledore's wit, whimsy, and philosophical voice in the Privet Drive opening scene, which is the audience's defining first impression of the character",
+    "Compression of the hospital wing conversation strips the Dumbledore\u2013Harry mentoring dynamic of its philosophical richness, warmth, and the deliberate framework of Dumbledore as a guide who decides what Harry is ready to know",
+    "Loss of eccentric, joyful characterisation moments (nonsense words, school song, socks joke) that distinguish the books' Dumbledore from a generic 'wise headmaster' archetype",
+    "Compression of emotional texture: scenes that are faithfully structured but stripped of the surrounding detail \u2014 the silence, the searching looks, the deliberate pacing \u2014 that constitute Dumbledore's distinctive presence and authority in the books",
+    "Loss of analytical distinctiveness: the film removes or weakens moments where Dumbledore demonstrates superior perception (the 'who vs. how' insight with Colin's camera, the knowing restraint about the car, the penetrating stare that unsettles Riddle) reducing him from a genuinely brilliant mind to a competent administrator"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film \u2013 Privet Drive opening",
-      "book_baseline": "Dumbledore arrives alone, uses the Put-Outer, sits on the wall, has a warm and witty extended conversation with McGonagall covering Voldemort's fall, lemon drops, the Potters' deaths, Harry's placement, and his trust in Hagrid. He is playful, wise, emotionally present, and philosophically grounded.",
-      "film_portrayal": "The conversation is reduced to a handful of lines. The lemon-drop offer, the extended discussion of Voldemort's name, the debate about the Dursleys, and Dumbledore's quiet grief over leaving Harry are all cut. His wit and warmth are largely absent.",
+      "scene": "Film Scene 1 \u2013 Privet Drive arrival, Dumbledore and McGonagall dialogue",
+      "book_baseline": "Book establishes Dumbledore as warm, gently humorous, and proactively engaged with McGonagall: he offers lemon drops, jokes about blushing, calls Voldemort by name and chides McGonagall for avoiding it, and explains his reasoning for leaving Harry with the Dursleys at length, revealing layered wisdom and wit.",
+      "film_portrayal": "The film strips almost all dialogue from this scene. Dumbledore's wit, his lemon-drop offering, his insistence on naming Voldemort, his extended reasoning about Harry's fame, and his gentle humour are entirely absent. He delivers only a handful of terse lines ('I would trust Hagrid with my life', 'The only family he has', 'He's better off growing up away from all of that. Until he is ready', 'Good luck, Harry Potter').",
       "damage_type": "personality/voice",
       "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The opening scene is the audience's first sustained encounter with Dumbledore. Cutting his wit, his insistence on saying Voldemort's name, and his emotional complexity strips the character of the defining traits that make him more than a generic wise mentor."
-    },
-    {
-      "scene": "PS/SS Film \u2013 Mirror of Erised",
-      "book_baseline": "Dumbledore sits on the floor with Harry, explains the mirror at length, delivers the 'It does not do to dwell on dreams' line, deflects Harry's question about what he sees with the socks joke, and Harry privately suspects he wasn't entirely truthful \u2013 a small but crucial note of mystery and humanity.",
-      "film_portrayal": "The scene is present but compressed. The floor-sitting intimacy is replaced by Dumbledore standing. The socks joke is delivered but the narrator's observation that Dumbledore 'might not have been quite truthful' \u2013 which seeds his complexity \u2013 is of course absent as internal narration.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The loss of the physical intimacy (sitting on the floor together) and the subtle hint that Dumbledore withholds personal truth even in kind moments reduces a scene that establishes his layered, imperfect humanity."
+      "explanation": "The opening scene is the audience's first sustained impression of Dumbledore. The book's version establishes his distinctive blend of whimsy, courage (naming Voldemort), and deep wisdom in a single conversation. The film reduces him to a near-silent functionary, losing the twinkling, warm, philosophically playful characterisation that defines him across the whole saga."
     },
     {
-      "scene": "CoS Film \u2013 Dumbledore's suspension/Hagrid's hut",
-      "book_baseline": "Dumbledore delivers his famous line about loyalty and help being given at Hogwarts to those who ask for it, clearly and deliberately looking at Harry and Ron hidden under the Cloak \u2013 a signal of trust and complicity. He also firmly defends Hagrid to Fudge and Malfoy.",
-      "film_portrayal": "The line is present but Dumbledore's deliberate glance toward the hidden boys is retained in the film, so this is largely faithful. His defence of Hagrid is present.",
+      "scene": "Film Scene 1 \u2013 Dumbledore's insistence on naming Voldemort absent",
+      "book_baseline": "Book Scene 20\u201321: Dumbledore explicitly and firmly corrects McGonagall's use of 'You-Know-Who', saying 'for eleven years I have been trying to persuade people to call him by his proper name: Voldemort.' This establishes his fearlessness and moral clarity as a defining trait from his very first appearance.",
+      "film_portrayal": "Dumbledore never uses or insists on the name Voldemort in the Privet Drive scene. The film drops this exchange entirely.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Dumbledore's insistence on naming Voldemort is one of his most iconic and thematically important traits \u2014 it signals his refusal to be governed by fear and sets a moral standard Harry will later adopt. Losing it at the first introduction weakens the thematic groundwork the books deliberately lay here."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Dumbledore's emotional moment leaving Harry on the doorstep",
+      "book_baseline": "Book Scene 52: 'the twinkling light that usually shone from Dumbledore's eyes seemed to have gone out.' This is a rare, explicitly described moment of genuine grief and gravity for Dumbledore, showing the emotional cost of his decision.",
+      "film_portrayal": "The film shows Dumbledore placing Harry on the step and departing without any indication of inner grief. The moment is handled efficiently but with no sign of emotional weight on Dumbledore's part.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor compression; the scene is mostly intact. Minimal damage."
+      "explanation": "The extinguished twinkle is a small but meaningful detail that humanises Dumbledore and hints at the burden of his choices. Its absence is a minor but real loss of emotional depth."
     },
     {
-      "scene": "CoS Film \u2013 Chamber confrontation / Dumbledore's office aftermath",
-      "book_baseline": "Dumbledore's post-Chamber conversation with Harry is rich: he thanks Harry for showing loyalty (which summoned Fawkes), addresses the Slytherin similarities directly and philosophically ('It is our choices, Harry'), and the Malfoy confrontation is handled with quiet, devastating precision.",
-      "film_portrayal": "The scene is present and reasonably faithful, though compressed. The 'It is our choices' line is delivered. The Malfoy confrontation and Dobby's freedom are included.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Largely faithful; minor compression only."
-    },
-    {
-      "scene": "PoA Film \u2013 Dumbledore's start-of-term speech / dementor warning",
-      "book_baseline": "Dumbledore gives a measured, serious speech about the dementors, explicitly stating he does not want them inside the castle and warning students clearly. His discomfort with the Ministry's decision is evident.",
-      "film_portrayal": "The speech is present and the dementor warning is included. Reasonably faithful.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage; scene is largely intact."
-    },
-    {
-      "scene": "PoA Film \u2013 Time-Turner scene / hospital wing",
-      "book_baseline": "Dumbledore's guidance to Harry and Hermione is precise, calm, and trusting. He gives them the information they need ('three turns'), expresses confidence in them, and his parting words ('Good luck') carry weight. He is clearly orchestrating events while respecting their agency.",
-      "film_portrayal": "The scene is present and largely faithful. Dumbledore's calm authority and the chocolate gift are included.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage."
-    },
-    {
-      "scene": "GoF Film \u2013 Harry's name from the Goblet / 'Did you put your name in the Goblet of Fire?'",
-      "book_baseline": "Dumbledore asks Harry calmly and quietly: 'Did you put your name in the Goblet of Fire?' He is composed, trusting, and gives Harry space to answer.",
-      "film_portrayal": "Dumbledore rushes at Harry, grabs him physically, and shouts the question aggressively. This is one of the most widely noted book-to-film character betrayals in the series.",
+      "scene": "Film Scene 6 \u2013 Dumbledore's start-of-term announcements at the feast",
+      "book_baseline": "Book Scenes 107\u2013125: Dumbledore's welcome speech includes his whimsical nonsense words ('Nitwit! Blubber! Oddment! Tweak!'), the school song conducted with gleeful abandon (letting everyone pick their own tune, conducting the Weasley twins' funeral-march version to its conclusion, clapping loudest of all), and a joyful declaration that 'music is a magic beyond all we do here.' These are defining displays of his eccentric, joyful, humanising personality.",
+      "film_portrayal": "Film Scene 6: Dumbledore's speech is condensed to only the functional announcements (forbidden forest, third-floor corridor). The nonsense words, the school song, and 'Ah, music' are entirely absent. He is dignified and authoritative but not whimsical.",
       "damage_type": "personality/voice",
       "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "This directly contradicts a defining trait: Dumbledore's unshakeable calm and trust in Harry. The book explicitly notes he asked 'calmly.' The film's aggressive physicality makes him appear paranoid and threatening, damaging the audience's understanding of his relationship with Harry and his fundamental character."
+      "impact_weight": 2,
+      "explanation": "The school song and nonsense words are among the most characterful moments in the book's introduction of Dumbledore \u2014 they show that the most powerful wizard alive takes delight in silliness, deliberately unsettling the pompous. Removing them makes the film's Dumbledore more conventionally 'wise headmaster' and less the singular, joyfully eccentric figure the books establish."
     },
     {
-      "scene": "GoF Film \u2013 Pensieve / Crouch Jr. trial scene",
-      "book_baseline": "Harry falls into the Pensieve accidentally and witnesses the trial. Dumbledore is present as a younger man, composed and principled. The scene establishes Dumbledore's long history of moral complexity and his vouching for Snape.",
-      "film_portrayal": "The Pensieve scene is present and includes the trial. Dumbledore's vouching for Snape is included.",
+      "scene": "Film Scene 10 \u2013 Mirror of Erised conversation",
+      "book_baseline": "Book Scenes 149\u2013165: Dumbledore sits on the floor with Harry (a deliberate act of physical equality and warmth), engages him with philosophical depth about desire and reality, deflects Harry's question about what he sees in the mirror with a joke about socks, and the narrator notes that Harry later suspected Dumbledore may not have been entirely truthful \u2014 implying hidden depths. The scene establishes Dumbledore as someone who meets Harry as an equal and has his own private griefs.",
+      "film_portrayal": "Film Scene 10: Dumbledore does not sit on the floor with Harry. He delivers the Mirror's explanation standing, loses the socks joke and the implied ambiguity about his own desires entirely. The scene is shorter and loses the physical warmth and the philosophical playfulness of the exchange.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The act of Dumbledore sitting on the floor beside Harry is a small but resonant gesture of intimacy and equality. The socks deflection and the narrator's subsequent doubt humanise Dumbledore by hinting he, too, has deep longings he guards. Both are lost, slightly flattening the Dumbledore\u2013Harry relationship and Dumbledore's characterisation as a man with his own hidden sorrows."
+    },
+    {
+      "scene": "Film Scene 12 \u2013 Hospital wing conversation after the Stone",
+      "book_baseline": "Book Scenes 235\u2013272: Dumbledore engages Harry in a long, warm, philosophically rich exchange. He explains Lily's sacrificial protection with eloquence ('love as powerful as your mother's for you leaves its own mark... it is in your very skin'), reflects on Nicolas Flamel and death with the line 'to the well-organised mind, death is but the next great adventure', explains the Stone's retrieval mechanism with amused self-congratulation ('one of my more brilliant ideas, and between you and me, that's saying something'), and addresses questions about Snape, James Potter, and the invisibility cloak with candid warmth. He explicitly declines to answer why Voldemort wanted to kill Harry, promising the truth when Harry is ready.",
+      "film_portrayal": "Film Scene 12: The conversation is significantly compressed. The explanation of love is reduced to 'Love, Harry. Love' with a head-pat, losing the full poetic elaboration. The 'next great adventure' line about death is absent (only quoted secondhand by Ron later). Dumbledore does not address Snape or James Potter. The promise to tell Harry the full truth when he is ready is absent. The exchange is warmer than elsewhere in the film but substantially thinner.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This scene is one of the most important Dumbledore\u2013Harry exchanges in the first book. It establishes the pattern of their relationship: Dumbledore as wise mentor who engages Harry honestly, shares difficult truths, and hints at larger mysteries to come. Compressing it loses key philosophical texture (death as adventure), relational depth (addressing James/Snape dynamic), and the explicit framework of Dumbledore deciding what Harry is ready to know \u2014 which is foundational to their arc across the series."
+    },
+    {
+      "scene": "Film Scene 8 \u2013 Dumbledore's 'SILENCE' at the troll announcement",
+      "book_baseline": "Book Scene 132: Dumbledore restores order after Quirrell's announcement with 'several purple firecrackers exploding from the end of Professor Dumbledore's wand', a controlled, impressive display that silences the hall without aggression.",
+      "film_portrayal": "Film Scene 8: Dumbledore stands and shouts 'SILLLLLEEENNNNCEEEEE!' in a loud, drawn-out bellow. While effective, it replaces quiet command-through-presence with vocal volume.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor instance: the book's Dumbledore controls a room through effortless magical flair; the film's version resorts to shouting. It is a small but directionally unfaithful note \u2014 the book consistently portrays Dumbledore's authority as something that doesn't require raising his voice."
+    },
+    {
+      "scene": "Film Scene 2 (Snape's office) \u2014 Dumbledore's entrance and handling of the flying car incident",
+      "book_baseline": "Book scenes 13-25: Dumbledore enters Snape's office looking 'unusually grave,' stares down his crooked nose, asks Harry to explain himself, listens in silence, then delivers a measured non-expulsion while deflecting Snape with calm wit ('there's a delicious-looking custard tart I want to sample'). He writes to the Dursleys and leaves punishment to McGonagall, showing layered authority \u2014 firm, fair, and gently ironic. Harry hates the disappointment in his voice and cannot meet his eyes.",
+      "film_portrayal": "Film Scene 2 (Scene 37): Dumbledore arrives, immediately defers to McGonagall for the non-expulsion ruling (as in the book), but the extended interrogation, the grave silence, the searching look, and the emotional weight of Harry being unable to meet Dumbledore's eyes are entirely absent. Dumbledore's only substantive line is a procedural one about bylaws and McGonagall's authority, then he immediately pivots to the custard tart quip with no intervening gravity. The moment of disappointed authority \u2014 the quality that makes Harry feel worse than if Dumbledore had shouted \u2014 is lost.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to establish Dumbledore's distinctive moral weight: his silence and disappointment are more powerful than punishment. The film compresses the scene to a procedural beat and jumps straight to the comic line, erasing the emotional texture that defines Dumbledore's authority over Harry."
+    },
+    {
+      "scene": "Film Scene 2 (Scene 37) \u2014 Dumbledore's handling of the flying car incident, missing the letter to the Dursleys and Harry's internal reaction",
+      "book_baseline": "Book scene 17: Harry tells Dumbledore everything except about Mr. Weasley owning the car, and Dumbledore 'asked no questions about the car' \u2014 a subtle signal of Dumbledore's perceptiveness and discretion. Book scene 25: Harry reflects that Dumbledore writing to the Dursleys 'was nothing' because they'd just be disappointed the Whomping Willow hadn't squashed him \u2014 showing Dumbledore's awareness of Harry's home situation.",
+      "film_portrayal": "No letter to the Dursleys is mentioned. The moment of Dumbledore's knowing restraint \u2014 not asking about the car \u2014 is absent because the interrogation itself is absent.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Largely faithful."
+      "explanation": "Minor but representative loss of Dumbledore's characteristic perceptiveness and his quiet awareness of Harry's home circumstances, both of which are built through small moments in the book."
     },
     {
-      "scene": "GoF Film \u2013 Post-graveyard / hospital wing confrontation with Fudge",
-      "book_baseline": "Dumbledore confronts Fudge with controlled fury, lays out a precise plan of action (recall the Order, send envoys to giants, remove dementors), and delivers the 'parting of the ways' speech. He radiates power and moral clarity. He also sends Snape back to Voldemort \u2013 a moment of enormous weight.",
-      "film_portrayal": "The confrontation with Fudge is present and the key beats are included. The Snape mission is shown. However, the specific policy demands (giants, dementors) are compressed or absent, reducing Dumbledore's strategic vision.",
+      "scene": "Film Scene 3 (Scene 59) \u2014 Mrs. Norris petrification investigation",
+      "book_baseline": "Book scenes 37-68: Dumbledore examines Mrs. Norris with careful, deliberate attention \u2014 'the tip of Dumbledore's long, crooked nose was barely an inch from Mrs. Norris's fur,' muttering strange words, tapping with his wand. He asserts 'No second year could have done this' firmly and with authority, defends Harry with 'Innocent until proven guilty,' and patiently explains the Mandrake cure plan. He tolerates Lockhart's interruptions with quiet dignity and dismisses the children with calm authority.",
+      "film_portrayal": "Film Scene 3 (Scene 59): Dumbledore's physical examination of Mrs. Norris is condensed \u2014 the careful, methodical detail is replaced with a single action (gently removing Mrs. Norris). The 'No second year could have done this' line is absent entirely; in the film Dumbledore simply says she's been Petrified and 'how she's been Petrified... I cannot say.' The firm defence of Harry's innocence is reduced to the single line 'Innocent until proven guilty,' which is retained but stripped of the surrounding context (no dismissal of Snape's insinuations with equal firmness, no reference to advanced Dark Magic).",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book Dumbledore is methodical, authoritative, and proactively protective of Harry in this scene. The film version is more passive \u2014 present but less active in his defence and less demonstrably competent in his investigation. The missing 'No second year could have done this' line is particularly significant as it shows Dumbledore's analytical mind at work."
+    },
+    {
+      "scene": "Film Scene 3 (Scene 67) \u2014 Colin Creevey petrification, night scene",
+      "book_baseline": "Book scenes 78-91: Dumbledore arrives in a 'long woolly dressing gown and a nightcap,' helps carry Colin, opens the camera, and delivers the key line: 'The question is not who... The question is, how.' This shows his analytical mind already working on the Chamber mystery at a deeper level than anyone else \u2014 he suspects the mechanism, not just the perpetrator.",
+      "film_portrayal": "Film Scene 3 (Scene 67): Dumbledore opens the camera and a jet of steam hisses out. He says 'It means our students are in great danger, Minerva. Mr. Creevey was fortunate. If not for this... he would surely be dead.' Then: 'Tell them the truth. Tell them Hogwarts is no longer safe. Tell them it's as we feared. The Chamber of Secrets is indeed open again.' The 'who vs. how' distinction \u2014 Dumbledore's most diagnostically important insight in the book \u2014 is completely absent.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The compression of Dumbledore's specific strategic demands reduces his portrayal as a political and military strategist, leaving him as a reactive rather than proactive leader."
+      "impact_weight": 3,
+      "explanation": "The book's version of this scene shows Dumbledore is already thinking at a higher level than everyone else, suspecting a mechanism (how the monster travels/attacks) rather than fixating on the perpetrator. This foreshadows his eventual understanding and distinguishes him as genuinely brilliant. The film replaces this with a generic statement of alarm, reducing Dumbledore from perceptive analyst to concerned administrator."
     },
     {
-      "scene": "OotP Film \u2013 Dumbledore avoids Harry all year (no explanation shown)",
-      "book_baseline": "The book eventually reveals Dumbledore deliberately avoided Harry to prevent Voldemort using their connection, and Dumbledore confesses this was a mistake born of caring too much. The explanation is emotionally rich and reframes the entire year.",
-      "film_portrayal": "The avoidance is shown but the explanation scene in Dumbledore's office is compressed. The full confession \u2013 'I cared more for your happiness than your knowing the truth' \u2013 is present but truncated, reducing its emotional impact.",
-      "damage_type": "motivation/internal conflict",
+      "scene": "Film Scene 4 (Scene 77) \u2014 Dumbledore's office, Harry's visit after Justin/Nick petrification",
+      "book_baseline": "Book scenes 96-121: Dumbledore 'fixed Harry with his penetrating, light-blue stare,' then after Hagrid bursts in and is dismissed, has a meaningful exchange where he asks Harry gently 'whether there is anything you'd like to tell me. Anything at all.' Harry's response ('I must ask you, Harry') is framed as an invitation \u2014 Dumbledore is creating space for Harry to confide. The scene then closes with Dumbledore contemplating Harry 'the tips of his long fingers together.'",
+      "film_portrayal": "Film Scene 4 (Scene 77): The scene is broadly faithful in structure, but Harry's response is changed. In the book Harry tells Dumbledore 'everything except' about Mr. Weasley's car \u2014 he does confide partially, and Dumbledore 'asked no questions about the car,' showing knowing restraint. In the film, Harry simply says 'No, Professor. Nothing' \u2014 a flat refusal to confide. This changes the dynamic: book Harry partially trusts Dumbledore; film Harry withholds entirely.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The shift from Harry's partial, stumbling confession (book) to a flat denial (film) weakens the trust dynamic between Harry and Dumbledore. The book establishes that Harry does confide in Dumbledore imperfectly but genuinely; the film makes Harry's relationship with Dumbledore colder and more closed-off at this early stage."
+    },
+    {
+      "scene": "Film Scene 4 (Scene 97) \u2014 Fifty-years-ago memory, young Dumbledore encounters Riddle",
+      "book_baseline": "Book scenes 135-138: Young Dumbledore gives Riddle 'exactly the kind of penetrating stare Harry knew so well,' tells him to hurry to bed, bids him good night and strides off. Riddle watches him go and then moves 'quickly' \u2014 showing that even the young Dumbledore unsettles Riddle.",
+      "film_portrayal": "Film Scene 4 (Scene 97): The encounter is present but Dumbledore's line is changed to 'It's not wise to be wandering around this late, Tom,' and he asks 'Is there something you wish to tell me, Tom?' \u2014 a more direct, less characteristically Dumbledore-esque approach. The iconic 'penetrating stare' quality is absent from the staging description. After Riddle says 'No, sir. Nothing,' Dumbledore simply says 'Very well then. Hurry along.' The scene is broadly faithful but slightly flatter in Dumbledore's perceptiveness.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor: the film retains the basic beat but loses the specific quality that Harry recognises \u2014 the penetrating stare that unnerves Riddle. This is a small but telling detail about how Dumbledore's perception is already working against Voldemort's younger self."
+    },
+    {
+      "scene": "Film Scene 4 (Scene 114) \u2014 Hagrid's hut, Dumbledore's suspension",
+      "book_baseline": "Book scenes 143-168: Dumbledore's blue eyes are 'full of a fire Harry had never seen before.' He tells Fudge repeatedly that taking Hagrid will not help. When forced to step aside, he delivers his coded message \u2014 'I will only truly have left this school when none here are loyal to me... Help will always be given at Hogwarts to those who ask for it' \u2014 and his eyes drift 'unmistakably' to Harry and Ron. He is calm but his fire is visible; he is outmanoeuvred but not defeated, and he is actively communicating to Harry.",
+      "film_portrayal": "Film Scene 4 (Scene 114): The film retains the key coded speech and the eyes drifting to Harry, which is faithful and important. However, the repeated, impassioned insistence to Fudge ('yet again, Cornelius, I tell you that taking Hagrid away will not help in the slightest') and the 'fire Harry had never seen before' are compressed. Dumbledore is 'steely-eyed' per the stage direction but the emotional intensity of his repeated frustration with Fudge is reduced to a single iteration.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film preserves the most important elements of this scene (the coded message, the look at Harry) but softens the passion behind Dumbledore's resistance to Fudge. The book's 'fire Harry had never seen before' is a rare crack in Dumbledore's composure that makes his feelings about Hagrid and the situation vivid; this is largely absent."
+    },
+    {
+      "scene": "Film Scene 4 (Scene 135) \u2014 Dumbledore's office, post-Chamber resolution",
+      "book_baseline": "Book scenes 201-276: A rich, layered scene. Dumbledore thanks Harry for his loyalty, discusses Tom Riddle's brilliance, comforts Ginny warmly with the hot chocolate line and 'twinkling kindly,' sends McGonagall to alert the kitchens for a feast (showing his delight in celebration), gently probes the Slytherin/Parseltongue question, delivers the 'It is our choices, Harry' speech, presents the sword, then handles Lucius Malfoy with serene confidence and pointed implication. He also humorously addresses the absent Lockhart ('Impaled upon your own sword, Gilderoy!'). He is warm, wise, witty, protective, and quietly formidable all in one scene.",
+      "film_portrayal": "Film Scene 4 (Scene 135): The film condenses this considerably. The Lockhart humour ('Impaled upon your own sword') is absent \u2014 Lockhart has already been dispatched. The warm, extended comfort of Ginny is compressed (hot chocolate line is retained but the extended kindness is shorter). The 'It is our choices' speech replaces 'It is our choices, Harry, that show what we truly are, far more than our abilities' with 'It's not our abilities that show what we truly are, Harry. It's our choices' \u2014 a slight but meaningful inversion that puts abilities before choices grammatically. The feast announcement and McGonagall exchange are absent. The confrontation with Lucius is present but the book's 'smiling serenely' quality and Dumbledore's detailed laying out of the political trap Lucius walked into is compressed.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is the single scene where the full range of Dumbledore's character \u2014 warmth, wit, wisdom, political acuity, mentorship \u2014 is most concentrated in the book. The film retains the structural beats but loses the texture: the Lockhart wit, the extended warmth with Ginny and the Weasleys, and the fully elaborated political finesse with Lucius. The result is a Dumbledore who delivers the key lines but without the surrounding personality that makes those lines feel earned."
+    },
+    {
+      "scene": "Film Scene 4 (Scene 135) \u2014 'It is our choices' speech, phrasing change",
+      "book_baseline": "Book scene 248: 'It is our choices, Harry, that show what we truly are, far more than our abilities.' The primacy of choices over abilities is the point.",
+      "film_portrayal": "Film Scene 4 (Scene 135): 'It's not our abilities that show what we truly are, Harry. It's our choices.' The film formulation leads with the negation of abilities rather than the affirmation of choices, subtly shifting the emphasis.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but notable: the book phrasing is more affirmative and memorable as a standalone statement. The film version is logically equivalent but rhetorically weaker. As one of the saga's central thematic statements, the degradation of its phrasing is worth noting."
+    },
+    {
+      "scene": "Film Scene 1 (Great Hall feast speech) - Dumbledore's opening remarks on dementors",
+      "book_baseline": "Book establishes Dumbledore is explicitly 'not happy' about the dementors being stationed at Hogwarts (Scenes 2, 4, 14). His feast speech carries a tone of serious warning and barely concealed displeasure: he looks 'very seriously around the hall' and warns students with gravity. He makes it plain nobody leaves without permission, and Harry remembers Dumbledore's unhappiness even as he speaks.",
+      "film_portrayal": "Film Scene 1 has Dumbledore pivot to the dementor announcement with a 'turning grave' stage direction but no sense of personal objection or institutional reluctance. The framing presents the dementors as a Ministry measure Dumbledore is relaying neutrally, without the book's undercurrent of his distaste. The speech omits his characteristic solemn pause and the weight of his personal disapproval.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Dumbledore uses the feast speech as a moment that subtly signals his values \u2014 he dislikes the dementors and the Ministry imposition, even while complying. Losing this undercurrent reduces his moral texture and removes an early signal of the Dumbledore-Ministry tension that is thematically important throughout the story."
+    },
+    {
+      "scene": "Film Scene 5 (Great Hall, night search) - Dumbledore's exchange with Snape",
+      "book_baseline": "Book Scene 79: When Snape implies an inside helper and the dementors wanting entry, Dumbledore responds with cold authority: 'no dementor will cross the threshold of this castle while I am headmaster' \u2014 a line delivered with icy finality that demonstrates his absolute protective sovereignty over Hogwarts. He also states 'I do not believe a single person inside this castle would have helped Black enter it' and closes the subject with a warning tone.",
+      "film_portrayal": "Film Scene 5 retains Dumbledore shutting down Snape's insinuation about a professor helping Black, but omits the declaration about dementors never crossing the threshold. Instead Dumbledore says he feels 'quite confident the castle is safe' and pivots to letting students sleep \u2014 a reassuring, managerial register rather than the fierce protective authority of the book. The cold, principled stand against dementor access to the castle interior is lost.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book line 'no dementor will cross the threshold of this castle while I am headmaster' is one of the most character-defining moments in PoA \u2014 it encapsulates Dumbledore's protective ferocity and his principled opposition to Ministry overreach. Replacing it with calm administrative reassurance softens his sovereignty and reduces his moral distinctiveness."
+    },
+    {
+      "scene": "Film Scene 6 (Quidditch match) - Dumbledore saving Harry",
+      "book_baseline": "Book Scene 84: 'Dumbledore was really angry... I've never seen him like that before. He ran onto the field as you fell, waved his wand, and you sort of slowed down before you hit the ground. Then he whirled his wand at the dementors. Shot silver stuff at them. They left the stadium right away... He was furious they'd come onto the grounds.' This is reported as an exceptional display of controlled fury \u2014 Dumbledore as a wizard of terrifying power acting from outrage.",
+      "film_portrayal": "Film Scene 6 shows Dumbledore visually as 'a tall figure' who 'raises an open hand to the heavens' with 'eyes angry but clear' and produces an explosion of light. While the visual is dramatic, it is presented as a spectacle of power rather than an expression of principled fury. Hermione's report in the hospital wing (Film Scene 13 context) reduces it to 'Dumbledore was furious. After he saved you, he sent them straight off' \u2014 losing the specific, described anger at the Ministry's creatures violating his domain.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's version emphasises that Dumbledore's power is deployed in anger at a principle being violated \u2014 dementors on his grounds. The film renders it as heroic spectacle. The nuance of his principled fury is thinned, though the basic beat survives."
+    },
+    {
+      "scene": "Film Scene 13 (Hospital wing) - Dumbledore's Time-Turner scene",
+      "book_baseline": "Book Scenes 209-217: Dumbledore's guidance is precise, authoritative, and calibrated. He speaks 'very low, and very clearly,' specifies the exact window (thirteenth from the right of the West Tower), states 'I have no power to make other men see the truth, or to overrule the Minister of Magic' with genuine gravity, and departs after locking them in \u2014 trusting Harry and Hermione completely. His manner is that of a man who has planned this and is executing it with quiet confidence.",
+      "film_portrayal": "Film Scene 13 adds invented aphoristic dialogue not in the book: 'A child's voice, however honest and true, is meaningless to those who have forgotten how to listen,' and 'By the way, when in doubt, I find retracing my steps to be a wise place to begin.' He also hands them chocolate and references a shooting star. The scene sentimentalises and poeticises the exchange, shifting Dumbledore from precise strategic operator to whimsical sage dispensing fortune-cookie wisdom.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Dumbledore in this scene is urgent, specific, and trusting \u2014 he gives Harry and Hermione concrete information and relies on their intelligence. The film adds invented philosophical lines that replace precision with whimsy, pushing Dumbledore toward the 'eccentric wizard' archetype and away from the book's portrait of a strategically brilliant, emotionally serious man. The chocolate distribution further infantilises the scene."
+    },
+    {
+      "scene": "Film Scene 16 (Pumpkin patch, time-turn sequence) - Dumbledore redirecting Fudge's attention",
+      "book_baseline": "Book Scene 234: 'One moment, please, Macnair. You need to sign too.' Dumbledore stalls the executioner by invoking bureaucratic procedure \u2014 a moment of dry, clever manipulation that buys time without drawing attention. Later (Scene 242) he says 'Macnair, if Buckbeak has indeed been stolen, do you really think the thief will have led him away on foot? Search the skies, if you will' \u2014 sardonic, strategically deflecting.",
+      "film_portrayal": "Film Scene 16 has Dumbledore redirect Fudge by saying 'Professor Dippet had those blackberries planted when he was Headmaster...' \u2014 a whimsical non-sequitur about blackberries rather than the book's sharp bureaucratic manoeuvre. While the structural function is the same, the method characterises him as an absent-minded eccentric rather than a strategically shrewd operator.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Dumbledore uses wit and bureaucratic precision to engineer outcomes; the film replaces this with dotty non-sequitur. This is a recurring pattern across the film that cumulatively shifts Dumbledore's characterisation from 'greatest wizard of the age who is also warm and witty' to 'amiable eccentric.' Each individual instance is minor but the pattern is consistent."
+    },
+    {
+      "scene": "Film Scene 19 (Lupin's office, farewell) - Firebolt reveal via feather",
+      "book_baseline": "Book Scenes 119-121 and 320-322: The Firebolt's anonymous donor is discussed earlier in the year, with Ron speculating it was Dumbledore. At the end, the note from Sirius giving Hogsmeade permission references that Dumbledore had passed on James's Invisibility Cloak. The Firebolt is ultimately revealed to be from Sirius. Harry has an ongoing interior life about Dumbledore's possible role \u2014 'He can't go giving students stuff like this.' The mystery is part of Harry's psychological relationship with Dumbledore and Sirius.",
+      "film_portrayal": "Film Scene 19 resolves the Firebolt mystery with a 'feather' \u2014 suggesting Buckbeak/Sirius connection \u2014 without the book's rich interiority about Dumbledore, Sirius, and James's legacy. The scene compresses what in the book is a thread about trust, anonymity, and paternal surrogates into a visual shorthand.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The loss is minor in isolation but contributes to the broader thinning of Dumbledore's relationship with Harry's inner life. The book's Harry thinks carefully about what Dumbledore would and wouldn't do for him \u2014 these reflections build the relationship. The film has no equivalent interiority."
+    },
+    {
+      "scene": "Film Scene 13 / post-hospital wing sequence - Dumbledore's absence from the final conversation with Harry",
+      "book_baseline": "Book Scenes 291-314: After everything resolves, Dumbledore seeks Harry out privately in his office for an extended, deeply personal conversation. He tells Harry 'It made all the difference in the world'; discusses Pettigrew's life-debt and its future significance; says 'I knew your father very well, both at Hogwarts and later, Harry... He would have saved Pettigrew too'; and delivers the profound 'You think the dead we loved ever truly leave us?' speech about James living in Harry. This is among the most important Dumbledore-Harry scenes in the entire series.",
+      "film_portrayal": "Film corpus contains no equivalent scene. The film moves from the time-turn success directly to Lupin's farewell and the Firebolt reveal. The private Dumbledore-Harry conversation \u2014 including the life-debt foreshadowing, the emotional reassurance, the James/Patronus revelation, and Dumbledore's personal warmth toward Harry \u2014 is entirely absent from the film corpus.",
+      "damage_type": "relationship",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the most damaging single absence. The book's closing Dumbledore-Harry scene is structurally and emotionally essential: it validates Harry's moral choice (sparing Pettigrew), plants the life-debt seed that pays off in GoF, establishes that Dumbledore knew James personally and sees James in Harry, and delivers the saga's central theme about love and the dead living in us. Without it, the film's Dumbledore has no private emotional relationship with Harry in this instalment, the Pettigrew life-debt is not framed as significant, and the James-Harry-Dumbledore thread is severed. This damages both the Dumbledore-Harry relationship arc and the broader saga's thematic architecture."
+    },
+    {
+      "scene": "Film Scene 1 (Great Hall) - Dumbledore's feast speech tone and the omission of his serious pause",
+      "book_baseline": "Book Scene 17: 'Dumbledore paused again; he looked very seriously around the hall, and nobody moved or made a sound.' This beat \u2014 the entire hall going silent at Dumbledore's gravity \u2014 establishes his command and the weight of the dementor situation. It is immediately followed by the shift to 'On a happier note' for the teacher announcements, which demonstrates his tonal control.",
+      "film_portrayal": "Film Scene 1 reverses the order: teacher announcements come first, dementors last (marked 'turning grave'). The structural gravity of the pause \u2014 where the whole hall freezes \u2014 is not scripted. The reordering makes the dementor announcement feel like an afterthought appended to an otherwise celebratory speech rather than the book's carefully managed tonal sequence.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The reordering is a small but telling choice. The book's Dumbledore controls the room's emotional temperature deliberately \u2014 serious first, then celebration. The film's version ends on the grave note but loses the demonstration of his tonal mastery and the hall's unified response to his gravity."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Harry's name from the Goblet: Dumbledore's reaction in the chamber",
+      "book_baseline": "Book Dumbledore asks Harry calmly and quietly: 'Did you put your name into the Goblet of Fire, Harry?' He is described as asking 'calmly.' His composure under pressure is a defining trait; he listens, believes Harry, and proceeds with measured authority.",
+      "film_portrayal": "Film Dumbledore rushes into the antechamber in a visibly agitated state, grabs Harry and shakes him physically while demanding 'Harry, did you put your name in the Goblet of Fire?' in a loud, urgent, almost aggressive manner. The scene plays as frantic and confrontational rather than calm and controlled.",
+      "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book's revelation that Dumbledore's coldness was an act of love and a self-acknowledged mistake is central to his arc. Compression reduces the cathartic weight of this confession and the audience's understanding of his flawed humanity."
+      "explanation": "This is one of the most widely noted unfaithful moments in the entire film series. The book is explicit that Dumbledore asks 'calmly' \u2014 his steadiness under crisis is a core character trait that communicates his wisdom and authority. The film's agitated, physical portrayal contradicts this directly, making Dumbledore appear volatile and reactive rather than the serene, unshakeable figure the books establish. It damages the audience's understanding of who Dumbledore is at a fundamental personality level."
     },
     {
-      "scene": "OotP Film \u2013 Dumbledore vs. Voldemort in the Ministry Atrium",
-      "book_baseline": "The duel is described as terrifying and awe-inspiring. Dumbledore is described as radiating power unlike anything Harry has seen. The moment when Harry realises why Voldemort feared Dumbledore is explicit and transformative.",
-      "film_portrayal": "The duel is visually spectacular and present. The key line about Voldemort fearing Dumbledore is included. Reasonably faithful in effect.",
-      "damage_type": "nuance/lost material",
+      "scene": "Goblet of Fire \u2013 Chamber scene: Dumbledore's handling of the Karkaroff/Maxime confrontation",
+      "book_baseline": "Book Dumbledore firmly controls the room, silences Snape with a single word ('Thank you, Severus'), calmly acknowledges it is 'possible' he made a mistake with the Age Line (as a polite deflection), and asserts with authority that there is 'no choice but to accept' the situation. He is the clear, uncontested authority in the room.",
+      "film_portrayal": "Film Dumbledore says 'Quiet! I can't think!' in a flustered manner as Karkaroff and Maxime argue. This suggests he is overwhelmed by the dispute rather than serenely above it. His authority is reactive rather than innate.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Largely faithful in impact."
+      "impact_weight": 2,
+      "explanation": "The book Dumbledore never loses composure in public confrontations \u2014 his authority derives from calm certainty. 'I can't think' projects cognitive overwhelm, which is antithetical to his characterisation as someone who is always ahead of events. It is a brief but telling displacement of his commanding presence."
     },
     {
-      "scene": "HBP Film \u2013 Slughorn recruitment / Dumbledore's manipulation of Harry",
-      "book_baseline": "Dumbledore explicitly tells Harry he is being used as a tool to collect Slughorn, explains Slughorn's psychology in detail, and is transparent about the manipulation. This honesty about using Harry is a key character note.",
-      "film_portrayal": "The scene is present and Dumbledore's explanation of Slughorn's psychology is included, though compressed.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage."
+      "scene": "Goblet of Fire \u2013 Pensieve scene: Dumbledore's explanation of what the dreams mean",
+      "book_baseline": "Book Dumbledore engages deeply and honestly with Harry about his scar visions, offers a substantive theory ('I believe your scar hurts both when Lord Voldemort is near you, and when he is feeling a particularly strong surge of hatred'), confirms the dreams are probably real, and discusses the connection between Harry and Voldemort with gravity and intellectual thoroughness. He also reveals he has been in contact with Sirius and arranged his hiding place \u2014 demonstrating active, behind-the-scenes guardianship.",
+      "film_portrayal": "Film Dumbledore tells Harry it is 'unwise to linger over these dreams' and that Harry should 'simply cast them away.' He gives no substantive theory, does not affirm the dreams' reality, and offers no protective or explanatory framework. The revelation about Sirius contact is absent entirely.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the book, this scene is central to Dumbledore's function: he is the figure who helps Harry understand the Voldemort connection, takes the threat seriously, and acts as an active intelligence behind Harry's protection. The film strips this entirely, replacing it with a dismissive non-answer ('cast them away') that is actually contrary to Dumbledore's book characterisation. It removes his role as mentor and strategist, and severs the audience's understanding of the scar-Voldemort connection that is crucial to the saga's themes."
     },
     {
-      "scene": "HBP Film \u2013 Astronomy Tower / 'Severus... please'",
-      "book_baseline": "Dumbledore is wandless and physically weakened but mentally in complete control. He immobilises Harry to protect him, attempts to negotiate with Malfoy, and his final word to Snape \u2013 'Severus... please' \u2013 is ambiguous: is it a plea to be killed or to be saved? This ambiguity is essential.",
-      "film_portrayal": "The scene is present and the key beats are included. The immobilisation of Harry, the conversation with Malfoy, and 'Severus... please' are all present.",
+      "scene": "Goblet of Fire \u2013 Post-second-task: Dumbledore's announcement of results",
+      "book_baseline": "Book Dumbledore speaks Mermish with the chief merperson to understand what happened below, advocates for Harry's moral choice to rescue all hostages, and participates in a substantive judges' conference. His judgment of Harry's actions ('outstanding moral fiber') reflects his values: he honours courage and compassion over rule-following efficiency.",
+      "film_portrayal": "Film Dumbledore announces results perfunctorily. The Mermish conversation and the judges' deliberation are absent. His awarding of second place to Harry for 'outstanding moral fiber' is retained as a line but stripped of the deliberative process that gave it weight.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The scene is largely faithful. The ambiguity of 'please' is preserved by the film's staging. Minor compression only."
+      "explanation": "The loss of the Mermish consultation removes a small but resonant piece of Dumbledore's characterisation \u2014 his breadth of knowledge and his active involvement in fairly adjudicating Harry's unconventional heroism. The result line survives but feels arbitrary without the context of his advocacy."
     },
     {
-      "scene": "HBP Film \u2013 Dumbledore's private lessons (Pensieve memories) compressed",
-      "book_baseline": "The lessons are a sustained, intimate series of conversations in which Dumbledore shares his reasoning, admits uncertainty, and treats Harry as a partner in understanding Voldemort. The relationship is built across multiple sessions with philosophical depth.",
-      "film_portrayal": "The lessons are compressed into fewer scenes. Key memories (Hepzibah Smith, the second Gaunt visit, Voldemort's return to Hogwarts) are present but the cumulative intimacy and Dumbledore's running commentary \u2013 his admissions of fallibility, his delight in Harry's intelligence \u2013 are reduced.",
+      "scene": "Goblet of Fire \u2013 Hagrid's hut visit (Skeeter article aftermath)",
+      "book_baseline": "Book Dumbledore visits Hagrid's hut, comforts him with warmth and gentle humour (referencing his brother Aberforth and the goat), refuses Hagrid's resignation, and demonstrates his loyalty to those society marginalises. He says: 'I refuse to accept your resignation, Hagrid, and I expect you back at work on Monday.' This scene is a key demonstration of Dumbledore's compassion, loyalty, and anti-prejudice values in action.",
+      "film_portrayal": "This scene is entirely absent from the film corpus. Hagrid's crisis following the Skeeter article and Dumbledore's personal intervention are not depicted.",
       "damage_type": "relationship",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The Pensieve lessons are the primary vehicle for establishing Dumbledore as Harry's intellectual partner and for showing his willingness to share uncertainty. Compression reduces the depth of this relationship and Dumbledore's portrayal as a fallible, self-aware mentor."
+      "explanation": "The Dumbledore-Hagrid relationship is one of the most important in the saga \u2014 Hagrid calls him a 'great man' repeatedly because of specific acts of loyalty like this one. The film loses the concrete demonstration of why Hagrid reveres Dumbledore, reducing that relationship to assertion without evidence. It also removes a key expression of Dumbledore's values around inclusion and second chances."
     },
     {
-      "scene": "HBP Film \u2013 Cave sequence / 'I am not worried, Harry. I am with you.'",
-      "book_baseline": "Dumbledore's suffering during the potion-drinking is harrowing and his recovery is slow. His final line to Harry as they emerge \u2013 'I am not worried, Harry. I am with you' \u2013 is one of the most emotionally resonant lines in the series.",
-      "film_portrayal": "The cave sequence is present and the potion-drinking suffering is depicted. The line 'I am not worried, Harry. I am with you' is included.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Largely faithful."
+      "scene": "Goblet of Fire \u2013 Crouch in the forest: Dumbledore's response to Harry",
+      "book_baseline": "Book Dumbledore, when Harry tells him Crouch is in the forest, 'did nothing of the sort' (asked no questions) \u2014 he says 'Lead the way' promptly and immediately follows Harry. He asks sharp, intelligent questions en route (about who else saw Crouch, about Krum's presence). On finding Krum stunned and Crouch gone, he acts with decisive competence: revives Krum, sends a Patronus to Hagrid, and begins coordinating the response immediately. He tells Harry to send no owls that night \u2014 showing he anticipates Harry's impulse to contact Sirius.",
+      "film_portrayal": "This entire sequence \u2014 Crouch's appearance in the forest, Harry's run to Dumbledore's office, Dumbledore's immediate decisive response, and the forest investigation \u2014 is absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This sequence is one of the richest portrayals of Dumbledore's active intelligence in the book. His prompt trust of Harry without questioning, his coordinated response, and his perceptive anticipation of Harry's next move all demonstrate the qualities that make him formidable. Its complete absence removes a substantial block of his functional characterisation as a protective, strategically-minded guardian."
     },
     {
-      "scene": "DH2 Film \u2013 King's Cross / Dumbledore's confession scene",
-      "book_baseline": "Dumbledore's confession in King's Cross is the emotional and thematic climax of his entire arc: he admits his obsession with the Hallows, his youthful arrogance, his guilt over Ariana, his deliberate withholding of information from Harry, and his self-knowledge that he was unfit for power. He weeps. He asks forgiveness.",
-      "film_portrayal": "The scene is present and key confessions are included. However, the depth of Dumbledore's self-recrimination \u2013 particularly his extended meditation on Grindelwald, Ariana, and his own hunger for power \u2013 is compressed. The emotional weight of his tears and his explicit statement that Harry is 'the better man' is present but briefer.",
+      "scene": "Goblet of Fire \u2013 Hospital wing confrontation with Fudge",
+      "book_baseline": "Book Dumbledore confronts Fudge with sustained, escalating moral authority. He names Voldemort repeatedly, proposes specific political actions (remove dementors, send envoys to giants), and delivers a sustained speech about Fudge's blindness and the stakes involved. He draws a clear line: 'If your determination to shut your eyes will carry you as far as this, Cornelius, we have reached a parting of the ways.' He radiates power and moral certainty in a long, dramatically crucial scene.",
+      "film_portrayal": "Film Dumbledore's confrontation with Fudge is drastically compressed. He says 'A man has died here, Fudge. And he won't be the last. You must take action' and 'Then for once show them some!' when Fudge mentions strength. The extended political argument, the specific proposals (dementors, giants), the moral ultimatum, and the parting-of-ways declaration are all absent.",
       "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This scene is the culmination of Dumbledore's entire character arc across eight films. Compression reduces the cathartic payoff of his self-reckoning and the full revelation of his flawed humanity, which is the thematic heart of the saga."
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "This confrontation is structurally vital: it establishes the Dumbledore-vs-Ministry conflict that drives the next two books/films, demonstrates Dumbledore's political courage and moral clarity, and shows him as a figure willing to stand alone against institutional power. Its compression to two brief lines strips out almost all of his agency and voice in this pivotal moment. The audience loses the understanding that Dumbledore is actively, articulately leading a resistance \u2014 not merely reacting."
     },
     {
-      "scene": "DH2 Film \u2013 Snape's memories / Dumbledore's plan revealed",
-      "book_baseline": "The Pensieve memories reveal that Dumbledore knew Harry was a Horcrux and planned for Harry to die, while also knowing Harry's blood in Voldemort's veins might protect him. Dumbledore's line 'We have protected him because it has been essential to teach him, to raise him, to let him try his strength' is chilling and morally complex.",
-      "film_portrayal": "The key revelations are present: Harry as a Horcrux, the necessity of his death, Dumbledore's plan. The 'raising him like a pig for slaughter' line from Snape is included. The scene is largely faithful.",
+      "scene": "Goblet of Fire \u2013 Post-Barty Crouch Jr. interrogation: Dumbledore dispatching the Order",
+      "book_baseline": "Book Dumbledore immediately and decisively begins rebuilding the resistance network: he asks Molly and Arthur for their support, instructs Bill to alert Arthur at the Ministry, tells McGonagall to fetch Hagrid and Madame Maxime for a mission, asks Sirius to alert Lupin, Figg, and Mundungus, and gives Snape a covert mission ('you know what I must ask you to do'). He is the operational centre of a coordinated response to Voldemort's return.",
+      "film_portrayal": "This entire sequence is absent from the film. After Barty Jr.'s confession, the film moves directly to Dumbledore's speech at the leaving feast and his private conversation with Harry. The Order mobilisation is entirely omitted.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This scene is the most important demonstration in the entire book of Dumbledore as an active strategic leader rather than a passive wise man. His coordination of the proto-Order, his trust in Snape at personal risk, his use of Sirius \u2014 all of this establishes the architecture of the resistance that defines the remaining saga. Its absence means the film audience has no basis for understanding how Dumbledore functions as a leader, which severely damages the saga-level coherence of his character."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Leaving feast speech",
+      "book_baseline": "Book Dumbledore names Voldemort directly and repeatedly, specifically honours Harry by name and describes his bravery, calls on the school to remember Cedric as a warning about choosing right over easy, and addresses the international guests with a vision of unity against Voldemort. He also defies the Ministry publicly by telling the truth the Ministry forbade him from sharing.",
+      "film_portrayal": "Film Dumbledore's speech is present but compressed. The naming of Voldemort and the tribute to Harry are retained. However, the explicit framing about the Ministry's suppression of the truth, the specific moral instruction about choosing right over easy, and the direct address to Durmstrang and Beauxbatons students about future welcome are condensed or partially present.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Largely faithful. The moral complexity of Dumbledore's plan is conveyed, though the extended philosophical framing from the book is absent."
+      "explanation": "The film retains the core of this speech reasonably well, so damage is limited. However, the specific defiance of the Ministry ('The Ministry of Magic does not wish me to tell you this') is present in the film, which partially preserves his moral courage. The loss of the granular detail about choosing right over easy slightly reduces the thematic resonance but is not severely damaging."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Harry's private debrief in Dumbledore's office after the graveyard",
+      "book_baseline": "Book Dumbledore insists Harry recount everything despite Sirius's plea to let him rest, explaining: 'Numbing the pain for a while will make it worse when you finally feel it.' He listens to the full account, reacts with barely-concealed shock when Harry's blood is mentioned (a brief gleam of something like triumph \u2014 hinting at his long-term strategy), explains Priori Incantatem thoroughly to both Harry and Sirius, and demonstrates profound emotional engagement while maintaining intellectual control.",
+      "film_portrayal": "Film Dumbledore visits Harry briefly after the crisis. He says 'I put you in terrible danger this year, Harry. I'm sorry,' explains Priori Incantatem briefly, and tells Harry 'Dark and difficult times lie ahead... you have friends here, you're not alone.' The extended interrogation of Harry's account, the Sirius dynamic, the blood-use reaction, and the full Priori Incantatem explanation are absent or greatly reduced.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book scene establishes critical elements: Dumbledore's steely insistence that Harry must process trauma rather than avoid it (a pedagogical philosophy central to his mentorship), the mysterious reaction to the blood (seeds of the sacrificial protection arc in Deathly Hallows), and the Dumbledore-Sirius-Harry triangle. The film's replacement with a brief, soft reassurance ('you're not alone') is emotionally gentler but characterises Dumbledore as a comforter rather than a demanding, strategically-minded mentor \u2014 a significant personality shift."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore's avoidance of eye contact throughout the hearing scene",
+      "book_baseline": "In the book, Harry feels a powerful, fortified hope at seeing Dumbledore at the hearing, 'rather like that which phoenix song gave him.' Harry repeatedly tries to catch Dumbledore's eye and is repeatedly denied, but the book frames this as a painful mystery Harry notices and puzzles over. Dumbledore's competence and mastery of the room are foregrounded.",
+      "film_portrayal": "The film largely preserves Dumbledore's courtroom competence but strips the emotional texture: Harry's desperate longing to catch Dumbledore's eye, the phoenix-song-like hope, and the ache of being ignored are absent. The film Dumbledore is present and effective but the relational wound \u2014 Harry feeling unseen by his protector at his most vulnerable \u2014 is not rendered.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The hearing is one of the few moments Harry and Dumbledore share physical space all year. The book uses it to deepen the painful distance Dumbledore is deliberately maintaining. The film gets the legal plot right but loses the emotional undercurrent that makes Dumbledore's later confession meaningful."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore departs the hearing without acknowledging Harry ('without looking once at Harry, he swept from the dungeon')",
+      "book_baseline": "Book Dumbledore springs to his feet after the verdict, cheerfully dismisses himself with 'Excellent... Well, I must be getting along,' and leaves without a word to or glance at Harry. This is a deliberate, painful snub that Harry registers as a wound \u2014 he has just been saved by Dumbledore and receives nothing in return. Harry feels the full force of being ignored.",
+      "film_portrayal": "The film does not include this beat. Dumbledore's departure from the hearing and Harry's resulting hurt are not dramatised. The scene ends on the verdict, removing Harry's experience of being emotionally abandoned by his protector at the moment of relief.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This small beat is load-bearing: it is one of the clearest illustrations of Dumbledore's deliberate distancing policy and its cost to Harry. Losing it weakens the accumulation of slights that make Harry's eventual rage at Dumbledore emotionally earned."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore's office scene: Harry wrecks the office (cut from theatrical release per exclusion list)",
+      "book_baseline": "The book's post-Department-of-Mysteries office scene is the emotional climax of Dumbledore's arc in the novel. Harry destroys instruments in grief and fury; Dumbledore sits serenely and accepts it ('By all means continue destroying my possessions, I daresay I have too many'). Dumbledore then delivers a full, anguished confession of his mistakes spanning years: his deliberate distance, his failure to teach Harry Occlumency himself, his over-protectiveness born of love, his admission that 'it is my fault that Sirius died.' He tells Harry the prophecy in full. He weeps. He explains the blood protection, the Howler to Petunia, the whole plan. This is the payoff for Dumbledore's entire arc in the book \u2014 his fallibility, his love, his accountability.",
+      "film_portrayal": "This scene is cut from the theatrical release (per the exclusion instruction). The film replaces it with a brief, subdued exchange in which Dumbledore says he distanced himself to protect Harry and that he 'cared too much.' Harry says 'You don't know how I feel,' Dumbledore says 'No, the fault is mine.' The scene is quiet and reconciliatory without the cathartic destruction, the full accounting of mistakes, the prophecy explanation delivered in person with emotional weight, or Dumbledore's tears.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging cut in the entire adaptation for Dumbledore. The book scene is his defining moment of the saga at this point: he is shown as genuinely fallible, genuinely remorseful, and genuinely loving in a way that recontextualises everything. The film's replacement is so compressed that Dumbledore's accountability is reduced to a few sentences, his emotional complexity is flattened, and the audience never receives the full weight of his confession or his love for Harry. The prophecy payoff is also structurally weakened. This affects audience understanding of who Dumbledore is across the whole saga."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore takes full blame for the DA to protect Harry ('Dumbledore's Army, not Potter's Army')",
+      "book_baseline": "In the book, Dumbledore claims responsibility for the DA in a similar way, but the scene has more texture: Harry tries to intervene ('No, Professor, he had nothing to do with it'), Dumbledore silences him ('Be quiet, Harry'), and Dumbledore's decision to sacrifice his position is rendered as a conscious, grave choice with full awareness of the consequences. The scene also includes Dumbledore's wry wit ('It's like losing a Knut and finding a Galleon').",
+      "film_portrayal": "The film includes this beat and Dumbledore's 'Dumbledore's Army, not Potter's' line is present and effective. Dumbledore's wit ('I have no intention of going to Azkaban') is preserved. This is largely faithful. Minor nuance is lost (Harry's attempt to protest is present in both), but the core agency and sacrifice read clearly.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful; only minor textural wit and the 'Knut and Galleon' line are absent. Not substantially damaging."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore's deliberate avoidance policy explained to Harry (Mrs Weasley's exchange, Sirius's kitchen)",
+      "book_baseline": "The book carefully builds understanding of Dumbledore's deliberate distancing through multiple scenes: Harry notices Dumbledore seems to have forgotten him, Harry rages at being kept in the dark, Harry concludes 'that's the only bit of me Dumbledore cares about \u2014 my scar.' The pattern of absence is narratively constructed over hundreds of pages so the eventual explanation lands with full force.",
+      "film_portrayal": "The film compresses Dumbledore's absence into passing references. The sustained, grinding ache of Harry feeling abandoned and unseen \u2014 which the book builds through repeated small moments \u2014 is truncated. The film tells us Dumbledore kept Harry in the dark but doesn't make Harry (or the audience) feel it across the year the way the book does.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film's compression means that Dumbledore's eventual explanation ('I cared too much') lacks the full emotional payoff it has in the book, because the audience has not been made to feel the sustained wound of his absence. This weakens the central Dumbledore arc of the film."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore's handling of Kreacher and warning to Sirius (book corpus scenes 863-865)",
+      "book_baseline": "In the book, Dumbledore's office confession includes his admission that he warned Sirius to treat Kreacher with kindness and respect, and that Sirius's failure to heed this warning was part of the chain of events leading to his death. Dumbledore acknowledges 'another old man's mistake' in trusting Snape to overcome his feelings about James. This is a layered, painful accounting of distributed responsibility.",
+      "film_portrayal": "This entire dimension of Dumbledore's confession \u2014 the Kreacher warning, the distributed responsibility, the acknowledgement of his own misjudgement about Snape's limitations \u2014 is absent from the theatrical film. The film's Dumbledore simply says he distanced himself to protect Harry and that it was a mistake.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The loss of Dumbledore's detailed accounting of the chain of mistakes (his own and others') reduces him from a complex, fallible figure who genuinely grapples with the consequences of his choices to a more simply apologetic mentor. The thematic point about indifference doing as much damage as hatred is entirely lost."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore explains the prophecy fully and in person, including the Neville alternative (book corpus scenes 913-938)",
+      "book_baseline": "In the book, Dumbledore personally extracts the memory of Trelawney's prophecy using the Pensieve and delivers a full, careful explanation to Harry: the two possible boys, Voldemort's choice, the power Harry has that Voldemort does not (love), and the direct statement that one must kill the other. Dumbledore shows a tear. This is an intimate, devastating scene of disclosure between them.",
+      "film_portrayal": "In the theatrical film, the prophecy is delivered by the glass sphere itself in the Department of Mysteries before an audience of Death Eaters. It is a truncated version ('The one with the power to vanquish the Dark Lord... neither can live while the other survives'). The intimate Dumbledore-Harry disclosure, the Neville alternative, the explanation of love as the key power, and Dumbledore's tear are absent from the theatrical cut (the office scene being cut).",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Dumbledore's function as the person who discloses the prophecy to Harry in a scene of trust and guidance is entirely removed. The prophecy becomes a dramatic plot device rather than a culminating moment of relationship and revelation. Dumbledore loses one of his most important narrative functions in the entire saga at this point."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore not teaching Harry Occlumency himself and the explanation for this choice",
+      "book_baseline": "In the book, Dumbledore explicitly explains to Harry (in the office confession) that he chose not to teach Harry Occlumency himself because he feared Voldemort would exploit their close contact \u2014 that if Voldemort sensed their relationship, he would use Harry to spy on Dumbledore. Dumbledore calls this 'another old man's mistake.' The logic is explained, the guilt is expressed.",
+      "film_portrayal": "The film includes Dumbledore instructing Snape to teach Harry Occlumency ('Severus, I'm afraid we can't wait') but never explains to Harry why Dumbledore himself isn't doing it. The reasoning, the self-criticism, and the acknowledgement of this as a mistake are absent from the theatrical cut.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Without the explanation, Dumbledore's delegation of Occlumency to Snape appears arbitrary rather than a considered (if flawed) strategic decision born of care for Harry. His complexity as a character who makes difficult, painful choices for protective reasons is reduced."
+    },
+    {
+      "scene": "Order of the Phoenix - Sirius's death and Dumbledore's immediate response at the veil",
+      "book_baseline": "In the book, after Sirius falls through the veil, Dumbledore arrives, swiftly immobilises the remaining Death Eaters, and pursues Bellatrix. He is shown as powerful and in command. His later grief and accountability regarding Sirius's death are expressed in the office scene.",
+      "film_portrayal": "The film handles Dumbledore's arrival and duel with Voldemort competently. His power is shown. However, because the office scene is cut, there is no moment where Dumbledore takes responsibility for Sirius's death ('It is my fault that Sirius died') or shows grief. The audience sees a competent Dumbledore but not a grieving, guilty one.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The absence of Dumbledore's explicit, anguished acceptance of responsibility for Sirius's death means the audience never sees him reckon fully with the human cost of his strategic decisions. This diminishes his moral depth and the theme of good intentions causing harm."
+    },
+    {
+      "scene": "Order of the Phoenix - Dumbledore's explanation of the blood protection and Aunt Petunia's role (book corpus scenes 886-896)",
+      "book_baseline": "In the book's office scene, Dumbledore explains the full logic of placing Harry with the Dursleys \u2014 the ancient blood magic through Lily's sacrifice, the deliberate choice to condemn Harry to a difficult childhood, the Howler to Petunia. This is a crucial moment where Dumbledore's long game is revealed and he takes responsibility for knowingly causing Harry suffering.",
+      "film_portrayal": "This explanation is entirely absent from the theatrical film. The blood protection logic (referenced in earlier films via the Dursley scenes) is never tied back to a Dumbledore confession scene in OotP. The Howler connection ('Remember my last, Petunia') shown in the film's Privet Drive opening is never explained to Harry.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film establishes the Howler and the Dursley situation but never closes the loop. Dumbledore's deliberate, guilty choice to impose suffering on Harry for protective reasons \u2014 and his acknowledgement of it \u2014 is a key dimension of his moral complexity that is entirely lost."
+    },
+    {
+      "scene": "Half-Blood Prince - Dursley visit entirely absent from film",
+      "book_baseline": "Dumbledore visits the Dursleys with authority, wit, and moral weight. He conjures mead, uses magic to seat the Dursleys forcibly, compliments their agapanthus sarcastically, and delivers a measured but devastating rebuke to the Dursleys for their treatment of Harry. He handles the Kreacher inheritance, the Grimmauld Place question, and Buckbeak's situation. He speaks privately with Harry in the broom shed about Sirius's death, validates Harry's grief, advises him to confide in Ron and Hermione, and announces the private lessons. The entire sequence establishes Dumbledore as humane, witty, practically powerful, emotionally intelligent, and deeply invested in Harry.",
+      "film_portrayal": "Dumbledore collects Harry from a train platform with no visit to the Dursleys. The Kreacher/Grimmauld Place inheritance is omitted entirely. The private emotional conversation about Sirius in the broom shed is omitted. Harry simply appears at the Burrow.",
+      "damage_type": "nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Dursley visit is the richest single scene of book-six Dumbledore: his sly comedy with Vernon, his controlled authority, his moral rebuke of the Dursleys, and his tender private moment with Harry about Sirius. Removing it strips a full dimension of his character \u2014 the humane, emotionally attuned mentor \u2014 and loses the scene where he formally announces the lessons and frames their purpose. The film replaces a rich, characterised arrival with a functional cameo."
+    },
+    {
+      "scene": "Half-Blood Prince - Train platform pickup; Dumbledore's injured hand introduced without book context",
+      "book_baseline": "When Dumbledore first meets Harry and the injury is noticed, he deflects explanation with warmth and mystery ('The tale is thrilling if I do say so myself, but I am afraid now is not the time'). In the book this is embedded in a long walk together during which Dumbledore talks about Scrimgeour, Madam Bones, Inferi, and the Ministry leaflet, showing him as conversationally generous and subtly educating Harry throughout.",
+      "film_portrayal": "Dumbledore appears on an opposite train platform as a shimmer of dust, waves at Harry, and immediately Apparates him away. There is no walk, no conversation, no discussion of current events, no demonstration of Dumbledore's habitual tendency to inform and engage Harry.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book walk to Budleigh Babberton reveals Dumbledore as intellectually generous \u2014 he talks unprompted about politics, death, security, and shares opinions. The film collapses this into a pure plot-transport function, losing his conversational warmth and the sense that he treats Harry as a developing adult worth engaging."
+    },
+    {
+      "scene": "Half-Blood Prince - Slughorn recruitment scene; Dumbledore's manipulation of Slughorn via Harry",
+      "book_baseline": "Dumbledore's recruitment strategy is precisely calculated. He explains to Harry on the walk home exactly why Slughorn is the way he is \u2014 his vanity, his collector's instinct, his weakness for the famous \u2014 and tells Harry that he was the key that unlocked Slughorn. Dumbledore then explicitly instructs Harry to let Slughorn 'collect' him, and explains this is deliberate. He also warns Harry about Slughorn's nature so Harry can protect himself.",
+      "film_portrayal": "Dumbledore tells Harry that Slughorn will 'try to collect' him and that it is 'crucial he return,' but the detailed psychological portrait of Slughorn and the strategic reasoning are largely abbreviated. The film Dumbledore simply says Slughorn is returning 'because of' Harry without the same analytical depth.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor reduction in the analytical dimension of Dumbledore's voice. The book shows him as a shrewd psychologist who deconstructs human motivation with precision; the film conveys the outcome but not the underlying intelligence. Damage is limited because the basic strategic beat survives."
+    },
+    {
+      "scene": "Half-Blood Prince - Dumbledore's first private lesson; context and emotional framing of the lessons stripped",
+      "book_baseline": "The first lesson is preceded by Dumbledore acknowledging Harry's grief over Sirius in the broom shed (in the Dursley-visit scene), commending his resilience, and explicitly framing the lessons as preparation for the prophecy. When Harry arrives at the office, Dumbledore is warm, slightly teasing about Snape's detention, and frames the entire enterprise as entering 'murky marshes of memory' and 'wildest guesswork.' He also explicitly discusses the prophecy's significance and relationship to the lessons.",
+      "film_portrayal": "The first proper lesson (Scene 15/18 in the film corpus) begins in media res with Dumbledore at his desk. The emotional framing, the acknowledgement of Sirius, the broom-shed conversation, and the explicit connection of the lessons to the prophecy are absent. Dumbledore simply says he has memories of Voldemort and wants Harry to see them.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Without the emotional framing, the lessons feel like an information-delivery mechanism rather than a mentorship. The book establishes that Dumbledore is consciously preparing Harry for a confrontation he may not survive, and that the lessons are an act of love as much as strategy. This relational dimension \u2014 Dumbledore investing himself personally in Harry's future \u2014 is significantly weakened."
+    },
+    {
+      "scene": "Half-Blood Prince - Orphanage visit Pensieve memory; book's gin-and-manipulation scene with Mrs. Cole omitted",
+      "book_baseline": "Dumbledore uses a blank piece of paper and a subtle wand movement to Confound Mrs. Cole, conjures gin for her, and extracts information about young Riddle's history through a carefully managed conversation. He is shown as strategically manipulative in service of intelligence-gathering, which illuminates his willingness to bend rules for the greater good \u2014 a morally complex trait.",
+      "film_portrayal": "The orphanage memory in the film corpus goes directly from corridor to Riddle's room without the Mrs. Cole interview/gin scene. Dumbledore enters, and Mrs. Cole simply shows him to Tom's room.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Mrs. Cole scene reveals a subtly morally ambiguous Dumbledore \u2014 someone who manipulates even kind Muggle women when he deems it necessary. This complexity (the ends justifying small ethical violations) is important to his overall character arc across the saga. Its removal flattens him into straightforwardly benevolent."
+    },
+    {
+      "scene": "Half-Blood Prince - Orphanage visit; Dumbledore does not return stolen objects or address Tom's thievery with full moral weight",
+      "book_baseline": "Dumbledore tells Riddle with calm authority: 'You will return them to their owners with your apologies. I shall know whether it has been done. And be warned: Thieving is not tolerated at Hogwarts.' He also sets boundaries around magic, lawbreaking, and the Ministry. He is warm but entirely unintimidated and morally firm.",
+      "film_portrayal": "In the film corpus, Dumbledore asks 'Why did you want these things, Tom?' and when Riddle gives the disturbing answer ('I like having things that belonged to other people \u2014 it makes me feel close to them'), Dumbledore says only 'Thievery is not tolerated at Hogwarts' before moving on. The explicit command to return items with apologies and the threat of consequence is softened.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor. The film retains the moral message but loses the specific directive and the quiet threat ('I shall know whether it has been done'), which in the book signals that Dumbledore is already watching Riddle carefully and is not taken in. The film Dumbledore is slightly less sharply authoritative here."
+    },
+    {
+      "scene": "Half-Blood Prince - Second lesson and subsequent lessons; multiple Pensieve memories (Gaunt, Hepzibah Smith, Voldemort's return to Hogwarts) entirely absent from film",
+      "book_baseline": "The book devotes three full lesson sessions to additional Pensieve memories: the Gaunt family (establishing Voldemort's Slytherin lineage, his mother, the locket's origins), Hepzibah Smith (establishing the cup and locket as trophies, Voldemort's willingness to kill for objects), and Voldemort's return to Hogwarts to apply for the Defence job (establishing Dumbledore's refusal, the Defence job curse, and Voldemort's concealed purpose). Each memory deepens understanding of Voldemort's psychology and the Horcrux logic. Dumbledore's analytical commentary after each memory is also pedagogically rich.",
+      "film_portrayal": "The film condenses all of this to a single Pensieve memory (the orphanage), then jumps to the Slughorn/Horcrux memory. The Gaunt family, Hepzibah Smith, and Voldemort's return to Hogwarts memories are entirely absent. Dumbledore's role as teacher-analyst who constructs Voldemort's biography piece by piece is dramatically curtailed.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Pensieve lesson arc is one of Dumbledore's defining functions in Book 6 \u2014 he is the architect of Harry's understanding of the enemy, and his analytical voice across multiple sessions creates the intellectual and emotional scaffolding for the Horcrux hunt. Reducing three rich sessions to one orphanage flashback collapses his role from master strategist and educator to a functionary who shows Harry one memory and tasks him with extracting another. The audience loses the cumulative sense of Dumbledore's life's work being passed on."
+    },
+    {
+      "scene": "Half-Blood Prince - Dumbledore's discussion of Horcruxes and the seven-part soul; significantly restructured in film",
+      "book_baseline": "After the Slughorn memory is recovered, Dumbledore delivers a detailed, intellectually rigorous analysis: he accounts for six Horcruxes (diary, ring, locket, cup, snake, unknown sixth), explains his reasoning about Founders' objects, discusses Nagini's special status, and delivers the prophecy-agency speech ('You are setting too much store by the prophecy!'). He also explains that he himself destroyed the ring and nearly died doing so, framing his own mortality.",
+      "film_portrayal": "The film's Horcrux revelation scene (Scene 30) has Dumbledore say 'he made seven \u2014 the most powerfully magical number' but the detailed accounting, the Founders'-objects reasoning, the prophecy-agency speech, and the revelation that destroying the ring nearly killed him are all absent or heavily compressed. The speech about love as power is absent entirely.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The post-memory analysis is where Dumbledore most fully functions as sage \u2014 where his life's work crystallises into a transferable map for Harry. The prophecy-agency speech in particular ('Got to? Of course you've got to! But not because of the prophecy!') is a defining statement of Dumbledore's philosophy of free will versus destiny. Its absence means the film never delivers Dumbledore's central moral teaching to Harry, which is arguably the spiritual purpose of all the lessons."
+    },
+    {
+      "scene": "Half-Blood Prince - Astronomy Tower confrontation; Dumbledore immobilises Harry silently (book) vs. Harry hides voluntarily at Dumbledore's instruction (film)",
+      "book_baseline": "Dumbledore wordlessly immobilises Harry with a Body-Bind curse when Malfoy arrives, without Harry's knowledge or consent. Harry is forced to watch events unfold in paralysed horror. This is a crucial act of unilateral agency: Dumbledore makes a decision for Harry without asking, prioritising Harry's survival over Harry's will \u2014 a morally complex choice that Harry resents but which saves his life.",
+      "film_portrayal": "In the film corpus (Scene 37), Dumbledore tells Harry verbally to 'Hide yourself below. And do not speak or show yourself without my permission. No matter what.' Harry chooses to comply. He is not immobilised; he hides under the grid voluntarily. The instruction 'Trust me' is given explicitly.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The shift from secret immobilisation to verbal instruction fundamentally changes the dynamic. In the book, Dumbledore makes a unilateral decision that overrides Harry's agency entirely \u2014 a loving act of control that speaks to his protective paternalism and his acceptance that Harry would not obey if given the choice. In the film, it becomes cooperative trust. The book's version is morally richer and more characteristic of Dumbledore's willingness to act without consent when he judges it necessary. The film softens this into a simpler mentor-pupil bond."
+    },
+    {
+      "scene": "Half-Blood Prince - Tower scene; Dumbledore's offer to hide Malfoy and his family (film truncates the negotiation)",
+      "book_baseline": "Dumbledore engages Malfoy in a sustained, compassionate negotiation. He acknowledges that he has known about the mission all year but stayed silent to protect Malfoy from Voldemort's suspicion. He explicitly offers to hide Malfoy, his mother, and even his father. He says 'It is my mercy, and not yours, that matters now.' He is actively working to save Malfoy while wandless and dying.",
+      "film_portrayal": "The film has Dumbledore say 'I once knew a boy years ago who made all the wrong choices. Let me help you, Draco.' This is briefer and less specific. The explicit offer to hide the whole family, the acknowledgement that he knew about the mission all year, and the mercy/power of forgiveness line are absent or compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "While the film preserves the spirit of Dumbledore's compassion toward Malfoy, the compression loses the specific revelation that Dumbledore had been protecting Malfoy through deliberate silence all year \u2014 which recontextualises his apparent passivity toward the Malfoy threat as active mercy. This is a key insight into his moral character."
+    },
+    {
+      "scene": "Half-Blood Prince - Snape argument on Astronomy Tower (film-only scene); Dumbledore depicted as coercive and coldly authoritarian toward Snape",
+      "book_baseline": "The book contains no scene of Dumbledore and Snape arguing on the Astronomy Tower. Hagrid reports overhearing that Snape said he didn't want to 'do it anymore' and that Dumbledore was 'firm.' This is a secondhand, brief account. Dumbledore's relationship with Snape is presented as one of trust and mutual understanding, not coercion.",
+      "film_portrayal": "The film (Scene 32) shows Snape directly confronting Dumbledore: 'Have you ever considered that you ask too much? That you take too much for granted? Has it ever crossed your brilliant mind that I don't want to do this anymore?' Dumbledore responds: 'Whether it has or hasn't is irrelevant. I will not negotiate this with you, Severus. You agreed. There's nothing more to discuss.' This is shown to Harry directly, not reported secondhand.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film invents a direct confrontation that makes Dumbledore appear coldly transactional and coercive toward Snape \u2014 treating a deeply loyal ally as a contracted resource. This damages the complexity of the Dumbledore-Snape relationship and prematurely signals to attentive viewers that Dumbledore is forcing Snape's hand, which undercuts the ambiguity of Snape's killing of Dumbledore. It also makes Dumbledore seem less humane in his most important alliance."
+    },
+    {
+      "scene": "Half-Blood Prince - Harry tells Dumbledore about Snape's prophecy betrayal; Dumbledore's response and defence of Snape absent from film",
+      "book_baseline": "When Harry learns Snape delivered the prophecy to Voldemort and confronts Dumbledore furiously, Dumbledore responds with calm, measured explanation. He explains that Snape did not know which child Voldemort would target, that his remorse was genuine, and that 'I believe it to be the greatest regret of his life.' He also says 'I trust Severus Snape completely.' He absorbs Harry's rage without flinching and explains his reasoning carefully while acknowledging the horror of what happened.",
+      "film_portrayal": "This confrontation does not appear in the film corpus at all. Harry never discovers the prophecy-betrayal before Dumbledore's death in the film; the conversation about Snape, the remorse, and Dumbledore's defence of his trust are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This scene is pivotal: it is where Dumbledore most fully articulates why he trusts Snape, reveals the depth of his moral philosophy around guilt and redemption, and models for Harry the capacity to forgive. Its absence means the film never establishes Dumbledore's position on Snape's betrayal of Lily \u2014 which is the emotional heart of the Dumbledore-Snape relationship and critical to understanding Snape's arc across the saga. The audience loses Dumbledore as interpreter of this moral complexity entirely."
+    },
+    {
+      "scene": "Half-Blood Prince - Cave sequence; 'I am not worried, Harry. I am with you' line cut as excluded non-theatrical material",
+      "book_baseline": "As Harry and Dumbledore swim back through the cold sea after the cave ordeal, with Dumbledore weakened and barely able to walk, Harry says he is not worried. Dumbledore replies: 'I am not worried, Harry. I am with you.' This line encapsulates Dumbledore's trust in Harry and his acceptance of his own mortality \u2014 a moment of profound emotional reciprocity.",
+      "film_portrayal": "This scene is identified in the non-theatrical exclusions ('Harry and Dumbledore leave the Cave') and must be treated as absent from the film. The line does not appear in the theatrical release.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "This is one of the most emotionally resonant lines in the book, reversing the mentor-student dynamic at the moment of greatest vulnerability and expressing Dumbledore's faith in Harry as an equal protector. Its loss leaves the cave sequence without its emotional resolution, and the mentor-student relationship without its most explicit statement of mutual trust."
+    },
+    {
+      "scene": "Half-Blood Prince - After cave, Dumbledore requests Snape not Madam Pomfrey; film retains this but context of Snape's role is different",
+      "book_baseline": "When Dumbledore collapses in Hogsmeade, he insists on Snape, not Madam Pomfrey \u2014 'It is Professor Snape whom I need.' This presupposes the audience's understanding (developed across the lesson sequences) that Snape and Dumbledore have a deep, trust-based working relationship involving Dark magic expertise.",
+      "film_portrayal": "The film (Scene 37) has Dumbledore say 'Severus... Severus is who I need.' However, because the film has just shown Snape and Dumbledore in a coercive argument on the same tower, and because the book's relationship-building context is missing, the request reads differently \u2014 more as Dumbledore needing a dark-magic operative than a trusted ally.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The line survives but is contextually damaged by the invented argument scene. The request for Snape should signal deep trust; instead it follows a scene of coercion, muddying what should be a clarifying moment about their bond."
+    },
+    {
+      "scene": "Half-Blood Prince - Dumbledore's funeral; absent from film entirely",
+      "book_baseline": "Dumbledore's funeral is a major set-piece in the book: attended by centaurs, merpeople, Ministry officials, foreign dignitaries, former students. Harry watches, mourns, understands for the first time that all his protectors are gone and he must face Voldemort alone. He breaks up with Ginny at the grave. The eulogy, the white tomb, the phoenix flight \u2014 all articulate the magnitude of the loss and Dumbledore's place in the world.",
+      "film_portrayal": "There is no funeral in the film. After Dumbledore falls, the film cuts to the next morning (Scene 39-42): the body is in the courtyard, students raise wands, and the Dark Mark fades. The film then moves directly to the aftermath conversation on the Astronomy Tower.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The funeral is the narrative vessel for establishing Dumbledore's significance to the entire wizarding world, not just Hogwarts. Its absence means the film never fully articulates how much is lost, which reduces the weight of the event from saga-defining to school-event scale. Harry's emotional reckoning with being truly alone \u2014 the direct consequence of Dumbledore's death on his psychological arc \u2014 is also substantially compressed."
+    },
+    {
+      "scene": "Half-Blood Prince - Scrimgeour Christmas confrontation; Dumbledore's backstory with Scrimgeour and his political positioning absent",
+      "book_baseline": "In the book, Dumbledore has an established political conflict with Scrimgeour. He explains to Harry that Scrimgeour had tried to use Harry as a Ministry mascot and that he himself had blocked these approaches. He describes having Dawlish tailing him and jinxing Dawlish repeatedly with evident amusement. He is shown as someone who actively and cheerfully outmanoeuvres the Ministry while remaining above it.",
+      "film_portrayal": "Dumbledore does not appear in the Scrimgeour Christmas scene in the film corpus. The political dimension of Dumbledore's conflict with the Ministry is referenced only secondhand through Harry's conversation with Scrimgeour, not dramatised through Dumbledore's own behaviour or voice.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book Dumbledore's amused, confident navigation of Ministry politics \u2014 jinxing Dawlish, blocking Scrimgeour, cheerfully acknowledging having been offered Minister three times \u2014 contributes to his stature as someone who transcends institutional power. The film loses this dimension of his public persona."
+    },
+    {
+      "scene": "Film Scene 31 (Aberforth confrontation at Hog's Head) \u2014 Aberforth's summary of Dumbledore",
+      "book_baseline": "In the book (Deathly Hallows ch. 28), Aberforth delivers a lengthy, emotionally complex indictment: Dumbledore was absorbed in his own brilliance and ambitions with Grindelwald, neglected Ariana, was complicit in her imprisonment, and only faced Grindelwald reluctantly out of shame. Crucially, Harry inwardly decides \u2014 after months of anguished doubt \u2014 to trust Dumbledore anyway, not because he is blind but because he has weighed the evidence and chosen faith. The scene is Harry's moral and emotional resolution after the long arc of disillusionment. Harry also counters Aberforth with the cave memory ('He was never free'), demonstrating active, earned trust.",
+      "film_portrayal": "The film (Scene 31) collapses Aberforth's account dramatically. He delivers a brief, vague summary ('She was devoted to him \u2014 he gave her everything, but time') with almost no specificity about Grindelwald, the Hallows obsession, the fight, or Ariana's death. Harry's response \u2014 'Because I need to. Because if I don't, I don't know who I am anymore' \u2014 replaces the book's hard-won, evidence-based trust with emotional necessity. Harry doesn't cite the cave memory, doesn't push back with specific evidence of Dumbledore's suffering, and doesn't demonstrate that he has genuinely reckoned with Dumbledore's flaws. The resolution feels like avoidance rather than acceptance.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "This is the climax of the Dumbledore disillusionment arc that runs through the entire second half of Deathly Hallows. In the book, Harry's trust is morally earned through confrontation with real evidence of Dumbledore's failures. The film's truncation reduces this to an emotional crutch ('I need to believe it'), which misrepresents both Harry's maturation and Dumbledore's complexity. The audience never fully sees why Dumbledore deserves trust despite his flaws \u2014 a central theme of the saga."
+    },
+    {
+      "scene": "Film Scene 39 (King's Cross) \u2014 Dumbledore's confession and apology",
+      "book_baseline": "The book's King's Cross chapter is Dumbledore's most fully human moment. He weeps, confesses his selfish ambition, his resentment of his family, his cowardice in delaying the fight with Grindelwald, his obsession with the Hallows, and his guilt over Ariana's death. He explicitly says 'I was selfish, Harry, more selfish than you\u2026could possibly imagine' and 'I had proven\u2026that power was my weakness.' He also confesses that he refused the Ministry of Magic because he knew he was not to be trusted with power. This is an extended, deeply personal reckoning that reframes his entire portrayal.",
+      "film_portrayal": "The film's King's Cross scene (Scene 39) is significantly truncated. Dumbledore explains the Horcrux mechanics and apologises for not telling Harry about the Hallows ('I didn't trust you\u2026 I feared you would make the same mistake I made'). The personal confessions \u2014 the resentment of his family, the cowardice, the ambition, the guilt over Ariana \u2014 are almost entirely absent. He mentions wanting to see Ariana again (when Harry asks directly), but the full weight of his self-condemnation is missing. The scene is warm and functional rather than devastatingly honest.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Dumbledore's King's Cross confessions are the payoff of everything the Skeeter biography, Aberforth's account, and Harry's months of doubt have been building toward. Without the full self-indictment, audiences cannot understand Dumbledore's humanity, his genuine moral fallibility, or why his eventual 'greater good' rejection is so hard-won. The film Dumbledore remains predominantly wise and serene even in his most vulnerable moment, undermining the saga-level theme that great people can hold terrible flaws."
+    },
+    {
+      "scene": "Film Scene 21 (Forest of Dean tent) \u2014 Hermione's exposition of Dumbledore/Grindelwald relationship",
+      "book_baseline": "In the book, Harry reads the Skeeter biography himself (book corpus scenes 466\u2013516), experiencing direct access to the letter Dumbledore wrote Grindelwald arguing for wizard dominance 'FOR THE GREATER GOOD.' Harry's fury is internal, specific, and prolonged \u2014 he connects this to his own age, to the betrayal of trust, to months of accumulated doubt. His anger at Dumbledore is one of the most sustained emotional arcs of the novel.",
+      "film_portrayal": "In the film (Scene 21), Hermione summarises the Dumbledore/Grindelwald relationship in a brief dialogue exchange. The letter itself is shown (the signature scene), but the full content of Dumbledore's ideology \u2014 the explicit arguments for wizard supremacy \u2014 is not read aloud or dwelt upon. Harry's anger is present ('We're young, Hermione, and here we are\u2026') but compressed into two or three exchanges before he moves on. The sustained, corrosive doubt that occupies weeks of book-time is effectively a single scene.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Dumbledore's youthful ideology is central to understanding his later choices, his refusal of ministerial power, and his lifelong penance. Compressing Harry's reckoning with this into a single brief scene means the audience experiences it as a plot point rather than a character revelation, weakening both Dumbledore's complexity and Harry's growth."
+    },
+    {
+      "scene": "Film Scene 31 (Aberforth) \u2014 Dumbledore's neglect of Ariana and the Grindelwald-Hallows obsession omitted",
+      "book_baseline": "Book corpus (scenes 678\u2013692) has Aberforth describe in specific, vivid terms how Dumbledore abandoned care of Ariana when Grindelwald arrived \u2014 'looking after Ariana took a backseat then, while they were hatching all their plans for a new Wizarding order and looking for Hallows.' The Hallows obsession as a cause of Ariana's neglect is explicitly named. This connects Dumbledore's youthful Hallow-seeking to the deaths of people he loved, giving his later Hallow obsession (the ring) its full tragic resonance.",
+      "film_portrayal": "Film Scene 31 omits any mention of the Hallows in Aberforth's account. The Grindelwald relationship is mentioned only obliquely ('my brother sacrificed many things\u2026in his journey to find power, including her'). The specific mechanism \u2014 that Dumbledore's obsession with the Hallows directly caused Ariana's neglect and death \u2014 is never stated. The connection between Dumbledore's past Hallow-seeking and his later fatal ring-wearing is therefore lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The Hallows obsession as a recurring fatal flaw \u2014 from youth through the ring \u2014 is a structurally important character motif. Without Aberforth naming the Hallows as the cause of Ariana's neglect, the King's Cross confession ('And at the heart of our schemes, the Deathly Hallows!') loses its full weight, and Dumbledore's character arc from obsessed youth to wiser elder is incomplete for film audiences."
+    },
+    {
+      "scene": "Film Scene 37 (Headmaster's office flashback) \u2014 Dumbledore asks Snape to kill him",
+      "book_baseline": "In the book (scenes 835\u2013853), when Dumbledore asks Snape to kill him, he engages in a morally nuanced conversation about soul damage, Draco's soul, and whether the act will harm Snape's own soul: 'You alone know whether it will harm your soul to help an old man avoid pain and humiliation.' He also explains his reasoning about protecting Draco. The request is framed with compassion, self-awareness, and philosophical depth. Dumbledore also shows gentle humour ('death is coming for me as surely as the Chudley Cannons will finish bottom\u2026').",
+      "film_portrayal": "In the film (Scene 37), Dumbledore's request is delivered with thunder rather than compassion: 'Too much! Nothing I could ask is too much. You know what is at stake!' This is a significant tonal inversion \u2014 in the book he is gentle, almost apologetic, and philosophically careful about Snape's soul; in the film he thunders at Snape with moral authority. The concern for Snape's soul and the gentle humour are absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Dumbledore's thundering delivery misrepresents his voice in one of his most intimate and morally complex scenes. The book's version reveals a man who is simultaneously resolved and compassionate, deeply aware of what he is asking of another person. The film's version makes him imperious, which contradicts the humane, self-aware Dumbledore the book establishes \u2014 and reduces the moral weight of Snape's sacrifice."
+    },
+    {
+      "scene": "Film Scene 39 (King's Cross) \u2014 Dumbledore's explanation of why he withheld information from Harry",
+      "book_baseline": "In the book (scenes 968\u2013969, 1035\u20131038), Dumbledore's explanation for withholding the Hallows is deeply personal and self-critical: he feared his own weakness would repeat in Harry, he counted on Hermione to slow Harry down, and he explicitly says 'I counted on Miss Granger to slow you up, Harry. I was afraid that your hot head might dominate your good heart.' He also confesses he was afraid Harry would 'seize the Hallows as I did, at the wrong time, for the wrong reasons.' The explanation is specific and self-implicating.",
+      "film_portrayal": "The film (Scene 39) has Dumbledore say 'I didn't trust you\u2026 I feared that you would make the same mistake I made, that you would be intoxicated by the power the Hallows promise.' This is broadly faithful but omits the specific confession about Hermione, the 'hot head' characterisation, and the full personalised reasoning. More importantly, the film omits Dumbledore's extended self-portrait as someone who himself craved the Hallows for selfish reasons (returning his parents, lifting responsibility). The apology is present but thinner.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The specific details of Dumbledore's self-knowledge \u2014 that he used Hermione as a deliberate brake on Harry, that he recognised his own Hallow obsession as a personal flaw mirrored in Harry \u2014 add significant texture to his characterisation as a manipulator who is nonetheless genuinely caring and self-aware. Their omission leaves the apology feeling more generic."
+    },
+    {
+      "scene": "Film Scene 40 (Viaduct ending) \u2014 Harry breaks the Elder Wand",
+      "book_baseline": "In the book (scenes 1091\u20131099), Harry uses the Elder Wand to repair his own broken phoenix wand first, then returns it to Dumbledore's tomb \u2014 intact. He does not destroy it. He explains the reasoning to Dumbledore's portrait: 'If I die a natural death like Ignotus, its power will be broken, won't it? The previous master will never have been defeated.' Harry also keeps the Cloak and deliberately drops the Stone in the forest. The scene involves Harry consulting Dumbledore's portrait for final guidance, a last act of their relationship.",
+      "film_portrayal": "In the film (Scene 40), Harry simply breaks the Elder Wand and throws it off a bridge, without repairing his own wand first, without consulting Dumbledore's portrait, and without the reasoning about natural death breaking the chain. There is no final conversation with Dumbledore's portrait. The gesture is cinematically clean but narratively different, and it eliminates the last expression of Harry's relationship with Dumbledore.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The final portrait consultation is the last beat of Harry and Dumbledore's relationship \u2014 Harry acts, then asks Dumbledore if he's made the right choice, and Dumbledore affirms it. Its removal means their relationship ends entirely at King's Cross, which is tonally fine but loses the specific quality of Harry as Dumbledore's student making an independent, wise decision that Dumbledore ratifies. It also means Harry's own wand \u2014 symbolic of his identity \u2014 is never repaired, a significant material loss."
+    },
+    {
+      "scene": "Film Scene 6 (wedding) \u2014 Harry's conversation with Doge and Muriel",
+      "book_baseline": "In the book (scenes 205\u2013238), Harry's conversation with Doge and Muriel is substantive: Muriel raises the Ariana Squib theory, Bathilda as a source, the coffin-side brawl, and Kendra's severity. Harry is left disturbed and resentful, thinking about Godric's Hollow and Dumbledore's silence about their shared history there. The conversation plants the seeds of his sustained disillusionment. Harry's realisation that Dumbledore never mentioned their shared connection to Godric's Hollow \u2014 'it had been tantamount to a lie' \u2014 is emotionally central.",
+      "film_portrayal": "The film's wedding scene (Scene 6) has a much truncated version of this exchange. Muriel mentions Bathilda and Godric's Hollow and Dumbledore's father, but the Ariana Squib theory, the coffin-side brawl, and the specific resentment about Godric's Hollow as a shared site are absent. Harry's emotional reaction is brief \u2014 he looks 'speechless' \u2014 before the Ministry's fall interrupts everything. The seeds of disillusionment are planted but not cultivated.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The wedding conversation in the book is the first major blow to Harry's image of Dumbledore and sets up months of doubt. Its compression means film audiences experience the disillusionment arc less as a sustained, earned process and more as a series of brief revelations, reducing the emotional payoff of Harry's eventual trust."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 928.0,
-  "adjusted_cids_v1": 1160.0
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

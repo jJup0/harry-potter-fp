@@ -1,252 +1,425 @@
 {
   "character": "Minerva McGonagall",
-  "fp_score": 82.0,
-  "infidelity_score": 18.0,
-  "weighted_infidelity_exposure": 47.5,
-  "cids": 138.6,
-  "damage_per_exposure": 5.9,
+  "fp_score": 85.0,
+  "infidelity_score": 15.0,
+  "weighted_infidelity_exposure": 122.5,
+  "cids": 143.3,
+  "damage_per_exposure": 2.9,
   "structural_damage_level": 3,
-  "adjusted_cids": 138.6,
+  "adjusted_cids": 143.3,
   "main_damage_causes": [
-    "Systematic omission of McGonagall's emotional interiority and warmth \u2014 the films consistently cut the moments where her stern exterior cracks to reveal grief, pride, humor, or personal investment, leaving her as a functional authority figure rather than a complex person",
-    "Loss of her role as Harry's active champion \u2014 the careers consultation scene (OotP) and several smaller moments where she fights specifically for Harry are absent, removing the personal dimension of her loyalty to him",
-    "Compression of her independent moral voice \u2014 her willingness to challenge Dumbledore, argue against decisions she finds wrong, and act on her own judgment is reduced across multiple films, making her seem more deferential and less autonomous than the books establish"
+    "Compression of McGonagall's argumentative agency in the Privet Drive scene reduces her from an independent moral voice who must be persuaded by Dumbledore to a figure who yields after minimal resistance, flattening a key dimension of her relationship with Dumbledore.",
+    "Removal of her emotional response to the Potters' deaths eliminates the humanising grief that makes her severity in later scenes feel like chosen discipline rather than innate coldness, costing the character emotional depth.",
+    "Scattered omissions of her personalised, character-specific responses \u2014 the line about Harry's father, the individual disappointment speeches, the father-would-be-proud moment \u2014 cumulatively thin her from a fully realised person with deep institutional and personal history into a functional authority figure.",
+    "Systematic compression of McGonagall's independent authority into a subordinate role beneath Dumbledore \u2014 she repeatedly defers to or is positioned as executing his directions rather than acting as the co-equal Head of House the books portray",
+    "Removal of emotional texture and humanizing vulnerability: the choked voice, steadying gasps, almost-smile, and tear-glistening moments that reveal the warmth beneath McGonagall's severity are largely cut, leaving a flatter, more purely austere screen characterization"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film - Privet Drive opening",
-      "book_baseline": "McGonagall has watched the Dursleys all day, is emotionally invested in Harry's fate, argues passionately against leaving him there, weeps at the end, blows her nose in farewell. She is deeply moved, shows warmth beneath severity, and has a full emotional arc in this scene.",
-      "film_portrayal": "McGonagall appears briefly, exchanges a few lines, raises concern about the Dursleys in one sentence, then is largely silent. The emotional farewell, her tears, her blink-furiously moment, and her nose-blowing goodbye are all cut. She is a functional presence rather than an emotionally engaged character.",
+      "scene": "Film Scene 1 \u2014 Privet Drive opening, McGonagall's objection to leaving Harry with the Dursleys",
+      "book_baseline": "Book McGonagall delivers a multi-beat, passionate argument against leaving Harry with the Dursleys: she watched them all day, catalogues their faults in detail ('You couldn't find two people who are less like us'), describes Dudley kicking his mother, protests that Harry will be famous and there will be books written about him, and only concedes after Dumbledore's full counter-argument ('Yes \u2014 yes, you're right, of course').",
+      "film_portrayal": "McGonagall's objection is compressed to two brief lines: 'Albus, do you really think it's safe, leaving him with these people? I've watched them all day. They're the worst sort of Muggles imaginable. They really are...' followed immediately by Dumbledore's one-line override ('The only family he has'). She does not press further, does not articulate her reasoning about Harry's fame or future, and does not go through the process of being persuaded.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book establishes McGonagall as a character with genuine moral agency who pushes back against Dumbledore's decisions with substantive arguments and must be actively persuaded. The film reduces her to a character who raises a token objection and immediately yields, stripping the exchange of its dramatic weight and undermining her characterisation as an independent, intellectually forceful person who is not simply deferential to Dumbledore."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Privet Drive opening, McGonagall's emotional response to James and Lily's deaths",
+      "book_baseline": "Book McGonagall displays layered, visible grief: she gasps, her voice trembles, she says 'Lily and James... I can't believe it... I didn't want to believe it... Oh, Albus...', she asks in a faltering voice 'It's \u2014 it's true?', and she pulls out a lace handkerchief and dabs her eyes beneath her spectacles. She also blinks furiously while watching Harry on the doorstep. Her grief is presented with specificity and duration.",
+      "film_portrayal": "The film omits the conversation about the Potters' deaths entirely in the McGonagall scenes. She never learns of or reacts to the news on screen; the dialogue jumps directly from Hagrid's arrival and handover of Harry to the placement on the doorstep. There is no audible acknowledgement of James and Lily, no trembling voice, no handkerchief, no 'Oh, Albus'.",
       "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to establish that McGonagall is not merely a stern authority figure but someone with deep personal feeling for the Potters and for the tragedy of that night. Removing her grief response flattens her emotional register at a key moment and loses the humanity that makes her severity in later scenes feel like a chosen discipline rather than a natural coldness."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Privet Drive opening, McGonagall's concern about trusting Hagrid",
+      "book_baseline": "Book McGonagall raises a pointed, somewhat barbed concern: 'You think it \u2014 wise \u2014 to trust Hagrid with something as important as this?' She then qualifies it with 'I'm not saying his heart isn't in the right place... but you can't pretend he's not careless. He does tend to \u2014'. This is a characteristic blend of shrewdness and fairness.",
+      "film_portrayal": "Film McGonagall delivers only the one-line version: 'Do you think it wise to trust Hagrid with something as important as this?' and receives Dumbledore's reply. The qualifier \u2014 her fair-minded acknowledgement of Hagrid's good heart alongside her practical reservation \u2014 is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but characteristic loss: the book version demonstrates McGonagall's habit of critical thinking combined with fairness, a nuance that the film's compressed version flattens into a simple expression of doubt without the moral texture."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Privet Drive opening, McGonagall's discussion of celebrating wizards and Muggle awareness",
+      "book_baseline": "Book McGonagall delivers an extended speech about the irresponsibility of the celebrations: she is irritably aware of flocks of owls and shooting stars noticed by Muggles, scolds wizards for being out in broad daylight not dressed in Muggle clothes, sniffs at Dedalus Diggle, and expresses sharp anxiety about secrecy \u2014 establishing her as someone who thinks institutionally about the wizarding world's safety and protocols.",
+      "film_portrayal": "This entire exchange is absent from the film. The conversation between Dumbledore and McGonagall skips from 'Are the rumors true?' to the question about Harry, with no discussion of the celebrations, Muggle awareness, or McGonagall's practical concerns.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This material establishes McGonagall's voice as that of an institutional guardian \u2014 someone who thinks beyond the immediate emotional event to the systemic implications. Its absence makes her opening characterisation thinner and more reactive, though this is relatively minor given that later scenes partially compensate."
+    },
+    {
+      "scene": "Film Scene 4 \u2014 Transfiguration class, McGonagall's response to Harry and Ron being late",
+      "book_baseline": "The book does not include this specific late-arrival scene. What the book establishes in the Transfiguration introduction is McGonagall's authority, her strict warning ('Anyone messing around in my class will leave and not come back'), and her impressive demonstration of turning her desk into a pig \u2014 a combination of severity and capability that commands respect.",
+      "film_portrayal": "The film introduces McGonagall in Transfiguration through the late-arrival gag: she is the cat on the desk, transforms, and responds to Ron's comment about McGonagall's imagined angry face with the wry remark about transfiguring them into pocket watches. This is a lightened, more openly witty introduction that plays her composure for dry comedy.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This is a mild deviation rather than a damaging one \u2014 film McGonagall is still authoritative and sharp \u2014 but the book's emphasis on strict, even slightly fearsome authority is softened into a more immediately charming wit. The transformation-to-pig demonstration is also absent, which removes a beat that shows her as genuinely impressive rather than merely clever with words. Net impact is low."
+    },
+    {
+      "scene": "Film Scene 6 \u2014 After the Remembrall catch, McGonagall recruiting Harry as Seeker",
+      "book_baseline": "Book McGonagall is almost speechless with shock, glasses flashing furiously, telling Harry he 'might have broken his neck'. She then reveals genuine excitement and pride when presenting him to Wood, saying 'The boy's a natural. I've never seen anything like it.' She tells Wood 'He caught that thing in his hand after a fifty-foot dive. Didn't even scratch himself. Charlie Weasley couldn't have done it.' She also peers sternly over her glasses and says 'I want to hear you're training hard, Potter, or I may change my mind about punishing you' \u2014 then smiles and says 'Your father would have been proud. He was an excellent Quidditch player himself.'",
+      "film_portrayal": "The film compresses the scene significantly. McGonagall's shock and anger upon retrieving Harry are reduced to a silent 'follow me'; there is no dialogue about broken necks. The Wood introduction is present ('Potter, this is Oliver Wood. Wood, I have found you a Seeker!') but the details \u2014 the fifty-foot dive comparison to Charlie Weasley, the stern warning about training, and crucially the line about Harry's father \u2014 are absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The line about James Potter is a small but meaningful humanising moment: it reveals McGonagall's personal connection to Harry's family history and her warmth beneath the severity. Its absence is a real characterisation loss. The missing stern-warning-into-smile beat also loses the characteristic McGonagall rhythm of discipline undercut by genuine feeling."
+    },
+    {
+      "scene": "Film Scene 7 \u2014 Troll bathroom aftermath, McGonagall's reaction",
+      "book_baseline": "Book McGonagall has lips white with anger, says 'What on earth were you thinking of?' with cold fury, then when Hermione lies to protect the boys, she stares at the three of them and says 'Miss Granger, you foolish girl, how could you think of tackling a mountain troll on your own?' before taking five points and expressing disappointment. She then turns to Harry and Ron and awards them five points each for 'sheer dumb luck' \u2014 a characteristic blend of punishment and reward that acknowledges bravery while maintaining standards.",
+      "film_portrayal": "Film McGonagall says 'Oh! Oh, my goodness! Explain yourselves, both of you!' then, after Hermione's lie, 'Be that as it may, it was an extremely foolish thing to do' and '...for sheer dumb luck.' The scene is present and functional but the 'cold fury', the white lips, and the full emotional texture are absent. The five-points-taken-from-Granger is not stated, and the explicit disappointment speech is cut.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. The film retains the essential beat but loses some of the tonal precision \u2014 the 'cold fury' and the explicit disciplinary disappointment \u2014 that distinguishes book McGonagall's manner of handling rule-breaking. Low individual impact."
+    },
+    {
+      "scene": "Film Scene 10 \u2014 Night-corridor confrontation, McGonagall issuing detention for the dragon/Norbert incident",
+      "book_baseline": "Book McGonagall towers over the three of them looking more likely to breathe fire than Norbert, delivers a speech of genuine moral indignation ('I would never have believed it of any of you'), wrongly concludes they fed Malfoy a cock-and-bull story about a dragon, expresses particular disappointment in Hermione ('I thought you had more sense') and Harry ('I thought Gryffindor meant more to you than this'), takes fifty points from each student, and assigns detentions. The scene has substantial emotional weight \u2014 including Harry's internal horror at losing the Quidditch-won points lead.",
+      "film_portrayal": "Film McGonagall's night-corridor scene is present and covers the key beats: '50 points will be taken... each... And to ensure it doesn't happen again, all four of you will receive detention.' However, the specific speeches of moral disappointment directed individually at Hermione and Harry are absent, and the scene is considerably shorter than the book version.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The individual personalised disappointment \u2014 McGonagall knowing her students well enough to call out what each one should know better \u2014 is a characteristic trait that is compressed out. Loss is real but modest."
+    },
+    {
+      "scene": "Film Scene 11 \u2014 McGonagall turns the trio away when they try to warn about the Stone",
+      "book_baseline": "Book McGonagall drops her books in shock when Harry mentions the Sorcerer's Stone ('Whatever Professor McGonagall had expected, it wasn't that'). She splutters 'How do you know --?'. She is visibly shaken, then recovers and assures them the Stone is well protected, dismissing them with 'I suggest you all go back outside and enjoy the sunshine.' When Harry and Ron return to the corridor outside the third-floor door, she storms at them again: 'I suppose you think you're harder to get past than a pack of enchantments! Enough of this nonsense! If I hear you've come anywhere near here again, I'll take another fifty points from Gryffindor!'",
+      "film_portrayal": "Film McGonagall drops the same shocked 'How do you know...?' beat and delivers a similar dismissal: 'I don't know how you three found out about the Stone, but I assure you it is perfectly well protected. Now would you go back to your dormitories? Quietly.' The second confrontation outside the corridor is absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The second confrontation at the corridor is important because it shows McGonagall actively blocking Harry's path and reinforcing the children's sense that no adult will help \u2014 which sharpens Harry's decision to act alone. Its absence slightly reduces the dramatic logic of Harry's choice to go down the trapdoor, and removes a beat that shows McGonagall's institutional authority working against the protagonists in a meaningful way."
+    },
+    {
+      "scene": "Film Scene 12 \u2014 End-of-year feast, McGonagall's visible reaction to Gryffindor winning the House Cup",
+      "book_baseline": "Book describes McGonagall shaking Snape's hand 'with a horrible, forced smile' from Snape's side \u2014 which implies McGonagall is in a position of visible triumph and Snape is performing graciousness. McGonagall 'blinked furiously' earlier at the doorstep scene, showing her emotional control. The book's climax emphasises institutional victory.",
+      "film_portrayal": "Film shows McGonagall 'proud, smiling' at the teacher's table as Harry receives his points, and she is seen giving a slight nod to signal Dumbledore before the feast. These are positive depictions. However, the specific beat of Snape being forced to shake her hand \u2014 which is a small but satisfying character moment of earned victory \u2014 is absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Very minor. The Snape-McGonagall handshake is a small payoff to their institutional rivalry. Its absence is a modest loss of texture rather than a characterisation problem."
+    },
+    {
+      "scene": "Film Scene 1 (Snape's Office) - McGonagall's reduced role in the confrontation",
+      "book_baseline": "Book establishes McGonagall as the dominant authority figure in the post-flying-car confrontation. She conjures food, controls the room, makes the punishment decisions independently, and shows a complex mix of strictness and fairness. She almost smiles at Harry's point-saving argument, her 'mouth looked less thin,' and she creates sandwiches and pumpkin juice for the boys \u2014 a maternal undercurrent beneath the severity. She also pointedly does NOT take house points after Harry's argument, showing she can be reasoned with.",
+      "film_portrayal": "In the film (Scene 37), McGonagall arrives alongside Dumbledore and is largely silent. Dumbledore takes over, explicitly stating it is 'for Professor McGonagall to determine the appropriate action,' but then immediately announces he is leaving for the feast. McGonagall delivers only two brief lines ('What are you talking about, Mr. Weasley?' and 'Not today, Mr. Weasley...') before Dumbledore wraps up the scene with a jovial custard tart remark. She does not conjure food, does not almost-smile, does not engage in the nuanced back-and-forth that reveals her character. The scene belongs to Dumbledore tonally.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The book's opening scene is one of the richest characterizations of McGonagall: her wit, her warmth, her grief, her relationship with Dumbledore, and her moral seriousness are all on display. The film reduces her to a plot device. Audiences lose the foundational impression that she is a woman of deep feeling beneath the stern exterior."
+      "explanation": "The book uses this scene to establish McGonagall's defining paradox: ferocious strictness coexisting with fairness and suppressed warmth. The film reduces her to a functional authority stamp. The almost-smile, the croaky voice when Harry invokes friendship later (Scene 131-133 in book), and the food conjuring all build the layered portrait the film loses here. Her independent authority is also diminished by being framed as Dumbledore's delegate rather than acting in her own right as Head of House."
     },
     {
-      "scene": "PS/SS Film - Privet Drive: McGonagall's emotional reaction to Harry being left",
-      "book_baseline": "McGonagall explicitly and forcefully objects to leaving Harry with the Dursleys, citing specific observations ('I've watched them all day'), predicts Harry will be famous, and is ultimately persuaded but clearly troubled. She shows independent moral judgment.",
-      "film_portrayal": "Her objection is compressed to a single line ('do you really think it's safe') and she is immediately overridden. The depth of her concern and her specific reasoning are absent.",
+      "scene": "Film Scene 2 (McGonagall's Classroom, Scene 62) - Chamber of Secrets exposition scene",
+      "book_baseline": "The book does not feature McGonagall delivering the Chamber of Secrets exposition in class. The history of the Chamber is conveyed through other means (Nearly Headless Nick's deathday party context, Binns in History of Magic in the book). McGonagall's classes in the book are purely focused on Transfiguration \u2014 she is 'not pleased' when Ron struggles, she is stern and exacting. The book keeps her role strictly as Head of House and Transfiguration teacher; she is not used as an exposition vehicle.",
+      "film_portrayal": "The film inserts a scene where Hermione asks McGonagall directly about the Chamber of Secrets in Transfiguration class, and McGonagall delivers a full, detailed historical lecture about Salazar Slytherin, the four founders, and the monster within. She does so after initially deflecting ('My subject is Transfiguration, Miss Granger') but then consents and delivers the entire lore dump.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While this is a relatively minor change and McGonagall's voice is reasonably consistent (she is appropriately serious), it slightly softens her strict classroom demeanor by having her willingly abandon her lesson to discuss another subject when a student asks. In the books, she is near-immovable in her professional focus. The damage is low \u2014 it is a functional screenplay convenience \u2014 but it represents a minor inconsistency with her iron classroom discipline."
+    },
+    {
+      "scene": "Film Scene 2 (McGonagall's Classroom, Scene 62) - McGonagall's worried affect visible to students",
+      "book_baseline": "The book (Scene 57) establishes McGonagall as someone who maintains composure and professionalism in front of students even when privately alarmed. Her worry about the Chamber is seen only in adult, private contexts (the staff meeting, her private exchanges with Dumbledore). She presents a controlled face to students.",
+      "film_portrayal": "After McGonagall finishes the Chamber exposition, Hermione notes to Harry and Ron in the corridor (Scene 63): 'Couldn't you tell: McGonagall's worried. All the teachers are.' The implication is that her worry was visibly perceptible to second-year students during her classroom lecture \u2014 i.e., she allowed her anxiety to show in front of the class.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but real inconsistency. The book's McGonagall maintains professional composure as a point of characterization \u2014 students infer danger from events, not from reading her face. Having students easily read her distress in a classroom setting slightly undermines the iron-composure aspect of her character. Damage is minimal given it is conveyed secondhand by Hermione rather than directly shown."
+    },
+    {
+      "scene": "Film Scene 3 (Hospital Wing night scene, Scene 67) - McGonagall's dialogue about the Chamber reduced",
+      "book_baseline": "Book Scene 54-57 shows McGonagall actively interrogating the situation with Dumbledore: she asks urgently 'What does this mean, Albus?', she eagerly speculates 'You don't think he managed to get a picture of his attacker?', and she engages substantively with the mystery. Her investment in solving the crisis is evident. She also registers genuine incomprehension at Dumbledore's cryptic answer, which humanizes her.",
+      "film_portrayal": "In the film hospital wing night scene (Scene 67), McGonagall's lines are reduced to 'Perhaps he managed to get a picture of his attacker...' and 'What should I tell the staff, Albus?' followed by a functional instruction to 'Tell them the truth.' The urgent 'What does this mean, Albus?' is absent; instead she is positioned as primarily awaiting instructions from Dumbledore rather than actively co-investigating.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "McGonagall's willingness to challenge Dumbledore directly on a moral question is a key character trait. Reducing it to a token protest removes her as an independent moral voice and makes her seem merely deferential."
+      "explanation": "The book positions McGonagall as an active intellectual partner to Dumbledore in crisis moments \u2014 she interrogates, speculates, and reacts with genuine emotion ('shudder to think'). The film version positions her more as Dumbledore's subordinate awaiting direction. This is a consistent pattern in the film that cumulatively reduces her from co-authority to support role, which damages how the audience understands her standing at the school."
     },
     {
-      "scene": "PS/SS Film - Quidditch discovery scene",
-      "book_baseline": "McGonagall is 'almost speechless with shock,' her glasses flash furiously, she marches Harry silently through the castle building dread, then pivots to delight \u2014 secretly thrilled, tells Harry his father would have been proud, and then suddenly smiles. The scene shows her complexity: strict disciplinarian who is also a passionate Quidditch partisan with genuine warmth for Harry.",
-      "film_portrayal": "The scene is compressed. The long silent march building dread, the emotional pivot, and crucially the line 'Your father would have been proud' are cut. McGonagall simply announces he's a Seeker.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The 'your father would have been proud' moment is one of the few early glimpses of McGonagall's personal connection to Harry and the Potters. Its absence weakens the sense that she has a special investment in him beyond duty."
-    },
-    {
-      "scene": "PS/SS Film - Troll aftermath",
-      "book_baseline": "McGonagall's lips are white with fury, she is coldly furious, then is visibly moved by Hermione's lie, awards points with evident reluctance and genuine respect. The scene shows her capacity to be surprised, to recalibrate, and to reward courage even when it breaks rules.",
-      "film_portrayal": "The scene plays similarly but the internal texture \u2014 her white lips, her visible recalibration \u2014 is necessarily absent in performance terms. The film version is competent but flatter.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss; the film handles this scene reasonably well. Small reduction in visible emotional complexity."
-    },
-    {
-      "scene": "PS/SS Film - Quidditch commentary (McGonagall and Lee Jordan)",
-      "book_baseline": "McGonagall is shown losing her composure entirely during the Slytherin foul \u2014 hat fallen off, shaking her finger at Malfoy, shouting furiously alongside Lee Jordan. This is a rare moment of undisguised passion breaking through her stern exterior.",
-      "film_portrayal": "McGonagall is shown giggling happily when Harry catches the Snitch, which is charming, but the specific moment of her losing composure over the foul and shouting alongside Lee is not present in the same way.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The book's version shows McGonagall's passion overriding her dignity in a specific, funny, humanizing way. The film substitutes a gentler giggle. Small but real loss of character texture."
-    },
-    {
-      "scene": "CoS Film - Flying car scene / McGonagall's response",
-      "book_baseline": "McGonagall almost smiles when Harry argues Gryffindor shouldn't lose points since term hadn't started; 'her mouth looked less thin.' She is strict but fair, and her near-smile shows she appreciates the argument even while refusing it. She also provides sandwiches.",
-      "film_portrayal": "The scene is handled competently and the near-smile moment is present in spirit. This is one of the better-adapted McGonagall scenes.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage; the film captures the essential dynamic adequately."
-    },
-    {
-      "scene": "CoS Film - McGonagall's Chamber of Secrets explanation",
-      "book_baseline": "McGonagall tells the class about the Chamber in response to Hermione's question during Transfiguration, visibly worried. The scene establishes her as someone who takes the threat seriously and treats students as capable of handling difficult truths.",
-      "film_portrayal": "The scene is present and handled well. McGonagall's worry is conveyed.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Adequately adapted. Minimal damage."
-    },
-    {
-      "scene": "CoS Film - McGonagall and Trelawney / Pettigrew regret",
-      "book_baseline": "In the Three Broomsticks, McGonagall expresses genuine regret about being sharp with Pettigrew, her voice thickening: 'You can imagine how I \u2014 how I regret that now.' This shows her capacity for guilt and self-reproach.",
-      "film_portrayal": "The Three Broomsticks scene is present in PoA film. McGonagall's line about Pettigrew ('little lump of a boy, always tagging after Black') is included but the specific expression of personal regret ('how I regret that now') is absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss of self-reproach and vulnerability that humanizes McGonagall."
-    },
-    {
-      "scene": "PoA Film - Hogsmeade permission refusal",
-      "book_baseline": "McGonagall refuses Harry's Hogsmeade request with an 'odd expression on her face \u2014 was it pity?' She is clearly sorry but bound by rules. The pity is explicit and shows her awareness of Harry's difficult circumstances.",
-      "film_portrayal": "McGonagall refuses firmly and adds 'I'm sorry, Potter, but that's my final word' with a flicker of something, but the explicit pity and the sense of her genuine regret are less developed.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss of the sympathetic dimension of her rule-enforcement."
-    },
-    {
-      "scene": "PoA Film - Firebolt confiscation",
-      "book_baseline": "McGonagall confiscates the Firebolt because she genuinely believes it may be cursed by Sirius Black \u2014 she is acting out of protective concern for Harry, not bureaucratic rigidity. She is 'quite kind' when explaining. Wood's complaint that she seemed to care more about Harry staying alive than winning the Cup shows her priorities clearly.",
-      "film_portrayal": "The confiscation happens but the nuance of her genuine protective motivation and the 'quite kind' manner are less visible. She comes across as more procedurally strict than warmly protective.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book makes clear McGonagall's protectiveness of Harry is the driver. The film risks reading as bureaucratic strictness, slightly misrepresenting her motivation."
-    },
-    {
-      "scene": "PoA Film - McGonagall's Patronus / Time-Turner reveal",
-      "book_baseline": "McGonagall gave Hermione the Time-Turner, wrote letters to the Ministry vouching for her, and trusted her with an extraordinary responsibility. This shows McGonagall's investment in Hermione's potential and her willingness to go to bat for students she believes in.",
-      "film_portrayal": "The Time-Turner is mentioned as coming from McGonagall, which is faithful. This is adequately handled.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage; the attribution is present."
-    },
-    {
-      "scene": "PoA Film - McGonagall stunned by Umbridge's forces (OotP book material, not PoA)",
-      "book_baseline": "In OotP, McGonagall is Stunned by four Ministry wizards while defending Hagrid \u2014 she takes four Stunners to the chest and is hospitalized. This is a moment of tremendous courage and the aftermath (Harry realizing she is gone, feeling bereft) is significant.",
-      "film_portrayal": "The OotP film does not include this scene at all. McGonagall is present throughout the film but her Stunning and hospitalization are omitted entirely.",
+      "scene": "Film Scene 3 (Staff meeting, Scene 125) - McGonagall announces Ginny's abduction",
+      "book_baseline": "Book Scene 140-152 shows McGonagall at her most authoritative and most emotionally raw simultaneously. She tells the staff 'It has happened' with terrible gravity, is 'very white,' says 'This is the end of Hogwarts,' and then masterfully and coldly maneuvers Lockhart into exposing himself \u2014 'We'll leave it to you, then, Gilderoy... Tonight will be an excellent time to do it... A free rein at last' \u2014 with 'flared nostrils.' This is one of her finest book moments: grief, authority, and cold strategic wit all at once.",
+      "film_portrayal": "In the film (Scene 125), McGonagall delivers the announcement and the Lockhart-maneuvering, but the scene is notably compressed. The 'very white' emotional weight is present but truncated. Crucially, in the film it is SNAPE who explicitly names and triggers Lockhart ('Weren't you saying just last night that you've known all along...?'), with McGonagall then landing the final 'That settles it. We'll leave it to you.' In the book, McGonagall orchestrates the entire Lockhart exposure herself without Snape's assistance.",
       "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of the clearest agency transfers in the film. The book gives McGonagall sole credit for the cold strategic brilliance of maneuvering Lockhart. In the film, Snape does the heavy lifting of the accusation and McGonagall merely closes it. Her 'flared nostrils' authority and lone-handed strategic wit \u2014 a defining moment \u2014 is diluted by sharing the action with Snape. This damages a key demonstration of her intelligence and composure-under-grief."
+    },
+    {
+      "scene": "Film Scene 3 (Quidditch cancellation, Scene 106) - McGonagall's emotional register with Harry and Ron",
+      "book_baseline": "Book Scene 98 shows McGonagall using a 'surprisingly gentle voice' as she approaches Harry and Ron to tell them about Hermione's attack \u2014 'This will be a bit of a shock.' This is a notable deviation from her normal severity and signals her genuine care for students in crisis. She also allows Ron to accompany Harry without prompting: 'Yes, perhaps you'd better come, too, Weasley.'",
+      "film_portrayal": "In the film (Scenes 106-107), McGonagall cancels the match, tells Wood 'Silence,' then tells Harry and Ron to come with her and warns them outside the hospital wing 'I warn you. This will be a bit of a shock.' The 'surprisingly gentle voice' quality is present in the warning line, which is faithful. However, Ron is not spontaneously included by McGonagall \u2014 rather she says 'Potter, you and I will find Mr. Weasley' as if already planning to include him. This is approximately faithful.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is largely faithful. The gentle warning is preserved. The minor loss is the spontaneous, unprompted warmth of 'Yes, perhaps you'd better come, too, Weasley' \u2014 a small humanizing beat. Damage is negligible; flagged for completeness."
+    },
+    {
+      "scene": "Film Scene 3 (Common room address, Scene 108) - McGonagall's 'choked voice' and emotional disclosure omitted",
+      "book_baseline": "Book Scenes 105-106 show McGonagall addressing the Gryffindors in a 'somewhat choked voice,' saying 'I need hardly add that I have rarely been so distressed,' and personally urging anyone with information to come forward. This is a rare moment of McGonagall allowing students to see her genuine distress \u2014 it is humanizing and marks the crisis as deeply personal to her.",
+      "film_portrayal": "In the film (Scene 108), McGonagall reads from the parchment with the rules, adds 'I should tell you all this. Unless the culprit behind these attacks is caught, it is likely that the school will be closed,' and then exits. The 'choked voice,' the 'rarely been so distressed' disclosure, and the personal appeal for information are absent. She exits immediately after the announcement without the emotional beat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The choked-voice moment in the book is one of the few times McGonagall allows vulnerability to show to students \u2014 it is characterization gold. The film's McGonagall exits cleanly and efficiently. This is consistent with a pattern of the film keeping her professional composure intact at the cost of the humanizing cracks in that composure. Across multiple scenes, this pattern amounts to a flattening of her emotional depth."
+    },
+    {
+      "scene": "Film Scene 3 (Corridor scene, Scene 75) - McGonagall's curtness with Harry when found near Justin",
+      "book_baseline": "Book Scene 72 has McGonagall say 'This is out of my hands, Potter' curtly \u2014 which the film preserves. However, the book McGonagall also goes through the gargoyle corridor WITH Harry (Scene 73-78), accompanies him to Dumbledore's office, and leaves him there alone \u2014 showing her continued presence and responsibility for him. The book also shows she uses 'Lemon drop' as the password and physically escorts him up the moving staircase.",
+      "film_portrayal": "In the film (Scenes 75-76), McGonagall tells Harry 'This is out of my hands, Potter. Mr. Filch, will you take care of this, please?' \u2014 and then leads Harry away, but Filch is also present. At the gargoyle (Scene 76), she says 'Sherbet lemon' and tells Harry 'Professor Dumbledore will be waiting for you' then 'ushers Harry inside' \u2014 but does not accompany him up. The film compresses the escort and has her hand Harry off more abruptly.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression. The book's McGonagall physically accompanies Harry all the way to Dumbledore's door and leaves him there \u2014 a small gesture of responsibility and care even while being stern. The film has her dispatch him more briskly. Small loss of the relationship texture between McGonagall and Harry as his Head of House who takes personal responsibility for him."
+    },
+    {
+      "scene": "Film Scene 3 (Corridor scene near end, Scene 124/125) - McGonagall's magnified voice announcement",
+      "book_baseline": "Book Scene 138 shows McGonagall's magically magnified voice ordering all students to dormitories and all teachers to the staff room \u2014 a moment of authoritative command over the whole school. This leads directly to Harry and Ron hiding in the wardrobe to eavesdrop on the staff meeting, where they witness McGonagall at her most commanding and most emotionally exposed.",
+      "film_portrayal": "The film (Scene 124) preserves McGonagall's magnified voice announcement faithfully: 'All students are to return to their house dormitories at once. All teachers to the second floor corridor. Immediately.' This is closely adapted from the book. The subsequent staff meeting scene (Scene 125) is also present. This is largely faithful.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Largely faithful. Minor note: in the book the staff meeting takes place in the staff room and Harry/Ron hide in a wardrobe, giving the scene a more intimate, eavesdropped quality. In the film, Harry and Ron observe from a stairwell as the staff gathers in the corridor in front of the defiled wall. The shift to the corridor setting makes McGonagall's delivery slightly more public and less intimate, but this is a staging choice that does not meaningfully damage her characterization."
+    },
+    {
+      "scene": "Film Scene 3 (Dumbledore's office finale, Scene 135) - McGonagall's role at the resolution",
+      "book_baseline": "Book Scene 158-172 shows McGonagall at the resolution in her own office (Dumbledore uses her desk and her office), taking 'great, steadying gasps, clutching her chest' with relief upon Harry's return \u2014 a vivid image of her emotional investment in the outcome. She prompts Harry's account ('Very well... so you found out where the entrance was \u2014 breaking a hundred school rules into pieces along the way, I might add \u2014 but how on earth did you all get out of there alive, Potter?') with sharp wit even in relief. She is then sent by Dumbledore to 'alert the kitchens' for the feast, to which she responds 'Right' crisply. The final feast shows 'Professor McGonagall standing up to' (the sentence cuts off in the corpus but clearly she stands and participates in the celebration).",
+      "film_portrayal": "In the film (Scene 135), the resolution takes place in Dumbledore's office (not McGonagall's). McGonagall appears only briefly: Dumbledore asks her to 'show Arthur and Molly up to the hospital wing' and she says 'Certainly, Albus' and exits. She plays no further role in the resolution scene. The 'steadying gasps clutching her chest,' the sharp wit interrogating Harry's account, and her presence at the feast celebration are all absent.",
+      "damage_type": "agency/function | nuance/lost material",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "McGonagall's act of courage in defending Hagrid against Ministry forces, and her subsequent absence from the castle at a critical moment, is a significant character beat. Its omission removes a demonstration of her physical courage and her importance to Harry's sense of security. The book's line \u2014 'he had always expected Professor McGonagall to be there' \u2014 lands with real weight precisely because she is suddenly gone."
+      "explanation": "This is the most damaging single omission in the corpus. The book's resolution scene is partly set in McGonagall's office (a territorial signal of her importance), she has a visceral physical reaction showing deep emotional investment, she delivers one of her funniest and most characteristic lines (breaking rules 'into pieces'), and she participates actively in the aftermath. The film reduces her to a one-line errand runner. The cumulative portrait of McGonagall as co-authority, wit, and emotionally invested guardian is at its sharpest here in the book \u2014 and almost entirely absent in the film. This also means the audience never sees her genuine relief or warmth at Harry's survival."
     },
     {
-      "scene": "OotP Film - Careers consultation / McGonagall vs Umbridge",
-      "book_baseline": "The careers consultation is one of McGonagall's finest scenes: she stands up to Umbridge with escalating fury, declares she will help Harry become an Auror 'if it is the last thing I do,' shouts that there may be a new Minister by the time Harry is ready, and is described as towering over Umbridge. It is a full display of her loyalty, her passion, and her willingness to fight.",
-      "film_portrayal": "This scene is entirely absent from the OotP film. McGonagall's confrontation with Umbridge over Harry's future is not depicted.",
+      "scene": "PoA - Clock Tower Courtyard / Hogsmeade departure (Film Scene 2-3)",
+      "book_baseline": "In the book, McGonagall refuses Harry's request in her classroom, after he has worked up the courage to ask. The refusal is delivered with a moment of visible pity ('Was it pity?') and she stands up, piles her papers, and says 'I'm sorry, Potter, but that's my final word.' The emotional register includes both firmness and genuine regret.",
+      "film_portrayal": "In the film, McGonagall cuts Harry off before he can even speak \u2014 'No permission form. No visiting the Village. That's the rule, Potter' \u2014 and then in the courtyard delivers the fuller refusal with a 'flicker of pity.' The preemptive shutdown removes Harry's small act of courage in asking, and compresses the moment into a more mechanical rule-enforcement beat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book scene shows McGonagall reading Harry, letting him speak, and responding with measured sympathy. The film's preemptive dismissal flattens her perceptiveness and reduces a small but warm character moment. Damage is minor because the pity beat is retained in the follow-up exchange."
+    },
+    {
+      "scene": "PoA - Three Broomsticks back room conversation (Film Scene 7)",
+      "book_baseline": "In the book, the Three Broomsticks conversation is overheard by Harry from under a table, and McGonagall delivers a richer, more emotionally textured account. She recalls Black and Potter as 'ringleaders,' voices genuine sorrow over Pettigrew ('I was often rather sharp with him. You can imagine how I \u2014 how I regret that now... She sounded as though she had a sudden head cold'), and blows her nose, calling Pettigrew 'stupid boy... foolish boy.' Her grief and self-reproach are clearly rendered.",
+      "film_portrayal": "In the film's back-room scene, McGonagall's dialogue is condensed. The personal regret about Pettigrew ('I was often rather sharp with him... how I regret that now') is entirely absent. She delivers the exposition about Black being the Potters' Secret-Keeper and godfather efficiently, but the emotional crack in her composure \u2014 the self-blame, the grief \u2014 is cut. The film McGonagall is grimly informative rather than personally wounded.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to show McGonagall's humanity: she blames herself for being hard on Pettigrew, she weeps, she loses composure. This is a rare window into her inner life and her connection to the Marauder generation. The film strips this to pure plot delivery, reducing her from a character with personal stakes in these events to a functional exposition source."
+    },
+    {
+      "scene": "PoA - Gryffindor Tower after Sirius's break-in / Neville confrontation (Film Scenes 8-9, but Scene 9 is a cut scene)",
+      "book_baseline": "In the book, McGonagall's response to Sirius's break-in via Neville's written passwords is a controlled fury: 'Which person... which abysmally foolish person wrote down this week's passwords and left them lying around?' She is 'white as chalk,' visibly shaken that Black got through. She returns at dawn to report he has escaped. Her punishment of Neville (banning him from Hogsmeade, detention, forbidding anyone to give him the password) is firm but measured, and the scene shows her simultaneously managing the crisis and holding herself together.",
+      "film_portrayal": "The 'pyjama gathering' scene (Film Scene 9, featuring McGonagall comforting Neville and issuing instructions to the House) is explicitly listed as a cut scene that never reached the theatrical release. The confrontation with Neville in Film Scene 8 ('Is it always going to be you, Longbottom?') was also cut per the non-theatrical exclusion note. The theatrical film therefore loses all of McGonagall's crisis-management characterisation in the aftermath of the break-in.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "McGonagall's composure-under-pressure, her moral authority, and her specific relationship with Neville (strict but ultimately protective) are all carried in these excised scenes. Their absence means the theatrical audience sees none of her response to the most dangerous event at Hogwarts this term. This is a meaningful loss of character texture, though not structurally critical to her overall arc."
+    },
+    {
+      "scene": "PoA - Time-Turner reveal, Hospital Wing (Film Scene 10)",
+      "book_baseline": "In the book, Hermione's Time-Turner backstory is rich with McGonagall's agency: McGonagall personally lobbied the Ministry of Magic, wrote letters on Hermione's behalf, vouched for her as a 'model student,' and swore Hermione to secrecy. McGonagall is the active enabler of Hermione's extraordinary academic year and the indirect enabler of the climax's time-travel solution.",
+      "film_portrayal": "In the film, Hermione says 'McGonagall gave it to me first term. This is how I've been getting to my lessons all year.' The fact of McGonagall's role is stated, but the labour behind it \u2014 the letters to the Ministry, the personal vouching, the trust placed in Hermione \u2014 is entirely absent. Additionally, Hermione attributes the purpose of their time-travel not to McGonagall but to Dumbledore: 'Dumbledore wanted us to return to this moment.' McGonagall's role as the architect of the tool that saves the climax is invisibilised.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The book establishes that McGonagall is the reason the Time-Turner exists in Harry's orbit at all \u2014 she fought for it institutionally and entrusted it to Hermione. The film credits Dumbledore with directing the time-travel mission and reduces McGonagall to a name-checked prop-giver. This transfers meaningful agency from McGonagall to Dumbledore at the story's most consequential moment, diminishing her functional importance to the plot's resolution."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Chamber scene after Harry's name is drawn from the Goblet",
+      "book_baseline": "In the book, McGonagall sharply defends Harry, asserting he could not have crossed the Age Line himself and that Dumbledore's judgment should be sufficient for everyone. She is fierce, loyal, and certain in her defence of Harry and Dumbledore's integrity.",
+      "film_portrayal": "In the film, McGonagall's first instinct is to tell Dumbledore to put an end to it and not let Potter compete. She advocates for removing Harry from the tournament rather than defending his innocence. Her defence of Harry is reframed as protective alarm rather than principled advocacy for his integrity.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book McGonagall is unequivocal in defending Harry's innocence and Dumbledore's competence; her anger is directed outward at those doubting them. The film version leads with a pragmatic 'pull him out' position, which undercuts her loyalty to Harry and her instinct to champion him. The relationship dynamic between McGonagall and Harry as a trusted advocate is weakened."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Transfiguration classroom, Yule Ball dance lesson",
+      "book_baseline": "The book establishes McGonagall announcing the Yule Ball in Transfiguration with stern authority. She is sardonic, controlled, and slightly uncomfortable with the subject of dancing ('let our hair down' said in a disapproving voice), which produces gentle ironic humour at her own expense. She privately holds Potter back after class to inform him of his obligation to open the ball \u2014 a brief, firm, almost private exchange that reveals her dry insistence on duty and tradition without any physical demonstration.",
+      "film_portrayal": "The film invents an extended dance lesson in which McGonagall physically pulls Ron up to demonstrate dancing, delivers an elaborate poetic speech about swans and lions, and participates in a comedic set piece. This is an invented scene with no book basis.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "While the scene is not actively hostile to McGonagall's character, it replaces her carefully calibrated, dry sternness with a broader, more theatrical comedic register. The book's McGonagall is funny precisely because she is austere and self-controlled; the film's version becomes a more conventional comic schoolmarm. This dilutes the specificity of her voice and the particular irony the book mines from her discomfort with frivolity."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 First task, walking Harry to the champions' tent",
+      "book_baseline": "The book gives McGonagall a quiet, emotionally revealing moment: she walks Harry to the tent, places her hand on his shoulder, gives him nervous but practical encouragement ('don't panic\u2026 keep a cool head'), and leaves him at the tent entrance in 'a rather shaky sort of voice.' This is one of the book's rare glimpses of genuine maternal anxiety beneath her stern exterior.",
+      "film_portrayal": "This scene is absent from the film corpus. McGonagall does not walk Harry to the tent, does not touch his shoulder, and does not deliver the anxious encouragement. Her emotional investment in Harry's survival before the first task is not shown.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The walk to the tent is one of the few moments in the book where McGonagall's affection for Harry surfaces visibly. Its absence removes a layer of relational warmth and vulnerability that enriches both her character and the Harry\u2013McGonagall dynamic. The film loses an opportunity to show that her sternness coexists with genuine care."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 After the first task, McGonagall's reaction to Harry's success",
+      "book_baseline": "The book has McGonagall cry out 'That was excellent, Potter!' and notes that 'from her this was extravagant praise,' while also noting her hand shook as she pointed at his shoulder. The narratorial gloss is essential: the praise is meaningful precisely because it is exceptional for her.",
+      "film_portrayal": "This post-task beat with McGonagall is not present in the film corpus. There is no equivalent moment of McGonagall's visible relief and rare, shaky praise after the first task.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book deliberately signals how unusual McGonagall's emotional display is, which gives it weight. Losing this moment removes a small but characterful beat that shows her investment in Harry beyond the merely professional. Cumulatively, the absence of this and the tent scene erodes the texture of her relationship with Harry."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Hospital wing confrontation with Fudge over the dementor",
+      "book_baseline": "The book shows McGonagall at her most furious and unguarded: trembling, screaming, blotching red, balling her fists, losing control in a way Harry has never seen before. She is righteously outraged that Fudge allowed a dementor to destroy Barty Crouch Jr.'s soul, removing the only witness to Voldemort's return. She calls Fudge a fool and directly challenges him on Cedric's death.",
+      "film_portrayal": "This scene is entirely absent from the film corpus. The confrontation between McGonagall and Fudge in the hospital wing does not occur in the film material provided.",
+      "damage_type": "agency/function | nuance/lost material | arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the book's most dramatic display of McGonagall's moral courage and political clarity. She is the character who most vocally and physically resists Fudge's cover-up in this moment \u2014 naming Cedric and Crouch as non-random deaths, confronting Ministry denial head-on. Its loss removes a significant demonstration of her function as a moral witness and institutional resister, which is foundational to her role across the later books. The film loses the most vivid evidence of her capacity for righteous fury in service of truth."
+    },
+    {
+      "scene": "Goblet of Fire \u2013 Yule Ball procession / McGonagall informing Harry he must open the ball",
+      "book_baseline": "In the book, McGonagall holds Harry back privately after class, is suspicious when he claims ignorance, is irritated by his resistance ('Oh yes, you do'), and is firm but not unkind \u2014 a one-on-one exchange that has a dry, slightly exasperated intimacy.",
+      "film_portrayal": "In the film, McGonagall delivers the news to Harry in a more public, rushed context just before the procession ('Surely I told you that\u2026 well, now you know'), with less of the dry private dynamic. The exchange is compressed and loses the specific comedic texture of Harry's resistance and her implacable firmness.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor compression, but the private, slightly exasperated one-on-one with Harry that the book stages is replaced by a more perfunctory public instruction. The specific quality of her voice \u2014 suspicious, sardonic, immovable \u2014 is diluted into a brisk logistical note."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 McGonagall confronts Umbridge over Harry's detention/discipline",
+      "book_baseline": "In the book, McGonagall's confrontations with Umbridge are marked by sharp wit, cold fury, and strategic restraint. She tells Harry to 'tread carefully around Dolores Umbridge,' offers him biscuits while delivering hard truths, and exercises calculated diplomatic caution \u2014 she is simultaneously protective and pragmatic, understanding the political landscape.",
+      "film_portrayal": "In the film corpus, McGonagall's dialogue with Umbridge is reduced to a brief exchange about 'medieval methods' and 'prescribed disciplinary practices.' The rich private scene with Harry \u2014 the biscuit tin, the frank political advice, the genuine care masked by severity \u2014 is entirely absent. The film McGonagall registers as a one-note institutional objector rather than a complex, politically aware operator.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's office scene is one of the defining characterization moments for McGonagall in OotP: she shows warmth, strategic intelligence, and genuine mentorship beneath her stern exterior. The film collapses this into a public sparring line, stripping her of the layered private relationship with Harry and the demonstration that she understands power and chooses her battles deliberately."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Trelawney dismissal; McGonagall's response reduced to 'Oh, dear'",
+      "book_baseline": "The book establishes McGonagall breaking away from the spectators, marching to Trelawney, patting her firmly on the back, producing a large handkerchief, and saying 'There, there, Sybill... you are not going to have to leave Hogwarts.' She then assertively challenges Umbridge's authority before Dumbledore arrives. This shows compassion for a colleague she is not particularly close to, and institutional defiance.",
+      "film_portrayal": "In the film corpus, McGonagall's entire verbal response before Dumbledore arrives is 'Oh, dear' and 'Oh, there are several things I would like to say,' followed by comforting Trelawney with 'There. Shh, shh.' The specific declaration that Trelawney is not going to have to leave Hogwarts \u2014 the moment of direct defiance of Umbridge's authority \u2014 is absent, and her compassion is rendered as a muted reaction rather than active intervention.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book gives McGonagall a moment of moral courage and open institutional defiance here \u2014 she explicitly contradicts Umbridge's authority in front of students and staff before Dumbledore even arrives. The film reduces her to a supporting comforter. Her agency in challenging Umbridge is transferred almost entirely to Dumbledore's entrance, weakening her independent standing."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Careers consultation scene absent",
+      "book_baseline": "The careers consultation is one of McGonagall's greatest scenes in the entire series: she stands up to Umbridge, shouts her down, declares 'I will assist you to become an Auror if it is the last thing I do,' explicitly challenges the Minister's authority ('There may well be a new Minister for Magic by the time Potter is ready to join'), and shows fierce, personal championship of Harry. It demonstrates her loyalty, her courage, her political boldness, and her deep investment in Harry's future.",
+      "film_portrayal": "This scene does not appear in the film corpus at all. There is no careers consultation, no McGonagall-Umbridge confrontation over Harry's future, and no declaration of personal commitment to Harry becoming an Auror.",
       "damage_type": "agency/function",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This is the single most damaging omission for McGonagall's character. The careers consultation scene is her most active, passionate, and personally committed moment in the entire series to this point. It establishes her as Harry's champion in a direct, personal way that goes beyond duty. Its absence means the film audience never sees McGonagall fight for Harry's future with her own voice and fury."
+      "explanation": "This is the single most characterization-rich McGonagall scene in Order of the Phoenix. Its complete absence removes her most explicit act of personal loyalty to Harry, her most direct political defiance of the Ministry, and her clearest demonstration of moral courage in a professional context. It also removes a key moment in the Harry-McGonagall relationship that pays off her role as a dependable protector. The damage is substantial."
     },
     {
-      "scene": "OotP Film - McGonagall's subtle resistance to Umbridge (Peeves, swamp)",
-      "book_baseline": "McGonagall is 'clearly heard to express a regret that she could not run cheering after Umbridge herself, because Peeves had borrowed her walking stick.' She tells Peeves 'it unscrews the other way' when he is loosening a chandelier. These moments show her quiet, gleeful subversion.",
-      "film_portrayal": "These moments of McGonagall's quiet resistance and dry humor are absent from the film.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's McGonagall has a subversive wit and takes private pleasure in Umbridge's discomfiture. The film's McGonagall is more straightforwardly oppositional. The loss of these small moments reduces her from a complex, quietly funny resister to a more simply stern authority figure."
-    },
-    {
-      "scene": "OotP Film - McGonagall during Umbridge inspection",
-      "book_baseline": "During Umbridge's inspection of her class, McGonagall refuses to acknowledge Umbridge's presence, delivers a devastating put-down ('I wonder how you expect to gain an idea of my usual teaching methods if you continue to interrupt me'), and is described as 'supremely unconcerned.' Harry thinks 'his anger with Professor McGonagall had quite evaporated.'",
-      "film_portrayal": "The inspection scene is not depicted in the OotP film.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 1 \u2013 McGonagall's Umbridge inspection scene absent",
+      "book_baseline": "The book's inspection scene is a masterclass in McGonagall's character: she ignores Umbridge's entrance entirely, deploys devastating sarcasm ('I wonder how you expect to gain an idea of my usual teaching methods if you continue to interrupt me? You see, I do not generally permit people to talk when I am talking'), offers Umbridge a cough drop with cutting politeness, and the students witness her absolute command. Harry's anger at her evaporates immediately because she handles Umbridge better than he ever could.",
+      "film_portrayal": "This scene does not appear in the film corpus. There is no classroom inspection of McGonagall by Umbridge depicted.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "This scene is a showcase for McGonagall's particular brand of icy, controlled defiance \u2014 very different from open confrontation. Its absence means the film never shows this dimension of how she handles authority she considers illegitimate."
+      "impact_weight": 3,
+      "explanation": "The inspection scene establishes McGonagall as the most effective staff resister to Umbridge \u2014 not through open confrontation but through withering, controlled authority. It also shifts Harry's emotional relationship with her (his resentment dissolves into admiration). Its absence means the film audience never sees McGonagall at her most formidably competent, and the contrast between her method and Harry's impulsive resistance is lost."
     },
     {
-      "scene": "GoF Film - McGonagall's response to Harry's Triwizard selection",
-      "book_baseline": "In the book, McGonagall defends Harry vigorously when others suggest he cheated, insisting Dumbledore did not make a mistake with the Age Line and that Harry could not have crossed it. She shoots 'a very angry look at Professor Snape.'",
-      "film_portrayal": "In the film, McGonagall says 'Put an end to it. Don't let Potter compete' and 'the devil with Barty and his rules.' While this shows concern for Harry, it is a different emphasis \u2014 she is arguing for Harry's protection by withdrawal rather than defending his innocence and Dumbledore's competence. The line 'Potter is a boy, not a piece of meat' is present and strong.",
+      "scene": "Film Scene 1 \u2013 McGonagall's subversive assistance (Peeves, swamp) absent",
+      "book_baseline": "The book shows McGonagall walking past Peeves and whispering 'It unscrews the other way,' actively encouraging disruption of Umbridge's regime. Combined with her allowing Umbridge to struggle with the fireworks, this establishes her as a covert insurgent \u2014 she works within institutional forms while quietly undermining Umbridge's control.",
+      "film_portrayal": "This material does not appear in the film corpus. McGonagall's covert subversive role against Umbridge's headmistress regime is not depicted.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "These moments reveal a side of McGonagall rarely seen \u2014 dry, mischievous, and willing to bend rules for a just cause. They show her as a full moral agent who resists tyranny in her own way. Their absence flattens her into a purely formal institutional figure and removes the humor and humanity that make her resistance compelling."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 McGonagall Stunned defending Hagrid: consequence depicted but buildup/context absent",
+      "book_baseline": "The book establishes McGonagall sprinting from the castle shouting 'How dare you!' and 'Leave him alone!' before being hit by four Stunners simultaneously \u2014 an act of extraordinary physical courage that results in her hospitalization. Harry subsequently reflects that he had 'always expected Professor McGonagall to be there, irascible and inflexible, perhaps, but always dependably, solidly present,' and Madam Pomfrey calls the attack 'despicable cowardice.' This is her most heroic physical moment in the series.",
+      "film_portrayal": "The film corpus references Harry seeing the attack from the Astronomy tower ('It's McGonagall!') and depicts the Stunners hitting her, but the book's full emotional weight \u2014 her shouted defiance, Harry's reflection on her dependability, Madam Pomfrey's tribute \u2014 is not present in the corpus as rendered dialogue or scene content. The event occurs but its characterization function is compressed.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The film's McGonagall is protective but the specific defense of Harry's innocence and Dumbledore's judgment is replaced by a more general protective instinct. Minor shift in characterization."
+      "impact_weight": 2,
+      "explanation": "The attack itself appears in both versions, so the core event is not lost. However, the book frames it as a defining statement of McGonagall's courage and her centrality to Harry's sense of security at Hogwarts. The film corpus shows the spectacle without the emotional and characterization scaffolding that makes it resonate as a character moment rather than just a plot event."
     },
     {
-      "scene": "GoF Film - Yule Ball dancing lesson",
-      "book_baseline": "The Yule Ball announcement scene in the book shows McGonagall's dry humor about 'letting our hair down' (while her hair is in a tight bun), her embarrassment at having to discuss dancing, and her firm insistence that Harry must open the ball. It is a humanizing, slightly comic scene.",
-      "film_portrayal": "The film includes the dancing lesson with McGonagall and Ron, which is a good addition not in the books, and captures her awkward authority in a physical comedy context. However, the specific dry humor of the 'let our hair down' moment and her visible discomfort are handled differently.",
+      "scene": "Film Scene 1 \u2013 McGonagall's return from St Mungo's and points award",
+      "book_baseline": "In the book, McGonagall returns leaning on a walking stick, immediately commandeers Crabbe and Goyle to carry her bags, and awards fifty points each to Harry and his friends with crisp authority \u2014 then engineers a small reduction of Snape's deduction with obvious satisfaction. It is a triumphant, characterful re-entry that reasserts her presence and her loyalty to Gryffindor and Harry.",
+      "film_portrayal": "This scene does not appear in the film corpus. There is no depicted return from St Mungo's, no points award, and no final McGonagall-Snape exchange.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film actually adds a memorable visual gag (dancing with Ron) that compensates somewhat. Minimal net damage."
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The return scene provides closure on McGonagall's arc in OotP \u2014 she comes back damaged but unbowed, immediately reasserts authority, and rewards Harry's group in a way that acknowledges what they endured. Its absence leaves her hospitalization as an unresolved narrative thread and removes a small but satisfying payoff to her relationship with Harry."
     },
     {
-      "scene": "GoF Film - McGonagall escorting Harry to first task",
-      "book_baseline": "McGonagall walks Harry to the first task, puts her hand on his shoulder, tells him to keep a cool head, and her voice is 'rather shaky.' She is visibly anxious for him. After the task she congratulates him with 'extravagant praise' and her hand shakes as she points at his shoulder.",
-      "film_portrayal": "McGonagall is present at the task and congratulates Harry afterward. The specific detail of her shaking hand and the shoulder-touch walk are not prominent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss of the physical manifestation of her anxiety and care for Harry."
-    },
-    {
-      "scene": "HBP Film - McGonagall after Dumbledore's death",
-      "book_baseline": "McGonagall immediately takes charge after Dumbledore's death, convenes the heads of house, debates whether to close Hogwarts, defends Dumbledore's wish to be buried at the school, and says 'I think all this merits a good feast' on Dumbledore's behalf. She is grief-stricken but functional and authoritative.",
-      "film_portrayal": "The HBP film's McGonagall is present at the wand-raising scene and in the aftermath, but the detailed scene of her convening staff, debating the school's future, and acting as de facto head is compressed or absent.",
+      "scene": "Film Scene 1 \u2013 McGonagall's attempt to fight alongside Dumbledore at his arrest",
+      "book_baseline": "When Dumbledore is about to be taken, McGonagall plunges her hand into her robes to stand alongside him, shouting 'He will not be single-handed!' Dumbledore must order her to stand down ('Hogwarts needs you!'). This establishes her courage, her loyalty to Dumbledore, and Dumbledore's protective regard for her.",
+      "film_portrayal": "In the film corpus, the Dumbledore arrest scene focuses on Dumbledore's own agency and wit ('I have no intention of going to Azkaban'). McGonagall is present (she is shown fearing for Harry and Dumbledore during the scene) but her specific act of drawing her wand to stand alongside Dumbledore and his order to stand down are not depicted in the corpus.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "McGonagall's immediate assumption of leadership after Dumbledore's death is an important character moment showing her institutional role and her composure under grief. Its compression reduces her visible agency at a key moment."
+      "impact_weight": 3,
+      "explanation": "McGonagall's attempt to fight for Dumbledore is one of her clearest expressions of courageous loyalty in the entire series. Dumbledore's line 'Hogwarts needs you' also affirms her institutional importance. The film's version of this scene centers Dumbledore's charisma at the expense of McGonagall's active moral choice, reducing her from a co-protagonist of the scene to a bystander."
     },
     {
-      "scene": "HBP Film - McGonagall's office scene with Harry after Dumbledore's death",
-      "book_baseline": "McGonagall asks Harry what he and Dumbledore were doing, Harry refuses to tell her, she is frustrated but ultimately respects his loyalty to Dumbledore's instructions. She tells Harry 'you meant a great deal to him' \u2014 a rare moment of direct emotional expression.",
-      "film_portrayal": "The film includes a version of this scene where McGonagall tells Harry 'Professor Dumbledore... you meant a great deal to him.' This is present and handled with appropriate restraint.",
+      "scene": "Half-Blood Prince - McGonagall's office / Katie Bell investigation (Film Scene 2)",
+      "book_baseline": "In the book, McGonagall conducts the Katie Bell investigation entirely herself. She takes charge of the necklace, directs it to Snape, questions Leanne, dismisses her kindly, and then engages Harry's accusation of Malfoy in a substantive, procedurally rigorous way \u2014 citing evidence, counter-evidence, and ultimately the alibi that Malfoy was in detention with her. She is the sole authority in the room.",
+      "film_portrayal": "Snape is invited into the investigation and takes a co-equal or dominant role \u2014 he handles the necklace, passes judgment ('Miss Bell is lucky to be alive'), and delivers the sharpest rebuke to Harry ('You astonish with your gifts, Potter'). McGonagall defers to Snape's assessment and her challenge to Harry ('That's a very serious accusation, Potter') is immediately overshadowed by Snape's mocking follow-up. The alibi scene (Malfoy was in detention with McGonagall) is absent from the film scene entirely.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "McGonagall loses her function as the sole competent authority managing this crisis. Snape's insertion diminishes her agency; her procedural rigour and independent investigative voice are displaced. The book's detail that she personally provided Malfoy's alibi \u2014 which both closes off Harry's accusation and quietly demonstrates her thoroughness \u2014 is lost, reducing her to a scene-setter for Snape's wit."
+    },
+    {
+      "scene": "Half-Blood Prince - McGonagall's office / Katie Bell investigation (Film Scene 2)",
+      "book_baseline": "When Harry accuses Malfoy, McGonagall presses him methodically through every stage of his evidence \u2014 did he see Malfoy leave the shop with a package? Did Malfoy have it with him in Borgin and Burkes? She is genuinely engaged with the logic and only dismisses the accusation once it is shown to have no evidentiary foundation. Her final, clinching refutation is the alibi she herself holds.",
+      "film_portrayal": "Harry's evidential reasoning is entirely absent from the film scene. He simply says 'I just know,' and the accusation collapses immediately. McGonagall delivers the accusation-is-serious line but the whole investigative exchange is truncated, leaving her with nothing to weigh or refute.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film handles this scene adequately. Minimal damage."
-    },
-    {
-      "scene": "DH2 Film - McGonagall's confrontation with Amycus Carrow / 'Potter belongs in my House'",
-      "book_baseline": "When Amycus says Harry might try to get into Ravenclaw Tower, McGonagall says 'Why would Harry Potter try to get inside Ravenclaw Tower! Potter belongs in my House!' \u2014 and Harry hears 'a little strain of pride in her voice and affection for Minerva McGonagall gushed up inside him.'",
-      "film_portrayal": "This specific exchange and the emotional beat of Harry hearing pride in her voice are not present in the DH2 film in this form.",
-      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "This is one of the most direct expressions of McGonagall's personal pride in and affection for Harry in the entire series. Its absence removes a key moment of their relationship being made explicit at a climactic point."
+      "explanation": "The book establishes McGonagall as someone who takes Harry seriously enough to engage his argument on its merits before rejecting it \u2014 a mark of intellectual respect and procedural fairness. The film reduces the exchange to a one-liner rebuff, stripping her of that nuanced fairness and making her dismissal feel reflexive rather than considered."
     },
     {
-      "scene": "DH2 Film - McGonagall's 'I've always wanted to use that spell'",
-      "book_baseline": "After casting Piertotum Locomotor, McGonagall says nothing equivalent in the book \u2014 the line does not exist.",
-      "film_portrayal": "The film adds 'I've always wanted to use that spell!' \u2014 a line not in the books.",
+      "scene": "Half-Blood Prince - Corridor / Schedule distribution (Film Scene 1)",
+      "book_baseline": "The schedule distribution in the book is a full scene of McGonagall functioning at her characteristic best: she moves from student to student, makes fine-grained judgments, champions Neville against his grandmother with unexpected warmth and wit ('It's high time your grandmother learned to be proud of the grandson she's got'), smiles at his delighted incredulity, and engages Harry about his Auror ambitions with genuine interest and practical care. She is simultaneously rigorous, witty, and personally invested in her students.",
+      "film_portrayal": "The film compresses the entire schedule scene into a brief corridor exchange exclusively with Harry. Neville's interaction \u2014 including McGonagall's landmark defence of him against his grandmother and her offer to write Augusta a letter \u2014 is entirely absent. Hermione's clearance is absent. The full texture of McGonagall as a House Head who knows and advocates for each individual student is lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Neville exchange is one of the most revealing characterisation beats for McGonagall in the entire series: it shows warmth beneath the stern exterior, willingness to advocate for a student against family pressure, and the humour of threatening to write Augusta Longbottom a letter. Its absence means the film loses the defining evidence that McGonagall's strictness is in service of genuine care for students, not mere authority. This is a relationship and personality loss."
+    },
+    {
+      "scene": "Half-Blood Prince - After Dumbledore's death: McGonagall learning the truth (Book Scenes 91\u2013107 vs. Film Scene 6 / absent from film)",
+      "book_baseline": "After Dumbledore's death the book gives McGonagall an extended, emotionally rich sequence: she swoons at the news about Snape, blames herself for sending Flitwick to fetch him, twists her handkerchief, recalls Dumbledore's explicit assurances about Snape's loyalty, and then \u2014 recovering \u2014 takes immediate command: summons Heads of House, handles the Weasleys' arrival, takes Harry to the now-hers headmistress's office, and begins managing the school's future. Grief and duty in balance.",
+      "film_portrayal": "The film's post-death scene (Film Scene 6) shows McGonagall lifting her wand in silent salute in the courtyard \u2014 a visually powerful but wordless gesture. The interior emotional reckoning (self-blame, the revelation about Snape, the memory of Dumbledore's assurances, the immediate resumption of command) is entirely absent from the film corpus provided.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book sequence is McGonagall's most significant dramatic arc moment in the saga: she experiences shock, guilt, grief, and then immediately subordinates all of it to duty. The film reduces her to a background visual. Her self-reproach and recovery are defining characterisation \u2014 she is someone who feels deeply but acts decisively \u2014 and their absence impoverishes both her arc and the audience's understanding of how Dumbledore's death affects his closest colleagues."
+    },
+    {
+      "scene": "Half-Blood Prince - Dumbledore's office post-death: McGonagall assumes headmistress role and questions Harry (Book Scenes 120\u2013150 vs. Film Scene 7)",
+      "book_baseline": "In the book, McGonagall takes Harry to what is now her office (she has become headmistress), is steeled but clearly grief-stricken, presses Harry for information about where he and Dumbledore went, respects his refusal when he invokes Dumbledore's direct instruction, warns him about Rosmerta, manages the arrival of the Ministry, consults with Heads of House about whether Hogwarts should reopen, and ultimately lets Harry go quickly to avoid Scrimgeour. She is fully functional as the new authority of Hogwarts even in the immediate aftermath of the loss.",
+      "film_portrayal": "Film Scene 7 shows McGonagall entering to find Harry holding Dumbledore's wand. She attempts to offer support ('should you feel the need to talk to someone'), falters, and can only manage 'You meant a great deal to him.' The scene is almost entirely about Harry's grief, with McGonagall as a supporting emotional prop. None of the headmistress assumption, the interrogation about the mission, the school's future discussion, or the Ministry management appears.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The film strips McGonagall of her entire post-Dumbledore functional arc \u2014 the assumption of headmistress authority, the command decisions, the interrogation of Harry, the school-future deliberations. Instead she is reduced to a grief-witnessing bystander who cannot find words. This is a significant damage to her characterisation as someone whose response to catastrophe is disciplined action, and it removes her structural function as the institution's new backbone."
+    },
+    {
+      "scene": "Half-Blood Prince - Dumbledore's office: McGonagall falters and cannot speak (Film Scene 7)",
+      "book_baseline": "Even at her most grief-stricken \u2014 dabbing her eyes, twisting her handkerchief, swaying when she hears about Snape \u2014 McGonagall in the book never loses her voice or her capacity for directed speech. She speaks firmly to Harry, firmly to the Heads of House, firmly to the Ministry portrait. Her grief is present but it does not render her inarticulate.",
+      "film_portrayal": "In Film Scene 7 McGonagall explicitly 'falters' and cannot complete her sentences. She attempts 'Potter, in light of what's happened... should you feel the need to talk to someone...' and then trails off. She tries again ('You should know... Professor Dumbledore...') and again cannot finish. She is portrayed as emotionally overwhelmed to the point of near-speechlessness.",
       "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is actually a faithful addition in spirit \u2014 it captures McGonagall's dry humor and long-suppressed excitement. It is not damaging; if anything it is a successful invention. Scored minimally as it slightly risks making her seem less grave at a serious moment, but the consensus is this works well."
-    },
-    {
-      "scene": "DH2 Film - McGonagall's 'Coward!' after Snape",
-      "book_baseline": "In the book, McGonagall chases Snape and shouts 'Coward! COWARD!' as he flees through a window. This is present.",
-      "film_portrayal": "The film includes this moment. Faithfully adapted.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Faithfully adapted. No damage."
-    },
-    {
-      "scene": "OotP Film - McGonagall's 'This is out of my hands, Potter' (Justin/Nick scene)",
-      "book_baseline": "In the book, McGonagall says 'This is out of my hands, Potter' curtly and takes him to Dumbledore \u2014 she is not unkind but is bound by circumstance. The scene is brief.",
-      "film_portrayal": "The film handles this scene faithfully and briefly. No significant damage.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Adequately adapted."
-    },
-    {
-      "scene": "OotP Film - McGonagall's Neville moment (N.E.W.T. scheduling, book 6)",
-      "book_baseline": "In HBP, McGonagall tells Neville's grandmother she 'ought to be proud of the grandson she's got, rather than the one she thinks she ought to have' and offers to write Augusta a letter. This is a moment of McGonagall championing a student against parental pressure with warmth and directness.",
-      "film_portrayal": "This scene is absent from the HBP film.",
-      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "This scene establishes McGonagall's genuine investment in Neville's development and her willingness to challenge even parents on behalf of students. Its absence weakens the McGonagall-Neville relationship that pays off in DH."
+      "explanation": "McGonagall's defining trait \u2014 maintained across the entire book series \u2014 is that she is precise and controlled in speech even under emotional strain. Having her trail off twice and be unable to articulate her thoughts is a soft but real personality divergence, presenting her as more vulnerable and less composed than the books establish. It also relocates the scene's emotional weight entirely onto Harry, making McGonagall a vehicle for his characterisation rather than an agent in her own right."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 855.0,
-  "adjusted_cids_v1": 1068.8
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

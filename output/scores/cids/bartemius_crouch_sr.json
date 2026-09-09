@@ -1,89 +1,98 @@
 {
   "character": "Bartemius Crouch Sr.",
-  "fp_score": 62.0,
-  "infidelity_score": 38.0,
-  "weighted_infidelity_exposure": 52,
-  "cids": 326.5,
-  "damage_per_exposure": 21.8,
+  "fp_score": 63.0,
+  "infidelity_score": 37.0,
+  "weighted_infidelity_exposure": 59.5,
+  "cids": 328.5,
+  "damage_per_exposure": 20.5,
   "structural_damage_level": 4,
-  "adjusted_cids": 326.5,
+  "adjusted_cids": 328.5,
   "main_damage_causes": [
-    "Complete removal of the Winky subplot eliminates the primary lens through which Crouch's cruelty, guilt, and private history are revealed, collapsing his moral characterization",
-    "Absence of the forest breakdown scene removes Crouch's only moment of active conscience and agency, reducing him from a tragic figure fighting his own corruption to a passive corpse",
-    "Compression of Sirius's exposition and the Pensieve trial strips the audience of the historical and psychological context needed to understand Crouch as a cautionary figure whose ruthlessness mirrored Voldemort's - the thematic core of his role in the saga"
+    "Complete elimination of the Winky dismissal scene removes the single most important characterization beat for Crouch Sr., stripping the audience of the evidence base needed to understand his later collapse and making Sirius's retrospective analysis emotionally hollow",
+    "Removal of the forest encounter scene eliminates Crouch Sr.'s only act of redemptive agency - his final struggle against the Imperius Curse to warn Dumbledore - reducing him from a tragic figure to a functional plot corpse",
+    "Compression of the mystery illness arc and sustained absence subplot removes the narrative scaffolding that builds Crouch Sr. as an active, deteriorating presence throughout the middle of the story, collapsing a carefully developed arc into a sudden unexplained death"
   ],
   "damaging_scenes": [
     {
-      "scene": "GoF Film - World Cup aftermath / Dark Mark scene",
-      "book_baseline": "Crouch arrives curt, controlled, and immediately accusatory toward the children. He shouts, his eyes 'popping', threatens Ron directly with his wand, and is barely restrained by colleagues. His overreaction is rooted in private terror about his son and the Dark Mark's personal meaning to him.",
-      "film_portrayal": "Crouch appears briefly, points his wand, delivers one accusatory line ('Do not lie! You've been discovered at the scene of the crime'), then is quickly subordinated to Arthur Weasley's calming presence. The extended confrontation, his near-madness, his bullying of Hermione ('missy'), and his paranoid intensity are all absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book scene establishes Crouch as a man whose iron control can crack into something frightening. The film reduces him to a functional authority figure making a brief accusation, losing the psychological texture that foreshadows his later breakdown."
-    },
-    {
-      "scene": "GoF Film - Winky dismissal",
-      "book_baseline": "Crouch publicly fires Winky on the spot with cold contempt, surveying her 'as though she were something filthy and rotten', showing no pity whatsoever. This is a defining moral moment: his reputation matters more than a loyal servant's welfare or even basic decency.",
-      "film_portrayal": "The entire Winky subplot is absent from the film. There is no house-elf, no dismissal, no confrontation over the wand.",
-      "damage_type": "agency/function",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "Winky's dismissal is the single clearest window into Crouch's character: his cruelty to inferiors, his obsession with reputation, and the irony that his 'devoted servant' was actually concealing his son. Sirius's line 'If you want to know what a man's like, take a good look at how he treats his inferiors' is rendered meaningless. The absence also removes all foreshadowing of Barty Jr.'s concealment and Crouch's private guilt."
-    },
-    {
-      "scene": "GoF Film - Crouch at the Goblet / champions' chamber",
-      "book_baseline": "Crouch looks visibly ill, moves as if coming out of a deep reverie, speaks haltingly ('Yes... instructions. Yes... the first task...'), and Dumbledore expresses mild concern about him. He is already deteriorating under the Imperius Curse.",
-      "film_portrayal": "Crouch is brisk and functional in the champions' tent scene, distributing the dragon models efficiently with no sign of illness or mental disturbance.",
+      "scene": "Goblet of Fire - World Cup campsite: Barty Crouch Sr. accuses Harry, Ron, and Hermione after the Dark Mark",
+      "book_baseline": "The book establishes Crouch as a man of rigid, rule-bound severity who shouts and points his wand at children, eyes 'popping' and 'slightly mad,' but the scene is rich with characterization: his cold fury at Winky, his dismissal of her with no pity, his sharp put-down of Diggory for implicitly accusing him, and his complex emotional state (barely moving his lips, ghostly white, twitching) that hints at the hidden secret beneath. The full scene reveals his cruelty, his pride, his obsession with reputation, and his barely-contained trauma.",
+      "film_portrayal": "In the film the confrontation is drastically compressed. Crouch Sr. appears briefly, points his wand, delivers one accusatory line ('Which of you conjured it? / Do not lie! You've been discovered at the scene of the crime'), and the scene moves on. The dismissal of Winky is entirely absent from the film. There is no cold dressing-down of Diggory, no 'no pity in his gaze,' no speech about his reputation, no presentation of clothes. Crouch is reduced to a momentary authority figure who appears and disappears.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book plants early visible signs of Crouch's deterioration that pay off later. The film's healthy, efficient Crouch makes his subsequent collapse feel more abrupt and less earned."
-    },
-    {
-      "scene": "GoF Film - Sirius's cave exposition about Crouch",
-      "book_baseline": "Sirius delivers a detailed account of Crouch's history: his ruthlessness as Head of Magical Law Enforcement, authorizing Unforgivable Curses, sending people to Azkaban without trial, his son's trial where he publicly disowned him ('You are no son of mine!'), his wife's death, and his fall from grace. This is the backbone of Crouch's characterization.",
-      "film_portrayal": "Sirius mentions Crouch only in passing in the fireplace scene: 'Barty Crouch. Heart of stone. Sent his own son to Azkaban.' No history, no moral complexity, no fall from grace.",
-      "damage_type": "arc",
       "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's Crouch is a tragic figure: a man who sacrificed his family on the altar of ambition and paid for it with everything. The film reduces him to a one-line villain descriptor. The audience loses all understanding of why Crouch's story matters thematically - the parallel between his ruthlessness and Voldemort's, and the irony that his cruelty to his son created the instrument of his own destruction."
-    },
-    {
-      "scene": "GoF Film - Pensieve trial of Barty Jr.",
-      "book_baseline": "Crouch presides over his son's trial with 'pure hatred in his face', speaks over his son's screaming pleas, and bellows 'You are no son of mine!' while his wife faints beside him. He appears to not even notice her collapse. The scene is a devastating portrait of a man who chose career over family.",
-      "film_portrayal": "The trial scene is present but compressed. Crouch says 'You are no son of mine' and Barty Jr. is restrained. The wife is absent. Crouch's extended shouting over his son's pleas, the detail of the wife fainting unnoticed, and the full emotional horror of a father publicly destroying his child are truncated.",
-      "damage_type": "relationship",
-      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The father-son relationship is the emotional core of Crouch's arc. The film shows the rupture but not its full brutality. The absent wife removes the tragic irony that she later died to save the son Crouch condemned, and that her sacrifice is what ultimately undid Crouch."
+      "explanation": "The World Cup confrontation is the audience's primary introduction to Crouch Sr.'s character. By stripping it of the Winky dismissal and the full display of his cold, reputation-obsessed cruelty, the film loses the foundational characterization that makes his later breakdown meaningful. Sirius's later observation - 'if you want to know what a man's like, take a good look at how he treats his inferiors' - has no emotional grounding because the audience never witnessed that treatment."
     },
     {
-      "scene": "GoF Film - Crouch's appearance in the forest / breakdown scene",
-      "book_baseline": "Crouch staggers out of the forest in a state of near-madness, ripped robes, bloody knees, talking to trees as if they were Percy, grabbing Harry desperately, cycling between lucidity and delirium. He manages to convey that he has 'done a stupid thing', mentions his son and Bertha Jorkins, and begs to warn Dumbledore. It is a prolonged, harrowing scene.",
-      "film_portrayal": "Crouch is found dead on the ground outside Hagrid's hut. Harry simply stumbles across his body. There is no breakdown scene, no desperate communication, no partial lucidity.",
-      "damage_type": "agency/function",
+      "scene": "Goblet of Fire - World Cup: dismissal of Winky entirely absent",
+      "book_baseline": "Crouch publicly dismisses Winky on the spot ('This means clothes'), showing no pity as she sobs at his feet. His speech - 'I have no use for a house-elf who disobeys me... I have no use for a servant who forgets what is due to her master, and to her master's reputation' - is one of the most defining characterization moments in the book, revealing his cruelty, his prioritizing of reputation over loyalty, and his dehumanizing treatment of those beneath him. It also establishes the Winky subplot that will later illuminate his secret.",
+      "film_portrayal": "The dismissal of Winky is entirely absent from the film. Winky does not appear in the film at all as a character.",
+      "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 5,
-      "explanation": "This is the most damaging single absence. The forest breakdown is Crouch's final act of agency: fighting through the Imperius Curse to warn Dumbledore, driven by guilt and residual conscience. It humanizes him at the last moment and shows that despite everything, something in him resisted Voldemort. The film turns him into a passive corpse, stripping him of his final moral act and removing the audience's only chance to feel something for him. It also eliminates the mystery and investigation that follows, and Harry's active role in trying to help him."
+      "explanation": "The Winky dismissal is structurally critical. It establishes Crouch's defining flaw (reputation over compassion), foreshadows the secret he is hiding, introduces the motif Sirius will later articulate about judging a man by how he treats inferiors, and anchors Dumbledore's Pensieve revelations in a context the audience has already witnessed. Without it, Crouch Sr. is a cipher and Sirius's retrospective analysis of him in the fireplace scene lacks the emotional weight of prior evidence."
     },
     {
-      "scene": "GoF Film - Percy's characterization of Crouch throughout the year",
-      "book_baseline": "Percy's hero-worship of Crouch ('He speaks over two hundred languages! Mermish and Gobbledegook and Troll...', calling him 'Weatherby' obliviously) provides comic texture and also establishes Crouch's professional reputation and the irony of Percy's blind admiration for a man who doesn't even know his name.",
-      "film_portrayal": "Percy is largely absent from the film. The running joke of Crouch calling Percy 'Weatherby', Percy's fawning admiration, and the irony of Percy defending Crouch's honor while Crouch can't remember his name are entirely absent.",
+      "scene": "Goblet of Fire - Sirius's fireplace briefing: Sirius describes Crouch Sr.'s history and character",
+      "book_baseline": "The book delivers a substantial character backstory for Crouch through Sirius: his rise, his ruthless use of Unforgivable Curses against suspects, his sending innocents to Azkaban without trial (including Sirius himself), his public trial of his own son, his disowning cry ('You are no son of mine!'), his subsequent fall from grace, and Sirius's analysis that Crouch's 'fatherly affection stretched just far enough to give his son a trial... then sent him straight to Azkaban.' This makes Crouch a morally complex figure - not a villain, but a man who became monstrous in pursuit of righteous ends.",
+      "film_portrayal": "In the film, Sirius mentions Crouch only briefly: 'Then there's Barty Crouch. Heart of stone. Sent his own son to Azkaban.' This is the entirety of the backstory delivered. None of the moral complexity, the authorized Unforgivable Curses, the sending of innocents without trial, the nuanced collapse of a man who fought violence with violence, or the pathos of the son's trial is conveyed.",
       "damage_type": "nuance/lost material",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "This material establishes Crouch's dismissiveness toward subordinates and provides tonal contrast. Its absence is a minor but real loss of characterization depth."
+      "impact_weight": 4,
+      "explanation": "Crouch's moral complexity - the idea that a man dedicated to fighting evil can become evil himself - is a central thematic contribution of his character to the saga. The film reduces this to a single dismissive line. The audience has no framework for understanding why his breakdown matters, why his obsession with Dark wizard-catching has a tragic history, or why his treatment of his son is so damning. The Pensieve trial scene later in the film consequently loses much of its resonance."
     },
     {
-      "scene": "GoF Film - Barty Jr. reveal / confession scene",
-      "book_baseline": "Barty Jr. under Veritaserum gives a full account that includes Crouch Sr.'s role: smuggling his son out of Azkaban at his dying wife's request, keeping him imprisoned under Imperius at home, Winky's role as keeper, Bertha Jorkins discovering the secret, and Crouch Sr. eventually fighting the Imperius Curse and trying to reach Dumbledore. Crouch Sr. is a complex figure even in his son's account.",
-      "film_portrayal": "Barty Jr.'s confession is present but brief. The details of Crouch Sr.'s complicity - the Polyjuice escape, the years of home imprisonment, the Imperius Curse - are absent or heavily compressed. Crouch Sr.'s attempt to fight back and warn Dumbledore is not mentioned.",
-      "damage_type": "arc",
-      "exposure": 2,
+      "scene": "Goblet of Fire - Pensieve: trial of Barty Crouch Jr.",
+      "book_baseline": "The book Pensieve sequence is harrowing: Crouch drowns out his son's pleas by speaking louder, his wife faints beside him, he disowns his son publicly with 'You are no son of mine!', he seems not to notice his wife has fainted, and he roars at the dementors with spit flying. Harry observes 'pure hatred in his face.' The scene is rendered as a moral catastrophe - a man destroying his own family for political survival - and the memory of the boy's milk-white face haunts Harry that night.",
+      "film_portrayal": "The film Pensieve shows the trial but compresses it substantially. Crouch Sr. presides, delivers judgment, and the famous disowning line is present ('You are no son of mine'). However, the wife fainting beside him and him appearing not to notice, the full emotional escalation of him bellowing over his son's cries, and the surrounding texture establishing his political motivation and cold calculation are truncated. The scene is present but stripped of the layering that makes it devastating.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Without the full confession, the audience cannot understand Crouch Sr. as a man whose one act of love (rescuing his son for his wife's sake) destroyed him, or that he ultimately tried to do the right thing. His story collapses into 'bad Ministry man whose son was a Death Eater' rather than a genuine tragedy of ambition, guilt, and belated conscience."
+      "explanation": "The trial is present in the film but loses the specific details - wife fainting unnoticed, the bellowing over his son's pleas, the spitting fury - that make Crouch's psychological state legible. Without the prior establishment of his character from the World Cup and Sirius briefing, the trial scene functions primarily as plot information (Crouch Jr. existed) rather than as the moral indictment of Crouch Sr. that the book intends."
+    },
+    {
+      "scene": "Goblet of Fire - Crouch Sr.'s absence from the tournament and mysterious illness arc",
+      "book_baseline": "The book builds a sustained mystery around Crouch's absences: Percy's increasingly anxious covering for him, Winky's drunken hints about a secret, Harry spotting Crouch on the Marauder's Map sneaking into Snape's office, Moody's ominous comment about Crouch being obsessed with catching Dark wizards, and the Daily Prophet headlines about his 'mystery illness.' This arc spans much of the middle of the book and positions Crouch as an active off-screen presence whose deteriorating situation creates genuine narrative tension.",
+      "film_portrayal": "This entire arc is absent from the film. Crouch Sr. appears at the tournament start, disappears, and next appears dead on the ground. Percy's subplot covering for him is absent. The Marauder's Map scene where Harry spots Crouch in Snape's office does not occur. The mystery illness arc is not developed.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The sustained Crouch mystery arc serves multiple functions: it maintains narrative tension about who is manipulating the tournament, it develops Percy's character, it gives Harry and friends an active investigative role, and it makes the revelation of Barty Jr.'s plot feel earned rather than sudden. Its absence means Crouch Sr. functions purely as a functional plot device (rules enforcer, then corpse) rather than as a character whose disintegration is tracked and felt."
+    },
+    {
+      "scene": "Goblet of Fire - Crouch Sr. appears in the forest, raving and broken",
+      "book_baseline": "The book scene is extended and emotionally rich: Harry encounters a physically devastated, mentally broken Crouch talking to a tree as if it were Percy, mentioning his wife and son, grasping Harry and whispering about wanting to warn Dumbledore, saying he has 'done a stupid thing.' His deterioration is rendered with pathos - a once-powerful man reduced to delusion - and the contrast with his earlier rigidity makes the scene genuinely affecting. Harry's urgency to get Dumbledore creates real tension.",
+      "film_portrayal": "Crouch Sr. is seen dead on the ground - the film entirely omits the forest encounter scene where he is found raving. The audience never sees his broken, deluded state. He is simply found as a corpse.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The forest scene is Crouch Sr.'s final character moment and his one act of attempted redemption - escaping the Imperius Curse to warn Dumbledore. By removing it entirely, the film eliminates both the pathos of his collapse and his sole moment of moral agency. He is denied the dignity of a final struggle. The audience never sees him fighting the Imperius Curse, never hears him trying to confess, and consequently his death registers as pure plot mechanics rather than tragic consequence."
+    },
+    {
+      "scene": "Goblet of Fire - Barty Crouch Jr.'s confession: Sr.'s role in concealing his son",
+      "book_baseline": "Barty Jr.'s confession under Veritaserum reveals the full complexity of Crouch Sr.: that he rescued his dying son from Azkaban at his wife's dying wish, kept him imprisoned under the Imperius Curse for years, that Crouch Sr. eventually fought the Imperius Curse himself and was heading to confess to Dumbledore before being killed by his own son. This positions Crouch Sr. as a man who, in the end, was trying to do right - a final redemptive arc cut short.",
+      "film_portrayal": "Barty Jr.'s confession in the film is present and covers the broad strokes of the plot (impersonating Moody, the Portkey, Voldemort's plan), but the emotional texture of Crouch Sr.'s role is compressed. The detail that Crouch Sr. was fighting the Imperius Curse and actively trying to reach Dumbledore to confess - his final moral act - is present in the confession text but has no emotional weight because the forest scene where he was attempting this has been removed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Without the forest scene, the revelation that Sr. was fighting his way to confession reads as backstory rather than the culmination of a character arc the audience has been watching. The redemptive dimension of Crouch Sr. - that he ultimately chose conscience over self-preservation - is technically present in the dialogue but dramatically inert."
+    },
+    {
+      "scene": "Goblet of Fire - Crouch Sr. at the Goblet of Fire selection: bored and uninterested appearance",
+      "book_baseline": "The book notes that during the Goblet selection ceremony Crouch 'looked quite uninterested, almost bored' - a detail that, in retrospect, hints at his deteriorating mental state and the Imperius Curse already affecting him. This subtle characterization rewards attentive readers.",
+      "film_portrayal": "The film shows Crouch Sr. present at the ceremony and making his announcement about the age restriction, functioning as a competent Ministry official. There is no particular signal of underlying disturbance in this scene.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor loss of foreshadowing texture. The book's subtle 'almost bored' detail is a small retroactive clue; its absence is a minor nuance loss rather than structural damage."
+    },
+    {
+      "scene": "Goblet of Fire - Crouch Sr.'s physical deterioration noted at the champions' briefing",
+      "book_baseline": "When Crouch gives the champions their instructions after the Goblet selection, Harry notices he looks ill - 'dark shadows beneath his eyes and a thin, papery look about his wrinkled skin that had not been there at the Quidditch World Cup' - and that he seems to 'come out of a deep reverie' before delivering the instructions. Dumbledore asks with 'mild concern' if he wants to stay. This plants the seed that something is deeply wrong with Crouch before his formal absences begin.",
+      "film_portrayal": "The film Crouch Sr. at the champions' briefing (Scene 5 in the film corpus) functions as a competent, authoritative official. There is no noted physical deterioration, no reverie, no concern from Dumbledore about his health.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The early physical deterioration is part of the book's careful foreshadowing of Crouch Sr.'s condition. Its absence means the transition from functional official to missing person to raving figure in the forest (itself cut) has no visual or dramatic preparation. The arc of his disintegration is invisible to film audiences."
     }
   ],
   "confidence": {
@@ -92,8 +101,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1976.0,
-  "adjusted_cids_v1": 2964.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

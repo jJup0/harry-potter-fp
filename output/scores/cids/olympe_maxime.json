@@ -1,89 +1,71 @@
 {
   "character": "Olympe Maxime",
-  "fp_score": 63.0,
-  "infidelity_score": 37.0,
-  "weighted_infidelity_exposure": 34.5,
-  "cids": 285.8,
-  "damage_per_exposure": 26.0,
-  "structural_damage_level": 4,
-  "adjusted_cids": 285.8,
+  "fp_score": 61.0,
+  "infidelity_score": 39.0,
+  "weighted_infidelity_exposure": 20.0,
+  "cids": 235.5,
+  "damage_per_exposure": 33.6,
+  "structural_damage_level": 3,
+  "adjusted_cids": 235.5,
   "main_damage_causes": [
-    "Complete omission of the half-giant confrontation scene removes Maxime's only character flaw, internal conflict, and the central dramatic arc of her relationship with Hagrid",
-    "Maxime's competitive intelligence function and political agency in the tournament are consistently erased, reducing her from a shrewd operator to a decorative headmistress",
-    "The giant mission and Dumbledore's funeral appearances are unfilmed, meaning Maxime's courage, Order allegiance, and relationship resolution with Hagrid never reach the screen"
+    "Complete omission of the half-giant confrontation scene, which is Maxime's only scene of genuine psychological depth and internal vulnerability, eliminating her sole character arc",
+    "Systematic reduction of her authority and dignity \u2014 from imperious formal protests to reactive exclamations, from graceful social command to comic slapstick \u2014 which flattens her from a formidable rival headmistress into a broadly-drawn foreign caricature",
+    "Loss of her competitive intelligence dimension (the dragon-viewing scene reframed as purely romantic) which removes the pragmatic, strategically-aware layer of her characterisation and leaves her relationship with Hagrid as her only narrative function"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film GoF - Beauxbatons arrival: Maxime's entrance reduced to a choreographed dance sequence",
-      "book_baseline": "Maxime arrives with commanding, imperious authority - she extends a glittering hand to Dumbledore, speaks with deep-voiced gravitas, issues instructions about her horses with casual superiority ('My steeds require forceful handling'), and her students leap to their feet when she enters the Hall",
-      "film_portrayal": "The Beauxbatons arrival is reframed as a sexualized dance performance by the students, with Maxime merely walking up front and offering her hand. Her commanding voice, imperious instructions, and the specific detail of her students' reverent standing ovation are all collapsed into spectacle",
+      "scene": "Goblet of Fire - Chamber scene after Goblet selection (Film Scene 2)",
+      "book_baseline": "In the book, Madame Maxime responds to Harry's selection with imperious, formal outrage: she draws herself to full height, her bosom swells, she speaks with authority ('What is ze meaning of zis, Dumbly-dorr?'), makes pointed arguments about injustice ('C'est impossible... It is most injust'), accuses Harry of lying but does so as part of a sustained, dignified political protest, and engages substantively in the debate about the tournament rules. She is a formidable headmistress defending her school's interests with gravitas.",
+      "film_portrayal": "In the film, Maxime's protest is reduced to brief outbursts ('It's wrong, I tell you!', 'I protest', 'But of course, he is lying') with Karkaroff dismissively calling her a 'French tart' and the scene framing her as one half of a bickering pair rather than a dignified authority figure. Her sustained arguments and imperious bearing are collapsed into reactive noise.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book establishes Maxime's authority through her own bearing and speech; the film subordinates her entrance to her students' performance, reducing her from a commanding headmistress to a figurehead of a dance troupe"
+      "explanation": "The book carefully establishes Maxime as a headmistress of real authority and political acumen who mounts a coherent protest. The film reduces her to exclamatory interjections and places her in a comic squabbling dynamic with Karkaroff, undercutting her dignity and the weight of her institutional role."
     },
     {
-      "scene": "Film GoF - Horse instructions scene: Maxime's dialogue truncated, her skepticism of Hogwarts staff removed",
-      "book_baseline": "Maxime expresses pointed doubt that any Hogwarts Care of Magical Creatures teacher could handle her horses ('looked as though she doubted whether any Care of Magical Creatures teacher at Hogwarts could be up to the job'), then issues the whiskey instruction as a condition, bowing slightly",
-      "film_portrayal": "Maxime's skepticism is cut entirely. She delivers only the whiskey line with no preceding doubt about Hagrid's competence, removing the beat that shows her protective pride and mild condescension toward Hogwarts",
+      "scene": "Goblet of Fire - Dragon enclosure night visit (Film Scene 3)",
+      "book_baseline": "In the book, Hagrid invites Madame Maxime to see the dragons as part of his romantic courtship, but the scene also establishes that Maxime is sharp enough to recognise an opportunity: she accompanies Hagrid, sees the dragons, and (as confirmed later) passes that intelligence to Fleur. The book makes clear this is a consequential act \u2014 Maxime knowingly exploits the situation, which is part of her characterisation as a pragmatic, competitive headmistress who wants her champion to win.",
+      "film_portrayal": "The film presents the dragon-viewing scene as a purely romantic, charming moment ('Ahh, c'est magnifique!'). Maxime is framed as a delighted guest on a date, with no indication that she is absorbing tactical information. The dimension of competitive calculation \u2014 her awareness of what this knowledge means for the tournament \u2014 is entirely absent.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor but the skepticism beat establishes her as someone who guards her school's interests and doesn't defer easily - its absence flattens her into a polite guest"
-    },
-    {
-      "scene": "Film GoF - Champions' chamber confrontation: Maxime's protest reduced to brief interjections",
-      "book_baseline": "Maxime draws herself to full height, her bosom swells, she speaks imperiously ('What is ze meaning of zis'), places her hand protectively on Fleur's shoulder, accuses Harry of lying, challenges Moody's evidence ('Ah, but what evidence is zere of zat'), and ultimately has no answer when Dumbledore invites her alternative - she glares in silence",
-      "film_portrayal": "Maxime's role is reduced to 'It's wrong, I tell you!' and 'I protest' repeated twice, with Karkaroff dismissing her as a 'French tart.' Her protective gesture toward Fleur, her specific accusations, her challenge to Moody's reasoning, and her telling silence when cornered are all absent",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book uses this scene to show Maxime as a formidable political actor defending her school's interests with specific arguments. The film reduces her to a background protester while Karkaroff dominates, and the 'French tart' insult from Karkaroff (absent from the book) further demeans her without rebuttal"
-    },
-    {
-      "scene": "Film GoF - Dragon reveal scene: Maxime reframed as Hagrid's date rather than independent actor",
-      "book_baseline": "Maxime is brought by Hagrid but responds with her own agency - she strolls independently around the enclosure examining the dragons, and Charlie Weasley notes with concern that she will certainly inform her student. Harry explicitly reasons that Maxime and Karkaroff both saw the dragons and will have told their champions",
-      "film_portrayal": "Maxime says 'Can we get closer?' in a tone of excited wonder, framed entirely as Hagrid's companion on a romantic outing. Her independent assessment of the dragons and the implication that she is strategically gathering intelligence for Fleur is absent",
-      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book establishes Maxime as a shrewd operator who uses the dragon viewing to gain competitive advantage for her champion. The film presents her purely as a romantic interest accompanying Hagrid, erasing her competitive intelligence function"
+      "explanation": "The book's Maxime is both romantically engaged with Hagrid and strategically aware \u2014 she is not naive. Removing the competitive-intelligence dimension flattens her into a one-note romantic figure and loses the complexity that makes her a credible rival headmistress."
     },
     {
-      "scene": "Film GoF - Yule Ball: Hagrid's hand slipping to Maxime's backside",
-      "book_baseline": "Maxime and Hagrid waltz together cutting a wide path through students; the scene is warm and romantic but dignified. Maxime has already had the painful half-giant confrontation and their relationship is at its height before the rupture",
-      "film_portrayal": "A comedic beat is inserted where Hagrid's hand slips to Maxime's buttocks and she pushes it back up, played for laughs",
+      "scene": "Goblet of Fire - Yule Ball dancing (Film Scene 7)",
+      "book_baseline": "In the book, the Yule Ball features Hagrid and Madame Maxime waltzing together, cutting a wide path through the students. This is presented as a warm, significant moment in their relationship \u2014 after the tension of Hagrid's half-giant revelation and her furious denial, their dancing together suggests a tentative reconciliation or continued mutual attraction that the narrative treats with some emotional weight.",
+      "film_portrayal": "The film includes Hagrid and Maxime dancing, but adds a slapstick beat where Hagrid lets his hand slip to her backside and she pushes it back up. This plays the moment for a cheap laugh rather than for the emotional resonance the book invests in their relationship.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "This cheap gag undermines the dignity of their relationship at its most tender moment. The book treats their romance with genuine warmth; the film reduces it to slapstick, which damages the emotional weight of the subsequent half-giant confrontation and rejection"
+      "explanation": "The book treats the Hagrid-Maxime relationship with genuine tenderness; the film undercuts one of its key visible moments with buffoonery. This diminishes the emotional stakes of their bond and reduces Maxime to a comic prop in a physical gag."
     },
     {
-      "scene": "Film GoF - Yule Ball garden scene: half-giant confrontation entirely absent",
-      "book_baseline": "The garden scene is one of Maxime's most defining moments: Hagrid confides his half-giant heritage with emotional vulnerability, Maxime listens in charged silence, then erupts in furious denial ('I 'ave nevair been more insulted in my life! 'Alf-giant? Moi? I 'ave big bones!') and storms off. This establishes her shame about her heritage, her self-protective denial, and the rupture in their relationship",
-      "film_portrayal": "The garden scene does not occur. There is no half-giant conversation, no denial, no storming off. The Yule Ball ends with them dancing together warmly",
+      "scene": "Goblet of Fire - Arrival at Hogwarts / horses introduction (Film Scene 1)",
+      "book_baseline": "In the book, Maxime's arrival is a sustained set-piece establishing her authority, her physical impressiveness, her elegance (olive-skinned, magnificent opals, black satin), and her commanding presence. She speaks with measured imperious grace to Dumbledore, gives specific instructions about her horses with cool confidence ('Zey drink only single-malt whiskey'), and leads her students with a single word: 'Come.' The scene builds her as a figure of genuine stature who commands instant respect.",
+      "film_portrayal": "In the film, the arrival is heavily compressed. Maxime walks to the front of the hall after her students perform, shakes Dumbledore's hand, and her only lines of substance concern the horses and the whiskey. The extended establishment of her physical presence, her elegance, her gracious authority in conversation with Dumbledore, and the social choreography of the arrival (students leaping to their feet, crowd parting) is largely absent or condensed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's arrival sequence is the primary vehicle for establishing Maxime as a formidable, elegant, and authoritative figure. The film's compression means audiences never receive the sustained first impression the book builds, leaving Maxime as visually striking but characterially thin from the outset."
+    },
+    {
+      "scene": "Goblet of Fire - Half-giant confrontation at the Yule Ball gardens (Film corpus absent)",
+      "book_baseline": "The book contains one of Maxime's most important and revealing scenes: Hagrid confesses his half-giant heritage and asks about hers; Maxime initially plays along warmly ('What did you know, Agrid?') then abruptly turns to ice and storms off in furious denial ('I 'ave nevair been more insulted in my life! 'Alf-giant? Moi? I 'ave big bones!'). This scene establishes her deep shame about her heritage, her vulnerability beneath the imperious exterior, the fragility of her relationship with Hagrid, and a key thematic thread about prejudice and self-acceptance that runs through Goblet of Fire and into Order of the Phoenix.",
+      "film_portrayal": "This scene does not appear in the film corpus. The half-giant confrontation, Maxime's denial, and the rupture in her relationship with Hagrid are entirely absent from the theatrical film.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This is the most damaging single omission. Maxime's denial of her giant blood is her central character flaw - it defines her relationship with Hagrid, explains their later estrangement, and connects to the broader theme of prejudice against part-humans. Without it, her character has no internal conflict, no flaw, and no arc. The subsequent reconciliation (implied in OotP) also loses all meaning"
+      "explanation": "This is the single most important scene for Maxime's characterisation. Her shame about being a half-giant, her defensive denial, and the subsequent repair of her relationship with Hagrid (they go on the giant mission together in OotP) constitute her only real internal arc. Without it, she is purely a functional figure \u2014 headmistress, judge, romantic interest \u2014 with no psychological depth. The loss also removes a key instantiation of the saga's theme about prejudice against non-human creatures."
     },
     {
-      "scene": "Film GoF - Post-ball: Maxime's attempted reconciliation with Hagrid and his cold rebuff absent",
-      "book_baseline": "After the confrontation, Maxime attempts to re-engage Hagrid (emerging from her carriage, trying to converse), but Hagrid leans on his spade and does not prolong their talk. Hagrid later tells Harry he has 'got her number' and suspects she was trying to extract information about the third task",
-      "film_portrayal": "This entire dynamic is absent. There is no estrangement, no attempted reconciliation, no Hagrid suspecting her motives",
+      "scene": "Order of the Phoenix (Deathly Hallows film corpus, Scene 8) - Bill and Fleur wedding",
+      "book_baseline": "By Order of the Phoenix in the books, Maxime and Hagrid have reconciled after the half-giant confrontation, embarked together on a diplomatic mission to the giants, and she is present at Dumbledore's funeral throwing herself into Hagrid's arms \u2014 a moment of genuine emotional reunion. Their relationship has been tested and survived, giving it real weight.",
+      "film_portrayal": "In the Deathly Hallows Part 1 screenplay corpus (Scene 8), Maxime appears briefly at Bill and Fleur's wedding, where Hagrid presents her with a slice of cake. This is the entirety of her presence \u2014 a wordless, decorative cameo. Without the half-giant arc from Goblet of Fire having been established in the films, this appearance carries no emotional resonance and she registers purely as background.",
       "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book's post-confrontation dynamic shows both characters' wounded pride and the real damage done by the half-giant denial. Its absence means the relationship has no dramatic arc - just warmth throughout, which is false to the source"
-    },
-    {
-      "scene": "Film OotP/HBP (Deathly Hallows script): Giant mission with Hagrid reduced to a background cameo at Bill's wedding",
-      "book_baseline": "In OotP, Maxime accompanies Hagrid on the dangerous mission to the giants, demonstrating genuine courage. She eventually parts from Hagrid over his attachment to Grawp but is described as having been in touch with the Order. In HBP, she attends Dumbledore's funeral, descending from her carriage and throwing herself into Hagrid's arms - a moment of reconciliation and grief",
-      "film_portrayal": "The giant mission is entirely unfilmed. In the Deathly Hallows script excerpt, Maxime appears only as a background figure at Bill's wedding receiving cake from Hagrid - a single warm background beat with no dialogue",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "Maxime's participation in the giant mission is her most significant act of agency and courage in the entire saga - she risks her life for the Order of the Phoenix. Its complete absence means her character never demonstrates bravery or commitment beyond the tournament. The funeral reconciliation with Hagrid is also lost, leaving their relationship arc permanently unresolved on screen"
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Because the films never established the depth of the Hagrid-Maxime relationship \u2014 its rupture over the half-giant revelation and its repair \u2014 her appearance at the wedding is meaningless to film-only audiences. The relationship that the books carefully built over two novels is invisible, making this moment a wasted opportunity to honour a significant secondary bond."
     }
   ],
   "confidence": {
@@ -92,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1276.5,
-  "adjusted_cids_v1": 1914.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

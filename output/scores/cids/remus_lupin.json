@@ -1,198 +1,308 @@
 {
   "character": "Remus Lupin",
-  "fp_score": 71.0,
-  "infidelity_score": 29.0,
-  "weighted_infidelity_exposure": 55.5,
-  "cids": 253.2,
-  "damage_per_exposure": 12.4,
+  "fp_score": 74.0,
+  "infidelity_score": 26.0,
+  "weighted_infidelity_exposure": 140.5,
+  "cids": 278.6,
+  "damage_per_exposure": 6.2,
   "structural_damage_level": 4,
-  "adjusted_cids": 253.2,
+  "adjusted_cids": 278.6,
   "main_damage_causes": [
-    "Complete removal of the Grimmauld Place confrontation scene (DH1) destroys Lupin's moral arc around fatherhood, self-loathing, and cowardice, leaving his DH characterisation structurally incoherent",
-    "Removal of the Shell Cottage birth scene eliminates the resolution of Lupin's arc, meaning his death has no earned emotional payoff as a father who overcame his fears",
-    "Consistent compression or omission of Lupin's self-aware moral complexity - his cowardice confession in the Shrieking Shack, his nuanced position on Snape, his political intelligence at Grimmauld Place - reduces him from a flawed, self-knowing man to a competent but generic mentor figure"
+    "Omission of Lupin's explicit self-condemnation for cowardice in the Shrieking Shack \u2014 the moral core of his character arc is never spoken aloud",
+    "Collapse of the gradual mentor-relationship building (office visit, tea scene, Snape's potion delivery) into a single front-loaded bridge monologue, reducing the texture of the Lupin-Harry bond",
+    "Lupin's agency and moral reasoning in the Shrieking Shack are subordinated to Sirius Black, making him a follower rather than the scene's voice of reason and due process",
+    "Collapse of Lupin's intellectual and mediating authority in the Grimmauld Place briefing, redistributing his agency to Sirius and Moody and leaving him as a functional background presence rather than a primary adult voice",
+    "Loss of emotional depth in the post-Sirius-death restraint scene, which in the book is the central evidence of Lupin's own grief and his bond with the Marauders, reducing a relationship beat to a plot function"
   ],
   "damaging_scenes": [
     {
-      "scene": "PoA - Boggart lesson: Lupin steps in front of Harry",
-      "book_baseline": "Lupin deliberately avoids letting Harry face the boggart because he fears it will become Voldemort and cause panic in the staffroom. He later explains this privately to Harry, who is hurt and confused by the exclusion. The scene reveals Lupin's thoughtfulness and his private assessment of Harry.",
-      "film_portrayal": "The boggart visibly begins transforming into a Dementor before Lupin steps in. The reason for intervention is thus made visually obvious to the audience, removing the mystery and Harry's subsequent hurt/confusion. The private office conversation where Lupin explains and Harry feels validated is cut entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book scene establishes Lupin's perceptiveness and care, and Harry's emotional journey from feeling sidelined to feeling respected. The film collapses this into a visual shortcut, losing the relationship-building beat."
+      "scene": "Film Scene 7 (Bridge walk) \u2014 Lupin shares memories of Lily unprompted",
+      "book_baseline": "The book establishes no scene where Lupin volunteers personal memories of Lily to Harry on the bridge. Their one-on-one conversations are initiated by Harry's questions (about the boggart, the dementors) and Lupin is warm but measured, never delivering an extended emotional monologue about Lily. His connection to James and Lily is revealed gradually, organically, and culminates in the Shrieking Shack.",
+      "film_portrayal": "Lupin delivers an unsolicited, lyrical speech about Lily: 'She was not only a singularly gifted witch but an uncommonly kind woman. She had a way of seeing the beauty in whoever she met...' He volunteers intimate emotional content about both Lily and James ('James had, shall we say, a certain talent for trouble') in a way that skips the gradual revelation the book structures carefully across the year.",
+      "damage_type": "arc | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book carefully parcels out Lupin's connection to Harry's parents \u2014 it is a slow discovery that pays off emotionally in the Shrieking Shack and farewell scene. The film front-loads this intimacy, collapsing the gradual trust-building and making Lupin's later revelations feel redundant rather than revelatory. It also makes Lupin slightly sentimental and expansive where the book keeps him private and restrained, changing his characterization from quietly wounded to openly elegiac."
     },
     {
-      "scene": "PoA - Bridge/Hogsmeade walk: Lupin talks about Harry's parents",
-      "book_baseline": "This scene does not exist in the books. In the book, Harry visits Lupin's office and their relationship develops through smaller, more naturalistic interactions.",
-      "film_portrayal": "Lupin delivers an extended, somewhat sentimental speech about Lily's beauty and James's talent for trouble, telling Harry 'They lived. Every moment of every day. You should know that.' This is invented dialogue with a eulogistic, almost therapeutic tone.",
+      "scene": "Film Scene 7 (Bridge walk) \u2014 Lupin's self-deprecating humor about Hogsmeade",
+      "book_baseline": "The book has no corresponding bridge scene. Lupin's humor in the book is dry and understated \u2014 'I haven't poisoned that chocolate, you know' \u2014 always brief, never a set piece. His wit emerges incidentally within other business.",
+      "film_portrayal": "Lupin opens the bridge conversation with a comic routine: 'Well, don't feel too bad. I was roundly disappointed the first time I went. No. I was just trying to make you feel better. Honeydukes' sweets are the best in the world...' This is a multi-line joke with a deliberate punchline structure.",
       "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Book Lupin is warm but restrained and wry; he shares memories of James and Lily obliquely and with some emotional guardedness. The film gives him a polished, emotionally declarative speech that softens his complexity and makes him feel more like a mentor archetype than a flawed, grieving man."
-    },
-    {
-      "scene": "PoA - Patronus lessons: Harry's chosen memory",
-      "book_baseline": "Harry tries multiple memories across several sessions - first riding a broom, then Gryffindor winning the House Cup. He eventually uses the moment he learned he was a wizard. The process is iterative and shows Harry's emotional landscape.",
-      "film_portrayal": "Harry tells Lupin his memory is 'seeing his parents' faces, just talking to me - I don't even know if it's real. But it's the best I have.' This is a single invented memory with a melancholy, poetic framing.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's iterative process shows Harry's psychology and his complicated relationship with his parents' deaths. The film replaces this with a single emotionally neat image that is more cinematic but less true to Harry's inner life, and Lupin's coaching role is correspondingly flattened."
-    },
-    {
-      "scene": "PoA - Patronus lesson: Lupin's boggart reveals his fear",
-      "book_baseline": "When the boggart turns to Lupin it becomes a silvery-white orb (the full moon), which Hermione later identifies as the clue to his condition. This is a subtle, planted detail.",
-      "film_portrayal": "This moment is present but the film does not linger on it or give it the same weight as a planted clue. Hermione's revelation of Lupin's werewolf status in the Shrieking Shack references the essay Snape set rather than her own deduction from the boggart.",
-      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of Hermione's detective work and the elegant foreshadowing of Lupin's condition."
+      "explanation": "Minor tonal shift. The joke is not out of character in spirit but the delivery is more performative than the book's version of Lupin, who tends to let wit emerge as a side effect rather than leading with it. Low damage in isolation."
     },
     {
-      "scene": "PoA - Shrieking Shack: Lupin's entrance and greeting of Black",
-      "book_baseline": "Lupin enters, disarms Harry, Ron and Hermione, then embraces Black. He is calm and controlled. He then methodically works to explain the situation, insisting on giving Harry the truth and returning the children's wands unprompted as a gesture of good faith.",
-      "film_portrayal": "Lupin enters and immediately says to Black: 'Looking a bit ragged, aren't we, Sirius? Finally the skin reflects the madness within.' This is a taunting, almost cruel line before the embrace reveal. The film then has Black say 'He dies. Now.' and Lupin initially agrees: 'All right then. As you wish...' before Harry intervenes.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 5 (Boggart lesson) \u2014 Lupin steps in front of Harry during the boggart exercise with no prior explanation and no post-class conversation establishing the reason",
+      "book_baseline": "The book splits this into two beats: (1) Lupin visibly redirects the boggart away from Harry during the lesson, (2) Harry later visits Lupin's office specifically to ask why, and Lupin explains he feared it would become Voldemort \u2014 then the conversation deepens into dementor discussion, Snape's potion delivery, and Harry's nascent trust. The office visit is a key relationship-building scene establishing Lupin as someone Harry can confide in.",
+      "film_portrayal": "Lupin steps in front of Harry when the boggart turns to a Dementor, dispatching it himself. There is a brief private glance between them as students exit, but the follow-up office conversation \u2014 with its tea, the grindylow, Snape's potion, and Lupin's frank explanation \u2014 is entirely absent from the film corpus.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The office scene is where Lupin and Harry's mentor relationship is cemented in private. Lupin explains his reasoning (feared Voldemort), Harry reveals he thought of dementors instead, Lupin responds with genuine admiration ('That suggests what you fear most is fear \u2014 very wise'). This exchange establishes mutual respect and opens the door to the Patronus lessons. Its absence means the film's Lupin-Harry bond is built almost entirely on the bridge scene and Patronus training, reducing the texture of their relationship. The grindylow, the tea, Snape's potion delivery and Harry's suspicion of Snape \u2014 all absent \u2014 further thin Lupin's characterization as a warm, curious, slightly eccentric presence."
+    },
+    {
+      "scene": "Film Scene 13/14 (Corridor/Lupin's office \u2014 Marauder's Map confrontation) \u2014 Lupin does not acknowledge being a Marauder and gives a harsher, more parental lecture",
+      "book_baseline": "In the book, when Lupin takes the map from Harry after the Snape confrontation, he steps outside, lowers his voice, expresses astonishment that Harry didn't hand it in, and then cryptically explains that 'these mapmakers would have wanted to lure you out of school \u2014 they'd think it extremely entertaining,' followed by Harry asking 'Do you know them?' Lupin walks away without answering directly \u2014 a tantalizing evasion that the reader understands in retrospect. The scene is playful even in its seriousness.",
+      "film_portrayal": "Lupin delivers a stern lecture framed around James and Lily's sacrifice: 'Your father didn't set much store by rules either. But he and your mother did give their lives to save yours. Gambling their sacrifice...' He then reacts to Harry's mention of Pettigrew on the map with only a half-second hesitation before dismissing it. The connection to the Marauders is not teased; instead the scene becomes a moral lecture invoking Harry's dead parents as emotional leverage.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Book Lupin never taunts Black; the line is invented and out of character. More damagingly, Lupin agreeing to kill Pettigrew before Harry stops them reverses the book dynamic where Lupin is the one insisting they explain everything first ('They've got a right to know everything!'). The film makes Lupin complicit in near-murder rather than the voice of reason and justice."
+      "explanation": "The book's version of this scene is carefully layered \u2014 Lupin's evasiveness about the mapmakers is a subtle signal to attentive readers and a character beat showing his complicated relationship with his own past. The film replaces this with a straightforward parental reprimand that invokes James and Lily, which makes Lupin feel more like an authority figure than a man with a private, complex history. It loses the delicious irony of Lupin scolding Harry for the map he helped create."
     },
     {
-      "scene": "PoA - Shrieking Shack: Lupin's self-reproach and cowardice confession",
-      "book_baseline": "Lupin delivers a lengthy, painful confession about how he failed to tell Dumbledore that Sirius was an Animagus because he was too cowardly - he feared losing his job and Dumbledore's trust. This is a defining moment of moral self-awareness and flawed humanity.",
-      "film_portrayal": "This confession is entirely absent. The film moves quickly through the exposition without Lupin acknowledging his own culpability in the year's events.",
-      "damage_type": "arc",
+      "scene": "Film Scene 15 (Shrieking Shack) \u2014 Lupin immediately embraces Black before any explanation, then agrees to kill Pettigrew with minimal resistance",
+      "book_baseline": "In the book, Lupin disarms all three children first, then speaks in a 'very tense voice' asking 'Where is he, Sirius?' \u2014 he approaches the situation as an investigator, needing to confirm his reading of the map before acting. He restrains Black physically when Black lunges at Pettigrew ('Sirius, NO! Lupin yelled, launching himself forward'). He insists 'They've got a right to know everything!' He gives a lengthy explanation of the Marauder backstory. When he and Black agree to kill Pettigrew, Harry intervenes and Lupin immediately defers: 'Very well. Stand aside, Harry.' His moral position is that of a man who believes execution is deserved but yields to Harry's moral authority without much struggle.",
+      "film_portrayal": "Lupin enters, says 'Looking a bit ragged, aren't we, Sirius?' \u2014 a taunting line \u2014 then almost immediately embraces Black. When Black says 'He dies. Now,' Lupin says 'Wait, Sirius\u2014' but Black overrides him and Lupin nods: 'All right then. As you wish.' The extended backstory (Animagus transformation, Hogwarts years, Pettigrew's betrayal) is compressed and distributed differently, with Black doing more narrative work. The film skips Lupin's physical restraint of Black and his insistence on due process.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Lupin in this scene is the voice of reason holding chaos at bay \u2014 he physically stops Black, insists on explanation, and structures the revelation for the children. The film compresses this so that Lupin is more passive, essentially following Black's lead. The line 'All right then. As you wish' makes Lupin seem to capitulate to vigilante justice rather than being a man who, after exhaustive explanation, reaches the same conclusion and is then overridden by Harry. This weakens Lupin's moral agency in what is the climactic scene of his arc."
+    },
+    {
+      "scene": "Film Scene 15 (Shrieking Shack) \u2014 The full Marauder backstory and Lupin's self-accusation are not delivered",
+      "book_baseline": "The book devotes extensive space to Lupin narrating the Marauder history: his werewolf bite as a child, Dumbledore's sympathy, the Shrieking Shack's construction, his friends becoming Animagi over three years, the near-misses while roaming, and crucially his self-condemnation: 'I sometimes felt guilty about betraying Dumbledore's trust... All this year I have been battling with myself, wondering whether I should tell Dumbledore that Sirius was an Animagus. But I didn't do it. Why? Because I was too cowardly.' This speech is Lupin's central act of moral reckoning \u2014 he names his own cowardice explicitly.",
+      "film_portrayal": "The film omits the detailed Marauder origin story and, critically, omits Lupin's explicit self-accusation of cowardice. The backstory is condensed to bare plot essentials (Pettigrew betrayed the Potters, Scabbers is Pettigrew). Lupin's guilt and moral self-examination are not spoken.",
+      "damage_type": "arc | nuance/lost material",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "This is one of Lupin's most important character moments - it establishes him as a man who knows his own weaknesses and is honest about them. Its absence means the film Lupin has no moral arc within PoA and the audience never understands the cost of his cowardice or his self-knowledge."
+      "explanation": "Lupin's confession of cowardice is the emotional core of his arc. He is not simply a good man who was deceived \u2014 he is a good man who knew something, said nothing out of self-interest, and names that failing explicitly. This is what makes him a genuinely complex character rather than a victim of circumstance. Without it, his departure and resignation feel like misfortune happening to a passive figure rather than the consequence of a flawed man's long-running failure of nerve. This is the single most damaging omission to Lupin's characterization."
     },
     {
-      "scene": "PoA - Shrieking Shack: Lupin and Black nearly kill Pettigrew",
-      "book_baseline": "Both Black and Lupin raise their wands to kill Pettigrew. Harry physically steps between them and stops them, arguing his father wouldn't want his friends to become killers. Both men are staggered and lower their wands. Harry has genuine moral agency here.",
-      "film_portrayal": "This beat is present and reasonably faithful, though compressed.",
+      "scene": "Film Scene 21 (Lupin's farewell) \u2014 Lupin's resignation speech omits his acknowledgment of Dumbledore's trust and his werewolf stigma reflection; the Marauder's Map is returned with a wand flourish ('Mischief managed') rather than a verbal acknowledgment",
+      "book_baseline": "In the book, Lupin's farewell is quiet and somewhat broken. He explains Snape outed him, confirms parents will object, says 'I see their point. I could have bitten any of you... That must never happen again.' He returns both the Invisibility Cloak and the Marauder's Map with explicit acknowledgment: 'I am no longer your teacher, so I don't feel guilty about giving you back this as well.' He speaks about James: 'I have no hesitation in saying that James would have been highly disappointed if his son had never found any of the secret passages.' The scene is bittersweet and personal.",
+      "film_portrayal": "Lupin's farewell covers similar ground but adds the film-invented line 'people like me, well... let's just say I'm used to this by now,' which is slightly self-pitying rather than self-critical. He does not return the Invisibility Cloak (not a corpus-evidenced element in the film). He uses the map to perform 'Mischief managed' theatrically, then is simply gone. The scene ends on the Firebolt reveal rather than Harry's reflection on what he's lost.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film farewell is close to the book's but shifts slightly toward pathos ('I'm used to this') rather than the book's more dignified, self-aware sadness. The theatrical 'Mischief managed' flourish gives Lupin a showman's exit that fits the film's tone but softens the genuine loss of a mentor who is leaving because of his own failures as much as others' prejudice. Moderate damage."
+    },
+    {
+      "scene": "Film Scene 16 (Whomping Willow exterior) \u2014 Sirius Black delivers the 'you know the man you truly are, Remus' speech during transformation",
+      "book_baseline": "The book has no equivalent scene. During the transformation, the text simply states: 'Lupin's face had gone rigid... his limbs began to shake.' There is no dialogue addressed to Lupin. Black shouts 'Run' and tries to intervene physically as a dog. Lupin's transformation is presented as sudden, horrifying, and beyond any appeal.",
+      "film_portrayal": "Sirius wraps his arms around transforming Lupin and speaks: 'You know the man you truly are, Remus. This flesh is only flesh. This heart is where you truly live.' Lupin's wand drops in apparent response before Pettigrew grabs it.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's transformation is frightening precisely because it is involuntary and total \u2014 no friendship or words can stop it, which is central to the tragedy of Lupin's condition. The film's version implies Sirius's appeal almost reaches Lupin, sentimentalizing the werewolf transformation and the Black-Lupin friendship in a way that slightly undercuts the horror of what Lupin is. It also re-centers the moment on Black rather than the terrifying loss of Lupin's agency. Moderate damage to the theme of werewolf stigma and involuntary transformation."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place briefing, Lupin's single-line explanation of Fudge",
+      "book_baseline": "Book corpus shows Lupin as a primary, authoritative voice in the Grimmauld Place debriefing: he explains the Ministry's denial, the Daily Prophet suppression, goblin politics, Voldemort's recruitment strategy, the need for Occlumency, and delivers nuanced political analysis across many exchanges (scenes 70, 78, 83, 88, 90, 92, 95, 97, 99, 102, 103, 108). He mediates between Sirius and Molly, advocates for Harry's right to information, and demonstrates strategic intelligence and moral clarity throughout.",
+      "film_portrayal": "In the film briefing scene, Lupin delivers a single explanatory speech: 'The Minister thinks Dumbledore's after his job... Fudge isn't in his right mind. It's been twisted and warped by fear...' This is his only substantive contribution. All other briefing content is handled by Sirius and Moody. Lupin's role as mediator, political analyst, and advocate for Harry is entirely absent.",
       "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Mostly faithful; minor compression only."
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book corpus establishes the Grimmauld Place briefing as one of Lupin's defining moments: he balances Sirius's recklessness, outmanoeuvres Molly's protectiveness, and demonstrates why Dumbledore trusts him. Reducing him to a single speech and transferring his agency to Sirius and Moody collapses his intellectual authority and his function as the adult the Order actually relies on for measured judgment."
     },
     {
-      "scene": "PoA - Marauder's Map confrontation with Snape: Lupin's lie",
-      "book_baseline": "Lupin covers for Harry by pretending the map is a Zonko product, knowing full well it is the Marauder's Map he helped create. Afterwards he privately reprimands Harry, keeps the map, and obliquely reveals he knows it well ('I happen to know that this map was confiscated by Mr. Filch many years ago'). He does not reveal he is Moony.",
-      "film_portrayal": "Lupin covers for Harry similarly, but in the subsequent corridor scene he immediately tells Harry 'I don't know how this map came to be in your possession' - which is a lie, since he recognises it. The film then has Harry mention Pettigrew on the map and Lupin barely react, simply sending Harry away. The map is not confiscated.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's version shows Lupin in a morally complex position - he lies to Snape, keeps the map, and is clearly wrestling with what he knows. The film simplifies this, reducing the sense that Lupin is actively concealing his knowledge of Pettigrew's presence."
-    },
-    {
-      "scene": "PoA - Lupin's resignation scene",
-      "book_baseline": "Lupin packs his office, tells Harry he's resigned, explains Snape outed him, gives Harry back the Invisibility Cloak and the Marauder's Map, discusses Harry's Patronus and James, and says 'I have no hesitation in saying that James would have been highly disappointed if his son had never found any of the secret passages out of the castle.' The scene is warm, wry, and bittersweet.",
-      "film_portrayal": "The scene is present and largely faithful, though the wry joke about James and the secret passages is replaced by a more generic 'There are stories about him and your mother... you'll know them best by getting to know yourself.' Lupin then uses 'Mischief managed' to wipe the map - a moment that belongs to Harry in the books.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The substitution of Lupin's wry, specific humour with a vague inspirational line softens his voice. Having Lupin say 'Mischief managed' rather than Harry is a small but telling transfer of agency/ownership of the Marauder's legacy."
-    },
-    {
-      "scene": "OotP - Grimmauld Place: Lupin's role in the information debate",
-      "book_baseline": "Lupin is a measured, intelligent voice who argues Harry should get 'the general picture' of what is happening, positioning himself between Sirius's recklessness and Molly's protectiveness. He is politically astute and treats Harry as a near-adult.",
-      "film_portrayal": "Lupin delivers a single line: 'The Minister thinks Dumbledore's after his job' and later 'Fear makes people do terrible things, Harry.' He is present but largely passive in the debate, with Sirius dominating.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film reduces Lupin to a supporting voice, losing his role as the group's most thoughtful political analyst and his specific dynamic of being the adult who most consistently respects Harry's intelligence."
-    },
-    {
-      "scene": "OotP - Department of Mysteries: Lupin restrains Harry after Sirius falls",
-      "book_baseline": "Lupin physically restrains Harry, his own voice breaking as he tells Harry Sirius is dead. Harry fights him violently. Lupin's grief is palpable but he holds Harry back, saying 'He can't come back, because he's d-' before Harry screams over him. It is one of the most emotionally raw moments in the series for both characters.",
-      "film_portrayal": "Lupin grabs Harry and restrains him. The scene is present but brief. Lupin's broken voice and the specific exchange ('He can't come back because he's d-' / 'HE IS NOT DEAD!') is compressed.",
+      "scene": "Film Scene 1 \u2013 Grimmauld Place briefing, Lupin absent from Sirius/Molly mediation",
+      "book_baseline": "Book scenes 78\u201384 show Lupin sharply intervening in the Sirius/Molly argument: 'Molly, you're not the only person at this table who cares about Harry' (to Molly), 'Sirius, sit down' (to Sirius), and 'I think Harry ought to be allowed a say in this.' He then physically leaves to silence Mrs. Black's portrait and returns to manage the room. This positions him as the group's calm authority, distinct from both Sirius's passion and Molly's anxiety.",
+      "film_portrayal": "The film's Sirius/Molly argument (Film Scene 1) has no Lupin intervention. The argument plays out between Sirius, Molly, and Snape, with Lupin entirely silent. His line 'The Minister thinks Dumbledore's after his job' comes before this conflict, not as a mediating act within it.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book scene is the culmination of the Harry-Lupin relationship in OotP - Lupin is the one who has to deliver the unbearable truth while himself grieving his last friend. The film's compression reduces the emotional weight of this bond."
+      "explanation": "Lupin's mediation in the book is not incidental \u2014 it reveals his standing among the Order, his ability to check both Sirius and Molly, and his particular investment in Harry. Losing it flattens his relationship with both Sirius (where he is a brake, not just a companion) and with Harry (where he is an independent advocate, not just a bystander)."
     },
     {
-      "scene": "HBP - Burrow Christmas: Lupin on Snape",
-      "book_baseline": "Lupin gives a nuanced, honest assessment of Snape: he neither likes nor dislikes him, acknowledges the history between Snape and the Marauders, but credits Snape for making the Wolfsbane Potion correctly every month. He tells Harry he is 'determined to hate' Snape due to inherited prejudice. This is morally complex and self-aware.",
-      "film_portrayal": "Lupin says 'It comes down to whether or not you trust Dumbledore's judgement. He trusts Snape. Therefore, I do.' and accuses Harry of being 'blinded by hatred.' The nuanced personal history and Lupin's acknowledgment of his own debt to Snape is absent.",
+      "scene": "Film Scene 1 \u2013 Grimmauld Place, Lupin's werewolf marginalisation and social vulnerability absent",
+      "book_baseline": "Book scene 102 has Lupin state with dry self-awareness: 'I'm not a very popular dinner guest with most of the community. It's an occupational hazard of being a werewolf.' Book scene 169 connects Umbridge's anti-werewolf legislation directly to Lupin's shabby appearance. These moments establish his social precarity as a lived, characterising reality.",
+      "film_portrayal": "The film corpus contains no reference to Lupin's werewolf status in the context of his social standing, employment difficulties, or relationship with wizarding society's prejudice. Kreacher's line 'Mudblood and werewolves' (Film Scene 1) is the only acknowledgment of his condition, and it is hostile background noise, not characterisation.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film reduces Lupin's position to institutional loyalty rather than hard-won personal wisdom, losing one of his most revealing and morally sophisticated speeches."
+      "explanation": "Lupin's wry, dignified acknowledgment of his own marginalisation is a key character note \u2014 it shows resilience, self-knowledge, and the cost of his loyalty to Dumbledore's cause. Without it, his shabbiness reads as generic poverty rather than the consequence of systemic prejudice, and a thematic strand about discrimination within the wizarding world is severed."
     },
     {
-      "scene": "DH1 - Grimmauld Place: Lupin's offer to join the trio and Harry's confrontation",
-      "book_baseline": "Lupin arrives, offers to join the trio, and Harry confronts him furiously about abandoning Tonks and their unborn child. Lupin breaks down, reveals his terror that the child will be a werewolf, and Harry calls him a coward. Lupin blasts Harry against the wall and leaves. This is a major, painful scene showing Lupin's deepest self-loathing and Harry's moral clarity.",
-      "film_portrayal": "This entire scene is cut. Lupin simply appears at the wedding and tells Harry he and Tonks want him as godfather.",
+      "scene": "Film Scene 2 \u2013 Department of Mysteries battle, Lupin's restraint of Harry after Sirius's death",
+      "book_baseline": "Book scenes 263\u2013280 show Lupin physically restraining Harry for an extended, anguished sequence. Lupin's voice breaks ('He can't come back, because he's d\u2014'), he struggles to contain Harry while clearly grief-stricken himself, drags him away from the archway, and the narration emphasises that every word costs him pain (scene 280). His own grief is present but subordinated to Harry's need \u2014 a sustained act of painful, selfless duty.",
+      "film_portrayal": "Film Scene 2 shows Lupin grabbing Harry as Harry tries to follow Sirius through the veil, and Harry breaking free to chase Bellatrix. The physical restraint is present but brief. There is no audible break in Lupin's voice, no extended struggle, and no textual or visual signal that Lupin is simultaneously grieving his closest friend. The moment is functional rather than emotionally layered.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book corpus uses this scene to establish that Lupin's bond with Sirius is equal in depth to Harry's bond with his godfather \u2014 Lupin's breaking voice and the narrator's note that 'every word was causing him pain' are the primary evidence of their friendship's depth. The film reduces this to a physical plot beat, losing the emotional testimony to the Marauder relationship and diminishing the cost of Sirius's death to Lupin specifically."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival, Lupin's welcoming presence and prefect backstory absent",
+      "book_baseline": "Book scenes 6\u201331 show Lupin as the first person Harry recognises and trusts on arrival, the one who verifies Harry's identity via Patronus, manages the group's logistics, praises Harry's flying to Kingsley, and shepherds the whole operation with quiet competence. Book scenes 128\u2013129 later establish the prefect anecdote \u2014 Lupin was the 'good boy' who 'failed dismally' to control James and Sirius \u2014 giving him self-deprecating wit and grounding his moral complexity.",
+      "film_portrayal": "The film arrival sequence (Film Scene 1) is led by Moody, with Tonks prominent. Lupin is present in the group but has no dialogue in the arrival or flight sequence. The prefect anecdote does not appear anywhere in the film corpus. Lupin's role as the trusted anchor of Harry's reintegration into the wizarding world is absorbed by Moody and Tonks.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's arrival sequence is the first extended portrait of adult-Lupin: competent, warm, quietly funny, Harry's primary point of trust. The prefect anecdote adds self-aware humour and reveals his complicated loyalty to James. Both are lost, leaving the film's Lupin without an establishing characterisation moment in the first act."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place, Lupin comforting Molly after Boggart absent",
+      "book_baseline": "Book scenes 139\u2013152 show Lupin walking in, instantly reading the situation (Mrs. Weasley's Boggart), dispelling it with a firm 'Riddikulus', comforting Molly on his shoulder, handing her a handkerchief, and then firmly but kindly reframing her fears: 'Molly, that's enough. This isn't like last time... And as for who's going to look after Ron and Ginny if you and Arthur died, what do you think we'd do, let them starve?' This is a full scene of emotional intelligence, practical reassurance, and paternal warmth.",
+      "film_portrayal": "The Boggart scene and Lupin's comfort of Molly Weasley do not appear in the film corpus at all.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is one of the clearest demonstrations of Lupin's emotional competence and his role as a sustaining figure for the Order's human core. Its absence removes a key beat showing him as someone others lean on \u2014 not just a tactician or a teacher \u2014 and weakens the audience's sense of why he is irreplaceable to this group."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place, Lupin's urgent Occlumency advocacy absent",
+      "book_baseline": "Book scenes 194 and 246\u2013251 show Lupin delivering a firm, private instruction to Harry about Occlumency ('Harry, I know you don't like Snape, but he is a superb Occlumens and we all \u2014 Sirius included \u2014 want you to learn to protect yourself') and later responding with alarm when he learns Snape has stopped the lessons ('Are you serious, Harry?... Harry there is nothing so important as you learning Occlumency! Do you understand me? Nothing!'). He physically restrains Sirius from storming up to Hogwarts and takes responsibility for addressing Snape himself.",
+      "film_portrayal": "No version of the Occlumency advocacy or the fireplace scene appears in the film corpus. Lupin's awareness of Voldemort's mental threat to Harry and his active intervention to protect Harry from it are entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Occlumency is structurally central to Order of the Phoenix \u2014 its failure leads directly to Sirius's death. The book establishes Lupin as the adult who most urgently champions Harry learning it, and who tries to course-correct when it breaks down. Losing this removes Lupin's causal connection to the plot's central tragic chain and strips him of a major protective function."
+    },
+    {
+      "scene": "Film Scene 1 - Christmas party conversation about Snape/Draco",
+      "book_baseline": "In the book, Lupin's rebuttal to Harry is measured, philosophically grounded, and personally revealing. He explains his nuanced view of Snape: 'I neither like nor dislike Severus... we shall never be bosom friends... But I do not forget that during the year I taught at Hogwarts, Severus made the Wolfsbane Potion for me every month, made it perfectly.' He also gently calls out Harry's inherited prejudice: 'You are determined to hate him, Harry... you have inherited an old prejudice.' The argument is reasoned, warm, and self-aware.",
+      "film_portrayal": "Lupin cuts Harry off sharply with 'You're blinded by hatred' and then 'You are!' (marked 'sharply' in the script). The film reduces Lupin's nuanced, personally-grounded argument to a blunt, almost dismissive rebuke. The personal explanation about the Wolfsbane Potion \u2014 which humanizes both Lupin and his complicated relationship with Snape \u2014 is entirely absent. The film Lupin sounds more like a stressed authority figure shutting down debate than the thoughtful, self-reflective man of the books.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's Lupin uses this moment to demonstrate emotional intelligence, personal honesty about his own biases, and a mature capacity to hold complexity. The film's sharp, dismissive tone strips away the introspective quality that defines book-Lupin's voice. It also removes the Wolfsbane detail, which is one of the rare moments where Lupin's relationship to his own condition and to Snape is illuminated with real specificity."
+    },
+    {
+      "scene": "Film Scene 1 - Christmas party: Lupin's mission among werewolves entirely absent",
+      "book_baseline": "The book Christmas scene contains an extended, deeply characterizing conversation in which Lupin reveals he has been living undercover among werewolves for Dumbledore ('I've been living among my fellows, my equals... Nearly all of them are on Voldemort's side. Dumbledore wanted a spy and here I was... ready-made'). He speaks with bitter self-awareness, explains the difficulty of gaining their trust, introduces Greyback, and \u2014 crucially \u2014 reveals that Greyback was the one who bit him as a child. This is the primary scene establishing Lupin's arc, his relationship to his condition, and his personal history with Greyback.",
+      "film_portrayal": "The film's Christmas scene contains no mention of Lupin's undercover mission, Greyback's identity, or Lupin's childhood backstory. The conversation is entirely redirected to Draco/Snape and then to the attack on the Burrow. None of this arc material appears elsewhere in the film corpus.",
+      "damage_type": "arc | nuance/lost material | motivation/internal conflict",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the defining arc passage for Lupin in HBP. His self-described role as 'ready-made' spy, his bitter acknowledgment of his own marginalization among werewolves, and the revelation about Greyback are central to understanding who he is and what he risks. Without it, Lupin's later relationship to Greyback (who attacks Bill), his emotional weight at the hospital wing, and the Tonks arc all lose grounding. The audience never understands that Lupin has been living in danger and self-sacrifice, which fundamentally changes how they read him."
+    },
+    {
+      "scene": "Film Scene 1 - Christmas party: Half-Blood Prince conversation absent",
+      "book_baseline": "The book contains a warm, characterizing exchange where Harry asks Lupin about the Half-Blood Prince, Lupin engages with gentle humor ('Is this a title you're thinking of adopting? I should have thought being the Chosen One would be enough'), and \u2014 crucially \u2014 confirms James was a pureblood who never asked to be called Prince. Lupin also reflects on Levicorpus being popular in his fifth year, and the conversation ends with the James-reminiscence that prompts Harry's excitement: 'Sometimes you remind me a lot of James. He called it my furry little problem in company.' This is one of the few warm, James-connected moments between Lupin and Harry in the book.",
+      "film_portrayal": "This exchange is entirely absent from the film corpus. The Christmas scene moves from the Snape/Draco argument directly to the Burrow attack.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Half-Blood Prince conversation is one of the warmest Harry-Lupin interactions in HBP and one of the few moments where Lupin serves as a living connection to James. The 'furry little problem' line is also the sole moment of levity Lupin displays about his own condition in this book. Its absence weakens the Harry-Lupin relationship dynamic and removes a layer of Lupin's personality \u2014 his dry humor and his emotional tie to James \u2014 that does not appear elsewhere in the film corpus."
+    },
+    {
+      "scene": "Film Scene 2 - Mr. Weasley's workshop: Lupin's character explained away by Arthur",
+      "book_baseline": "The book establishes Lupin's sharpness and self-awareness through his own speech and behavior. He does not require external explanation or apology.",
+      "film_portrayal": "After the Christmas conversation, Arthur tells Harry privately: 'You'll have to forgive Remus. It takes its toll \u2014 his condition.' This frames Lupin's sharpness in the prior scene as a symptom of his lycanthropy rather than a considered, defensible position.",
+      "damage_type": "personality/voice | motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "By having Arthur excuse Lupin's behavior as a byproduct of 'his condition,' the film inadvertently reduces Lupin's agency. In the book, Lupin's views on Snape are principled and deliberate, not emotionally compromised. This line pathologizes a character whose defining struggle is precisely the desire to be seen as more than his condition. It is a small moment but one that subtly undermines Lupin's intellectual authority."
+    },
+    {
+      "scene": "Film Scenes 3-7 - Burrow attack: Lupin's role is reactive and peripheral",
+      "book_baseline": "The Burrow attack does not occur in the books. However, within the film corpus, the book establishes Lupin as an active, capable participant in the Battle of the Astronomy Tower (fighting Death Eaters, providing tactical information, being a leader in the Order), and as someone with specific agency in dangerous situations.",
+      "film_portrayal": "During the Burrow attack, Lupin's role is almost entirely reactive: he sniffs the air, his hand hairs rise, and he draws his wand to chase after Harry. The resolution of the confrontation with Greyback is achieved by Harry and Ginny together. Lupin arrives in the clearing after the fact with the rest of the group. Given that Greyback is the man who bit Lupin as a child \u2014 a fact just revealed in the book Christmas scene but absent from the film \u2014 Lupin has no notable interaction with Greyback at all.",
+      "damage_type": "agency/function | relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film invents a confrontation between Lupin and Greyback (implicitly, since both are present) but gives it to Harry and Ginny. Because the film has already omitted the revelation that Greyback bit Lupin, the missed opportunity is compounded: even if the audience knew the backstory, Lupin is sidelined. This transfers a moment of potential personal agency and dramatic resonance to other characters, and reduces Lupin to a supporting bystander in the scene where his personal nemesis appears."
+    },
+    {
+      "scene": "Film corpus overall: Lupin-Tonks relationship development absent",
+      "book_baseline": "The book builds the Lupin-Tonks relationship across the whole volume through layered indirect evidence (Tonks's changed Patronus, her depression, her grey hair, Lupin trying to talk her round) culminating in the hospital wing scene where Tonks seizes Lupin's robes and declares 'I don't care!' and Lupin responds with his full self-deprecating refusal ('I am too old for you, too poor... too dangerous... Tonks deserves somebody young and whole'). This is one of the book's central emotional arcs and a key expression of Lupin's deepest flaw: his belief that he is unworthy of love.",
+      "film_portrayal": "The film corpus contains no scene developing the Lupin-Tonks relationship. The only references are background staging: Tonks saying 'Sweetheart' to Lupin on the porch, and the stage direction noting they appear to be holding hands at Dumbledore's funeral. The hospital wing confrontation \u2014 the emotional climax of this arc \u2014 does not appear in the film corpus at all.",
+      "damage_type": "arc | relationship",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "Lupin's refusal of love out of self-loathing ('I am too old, too poor, too dangerous') is his central character flaw in HBP and the emotional spine of his arc across the final two books. Without this scene, the audience has no understanding of why Lupin and Tonks are together in DH, no sense of what it cost either of them, and no framework for reading Lupin's later abandonment of Tonks during her pregnancy \u2014 itself a major moral failure the books set up here. This is the single most damaging omission in the film corpus: it removes a saga-level arc beat that redefines Lupin from tragic supporting figure to a man with a genuine, flawed inner life."
+    },
+    {
+      "scene": "DH Part 1 - Sitting room/kitchen after Seven Potters, Lupin interrogates Harry",
+      "book_baseline": "In the book, Lupin 'grabbed Harry by the upper arm and dragged him, none too gently, back into the kitchen' \u2014 a firm but controlled action. He then asks the grindylow question with 'a small shake.' The physicality is present but measured, and Hagrid's protest ('Le' go of Harry!') and Lupin's explanation follow naturally in a private kitchen space.",
+      "film_portrayal": "The film has Lupin grab 'a fistful of his shirt and hurl him against the wall' in front of the assembled group including Ginny, who shouts 'Remus! What're you doing!' The public spectacle and the heightened violence of the action make Lupin look unhinged rather than urgently cautious.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Lupin acts with terse, purposeful urgency \u2014 alarming but explicable. The film amplifies the physicality and makes it a public scene, which strips Lupin of the controlled professionalism that defines him and makes him seem temperamentally volatile rather than a man under extreme pressure exercising hard-headed security judgment."
+    },
+    {
+      "scene": "DH Part 1 - Sitting room after Seven Potters, Lupin's explanation of the betrayal",
+      "book_baseline": "After the grindylow question, the book gives Lupin a substantial exchange with Harry: he explains the betrayal, engages in a sharp debate about Harry using Expelliarmus, accuses Harry of near-suicidal recklessness, and Harry pushes back defiantly. This exchange ('the time for Disarming is past!'; 'I won't blast people out of my way just because they're there \u2014 that's Voldemort's job') is a defining moment of Lupin as mentor, moral interlocutor, and intellectual equal to Harry.",
+      "film_portrayal": "The film collapses this to a single line: 'We've been betrayed. Voldemort knew you were being moved tonight. I had to make sure you weren't an impostor.' The Expelliarmus debate, Lupin's 'painful restraint,' Harry's defiance, and the entire thematic exchange about signature moves and Voldemort's methods are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Expelliarmus debate is one of the most important mentor-student exchanges in the saga \u2014 it foreshadows the climax of Deathly Hallows (Harry using Expelliarmus against Voldemort) and establishes Lupin as someone who challenges Harry intellectually and morally, not just emotionally. Its absence removes Lupin's function as a wise, probing mentor and severs a key thematic thread."
+    },
+    {
+      "scene": "DH Part 1 - Burrow yard, Lupin's suspicion of Mundungus and 'like James' exchange",
+      "book_baseline": "The book has Lupin drain his glass and ask pointedly 'So Mundungus disappeared?' \u2014 creating a tense atmosphere where everyone watches him. This leads to the exchange where Lupin looks at Harry with a pitying expression and says 'I think you're like James \u2014 who would have regarded it as the height of dishonor to mistrust his friends,' a line that cuts Harry deeply by invoking his father's fatal flaw. Lupin then pivots immediately to action ('There's work to do') and leaves with Bill to recover Mad-Eye's body.",
+      "film_portrayal": "This exchange is entirely absent from the film corpus. The toast to Mad-Eye and Lupin's 'Understood' line replace this material. The 'like James' comparison and the recovery of Mad-Eye's body mission do not appear.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The 'like James' line is one of Lupin's most layered moments \u2014 it simultaneously honours and warns Harry, invoking Pettigrew's betrayal without naming it, and shows Lupin's unique insight into the Potter legacy. Its absence reduces Lupin from someone who actively shapes Harry's self-understanding to a background witness."
+    },
+    {
+      "scene": "DH Part 1 - Grimmauld Place, Lupin's offer to join the trio and the confrontation",
+      "book_baseline": "The book's Grimmauld Place scene is one of Lupin's defining moments across the entire saga: he arrives, briefs the trio on the political situation at length and with authority, then makes his offer to join them, reveals Tonks's pregnancy with a 'grimace,' confesses his self-loathing ('I made a grave mistake in marrying Tonks'), and is finally confronted by Harry who calls him a coward. Lupin draws his wand, blasts Harry, and leaves. This scene establishes Lupin's internal conflict about his werewolf condition, his near-abandonment of responsibility, and Harry's moral courage in confronting his father's friend.",
+      "film_portrayal": "This scene does not appear anywhere in the film corpus. There is no Grimmauld Place briefing scene with Lupin, no offer to join the trio, no revelation of the pregnancy in this context, no cowardice confrontation, and no wand-blast exit.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 5,
-      "explanation": "This is the single most damaging cut in Lupin's film portrayal. The scene is essential to understanding Lupin's arc: his self-hatred as a werewolf, his fear of passing on his condition, his cowardice dressed as self-sacrifice, and Harry's role in forcing him back to his responsibilities. Without it, Lupin's DH arc (abandonment \u2192 return \u2192 fatherhood \u2192 death) is structurally broken. The audience has no understanding of why Lupin looks unhappy at the wedding or what his death means in terms of a completed arc."
+      "explanation": "This is the single most damaging omission for Lupin's character arc. It removes his central internal conflict (shame about his condition leading to near-abandonment of wife and unborn child), his most morally complex moment, Harry's role in forcing him back to his responsibilities, and the entire arc of Lupin's redemption that culminates in his joyful announcement of Teddy's birth. Without this scene, Lupin's arc from flawed self-loathing man to redeemed father is invisible to film audiences. It also strips Harry of a crucial moment of moral agency and growth."
     },
     {
-      "scene": "DH1 - Seven Potters: Lupin's aggressive interrogation of Harry",
-      "book_baseline": "After arriving at the Burrow with injured George, Lupin grabs Harry and demands the grindylow question to verify his identity. He is terse and frightened, not cruel.",
-      "film_portrayal": "Lupin grabs Harry, slams him against a wall, and shouts 'WHAT CREATURE!' in a manner that reads as threatening and almost violent before releasing him.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor amplification of the scene's physicality for cinematic effect, slightly misrepresenting Lupin's controlled urgency as aggression."
-    },
-    {
-      "scene": "DH1 - Lupin's argument with Harry about Expelliarmus",
-      "book_baseline": "Lupin criticises Harry for using Expelliarmus against Death Eaters, arguing it has become his 'signature move' and is tactically dangerous. Harry defends himself. Lupin makes a valid tactical point but Harry's counter-argument (about Stan Shunpike being Imperiused) is also valid. The exchange is morally balanced.",
-      "film_portrayal": "This exchange is cut entirely.",
+      "scene": "DH Part 1 - Wedding, Lupin's unhappy demeanour and departure",
+      "book_baseline": "The book establishes at the birthday dinner that Lupin 'smiled as he shook Harry's hand' but 'looked rather unhappy,' while Tonks 'looked simply radiant' \u2014 a clear signal of marital tension. At the wedding, Lupin gives Harry 'a swift smile' but his 'face fell again into lines of misery.' This visible unhappiness is the book's way of signalling the unresolved Grimmauld Place conflict to come.",
+      "film_portrayal": "The film's wedding scene (Film Corpus Scene 7) shows Lupin standing behind Harry, 'staring at Tonks with affection,' then grinning and clapping Harry on the shoulder after asking him to be godfather. He 'hikes off into the darkness' to stand guard. There is no visible unhappiness, no marital tension signalled.",
       "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Without the Grimmauld Place confrontation scene (which is also absent from the film), the wedding's signals of Lupin's unhappiness have nowhere to resolve. But within the wedding scene itself, replacing visible misery with warmth and affection removes the only available hint that something is wrong in the Lupin marriage \u2014 flattening the character and losing the dramatic texture the book carefully builds."
+    },
+    {
+      "scene": "DH Part 1 - Wedding, godfather offer timing",
+      "book_baseline": "In the book, Lupin asks Harry to be godfather at Shell Cottage \u2014 after Teddy is born, in a scene of overwhelming joy, having returned from the Grimmauld Place confrontation and reconciled with Tonks. The offer is earned by the full arc of Lupin's redemption.",
+      "film_portrayal": "The film corpus (Scene 7) moves the godfather offer to the wedding, delivered as a whispered aside. Tonks is shown with 'hand to her belly' and the offer is made before any of the crisis or resolution of the Grimmauld Place arc. Lupin 'grins, claps Harry on the shoulder' and moves on.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Relocating the godfather offer to the wedding collapses the emotional arc entirely. In the book, the offer carries the weight of Lupin's full redemption journey \u2014 he has faced his cowardice, returned to Tonks, and now joyfully embraces fatherhood and asks Harry to share in it. As a wedding-scene aside it becomes a pleasant moment without dramatic resonance, and it cannot carry its true meaning since the Grimmauld Place scene that motivates it does not exist in the film."
+    },
+    {
+      "scene": "DH Part 1 - Seven Potters aftermath, Tonks's return and Lupin's barely-controlled fear",
+      "book_baseline": "The book describes: 'Remus!' Tonks cried as she staggered off the broom into Lupin's arms. His face was set and white: He seemed unable to speak.' After she explains what happened, 'A muscle was jumping in Lupin's jaw. He nodded, but seemed unable to say anything else.' When she finishes, 'Lupin sounded almost angry at Tonks' asking what kept her. This is a precise portrait of a man containing terror for his wife through a veneer of controlled anger.",
+      "film_portrayal": "The film corpus (Scene 5) shows Tonks arriving and saying Ron 'Deserves that. Brilliant, he was.' The reunion with Lupin is minimal \u2014 there is no equivalent of the jaw-muscle, the white face, the barely-suppressed emotion. Lupin's line in the film is the institutional 'Understood' in response to Harry's trust speech.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's precise physical detail \u2014 set white face, jumping jaw muscle, near-inability to speak \u2014 conveys the depth of Lupin's feeling for Tonks without sentimentality. This is the primary film opportunity to establish their relationship as emotionally real and high-stakes. Its absence means the Lupin-Tonks relationship has almost no emotional texture in the films, making their deaths later carry less weight."
+    },
+    {
+      "scene": "DH Part 2 - Battle of Hogwarts, Lupin's original quote and leadership",
+      "book_baseline": "The book has Lupin arrive at the Room of Requirement, meet Harry at the foot of the stairs ('Harry, what's happening?'), participate in the battle briefing where Kingsley identifies 'Remus' as leading a ground group, mediate in the Weasley family tension (suggesting Ginny stay in the Room of Requirement), and show the photograph of Teddy. These are all small but accumulating acts of leadership, warmth, and family feeling.",
+      "film_portrayal": "The film corpus (Scene 11) gives Lupin an invented line \u2014 'It's the quality of one's conviction that determines success, not the number of one's followers' \u2014 which he attributes to himself ('Me.') with a knowing smile. This is not present in the book corpus and replaces the quieter, functional characterisation of the book.",
+      "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The exchange shows Lupin as a serious, tactically minded fighter and establishes a meaningful tension with Harry's moral instincts. Its absence reduces Lupin to a background figure in DH1."
+      "explanation": "The book's Lupin at the Battle of Hogwarts is purposeful and warm but not aphoristic. The invented quote gives him a cinematic 'cool professor' register \u2014 detached, slightly ironic, quotable \u2014 that is foreign to the character as written. The book's Lupin leads through action and care, not through bon mots. This reframes his personality toward a different archetype."
     },
     {
-      "scene": "DH1 - Wedding: Lupin's godfather announcement",
-      "book_baseline": "In the books, Lupin announces the godfather request when he arrives at Shell Cottage after Teddy's birth, in a scene of overwhelming joy that contrasts with the darkness of the war. He is 'dazed by his own happiness' and looks 'years younger.'",
-      "film_portrayal": "The godfather announcement is moved to the Weasley wedding, where Lupin whispers it to Harry from across the garden before hiking off to stand guard. The birth scene at Shell Cottage is cut entirely.",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The Shell Cottage birth scene is the resolution of Lupin's arc - the man who feared fatherhood embracing it with pure joy. Moving the godfather moment to the wedding and cutting the birth scene eliminates the payoff of his entire DH character journey, making his death feel less earned and less tragic."
-    },
-    {
-      "scene": "DH2 - Battle of Hogwarts: Lupin's invented line on the battlements",
-      "book_baseline": "Lupin has no such scene in the books. He fights in the battle and dies off-page.",
-      "film_portrayal": "Lupin delivers the invented line: 'It's the quality of one's conviction that determines success, not the number of one's followers.' He then shares a fatalistic smile with Kingsley.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The line is not out of character but is a generic inspirational sentiment that does not reflect book Lupin's specific voice. Minor issue."
-    },
-    {
-      "scene": "DH2 - Great Hall: Lupin and Tonks's bodies",
-      "book_baseline": "Harry sees Lupin and Tonks laid out among the dead. He feels the loss as a physical wound. The book notes their fingers are not touching.",
-      "film_portrayal": "Lupin and Tonks are shown with their fingers 'clumsily intertwined' - a sentimental visual addition.",
+      "scene": "DH Part 2 - Great Hall, Lupin and Tonks's bodies",
+      "book_baseline": "The book describes Harry seeing 'Remus and Tonks, pale and still and peaceful-looking, apparently asleep beneath the dark, enchanted ceiling,' then 'He turned away and ran up the marble staircase. Lupin, Tonks\u2026 He yearned not to feel\u2026 He wished he could rip out his heart, his innards, everything that was screaming inside him.' Later: 'the pain of losing Fred and Lupin and Tonks pierced him like a physical wound every few steps.' The Forest scene has Harry address Lupin specifically: 'right after you'd had your son... Remus, I'm sorry' and Lupin replies about dying to make a world his son could live in.",
+      "film_portrayal": "The film corpus (Scene 14) shows Lupin and Tonks with 'their blood-stained fingers clumsily intertwined' \u2014 a visual addition not in the book. Harry's internal monologue about Lupin is absent. In the Forest scene (Scene 15), Lupin's line is reduced to 'Others will tell him what his mother and father died for. Someday he'll understand.' The specific apology from Harry ('right after you'd had your son') and Lupin's articulated motivation ('I was trying to make a world in which he could live a happier life') are cut or compressed.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The intertwined fingers is a small but telling sentimentalisation that softens the brutal randomness of their deaths."
-    },
-    {
-      "scene": "DH2 - Forest: Resurrection Stone scene",
-      "book_baseline": "Lupin appears younger and less shabby, 'happy to be back in this familiar place.' He tells Harry: 'I am sorry too. Sorry I will never know him... but he will know why I died and I hope he will understand. I was trying to make a world in which he could live a happier life.'",
-      "film_portrayal": "Lupin says: 'And he will want it to be quick' (about Voldemort) and 'Others will tell him what his mother and father died for. Someday he'll understand.' His line about making a better world is cut.",
-      "damage_type": "arc",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Lupin's book line is the thematic culmination of his arc - a father who died for his son's future. The film replaces this with a passive observation about Voldemort's desires, losing the only moment where Lupin's fatherhood and his death are explicitly connected."
+      "explanation": "Lupin's spoken motivation in the Forest \u2014 'I was trying to make a world in which he could live a happier life' \u2014 is the culminating statement of his arc: the man who nearly abandoned his child instead died to protect all children, including his own. Reducing this to 'others will tell him' removes the thematic closure of Lupin's entire DH journey. The intertwined fingers are a compensatory visual gesture that cannot carry the same meaning as the spoken arc resolution."
+    },
+    {
+      "scene": "DH Part 2 - Tonks's arrival at the Battle (cut scene per NON-THEATRICAL exclusion)",
+      "book_baseline": "The book establishes that Tonks left Teddy with her mother specifically to fight beside Lupin ('I couldn't stand not knowing... She'll look after him'). This is a parallel act to Lupin's own choice \u2014 both parents chose the fight, and both died together. Aberforth's line 'He was dueling Dolohov, haven't seen him since' and Tonks's anguished search for Remus establish their separation and mutual fear before death.",
+      "film_portrayal": "Per the non-theatrical exclusion instruction, the scene of Tonks arriving at the Battle and searching for Lupin was cut from the theatrical release. It appears in the film corpus (Scene 11) only as the non-excluded portion showing Lupin and Tonks reuniting on the battlements \u2014 but the book's searching, separation, and Aberforth's report are absent.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The theatrical cut removes all of the book's dramatic separation of Lupin and Tonks during the battle \u2014 Tonks's frantic search, Aberforth's worried report, Ginny's reassurance. This means their deaths side by side have no preceding tension or earned tragedy in the film. They appear together in one scene and are next seen dead, with no dramatic arc between. The emotional impact of their simultaneous deaths is substantially reduced."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1609.5,
-  "adjusted_cids_v1": 2414.2
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

@@ -2,152 +2,856 @@
   "character": "Hermione Granger",
   "fp_score": 71.0,
   "infidelity_score": 29.0,
-  "weighted_infidelity_exposure": 23.5,
-  "cids": 167.3,
-  "damage_per_exposure": 16.7,
-  "structural_damage_level": 2,
-  "adjusted_cids": 167.3,
+  "weighted_infidelity_exposure": 249.5,
+  "cids": 346.6,
+  "damage_per_exposure": 3.5,
+  "structural_damage_level": 4,
+  "adjusted_cids": 346.6,
   "main_damage_causes": [
-    "Systematic removal or compression of Hermione's independent intellectual contributions to plot resolution (most severely the PS/SS logic puzzle), reducing her from co-protagonist to support role in climactic moments",
-    "Recurring tendency to filter Hermione's emotional and social experiences through male characters' reactions (Ron's jealousy, Harry's admiration) rather than granting her interiority on her own terms",
-    "Transfer of Hermione's institutional agency \u2013 particularly the founding of the DA \u2013 toward Harry, reinforcing a hierarchy where her ideas become his initiatives"
+    "Removal of the potion logic puzzle chamber eliminates Hermione's defining independent intellectual contribution to the quest, her bravest decision (separating to help Ron), her most thematically important speech in its proper context, and her individual recognition at the end-of-year feast \u2014 this single cut does more damage than all other changes combined.",
+    "The theatrical cut of the troll aftermath reconciliation scene removes the dramatised founding moment of the Golden Trio's friendship, leaving the bond implied rather than earned, and erasing Ron's explicit acknowledgement of Hermione's loyalty and Hermione's defining act of rule-breaking for her friends.",
+    "Compression of Hermione's introduction, Potions class behaviour, and Devil's Snare panic collectively strips the humanising texture of her characterisation \u2014 the Muggle-born anxiety, the compulsive over-preparation as a coping mechanism, and the moments where her book-learning fails under pressure \u2014 leaving a flatter 'competent corrector' rather than the complicated, vulnerable, and courageous character the book establishes.",
+    "Loss of Hermione's active agency: several key scenes where she schemes, steals, and executes plans independently (Lockhart permission-note manipulation, Snape's stores theft) are absent, reducing her from architect-and-actor to information-provider.",
+    "Compression or removal of characterisation beats that show her inner conflict and moral reasoning \u2014 particularly her wrestling with rule-breaking for moral ends \u2014 leaving her personality flatter and more uniformly 'correct'."
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film \u2013 Hermione's first appearance on the train",
-      "book_baseline": "Hermione is a fast-talking, socially oblivious know-it-all who barrels into the compartment uninvited, lectures Ron about his spell, and leaves without reading the room \u2013 endearingly awkward, not charming",
-      "film_portrayal": "Hermione is poised, helpful, and immediately likeable; she fixes Harry's glasses as a neat demonstration of competence, softening the abrasive first impression entirely",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Hermione is initially off-putting \u2013 that's the point. Her arc from insufferable to beloved friend requires the audience to understand why Ron dislikes her. The film skips the abrasiveness, making her arc shallower."
-    },
-    {
-      "scene": "PS/SS Film \u2013 Troll bathroom scene",
-      "book_baseline": "Hermione is found crying in the bathroom because Ron's cruel public mockery wounded her; she then lies to McGonagall to protect the boys, her first act of genuine loyalty and moral courage",
-      "film_portrayal": "The emotional context of why she is there is compressed; her lie to McGonagall is present but the weight of her choosing to protect people who hurt her is not dwelt upon",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The lie is the pivot of the trio's friendship and Hermione's first demonstration that she values people over rules. The film rushes past it, reducing a character-defining moment to plot logistics."
-    },
-    {
-      "scene": "PS/SS Film \u2013 Logic/potions puzzle in the underground chambers",
-      "book_baseline": "Hermione solves Snape's logic puzzle alone, demonstrating that her particular brand of intelligence \u2013 not magic \u2013 is what saves them; she explicitly tells Harry this is her moment to shine",
-      "film_portrayal": "The entire potions/logic puzzle sequence is cut; the trio goes straight from the chess game to Harry facing Quirrell",
-      "damage_type": "agency/function",
+      "scene": "PS/SS Film - Train compartment introduction (Scene 1)",
+      "book_baseline": "Book establishes Hermione as a rapid-fire, anxious, knowledge-hungry girl who has memorised her course books, researched Harry from extra books, and is nervously hoping she will be enough. She is socially oblivious rather than deliberately superior \u2014 she talks fast and leaves, dragging Neville with her. Ron's hostile reaction ('whatever house I'm in, I hope she's not in it') frames her as grating but earnest.",
+      "film_portrayal": "The film compresses Hermione's introduction significantly. She loses almost all of her anxious self-introduction monologue, her admission that she memorised the course books, her research into Harry, and her nervous hope about being good enough. Instead she is reduced to correcting Ron's spell, performing Oculus Reparo on Harry's glasses, and pointing out the dirt on Ron's nose \u2014 establishing her primarily as a corrector/show-off rather than a bright, anxious, socially oblivious newcomer. The warmth of her eagerness and vulnerability is stripped out.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is Hermione's climactic contribution to the first book's resolution. Cutting it removes her equal heroic function in the finale and erases the thematic point that Muggle-style logic can defeat magic. Her role in the climax is reduced to zero."
+      "impact_weight": 2,
+      "explanation": "The book's first introduction establishes Hermione as nervously overcompensating due to Muggle-born insecurity \u2014 she has worked harder than anyone because she has to prove herself. The film replaces this nuanced characterisation with a blunter 'know-it-all corrector' image, losing the emotional motivation underneath her behaviour and making Ron's later hostility feel less earned and more simply justified."
     },
     {
-      "scene": "CoS Film \u2013 Hermione's research and deduction about the Basilisk",
-      "book_baseline": "Hermione independently deduces the monster is a Basilisk, researches it in the library, and is found Petrified clutching the torn page \u2013 her intelligence directly advances the plot even while incapacitated",
-      "film_portrayal": "Her deduction is present but compressed; the torn page clue and the full weight of her solo research process are minimised",
+      "scene": "PS/SS Film - Sorting Hat / Great Hall arrival (Scene 2)",
+      "book_baseline": "Book has Hermione whispering very fast about all the spells she'd learned before the Sorting, unable to stop herself even in a moment of high anxiety. It also has her almost running to the stool and jamming the hat on her head 'eagerly'. These beats show her anxiety-driven compulsion and eagerness.",
+      "film_portrayal": "The film shows only the brief 'Oh, no. Okay, relax' line from Hermione before she sits on the stool \u2014 an uncharacteristic underreaction that replaces her anxious pre-Sorting chatter with a quip. The eagerness of running to the stool and jamming the hat on is absent; instead she simply walks up. Ron's aside 'Mental, that one, I'm telling ya' is the only real characterisation beat given.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but cumulatively significant loss: the book's Hermione cannot help herself even when anxious, which reveals that her compulsive knowledge-display is a coping mechanism. The film's quip reads as cool self-awareness rather than barely suppressed anxiety, flattening the character's psychological texture."
+    },
+    {
+      "scene": "PS/SS Film - Potions class (Scene 6)",
+      "book_baseline": "Book is explicit and extended: Hermione's hand shoots up for every question Snape directs at Harry. She stretches her hand 'as high into the air as it would go', then stands up with her hand 'stretching toward the dungeon ceiling', and finally Snape snaps 'Sit down' at her. Harry actively defects to her \u2014 'I think Hermione does, though, why don't you try her?' \u2014 getting a laugh from the class. The entire scene establishes her as the student who knows all the answers, is systematically ignored by Snape, and whose competence Harry openly acknowledges.",
+      "film_portrayal": "The film shows Hermione raising her hand once (silently, with a nudge to Harry) and Snape ignoring it \u2014 but truncates the repeated hand-raising, removes her standing up, and removes Harry's line inviting Snape to ask her instead. The comedic and characterising escalation is collapsed into a single brief moment.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's extended Potions scene is foundational for Hermione: it shows her competence, her marginalisation by Snape, and Harry's early respect for her ability. Collapsing it loses the comedic rhythm that makes her sympathetic rather than merely annoying, and removes Harry's public acknowledgement of her superiority \u2014 a small but important relationship beat."
+    },
+    {
+      "scene": "PS/SS Film - Flying lesson / Hermione tries to stop Harry (Scene 7)",
+      "book_baseline": "Book establishes that Hermione was 'almost as nervous about flying as Neville' \u2014 she had tried to learn from a library book and bored everyone at breakfast with flying tips. Her broom merely rolls over on the ground. When Harry defies Madam Hooch's instructions to chase Malfoy, Hermione shouts 'No!' and urges him not to, then mutters 'What an idiot' as he flies off. This is consistent with her rule-following anxiety.",
+      "film_portrayal": "The film retains 'Harry, no way! You heard what Madam Hooch said. Besides, you don't even know how to fly' and 'What an idiot' \u2014 the rule-following beat is present. However, the film removes entirely her nervousness about flying, her breakfast lecture from Quidditch Through the Ages, and her broom only rolling on the ground (the film shows her broom rising slowly rather than failing). This removes her vulnerability and her parallel with Neville in the flying scene.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book makes explicit that Hermione solved the mystery before anyone else and left the answer for Harry to find. The film compresses this, reducing the elegance of her contribution."
+      "impact_weight": 1,
+      "explanation": "The book uses the flying lesson to show that Hermione's limitations exist outside books \u2014 a humanising crack in her academic armour. Removing her flying anxiety and the broom-rolling failure makes her appear merely disapproving of rule-breaking rather than someone who also has her own fears. A small but meaningful humanising beat lost."
     },
     {
-      "scene": "PoA Film \u2013 Hermione's Patronus attempt during the Dementor attack by the lake",
-      "book_baseline": "Hermione attempts the Patronus alongside Harry and produces a silver otter, demonstrating she has mastered the most advanced defensive charm taught that year",
-      "film_portrayal": "During the lake scene Hermione's Patronus attempt is shown as failing \u2013 she produces only a wisp and collapses",
-      "damage_type": "agency/function",
-      "exposure": 1,
+      "scene": "PS/SS Film - Wingardium Leviosa / Ron's comment (Scenes 10\u201311)",
+      "book_baseline": "Book has Ron snarl 'You do it, then, if you're so clever', Hermione rolling up her sleeves and succeeding, then Ron saying in the corridor 'It's no wonder no one can stand her \u2014 she's a nightmare, honestly.' Harry catches a glimpse of Hermione's face and is startled to see she is in tears. The scene is a pivot: the reader sees her human fragility behind the bossy exterior.",
+      "film_portrayal": "The film retains Ron's corridor comment and Hermione rushing past in tears \u2014 these beats are present. However, it compresses the classroom exchange (Ron's 'You do it then, if you're so clever' and Hermione rolling up her sleeves) to a quicker beat. More significantly, Hermione's classroom correction of Ron ('No, stop, stop, stop! You're going to take someone's eye out') is delivered with rather more theatrical authority than the book's version. The tears in the corridor are present but glimpsed very briefly.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is handled reasonably well by the film but the compression of Hermione's hurt \u2014 her tears are shown very briefly and do not linger \u2014 reduces the emotional weight of the pivot. The audience is not given quite enough time to register her vulnerability, slightly weakening the payoff when the trio bonds after the troll."
+    },
+    {
+      "scene": "PS/SS Film - Troll aftermath / Birth of the Golden Trio (Scene 12 + excluded scene)",
+      "book_baseline": "Book has Hermione tell a 'downright lie to a teacher' \u2014 a defining character moment explicitly flagged by the narrator ('Hermione was the last person to do anything against the rules'). Harry is speechless. Then in the common room there is 'a very embarrassed pause' and all three say 'Thanks' without looking at each other. The narrator then gives the explicit thematic statement: 'from that moment on, Hermione Granger became their friend. There are some things you can't share without ending up liking each other, and knocking out a mountain troll is one of them.' Ron explicitly acknowledges: 'Good of her to get us out of trouble like that.'",
+      "film_portrayal": "The excluded scene note confirms that the post-troll bathroom reconciliation scene \u2014 where Harry defends Hermione and Ron acknowledges friendship \u2014 was cut from the theatrical release. Hermione's lie to McGonagall is present in the film and functions similarly, but the warm common-room reconciliation and the narrator's thematic statement about friendship forming are entirely absent. The trio's bond is implied rather than dramatised.",
+      "damage_type": "relationship | arc",
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "In the book Hermione successfully casts a Patronus. Showing her fail while Harry succeeds reinforces a hierarchy where she is support rather than equal. It also contradicts her established mastery of the charm shown earlier in the film."
+      "explanation": "The troll aftermath is the foundational moment of the central trio relationship. The book makes this explicit with both the lie (showing Hermione's loyalty overriding her rule-following) and the common-room reconciliation (showing genuine mutual acknowledgement). The theatrical cut of the reconciliation scene means the audience does not see the trio consciously choose friendship \u2014 the relationship simply continues without the emotional turning point being dramatised. This damages the relational arc of all three characters and diminishes Hermione's defining act of loyalty."
     },
     {
-      "scene": "PoA Film \u2013 Hermione punching Malfoy",
-      "book_baseline": "Hermione draws her wand on Malfoy, holds it under his nose, and he backs away \u2013 a controlled, wand-based confrontation that shows her as a witch asserting herself on her own terms",
-      "film_portrayal": "Hermione punches Malfoy with her fist, then draws her wand",
+      "scene": "PS/SS Film - Hermione uses blue fire on Snape at Quidditch match (Scene 13)",
+      "book_baseline": "Book establishes that Hermione independently deduces that Snape is jinxing Harry's broom by watching him not blink, grabs Hagrid's binoculars, races across the stands, knocks Quirrell headfirst into the row in front (which, as revealed later, breaks Quirrell's eye contact and nearly gets Harry killed \u2014 revealed in ch.17), crouches behind Snape and sets his robes on fire. This is entirely her own initiative and her own deduction, driven by her reading ('I know a jinx when I see one, Hagrid, I've read all about them!').",
+      "film_portrayal": "The film retains Hermione's deduction ('It's Snape! He's jinxing the broom!'), her racing across the stands, and her use of the spell 'Lacarnum Inflamarae' to set Snape's cloak on fire. However, the film uses a non-canonical incantation and the execution is slightly different. More importantly, the film does not later pay off the irony that Hermione accidentally knocked Quirrell and broke his eye contact \u2014 in the film, Quirrell says 'if Snape's cloak hadn't caught fire and broken my eye contact' rather than the book's 'accidentally knocked me over as she rushed to set fire to Snape'. This subtly changes the nature of Hermione's intervention from an accidental double-effect to a more straightforwardly successful one.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's version contains a layer of dramatic irony: Hermione's heroic action also nearly killed Harry by breaking Quirrell's counter-curse. The film softens this irony, losing the moral complexity of a well-intentioned action having dangerous unintended consequences. This is a minor but real nuance loss."
+    },
+    {
+      "scene": "PS/SS Film - Hagrid / Flamel discovery scene (Scene 15)",
+      "book_baseline": "Book has Hermione sprint upstairs to fetch a book she got 'out of the library weeks ago for a bit of light reading', returning with an 'enormous old book'. She says 'I never thought to look in here!' \u2014 showing her genuine excitement and self-reproach at missing the obvious source. She flicks through muttering to herself, then delivers the Philosopher's Stone revelation dramatically. The moment shows her as the one who physically holds and reads the key evidence.",
+      "film_portrayal": "The film retains the substance: Hermione brings the book, reads the entry on Flamel, and delivers the Philosopher's Stone revelation. The scene is reasonably faithful, though compressed. The self-reproach ('I had you looking in the wrong section. How could I be so stupid?') is present and in some ways more explicit than the book. This is one of the better-handled Hermione scenes in the film.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor but telling: the change trades a specifically magical assertion of power for a crowd-pleasing physical gag. It's funny but slightly out of character for someone who defines herself through her wizarding identity."
+      "explanation": "Minimal damage here. The film handles this scene adequately, though the theatrical energy of Hermione's sprint upstairs and the 'light reading' joke is slightly flattened. Scored at minimum values as the core function and characterisation is preserved."
     },
     {
-      "scene": "GoF Film \u2013 Hermione's emotional range around the Yule Ball / Ron",
-      "book_baseline": "Hermione is genuinely hurt by Ron's dismissiveness, cries, and delivers the pointed line about asking her before someone else did \u2013 emotionally complex and driving the Ron/Hermione arc",
-      "film_portrayal": "The confrontation is present but Hermione's emotional interiority is reduced; she is more reactive than the book's version which gives her clear interior motivation",
+      "scene": "PS/SS Film - Devil's Snare chamber (Scene 17)",
+      "book_baseline": "Book has a specific comedic exchange: Ron says 'HAVE YOU GONE MAD? ARE YOU A WITCH OR NOT?' when Hermione says 'there's no wood!' instead of using magic. This exchange is important: it shows Hermione momentarily forgetting the obvious under pressure \u2014 a humanising flaw \u2014 and Ron providing the corrective. It directly mirrors and inverts the Wingardium Leviosa dynamic.",
+      "film_portrayal": "The film removes the 'there's no wood' exchange entirely. Instead, Hermione calmly says she remembers reading something in Herbology, recites the Devil's Snare rhyme, and uses 'Lumus Solem' without any intermediate moment of panic or Ron needing to prompt her. She is composed and competent throughout. Ron's subsequent comment 'Lucky we didn't panic' is ironic given that in the film only Harry and Ron were panicking \u2014 Hermione never was.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is a meaningful loss. The 'there's no wood' moment is the only instance in the entire book where Hermione's academic knowledge fails to connect to practical action under pressure, and Ron has to jolt her out of it. Removing it makes her uniformly competent under fire, erasing a humanising crack and removing a moment where Ron's practical instinct is actually more useful than Hermione's book-learning. It also weakens the Ron/Hermione dynamic in this scene."
+    },
+    {
+      "scene": "PS/SS Film - Potion logic puzzle chamber (Scene 17)",
+      "book_baseline": "Book gives Hermione a full, extended scene: she reads the paper 'several times', walks up and down the bottles 'muttering to herself and pointing at them', then claps her hands and says 'Got it'. She explicitly declares: 'This isn't magic \u2014 it's logic \u2014 a puzzle. A lot of the greatest wizards haven't got an ounce of logic, they'd be stuck in here forever.' She then works out the solution methodically. She is the one who identifies which bottle gets forward and which gets back. This is her greatest intellectual contribution to the quest.",
+      "film_portrayal": "The potion puzzle chamber is entirely absent from the film. The trio moves directly from the chess chamber (where Ron is knocked out) to Harry continuing alone. Hermione's logical deduction, her speech about logic vs. magic, her solving of Snape's puzzle, and her courageous decision to send Harry forward while she goes back to help Ron are all completely removed.",
+      "damage_type": "agency/function | arc | nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the single largest damage to Hermione's portrayal in the film. The potion puzzle is her defining moment of agency in Book 1: she solves the problem that would have stopped even great wizards, she makes the brave decision to separate and send Harry on alone, she delivers her most important speech (valorising logic alongside bravery and friendship), and she has the emotional farewell hug with Harry ('You're a great wizard, you know' / 'Books and cleverness \u2014 there are more important things'). In the film, this entire chamber is cut, so Hermione never has an independent intellectual triumph that saves the quest. The hug and farewell are transplanted to the chess chamber, and Hermione delivers the 'books and cleverness' speech there \u2014 but without the context of her having just solved the hardest puzzle, the speech loses its thematic resonance. Her function as the intellectual pillar of the trio is significantly damaged."
+    },
+    {
+      "scene": "PS/SS Film - Chess chamber farewell (Scene 17)",
+      "book_baseline": "In the book, Hermione's 'You're a great wizard, Harry' / 'Books and cleverness \u2014 there are more important things \u2014 friendship and bravery' exchange occurs in the potion chamber, after she has just demonstrated exactly that she has all three: she used her books and cleverness to solve the puzzle, showed friendship by sending Harry forward, and showed bravery by going back alone. The speech is therefore a self-aware, earned statement about what she has just done.",
+      "film_portrayal": "The film transplants this speech to the chess chamber, where Hermione has not just solved anything independently \u2014 Ron has done all the intellectual and sacrificial work. In this context, Hermione's speech about 'books and cleverness' being less important than 'friendship and bravery' reads as a generic pep-talk rather than a hard-won personal insight, because she has not just exemplified exactly those qualities in the way the book version does.",
+      "damage_type": "nuance/lost material | arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The context shift fundamentally changes the meaning of Hermione's most important self-reflective speech in Book 1. In the book it is the culmination of her arc \u2014 she proves she has grown beyond pure book-learning by demonstrating logic, courage, and selflessness in the potion chamber, then articulates the lesson she has learned. In the film, having done no independent problem-solving in this sequence, the speech is hollow: she is telling Harry that books matter less than friendship while having contributed nothing that Ron hasn't done better in the last ten minutes. The arc beat is present but its meaning is gutted."
+    },
+    {
+      "scene": "PS/SS Film - Nighttime wandering / Hermione locked out (Scenes in corridor sequence, pre-Halloween)",
+      "book_baseline": "Book has an extended, funny, and characterising sequence: Hermione tries to stop Harry and Ron going out, threatens to tell Percy, follows them through the portrait hole because she's locked out, argues with Ron ('You've got some nerve'), and then makes the practical calculation that she'll tell Filch the truth if they're caught. She uses Alohomora to get them into the forbidden corridor. Ron's fury at her ('If either of you get us caught, I'll never rest until I've learned that Curse of the Bogies') is balanced by Hermione opening her mouth 'perhaps to tell Ron exactly how to use the Curse of the Bogies'. After seeing the dog: 'We could all have been killed \u2014 or worse, expelled.'",
+      "film_portrayal": "The film retains Hermione using Alohomora, the 'expelled' line, her observation about the trapdoor, and the basic flow of the scene. However, the entire locked-out sequence \u2014 Hermione following them because she has no choice, the argument, her conditional threat about telling Filch the truth \u2014 is compressed or absent. The scene moves quickly from the corridor to Alohomora to the dog. The complex, funny dynamic of Hermione being technically complicit despite her objections is simplified.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version of this sequence is important because it shows Hermione's hypocrisy (she ends up joining the rule-breaking she protested) and her practical self-interest (she follows because she'll be caught alone otherwise) \u2014 both humanising qualities that make her more than a one-note rule-follower. The film's compression loses this texture and makes her rule-following protest less complicated."
+    },
+    {
+      "scene": "PS/SS Film - End-of-year feast / House Cup awards (Scene 18)",
+      "book_baseline": "Book awards Hermione 50 points for 'the use of cool logic in the face of fire' \u2014 directly referencing her solution of Snape's potion puzzle. Dumbledore specifically names her contribution. Hermione buries her face in her arms and Harry 'strongly suspected she had burst into tears'.",
+      "film_portrayal": "The film omits Hermione's individual points award. Dumbledore awards Ron 50 points for chess and Harry 60 points for courage, then Neville 10 points \u2014 but Hermione receives no individual mention and no points. The scene simply shows her whispering the running tally ('We're tied with Slytherin!'). This is directly caused by the removal of the potion puzzle chamber: since she did nothing independently scorable in the film's underground sequence, there is nothing to award her for.",
+      "damage_type": "agency/function | arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is a downstream consequence of removing the potion puzzle. In the book, Dumbledore's specific acknowledgement of Hermione's cool logic is her public moment of recognition \u2014 she is individually honoured for a contribution that was uniquely hers. In the film she is a bystander at the awards ceremony, her contribution to the quest unrecognised because it was unshown. This compounds the damage from cutting the potion chamber: not only did she not get to do it, she also does not get credit for it."
+    },
+    {
+      "scene": "Film Scene 3 / Greenhouse Three \u2014 Hermione's opening line to Harry and Ron",
+      "book_baseline": "Book establishes Hermione's disapproval through a 'slight stiffness' in her 'Morning' and a scowling expression at the end of the common room celebration \u2014 she is critical but warm once she feels they have been punished enough (after the Howler), and her severity is tempered by affection.",
+      "film_portrayal": "Hermione's first words to Harry and Ron on their return are 'I should think you'd count yourself lucky that's all you got,' delivered as a sharp rebuke. Ron immediately snaps back 'I should think you'd mind your own business.' The exchange is adversarial in a way that frames her as a scold rather than a friend who cares.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's Yule Ball sequence is the clearest early signal of the Ron/Hermione romantic arc. The film handles it adequately but flattens Hermione's perspective, making her more of a plot device for Ron's jealousy than a character with her own feelings."
+      "explanation": "The book's Hermione disapproves but reconciles quickly out of affection; the film sharpens the friction into something closer to antagonism, slightly eroding the warmth of the trio's friendship dynamic at the outset of the year."
     },
     {
-      "scene": "OotP Film \u2013 Hermione's role in founding and running the DA",
-      "book_baseline": "Hermione conceives the DA, organises the meeting at the Hog's Head, drafts the secrecy agreement with a jinx, and is the intellectual architect of the group throughout",
-      "film_portrayal": "Harry is positioned as the clear leader and founder; Hermione's organisational role is present but her authorship of the concept is less foregrounded",
+      "scene": "Film Scene 3 / Greenhouse Three \u2014 Hermione answers Professor Sprout's Mandrake question",
+      "book_baseline": "In the book, Hermione answers two separate questions, each earning ten points, demonstrating thoroughness and a compulsive need to display knowledge. Her hand 'narrowly missed Harry's glasses' shooting up so fast. The textbook-recitation quality ('sounding as usual as though she had swallowed the textbook') is explicitly noted.",
+      "film_portrayal": "Hermione answers a single combined question in one speech, earning one set of praise. The two-part exchange that characterises her eagerness is collapsed into a single beat. The non-theatrical exclusion of the Lockhart quiz scene (per the instructions) also removes a key moment of her obsessive knowledge-display and Lockhart-fandom from the film.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression; the single answer still characterises her competence, but the doubled eagerness and the physical comedy of her shooting hand are lost, slightly flattening the portrait of her academic obsessiveness."
+    },
+    {
+      "scene": "Film Scene 3 / Lockhart's classroom \u2014 Hermione defends Lockhart after pixie chaos (corridor scene 42B)",
+      "book_baseline": "Book Hermione defends Lockhart ('He just wants to give us some hands-on experience') and then doubles down ('Rubbish. You've read his books \u2014 look at all those amazing things he's done') even after Harry says he had no clue. Her crush on Lockhart makes her genuinely, embarrassingly credulous. Ron's rebuttal ('He says he's done') lands because she has committed hard.",
+      "film_portrayal": "The film reproduces this exchange almost verbatim in corridor scene 42B. This is faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0,
+      "impact_weight": 0,
+      "explanation": "No damage \u2014 scene is faithful. Included only for completeness of review; scored zero."
+    },
+    {
+      "scene": "Film \u2014 Lockhart quiz scene (non-theatrical exclusion)",
+      "book_baseline": "The book devotes a full scene to Hermione filling in Lockhart's narcissistic quiz with 'trembling' enthusiasm, raising her hand and being singled out as the only student with 'full marks,' blushing when asked to stand. This is the clearest expression of her Lockhart crush overwhelming her usual critical intelligence \u2014 a flaw that makes her three-dimensional.",
+      "film_portrayal": "Per the non-theatrical exclusion instruction, this scene is treated as absent from the film. The quiz scene does not appear in the theatrical release. The only residue of her Lockhart fandom in the theatrical film is her excited exclamation at Diagon Alley and her defending him after the pixies.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The quiz scene is the book's fullest realisation of Hermione's blind spot for Lockhart \u2014 it shows her normally-infallible critical faculty suspended by a crush. Its absence removes the primary comedic flaw that humanises her in the early film, leaving only vestigial traces of the crush without its most embarrassing and endearing expression."
+    },
+    {
+      "scene": "Film Scene 4 / Corridor after Chamber of Secrets inscription \u2014 Hermione defends Lockhart to Ron",
+      "book_baseline": "In the book Hermione says 'I hardly think someone with Gilderoy Lockhart's credentials would lie to one of his students, Ronald' \u2014 this is played as a genuine, somewhat pompous defence driven by her crush. It characterises her as capable of motivated reasoning even when she is the smartest person in the room.",
+      "film_portrayal": "The film includes this line in scene 60A and it is substantially faithful. Hermione's defence of Lockhart is present.",
+      "damage_type": "personality/voice",
+      "exposure": 0,
+      "impact_weight": 0,
+      "explanation": "Faithful. Zero damage."
+    },
+    {
+      "scene": "Film Scene 4 / Corridor after Chamber inscription \u2014 'Even in the wizarding world, hearing voices isn't a good sign'",
+      "book_baseline": "In the book, the trio's conversation after finding Mrs. Norris takes place in an empty classroom. Hermione's contribution is practical and cautious: she suggests Harry probably should have told them about the voice, and asks whether he thinks he should have. The tone is collaborative concern.",
+      "film_portrayal": "The film has Hermione deliver the memorable quip 'Even in the wizarding world, hearing voices isn't a good sign' (scene 60A). This is a wry, slightly distancing joke that gets a laugh but is not in the book. It subtly reframes her from a worried friend reasoning carefully to a quip-dispenser.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small but real: the book Hermione is earnestly analytical here; the film gives her a comic line that fits the film's tone but slightly flattens her into the 'sensible one who says funny things' mode rather than the genuinely worried friend working through the problem."
+    },
+    {
+      "scene": "Film Scene 4 / McGonagall's Transfiguration class \u2014 Hermione asks about the Chamber of Secrets",
+      "book_baseline": "In the book, Hermione asks Professor Binns (History of Magic) about the Chamber of Secrets, pressing him twice with follow-up questions ('don't legends always have a basis in fact?'; 'what exactly do you mean by the horror within?'). This is a significant characterisation beat: she wakes a class that has never been woken before, demonstrates independent research-driven curiosity, and shows persistence.",
+      "film_portrayal": "The film transfers this scene to McGonagall's Transfiguration class (scene 62). The substance of information conveyed is similar, but Hermione asks McGonagall rather than Binns, and the follow-up questions are reduced. The moment of Hermione uniquely animating a dead class is lost; instead she is asking a teacher who is already responsive.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene showcases Hermione's proactive research drive and her ability to galvanise a situation through sheer intellectual persistence \u2014 qualities central to her function in the trio. The film's version is competent but diminishes her as the initiating force; McGonagall is a more natural authority figure to ask, and there is no Binns-style resistance to overcome."
+    },
+    {
+      "scene": "Film Scene 4 / Library \u2014 Hermione's plan to get Moste Potente Potions via Lockhart",
+      "book_baseline": "In the book, Hermione formulates the entire plan to get Lockhart to sign the library permission note, executes it with deliberate flattery ('So clever, the way you trapped that last one with the tea-strainer'), and retrieves the book. Her manipulation of Lockhart using his own vanity is a demonstration of social intelligence layered onto her academic intelligence.",
+      "film_portrayal": "In the film (scene 64), the trio go directly to the library and read the book there in a night scene \u2014 there is no scene of Hermione obtaining a signed permission slip from Lockhart. The book simply appears. The entire sequence of Hermione scheming to extract the note, flattering Lockhart convincingly, and Ron's disgusted reaction to her keeping the autograph is absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is a significant loss. The book sequence is one of the clearest demonstrations that Hermione's intelligence is not merely academic but strategic and socially adept. She identifies a mark, constructs a persona, and executes the deception flawlessly. Its absence removes a key moment of her demonstrating independent agency that drives the Polyjuice plot forward."
+    },
+    {
+      "scene": "Film Scene 4 / Polyjuice planning \u2014 Hermione's 'I don't want to break rules' speech",
+      "book_baseline": "In the book, when Ron hesitates about the Polyjuice plan, Hermione shuts the book and says 'Well, if you two are going to chicken out, fine... I don't want to break rules, you know. I think threatening Muggle-borns is far worse than brewing up a difficult potion.' Her bright pink patches and unusual ferocity are noted \u2014 she is making a moral argument and is clearly emotionally invested, which is a rare window into her values overriding her rule-following instinct.",
+      "film_portrayal": "In the film (scene 63), Hermione's equivalent motivation is compressed into 'There might be another way. Mind you, it would be difficult. Not to mention we'd be breaking about fifty school rules. And it would be dangerous. Very dangerous.' Ron immediately replies 'When do we start?' There is no moment of Hermione wrestling with rule-breaking or making the explicit moral case for it.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book moment is unusual and revealing: it shows Hermione consciously choosing to prioritise a moral good over rule-following, which is a character development beat. The film skips past her internal conflict and goes straight to the plan, losing the insight that she is choosing values over compliance."
+    },
+    {
+      "scene": "Film Scene 4 / Potions class \u2014 Hermione steals from Snape's stores",
+      "book_baseline": "The book devotes a full scene to Hermione planning and executing the theft from Snape's private stores using Harry and Ron as a diversion (firework in Goyle's cauldron). Hermione enters Snape's office alone, successfully retrieves the boomslang skin, and slips back. She is the architect and executor of a high-stakes heist, demonstrating both planning intelligence and cool nerve.",
+      "film_portrayal": "This scene is absent from the film corpus. The Polyjuice ingredients are simply present when needed; there is no scene of Hermione stealing from Snape. The film omits the entire diversion-and-theft sequence.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is one of Hermione's most active and characterful moments in the book: she accepts personal risk, executes a plan under pressure, and does something decidedly rule-breaking in service of a greater goal. Its absence is a meaningful loss of her as an agent rather than a planner, and reinforces a pattern in the film of her providing information rather than taking action."
+    },
+    {
+      "scene": "Film Scene 5 / Polyjuice transformation \u2014 Hermione's cat-hair accident",
+      "book_baseline": "The book establishes that Hermione had deliberately taken a hair from Millicent Bulstrode's robes during the Dueling Club wrestling match. The cat-hair mistake is a genuine oversight from an imperfect situation (the hair was ambiguous), not a preparation failure. Hermione's distress and her spending weeks in the hospital wing is treated with pathos; her spirits improve as she heals, and she continues doing homework throughout.",
+      "film_portrayal": "The film (scene 81/89) handles the cat-hair accident faithfully in broad strokes \u2014 Hermione takes cat hair by mistake, transforms partially, and is hospitalised. The film adds 'Do you remember me telling you the Polyjuice Potion was only for human transformations?' which implies she warned them earlier; this slightly reframes her error as a known risk she misjudged rather than a genuine accident. The hospital scenes are significantly condensed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor. The film's added line slightly shifts moral responsibility but the overall pathos of her situation is preserved. The compression of hospital wing scenes loses some of the texture of her continuing to work while suffering, but this is a small loss."
+    },
+    {
+      "scene": "Film Scene 5 / Hospital wing \u2014 Lockhart get-well card",
+      "book_baseline": "In the book, Hermione has a get-well card from Lockhart under her pillow; Ron pulls it out and reads it aloud. Hermione's embarrassment is acute ('But Hermione was spared answering by Madam Pomfrey'). This is the last gasp of her Lockhart crush \u2014 present even in her humiliation.",
+      "film_portrayal": "The film (scene 90) includes this beat: Ron finds the card, reads it, and asks 'You sleep with this under your pillow?' Hermione responds 'Of course not. I don't know how that got there.' In the book she says nothing and is spared by Madam Pomfrey. The film gives her a denial, which is slightly more defensive/embarrassed and actually works well, though it removes the silent shame of the book.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minimal damage; the film's version is a reasonable adaptation of the beat. The denial is slightly less humiliating and more defensive than the book's silent shame, but the crush characterisation is still present."
+    },
+    {
+      "scene": "Film Scene 5 / Hermione's T.M. Riddle diary analysis (hospital wing scene 95)",
+      "book_baseline": "In the book, Hermione is released from the hospital wing and comes to the common room to examine the diary. She tries invisible ink ('Aparecium!') and a Revealer \u2014 both fail. Her analytical approach and willingness to try multiple methods before admitting defeat is characteristic.",
+      "film_portrayal": "The film (scene 95) shows Harry visiting Hermione in the hospital wing with the diary, not the other way around. Hermione tries 'Aparecium' and fails. She then says 'I don't know, Harry. But I think you should be careful with this. Something tells me Ron might be right. It could be dangerous.' The film also adds: 'You don't think I'm dangerous, do you, Hermione? I mean, you're not scared. Of me.' / 'I'm scared, Harry. But not of you.' This is a new exchange.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The added exchange ('I'm scared, Harry. But not of you') is a piece of invented emotional reassurance that, while touching, is not in the book. The book Hermione does not need to explicitly reassure Harry of her loyalty in this way \u2014 her continued active involvement with the investigation is the reassurance. The film trades action-based loyalty for a verbal declaration, slightly sentimentalising the relationship and reducing Hermione to a supportive role."
+    },
+    {
+      "scene": "Film Scene 5 / Hermione's realisation about the Basilisk (staircase scene 105A)",
+      "book_baseline": "In the book, Harry hears the voice while walking, claps a hand to his forehead, and Hermione immediately says 'Harry \u2014 I think I've just understood something! I've got to go to the library!' Ron explains: 'When in doubt, go to the library.' The book then shows Hermione Petrified near the library, and Harry later extracts the crumpled page from her frozen hand and works out the rest himself (with Ron). Hermione had been using the mirror to look round corners.",
+      "film_portrayal": "The film (scenes 105A and 124) reproduces this faithfully: Hermione runs to the library, is found Petrified, the page is in her hand. Harry and Ron read the page together and work out the Basilisk/pipes solution. This is largely faithful to the book.",
+      "damage_type": "agency/function",
+      "exposure": 0,
+      "impact_weight": 0,
+      "explanation": "Faithful in its essentials. The Petrification and the clue-in-hand are both present and Hermione's prior research contribution is credited. No meaningful damage."
+    },
+    {
+      "scene": "Film Scene 5 / End feast \u2014 Hermione's reunion with Harry",
+      "book_baseline": "In the book, Hermione runs toward Harry 'screaming' and 'You solved it! You solved it!' She is jubilant and unself-conscious. She hugs both Harry and Ron.",
+      "film_portrayal": "In the film (scene 137), Hermione runs forward and embraces Harry saying 'You solved it! You solved it!' Harry says 'With loads of help from you.' Then she turns to Ron and there is 'an awkward moment between them' and they shake hands instead of hugging. Ron says 'Welcome back, Hermione.'",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The awkward handshake between Ron and Hermione is a piece of foreshadowing of their later romantic tension that is not in the book at this point. While dramatically understandable, it reframes their relationship in a way the book does not support at this stage, and the formal 'Welcome back, Hermione' instead of a hug slightly distances Ron from genuine warmth toward her. It seeds a dynamic at the expense of the book's uncomplicated trio friendship."
+    },
+    {
+      "scene": "PoA Film - Divination class / Trelawney confrontation",
+      "book_baseline": "In the book, Hermione challenges Trelawney with sharp, specific logical arguments ('But everyone knows that... Everybody knows about Harry and You-Know-Who'), disputes the Grim reading ('I don't think it looks like a Grim'), and later slams her Arithmancy book and stalks out after Ron touches a nerve about her dislike of being bad at something. Her exit is a reactive emotional break after sustained provocation \u2014 a rare loss of composure that reveals her perfectionism and pride.",
+      "film_portrayal": "The film collapses Hermione's multi-scene rational engagement into a single dismissive aside ('Here we go again. It's the Grim! It's the Grim!') delivered with eye-rolling sarcasm, then has Trelawney deliver an unusually vicious personal attack ('your soul as dry as the pages of the books to which you so desperately cleave') that reduces Hermione to speechlessness before she stumbles out knocking her crystal ball over \u2014 passive and humiliated rather than defiantly self-possessed.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book Hermione is intellectually combative and exits on her own terms after an argument she partly wins on logic. The film version is rendered speechless by Trelawney's attack and exits clumsily, shifting her from confident sceptic to embarrassed victim. Her trademark composure under fire and her specific rational objections are lost, replaced by a more passive humiliation."
+    },
+    {
+      "scene": "PoA Film - Shrieking Shack confrontation (Hermione's accusation of Lupin)",
+      "book_baseline": "In the book, when Lupin embraces Black, Hermione immediately and loudly accuses Lupin of being a traitor and a werewolf ('NO! I trusted you! And all this time... you've been his friend!'). This is a moment of fierce, terrified courage \u2014 she has known about his condition for months, kept it secret, and now believes she has been catastrophically wrong to do so. It is simultaneously a display of her deductive intelligence and a moment of genuine anguish.",
+      "film_portrayal": "The film preserves this beat reasonably well in structure \u2014 Hermione accuses Lupin of being a werewolf and of covering for Black \u2014 and the line 'I covered up for you' is present. However, the film immediately pivots to Hermione screaming 'He's a werewolf! That's why he's been missing classes!' in a way that frames her primarily as hysterical rather than as someone making a reasoned, if panicked, deduction.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor damage: the beat is present but the nuance of Hermione's months-long secret-keeping and the depth of her sense of betrayal is condensed into a screamed accusation. The anguish underneath the anger is thinned."
+    },
+    {
+      "scene": "PoA Film - Snape's substitution lesson (know-it-all scene)",
+      "book_baseline": "In the book, Hermione answers Snape's question about the werewolf correctly after he has ignored her repeated attempts to respond. When Snape calls her 'an insufferable know-it-all' and docks five points, she goes very red and her eyes fill with tears. Crucially, Ron \u2014 who calls her a know-it-all at least twice a week \u2014 publicly defends her: 'You asked us a question and she knows the answer! Why ask if you don't want to be told?' This creates a meaningful, contradictory character beat for Ron and a moment of real solidarity.",
+      "film_portrayal": "The film includes Snape's 'insufferable know-it-all' insult and Hermione answering the question, but Ron's reaction is inverted: Ron mutters to Harry 'He's got a point, you know.' This eliminates the moment of Ron's grudging solidarity with Hermione and instead reinforces her isolation, making the insult land without any counter-weight.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book uses this scene to show the complexity of Ron and Hermione's friendship \u2014 he mocks her privately but defends her publicly when an authority figure attacks her. The film's inversion ('He's got a point') removes this dynamic entirely, weakening the Ron-Hermione relationship and flattening Hermione's social position in the trio. This is a small scene with outsized relational damage."
+    },
+    {
+      "scene": "PoA Film - Time-Turner explanation (Hermione's arc of impossible workload)",
+      "book_baseline": "The book spends months building the mystery of Hermione's impossible schedule \u2014 Ron and Harry repeatedly notice her appearing from nowhere, carrying books for classes she shouldn't be able to attend, the splitting headaches, the exhaustion resembling Lupin's. This cumulative detail establishes Hermione's extreme dedication, her willingness to push herself to breaking point, and the Time-Turner as a prize she earned through exceptional academic standing. When the reveal comes, it pays off an entire year of carefully planted mystery.",
+      "film_portrayal": "The film provides almost none of this cumulative buildup. There is a single exchange where Ron notices she takes Ancient Runes and Divination simultaneously and she deflects ('Don't be silly. How could anyone be in two classes at once?'), but the months of exhaustion, the mystery of her appearances, and the sense of her overextension are entirely absent. The Time-Turner reveal in the hospital wing therefore lands as a plot convenience rather than a character payoff.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book uses the Time-Turner subplot to show Hermione's ambition, perfectionism, and capacity for self-punishment \u2014 core character traits. The film strips away the cumulative character work, reducing the Time-Turner to a magical plot device rather than something that reveals who Hermione is. The payoff scene (her explaining it to Harry) still exists but has lost its earned weight."
+    },
+    {
+      "scene": "PoA Film - Firebolt confiscation (Hermione reports to McGonagall)",
+      "book_baseline": "The book has Hermione report the Firebolt to McGonagall out of genuine concern for Harry's safety (she suspects Sirius sent it as a trap), which causes weeks of estrangement between her and Harry and Ron. The book treats this as a morally complex act \u2014 she is right to worry, her reasoning is sound, but she acts unilaterally on Harry's behalf without his consent, and she refuses to apologise because she believes she was correct. This is one of the richest illustrations of Hermione's flaw: her certainty in her own logic overriding others' autonomy.",
+      "film_portrayal": "This entire subplot \u2014 the confiscation, the estrangement, the weeks of Harry and Ron not speaking to her, Hermione taking refuge in the library, the eventual reconciliation \u2014 is completely absent from the film corpus. The Firebolt appears at the very end of the film as a gift apparently from Sirius, with a Hippogriff feather as the clue, played as a joyful revelation with no preceding controversy.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Firebolt arc is one of the most important character moments for Hermione in the entire book: it shows her willingness to act on principle even at personal cost, her complicated relationship with being right, and the friction within the trio's friendship. Its complete removal erases a defining illustration of her central flaw (certainty overriding relationships) and removes weeks of trio-dynamic development. This is significant structural damage to her characterisation."
+    },
+    {
+      "scene": "PoA Film - Scabbers/Crookshanks conflict arc",
+      "book_baseline": "The book dedicates substantial space to the ongoing Crookshanks-Scabbers conflict as a source of real, sustained friction between Ron and Hermione: the Magical Menagerie introduction, multiple attacks, Hermione defending Crookshanks with increasing stubbornness while Ron's rat visibly deteriorates, the Lavender Brown incident where Hermione's 'logical' response to grief alienates her, and the eventual explosion when Ron finds Scabbers 'gone' with ginger hairs. Hermione's defence of Crookshanks even when the evidence mounts against him illustrates her blind spot: she, the champion of logic, refuses to apply it when it threatens something she loves.",
+      "film_portrayal": "The film preserves the fact of the conflict but drastically compresses it. The Magical Menagerie origin is cut. The Lavender/Binky scene is absent. The conflict appears mainly as a brief argument in the tower dormitory after Sirius's break-in, and is resolved by Hagrid engineering a hug in his hut \u2014 a scene that did not exist in the book. The emotional escalation, Hermione's stubbornness, and the irony of the logic-champion refusing to be logical are all flattened.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Crookshanks conflict is the primary vehicle in the book for showing Hermione's blind spot and the limits of her self-image as a purely rational actor. Compressing it removes a layer of self-contradiction that makes her a more fully human character. The Hagrid-engineered reconciliation also relocates agency away from the trio themselves."
+    },
+    {
+      "scene": "PoA Film - Hermione's Patronus attempt by the lake",
+      "book_baseline": "In the book, when the dementors swarm Harry and Sirius by the lake during the time-travel sequence, Hermione attempts the Patronus charm herself: 'Expecto patronum! Hermione, help me! Expecto patronum! / Expecto -- Hermione whispered, expecto -- expecto -- / But she couldn't do it.' She is shown genuinely trying and failing, and then collapses next to Harry. This failure is meaningful \u2014 it humanises her and shows the dementors' power overwhelming even the most capable students.",
+      "film_portrayal": "In the film's equivalent moment at the lake, Hermione is a bystander. She watches in horror ('This is horrible... No one's coming!') while Harry resolves the situation entirely himself by conjuring the Patronus. There is no attempt by Hermione to cast the charm. She is passive throughout the climactic magical moment.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book gives Hermione an active role in the climax even if she fails \u2014 she tries, which shows courage and is consistent with her character. The film makes her a spectator at the most important magical moment of the sequence, reducing her from participant to witness. This is a small but consistent pattern of sidelining her agency in action scenes."
+    },
+    {
+      "scene": "PoA Film - Hermione breaks open Sirius's cell (Bombarda)",
+      "book_baseline": "In the book, the rescue of Sirius is accomplished via Alohomora on an unlocked window; Hermione uses the spell 'Alohomora!' and the window springs open. The physical rescue is relatively straightforward \u2014 the drama lies in Buckbeak's escape and the timing. Hermione's competence is shown through planning and knowledge of time-travel rules, not through spell-power combat.",
+      "film_portrayal": "The film adds a sequence where Hermione tries multiple spells on the locked cell door (Alohomora, Dunamis, Liberare, Annihilare, Emancipare \u2014 all failing) before finally blasting it open with 'Bombarda!' This is an invention with no book basis, added to give Hermione a visually active heroic moment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This is a relatively benign invention \u2014 it gives Hermione agency and is consistent with her character. The minor damage is that it slightly misrepresents her strengths (the book Hermione's excellence is in knowledge and planning, not in raw spell-power under pressure), and the invented spell-sequence is not grounded in book characterisation. Low impact; slightly positive in intent if not perfectly faithful in execution."
+    },
+    {
+      "scene": "PoA Film - Three Broomsticks / Harry overhearing Black's backstory",
+      "book_baseline": "In the book, Harry, Ron, and Hermione overhear the conversation about Sirius Black in the Three Broomsticks together, hidden under Harry's Invisibility Cloak beneath a table. Hermione's leg gives a nervous twitch next to Harry as they listen. Afterward, Ron and Hermione are both visibly shaken and struggle for words. The weight of what Harry has learned falls on all three of them together.",
+      "film_portrayal": "In the film (based on the corpus), Harry is alone under the Invisibility Cloak during this scene. Ron and Hermione are outside in the snow, visible through a frosted window, unaware of what Harry is hearing. Harry then emerges onto a rocky outcrop alone, sobbing, and Hermione alone comes to him and draws off the cloak. Ron is absent from this intimate moment; it becomes a Harry-Hermione scene exclusively.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book presents the revelation about Black as a shared trauma hitting all three friends simultaneously. The film restructures it as a private Harry-Hermione moment, marginalising Ron from a key emotional beat and skewing the trio's relational balance. While Hermione gains a moment of individual closeness with Harry, the trio dynamic as a unit loses a crucial shared experience."
+    },
+    {
+      "scene": "PoA Film - Hagrid's hut reconciliation (Hagrid engineers hug)",
+      "book_baseline": "In the book, Ron and Hermione's reconciliation after the Scabbers/Crookshanks conflict occurs organically: Hermione brings Hagrid's letter about Buckbeak's verdict, she breaks down crying, Ron fiercely says 'You won't have to do all the work alone this time, Hermione. I'll help,' and she flings her arms around his neck. The reconciliation is earned through shared grief and Ron's genuine growth \u2014 he offers help and forgiveness without being prompted.",
+      "film_portrayal": "In the film, Hagrid explicitly engineers the reconciliation by telling Ron to give Hermione a hug ('Go on! You two've been at it all year. An' I'm sick o' it.'), resulting in what the script itself calls 'perhaps the most awkward hug Hogwarts has ever seen.' The reconciliation is external and mechanical rather than internally motivated.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's reconciliation scene is one of Ron's most emotionally generous moments \u2014 he offers solidarity spontaneously when Hermione is at her lowest. The film replaces this with an adult-supervised, reluctant physical gesture that neither character initiates or wants. This significantly reduces the emotional payoff of the Ron-Hermione arc and removes Ron's moment of genuine growth. Hermione is also passive in her own reconciliation."
+    },
+    {
+      "scene": "Goblet of Fire - Harry waking at the Burrow, Hermione waking Ron",
+      "book_baseline": "Book establishes Hermione's characteristic voice as 'shrill and panicky' when concerned about Harry's scar, immediately recommending Dumbledore and consulting books. Her care for Harry is expressed through practical, research-oriented urgency.",
+      "film_portrayal": "Hermione's first appearance is purely functional \u2014 she wakes Harry and Ron with clipped instructions ('Honestly, get dressed. And don't go back to sleep'). The film gives her no reactive concern about Harry's dream or scar, no characteristic advice-giving, no intellectual engagement. She is a plot device to get the trio moving.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but representative: the film's opening strips away the anxious-but-practical intellectual personality the book establishes immediately. Her first lines in the book define her; her first lines in the film are generic."
+    },
+    {
+      "scene": "Goblet of Fire - Woods after Death Eater attack, Hermione's silence on house-elf rights",
+      "book_baseline": "After the Dark Mark is cast and Winky is found, Hermione immediately and passionately advocates for Winky, challenges Mr. Crouch's dismissal, snaps at Percy, and voices the injustice of house-elf treatment \u2014 all establishing her moral voice and the SPEW arc's foundation. She is 'determined all the same' despite nerves speaking before Ministry wizards.",
+      "film_portrayal": "The film retains only the immediate aftermath of the Dark Mark scene at a surface level. Winky does not appear. Hermione's advocacy for house-elves, her confrontation with Mr. Crouch's treatment of Winky, and her moral outrage are entirely absent from this sequence.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Winky's dismissal and Hermione's response to it is the inciting incident for the SPEW arc and establishes Hermione's social conscience as a defining character trait. The film removes this entirely, meaning her moral activism \u2014 one of her most distinctive traits in Goblet of Fire \u2014 has no foundation in the adaptation."
+    },
+    {
+      "scene": "Goblet of Fire - SPEW arc entirely absent from film",
+      "book_baseline": "The book corpus contains extensive material showing Hermione founding S.P.E.W., researching elf enslavement, refusing to eat food made by slave labour, badgering Harry and Ron to join, rattling a collecting tin around the common room, visiting the kitchens, confronting Winky and Dobby, and arguing passionately at length about elf rights. This is her defining moral arc in Book 4.",
+      "film_portrayal": "SPEW does not exist in the film at all. No badges, no manifesto, no library research into elf welfare, no refusal to eat at the feast, no kitchen visit, no sustained advocacy. Hermione's most prominent independent character arc in the novel is completely removed.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging omission. In the book, SPEW defines Hermione's fourth year \u2014 her moral courage, her willingness to be annoying in service of principle, her intellectual rigour applied to ethics, and her blind spots (she lectures without fully listening). The film reduces her entirely to a reactive support character for Harry's tournament arc, removing her sole independent initiative of the story."
+    },
+    {
+      "scene": "Goblet of Fire - Moody's Unforgivable Curses lesson, Hermione's response to Cruciatus",
+      "book_baseline": "During Moody's demonstration of the Cruciatus Curse on the spider, Hermione shouts 'Stop it!' \u2014 not because she is squeamish, but because she has noticed Neville's hands clenching and his horrified expression. She is watching Neville, not the spider. Her intervention is specifically empathetic and observant.",
+      "film_portrayal": "The film retains Hermione saying 'Stop it! Can't you see it's bothering him?' which is present in the film corpus. This beat is largely preserved. However, the film removes the follow-up scene where Hermione notices Neville in the corridor and says 'Neville?' gently \u2014 the corpus shows she checks on him proactively. The film corpus shows Hermione walking with Neville and Moody but her gentle follow-up concern is reduced to a single line.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The core empathetic beat survives but the gentle follow-through with Neville in the corridor is reduced. Minor damage to her characterisation as perceptive and caring beyond the immediate dramatic moment."
+    },
+    {
+      "scene": "Goblet of Fire - Hermione mediating Ron/Harry feud, repeated messenger role",
+      "book_baseline": "During Ron and Harry's estrangement, Hermione occupies a difficult middle position \u2014 she refuses to take sides, pushes Harry to reconcile, and explains Ron's jealousy to Harry with patient insight ('Look, it's always you who gets all the attention'). She is frustrated with both of them, shows emotional intelligence, and makes her own moral judgement that Harry is partly responsible for the impasse.",
+      "film_portrayal": "The film condenses this to a brief, somewhat comedic sequence where Hermione is literally used as a messenger, shuttling whispered messages between Harry and Ron. The film corpus shows her saying 'I'm not an owl!' This reduces her active emotional and moral agency to a comic relay function. Her insight into Ron's jealousy and her pushing Harry to act are lost.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book shows Hermione navigating a real friendship crisis with emotional intelligence and independent moral judgement. The film turns her into a comedic go-between, which undercuts her agency and flattens the dynamic to a running gag rather than a genuine character beat."
+    },
+    {
+      "scene": "Goblet of Fire - Hermione preparing Harry for the first task (dragon)",
+      "book_baseline": "Hermione is Harry's primary research partner in preparing for the dragon task \u2014 spending days in the library, working through spellbooks, whispering strategies at his elbow during classes, staying up past midnight practising Summoning Charms with him, and being the one who drills him until he masters Accio. She says 'Harry, I really think you've got it!' She is functionally indispensable to his survival.",
+      "film_portrayal": "The film entirely skips the preparation arc. There is no library research montage, no Summoning Charm practice sessions, no Hermione drilling Harry. In the film, Harry appears to conceive his broom summoning plan spontaneously during a conversation with Moody. Hermione's line 'Your wand, Harry! Your wand!' during the task is present but this is a reactive shout, not the culmination of weeks of preparation she led.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "In the book, Harry survives the first task largely because Hermione identified the correct spell and drilled him until he could perform it under pressure. This is a major functional contribution the film removes, replacing it with a flash of solo inspiration. Her role in Harry's actual survival is erased."
+    },
+    {
+      "scene": "Goblet of Fire - Hermione preparing Harry for the second task",
+      "book_baseline": "Hermione, Ron, and Harry spend weeks researching underwater breathing spells in the library. Hermione is the driving force \u2014 she considers and discards multiple approaches (Switching Spells, Aqua-Lungs, Transfiguration), argues there must be a magical solution, and stays up until midnight the night before. Her desperation that 'they'd never set a task that was undoable' is a window into her personality.",
+      "film_portrayal": "The film shows a brief scene of Hermione and Harry in the library where Hermione acknowledges the task is 'potentially problematic.' There is no extended research arc. Neville \u2014 not the result of Hermione's research \u2014 provides the gillyweed solution. In the film corpus, Hermione's line 'we can do this, the three of us can figure it out' is present but the weeks of actual effort are absent.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The DA is Hermione's idea in the book. Repositioning it as primarily Harry's initiative transfers her most significant act of institutional agency in the series to the male lead."
+      "explanation": "The book shows Hermione's sustained, anxious intellectual effort as a core contribution to Harry's survival. The film reduces this to a brief acknowledgement of the problem, with the solution arriving from a different source entirely. Her functional role is diminished."
     },
     {
-      "scene": "HBP Film \u2013 Hermione's emotional response to Ron/Lavender and the birds scene",
-      "book_baseline": "Hermione's pain is acute and her conjured birds attacking Ron is a rare moment of losing control \u2013 immediately followed by Harry comforting her, showing emotional depth and vulnerability",
-      "film_portrayal": "The birds scene is present and effective, but the broader context of Hermione's sustained suffering and her intellectual rationalisation of her own feelings is compressed across the film",
+      "scene": "Goblet of Fire - Yule Ball, Hermione's entrance and Ron's reaction",
+      "book_baseline": "The book establishes a layered moment: Ron walks right past Hermione without recognising her, and her transformation is a revelation about how others have undervalued her appearance. The book also notes Hermione's deliberately shrunken teeth \u2014 a quiet, private act of self-improvement she engineered through the Madam Pomfrey visit, noted as something 'she had never done before.' Ron is jealous of Krum not just territorially but for reasons that hint at unacknowledged feelings.",
+      "film_portrayal": "The film does capture Hermione's entrance as a visual set-piece and Ron's stunned reaction is present. However, the teeth subplot is entirely absent from the film, removing her private act of self-determination. The film corpus shows Ron saying 'No. Absolutely not' when asked if it's Hermione \u2014 the denial-then-recognition beat is present. This beat is largely preserved, though without the teeth detail.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Relatively minor \u2013 the film captures the emotional beat adequately, but the book's sustained portrayal of Hermione struggling to reconcile her feelings with her self-image is lost."
+      "explanation": "The teeth subplot is a small but characterful detail showing Hermione's quiet pragmatism and self-possession \u2014 she seizes an opportunity without announcing it. Its absence is minor but represents the film's general pattern of removing Hermione's private interior life."
     },
     {
-      "scene": "DH1 Film \u2013 Hermione modifying her parents' memories",
-      "book_baseline": "Described in dialogue; Hermione explains she has Obliviated her parents and sent them to Australia, framed as a devastating sacrifice she made alone before the story begins",
-      "film_portrayal": "Shown in a wordless opening sequence \u2013 visually effective and emotionally resonant",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film actually handles this well visually. Minor damage only: the book's version emphasises Hermione's deliberate, planned sacrifice more explicitly, but the film's approach is a legitimate adaptation choice."
-    },
-    {
-      "scene": "DH1 Film \u2013 Hermione's role in the Ministry infiltration",
-      "book_baseline": "Hermione is the tactical planner of the Ministry operation, prepares the Polyjuice Potion, casts the protective enchantments, and her quick thinking (Stinging Jinx on Harry, Cushioning Charm in the vault fall) repeatedly saves the group",
-      "film_portrayal": "Her planning role is present but the film distributes competence more evenly; several of her specific saves are retained",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film largely preserves her function here. Minor compression of her intellectual leadership in the planning phase."
-    },
-    {
-      "scene": "DH2 Film \u2013 Hermione destroying the Hufflepuff Cup",
-      "book_baseline": "Hermione stabs the cup with a basilisk fang in the Chamber of Secrets \u2013 her act, her moment of destruction",
-      "film_portrayal": "Hermione destroys the cup in the Chamber of Secrets; this is faithfully adapted",
-      "damage_type": "nuance/lost material",
-      "exposure": 0,
-      "impact_weight": 1,
-      "explanation": "No damage \u2013 faithfully adapted."
-    },
-    {
-      "scene": "DH2 Film \u2013 Final battle: Hermione's role",
-      "book_baseline": "Hermione fights throughout the battle, casts protective enchantments, and is present for key moments; she and Ron share a kiss after destroying the cup",
-      "film_portrayal": "The Ron/Hermione kiss is present; Hermione fights but her specific contributions in the battle are less individualised than in the book",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The battle's chaos means individual contributions are hard to track in any adaptation. Minor loss of Hermione's specific heroic moments."
-    },
-    {
-      "scene": "GoF Film \u2013 Hermione's reaction to being called 'the best in the year' by Slughorn (HBP) / general treatment as Krum's date",
-      "book_baseline": "Hermione is genuinely pleased by intellectual recognition but also self-aware about her social position; her relationship with Krum is portrayed with nuance \u2013 she likes him but is not swept away",
-      "film_portrayal": "In GoF, Hermione's transformation for the Yule Ball is treated as a Cinderella reveal moment, with Ron's stunned reaction as the emotional anchor",
+      "scene": "Goblet of Fire - Yule Ball aftermath, Hermione crying on the staircase",
+      "book_baseline": "After the argument with Ron, the book has Hermione telling Ron he should have asked her before someone else did 'and not as a last resort,' then departing. The narrative notes Harry thought 'Hermione had gotten the point much better than Ron had' \u2014 Harry's internal observation validates her emotional intelligence. She is hurt but also clear-eyed and right.",
+      "film_portrayal": "The film corpus shows Hermione saying the correct line about asking her before somebody else does. However, the film then shows Hermione sitting alone on the staircase crying \u2014 a scene that emphasises her distress and vulnerability over her clarity and rightness. The book's Hermione storms off; the film's Hermione weeps alone. The film corpus confirms: 'Hermione sits down on the staircase to cry by herself.'",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The 'she cleans up well' framing centres male perception of Hermione's appearance as the emotional payoff of the scene. The book is more interested in Hermione's own experience of the evening. This is a recurring pattern across the films of filtering Hermione through male reactions."
+      "explanation": "The book's Hermione is hurt but controlled and correct \u2014 she delivers a devastating, lucid statement and leaves. The film's addition of her weeping alone on the stairs shifts the scene toward pathos and vulnerability, undercutting the strength and clarity the book gives her in this moment. It reframes her as emotionally overcome rather than emotionally intelligent."
+    },
+    {
+      "scene": "Goblet of Fire - Rita Skeeter investigation arc",
+      "book_baseline": "The book corpus establishes Hermione independently pursuing Rita Skeeter \u2014 researching magical eavesdropping methods, interrogating Moody, dismissing the Invisibility Cloak hypothesis, and eventually deducing and proving Rita is an unregistered Animagus. She catches Rita in beetle form, imprisons her in a jar with an Unbreakable Charm, and blackmails her into a year's silence. This is Hermione's sole act of independent detection and moral action in the book.",
+      "film_portrayal": "The Rita Skeeter Animagus revelation is entirely absent from the film. The film corpus shows no investigation, no jar, no blackmail. Rita Skeeter simply disappears from the film after the tournament. Hermione's deductive triumph \u2014 possibly the clearest demonstration of her analytical intelligence applied independently \u2014 is completely removed.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is Hermione's most active independent plot function in Book 4. She identifies a problem, researches it, solves it, and resolves it \u2014 entirely on her own initiative. The film removes it entirely, leaving her without any independent arc resolution and without the demonstration of her intellect working at full capacity on a problem she chose herself."
+    },
+    {
+      "scene": "Goblet of Fire - Ron/Hermione ball argument, film addition of Ron accusing Krum",
+      "book_baseline": "The book's Ron accuses Hermione of 'fraternizing with the enemy' and implies Krum is using her to get at Harry or the egg. Hermione's response is outrage and a devastating comeback about Ron never noticing she was a girl. The argument is heated but both parties have a point the narrative balances.",
+      "film_portrayal": "The film corpus preserves this argument largely faithfully, including Ron's accusation and Hermione's comeback. However, the film adds Ron saying 'He's way too old' \u2014 a line not in the book corpus \u2014 which shifts Ron's objection toward a paternalistic/protective register rather than purely competitive jealousy. Hermione's 'That's what you think?' response is present.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor shift: the film introduces a paternalistic note ('he's way too old') that the book does not establish, subtly reframing Ron's jealousy as protective concern rather than competitive inadequacy, which slightly alters the dynamic and Hermione's position in it."
+    },
+    {
+      "scene": "Goblet of Fire - Sirius's cave meeting, Hermione's contributions to analysis",
+      "book_baseline": "During the meeting with Sirius, Hermione contributes actively to the detective work \u2014 reminding Harry that Bagman was in the Top Box, pointing out Bagman was in the forest before the Dark Mark, pushing back on the theory that Krum attacked Crouch, and defending Madame Maxime against giant prejudice. Sirius explicitly validates her: 'She's got the measure of Crouch better than you have, Ron.'",
+      "film_portrayal": "The Sirius cave meeting is absent from the film. This entire sequence \u2014 including Hermione's analytical contributions and Sirius's validation of her \u2014 does not appear in the film corpus. The meeting with Sirius occurs via the Gryffindor common room fireplace in the film, which is brief and focused only on Harry.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The cave meeting is one of the book's clearest moments of Hermione functioning as an equal intellectual contributor to the trio's detective work, receiving external validation from Sirius. The film's alternative format (fireplace only) gives Harry a private audience with Sirius, removing Hermione from the analytical process entirely."
+    },
+    {
+      "scene": "Goblet of Fire - Hermione's decision to confront Hagrid about hiding",
+      "book_baseline": "When Hagrid retreats after Rita's article about his mother, Hermione takes initiative \u2014 she leads Harry and Ron back to Hagrid's cabin, pounds on the door, and shouts a sustained, passionate speech demanding he return: 'Nobody cares if your mum was a giantess, Hagrid! You can't let that foul Skeeter woman do this to you!' She is confrontational, determined, and right. She later asks him quietly to come back and teach.",
+      "film_portrayal": "This scene is absent from the film. Hagrid's retreat and Hermione's intervention do not appear in the film corpus. The relationship between Hermione and Hagrid \u2014 and her protective loyalty to him \u2014 is not demonstrated.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is one of the clearest demonstrations of Hermione's loyalty and moral courage outside of academic contexts. Her willingness to confront Hagrid's self-pity and advocate for him shows a dimension of her character \u2014 fierce protectiveness of those she loves \u2014 that the film does not show."
+    },
+    {
+      "scene": "Goblet of Fire - Third task preparation, Hermione and Ron training Harry",
+      "book_baseline": "The book corpus details weeks of Harry, Ron, and Hermione practising hexes and defensive spells together in the Transfiguration classroom. Hermione masters Shield Charms, selects spells from the library, crosses completed spells off a list, and is the organisational force of the preparation. She lets Harry Stun her repeatedly, suffers from his wobbling Shield Charm work, and drives the sessions.",
+      "film_portrayal": "This extended preparation arc is absent from the film corpus. There is no training sequence, no shared spell-work sessions, no Hermione selecting and drilling spells. The film moves directly to the task itself without establishing the preparatory work the trio undertook together.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The preparation arc establishes Hermione as Harry's functional equal in preparing him for survival. Its absence in the film means her contribution to his third task survival \u2014 like her contributions to the first and second \u2014 is invisible."
+    },
+    {
+      "scene": "OotP - Grimmauld Place reunion / Harry's anger at being kept in the dark",
+      "book_baseline": "In the books, Hermione greets Harry with an enormous hug, immediate remorse, and a torrent of words defending Dumbledore's reasoning while also validating Harry's anger ('You're absolutely right, Harry - I'd be furious if it was me!'). She has complex, split loyalties and visibly struggles with guilt. She also has pre-researched the Ministry hearing law and rattles off the relevant statute immediately.",
+      "film_portrayal": "The film compresses the reunion. Hermione's guilt, her detailed apology, her split loyalty between obeying Dumbledore and loyalty to Harry, and her pre-researched legal defence are all flattened into a brief exchange. The emotional texture of her internal conflict is largely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Hermione as someone who prepares obsessively and experiences genuine moral conflict. The film reduces this reunion to plot exposition, losing the demonstration of her divided loyalties and her characteristic advance preparation."
+    },
+    {
+      "scene": "OotP - First Defence Against the Dark Arts lesson with Umbridge",
+      "book_baseline": "The book devotes considerable space to Hermione refusing to even open her copy of Defensive Magical Theory, sitting with her hand in the air for the entire lesson in silent, sustained protest - an act described as unprecedented since she had 'never neglected to read when instructed to'. She then debates Slinkhard's theory intelligently and loses five house points for it. This is a defining moment of principled intellectual defiance.",
+      "film_portrayal": "The film shows Hermione making a single sharp comment ('No need to think is more like it') and participating minimally. The extended silent protest - hand raised throughout, book unopened, a sustained act of intellectual civil disobedience - is entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's scene is one of Hermione's great character moments: she defies authority not loudly but through principled, sustained, quiet resistance. The film strips this to a one-liner, losing the demonstration that her courage operates through intellect and persistence rather than outbursts."
+    },
+    {
+      "scene": "OotP - Hermione proposes the DA / Hog's Head meeting",
+      "book_baseline": "In the books, the idea to form a Defence study group is entirely Hermione's. She proposes it, organises it, chooses the venue (the Hog's Head, specifically because it is off the main road), researches the legality of study groups, and drives the entire enterprise. Harry is initially reluctant and sceptical. Hermione also devises the jinxed sign-up parchment as a security measure.",
+      "film_portrayal": "The film attributes the idea more ambiguously; the scene where Hermione tells Harry 'I thought it would be safer somewhere off the beaten track' suggests her planning role, but Harry's reluctance and her sustained intellectual ownership of the project are compressed. The film's Hermione says 'Who cares? I mean, it's sort of exciting, isn't it? Breaking the rules' - a line that contradicts her book characterisation entirely, played for laughs at her own expense.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The 'Who are you and what have you done with Hermione Granger?' joke requires Hermione to voice glib rule-breaking enthusiasm that is antithetical to her book character. In the book she is meticulous about legal cover precisely because she is not cavalier. The joke sacrifices her character for a cheap laugh and misrepresents her motivations."
+    },
+    {
+      "scene": "OotP - Hermione devises the Protean Charm Galleons for DA communication",
+      "book_baseline": "The book gives Hermione sole credit for devising the fake Galleons using a Protean Charm - a NEWT-level piece of magic that stuns even Fred Weasley, who asks 'How come you're not in Ravenclaw?' Hermione explicitly acknowledges she based it on the Dark Mark concept. This is presented as a significant demonstration of her exceptional magical ability.",
+      "film_portrayal": "The film omits this entirely. There is no scene showing the Galleons being distributed or Hermione's invention of the communication system. The DA simply meets without any visible means of coordination being established on screen.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of the book's clearest demonstrations that Hermione's intellect produces concrete, plot-functional magical innovation beyond mere academic knowledge. Its absence removes a key moment of her operational agency within the DA and the recognition from peers (including Fred Weasley) that she is extraordinary."
+    },
+    {
+      "scene": "OotP - Hermione's sustained efforts to advise and protect Hagrid before Umbridge's inspection",
+      "book_baseline": "The book shows Hermione making repeated, determined visits to Hagrid to plan his lessons, trudging through snow on a Sunday morning, spending hours trying to persuade him to teach safer creatures, and explicitly saying 'I'll plan his lessons for him if I have to. I don't care if she throws out Trelawney but she's not getting rid of Hagrid!' This reflects her loyalty expressed through practical, unglamorous labour.",
+      "film_portrayal": "The film omits Hermione's independent efforts to help Hagrid entirely. Her protective role is reduced to reacting to events rather than proactively working to prevent them.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses Hermione's Hagrid campaign to show that her loyalty manifests as practical problem-solving. Without it, the film loses a dimension of her character - that she expresses care through relentless, often thankless preparation."
+    },
+    {
+      "scene": "OotP - Hermione's doubt about whether to proceed with the DA after Sirius endorses it",
+      "book_baseline": "The book has a psychologically sophisticated scene where Hermione becomes worried precisely because Sirius enthusiastically supports the DA, reasoning that his cooped-up, reckless state means he is 'living through' them and 'egging them on' for the wrong reasons. She asks Harry whether Sirius's judgement can be trusted and voices concern that he might be encouraging them out of frustrated vicariousness rather than genuine wisdom.",
+      "film_portrayal": "This scene is entirely absent. The film shows no such reflective doubt from Hermione about Sirius's motivations or the wisdom of proceeding.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is one of Hermione's most intellectually mature moments in the book - she is the only one who thinks critically about their adult mentor's psychological state and its effect on his advice. Its absence removes evidence of her capacity for independent critical analysis of authority figures she broadly trusts."
+    },
+    {
+      "scene": "OotP - Hermione's management of the Cho/Harry relationship and emotional intelligence scene",
+      "book_baseline": "The book contains an extended scene where Hermione, without visible effort, dissects Cho's emotional state with precision - listing multiple simultaneous feelings (grief, confusion, guilt, worry about her mother's job, exam anxiety) and concluding with 'Just because you've got the emotional range of a teaspoon doesn't mean we all have.' This is one of the clearest demonstrations of her emotional intelligence as a distinct and serious capability.",
+      "film_portrayal": "The film includes a version of this scene but compresses it significantly. The key line 'emotional range of a teaspoon' is retained, but the layered, methodical analysis of Cho's emotional complexity is condensed. The film version does preserve the core dynamic adequately, making this lower-damage than complete omissions.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film retains the gist but loses the full demonstration of Hermione's emotional analytical precision. The abbreviated version still functions but is less powerful as a counter-argument to the stereotype that her intelligence is purely academic."
+    },
+    {
+      "scene": "OotP - Hermione arranges the Rita Skeeter interview / The Quibbler strategy",
+      "book_baseline": "The book shows Hermione independently conceiving, planning and executing the strategy of using Rita Skeeter (whom she has blackmailed since Book 4) to publish Harry's account in The Quibbler. She writes the letter that brings Rita, negotiates with her, threatens her with exposure as an Animagus, and manages the entire operation. This is a major act of strategic agency that directly advances the resistance against the Ministry.",
+      "film_portrayal": "This subplot is entirely absent from the film. There is no Rita Skeeter, no Quibbler interview arranged by Hermione, no blackmail leverage used.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is one of Hermione's most consequential independent actions in the entire book - she conceives and delivers a counter-propaganda strategy that meaningfully shifts public opinion. Its complete removal eliminates a plotline in which she operates as a strategist entirely on her own initiative, using leverage she established in a prior book. The film's Hermione never demonstrates this level of independent political agency."
+    },
+    {
+      "scene": "OotP - Hermione's fake crying / leading Umbridge into the Forest",
+      "book_baseline": "The book makes explicit that Hermione's tears in Umbridge's office are false - Harry notices there are no actual tears despite the sobbing. She then improvises the 'secret weapon in the Forest' plan in real time, fabricating a plausible story to manipulate Umbridge, and Harry notes this as a mark of solidarity. The scene is presented as Hermione's invention under extreme pressure.",
+      "film_portrayal": "The film retains this scene and Hermione's central role in it. The fake-crying manipulation and the Forest plan are shown. However, the film does not make it as clear that Harry consciously registers the absence of real tears and recognises the performance for what it is. The deliberate, calculated nature of the deception is somewhat less explicit.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film preserves the functional scene but loses the subtle emphasis on Hermione's conscious, cold-blooded performance under pressure - the detail that she produces no actual tears is a significant character note about her capacity for controlled deception in a crisis."
+    },
+    {
+      "scene": "OotP - Hermione's SPEW activism and elf hat knitting throughout the year",
+      "book_baseline": "The book tracks Hermione's SPEW campaign across the entire year - knitting hats, hiding them around the common room, arguing with Ron, engaging Lupin on werewolf segregation parallels, giving Kreacher a present. This represents a consistent characterisation of her as someone whose principles extend into unglamorous, socially awkward activism that her friends mostly humour.",
+      "film_portrayal": "SPEW is entirely absent from the film. There is no elf rights activism, no hats, no argument with Ron about Kreacher's welfare, no engagement with house-elf themes beyond Kreacher's brief appearance.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "SPEW represents Hermione's willingness to hold principled positions that make her socially awkward and that her closest friends openly mock. Its absence removes a sustained portrait of her moral consistency and the specific texture of her idealism. It also removes her arc with Kreacher, which has minor plot relevance at the end of the book."
+    },
+    {
+      "scene": "OotP - Hermione's persistent concern about Occlumency / warning Harry throughout the year",
+      "book_baseline": "The book shows Hermione repeatedly and persistently pressing Harry to continue and take seriously his Occlumency lessons, correctly identifying that his failure to do so will have consequences. Her warnings are proven right when Harry's dream leads the group into danger at the Ministry. Her voice - nagging Harry about Occlumency - literally functions as a conscience in his internal monologue.",
+      "film_portrayal": "The film omits the sustained drumbeat of Hermione's Occlumency warnings across multiple scenes. Harry's failure to practise and Hermione's persistent concern are not tracked as an ongoing thread.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This thread is important because it establishes Hermione as prophetically correct - she identifies the danger months before it materialises. The film's Harry admits culpability at the end but without the book's careful construction of Hermione having been right all along, the emotional weight of that admission is diminished."
+    },
+    {
+      "scene": "OotP - Hermione's resistance to going to the Ministry / challenging Harry's vision",
+      "book_baseline": "The book shows Hermione mounting the most sustained, rational challenge to Harry's plan - she raises multiple objections over several pages, correctly identifies that Voldemort may be luring Harry deliberately, and explicitly says he is 'banking on Harry's love of playing the hero.' She is ultimately proven right. Her resistance is presented as genuinely reasonable, not as mere timidity.",
+      "film_portrayal": "The film compresses Hermione's objections into a brief exchange. She raises the 'what if Voldemort meant for you to see this' point, which is retained, but the full weight of her sustained, logically-argued resistance is reduced to a couple of lines before she falls into line.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Hermione is proven comprehensively right about her warnings regarding the Ministry trap. The compression of her resistance makes her look less prescient and reduces the retroactive force of her being correct. It also diminishes the scene where Harry shouts her down, which in the book represents a failure of the group dynamic with real consequences."
+    },
+    {
+      "scene": "Half-Blood Prince - Diagon Alley / Borgin & Burkes trailing sequence",
+      "book_baseline": "In the book, the trio follow Malfoy under the Invisibility Cloak together, use Extendable Ears to eavesdrop, and Hermione then independently enters Borgin & Burkes posing as a customer to try to find out what Malfoy reserved - a bold, proactive piece of intelligence-gathering that shows her initiative and quick thinking.",
+      "film_portrayal": "The film replaces the covert Invisibility Cloak surveillance and Hermione's undercover shop visit entirely. Instead, Hermione gets separated and stumbles upon a ceremony in a back courtyard, witnessing it accidentally. She then disclaims knowledge of what she saw ('I don't know what I saw'), removing her agency and the evidence she gathered.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book version shows Hermione acting with calculated courage and resourcefulness - entering a hostile shop alone, improvising a cover story, and extracting partial intelligence. The film replaces this with passive accidental witnessing and then her actively undercutting Harry's theory by saying she doesn't know what she saw. This damages her characterisation as the trio's most proactive investigator and removes a key demonstration of her independent agency."
+    },
+    {
+      "scene": "Half-Blood Prince - Train compartment, Malfoy Death Eater theory",
+      "book_baseline": "On the train, Hermione is genuinely uncertain and thoughtful about Harry's Malfoy theory - she doesn't dismiss it outright but expresses measured scepticism, saying it would be a big lie even for Malfoy to tell. She engages seriously with the evidence.",
+      "film_portrayal": "In the film, Hermione flatly dismisses Harry's theory ('Harry is under the impression that Draco Malfoy is now a Death Eater') in a tone of condescension, framing it as Harry's delusion rather than engaging with the evidence. She then adds 'I don't know what I saw' about the ceremony she witnessed, actively undermining the very intelligence she observed.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film makes Hermione more dismissive and less intellectually engaged than the book version. The book Hermione takes Harry's theories seriously even when sceptical; the film version uses her primarily as a foil to deflate Harry's suspicions, which flattens her characterisation and makes her look less perceptive given that Harry is ultimately correct."
+    },
+    {
+      "scene": "Half-Blood Prince - Slughorn's first Potions class, Half-Blood Prince book",
+      "book_baseline": "In the book, when Harry follows the Prince's margin notes and outperforms Hermione, she becomes visibly frustrated and competitive, refusing to follow the Prince's instructions and ploughing on with the official method. Her reaction is a mix of genuine intellectual pride and competitive frustration - she challenges Harry about using an unknown annotated book and later pursues the Prince's identity obsessively.",
+      "film_portrayal": "The film shows Hermione's frustration (bushy hair in steam, glowering) but truncates her intellectual engagement with the mystery. Her sustained campaign to identify the Prince and her principled objection to following unknown handwritten instructions is compressed to brief exchanges. The film does not show her doing independent research into the Prince's identity with the same depth.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book develops Hermione's reaction to the Prince across many scenes - her competitive frustration, her ethical objection to following unknown spells, and her independent library research culminating in finding Eileen Prince. The film collapses this arc, reducing a multi-layered character response to visual comedy (frizzy hair). Her eventual discovery of the Prince's identity as Snape's mother, which she arrives at through independent research, is entirely absent from the film corpus."
+    },
+    {
+      "scene": "Half-Blood Prince - Quidditch tryouts, Confunding McLaggen",
+      "book_baseline": "In the book, Hermione secretly Confunds McLaggen during tryouts to help Ron make the team, then privately admits this to Harry when confronted. It's a morally ambiguous action she defends with pragmatic reasoning, and it's a rare moment of Hermione breaking rules for personal/emotional reasons while still being self-aware about the hypocrisy.",
+      "film_portrayal": "The film shows Hermione muttering something during the tryout and Cormac inexplicably rolling the wrong way, strongly implying she Confunded him, and she is later caught out by Harry. The scene plays similarly but the admission is handled differently - the film version has her caught more easily and the moral complexity of a prefect cheating is noted but quickly moved past.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is largely preserved but the film does less work with the hypocrisy angle - the book version has a fuller exchange about what it means for a prefect to cheat, and Hermione's self-awareness about the double standard is more developed. Minor damage only."
+    },
+    {
+      "scene": "Half-Blood Prince - Hermione and Ron's emotional arc / birds attack scene",
+      "book_baseline": "In the book, the Ron-Hermione romantic tension is developed over many scenes with Hermione showing hurt, jealousy and pride across weeks. The birds (Oppugno) attack is a moment of genuine emotional explosion after sustained suppression, followed by Hermione crying and Harry comforting her. The book makes clear she is deeply hurt but also self-possessed enough to pursue McLaggen deliberately to provoke Ron.",
+      "film_portrayal": "The film condenses this arc but retains the key emotional beats. However, in the film's Chamber scene (Scene 22 in corpus), Hermione explicitly tells Harry 'I know, Harry. You're my best friend. I see how you look at her' about Ginny - reframing the scene around Harry's feelings rather than Hermione's own pain. The book version of this scene has Hermione sobbing with Harry comforting her, with no discussion of Ginny. The film redirects her emotional scene to serve Harry's romantic subplot.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film's version of the post-Oppugno comfort scene reorients Hermione's emotional crisis away from her own pain and toward facilitating Harry's feelings for Ginny. This subordinates Hermione's interior emotional life to Harry's story needs. The book gives her the full weight of the scene; the film uses her distress as a vehicle for Harry's romantic revelation. This damages the Hermione-Ron relationship arc by centering Hermione's pain moment on someone else's love story."
+    },
+    {
+      "scene": "Half-Blood Prince - Astronomy Tower final scene (excluded per non-theatrical note)",
+      "book_baseline": "The book ends with Ron and Hermione both independently committing to accompany Harry on his quest, with Hermione having researched R.A.B. and the scene emphasising the trio's equal partnership.",
+      "film_portrayal": "Per the non-theatrical exclusion note, the Astronomy Tower scene where Harry tells Ron and Hermione they are brilliant and they refuse to leave him was cut from the theatrical release. The theatrical film ends with Harry looking out alone while Ron and Hermione are present but the explicit, equal declaration of partnership is lost.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The theatrical release loses the culminating scene that establishes Hermione (and Ron) as Harry's equal partners going forward into the final quest. In the book, Hermione's declaration 'You need us, Harry' and her intellectual challenge to his plan to go alone is a defining moment of her arc in this volume. Its absence means the film ends without confirming the trio's equal partnership, leaving Hermione's role in the coming quest implicit rather than active and chosen."
+    },
+    {
+      "scene": "Half-Blood Prince - Horcrux research, library failure scene",
+      "book_baseline": "In the book, Hermione exhaustively researches Horcruxes in the library, including the Restricted Section, and reports her failure to Harry with genuine shock - she has never failed to find information in the library before. This is a significant characterisation moment: the problem is so dark and suppressed that even her research skills cannot crack it.",
+      "film_portrayal": "This sustained library research arc, including her shock at failing and her finding only the single quote from Magick Moste Evile, does not appear in the film corpus. The film does not dramatise Hermione's research failure on Horcruxes.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes that Horcruxes represent a darkness so suppressed that even Hermione's formidable research skills cannot penetrate it, which conveys the gravity of the threat. The film loses this beat, and with it a character-defining moment where Hermione confronts the limits of her greatest strength. This is meaningful lost material that informs both her characterisation and the audience's sense of what they are up against."
+    },
+    {
+      "scene": "Half-Blood Prince - McGonagall's office, necklace accusation of Malfoy",
+      "book_baseline": "In the book, when Harry accuses Malfoy in McGonagall's office, Hermione actually argues against Harry's specific evidential claims - she points out accurately what Malfoy said in Borgin & Burkes, offers alternative interpretations, and engages substantively with the evidence. She is not simply dismissive but is doing genuine analytical work.",
+      "film_portrayal": "In the film (Scene 15), Ron and Hermione 'avert their eyes uncomfortably' when Harry makes his accusation, and the scene does not give Hermione the substantive counter-argument she makes in the book about what Malfoy actually said. Her intellectual engagement with the evidence is absent; she is reduced to an uncomfortable bystander.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book Hermione is never simply embarrassed by Harry's theories - she engages with them analytically even when disagreeing. Reducing her to uncomfortable silence in this scene strips away her characteristic intellectual engagement and makes her look like she is merely socially awkward rather than thinking carefully about the evidence."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Hermione's parents memory charm (opening scene)",
+      "book_baseline": "Book establishes the memory charm as a pre-planned, deliberate act Hermione describes to Harry and Ron in Ron's room before leaving the Burrow, framed as a sacrifice she has thought through and resolved to make. She recounts it matter-of-factly as evidence of her commitment to the mission.",
+      "film_portrayal": "The film opens with Hermione performing the charm silently and alone, watching herself vanish from photographs. The scene is beautifully rendered but is entirely invented visually. Crucially, the book's framing \u2013 where Hermione explains this to Harry and Ron as part of demonstrating what she has sacrificed \u2013 is replaced by a private, elegiac moment the boys never witness. The scene also omits the detail that she has sent them to Australia and that she plans to lift the charm if she survives.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version of this moment is about Hermione asserting her agency and resolve to her friends, demonstrating the full cost she has accepted. The film's version is more emotionally effective cinematically but privatises the sacrifice, removing the beat where it functions as proof of her commitment communicated directly to Harry and Ron. Minor characterisation loss."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Scrimgeour will scene, Hermione challenges the Decree",
+      "book_baseline": "Book Hermione immediately identifies the legal mechanism Scrimgeour is exploiting (the Decree for Justifiable Confiscation), challenges its misapplication with precision, argues that the Ministry needed 'powerful evidence' of illegal objects before seizing them, and is described as answering questions 'correctly' out of deeply ingrained habit \u2013 including spontaneously answering the Snitch's flesh memory question, which Harry and Ron find amusing. The scene shows her intellectual confidence and mild self-deprecating wit.",
+      "film_portrayal": "The film retains Hermione's challenge about the sword belonging to Harry and she reads aloud from the will, but the extended legal argument about the Decree is omitted. The spontaneous answering of the flesh-memory question is transferred: Hermione volunteers the Snitch information unprompted in a later scene (Drawing Room) rather than in front of Scrimgeour, losing the book's self-aware comedy about her compulsive correctness.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Small loss of the specific texture of Hermione's intellectual character \u2013 her legal precision and self-aware relationship with her own compulsive knowledge-display. Isolated."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Caf\u00e9 after the wedding, Ron suggests killing the Death Eaters",
+      "book_baseline": "In the book, Ron suggests killing the stunned Death Eaters ('They'd kill us') and Hermione recoils, showing her moral compass even under pressure. Harry overrules this with a practical argument about not drawing attention. Hermione's reaction signals her ethical limits.",
+      "film_portrayal": "The film retains this exchange but softens it: Ron's suggestion is played more as a dark joke with Hermione giving him an uneasy look, rather than a genuine moral confrontation. The book's clearer beat of Hermione's revulsion is muted into discomfort.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor flattening of a small but characteristic moral moment for Hermione."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Grimmauld Place, Horcrux research and stolen books",
+      "book_baseline": "Book Hermione reveals she used Accio to summon Dumbledore's restricted Horcrux books from his office just after his funeral, feeling guilty but rationalising it. She holds the book 'as gingerly as if it were something recently dead,' researches how to destroy Horcruxes, explains the soul mechanics, identifies basilisk venom as a destroyer, and drives a substantial intellectual briefing of Harry and Ron. This is one of the fullest demonstrations of her as the trio's research engine and moral conscience simultaneously.",
+      "film_portrayal": "The stolen-books revelation and the extended Horcrux-destruction research discussion are entirely absent from the film. Instead, the sword-destroys-Horcruxes insight is given to Hermione later (tent scene, cutting Harry's hair) via reading A History of Magic, but the basilisk-venom logic is compressed and attributed to her noticing the sword is goblin-made. The soul-mechanics explanation, the Gamp's Law discussion framing, and the extended briefing scene are all cut.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "A significant loss of Hermione's function as the intellectual anchor of the mission. The book establishes that she has been independently preparing \u2013 stealing the books, doing the research \u2013 before they even leave. This drives the reader's understanding of why the trio has any chance at all. The film compresses this into a single tent insight, reducing her preparatory agency and the sense that she has been carrying the research burden throughout."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Hermione explains destroying Horcruxes (tent, cutting Harry's hair)",
+      "book_baseline": "Book: Hermione puts this together from the stolen Dark Arts books she has been studying. She frames it with academic precision, explains why basilisk venom works (it is so destructive the Horcrux cannot repair itself), and distinguishes between physical and magical destruction.",
+      "film_portrayal": "Film Hermione reaches the correct conclusion by noticing in A History of Magic that the sword is goblin-made and 'only takes in that which makes it stronger' \u2013 a much simpler inferential chain. She delivers the insight confidently but without the foundation of months of secret research. She also says 'I'm highly logical, which allows me to look past the extraneous detail' \u2013 a line not in the book that tilts her self-description toward slightly arch arrogance rather than genuine intellectual humility.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The self-congratulatory 'highly logical' line is a small but notable voice deviation \u2013 book Hermione is confident but rarely self-congratulatory in this register. Combined with the reduced research backstory, the film makes her insight feel more like a lucky deduction than the product of sustained scholarly preparation."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Ron's departure argument (tent scene)",
+      "book_baseline": "Book: Hermione interposes a Shield Charm between Harry and Ron, then calls after Ron as he storms out, crying. She is sobbing when she returns, sodden, saying 'He's g-g-gone! Disapparated!' Harry wraps blankets around her. The scene makes clear she is heartbroken but did not choose to follow Ron \u2013 her staying is framed as loyalty to Harry and the mission despite being torn.",
+      "film_portrayal": "Film adds a line from Ron \u2013 'I saw you two the other night' \u2013 implying he suspects Harry and Hermione have a romantic connection, which motivates his departure partly through jealousy in a way the book does not. This reframes Hermione's distress as partly coloured by a romantic misunderstanding rather than purely grief at Ron's abandonment. The subsequent dance scene (film only) between Harry and Hermione reinforces this romantic ambiguity.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book is careful never to suggest Harry and Hermione have a romantic dynamic \u2013 their relationship is explicitly sibling-like. The film's addition of Ron's jealousy line and the invented dance scene introduces a romantic ambiguity that slightly distorts the Harry\u2013Hermione friendship and the Harry\u2013Hermione\u2013Ron triangle. This matters because it subtly re-colours the audience's understanding of Hermione's emotional investments in the story."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Harry and Hermione dance (tent scene, film only)",
+      "book_baseline": "No such scene exists in the book. After Ron leaves, Harry and Hermione are described as eating in silence, grieving Ron's absence, and Hermione crying quietly at night when she thinks Harry is asleep. The relationship is one of mutual sorrow and platonic loyalty.",
+      "film_portrayal": "Harry and Hermione spontaneously dance together to a Muggle radio song. The scene is tender and intimate. Hermione averts her eyes and leaves when the static returns.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Entirely invented scene that introduces a romantic/quasi-romantic register between Harry and Hermione that does not exist in the source material. While touching in isolation, it materially alters the audience's perception of their relationship dynamic, potentially misleading viewers unfamiliar with the books about where Hermione's romantic attachments lie."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Hermione's scar concern / Occlumency arguments",
+      "book_baseline": "Book Hermione repeatedly urges Harry to use Occlumency, becomes frustrated when he refuses, and the argument culminates in Harry asserting this is his choice. Hermione's position is grounded: she understands the danger of Voldemort planting false visions. Her persistence is portrayed as both correct (she is right about the danger) and slightly annoying to Harry, but the book treats this as a genuine ongoing tension.",
+      "film_portrayal": "The film retains several of these exchanges but the tent scene reduces the extended Occlumency argument. Hermione's concern about the scar is present but the specific sequence where she snaps 'You never really tried!' about Occlumency \u2013 a direct and pointed challenge to Harry \u2013 is softened. The film Hermione is more gently worried than confrontationally right.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Book Hermione is willing to be confrontationally correct even when Harry finds it irritating. The film softens this edge slightly, making her more supportively concerned than diagnostically assertive. A modest loss of character definition."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Godric's Hollow: Hermione's reluctance and the Polyjuice argument",
+      "book_baseline": "Book: Hermione spends a full week after Harry raises going to Godric's Hollow insisting they use Polyjuice Potion, practising Apparating under the Cloak together, and obtaining hairs from Muggles. She is described as 'convinced as she was that Voldemort would expect Harry to return.' She agrees only after thorough preparation.",
+      "film_portrayal": "Film Hermione raises the Polyjuice option once as they arrive ('I still think we should've used Polyjuice Potion') and Harry simply overrules her ('This is where I was born. I'm not returning as someone else'). The week of preparation is entirely cut. Hermione's caution is present but reduced to a single brushed-off line.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss of Hermione's characteristic preparedness. The film still shows her as cautious but removes the texture of her sustained, methodical approach to risk management."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Xenophilius Lovegood scene: Hermione's skepticism about the Hallows",
+      "book_baseline": "Book Hermione is the most intellectually rigorous skeptic of the Hallows \u2013 she challenges Lovegood's epistemology directly ('How can I possibly prove it doesn't exist?'), correctly identifies the Elder Wand stories as a recurring motif through centuries of history ('The Deathstick, the Wand of Destiny'), and consistently argues that the Horcrux mission must take priority. When asked which Hallow she would choose, she says the Cloak, for the most pragmatic reason. Her position is ultimately validated by the narrative.",
+      "film_portrayal": "Film retains Hermione's skepticism in outline but cuts her extended epistemological challenge to Lovegood and her citation of the historical Deathstick/Wand of Destiny evidence. The 'which Hallow would you choose' exchange is retained. Her skepticism is present but less intellectually grounded \u2013 more instinctive resistance than argued position.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Hermione's role as the trio's intellectual anchor is partly defined by her ability to mount rigorous arguments, not just express doubts. The compressed Lovegood scene reduces her from someone who challenges the epistemics of belief to someone who simply disbelieves. A modest but meaningful loss of her intellectual character."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Hermione's memory charm on parents: book context (Ron's room) lost",
+      "book_baseline": "Book: Hermione reveals the memory charm to Harry and Ron during the Ron's-room conversation (Scenes 135-156 of book corpus), framing it as part of what she and Ron have done to prepare. She describes her plan to find her parents and lift the charm if she survives, and says 'Wendell and Monica Wilkins don't know that they've got a daughter.' Her eyes fill with tears; Ron comforts her.",
+      "film_portrayal": "The film moves the revelation to the Forest of Dean tent scene (Harry asks 'Where are they?') and Hermione delivers it with a wry, slightly distancing tone: 'Wendell and Monica Wilkens now reside happily in Sydney, Australia. They have two dogs, run a small sweet shop, but floss daily.' The tone is more controlled and slightly ironic rather than emotionally raw. The book's moment of Ron comforting her is replaced by the private tent monologue.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's version of this revelation is more emotionally exposed \u2013 Hermione cries, Ron comforts her \u2013 and is embedded in the context of her demonstrating commitment to Harry and Ron collectively. The film version, while moving, is more self-contained and controlled, slightly flattening the vulnerability and the relational dimension of the moment."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Ministry infiltration: Hermione as Mafalda Hopkirk, performing under pressure",
+      "book_baseline": "Book Hermione is terrified but competent throughout the Ministry infiltration. She challenges Scrimgeour's use of the Decree, manages the Travers encounter with 'a magnificent imitation of Bellatrix's most contemptuous manner,' and in the courtroom duplicates the locket with Geminio before freeing Mrs Cattermole, all while functionally recording the hearing. Her ability to think under pressure is foregrounded.",
+      "film_portrayal": "Film Hermione is shown as visibly less composed under pressure \u2013 she greets a warlock with a cheerful 'Good morning!' (earning Griphook's contempt), needs Harry to whisper corrections in her ear, and appears more reactive than proactive. Griphook pointedly tells her to stop being 'a dewy-eyed schoolgirl.' The locket duplication and freeing Mrs Cattermole are retained but the Travers encounter is less impressively handled.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film uses Hermione's composure failures for comedy and tension, but at the cost of the book's portrait of her as someone who performs under pressure with skill. The 'good morning' mistake and Griphook's contempt are invented beats that slightly undermine her competence for cinematic effect."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Ron's departure: Hermione's position and the 'I get it' misread",
+      "book_baseline": "Book: Ron says 'Are you staying, or what?' \u2013 framing it as a choice between him and Harry. Hermione says nothing, and the text makes clear she is choosing the mission, not Harry personally. Ron misreads this as 'You choose him.' Hermione calls after Ron until he Disapparates.",
+      "film_portrayal": "Film Ron says 'Fine. I get it. I saw you two the other night' \u2013 adding a romantic jealousy motivation not present in the book. This means his departure is partly driven by romantic rivalry rather than purely mission/Horcrux frustration. Hermione's staying is coloured by this invented dynamic.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "See earlier entry on the dance scene \u2013 this compounds the romantic misread issue. The book's Ron departs because of the Horcrux's corruption and his frustration with Harry's leadership; the film's Ron departs partly out of jealousy. This retroactively changes what Hermione's staying means, distorting both the Harry-Hermione friendship and the Ron-Hermione romance arc."
+    },
+    {
+      "scene": "DH Part 1 \u2013 Hermione as narrator of the Dumbledore/Grindelwald backstory",
+      "book_baseline": "Book: Harry and Hermione read Rita Skeeter's chapter together, with Hermione contextualising and Harry reacting. Hermione defends Dumbledore's capacity for change while acknowledging the evidence. The extended argument on the hillside includes Hermione asserting 'He changed, Harry, he changed!' and 'The whole of the rest of his life was devoted to fighting the Dark Arts!'",
+      "film_portrayal": "Film gives Hermione a lengthy expository briefing of Harry about Grindelwald and Dumbledore \u2013 she recounts the Durmstrang expulsion, the visit to Godric's Hollow, the friendship, the 'for the greater good' ideology. This is more information-delivery than book Hermione's emotionally engaged argument. The hillside confrontation between Harry and Hermione is retained but compressed.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Minor shift in register \u2013 film Hermione is more of an information conduit here than a co-processor of the emotional weight of the revelation. Small loss of the collaborative dynamic."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Hermione stabs Hufflepuff's Cup in the Chamber of Secrets",
+      "book_baseline": "Book: Ron stabs the cup. Hermione is said to have done it ('Hermione stabbed it. Thought she should. She hasn't had the pleasure yet.') This is a small but deliberate allocation of an act of destruction to Hermione \u2013 her first direct Horcrux-killing.",
+      "film_portrayal": "Film: Hermione stabs the cup in the Chamber of Secrets, consistent with the book. This is faithfully adapted.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Actually faithful \u2013 no damage score. Including for completeness: this beat is correctly preserved."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Hermione and Ron kiss (Chamber of Secrets)",
+      "book_baseline": "Book: Hermione launches herself at Ron and kisses him after he thinks of the house-elves. The kiss is Hermione-initiated and emotionally uninhibited \u2013 she 'flung her arms around his neck and kissed him full on the mouth.' Harry has to interrupt them.",
+      "film_portrayal": "Film shows the kiss after destroying the cup, in the flooded Chamber. Both initiate simultaneously, the moment is more equal and lyrical. This is a reasonable adaptation choice. Hermione's agency in initiating is preserved.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film's version is slightly more romanticised and less Hermione-driven than the book's. Minor loss of the book's characterisation of Hermione as the active party in this moment. Very low damage."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Aberforth scene: Hermione's observations about Ariana",
+      "book_baseline": "Book: Hermione asks several pointed questions about Ariana \u2013 'Are you talking about your sister?' \u2013 and hears Aberforth's full account of what happened. She weeps openly. Her emotional engagement with Aberforth's story is foregrounded.",
+      "film_portrayal": "Film Hermione notices the painting and says 'That's Ariana, isn't it? Your sister. She's beautiful,' and later 'She died very young, didn't she.' These are gentle, correct, and empathetic. The book's more probing questions are somewhat softened into more passive observation. Hermione's line 'Mr. Dumbledore... thank you' at the end (for saving their lives twice) is a film-only addition that is faithful in spirit.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor compression of Hermione's active engagement with Aberforth's narrative."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Ron and Hermione pursue the snake: 'Don't say anything you wouldn't say if we weren't about to be killed'",
+      "book_baseline": "No exact equivalent in book \u2013 the chase of Nagini by Ron and Hermione with a basilisk fang is a film invention (the book has Harry pursue the snake differently at the Battle of Hogwarts). The film-only dialogue exchange ('I don't want you to say anything you wouldn't say if we weren't about to be killed by a giant snake \u2013 it'll just ruin it!') is an invented beat.",
+      "film_portrayal": "Film: Hermione and Ron chase Nagini; Hermione delivers the 'don't say anything' line, implying she knows Ron is about to declare his feelings but wants it to be genuine. It is a charming, character-consistent moment for film Hermione.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is an invented scene with no book baseline to damage against. It is actually consistent with Hermione's character. Including for completeness: no damage from this beat."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Hermione's farewell to Harry before he goes to the forest",
+      "book_baseline": "Book: Harry deliberately avoids saying goodbye to Ron and Hermione, specifically because 'the attempts they would make to stop him would waste valuable time.' He watches them from a distance and does not approach them. The final book image before Harry walks to his death is of Hermione and Ron not knowing what is about to happen.",
+      "film_portrayal": "Film: Harry approaches Ron and Hermione in a corridor. Hermione says 'I'll go with you \u2013 I'll \u2013' and falters. Harry touches her face, says 'Kill the snake \u2013 then it's just him.' She stands still, a tear on her cheek. Ron says 'Never!' to Voldemort's voice.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film gives Hermione a farewell scene that the book deliberately withholds from her. The book's choice is meaningful \u2013 Harry spares her the chance to interfere, and the reader shares Hermione's unknowing. The film's version is emotionally satisfying but softens the bleakness of the book's final image of their relationship at that moment. Moderate nuance loss."
+    },
+    {
+      "scene": "DH Part 2 \u2013 Elder Wand destruction at the end",
+      "book_baseline": "Book: Harry uses the Elder Wand to repair his own holly wand, then announces he intends to put it back in Dumbledore's tomb, reasoning that if he dies naturally the wand's power dies with him. Ron's voice contains 'the faintest trace of longing.' Hermione says 'I think Harry's right' quietly. Harry does not snap the wand.",
+      "film_portrayal": "Film: Harry snaps the Elder Wand and throws the pieces off the viaduct, watched by Ron (stunned) and Hermione (smiling). The book's careful logic \u2013 returning it to the tomb so its power dies with a natural death \u2013 is replaced by simple destruction. Hermione's 'Why didn't it work for him?' question drives a brief expository exchange.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Hermione's role here is minor \u2013 she smiles at Harry's choice and asks the expository question. The main loss is of Harry's nuanced reasoning (which Hermione endorses in the book). Hermione herself is not significantly mischaracterised, but she is reduced to a nodding bystander rather than an active endorser of the reasoning."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 681.5,
-  "adjusted_cids_v1": 749.7
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

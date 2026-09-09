@@ -1,153 +1,524 @@
 {
   "character": "Neville Longbottom",
-  "fp_score": 74.0,
-  "infidelity_score": 26.0,
-  "weighted_infidelity_exposure": 43.0,
-  "cids": 212.9,
-  "damage_per_exposure": 12.9,
+  "fp_score": 65.0,
+  "infidelity_score": 35.0,
+  "weighted_infidelity_exposure": 164.0,
+  "cids": 386.7,
+  "damage_per_exposure": 6.6,
   "structural_damage_level": 4,
-  "adjusted_cids": 212.9,
+  "adjusted_cids": 386.7,
   "main_damage_causes": [
-    "Removal of the St Mungo's scene (GoF) eliminates the emotional foundation of Neville's entire arc and severs the personal meaning of his confrontations with Bellatrix in OotP and DH",
-    "Systematic cutting of courage-building micro-arcs in PS/SS (Leg-Locker curse, 'worth twelve of Malfoy,' active participation in the third-floor adventure) reduces Neville to comic relief and makes his eventual heroism feel unearned",
-    "Consistent use of Neville as slapstick physical comedy (flying lesson, Mandrake fainting) at the expense of the books' portrayal of him as anxious but genuinely trying, flattening his characterisation across multiple films"
+    "Systematic removal of intermediate arc steps (Leg-Locker Curse scene, Quidditch stands confrontation) that make Neville's final act of bravery feel earned rather than arbitrary",
+    "Consistent reframing of Neville's genuine fear and vulnerability as extended slapstick comedy (particularly the flying lesson), which undermines the sympathetic register the book establishes and makes his later courage harder to credit",
+    "Reduction of the Harry\u2013Neville relationship to near-zero: Harry's investment in Neville's dignity ('You're worth twelve of Malfoy') is entirely absent, severing the emotional through-line that connects Harry's encouragement to Neville's climactic act and to Dumbledore's final speech",
+    "Systematic reduction of Neville to physical comedy and background reaction prop (fainting at Mandrake, pixie slapstick, train window gag), flattening his anxious-but-earnest book personality into buffoonery",
+    "Transfer of Snape's targeted humiliation from Neville to Ron/Harry in the Dueling Club, erasing the specific Snape\u2013Neville cruelty dynamic that is foundational to Neville's arc across the series"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film - Sorting Ceremony",
-      "book_baseline": "Neville falls over on his way to the stool, the Hat takes a long time to decide, and he runs off still wearing it amid gales of laughter \u2014 establishing him as clumsy, anxious, but genuinely placed in Gryffindor after deliberation.",
-      "film_portrayal": "Neville's sorting is entirely cut. His only moment is catching Trevor and apologising to McGonagall. The Hat's deliberation and the laughter beat are absent.",
+      "scene": "Film Scene 1 \u2014 Hermione asks about Neville's toad on the train",
+      "book_baseline": "In the book, Neville himself visits Harry and Ron's compartment twice, tearfully searching for Trevor. He is a present, pitiful, but distinct character: round-faced, miserably earnest, whose repeated appearances plant him in the reader's awareness before Hogwarts even begins.",
+      "film_portrayal": "Neville is entirely absent from the train scene. He is reduced to a name mentioned by Hermione ('A boy named Neville's lost one') with no physical presence, no dialogue, no emotional beat of his own. The audience has no encounter with him before arrival at Hogwarts.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's sorting beat establishes Neville's clumsiness and anxiety while also showing the Hat genuinely chose him \u2014 important groundwork for his arc. Its absence removes early characterisation."
+      "explanation": "The book uses the train to establish Neville as a specific, sympathetic presence \u2014 clumsy, tearful, earnest \u2014 before the school year begins. Removing his physical appearance strips the early characterisation that makes his later arc (standing up to Malfoy, earning the final House Cup points) feel earned. The audience's relationship with Neville starts later and shallower."
     },
     {
-      "scene": "PS/SS Film - Flying lesson / Remembrall incident",
-      "book_baseline": "Malfoy snatches the Remembrall from Neville at breakfast; Neville reports it to McGonagall; during the flying lesson Neville's broom rises before the whistle and he falls, breaking his wrist. Harry then chases Malfoy to recover the Remembrall.",
-      "film_portrayal": "The breakfast theft is cut entirely. During the flying lesson Neville's broom goes haywire in a slapstick extended sequence \u2014 he flies into a wall, hangs from a torch bracket, and falls. Malfoy picks up the Remembrall from the ground after Neville falls. The incident becomes pure physical comedy rather than Malfoy's deliberate bullying of a vulnerable boy.",
+      "scene": "Film Scene 2 \u2014 Sorting ceremony / Neville's toad recovery",
+      "book_baseline": "The book establishes that Neville fell over on his way to the stool and that the Hat took a long time to decide, then he ran off still wearing it \u2014 layering comic mishap with an implicit note that his Sorting was not straightforward, hinting at his uncertain belonging in Gryffindor.",
+      "film_portrayal": "The film shows Neville spotting Trevor near McGonagall, jumping forward, catching the toad, and backing away embarrassed. His actual Sorting is not shown or mentioned in the corpus; the Hat's long deliberation over him is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Hat's hesitation over Neville is a quiet but meaningful piece of characterisation \u2014 he belongs in Gryffindor but does not obviously look like it. Replacing this with a purely comic toad-recovery gag reduces him to slapstick relief and removes the thematic seed that pays off when Dumbledore awards him the decisive House Cup points for bravery."
+    },
+    {
+      "scene": "Film Scene 4 \u2014 Neville on the moving staircase",
+      "book_baseline": "The book has Neville needing a leg-up to get through the portrait hole, Peeves dropping walking sticks on his head, and generally being physically hapless in ways that are specific and humanising rather than purely comedic.",
+      "film_portrayal": "Neville's one moment on the staircase is a single wide-eyed line \u2014 'Seamus, that picture's moving!' \u2014 played as childlike wonder. It is a trivially small appearance with no characterisation beyond generic first-year amazement.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but part of a consistent pattern in the film of reducing Neville to brief reactive moments rather than giving him specific, character-defining beats. Confidence is low on impact for this entry alone."
+    },
+    {
+      "scene": "Film Scene 5 \u2014 Flying lesson / Neville's out-of-control flight",
+      "book_baseline": "In the book, Neville rises twelve to twenty feet, looks down in terror, slips sideways off the broom, and falls, breaking his wrist. It is frightening and pathetic in equal measure \u2014 his fear is real, his injury real, and Malfoy's mockery immediate. The Remembrall falls from him after he has been taken away.",
+      "film_portrayal": "The film exaggerates the scene into extended physical comedy: Neville zooms uncontrollably around the grounds, hits a wall, clangs along it, nearly impales himself on a statue's spear, his cloak catches, he hangs, then falls. It is a prolonged slapstick set-piece lasting considerably longer than the book scene.",
       "damage_type": "personality/voice",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The book uses the Remembrall theft to show Neville as a target of calculated cruelty and Harry's protectiveness of him. The film replaces this with broad slapstick, reducing Neville to comic relief and softening the bullying dynamic."
+      "explanation": "The book's Neville is genuinely scared and genuinely hurt \u2014 his distress is played straight, not for laughs. The film's cartoonish extended flight sequence reframes him as pure comic relief, undermining the sympathetic vulnerability the book establishes. This tonal shift makes it harder for the audience to take his later acts of courage seriously because he has been coded as a buffoon rather than a frightened but real child."
     },
     {
-      "scene": "PS/SS Film - Leg-Locker Curse / 'You're worth twelve of Malfoy'",
-      "book_baseline": "Malfoy uses the Leg-Locker Curse on Neville outside the library. Neville hobbles into the common room. Harry gives him a Chocolate Frog and tells him 'You're worth twelve of Malfoy.' Neville then stands up to Malfoy at the Quidditch match, telling him 'I'm worth twelve of you.' This is a small but complete arc of courage-building.",
-      "film_portrayal": "This entire sequence is absent from the film.",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This is the first micro-arc of Neville's courage development. Harry's encouragement directly produces Neville's public stand against Malfoy. Cutting it removes the earliest evidence that Neville can grow, and severs a meaningful Harry\u2013Neville bond that foreshadows the finale."
+      "scene": "Film Scene 5 \u2014 Remembrall incident (flying lesson aftermath)",
+      "book_baseline": "In the book, Harry's decision to fly after Malfoy is explicitly motivated by Neville's suffering and his protectiveness of Neville's property. The book notes Malfoy 'darting forward and snatching something out of the grass' after Neville has been hurt, and Harry's anger is on Neville's behalf.",
+      "film_portrayal": "The film preserves the Remembrall confrontation but Neville's role in motivating Harry's protective instinct is compressed. Neville is merely a passive victim whose object is used as a plot device to get Harry onto a broomstick. The emotional connection \u2014 Harry standing up for the bullied, vulnerable Neville \u2014 is present but weakened by Neville having been played as comic spectacle moments before.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this moment to establish an early Harry\u2013Neville solidarity: Harry acts out of genuine indignation at Malfoy's cruelty to someone weaker. The film's prior cartoonification of Neville dilutes this emotional beat; Harry's flight reads more as personal bravado against Malfoy than as defence of a friend."
     },
     {
-      "scene": "PS/SS Film - Night-time adventure / trophy room chase",
-      "book_baseline": "Neville joins Harry, Ron, and Hermione on the night-time adventure, panics and causes a suit of armour to crash, and is present for the discovery of Fluffy. He is an active (if frightened) participant.",
-      "film_portrayal": "Neville is not part of the group that goes to the third floor. He appears only briefly outside the common room and is Petrified by Hermione so the trio can leave. He plays no role in the Fluffy discovery.",
+      "scene": "Film Scene 3 \u2014 Halloween / troll announcement",
+      "book_baseline": "The book corpus (Scene 107) references Neville sobbing into Hagrid's jacket during the Quidditch match, and Scene 95 shows his terror after the third-floor corridor encounter. His emotional responses are consistently rendered as genuine distress, not background texture.",
+      "film_portrayal": "In Film Scene 7, Neville provides the exposition that Hermione is in the bathroom crying ('Parvati Patil said she wouldn't come out of the girls' bathroom'). This is his only dialogue beat in the Halloween sequence. He functions purely as an information-delivery device with no emotional reality of his own during what is a dramatically significant evening.",
       "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "In the book Neville's presence in the adventure \u2014 and his terror \u2014 is part of his characterisation as someone who tries despite fear. The film reduces him to an obstacle the heroes must neutralise, which is actively contrary to his arc."
-    },
-    {
-      "scene": "PS/SS Film - End-of-year feast / ten points",
-      "book_baseline": "Dumbledore awards Neville ten points for 'standing up to his friends,' which wins Gryffindor the House Cup. Neville is described as white with shock and disappearing under a pile of people hugging him. He had never won so much as a point before.",
-      "film_portrayal": "The scene is present and the ten points are awarded, but the emotional weight of Neville never having won a point before is absent because the film has not built his arc of failure and self-doubt across the year.",
-      "damage_type": "arc",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The payoff exists but lands with reduced force because the preceding arc beats (Leg-Locker, 'worth twelve of Malfoy,' active participation in the adventure) were cut. The moment is present but hollowed."
-    },
-    {
-      "scene": "CoS Film - Mandrake lesson fainting",
-      "book_baseline": "Neville is one of many students in the Mandrake lesson; his clumsiness is incidental.",
-      "film_portrayal": "Neville faints dramatically when Professor Sprout pulls the Mandrake, and is left lying on the ground while the class continues. Played for laughs.",
-      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor but consistent pattern of using Neville as a sight gag. The book does not have him faint here."
+      "explanation": "Small but indicative: Neville is consistently used in the film as a functional extra who delivers lines needed by the plot rather than as a character with his own stake in events. His repeated reduction to this role accumulates into a pattern of lost presence."
     },
     {
-      "scene": "CoS Film - Duelling Club",
-      "book_baseline": "Snape says Longbottom 'causes devastation with the simplest spells' and pairs him with Justin Finch-Fletchley. Both end up on the floor after their duel. Neville's face goes pink at Snape's public humiliation.",
-      "film_portrayal": "Snape's line is redirected: he says Weasley's broken wand would send Potter to the hospital wing, and pairs Harry with Malfoy instead. Neville is not singled out at the Duelling Club at all.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "A small loss, but the book's version reinforces Snape's specific targeting of Neville as a pattern of cruelty, which matters for the Boggart lesson payoff."
-    },
-    {
-      "scene": "PoA Film - Boggart lesson",
-      "book_baseline": "Neville leads the class against the Boggart, his fear of Snape is revealed, he successfully casts Riddikulus twice, earns ten points, and the class erupts in applause. Lupin's choice to give Neville the lead is a deliberate act of mentorship that visibly transforms him.",
-      "film_portrayal": "The scene is present and largely faithful. Neville succeeds. However, the film compresses Lupin's whispered instruction and Neville's visible terror before acting, and cuts the explicit ten-points award to Neville.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Mostly faithful; minor compression reduces the explicit reward beat but the core characterisation survives."
-    },
-    {
-      "scene": "PoA Film - Password list / Sirius Black break-in",
-      "book_baseline": "Neville writes down the passwords and loses the list, enabling Sirius Black's entry. He is publicly shamed by McGonagall, receives a Howler from his grandmother, and is banned from Hogsmeade. The book shows his genuine remorse and the social cost he pays.",
-      "film_portrayal": "The scene is present: Neville admits to writing down the passwords. However, the Howler from his grandmother and the extended social ostracism are absent, reducing the consequence and emotional weight.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses this incident to show Neville's relationship with his formidable grandmother and the real cost of his forgetfulness. The film keeps the confession but strips the aftermath, losing characterisation of both Neville and Augusta Longbottom."
-    },
-    {
-      "scene": "GoF Film - Moody's DADA class / Cruciatus Curse demonstration",
-      "book_baseline": "Neville raises his hand to name the Cruciatus Curse. Moody recognises his name and stares at him. Neville watches the spider being tortured with white-knuckled horror \u2014 his parents were tortured by this curse. Moody takes him for tea and lends him a Herbology book, telling him Professor Sprout praised his talent. Neville is found afterwards staring at the wall, clearly traumatised.",
-      "film_portrayal": "Neville names the Cruciatus Curse and is visibly distressed during the demonstration. Hermione notices. The aftermath \u2014 Moody taking Neville aside, the Herbology book, the tactful mention of Sprout's praise \u2014 is cut entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's aftermath is crucial: it shows Neville's trauma has a specific cause (his parents), that Moody/Crouch Jr. is aware of this and manipulates it, and that Neville rarely hears he is good at anything. Cutting it removes depth from both Neville's psychology and the Crouch Jr. subplot."
-    },
-    {
-      "scene": "GoF Film - Yule Ball / Neville asks Hermione",
-      "book_baseline": "Neville asks Hermione to the ball; she declines because she already has a partner. He then asks Ginny, who accepts. Ron's reaction ('who would?') is a moment of casual cruelty that the narrative does not endorse.",
-      "film_portrayal": "Neville and Ginny attend the ball together and Neville is shown dancing (badly, treading on Ginny's feet). The fact that he asked Hermione first and was turned down is absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss. The book beat shows Neville's social courage in asking; the film skips to the result."
-    },
-    {
-      "scene": "GoF Film - St Mungo's / Neville's parents",
-      "book_baseline": "Harry, Ron, Hermione, and Ginny encounter Neville visiting his parents at St Mungo's. Neville is mortified. His mother gives him a Drooble's wrapper; he quietly pockets it. Mrs Longbottom publicly shames him for not telling his friends. The scene is devastating and intimate.",
-      "film_portrayal": "This scene does not appear in the GoF film. The revelation of Neville's parents' fate is delivered instead via Sirius showing Harry the Order of the Phoenix photograph at King's Cross, naming Frank and Alice Longbottom as having 'suffered a fate worse than death.' Neville is not present.",
-      "damage_type": "arc",
-      "exposure": 3,
+      "scene": "Film Scene 8 \u2014 Quidditch match (Neville cheering in the stands)",
+      "book_baseline": "The book (Scenes 124\u2013129) gives Neville a substantive arc during the second Quidditch match: Malfoy insults him ('you've got no brains'), Neville responds with 'I'm worth twelve of you, Malfoy' \u2014 directly echoing Harry's earlier words of encouragement to him \u2014 and then physically joins the brawl against Crabbe and Goyle, ending up unconscious but having fought back. This is a clear moment of Neville's growing courage.",
+      "film_portrayal": "In Film Scene 8, Neville appears briefly in the stands with a single cheer ('Gryffindor!'). The confrontation with Malfoy, his comeback line, and his physical fight with Crabbe and Goyle are entirely absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 2,
       "impact_weight": 4,
-      "explanation": "The St Mungo's scene is the emotional core of Neville's entire arc. It explains his fear of Bellatrix, his motivation in the Department of Mysteries and the Battle of Hogwarts, and his complex relationship with his grandmother. Replacing it with a secondhand mention by Sirius \u2014 with Neville absent \u2014 strips him of agency in his own backstory and removes the most humanising scene he has in the entire series."
+      "explanation": "This is one of the most damaging omissions. The book's Quidditch stands scene is the first time Neville actively stands up to Malfoy unprompted, using courage Harry helped instil in him. It is a direct payoff of the 'You're worth twelve of Malfoy' scene and a meaningful step in his arc toward the climactic act of bravery. Its removal means Neville's courage at the end of the film \u2014 earning the House Cup points \u2014 lacks intermediate steps that make it feel earned and progressive."
     },
     {
-      "scene": "OotP Film - Department of Mysteries battle",
-      "book_baseline": "Neville fights throughout with a broken nose, carries Hermione, refuses to give the prophecy to Dolohov ('Whaddever you do, Harry, don'd gib it to him!'), jabs Hermione's wand into a Death Eater's eyehole to save Harry from choking, and is Cruciated by Bellatrix. His confrontation with Bellatrix \u2014 whose name he knows \u2014 is charged with personal meaning.",
-      "film_portrayal": "Neville is present and fights. However, the broken-nose dialogue, the extended sequence of him carrying Hermione, and the specific moment of him saving Harry by jabbing the eyehole are compressed or absent. His recognition of Bellatrix and its personal significance is not conveyed because the St Mungo's scene was cut.",
+      "scene": "Film Scene 7 / contextual \u2014 Leg-Locker Curse incident (absent from film corpus)",
+      "book_baseline": "Book Scenes 110\u2013118 show Neville arriving in the common room with his legs stuck together by Malfoy's Leg-Locker Curse. He refuses to report it, says Malfoy has already told him he's not brave enough for Gryffindor, and Harry gives him a Chocolate Frog and tells him 'You're worth twelve of Malfoy.' This scene establishes Neville's self-doubt, Malfoy's ongoing cruelty toward him, and Harry's genuine investment in Neville's dignity.",
+      "film_portrayal": "No equivalent scene appears anywhere in the film corpus. The Leg-Locker Curse incident, Harry's encouragement, and Neville's expression of his own self-doubt are entirely absent.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This scene is foundational to the Harry\u2013Neville relationship and to Neville's arc. Harry's 'You're worth twelve of Malfoy' line is the emotional seed that Neville recalls and acts on when he stands up to his friends at the climax. Without it, Dumbledore's final speech about standing up to friends \u2014 and Neville earning the decisive points \u2014 loses its emotional through-line. The relationship between Harry and Neville is reduced to near-strangers sharing a dormitory rather than two boys with a genuine bond."
+    },
+    {
+      "scene": "Film Scene 9 \u2014 Neville blocks the portrait hole",
+      "book_baseline": "Book Scenes 169\u2013185 show Neville confronting Harry, Ron, and Hermione at the portrait hole, refusing to let them leave, raising his fists ('Go on then, try and hit me!'), and being Petrified by Hermione. The scene is played seriously: Neville is genuinely brave, genuinely principled, and the trio genuinely feel bad. The book explicitly notes: 'Poor, blundering Neville \u2014 Harry knew what it must have cost him.'",
+      "film_portrayal": "Film Scene 9 includes this beat: Neville says 'I'll fight you,' Hermione casts Petrificus Totalus, and Ron calls him 'a little scary sometimes.' The core action is present, but the emotional weight is compressed. Ron's line ('It's for your own good, y'know') and the quick pacing reduce what the book treats as a genuinely costly moral moment into a brief obstacle.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film preserves the mechanics of the scene but loses the emotional texture. The book underlines the cost to Neville of this act of defiance given his established self-doubt and fear. Without the Leg-Locker Curse scene and Harry's encouragement as backstory, the film's Neville has less established courage to draw on, making this moment less resonant. It reads as a minor comic obstacle rather than a character-defining act of principle."
+    },
+    {
+      "scene": "Film Scene 10 \u2014 End-of-year feast / Neville awarded House Cup points",
+      "book_baseline": "Book Scene 187 describes Neville going 'white with shock' and disappearing 'under a pile of people hugging him,' having never won so much as a point for Gryffindor before. The release is enormous precisely because the book has tracked his accumulating self-doubt and small acts of growing courage across the year.",
+      "film_portrayal": "Film Scene 10 includes Dumbledore's speech and the award of 10 points to Neville, and Neville's visible disbelief is noted in the stage directions. The scene is present and reasonably faithful in its mechanics.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The scene itself is not unfaithful, but it lands with reduced impact because the film has systematically stripped the intermediate arc material \u2014 the Leg-Locker Curse humiliation, Harry's encouragement, the Quidditch stands confrontation with Malfoy \u2014 that gives this payoff its full emotional weight. The audience has not been given enough of Neville's struggle to feel the full catharsis. This is structural damage to his arc, even though the scene itself is present."
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Pixie classroom, Neville 'pale' and drawing back",
+      "book_baseline": "Book Scene 25: Neville was 'cowering in his front row seat' before the cage is opened, and Book Scene 28: two pixies seize Neville by the ears and lift him into the air, and he ends up swinging from the chandelier. His fear is physical slapstick but also part of a pattern of accident-proneness established in Book Scene 8 ('round-faced and accident-prone'). Crucially, in Book Scene 31, Neville falls when the chandelier gives way \u2014 he is a passive victim of chaotic circumstance.",
+      "film_portrayal": "Film Scene 2: Neville is described only as 'a pale Neville draws back' before the cage opens, and two pixies seize him by the ears and lift him. He is then deposited on Lockhart's desk after Hermione's Immobilus spell. He delivers the line 'Why is it always me?' The physical comedy beat is retained but the chandelier moment and the extended helplessness in the book are compressed. More importantly, the film gives Neville the wry self-aware line 'Why is it always me?' \u2014 a quip that reads as mild comic self-awareness rather than genuine distress, slightly softening the accident-prone victim characterisation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "'Why is it always me?' adds a small degree of self-aware humour that the book does not give Neville here; the books present him as genuinely distressed and helpless rather than wryly commenting on his own misfortune. The damage is minor and isolated \u2014 the physical victimhood is still present \u2014 but the line nudges his voice very slightly away from the book's more earnest, anxious characterisation."
+    },
+    {
+      "scene": "Film Scene 1 (Greenhouse Three, Scene 40) \u2013 Neville faints at the Mandrake",
+      "book_baseline": "The book corpus does not contain the Mandrake re-potting scene; however, Book Scene 8 establishes Neville as 'round-faced and accident-prone' with 'the worst memory of anyone Harry had ever met.' The book's Neville is defined by genuine anxiety, forgetfulness, and lack of confidence \u2014 not by spectacular physical comedy fainting. Book Scene 17 shows Neville giving Ron timid but genuinely helpful advice about the Howler, demonstrating he has real-world experience and is not merely a comic prop.",
+      "film_portrayal": "Film Scene 1 (Scene 40): Neville's eyes roll back and he faints at the sight of the Mandrake baby being pulled from the soil. Professor Sprout assumes he 'neglected his muffs'; Seamus clarifies he simply fainted. He is then left lying on the ground while the class continues around him.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The fainting gag reduces Neville to pure physical comedy. While the books establish him as anxious and accident-prone, they do not reduce him to unconsciousness as a recurring punchline. Being left on the ground without further comment positions him as a background comic prop rather than a character with interiority. This reinforces a film-wide pattern of using Neville for easy laughs, flattening his anxious-but-earnest personality into pure buffoonery."
+    },
+    {
+      "scene": "Film Scene 2 (Dueling Club, Scene 70) \u2013 Snape's insult redirected from Neville to Ron/Weasley",
+      "book_baseline": "Book Scene 52: Snape says specifically 'Longbottom causes devastation with the simplest spells. We'll be sending what's left of Finch-Fletchley up to the hospital wing in a matchbox.' This is a targeted, cruel humiliation of Neville by name, and 'Neville's round, pink face went pinker.' Snape singles Neville out as uniquely incompetent. The book also pairs Neville with Justin Finch-Fletchley, and Book Scene 49 confirms 'Both Neville and Justin were lying on the floor, panting' after the duel \u2014 Neville does duel and does cause damage.",
+      "film_portrayal": "Film Scene 2 (Scene 70): Snape redirects the insult to Ron: 'Weasley's wand causes devastation with the simplest spells. We'll be sending Potter to the hospital wing in a matchbox.' Neville is not singled out or humiliated by Snape at all in this scene. The Neville/Justin pairing from the book is absent; the film pairs Harry with Malfoy directly.",
       "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Snape's public humiliation of Neville ('Neville's round, pink face went pinker') is a defining moment in their relationship \u2014 it establishes the cruelty of Snape's treatment of Neville that culminates in later books (Neville naming Snape as his Boggart in PoA). Transferring this cruelty entirely to Ron and Harry erases a key beat in the Snape\u2013Neville dynamic. Neville also loses his function as the dueling-club participant who causes accidental damage, further reducing him to a spectator. The relationship damage between Snape and Neville, established here, is lost."
+    },
+    {
+      "scene": "Film Scene 1 (Scene 34, flying car) \u2013 Neville glimpsed in train window",
+      "book_baseline": "The book corpus does not depict Neville seeing Harry and Ron in the flying car. Book Scene 2 establishes Neville simply arriving at the dormitory with the other second-year Gryffindor boys, and Book Scene 5 shows him reacting with 'Amazing' and awe to Harry's story. Neville's reaction to events is characterised by genuine wonder and anxiety, not as a background reaction-shot.",
+      "film_portrayal": "Film Scene 1 (Scene 34): As the car nearly collides with the Hogwarts Express, Harry glimpses 'NEVILLE and SEAMUS, mouths open in astonishment' through a train window. Neville is used purely as a visual reaction-shot gag \u2014 open-mouthed astonishment from a passing window.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a brief moment and the damage is minor, but it is emblematic of the film's pattern of using Neville as a background comic reaction prop. He has no interiority here; he exists to register surprise for the audience. Low damage in isolation but contributes to the cumulative pattern."
+    },
+    {
+      "scene": "Film Scene 3 / Scene 90 \u2013 Neville asking to borrow a tubeworm; reduced to single throwaway line",
+      "book_baseline": "Book Scene 40 establishes that Neville, fearing he might be attacked, buys protective talismans before the other Gryffindor boys point out he is pure-blood and therefore unlikely to be targeted. Book Scene 41 shows Neville's genuine fearful reasoning: 'They went for Filch first. And everyone knows I'm almost a Squib.' This gives Neville real internal anxiety, self-doubt, and a specific fear about his own magical identity \u2014 calling himself 'almost a Squib' is a significant admission of self-perception.",
+      "film_portrayal": "Film Scene 3 (Scene 90): Harry mentions, almost as an aside, 'Neville asked to borrow a tubeworm in Potions yesterday. I suppose that's something' \u2014 presented as a small sign that someone is still speaking to Harry, not as any characterisation of Neville himself.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film entirely omits Neville's talisman-buying behaviour and his self-identification as 'almost a Squib.' These book moments give Neville genuine psychological depth \u2014 his fear of inadequacy, his awareness of being on the margins of the magical world, and his vulnerability despite being pure-blood. The film reduces him to a name-drop. The loss of 'almost a Squib' is particularly damaging as it foreshadows Neville's arc of proving himself."
+    },
+    {
+      "scene": "Film Scene 2 / Scene 71 \u2013 Neville's fearful reaction to Harry's Parseltongue, treated as background crowd beat",
+      "book_baseline": "Book Scene 49 (dueling club aftermath equivalent): In the film corpus Scene 71, 'Seamus, Neville, and Dean Thomas walk by without a word' after the Parseltongue incident. The book establishes Neville buying protective talismans and expressing fear about the attacks (Book Scene 40\u201341), showing he has a specific, reasoned relationship to danger. His fear of Harry post-Parseltongue would reflect his already-established anxiety about being 'almost a Squib' and on the margins.",
+      "film_portrayal": "Film Scene 2 (Scene 71): 'Seamus and Neville's eyes glitter with fear' at the Dueling Club when Harry speaks Parseltongue. Then in Scene 71 (Common Room), Neville walks by 'without a word.' He is part of an undifferentiated fearful crowd.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Neville's fear of Harry is treated as identical to the general student body's fear. The book's Neville has a more textured relationship with danger and fear of magical inadequacy. Collapsing him into the fearful crowd misses the opportunity to distinguish his specific anxiety. Damage is minor as the corpus for the book side is also limited here."
+    },
+    {
+      "scene": "Film Scene 3 / Scene 102 \u2013 Neville alerts Harry to dormitory break-in",
+      "book_baseline": "Book Scenes 58\u201362: Neville is 'looking frantic' and says 'Harry \u2014 I don't know who did it \u2014 I just found \u2014'. He watches Harry fearfully, and then helps Harry pull the blankets back onto the bed. He is the first to discover and report the violation of Harry's space, showing loyalty and active concern despite his anxiety.",
+      "film_portrayal": "Film Scene 3 (Scene 102): Neville runs up to Harry and the trio outdoors and says 'Harry, I don't know who did it, but... you'd better come.' He then leads them to the dormitory. This is largely faithful to the book beat.",
+      "damage_type": "personality/voice",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "This scene is substantially faithful. Neville's function as the one who discovers and reports the break-in is preserved. No meaningful damage here \u2014 scored at 0 exposure and retained only for completeness of analysis. Not counted as a damaging entry."
+    },
+    {
+      "scene": "Film Scene 3 / Scene 108 \u2013 Neville's Common Room speech after Hermione's Petrification",
+      "book_baseline": "Book Scene 64\u201365: Harry quietly decides to act, keeping his voice low so as not to wake Neville. Book Scene 66: 'ignoring Neville's snuffling snores from the corner.' Neville is asleep and unaware during the key planning scene. He is not given any active voice in response to the crisis in the book corpus provided.",
+      "film_portrayal": "Film Scene 3 (Scene 108): Neville speaks up in the Common Room after McGonagall's announcement: 'Haven't any of the teachers noticed that the Slytherins are all safe? Isn't it obvious all this stuff's coming from Slytherin? The Heir of Slytherin, the monster of Slytherin \u2014 why don't they just chuck all the Slytherins out?' He delivers this as a pointed, rhetorically confident speech.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is an interesting reversal: the film gives Neville an assertive, rhetorically confident public speech that has no basis in the book corpus (where he is literally asleep during the relevant scene). While adding lines is not inherently damaging, this speech presents a Neville who is more politically vocal and confident than the book establishes. The book's Neville in CoS is anxious, timid, and peripheral to crisis planning. This film moment slightly overcorrects toward a more active Neville, creating a mild inconsistency with his established characterisation \u2014 though the damage is limited because the speech is not at the expense of another character and does not alter a key relationship."
+    },
+    {
+      "scene": "PoA Film - Boggart lesson: Lupin whispers instructions to Neville privately",
+      "book_baseline": "In the book, Lupin publicly walks Neville through the plan step by step \u2014 asking him to describe his grandmother's clothes aloud, building the strategy transparently in front of the class. Neville's uncertainty and growing resolve are visible to everyone, and his eventual success is earned through a clearly narrated arc of fear-to-triumph.",
+      "film_portrayal": "Lupin leans in and whispers the instructions to Neville privately ('We don't need to hear it. If you see it, we will'), so the audience loses the explicit articulation of Neville's fear, his description of his grandmother's clothes, and the collaborative public preparation that makes his triumph legible and emotionally meaningful.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The whispering robs the audience of the book's careful staging: Neville's specific, personal fear (Snape dressed in his grandmother's clothes) is explained and contextualised aloud, which both humanises Neville and sets up the comedy with full emotional grounding. In the film the joke lands visually but Neville's interior state and the logic of his chosen counter-image are never shared with the audience, flattening his characterisation at what is meant to be his defining early scene."
+    },
+    {
+      "scene": "PoA Film - Boggart lesson: Neville's second charge and final destruction of the Boggart",
+      "book_baseline": "The book has Neville charge forward a second time after the boggart lands as a cockroach and snaps back to Snape, showing escalating courage and agency. Lupin explicitly calls 'Forward, Neville, and finish him off!' and Neville's great laugh destroys the boggart entirely. Lupin then awards ten points to Neville because 'he did it twice'. This double success underlines Neville's active heroism.",
+      "film_portrayal": "After Neville's initial success the lesson immediately moves on to Ron; Neville does not charge a second time and does not personally destroy the boggart. Lupin moves the class along and the boggart is eventually banished back into the wardrobe by Lupin himself after Harry's confrontation. Neville's role ends after his first successful cast.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The second charge is not a minor embellishment \u2014 it is the moment Neville goes from a frightened boy who got lucky to a student who actively chooses to press forward and finish the job. Removing it also removes Lupin's pointed award of ten points specifically because Neville did it twice, a public validation that matters to his arc. The film version leaves Neville with a single reactive success rather than a demonstrated act of courage, materially diminishing the scene's function as the first evidence of the bravery he will eventually display in later books."
+    },
+    {
+      "scene": "PoA Film - Sir Cadogan/password scene on the Seventh Floor landing",
+      "book_baseline": "The book presents Neville as genuinely distressed and sympathetic: he is 'tearfully' pleading with Sir Cadogan, explains miserably that he wrote the passwords down and lost the parchment, and Harry and Ron's arrival rescues him. His forgetfulness is played as a humanising flaw tied to anxiety, not as comic incompetence. Crucially, the book also shows him later trembling before McGonagall and being publicly shamed, which is proportionate to the gravity of what happened.",
+      "film_portrayal": "The film (theatrical cut) presents Neville holding up a 'wrinkled piece of parchment' and announcing 'I've taken to keeping a list' in a tone that plays more as comedy of incompetence. The subsequent password-loss scene (the 'pyjama gathering' with McGonagall confronting Neville) is listed as a cut scene and therefore absent from the theatrical film entirely, meaning the emotional weight \u2014 Neville's shame, the Howler, McGonagall's punishment \u2014 is entirely absent.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "Because the St Mungo's scene was cut, Neville's confrontation with Bellatrix has no emotional resonance. The film shows him fighting bravely but the audience cannot understand why Bellatrix is specifically significant to him, gutting the scene's meaning."
+      "explanation": "The book uses the password incident to do real character work: Neville's distress, his public humiliation before McGonagall, the Howler from his grandmother, and the punishment of having to wait outside the tower all reinforce how seriously his anxiety and forgetfulness cost him socially and emotionally. The film reduces the setup to a brief comedy beat and loses the consequence entirely (cut scene). Without the consequence, Neville reads as a one-note bumbler rather than a boy whose real inadequacies carry real weight."
     },
     {
-      "scene": "DH2 Film - Neville's speech / Nagini / Sorting Hat",
-      "book_baseline": "Neville steps forward, defies Voldemort, is set on fire inside the Sorting Hat, breaks free of the Body-Bind, draws the sword of Gryffindor from the Hat, and decapitates Nagini \u2014 the last Horcrux \u2014 in a single fluid moment. He had been entrusted by Harry with the task of killing the snake. The moment is the culmination of his entire arc.",
-      "film_portrayal": "Neville gives a speech to the assembled survivors, spits at Voldemort, draws the sword, and later decapitates Nagini. The sequence is present and heroic. However, the specific prior scene of Harry privately asking Neville to kill the snake (trusting him as a backup in case Ron and Hermione cannot) is absent, so Neville acts on his own initiative rather than fulfilling a trust placed in him by Harry.",
+      "scene": "PoA Film - Snape's Potions class / boggart aftermath: Snape bullying Neville is absent",
+      "book_baseline": "The book explicitly describes Snape being 'in a particularly vindictive mood' after the boggart incident and 'bullying Neville worse than ever' as a direct consequence. This is a significant beat in Neville's ongoing arc: Snape's cruelty toward him is escalated as punishment for Neville's public humiliation of him, showing the institutional cost of Neville's moment of triumph.",
+      "film_portrayal": "No Potions scene following the boggart lesson appears in the film corpus. The consequences of Neville's boggart success for his relationship with Snape are entirely absent from the film.",
       "damage_type": "relationship",
       "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's post-boggart Potions material closes a narrative loop: Neville's triumph has a price, and Snape makes him pay it. This is essential to understanding Neville's world \u2014 courage is punished by those with institutional power over him. Losing it means the film never shows the Snape/Neville dynamic deepening into genuine antagonism, which is foundational to why Snape appears as Neville's boggart in the first place and why that choice carries such resonance."
+    },
+    {
+      "scene": "PoA Film - Divination classroom: Neville's teacup breaking and Trelawney's ominous prediction",
+      "book_baseline": "The book gives Neville two broken cups, a sustained sequence of Trelawney hovering over him with mounting dread ('My dear boy... my poor, dear boy... no, it is kinder not to say'), and a final warning that he'll be late next time. It is a running comic-but-unsettling thread that characterises both Trelawney's cruelty and Neville's haplessness under pressure.",
+      "film_portrayal": "The film compresses this to a single beat: Trelawney predicts the broken cup before it happens ('Mr. Longbottom, after you've broken your first cup...') and it occurs once. The second breakage, Trelawney's ominous emotional collapse over Neville, and her parting warning are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but the repeated-breaking gag combined with Trelawney's overwrought reaction ('it is kinder not to say') is a small but characteristic illustration of how the wizarding world's superstitions pile onto Neville specifically. The film's single compressed beat is still functional but loses the cumulative, slightly cruel texture of the original."
+    },
+    {
+      "scene": "PoA Film - Hogwarts Express / dementor encounter: Neville's reaction after Harry faints",
+      "book_baseline": "After Harry recovers, the book gives Neville a direct spoken line: 'It was horrible. Did YOU feel how cold it got when it came in?' delivered 'in a higher voice than usual.' Neville also looks 'very pale' alongside Ginny. He is an active participant in the group's shared trauma and verbalises his experience.",
+      "film_portrayal": "Neville is seen briefly in the train scenes (he bumps into Harry and company in the corridor at the start) but the dementor compartment scene in the film corpus does not include Neville's spoken reaction or his pale appearance afterward. His presence in the compartment is not established in the film corpus material.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Neville's spoken reaction on the train is a small but humanising moment \u2014 he is visibly shaken and articulates it, putting him alongside Harry as someone particularly affected. Its absence is minor but consistent with the film's general trend of reducing Neville to a background presence except in his designated showcase scene (the boggart)."
+    },
+    {
+      "scene": "PoA Film - Hogsmeade weekend / Neville's interaction with Harry near the secret passage",
+      "book_baseline": "The book has a sustained, characterful scene where Neville encounters Harry near the one-eyed witch statue, innocently threatens to attach himself to Harry (offering Exploding Snap, offering to come to the library), and forces Harry to spin several lies to shake him off. Neville's eager, slightly oblivious friendliness and his anxiety about Snape are both on display. The encounter also shows Neville's fear response when Snape appears ('Neville took a quick step behind Harry').",
+      "film_portrayal": "This scene does not appear in the film corpus. The Hogsmeade sequence visible in the film corpus (Honeyduke's, invisible Harry with the lollipop) briefly shows Neville in Honeyduke's but only as a background figure whose lollipop floats away \u2014 he has no dialogue and no meaningful presence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film's version is heroic but removes the Harry\u2013Neville bond of trust that makes the book moment so resonant. In the book Harry specifically chooses Neville as his backup; in the film Neville simply acts. The relationship dimension is lost."
+      "explanation": "The book's Hogsmeade encounter is one of the richer small-scale Neville moments in the novel: his warmth toward Harry, his obliviousness, his anxiety about Snape, and the comedy of Harry having to dodge him all paint a multidimensional portrait. Reducing him to a background sight gag (floating lollipop) in the same sequence loses that texture entirely and reinforces a pattern of the film using Neville for visual comedy rather than character."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Defense Against the Dark Arts lesson (Unforgivable Curses)",
+      "book_baseline": "In the book, Neville voluntarily raises his hand to name the Cruciatus Curse\u2014surprising even himself ('Neville looked surprised at his own daring'). He names it in 'a small but distinct voice.' He then watches the demonstration with clenched, white-knuckled hands and wide, horrified eyes, his reaction clearly tied to personal trauma. Hermione notices and points it out to Harry. The scene establishes Neville's hidden depth and the weight of his family tragedy.",
+      "film_portrayal": "In the film, Moody makes the spider fly 'first at Neville,' using him as an object of comedy and fear before the Cruciatus is even discussed. Neville is frightened by the spider in a broad, physical gag. He then stands up and walks to the front of the classroom at Moody's direction. His naming of the Cruciatus Curse is present but stripped of the voluntary, self-surprising daring of the book. The terrified, white-knuckled, trauma-laden physical reaction during the demonstration is absent from the corpus evidence; instead the emphasis is on the comedic spider business.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to reveal Neville's unexpected daring and to foreshadow his personal connection to the Cruciatus Curse. The film reframes him primarily as comic relief (frightened by the spider) and loses the subtle, character-defining moment of him voluntarily naming the curse against his own expectations. The trauma signal is muted."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Corridor after Defense Against the Dark Arts lesson",
+      "book_baseline": "After the lesson, Neville is found alone in a corridor, staring at the wall with the same horrified expression he wore during the demonstration. When spoken to, he babbles incoherently ('I wonder what's for dinner... what's for eating?'), clearly dissociated. He is visibly traumatized. Moody then takes him for tea and lends him Magical Water Plants of the Mediterranean, telling him Professor Sprout said he was really good at Herbology\u2014a moment of rare, meaningful affirmation that Harry explicitly notes Neville 'very rarely heard.' The scene is a rich, private portrait of trauma and kindness.",
+      "film_portrayal": "The film corpus shows Moody walking up to Neville after the lesson and Neville nodding, then both going back to the classroom. The extended corridor scene\u2014Neville's dissociated babbling, Hermione's gentle concern, the detail of Neville's red eyes afterward, and especially the emotionally resonant moment of Moody affirming Neville through Professor Sprout's praise\u2014is entirely absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is one of the most humanizing sequences Neville has in the entire book. His trauma response, the care shown by Hermione, and the rare affirmation of his worth through Herbology all deepen his character substantially. Its absence means the film audience has no window into Neville's inner life or his connection to the Cruciatus Curse, making the later revelation about his parents land with far less weight."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Library / Magical Water Plants of the Highland Lochs",
+      "book_baseline": "In the book, 'Fake Moody' plants Magical Water Plants of the Mediterranean in Neville's possession specifically because he calculated that Neville would tell Harry about gillyweed if asked. Neville possesses this book as a result of the tea with Moody and the meaningful affirmation scene. The book itself is a clue Harry fails to pursue. At the end, it is revealed that Crouch Jr. gave it to Neville deliberately, expecting Harry to ask Neville for help\u2014Neville would have told him 'in an instant.'",
+      "film_portrayal": "In the film corpus, Neville is shown reading 'Magical Water Plants of the Highland Lochs' (a different title). When Harry dismisses plants, Neville independently volunteers that gillyweed could help Harry breathe underwater. He provides the gillyweed directly to Harry and accompanies him to the boats. The affirmation backstory is absent, so the book's origin is unexplained. However, Neville does retain meaningful agency here as the person who solves Harry's problem.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film preserves Neville's functional role in providing gillyweed, which is a meaningful retention. The damage is limited: the layered backstory of Moody's manipulation and the affirming tea scene is lost, reducing the scene's thematic resonance, but Neville's agency in the moment is largely intact."
+    },
+    {
+      "scene": "Film Scene 6 / Scene 7 \u2013 Yule Ball and aftermath (Neville dancing)",
+      "book_baseline": "In the book, Neville asks Hermione to the ball (she is 'always really nice, helping him out'), is turned down, and then asks Ginny. At the ball, he dances nearby with Ginny, who winces as he treads on her feet. Separately, under the Imperius Curse demonstration, Neville performs 'a series of quite astonishing gymnastics he would certainly not have been capable of in his normal state.' The book also records that he had paid for a S.P.E.W. badge just to stop Hermione glowering at him\u2014a small beat of social awkwardness.",
+      "film_portrayal": "In the film corpus, Neville is seen dancing at the Yule Ball (Scene 5 and 6). The film shows him dancing as Harry opens a door and Ron sees him. In Scene 6, 'Neville is dancing with Ginny' in the Great Hall and later 'Neville dances away' in what appears to be a comedic aside. The book scene of him asking Hermione and then Ginny\u2014which establishes his social courage and Ginny's kindness in accepting\u2014is not present in the film corpus dialogue. The dancing is retained but reframed as background comedy.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Yule Ball arc gives Neville a small but genuine moment of social initiative (asking Hermione, then Ginny) and establishes Ginny's warmth toward him. The film reduces his Yule Ball presence to background comic dancing, losing both the social agency and the relationship texture with Ginny."
+    },
+    {
+      "scene": "Film Scene 9 (Pensieve) \u2013 Trial of Barty Crouch Jr. and the Longbottom revelation",
+      "book_baseline": "In the book, after seeing the trial in the Pensieve, Harry speaks privately with Dumbledore and learns that Neville's parents\u2014Frank and Alice Longbottom\u2014were tortured into insanity by Barty Crouch Jr. and are in St. Mungo's, unrecognized by their own son. Dumbledore explicitly asks Harry not to tell others, as 'he has the right to let people know, when he is ready.' Harry then lies awake thinking about Neville, feeling that Neville deserved more sympathy than he himself did as an orphan. This is one of the most significant revelations about Neville in the entire series.",
+      "film_portrayal": "In the film corpus Pensieve scene, Karkaroff's testimony explicitly names 'the capture, and by means of the Cruciatus Curse, torture of the Auror Frank Longbottom and his wife.' However, there is no subsequent scene in the film corpus where Dumbledore connects this to Neville, explains that Neville visits his unrecognizing parents, asks Harry to keep the secret, or where Harry reflects on Neville's situation. The revelation about Frank Longbottom's identity is present in the courtroom but its connection to Neville and the emotional consequences for Harry's understanding of Neville are absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The post-Pensieve conversation with Dumbledore is arguably the most important Neville material in Goblet of Fire. It reframes Neville from a bumbling comic figure into someone carrying an immense private tragedy with quiet dignity. Its absence means audiences never receive the explicit emotional reframing, never understand why the Cruciatus demonstration was so devastating for Neville specifically, and never see Harry's empathetic reflection on Neville's suffering. This is severe arc-level damage to Neville's characterization."
+    },
+    {
+      "scene": "Film Scene 7 \u2013 Second Task preparation: Neville providing gillyweed",
+      "book_baseline": "In the book, the gillyweed solution comes to Harry indirectly through Dobby, who steals it from Snape's stores after overhearing Moody suggest it to him. Neville possesses the book about water plants but does not directly hand Harry gillyweed. The elaborate plot\u2014Moody manipulating Dobby into giving Harry gillyweed\u2014is the actual mechanism.",
+      "film_portrayal": "In the film, Neville directly gives Harry the gillyweed and accompanies him to the boats, with the memorable line 'Oh, my God. I've killed Harry Potter.' This is a deliberate transfer of a plot function from Dobby/Moody's scheme to Neville, actually giving Neville more direct agency than the book.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "This is a rare case where the film's change is neutral-to-positive for Neville: he gains a direct, consequential action and a memorable comic line. Since the scoring task is to identify unfaithful moments that cause damage, and this change does not diminish Neville, the impact weight is minimal. It is noted for completeness as a deviation but causes negligible damage."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Neville's reaction during Cruciatus Curse demonstration (spider comedy reframe)",
+      "book_baseline": "The book is explicit that Neville's distress during the Cruciatus demonstration is rooted in personal trauma\u2014his parents were tortured with this curse. Harry notices Neville's clenched, white-knuckled hands and wide, horrified eyes. Hermione then directs Harry's attention specifically to Neville's face, not to tell him to stop, but because she recognizes something is deeply wrong.",
+      "film_portrayal": "In the film corpus, Hermione says 'Stop it! Can't you see it's bothering him? Stop it!' during the spider-flying segment, and later says 'There's a reason those curses are unforgivable... did you see Neville's face?' This suggests Neville's distress is present and Hermione notices it. However, the framing in the corpus places the emotional beat primarily around the Imperius Curse spider comedy (Neville is used for the initial flying spider gag) rather than the Cruciatus demonstration. The depth of Neville's trauma response is visible only in Hermione's dialogue, not in a sustained depiction of Neville's physical and emotional state.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film retains a trace of Neville's distress through Hermione's dialogue but buries it under comedy. Without the prior corridor scene, red eyes, and Dumbledore conversation to contextualize it, Hermione's concern reads as general sensitivity rather than a signal of profound personal trauma. The cumulative effect is a significant thinning of Neville's interior life."
+    },
+    {
+      "scene": "Order of the Phoenix - Train/carriage arrival scene",
+      "book_baseline": "In the book, Neville is introduced on the train with his Mimbulus mimbletonia, proudly explaining it, demonstrating its stinksap defensive mechanism (causing a mess), and showing genuine enthusiasm for Herbology. He also self-deprecatingly introduces himself to Luna ('I'm nobody') before Ginny corrects him. This establishes his social awkwardness alongside his genuine passions.",
+      "film_portrayal": "The film collapses the entire train journey. Neville appears briefly at the carriages with a simple 'Hi, guys' and no lines of substance. The Mimbulus mimbletonia, the stinksap incident, his self-introduction to Luna, and his Herbology passion are entirely absent. The cut scenes about his plant in the dormitory are also excluded per the non-theatrical exclusion list.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The train sequence is Neville's primary early-film character establishment moment. Its absence strips away his defining hobby (Herbology enthusiasm), his self-deprecating humour, and the endearing quality of accidentally causing chaos while trying to show off. The audience loses a foundational layer of who Neville is beyond 'bumbling sidekick'."
+    },
+    {
+      "scene": "Order of the Phoenix - Dormitory/Seamus confrontation scene",
+      "book_baseline": "Neville delivers a clear, calm, morally grounded statement of faith: 'My gran says that's rubbish... We believe Harry. My gran's always said You-Know-Who would come back one day. She says if Dumbledore says he's back, he's back.' He then climbs into bed and gazes at his cactus. This is a moment of quiet, confident moral courage \u2014 Neville standing up for Harry without any drama.",
+      "film_portrayal": "This entire scene is cut from the theatrical release (explicitly listed as a non-theatrical exclusion: 'Neville defends Harry'). In the film, there is no equivalent moment where Neville publicly and voluntarily stands up for Harry's credibility in the dormitory.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of Neville's most important early-book character beats: he acts with independent moral conviction, not out of loyalty to a friend present in the room but out of principle. It establishes that Neville's courage is not reactive but considered. Its loss means the film Neville has no early demonstration of proactive moral backbone, making his later Department of Mysteries speech feel less rooted."
+    },
+    {
+      "scene": "Order of the Phoenix - Room of Requirement / DA training (Expelliarmus scene)",
+      "book_baseline": "In the book, Neville's wand-disarming of Harry is treated with nuance: Harry is privately glad for him but notes to himself that in a real duel, his opponent wouldn't be staring away. Neville's joy ('I DID IT! I've never done it before!') is accompanied by Harry's careful, encouraging management of his progress. Neville is repeatedly Harry's personal practice partner, reflecting Harry's patient investment in him.",
+      "film_portrayal": "In the film, the Expelliarmus moment is staged differently: Neville casts the spell and his wand flies back and hits the glass ('I'm hopeless'), and Harry corrects his technique. The film reverses the beat \u2014 Neville fails first and Harry demonstrates. While Neville does later succeed (shown in the training montage with 'Fantastic, Neville. Well done, man'), the specific book beat of Neville catching Harry off-guard and Harry's internal, nuanced response is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor damage: the film does show Neville succeeding and Harry praising him. However, the book's version \u2014 where Neville genuinely disarms Harry and Harry must consciously choose not to puncture his joy \u2014 is richer characterisation for both. The film version keeps Neville slightly more in the 'student needing correction' frame."
+    },
+    {
+      "scene": "Order of the Phoenix - St Mungo's Hospital scene",
+      "book_baseline": "The St Mungo's scene is one of the most important in the entire book for Neville. His shame, his grandmother's forceful exposure of the truth, his mother giving him the sweet wrapper, and crucially his quiet 'Thanks, Mum' followed by slipping the wrapper into his pocket despite his grandmother telling him to bin it \u2014 these reveal extraordinary emotional depth. His defiant look daring them to laugh, and the revelation of what Bellatrix did, contextualises his entire arc.",
+      "film_portrayal": "The St Mungo's scene does not appear in the film at all. There is no hospital visit, no meeting of Neville's parents, no wrapper moment, no grandmother, no revelation scene witnessed by Harry's group.",
+      "damage_type": "arc | nuance/lost material | relationship",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the single most damaging omission in the film's treatment of Neville. The scene provides the emotional and motivational foundation for his transformation into a relentless DA fighter after the Death Eater breakout. Without it, the film audience has no witnessed context for why Neville works so hard, why Bellatrix's name carries specific weight for him in the Department of Mysteries, and why his quiet dignity under suffering is so moving. The wrapper-in-pocket moment is among the most quietly devastating in the entire series. Its loss is a significant arc-level wound."
+    },
+    {
+      "scene": "Order of the Phoenix - Neville's intensified DA effort after Death Eater breakout",
+      "book_baseline": "The book explicitly narrates Neville's transformation: 'the news of his parents' attackers' escape had wrought a strange and even slightly alarming change in him... Neville barely spoke during the DA meetings any more, but worked relentlessly on every new jinx and counter-curse... apparently indifferent to injuries or accidents and working harder than anyone else in the room.' This inner motivation is directly tied to the St Mungo's scene.",
+      "film_portrayal": "Because the St Mungo's scene is absent, the film cannot show or imply this transformation. The film does show Neville reading a newspaper as it zooms in (Bellatrix's escape is implied), and then cuts to the Room of Requirement where Neville is present. But there is no depiction of Neville's specific, driven, near-obsessive response to the breakout \u2014 his motivation remains opaque to the film audience.",
+      "damage_type": "arc | motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Without the St Mungo's foundation, Neville's presence in the Department of Mysteries and his fierce fighting there lack the earned emotional logic the book provides. The film Neville goes because he believes in the cause; the book Neville goes because he has been training for the specific moment of facing his parents' torturers. This is a qualitative difference in character motivation that damages the payoff of his DoM performance."
+    },
+    {
+      "scene": "Order of the Phoenix - Neville's charge at Malfoy outside the Potions dungeon",
+      "book_baseline": "Neville physically charges at Malfoy after Malfoy's mockery, requiring both Harry and Ron to physically restrain him. His fury is inarticulate ('Not . . . funny . . . don't . . . Mungo's . . . show . . . him') and clearly tied to his parents' situation, which Harry alone understands. It is a rare, raw display of Neville's anger and suppressed grief.",
+      "film_portrayal": "This scene does not appear in the film corpus. There is no equivalent moment of Neville charging at Malfoy in rage.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene is one of very few in the book where Neville's emotional life erupts into physical action outside of formal combat. It shows that beneath his gentle exterior is real fury about real injury to his family. Its absence keeps the film Neville emotionally flatter \u2014 he is kind and brave but the film never shows him angry in a way that reveals personal wound."
+    },
+    {
+      "scene": "Order of the Phoenix - Department of Mysteries: Neville's broken nose and defiant speech",
+      "book_baseline": "Neville's wand is broken, his nose smashed by Dolohov's kick, he carries Hermione on his back despite physical pain, and with blood spattering from his face he says 'Whaddever you do, Harry, don'd gib it to him!' and 'We'll dake her wid us... I'll carry her \u2014 you're bedder at fighding dem dan I ab.' He refuses to leave Harry and fights on despite his injuries. He also uses Hermione's wand to attempt (imperfectly but repeatedly) to cast spells.",
+      "film_portrayal": "The film compresses the DoM fight significantly. Neville is present and active (taking Luna aside from falling spheres, 'Don't give it to him, Harry!', Luna saying 'Well done, Neville!' after a spell), but the specific sequence of his wand being broken, his nose being smashed, carrying Hermione, and his bloodied defiant refusal to abandon Harry is not depicted. The film's Neville is brave and present but his physical sacrifice and gutted-but-still-fighting characterisation is largely absent.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's DoM Neville is one of the great quiet heroism sequences in the series \u2014 he sustains real injury, loses his father's wand, carries a wounded comrade, and with a broken nose and garbled speech refuses to yield. The film shows Neville as a competent participant in the battle, which is faithful in spirit, but the specific texture of his suffering-through-it and the emotional weight of 'dat was by dad's old wand' is entirely absent. This is the culmination of his arc in OotP and it is significantly flattened."
+    },
+    {
+      "scene": "Order of the Phoenix - Bellatrix confrontation: 'I DOE YOU HAB!'",
+      "book_baseline": "When Bellatrix says she has 'had the pleasure of meeting' Neville's parents, Neville roars 'I DOE YOU HAB!' and fights so hard against his captor that the Death Eater calls for him to be Stunned. He then screams under Cruciatus and lies sobbing, before shouting 'DON'D GIB ID DO DEM, HARRY!' even while suffering. This is Neville's defining moment in the book: he faces the torturer of his parents, is tortured himself, and still refuses to let Harry give in.",
+      "film_portrayal": "In the film, Neville says 'Bellatrix Lestrange' (identifying her) and then 'Better, now they're about to be avenged' before attempting a spell she deflects. He later says 'Don't give it to him, Harry!' The Cruciatus torture of Neville does not occur in the film. The full confrontation \u2014 his raw recognition of her, his roaring fury, his being Crucio'd, and his garbled defiance while in agony \u2014 is replaced with a much briefer exchange.",
+      "damage_type": "agency/function | arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the emotional climax of Neville's entire arc in Order of the Phoenix. The book has him tortured by the same spell that destroyed his parents, and he still shouts for Harry not to surrender. The film gives him one brave line and a deflected spell. Without the St Mungo's scene as foundation and without the Cruciatus sequence as culmination, the film never delivers the payoff that makes Neville's arc in this book one of the most powerful in the series. The structural damage is real and significant."
+    },
+    {
+      "scene": "Order of the Phoenix - Neville as alternate prophecy subject (Dumbledore's revelation to Harry)",
+      "book_baseline": "Dumbledore explicitly tells Harry that the prophecy could have applied to Neville \u2014 born at the end of July, parents in the Order, parents having escaped Voldemort three times. He explains that Voldemort chose Harry over Neville, making Neville's alternative fate a structurally important element of the saga's central theme.",
+      "film_portrayal": "In the film, the prophecy is heard in the DoM ('The one with the power to vanquish the Dark Lord approaches... neither can live while the other survives') but Dumbledore's subsequent explanation to Harry about Neville as the alternate candidate does not appear in the film corpus. The film does not depict Dumbledore's end-of-film conversation where Neville's parallel status is revealed.",
+      "damage_type": "arc | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Neville's status as the road-not-taken \u2014 the boy who could have been 'the chosen one' \u2014 is a significant thematic dimension of his character and of the saga's exploration of fate vs. choice. Its absence from the film means audiences never understand that Neville's life has been shaped by Voldemort's choice just as Harry's has, deepening both characters. This is lost context for Neville's later arc in Deathly Hallows as well."
+    },
+    {
+      "scene": "Film Scene 2 (Slughorn's Office - Slug Club dinner) - Neville confused by cutlery",
+      "book_baseline": "Book Scene 50: Neville attends the Slug Club lunch with composure; his defining moment is turning geranium pink and quietly defending Harry by denying the prophecy when pressed by Slughorn \u2014 a small but meaningful act of loyalty and discretion. He is uncomfortable but not socially inept or comedically helpless.",
+      "film_portrayal": "Neville's sole line in the Slug Club scene is 'Which one do I use for the soup?' \u2014 staring hopelessly at cutlery. He is reduced to a figure of comic social cluelessness, with no dialogue that reflects his loyalty, his parents' legacy, or his discomfort at Slughorn's interrogation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Slug Club scene is one of the few moments in HBP where Neville acts with quiet dignity and loyalty under pressure. Replacing his only contribution with a comedic cluelessness gag flattens him into a buffoon and erases the subtle character work the books invest in showing his growing self-possession."
+    },
+    {
+      "scene": "Film Scene 4 (Slughorn's Christmas Party) - Neville serving drinks as non-member",
+      "book_baseline": "Book Scene 50 and surrounding context: Neville is a legitimate Slug Club invitee, attended on his own merits (his parents' fame as Aurors, and Slughorn reserving judgment on his potential). The book is explicit that Slughorn's interest in Neville relates to Frank and Alice Longbottom's distinguished careers.",
+      "film_portrayal": "Neville appears at the Christmas party not as a guest but as a serving-staff substitute ('I didn't make the cut for the Slug Club. It's okay. He's got Belby handing out towels in the loo.'), carrying a drinks tray. The line is played for gentle comedy.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This directly contradicts the book, where Neville is a Slug Club member. It strips him of the status the books grant him as the son of two celebrated Aurors and removes the thematic resonance that Neville \u2014 the boy who could have been the Chosen One \u2014 is worthy of Slughorn's interest. Demoting him to waiter also undercuts his growing sense of self-worth established across the series, and erases the parallel the book draws between his heritage and Harry's."
+    },
+    {
+      "scene": "Film Scene 1 (Quidditch tryouts) - Neville as recurring slapstick bystander",
+      "book_baseline": "The book corpus does not place Neville at Quidditch tryouts in any meaningful capacity. More broadly, by HBP the books establish Neville as someone growing in confidence and competence \u2014 he earned an Outstanding in Herbology, an Exceeds Expectations in Defence, and his gran is now proud of him after the Ministry battle (Book Scenes 14, 73-77).",
+      "film_portrayal": "Neville appears twice in the tryouts montage purely as a slapstick sight gag: Bludgers scatter everyone around him while he casually sidles left or right, oblivious or impassive. He exists solely as a visual punchline with no dialogue.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Using Neville as a repeated visual gag of lucky-idiot obliviousness conflicts with the arc the books are building: a character whose confidence and competence are growing meaningfully after the Ministry. It reinforces the early-book 'hopeless Neville' image at a point in the story where the books are deliberately moving away from it."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 15 (Marble Staircase): Neville declares he is 'mad for' Luna",
+      "book_baseline": "The book establishes no romantic interest between Neville and Luna. Luna's ceiling painting of her five friends (Harry, Ron, Hermione, Ginny, Neville) linked by 'friends...friends...friends' positions the relationship as deep platonic friendship and mutual loyalty, not romance.",
+      "film_portrayal": "In the midst of battle, Neville declares 'I'm mad for her! Think it's about time I told her, seeing as there's a pretty good chance we'll both be dead by dawn!' \u2014 framing his primary concern mid-battle as a romantic pursuit of Luna rather than the fight or his role as DA leader.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This invents a romantic subplot absent from the books, substituting a comedic crush beat for the genuine, quietly profound platonic bond the books establish. It reduces Neville's focus and agency at a key moment and misrepresents the Neville-Luna relationship, which in the books is grounded in mutual courage and friendship, not romance."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 7 (Room of Requirement): Neville's challenge to Harry about the plan is compressed and depoliticised",
+      "book_baseline": "The book gives Neville an extended, principled argument: he pushes back on Harry's secrecy across multiple exchanges, articulating that the DA has been fighting and suffering under the Carrows, that they are Dumbledore's Army and have earned the right to know, and that loyalty has been proven at great personal cost ('Everyone in here's proven they're loyal to Dumbledore \u2013 loyal to you'). This is a mature, morally weighted confrontation.",
+      "film_portrayal": "The film collapses the exchange into a single functional question \u2014 'What's the plan, Harry?' \u2014 and then moves quickly to the Ravenclaw diadem discussion. There is no sustained push-back from Neville, no articulation of the DA's sacrifices, no moral challenge to Harry about trust and earned loyalty.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This removes one of Neville's most important book moments as a character with independent moral authority. In the book he holds Harry accountable on behalf of everyone who has been tortured and driven into hiding; in the film he is a facilitator who moves the plot forward. The loss strips the scene of its emotional and thematic weight \u2014 the idea that Dumbledore's Army is a real collective with its own claim on the war \u2014 and reduces Neville from moral peer to logistical support."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 5 (Passage): Neville's account of resistance under the Carrows is heavily truncated",
+      "book_baseline": "The book gives Neville a rich, detailed account of life under the Carrows: the compulsory Cruciatus practice on first-years, Alecto's Muggle Studies propaganda, his specific acts of defiance (refusing to cast Cruciatus, asking Alecto about her Muggle blood), the DA's graffiti campaign, the fake Galleon communications, losing Luna and Ginny as leaders, Michael Corner's torture, and finally the attempt to kidnap Gran \u2014 all delivered with matter-of-fact courage that Harry finds more chilling than any outburst.",
+      "film_portrayal": "The film reduces this to a brief corridor exchange covering only: the Carrows like punishment, today's lesson had them practising Cruciatus on first-years, he refused, Hogwarts has changed. The graffiti campaign, the Galleon network, Michael Corner's torture, the scaling back of operations, and the Gran storyline are entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the primary vehicle in the books for establishing that Neville has spent months as a genuine resistance leader \u2014 not just a brave student but a strategist, organiser, and moral example under extreme duress. The Gran subplot in particular ('they bit off a bit more than they could chew with Gran') is a triumphant character beat that contextualises why Neville is fearless by the time Harry arrives. Its loss means the film audience never understands the scale of what Neville has done or why he commands the authority he shows in the Room of Requirement."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 5 (Passage): Gran's storyline entirely absent",
+      "book_baseline": "The book establishes that when the Carrows tried to use Gran as a hostage, she defeated the Auror sent to capture her (Dawlish is still in St Mungo's), went on the run, and sent Neville a letter saying she was proud of him and that he was his parents' son. This frees Neville from fear and is the reason he is effectively untouchable in his own mind \u2014 the attempt to control him through her backfired catastrophically.",
+      "film_portrayal": "No mention of Gran, the kidnapping attempt, or her letter. Neville's fearlessness in the film has no stated origin beyond general courage.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The Gran storyline is not decorative \u2014 it is the narrative mechanism by which Neville achieves complete freedom from coercion. The letter ('I'm proud of you... you are your parents' son') also directly invokes his parents' legacy, which is central to his arc across the entire saga. Without it, his bravery in the climax lacks its earned emotional foundation and the thematic connection to Frank and Alice Longbottom is severed."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 18 (Courtyard): Neville finds the Sorting Hat in the rubble",
+      "book_baseline": "The book does not have Neville finding the Sorting Hat in the rubble. In the book, Voldemort summons the Hat from a shattered window of the castle during the confrontation and forces it onto Neville's head himself. Neville does not choose to put it on.",
+      "film_portrayal": "Neville finds the Sorting Hat in the debris, examines it, and puts it on himself before the confrontation begins \u2014 a quiet, almost contemplative moment. The Hat whispers 'Don't despair, Longbottom. I put you in Gryffindor for good reason.'",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's version softens the confrontation's stakes: Neville choosing the Hat himself is a gentler, more self-directed beat. The book's version \u2014 Voldemort humiliating Neville by forcing the Hat onto him and then setting it alight as a public execution \u2014 is a deliberate act of theatrical cruelty that makes Neville's defiance more viscerally heroic. The film's Hat-whisper ('I put you in Gryffindor for good reason') also spells out the thematic point the book leaves the audience to feel, slightly undercutting its power. This is minor damage but represents a softening of the scene's dramatic core."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 21 (Courtyard confrontation): Neville's speech replaces the book's defiant one-liners",
+      "book_baseline": "In the book, Neville's response to Voldemort's offer is compressed and electrifying: 'I'll join you when hell freezes over. Dumbledore's Army!' \u2014 a battle cry that draws a cheer. He does not give a speech; his defiance is immediate, physical, and communal. The book Neville does not attempt to persuade or mourn; he incites.",
+      "film_portrayal": "The film gives Neville an extended speech about people dying, Fred and Remus and Tonks not dying in vain, Harry's heart beating for all of them \u2014 a eulogy-style address to both sides. He then spits at Voldemort and says 'This isn't over.' It is oratorical where the book is incendiary.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book Neville does not need to win an argument or deliver a speech \u2014 his courage is demonstrated through action and brevity. The film's version is more conventionally heroic but less true to Neville's character, which is defined by understated, matter-of-fact bravery rather than rhetorical flourish. It also subtly shifts the dramatic function: the book's 'Dumbledore's Army!' is a call to collective action; the film's speech is more of a solo set piece. This is moderate damage to voice and tone."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scenes 21-22 (Courtyard): Voldemort's offer to Neville is depoliticised",
+      "book_baseline": "In the book, Voldemort identifies Neville specifically as 'the son of the Aurors' and makes his offer on the basis of pure-blood status, explicitly framing it as ideological recruitment. Neville's refusal is therefore also an ideological rejection \u2014 he repudiates blood supremacy by name.",
+      "film_portrayal": "Voldemort's offer ('I'm sure we can find a place for you in our ranks') is generic and does not invoke Neville's parentage or blood status. The political/ideological dimension of the exchange is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's version ties Neville's climactic stand directly to his parents' legacy as Aurors and to the blood-supremacy ideology the war is actually about. The film version makes the exchange a generic villain-offers-mercy beat. This loses the thematic resonance connecting Neville's arc (son of tortured Aurors, once considered a squib) to the saga's central theme of who has worth in the wizarding world."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 21 (Courtyard): Neville steps forward ambiguously \u2014 initially read as surrender",
+      "book_baseline": "In the book there is no ambiguity: Neville stands in the no-man's-land between factions with his empty hands curled in fists and defiantly answers Voldemort. His intent is clear from the first moment.",
+      "film_portrayal": "The screenplay explicitly stages Neville stepping forward with 'chin on chest, gaze to the ground' while the Sorting Hat 'rocks gently in his hand,' with the narration noting that 'stunned, the others watch' and Seamus cries 'Stand down, Neville!' The staging initially suggests possible compliance, with the reversal coming mid-speech.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book Neville is unambiguous in his defiance from the outset \u2014 his courage is never in question for a single beat. The film's staging introduces a theatrical ambiguity (is he surrendering?) that, while dramatically effective on screen, slightly misrepresents Neville's character. He is not the type to appear to capitulate even briefly; his whole arc is defined by unequivocal, cost-counted courage. This is minor but real tonal damage."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 22/25 (Courtyard/Climax): Neville kills Nagini in a different context and sequence",
+      "book_baseline": "In the book, Harry tasks Neville personally with killing Nagini in a private exchange at night, before Harry goes to his death. Neville is given the secret \u2014 he becomes one of three people who know about the Horcruxes \u2014 and Harry trusts him with the backup plan. The kill is the fulfilment of that private covenant, and it happens during the chaos of the renewed battle when Harry casts a Shield Charm to protect Neville from Voldemort after the kill.",
+      "film_portrayal": "The private exchange between Harry and Neville (the Horcrux secret, the instruction to kill Nagini, the shoulder-pat) is entirely absent. In the film, Neville simply overhears Harry tell Ron and Hermione 'The snake! We've got to kill the snake!' and acts on that. The kill itself is also staged differently \u2014 Neville steps in to protect Harry from Voldemort and kills Nagini as a defensive act, rather than as a premeditated, entrusted mission.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 5,
+      "explanation": "The private conversation between Harry and Neville in the book is one of Neville's most important scenes in the entire saga. Harry choosing Neville as his backup \u2014 his proxy in the secret \u2014 is the culmination of Neville's arc from the boy who couldn't do magic to the person Harry trusts with the most critical task in the war. The film converts this from a trusted, deliberate mission into an improvised act of eavesdropping and heroic reflexes. The structural damage is significant: the adaptation loses the explicit passing of the torch, the acknowledgment of Neville as Harry's equal in courage and trust, and the thematic fulfilment of his arc. It also loses the poignant shoulder-pat farewell \u2014 the last human moment before Harry walks to his death."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 17 (Entrance Hall): Colin Creevey replaced by 'Nigel'",
+      "book_baseline": "Neville carries Colin Creevey's body in from the grounds \u2014 a specific, named character who has appeared across the saga, whose death in battle despite being underage is a meaningful emotional beat. Neville, carrying the body of a younger student, is described as looking 'like an old man.'",
+      "film_portrayal": "Neville and Oliver Wood carry the body of 'Nigel,' a minor film-original character, not Colin Creevey. Oliver Wood takes the body from Neville ('I'll take him from here') and Neville is left to turn back into the darkness.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The substitution of Nigel for Colin Creevey removes the emotional resonance of a named character's death but the damage to Neville specifically is the loss of the understated gravity the book attaches to him at this moment. The image of Neville looking 'like an old man' after a night of carrying bodies is a quiet, devastating character beat. The film preserves the visual (Neville wearily turning back into the darkness) but the substitution dilutes the specific loss."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Film Scene 26 (Great Hall epilogue): Neville and Luna seated close together",
+      "book_baseline": "The book epilogue shows Neville 'surrounded by a knot of fervent admirers' with the Sword of Gryffindor beside his plate \u2014 a portrait of earned, public recognition. Luna is not placed beside him. The book's epilogue (Platform 9\u00be) references Neville only as 'Professor Longbottom,' a Herbology teacher.",
+      "film_portrayal": "Luna sits down beside Neville 'close' and 'smiles' \u2014 a staging that, combined with the earlier 'I'm mad for her' line, implies a romantic resolution.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is the payoff of the invented romance introduced in Film Scene 15. It is brief but reinforces a relationship dynamic that does not exist in the books. The damage is minor in isolation but cumulative with the earlier beat."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1118.0,
-  "adjusted_cids_v1": 1677.0
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

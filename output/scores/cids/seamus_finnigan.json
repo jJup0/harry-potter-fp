@@ -1,144 +1,416 @@
 {
   "character": "Seamus Finnigan",
-  "fp_score": 67.0,
-  "infidelity_score": 33.0,
-  "weighted_infidelity_exposure": 15.5,
-  "cids": 166.8,
-  "damage_per_exposure": 17.6,
-  "structural_damage_level": 2,
-  "adjusted_cids": 166.8,
+  "fp_score": 59.0,
+  "infidelity_score": 41.0,
+  "weighted_infidelity_exposure": 70.5,
+  "cids": 347.3,
+  "damage_per_exposure": 10.5,
+  "structural_damage_level": 3,
+  "adjusted_cids": 347.3,
   "main_damage_causes": [
-    "Compression and flattening of the OotP dormitory confrontation arc, which is Seamus's most substantial characterisation across the entire series, reducing a nuanced peer-pressure/media-scepticism storyline to a brief exchange",
-    "Replacement of book-accurate characterisation (boggart courage, Patronus in battle) with an invented 'pyrotechnics/explosion' running gag that becomes his defining film trait despite having no book basis",
-    "The invented 'Stand down, Neville' line in DH2 actively contradicts Seamus's redemption arc and misrepresents his courage at the climactic moment of the saga"
+    "Reassignment of Seamus's defining Book 1 comic agency (the Nearly Headless Nick exchange) to Ron and Hermione, eliminating his most characterizing early scene.",
+    "Replacement of his nuanced, multi-trait characterization (curious, socially bold, funny, friendly toward Harry) with a single repeated slapstick gag (explosion boy), which crowds out all other dimensions in his limited screen time.",
+    "Systematic omission of small but cumulative friendship-building moments (the Snape wink, the cauldron scene, the Quidditch stands question) that establish his bond with Harry and his role in the Gryffindor dormitory group.",
+    "Compression and omission of Seamus's specific irreverent-wit moments (pretending to vomit, choking dialogue with Lockhart, History of Magic question) reduces him from a distinct comic-intellectual personality to a generic reactor and line-deliverer",
+    "The film explicitly marks Seamus as one of the named students whose eyes 'glitter with fear' at Harry and who cold-shoulders him after the Parseltongue incident, damaging the warmth of the dormitory-mate relationship more pointedly than the book does"
   ],
   "damaging_scenes": [
     {
-      "scene": "PS/SS Film - Sorting Hat scene (feast)",
-      "book_baseline": "Seamus sits on the stool for almost a whole minute before being sorted, establishing him as a character who takes time to be placed - a small but humanising detail.",
-      "film_portrayal": "Seamus is not individually shown during the sorting; his only introduction is his half-and-half parentage line at the feast, which is retained but stripped of any sorting moment.",
+      "scene": "Film Scene 1 (feast) \u2013 Seamus's half-and-half introduction",
+      "book_baseline": "Book Scene 10: Seamus volunteers his background unprompted during a group conversation about families, saying 'Me dad's a Muggle. Mom didn't tell him she was a witch 'til after they were married. Bit of a nasty shock for him.' The phrasing and comic timing are Seamus's own contribution to a flowing group exchange.",
+      "film_portrayal": "Seamus delivers a near-identical line but directed at Harry alone ('Me dad's a Muggle. Mam's a witch. Bit of a nasty shock for him when he found out.'), stripping the communal context and making it a throwaway icebreaker rather than a character-establishing moment in a group dynamic.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of an individualising detail, but the parentage line compensates partially."
+      "explanation": "The line survives almost verbatim, so damage is minimal. However, the book version positions Seamus as a socially confident, naturally funny contributor to a group; the film version reduces it to a brief self-introduction with no comedic payoff or peer reaction, slightly flattening his personality."
     },
     {
-      "scene": "PS/SS Film - Charms class / Great Hall (water-to-rum spell)",
-      "book_baseline": "Seamus sets fire to his feather in Charms through impatience, a small comic beat showing his impulsive, slightly reckless nature.",
-      "film_portrayal": "The film replaces/supplements this with Seamus repeatedly blowing up a cup trying to turn water into rum, and later exploding his feather in Charms. The rum gag is invented for the film and frames him primarily as a comic explosion device rather than an impulsive but earnest student.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The film reduces Seamus to a one-note 'things explode around him' gag across multiple scenes, which is not a book trait. In the books the cauldron explosion belongs to Neville, not Seamus. This misattribution slightly distorts both characters but the damage to Seamus is mild - it gives him a running joke at the cost of accuracy."
-    },
-    {
-      "scene": "PS/SS Film - Potions class (Neville's cauldron)",
-      "book_baseline": "Neville melts Seamus's cauldron; Snape orders Seamus to take Neville to the hospital wing, giving Seamus a small moment of responsibility and care.",
-      "film_portrayal": "This scene is not depicted in the film. Seamus loses a small moment of being trusted with a peer's welfare.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Negligible loss; the scene is minor and its absence does not meaningfully alter Seamus's characterisation."
-    },
-    {
-      "scene": "CoS Film - Dueling Club",
-      "book_baseline": "Snape pairs Seamus with Ron; Ron's broken wand injures Seamus, leaving him ashen-faced and needing to be held up. Seamus is a participant with a physical consequence.",
-      "film_portrayal": "The dueling club scene occurs but the specific Seamus/Ron pairing and its aftermath are not shown. Seamus appears briefly in crowd reaction shots.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss of a scene beat that gave Seamus a concrete presence in the dueling club sequence."
-    },
-    {
-      "scene": "CoS Film - Parseltongue incident aftermath",
-      "book_baseline": "After Harry speaks Parseltongue at the dueling club, Seamus, Neville and Dean walk past Harry without a word, showing Seamus's wariness is part of a broader peer reaction.",
-      "film_portrayal": "The film shows Seamus and Neville's eyes 'glittering with fear' during the snake incident itself, which is consistent, and the aftermath of students avoiding Harry is shown generally. Seamus is not singled out.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film captures the general atmosphere of suspicion but loses the specific beat of Seamus individually shunning Harry, which is a small precursor to his OotP behaviour."
-    },
-    {
-      "scene": "PoA Film - Boggart lesson",
-      "book_baseline": "Seamus faces the boggart (a banshee), shouts Riddikulus, silences it, and afterwards boasts proudly to Dean about taking it on. This is one of his most characterful book moments: brave, eager, and self-congratulatory in an endearing way.",
-      "film_portrayal": "Seamus correctly identifies the boggart as a boggart (given a line), but does not face it in the film. The boggart lesson focuses on Neville (spider/Snape) and Harry is prevented from going. Seamus's banshee confrontation is entirely absent.",
+      "scene": "Film Scene 1 (feast) \u2013 Nearly Headless Nick exchange",
+      "book_baseline": "Book Scenes 5\u20138: Seamus interrupts Sir Nicholas's preferred name ('Nearly Headless Nick!'), then drives the follow-up question ('Nearly Headless? How can you be nearly headless?') and asks with 'great interest' how Nick got covered in blood. He is the active, curious, socially bold voice in this comedic exchange.",
+      "film_portrayal": "In the film, Ron identifies Nick by name and Hermione asks 'Nearly headless? How can you be nearly headless?' Seamus is silent throughout this exchange. The two beats that define Seamus's wit and social boldness are reassigned to Ron and Hermione.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This is Seamus's single most prominent individual action scene in the first three books. Removing it eliminates his only moment of genuine courage and comic pride, reducing him to a background figure in a scene where the book gave him a starring beat."
-    },
-    {
-      "scene": "GoF Film - World Cup tent / arrival",
-      "book_baseline": "Seamus is at the World Cup with his mother and Dean, wearing shamrock decorations, cheerfully showing off Irish colours. Mrs Finnigan is present and characterised as a proud Irish witch.",
-      "film_portrayal": "Seamus appears very briefly at the World Cup campsite with a single throwaway line ('Blimey, that's one big woman') about Madame Maxime. His mother is absent, the shamrock tent is absent, and the warm family/national pride context is gone.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The loss of Mrs Finnigan at the World Cup is minor in isolation but removes context that makes her later scepticism in OotP feel more grounded - she was a present, characterised figure, not an off-screen name."
-    },
-    {
-      "scene": "OotP Film - Dormitory confrontation (Year 5 arrival)",
-      "book_baseline": "The dormitory confrontation is one of Seamus's most substantial scenes across all seven books. He tells Harry his mother didn't want him to return, believes the Daily Prophet over Harry, argues heatedly, nearly comes to blows, and the tension persists for weeks. This establishes Seamus as someone capable of genuine moral conflict, peer pressure, and eventual growth.",
-      "film_portrayal": "The confrontation is compressed into a brief exchange in the common room. Seamus tells Harry the Prophet has been saying things and his mum believes them. Harry snaps back rudely ('I guess you should read the Prophet then, like your stupid mother'). Ron immediately backs Harry. The multi-day tension, Seamus's nuanced position, Neville's quiet loyalty speech, and the gradual thaw are all absent. The scene lasts under a minute.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book version shows Seamus as a fully realised peer with understandable doubts shaped by media and parental influence - a microcosm of the wider wizarding world's scepticism. The film reduces this to a single confrontational exchange that makes Harry look aggressive and Seamus look merely credulous. The weeks of cold tension, Seamus's internal conflict, and his eventual redemption arc are collapsed, losing the most important characterisation Seamus receives in the entire series."
+      "explanation": "This is the single most characterizing scene for Seamus in Book 1: he is the one who punctures the ghost's pomposity and drives the comic interrogation. Transferring both beats to Ron and Hermione removes his only moment of distinct social agency in the early film, damaging the audience's ability to form an impression of him as quick, funny, and unabashedly curious."
     },
     {
-      "scene": "OotP Film - Seamus's gradual thaw and apology",
-      "book_baseline": "After the Quibbler interview, Seamus approaches Harry outside Transfiguration, mumbles an apology, says he believes him and has sent the article to his mother. This is a small but meaningful redemption beat showing Seamus can change his mind based on evidence.",
-      "film_portrayal": "A brief version of the apology is present ('I wanted to apologise... I believe you') but it is stripped of context because the original confrontation was so compressed. The emotional weight of the reconciliation is minimal.",
-      "damage_type": "arc",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Because the film did not establish the depth of the falling-out, the apology lands as a throwaway line rather than a meaningful character moment. The arc from doubt to belief, which mirrors the wider world's journey, is effectively lost."
-    },
-    {
-      "scene": "OotP Film - DA meetings (Seamus's first Patronus attempt)",
-      "book_baseline": "Seamus attends his first DA meeting brought by Dean, and excitedly reports producing something hairy. He is enthusiastic and participatory.",
-      "film_portrayal": "Seamus is present in DA scenes but is not individually highlighted attempting the Patronus. His participation is background.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Small loss; Seamus's DA enthusiasm is one of the few positive characterisation beats in OotP and its absence is a minor missed opportunity."
-    },
-    {
-      "scene": "HBP Film - Quidditch tryouts montage",
-      "book_baseline": "In the books, Seamus is not a Quidditch tryout participant of note; Dean gets the Chaser spot and Seamus is sour about it, showing a small jealousy/friendship tension.",
-      "film_portrayal": "The film's tryout montage includes a shot of Seamus sending a Bludger into the stands (scattering onlookers, leaving only Neville). This is an invented comic beat that again uses the 'Seamus causes explosions/accidents' shorthand.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Reinforces the reductive 'explosion gag' characterisation rather than the book's more grounded portrayal. Minor but consistent with a pattern of flattening."
-    },
-    {
-      "scene": "DH2 Film - Bridge demolition",
-      "book_baseline": "Seamus fights in the Battle of Hogwarts and casts a Patronus (a fox) to drive back dementors alongside Luna and Ernie. His role is as a courageous DA member.",
-      "film_portrayal": "Seamus is given the prominent role of demolishing the wooden bridge, directed by McGonagall who notes his 'proclivity for pyrotechnics.' He gleefully blows up the bridge, nearly kills Neville, and howls with pleasure. This is an invented scene.",
+      "scene": "Film Scene 3 (Great Hall study hall) \u2013 Seamus's failed spell",
+      "book_baseline": "Book Scene 29: In Charms class, Seamus gets so impatient trying to levitate a feather that he prods it with his wand and sets fire to it. This is a brief comic beat tied to a specific lesson context, showing impatience and accidental magic.",
+      "film_portrayal": "The film relocates the exploding-spell gag to the Great Hall (a study period), where Seamus is trying to turn a cup of water into rum ('Eye of rabbit, harp string hum\u2026'), and the explosion leaves him charred. This is repeated again in Film Scene 4 and Film Scene 5 (he is charred a second and third time).",
       "damage_type": "personality/voice",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The film gives Seamus a memorable battle role, which is positive for screen presence, but it is built entirely on the invented 'explosion obsession' trait rather than anything from the books. His book battle role (Patronus, fighting alongside DA members) is replaced with a pyrotechnics gag. The characterisation is coherent within the film's own logic but represents a significant departure from the source - Seamus's courage in the books is earnest, not manic."
+      "explanation": "The film converts Seamus's one-off impatience in Charms into a running 'explosion boy' gag repeated across multiple scenes. While it gives him screen presence, it reduces his characterization to a single slapstick trait with no wit, curiosity, or social confidence visible. The book never establishes him as chronically explosion-prone; the film's repetition (three separate charred moments) hardwires an exaggerated reductive identity onto him."
     },
     {
-      "scene": "DH2 Film - 'Stand down, Neville' moment",
-      "book_baseline": "In the book, when Neville speaks up before Voldemort, Seamus is not given a specific reaction line. The crowd's uncertainty is collective.",
-      "film_portrayal": "Seamus angrily shouts 'Stand down, Neville!' when Neville begins his speech, positioning him as someone who would capitulate or silence resistance.",
+      "scene": "Film Scene 4 (Flitwick's class) \u2013 Seamus charred a second time",
+      "book_baseline": "Book Scene 29: The feather-fire incident is a single, one-time moment in one class. Seamus is not established as repeatedly blowing things up.",
+      "film_portrayal": "Seamus is shown charred again at the end of the Wingardium Leviosa lesson (his feather smolders to ashes), repeating the same gag from Film Scene 3.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The repeated charring reinforces a one-dimensional comedic reduction. Each additional instance deepens the damage by crowding out any other dimension of his character within the limited screen time he receives."
+    },
+    {
+      "scene": "Film Scene 2 (staircases) \u2013 Neville addresses Seamus about moving portraits",
+      "book_baseline": "Book corpus does not feature this specific beat; however, the book establishes Seamus as a confident, worldly wizard-raised boy who would not be presented as a passive recipient of Neville's observations.",
+      "film_portrayal": "Neville says 'Seamus, that picture's moving!' treating Seamus as a straight-man audience for Neville's wonder. Seamus has no response or reaction shown.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a minor beat, but it marginally positions Seamus as a background figure rather than an active voice. Confidence is low given the book corpus has no direct equivalent scene to contrast against."
+    },
+    {
+      "scene": "Film Scene 3 (Potions) \u2013 Seamus absent from Snape's interrogation",
+      "book_baseline": "Book Scene 15: When Harry deflects Snape's question toward Hermione, 'Harry caught Seamus's eye, and Seamus winked.' This is a small but meaningful moment of peer solidarity and shared humor between Harry and Seamus, showing their budding friendship.",
+      "film_portrayal": "The Potions scene is present in the film but the shared glance and wink between Harry and Seamus is absent. There is no indication of any rapport between them in this scene.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The wink is the only moment in Book 1 that directly signals a friendly bond forming between Harry and Seamus. Its absence means the film establishes no sense of warmth or complicity between them, weakening the dormitory friendship that the book quietly builds."
+    },
+    {
+      "scene": "Film Scene 3 (Potions) \u2013 Seamus absent from cauldron collapse",
+      "book_baseline": "Book Scenes 17\u201319: Neville melts Seamus's cauldron, drenching Neville with potion. Snape then orders Seamus to take Neville to the hospital wing, giving Seamus a direct functional role and a moment of implicit care for a classmate.",
+      "film_portrayal": "The cauldron-melting incident does not appear in the film corpus. Seamus loses this scene entirely.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "While the absence of a supporting scene is not catastrophic, this was Seamus's only moment of direct plot function in the book's Potions strand. Its removal continues the pattern of stripping him of any active role beyond comic explosion."
+    },
+    {
+      "scene": "Film Scene 6 (Quidditch match) \u2013 Seamus reduced to background cheering",
+      "book_baseline": "Book Scenes 33\u201336: Seamus is a named, speaking presence in the stands, asking 'Did something happen to it when Flint blocked him?' \u2014 a moment of engaged, intelligent observation during the crisis of Harry's bewitched broom. He is also named as part of the group sitting together in the top row.",
+      "film_portrayal": "In the film's Quidditch scene, Seamus appears only in a brief joint cheer with Ron ('Yay!') and is otherwise undifferentiated from the crowd. His concerned, observational question about Harry's broom is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The question in the book shows Seamus paying close, thoughtful attention to Harry's danger. Its omission is minor but consistent with the film's overall pattern of reducing him to a reactive background figure."
+    },
+    {
+      "scene": "Film Scene 2 (Lockhart classroom / Cornish pixies): Seamus identifies the pixies",
+      "book_baseline": "Book Scene 12-15 establish that Seamus cannot control his laughter at the pixies, choking out 'Well, they're not \u2014 they're not very \u2014 dangerous, are they?' This is a moment of shared irreverence and wit \u2014 Seamus is the one student bold enough to voice what everyone is thinking, earning a personal rebuke from Lockhart.",
+      "film_portrayal": "The film reduces Seamus's role to a single identifying line ('Cornish pixies?') followed by an uncontrolled snort of laughter. Lockhart's rebuke is delivered to 'Mr. Finnegan' but the exchange is compressed: the book's back-and-forth dialogue (Seamus choking out the question, Lockhart waggling his finger) is collapsed into a brief beat with no verbal response from Seamus after the snort.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film preserves the core beat (Seamus laughs, gets called out) but loses the specific wit of Seamus's spoken scepticism. His character reads as a giggler rather than someone sharp enough to articulate the absurdity of the situation. Minor damage since the essential moment survives."
+    },
+    {
+      "scene": "Film Scene 2 (Lockhart classroom): Seamus and Dean's reaction during the quiz",
+      "book_baseline": "Book Scene 6 establishes that Seamus Finnigan and Dean Thomas, sitting in front, were 'shaking with silent laughter' at Lockhart's self-aggrandisement during the quiz review \u2014 a small but character-consistent moment of shared irreverence that marks Seamus as someone who sees through pomposity.",
+      "film_portrayal": "The film does not show Seamus or Dean reacting to the quiz results. The camera focuses on Lockhart circulating papers and Ron whispering to Harry. Seamus and Dean's shared laughter at Lockhart's narcissism is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but consistent characterisation beat is lost. Seamus's sceptical, irreverent attitude toward authority figures is part of what makes him distinct from background Gryffindors. Its absence is minor but contributes to a thinner characterisation overall."
+    },
+    {
+      "scene": "Film Scene 1 (Greenhouse Three, Scene 40): Seamus comments on detention",
+      "book_baseline": "The book does not feature this specific exchange; the greenhouse scene in the book does not open with Seamus and Neville greeting Harry and Ron about their detention. The film invents a brief comic exchange where Seamus says 'That must be some kind of record.'",
+      "film_portrayal": "The film gives Seamus a quippy one-liner commenting on Harry and Ron's detention on the first day. This is an invented moment not present in the book corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is actually a net neutral or slight positive: the film invents a line consistent with Seamus's book characterisation as a lively, commenting presence. It is not damaging, and therefore scores no meaningful damage. Noted for completeness but not counted as a damaging entry \u2014 exposure and impact are listed minimally as this entry is borderline and included only for transparency. No real damage."
+    },
+    {
+      "scene": "Film Scene 1 (Greenhouse Three, Scene 40): Seamus clarifies Neville has fainted",
+      "book_baseline": "The book does not contain this specific exchange in the provided corpus. In the film, Seamus tells Professor Sprout 'No, ma'am. He's just fainted.' This is an invented line.",
+      "film_portrayal": "Seamus is given a brief functional line clarifying Neville's state to Professor Sprout. It is consistent with his character but has no book basis in the provided corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Invented line that is not damaging \u2014 it is consistent with the character. No damage scored."
+    },
+    {
+      "scene": "Film Scene 1 (Great Hall lunch, Scene 41): Seamus announces the Howler",
+      "book_baseline": "Book Scene 23-24 shows Seamus as excited and engaged \u2014 beckoning Harry, Ron, and Hermione over to the noticeboard about the Dueling Club, expressing genuine enthusiasm ('I wouldn't mind dueling lessons'). He is proactive and socially central. The Howler scene in the book (not in the provided book corpus for this beat) has Ron receiving the Howler in the Great Hall.",
+      "film_portrayal": "The film gives Seamus the line 'Heads up, everyone. Weasley's gotten himself a Howler.' This is an invented moment that casts Seamus as an announcer drawing attention to Ron's humiliation \u2014 a slightly different social register than his book characterisation as an enthusiastic peer rather than a commentator on others' misfortune.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Seamus calling out Ron's Howler to the room has a faintly cruel or at least indifferent edge that is absent from his book characterisation. In the books, Seamus is enthusiastic and warm toward his housemates. The film makes him more of a detached announcer of embarrassment. Damage is minor but represents a small voice/tone shift."
+    },
+    {
+      "scene": "Film Scene 2 (Dueling Club, Scene 70): Seamus absent from dueling partner pairing",
+      "book_baseline": "Book Scene 27-29 explicitly establishes that Snape partners Ron with Finnigan ('Weasley, you can partner Finnigan') and that after the duels, Ron is 'holding up an ashen-faced Seamus, apologising for whatever his broken wand had done.' This is a specific, characterised moment: Seamus is visibly affected by Ron's malfunctioning wand, and the pairing is named by Snape.",
+      "film_portrayal": "The film's dueling club scene (Scene 70) shows the Harry/Malfoy duel and the snake incident but does not show the Ron/Seamus pairing or its aftermath. Seamus is visible in the crowd reacting to the Parseltongue incident (his eyes 'glitter with fear') but his specific role as Ron's dueling partner and the comedy/consequence of Ron's broken wand on him is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Ron/Seamus pairing is a small but genuine characterisation and relationship moment. It shows Seamus as an active participant rather than a background reactor, and it gives Ron's broken wand a concrete victim beyond himself. The film's omission reduces Seamus from a participant in the scene to a spectator. It also removes a moment that demonstrates the friendly, if chaotic, dynamic among the Gryffindor boys."
+    },
+    {
+      "scene": "Film Scene 2 (Dueling Club aftermath, Scene 70/71): Seamus's fearful reaction to Parseltongue",
+      "book_baseline": "Book Scene 6/Scene 9/Scene 12 establish Seamus as someone who shares irreverence and laughter with Harry's world. While the book also shows students becoming suspicious of Harry, there is no specific corpus evidence in the provided text of Seamus's individual fearful reaction being called out.",
+      "film_portrayal": "The film script (Scene 70) explicitly notes: 'Seamus and Neville's eyes glitter with fear' after Harry speaks Parseltongue. Scene 71 further notes 'Even Seamus, Neville, and Dean Thomas walk by without a word' when Harry returns to the common room.",
+      "damage_type": "relationship altered",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film makes Seamus's fear and withdrawal from Harry explicit and visually flagged. While the book also depicts schoolwide suspicion of Harry, singling out Seamus by name for fearful glittering eyes and a cold shoulder walk-past specifically damages the warmth of their dormitory-mate relationship. In the books, the suspicion of Harry is more diffuse; the film directs it specifically at Seamus, making him a named participant in Harry's social isolation. This is a moderate relationship-level damage."
+    },
+    {
+      "scene": "Film Scene 3 (Gryffindor Common Room announcement, Scene 108): Seamus's line about school closure",
+      "book_baseline": "Book Scene 37 establishes Seamus's reaction to the threat of exams continuing during the crisis: 'Exams? howled Seamus Finnigan. We're still getting exams?' This shows Seamus as someone whose primary register is irreverent frustration at institutional impositions \u2014 a comic but characterful response. Book Scene 20 also shows Seamus engaging substantively with the Chamber of Secrets lore in Binns's class.",
+      "film_portrayal": "In Scene 108, when McGonagall announces the school may close, Seamus's line is: 'They can't close Hogwarts. Where would we all go?' This is a worried, practical reaction \u2014 understandable but it strips away the irreverent, almost comic register the book gives Seamus in moments of institutional crisis, replacing it with generic anxiety.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film's Seamus reacts with generic worried practicality rather than the book's sharp, irreverent wit. The line is not wrong for the character but it is blander than the book Seamus, who would be more likely to register the absurdity of the situation than plain fear. Minor voice damage."
+    },
+    {
+      "scene": "Film corpus overall: Absence of Seamus's engagement in History of Magic (Chamber of Secrets lore)",
+      "book_baseline": "Book Scene 20-21 shows Seamus asking a substantive, intelligent question in Binns's class: 'But, sir, if the Chamber can only be opened by Slytherin's true heir, no one else would be able to find it, would they?' This establishes Seamus as intellectually engaged, not merely comic, and as someone who thinks through the implications of the Chamber's legend.",
+      "film_portrayal": "The film replaces the History of Magic scene entirely with McGonagall delivering the Chamber of Secrets exposition in Transfiguration (Scene 62). Seamus is not present in this scene and his intellectually curious question to Binns is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The loss of Seamus's History of Magic question removes one of the clearest indicators in the book corpus that Seamus is more than comic relief \u2014 he is a curious, thoughtful student who engages with the mystery. The film's Seamus is primarily reactive (laughing, commenting, fearing) rather than proactive and intellectually present. This contributes to a flatter characterisation overall."
+    },
+    {
+      "scene": "Film corpus overall: Absence of Seamus pretending to vomit at Snape's praise of Malfoy",
+      "book_baseline": "Book Scene 35 establishes that Seamus was 'pretending to vomit into his cauldron' when Snape praised Malfoy \u2014 a moment of silent, physical, perfectly-timed irreverence that Snape fortunately misses. It is one of the book's clearest comic-character moments for Seamus.",
+      "film_portrayal": "This moment does not appear in the film corpus. The Potions class scene with Snape praising Malfoy is not represented in the provided film corpus with Seamus's reaction.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This is one of the most vivid and character-specific Seamus moments in the book corpus \u2014 it demonstrates his irreverence, his physical expressiveness, and his shared sensibility with Harry and Ron about Snape and Malfoy. Its absence means the film loses a moment that would have distinguished Seamus from generic background Gryffindors and made him memorable in his own right."
+    },
+    {
+      "scene": "Film Scene 2 (Divination class, tea leaves) \u2014 Seamus mishears 'Grim' as 'Grin'",
+      "book_baseline": "Book Scene 4-5: Seamus is depicted as an engaged, curious participant in Divination \u2014 tilting his head, genuinely trying to interpret the tea leaves, offering his own reading ('it looks like a Grim if you do this... but it looks more like a donkey from here'). He is attentive and participatory, not confused about basic terminology.",
+      "film_portrayal": "Seamus mishears 'Grim' as 'Grin' and has to be corrected by Parvati ('Not the grin, you idiot. The Grim.'). This frames him as dim and inattentive rather than an engaged student offering genuine interpretations.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "This invented line is the most damaging single moment in the film for Seamus's character. After his OotP arc of doubting Harry and then coming around, having him shout down Neville's defiance in the final battle contradicts his established redemption. It makes him look cowardly or defeatist at the worst possible moment, which is inconsistent with both his book characterisation and his own film arc."
+      "explanation": "The book's Seamus is an active, curious participant who forms his own tea-leaf readings and engages earnestly with the lesson. The film replaces this with a comedic buffoon moment \u2014 mishearing a basic word \u2014 that reframes him as the class dunce. This is a consistent pattern of flattening Seamus into comic relief at the cost of his established personality."
+    },
+    {
+      "scene": "Film Scene 3 (Boggart lesson) \u2014 Seamus's boggart beat is omitted; his only contribution is identifying it as a Boggart in a hushed voice",
+      "book_baseline": "Book Scenes 15-20: Seamus has a full, triumphant Boggart scene. He is called out by Lupin ('Seamus!' roared Professor Lupin), darts forward, faces a banshee, and successfully defeats it with 'Riddikulus!' \u2014 rendering the banshee voiceless. He then celebrates loudly afterward ('Did you see me take that banshee?'). This is a moment of genuine competence, confidence, and characterization.",
+      "film_portrayal": "Seamus's only role in the Boggart scene in the film corpus is whispering 'That's a Boggart, that is.' in a hushed, slightly awed voice. His full turn at the Boggart \u2014 the banshee, the successful spell, the triumphant boasting \u2014 is absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The Boggart scene is Seamus's single largest moment of competence and agency in Book 3. He faces a fear, casts successfully, and celebrates with peers \u2014 it defines him as brave, capable, and socially confident. Reducing him to a single hushed identification line strips him of his only real action beat in the story, significantly diminishing his presence and agency."
+    },
+    {
+      "scene": "Film Scene 5 (Sir Cadogan portrait) \u2014 Seamus's line reduced to 'He's barking mad!'",
+      "book_baseline": "Book Scene 29: Seamus voices frustration directly and articulately to Percy: 'He's a complete lunatic. Can't we get anyone else?' This shows him as opinionated, socially assertive, and willing to address authority figures.",
+      "film_portrayal": "Seamus's line becomes the throwaway exclamation 'He's barking mad!' directed at no one in particular. The substance of challenging the situation (can't we get someone else?) is transferred to Neville, who explains the reason. Dean Thomas provides the contextual explanation about the Fat Lady.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor individually, but consistent with a pattern of reducing Seamus's lines to simple comic exclamations. His assertive, opinionated voice in the book is softened into a one-note reaction line. The agency of questioning the situation is redistributed to other characters."
+    },
+    {
+      "scene": "Film Scene 6 (Firebolt reveal) \u2014 Seamus asks 'Can I have a go, Harry? After you, of course'",
+      "book_baseline": "Book Scene 38: Seamus's reaction to Harry's Quidditch victory is 'Good for you, Harry!' \u2014 enthusiastic, warm, and celebratory of Harry specifically. In the Firebolt delivery context (Book Scene 32-36), Seamus is contextually present (Crookshanks jumps onto his empty bed) but the excitement is communal.",
+      "film_portrayal": "Seamus's line 'Can I have a go, Harry? After you, of course' positions him as self-interested and slightly grabby around Harry's broom, quickly wanting to use Harry's property. While not hostile, it subtly reframes his enthusiasm as self-serving rather than genuinely celebratory of Harry.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The shift from warm celebration of Harry's achievement to wanting a turn on his broom is minor but represents a small erosion of the warmly supportive peer dynamic the book establishes between Seamus and Harry. Confidence is low given the limited corpus evidence for this specific comparison."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Seamus's line about Madame Maxime ('Blimey. That's one big woman.')",
+      "book_baseline": "Book Scene 23 establishes Seamus as curious and engaged about the arriving schools, asking a genuine question about the size of Durmstrang's horses. His humor in the books is warm and social, rooted in Irish pride and camaraderie (Scenes 3, 28, 31).",
+      "film_portrayal": "Seamus's only substantive line during the Beauxbatons arrival is a crude, oafish remark about Madame Maxime's size, reducing him to a single joke with no personality depth.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book Seamus is sociable, enthusiastic, and witty in a group context. This single reductive line is his primary characterization moment in the film's early sections, replacing his warmth and national pride with a cheap gag that misrepresents his voice."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Seamus's line about Moody ('No way. The old codger can see out the back of his head.')",
+      "book_baseline": "Book Scene 21 shows Seamus as a passive recipient of Moody-related gossip (Ron recounts what Moody did to someone on April Fools' Day). Seamus participates in classroom humor organically (Scene 18). He is not positioned as a skeptic or comic commentator on Moody.",
+      "film_portrayal": "Seamus delivers a brief skeptical/comic line about Moody's magical eye seeing out the back of his head, which is his other prominent line in the film's first act.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but combined with the Maxime line, Seamus's entire film characterization in the early acts is built on two throwaway comic one-liners, neither of which reflects the book's portrait of him as a loyal, enthusiastic Gryffindor with genuine personality."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Seamus walking alongside Ron; his only appearance in the 'Potter Stinks' sequence",
+      "book_baseline": "Book Scene 34 places Seamus standing with Ron and Dean during the Potter Stinks badge controversy. Book Scene 37 shows Ron sitting with Dean and Seamus rather than Harry, illustrating the social pressure and the fracture in Harry's friendships. Seamus is part of the peer group dynamic around Harry's isolation.",
+      "film_portrayal": "Seamus is briefly visible walking with Ron but has no lines or reactions during the Potter Stinks sequence. His role in the social fracture around Harry is entirely absent.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses Seamus, Dean, and Ron as a social unit whose passive distancing from Harry illustrates the real cost of the tournament controversy. Seamus's presence as a silent background figure removes his contribution to this relationship texture."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Seamus's line about blowing things up ('It's not like I try to blow things up, exactly. It just happens a fair bit.')",
+      "book_baseline": "The book corpus does not establish Seamus as someone who accidentally causes explosions. His defining traits in the corpus are Irish national pride (Scenes 3, 6, 10), social humor (Scenes 13, 16, 18, 28, 31, 40), loyalty as part of the Gryffindor dormitory group, and genuine emotional reactions (Scene 53). The 'blowing things up' trait is not present in this corpus.",
+      "film_portrayal": "Seamus delivers an unprompted aside about accidentally blowing things up and finding fire fascinating, presented as his self-defining quirk.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This line reduces Seamus's character to a single running gag (pyromania/accidental explosions) that has no basis in the provided book corpus. It supplants the richer book characterization \u2014 enthusiastic, proud, socially integrated \u2014 with a reductive comic trait that defines him for the rest of the film series."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Ron's convoluted message chain ('Ronald would like me to tell you that Seamus told him that Dean was told by Parvati...')",
+      "book_baseline": "Book Scene 21 shows Seamus as someone Ron overhears talking with Moody; Seamus is a genuine peer and social participant. The book does not depict Seamus as a node in a ridiculous rumor chain used for comic relief at Harry and Ron's expense.",
+      "film_portrayal": "Seamus is named as part of an absurd telephone-game message chain (Seamus told Ron, who told Hermione, etc.) that Ron later admits was entirely fabricated. Seamus functions as a comic plot device in a reconciliation scene between Harry and Ron.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Seamus is used as a named peg in a joke about Ron's social ineptitude, with no agency or presence of his own. His name invoked purely for comic structure rather than genuine characterization is symptomatic of the film's overall reduction of him to a background utility figure."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Ron whispers to Seamus during the Yule Ball dance lesson",
+      "book_baseline": "Book Scene 58-61 places Seamus, Dean, Ron, Neville, and Harry as a dormitory unit who dress together and attend the ball together. Seamus is socially integrated and present (Scene 61 notes Seamus and Dean waving and sniggering at Harry on the dance floor). The book Seamus is part of the social fabric of the event.",
+      "film_portrayal": "Seamus is briefly visible as the recipient of a whispered aside from Ron during McGonagall's dance lesson, with no lines or individuated reaction. His only other Yule Ball-adjacent moment is functional background presence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's Yule Ball sequence gives Seamus a date (Lavender, per Scene 50), dormitory camaraderie, and a social presence on the dance floor. The film collapses all of this to near-invisibility, losing the group dynamic of the Gryffindor boys."
+    },
+    {
+      "scene": "Film Scene 5/6 \u2013 Second task: Seamus's lines reduced to functional crowd commentary ('What's the matter with him?' / 'Well done!')",
+      "book_baseline": "Book Scene 40 shows Seamus engaging substantively with Harry about the golden egg mystery, offering a specific (if wrong) interpretation that it might be a banshee. Scene 53 shows Seamus responding with sleepy concern when Harry wakes from a nightmare. These moments establish him as an attentive, engaged peer who interacts directly with Harry.",
+      "film_portrayal": "In the second task sequence, Seamus has two brief crowd lines: 'What's the matter with him?' (when Harry is choking on gillyweed) and 'Well done!' after Harry finishes. He is functionally indistinguishable from any anonymous spectator.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book establishes a low-key but consistent peer relationship between Seamus and Harry \u2014 Seamus notices Harry, engages with him, and shows concern. The film reduces this to generic crowd noise, eliminating the texture of Harry's dormitory peer relationships."
+    },
+    {
+      "scene": "Order of the Phoenix - Dormitory confrontation (Harry/Seamus argument)",
+      "book_baseline": "The book establishes a sustained, multi-beat dormitory confrontation in which Seamus is conflicted, evasive, and ashamed - he avoids Harry's eye, makes a meal of straightening his poster, and only gradually discloses his mother's position. He asks genuinely about what happened with Cedric, showing lingering doubt rather than pure hostility. He raises his fists but does not throw the first verbal punch; the argument escalates through mutual provocation. His voice is 'measured' and nervous before turning heated. He is a fully rounded figure who likes Harry but is caught between loyalty and his mother's fear.",
+      "film_portrayal": "The film condenses the scene drastically. Seamus delivers his grievance almost immediately and directly ('Let me see, uh, because of you. The Daily Prophet's been saying a lot of things...'), with none of the evasiveness, shame, or measured reluctance the book takes pains to establish. The multi-beat build-up - the poster-straightening, the back-turned avoidance, the nervous incremental disclosures - is gone. Seamus comes across as a more straightforwardly confrontational accuser rather than a friend torn between love for Harry and deference to his mother.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's careful staging of Seamus's shame and reluctance is his most detailed characterisation in the entire series. Collapsing it into a blunt accusation strips the nuance that makes the scene sympathetic rather than purely adversarial, and misrepresents Seamus's voice as direct and confrontational rather than conflicted and embarrassed."
+    },
+    {
+      "scene": "Order of the Phoenix - Dormitory confrontation (absence of Neville's defence of Harry)",
+      "book_baseline": "After the argument, Neville explicitly and publicly sides with Harry against Seamus: 'We believe Harry. My gran's always said You-Know-Who would come back one day. She says if Dumbledore says he's back, he's back.' This functions as a social verdict on Seamus's position within the dormitory and marks a key moment of Seamus being isolated in his doubt.",
+      "film_portrayal": "The 'Neville defends Harry' scene is listed as a cut scene and must be treated as absent from the theatrical film. The dormitory argument ends without this corrective beat, so the social/moral stakes of Seamus's position within the peer group are never dramatised.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Neville's intervention in the book contextualises Seamus's doubt as a minority position resisted by his closest dormitory peers. Without it, the film loses the social resolution of the argument and the sense that Seamus is being called out within his own community, which is important context for understanding the weight of his later apology."
+    },
+    {
+      "scene": "Order of the Phoenix - Morning after (Seamus leaving dormitory at speed / Harry's sardonic remark)",
+      "book_baseline": "The morning after the fight, Seamus dresses at top speed and leaves the dormitory before Harry has his socks on, and Harry calls after him sarcastically ('Does he think he'll turn into a nutter if he stays in a room with me too long?'). The book then tracks Seamus's ongoing avoidance through multiple scenes: he hands back Harry's essay without looking at him; he is noted as listening hard when Dean speaks to Harry; his expression is 'confused and defiant' when Ernie publicly supports Harry. This sustained cold-shoulder arc is a meaningful subplot.",
+      "film_portrayal": "None of this ongoing estrangement arc (morning avoidance, the essay hand-back, the 'confused and defiant' expression at Ernie's support) appears in the film corpus. The film cuts from the dormitory argument directly to Seamus's apology scene, with no intervening portrayal of the sustained rift.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book devotes several chapters to Seamus's cold treatment of Harry as a recurring atmospheric detail that reinforces Harry's isolation and the social cost of being disbelieved. Removing this arc means the apology arrives without adequate dramatic preparation, and the audience loses a sustained sense of how widespread and persistent the scepticism is within Harry's own peer group."
+    },
+    {
+      "scene": "Order of the Phoenix - Seamus's apology scene",
+      "book_baseline": "In the book, Seamus approaches Harry outside Transfiguration and mumbles his apology while squinting at Harry's left knee - a body language detail that shows he is still uncomfortable and somewhat embarrassed. The apology is brief and understated: 'I just wanted to say... I believe you. And I've sent a copy of that magazine to me mam.' The trigger is the Quibbler interview. The scene is quiet and private.",
+      "film_portrayal": "The film's apology ('Harry? I, uh, I wanted to apologize. Now even me mam says The Prophet's version of things don't add up. So, what I'm really trying to say is that I believe you.') occurs in a different staging context - it is placed after Hagrid's return scene rather than outside a Transfiguration class, and the specific Quibbler trigger and the detail of Seamus sending a copy to his mother are both absent. The apology is also slightly more verbally fluent and explanatory, lacking the awkward, evasive physicality the book establishes.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The loss of the specific Quibbler detail and the embarrassed physical staging slightly flattens the apology, making it feel more like a plot tick than a characterful moment of an ordinary teenager who is bad at admitting he was wrong. The damage is minor but real, as the book's version is more specifically earned and more true to Seamus's established voice."
+    },
+    {
+      "scene": "Order of the Phoenix - DA Patronus lesson (Seamus's Patronus attempt)",
+      "book_baseline": "In the book, Seamus attends DA meetings and is brought along by Dean. His Patronus attempt is recorded: 'Harry, I think I'm doing it! Look - ah - it's gone... but it was definitely something hairy, Harry!' - an excited, partial success that shows his engagement with the DA and his personality (the gentle joke on 'hairy/Harry'). His participation in the DA is meaningful given his prior scepticism: he has actively chosen to join Harry's side.",
+      "film_portrayal": "In the film corpus, Seamus is shown casting 'Expecto Patronum' in a DA lesson, which is consistent with his book participation. However, the specific 'definitely something hairy, Harry' line does not appear in the film corpus - he is shown casting wordlessly in the background during the Patronus lesson sequence. The comic, character-specific moment that showcases his humour and his relationship with Harry in the DA context is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The 'something hairy, Harry' line is the single moment in the entire series where Seamus's personality - his Irish humour and warmth - is most clearly on show in the DA context. Its absence is a minor but genuine loss of characterisation, particularly given that his personality/voice has already been compressed elsewhere."
+    },
+    {
+      "scene": "Order of the Phoenix - End-of-exams scene (Seamus and Dean invite Harry to celebration)",
+      "book_baseline": "Seamus and Dean hail Harry jovially and invite him to a dusk-till-dawn end-of-exams celebration, arguing about how many Butterbeers they need. This small beat is significant: it is the last glimpse of Seamus in the book and confirms the friendship is fully restored, with Seamus treating Harry as a regular mate again rather than maintaining any residual awkwardness.",
+      "film_portrayal": "This scene does not appear in the film corpus. There is no equivalent beat in which Seamus is shown treating Harry in a fully restored, easy, casual friendship. The film's final Seamus moment is his apology, leaving his arc incomplete - the audience never sees the friendship return to normalcy.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The absence of this closing beat means Seamus's redemption arc ends at the apology and is never confirmed as fully completed. In the book, the jovial invitation signals genuine social repair. Without it, Seamus's arc in the film lacks a proper closing beat and his relationship with Harry is left in a slightly unresolved state."
+    },
+    {
+      "scene": "Film Scene 1 (Quidditch tryouts montage) - Seamus sends Bludger into the stands",
+      "book_baseline": "The book establishes Seamus as a Gryffindor student with no meaningful role in Quidditch tryouts. In the book corpus, Seamus's Quidditch-adjacent moment is being disgruntled at not being chosen as Chaser (he was outflown by Dean at tryouts), suggesting he competed seriously but lost fairly. He is portrayed as someone with genuine competitive investment.",
+      "film_portrayal": "The film uses Seamus purely as slapstick comic relief during the tryouts montage: he sends a Bludger rocketing into the stands, scattering onlookers. He is the butt of the joke, reinforcing a reductive 'things blow up around Seamus' gag rather than any meaningful characterization.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Reduces Seamus to a one-note explosive comedy prop. While minor in isolation, it continues a film-wide pattern of flattening him to a single physical gag, stripping away the competitive, emotionally invested peer the book portrays. Low exposure keeps damage contained."
+    },
+    {
+      "scene": "Film Scene 2 (Great Hall, pre-Quidditch match) - Seamus's only spoken line",
+      "book_baseline": "The book corpus shows Seamus as a character with layered reactions: competitive frustration (sour about Dean's selection over him), social wit (the Apparition joke about his cousin Fergus), classroom engagement (asking Snape about Inferi), and genuine emotional investment in events around him. He is a peer with interiority.",
+      "film_portrayal": "Seamus appears briefly to say 'Counting on you, Ron. I've two Galleons on Gryffindor,' then immediately peels off. His entire characterization in this scene is reduced to a functional line that exists to build Ron's pre-match anxiety, with no personality, humor, or independent presence.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The line is not wrong in tone \u2014 Seamus would plausibly say this \u2014 but it exemplifies how the film deploys him only as a utility character to serve other characters' moments. His voice, wit, and interiority from the books are entirely absent. Damage is minor given brevity but confirms the pattern."
+    },
+    {
+      "scene": "Film Scene 3 (corridor scene) - Seamus sits in alcove laughing with Dean while Ginny looks on",
+      "book_baseline": "The book corpus establishes that Seamus and Dean's friendship is a genuine background dynamic, and that Seamus's relationship with Dean has a note of tension around Quidditch (Dean was chosen over Seamus). The book also shows Seamus refusing to leave Hogwarts after Dumbledore's death, demonstrating loyalty and courage independent of Dean.",
+      "film_portrayal": "Seamus appears wordlessly in an alcove, simply laughing with Dean. He is set dressing in a scene focused on the Ginny/Harry/Dean triangle. He has no independent presence; he exists to populate Dean's social world.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Seamus-Dean friendship is reduced to background visual texture. The book's richer dynamic \u2014 including Seamus's competitive frustration with Dean over Quidditch \u2014 is entirely absent. This is a minor but consistent reduction of Seamus to a supporting prop for other characters."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Wooden Bridge destruction sequence (cut from theatrical release)",
+      "book_baseline": "The book does not feature a bridge-destruction set piece, but Seamus is established as an active combatant throughout the Battle of Hogwarts, fighting alongside peers. The film corpus itself gives Seamus a significant functional role in the bridge scene \u2014 directing the demolition, showing initiative and expertise.",
+      "film_portrayal": "The bridge scene \u2014 in which Seamus leads the rigging of the wooden bridge with charges, demonstrates pyrotechnic competence, and delivers comic but characterful beats with Neville \u2014 was cut from the theatrical release. Per the exclusion notice, this material must be treated as absent. The scenes in the theatrical film that remain reduce Seamus to background presence.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The bridge sequence was the one theatrical moment where Seamus had meaningful agency, a defined skill set, and a comic personality. Its removal strips him of almost all individual function in the Battle of Hogwarts. What survives in the theatrical cut is a handful of background appearances and reaction shots, leaving his characterisation nearly hollow for the climactic film of the saga."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Room of Requirement reunion (Film Scene 4)",
+      "book_baseline": "In the book, Seamus greets Dean with 'a great roar of delight' and runs to hug his best friend when Dean and Luna arrive. He also asks eager, engaged questions: 'What were you after?' and 'What's the plan?' and responds substantively to Harry's vague mission briefing. His friendship with Dean is visibly warm and his enthusiasm is characterised as genuine investment in the resistance.",
+      "film_portrayal": "Seamus is reduced to two isolated quips: a background joke about Aberforth's cooking and the sardonic 'That's nothing to go on' in response to Harry's plan. His reunion with Dean is not shown. The warm, loyal friendship dynamic is absent. He functions as a wisecracking extra rather than an invested member of the DA with a defined best friendship.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book explicitly stages the Seamus-Dean reunion as an emotionally warm beat \u2014 'a great roar of delight.' The film omits this entirely despite Dean being present in the same scene. Their friendship, a consistent thread across the series, goes unacknowledged at the moment the books most visibly affirm it. This is a clear relationship-level loss."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Neville's speech / climactic confrontation (Film Scene 13)",
+      "book_baseline": "The book does not feature an equivalent to Neville's speech before pulling the sword from the Sorting Hat. In the book's equivalent moment, Seamus is part of the collective resistance. The corpus does not show Seamus opposing Neville's defiance.",
+      "film_portrayal": "In the film, when Neville begins his defiant speech to Voldemort, Seamus angrily shouts 'Stand down, Neville!' and physically tries to push forward to stop him, only being restrained by Ron. This portrays Seamus as someone who would capitulate to Voldemort and actively suppress Neville's resistance at the saga's most critical moment.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The book corpus establishes Seamus as a battered but committed resistance fighter who has been hiding in the Room of Requirement, enduring the Carrows' violence, and actively fighting in the Battle of Hogwarts. Having him call for surrender at the climactic moment of collective defiance directly contradicts this characterisation. It reads as cowardice or defeatism rather than the loyalty and courage the book has established. The moment is brief but occurs at the saga's emotional peak, making the mischaracterisation disproportionately damaging."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Dementor attack / Patronus rescue (absent from film corpus)",
+      "book_baseline": "The book corpus explicitly shows Seamus casting a Patronus \u2014 a silver fox \u2014 to drive off a hundred Dementors when Harry, Ron, and Hermione are overwhelmed. He arrives alongside Luna and Ernie, and Ron specifically thanks them: 'you just saved\u2014'. This is Seamus's single most heroic individual act across the entire saga: a difficult, emotion-dependent spell cast under extreme duress to save the protagonist.",
+      "film_portrayal": "This scene does not appear anywhere in the film corpus. There is no Patronus sequence in the provided film scenes. Seamus's most significant act of courage and magical skill in the books is entirely absent from the theatrical adaptation.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "Casting a corporeal Patronus to repel a hundred Dementors and directly save Harry, Ron, and Hermione is the most consequential thing Seamus does in the entire book series. Its complete omission from the film removes his highest-stakes moment of agency and his clearest demonstration of growth \u2014 a student who struggled with spells throughout early books now performing one of the hardest spells in existence under mortal pressure. This is arc-adjacent material and its loss is substantial."
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Battle of Hogwarts general presence (Film Scenes 11, 14, 15)",
+      "book_baseline": "The book corpus shows Seamus actively fighting Death Eaters in the Battle of Hogwarts, helping secure the Room of Requirement hideout, explaining its mechanics to Harry, and ultimately fighting through to the end. He is a participant with voice and presence throughout.",
+      "film_portrayal": "In the theatrical cut, Seamus appears as a named face in crowd shots (courtyard battle, Great Hall aftermath) and receives one line from Trelawney ('There's more to me than incense and tea leaves, Mr. Finnegan') that exists only to give Trelawney a punchline. His battle participation is entirely background. He has no fighting action shown, no line during combat, and appears in the post-battle Great Hall scene only as 'Dean and Seamus laugh together at a table' \u2014 a two-word mention.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Across the Battle of Hogwarts, Seamus's entire theatrical presence amounts to background crowd appearances and being the straight man for a Trelawney joke. With the bridge scene cut, this is all that remains. The cumulative effect is that a character who in the books is a named, active, courageous fighter is rendered cinematically invisible during the saga's climax."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 511.5,
-  "adjusted_cids_v1": 562.7
+    "model": "claude-sonnet-4.6",
+    "split": true,
+    "prompt_version": "2.1"
+  }
 }

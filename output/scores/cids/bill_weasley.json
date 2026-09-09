@@ -1,108 +1,98 @@
 {
   "character": "Bill Weasley",
-  "fp_score": 55.0,
-  "infidelity_score": 45.0,
-  "weighted_infidelity_exposure": 51.0,
-  "cids": 384.8,
-  "damage_per_exposure": 26.5,
+  "fp_score": 52.0,
+  "infidelity_score": 48.0,
+  "weighted_infidelity_exposure": 42.5,
+  "cids": 391.9,
+  "damage_per_exposure": 35.6,
   "structural_damage_level": 4,
-  "adjusted_cids": 384.8,
+  "adjusted_cids": 391.9,
   "main_damage_causes": [
-    "Complete absence from GoF and OotP films eliminates the foundational scenes that establish Bill's character, his relationship with Harry, his Order role, and his central arc moment (Greyback attack/hospital wing), leaving DH appearances without emotional grounding",
-    "Loss of the GoF hospital wing scene ('I'll go to Dad') removes Bill's single most plot-functional moment \u2014 the act that initiates the reconstituted Order \u2014 reducing him from an agent of the resistance to a background family member",
-    "The HBP omission of Bill's attack, scarring, and the Fleur declaration scene destroys his personal arc and the thematic parallel to Lupin/Tonks, making his scarred appearance in DH unexplained and his relationship with Fleur emotionally unearned for film audiences"
+    "Total absence of Bill's HBP arc (Greyback attack, Fleur's declaration, hospital wing resolution) eliminates his only character-defining storyline and the relationship payoff that gives DH1's Shell Cottage sequences their emotional grounding.",
+    "Omission from GoF's third task and hospital wing scenes removes the foundational moment where Bill is established as someone who loves Harry and acts decisively for him, without which his DH1 role at Shell Cottage has no relational weight.",
+    "Theatrical cut of the Shell Cottage goblin-warning scene removes Bill's sole functional contribution to the DH plot \u2014 his curse-breaker expertise on goblin ethics \u2014 reducing him from an irreplaceable mentor figure to an uninvested bystander during the Gringotts arc."
   ],
   "damaging_scenes": [
     {
-      "scene": "DH Part 1 - Seven Potters / Privet Drive departure",
-      "book_baseline": "Bill is introduced in GoF as a fully realized character: cool, long-haired, earring, dragon-hide boots, rock-concert clothes. His first appearance is a warm, confident handshake with Harry and easy banter. By DH he is a known quantity with established presence at the Burrow, Shell Cottage operations, and Order work.",
-      "film_portrayal": "Bill appears briefly in the crowd, scarred face noted by Fred/George ('Dead ugly'), and he introduces himself to Harry with 'Hello, Harry. Bill Weasley.' as if they have never met. The film treats this as a first introduction despite Harry knowing Bill since GoF.",
-      "damage_type": "relationship",
+      "scene": "Deathly Hallows Part 1 - Seven Potters / Privet Drive departure (Film Scene 4-5)",
+      "book_baseline": "In the book, Bill is introduced at the Burrow in GoF as a fully realized character: cool, long-haired, dragon-hide boots, fang earring, relaxed confidence. By DH, he is a seasoned curse-breaker, an active Order member who left Egypt specifically to serve, and someone Harry has known and respected for years. His introduction in DH carries weight from that history.",
+      "film_portrayal": "The film introduces Bill for the first time here with only a brief self-introduction ('Hello, Harry. Bill Weasley.') and a one-liner about his scars and Greyback. He has had no prior screen presence in any earlier film, so this moment carries no accumulated relationship weight. The audience meets him as a stranger.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "Because the films omitted Bill from GoF's third task and hospital wing scenes, from OotP's Order scenes, and from HBP's Shell Cottage and Burrow sequences, he arrives in DH1 as a new face. The fraternal bond with Harry and the established Weasley-family dynamic that makes his role at Shell Cottage meaningful is absent. The audience has no reason to trust or care about him beyond the functional."
+    },
+    {
+      "scene": "Deathly Hallows Part 1 - Shell Cottage arrival / Dobby's death (Film Scene 14-15)",
+      "book_baseline": "In the book, Shell Cottage is Bill and Fleur's home, and Bill is a warm, capable host who takes charge: he tends the wounded, shows Harry where to dig the grave, manages the household under siege conditions, and serves as a trusted adult ally. His presence gives Harry a surrogate older-brother figure at a moment of grief and strategic crisis.",
+      "film_portrayal": "Bill appears briefly, observes Dobby's death from a distance, says 'Fleur's seeing to Ollivander. Anyone else need tending\u2014' and then recedes. He shows no particular warmth toward Harry, takes no leadership, and the scene moves immediately to the Griphook negotiation without establishing any meaningful relationship between Bill and the trio.",
+      "damage_type": "relationship | nuance/lost material",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The film collapses years of established relationship into a cold first-meeting handshake. The warmth, history, and family-elder dynamic Bill has with Harry is erased. The GoF visit to Hogwarts, the Burrow summers, the hospital wing vigil after the Third Task \u2014 all rendered invisible, making Bill feel like a stranger rather than a trusted near-family member."
+      "explanation": "The book's Bill at Shell Cottage is a grounding presence who helps Harry process Dobby's death and transition into the Gringotts mission. The film reduces him to a background figure with a functional line, losing the elder-brother dynamic that gives the Shell Cottage sequence its emotional texture."
     },
     {
-      "scene": "DH Part 1 - Burrow aftermath / Mad-Eye announcement",
-      "book_baseline": "After returning from the Seven Potters flight, Bill takes quiet command: he pours firewhisky, sends glasses to everyone with a wand flourish, proposes the toast 'Mad-Eye,' then immediately begins analytical reasoning about the betrayal question, demonstrating calm leadership under grief. He then volunteers without hesitation to go recover Mad-Eye's body.",
-      "film_portrayal": "Bill delivers the news 'Mad-Eye's dead' and 'Mundungus took one look at Voldemort and Disapparated' flatly, then recedes. The toast, the wand flourish, the analytical speech about why Mundungus couldn't have been the traitor, and the volunteering to recover the body are all cut. His voice breaks in the book ('Bill's voice broke') \u2014 emotional texture entirely absent.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "The book uses this scene to show Bill as the composed, capable eldest son who steps up in crisis \u2014 grief-stricken but functional, analytical, and brave enough to go back out into danger. The film reduces him to a news-delivery mechanism. His leadership function and emotional depth in the worst moment of the night are transferred to silence."
-    },
-    {
-      "scene": "DH Part 1 - Shell Cottage goblin warning scene",
-      "book_baseline": "Bill pulls Harry aside privately after Lupin's baby announcement, uses the festive moment as cover, and delivers a nuanced, expert warning about goblin notions of ownership \u2014 drawing on years of professional experience at Gringotts. He is perceptive enough to have deduced Harry is planning something with Griphook without being told. The scene establishes him as wise, worldly, and genuinely trying to protect Harry while respecting his autonomy.",
-      "film_portrayal": "The warning is compressed into a brief hallway exchange: 'I don't know what you're up to, but I know goblins. If you've struck any kind of bargain with Griphook, you must be exceptionally careful to live up to it. If you don't... he won't be forgiving.' No private moment, no depth about goblin philosophy of ownership, no demonstration of professional expertise, no emotional complexity.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book scene is one of Bill's finest moments \u2014 it shows his intelligence, his professional expertise, his perceptiveness, and his care for Harry. The film reduces it to a one-line caution that could have been delivered by any character. The loss of the goblin-ownership philosophy also damages the thematic setup for why Harry's promise to Griphook becomes morally fraught."
-    },
-    {
-      "scene": "DH Part 1 - Shell Cottage management / family evacuation",
-      "book_baseline": "Bill is the operational hub of Shell Cottage: he manages the overcrowded safe house, moves the Weasley family to Muriel's under Fidelius, acts as Secret-Keeper for the cottage, escorts Ollivander to safety, monitors Griphook, lends Harry a tent, and keeps watch over the trio's planning with quiet concern. He is shown as the de facto head of the resistance cell.",
-      "film_portrayal": "Bill is present at Shell Cottage but his operational role is largely invisible. The family evacuation, the Fidelius arrangements, the Ollivander escort, and his role as Secret-Keeper are either cut or mentioned only in passing dialogue. He functions as a background presence rather than an active organizer.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "A significant portion of Bill's DH function \u2014 as the competent, quietly heroic eldest son holding the resistance together from Shell Cottage \u2014 is invisible in the film. Audiences have no sense of the cost he is bearing (can't work, family in hiding, cottage overrun) or the leadership he is providing."
-    },
-    {
-      "scene": "GoF - Hospital wing vigil / 'I'll go to Dad'",
-      "book_baseline": "After Fudge refuses to believe Voldemort has returned, Bill immediately stands up and says 'I'll go to Dad' \u2014 volunteering to act as the link between Dumbledore and Arthur Weasley at the Ministry. He then claps Harry on the shoulder, kisses his mother, and strides out. It is a moment of decisive, brave action at a critical juncture.",
-      "film_portrayal": "This entire scene \u2014 Bill's vigil in the hospital wing, his presence during the Fudge confrontation, and his decisive action \u2014 does not exist in the films. GoF ends without Bill appearing at all.",
-      "damage_type": "agency/function",
+      "scene": "Deathly Hallows Part 1 - Shell Cottage parlor / goblin warning (Film Scene 17 - CUT SCENE)",
+      "book_baseline": "Bill pulls Harry aside privately after Lupin's visit to warn him about goblin notions of ownership and the danger of breaking a promise to Griphook. This scene establishes Bill's unique expertise as a Gringotts curse-breaker, his genuine care for Harry, and his moral seriousness. It is a key moment of adult mentorship and foreshadows the sword-of-Gryffindor betrayal.",
+      "film_portrayal": "This scene was cut from the theatrical release per the non-theatrical exclusion note. Bill delivers only a brief, truncated warning in the parlor scene ('Listen, I don't know what you're up to, but I know goblins. If you've struck any kind of bargain with Griphook, you must be exceptionally careful to live up to it. If you don't... he won't be forgiving.') without the full explanation of goblin ownership philosophy, and the private, intimate quality of the book exchange is lost entirely.",
+      "damage_type": "agency/function | nuance/lost material",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "This is Bill's single most important plot-functional moment in the entire saga. His decision to go to Arthur is the first act of the reconstituted Order of the Phoenix. Losing it means the audience never sees Bill as an agent of the resistance, only as a background family member. His courage and decisiveness at the saga's turning point are entirely absent."
+      "explanation": "The cut scene removes Bill's most important functional contribution to the plot: contextualizing goblin ethics and preparing the audience to understand why Harry's betrayal of Griphook matters morally and narratively. Without the full warning, the Gringotts heist and its aftermath lose thematic grounding. Bill's specialized expertise \u2014 the one thing that makes him irreplaceable at this story moment \u2014 is excised, reducing him from a meaningful mentor to a background family member."
     },
     {
-      "scene": "GoF - Hogwarts visit / morning walk with Harry",
-      "book_baseline": "Bill and Mrs. Weasley attend the Third Task as Harry's family. Bill spends a morning walking the grounds with Harry, reminiscing about Hogwarts ('Haven't seen this place for five years'), asking about Sir Cadogan and the Fat Lady, giving Harry a sense of being cared for. He is warm, curious, and treats Harry as a genuine family member.",
-      "film_portrayal": "Bill does not appear in the GoF film at all. The Third Task family visit is cut entirely.",
-      "damage_type": "relationship",
-      "exposure": 2,
+      "scene": "Deathly Hallows Part 1 - Announcing Mad-Eye's death (Film Scene 7)",
+      "book_baseline": "In the book, Bill returns from the battle, delivers the news of Mad-Eye's death with controlled grief, offers a toast, reasons through the question of betrayal methodically ('I know what you're thinking... But Mundungus can't have betrayed us'), and then immediately volunteers to accompany Lupin to recover Mad-Eye's body. He is composed, analytical, and courageous under pressure.",
+      "film_portrayal": "Bill announces Mad-Eye's death flatly ('Mad-Eye's dead. Mundungus took one look at Voldemort and Disapparated.') and then recedes. The toast, the reasoning about the betrayal, and the volunteering to recover the body are all absent. He speaks two sentences and disappears from the scene's emotional center.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The GoF visit is the foundation of Bill and Harry's personal relationship. Without it, their interactions in DH lack emotional grounding. The audience has no basis for understanding why Harry trusts Bill, why Bill's warning carries weight, or why Bill's presence at Shell Cottage feels like safety rather than obligation."
+      "explanation": "The book uses this moment to show Bill's leadership qualities: he manages the room's grief, performs rational analysis under emotional stress, and acts with courage by going back out into danger. The film strips all of this, leaving only the information delivery. His character voice \u2014 calm, competent, brave \u2014 is lost at the one scene where the film gives him a clear dramatic function."
     },
     {
-      "scene": "HBP - Bill's attack by Greyback / hospital wing / Fleur's declaration",
-      "book_baseline": "Bill is savaged by Greyback during the Death Eater attack on Hogwarts. The hospital wing scene is one of the most emotionally rich in the series: Mrs. Weasley's grief, Fleur's fierce declaration of love, the reconciliation between the two women, Tonks using it as a mirror for her own situation with Lupin. Bill's scarred face and wolfish tendencies afterward are established.",
-      "film_portrayal": "This scene does not occur in the HBP film. Bill does not appear in HBP at all. His attack, his scarring, and the entire hospital wing emotional climax are absent. His scars are simply present in DH with a brief retroactive explanation.",
-      "damage_type": "arc",
-      "exposure": 3,
-      "impact_weight": 5,
-      "explanation": "This is the most structurally damaging omission. The Greyback attack and its aftermath is Bill's central arc moment \u2014 it establishes his scars, his wolfish traits, his relationship with Fleur as genuinely tested and triumphant, and provides the thematic parallel to Lupin/Tonks. Without it, Bill's scarred appearance in DH is unexplained to casual viewers, Fleur's devotion lacks its earned emotional payoff, and the Lupin/Tonks subplot loses its mirror. The entire HBP emotional climax around Bill is simply gone."
-    },
-    {
-      "scene": "OotP - Grimmauld Place / Order meeting introduction",
-      "book_baseline": "Bill is working a desk job in London specifically to be near the Order. He is shown in serious discussion with Mr. Weasley and Lupin about goblin politics \u2014 demonstrating professional expertise and strategic thinking. He hastily rolls up secret parchments when Harry arrives, showing he is trusted with sensitive Order intelligence.",
-      "film_portrayal": "Bill does not appear in the OotP film.",
-      "damage_type": "agency/function",
-      "exposure": 2,
+      "scene": "Deathly Hallows Part 1 - Wedding reception (Film Scene 10)",
+      "book_baseline": "The wedding is a culmination of the Bill-and-Fleur arc established across HBP: Mrs. Weasley's acceptance of Fleur, Fleur's devotion to Bill despite his scars, the family's joy. Bill dances with Fleur as the emotional heart of the celebration, representing hope and love persisting amid war. The book reader has watched this relationship develop from Bill's injury through Fleur's fierce declaration in the hospital wing.",
+      "film_portrayal": "Bill and Fleur dance briefly and are visible in the background. The scene has no dialogue or focus on them as a couple. The audience has no prior film investment in their relationship \u2014 HBP's hospital wing scene (Fleur's 'It would take more zan a werewolf') was not in the provided film corpus \u2014 so the wedding is emotionally hollow as a Bill-and-Fleur moment.",
+      "damage_type": "relationship | arc",
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "OotP establishes Bill as an active, committed Order member with professional expertise in goblin relations \u2014 directly relevant to DH. His absence means the audience has no context for why he is trusted with Shell Cottage operations or why his goblin warning to Harry carries authority."
+      "explanation": "Because the films did not adapt HBP's key Bill-and-Fleur scenes (the injury, Fleur's declaration, the family reconciliation), the wedding carries none of the emotional payoff it should. For a film audience, Bill and Fleur are simply a couple at a wedding, not the culmination of a hard-won love story tested by violence and prejudice."
     },
     {
-      "scene": "DH Part 2 - Battle of Hogwarts",
-      "book_baseline": "Bill arrives at Hogwarts with Fleur as part of the assembled Order and allies. He is present in the Room of Requirement, gently but firmly tells Ginny she cannot fight ('You can't do this. Everyone underage will have to leave, it's only right'), and fights in the battle. He is part of the family group around Fred's body at the end.",
-      "film_portrayal": "Bill is listed among those who emerge in the Great Hall and is briefly visible in the battle, but his specific action of addressing Ginny about staying is cut. His presence is largely that of a background figure in crowd shots.",
-      "damage_type": "personality/voice",
+      "scene": "Deathly Hallows Part 2 - Battle of Hogwarts, Great Hall (Film Scene 23)",
+      "book_baseline": "During the battle, Bill fights alongside his family and is present in the hospital wing aftermath attending to the dead. He is part of the collective Weasley grief over Fred. In the larger narrative he has been a full participant in the Order's resistance throughout DH.",
+      "film_portrayal": "Bill appears in the Battle of Hogwarts sequence (film scene 19, listed among those arriving at Hogwarts, and scene 23 in the Great Hall) purely as background. He has no lines, no individual actions, and no distinct presence in the climactic battle. He is visually present but narratively invisible.",
+      "damage_type": "nuance/lost material | agency/function",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The Ginny moment is a small but characteristic beat \u2014 Bill as the responsible eldest, balancing love for his sister with hard necessity. Its absence is minor but consistent with the film's pattern of reducing Bill to a visual presence rather than a character with voice and judgment."
+      "explanation": "A character who in the books has been an active Order operative, who moved his whole family into hiding, who served as Harry's host and counselor, is reduced to a face in the crowd during the saga's climax. The accumulated damage of his absence throughout the film series means there is nothing for the battle to pay off."
+    },
+    {
+      "scene": "Goblet of Fire - Third task / hospital wing (absent from film corpus)",
+      "book_baseline": "Bill attends the third task with Mrs. Weasley as Harry's surrogate family. After Cedric's death and Voldemort's return, Bill is present in the hospital wing alongside Mrs. Weasley, visibly shaken and protective of Harry. He volunteers immediately to carry Dumbledore's message to Mr. Weasley ('I'll go to Dad. I'll go now'), showing courage, loyalty, and decisive action in a moment of crisis. This is the first time the audience sees Bill as a person who loves Harry.",
+      "film_portrayal": "Bill does not appear in the GoF film at all. The hospital wing scene is absent. Mrs. Weasley attends the task alone (or not at all in the film's version), and the post-Voldemort-return sequence does not include Bill.",
+      "damage_type": "relationship | agency/function | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is the single most damaging absence in Bill's film adaptation. His GoF hospital wing role establishes his relationship with Harry, his decisiveness, his place in the Order, and his emotional bond with his family under genuine threat. Without it, every subsequent scene at Shell Cottage in DH lacks foundation. The audience never sees Bill choose Harry; they only see him hosting him."
+    },
+    {
+      "scene": "Half-Blood Prince - Bill's injury and Fleur's declaration (absent from film corpus)",
+      "book_baseline": "Fenrir Greyback mauls Bill, leaving him permanently scarred with wolfish tendencies. Fleur's declaration ('What do I care how he looks? I am good-looking enough for both of us') resolves the Mrs. Weasley / Fleur tension and establishes their relationship as genuine and tested. Bill himself, waking to find his personality essentially unchanged despite contamination, shows quiet courage. This arc defines Bill's character in HBP.",
+      "film_portrayal": "HBP does not appear in the film corpus, and there is no evidence this arc was adapted. Bill's scars are mentioned in DH1 (he references Greyback in his introduction) but the dramatic context \u2014 the attack, the hospital scene, Fleur's speech, the family's reaction \u2014 is absent.",
+      "damage_type": "arc | relationship | nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is Bill's defining arc in the entire book series. It shows him as a victim of the war who loses something permanent yet retains his essential self; it redeems Fleur as a character; it moves Mrs. Weasley; it foreshadows the themes of bodily transformation and loyalty that run through DH. Its complete absence from the films means Bill has no arc whatsoever \u2014 he exists in DH1 only as a functional set piece, with scars that carry no earned dramatic weight."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
+    "exposure_estimate": "Medium",
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 2295.0,
-  "adjusted_cids_v1": 3442.5
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }
