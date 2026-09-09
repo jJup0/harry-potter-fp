@@ -36,15 +36,15 @@ CIDS = (100 - FP) * log2(1 + WIE) * (1 + SDL/8)
 
 - **100 - FP** is the infidelity score.
 - **WIE** (Weighted Infidelity Exposure) sums exposure times impact weight over every damaging scene
-  the LLM identifies. It is unbounded - a protagonist with 140 damaging scenes reaches WIE 435.
+  the LLM identifies. It is unbounded - a protagonist with 133 damaging scenes reaches WIE 364.
 - **log2(1 + WIE)** dampens that, so volume of screen time cannot dominate the ranking on its own.
-  Harry Potter's WIE of 435 contributes a factor of 8.77 rather than 435.
+  Harry Potter's WIE of 364 contributes a factor of 8.51 rather than 364.
 - **SDL** (Structural Damage Level, 1-5) rates how structurally important the deviations are, applied
   continuously as `1 + SDL/8` for a range of 1.125 to 1.625.
 
 The two rankings answer different questions and disagree sharply. FP is topped by minor characters
 who were adapted cleanly; CIDS is topped by characters whose flattening cost the story the most
-(currently Percy Weasley at 483.6, Kreacher at 429.6, Ginny Weasley at 391.3).
+(currently Ginny Weasley at 630.8, Kreacher at 442.4, Nymphadora Tonks at 441.8).
 
 The authoritative rubric is the one in the prompt, `src/scoring/prompts/scoring_prompt_3.txt`.
 `data/fp_rules.md` is the original client-supplied 4-dimension spec that it supersedes.
@@ -128,10 +128,10 @@ config.yaml               Model, thresholds, output exclusions
 |---|---|
 | Characters in registry | 213 |
 | Scored | 202 |
-| With film corpus, FP above 0 | 122 |
-| No film corpus, scored 0 | 80 |
-| With a CIDS score | 122 |
-| In the ranking reports | 120 |
+| With film corpus, FP above 0 | 141 |
+| No film corpus, scored 0 | 61 |
+| With a CIDS score | 141 |
+| In the ranking reports | 139 |
 | In the dashboard | 200 |
 
 Characters below `scoring.min_mentions` are not scored. Two entries are suppressed from all output
@@ -147,9 +147,13 @@ via `scoring.exclude_from_output`.
 - **Book 2 chapter headings.** The Chamber of Secrets source file has undetectable headings for
   chapters 7-8 and 13-18 (OCR artefacts). All text is present and scoring is unaffected, since
   paragraphs are processed regardless of chapter assignment.
-- **LLM judgement is not stable to the decimal.** Rescoring the same character can move the total by
-  a point or two. Treat small differences as noise; the bands are meaningful, the exact numbers are
-  not.
+- **LLM judgement is noisy, and the noise is measured.** Rescoring ten untagged characters with a
+  byte-identical prompt gave a mean delta of -0.10, a mean absolute delta of 3.7 points, and a
+  largest single move of 13 points. So the bands are meaningful and the exact numbers are not, and
+  any per-character difference smaller than roughly 5 points should be read as noise. Thin corpora are
+  the least stable: the 13-point mover has almost no book material. Small mean shifts across a group
+  of characters are also not interpretable - the deleted-scene rescore moved 44 characters by a mean
+  of -1.64, which is well inside this floor.
 
 Open bugs and data-quality problems are tracked as
 [GitHub issues](https://github.com/jJup0/harry-potter-fp/issues).
