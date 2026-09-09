@@ -1,0 +1,25 @@
+{
+  "character": "Prime Minister",
+  "fp_score": 10.0,
+  "infidelity_score": 90.0,
+  "weighted_infidelity_exposure": 0,
+  "cids": 0.0,
+  "damage_per_exposure": 0,
+  "structural_damage_level": 1,
+  "adjusted_cids": 0.0,
+  "main_damage_causes": [
+    "The film corpus contains no scenes depicting the Prime Minister character at all \u2014 the entire 'The Other Minister' chapter material is absent from the film adaptation",
+    "The film corpus is limited to a single scene from Deathly Hallows Part 1 (the Seven Potters preparation at Privet Drive), which contains no Prime Minister portrayal to score",
+    "Because the film corpus has no Prime Minister scenes, there is no unfaithful portrayal to measure \u2014 only absence, and absence of a peripheral POV chapter does not constitute scorable character damage under the rules"
+  ],
+  "damaging_scenes": [],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

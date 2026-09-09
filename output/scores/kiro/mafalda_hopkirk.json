@@ -1,27 +1,101 @@
 {
   "character": "Mafalda Hopkirk",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 16.0,
+    "narrative_role_agency": 13.0,
+    "motivations_internal_conflict": 10.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 67.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 16,
+      "narrative_role_agency": 13,
+      "motivations_internal_conflict": 10,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Mafalda Hopkirk exists solely through three written letters \u2014 formal, bureaucratic, impersonal, and procedurally correct. Her voice is that of an institutional functionary: she cites specific decrees and statutes by name and paragraph, enumerates offenses with clinical precision, and closes with the performatively cheerful 'Enjoy your holidays!' \u2014 a jarring incongruity that reveals an oblivious or indifferent bureaucratic personality rather than any malice. She never speaks directly. Her personality is entirely mediated through the register of official correspondence: rule-citing, impersonal, procedurally dutiful, and tone-deaf to emotional context. In the infiltration scene (Book 7), she is unconscious and passive \u2014 a body used as a disguise \u2014 and has no observable personality at all beyond what her ID card and Ministry tokens convey.",
+          "film_portrayal": "In the OotP film (Scene 1), Mafalda's letter is read aloud in voice-over as a direct address to Harry. The wording is condensed and simplified: the statute citations, paragraph references, and the jarring 'Enjoy your holidays!' are removed. The letter retains its expulsion threat but loses its bureaucratic texture. In the DH1 film (Scenes 2\u20136), Hermione impersonates Mafalda and speaks as her. The lines given to 'Mafalda Hopkirk/Hermione' \u2014 'You're somebody. Be careful,' 'Muggles. In their rightful place,' 'Try Finite Incantatem,' 'I don't like him being on his own down there,' 'You really have horrible teeth, you know that' \u2014 are all Hermione's character speaking through Mafalda's body. These lines reflect Hermione's concern, wit, and moral indignation, not anything derivable from the book Mafalda.",
+          "difference": "The book Mafalda has a precise, identifiable bureaucratic voice \u2014 formal register, statute citation, procedural cheerfulness. The film removes this texture in the OotP letter and then replaces her personality entirely in DH1 with Hermione's voice. There is no film moment where the real Mafalda's voice or personality is independently expressed.",
+          "penalty_logic": "The loss of the statute citations and 'Enjoy your holidays!' removes the only observable personality markers the book Mafalda has. This is a minor but real simplification. More significantly, all of the 'Mafalda' dialogue in DH1 is Hermione speaking, which means the film audience has no access to Mafalda's personality at all beyond the condensed letter. This warrants a score in the 14\u201317 range: the character remains recognizable as a Ministry functionary, but her defining voice texture is reduced (letter) or entirely absent (DH1).",
+          "evidence_status": "Directly evidenced for book baseline (letter text in corpus); directly evidenced for film OotP simplification (voice-over wording in Scene 1); reasonably inferred that DH1 dialogue is Hermione's rather than Mafalda's, based on the corpus stage directions explicitly labeling speakers as 'MAFALDA HOPKIRK/HERMIONE.'"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Mafalda Hopkirk serves two distinct narrative functions. First, as author of the expulsion/warning letters (Books 2, 5), she is the bureaucratic arm of the Ministry's surveillance apparatus \u2014 she is the mechanism by which the Ministry asserts control over underage magic. This function drives plot (the letters create stakes, expulsion threats, and institutional pressure). Second, in Book 7, she is a passive instrument: her identity is stolen so Hermione can infiltrate the Ministry. She has no agency in this scene; she is stunned and used.",
+          "film_portrayal": "In OotP (Scene 1), the letter retains its plot-driving function \u2014 it triggers Harry's expulsion threat, which is a key story beat. The film preserves this role. In DH1 (Scenes 2\u20136), Mafalda's role as the identity stolen for infiltration is preserved structurally. However, once Hermione assumes her form, all agency in those scenes belongs to Hermione. The real Mafalda is unconscious and offscreen.",
+          "difference": "The core narrative roles \u2014 Ministry enforcer via letter, and infiltration vehicle \u2014 are both present in the films. However, the DH1 book scene has Mafalda stunned backstage near a theater, while the film relocates the ambush to a street corner (Whitehall). This is a setting change with no meaningful impact on narrative function. The agency picture is the same in both media: Mafalda has none in the infiltration sequence.",
+          "penalty_logic": "The letter role is preserved with minor compression (one letter in OotP film vs. two letters across Books 2 and 5 in the books \u2014 the Book 2 letter is absent from the film corpus but that film handles the Dobby hover-charm scene differently and is outside this corpus). The infiltration role is structurally preserved. No agency is lost because Mafalda had no agency in the DH scene to begin with. Minor penalty for the OotP letter being the only surviving instance of the Ministry enforcement function, and for some compression of the letter's procedural detail that weakens the institutional weight of the role.",
+          "evidence_status": "Directly evidenced: both letter and infiltration functions appear in corpus. Directly evidenced: Mafalda is stunned and passive in both book and film infiltration scenes."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "The books offer no insight into Mafalda Hopkirk's internal motivations beyond what is implied by her role: she is a Ministry bureaucrat doing her job. There is no evidence of personal investment, ideological commitment, fear, ambition, or moral conflict. Her letters suggest procedural compliance rather than any discernible inner life. In Book 7, she is an unconscious body \u2014 motivations are entirely inaccessible.",
+          "film_portrayal": "The film provides no additional motivation. The letter is delivered and the character is stunned. No internal life is added or removed because none existed in the source material.",
+          "difference": "No meaningful difference. Neither medium provides access to Mafalda's internal motivations.",
+          "penalty_logic": "Since the books establish no motivations or internal conflict for this character, the films cannot be penalized for failing to show them. Full score would be inappropriate because the absence of motivation evidence means we cannot confirm faithfulness \u2014 only absence. The score reflects the neutral position: nothing to preserve, nothing lost, but also nothing to confirm. A middling score acknowledges the structural limitation.",
+          "evidence_status": "Not enough evidence in either corpus to evaluate internal motivation. Score is based on the shared absence of motivational material."
+        },
+        "character_arc": {
+          "book_baseline": "Mafalda Hopkirk has no arc. She appears in three letters across two books and is unconscious in her only physical appearance. There is no starting point, evolution, turning point, or resolution. Her arc is intentionally flat \u2014 she is a functional character, not a developmental one.",
+          "film_portrayal": "The film similarly presents no arc. She appears in a letter voice-over and is stunned for an infiltration sequence. No arc is introduced or implied.",
+          "difference": "No difference. Both book and film present a flat, arc-free character.",
+          "penalty_logic": "Per the scoring rules, a character can score full marks if their arc is flat in the books and flat in the films. This applies here. The score reflects the faithful preservation of flatness. Minor deduction only because the film's compression of the letter (OotP) removes one data point that might, in aggregate, have contributed to a slightly more textured institutional presence \u2014 but this does not constitute an arc change.",
+          "evidence_status": "Directly evidenced: no arc present in either corpus."
+        },
+        "key_relationships": {
+          "book_baseline": "Mafalda's only book relationships are institutional: she is in correspondence with Harry Potter (as a Ministry official addressing a rule-violator) and implicitly with the Ministry hierarchy she serves. There is no personal relationship, no emotional dynamic, no power balance of note beyond bureaucrat-to-subject. In Book 7, she has no relationship with the trio \u2014 she is a stranger they ambush.",
+          "film_portrayal": "In OotP, the letter relationship (Ministry-to-Harry) is preserved in function. In DH1, Hermione speaks as Mafalda and interacts with Harry and Ron \u2014 but these interactions express Hermione's relationships, not Mafalda's. The real Mafalda has no relationship with the trio in either medium.",
+          "difference": "The institutional relationship (Ministry enforcer to Harry) is preserved in OotP. In DH1, the film adds dialogue between 'Mafalda' and the trio, but this is Hermione speaking, not Mafalda \u2014 so no genuine relationship is added for the character herself. The DH1 book does not give Mafalda any dialogue or relationship with the trio either; she is simply stunned.",
+          "penalty_logic": "The only meaningful relationship \u2014 Ministry bureaucrat writing to Harry \u2014 is functionally preserved in OotP. The DH1 'relationship' dialogue belongs to Hermione, not Mafalda, so it neither adds nor subtracts from Mafalda's relational faithfulness. Minor penalty for the removal of the Book 2 letter, which was an additional instance of the same bureaucratic relationship but is absent from the film record in this corpus.",
+          "evidence_status": "Directly evidenced: institutional relationship preserved in OotP letter. Reasonably inferred: DH1 dialogue is Hermione's, not Mafalda's, based on corpus labeling."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Mafalda's complexity in the books is minimal but specific: the tonal incongruity of the bureaucratic letter \u2014 citing statutes by exact paragraph, threatening expulsion, and then signing off with 'Enjoy your holidays!' \u2014 is a subtle piece of characterization. It renders her not as a villain but as an oblivious institutional agent: someone so embedded in procedure that she cannot perceive the human cost of her correspondence. This is a small but texturally interesting detail. In Book 7, she contributes to the world-building of the Ministry as a place where individuals are reduced to tokens and ID cards.",
+          "film_portrayal": "The film removes 'Enjoy your holidays!' and the statute citations from the OotP letter. This eliminates the tonal incongruity that gave the book Mafalda her only distinctive nuance. In DH1, all dialogue attributed to her is Hermione's, so no book nuance survives. The Ministry infiltration scene preserves the ID card / tokens detail (corpus scenes 14\u201317 in books, scene 2\u20133 in films), which maintains some of the dehumanizing institutional texture.",
+          "difference": "The tonal incongruity ('Enjoy your holidays!') is lost. The statute citations that convey bureaucratic thoroughness are lost. What remains is functional identification of the character as a Ministry employee \u2014 recognizable but stripped of its only distinctive texture.",
+          "penalty_logic": "The loss of 'Enjoy your holidays!' and the statute detail is a genuine nuance loss: it was the one element that made Mafalda more than a plot device and gave her a faint but real personality. This is not a major flattening (the character was already simple), but it is the loss of the only material that complicated her. Score reflects noticeable simplification without major characterization damage.",
+          "evidence_status": "Directly evidenced: 'Enjoy your holidays!' and statute citations present in book corpus, absent from film corpus. Directly evidenced: ID card and tokens detail preserved in both corpora."
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Statute citations with specific paragraph references (Decree for the Reasonable Restriction of Underage Sorcery, 1875, Paragraph C; Section 13 of the International Confederation of Warlocks' Statute of Secrecy) removed from the OotP film letter",
+        "The closing 'Enjoy your holidays!' \u2014 the only tonal marker suggesting bureaucratic obliviousness \u2014 removed from the OotP film letter",
+        "The Book 2 warning letter (Hover Charm incident) has no corresponding film presence in the available corpus",
+        "All DH1 dialogue attributed to 'Mafalda Hopkirk' in the film is spoken by Hermione in disguise \u2014 none of it reflects the real Mafalda's voice, personality, or agency; it is effectively transferred to Hermione's characterization"
+      ],
+      "score_caps_applied": [
+        "Cap 4 considered (films preserve only broad identity, removing most of what defines book characterization): applied implicitly \u2014 the 'Enjoy your holidays!' tonal detail and statute citations are the defining book texture; their loss contributes to a score below 75",
+        "No hard cap mechanically applied because the character's book presence is so minimal that the remaining faithful material (institutional role, identity theft function) represents a substantial proportion of what was available to adapt"
+      ],
+      "key_observations": "Mafalda Hopkirk is a minor functional character whose book presence consists of three bureaucratic letters and one unconscious physical appearance. The films preserve her structural roles \u2014 Ministry enforcement letter and infiltration vehicle \u2014 but strip out the only nuance she possesses: the tonal incongruity of 'Enjoy your holidays!' and the precise statute citations that rendered her a recognizable type of oblivious institutional functionary rather than a mere name on a page. All DH1 dialogue ostensibly in her voice is actually Hermione's, meaning the film audience receives no independent characterization of the real Mafalda beyond a condensed and smoothed-over letter. The score of 67 reflects a character who is structurally recognizable and functionally preserved, but whose sole distinguishing textual texture has been removed. Confidence is medium throughout because the source material is so thin that evaluation requires interpretation of small details rather than broad behavioral patterns.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 2162,
+        "film_chars_sent": 15541,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },
   "meta": {
     "screen_time_minutes": 0,
     "book_mentions": 13,
-    "screenplay_words": 0,
+    "screenplay_words": 57,
     "book_words": 297
   }
 }

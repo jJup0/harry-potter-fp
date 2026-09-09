@@ -1,0 +1,62 @@
+{
+  "character": "Wilhelmina Grubbly-Plank",
+  "fp_score": 54.0,
+  "infidelity_score": 46.0,
+  "weighted_infidelity_exposure": 12.0,
+  "cids": 212.8,
+  "damage_per_exposure": 38.7,
+  "structural_damage_level": 2,
+  "adjusted_cids": 212.8,
+  "main_damage_causes": [
+    "Near-total absence from the film corpus beyond a single name-drop in Dumbledore's announcement, eliminating all characterisation, personality, and visual presence",
+    "Loss of all classroom scenes removes her professional competence, her distinct voice, and her function as a counterpoint to Hagrid that creates genuine dramatic tension",
+    "Loss of one-on-one interactions with Harry (Hagrid questions, Hedwig treatment) removes any sense of a relationship and her quiet reliability as a figure Harry can approach"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 Dumbledore's announcement at the start-of-term feast",
+      "book_baseline": "The book corpus establishes Grubbly-Plank as a physically distinct, brisk, competent presence who is seen arriving with a lantern to collect first-years (Book Scene 31-32), takes her seat at the staff table (Book Scene 40), and whose return prompts immediate anxious discussion among Harry and his friends about what it means for Hagrid (Book Scenes 37, 43-45). She is a recurring, physically present figure with her own characterisation: pipe-smoking, monocle-wearing, bouncing on the balls of her feet, gruff but fair.",
+      "film_portrayal": "Grubbly-Plank is introduced solely as a name in Dumbledore's announcement \u2014 'pleased to welcome back Professor Grubbly-Plank, who will be taking care of Magical Creatures while Professor Hagrid is on temporary leave' \u2014 with no physical presence, no characterisation, no scene of her collecting first-years, and no reaction scene establishing her as a figure of concern or interest. She exists only as a spoken name.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book corpus dedicates significant space to establishing Grubbly-Plank as a tangible, characterful presence whose return triggers anxiety about Hagrid and whose competence as a teacher is a recurring tension. Reducing her entirely to a name in an announcement strips her of all personality and physical distinctiveness, and removes the atmospheric beat of Harry noticing her at the staff table and the friends discussing what her reappearance means."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 absence of Grubbly-Plank collecting first-years at Hogsmeade Station",
+      "book_baseline": "Book Scenes 31-35 establish a specific scene: Grubbly-Plank's 'brisk female' voice calls out first-years at the station, she appears with a lantern, her 'prominent chin and severe haircut' are noted, and Harry says 'Where's Hagrid?' out loud. This scene functions to show her as a capable replacement and to trigger Harry's immediate worry about Hagrid.",
+      "film_portrayal": "This scene does not appear in the film corpus at all. There is no station arrival scene featuring Grubbly-Plank. Harry's concern about Hagrid's absence at arrival is never catalysed by seeing her take over Hagrid's specific duty.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The first-years scene is the primary moment where Grubbly-Plank's function as Hagrid's replacement is made concrete and where Harry's emotional relationship to Hagrid's absence is established visually and dramatically. Its absence means the audience never feels the specific jolt of 'someone else is doing Hagrid's job' that the book delivers at the very start of the school year."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 absence of Grubbly-Plank's Care of Magical Creatures lessons (Bowtruckles, unicorns, inspection scene)",
+      "book_baseline": "Book Scenes 46-76 contain multiple extended Grubbly-Plank lessons: the Bowtruckle class, Umbridge's inspection of her teaching, her brisk and competent answers to Umbridge about curriculum, her defence of Dumbledore ('Oh, yes, Dumbledore's excellent'), and her repeated deflection of Harry's questions about Hagrid ('Never you mind'). These scenes collectively build her as confident, professionally capable, politically savvy, and protective of Hagrid's privacy.",
+      "film_portrayal": "None of these scenes appear in the film corpus. Grubbly-Plank conducts no lessons visible to the audience, is not inspected by Umbridge, does not interact with Harry or the students in any classroom context.",
+      "damage_type": "personality/voice",
+      "exposure": 3,
+      "impact_weight": 2,
+      "explanation": "The bulk of Grubbly-Plank's characterisation in the book corpus comes from her classroom behaviour: her brisk efficiency, her fairness, her refusal to gossip about Hagrid, and her quiet competence under Umbridge's scrutiny. All of this is absent from the film corpus, leaving her a completely blank figure. The Umbridge inspection scene in particular ('Oh, yes, Dumbledore's excellent... jolly good') gives her a distinct voice and mild political courage that is entirely lost."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 absence of the Hedwig injury scene",
+      "book_baseline": "Book Scenes 78-90 show Harry actively seeking out Grubbly-Plank to treat his injured owl, finding her in the staff room smoking a pipe and reading the Daily Prophet, and her gruff but warm professional competence ('No problem... I should be able to sort this out'). She later returns Hedwig via Dobby. This scene shows her as someone Harry can turn to and trust with something he cares about.",
+      "film_portrayal": "This scene does not appear in the film corpus. Grubbly-Plank has no one-on-one interaction with Harry of any kind.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Hedwig scene is the one moment in the book corpus where Grubbly-Plank and Harry have a direct, warm interaction outside of the classroom dynamic. It humanises her and establishes that despite her brusqueness she is someone Harry can rely on. Its absence means the film's Grubbly-Plank has zero individual relationship with the protagonist."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

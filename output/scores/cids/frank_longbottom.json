@@ -1,0 +1,53 @@
+{
+  "character": "Frank Longbottom",
+  "fp_score": 59.0,
+  "infidelity_score": 41.0,
+  "weighted_infidelity_exposure": 4.5,
+  "cids": 126.0,
+  "damage_per_exposure": 63.0,
+  "structural_damage_level": 2,
+  "adjusted_cids": 126.0,
+  "main_damage_causes": [
+    "Frank Longbottom's defining act of resistance under torture \u2014 refusing to give information even as his wife was also tortured \u2014 is absent from the film corpus entirely, stripping him of the agency and courage that gives Neville's backstory its full emotional and thematic weight.",
+    "The dedicated trial scene that centers Frank and his wife as the moral anchor of the Death Eater convictions is replaced by a passing mention in Karkaroff's self-serving testimony, reducing their suffering to a plot convenience rather than a war atrocity with its own gravity.",
+    "The collapse of the emotional family disintegration (Barty Jr. pleading innocence, mother weeping) removes the radiating human cost of what was done to the Longbottoms, leaving their victimhood as a bare fact rather than a tragedy with consequences across multiple families."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film pensieve sequence \u2014 Karkaroff trial: Igor names Frank Longbottom and his wife as Cruciatus torture victims",
+      "book_baseline": "The book corpus establishes a full trial scene for the Lestranges and Barty Crouch Jr., in which Barty Crouch Sr. personally reads out the charges \u2014 that Frank Longbottom was captured and subjected to the Cruciatus Curse, and that his wife was also tortured when Frank would not yield information. This is a formal, structured proceeding with Crouch Sr. as the authoritative voice of the accusation, giving Frank and his wife's suffering institutional weight and narrative prominence.",
+      "film_portrayal": "In the film, Frank Longbottom and his wife are mentioned only incidentally as part of Igor Karkaroff's self-serving testimony during his own trial, used purely as leverage by Karkaroff to bargain for his release. The mention is brief and instrumental to Karkaroff's plot function, not to establishing the gravity of what happened to the Longbottoms. Frank and his wife are reduced to a name dropped in a deal-making context.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book corpus presents Frank Longbottom's torture as the solemn centerpiece of a dedicated trial, with Crouch Sr. formally enumerating the crimes against Frank and his wife in sequence. The film subsumes this into Karkaroff's trial as a throwaway accusation. The gravity and specificity of what happened to Frank \u2014 and what it means for Neville's backstory \u2014 is not given its own weight. Audiences receive no sense that Frank's suffering warranted its own proceedings or that it was a defining atrocity of the war."
+    },
+    {
+      "scene": "Film pensieve sequence \u2014 Barty Crouch Jr.'s confrontation with his father after sentencing",
+      "book_baseline": "The book corpus shows Barty Crouch Jr. screaming desperately to both his father and mother, pleading his innocence ('I didn't, I swear it. Father, don't send me back to the dementors'), and explicitly appealing to family bonds. The scene establishes a fractured family dynamic with emotional complexity: a son begging, a mother weeping and rocking, a father steamrolling over his own child's cries. Frank Longbottom's victimhood is the moral anchor of this family's destruction.",
+      "film_portrayal": "The film collapses Barty Jr.'s reaction to a brief confrontational exchange ('Hello, father.' / 'You are no son of mine.') after he is already restrained. There is no pleading, no protestation of innocence, no weeping mother, and no extended emotional breakdown. Barty Jr. is presented as defiant and sinister from the outset, erasing the ambiguity and the family tragedy that the book embeds around the Longbottom torture charges.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While this is primarily a Barty Crouch Jr./Sr. characterization issue, the loss of the emotional family disintegration scene removes context that magnifies the cost of Frank Longbottom's torture \u2014 it destroyed not just two Aurors but also a Ministry family. The condensed film version keeps Frank's suffering as a plot fact rather than a moral catastrophe with radiating consequences."
+    },
+    {
+      "scene": "Film pensieve sequence \u2014 absence of a dedicated Longbottom trial",
+      "book_baseline": "The book corpus presents a formal trial in which Frank Longbottom is the named victim at the center of the charges, with Crouch Sr. reading accusations in sequence: capture of Frank, Cruciatus on Frank, then Cruciatus on Frank's wife. This structure gives Frank agency as a named Auror whose resistance (he 'would not give information') is explicitly acknowledged.",
+      "film_portrayal": "The film shows only Karkaroff's trial in the pensieve. There is no separate trial for the Longbottom torturers. Frank and his wife are never shown as the subject of dedicated legal proceedings; their suffering is only referenced as a side-detail in another character's testimony.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Frank Longbottom's book portrayal includes a crucial detail: he 'would not give information' under the Cruciatus Curse, establishing him as an Auror of exceptional courage and moral fortitude. This act of resistance \u2014 which led to his wife also being tortured \u2014 is the defining characterization of Frank in the entire book corpus. The film's absence of a dedicated trial means this detail is never conveyed. Audiences have no basis for understanding Frank as an agent who chose defiance at catastrophic personal cost, which is the foundation of why Neville's arc carries the emotional weight it does."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

@@ -1,93 +1,91 @@
 {
   "character": "Rosier",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 14.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 9.0,
+    "total": 72.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 18,
+      "narrative_role_agency": 14,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 9,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Rosier is referenced in the books as a Death Eater who, when cornered by Aurors, chose to fight rather than surrender — suggesting a combative, defiant disposition. He is also named among Voldemort's loyal followers who traveled to Hogwarts to support him during his attempt to secure the DADA post, indicating personal devotion to Voldemort. He is not a POV character and has no direct dialogue; his personality is inferred entirely from third-party accounts.",
-          "film_portrayal": "Rosier does not appear in the film corpus at all.",
-          "difference": "The character is entirely absent from the films.",
-          "penalty_logic": "With zero film presence, no personality or voice can be evaluated. A score of 0 reflects absence, not a judgment of quality.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Rosier has no direct dialogue or observable behavior in the book corpus. He is referenced exclusively through third-party testimony: Sirius ticks him off a list of Death Eaters (GoF), and Karkaroff names him during his trial. Crouch confirms he is dead, having 'preferred to fight rather than come quietly' and having taken a piece of Moody with him in the struggle. The only personality inference the books support is reasonably inferred from that brief description: a combative, defiant Death Eater who chose violence over surrender. No voice, no direct speech, no emotional tone, no speech pattern is available. His characterization is entirely external and minimal.",
+          "film_portrayal": "In the film (GoF Pensieve sequence), Rosier is named by Karkaroff identically to the books, and Crouch confirms his death in nearly the same terms. Moody adds that Rosier 'took a piece of me with him.' Rosier has no voice, no appearance, and no direct characterization in the film either. He remains a name spoken by others.",
+          "difference": "No meaningful difference. Both book and film portray Rosier exclusively as a referenced name with no direct voice or personality display. The combative, defiant inference from Crouch's description ('preferred to fight') is preserved verbatim in the film.",
+          "penalty_logic": "There is no personality or voice to compare because neither the books nor the films give Rosier direct presence. The description that supports the only personality inference ('preferred to fight rather than come quietly') is faithfully reproduced. No penalty is warranted for faithfulness, but confidence is Low because there is almost no material to evaluate. Score is set at 18 (minor simplification band) rather than the top range only because the corpus offers no basis to confirm full preservation of any deeper traits \u2014 not because anything is demonstrably changed.",
+          "evidence_status": "Reasonably inferred"
         },
         "narrative_role_agency": {
-          "book_baseline": "Rosier serves a minor but structurally meaningful role: he is named by Karkaroff during the Pensieve trial scene as a bargaining chip, and Crouch's response establishes that Rosier died fighting Aurors. This contributes to worldbuilding around Voldemort's inner circle and the post-war reckoning. He is also named by Dumbledore as one of the Death Eaters who accompanied young Voldemort to Hogwarts, reinforcing the early formation of Voldemort's loyal circle.",
-          "film_portrayal": "Rosier does not appear in the film corpus.",
-          "difference": "His narrative function — as a named Death Eater in the trial scene and as part of Voldemort's early circle — is entirely absent.",
-          "penalty_logic": "No film presence means no narrative role or agency is conveyed. Score is 0 by absence.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "In the books, Rosier serves two distinct narrative functions. First, in GoF's Pensieve trial scene, he is named by Karkaroff as a Death Eater \u2014 a piece of testimony that fails to satisfy Crouch, because Rosier is already dead. This failure advances Karkaroff's desperation and motivates him to name more valuable targets (Rookwood, then Snape, then ultimately Barty Crouch Jr.). Second, in OotP, Sirius lists him among confirmed Death Eaters when briefing Harry on the old guard of Voldemort's followers. Third, in HBP, Dumbledore references 'Rosier' among the group of young Slytherins who awaited Voldemort's return at the Hog's Head when Voldemort sought the DADA post \u2014 establishing Rosier as part of Voldemort's inner circle during his Hogwarts era. This third function (HBP context) is entirely absent from the film corpus. The Moody detail (Rosier took a piece of him) adds texture to both Rosier's defiance and Moody's battle-scarred past.",
+          "film_portrayal": "In the film, Rosier's role is limited to the trial scene: named by Karkaroff, confirmed dead by Crouch, with Moody's note about the injury. This maps directly onto one of the three book functions. The OotP list reference and the HBP Hog's Head reference are absent from the film corpus entirely, though the OotP scene may simply not involve Rosier in the films.",
+          "difference": "The film preserves the Pensieve trial function faithfully. The HBP narrative function \u2014 establishing Rosier as part of Voldemort's youthful inner circle, adding historical depth \u2014 is absent from the film corpus. This is a meaningful reduction in narrative role, though it reflects a broader omission of HBP's memory sequences rather than a specific choice about Rosier.",
+          "penalty_logic": "The core trial-scene function is preserved. The HBP function is lost, reducing Rosier from a character with a small but multi-scene historical presence to a one-scene name-drop. This is a real agency/role reduction, though given that Rosier's agency was always minimal (he is always referenced, never present), the penalty is moderate rather than severe.",
+          "evidence_status": "Directly evidenced (trial scene); Reasonably inferred (HBP omission effect)"
         },
         "motivations_internal_conflict": {
-          "book_baseline": "No internal conflict or explicit motivation is established for Rosier beyond loyalty to Voldemort and a willingness to die rather than be captured. These are inferred from third-party accounts, not direct characterization.",
-          "film_portrayal": "Absent from films.",
-          "difference": "No motivations are conveyed in the films.",
-          "penalty_logic": "Score is 0 by absence.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "No motivations or internal conflict are directly established in any book scene. The only inferrable motivation is a willingness to fight rather than surrender to Aurors \u2014 suggesting loyalty to Voldemort or personal defiance \u2014 but this is not explored or developed. There is no internal conflict visible in the corpus.",
+          "film_portrayal": "The same absence applies. No motivation is stated or shown beyond the reference to fighting back.",
+          "difference": "No meaningful difference. The single motivation inference (defiant loyalty, willingness to fight) is preserved through Crouch's identical description.",
+          "penalty_logic": "Because neither book nor film establishes motivations or internal conflict, there is nothing to lose and nothing to penalize. The score is set in the middle of the 'simplified but still correct' range (11) to reflect that what little is present is faithfully reproduced, with Low confidence due to extreme scarcity of material.",
+          "evidence_status": "Reasonably inferred"
         },
         "character_arc": {
-          "book_baseline": "Rosier has no arc in the traditional sense. He is already dead by the time the books take place; his story is told entirely in retrospect. His 'arc' is a flat historical footnote: loyal Death Eater, fought Aurors, died, took a piece of Moody's nose with him.",
-          "film_portrayal": "Absent from films.",
-          "difference": "No arc is conveyed.",
-          "penalty_logic": "Score is 0 by absence.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Rosier has no arc in the conventional sense. He is dead before the story begins. All references are retrospective. His 'arc' is entirely historical: he was a Death Eater, was caught after Voldemort's fall, fought back against Aurors, and was killed. This is a flat, completed backstory, not a developing arc across the narrative.",
+          "film_portrayal": "The same backstory is conveyed in the film trial scene. His death, the circumstances of it, and the Moody injury detail are all present.",
+          "difference": "No arc exists in the books, and none is invented or removed in the films. The HBP addition of Rosier as a youthful Voldemort follower is absent from the film corpus, which would have added a minor historical arc dimension (from eager young follower to dead Death Eater), but this is minor given the character's scope.",
+          "penalty_logic": "Because Rosier's arc is intentionally flat and retrospective, and because what is established is faithfully reproduced, no significant penalty applies. The score is 13 (compressed but faithful) rather than 14\u201315 only because the HBP historical layer, which would have deepened the sense of his trajectory, is absent from the film corpus.",
+          "evidence_status": "Directly evidenced"
         },
         "key_relationships": {
-          "book_baseline": "Rosier's relationships are implied rather than dramatized: loyalty to Voldemort (part of his early inner circle), and an adversarial encounter with Moody (who lost part of his nose killing him). Neither relationship is developed with emotional depth.",
-          "film_portrayal": "Absent from films.",
-          "difference": "No relationships are conveyed.",
-          "penalty_logic": "Score is 0 by absence.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Three relationships are implied in the book corpus. (1) Rosier and Voldemort: he is a loyal Death Eater, part of the inner circle, and apparently part of the group of young Slytherins who gathered around Voldemort from his Hogwarts days (HBP). (2) Rosier and Moody: adversarial \u2014 they fought, Rosier was killed, but he wounded Moody in the process, suggesting a violent and consequential encounter. (3) Rosier and Karkaroff: associated Death Eaters, Karkaroff names him at trial in a way that implies familiarity ('there was Rosier... Evan Rosier'), though the relationship is not elaborated.",
+          "film_portrayal": "The Moody relationship (adversarial combat, Moody's injury) is preserved through Moody's line. The Karkaroff association is preserved through the naming scene. The Voldemort/inner circle relationship from HBP is absent from the film corpus.",
+          "difference": "Two of three relationships are preserved. The Voldemort youthful-inner-circle relationship, which adds historical depth to what Rosier meant to Voldemort's rise, is absent. This is a real loss but a minor one given the character's overall marginal status.",
+          "penalty_logic": "The most dramatically present relationship (Moody adversary) is faithfully reproduced. The Karkaroff association is preserved. The Voldemort historical bond is lost. This warrants a moderate penalty \u2014 not severe because the lost material is historically supplementary rather than definitionally central to Rosier as portrayed in the trial scene.",
+          "evidence_status": "Directly evidenced (Moody, Karkaroff); Reasonably inferred (Voldemort relationship from HBP)"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "The most distinctive detail about Rosier in the books is the Moody anecdote: Rosier chose to fight rather than surrender and wounded Moody in the process. This gives him a small but memorable texture — defiant, dangerous, not a passive follower. He is also placed among Voldemort's earliest loyalists. These details are minor but specific.",
-          "film_portrayal": "Absent from films.",
-          "difference": "All book-specific texture, including the Moody detail and the early-circle context, is lost.",
-          "penalty_logic": "Score is 0 by absence.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Rosier is not a complex character in the books. His complexity is entirely conveyed through the texture of his brief references: the defiant death (fighting rather than surrendering), the physical toll on Moody, Karkaroff's apparent genuine surprise at learning he is dead ('Dead?!' in the film mirrors a similar panic in the book), and the HBP detail placing him among Voldemort's earliest and most devoted followers. The richest detail is the Moody injury \u2014 it makes Rosier's death consequential, not merely administrative. The HBP Hog's Head scene adds the dimension of a young man who chose Voldemort early and voluntarily.",
+          "film_portrayal": "The film preserves the Moody injury detail, which is the most characterizing element available. The trial scene is faithful. The HBP dimension is absent.",
+          "difference": "The loss of the HBP Hog's Head scene removes the only material that gives Rosier a biographical arc and situates him as a willing early follower rather than simply a listed casualty. This is a real loss of nuance, though modest given how little was there to begin with.",
+          "penalty_logic": "The most distinctive available detail (Rosier cost Moody something, his death was not clean) is preserved. The loss of HBP material reduces what nuance existed. Score reflects noticeable but not severe simplification \u2014 the character remains as textured as the film's available context allows, but with one meaningful layer absent.",
+          "evidence_status": "Directly evidenced (trial scene); Reasonably inferred (HBP omission effect)"
         }
       },
       "confidence": {
         "global": "Low",
         "personality_voice": "Low",
-        "narrative_role_agency": "Low",
+        "narrative_role_agency": "Medium",
         "motivations_internal_conflict": "Low",
         "character_arc": "Low",
         "key_relationships": "Low",
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "Karkaroff naming Rosier during the Pensieve trial scene (GoF) — absent from films",
-        "Crouch's confirmation that Rosier died fighting Aurors rather than surrendering — absent from films",
-        "Moody's aside that Rosier 'took a bit of him with him' (the chunk of his nose) — absent from films",
-        "Dumbledore naming Rosier as one of the Death Eaters who accompanied young Voldemort to Hogwarts — absent from films"
+        "HBP: Rosier named among the group of young Slytherins (Nott, Muldber, Dolohov, Rosier) who awaited Voldemort at the Hog's Head when he sought the DADA post \u2014 establishing him as a willing early follower from Hogwarts days.",
+        "OotP: Sirius's list of known Death Eaters including Rosier, providing contextual grounding of who was confirmed active in Voldemort's first war \u2014 absent from the film corpus.",
+        "The HBP detail situating Rosier's loyalty as originating in his student years, giving his eventual death a biographical dimension, is absent from the films."
       ],
       "score_caps_applied": [
-        "No caps applied — score is 0 across all dimensions due to complete absence from the film corpus, not due to cap logic"
+        "No hard caps formally triggered. Total of 72 is consistent with a character whose core film portrayal (trial scene) is faithful, but whose multi-book presence is compressed to a single scene, with HBP material entirely absent. Cap 3 (above 75 if a core function is transferred) was considered but not applied because the HBP omission reflects scene absence rather than transfer to another character."
       ],
-      "key_observations": "Rosier is a minor background character in the books — referenced in third-party accounts, never appearing directly. He has no dialogue, no POV, and no developed arc. However, he does carry specific narrative texture: the detail of his defiant death and the wound he inflicted on Moody is memorable and characterizing. He is entirely absent from the film corpus provided. A score of 0 across all dimensions reflects this absence. Confidence is Low throughout because the book material itself is sparse, and the film material is nonexistent — making any comparative evaluation impossible. This is a case where 0 means 'not portrayed,' not 'badly portrayed.'",
+      "key_observations": "Rosier is an extreme edge case: a character with no direct presence, no dialogue, and no agency in either the books or the films, defined entirely by others' references to him. The film faithfully reproduces the only scene where he is meaningfully named (the GoF Pensieve trial), including the key detail of Moody's injury. The primary losses are the OotP contextual list reference and, most significantly, the HBP Hog's Head scene that placed Rosier among Voldemort's earliest voluntary followers \u2014 a detail that gives his Death Eater status biographical weight rather than mere retrospective categorization. Because Rosier's characterization was always minimal, these losses are real but proportionally limited. Confidence across all dimensions is Low due to the extreme scarcity of direct characterization material in both sources; the score of 72 reflects faithful reproduction of available material with meaningful but bounded losses from omitted book content.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 2303,
-        "film_chars_sent": 0,
+        "film_chars_sent": 8426,
         "aliases": [],
-        "corpus_hash": "29c71af28b7e",
         "corpus_version": "1"
       }
     }

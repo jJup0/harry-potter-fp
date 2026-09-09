@@ -2,80 +2,52 @@
   "character": "Angelina Johnson",
   "fp_score": 40.0,
   "infidelity_score": 60.0,
-  "weighted_infidelity_exposure": 18.5,
-  "cids": 353.5,
-  "damage_per_exposure": 54.4,
-  "structural_damage_level": 3,
-  "adjusted_cids": 353.5,
+  "weighted_infidelity_exposure": 4.5,
+  "cids": 184.5,
+  "damage_per_exposure": 92.2,
+  "structural_damage_level": 2,
+  "adjusted_cids": 184.5,
   "main_damage_causes": [
-    "Complete omission of the OotP captaincy arc, which is the only extended characterization Angelina receives across the entire book series",
-    "Consistent reduction to a silent background extra in Quiddting scenes, preventing any personality or voice from being established in earlier films",
-    "Loss of the GoF Triwizard entry scene, which is the only non-Quidditch moment showing her ambition and social warmth"
+    "Angelina's on-pitch agency is damaged in the PoA film by being struck by lightning and removed from play as a passive victim rather than an active competitor, inverting her book characterisation as a skilled, resilient Chaser.",
+    "Her self-possessed, appraising personality in the Yule Ball exchange is compressed and flattened in the GoF film, removing the small but defining moment of her evaluating Fred before agreeing.",
+    "The film corpora are extremely limited for Angelina \u2014 she is a secondary character with very few film scenes provided \u2014 meaning much of her book characterisation (captaincy arc in OotP, leadership under pressure, loyalty, confrontations with Harry) has no film representation at all in the corpus, leaving her overall adaptation presence thin."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - First Quidditch match (PS/SS)",
-      "book_baseline": "Angelina is introduced as a skilled, assertive Chaser who scores and is celebrated. Lee Jordan's commentary highlights her as 'an excellent Chaser' with personality. She is a named, active presence with agency on the pitch.",
-      "film_portrayal": "Angelina scores twice and is visible, but is entirely silent and undifferentiated from the other Chasers. She has no lines, no personality, and no distinct presence beyond being a body on a broom.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses this match to establish Angelina as a confident, capable player with a distinct identity. The film reduces her to a background extra, missing the first opportunity to characterize her."
-    },
-    {
-      "scene": "Film Scene 3 - Quidditch match in storm (PoA)",
-      "book_baseline": "In the book's storm match, Angelina is an active Chaser competing throughout. She is not struck by lightning; the Dementors cause Harry to fall. The match is a team effort with Angelina as a functioning participant.",
-      "film_portrayal": "A lightning bolt strikes Angelina's broom, setting it on fire, and she plummets to the pitch - used as a dramatic visual beat with no follow-up. She is treated as a prop for spectacle rather than a character.",
+      "scene": "Film Scene 3 (Prisoner of Azkaban Quidditch match) \u2014 lightning strikes Angelina Johnson's broom",
+      "book_baseline": "The book establishes Angelina as a skilled, assertive Chaser who scores, reacts with emotion (punching the air), endures physical fouls from Flint, and is never removed from play by external catastrophe during the Gryffindor vs Hufflepuff or Gryffindor vs Slytherin matches in PoA. Her book portrayal is one of competent, resilient agency on the pitch.",
+      "film_portrayal": "In Film Scene 3, a lightning bolt strikes the tail of Angelina Johnson's broom and it bursts into flames, causing her to plummet to the pitch. She is abruptly eliminated from the match by a random environmental event, rendered passive and helpless.",
       "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Angelina is used as a disposable visual casualty to heighten storm drama. The book never has this happen to her. It reduces her to a stunt object and removes her from the match entirely with no narrative acknowledgment."
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book never has Angelina removed from play by a spectacular accidental injury mid-match in PoA. Her removal here strips her of all on-pitch agency in a key scene, reducing her from a capable Chaser to a visual casualty. It damages the audience's perception of her competence, replacing active sporting skill with passive victimhood."
     },
     {
-      "scene": "Film Scene 4 - Yule Ball ask (GoF)",
-      "book_baseline": "Fred calls across the common room to Angelina. She gives him 'an appraising sort of look,' says 'All right, then' with a grin, and turns back to her conversation - confident, unbothered, and in control of the exchange. Her reaction shows self-possession and dry humor.",
-      "film_portrayal": "Fred throws a note at Angelina. She reads it, laughs, and agrees. The exchange is played as a quick comedic beat. Her appraising look and composed self-possession are absent; she is a punchline to Fred's joke rather than an equal participant.",
+      "scene": "Film Scene 4 (Goblet of Fire) \u2014 Fred passes note and asks Angelina to the Yule Ball",
+      "book_baseline": "The book (Scene 71\u201378) establishes the Yule Ball exchange as spontaneous and characterful: Fred casually shouts across the common room, Angelina gives him 'an appraising sort of look' and replies 'All right, then' before turning back to Alicia with 'a bit of a grin on her face.' Angelina's response is cool, confident, and slightly amused \u2014 she is in control of the situation and unbothered.",
+      "film_portrayal": "In Film Scene 4, Fred throws a note at Angelina and shouts 'Oi, Angelina?' across the room, she responds 'What?' and 'To the ball?' \u2014 her reply 'Yeah, all right' is delivered but with noticeably reduced characterisation. The exchange is compressed and Angelina's appraising, self-possessed quality is not conveyed; she becomes a passive recipient of the invitation rather than someone who evaluates and chooses.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's version establishes Angelina as someone who evaluates Fred on her own terms and agrees from a position of confidence. The film's note-throwing gag strips her of that composure and makes her reactive rather than self-possessed."
+      "explanation": "The book's Angelina is self-possessed and quietly confident even in this throwaway moment \u2014 she assesses Fred before agreeing. The film reduces this to a brief transactional exchange, losing the small but telling character beat that shows her composure and autonomy. It is a minor but real flattening of her voice."
     },
     {
-      "scene": "Film - Entire OotP arc absent",
-      "book_baseline": "In OotP, Angelina is Gryffindor Quidditch Captain - a major recurring role. She manages the team with authority, confronts Harry repeatedly over detentions, shows stress and vulnerability, apologizes when she's been too hard, fights Umbridge's ban, recruits replacement players, and leads the team through a difficult season. This is her most substantial characterization across the entire series.",
-      "film_portrayal": "Angelina has no named presence or lines in the OotP film. Her captaincy, her relationship with Harry, her leadership arc, and her emotional journey through the Umbridge year are entirely absent.",
-      "damage_type": "arc",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "This is the core of Angelina's character. Her OotP arc shows her as a complex leader - demanding, fair, stressed, self-aware, and resilient. Losing it entirely means the film never develops her beyond a background Chaser, eliminating her only substantial narrative function and all meaningful characterization."
-    },
-    {
-      "scene": "Film - GoF Triwizard entry absent",
-      "book_baseline": "Angelina enters her name in the Goblet of Fire, arrives in the Great Hall grinning with pride, announces it to Harry, Ron, and Hermione, and receives warm support from Hermione and Fred. When Harry is chosen instead, she swoops down on him with a mix of disappointment and Gryffindor loyalty. This shows her ambition, courage, and social warmth.",
-      "film_portrayal": "Angelina's Triwizard entry is not depicted. She has no scene around the Goblet, no announcement, no reaction to Harry being chosen.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This scene is one of the few moments in the books where Angelina's ambition and personality are shown outside Quidditch. Its absence removes a dimension of her character and a moment of genuine warmth between her and the main trio."
-    },
-    {
-      "scene": "Film - Battle of Hogwarts appearance absent",
-      "book_baseline": "Angelina is present in the Room of Requirement during the Battle of Hogwarts, listed among returning allies including Oliver Wood, Katie Bell, and Alicia Spinnet - confirming she fought for Hogwarts.",
-      "film_portrayal": "Angelina has no identifiable presence in the Battle of Hogwarts sequence.",
+      "scene": "Film Scene 1 (Philosopher's Stone Quidditch match) \u2014 Angelina's role in the match",
+      "book_baseline": "Book Scenes 5\u201311 establish Angelina as the standout Chaser who scores first, is praised by Lee Jordan as 'an excellent Chaser,' flies with skill and speed, and is mentioned repeatedly throughout the match as a key player driving Gryffindor's attack.",
+      "film_portrayal": "Film Scene 1 shows Angelina scoring and is credited by Lee Jordan ('Angelina Johnson scores!'), and she is shown passing with Katie Bell. Her contribution is present but minimal and brief \u2014 she scores once visibly and then fades from focus. The commentary does not include the extended praise ('what an excellent Chaser that girl is') and her repeated scoring runs are not dramatised.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor absence, but it removes the closing confirmation of her loyalty and courage. Low weight given the crowded ensemble nature of the battle."
+      "explanation": "The film does credit Angelina with a score and names her, so this is minor. However, the book's repeated emphasis on her excellence and the commentary's extended praise establishes her as a standout talent from the very first match. The film's compression loses that early characterisation, making her a background player rather than a highlighted performer. Impact is low because she does appear and score."
     }
   ],
   "confidence": {
-    "global": "High",
-    "exposure_estimate": "High",
-    "impact_assessment": "High"
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1110.0,
-  "adjusted_cids_v1": 1387.5
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

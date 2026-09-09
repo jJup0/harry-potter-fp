@@ -2,53 +2,61 @@
   "character": "Charlie Weasley",
   "fp_score": 61.0,
   "infidelity_score": 39.0,
-  "weighted_infidelity_exposure": 14.5,
-  "cids": 192.8,
-  "damage_per_exposure": 42.8,
+  "weighted_infidelity_exposure": 13.0,
+  "cids": 185.6,
+  "damage_per_exposure": 46.4,
   "structural_damage_level": 2,
-  "adjusted_cids": 192.8,
+  "adjusted_cids": 185.6,
   "main_damage_causes": [
-    "Charlie's only plot-functional moment (resolving the Norbert crisis) is reassigned to Dumbledore, eliminating his sole demonstration of competence and agency in the first film",
-    "His richest characterization scene across the entire series (dragon enclosure in Goblet of Fire) is cut entirely, leaving him as a name only",
-    "Across all three films he appears in the corpus, Charlie is consistently reduced to an expository reference rather than a present, speaking character, preventing any personality from registering with film audiences"
+    "Charlie's most substantial narrative function \u2014 the Norbert rescue coordination \u2014 is attributed to Dumbledore rather than to him, erasing his agency and the family-bond dynamic",
+    "Charlie's richest characterisation scene (dragon enclosure, GoF) is collapsed into a single expository line from Hagrid, removing all personality, professional competence, and concern for Harry",
+    "Charlie is consistently reduced to a plot label ('the dragon brother in Romania') with no emotional texture, eliminating the sibling-legacy pressure that is central to Ron's characterisation in the early books"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film 1 - Ron mentions Charlie offhandedly to explain his absence at Christmas",
-      "book_baseline": "Charlie is established as a legendary Quidditch captain who 'could have played for England,' a benchmark Harry is measured against, and someone Hagrid specifically asks after with warmth. His Romania work is a recurring point of pride and family identity.",
-      "film_portrayal": "Charlie is mentioned only as the reason Ron's parents are away ('my parents decided to go to Romania to visit my brother, Charlie. He's studying dragons there') - a throwaway plot device to explain why Ron stays at Hogwarts, with no personality, warmth, or characterization attached.",
+      "scene": "Film Scene 1 (PS) \u2014 Ron mentions Charlie's Romania trip only as a reason his parents changed holiday plans",
+      "book_baseline": "Book establishes Charlie as a significant presence in the Weasley family identity: Ron describes him as former Quidditch captain, a benchmark Harry is compared to favourably ('Charlie Weasley couldn't have done it'), and a figure whose legacy weighs on Ron ('a lot to live up to'). Charlie is woven into Ron's sense of family pride and inadequacy.",
+      "film_portrayal": "Charlie is reduced to a throwaway expository line: Ron mentions his parents are visiting Charlie in Romania purely to explain why he is staying at Hogwarts for Christmas. No sense of Charlie's legacy, Ron's complicated feelings about living in his brothers' shadows, or Charlie's stature is conveyed.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The mention is purely functional. The book uses this same beat to reinforce Charlie's identity and Ron's family pride; the film strips it to logistics."
+      "impact_weight": 2,
+      "explanation": "The film strips the Romania mention of all emotional texture. In the book this context feeds Ron's inferiority complex and establishes Charlie as a genuine benchmark figure. The film treats it as logistical scene-setting only, eroding the sibling-legacy theme."
     },
     {
-      "scene": "Film 1 - Norbert subplot: Charlie's role reduced to an offscreen destination",
-      "book_baseline": "Charlie is the active solution to the Norbert crisis. Harry proposes sending Norbert to Charlie specifically, Charlie writes back with a detailed plan, his friends fly in on broomsticks at midnight, and Harry and Hermione personally hand Norbert over. Charlie's network, competence, and care are all demonstrated. He is a named, present participant in the plot.",
-      "film_portrayal": "Hagrid simply states 'Dumbledore sent him off to Romania to live in a colony.' Charlie is not named in this context, not contacted, not involved. The entire correspondence arc, the midnight tower handoff, and Charlie's friends are cut. Charlie has zero agency or presence in resolving the subplot.",
+      "scene": "Film Scene 2 (PS) \u2014 Ron identifies the Norwegian Ridgeback by breed and references Charlie, but agency for the Norbert resolution is implicitly handed to Dumbledore",
+      "book_baseline": "Books establish that Harry, Ron, and Hermione devise the plan to contact Charlie, Ron writes the letter, Charlie replies with specific instructions, and Charlie's friends personally collect Norbert from the Astronomy Tower \u2014 a small but meaningful chain of agency involving Charlie as a competent, caring older brother solving a crisis for the trio.",
+      "film_portrayal": "Hagrid simply states 'Dumbledore sent him off to Romania to live in a colony.' Charlie's role in arranging Norbert's rescue \u2014 the letter exchange, the midnight handover, the coordinated plan \u2014 is entirely absent. Charlie's friends are gone. The resolution is attributed to Dumbledore's administrative authority rather than Charlie's fraternal intervention.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Charlie's active function in the Norbert plot \u2014 demonstrating competence, family bonds, and being someone the trio can rely on \u2014 is completely erased. This removes a defining moment of Charlie's usefulness to the narrative and collapses a multi-beat sequence into one line, also diminishing the trio's own agency in engineering the solution."
+    },
+    {
+      "scene": "Film Scene 2 (PS) \u2014 Ron identifies the breed ('That's not just a dragon. That's a Norwegian Ridgeback. My brother Charlie works with these in Romania') but this is the extent of Charlie's characterisation in the entire film",
+      "book_baseline": "Book corpus shows Charlie described in physical detail (stocky, weather-beaten, burn on his arm), with a warm personality, quidditch legacy, dragon expertise treated with reverence by Hagrid, and a caring relationship with his family. He is a fully sketched supporting character.",
+      "film_portrayal": "Charlie exists only as a name Ron drops to identify a dragon breed. No personality, no physical presence, no relationship dynamics are established in the film corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Charlie is reduced to a functional label \u2014 'the dragon brother' \u2014 with no characterisation. While a minor character need not be fully developed, his complete absence as a person rather than a reference degrades the Weasley family texture."
+    },
+    {
+      "scene": "Film Scene 3 (GoF) \u2014 Hagrid mentions Charlie helped bring the dragons from Romania but Charlie does not appear in the dragon enclosure scene",
+      "book_baseline": "Book Scene 154\u2013172 (GoF) shows Charlie personally present at the dragon enclosure: he briefs Hagrid on the breeds, expresses genuine concern for Harry ('I didn't dare tell Mum'), shows professional authority over his keeper colleagues, has warm banter with Hagrid, and flags Madame Maxime's presence as a security concern. It is an extended, characterful scene establishing Charlie as competent, warm, and loyally protective of Harry.",
+      "film_portrayal": "Charlie's presence at the enclosure is reduced to Hagrid's line: 'His brother Charlie helped to bring him over from Romania.' Charlie does not appear on screen in the film corpus for this scene. All his dialogue, professional authority, concern for Harry, and relationship with Hagrid are absent.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "In the books this is Charlie's most substantial plot function in Philosopher's Stone - he is the competent, connected older brother whose expertise solves a real problem. The film reassigns the resolution to Dumbledore as an offscreen administrative act, erasing Charlie's only meaningful action in the story and replacing his characterization (dragon expert with useful contacts) with a blank."
-    },
-    {
-      "scene": "Film 4 - Hagrid mentions Charlie brought the dragons but Charlie does not appear",
-      "book_baseline": "Charlie is physically present at the dragon enclosure. He briefs Hagrid on the breeds, expresses genuine concern for Harry ('I didn't dare tell Mum... she's already having kittens'), jokes with Hagrid ('Really romantic date, Hagrid'), warns about the Horntail's danger, and after the task rushes to tell Harry he tied for first and that he's sending their mother an owl. He is warm, competent, protective, and funny across multiple exchanges.",
-      "film_portrayal": "Charlie is mentioned by Hagrid ('His brother Charlie helped to bring him over from Romania') but does not appear on screen. All his dialogue, his concern for Harry, his humor, his post-task congratulations, and his emotional connection to the family are absent.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This is Charlie's richest scene in the entire book series. His physical presence, professional authority over the dragons, and personal warmth toward Harry establish him as a fully realized character. The film reduces him to a name dropped in exposition, losing the relationship dimension (Charlie worrying about Harry like a surrogate older brother) and his only extended characterization across all seven books."
+      "explanation": "The book's dragon enclosure scene is Charlie's richest moment in the entire saga: he demonstrates expertise, warmth, family loyalty, and plot-relevant function (managing the task's secrecy). Replacing his active presence with a second-hand reference from Hagrid strips him of his most important scene and removes meaningful characterisation at the moment the adaptation most needed to establish him."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
-    "impact_assessment": "Medium"
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 565.5,
-  "adjusted_cids_v1": 622.1
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

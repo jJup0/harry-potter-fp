@@ -1,20 +1,100 @@
 {
   "character": "Romilda Vane",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 17.0,
+    "narrative_role_agency": 13.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 68.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 17,
+      "narrative_role_agency": 13,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Romilda is defined by bold, uninhibited social aggression. She pushes through a compartment door ahead of her giggling peers, introduces herself loudly and confidently, and immediately attempts to socially isolate Harry from Neville and Luna by dismissing them with a stage whisper. She persists: she hovers at the Gryffindor party hinting for a Slughorn invitation, she actively plots love-potion administration in the girls' bathroom, she offers Harry gillywater the moment he enters the common room, she presses chocolate cauldrons into his hands with a fabricated excuse ('my gran sent them'). She is resourceful, shameless, and strategically charming. Her reaction to Harry kissing Ginny \u2014 looking 'as though she might throw something' \u2014 confirms she is not merely enthusiastic but genuinely possessive and emotionally reactive. She is not naive; she constructs pretexts. Crucially, the books give her the voice of someone who acts first and adjusts when rebuffed ('Oh. Okay.'), not someone who is passive or merely decorative.",
+          "film_portrayal": "In the film corpus, Romilda does not speak. She appears as a visual object in the library scene: Harry 'considers a fine-boned GIRL with RAVEN HAIR... She is exquisite, an absolute work of...' before Hermione snaps him back. She does not offer potions, does not speak, does not initiate contact, does not push past anyone. She is referenced by Hermione as a threat but functions as eye candy for Harry's gaze. In the train scene she is a name on a candy box card and a passive prop in the dormitory love-potion plot. In the Hogwarts Express scene she is listed as a background passenger without dialogue. Her boldness, her self-introduction, her strategic conversation, her emotional reaction to Harry and Ginny \u2014 none of these behavioral signatures appear.",
+          "difference": "The film removes the defining trait of Romilda's personality: bold, verbal, scheming directness. She never speaks to Harry. The stage-whisper dismissal of his friends, the persistent party-invitation hinting, the face-to-face potion delivery with a fabricated cover story, the visible jealous reaction to the Harry-Ginny kiss \u2014 all absent. She is reduced to a pretty face and a referenced rumor. The confidence, the shamelessness, the resourceful social maneuvering that characterize her book voice are entirely unrepresented.",
+          "penalty_logic": "This is a meaningful loss. Romilda is a minor character, but virtually everything that makes her a distinct personality rather than a generic background girl is in how she speaks, initiates, and reacts. The film preserves her physical description and her general narrative function (love-potion threat) but strips her of the behavioral texture through which that function is expressed. The character remains recognizable by name and role, but her key trait \u2014 bold, strategic, verbally direct pursuit \u2014 is not shown. Score: 17 (recognizable but important traits removed).",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Romilda's narrative function in the books is threefold: (1) a persistent social pressure on Harry that he must actively deflect, establishing his loyalty to unfashionable friends and his discomfort with fame-driven attention; (2) the direct agent of the love-potion subplot \u2014 she personally conceives the plan, executes the delivery (pressing the box into Harry's hands face-to-face), and her action causes the central crisis of the Ron poisoning/love-potion chapter; (3) a minor relational signal in Harry's dawning feelings for Ginny, as Ginny's contemptuous amusement at Romilda's obsession marks Ginny's social confidence and their growing intimacy. In the books, Romilda acts: she pushes through a door, she offers drinks, she hands over chocolates, she plots in the bathroom. She is an initiator.",
+          "film_portrayal": "In the films, Romilda's agency is almost entirely removed. The love-potion threat is conveyed through Hermione warning Harry about her in the library \u2014 Romilda does not appear or act in this scene, she is talked about. The chocolate cauldrons are delivered by an unseen hand (there is a 'heart-shaped box' on Harry's bed with a card, 'Dear Harry. Thinking sweet thoughts of you. Happy Valentine's Day. Romilda' \u2014 but this is discovered by Ron, not delivered in person). Romilda's only functional contribution is the box that Ron eats, which still propels the love-potion subplot. She retains vestigial plot agency through the chocolates but has no active scene presence in which she initiates or decides anything on screen.",
+          "difference": "The direct face-to-face delivery scene is gone \u2014 replaced by an anonymous box left on a bed. The compartment-door scene that establishes her as a pushy pursuer is absent from the films. The bathroom-plotting scene exists only as Hermione's reported warning, not as Romilda's own action. Romilda does not confront Harry, does not deflect, does not react visibly to the Harry-Ginny kiss in any filmed moment (the train scene simply lists her as background). Her role as an active agent has been converted into a plot device: she is the name on a box.",
+          "penalty_logic": "The love-potion subplot is preserved structurally, and Romilda is still identified as its source. However, her agency \u2014 the initiating, face-to-face scheming, the direct delivery \u2014 is largely removed. She does not appear in any scene where she causes something to happen. The box appears without her. Her role is partially transferred to Hermione as the character who explains the threat. This is a meaningful agency reduction, though not a full elimination: the plot function (Ron eats her poisoned chocolates) survives. Score: 13 (role and agency clearly altered but not eliminated).",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Romilda's motivation is singular and explicit: she wants Harry Potter, specifically because he is Harry Potter \u2014 the Chosen One, the famous, desirable celebrity. This is not a complex internal conflict but it is a consistent, clearly stated drive. Hermione says she is 'trying to slip him a love potion' and tells Harry to 'be careful what you drink.' The valentine card ('Thinking sweet thoughts of you') confirms romantic fixation. Her motivation is fame-adjacent romantic obsession \u2014 she wants Harry as a status acquisition or genuine crush, with no moral reservation about using potions to get him.",
+          "film_portrayal": "The film preserves this motivation through Hermione's warning: 'She's only interested in you because she thinks you're the Chosen One. You know that, right?' The card in the box ('Thinking sweet thoughts of you. Happy Valentine's Day. Romilda.') also preserves it. Motivation is simplified but not changed.",
+          "difference": "The motivation is present but entirely mediated through other characters' dialogue and a written card. There is no moment where Romilda herself expresses or acts on this motivation in any film scene. The motivation is correctly identified but poorly shown \u2014 it survives as reported characterization only.",
+          "penalty_logic": "Per the framework, 'poorly explained \u2260 different.' The motivation is correctly identified in the film even if not dramatized by Romilda herself. The simplification is real \u2014 we never see her scheme or act \u2014 but the core drive (fame-obsessed romantic pursuit via love potion) is still legible. Score: 11 (simplified but still correct).",
+          "evidence_status": "Directly evidenced"
+        },
+        "character_arc": {
+          "book_baseline": "Romilda has a flat arc, which is intentional: she is a recurring minor antagonist/nuisance. She pursues Harry, is rebuffed, continues pursuing, executes the potion plan, fails (the potion reaches Ron, not Harry), and ends the series still gossiping about Harry to Ginny ('asking if it's true you've got a Hippogriff tattooed across your chest'). She does not grow, change, or learn. Her final scene confirms she is exactly the same character she was in Book 6: an intrusive, fame-fixated presence. This flat arc is entirely appropriate for her function.",
+          "film_portrayal": "The film does not attempt an arc because she has no active scenes. The flat arc is neither contradicted nor confirmed \u2014 she simply doesn't have enough screen presence to register any trajectory. The post-Harry-Ginny-kiss reaction scene (which in the books confirms her emotional investment and unchanged fixation) is not present in the film corpus.",
+          "difference": "The flat arc is not contradicted but it is also not shown. The final book scene (gossiping to Ginny about Harry's tattoo) is absent. However, a flat arc that is simply not shown is different from an arc that is changed. The film neither advances nor inverts her trajectory \u2014 it simply doesn't dramatize it.",
+          "penalty_logic": "A flat arc that is not dramatized is not the same as a flat arc that is contradicted. The framework allows full points for a flat arc that is flat in both books and films. The film does not invent a different arc or imply growth. However, key arc-confirming moments (her jealous reaction to the kiss, her continued obsession in the final Ginny scene) are absent, which means the flatness of her arc \u2014 which is itself a characterization point \u2014 is not confirmed. The arc is compressed to the point of near-invisibility. Score: 13 (arc is compressed but still faithful in that it is neither inverted nor replaced).",
+          "evidence_status": "Reasonably inferred"
+        },
+        "key_relationships": {
+          "book_baseline": "Romilda's key relational dynamics in the books are: (1) with Harry \u2014 a one-sided, aggressive pursuit that Harry actively deflects with coldness and irritation; (2) with Ginny \u2014 an implicit rivalry, where Ginny treats Romilda's obsession with contemptuous amusement, and this dynamic reflects Ginny's social confidence and her intimacy with Harry; (3) with Hermione \u2014 Hermione is the one who monitors and warns Harry, positioning Romilda as a threat to be managed. These are not deep relationships, but they have consistent emotional tones: Harry's cold deflection, Ginny's amused contempt, Hermione's protective vigilance.",
+          "film_portrayal": "In the film, the Harry-Romilda relationship is never dramatized directly: Harry only looks at her from across a library and is warned about her. The Ginny-Romilda dynamic (the tattoo exchange, the visible jealousy at the kiss) is entirely absent. The Hermione-Romilda dynamic survives as Hermione's warning function, but without Romilda present to react to.",
+          "difference": "The Harry-Romilda dynamic loses its defining quality: Harry's cold, direct rebuff ('They're friends of mine') and the social awkwardness of her pursuit are never shown. The Ginny-Romilda dynamic \u2014 which in the books is a vehicle for characterizing Ginny's confidence and her bond with Harry \u2014 is completely absent from the film corpus. The Hermione relationship is reduced to Hermione talking about someone who is not in the scene.",
+          "penalty_logic": "The emotional dynamics of Romilda's key relationships are altered or absent. Harry never deflects her, Ginny never reacts to her, and Hermione's monitoring of her has no counterpart in Romilda's own behavior. The loss of the Ginny-Romilda dynamic is particularly meaningful because it also affects how Ginny is understood. Score: 6 (important relationship dynamics are altered or weakened).",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Romilda's complexity is modest but real. She is not simply a background extra: she is a girl who acts strategically (conceiving and executing a multi-step potion plan), who uses social manipulation (stage-whisper dismissal of Harry's friends, false excuses for the chocolates), who shows genuine emotional investment (the reaction to the Harry-Ginny kiss), and who persists across an entire school year with consistent, escalating tactics. Her willingness to use love potions without apparent moral hesitation is a character-defining detail that gives her a mildly sinister edge beyond simple fan-girl behavior. The bathroom-plotting scene, the train-compartment scene, the party-hinting scene, the face-to-face chocolate delivery, and the post-kiss jealousy all contribute layers to what is otherwise a minor character.",
+          "film_portrayal": "The film preserves the name, the physical description, and the general love-potion function. It removes: the face-to-face introduction and social aggression, the stage-whisper dismissal of Neville and Luna, the party-hinting persistence, the bathroom plotting (reported only), the face-to-face chocolate delivery with fabricated excuse, the jealous reaction to the Harry-Ginny kiss, the post-series tattoo gossip with Ginny. What remains is a pretty girl referenced by others and a name on a candy box.",
+          "difference": "Almost all the material that gives Romilda texture beyond 'love-potion girl' is absent. The strategic dimension (multi-step planning, social manipulation), the emotional dimension (jealousy, persistence), and the relational dimension (Ginny's contempt, Harry's cold rebuff) are all removed. She is reduced to a single trait: referenced love-potion threat. The sinister-adjacent quality of her willingness to chemically coerce Harry is not shown as something she does but as something Hermione warns about.",
+          "penalty_logic": "For a minor character, Romilda has meaningful book texture. The film removes most of it without replacement. The character is reduced to a function (love potion) and a visual (exquisite girl in the library). This is a notable flattening even accounting for her minor status. Score: 8 (noticeable simplification; important nuances, agency, and relational texture are missing).",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Train compartment introduction scene: Romilda pushing through the door, introducing herself loudly, using a stage whisper to dismiss Neville and Luna, and being coldly rebuffed by Harry ('They're friends of mine') \u2014 entirely absent from the films.",
+        "Quidditch party scene: Romilda hinting heavily to Harry about Slughorn's Christmas party, requiring Harry to actively extricate himself \u2014 absent from the films.",
+        "Bathroom love-potion plotting scene: Hermione witnesses Romilda and a dozen girls actively planning the potion scheme in the girls' bathroom \u2014 conveyed in the film only as a brief Hermione warning, without Romilda present.",
+        "Face-to-face chocolate cauldron delivery: Romilda pressing the box into Harry's hands with the fabricated excuse ('my gran sent them') \u2014 replaced in the film by an anonymous box left on Harry's bed with a card.",
+        "Harry-Romilda direct rejection dynamic: Harry's cold, dismissive responses to Romilda's advances across multiple scenes \u2014 never shown in the film because Romilda never directly addresses Harry on screen.",
+        "Post-kiss jealous reaction: Romilda looking 'as though she might throw something' after Harry kisses Ginny \u2014 absent from the film corpus.",
+        "Ginny-Romilda dynamic: Ginny's contemptuous amusement at Romilda's obsession (the tattoo conversation), which characterizes both Ginny's social confidence and the Harry-Ginny intimacy \u2014 entirely absent.",
+        "Romilda's failed Quidditch tryout: her presence among the 'ten silliest girls' who giggle and clutch each other during tryouts, establishing her as socially bold but not a serious witch \u2014 absent.",
+        "Final book scene (tattoo gossip): Romilda still pestering Ginny about Harry in Book 7, confirming her unchanged obsession and providing comic closure to her arc \u2014 absent."
+      ],
+      "score_caps_applied": [
+        "Cap 4 considered (score above 70 only if films preserve more than broad identity): The film preserves Romilda's broad identity (love-potion-scheming Harry pursuer) but removes most of the specific material that defines her book characterization. Final total of 68 is consistent with this cap."
+      ],
+      "key_observations": "Romilda Vane is a minor character with a surprisingly rich behavioral profile in the books: bold, strategic, verbally direct, emotionally reactive, and mildly sinister in her willingness to use love potions without hesitation. The films preserve her structural function \u2014 she is the source of the love-potion chocolates that drive the Ron subplot \u2014 but convert her from an active agent into a passive reference. She never speaks to Harry on screen, never directly delivers the potions, never reacts to Harry and Ginny, and never appears in the context of her most defining scenes. Her personality traits survive only as Hermione's reported warning and Harry's momentary gaze in a library. The Ron love-potion subplot retains its plot logic, but Romilda's role in it is reduced to a name on a box. The Ginny-Romilda relational dynamic, which in the books is a vehicle for characterizing Ginny's social confidence and her bond with Harry, is entirely absent. The result is a character who is recognizable by name and function but stripped of the behavioral texture, agency, and relational complexity that made her a distinctive minor figure in the source material.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 13389,
+        "film_chars_sent": 5192,
+        "aliases": [
+          "Romilda"
+        ],
+        "corpus_version": "1"
       }
     }
   },

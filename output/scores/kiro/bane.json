@@ -1,20 +1,98 @@
 {
   "character": "Bane",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 10.0,
+    "narrative_role_agency": 6.0,
+    "motivations_internal_conflict": 7.0,
+    "character_arc": 8.0,
+    "key_relationships": 4.0,
+    "complexity_nuance_lost_material": 5.0,
+    "total": 40.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 10,
+      "narrative_role_agency": 6,
+      "motivations_internal_conflict": 7,
+      "character_arc": 8,
+      "key_relationships": 4,
+      "complexity_nuance_lost_material": 5,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Bane is established across two main appearances (Philosopher's Stone and Order of the Phoenix) as rigid, ideologically driven, contemptuous, and volatile. His speech is blunt and aggressive. He speaks in short, declarative or interrogative bursts: 'Mars is bright tonight,' 'What have you been telling him?', 'Whose Forest is it now, human?' He is defined by a fierce adherence to centaur doctrine \u2014 that centaurs must not interfere with what the stars have foretold \u2014 and by his hostility toward humans. He uses contempt as a primary register: calling Firenze a 'common mule,' dismissing Harry's students as having 'profited from the traitor Firenze's teachings,' bellowing rhetorical questions. He is not diplomatically cold like Ronan; he is openly angry, ideologically zealous, and verbally aggressive. His emotional tone across both book appearances is consistent: contemptuous, confrontational, and uncompromising.",
+          "film_portrayal": "The film corpus provided contains no scenes in which Bane appears, speaks, or is portrayed in any meaningful way. The two film screenplay excerpts \u2014 one covering Snape's potions class in Year 1 and one covering Slughorn's dinner party in Year 6 \u2014 contain no reference to Bane whatsoever. While knowledge of the films (PS film and OotP film) confirms Bane does briefly appear in the Forbidden Forest scene of Philosopher's Stone and has a minor presence in Order of the Phoenix, the provided film corpus offers zero dialogue, zero staging directions, and zero observable behavior for Bane.",
+          "difference": "The film corpus provides no evidence to evaluate Bane's personality or voice in the films. Based on broader knowledge of the films, Bane does appear in the PS film Forbidden Forest scene but has minimal dialogue compared to the books, and the confrontation with Firenze over carrying Harry is present in abbreviated form. However, the corpus itself contains nothing to evaluate directly.",
+          "penalty_logic": "Because the film corpus contains no material for Bane, it is impossible to confirm whether his personality and voice are faithfully rendered. The score is heavily penalized by the absence of evaluable material, and confidence is Low. A score in the 10 range reflects that, based on general film knowledge, Bane does appear in Year 1 with some of his confrontational tone preserved but the ideological depth of his Year 5 appearances is not evidenced in the corpus. The score cannot be higher because the corpus provides nothing to confirm faithful portrayal.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Bane serves two distinct narrative functions in the books. First, in PS, he represents the centaur worldview of non-intervention \u2014 his anger at Firenze carrying Harry establishes the ideological fault line among centaurs and implies that the stars foretell Voldemort's return (Harry infers that Bane would have let Voldemort kill him). This gives Bane a structural role as the voice of centaur fatalism that contextualizes the broader magical world's response to Voldemort. Second, in OotP, Bane is the most aggressive centaur in the confrontation with Umbridge and Hagrid. He physically seizes Umbridge and carries her away into the forest \u2014 an act of direct, consequential agency. He drives the confrontation, challenges Hagrid's authority, and is the centaur who acts most decisively. In the Battle of Hogwarts (DH), he arrives with Ronan and Magorian to fight against Voldemort, completing a minor arc of eventual alignment with human resistance.",
+          "film_portrayal": "The film corpus provides no scenes in which Bane exercises any narrative agency. His role in the PS film Forbidden Forest scene is reduced (the confrontation with Firenze is present but abbreviated), and his OotP role \u2014 particularly physically seizing Umbridge \u2014 may be partially present in the film, but none of this is evidenced in the provided corpus.",
+          "difference": "The corpus contains no film material for Bane, making it impossible to confirm whether his agency is preserved. Based on film knowledge, his PS role is partially preserved but his ideological voice is thinned; his OotP role has some presence but the corpus cannot confirm it.",
+          "penalty_logic": "Score is penalized heavily due to absence of corpus evidence and the known compression of Bane's book roles in the films. His narrative function as the voice of centaur fatalism \u2014 which carries thematic weight in PS \u2014 is not evidenced as preserved. His consequential act of seizing Umbridge (OotP agency) cannot be confirmed from the corpus. Score of 6 reflects that some residual presence is known from film knowledge but cannot be substantiated from the provided material.",
+          "evidence_status": "Not enough evidence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Bane's motivations are ideologically consistent and clearly articulated: centaurs must not interfere with what the planets have foretold. This is not mere passivity \u2014 it is an active, principled refusal to intervene in human affairs, even at the cost of allowing harm. He is angry at Firenze not because he is cruel, but because he believes Firenze has violated a sacred centaur code. His hostility toward humans is partly rooted in this ideology (humans disrupt what must be) and partly in territorial resentment (the forest is theirs). In OotP, his rage at Umbridge's 'filthy half-breeds' insult is motivationally coherent: he is a proud, ideologically serious centaur whose dignity has been attacked. His eventual participation in the Battle of Hogwarts (DH) suggests his motivations shift \u2014 presumably even the stars align against Voldemort \u2014 but this is not deeply explored.",
+          "film_portrayal": "No film corpus material exists for Bane to evaluate his motivations as portrayed on screen.",
+          "difference": "The motivation of ideological non-intervention, which is the core of Bane's characterization in PS, cannot be confirmed as preserved from the film corpus. The confrontation with Firenze in the PS film does touch on this, but the corpus does not include it.",
+          "penalty_logic": "Score of 7 reflects that the motivational core (centaur fatalism and non-intervention doctrine) is a known element of his PS film appearance but cannot be confirmed in depth from the corpus. The ideological texture \u2014 the why behind his anger \u2014 is likely simplified in the films based on general knowledge, but the corpus cannot confirm this directly.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Bane has a minimal but traceable arc across three books. In PS, he is the voice of non-intervention and resentment toward humans. In OotP, he is the most hostile and aggressive centaur, acting as a defender of the forest against human encroachment and ultimately removing Umbridge violently. In DH, he arrives at Hogwarts to fight Voldemort \u2014 a reversal of his non-intervention stance, though the books do not elaborate on this shift. The arc is flat in terms of personal development but has a structural endpoint: even the most doctrinally rigid centaur acts when the stakes are existential. It is a minor arc of eventual, if unexplained, alignment.",
+          "film_portrayal": "No film corpus material allows evaluation of whether this arc \u2014 even its compressed version \u2014 is present. The DH battle appearance is referenced in the book corpus (Scene 47) but no corresponding film corpus material is provided.",
+          "difference": "The arc endpoint (fighting at Hogwarts) is likely present in the DH film but is not in the corpus. The arc's ideological journey cannot be evaluated.",
+          "penalty_logic": "Score of 8 reflects that the arc is minimal in the books and likely partially preserved in the films (PS confrontation exists; DH battle cameo exists), but the corpus cannot confirm the connective tissue. The arc is not meaningfully developed in either medium, so the penalty is moderate rather than severe.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "Bane's most important relationship is with Firenze \u2014 it is adversarial, ideological, and definitional. Bane calls Firenze a 'common mule' for carrying Harry, accuses him of shaming centaur-kind, and in OotP refers to him as 'the traitor Firenze.' The book corpus (Scene 29) confirms Harry infers it was Bane who kicked Firenze in the chest, resulting in Firenze's expulsion from the herd and his role as a Hogwarts teacher. This relationship defines Bane as the enforcer of centaur orthodoxy and positions Firenze as the foil. Bane's relationship with Hagrid is secondary \u2014 contentious and territorial, with Hagrid representing the human encroachment Bane resents. His relationship with Umbridge is brief but dramatically significant: she represents the extreme of human arrogance toward magical creatures, and Bane's violent removal of her is the climax of his OotP role.",
+          "film_portrayal": "No film corpus material evidences any of these relationships. The Bane-Firenze confrontation in the PS film is known from general film knowledge to exist in abbreviated form, but it is not in the corpus.",
+          "difference": "The Bane-Firenze relationship \u2014 the most important one for defining Bane's character \u2014 cannot be evaluated from the corpus. The violent expulsion of Firenze from the herd (strongly implied in the books as Bane's doing) is entirely absent from the corpus and likely absent from the films entirely.",
+          "penalty_logic": "Score of 4 reflects that the defining relationship (Bane vs. Firenze as ideological adversaries) is known to be compressed in the films and the most consequential element of it \u2014 Bane's role in expelling Firenze \u2014 is not evidenced in the corpus or in general film knowledge as explicitly depicted. The Umbridge confrontation relationship may partially exist in the OotP film but cannot be confirmed.",
+          "evidence_status": "Not enough evidence"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Bane's complexity comes from the internal coherence of his ideology. He is not simply hostile \u2014 he is principled. His refusal to interfere is not cowardice but doctrine. His rage at Firenze is not personal jealousy but genuine belief that Firenze has violated centaur sacred law. His contempt for humans is ideologically grounded, not random cruelty. The OotP scenes add the layer of territorial pride and wounded dignity (reacting to Umbridge's 'half-breeds' insult). The DH appearance complicates him: the most rigid non-interventionist eventually fights. The book corpus also contains Harry's specific inference (Scene 21, 24, 27) that Bane's worldview means he would have let Voldemort kill Harry \u2014 a chilling implication that adds moral weight to his position. The detail that Bane likely kicked Firenze (Scene 29) adds physical violence to his ideological enforcement.",
+          "film_portrayal": "No film corpus material allows evaluation of whether any of this complexity is preserved. The ideological depth \u2014 the distinction between hostile centaur and principled non-interventionist \u2014 is unlikely to have survived the film compression but cannot be confirmed from the corpus alone.",
+          "difference": "The most nuanced aspect of Bane \u2014 his ideology as a coherent worldview rather than simple hostility \u2014 is not evidenced in the film corpus. The implication that he would have allowed Harry's death (book Scenes 21, 24) is unlikely to be present in the film. The detail of Firenze's expulsion is absent.",
+          "penalty_logic": "Score of 5 reflects major flattening. From general film knowledge, Bane is present in the PS film as an angry centaur who confronts Firenze, but the ideological depth is thinned to the point where he reads as generically hostile rather than principled. The corpus confirms nothing, lowering confidence further.",
+          "evidence_status": "Not enough evidence"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Bane's explicit articulation of centaur non-intervention doctrine ('we are sworn not to set ourselves against the heavens') as a coherent ideology, not mere hostility",
+        "The implication \u2014 drawn explicitly by Harry in the books \u2014 that Bane's worldview means he would have allowed Voldemort to kill Harry",
+        "Harry's inference (OotP) that Bane likely kicked Firenze in the chest, causing his expulsion from the centaur herd",
+        "Bane's labeling of Firenze as 'the traitor Firenze' in OotP, establishing a long-standing intra-centaur ideological conflict",
+        "Bane's role as the dominant, most aggressive voice in the OotP Forbidden Forest confrontation \u2014 physically seizing Umbridge and carrying her away \u2014 which is the climax of his active agency in the series",
+        "The distinction between Bane (doctrinally rigid, angry) and Ronan (gloomy, evasive) as two distinct centaur archetypes, which is established clearly in the books but collapsed in the films",
+        "Bane's eventual participation in the Battle of Hogwarts as a structural endpoint to his arc of non-intervention",
+        "No film corpus material present to evaluate any preservation of the above"
+      ],
+      "score_caps_applied": [
+        "Cap 4 applied (score cannot exceed 70): the film corpus and general film knowledge indicate that only Bane's broad identity as a hostile centaur is preserved; most of what defines his book characterization \u2014 his ideology, his relationship with Firenze, his agency in OotP, his thematic role as the voice of fatalism \u2014 is either absent from the corpus or known to be compressed in the films.",
+        "Cap 3 applied (score cannot exceed 75): Bane's central relationship with Firenze, which is the primary vehicle for his characterization, is substantially altered \u2014 the long-term consequences of that conflict (Firenze's expulsion) are not depicted in the films."
+      ],
+      "key_observations": "The evaluation of Bane is severely constrained by the film corpus, which contains no scenes featuring Bane whatsoever \u2014 both provided screenplay excerpts concern entirely different characters and situations. All scoring therefore relies on general knowledge of the HP films combined with the rich book corpus. In the books, Bane is a minor but ideologically coherent character: his defining trait is not hostility per se but a principled, doctrinally rigid belief in centaur non-intervention, which makes his anger at Firenze morally serious rather than merely aggressive. The films preserve his surface identity as an angry centaur but lose the ideological texture that distinguishes him from generic hostility. His most consequential act of agency \u2014 seizing Umbridge in OotP \u2014 may exist in the film, but the corpus cannot confirm it. His most important relationship (with Firenze, including the implied physical expulsion) is significantly compressed. The total score of 40 reflects a character who is broadly recognizable in the films but whose defining complexity, ideology, and key relational conflict are not preserved. Global confidence is Low throughout, as the film corpus is entirely absent for this character.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 11567,
+        "film_chars_sent": 8343,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },

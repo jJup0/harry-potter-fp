@@ -2,53 +2,43 @@
   "character": "Lee Jordan",
   "fp_score": 61.0,
   "infidelity_score": 39.0,
-  "weighted_infidelity_exposure": 8,
-  "cids": 154.5,
-  "damage_per_exposure": 38.6,
+  "weighted_infidelity_exposure": 6,
+  "cids": 136.9,
+  "damage_per_exposure": 45.6,
   "structural_damage_level": 2,
-  "adjusted_cids": 154.5,
+  "adjusted_cids": 136.9,
   "main_damage_causes": [
-    "Lee's distinctive, biased, personality-driven commentary voice is replaced with neutral functional announcing, erasing his most defining trait",
-    "The recurring comedic McGonagall/Lee correction dynamic is entirely absent, removing a consistent relationship beat",
-    "Lee's identity as Fred and George's best friend is never established, reducing him to a background function rather than a character"
+    "Lee Jordan's distinctive partisan, humorous commentary voice is replaced with neutral functional announcing, eliminating his defining personality trait",
+    "The recurring comedic McGonagall-Jordan dynamic, central to his book characterisation across multiple matches, is entirely absent from the film",
+    "The film corpus is limited to two Quidditch scenes from Philosopher's Stone, meaning the richer later portrayals (OotP Quidditch matches, Potterwatch, Battle of Hogwarts) cannot be assessed \u2014 the damage identified is likely a floor, not a ceiling"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1-2 \u2014 Quidditch commentary throughout the match",
-      "book_baseline": "Lee's commentary is a running, witty, biased, personality-rich performance across the entire match. He calls plays in detail, makes partisan remarks, gets warned repeatedly by McGonagall, and his voice is a constant comedic and narrative presence. His commentary is a defining character beat across multiple books.",
-      "film_portrayal": "Lee's commentary is reduced to a handful of neutral, functional announcements: introducing the game, naming a scorer, announcing the Snitch catch and points. No bias, no McGonagall corrections, no personality, no humor. He is essentially a PA system.",
+      "scene": "Film Scene 1 \u2014 Lee Jordan's commentary during the first Quidditch match",
+      "book_baseline": "In the book, Lee Jordan's commentary is vivid, partisan, funny, and frequently interrupted by Professor McGonagall for bias. He gives detailed, colourful play-by-play, editorialises about players' looks ('rather attractive, too'), gets progressively more furious at Slytherin cheating ('YOU FILTHY, CHEATING B--'), and is a distinct comedic voice who pushes the boundaries of what McGonagall will tolerate. His personality is defined by irreverence, wit, and fierce Gryffindor loyalty expressed through escalating verbal transgression.",
+      "film_portrayal": "The film's Lee Jordan delivers only functional, neutral announcements: 'Angelina Johnson scores! 10 points for Gryffindor!', 'Slytherin takes possession of the Quaffle. Bletchley passes to Captain Marcus Flint.' He also straightforwardly announces 'He's got the Snitch! Harry Potter receives 150 points for catching the Snitch!' There is no bias, no humour, no McGonagall interventions, no escalating outrage at Slytherin fouls. He functions as a scoreboard announcer rather than a character.",
       "damage_type": "personality/voice",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The books establish Lee's commentary style as a core character trait \u2014 partisan, funny, boundary-pushing, constantly reined in by McGonagall. The film strips this entirely, leaving him as a generic announcer with no distinguishable voice."
+      "explanation": "The book uses Lee's commentary as characterisation \u2014 his partisan wit and McGonagall's exasperated corrections are a running comic thread across multiple Quidditch scenes. The film strips this entirely, reducing him to a neutral PA system. His distinct voice, the comedic McGonagall-Jordan dynamic, and his role as an enthusiastic, boundary-pushing personality are all lost. This matters because his commentary style is one of the primary ways the books establish him as a character rather than a background fixture."
     },
     {
-      "scene": "Film Scene 1-2 \u2014 Absence of McGonagall/Lee dynamic",
-      "book_baseline": "The repeated 'JORDAN!' / 'Sorry, Professor' exchange is a recurring comedic relationship beat across multiple Quidditch matches. McGonagall's exasperated but fond tolerance of Lee is a small but consistent relationship thread.",
-      "film_portrayal": "McGonagall never corrects Lee. The dynamic does not exist in the film.",
+      "scene": "Film Scene 1 \u2014 Absence of McGonagall-Jordan comedic dynamic during match",
+      "book_baseline": "Book Scene 11 and 17-19 establish a recurring comedic relationship: McGonagall repeatedly growls 'JORDAN!' and warns Lee off his biased commentary, while Lee apologises and immediately resumes editorialising. This is a distinct, recurring interpersonal dynamic that gives McGonagall a rare moment of exasperated informality and gives Lee relational definition.",
+      "film_portrayal": "McGonagall does not interact with Lee Jordan at all during the match commentary. The dynamic is entirely absent. There is no 'JORDAN!', no warning, no apology-followed-by-resumption.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "A recurring, charming relationship beat between Lee and McGonagall is entirely absent, removing a small but consistent source of warmth and comedy that characterizes both figures."
-    },
-    {
-      "scene": "Film Scene 1 \u2014 Lee's role as Fred and George's close friend",
-      "book_baseline": "Lee is consistently identified as the Weasley twins' best friend throughout the books \u2014 shopping with them, planning schemes, assisting their Skiving Snackbox demos, going into business discussions with them. He is a named member of their social unit.",
-      "film_portrayal": "Lee appears only as a commentator. His friendship with Fred and George is never established or visible in the film.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film reduces Lee to a functional role (commentator) and never establishes his relationship with Fred and George, losing a meaningful social bond that contextualizes all three characters."
+      "explanation": "The McGonagall-Jordan back-and-forth is a small but recurring relationship beat that humanises both characters. Its absence means Lee loses his most defining relational context in the film, and McGonagall loses a moment of comedic warmth. For a character with limited screen time, losing his primary interpersonal dynamic is proportionally significant."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 312.0,
-  "adjusted_cids_v1": 343.2
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -2,79 +2,70 @@
   "character": "Scabior",
   "fp_score": 73.0,
   "infidelity_score": 27.0,
-  "weighted_infidelity_exposure": 17.5,
-  "cids": 142.1,
-  "damage_per_exposure": 17.8,
+  "weighted_infidelity_exposure": 13.5,
+  "cids": 130.2,
+  "damage_per_exposure": 23.7,
   "structural_damage_level": 2,
-  "adjusted_cids": 142.1,
+  "adjusted_cids": 130.2,
   "main_damage_causes": [
-    "Scabior's role and authority are inflated at Greyback's expense, inverting the book's Snatcher hierarchy and diluting Greyback's menace",
-    "Scabior is given Greyback's predatory fixation on Hermione, erasing his book-defining 'Easy, Greyback' restraint and replacing it with sexualised stalker behaviour",
-    "An invented Battle of Hogwarts death scene creates a false dramatic arc for a character who exits the story at Malfoy Manor in the books"
+    "Systematic recharacterization of Scabior from a mercenary, profit-driven Snatcher into a sexually obsessed predator fixated on Hermione, built across multiple scenes (scent detection, hair-sniffing, trophy scarf, Bellatrix's explicit acknowledgment) with no basis in the book corpus.",
+    "Removal of the thematically significant Taboo-trigger as the cause of the trio's capture, replaced by Scabior's personal sensory predation, which loses a meaningful consequence-of-carelessness beat tied to Harry's agency.",
+    "Invention of a Battle of Hogwarts death scene that inflates Scabior's structural role beyond his book function and assigns him a named-villain confrontation with Neville that has no grounding in any established book relationship."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2/3 - Scabior smells Hermione's perfume, keeps her scarf",
-      "book_baseline": "Scabior is a competent but subordinate Snatcher under Greyback's command. His tracking is incidental. No personal fixation on Hermione is established.",
-      "film_portrayal": "Scabior is introduced as a predatory figure who tracks Hermione by scent and keeps her scarf as a trophy, pressing it to his nose - establishing a personal, sexualised fixation on her before they even meet.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 5 (EXT. FOREST - DUSK) \u2014 Scabior sniffs Hermione's hair and says 'You smell like vanilla, Penelope. I think you're going to be my favorite.'",
+      "book_baseline": "In the book, Scabior's interaction with Hermione during interrogation is professionally menacing but restrained. He identifies her as a potential Mudblood and checks names on the list. His comment 'Easy, Greyback' (Book Scene 9) shows he can moderate Greyback's predatory behavior toward her, keeping the dynamic about capture and profit rather than personal sexual fixation.",
+      "film_portrayal": "Scabior physically strokes the nape of Hermione's neck, takes her hair in hand, sniffs it, and delivers a sexually possessive line framing her as his personal 'favorite.' This transforms his motivation from mercenary bounty-hunting into predatory sexual obsession directed at Hermione specifically.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book Scabior is a dangerous but functionally mercenary Snatcher whose interest in the trio is transactional (gold, bounties). The film reframes his primary motivation as sexual fixation on Hermione, which cheapens the threat he poses, alters the Harry-Ron-Hermione group dynamic under capture (Ron's 'Don't touch her!' becomes a jealousy beat rather than a general protective instinct), and muddies the characterization of what Snatchers represent thematically \u2014 opportunistic, corrupted enforcers of the new regime."
+    },
+    {
+      "scene": "Film Scene 2 (EXT. TREES - SAME TIME - NIGHT) \u2014 Scabior detects Hermione by smell, stops and lingers inches from her neck with flaring nostrils.",
+      "book_baseline": "The book does not contain a scene where Scabior individually and atmospherically hunts Hermione by scent while she is under magical concealment. The Snatchers in the book stumble upon the trio because the Taboo on Voldemort's name is triggered. Scabior's detection method is not sensory predation but a systemic magical trap.",
+      "film_portrayal": "Scabior is shown as an almost supernatural predator who can individually scent Hermione through magical concealment, establishing him as a quasi-bestial tracker with a particular fixation on her specifically \u2014 foreshadowed before their actual capture scene.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The scarf-trophy and scent-tracking reframe Scabior from a mercenary criminal into a stalker-predator with a specific obsession. This is invented characterisation with no book basis."
+      "explanation": "By introducing a sensory-predator trait tied specifically to Hermione's scent (her perfume), the film constructs a personal, almost romantic-horror dynamic between Scabior and Hermione that does not exist in the books. It also removes the thematically important detail that the Taboo on Voldemort's name is what leads to the trio's capture \u2014 a consequence of Harry's recklessness \u2014 which is a meaningful story beat about the cost of carelessness. The sensory-predator framing trades that agency-and-consequence beat for atmosphere and character menace misdirected at one character."
     },
     {
-      "scene": "Film Scene 5 - Scabior leads interrogation, takes Greyback's role",
-      "book_baseline": "Greyback leads the Snatchers and dominates the interrogation. Scabior is subordinate - he checks the list, asks secondary questions, and defers to Greyback on major decisions. The dynamic is clear: Greyback is the threat, Scabior is the lieutenant.",
-      "film_portrayal": "Scabior leads the interrogation almost entirely. He questions Harry, Ron, and Hermione, checks the list himself, and makes the call to divert from the Ministry. Greyback is reduced to a thug who punches Ron.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "Greyback's authority and menace are transferred to Scabior. This damages Greyback's established threat level and misrepresents the Snatcher hierarchy. Scabior's book role as a sharp but subordinate lieutenant is inflated into leadership."
-    },
-    {
-      "scene": "Film Scene 5 - Scabior strokes/sniffs Hermione, 'you'll be my favourite'",
-      "book_baseline": "Greyback is the one whose relish toward Hermione makes Harry's flesh crawl. Scabior's line is the restrained 'Easy, Greyback' - he is the one pulling back the predator, not acting as one himself.",
-      "film_portrayal": "Scabior strokes Hermione's neck, takes her hair, sniffs it, and tells her she smells like vanilla and will be his favourite - taking on Greyback's predatory role toward Hermione.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "In the book Scabior's 'Easy, Greyback' is a meaningful character beat showing he has a limit Greyback doesn't. The film inverts this entirely: Scabior becomes the sexual predator and Greyback's distinctive menace toward Hermione is diluted. The Scabior/Greyback dynamic is reversed."
-    },
-    {
-      "scene": "Film Scene 5 - Scabior decides to bypass the Ministry",
-      "book_baseline": "It is Greyback who decides to take the prisoners to Malfoy Manor rather than the Ministry, motivated by wanting credit and reward. Scabior asks 'Will you summon 'im? 'ere?' - sounding awed and terrified, deferring entirely.",
-      "film_portrayal": "Scabior makes the call: 'Change of plans, boys. We won't be taking this lot to the Ministry.' He identifies Harry and acts unilaterally.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 3 (EXT. RIVERBANK - DUSK) \u2014 Scabior wears Hermione's red scarf around his neck, presses it to his nose, and greets her with 'Hello, beautiful.'",
+      "book_baseline": "The book has no indication Scabior has been tracking Hermione personally or has collected any personal item of hers. The recapture scene follows from the Taboo trigger. Scabior's greeting is not intimate or predatory in a personal sense.",
+      "film_portrayal": "Scabior has Hermione's scarf as a trophy, inhales it publicly, and greets her as 'beautiful' \u2014 cementing a stalker-like personal obsession framing that has been built across multiple preceding scenes.",
+      "damage_type": "personality/voice | relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "A key decision-making moment is transferred from Greyback to Scabior. Scabior's book characterisation as someone who defers on big calls (and is visibly frightened of Voldemort) is lost."
+      "explanation": "This beat reinforces the film's consistent recharacterization of Scabior from a mercenary Snatcher into a romantically/sexually obsessed pursuer of Hermione. The trophy-scarf detail amplifies this into quasi-stalker territory. While brief, it compounds the cumulative damage of scenes 2 and 5, locking in a characterization entirely absent from the source material."
     },
     {
-      "scene": "Film Scene 8 - Scabior confronts Bellatrix over being stunned ('Are you mad! / How dare you!')",
-      "book_baseline": "When Bellatrix stuns a Snatcher over the sword, Scabior draws his wand but the scene is brief. His reaction is not elaborated into a direct confrontation with Bellatrix.",
-      "film_portrayal": "Scabior is stunned by Bellatrix, bellows 'Are you mad! / How dare you! Release me, woman!' in outraged fury before being subdued. He then eyes her resentfully and exits.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "Minor inflation of Scabior's bravado - confronting Bellatrix Lestrange directly is out of character for a mercenary Snatcher. It makes him seem reckless rather than shrewd. Low impact as it is a brief exit scene."
+      "scene": "Film Scene 8 (INT. MAIN ROOM - SAME TIME - NIGHT) \u2014 Bellatrix catches Scabior looking at Hermione and taunts him ('Fancy her, do you, Scabior?'), offering her as a 'reward.'",
+      "book_baseline": "In the book, at Malfoy Manor, Scabior's role is to advocate for the Snatchers' claim to the reward for Potter. His lines are about credit, money, and not being cut out by the Malfoys ('I know 'es swollen, ma'am, but it's 'im!'). His concern is mercenary and assertive. There is no suggestion from any character, including Bellatrix, that he has a personal interest in Hermione.",
+      "film_portrayal": "Bellatrix explicitly names and validates Scabior's sexual interest in Hermione as an observable fact, and offers Hermione to him as a transactional reward. This is framed as a known quantity by Bellatrix, confirming the film has structurally built Scabior's desire for Hermione as a subplot.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This scene has Bellatrix \u2014 a major antagonist \u2014 validate and institutionalize Scabior's sexual fixation on Hermione within the film's narrative logic. It transforms what the book presents as a transactional captor-prisoner dynamic into a sexualized threat directed specifically at Hermione, which is both a mischaracterization of Scabior and an alteration of the emotional stakes of the Malfoy Manor sequence. The book's tension at this point is about identity (is it really Harry?) and power (who gets the reward); the film adds a sexual-threat layer to Scabior's role that reframes his entire presence in the story."
     },
     {
-      "scene": "Film Scene 8 - Scabior asserts credit to Lucius ('we won't be forgetting who actually caught him')",
-      "book_baseline": "In the book Scabior's eagerness for reward is shown through his piping up to Narcissa about the scar and wand. He is obsequious toward the Malfoys, not assertive.",
-      "film_portrayal": "Scabior delivers a quietly menacing line to Lucius asserting his claim to credit, positioning himself as a near-equal negotiator rather than a subordinate.",
+      "scene": "Film Scene 8 (INT. MAIN ROOM) \u2014 Scabior challenges Bellatrix ('Are you mad! / How dare you! Release me, woman!') after being stunned.",
+      "book_baseline": "Book Scene 47-48: A Snatcher (not specified as Scabior in context) protests 'It's not yours, missus, it's mine' about the wand, is stunned, and then Scabior draws his wand and says 'What d'you think you're playing at, woman?' \u2014 a brief, hot reaction before Bellatrix presumably subdues him too.",
+      "film_portrayal": "Scabior is stunned and then bellows 'How dare you! Release me, woman!' from the floor \u2014 a more prolonged, undignified outburst before being dismissed by Bellatrix with a contemptuous flick. He then exits resentfully.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Small but consistent with the film's pattern of inflating Scabior's confidence and status. The book's Scabior is eager and deferential with the powerful; the film's is assertive. Minor damage in isolation."
+      "explanation": "Modest damage \u2014 the book's Scabior does challenge Bellatrix, so the beat is broadly faithful. However, the film extends and emphasizes his impotent rage and undignified prostration longer, slightly undermining what the book treats as a quick, dangerous flash of resistance. This is a minor tone shift that compounds the overall diminishment of Scabior's menace in favor of making him a figure of dark comedy."
     },
     {
-      "scene": "Film Scenes 9/10 - Scabior leads Snatcher assault on Hogwarts bridge",
-      "book_baseline": "Scabior has no role in the Battle of Hogwarts in the books. He is a Snatcher whose story ends at Malfoy Manor.",
-      "film_portrayal": "Scabior leads the Snatcher charge on the Hogwarts bridge and is killed when Neville detonates the charges, catapulting him into the darkness.",
-      "damage_type": "arc",
+      "scene": "Film Scenes 9\u201310 (EXT. WOODEN BRIDGE - NIGHT) \u2014 Scabior leads the Snatcher assault on Hogwarts bridge and is catapulted to his death by Neville's charges.",
+      "book_baseline": "The book corpus does not contain a Scabior appearance at the Battle of Hogwarts. Based on the book corpus provided, Scabior's last appearance is at Malfoy Manor. The book gives him no death scene, no final confrontation, and no role in the Battle of Hogwarts.",
+      "film_portrayal": "Scabior is given a prominent role leading the Snatcher assault on Hogwarts' wooden bridge, serving as a mini-boss antagonist for Neville, and is killed spectacularly when the bridge is blown up. He is shown closing on Neville personally before being catapulted into darkness.",
+      "damage_type": "arc | agency/function",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Giving Scabior a death scene at Hogwarts creates a false arc closure. It elevates him to a named antagonist with a dramatic end, which is not book-faithful. The impact is moderate - it affects Scabior's narrative function but does not damage any central relationship or theme."
+      "impact_weight": 3,
+      "explanation": "The film invents an entire arc-concluding death scene for Scabior at the Battle of Hogwarts that has no basis in the book corpus. While adding screen time to a supporting villain is not inherently damaging, in this case it repurposes Scabior \u2014 a character whose book function is as a mercenary Snatcher representing the dangers of the hunted-fugitive phase \u2014 into a recurring named villain with a heroic-defeat payoff. This inflates his structural role beyond what the books intend and assigns him narrative weight (a personal final confrontation with Neville) that belongs to no established book relationship. It also reassigns Neville's bridge heroism to be partly defined by defeating a named villain, altering the texture of that moment."
     }
   ],
   "confidence": {
@@ -83,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 472.5,
-  "adjusted_cids_v1": 519.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -2,115 +2,88 @@
   "character": "Griphook",
   "fp_score": 67.0,
   "infidelity_score": 33.0,
-  "weighted_infidelity_exposure": 32.5,
-  "cids": 229.9,
-  "damage_per_exposure": 20.0,
+  "weighted_infidelity_exposure": 20.5,
+  "cids": 200.8,
+  "damage_per_exposure": 28.7,
   "structural_damage_level": 3,
-  "adjusted_cids": 229.9,
+  "adjusted_cids": 200.8,
   "main_damage_causes": [
-    "Removal of Harry's morally compromised promise and planned deception of Griphook, which eliminates the ethical symmetry that makes Griphook's betrayal meaningful rather than simply villainous",
-    "Excision of Griphook's political consciousness and the goblin-rights debate, reducing him from a principled non-human being with legitimate grievances to a mercenary with a single neutral line",
-    "Compression of the Shell Cottage planning period and negotiation, stripping the relationship of the texture, tension, and mutual distrust that give the Gringotts betrayal its thematic weight"
+    "Compression of the Shell Cottage negotiation removes Griphook's goblin ownership philosophy, political grievances, and moral complexity, flattening him from a thematically resonant character into a transactional obstacle.",
+    "Elimination of Harry's pre-meditated, guilt-laden plan to deceive Griphook destroys the moral symmetry between Harry's intended betrayal and Griphook's counter-betrayal, gutting the ethical ambiguity that is central to the wizard-goblin relationship arc.",
+    "Griphook's invented death at Voldemort's hands imposes a punishment narrative onto a character whose open-ended fate in the book preserves the saga-level theme of unresolved injustice toward non-human magical beings."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 3 (Malfoy Manor drawing room) - Griphook's lie to Bellatrix",
-      "book_baseline": "Harry whispers urgently to Griphook to lie about the sword being fake. Griphook then tells Bellatrix 'No. It is a fake.' This is a deliberate act of loyalty/complicity with Harry, earned through their shared captivity and Harry's rescue of him.",
-      "film_portrayal": "Griphook volunteers the lie unprompted and without Harry's whispered request. Harry never approaches Griphook in the cellar to ask him to lie. The lie is delivered without the book's tense setup of Harry dashing across the cellar and whispering to the barely-conscious goblin.",
+      "scene": "Film Scene 3 (Malfoy Manor drawing room) \u2014 Griphook's declaration about the sword",
+      "book_baseline": "In the book, Griphook says nothing about the sword at Malfoy Manor. Harry whispers to him beforehand asking him to lie and say the sword is fake, and Griphook complies. Griphook's choice to lie is a quiet, morally complex act that Harry must explicitly solicit and that carries ambiguity about Griphook's motives.",
+      "film_portrayal": "The film has Griphook volunteer an unprompted, elaborate statement: 'I left Gringotts employ many weeks ago, but when I was last in your vault, the sword was there.' This is a different lie than the book's, framed more as Griphook covering himself, and crucially it is delivered without Harry having asked him to lie \u2014 removing Harry's agency in orchestrating the deception and the moment of tense, whispered negotiation between them.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "In the book, Harry's desperate whispered plea to Griphook and Griphook's choice to comply is a small but meaningful moment of trust-building between them. It establishes that Griphook has reason to feel indebted and that Harry has begun cultivating the relationship. Removing Harry's agency here also removes the first seed of their alliance."
+      "explanation": "In the book the Malfoy Manor scene is a pivotal beat where Harry, under extreme duress, must think fast and trust a near-stranger goblin to lie on cue. That whispered plea and Griphook's compliance seeds the Harry-Griphook relationship with mutual, if fragile, complicity. By having Griphook speak unprompted, the film removes Harry's quick thinking and the fragile trust-building moment, flattening Griphook from a morally ambiguous actor into a convenient plot mechanism."
     },
     {
-      "scene": "Film Scene 5 (Shell Cottage bedroom) - Negotiation condensed, sword demand skips debate",
-      "book_baseline": "The negotiation is extended and layered: Griphook raises goblin grievances about wand-carriers, Hermione passionately defends their record (freeing Dobby, her Mudblood status, her torture), Griphook is visibly moved by her. Ron's clumsy offer of Lestrange vault treasure offends Griphook. The trio then privately debates whether to deceive Griphook with a fake sword. Harry makes a morally compromised promise knowing he intends to delay or deceive.",
-      "film_portrayal": "The negotiation is stripped to a brief exchange. Griphook simply glances at the sword and names his price. Harry immediately agrees ('All right'). There is no goblin-rights debate, no Hermione speech, no Ron blunder, no private deliberation about the deception. Harry's agreement appears straightforward rather than morally fraught.",
-      "damage_type": "motivation/internal conflict",
+      "scene": "Film Scene 5 (Shell Cottage bedroom) \u2014 negotiation over the sword",
+      "book_baseline": "The book depicts an extended, multi-session negotiation. Griphook first says he will 'think about it,' keeps the trio waiting, then calls them back to demand the sword explicitly. There is a separate private session where Harry, Ron, and Hermione debate the moral weight of deceiving Griphook. Ron's clumsy offer of Lestrange vault treasure offends Griphook ('I am not a thief!'). Griphook gives a mini-lecture on goblin ownership philosophy (Ragnuk the First, wizarding arrogance). Hermione's impassioned speech about Mudblood solidarity is a key beat. The handshake is preceded by Harry's internal misgiving about his deliberate vagueness regarding the timing of the handover.",
+      "film_portrayal": "The film compresses the entire negotiation into a single short scene. Griphook sees the sword in the corner, Harry asks 'Then what?', Griphook gestures to the sword and says 'That is my price,' and Harry immediately agrees after one beat of hesitation. There is no 'I shall think about it,' no Ron's offensive blunder, no goblin ownership philosophy, no Hermione Mudblood speech, no private trio deliberation about deceiving Griphook, and no sign of Harry's internal guilt about the planned double-cross.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "The book's negotiation is central to Griphook's characterization as a principled, politically conscious being with legitimate grievances, not merely a mercenary. It also establishes Harry's moral compromise - he knowingly makes a promise he plans to break - which is a significant ethical weight the film entirely removes. Griphook's complexity and Harry's internal conflict are both lost."
+      "explanation": "The book negotiation is the primary scene establishing Griphook's character depth: his pride, his goblin political philosophy, his grudging respect for Harry earned through careful observation. It also establishes the moral stakes of the planned double-cross, which gives the eventual betrayal its weight. By stripping this to a single transactional exchange, the film turns Griphook into a flat mercenary and removes the ethical complexity that makes his later betrayal feel like an inevitable consequence of systemic wizard-goblin mistrust rather than simple villainy."
     },
     {
-      "scene": "Film Scene 5 (Shell Cottage bedroom) - Goblin political identity and wand-carrier grievance absent",
-      "book_baseline": "Griphook delivers a pointed speech about goblins being denied wand rights, Gringotts falling under Wizarding rule, house-elves being slaughtered. He uses the term 'wand-carriers' with deliberate contempt. This frames him as a politically aware being with a coherent worldview, not just a bank employee.",
-      "film_portrayal": "Griphook says only 'This is a wizard's war. I take no side.' His political identity is reduced to a single neutral line. No wand-rights grievance, no broader goblin oppression context.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Griphook's political consciousness is a defining trait that explains his ambivalence, his eventual betrayal, and the broader theme of non-human magical beings under Voldemort's regime. Reducing it to one line flattens him into a functional plot device."
-    },
-    {
-      "scene": "Film Scene 5 (Shell Cottage bedroom) - Hermione's passionate defense of goblin/elf rights absent",
-      "book_baseline": "Hermione sits up straight, eyes bright, declares herself a Mudblood and proud of it, points out she was tortured, that Harry freed Dobby, that they have wanted elf freedom for years. She pulls aside her collar to show Bellatrix's cut. Griphook gazes at her with the same curiosity he showed Harry.",
-      "film_portrayal": "Hermione is silent during the negotiation. She looks shocked when Harry agrees to give the sword. Her relationship with Griphook and her role in persuading him is entirely absent.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Hermione's speech is one of her most politically charged moments in the series and directly contributes to Griphook's decision to help. Its removal erases her agency in the negotiation and weakens the thematic argument that the trio's treatment of non-human beings distinguishes them from Voldemort's side."
-    },
-    {
-      "scene": "Film Scene 5 (Shell Cottage bedroom) - Harry's deceptive promise framing",
-      "book_baseline": "Harry privately plans with Ron to phrase the sword promise vaguely, intending to delay or deceive. He is aware this is morally compromised. Hermione disapproves. Harry shakes Griphook's hand knowing he may not honor it. This is a deliberate ethical failing on Harry's part.",
-      "film_portrayal": "Harry says 'All right' immediately and simply shakes hands. There is no private deliberation, no vague phrasing strategy, no Hermione disapproval. The promise appears sincere and straightforward.",
+      "scene": "Film Scene 5 (Shell Cottage bedroom) \u2014 absence of Harry's internal guilt and the planned deception",
+      "book_baseline": "Harry explicitly plans to deceive Griphook about the timing of the sword handover. He is careful to phrase his promise vaguely. He feels guilt about this. Hermione disapproves. Ron's 'wing it' attitude is contrasted with Hermione's moral discomfort. The planned double-cross is a sustained ethical shadow over the entire Shell Cottage stay.",
+      "film_portrayal": "Harry says 'All right' to Griphook's price with almost no visible internal conflict. The film does not depict the trio's private deliberation about how to deceive Griphook. Bill's warning is present (Film Scene 7) but Harry's knowing, pre-meditated intention to cheat Griphook is not established. The moral ambiguity of Harry's choice is absent.",
       "damage_type": "motivation/internal conflict",
       "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "Harry's knowing deception of Griphook is one of the book's most morally complex moments for the protagonist. It makes Griphook's eventual betrayal feel earned and symmetrical - both parties were planning to double-cross the other. The film removes Harry's culpability entirely, making Griphook's betrayal feel like pure villainy rather than a mirror of Harry's own compromise."
+      "impact_weight": 3,
+      "explanation": "One of the book's most interesting moral threads is that Harry \u2014 the hero \u2014 knowingly plans to betray a deal with a creature he acknowledges has been historically wronged by wizards. This gives Griphook's eventual counter-betrayal a tragic symmetry. Without establishing Harry's deliberate deception, the film loses this moral complexity and makes Griphook's betrayal feel more like unprovoked villainy than the inevitable outcome of mutual distrust."
     },
     {
-      "scene": "Film Scene 7 (Shell Cottage parlor) - Bill's warning simplified",
-      "book_baseline": "Bill's warning is detailed and specific: goblin notions of ownership differ from human ones, goblin-made objects are considered permanently goblin property, wizards passing them on is seen as theft. He references the tiara incident. He clearly suspects Harry has promised Griphook a goblin-made object.",
-      "film_portrayal": "Bill says only: 'If you've struck any kind of bargain with Griphook, you must be exceptionally careful to live up to it. If you don't... he won't be forgiving.' The goblin ownership philosophy is entirely absent.",
+      "scene": "Film Scene 7 (Shell Cottage parlor) \u2014 Bill's warning",
+      "book_baseline": "In the book, Bill's warning is longer and more specific. He explains goblin notions of ownership in detail: that goblins consider goblin-made objects as permanently belonging to their makers and view wizard-to-wizard inheritance as theft. He uses the tiara example concretely. He warns that goblin agreements hinge on these differing ownership concepts. This directly foreshadows Griphook's logic in the betrayal.",
+      "film_portrayal": "Film Bill says only: 'If you've struck any kind of bargain with Griphook, you must be exceptionally careful to live up to it. If you don't... he won't be forgiving.' This is general caution with no explanation of goblin ownership philosophy, no tiara incident, and no articulation of why goblin and wizard notions of a deal differ fundamentally.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Bill's explanation of goblin ownership philosophy contextualizes why Griphook's betrayal is not simple greed but a principled (if ruthless) assertion of goblin property rights. Without it, Griphook's taking of the sword reads as mere treachery rather than a coherent cultural position."
+      "explanation": "The specificity of Bill's warning in the book primes the audience to understand Griphook's logic when he says 'I said I'd get you in. I never said anything about getting you out.' Without the philosophical grounding, the film's Griphook reads as a simple double-crosser rather than someone operating under a coherent (if alien) ethical framework, reducing him from a thematically resonant character to a functional antagonist."
     },
     {
-      "scene": "Film Scene 9 (Diagon Alley) - Griphook's harsh coaching of Hermione",
-      "book_baseline": "In the book Griphook whispers intelligence to Harry about Travers being a Death Eater, and Harry relays it to Hermione. Griphook's role is informational and collaborative, operating as a genuine partner in the infiltration.",
-      "film_portrayal": "Griphook harshly mocks Hermione for saying 'Good morning' too cheerfully, threatens that they might as well slit their own throats, and is generally contemptuous. This is an invented scene beat with no book equivalent.",
+      "scene": "Film Scene 9 (Diagon Alley) \u2014 Griphook's aggressive coaching of Hermione",
+      "book_baseline": "In the book, Griphook functions as an intelligence asset whispering tactical information to Harry (identifying Travers, warning about the Probity Probes). His role is informational and tense, not domineering.",
+      "film_portrayal": "The film adds a scene where Griphook aggressively mocks Hermione for saying 'Good morning' to a warlock and threatens that they might as well 'use that sword to slit our own throats.' This is an original film invention not present in the book corpus.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor addition that slightly exaggerates Griphook's abrasiveness beyond the book's characterization, though the book does establish him as unpleasant. Low damage as it is consistent with his general disposition, just more overtly hostile."
+      "explanation": "The added aggression is broadly consistent with Griphook's unfriendly nature, so damage is limited. However, it slightly caricatures him as straightforwardly hostile rather than coldly professional, marginally flattening the more complex, self-interested competence the book establishes. Impact is minor since the scene also shows him being practically useful."
     },
     {
-      "scene": "Film Scene 13 (Lestrange vault) - Griphook's betrayal line and execution",
-      "book_baseline": "Griphook's betrayal is opportunistic: he seizes the sword at the last moment when he can, having always suspected they would not honor the deal. He slides from Harry's shoulders and sprints to the goblins crying 'Thieves!' The betrayal is mutual - Harry was also planning to deceive him.",
-      "film_portrayal": "Griphook delivers a scripted-sounding villain line: 'I said I'd get you in. I never said anything about getting you out.' He then deliberately opens the vault door to flush them out. The betrayal is premeditated and coldly announced rather than opportunistic.",
+      "scene": "Film Scene 13 (Lestrange Vault) \u2014 Griphook's betrayal line",
+      "book_baseline": "In the book, Griphook's betrayal is a physical act: he grabs the sword, swings it out of Harry's reach while still clinging to Harry's hair, lets the cup be flung free, then the moment the vault opens he sprints for the surrounding goblins crying 'Thieves!' The betrayal is violent, sudden, and animalistic \u2014 he never announces his intention beforehand. Harry 'knew that the goblin had never expected them to keep their word,' which is a retrospective realization.",
+      "film_portrayal": "Griphook delivers a theatrical villain line before betraying them: 'I said I'd get you in. I never said anything about getting you out.' This telegraphs the betrayal with a monologue-style declaration rather than a sudden physical act.",
       "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film's version makes Griphook a calculating villain who planned the betrayal from the start and announces it with a quip. The book's version is more ambiguous - he seizes an opportunity, which is consistent with his character but not a pre-scripted double-cross. The villain-line framing removes moral symmetry with Harry's own planned deception."
-    },
-    {
-      "scene": "Film Scene 13/14 (Lestrange vault/outside) - Ron saves Griphook from the treasure",
-      "book_baseline": "Harry saves Griphook from sinking beneath the multiplying treasure, seizing his fingers and pulling him free. This is Harry's action, maintaining his role as the one who has shown Griphook unusual care.",
-      "film_portrayal": "Ron saves Griphook from the treasure, grabbing his fingers as he sinks.",
-      "damage_type": "agency/function",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Harry saving Griphook is consistent with the book's pattern of Harry showing unusual care for non-human beings (burying Dobby, rescuing Griphook from Malfoy Manor). Transferring this to Ron breaks the specific Harry-Griphook dynamic that Griphook himself has noted and that motivates his ambivalence about betraying Harry."
+      "explanation": "The book's Griphook is cunning and unsentimental \u2014 he acts without announcing himself, which is consistent with his characterization as someone operating by a different set of rules than wizards. The film's pre-betrayal speech turns him momentarily into a stock villain who explains his treachery. This undercuts his integrity as a character with a coherent internal logic and reduces the betrayal's shock and thematic resonance (the mutual distrust of wizard and goblin each expecting the other to betray first)."
     },
     {
-      "scene": "Film Scene 15 (Gringotts banking hall aftermath) - Griphook killed by Death Eater",
-      "book_baseline": "Griphook's fate after the Gringotts break-in is not described in the book. He escapes into the goblin crowd with the sword. The sword later vanishes from Gringotts (implied to have been claimed by its true nature). Griphook's ultimate fate is left open.",
-      "film_portrayal": "Griphook is shown being confronted by a Death Eater who points a wand between his eyes, then shown dead at Malfoy Manor with the sword vanishing from his grip. He is killed as a direct consequence of the heist.",
+      "scene": "Film Scene 15 (Gringotts Banking Hall after escape) and Film Scene 16 (Malfoy Manor) \u2014 Griphook's death",
+      "book_baseline": "The book ends Griphook's role at the point where he vanishes into the crowd of goblins with the sword, crying 'Thieves!' His fate after that is not described in the provided corpus. The book does not show him killed.",
+      "film_portrayal": "The film shows Griphook emerging from the rubble clutching the sword, being confronted by a Death Eater, and then (Film Scene 16) shows a bloody hand gripping the sword at Malfoy Manor before the sword vanishes \u2014 strongly implying Griphook has been killed by Voldemort or Death Eaters.",
       "damage_type": "arc",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Killing Griphook on screen and showing him punished for his betrayal imposes a moralistic closure the book deliberately avoids. The book leaves goblin-wizard relations unresolved and Griphook's fate ambiguous, which is thematically consistent with the saga's treatment of non-human beings. The film's version reduces him to a villain who gets his comeuppance."
+      "impact_weight": 3,
+      "explanation": "Killing Griphook immediately after his betrayal transforms a morally complex ending \u2014 a goblin successfully outwitting both the trio and, implicitly, the Death Eaters \u2014 into a simple punishment narrative where treachery leads to death. The book leaves Griphook's fate open, which preserves the thematic ambiguity: the wizard-goblin relationship remains unresolved, neither side triumphant. The film's choice to kill him forecloses that ambiguity, delivering a tidy comeuppance that undercuts the saga-level theme of systemic injustice toward non-human magical beings."
     },
     {
-      "scene": "Film Scene 5 (Shell Cottage) - Weeks of planning together at Shell Cottage absent",
-      "book_baseline": "Harry, Ron, Hermione, and Griphook spend weeks planning together in the small bedroom. Harry observes Griphook's bloodthirstiness, his refusal to eat with them, his raw meat diet, his constant surveillance of the trio. Harry feels responsible for the burden on the Weasley family. The extended cohabitation builds genuine tension and complexity.",
-      "film_portrayal": "The planning period is entirely elided. The film cuts directly from the negotiation to the morning of departure. None of Griphook's unsettling domestic behavior, his surveillance of the trio, or Harry's growing dislike of him is shown.",
+      "scene": "Film Scene 5 (Shell Cottage) \u2014 absence of Griphook's observation about Harry burying Dobby and goblin/elf respect",
+      "book_baseline": "The book has Griphook explicitly observe that Harry dug Dobby's grave by hand and rescued a goblin, calling Harry 'a very unusual wizard' and noting: 'Goblins and elves are not used to the protection or the respect that you have shown this night. Not from wand-carriers.' This is the moral foundation that makes Griphook willing to consider helping \u2014 not just gold or leverage, but a witnessed act of decency toward non-human creatures.",
+      "film_portrayal": "The film retains 'You buried the elf. I saw you' and 'You are a very unusual wizard,' but removes the explicit statement about goblins and elves not being used to such respect from wand-carriers. The connection between Harry's demonstrated ethics and Griphook's willingness to help is present but significantly attenuated.",
       "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The weeks of planning establish Griphook as genuinely unsettling - bloodthirsty, paranoid, alien in his habits - while also showing Harry's pragmatic tolerance of someone he dislikes because he needs him. This texture makes the eventual betrayal feel earned and the relationship feel real. Its absence makes Griphook a functional plot device rather than a character."
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's explicit articulation of why Harry earns Griphook's conditional trust links the Dobby burial directly to the broader theme of wizard treatment of magical non-humans. Its loss means the film's Griphook helps Harry for more opaque reasons, weakening both Griphook's characterization as a proud creature who responds to genuine respect and the thematic through-line connecting house-elf liberation to goblin rights."
     }
   ],
   "confidence": {
@@ -119,8 +92,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1072.5,
-  "adjusted_cids_v1": 1340.6
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

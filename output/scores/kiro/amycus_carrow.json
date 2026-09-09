@@ -1,96 +1,99 @@
 {
   "character": "Amycus Carrow",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 10.0,
+    "narrative_role_agency": 7.0,
+    "motivations_internal_conflict": 7.0,
+    "character_arc": 11.0,
+    "key_relationships": 5.0,
+    "complexity_nuance_lost_material": 5.0,
+    "total": 45.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 10,
+      "narrative_role_agency": 7,
+      "motivations_internal_conflict": 7,
+      "character_arc": 11,
+      "key_relationships": 5,
+      "complexity_nuance_lost_material": 5,
       "justification": {
         "personality_voice": {
-          "book_baseline": "In the books, Amycus is established as a lumpy, lopsided, wheezy, crude Death Eater with a volatile temper. He is sycophantic toward Draco ('Well done, Draco!'), mocking toward Dumbledore ('Look at him - what's happened to you, then, Dumby?'), and prone to sudden violent outbursts when he feels condescended to ('What's that mean, then, what's that mean?' yelled the Death Eater, suddenly violent). He is coarse, impatient, and contemptuous, with a wheezy giggle that contrasts with his brutality.",
-          "film_portrayal": "The film corpus is entirely empty. Amycus Carrow has no scenes in the provided screenplay material.",
-          "difference": "There is no film portrayal to evaluate.",
-          "penalty_logic": "A score of 0 is assigned not as a faithfulness judgment but because there is no film material to assess. The character is absent from the film corpus entirely.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "In the books, Amycus is established through a dense cluster of observable traits. He has a wheezy giggle, a lopsided leer, and a 'lumpy' physical presence that matches his crude personality. His speech is loud, aggressive, and emotionally volatile: he jeers at Dumbledore ('Look at him - what's happened to you, then, Dumby?'), yells suddenly when he feels mocked ('What's that mean, then, what's that mean?'), and is easily destabilised by Dumbledore's ironic composure. He is sycophantic toward Draco and Death Eater hierarchy ('Well done, Draco, well done!') while being contemptuous of Dumbledore. He also displays a crude pragmatism \u2014 he wants Draco to kill Dumbledore quickly, he shouts at Greyback when he oversteps, and he reports the problem to Snape in a businesslike way. His voice is impulsive, easily provoked, and low in register \u2014 a bully who functions well in a pack but is rattled by intellectual composure.",
+          "film_portrayal": "In the film corpus, Amycus has no dialogue and no individuated behavior. He appears twice: once as part of a visual pair with Alecto chivvying students across a bridge (Film Scene 1), and once standing 'like a sinister sentinel' alongside Alecto in the Great Hall, then 'faltering' and turning to Snape with uncertainty when Harry and the Order arrive (Film Scene 2). He is then hit by a deflected curse from Snape and disappears from the narrative. No speech, no aggression, no volatility, no distinct personality is shown.",
+          "difference": "Every trait that defines Amycus in the book corpus \u2014 the wheezy laugh, the sudden violent aggression, the sycophantic cruelty, the destabilisation under Dumbledore's irony, the crude bossiness \u2014 is entirely absent. The film reduces him to a visual prop. Even the basic register of his voice (rasping, loud, impulsive) is never heard. The lopsided leer and grotesque physicality that the book uses to signal his personality are not communicated through any film action.",
+          "penalty_logic": "This is a substantial loss of personality and voice. The book baseline is not especially complex \u2014 Amycus is not a deeply layered character \u2014 but what he has is vivid and specific: a distinct verbal style, emotional volatility, pack-bully cruelty, and comic grotesquerie. None of it is present in the films. The score cannot be higher than the lower range because the film does not portray his personality at all \u2014 it merely registers his existence.",
+          "evidence_status": "Directly evidenced"
         },
         "narrative_role_agency": {
-          "book_baseline": "Amycus plays an active role in the Tower scene in Half-Blood Prince: he pressures Draco to kill Dumbledore, blasts Greyback away when he tries to act out of turn, and reports the situation to Snape. He is a driver of the scene's tension and one of the Death Eaters who successfully infiltrated Hogwarts.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "No film portrayal exists in the corpus.",
-          "penalty_logic": "Score of 0 reflects absence of evaluable material, not a faithfulness determination.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "In the book corpus, Amycus has a clear active role at the Tower scene: he is part of the Death Eater group that successfully infiltrates Hogwarts, he pressures Draco to kill Dumbledore, he celebrates the cornering of Dumbledore, he physically blasts Greyback away when Greyback overreaches, he reports the problem to Snape, and he keeps his wand trained on Dumbledore throughout. He is not the scene's driver, but he is an active participant who takes initiative, makes decisions (blasting Greyback), and contributes to the pressure on Draco. He is also one of the two Death Eaters who are structurally responsible for the breach that allowed Dumbledore's death to proceed.",
+          "film_portrayal": "In the films, Amycus is present as a guard/sentinel figure with no individual agency. In Film Scene 1, he chivvies students as part of a pair. In Film Scene 2, he stands watching, falters when confronted, and is incapacitated by a deflected curse \u2014 a passive, reactive presence throughout.",
+          "difference": "The Tower scene \u2014 Amycus's primary moment of agency in the books \u2014 is not present in the film corpus at all. In the film corpus provided, Amycus never pressures Draco, never blasts Greyback, never reports to Snape, and never acts as a co-driver of any scene. His only film action is being knocked out by a deflected spell, which is the opposite of agency. His structural function as an infiltrating Death Eater who actively enables Dumbledore's death is entirely absent from the evaluated corpus.",
+          "penalty_logic": "The book corpus establishes Amycus as an active participant in the most consequential scene of Book 6. The film corpus shows him exclusively as a passive background figure who is quickly neutralised. His narrative function in the Tower scene is not transferred to another character \u2014 it is simply absent from the film corpus. This is a heavy reduction of agency.",
+          "evidence_status": "Directly evidenced"
         },
         "motivations_internal_conflict": {
-          "book_baseline": "Amycus is motivated by loyalty to Voldemort and contempt for Dumbledore. He wants Draco to complete the kill to fulfill the Dark Lord's orders, and he is frustrated by Dumbledore's calm condescension.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Cannot be assessed.",
-          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Amycus's motivations in the book corpus are reasonably clear though not deeply explored: he is loyal to Voldemort and wants Dumbledore dead, he wants Draco to carry out the act as ordered (suggesting he respects Death Eater hierarchy and Voldemort's specific instructions), and he is contemptuous of Dumbledore. He also appears to be motivated by a kind of crude bravado \u2014 he enjoys the spectacle of Dumbledore cornered. There is no internal conflict shown; his motivations are aligned with his actions.",
+          "film_portrayal": "The film corpus provides no material from which to infer Amycus's motivations. His presence as a guard/sentinel is consistent with Death Eater loyalty but is too thin to constitute a portrayal of motivation. No dialogue, no decision-making, and no scene-specific behavior is available.",
+          "difference": "The book's slim but coherent motivation set (Voldemort loyalty, contempt for Dumbledore, respect for Death Eater hierarchy, bravado) is not communicated at all in the film corpus. The film does not contradict his motivations \u2014 it simply provides no material to confirm them.",
+          "penalty_logic": "The score cannot be high because the motivations are effectively absent from the film portrayal \u2014 not contradicted, but simply not portrayed. Per the framework, this is a case of being too vague to support the same characterization, which warrants a penalty. However, since the book motivations are themselves not complex, the penalty is moderate rather than severe.",
+          "evidence_status": "Not enough evidence (film); Directly evidenced (books)"
         },
         "character_arc": {
-          "book_baseline": "Amycus has no meaningful arc; he is a flat antagonist who appears in the Tower scene and later as a Hogwarts teacher in Deathly Hallows. His function is structural, not developmental.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Cannot be assessed.",
-          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Amycus has no meaningful arc in the book corpus. He begins as a Death Eater and ends as one. He does not change, grow, or regress. His arc is intentionally flat \u2014 he is a functional villain in a single set-piece scene. His broader role across the series (as a Hogwarts torturer in Book 7) is not represented in the provided book corpus.",
+          "film_portrayal": "The film corpus similarly shows no arc. Amycus appears, is present, and is knocked out. He begins and ends in the same state.",
+          "difference": "No meaningful difference in arc, since both book and film corpus portray a flat trajectory. However, the film also does not capture the Book 7 material (Amycus as Dark Arts teacher and torturer at Hogwarts) that would be the most significant arc-adjacent content for this character.",
+          "penalty_logic": "Since the book corpus itself is limited to the Tower scene and does not include Book 7 Hogwarts material, the arc is flat in both. Per the framework's important rule, a flat arc in books and films does not incur a penalty. The score is accordingly not penalised heavily here, though it cannot be full points because the film corpus shows even less than the books.",
+          "evidence_status": "Directly evidenced"
         },
         "key_relationships": {
-          "book_baseline": "Key relationships include his sister Alecto (they operate as a pair, share a wheezy giggle dynamic), Draco (he pressures and implicitly threatens him), and Snape (he defers to him upon arrival). These are functional rather than emotionally deep.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Cannot be assessed.",
-          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "The book corpus shows two relevant relational dynamics: (1) Amycus and Alecto as a sibling pair \u2014 they function together, laugh together, and are described in parallel physical terms, suggesting a close, mutually reinforcing cruelty; (2) Amycus in relation to Draco and the Death Eater hierarchy \u2014 he is nominally supportive of Draco but ultimately pressures him and reports his failure to Snape, suggesting a subordinate-but-impatient relationship with the mission and its chain of command.",
+          "film_portrayal": "The film corpus does show Amycus paired with Alecto in both scenes \u2014 they appear together, act together, and are described together. This pairing is preserved. However, the dynamic within the pair is not developed \u2014 they have no differentiated interaction, no sister's 'wheezy giggles' in response to Amycus's jeering, no individuated behavior. The relationship with Draco and Death Eater hierarchy is entirely absent.",
+          "difference": "The sibling pairing is visually preserved, but the emotional texture of it \u2014 the shared grotesque humor, the mutual reinforcement of cruelty \u2014 is absent. The relational dynamic with Draco and the Death Eater chain of command is not present in the film corpus at all.",
+          "penalty_logic": "The film preserves the structural fact of the sibling pair but not its dynamic. The relationship with Draco and hierarchy is lost. This is a partial but meaningful reduction.",
+          "evidence_status": "Directly evidenced"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "Amycus is a minor but textured character: crude yet obedient to hierarchy, capable of sudden violence, contemptuous but also somewhat buffoonish. The contrast between his wheezy giggling and his brutal impatience gives him a small but distinct personality.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "All book material is lost from the film corpus.",
-          "penalty_logic": "Score of 0 reflects absence of evaluable material.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Amycus is not a complex character, but he has specific texture: the grotesque physical description (lumpy, lopsided leer), the wheezy laugh, the sudden emotional volatility when mocked, the crude bossiness, the way he functions as a comic-sinister figure \u2014 dangerous but also ridiculous. This combination of menace and grotesquerie is what gives him his specific identity. He is not merely a background thug; he has a distinct voice and behavioral signature that the book deploys to color the Tower scene.",
+          "film_portrayal": "The film portrays none of this texture. Amycus is a visual extra who is knocked out without speaking. The grotesque-comic-sinister register is entirely absent. There is no material in the film corpus from which a viewer could derive any distinct impression of Amycus beyond 'Death Eater guard.'",
+          "difference": "All of the character's specific texture \u2014 voice, laugh, volatility, grotesque physicality, crude humor, pack-bully cruelty \u2014 is absent. The film removes not just scenes but the entire behavioral signature that constitutes the character's identity in the book.",
+          "penalty_logic": "This is a major simplification. What remains in the film is literally a named background figure. The book's Amycus, while not deeply nuanced, is a specific type \u2014 a recognizable comic villain with a distinct register \u2014 and none of that survives in the film corpus. The score is in the lower range of this dimension.",
+          "evidence_status": "Directly evidenced"
         }
       },
       "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
         "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
-        "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
       },
       "lost_or_transferred_material": [
-        "Amycus's volatile outburst at Dumbledore's condescension ('What's that mean, then, what's that mean?')",
-        "Amycus blasting Greyback away to enforce the order that Draco must be the one to kill Dumbledore",
-        "Amycus's sycophantic praise of Draco ('Well done, Draco, well done!')",
-        "Amycus's mocking of Dumbledore's physical decline ('Look at him - what's happened to you, then, Dumby?')",
-        "The sibling dynamic between Amycus and Alecto (wheezy giggles, operating as a pair)",
-        "Amycus reporting the situation to Snape upon his arrival",
-        "Amycus's role as a Hogwarts teacher in Deathly Hallows (not represented in either corpus)"
+        "Amycus's wheezy laugh and lopsided leer \u2014 the physical grotesquerie that defines his screen presence in the book",
+        "His verbal jeering of Dumbledore ('Look at him - what's happened to you, then, Dumby?')",
+        "His sudden violent emotional outburst when mocked by Dumbledore's irony ('What's that mean, then, what's that mean?')",
+        "His active role pressuring Draco to kill Dumbledore at the Tower",
+        "His decision to physically blast Greyback away when Greyback oversteps \u2014 a moment of initiative and hierarchy enforcement",
+        "His businesslike report to Snape ('We've got a problem, Snape \u2014 the boy doesn't seem able \u2014')",
+        "His sycophantic praise of Draco ('Well done, Draco, well done!')",
+        "The sibling dynamic with Alecto \u2014 her wheezing giggles responding to his jokes, their shared grotesque humor",
+        "His contempt for Dumbledore expressed through mockery and impatience",
+        "His role as a co-driver of the Tower scene's pressure on Draco"
       ],
       "score_caps_applied": [
-        "No caps applied - scores are 0 across all dimensions due to complete absence of film corpus material, not due to cap logic"
+        "Cap 4 applied (score not above 70): the films preserve only Amycus's broad identity as a Death Eater guard, removing most of what defines his book characterization \u2014 his voice, behavior, agency, and relational texture.",
+        "Cap 3 implicitly reinforced (score not above 75): his core book function and agency at the Tower scene is absent from the film corpus entirely."
       ],
-      "key_observations": "The film corpus for Amycus Carrow is entirely empty, making a faithfulness evaluation impossible. All scores are 0 with Low confidence solely because there is no film material to compare against the book baseline. This should not be read as a judgment that the film portrayal is unfaithful - it means the evaluation cannot be performed. The book corpus establishes a clear, if minor, characterization: a crude, volatile, buffoonish-yet-brutal Death Eater with a distinct voice and a specific functional role in the Astronomy Tower scene. Whether the films preserved or discarded this is unassessable from the provided data.",
+      "key_observations": "Amycus Carrow scores 45/100, reflecting a portrayal that preserves only the barest structural fact of his existence \u2014 a Death Eater present at Hogwarts \u2014 while discarding essentially everything that constitutes his book characterization. In the books, he is a vivid, if minor, comic-sinister figure: grotesque in appearance, volatile in temperament, crude and bullying in voice, and actively involved in the Tower scene's pressure dynamics. In the film corpus, he is a named background extra who appears twice in silent crowd-control roles and is knocked out by a deflected spell. His voice, laugh, aggression, emotional volatility, sibling dynamic with Alecto, and active role at the Tower are entirely absent. The score is kept out of the lowest range because his flat arc is correctly preserved, the sibling pairing with Alecto is at least structurally retained, and his motivations are not contradicted \u2014 merely unportrayed. Confidence is Medium globally because the book corpus is limited to the Tower scene and does not include Book 7 material where Amycus has a more substantial role as Hogwarts' Dark Arts teacher and torturer \u2014 material whose absence from both corpora limits the depth of evaluation.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 4142,
-        "film_chars_sent": 0,
+        "film_chars_sent": 13032,
         "aliases": [],
-        "corpus_hash": "da4c57ebcbbe",
         "corpus_version": "1"
       }
     }

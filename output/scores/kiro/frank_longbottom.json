@@ -1,92 +1,95 @@
 {
   "character": "Frank Longbottom",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 14.0,
+    "narrative_role_agency": 11.0,
+    "motivations_internal_conflict": 9.0,
+    "character_arc": 11.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 59.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 14,
+      "narrative_role_agency": 11,
+      "motivations_internal_conflict": 9,
+      "character_arc": 11,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 8,
       "justification": {
         "personality_voice": {
-          "book_baseline": "Frank Longbottom does not speak or act in the book corpus. He is referenced only as a victim - an Auror subjected to the Cruciatus Curse. No personality, voice, or behavioral traits are directly evidenced from the corpus itself, though broader book knowledge establishes him as a respected, courageous Auror who resisted torture.",
-          "film_portrayal": "Frank Longbottom does not appear in the film corpus at all.",
-          "difference": "The character is entirely absent from the films in this corpus.",
-          "penalty_logic": "With no film appearance, no personality or voice can be evaluated. A score of 0 reflects absence, not a judgment of unfaithfulness per se - but the character simply cannot be scored.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Frank Longbottom does not speak or act in the book corpus provided. He exists in Goblet of Fire entirely as a victim reference: an Auror named and described as the subject of torture, never given dialogue or direct characterization in the trial scene. His personality is not established in these book passages; what is established is his role identity (Auror, Neville's father, torture victim) and the gravity of what was done to him. Any broader personality traits \u2014 his courage as an Auror, his defiance under torture \u2014 must be drawn from outside this corpus, specifically from his portrayal at St. Mungo's in Order of the Phoenix, where he is shown as a broken man unable to recognize his own son, handing Neville a sweet wrapper. That moment implies a formerly capable, loving person reduced to a hollow shell. His voice and personality are never directly evidenced in either the book or film corpus provided.",
+          "film_portrayal": "In the film corpus, Frank Longbottom is referenced by name in Igor Karkaroff's testimony during the Pensieve memory: 'I know for a fact this person took part in the capture, and, by means of the Cruciatus Curse, torture of the Auror Frank Longbottom and his wife!' He does not appear as a physical character, does not speak, and has no observable behavior, emotional tone, or voice in the film corpus.",
+          "difference": "In both the book and film corpus, Frank Longbottom is entirely absent as a speaking or acting character. He is only referenced as a victim. The film preserves this purely referential status. There is no personality or voice to compare, because neither source gives him any. The film does not add or remove observable personality traits \u2014 there are none to preserve or lose in either corpus.",
+          "penalty_logic": "Because the character has no personality or voice in either the book or film corpus provided, direct comparison is impossible. However, the broader books (Order of the Phoenix, St. Mungo's scene) establish Frank as a destroyed man, a formerly capable Auror reduced to incomprehension, which is an implicit characterization with significant emotional weight. The film never engages with that dimension at all \u2014 the Pensieve scene is his only mention in the film corpus, and he never appears in person. The score reflects the inability to evaluate this dimension securely, combined with the fact that whatever characterization exists in the broader books (implied courage, implied humanity, implied tragedy) is not developed or referenced in the films beyond the single-name mention. A score of 14 reflects: the basic identity is preserved (Auror, torture victim), but the human and emotional dimension of the character as built across the books is entirely absent from the films.",
+          "evidence_status": "Not enough evidence in the provided corpus. Score draws on reasonably inferred broader book characterization outside the corpus."
         },
         "narrative_role_agency": {
-          "book_baseline": "Frank's narrative role in the book corpus is as a named victim whose torture drives the trial scene and contextualizes Neville's backstory. He has no active agency in the corpus - he is referenced, not present.",
-          "film_portrayal": "Frank Longbottom does not appear in the film corpus.",
-          "difference": "The trial scene (Goblet of Fire, Pensieve) is absent from the films, removing the only context in which Frank is named and his fate is formally established.",
-          "penalty_logic": "His narrative function - anchoring Neville's tragedy and the Bartemius Crouch Jr. trial - is lost entirely in the films. No score is possible.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "In the book corpus, Frank Longbottom's narrative role is that of the named victim whose torture defines the crime being prosecuted. He is the structural hinge of the Pensieve trial scene: his suffering is the moral weight that justifies the sentence against Barty Crouch Jr. and the Lestranges. He is also Neville's father, and his existence as a living-but-destroyed person is one of the most emotionally consequential facts in the broader series \u2014 it explains Neville's motivations, his grandmother's severity, and the horror of a fate worse than death. His agency in this corpus is zero: he does not act, speak, or appear. But his narrative function \u2014 as the referent around which the moral stakes of the trial are organized \u2014 is clear and significant.",
+          "film_portrayal": "The film preserves the same narrative function: Karkaroff names Frank Longbottom as the torture victim to identify Barty Crouch Jr. as a Death Eater. The structural use of his name as moral evidence is retained. However, the film never develops Frank as anything beyond this single reference. His broader narrative role in the series \u2014 as Neville's father, as the man in St. Mungo's, as the living emblem of Voldemort's cruelty \u2014 is entirely absent from the film corpus.",
+          "difference": "The immediate narrative role in the Pensieve trial scene is preserved. The broader narrative role across the series \u2014 Frank as the emotional origin of Neville's arc, as the physical embodiment of irreversible magical damage, as a recurring presence in the books \u2014 is absent from the films. The St. Mungo's scene in Order of the Phoenix, where Neville encounters his parents in person, is cut from the film adaptation, removing the most significant moment of Frank's narrative function.",
+          "penalty_logic": "The Pensieve reference is faithful to its source. However, the broader agency and narrative function of Frank Longbottom \u2014 his role as the living consequence of Voldemort's violence, and his relationship with Neville \u2014 is substantially absent. The St. Mungo's scene, where Frank wordlessly hands Neville a sweet wrapper and where the full emotional weight of his condition is shown, is removed in the films. This is a meaningful loss of narrative function. The score of 11 reflects: the trial-scene reference is preserved (preventing a lower score), but the character's most important narrative function across the series is cut.",
+          "evidence_status": "Directly evidenced (trial reference preserved). Reasonably inferred (St. Mungo's absence based on broader book/film knowledge)."
         },
         "motivations_internal_conflict": {
-          "book_baseline": "No motivations or internal conflict are evidenced in the corpus. Frank is a passive reference point, not an active character with expressed motivations.",
-          "film_portrayal": "Absent from film corpus.",
-          "difference": "No film material exists to compare.",
-          "penalty_logic": "Cannot be scored.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Frank Longbottom has no expressed motivations or internal conflicts in the provided corpus. From broader book knowledge: as an Auror, his motivation was duty and protection of others against Voldemort. Under torture, he apparently refused to give information about Voldemort's whereabouts \u2014 an act of resistance that cost him his sanity. This implied motivation (loyalty, courage, refusal to betray) is never directly stated in the provided corpus but is structurally present in the framing of the trial scene: he was tortured because he would not give information.",
+          "film_portrayal": "The film reference to Frank Longbottom preserves the same structural implication: he was tortured because he possessed information about Voldemort and would not give it. Karkaroff's testimony references 'the capture, and by means of the Cruciatus Curse, torture of the Auror Frank Longbottom and his wife' \u2014 identical in structure to the book. The implied motivation (resistance, refusal) is preserved at this minimal level.",
+          "difference": "There is no meaningful difference at the level available in the corpus. Both sources imply the same motivation through the same structural framing. However, the films never develop this further \u2014 the audience never sees or feels the weight of what Frank chose, because his person never appears.",
+          "penalty_logic": "At the corpus level, motivations are not elaborated in either source \u2014 both rely on structural implication. The film does not contradict or change the implied motivation. However, the broader motivational texture of Frank's character \u2014 the cost of his choices, the relationship between his Auror identity and his family's devastation \u2014 is never explored in the films, leaving this dimension extremely thin. Score of 9 reflects: no contradiction of existing motivation, but a profound absence of development.",
+          "evidence_status": "Reasonably inferred from structural framing in both corpus and broader series knowledge. Not enough direct evidence in the provided corpus."
         },
         "character_arc": {
-          "book_baseline": "Frank has no arc in the corpus - he is referenced as a victim of past events. His arc (Auror, tortured, institutionalized) exists in broader book knowledge but is not dramatized in the corpus.",
-          "film_portrayal": "Absent from film corpus.",
-          "difference": "No film material exists to compare.",
-          "penalty_logic": "Cannot be scored.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Frank Longbottom's arc across the books is implicit and static by the time of Goblet of Fire: it is an arc that has already concluded in tragedy before the story begins. He moved from capable Auror to torture victim to permanently damaged resident of St. Mungo's. The 'arc' that matters is not his forward development but the revelation and acknowledgment of what happened to him \u2014 culminating in Neville's St. Mungo's visit in Order of the Phoenix, where the full emotional weight of Frank's state is shown, and in the final battle, where Neville's actions can be read as avenging or honoring his parents.",
+          "film_portrayal": "The films preserve the basic tragic fact: Frank Longbottom was tortured into insanity by Death Eaters. The Pensieve scene in Goblet of Fire (film 4) establishes this. However, the St. Mungo's scene is cut, meaning the arc of revelation \u2014 where Neville confronts the human reality of his parents \u2014 does not exist in the films. The emotional culmination of Frank's arc as a narrative presence is absent.",
+          "difference": "The inciting fact of the arc (torture, destruction) is preserved. The arc's emotional culmination (Neville's encounter with him at St. Mungo's, the sweet wrapper moment) is cut. The films do not show Frank as a living person, only as a name in testimony.",
+          "penalty_logic": "Because Frank's arc is already completed before the story begins, and because his arc is more about revelation and acknowledgment than forward development, the loss of the St. Mungo's scene represents a significant missing step. The score of 11 reflects: the arc's foundation is preserved, but the key moment that gives the arc its emotional resolution for the audience is absent.",
+          "evidence_status": "Reasonably inferred from broader series knowledge. The corpus itself does not show arc progression in either source."
         },
         "key_relationships": {
-          "book_baseline": "The corpus references Frank's relationship with his wife (also tortured) and implicitly with Neville. No emotional dynamics are directly shown.",
-          "film_portrayal": "Absent from film corpus.",
-          "difference": "No film material exists to compare.",
-          "penalty_logic": "Cannot be scored.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Frank Longbottom's most important relationship is with his son Neville. In the books, this relationship \u2014 conducted entirely through Neville's grief, longing, and shame \u2014 is one of the most emotionally resonant in the series. Frank cannot recognize Neville but gives him a sweet wrapper, which Neville keeps. This moment defines both characters. Frank's relationship with Alice (his wife, who suffers the same fate) is also significant. His relationship with Barty Crouch Jr. is that of victim to perpetrator, which frames the moral stakes of the trial.",
+          "film_portrayal": "In the film corpus, Frank's only relational presence is as the named victim in Karkaroff's testimony. His relationship with Neville is structurally implied (the audience knows Neville is his son) but never shown or developed in the films. The St. Mungo's scene \u2014 the one moment where the Frank-Neville relationship has any direct dramatic presence \u2014 is cut. His relationship with Alice is referenced only as a co-victim.",
+          "difference": "The relationship with Neville, which is the defining relational fact of Frank's character in the books, is entirely absent from the film corpus. The emotional dynamic \u2014 the anguish of a son whose father cannot know him \u2014 is never shown. The perpetrator-victim relationship with Barty Jr. is preserved in structural form.",
+          "penalty_logic": "The most important relationship in Frank's characterization is the one with Neville, and it is effectively absent from the films beyond structural implication. This is a significant loss. Score of 6 reflects: the basic victim-perpetrator dynamic is preserved, but the defining relational texture of the character is missing.",
+          "evidence_status": "Directly evidenced (victim reference in trial). Reasonably inferred (Neville relationship from broader series knowledge outside corpus)."
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "Frank's complexity in the books lies in his status as a war hero reduced to a permanent patient at St. Mungo's - a tragedy that haunts Neville and contextualizes the cost of Voldemort's reign. The corpus only gestures at this through the trial reference.",
-          "film_portrayal": "Absent from film corpus.",
-          "difference": "The entire context establishing Frank's fate is absent from the films.",
-          "penalty_logic": "Cannot be scored.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Frank Longbottom's complexity in the books comes not from his direct characterization (he is non-verbal and non-present) but from the narrative use of his condition. He represents the worst possible consequence of Voldemort's cruelty: a fate worse than death, a man who existed in a permanent twilight, recognized by no one he loved. The sweet wrapper scene (Order of the Phoenix) is the single most emotionally complex moment associated with him: an incomprehensible gift from a father who does not know he is a father, received by a son who cannot let himself cry. This complexity \u2014 a character defined by absence, by what he once was, by what Neville carries for him \u2014 is entirely dependent on the St. Mungo's scene being present.",
+          "film_portrayal": "The films reduce Frank to a name in testimony. There is no complexity, no nuance, no emotional texture. The character exists only as a plot device (naming the crime) rather than as a human being with a history, a son, and a tragedy.",
+          "difference": "Virtually all of the complexity and nuance associated with Frank Longbottom in the books is absent from the films. The sweet wrapper scene, the St. Mungo's dynamic, the visual reality of his condition, and the relational weight of Neville's silent grief are all cut. What remains is a name.",
+          "penalty_logic": "The reduction is substantial. Frank Longbottom is not a complex character in the traditional sense \u2014 he cannot act or speak \u2014 but his complexity lies in what he represents and in the one scene where he is shown as a human presence. That scene is gone. The score of 8 reflects: the factual identity is preserved, but the nuance and emotional texture that make him more than a plot reference are absent.",
+          "evidence_status": "Reasonably inferred from broader series knowledge. Directly evidenced (name-only presence in film corpus)."
         }
       },
       "confidence": {
         "global": "Low",
         "personality_voice": "Low",
-        "narrative_role_agency": "Low",
+        "narrative_role_agency": "Medium",
         "motivations_internal_conflict": "Low",
         "character_arc": "Low",
         "key_relationships": "Low",
         "complexity_nuance_lost_material": "Low"
       },
       "lost_or_transferred_material": [
-        "The Pensieve trial scene (Goblet of Fire) in which Frank is named as a torture victim and his fate is formally established is absent from the films.",
-        "The formal courtroom context that connects Frank's suffering to Bartemius Crouch Jr.'s conviction is not present in the films.",
-        "The emotional weight of Frank's torture being used to contextualize Neville's orphan-like upbringing is not conveyed through this scene in the films."
+        "St. Mungo's Hospital scene (Order of the Phoenix): Frank Longbottom appears in person as a patient, does not recognize Neville, and gives him a sweet wrapper \u2014 the defining moment of his characterization and the Frank-Neville relationship. Entirely cut from the films.",
+        "Alice Longbottom's parallel presence in the St. Mungo's scene, which reinforces the tragedy of both parents and their condition.",
+        "Neville's visible grief and shame at his parents' condition, which is dependent on Frank's physical presence and cannot be shown without the St. Mungo's scene.",
+        "The emotional weight of Frank as a 'fate worse than death' \u2014 a living person who is no longer present \u2014 which is shown rather than stated in the books.",
+        "Any sense of Frank's former identity as a capable, courageous Auror who resisted torture, which is implied by context in the books but never developed in the films."
       ],
       "score_caps_applied": [
-        "No caps applied - character is entirely absent from the film corpus, making all dimension scores 0 by default rather than by cap."
+        "Cap 5 considered (motivations or arc unclear/substantially different): not fully applied \u2014 the core facts are preserved even if underdeveloped.",
+        "Cap 2 considered (key relationships change substantially): applied \u2014 the Frank-Neville relationship, the most important relational dynamic, is effectively absent from the films, capping the total below 80.",
+        "Cap 1 considered (major complexity, agency, or narrative function removed): applied \u2014 the St. Mungo's scene removal eliminates the primary moment of Frank's narrative and emotional function, capping the total below 85."
       ],
-      "key_observations": "Frank Longbottom does not appear in the film corpus at all. The book corpus itself is minimal - he is referenced as a named victim in a trial scene but never speaks or acts. Because the films omit the Pensieve trial sequence from Goblet of Fire, the formal establishment of his fate and its connection to Neville's backstory is lost. All scores are 0 and all confidence levels are Low due to complete absence of film material. This is not a faithfulness failure in the traditional sense - it is a non-portrayal. The scoring reflects the impossibility of evaluation rather than a characterization judgment.",
+      "key_observations": "Frank Longbottom is a structurally present but humanly absent character in both the book and film corpus provided \u2014 he never speaks or acts in either. The film preserves his factual identity accurately: he is named as an Auror tortured by Death Eaters, and that naming serves the same plot function as in the books. However, the films never develop him beyond this single reference. The defining material of his characterization \u2014 the St. Mungo's scene in Order of the Phoenix, where he appears as a living person who cannot recognize his own son \u2014 is cut entirely. This removes the emotional, relational, and thematic core of what Frank Longbottom means in the series. The score of 59 reflects a character whose basic identity is preserved but whose human and narrative substance is almost entirely absent from the films. Confidence is globally Low because the corpus for both sources is extremely thin, and most of the evaluation depends on broader series knowledge outside the provided passages.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 1082,
-        "film_chars_sent": 0,
+        "film_chars_sent": 8426,
         "aliases": [],
-        "corpus_hash": "1c1e04b246d6",
         "corpus_version": "1"
       }
     }

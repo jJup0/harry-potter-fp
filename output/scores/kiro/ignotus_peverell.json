@@ -1,20 +1,93 @@
 {
   "character": "Ignotus Peverell",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 20.0,
+    "narrative_role_agency": 15.0,
+    "motivations_internal_conflict": 12.0,
+    "character_arc": 13.0,
+    "key_relationships": 8.0,
+    "complexity_nuance_lost_material": 10.0,
+    "total": 78.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 20,
+      "narrative_role_agency": 15,
+      "motivations_internal_conflict": 12,
+      "character_arc": 13,
+      "key_relationships": 8,
+      "complexity_nuance_lost_material": 10,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Ignotus Peverell has no direct speech or observable personality in the books. He exists entirely as a referenced historical figure \u2014 the third and wisest Peverell brother from 'The Tale of the Three Brothers,' who chose a Cloak of Invisibility to hide from Death and lived to old age before greeting Death 'as an equal.' His characterization is entirely mediated through legend, through Harry's discovery of his grave in Godric's Hollow, and through the narrative fact that he is Harry's ancestor. He has no voice, no direct personality, and no observable behavior in the book corpus provided.",
+          "film_portrayal": "Ignotus Peverell appears in the film corpus only as a name on a gravestone, discovered by Hermione in the Godric's Hollow graveyard sequence. He is referenced by name twice: once by Hermione reading the stone, and once by Xenophilius confirming the Peverell brothers as the original owners of the Hallows. He has no speech, no presence, and no observable personality in the film either.",
+          "difference": "There is no meaningful difference to evaluate. Both the books and the films treat Ignotus as a historical/legendary name rather than a character with observable personality or voice. The film faithfully preserves this purely referential function.",
+          "penalty_logic": "No penalty is warranted for personality and voice. Neither medium gives Ignotus a voice or personality to preserve or lose. The score reflects the high degree of fidelity in how the films handle his absence as a living character, while acknowledging the extremely limited evidentiary basis. A score of 20 rather than the full 25 is applied because the corpus is too limited to confirm full fidelity with confidence \u2014 the books gesture at a legendary characterization (wisdom, humility, acceptance of death) through the tale of the third brother, and the films do not explicitly contradict this, but neither do they reinforce it beyond the name.",
+          "evidence_status": "Not enough evidence"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Ignotus Peverell serves a specific and important narrative function: his grave in Godric's Hollow, marked with the Deathly Hallows symbol, is a key plot catalyst. His identity as Harry's ancestor \u2014 and the fact that the Invisibility Cloak passed down through his lineage to Harry \u2014 is the mechanism by which Harry comes to understand his own connection to the Deathly Hallows. Ignotus is not an agent in the active sense; he is a historical figure whose existence and legacy drive discovery. His narrative role is structural and genealogical: he is the link between the legend of the Hallows and Harry's personal story.",
+          "film_portrayal": "The film preserves this structural role. Hermione discovers his grave in Godric's Hollow, his name is explicitly noted, and Xenophilius later confirms that Ignotus and his brothers are the original owners of the Hallows. The connection between the grave, the Hallows symbol, and the broader mystery is maintained. However, one key element from the books is reduced: the moment in which Harry explicitly realizes he is descended from Ignotus \u2014 'He's my ancestor. I'm descended from the third brother! It all makes sense!' \u2014 is not replicated with the same clarity or emotional weight in the film corpus provided.",
+          "difference": "The film preserves Ignotus's function as a plot catalyst through the grave scene and the Xenophilius explanation. What is reduced is the explicit, emotionally resonant moment of Harry's genealogical recognition \u2014 the book's scene where Harry walks blindly around the tent, feeling 'great new vistas of truth' opening around him, explicitly naming Ignotus as his ancestor. This beat of personal connection and discovery is compressed or absent in the film corpus.",
+          "penalty_logic": "Moderate penalty. The structural narrative role is preserved \u2014 the grave, the symbol, the Hallows connection \u2014 but the specific narrative function of Ignotus as Harry's personal ancestor, which gives his existence emotional and thematic weight beyond mere plot mechanics, is diminished in the film. This does not eliminate his role but does reduce its resonance.",
+          "evidence_status": "Reasonably inferred"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Ignotus has no directly stated motivations in the book corpus. His motivations are entirely legendary and mediated through 'The Tale of the Three Brothers': he chose the Cloak not out of ambition or grief, but out of wisdom and humility \u2014 a desire to live quietly and escape Death. This is the thematic core of his characterization as a historical figure. He has no internal conflict presented in the corpus; his arc in the legend is one of acceptance rather than struggle.",
+          "film_portrayal": "The film does not address Ignotus's motivations directly. He remains a name on a gravestone and a reference point in exposition. The tale of the three brothers and the specific motivation of Ignotus's choice are conveyed through Xenophilius's explanation and the animated sequence (not present in this corpus but established in the broader film), but within the provided corpus, his motivations are not articulated.",
+          "difference": "No explicit motivational material for Ignotus is present in either corpus. The film neither preserves nor contradicts motivations that were never directly stated in the book corpus provided.",
+          "penalty_logic": "Minimal penalty. The motivations of Ignotus as a historical figure \u2014 wisdom, humility, acceptance \u2014 are implicit in both the book and film treatments. The film does not contradict these. However, because the book corpus is itself silent on this and the film corpus provides no additional clarity, confidence is very low. Score reflects reasonable preservation of an implicit motivational frame.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "Ignotus has no arc in the traditional sense within the provided corpus \u2014 he is a historical figure, long dead, whose arc belongs to the legend of the Three Brothers. His 'arc' as relevant to the books is genealogical and thematic: the Invisibility Cloak travels from him down through generations to Harry, and Harry's realization of this descent is the culmination of that arc. The arc is not Ignotus's personal journey but rather the long shadow his choice casts forward to Harry.",
+          "film_portrayal": "The film preserves the broad outline of this genealogical arc: the grave in Godric's Hollow marks his presence, Xenophilius confirms the Peverell lineage's connection to the Hallows, and Harry's Cloak is implicitly connected to this history. The specific articulation of Harry as Ignotus's direct descendant is present in the book corpus ('He's my ancestor') but is less explicitly foregrounded in the film corpus provided.",
+          "difference": "The arc \u2014 such as it is for a historical figure \u2014 is largely preserved. The main compression is the reduction of Harry's explicit moment of genealogical recognition, which in the books is a dramatically charged realization scene.",
+          "penalty_logic": "Minor penalty for compression of the descendant-recognition moment. The arc itself (Cloak passed to Harry through Ignotus's line) is intact. Score reflects a mostly faithful preservation with modest compression.",
+          "evidence_status": "Reasonably inferred"
+        },
+        "key_relationships": {
+          "book_baseline": "In the books, the most significant relationship associated with Ignotus \u2014 within the provided corpus \u2014 is his genealogical relationship to Harry. Harry is explicitly identified as Ignotus's direct descendant, born in the same village of Godric's Hollow. Additionally, the books mention Dumbledore's connection to Ignotus's grave: Dumbledore was drawn to Godric's Hollow partly because of Ignotus's grave, and this shared obsession with the Hallows was part of his bond with Grindelwald. Ignotus also has a symbolic relationship with Death itself, as the figure who 'greeted Death as an equal.'",
+          "film_portrayal": "The film preserves the connection between Ignotus's grave and the Hallows mystery, and Hermione's discovery of the grave is intact. The direct ancestral relationship between Ignotus and Harry is present implicitly through the broader narrative but is not explicitly articulated in the film corpus provided. The Dumbledore-Grindelwald connection to Ignotus's grave is not present in the film corpus.",
+          "difference": "The Dumbledore/Grindelwald connection to Ignotus's grave \u2014 which in the books adds another layer of meaning to his existence \u2014 is absent from the film corpus. Harry's explicit claim of descent is less foregrounded.",
+          "penalty_logic": "Moderate penalty. The key relationship of Harry as Ignotus's descendant is preserved in substance but reduced in explicit articulation. The secondary relationship (Dumbledore's obsession with the grave as part of his bond with Grindelwald) is absent from the film corpus, though this may be present elsewhere in the film not captured here.",
+          "evidence_status": "Reasonably inferred"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Ignotus's complexity in the books is entirely thematic and symbolic rather than characterological. His significance lies in: (1) the thematic resonance of his choice \u2014 wisdom over power or grief; (2) his identity as Harry's ancestor, linking Harry personally to the Hallows mythology; (3) his grave as a physical site connecting Godric's Hollow, the Peverell legend, Dumbledore's past, and Harry's present; and (4) the idea that the Cloak passed through generations as a family heirloom. His 'complexity' is the layered meaning of his historical existence, not personal traits.",
+          "film_portrayal": "The film preserves the grave as a site of discovery and the Peverell name as a Hallows connection. What is reduced is the layered meaning: the explicit Harry-as-descendant revelation, the Dumbledore-Grindelwald-Ignotus triangle, and the thematic weight of Ignotus's specific choice (humility, acceptance of death) as personally meaningful to Harry's journey.",
+          "difference": "The film treats Ignotus primarily as a plot reference \u2014 a name that connects the Hallows symbol to a real person. The richer thematic and genealogical layers present in the book are compressed. The emotional moment of Harry recognizing his own ancestry \u2014 'great new vistas of truth' \u2014 is reduced or absent in the film corpus.",
+          "penalty_logic": "Moderate penalty. Ignotus is not a complex character in the conventional sense, but the nuanced web of meaning his existence carries in the books \u2014 personal ancestry, thematic resonance with Harry's acceptance of death, Dumbledore's obsessive past \u2014 is somewhat flattened in the film to a functional plot marker. This is a meaningful loss of texture even for a purely referential figure.",
+          "evidence_status": "Reasonably inferred"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Harry's explicit, emotionally charged realization that Ignotus Peverell is his direct ancestor ('He's my ancestor. I'm descended from the third brother! It all makes sense!') \u2014 present in the books as a dramatically significant beat, reduced or absent in the film corpus.",
+        "Dumbledore's account of how Ignotus's grave in Godric's Hollow was a draw for both him and Grindelwald \u2014 adding a secondary layer of meaning to Ignotus's existence \u2014 is absent from the film corpus.",
+        "The explicit framing of the Invisibility Cloak as a family heirloom traveling 'father to son, mother to daughter' from Ignotus down to Harry, giving the Cloak a personal genealogical identity beyond its status as a Hallow.",
+        "The thematic emphasis on Ignotus's specific choice \u2014 humility, acceptance of death \u2014 as personally resonant for Harry's own arc toward accepting his own death."
+      ],
+      "score_caps_applied": [
+        "No hard caps applied. Total of 78 is consistent with a character whose book presence is itself minimal and referential, where the film is broadly faithful but compresses several layers of thematic and genealogical significance. Cap 3 (above 75 if a core function is transferred) was considered but not applied because the ancestral revelation is reduced rather than transferred to another character."
+      ],
+      "key_observations": "Ignotus Peverell is not a character in any conventional sense \u2014 he is a historical figure who exists in both books and films entirely through references, a gravestone, and legend. The film is broadly faithful to his referential role: his grave is discovered in Godric's Hollow, his name is explicitly noted, and his connection to the Deathly Hallows is confirmed. The principal losses are the explicit Harry-as-descendant revelation (an emotionally significant beat in the books), the Dumbledore-Grindelwald connection to his grave (which layers additional meaning onto his historical existence), and the thematic weight of his specific Hallow choice as personally meaningful to Harry's arc. Because the character has no direct personality, voice, arc, or agency of his own, all scores in this evaluation are necessarily based on how faithfully the films handle his function, symbolic weight, and relational significance \u2014 and confidence throughout is low given the extreme thinness of both corpora. The score of 78 reflects a portrayal that is functionally faithful but meaningfully compressed in its deeper layers of significance.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 1569,
+        "film_chars_sent": 9045,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },

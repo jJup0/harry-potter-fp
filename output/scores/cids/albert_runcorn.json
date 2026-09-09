@@ -1,0 +1,25 @@
+{
+  "character": "Albert Runcorn",
+  "fp_score": 36.0,
+  "infidelity_score": 64.0,
+  "weighted_infidelity_exposure": 0,
+  "cids": 0.0,
+  "damage_per_exposure": 0,
+  "structural_damage_level": 1,
+  "adjusted_cids": 0.0,
+  "main_damage_causes": [
+    "Book corpus is entirely empty, providing no baseline characterization of Albert Runcorn to compare against",
+    "Film corpus shows Harry Potter disguised as Runcorn via Polyjuice Potion \u2014 all dialogue and actions are Harry's, not Runcorn's own characterization",
+    "Without book evidence of Runcorn's established traits, agency, relationships, or arc, no divergence can be identified or scored"
+  ],
+  "damaging_scenes": [],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "Low",
+    "impact_assessment": "Low"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

@@ -2,116 +2,97 @@
   "character": "Nearly Headless Nick",
   "fp_score": 68.0,
   "infidelity_score": 32.0,
-  "weighted_infidelity_exposure": 43.0,
-  "cids": 240.2,
-  "damage_per_exposure": 15.0,
+  "weighted_infidelity_exposure": 25.0,
+  "cids": 206.8,
+  "damage_per_exposure": 23.0,
   "structural_damage_level": 3,
-  "adjusted_cids": 240.2,
+  "adjusted_cids": 206.8,
   "main_damage_causes": [
-    "Complete omission of the OotP death conversation, which is Nick's thematically most significant scene and directly serves Harry's grief arc and the saga's treatment of mortality",
-    "Omission of the deathday party and the Headless Hunt corridor scene, which together constitute the bulk of Nick's characterisation as a complex, emotionally vulnerable figure rather than comic relief",
-    "Reduction of Nick's ongoing relationship with Harry across films 3-5, meaning the emotional foundation for the OotP conversation (had it existed) would have been absent anyway"
+    "Absence of the deathday party (Book 2) strips Nick of his most extended characterization \u2014 his vanity, loneliness, friendship with Harry, and humiliation by the Headless Hunt \u2014 reducing him to a functional cameo character.",
+    "Absence of the post-Sirius death conversation (Book 5) removes Nick's only moment of genuine dramatic depth and tragic self-awareness, which also weakens Harry's grief arc and the saga's thematic engagement with death and choice.",
+    "Nick's voice and personality are consistently flattened in his film appearances \u2014 the stiff wounded dignity, emotional bitterness about the Headless Hunt, and layered self-consciousness that make him distinctive in the books are replaced with brief comic gags."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film CoS Scene 4 - Great Hall feast introduction",
-      "book_baseline": "Nick introduces himself formally as 'Sir Nicholas de Mimsy-Porpington', expresses wistful sadness watching Harry eat, mentions not having eaten for nearly four hundred years, and engages in warm conversation about missing food.",
-      "film_portrayal": "Nick pops out of a bowl startling Ron, delivers a single line about the Headless Hunt being denied, then immediately demonstrates his head. The melancholy of watching others eat and his dignified self-introduction are absent.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 4 \u2014 Nearly Headless Nick's introduction at the feast",
+      "book_baseline": "Book establishes Nick as the Gryffindor ghost who initiates conversation with the first years, watches food with sad longing, introduces himself as 'Sir Nicholas de Mimsy-Porpington,' is stiff about his preferred name, and demonstrates his near-decapitation with irritable pride \u2014 showing a character who is both dignified and comedically self-conscious about his status.",
+      "film_portrayal": "Nick pops out of a bowl and immediately says 'Hello! How are you? Welcome to Gryffindor' before Ron identifies him as Nearly Headless Nick. Nick says 'I prefer Sir Nicholas if you don't mind' \u2014 a single corrective line with no context of bitterness or dignity. He then demonstrates his head without the irritable reluctance the book gives him. His mournful watching of food is reduced to a brief visual beat with no dialogue establishing his longing or his 400-year deprivation.",
+      "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The books establish Nick's defining trait early: a dignified ghost who masks genuine sadness with aristocratic bearing. The film reduces this to a sight gag, losing the pathos that makes him more than comic relief."
+      "explanation": "The book's Nick is proudly stiff about his name and reveals the near-decapitation with irritated showmanship after being goaded. The film collapses this into a quick gag, losing the layered combination of wounded dignity, social pretension, and self-deprecating humor that defines his voice. His longing for food \u2014 a key humanizing detail \u2014 is also stripped of its verbal pathos."
     },
     {
-      "scene": "Film CoS Scene 4 - 'Sir Nicholas' name preference",
-      "book_baseline": "Nick begins stiffly correcting Ron - 'I would prefer you to call me Sir Nicholas de Mimsy--' - showing his wounded pride about the nickname, before being interrupted.",
-      "film_portrayal": "Nick says 'I prefer Sir Nicholas if you don't mind' in a mild, almost casual tone with no stiffness or wounded dignity.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 4 \u2014 Nick's mention of the Headless Hunt rejection",
+      "book_baseline": "The Headless Hunt rejection is a running source of genuine bitterness for Nick \u2014 in Book 2 he is found muttering morosely about it, erupts with barely suppressed fury reading Sir Patrick's letter, and the humiliation shapes his emotional state through the deathday party sequence. It is a meaningful character wound.",
+      "film_portrayal": "Nick mentions at the feast, in a single throwaway line, 'Once again, my request to join the headless hunt has been denied.' It is played as a brief comedic aside with no visible bitterness or weight.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor flattening of his prickly aristocratic pride, but the correction is still present. Low damage."
+      "explanation": "The Headless Hunt rejection is one of Nick's defining ongoing humiliations. Reducing it to a single flat line with no emotional texture removes the sense that this genuinely wounds his pride and strips the deathday party (which does not appear in the film corpus) of its motivational context."
     },
     {
-      "scene": "Film CoS Scene 4 - Head demonstration reaction",
-      "book_baseline": "Nick pulls his head off irritably after being pressed, then looks pleased at the stunned reactions, pivoting to Gryffindor house pride. The sequence shows his vanity, irritability, and social maneuvering.",
-      "film_portrayal": "Nick demonstrates his head as a simple visual gag. No irritability, no pleasure at their reaction, no pivot to house pride. Ron screams comically.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book beat shows Nick's layered personality - irritated but vain, using the shock to redirect to what he actually cares about (Gryffindor winning). The film makes it pure spectacle with no character texture."
-    },
-    {
-      "scene": "Film CoS Scene 10 - Corridor scene / Headless Hunt rejection absent",
-      "book_baseline": "An entire scene where Nick vents bitterly about Sir Patrick's rejection letter, erupts with genuine fury ('forty-five times in the neck with a blunt axe'), then composes himself and asks Harry a favour. Shows his emotional depth, wounded pride, and the friendship with Harry.",
-      "film_portrayal": "This scene does not exist in the film. Nick's rejection by the Headless Hunt is only mentioned in a single throwaway line at the feast.",
-      "damage_type": "nuance/lost material",
-      "exposure": 3,
-      "impact_weight": 3,
-      "explanation": "This is Nick's most characterful scene in the books - it establishes his genuine emotional vulnerability beneath the pomposity, his friendship with Harry, and his capacity for both fury and grace. Its absence means the audience never sees him as a fully realised character. The Headless Hunt subplot also loses all weight."
-    },
-    {
-      "scene": "Film CoS Scene 10 - Nick's active help (Peeves distraction) absent",
-      "book_baseline": "Nick actively helps Harry by persuading Peeves to crash a cabinet over Filch's office, demonstrating agency, loyalty, and a mischievous streak. Harry thanks him warmly.",
-      "film_portrayal": "This beat does not occur in the film. Nick has no active role in helping Harry.",
+      "scene": "Film Scene 10 (Chamber of Secrets) \u2014 Nearly Headless Nick petrified alongside Justin",
+      "book_baseline": "The book establishes Nick as 'pearly-white and transparent' floating immobile and horizontal, with his face wearing 'an expression of shock identical to Justin's.' The discovery triggers widespread school panic specifically because people realize a ghost \u2014 someone already dead \u2014 has been harmed, which is uniquely terrifying. Nick's petrification has narrative and thematic weight as evidence of the basilisk's extraordinary power.",
+      "film_portrayal": "Nick is shown inert and 'body teeming with black smoke' on the floor. The film preserves the discovery beat but significantly compresses the communal panic and the specific horror of a ghost being petrified. Nick is essentially a prop in this scene \u2014 he has no dialogue and his condition is used purely to move Harry toward Dumbledore's office.",
       "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Removes a moment showing Nick as a genuine ally with initiative, not just a decorative ghost. Reduces him from participant to background fixture."
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Nick's petrification is faithfully depicted in broad strokes, so damage is limited. However, the film does not convey the specific communal terror that the books describe \u2014 that Nick's fate 'seemed to worry people most' because it raised the question of what could harm someone already dead. This thematic resonance is absent."
     },
     {
-      "scene": "Film CoS Scene 10 - Deathday party absent",
-      "book_baseline": "Nick's 500th deathday party is a full scene: he hosts with mournful dignity, is humiliated by Sir Patrick crashing the event, tries vainly to give his speech, and Harry defends him. Shows his loneliness, social ambition, and the cruelty of his exclusion.",
-      "film_portrayal": "The deathday party does not appear in the film at all.",
-      "damage_type": "arc",
+      "scene": "Film Scene 10 \u2014 Harry deduces basilisk method via Nearly Headless Nick in the corridor scene",
+      "book_baseline": "In the books, Harry works out that Justin saw the basilisk through Nick \u2014 'Justin must've seen the basilisk through Nearly Headless Nick! Nick got the full blast of it, but he couldn't die again.' This is part of Harry's key deductive moment. Nick's petrification is thus essential to solving the mystery.",
+      "film_portrayal": "In Film Scene 12 (the corridor scene where Harry reads Hermione's torn page), Harry says the same deduction: 'Justin must've seen the Basilisk through Nearly Headless Nick! Nick got the full blast of it, but he's a ghost \u2014 he couldn't die again.' This is faithfully preserved.",
+      "damage_type": "agency/function",
+      "exposure": 0,
+      "impact_weight": 1,
+      "explanation": "This is a faithful moment \u2014 no damage. Nick's plot function as the indirect basilisk shield for Justin is correctly retained."
+    },
+    {
+      "scene": "Film Scene 10 (Chamber of Secrets) \u2014 Absence of the deathday party",
+      "book_baseline": "The book corpus contains extensive deathday party material: Nick personally invites Harry, the party is organized by Nick as a social event of great personal importance to him (his 500th deathday), it shows his loneliness and vanity, his resentment of Sir Patrick's arrival, his failed speech, and his attempt to maintain dignity while being publicly humiliated. Harry defending him to Sir Patrick shows their friendship. The entire sequence is a defining characterization block for Nick.",
+      "film_portrayal": "The deathday party does not appear in the film corpus at all. Nick's 500th deathday, his invitation to Harry, his hosting of the event, his humiliation by the Headless Hunt, and the relationship dynamic with Harry are entirely absent.",
+      "damage_type": "nuance/lost material",
       "exposure": 3,
       "impact_weight": 3,
-      "explanation": "The deathday party is Nick's most extended characterisation across the books. Its absence removes his social tragedy, his relationship with Harry as someone who shows up for him, and the thematic resonance of a ghost unable to fully participate in either life or death."
+      "explanation": "The deathday party is the single largest block of Nearly Headless Nick characterization in the books. Its absence removes: his social vanity and need for recognition, the depth of his friendship with Harry (who attends out of loyalty), his genuine vulnerability and humiliation, the comedic rivalry with Sir Patrick, and the ghost-community world-building. This is the most significant omission for Nick's character overall, reducing him from a fleshed-out recurring character to a functional cameo."
     },
     {
-      "scene": "Film CoS Scene 11 - Nick's petrification discovery",
-      "book_baseline": "Finding Nick petrified causes widespread fear precisely because he is already dead - 'What could possibly do that to a ghost?' This amplifies the basilisk's terror and Nick's narrative function.",
-      "film_portrayal": "Nick is found petrified alongside Justin. The scene is present but the community panic about a ghost being attacked is not dramatised - it is only briefly referenced in Harry's later deduction.",
+      "scene": "Film Scene 4 \u2014 Nick's role in helping Gryffindors navigate the castle (Book 1 context)",
+      "book_baseline": "The book establishes that Nick was 'always happy to point new Gryffindors in the right direction' and serves as a helpful, familiar presence in the castle corridors \u2014 a mentor-adjacent figure for new students.",
+      "film_portrayal": "This role is entirely absent from the film. Nick's only appearance in the first film is the feast introduction. His corridor-guidance function and friendly relationship with students beyond brief comic appearances is not depicted.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of the ripple effect Nick's petrification causes. The deduction scene does reference it, so partial credit."
+      "explanation": "Minor omission \u2014 this establishes Nick as genuinely integrated into Hogwarts life rather than just a gag character, but its absence is partly compensated by Percy's role as guide in the film."
     },
     {
-      "scene": "Film GoF/OotP - Feast scenes: Nick's ongoing relationship with Harry absent",
-      "book_baseline": "Books 3-5 show Nick as a consistent presence at Gryffindor feasts - giving Harry information about Dumbledore's return (GoF), discussing the Sorting Hat's warnings (OotP), defending Harry to the ghost community (HBP), getting offended by Ron's bluntness and sweeping away (OotP). These scenes build a warm, ongoing friendship.",
-      "film_portrayal": "Nick appears briefly in GoF and OotP feast scenes but has no meaningful dialogue or interaction with Harry. His role as Harry's confidant and Gryffindor's invested ghost is absent.",
-      "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The cumulative loss of Nick as Harry's ghost-friend means the OotP death conversation lands with less weight - the audience has no established bond to draw on."
-    },
-    {
-      "scene": "Film OotP - Death conversation with Harry entirely absent",
-      "book_baseline": "After Sirius dies, Harry seeks out Nick specifically. Nick admits he chose to remain as a ghost out of fear, calls it a 'feeble imitation of life', cannot tell Harry what lies beyond, and gently confirms Sirius will not return. It is a scene of profound emotional honesty and thematic weight about death and choice.",
-      "film_portrayal": "This scene does not exist in the film. Sirius's death and Harry's grief are handled without Nick.",
+      "scene": "Film (Order of the Phoenix corpus) \u2014 Absence of Nick's conversation with Harry about Sirius and death",
+      "book_baseline": "Book 5 contains one of Nick's most important scenes: Harry seeks him out after Sirius's death, and Nick delivers a profound, emotionally resonant conversation about his own choice to become a ghost out of fear of death, explaining that Sirius 'will have gone on' and cannot return as a ghost, and admitting 'I was afraid of death... I chose to remain behind. I sometimes wonder whether I oughtn't to have.' This is Nick's most emotionally significant moment in the entire series \u2014 it reframes his comic existence as a tragedy and deepens the saga's themes about death.",
+      "film_portrayal": "This scene does not appear anywhere in the Order of the Phoenix film corpus provided. The film corpus for OotP contains no Nick scenes at all.",
       "damage_type": "arc",
       "exposure": 3,
       "impact_weight": 4,
-      "explanation": "This is Nick's most important scene in the entire saga. It directly addresses the series' central theme of death and the choice to truly live versus linger. Nick's self-aware regret ('I am neither here nor there') is one of Rowling's most poignant passages. Its absence is a significant loss to Harry's grief arc and to the saga's thematic coherence around death."
+      "explanation": "This is the single most damaging absence for Nick's character across the saga. The conversation with Harry after Sirius's death is Nick's defining dramatic moment \u2014 it transforms him from comic relief into a genuinely tragic figure who chose a 'feeble imitation of life' out of cowardice, and it provides Harry (and the audience) with crucial thematic closure about death, choice, and moving on. Its absence also weakens Harry's grief arc at a pivotal moment. Nick's entire characterization suffers because his one scene of genuine depth and narrative weight is never shown."
     },
     {
-      "scene": "Film DH1 - Nick helps Harry find the Grey Lady absent",
-      "book_baseline": "Nick helps Harry locate the Grey Lady during the Battle of Hogwarts, showing loyalty and usefulness at a critical moment.",
-      "film_portrayal": "This scene does not appear in the film adaptation of DH.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Removes Nick's final act of meaningful assistance to Harry, his last plot function in the saga."
+      "scene": "Film Scene 7 (Sorcerer's Stone) \u2014 Nick comments on Harry becoming Seeker",
+      "book_baseline": "No specific book baseline for this exact exchange \u2014 the book does not have Nick comment on Harry's Seeker appointment in this way.",
+      "film_portrayal": "Nick says 'Have you heard? Harry Potter's the new Gryffindor Seeker. I always knew he'd do well.' This is a brief, positive characterization consistent with his book role as a Gryffindor booster.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a minor film addition that is broadly consistent with Nick's book characterization as a Gryffindor-proud figure. Negligible damage \u2014 if anything slightly positive, though the line lacks the book's more nuanced voice."
     }
   ],
   "confidence": {
     "global": "High",
     "exposure_estimate": "High",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1376.0,
-  "adjusted_cids_v1": 1720.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

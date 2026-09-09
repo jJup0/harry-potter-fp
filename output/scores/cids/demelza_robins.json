@@ -1,0 +1,44 @@
+{
+  "character": "Demelza Robins",
+  "fp_score": 67.0,
+  "infidelity_score": 33.0,
+  "weighted_infidelity_exposure": 2.5,
+  "cids": 67.1,
+  "damage_per_exposure": 44.7,
+  "structural_damage_level": 1,
+  "adjusted_cids": 67.1,
+  "main_damage_causes": [
+    "Demelza's individual selection and defining skill (Bludger-dodging) are collapsed into an anonymous montage beat, erasing the specific characterization the book provides.",
+    "Her only named role in the film is as a functional prop in the Ron vs. Cormac Keeper shootout, giving her no independent agency or personality.",
+    "The film corpus contains no equivalent to the book scenes where Demelza delivers Snape's message, is punched by Ron, is reduced to tears by Ron's aggression, or is defended by Peakes \u2014 all of which are her most characterful book moments. However, per corpus rules, these absences cannot be scored as damage since the film corpus provided does not cover those later scenes."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 Quidditch tryouts montage: Demelza's role reduced to a brief visual beat",
+      "book_baseline": "The book establishes Demelza Robins as a named, individually selected Chaser who earns her place through skill \u2014 specifically her ability to dodge Bludgers \u2014 and is personally chosen by Harry after a two-hour tryout process involving many candidates and complaints.",
+      "film_portrayal": "The film reduces Demelza to a single montage beat ('bent low over her stick, pins the Quaffle under her chin, splits two Bludgers and a pair of Beaters') with no individual selection moment, no named acknowledgment of her Bludger-dodging as her defining skill, and no scene of Harry actively choosing her.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's tryout scene gives Demelza a small but concrete identity \u2014 her Bludger-dodging skill is the specific reason Harry picks her. The film's montage collapses this into a visually impressive but anonymous moment. The damage is mild since she is at least visible and her skill is implied, but the defining characterization detail is lost."
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Keeper shootout: Demelza used instrumentally as a plot device for Ron/Cormac contest",
+      "book_baseline": "In the book, Demelza is a Chaser selected on her own merits. There is no book scene where she is deployed in a Keeper shootout to test Cormac. Her appearances are as an independent team member, not as a functional prop for another character's storyline.",
+      "film_portrayal": "The film explicitly assigns Demelza the role of shooting against Cormac in the Keeper shootout ('Demelza, you'll bring the Quaffle up against Cormac'), framing her entirely in service of the Ron vs. Cormac rivalry resolution. She is named and present but has no agency or characterization \u2014 she exists solely to deliver the shot that Cormac inexplicably misses (due to Hermione's muttered spell), making her a functional instrument of another character's arc.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Demelza's only named speaking-adjacent moment in the film is as a mechanism to resolve the Ron/Cormac storyline. The book never places her in this subordinate functional role. Her agency and independent identity are replaced by plot utility. This is a modest but real reduction: she is named, which avoids complete erasure, but her characterization is zero and her presence is purely instrumental."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

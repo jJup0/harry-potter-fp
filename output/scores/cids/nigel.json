@@ -2,61 +2,70 @@
   "character": "Nigel",
   "fp_score": 65.0,
   "infidelity_score": 35.0,
-  "weighted_infidelity_exposure": 9.5,
-  "cids": 148.4,
-  "damage_per_exposure": 33.0,
+  "weighted_infidelity_exposure": 8.0,
+  "cids": 138.7,
+  "damage_per_exposure": 30.8,
   "structural_damage_level": 2,
-  "adjusted_cids": 148.4,
+  "adjusted_cids": 138.7,
   "main_damage_causes": [
-    "Nigel is a wholly invented character with no book basis, meaning every scene he appears in represents a departure from the source material by definition",
-    "His role escalates across films from errand-boy to DA operative to battle participant to casualty, progressively inserting a fictional presence into increasingly significant narrative moments",
-    "His use as a casualty in the Battle of Hogwarts is the peak damage point, substituting an invented character for the emotionally resonant named deaths the books establish"
+    "Nigel is a film-invented character who accumulates screen time and functional roles (communications officer, combatant, casualty) across multiple films, normalising a non-book presence in scenes that belong to established characters.",
+    "The most structurally damaging use is Nigel's apparent death in the Battle of Hogwarts (Scene 5), which uses an invented figure to deliver an emotional beat that should belong to a book character (e.g. Colin Creevey), diluting the earned weight of the battle's casualties.",
+    "Nigel's operational DA role in Deathly Hallows (Scene 3) slightly filters Neville's resistance leadership through an invented intermediary, weakening the clarity of the established characters' agency at a climactic moment."
   ],
   "damaging_scenes": [
     {
-      "scene": "Scene 1 - Nigel delivers parcel to Ron",
-      "book_baseline": "Nigel does not exist in the books; this scene has no book equivalent. The parcel delivery and Ron's dismissive 'Not now, Nigel' is invented screen time for a non-book character.",
-      "film_portrayal": "Nigel is used as a minor errand-boy figure, given a small named role and interaction with the trio.",
+      "scene": "Scene 2 (OotP) \u2013 DA training, Harry instructs Nigel in Stunning",
+      "book_baseline": "The book corpus does not establish Nigel as a named character; the DA training scenes in the books feature established student characters (Neville, Ginny, Luna, etc.) as Harry's primary students and interaction partners.",
+      "film_portrayal": "Nigel is used as Harry's primary demonstration partner for Stunning ('Come on, then, Nigel. Give me your best shot') and receives personal praise ('Good. Not bad at all, Nigel. Well done'), inserting a minor invented character into a role that belonged to established book characters.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Nigel is a film-only invention given small but recurring screen time that displaces interaction moments from named book characters. In isolation this is a minor issue, but it slightly dilutes the texture of the DA scenes."
+    },
+    {
+      "scene": "Scene 1 (GoF) \u2013 Nigel delivers Ron's parcel and is dismissed",
+      "book_baseline": "The book corpus does not include Nigel as a character; parcel and message delivery functions are handled by owls or existing named characters.",
+      "film_portrayal": "Nigel appears as a small errand-running character who delivers Ron's parcel and is curtly dismissed ('Not now, Nigel. Later. Go on'), establishing him as a recurring minor presence with no book equivalent.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Nigel is a film-only character with no book basis. His presence is harmless but represents invented material displacing book content. Damage is minimal as the scene is brief and inconsequential."
+      "explanation": "The insertion is brief and causes negligible damage on its own, but begins the pattern of Nigel occupying screen space as a non-book character."
     },
     {
-      "scene": "Scene 2 - Nigel participates in DA training as a named student",
-      "book_baseline": "Nigel does not exist in the books. DA members are established book characters. Harry's teaching interactions are with named book characters.",
-      "film_portrayal": "Nigel is used as Harry's sparring partner during Stunning practice ('Come on then, Nigel. Give me your best shot') and receives named praise from Harry, taking screen time and interaction that belonged to book characters.",
+      "scene": "Scene 3 (DH) \u2013 Nigel operates the wizard wireless as a DA communications officer",
+      "book_baseline": "The book corpus does not establish Nigel in any meaningful role; the DA's underground resistance network at Hogwarts in Deathly Hallows is led by Neville, Ginny, and Luna, with no invented intermediary characters given functional roles.",
+      "film_portrayal": "Nigel is given an active operational function: he operates the wizard wireless and broadcasts the coded message ('River, DA calling. Do you read? We have a new weather report: Lightning has struck') on Neville's instruction, making him a named agent in the DA's resistance network.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "By routing Harry's teaching moments through a non-existent character, the film dilutes the relational texture of the DA scenes. Book interactions with real DA members (Neville's growth arc, etc.) are partially displaced by a fictional stand-in, weakening the authenticity of the ensemble."
+      "explanation": "This is the most damaging use of Nigel across the corpus. Giving a film-invented minor character a defined operational role in the DA's resistance at a structurally important moment (Harry's return to Hogwarts in the final film) slightly displaces focus and agency from established characters. The moment belongs to Neville's leadership arc but is filtered through an invented figure, weakening the sense that it is the core book characters holding the resistance together."
     },
     {
-      "scene": "Scene 3 - Nigel operates the Wizard Wireless as DA communications officer",
-      "book_baseline": "Nigel does not exist. In the books, the DA is a student resistance group with established members. No such wireless communications role exists for any minor student.",
-      "film_portrayal": "Nigel is given a functional, named role in the resistance: he operates the Wizard Wireless and delivers the coded message 'Lightning has struck,' acting as a communications operative for the DA.",
+      "scene": "Scene 4 (DH) \u2013 Nigel assists in placing magical charges on the Wooden Bridge",
+      "book_baseline": "The book corpus does not include Nigel in any active defensive role during the Battle of Hogwarts; the defensive preparation of Hogwarts is carried out by established characters.",
+      "film_portrayal": "Nigel is listed alongside Cho Chang and Katie Bell as one of the students directed by Seamus to place magical charges on key pressure points of the bridge, giving him a named combatant role in the battle.",
       "damage_type": "agency/function",
-      "exposure": 1,
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Assigning a meaningful operational function to a non-book character inflates his role beyond what the books support. This is agency invented wholesale for a fictional character, which slightly distorts the DA's composition and the distribution of meaningful roles among established characters."
+      "explanation": "Placing a film-invented character in the same breath as established book characters (Cho, Katie Bell) during a key battle sequence continues to normalise Nigel as a peer of real characters, subtly diluting the earned weight of those characters' participation in the climax."
     },
     {
-      "scene": "Scene 4 - Nigel places magical charges on the wooden bridge",
-      "book_baseline": "Nigel does not exist. The defence of Hogwarts in Deathly Hallows involves established characters. No book character named Nigel participates in bridge demolition.",
-      "film_portrayal": "Nigel is shown working alongside Cho and Katie Bell under Seamus's direction, placing magical charges on the bridge's structural points as part of the battle defence.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Nigel is given a combat-adjacent role in the Battle of Hogwarts, a climactic saga event. Inserting a non-book character into this scene displaces potential screen time for book characters and misrepresents who participates in the battle's key moments."
-    },
-    {
-      "scene": "Scene 5 - Nigel is carried as a casualty in the Entrance Hall",
-      "book_baseline": "Nigel does not exist. The casualties of the Battle of Hogwarts are specific, named, emotionally significant book characters (Fred Weasley, Lupin, Tonks, Colin Creevey, etc.).",
-      "film_portrayal": "Nigel is carried as a wounded or dead casualty by Oliver Wood and Neville, receiving a moment of solemn attention in the Entrance Hall during the battle's aftermath.",
-      "damage_type": "arc",
+      "scene": "Scene 5 (DH) \u2013 Nigel's body is carried out of the Entrance Hall by Oliver Wood",
+      "book_baseline": "The book corpus does not include Nigel dying or being injured; casualties in the Battle of Hogwarts are established characters (Fred Weasley, Lupin, Tonks, Colin Creevey, etc.) whose deaths carry earned emotional weight from years of characterisation.",
+      "film_portrayal": "Nigel is carried as an apparently dead or gravely wounded 'smallish boy' by Oliver Wood through the Entrance Hall, with Neville reacting to his fate, effectively using a film-invented character to deliver an emotional beat about fallen DA members.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Using a non-book character as a casualty stand-in during the Battle of Hogwarts is the most damaging use of Nigel. The emotional weight of battle casualties in the books derives entirely from the audience's established relationships with those characters. Nigel's death/injury carries no earned emotional resonance and occupies space that could have acknowledged real book casualties. It slightly misrepresents the human cost of the battle as the books frame it."
+      "explanation": "This is the highest-impact unfaithful moment for Nigel. The emotional register of the Battle of Hogwarts casualties depends entirely on the audience's attachment to those characters. Using Nigel \u2014 an invented figure with no book presence \u2014 to stand in for a fallen student displaces Colin Creevey or other established characters who serve this exact narrative function in the books. It also gives Neville a grief reaction beat tied to a non-book character, weakening the authenticity of that emotional moment. The damage is at the relationship/arc level because it affects how the audience experiences the cost of the battle."
+    },
+    {
+      "scene": "Scene 2 (OotP) \u2013 Harry instructs Nigel one-on-one during Patronus lesson",
+      "book_baseline": "Harry's individual coaching during DA sessions is directed at established characters (notably Neville, whose arc of growing confidence is a key book thread).",
+      "film_portrayal": "Harry gives individual attention and encouragement to Nigel ('I know') during the Patronus training sequence, inserting the invented character into a mentorship beat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor displacement of a mentorship moment from Neville or another established character to an invented one. Low individual damage but part of a cumulative pattern."
     }
   ],
   "confidence": {
@@ -65,8 +74,7 @@
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 332.5,
-  "adjusted_cids_v1": 365.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

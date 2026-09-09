@@ -2,107 +2,88 @@
   "character": "Poppy Pomfrey",
   "fp_score": 80.0,
   "infidelity_score": 20.0,
-  "weighted_infidelity_exposure": 10.5,
-  "cids": 88.1,
-  "damage_per_exposure": 13.6,
+  "weighted_infidelity_exposure": 8.5,
+  "cids": 81.2,
+  "damage_per_exposure": 14.8,
   "structural_damage_level": 2,
-  "adjusted_cids": 88.1,
+  "adjusted_cids": 81.2,
   "main_damage_causes": [
-    "The PoA hospital wing confrontation sequence - her richest and most characterful book appearance - is heavily compressed, losing the clearest expression of her defining trait (patient welfare above all authority) and her most vivid comic-yet-principled voice.",
-    "Her role as an active, outspoken institutional conscience (criticising dementor deployment, challenging Fudge and Snape, enforcing rules against Dumbledore himself) is systematically reduced across multiple films, leaving only her functional healing role intact.",
-    "Repeated loss of small but accumulative character texture - the wry asides, the protective gestures, the watchful presence - means the film version reads as a competent but generic matron rather than the distinct, feisty individual the books establish."
+    "Compression of Pomfrey's emotional depth: the film consistently reduces her from a character with layered warmth, comic authority, and rare moments of open grief to a brisk functional presence, losing the cumulative portrait of a fiercely caring professional",
+    "Absence of the Prisoner of Azkaban hospital wing sequence (from the film corpus): this is her richest extended characterization \u2014 protective fury, comic indignation, and pragmatic loyalty \u2014 and its loss is the single largest damage to her portrayal across the saga",
+    "Loss of the Half-Blood Prince grief moment: Pomfrey's tears at Dumbledore's death are one of her few moments of unguarded feeling, and their absence keeps her as a peripheral medical figure rather than a full Hogwarts community member"
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS Film Scene 1 (Hospital Wing - Skele-Gro) - added line",
-      "book_baseline": "Madam Pomfrey scolds that Harry should have been brought straight to her, delivers the Skele-Gro grimly, and mutters disapprovingly about dangerous sports and inept teachers while re-settling him.",
-      "film_portrayal": "After Harry grimaces at the potion, Pomfrey quips 'Well, what did you expect - pumpkin juice?' - a wisecrack not in the book that softens her stern, no-nonsense professional manner into something more comedic.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor tone shift. The book's Pomfrey is brisk and disapproving, not quippy. The added joke slightly misrepresents her voice but is isolated and brief."
-    },
-    {
-      "scene": "CoS Film Scene 1 (Hospital Wing - Colin Petrification night) - Pomfrey's reaction reduced",
-      "book_baseline": "Madam Pomfrey is pulled from bed in her nightdress and cardigan, whispers 'What happened?', gasps at Colin's petrification, says 'Good gracious!', and reacts with visible horror at the melted camera film - a full, emotionally present scene.",
-      "film_portrayal": "Pomfrey bustles in, gasps once, and is largely a background presence. Her lines ('What happened?', 'Good gracious!', 'Melted... all melted...') and the emotional texture of her reaction are cut or compressed. She has no spoken dialogue in this sequence in the film.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses Pomfrey's layered reactions (shock, horror, professional assessment) to convey the gravity of the Chamber threat. Reducing her to a silent background figure loses her function as an emotional register for the audience and strips a small but characterful scene beat."
-    },
-    {
-      "scene": "CoS Film Scene 2 (Hospital Wing - Hermione cat-form) - Pomfrey characterisation absent",
-      "book_baseline": "Madam Pomfrey places curtains around Hermione's bed to spare her shame, tends her over several weeks, sweeps over with medicine at key moments, and is described as having taken protective, compassionate charge of the situation.",
-      "film_portrayal": "Pomfrey appears only briefly; Hermione references her ('Any day now, according to Madam Pomfrey') but Pomfrey herself is not shown exercising the protective, discreet care the book depicts. Her compassionate management of a humiliating situation is absent.",
+      "scene": "Chamber of Secrets film - Hospital Wing (Scene 2, section 66): Skele-Gro scene",
+      "book_baseline": "Book establishes Madam Pomfrey as strict and competent but with genuine warmth underneath her briskness. She rages at Lockhart's incompetence ('You should have come straight to me!'), grimly but caringly prepares Harry for a painful night, and her personality is one of fierce professional pride combined with real tenderness toward her patients.",
+      "film_portrayal": "The film captures her competence and strictness accurately in this scene. She scolds Lockhart, prepares the Skele-Gro, and adds a dry quip ('Well, what did you expect \u2014 pumpkin juice?'). This is a faithful addition that fits her character voice well. However, the book's extended texture of her fussing, her re-entering with the Skele-Gro alongside Hermione, and her sustained disapproval of dangerous sports is compressed into a brief functional appearance.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Small loss of the characterisation of Pomfrey as someone who shields students' dignity, not just heals their bodies. Isolated and low-stakes."
+      "explanation": "The compression is minor. The film captures her core traits. The quip is an invention but fits her voice. No meaningful damage to characterization."
     },
     {
-      "scene": "CoS Film Scene 2 (Hospital Wing - Hermione petrified, paper in fist) - Pomfrey as obstacle",
-      "book_baseline": "Harry and Ron must manoeuvre carefully to avoid Madam Pomfrey's watchful eye while extracting the paper from Hermione's fist - she is an active, alert presence they must work around, reinforcing her vigilant guardianship of patients.",
-      "film_portrayal": "Pomfrey bars the door initially, is persuaded by Ron's appeal, then exits. The boys retrieve the paper without needing to evade her. Her role as a watchful guardian who must be circumvented is replaced by a brief sympathetic gatekeeper moment.",
-      "damage_type": "agency/function",
+      "scene": "Chamber of Secrets film - Hospital Wing night scene (Scene 2, section 67): Colin Creevey attack",
+      "book_baseline": "Book establishes Madam Pomfrey arriving in her cardigan pulled over her nightdress, reacting with a sharp intake of breath, whispering 'Petrified?' with visible shock, then clapping a hand to her mouth at the mention of the Chamber of Secrets being open again. She is an emotionally present witness to the horror, registering the gravity of events.",
+      "film_portrayal": "The film shows Madam Pomfrey bustling in and gasping at Colin's Petrified state, which is present in the corpus. However, her layered emotional reactions \u2014 the whispered 'Petrified?', the clap of the hand to the mouth \u2014 are reduced. She functions more as a reactive prop to deliver the scene beat rather than as a character with her own emotional register.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor reduction of her function as an alert, ever-present ward guardian. The book's version adds mild tension and reinforces her character; the film simplifies it without significant damage."
+      "explanation": "Minor compression of emotional texture. Her presence and gasp are retained. The loss of the whispered 'Petrified?' and the hand-to-mouth gesture reduces her as a feeling witness but does not fundamentally alter her characterization."
     },
     {
-      "scene": "PoA Film Scene 3 (Boggart lesson context) - Pomfrey entirely absent from dementor aftermath",
-      "book_baseline": "After Harry collapses on the train, Madam Pomfrey is summoned to McGonagall's office, examines Harry, clucks disapprovingly about dementors at a school, takes his pulse, feels his forehead, debates whether he needs the hospital wing, and approves of Lupin giving chocolate - a full scene establishing her as Harry's medical advocate and a voice of institutional conscience.",
-      "film_portrayal": "Pomfrey does not appear in the McGonagall office scene at all. The medical check and her commentary on dementors ('Setting dementors around a school...', 'He's all clammy') are cut entirely.",
-      "damage_type": "agency/function",
+      "scene": "Chamber of Secrets film - Hospital Wing visit (Scene 2, section 123): Harry and Ron visit Petrified Hermione",
+      "book_baseline": "Book establishes Madam Pomfrey initially reluctant to let them in, then relenting with genuine empathy: 'Of course... I realize this has all been hardest on the friends of those who have been... I quite understand.' She shows a rare, open moment of compassion, even a tear in her eye. She is then actively present as a watchful obstacle while Harry retrieves the paper from Hermione's hand.",
+      "film_portrayal": "The film shows Pomfrey barring the door, stating there is no point talking to a Petrified person, then relenting when Ron makes an emotional appeal. The corpus shows 'A glint of sympathy flickers in Pomfrey's eyes' \u2014 this is present. However, the book's more extended, emotionally rich moment of her near-tearful acknowledgment of the friends' suffering is compressed to a brief glint. Her active monitoring role (Harry making sure she is nowhere near before retrieving the paper) is present in both versions.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film retains her sympathy but compresses the emotional depth of the moment. The book's rare glimpse of Pomfrey's genuine tenderness is reduced to a functional beat. Minor damage only."
+    },
+    {
+      "scene": "Half-Blood Prince film - Hospital Wing (Scene 4): Ron's poisoning aftermath",
+      "book_baseline": "Book establishes Madam Pomfrey as an active, authoritative presence managing the crisis: enforcing visitor limits, counting Hagrid as several people, fussing over muddy footprints, firmly but warmly managing the chaos of the Weasley family and friends crowded around Ron. She is both competent and humanly comic in her reaction to Hagrid's size.",
+      "film_portrayal": "The film corpus (Scene 4) shows Madam Pomfrey ministering to Ron while the dramatic confrontation between Lavender and Hermione plays out around her. She is a background figure attending to Ron medically while the scene's emotional focus is on the love triangle. The book's specific comic moment of counting Hagrid as 'several people' and her bustling authority over the crowd is absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Pomfrey is reduced to background medical function in this scene. Her comic authority and the humanizing detail of the Hagrid exchange are absent. Minor damage \u2014 she is present but peripheral."
+    },
+    {
+      "scene": "Half-Blood Prince film - Astronomy Tower (Scene 5): Dumbledore's death aftermath",
+      "book_baseline": "Book establishes Madam Pomfrey bursting into tears when Harry announces Snape killed Dumbledore \u2014 a rare, raw moment of open grief from a character who maintains strict professional composure. She then 'pulled herself together' and conjures a chair for McGonagall, demonstrating her resilience. She is an emotionally present member of the Hogwarts community whose grief matters.",
+      "film_portrayal": "The film corpus for this scene (Scene 5) focuses on the Astronomy Tower confrontation itself. The aftermath hospital wing scene where Pomfrey weeps and McGonagall swoons is not present in the provided film corpus. The book's moment of Pomfrey's tears and her subsequent composed action (conjuring a chair) is therefore absent from the film corpus evidence.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Her role as a moral voice criticising the dementor deployment and as Harry's immediate medical advocate is lost. This is one of her stronger characterisation moments in PoA - she is both practically competent and ethically outspoken. Its absence reduces her to a background figure in the film."
+      "explanation": "The absence of Pomfrey's grief response to Dumbledore's death removes one of her most humanizing book moments \u2014 where her professional mask drops entirely. This is a rare instance of her being shown as a full member of the Hogwarts community who loves Dumbledore, not merely a medical functionary. Without this, her character remains flatter across the adaptation."
     },
     {
-      "scene": "PoA Film Scene 3 - Hospital wing sequence (Sirius/Fudge/Snape confrontation) - Pomfrey's advocacy compressed",
-      "book_baseline": "Pomfrey is a sustained, forceful presence: she tries to force Fudge and Snape out ('Minister, Professor! I must insist you leave - Potter is my patient'), physically stuffs chocolate into Harry's mouth to silence him and push him back to bed, shouts 'For heaven's sake! Is this a hospital wing or not?', purses her lips and slams her office door when dismissed by Dumbledore, then returns to enforce chocolate-eating and provides the alibi for Harry and Hermione. She is indignant, protective, and inadvertently comic.",
-      "film_portrayal": "Pomfrey is present but her confrontational advocacy is heavily reduced. The chocolate-stuffing moment, her repeated ejections of authority figures, and her slamming door exit are absent or compressed. She functions mainly as a background presence rather than an active, feisty patient-protector.",
+      "scene": "Prisoner of Azkaban film (Scene 3 context): Pomfrey's role in dementor aftermath and hospital wing management",
+      "book_baseline": "Book establishes an extended, multi-beat portrait of Pomfrey in the hospital wing following the Quidditch dementor incident: she checks on Harry in McGonagall's office ('Oh, it's you, is it? I suppose you've been doing something dangerous again?'), disapproves of dementors at school, absentmindedly soothes Harry's protest about not being delicate, approves of Lupin's chocolate remedy, and then manages the chaotic hospital wing scenes including stuffing chocolate in Harry's mouth to silence him, hysterically defending her patients from Fudge and Snape, being dismissed by Dumbledore and slamming her office door, and finally confirming to Snape that the students never left their beds.",
+      "film_portrayal": "The film corpus for Prisoner of Azkaban (Scene 3) does not include any hospital wing scenes or Pomfrey's extended role in the dementor aftermath. The rich characterization of Pomfrey as both fiercely protective of her patients (stuffing chocolate in Harry's mouth, shouting at Snape, slamming her door) and professionally competent (confirming the students' alibi) is not evidenced in the film corpus provided.",
       "damage_type": "personality/voice",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "This is the richest single sequence for Pomfrey's character in the entire book series - she is simultaneously fierce, funny, and principled. Compressing it loses the clearest expression of her defining trait: that her patients' welfare overrides all other authority, including Dumbledore's. The film reduces a vivid character to a functional extra."
+      "explanation": "The Prisoner of Azkaban hospital wing sequence is one of Pomfrey's richest characterization stretches in the books \u2014 she is funny, fierce, professionally indignant, and ultimately essential to Harry's alibi. The film corpus contains no evidence of these scenes. If absent from the film, this represents a meaningful loss of her most dynamic extended portrayal: her protectiveness escalating to comic fury, her being overridden by Dumbledore, and her pragmatic lie-by-omission that protects Harry and Hermione."
     },
     {
-      "scene": "GoF Film Scene 4 (Ron poisoned - hospital wing) - Pomfrey present but characterisation thin",
-      "book_baseline": "Pomfrey enforces the six-visitor rule, is briefly confused by Hagrid's size, bustles off to clean muddy footprints, and is a warm, wry, professionally firm presence throughout Ron's recovery. She also keeps Ron from attending the Quidditch match and later mends Harry's cracked skull briskly.",
-      "film_portrayal": "Pomfrey is present and ministers to Ron but her specific character beats (the visitor-count confusion, the footprint-cleaning, the wry competence) are absent. She functions as set dressing rather than a characterised individual.",
+      "scene": "Deathly Hallows film - Great Hall triage (Scene 7): Battle of Hogwarts aftermath",
+      "book_baseline": "Book establishes Madam Pomfrey and helpers treating the injured on the raised platform, and earlier she oversees the evacuation alongside Filch. She is a functional but present part of the aftermath, tending to the wounded as part of the school community's response to catastrophe.",
+      "film_portrayal": "The film corpus (Scene 7) shows Madam Pomfrey present in the Great Hall triage scene, treating the injured. This is consistent with the book. Her presence is brief and functional, which matches the book's treatment in this moment.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Small loss of texture. Her warmth and wry humour in this scene are part of what makes her more than a plot function, but the damage is minor and isolated."
-    },
-    {
-      "scene": "HBP Film Scene 5 (Astronomy Tower) - Pomfrey replaced by Snape as first-response instinct",
-      "book_baseline": "Harry's first instinct on seeing Dumbledore weakened is 'We need to get you up to the school, sir... Madam Pomfrey' - she is the automatic, trusted first resort for any serious injury, reinforcing her institutional centrality.",
-      "film_portrayal": "Harry says 'We need to get you up to the hospital, sir, to Madam Pomfrey' - this line is present and faithful. No damage here.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0,
-      "impact_weight": 1,
-      "explanation": "Actually faithful - line is retained. No damage to score."
-    },
-    {
-      "scene": "DH Film Scene 7 (Battle of Hogwarts - Great Hall triage) - Pomfrey reduced to background",
-      "book_baseline": "Madam Pomfrey and a group of helpers treat the injured on the raised platform; she is named as one of the two people overseeing the evacuation alongside Filch; she is an active, named presence in the castle's last defence.",
-      "film_portrayal": "Pomfrey is visible treating the wounded in the Great Hall but is not named or given any dialogue or distinct action. Her role in the evacuation is not shown. She is an unnamed background figure.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor. In the saga's climax she should be a recognisable, named presence doing her duty. Being reduced to an unnamed extra slightly diminishes the sense that Hogwarts' full community is defending itself, but the damage is small given her limited arc investment in the films overall."
+      "explanation": "This scene is largely faithful. Pomfrey is present in her expected role. No meaningful damage."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 210.0,
-  "adjusted_cids_v1": 231.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -2,43 +2,61 @@
   "character": "Phineas Nigellus Black",
   "fp_score": 26.0,
   "infidelity_score": 74.0,
-  "weighted_infidelity_exposure": 17.0,
-  "cids": 385.7,
-  "damage_per_exposure": 70.1,
+  "weighted_infidelity_exposure": 14.0,
+  "cids": 361.4,
+  "damage_per_exposure": 65.7,
   "structural_damage_level": 2,
-  "adjusted_cids": 385.7,
+  "adjusted_cids": 361.4,
   "main_damage_causes": [
-    "Near-total absence from the film adaptation despite meaningful book appearances across OOTP and DH",
-    "Complete loss of his defining personality traits: sardonic superiority, Black family pride, contempt for Muggle-borns, and reluctant compliance",
-    "Removal of his plot-functional role as the trio's reluctant informant in DH, including the sword-of-Gryffindor intelligence that advances the Horcrux hunt"
+    "Complete erasure of Phineas Nigellus's personality and voice: his sole film appearance gives him no dialogue and no characterisation, reducing a distinctively drawn character to a silent prop",
+    "Absence of the extended tent/Deathly Hallows-era scenes from the book corpus, which represent the fullest realisation of his character, his blood prejudice, his pride, and his plot-functional role regarding the sword of Gryffindor",
+    "No establishment of his antagonistic dynamic with Harry or his emotional investment in the Black family legacy, leaving the character without any relational texture"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film \u2013 Dumbledore's office after Arthur Weasley attack",
-      "book_baseline": "Phineas Nigellus is present in the headmaster's office portrait and is given a direct instruction by Dumbledore: go to his Grimmauld Place portrait and tell the Weasley children to come by portkey. He is a functional relay agent with a distinct, reluctant-but-obedient personality, and his compliance is shown with his characteristic haughty manner.",
-      "film_portrayal": "Phineas is reduced to a single line of instruction from Dumbledore ('Phineas, you must go to your portrait at Grimmauld Place...') with no response, no personality, no visible compliance or reaction. He is a prop, not a character.",
-      "damage_type": "personality/voice | agency/function",
+      "scene": "Film \u2013 Dumbledore's office scene: Dumbledore instructs 'Phineas' to go to Grimmauld Place",
+      "book_baseline": "In the books, Phineas Nigellus is a distinct, sharply characterised presence in Dumbledore's office portraits \u2013 supercilious, sardonic, hissing at impertinence, vocally opinionated about students and blood status. He is referred to by his full name 'Phineas Nigellus' and his personality is a notable texture in any scene he appears in.",
+      "film_portrayal": "The film reduces Phineas Nigellus to a single functional line where Dumbledore addresses him only as 'Phineas' and instructs him to carry a message to Grimmauld Place. He receives no dialogue, no reaction, no characterisation whatsoever \u2013 he is used purely as a plot relay device with no personality on display.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The film uses Phineas purely as a named messenger device. His sardonic, superior personality is entirely absent. He gets no lines, no reaction, no characterization. The audience learns nothing about who he is."
+      "explanation": "The book establishes Phineas Nigellus as one of the most distinctive portrait personalities \u2013 arrogant, classist, and entertainingly contrary. Reducing his sole film appearance to a mute errand boy strips away all of that voice and personality, making him an unnamed prop rather than a character."
     },
     {
-      "scene": "Film \u2013 entire film corpus (absence of Grimmauld Place portrait scene)",
-      "book_baseline": "In DH, Phineas Nigellus is carried by Hermione in her beaded bag and serves as a recurring, reluctant informant. He is blindfolded, argues with the trio, insults Hermione as a 'Muggle-born' and 'simple girl', defends Snape, is protective of Black family honor (outraged at Mundungus stealing heirlooms), and ultimately provides the critical intelligence about the sword of Gryffindor being used by Dumbledore to destroy a Horcrux. This is his most substantial characterization in the entire series.",
-      "film_portrayal": "This entire sequence is absent from the film corpus provided. Phineas has no presence in the DH film material shown here.",
-      "damage_type": "agency/function | arc | nuance/lost material",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "The Grimmauld Place / beaded bag scenes are where Phineas Nigellus is most fully realized as a character: his pride, his bigotry, his reluctant usefulness, his loyalty to Slytherin and the Black family, and his inadvertent delivery of a plot-critical clue. Losing all of this removes his entire narrative function in the endgame and collapses him to a near-zero presence in the adaptation."
-    },
-    {
-      "scene": "Film \u2013 absence of OOTP Hogwarts office scenes (hissing at Harry, reacting to Mundungus theft)",
-      "book_baseline": "In OOTP, Phineas Nigellus appears in Dumbledore's office and hisses disapprovingly at Harry's impertinence, voices his contempt for students questioning authority, and later storms out of his frame in outrage when he learns Mundungus has been stealing Black heirlooms \u2014 a moment that reveals his fierce pride in his family's legacy.",
-      "film_portrayal": "None of these beats appear in the film. The only OOTP appearance is the single wordless instruction scene.",
-      "damage_type": "personality/voice | nuance/lost material",
-      "exposure": 2,
+      "scene": "Film \u2013 Dumbledore's office scene: Phineas given no reaction, no dialogue, no characterisation",
+      "book_baseline": "Book corpus shows Phineas Nigellus consistently interjecting with unsolicited commentary ('Impertinent,' hissing at Harry's questions, calling Hermione 'simple girl,' expressing outrage at Mundungus stealing Black heirlooms, walking out of his frame in indignation). He has agency and a distinct voice even in brief appearances.",
+      "film_portrayal": "Phineas is addressed and presumably complies, but is given no lines, no reaction shot, and no opportunity to express any of his established personality. His compliance is treated as automatic and silent.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "These moments establish Phineas as a recurring comic-antagonist presence with a consistent voice: snobbish, pro-authority, fiercely proud of the Black name. Without them, his one film appearance has no context and he reads as a generic portrait extra."
+      "explanation": "A character who in the books never misses an opportunity to voice his opinions and assert his superiority is rendered entirely passive and voiceless. This removes his function as a source of dry, aristocratic commentary and his role as a minor but memorable antagonistic presence in the headmaster's office."
+    },
+    {
+      "scene": "Film \u2013 entire film: absence of Phineas Nigellus's extended tent/camping scene interactions",
+      "book_baseline": "The book corpus contains an extended scene (Scenes 12\u201344) in which Phineas Nigellus is blindfolded, interrogated by Harry and Hermione, argues back, insults Hermione as 'simple girl' and 'Muggle-born,' is called supercilious by the narration, reveals key intelligence about the sword of Gryffindor (goblin-silver absorbing only that which strengthens it), and ultimately refuses to return \u2013 all while in a portrait being carried by the trio. This scene establishes his relationship with Harry, his pride, his blood prejudice, and delivers plot-critical information.",
+      "film_portrayal": "This entire interaction is absent from the film corpus. None of the tent scenes, the blindfolded portrait, the sword-of-Gryffindor intelligence, or any of the characterisation from these extended exchanges appears.",
+      "damage_type": "nuance/lost material",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "This is the single scene in the corpus where Phineas Nigellus is most fully realised as a character \u2013 showing his blood prejudice, his pride, his reluctant utility to Harry, and his complicated loyalty to the Black family legacy. Its absence means the audience never sees him as anything other than a messenger, losing both his characterisation and his contribution to the Horcrux/sword plot thread."
+    },
+    {
+      "scene": "Film \u2013 entire film: absence of Phineas Nigellus's role in the Mundungus/Black heirlooms subplot",
+      "book_baseline": "Book Scene 7 shows Phineas Nigellus erupting in genuine outrage \u2013 'That mangy old half-blood has been stealing Black heirlooms?' \u2013 and storming out of his frame to go to Grimmauld Place. This reveals both his fierce pride in the Black family legacy and a dimension of his character beyond mere compliance with Dumbledore.",
+      "film_portrayal": "No such scene or reaction appears in the film corpus. Phineas's emotional investment in the Black family honour is entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The moment of Phineas storming out in indignation over stolen Black heirlooms is one of his most vivid characterisation beats \u2013 it shows he has genuine feeling and personal stakes beyond his role as Dumbledore's messenger. Its absence flattens him to a purely functional instrument."
+    },
+    {
+      "scene": "Film \u2013 Dumbledore's office: Phineas's relationship with Harry and Hogwarts student body never established",
+      "book_baseline": "Book Scenes 2 and 4 show Phineas Nigellus reacting to Harry's questions with hissing disapproval and the word 'Impertinent,' establishing a clear antagonistic attitude toward students and a contempt for Harry specifically that is part of his recurring dynamic throughout the series.",
+      "film_portrayal": "The film gives Phineas no interaction with Harry at all; Dumbledore speaks to him and he is presumably off-screen complying. No antagonism, no condescension, no dynamic with Harry is established.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The low-level antagonism between Phineas and Harry \u2013 Phineas disapproving of Harry's impertinence, Harry managing him with flattery \u2013 is a running texture in the books. The film establishes none of this, so any future interactions (in later films) would lack grounding."
     }
   ],
   "confidence": {
@@ -47,8 +65,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1258.0,
-  "adjusted_cids_v1": 1383.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

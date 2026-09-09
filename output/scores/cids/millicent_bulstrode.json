@@ -1,0 +1,53 @@
+{
+  "character": "Millicent Bulstrode",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 3.0,
+  "cids": 63.0,
+  "damage_per_exposure": 31.5,
+  "structural_damage_level": 1,
+  "adjusted_cids": 63.0,
+  "main_damage_causes": [
+    "Omission of the Dueling Club wrestling scene removes Millicent's only moment of distinct, active characterization in the entire saga",
+    "Reframing of the hair acquisition strips the cause-and-effect relationship between Millicent's aggression and Hermione's Polyjuice plan",
+    "Millicent is reduced from a minor but physically present antagonist to a name mentioned only as a plot device for the cat-hair mistake"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (CoS script) - Dueling Club / Girls' Bathroom Polyjuice preparation",
+      "book_baseline": "Book Scene 2 establishes that Millicent physically overpowers Hermione at the Dueling Club, putting her in a headlock and causing real pain; Harry has to physically pull Millicent off and notes 'She was a lot bigger than he was.' This establishes Millicent as physically imposing and genuinely threatening.",
+      "film_portrayal": "The film's Dueling Club sequence (Film Scene 1, the Great Hall/Dueling Club section) shows the dueling pairs but contains no depiction of Millicent wrestling Hermione. The physical confrontation is entirely absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The wrestling incident is the sole moment in the books where Millicent is characterized as a physically dangerous, formidable presence rather than a background Slytherin. Its absence removes the only scene that gives Millicent any distinct characterization beyond her name."
+    },
+    {
+      "scene": "Film Scene 1 (CoS script) - Girls' Bathroom Polyjuice scene / Hermione's cat-hair reveal",
+      "book_baseline": "Book Scenes 4-5 establish that Hermione deliberately obtained Millicent's hair from her robes after the wrestling match, framing it as a consequence of that physical confrontation ('She left this on my robes when she was trying to strangle me!'). The hair acquisition is tied directly to Millicent's aggressive act.",
+      "film_portrayal": "Film Scene 1 (Christmas Feast / bathroom prep) has Hermione present the vial saying 'Millicent Bulstrode. She's in Slytherin. I got this off her robes.' There is no reference to a wrestling match or physical altercation. The hair is presented as if obtained passively or incidentally, with no context of Millicent having attacked Hermione.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Without the wrestling context, the explanation for how Hermione got the hair is vague and Millicent is reduced from an active antagonist who left physical evidence of an assault to simply a Slytherin whose robes Hermione apparently brushed against. This strips Millicent of her only assertive character beat."
+    },
+    {
+      "scene": "Film Scene 2 (CoS script) - Girls' Bathroom, Hermione's cat-hair transformation reveal",
+      "book_baseline": "Book Scenes 15-17 show Hermione discovering her face covered in black fur and yellow eyes, howling that it was a cat hair from Millicent Bulstrode, and that the potion isn't meant for animal transformations. The book also establishes (Scene 10) Harry's comment that 'Millicent Bulstrode's no pixie,' reinforcing her size as a character trait used for comedic and practical plot purposes.",
+      "film_portrayal": "Film Scene 2 shows Hermione's cat transformation and she says 'It was cat hair I plucked off Millicent Bulstrode's robes! Look at my face!' The transformation is present but the line removes the implication of the wrestling match entirely ('plucked off' sounds deliberate and calm rather than 'left on my robes when she was trying to strangle me'). Millicent's physical characterization (size, threat) is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The rewording from 'she left this on my robes when she was trying to strangle me' to 'I plucked off her robes' silently erases Millicent's aggressive characterization. The comedic and dramatic weight of the cat-hair mistake is diminished because the backstory that makes it ironic (Hermione was attacked, grabbed a hair in the chaos) is gone."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

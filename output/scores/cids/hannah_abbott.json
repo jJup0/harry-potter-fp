@@ -8,38 +8,37 @@
   "structural_damage_level": 1,
   "adjusted_cids": 54.9,
   "main_damage_causes": [
-    "Hannah's only substantive film appearance relocates her book dialogue from a direct social interaction to overheard gossip, weakening the interpersonal dimension of her tentative defence of Harry",
-    "Her anxious, questioning voice (consistent across book scenes 6, 8, 19, 21, 37) is present only in vestigial form in the film corpus provided, leaving her personality largely unestablished on screen",
-    "The film corpus shows Hannah with no independent scenes beyond the single corridor exchange, meaning the cumulative book portrait (OWL stress breakdown, DA member, Battle of Hogwarts participant, Seamus pairing) has no film equivalent to score - absence of defining material rather than active misrepresentation"
+    "Hannah's independently reasoned sympathy for Harry is slightly flattened by the omission of her concluding rhetorical question, reducing nuance in her moral pushback against the group",
+    "Hannah loses her book role as the initiator and driver of the Parseltongue gossip exchange, with her agency transferred to Ernie's expanded film monologue",
+    "The corpus is largely faithful \u2014 Hannah's core characterization (Hufflepuff, anxious but sympathetic, willing to voice doubt) is preserved in the film, limiting the overall damage"
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS film Scene 73 - Hufflepuff corridor conversation overheard by Harry",
-      "book_baseline": "In CoS book, Hannah is present in the Herbology corridor conversation with Ernie and actively participates face-to-face with Harry and Ron, working at the same Shrivelfig. The encounter is direct and social, with Hannah voicing her uncertainty about Harry ('He always seems so nice, though') in his presence after he has joined their group.",
-      "film_portrayal": "Hannah's defence of Harry ('He always seems so nice, though. And, after all, he is the one who made You Know Who disappear.') is delivered as gossip overheard through a door, never to Harry's face. Hannah has no awareness Harry is listening and the moment of tentative social courage is stripped of its interpersonal weight.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "In the book the exchange happens in Harry's company during Herbology, making Hannah's defence a small act of social bravery directed at Ernie in front of Harry. The film converts it to unknowing gossip, removing the interpersonal dynamic and reducing Hannah to a background voice rather than a peer engaging directly with the situation."
-    },
-    {
-      "scene": "CoS film Scene 73 - Hannah's line omits the book's uncertainty qualifier",
-      "book_baseline": "Book Hannah says 'He always seems so nice, though' followed by 'and, well, he's the one who made You-Know-Who disappear. He can't be all bad, can he?' - the trailing question marks and 'well' signal genuine moral uncertainty and a character thinking aloud.",
-      "film_portrayal": "Film Hannah says 'He always seems so nice, though. And, after all, he is the one who made You Know Who disappear.' The hedging question ('He can't be all bad, can he?') is dropped, flattening her voice from uncertain-but-reasoning to a simple declarative statement.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 73 (Library/Corridor) \u2014 Hannah overheard in Hufflepuff conversation",
+      "book_baseline": "In Book Scene 8, Hannah says 'He always seems so nice, though, and, well, he's the one who made You-Know-Who disappear. He can't be all bad, can he?' \u2014 this is an expression of genuine moral uncertainty and independent sympathy for Harry, pushing back against Ernie's certainty with her own reasoning.",
+      "film_portrayal": "Hannah's line is condensed to 'He always seems so nice, though. And, after all, he is the one who made You Know Who disappear.' The phrase 'He can't be all bad, can he?' \u2014 her tentative but independently reasoned conclusion \u2014 is dropped, slightly flattening the beat of her pushing back against the group consensus.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor but the book's phrasing characterises Hannah as someone who reasons carefully and seeks reassurance. The film line is functionally similar but loses the nuance of her anxious, questioning personality established across multiple book scenes."
+      "explanation": "The book's version gives Hannah a small but meaningful moment of independent moral reasoning \u2014 she is not just noting Harry's niceness but drawing her own tentative conclusion against peer pressure. The film version preserves the general sentiment but loses the concluding rhetorical question, slightly reducing the sense that Hannah is actively resisting the group's narrative rather than merely hedging."
+    },
+    {
+      "scene": "Film Scene 73 (Library/Corridor) \u2014 Ernie's expanded conspiratorial reasoning replaces Hannah's anxious framing",
+      "book_baseline": "Book Scene 6 establishes Hannah as the one who initiates the conversation by asking 'You definitely think it is Potter, then, Ernie?' with anxiety \u2014 she is the emotional anchor of the exchange, uncertain and probing. Book Scene 9 notes the Hufflepuffs leaning in together, suggesting a group dynamic Hannah is part of rather than peripheral to.",
+      "film_portrayal": "In the film, Hannah is entirely overheard from the corridor \u2014 she has no initiating line equivalent to her anxious book question that opens the exchange. Ernie dominates the scene with an expanded conspiratorial monologue (adding details about Filch's cat and Creevey not in the book version of this scene). Hannah's two lines are reactive only, losing her role as the one who frames and drives the inquiry.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the books Hannah actively opens and steers this conversation through her questions, giving her a small but real agential role. In the film she is reduced to a passive reactor to Ernie's monologue. The shift transfers conversational agency entirely to Ernie, making Hannah a sounding board rather than a participant, which slightly diminishes her characterization as a curious, independently minded Hufflepuff."
     }
   ],
   "confidence": {
-    "global": "Medium",
-    "exposure_estimate": "Medium",
+    "global": "High",
+    "exposure_estimate": "High",
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 67.5,
-  "adjusted_cids_v1": 67.5
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

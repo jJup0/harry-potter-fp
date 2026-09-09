@@ -8,28 +8,28 @@
   "structural_damage_level": 2,
   "adjusted_cids": 79.3,
   "main_damage_causes": [
-    "Susan's sole film appearance is used as a vehicle for Harry's scar reaction, stripping her of any individual characterisation",
-    "Her rich book role - bereaved family member, DA combatant, empathetic peer, niece of Amelia Bones - is entirely absent from the film corpus provided, leaving her as a name only",
-    "The mislabelling of her as 'a small redheaded girl' erases her visual distinctiveness as a character"
+    "Susan Bones's sole film appearance reduces her to an unnamed background extra despite the book establishing her as a character with agency, empathy, and a significant family connection to Amelia Bones",
+    "An incorrect physical descriptor ('small redheaded girl') is the only characterization the film provides, misrepresenting her identity at her one and only moment of screen acknowledgment",
+    "All of Susan's defining book material \u2014 her support for Harry, her family trauma, her DA combat participation, and her relationship with her aunt \u2014 is entirely absent from the film corpus, leaving her as a name with no personality or function"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film 1 (Philosopher's Stone) - Sorting ceremony: Susan Bones described as 'a small redheaded girl'",
-      "book_baseline": "Susan Bones is a Hufflepuff student with no physical description suggesting red hair; she is a distinct character from the Weasley family and other redheads",
-      "film_portrayal": "The script/scene description labels Susan Bones as 'a small redheaded girl', conflating her visual identity with the Weasley family trait and muddying her as a distinct individual",
+      "scene": "Film Scene 1 \u2013 Sorting Ceremony: Susan Bones described as 'a small redheaded girl'",
+      "book_baseline": "The book establishes Susan Bones as a Hufflepuff student sorted unremarkably alongside Hannah Abbott. No physical description is given in the sorting scene, but later book material establishes her as a distinct individual with a notable wizarding family background (niece of Amelia Bones, Head of Magical Law Enforcement). There is no indication she is redheaded.",
+      "film_portrayal": "The film's script/stage direction describes Susan Bones as 'a small redheaded girl,' which is a physical characterization not supported by the books and risks visually conflating her with the Weasley family trait, muddying her distinct identity.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A minor misidentification in the scene description that gives Susan no distinguishing presence of her own, though it has negligible downstream effect given her minimal screen role in this film."
+      "explanation": "A minor but concrete misrepresentation of the character's appearance. Since Susan Bones has no spoken lines or further development in this film scene, the erroneous 'redheaded' descriptor is the only characterization offered, and it is wrong. The damage is low because Susan is a background character in this scene, but it does misrepresent her identity at the only moment the film acknowledges her existence."
     },
     {
-      "scene": "Film 1 (Philosopher's Stone) - Sorting ceremony: Susan Bones receives no individual moment",
-      "book_baseline": "In the book Susan 'scuttled off to sit next to Hannah', a small but humanising beat showing her nervousness and her immediate bond with Hannah Abbott",
-      "film_portrayal": "Susan's sorting is used purely as a beat to show Harry's scar hurting and Snape staring at him; the camera and dialogue focus entirely on Harry's reaction, not Susan at all",
+      "scene": "Film Scene 1 \u2013 Sorting Ceremony: Susan Bones receives no dialogue, reaction, or individualizing moment",
+      "book_baseline": "While the book's sorting scene for Susan is itself brief (Scenes 2\u20133), the broader book corpus establishes Susan as a character with meaningful agency: she defends Harry at his hearing (Scene 37), expresses empathy about family trauma (Scenes 38\u201339), participates in DA combat against Malfoy (Scene 41), and is notable as Amelia Bones's niece. The sorting is the first impression, and the book at minimum treats it as a neutral, clean introduction.",
+      "film_portrayal": "Susan Bones's sorting is used purely as a narrative gap-filler while the camera focuses on Harry noticing Snape and feeling scar pain. Her name is called, the hat says 'Hufflepuff,' and zero attention is paid to her. She exists only as a prop to occupy screen time during Harry's discomfort moment.",
       "damage_type": "agency/function",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Susan's only appearance in the film corpus is instrumentalised as a backdrop for Harry's scar pain. The small characterising detail of her nervousness and her connection to Hannah is erased, and she is reduced to a named prop. This sets the template for her non-presence throughout the films."
+      "explanation": "The film reduces Susan's introduction to an invisible background beat used to frame Harry's scar reaction. Given that this is the only scene in the entire film corpus where Susan appears, and given that the book corpus shows her to be a character with voice, empathy, bravery, and family significance, the total erasure of any individualizing quality at her sole moment of screen presence constitutes meaningful character-level damage. Audiences have no basis to recognize her as a distinct person."
     }
   ],
   "confidence": {
@@ -38,8 +38,7 @@
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 72.0,
-  "adjusted_cids_v1": 79.2
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

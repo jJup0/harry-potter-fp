@@ -1,0 +1,35 @@
+{
+  "character": "Travers",
+  "fp_score": 37.0,
+  "infidelity_score": 63.0,
+  "weighted_infidelity_exposure": 0.5,
+  "cids": 41.5,
+  "damage_per_exposure": 82.9,
+  "structural_damage_level": 1,
+  "adjusted_cids": 41.5,
+  "main_damage_causes": [
+    "Travers is almost entirely absent from the film corpus: only a single off-screen name-drop survives (Film Scene 2), so the rich book characterization across the Xenophilius house raid, the Diagon Alley encounter, and the Gringotts infiltration is simply not adapted rather than actively distorted.",
+    "The film corpus provided is sparse and skewed toward other storylines (the Triwizard maze and graveyard dominate Film Scene 1), meaning Travers's book material \u2014 his class contempt, his role as an obstacle during the Gringotts heist, his being Imperiused by Harry \u2014 has no film counterpart to score against.",
+    "Because the damage is primarily one of omission rather than mischaracterization, and because the corpus rules require evidence of actual film portrayal to score, the scoreable damage is limited to the single scene where the film does reference him, resulting in a low structural damage rating despite Travers being a meaningfully fleshed-out minor antagonist in the books."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 \u2014 Ministry lift, Umbridge greets 'Mafalda'",
+      "book_baseline": "In the book corpus, 'Travers sent you, did he?' establishes Travers as a named Death Eater with administrative standing within the Muggle-Born Registration Commission apparatus, someone whose authority is recognized by Umbridge herself and who is actively routing personnel into the Ministry's persecution machine.",
+      "film_portrayal": "The film retains the line 'Travers sent you, did he?' (Film Scene 2) but Travers himself is entirely absent from the screen. He exists only as an off-screen name drop with no visual presence, no characterization, and no established identity for the audience.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Because the film never shows Travers in any capacity \u2014 not at Xenophilius's house, not in Diagon Alley, not during the Gringotts infiltration \u2014 the reference to him in the Ministry scene lands as a hollow name to a film-only audience. The book corpus establishes Travers as a recurring, functional Death Eater whose presence creates sustained tension across multiple set-pieces. The film reduces him to an invisible bureaucratic referral, eliminating all characterization damage that would otherwise apply to his other appearances, since those appearances simply do not exist in the film corpus at all."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

@@ -2,70 +2,61 @@
   "character": "Ariana Dumbledore",
   "fp_score": 59.0,
   "infidelity_score": 41.0,
-  "weighted_infidelity_exposure": 33.5,
-  "cids": 314.2,
-  "damage_per_exposure": 34.9,
+  "weighted_infidelity_exposure": 12.0,
+  "cids": 227.6,
+  "damage_per_exposure": 65.0,
   "structural_damage_level": 4,
-  "adjusted_cids": 314.2,
+  "adjusted_cids": 227.6,
   "main_damage_causes": [
-    "Near-total omission of Aberforth's account of Ariana's life, trauma, and death - the only scene in the saga that defines her as a character",
-    "Loss of Ariana's function as the human embodiment of the 'greater good' ideology's cost, severing a central thematic connection",
-    "Erasure of Aberforth's personal bond with Ariana, which is the emotional foundation of his grief and his estrangement from Albus"
+    "Near-total omission of Ariana's backstory (the attack, the magic turning inward, the rages, the sweetness, the family's sacrifice) removes her as a character and reduces her to an abstraction, gutting the moral and emotional foundation of Dumbledore's arc",
+    "Erasure of Aberforth's specific bond with Ariana destroys the relationship that gives his grief and resentment its emotional specificity and tragic weight",
+    "Omission of the three-way duel and the ambiguity of who killed Ariana removes the most devastating dimension of Dumbledore's guilt \u2014 the possibility that he directly caused her death \u2014 softening the 'greater good' theme from potential self-implication to mere negligence"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 (Bathilda's house) - Ariana photograph described as 'curiously compelling young girl'",
-      "book_baseline": "Ariana is described with 'vacant sweetness' - her portrait conveys damage, absence, and tragedy rather than compelling beauty",
-      "film_portrayal": "The screenplay describes Ariana's photograph as 'a curiously compelling young girl', framing her as intriguing rather than pitiable or haunted",
+      "scene": "Film Scene 3 (Sitting Room) - Aberforth's account of Ariana reduced to a single line",
+      "book_baseline": "The book provides an extensive, emotionally devastating account of Ariana's backstory: her attack by Muggle boys at age six, the magic turning inward and driving her mad, her father's imprisonment, the family's forced secrecy, her rages and moments of sweetness, her special bond with Aberforth (feeding goats, calming her down), Albus's neglect of her in favour of Grindelwald, and the three-way duel in which she died. This is a multi-scene, deeply characterised portrayal of a traumatised girl whose life and death anchor the entire moral weight of Dumbledore's arc.",
+      "film_portrayal": "Aberforth's entire account of Ariana is collapsed into a single line: 'My brother sacrificed many things, Mr. Potter, in his journey to find power, including her. She was devoted to him \u2014 he gave her everything, but time.' No attack, no magic turning inward, no illness, no rages, no sweetness, no father's sacrifice, no goats, no special bond with Aberforth, no three-way duel, no ambiguity about who killed her.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor but the word choice shifts Ariana from a figure of tragedy and damage to one of aesthetic fascination, subtly misrepresenting her essence before the audience even learns her story"
-    },
-    {
-      "scene": "Film Scene 3 (Aberforth's sitting room) - Ariana's backstory entirely omitted",
-      "book_baseline": "Aberforth delivers an extended, emotionally devastating account: the Muggle boys' attack, her broken magic, her rages and sweetness, her mother's death, Albus's neglect, Grindelwald's arrival, the three-way duel, and her accidental death. This is the defining characterization of Ariana in the entire saga.",
-      "film_portrayal": "Aberforth says only that Albus 'sacrificed many things including her', that 'she was devoted to him' and he 'gave her everything but time'. No attack, no broken magic, no rages, no mother's death, no Grindelwald confrontation, no accidental killing.",
-      "damage_type": "arc",
-      "exposure": 3,
       "impact_weight": 5,
-      "explanation": "The entire substance of Ariana as a character - her trauma, her condition, her relationship with Aberforth, the circumstances of her death, and her function as the moral weight behind Dumbledore's guilt and Aberforth's grief - is stripped out. The audience cannot understand why Ariana matters, why Dumbledore is haunted, or why Aberforth is estranged. This is the only scene in the saga where Ariana is explained, and it is almost entirely cut."
+      "explanation": "Ariana's full backstory is the structural foundation of Dumbledore's greatest flaw and the saga's central moral theme ('the greater good'). The book spends pages establishing her as a specific, vivid, tragically human figure \u2014 not a symbol but a person with a particular relationship to each brother. The film reduces her entirely to a rhetorical abstraction in Aberforth's argument against Albus. The audience never learns what happened to her, what she suffered, what she was like, or what the cost of her death actually was. This is not a trimming; it is the removal of the entire foundation that makes Dumbledore's arc meaningful."
     },
     {
-      "scene": "Film Scene 3 - Aberforth's relationship with Ariana erased",
-      "book_baseline": "Aberforth was Ariana's favourite, could calm her rages, got her to eat, took her to feed the goats. His bond with her is the emotional core of his character and the source of his lifelong grief and resentment of Albus.",
-      "film_portrayal": "Aberforth's personal bond with Ariana is never mentioned. He speaks of her only in relation to Albus's failings, not his own love for her.",
+      "scene": "Film Scene 3 (Sitting Room) - Aberforth's relationship with Ariana erased",
+      "book_baseline": "Aberforth explicitly states he was Ariana's favourite, not Albus. He could get her to eat when she refused their mother, calm her during rages, and she helped him feed the goats. This bond is the emotional core of his grief and his fury at Albus \u2014 he was her primary caregiver and lost her personally, not just as a family member.",
+      "film_portrayal": "The film contains no mention of Aberforth's special bond with Ariana. His grief is present (he keeps her portrait, says 'she'll always be beautiful') but its specific source \u2014 that he was her protector and closest companion \u2014 is entirely absent. His resentment of Albus is framed only in terms of power and neglect, not in terms of this intimate lost relationship.",
       "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "Without Aberforth's specific, tender relationship with Ariana, his grief reads as abstract sibling loss rather than the loss of someone he personally protected and loved. His character is flattened and his antagonism toward Albus loses its grounded emotional logic."
-    },
-    {
-      "scene": "Film Scene 3 - Ariana's agency in the fatal duel omitted",
-      "book_baseline": "During the three-way duel, Ariana tried to help - she acted, however chaotically. She was not merely a passive victim but someone who attempted to intervene, and died in the crossfire of that attempt. This gives her a trace of agency even in her most helpless moment.",
-      "film_portrayal": "No duel, no attempt by Ariana to help, no ambiguity about who cast the killing curse. Her death is referenced only as Albus failing to give her time.",
-      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book's version of Ariana's death carries moral complexity: she tried to act, and the ambiguity of who killed her haunts all three men. The film reduces her death to a passive consequence of Albus's neglect, removing both her agency and the tragic irony of her death."
+      "explanation": "Without the established bond, Aberforth's grief and his portrait-keeping read as generic brotherly loss rather than the loss of someone he personally sustained and loved above all others. The emotional specificity that makes Aberforth a tragic figure in his own right \u2014 not just a foil for Albus \u2014 is gone."
     },
     {
-      "scene": "Film Scene 3 - Dumbledore's guilt and the 'greater good' connection to Ariana lost",
-      "book_baseline": "Aberforth explicitly connects Ariana's neglect to Grindelwald's 'greater good' ideology, and later Harry reflects that Dumbledore was tormented by the memory of Ariana when drinking the cave potion. Ariana is the living proof that 'the greater good' destroys real people.",
-      "film_portrayal": "Aberforth's line that Albus gave her 'everything but time' gestures at this but without the Grindelwald context or the ideological framing, the thematic connection between Ariana and the 'greater good' is invisible to film audiences.",
-      "damage_type": "arc",
-      "exposure": 2,
+      "scene": "Film Scene 3 (Sitting Room) - The three-way duel and ambiguity of Ariana's death omitted",
+      "book_baseline": "Aberforth recounts that he confronted Albus and Grindelwald, Grindelwald used the Cruciatus Curse on him, all three began dueling, and Ariana \u2014 trying to help \u2014 was caught in the crossfire. No one knows which of the three killed her. This ambiguity is morally essential: it means Albus may have killed his own sister, and can never know.",
+      "film_portrayal": "The film provides no account of how Ariana died. There is no duel, no Cruciatus, no ambiguity. The audience is only told she was 'sacrificed' by Albus's ambition \u2014 implying passive neglect rather than a possible direct act. The specific horror of not knowing who cast the fatal spell is completely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
       "impact_weight": 4,
-      "explanation": "Ariana's function in the saga is partly thematic: she is the human cost of Dumbledore's youthful ideology. Without her story being told, the film cannot land the critique of 'the greater good' as a personal moral failure for Dumbledore, weakening a central theme of the final act."
+      "explanation": "The ambiguity of Ariana's death is what makes Dumbledore's guilt so devastating and so irreducible \u2014 he can never know if he killed her. The film's vague framing of her death as 'sacrifice' softens this into a manageable moral failing rather than a potentially unforgivable one. This directly damages the depth of Dumbledore's character and the seriousness of the 'greater good' theme."
     },
     {
-      "scene": "Film Scene 5 (King's Cross) - Dumbledore's guilt over Ariana reduced to longing",
-      "book_baseline": "Dumbledore's relationship to Ariana is defined by guilt, responsibility, and the knowledge that his ambition contributed to her death. The Resurrection Stone temptation is rooted in that guilt.",
-      "film_portrayal": "Harry says 'You wanted to see Ariana again, didn't you, sir?' and Dumbledore simply says 'Yes.' The exchange frames his desire as grief and longing, with no acknowledgment of guilt or culpability.",
-      "damage_type": "motivation/internal conflict",
+      "scene": "Film Scene 2 (Bathilda's house) - Ariana's photograph described only as 'a curiously compelling young girl'",
+      "book_baseline": "The book describes Ariana's portrait as showing a girl with 'a kind of a vacant sweetness' \u2014 a specific characterisation that encodes her condition (the blankness of trauma, the residual gentleness beneath it). It is a precise, loaded image.",
+      "film_portrayal": "The film script describes the photograph of Ariana as showing 'a curiously compelling young girl' \u2014 an aestheticising description that frames her in terms of mysterious beauty rather than the vacant sweetness of a damaged child. Hermione later in Scene 3 calls her 'beautiful.'",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Reducing Dumbledore's Ariana-related motivation to simple longing rather than guilt-driven longing softens his moral complexity at the moment the film is trying to establish it. It is a small but meaningful flattening of his character."
+      "explanation": "The book's 'vacant sweetness' signals Ariana's psychological state and the tragedy of what was done to her. The film's 'curiously compelling' and 'beautiful' reframe her as an aesthetically interesting figure, removing the note of damage and loss. This is a small but telling shift that shapes how the audience will receive all subsequent references to her."
+    },
+    {
+      "scene": "Film Scene 5 (King's Cross) - Dumbledore's desire to see Ariana used only as a negative illustration",
+      "book_baseline": "In the books, Dumbledore's longing to use the Resurrection Stone to see Ariana again is part of a complex portrait of unresolved grief and guilt. His desire to speak to her is understandable and pitiable even as it is shown to be dangerous. Ariana functions here as the object of his deepest, most private sorrow.",
+      "film_portrayal": "The film's King's Cross scene has Harry ask 'You wanted to see Ariana again, didn't you, sir?' and Dumbledore confirm simply 'Yes.' This is faithful in outline, but because the audience has received no backstory about Ariana \u2014 no account of who she was, what happened to her, what she meant to Albus \u2014 the moment lands as an abstract acknowledgment rather than an emotionally resonant confession. Ariana is a name, not a person the audience has been made to know.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The emotional payoff of this King's Cross moment depends entirely on the audience having been given Ariana's story. Without it, Dumbledore's admission is stripped of weight. The film has the callback without having done the work to make it land. This is a downstream consequence of the earlier omissions, but it represents a distinct moment where Ariana's function in Dumbledore's arc fails on screen."
     }
   ],
   "confidence": {
@@ -74,8 +65,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 1373.5,
-  "adjusted_cids_v1": 2060.2
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

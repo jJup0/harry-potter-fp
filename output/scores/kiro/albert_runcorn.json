@@ -1,20 +1,97 @@
 {
   "character": "Albert Runcorn",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 10.0,
+    "narrative_role_agency": 8.0,
+    "motivations_internal_conflict": 6.0,
+    "character_arc": 5.0,
+    "key_relationships": 3.0,
+    "complexity_nuance_lost_material": 4.0,
+    "total": 36.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 10,
+      "narrative_role_agency": 8,
+      "motivations_internal_conflict": 6,
+      "character_arc": 5,
+      "key_relationships": 3,
+      "complexity_nuance_lost_material": 4,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "The book corpus provided is empty \u2014 there are no scenes from the books in which Albert Runcorn appears directly as himself. What the books establish about Runcorn must therefore be drawn from general series knowledge: Runcorn is a senior Ministry official under Voldemort's regime, described as tall, broad, and intimidating. He is a genuine collaborator with the Death Eater-controlled Ministry, known for denouncing Muggle-borns and tracking down blood traitors. He is feared by other Ministry employees, including Arthur Weasley, who suspects Runcorn of informing on him. Runcorn's personality in the books is defined by menace, authority, and complicity \u2014 he is a genuine instrument of the regime, not a neutral bureaucrat.",
+          "film_portrayal": "In the film corpus, Albert Runcorn is entirely a disguise worn by Harry. The character himself never speaks or acts as himself \u2014 every line attributed to 'ALBERT RUNCORN/HARRY' is Harry thinking and speaking through Runcorn's body. The film does establish that Runcorn is feared (wizards scatter at the sight of him) and that Arthur Weasley regards 'him' with 'utter disdain,' which is consistent with the book characterization of Runcorn as a dangerous, regime-aligned figure. However, these are environmental reactions to the disguise, not portrayal of the actual character.",
+          "difference": "Albert Runcorn as an independent character with his own personality, voice, speech patterns, emotional tone, or behavioral traits is entirely absent from the film corpus. The film uses Runcorn only as a costume. The feared reputation is gestured at through other characters' reactions, but Runcorn himself is given no agency, no lines, no presence. His personality cannot be evaluated because he never appears as himself.",
+          "penalty_logic": "The score cannot be high because the character is never portrayed \u2014 he is a prop. The environmental detail that he is feared is consistent with the books and prevents the score from reaching the floor, but the absence of any direct portrayal means almost all personality and voice is lost by default. A score of 10 reflects that the residual information (feared reputation, Arthur's disdain) is book-consistent, but the character himself is not present to be evaluated.",
+          "evidence_status": "Not enough evidence \u2014 the book corpus is empty, and the film corpus contains no portrayal of Runcorn as himself."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Albert Runcorn is a real Ministry employee with a real role: he is a senior official who actively participates in the persecution of Muggle-borns and the surveillance of suspected blood traitors. He is someone Arthur Weasley genuinely fears. His narrative function is to embody the complicit, dangerous middle tier of Voldemort's Ministry \u2014 not a Death Eater himself, but a willing instrument of the regime. He has independent agency within the institution.",
+          "film_portrayal": "In the film, Runcorn's narrative function is entirely reassigned to Harry. Harry uses Runcorn's body and feared reputation to navigate the Ministry, warn Arthur Weasley, and ultimately confront Umbridge. Every action taken in Runcorn's name is Harry's action. Runcorn himself has zero agency in the film.",
+          "difference": "Runcorn's entire narrative function \u2014 his feared presence, his institutional authority, his relationship with Arthur \u2014 is transferred wholesale to Harry's infiltration plot. Runcorn contributes nothing as himself; he is a tool used by the protagonist.",
+          "penalty_logic": "This is a near-total agency and role transfer. The golden rule and transfer rule both apply: everything Runcorn 'does' in the film is done by Harry wearing his face. The score must be low. A minimal score above zero is warranted only because the film does preserve the idea that Runcorn is a feared Ministry figure \u2014 but this is background texture, not agency or narrative role.",
+          "evidence_status": "Reasonably inferred from book knowledge; directly evidenced in the film corpus that all agency belongs to Harry."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Runcorn's motivations in the books are those of a regime collaborator: self-preservation, ideological alignment with blood purity, and institutional ambition within Voldemort's Ministry. There is no depicted internal conflict \u2014 he is a willing participant in the system.",
+          "film_portrayal": "Runcorn has no motivations expressed in the film because he never appears as himself. The motivations expressed in scenes labeled 'ALBERT RUNCORN/HARRY' are Harry's motivations \u2014 find the Horcrux, protect his friends, resist Umbridge \u2014 which are entirely different from Runcorn's.",
+          "difference": "Runcorn's motivations are not simplified or altered \u2014 they are entirely absent, replaced by Harry's motivations.",
+          "penalty_logic": "Motivations are absent rather than wrong, which is different from being opposite. However, absent motivations leave the character with no internal life in the film whatsoever. A low score is appropriate. The score is not at the floor because the film's environmental detail (feared, regime-aligned) is at least consistent with what Runcorn's motivations would imply.",
+          "evidence_status": "Not enough evidence from books corpus; reasonably inferred from series knowledge. Film portrayal directly evidenced as absent."
+        },
+        "character_arc": {
+          "book_baseline": "Runcorn has no meaningful character arc in the books \u2014 he is a minor background figure. His function is static: he is a dangerous Ministry employee who embodies complicity. He does not change, grow, or transform across the series. A flat arc is canonical.",
+          "film_portrayal": "Runcorn has no arc in the film because he has no presence. A flat arc is book-canonical, which would ordinarily prevent penalization \u2014 but in this case the character is entirely absent as himself, so the question of arc preservation is moot.",
+          "difference": "A flat arc is faithfully 'preserved' in the sense that nothing changes \u2014 but this is because the character does not exist in the film as himself, not because the adaptation chose to preserve his flatness. The distinction matters: the arc is not preserved; the character is simply absent.",
+          "penalty_logic": "The scoring rule states a character can score full points if their arc is flat in the books AND flat in the films. However, this rule presupposes the character is present in both. Since Runcorn is absent as himself in the film, the flat arc cannot be credited as a faithful preservation. A score of 5 reflects that the canonical flatness is technically uncontradicted but that the character's absence makes arc evaluation meaningless.",
+          "evidence_status": "Not enough evidence."
+        },
+        "key_relationships": {
+          "book_baseline": "The most significant relationship established in the books is Runcorn's relationship with Arthur Weasley: Arthur fears and distrusts Runcorn, suspecting him of informing to the regime. This is a relationship of institutional threat and ideological opposition. Runcorn is the predator; Arthur is the prey.",
+          "film_portrayal": "In the film, the encounter between 'Runcorn' and Arthur Weasley is inverted: Harry (as Runcorn) warns Arthur that he is being tracked, behaving protectively rather than threateningly. Arthur reacts with suspicion and disdain \u2014 consistent with how he would treat the real Runcorn \u2014 but the emotional dynamic is entirely different because the person inside Runcorn's body is Harry, not Runcorn.",
+          "difference": "The predator/prey dynamic is reversed. In the film, 'Runcorn' performs an act of loyalty and protection toward Arthur; in the books, Runcorn is a genuine threat to him. The relationship's emotional dynamic and power structure are inverted by the disguise plot.",
+          "penalty_logic": "The inversion is structurally significant. The scene uses Runcorn's feared reputation as a shell, but the relationship it depicts \u2014 Harry warning Arthur \u2014 is the opposite of the book relationship. This cannot be credited as faithful to Runcorn's key relationship with Arthur. The score is low because the only meaningfully depicted relationship is dramatically reversed.",
+          "evidence_status": "Directly evidenced in the film corpus (Arthur's disdain, Harry's warning); reasonably inferred from book knowledge about the genuine Runcorn-Arthur dynamic."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Runcorn is a minor character with limited complexity in the books, but what complexity exists is specific and meaningful: he is a willing collaborator, feared and dangerous, whose presence illustrates how ordinary wizards participate in authoritarian persecution. He is not simply a generic villain \u2014 he represents the bureaucratic banality of the regime's evil.",
+          "film_portrayal": "The film preserves the surface of Runcorn's feared reputation (wizards scatter, Arthur is disdainful) but eliminates any sense of his actual character. He is used purely as a disguise vehicle. The nuance of his willing complicity \u2014 what makes him interesting as a minor figure \u2014 is entirely absent.",
+          "difference": "The specific texture of Runcorn as a complicit bureaucrat is lost. The film reduces him to a name and a scary reputation. The moral dimension of his character \u2014 a wizard who chose collaboration \u2014 is not present.",
+          "penalty_logic": "The character's defining nuance (complicit participant in authoritarian persecution) is absent from the film, not because of compression but because Runcorn never appears as himself. The residual information (feared reputation) is too thin to constitute meaningful preservation of complexity. A low score is appropriate.",
+          "evidence_status": "Reasonably inferred from book knowledge; directly evidenced in the film corpus that no complexity is present."
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Runcorn's entire agency as a Ministry official is transferred to Harry, who uses his body and reputation for his own purposes.",
+        "Runcorn's threatening, predatory relationship with Arthur Weasley is inverted \u2014 Harry warns Arthur rather than threatening him.",
+        "Runcorn's ideological complicity with the Death Eater regime is not depicted.",
+        "Runcorn's personality, voice, speech patterns, and behavioral traits are entirely absent \u2014 replaced by Harry's.",
+        "Runcorn's motivations as a willing regime collaborator are replaced by Harry's motivations as a resistance figure.",
+        "The moral texture of Runcorn as an example of bureaucratic complicity is lost."
+      ],
+      "score_caps_applied": [
+        "Cap 4 applied (score cannot exceed 70 if films preserve only broad identity but remove most of what defines book characterization): Runcorn's feared reputation is gestured at, but his personality, agency, relationships, motivations, and complexity are all absent or transferred.",
+        "Cap 3 applied (score cannot exceed 75 if a core book function or act of agency is transferred to another character): Runcorn's entire role and all actions in the Ministry are performed by Harry.",
+        "Cap 2 applied (score cannot exceed 80 if key relationships change substantially): The Runcorn-Arthur relationship is inverted from predator/prey to protector/warned."
+      ],
+      "key_observations": "Albert Runcorn presents a near-unique evaluation problem: the book corpus is empty, and the film corpus contains no portrayal of Runcorn as himself \u2014 every scene labeled 'ALBERT RUNCORN/HARRY' is Harry Potter operating under Polyjuice Potion. The character is used exclusively as a disguise. The film preserves only one aspect of Runcorn's book characterization \u2014 his feared reputation, evidenced by other characters' reactions \u2014 but his personality, voice, agency, motivations, relationships, and complexity are entirely absent or transferred to Harry. The low total score of 36 reflects not that the film portrays Runcorn badly, but that it does not portray him at all as an independent character. Confidence across all dimensions is Low due to the empty book corpus and the absence of any direct Runcorn portrayal in the film. Scores are based on series knowledge rather than corpus evidence, and should be treated as tentative.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 0,
+        "film_chars_sent": 15569,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },

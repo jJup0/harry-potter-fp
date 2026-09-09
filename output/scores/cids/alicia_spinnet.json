@@ -1,0 +1,62 @@
+{
+  "character": "Alicia Spinnet",
+  "fp_score": 69.0,
+  "infidelity_score": 31.0,
+  "weighted_infidelity_exposure": 6.5,
+  "cids": 112.6,
+  "damage_per_exposure": 32.2,
+  "structural_damage_level": 2,
+  "adjusted_cids": 112.6,
+  "main_damage_causes": [
+    "Alicia's only named act of moral courage \u2014 her vocal confrontation of Malfoy's 'Mudblood' slur \u2014 is absorbed into a generic team reaction, erasing her individual voice at the scene that most defines Gryffindor values.",
+    "Her most assertive and protective moment (challenging Wood over the rogue Bludger) is entirely absent from the film corpus, leaving her with no scene of independent agency in the Quidditch sequences that dominate her book presence.",
+    "Humanising characterisation texture (sleepy team camaraderie, soothing morale support) is stripped out, reducing her from a warm ensemble personality to an unnamed background Chaser who happens to be named in stage directions."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (CoS courtyard scene, film corpus scene 1 ext. courtyard): Alicia present but silent during Mudblood incident",
+      "book_baseline": "Book corpus scene 10: When Malfoy calls Hermione a Mudblood, Alicia shrieked 'How dare you!' \u2014 she is the only named character besides Ron who vocally confronts Malfoy, demonstrating her moral courage and feisty, outspoken personality.",
+      "film_portrayal": "The film corpus (ext. courtyard scene 45) shows the Gryffindor team present for the Mudblood incident, but the reaction is compressed. Fred and George fly for Draco's throat and Wood holds them back; Ron acts with his wand. Alicia is listed among the team but is given no spoken reaction, no shriek, and no individual moment of moral outrage. Her named protest is entirely absent.",
+      "damage_type": "personality/voice | agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Alicia's shriek of 'How dare you!' is one of her only individuated characterisation moments in the book \u2014 it distinguishes her from the background ensemble by giving her a named moral voice. Removing it collapses her into a silent bystander during the scene that most clearly defines the team's values and courage. This is a direct loss of personality and a small but real agency moment."
+    },
+    {
+      "scene": "Film Scene 2 (CoS Quidditch match, film corpus scene 65 ext. quidditch stadium): Alicia absent from Oliver's insane-Bludger protest",
+      "book_baseline": "Book corpus scene 11: During the rogue Bludger sequence, Alicia Spinnet is explicitly named as the one who argues 'Oliver, this is insane \u2014 you can't let Harry deal with that thing on his own. Let's ask for an inquiry.' This shows her as proactive, protective, and willing to challenge her own captain.",
+      "film_portrayal": "The film corpus for the CoS Quidditch match (scene 65) focuses entirely on Harry, the Bludger, Malfoy, and commentary from the stands (Hagrid, Ron, Hermione). The team huddle and Alicia's named protest are absent from the film corpus. No equivalent moment of Alicia challenging Wood's decision appears.",
+      "damage_type": "agency/function | personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This beat is one of Alicia's most assertive and individualised moments in the books \u2014 she advocates for Harry's safety against her own captain. Its absence removes her from active participant to background extra during the match's dramatic crisis. Her protectiveness and willingness to speak up are defining traits the film fails to establish."
+    },
+    {
+      "scene": "Film Scene 3 (CoS Quidditch match, film corpus scene 65): Alicia's soothing team-cohesion role absent",
+      "book_baseline": "Book corpus scene 20: Before the rain-soaked Hufflepuff match, Alicia soothingly reassures Wood ('Stop worrying, Oliver, we don't mind a bit of rain'), showing her as an emotionally stabilising, mature presence who actively manages team morale.",
+      "film_portrayal": "The film corpus does not contain this Hufflepuff match or any pre-match scene establishing this dynamic. No soothing or morale-building moment for Alicia appears anywhere in the film corpus provided.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but telling characterisation beat \u2014 Alicia as the calm, grounding voice amid Wood's anxiety \u2014 is absent. While lower impact in isolation, combined with other absences it contributes to her being perceived as purely a functional background Chaser rather than a character with emotional range."
+    },
+    {
+      "scene": "Film Scene 4 (CoS early morning training, film corpus scene 45 ext. courtyard): Pre-practice character texture entirely absent",
+      "book_baseline": "Book corpus scenes 3 and 5: Alicia is shown sitting puffy-eyed and tousle-haired at early-morning practice, nodding off against the wall, and Fred Weasley's head droops onto her shoulder as he snores \u2014 humanising, warmly comic detail that establishes her relationships with teammates and her grounded, relatable personality.",
+      "film_portrayal": "The film corpus (ext. courtyard scene 45) goes straight into Wood's speech as the team trails him through the courtyard. There is no changing-room scene, no sleepy Alicia, no Fred-on-her-shoulder moment. The team is presented as already assembled and alert.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's early-morning changing-room texture is where the Gryffindor team is humanised as a community rather than a sports unit. Alicia's specific drowsy-against-the-wall presence and her physical closeness with Fred Weasley sketches both her personality and team camaraderie. Losing this removes the only warm, low-stakes glimpse of her as a rounded person rather than a plot function."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

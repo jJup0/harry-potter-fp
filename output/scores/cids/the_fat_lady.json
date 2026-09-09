@@ -2,62 +2,52 @@
   "character": "The Fat Lady",
   "fp_score": 69.0,
   "infidelity_score": 31.0,
-  "weighted_infidelity_exposure": 7.5,
-  "cids": 119.6,
-  "damage_per_exposure": 29.9,
+  "weighted_infidelity_exposure": 4.5,
+  "cids": 95.3,
+  "damage_per_exposure": 38.1,
   "structural_damage_level": 2,
-  "adjusted_cids": 119.6,
+  "adjusted_cids": 95.3,
   "main_damage_causes": [
-    "Reduction of a textured, recurring minor character to a near-silent password prompt across most films, stripping her consistent personality (vanity, gossip, grumpiness, wit)",
-    "The one substantial film scene she receives (PoA attack aftermath) replaces her book characterisation with an out-of-character gothic monologue that serves plot exposition rather than character",
-    "Absence of her most humanising book moment (grief at Dumbledore's death) means the films never establish her as a feeling inhabitant of Hogwarts, only a mechanism"
+    "Melodramatic recharacterization of the Fat Lady's voice and register in her only significant scene (the post-attack testimony), replacing her established gossipy-grumpy personality with gothic oracle dramatics",
+    "Repositioning the Fat Lady as a public exposition device rather than a private victim whose account is relayed by Dumbledore, altering her narrative function in the Sirius Black attack scene",
+    "Thin overall presence in the film corpus leaves her personality almost entirely unestablished beyond the attack scene, meaning the one moment she does appear carries disproportionate characterization weight and gets it wrong"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 4 - Fat Lady's testimony after the attack",
-      "book_baseline": "The book simply states the Fat Lady hid in a map of Argyllshire, refused Black entry without the password, and was attacked. She is 'still very distressed' but no dramatic speech is given. Her account is relayed secondhand by Dumbledore: 'she refused to let Black in without the password, so he attacked.'",
-      "film_portrayal": "The Fat Lady delivers a theatrical, trance-like monologue: 'Eyes like the devil he's got. And a soul as dark as his name. It was him, Headmaster. The one they talk about. He's here. Somewhere in the castle. Sirius Black.' She becomes a dramatic plot-delivery device rather than a frightened portrait.",
+      "scene": "Film Scene 4 \u2014 Fat Lady's testimony after the attack",
+      "book_baseline": "Book Scene 46: The Fat Lady is described as hiding in a map of Argyllshire on the second floor, 'still very distressed.' She refused Black entry without the password and he attacked her. Her account is relayed secondhand by Dumbledore to McGonagall and the students, keeping it factual and restrained.",
+      "film_portrayal": "The Fat Lady is found cowering in a foreign portrait near the ceiling, and delivers a dramatic, trance-like speech: 'Eyes like the devil he's got. And a soul as dark as his name. It was him, Headmaster. The one they talk about. He's here. Somewhere in the castle. Sirius Black.' This is performed as a gothic, theatrical pronouncement rather than a distressed victim's account.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Fat Lady is a gossipy, self-important, occasionally grumpy portrait guardian. The film replaces her distressed-but-ordinary reaction with a gothic, oracular speech that is tonally alien to her established character. It also shifts her function from incidental witness to dramatic herald, which is not her role."
+      "explanation": "The book's Fat Lady is an ordinary portrait character \u2014 gossipy, self-important, grumpy, occasionally tipsy \u2014 not a dramatic oracle. The film transforms her one significant moment of narrative agency (giving testimony about the attack) into a hammy, trance-like declaration with villain-gothic language ('soul as dark as his name'). This overwrites her established voice with melodrama that belongs to a different character archetype entirely, misrepresenting how she speaks and behaves under stress."
     },
     {
-      "scene": "Film Scene 3 - Slashed portrait discovery; Fat Lady's absence handled by Ginny",
-      "book_baseline": "In the books the discovery of the slashed portrait is described through Harry, Ron, and Hermione's direct observation. Dumbledore instructs McGonagall to have Filch search every painting for the Fat Lady. The scene is tense but procedural.",
-      "film_portrayal": "Ginny delivers the line 'The Fat Lady... she's gone' and Ron jokes 'Probably stuffing her face with the apples in that still life on the second floor again.' This is the film's only characterisation of the Fat Lady outside her attack scene - she is reduced to a punchline about overeating before the horror is revealed.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 4 \u2014 Fat Lady's testimony replaces Dumbledore's secondhand report",
+      "book_baseline": "Book Scene 46: Dumbledore tells McGonagall that the Fat Lady refused Black entry without the password, and that she is hiding in a map of Argyllshire. The information is conveyed calmly by Dumbledore, preserving the Fat Lady's dignity as a victim who did her job correctly.",
+      "film_portrayal": "The Fat Lady herself delivers the exposition directly to the assembled crowd of students in a dramatic public moment, effectively becoming a plot device for revealing Sirius Black's name and presence to the audience.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book, the Fat Lady's function in this scene is as a victim who did her duty \u2014 she refused entry and paid for it. Her account is treated with care and relayed by Dumbledore privately. In the film, she is repositioned as an exposition vehicle, made to publicly name Sirius Black in a way that strips the scene of its book nuance and turns her into a dramatic plot instrument rather than a character."
+    },
+    {
+      "scene": "Film Scene 2 \u2014 First arrival at Gryffindor Tower (PoA)",
+      "book_baseline": "Book Scene 30/32: In PoA, the Fat Lady is introduced asking for the password in her established manner. She is described as 'jerking out of a doze' (Scene 32) and is grumpy when woken \u2014 consistent with her established personality from PS onward.",
+      "film_portrayal": "The Fat Lady is entirely absent from this arrival scene in the film corpus. The script notation shows Harry simply saying 'Fortuna Major' and the portrait admitting them with no characterization of the Fat Lady whatsoever \u2014 no reaction, no dialogue, no personality beat.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Ron's joke leans into the 'fat' descriptor as a cheap gag. While minor, it reduces the Fat Lady to a one-note caricature (greedy, lazy) rather than the vain, sociable, occasionally pompous portrait the books present. Low exposure but contributes to a reductive overall portrayal."
-    },
-    {
-      "scene": "Film Scene 1 (PS/SS) and Film Scene 2 (PoA) - Routine password exchanges stripped of personality",
-      "book_baseline": "Across the books the Fat Lady has a consistent voice: she is grumpy when woken, vain about her appearance, gossipy (she has a friend Violet, she already knows Harry has been made champion), occasionally sarcastic ('What sort of time do you call this?'), and capable of small acts of warmth or irritation. She calls after Harry, complains about being left open, lies about the password then admits it. She is a minor but textured recurring presence.",
-      "film_portrayal": "In both PS/SS (Film Scene 1) and PoA (Film Scene 2) the Fat Lady appears only to say 'Password?' and swing open. No personality, no reaction, no voice beyond the functional prompt. The rich running characterisation across six books is almost entirely absent from the films.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The Fat Lady's recurring small moments - her vanity, her gossip with Violet, her grumpy complaints, her lying about the password, her emotional reaction to Dumbledore's death - are what make her a charming piece of Hogwarts texture. Reducing her to a doorbell across multiple films removes a consistent source of warmth and wit from the castle's atmosphere."
-    },
-    {
-      "scene": "Film - Absence of Fat Lady's emotional reaction to Dumbledore's death (HBP)",
-      "book_baseline": "Book 6: 'Is it true? Is it really true? Dumbledore - dead?' She lets Harry in without the password, wailing. This is one of her most humanising moments - she is genuinely grief-stricken and breaks her own rules out of sorrow.",
-      "film_portrayal": "This moment does not appear in the film. Harry's return to the tower after Dumbledore's death cuts this entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "This is the Fat Lady's single most emotionally resonant book moment. It shows she is not merely a security mechanism but a sentient, feeling inhabitant of Hogwarts who mourns Dumbledore. Its absence means the film never grants her genuine interiority, keeping her purely functional throughout."
+      "explanation": "Minor loss \u2014 her absence from this beat removes a small personality moment, but the Fat Lady is not a major character and a single wordless entrance is low-damage. Confidence is limited as the corpus may simply not capture her line here."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 232.5,
-  "adjusted_cids_v1": 255.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

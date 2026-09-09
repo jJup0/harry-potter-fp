@@ -2,80 +2,79 @@
   "character": "Frank Bryce",
   "fp_score": 57.0,
   "infidelity_score": 43.0,
-  "weighted_infidelity_exposure": 19.0,
-  "cids": 278.8,
-  "damage_per_exposure": 39.8,
+  "weighted_infidelity_exposure": 30.5,
+  "cids": 321.0,
+  "damage_per_exposure": 35.7,
   "structural_damage_level": 4,
-  "adjusted_cids": 278.8,
+  "adjusted_cids": 321.0,
   "main_damage_causes": [
-    "Frank's defining act of defiance - his spoken confrontation with Voldemort - is completely removed, eliminating his agency and the thematic point of his character",
-    "All backstory (war veteran, village suspicion, caretaker history, distrust of police) is absent, making his death meaningless rather than the death of a dignified, unjustly persecuted innocent",
-    "Frank's internal moral reasoning during the eavesdropping is lost, reducing him from an active moral agent to a passive victim who stumbles into his own death"
+    "Frank's moral agency and active reasoning \u2014 his recognition of the murder plot, his identification of Harry Potter as a target, and his courageous decision to go to the police \u2014 are entirely removed, reducing him from a protagonist-adjacent moral actor to a passive victim.",
+    "His defining character trait of wartime courage, expressed through his defiant confrontation with Voldemort, is completely absent from the film, eliminating the emotional and thematic weight of his death.",
+    "The absence of Frank's backstory (war veteran, false arrest, village persecution, decades of isolated loyalty) removes the human context that makes his death tragic rather than merely shocking, and severs the thematic link between Muggle suffering and wizarding-world indifference."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Frank's motivation for entering the house",
-      "book_baseline": "Frank sees lights and assumes local boys have broken in and started a fire. He acts out of a sense of responsibility as caretaker, deliberately fetches his key and walking stick, and enters with purpose.",
-      "film_portrayal": "Frank takes a flashlight and simply heads over. No internal reasoning, no assumption about boys, no deliberate preparation with key and stick. The caretaker motivation and his established history with the property are absent.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book establishes Frank as a man with a specific, grounded reason to act - he is the caretaker, he knows the house, he has a key. This makes his bravery credible and rooted in character. The film reduces it to a generic 'old man investigates light' beat with no characterization."
-    },
-    {
-      "scene": "Film Scene 1 - Frank's war background and village context entirely absent",
-      "book_baseline": "Frank is a WWII veteran with a stiff leg, deeply mistrusted by the village who believe he murdered the Riddles, yet he stubbornly stayed. This backstory explains his isolation, his distrust of police, his courage under pressure, and his defiance.",
-      "film_portrayal": "Frank is introduced with no backstory whatsoever. He is simply an unnamed old man in a cottage until Voldemort calls him 'the old Muggle caretaker'.",
+      "scene": "Film Scene 1 \u2014 Frank enters the house with a flashlight",
+      "book_baseline": "Book establishes Frank has no telephone and deeply mistrusts the police since they questioned him about the Riddles' deaths. He takes his walking stick, uses a rusty key to let himself in, and navigates by memory in near-total darkness, relying on his senses and wartime instincts. He is methodical, cautious, and self-reliant.",
+      "film_portrayal": "Frank takes a flashlight and heads over to the house. No key is shown; no detail of his mistrustful relationship with the police or his reasoned decision-making process is conveyed.",
       "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The village suspicion, his refusal to leave, his war-forged courage - all of this is what makes Frank's defiance of Voldemort meaningful and earned. Without it, his death is the death of a nobody rather than the death of a quietly dignified, unjustly persecuted man. The thematic weight of Voldemort killing an innocent Muggle who survived a war is entirely lost."
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The flashlight is a minor substitution, but the absence of the key and the internal logic of Frank's entry strips away the small character texture that shows him as a man of habit, self-sufficiency, and institutional mistrust. Damage is minor and isolated."
     },
     {
-      "scene": "Film Scene 1 - Frank's defiant confrontation with Voldemort",
-      "book_baseline": "Frank enters the room with a firmer grip on his walking stick, stands his ground, tells Voldemort he's heard enough to interest the police, bluffs about his wife knowing where he is, and demands Voldemort 'turn round and face me like a man.' His bravery is explicit and characterful.",
-      "film_portrayal": "Frank has no dialogue in the confrontation. He is killed immediately after Voldemort says 'Avada Kedavra' with no exchange. Frank never speaks to Voldemort at all.",
+      "scene": "Film Scene 1 \u2014 Frank's overheard dialogue and internal reasoning omitted",
+      "book_baseline": "The book devotes substantial space to Frank actively listening, interpreting coded language ('Ministry of Magic,' 'wizards,' 'Muggles'), concluding the speakers are spies or criminals, recognizing that a murder has been committed and more are planned, identifying Harry Potter as a target, and consciously deciding he must go to the police \u2014 only to be held frozen by the cold voice. Frank is an active, reasoning moral agent who processes what he hears and forms a courageous plan of action.",
+      "film_portrayal": "Frank simply overhears fragments of dialogue without any of his internal reasoning being conveyed. The film gives him no moment of interpretation, no moral decision-making, and no recognition of Harry Potter's danger. He is a passive bystander who stumbles in and is killed.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "Frank's defiant speech is his defining moment - a Muggle war veteran standing up to the most dangerous dark wizard alive and demanding he 'face me like a man.' This is the entire point of the character. Removing it strips Frank of all agency and dignity, and removes the thematic contrast between Frank's human courage and Voldemort's contempt for Muggles. It also removes the dramatic irony of Frank's bluff being seen through instantly."
+      "explanation": "Frank's active eavesdropping and moral reasoning \u2014 deciding to go to the police to protect a boy he doesn't know \u2014 is his defining characterization in the book. It makes his death genuinely tragic: a decent man killed precisely because he was trying to do the right thing. The film removes all of this, reducing him to a narrative device (a body that connects Harry's dream to the plot) rather than a morally significant human being. This also diminishes the thematic weight of Voldemort's contempt for Muggle life."
     },
     {
-      "scene": "Film Scene 1 - Frank's line 'Bloody kids'",
-      "book_baseline": "Frank never says 'Bloody kids' in the book. His assumption about boys is an internal narrative thought, not spoken aloud.",
-      "film_portrayal": "Frank mutters 'Bloody kids' as his only line of dialogue in the entire film.",
+      "scene": "Film Scene 1 \u2014 Frank's defiant confrontation with Voldemort omitted",
+      "book_baseline": "When discovered, Frank does not cower. He grips his walking stick, steps into the room with a firmer grip, challenges Voldemort to 'turn 'round and face me like a man,' bluffs about his wife knowing where he is, and speaks roughly and defiantly throughout \u2014 explicitly described as feeling braver now that the time for action had come, 'as it had always been so in the war.' This is a man of genuine courage facing death.",
+      "film_portrayal": "The film shows no confrontation dialogue from Frank at all. Voldemort simply announces Frank is outside, tells Wormtail to step aside, and casts Avada Kedavra. Frank has no lines, no defiance, no final stand.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Frank's defiance under lethal threat is the emotional and moral climax of his entire characterization. His wartime courage resurfaces in his final moments \u2014 he is not a victim trembling in a corridor but a stubborn, brave old man who faces a monster without flinching. The film erases this entirely, making Frank's death feel incidental rather than meaningful, and losing the specific characterization of him as a war veteran whose courage never fully left him."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Frank's only audible line is 'Bloody kids'",
+      "book_baseline": "Frank is characterized as a stubborn, plain-spoken, defiant man with a distinct working-class voice. His dialogue in the confrontation scene is his most important characterization: rough, direct, morally clear, and unintimidated by rank or menace.",
+      "film_portrayal": "Frank's only spoken line in the film is 'Bloody kids' \u2014 a throwaway grumble addressed at nobody, shown only as a caption/subtitle context cue before he is silently killed.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor issue in isolation, but this single throwaway line is Frank's entire characterization in the film. It reduces him to a grumpy old man stock type rather than the complex, dignified, unjustly persecuted figure of the book."
-    },
-    {
-      "scene": "Film Scene 1 - Frank overhearing the conversation",
-      "book_baseline": "Frank listens at length, processes what he hears, reasons that these are spies or criminals speaking in code, becomes aware the cold voice has killed a woman, decides he must go to the police, is frozen by fear but also by the need to keep listening. His internal moral reasoning is detailed.",
-      "film_portrayal": "Frank is shown approaching the door and hearing fragments, but none of his internal reasoning, his decision-making, or his moral response to what he hears is conveyed. The film skips directly to Nagini detecting him.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's eavesdropping sequence establishes Frank as an active moral agent - he is not just a passive victim but someone who understands danger, feels fear, and chooses to stay and gather information to protect others. The film makes him a passive bystander who happens to be overheard."
+      "explanation": "Giving Frank a single throwaway line as his only vocal presence reduces a richly drawn character to a generic 'old man grumbling' type. His voice \u2014 rough, defiant, morally serious \u2014 is his primary characterization in the book, and its near-total absence means film audiences have no basis for caring about his death."
     },
     {
-      "scene": "Film Scene 1 - The mysterious young man",
-      "book_baseline": "There is no mysterious young man present in the book scene. The room contains only Voldemort (in the chair, unseen) and Wormtail.",
-      "film_portrayal": "A 'mysterious young man' steps into view and says 'I will not disappoint you, my Lord.' This character is not in the book version of this scene.",
+      "scene": "Film Scene 1 \u2014 Frank's backstory and village context entirely absent",
+      "book_baseline": "The book establishes Frank's full backstory: his war service, the stiff leg he brought home, his deep dislike of crowds and loud noises, his decades of loyal gardening, his false arrest and stubborn insistence on his innocence, his ongoing persecution by the village, and the suspicious boys who torment him. This context makes him a fully realized figure \u2014 wronged by his community, soldiering on in isolation.",
+      "film_portrayal": "None of this backstory is present. Frank appears as an unnamed old man (identified only by the screenplay context) who wanders into the manor and is killed. The village, the Riddles' history, his war wound, his arrest, and his decades of lonely perseverance are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The book uses Frank's backstory to establish him as someone who has already suffered injustice at the hands of both the wizarding world's effects (the Riddle murders) and his own community. His death is the culmination of a life defined by being wrongly accused, mistrusted, and isolated \u2014 killed by the very evil he was trying to expose. Without this context, his death is merely an opening shock, not a thematically resonant tragedy. This also robs the audience of the Muggle-world framing that grounds the wizarding threat in human cost."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Dumbledore's end-of-year acknowledgment of Frank's disappearance not paralleled",
+      "book_baseline": "Dumbledore explicitly names Frank Bryce at the end-of-year speech, calling out the Ministry's failure to treat his disappearance as significant because he is a Muggle \u2014 a pointed moral statement about institutional prejudice and the human cost of the wizarding world's insularity.",
+      "film_portrayal": "This acknowledgment is absent from the provided film corpus.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor addition that slightly muddles the scene's focus, though the damage is limited since the character is not identified and the core Voldemort/Wormtail dynamic remains."
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "While this is a separate scene from the opening, its absence compounds the damage to Frank's function: in the book he is named, mourned, and used to indict the Ministry's bigotry. In the film he is an unnamed body in an opening sequence. The thematic point \u2014 that Muggle lives are treated as unimportant even by ostensibly good institutions \u2014 is lost entirely."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
+    "exposure_estimate": "Medium",
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 817.0,
-  "adjusted_cids_v1": 1225.5
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

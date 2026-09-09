@@ -1,93 +1,90 @@
 {
   "character": "Millicent Bulstrode",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 14.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 9.0,
+    "total": 72.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 18,
+      "narrative_role_agency": 14,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 9,
       "justification": {
         "personality_voice": {
-          "book_baseline": "In the books, Millicent is physically imposing, aggressive, and willing to use brute force. She puts Hermione in a headlock at the Dueling Club, physically restrains her in Umbridge's office on two separate occasions, and is described as significantly larger than Harry. Her one moment of distinct behavioral texture is her reaction to Hermione crying on her robes - she immediately stops and dodges away 'looking disgusted,' a small but telling detail that gives her a readable personality: she is a bully comfortable with physical dominance but averse to emotional messiness.",
-          "film_portrayal": "The film corpus is entirely empty. Millicent Bulstrode does not appear in any film scene provided.",
-          "difference": "The character is entirely absent from the films. No personality, voice, or behavioral trait is conveyed.",
-          "penalty_logic": "A score of 0 is the only possible score when the character does not appear at all.",
-          "evidence_status": "Directly evidenced"
+          "book_baseline": "Millicent Bulstrode is established in the books as a physically imposing, aggressive Slytherin girl. Her behavior is defined by physical dominance: she puts Hermione in a headlock at the Dueling Club, is described as 'a lot bigger' than Harry, and later physically restrains Hermione in Umbridge's office in Order of the Phoenix. She acts with directness and brute force rather than wit or speech. She has no spoken dialogue in the book corpus; her characterization is entirely behavioral \u2014 she is a blunt instrument of Slytherin aggression. The only nuance offered is a single moment in OotP where she 'dodged out of her way looking disgusted' when Hermione cried, suggesting a degree of aversion to emotional display rather than pure cruelty.",
+          "film_portrayal": "In the film corpus, Millicent Bulstrode is referenced but does not appear as an active on-screen presence in any scene included in the film corpus. Her name is invoked in the Polyjuice Potion planning scenes: Hermione identifies her as a Slytherin target, mentions getting a hair off her robes from the Dueling Club struggle, and the potion mishap (cat hair) references her indirectly. There is no filmed portrayal of her personality or behavior in the available corpus.",
+          "difference": "The books establish her physical aggression through two separate appearances (CoS Dueling Club, OotP Umbridge's office). The film corpus removes both of these active physical appearances. The Dueling Club scene exists in the film but Millicent's role in it (the headlock on Hermione) is not depicted \u2014 only referenced verbally by Hermione afterward. The OotP restraint scene is entirely absent from the film corpus provided. As a result, the film corpus shows her only as a name, not as a behaving character.",
+          "penalty_logic": "The books give Millicent no voice but a clear behavioral personality: physically aggressive, dominant, Slytherin-aligned, unreflective. The film preserves this characterization implicitly through Hermione's reference to the struggle ('I got this off her robes') but removes the visual enactment of it. Because her personality was never verbal and was always expressed through action, and because the film's verbal reference is consistent with that characterization, there is no contradiction introduced. However, the absence of the OotP physical restraint scene means one of her two defining behavioral appearances is completely absent from the film. The core identity is preserved via reference, but the active behavioral pattern is reduced. Score reflects minor simplification without contradiction.",
+          "evidence_status": "Directly evidenced (book); Reasonably inferred (film \u2014 personality preserved by implication only, not by direct depiction)"
         },
         "narrative_role_agency": {
-          "book_baseline": "Millicent serves two distinct narrative functions. First, in CoS, she is the unwitting source of the hair Hermione uses for Polyjuice Potion - her physical aggression at the Dueling Club directly enables a major plot mechanism, and the fact that she owns a cat causes Hermione's transformation to go wrong, a significant plot complication. Second, in OotP, she is one of the Slytherin students Umbridge uses to physically restrain the DA members, holding Hermione against the wall during the confrontation in Umbridge's office. In both cases she is an active physical agent whose presence changes events.",
-          "film_portrayal": "Absent from the film corpus entirely.",
-          "difference": "Both narrative functions are absent. The Polyjuice plot complication (cat hair) and the physical restraint in Umbridge's office are either cut or handled differently in the films.",
-          "penalty_logic": "Zero agency because the character does not exist in the film corpus.",
-          "evidence_status": "Directly evidenced"
+          "book_baseline": "In the books, Millicent serves two distinct narrative functions. First, in CoS, she is the unwitting source of the hair that causes Hermione's Polyjuice mishap \u2014 a plot-functional role that she fulfills through her physical aggression at the Dueling Club. Second, in OotP, she is one of the Slytherin students who physically restrains the DA members during the confrontation in Umbridge's office, forming part of the coercive pressure that forces Hermione to pretend to reveal Dumbledore's Army's secret location. In both cases, her role is active and plot-consequential: in CoS she is the source of the cat hair (through agency \u2014 her violence at the club), and in OotP she physically prevents Hermione from acting freely.",
+          "film_portrayal": "In the film corpus, the CoS narrative function (hair source) is preserved through Hermione's verbal explanation. The OotP scene is not present in the film corpus at all. Her role in CoS is therefore partially functional \u2014 the plot consequence (Hermione's cat transformation) still occurs \u2014 but her direct agency in producing that consequence (the physical struggle) is compressed into a line of dialogue rather than shown.",
+          "difference": "The CoS agency is transferred from a shown action to a reported reference: we are told she struggled with Hermione rather than seeing it. This is a compression, not a transfer to another character. The OotP agency (physically restraining Hermione during the Umbridge confrontation) is entirely absent from the available film corpus. This is the more significant loss, as it removes her only coercive narrative function in a later book.",
+          "penalty_logic": "The CoS function is preserved in effect if not in execution \u2014 the plot consequence is identical. The OotP function is absent, but this may reflect the film corpus being incomplete rather than the film having removed it. Penalizing partially for the removal of the shown CoS struggle (minor agency loss) and noting the OotP absence without full penalty since corpus completeness is uncertain. The score reflects 'role and agency are reduced but recognizable.'",
+          "evidence_status": "Directly evidenced (book); Reasonably inferred (film CoS function preserved by reference; OotP function not evidenced in corpus)"
         },
         "motivations_internal_conflict": {
-          "book_baseline": "The books provide almost no interiority for Millicent. She acts as a Slytherin enforcer aligned with Malfoy and Umbridge. No explicit motivations beyond house loyalty and physical intimidation are established.",
-          "film_portrayal": "Absent.",
-          "difference": "No motivations are conveyed because the character does not appear.",
-          "penalty_logic": "Score of 0 by absence. Confidence is Low because the book baseline itself is thin on motivation.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Millicent has no articulated motivations in the book corpus. Her aggression at the Dueling Club reads as house rivalry and general Slytherin antipathy toward Gryffindors. In OotP, her participation in restraining the DA members is in service of Umbridge and Slytherin loyalty. There is no internal conflict shown or implied. She is a character without interiority in the books \u2014 purely behavioral.",
+          "film_portrayal": "No motivational content is presented in the film corpus. She is referenced but not present as a speaking or acting character.",
+          "difference": "No difference detectable. The books do not give her motivations or internal conflict, and the films do not either. The absence is consistent.",
+          "penalty_logic": "No penalty. A character with no established motivational depth in the books cannot be penalized for lacking it in the films. The flat motivational profile is preserved consistently. Score reflects full marks for a character whose book baseline sets a very low bar in this dimension.",
+          "evidence_status": "Directly evidenced (book \u2014 absence of motivation is itself evidenced); Not enough evidence (film \u2014 character absent from active scenes)"
         },
         "character_arc": {
-          "book_baseline": "Millicent has no meaningful arc across the books. She is a flat, recurring minor antagonist whose function is physical threat and Slytherin muscle. Her arc is intentionally flat.",
-          "film_portrayal": "Absent.",
-          "difference": "Even a flat arc cannot be preserved if the character does not appear.",
-          "penalty_logic": "Score of 0 by absence. A flat arc faithfully preserved would score 14-15; absence scores 0.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Millicent Bulstrode has no character arc in the books. She appears episodically as a physical threat and Slytherin antagonist. There is no development, change, or resolution for her character across the series. Her arc is intentionally flat.",
+          "film_portrayal": "No arc is presented in the film corpus, consistent with the books.",
+          "difference": "No difference. Flat in books, flat in films.",
+          "penalty_logic": "No penalty. Per the scoring rules, a character whose arc is flat in the books and flat in the films scores full marks on this dimension. Score is at the top of the faithful range.",
+          "evidence_status": "Directly evidenced (book \u2014 consistent episodic appearance without development); Not enough evidence (film \u2014 character too peripheral to assess arc)"
         },
         "key_relationships": {
-          "book_baseline": "The two meaningful relational dynamics in the corpus are: (1) Millicent vs. Hermione - a physically antagonistic relationship across two books, with Millicent as the aggressor and Hermione as the victim, culminating in the small but vivid detail of Millicent recoiling from Hermione's tears; (2) Millicent as an instrument of Malfoy/Umbridge's authority in OotP.",
-          "film_portrayal": "Absent.",
-          "difference": "Neither dynamic is present in the films.",
-          "penalty_logic": "Score of 0 by absence.",
-          "evidence_status": "Directly evidenced"
+          "book_baseline": "Millicent's most defined relationship in the books is her adversarial physicality toward Hermione \u2014 the headlock at the Dueling Club and the restraint in Umbridge's office. These are not emotionally complex relationships; they are functional antagonisms rooted in house rivalry. There is no other relationship of note. The dynamic is straightforwardly hostile and physically dominant.",
+          "film_portrayal": "The film preserves the adversarial dynamic with Hermione through verbal reference. Hermione's line 'I got this off her robes' confirms the physical struggle occurred. The emotional and functional dynamic (Slytherin girl physically overpowers Hermione) is preserved implicitly. The OotP restraint dynamic is not evidenced in the film corpus.",
+          "difference": "The CoS Hermione dynamic is preserved by reference. The OotP dynamic is absent from the corpus. Since the Hermione antagonism is Millicent's only meaningful relationship in the books, its partial preservation (CoS only) represents a reduction.",
+          "penalty_logic": "The CoS dynamic is preserved in narrative outcome if not in direct depiction. The OotP dynamic \u2014 which is the more dramatically significant instance, as it directly affects the plot of that film \u2014 is absent. The relationship's emotional dynamic (physical dominance over Hermione) is not contradicted, but one of its two book instances is missing from the corpus. Modest penalty for incompleteness rather than contradiction.",
+          "evidence_status": "Directly evidenced (book); Reasonably inferred (film CoS); Not enough evidence (film OotP)"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "Millicent is a minor character, but the books give her one genuinely distinctive moment of nuance: stopping her physical assault on Hermione and dodging away 'looking disgusted' when Hermione cries on her robes. This is a small but real behavioral detail - a bully who is comfortable with violence but uncomfortable with emotional vulnerability. Her role in the Polyjuice subplot (the cat hair mistake) also gives her an indirect narrative texture beyond simple muscle.",
-          "film_portrayal": "Absent.",
-          "difference": "All of this material - the cat hair complication, the 'disgusted' recoil, the physical restraint scenes - is lost.",
-          "penalty_logic": "Score of 0 by absence. The lost material includes the only moment that gives her any behavioral complexity.",
-          "evidence_status": "Directly evidenced"
+          "book_baseline": "Millicent is not a complex character in the books. Her nuance is minimal but not entirely absent: the single moment in OotP where she 'dodged out of her way looking disgusted' when Hermione cried adds a small human texture \u2014 she is not a cartoon villain but someone with aversions and reactions. Her physicality is established through two separate incidents across two books, creating a pattern that defines her. The Polyjuice mishap adds an indirect layer of dark comedy to her presence \u2014 she is not just a bully but inadvertently the cause of Hermione's transformation.",
+          "film_portrayal": "The film preserves the dark comedy of the Polyjuice mishap through Hermione's reference and the cat-hair transformation scene. The OotP restraint scene and its small humanizing detail (the 'disgusted' dodge) are absent from the corpus. The pattern of two separate physical confrontations establishing a behavioral signature is reduced to one referenced incident.",
+          "difference": "The dark comedy function is preserved. The behavioral pattern that builds texture (two separate physical confrontations) is reduced to one. The small humanizing detail from OotP is lost. The overall simplification is modest given how minimal the book complexity was to begin with.",
+          "penalty_logic": "Millicent's book complexity is already thin. The film loses one of two pattern-establishing scenes and one small humanizing moment. This represents noticeable simplification for a character whose entire characterization depends on those few moments. Score reflects this without over-penalizing, since the remaining material is faithful and the lost material, while real, does not reverse or contradict the characterization.",
+          "evidence_status": "Directly evidenced (book); Reasonably inferred (film)"
         }
       },
       "confidence": {
-        "global": "High",
-        "personality_voice": "High",
-        "narrative_role_agency": "High",
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
         "motivations_internal_conflict": "Low",
         "character_arc": "Low",
-        "key_relationships": "High",
-        "complexity_nuance_lost_material": "High"
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
       },
       "lost_or_transferred_material": [
-        "Millicent putting Hermione in a headlock at the Dueling Club (CoS) - absent from films",
-        "Millicent's hair being used for Polyjuice Potion - the cat hair complication causing Hermione's botched transformation is a direct consequence of Millicent's physical aggression and is absent or handled differently in the films",
-        "Millicent physically restraining Hermione in Umbridge's office (OotP) - absent from films",
-        "Millicent recoiling 'looking disgusted' when Hermione cries on her robes - the one moment of behavioral nuance, absent from films"
+        "Millicent physically putting Hermione in a headlock at the Dueling Club is not shown in the film \u2014 only referenced in dialogue afterward",
+        "Millicent physically restraining Hermione in Umbridge's office (Order of the Phoenix) is absent from the film corpus entirely",
+        "The moment in OotP where Millicent 'dodged out of her way looking disgusted' when Hermione cried \u2014 a small humanizing detail \u2014 is lost",
+        "The behavioral pattern of two separate physical confrontations (CoS + OotP) establishing Millicent as a recurring physical threat is reduced to a single referenced incident"
       ],
-      "score_caps_applied": [
-        "No cap needed - raw dimension scores already total 0 due to complete absence from film corpus"
-      ],
-      "key_observations": "Millicent Bulstrode does not appear in any scene in the film corpus. She is entirely absent from the films as portrayed here. Every score is 0 not because of adaptation choices that changed her characterization, but because she was cut entirely. The confidence is High for most dimensions because the absence is unambiguous, though Low for motivations and arc because the book material itself is thin on those aspects. The most significant lost material is her role in the Polyjuice subplot (the cat hair that causes Hermione's botched transformation) and her physical presence in Umbridge's office in OotP - both are narrative functions that either disappear or are reassigned in the films.",
+      "score_caps_applied": [],
+      "key_observations": "Millicent Bulstrode is a minimal character in both books and films, defined almost entirely by physical aggression and house affiliation rather than voice, interiority, or relationships. The film preserves her narrative function in CoS (as the source of the cat hair) through dialogue reference rather than direct depiction, and does not contradict her book characterization. The most significant loss is the complete absence from the film corpus of her OotP role \u2014 physically restraining Hermione during the Umbridge confrontation \u2014 which was her only dramatically consequential action in that book. Given how thin her characterization is in the source material, the film's treatment is largely consistent but somewhat reduced. Confidence is Medium throughout due to the limited corpus available for both book and film, and because her film appearances may be more extensive than what the provided corpus captures. Score caps were not triggered, as the losses are proportionate to the minimal nature of the character's book presence.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 5060,
-        "film_chars_sent": 0,
+        "film_chars_sent": 156972,
         "aliases": [],
-        "corpus_hash": "e04dacfec33f",
         "corpus_version": "1"
       }
     }

@@ -2,97 +2,70 @@
   "character": "Katie Bell",
   "fp_score": 62.0,
   "infidelity_score": 38.0,
-  "weighted_infidelity_exposure": 15.5,
-  "cids": 192.1,
-  "damage_per_exposure": 22.6,
+  "weighted_infidelity_exposure": 8.0,
+  "cids": 150.6,
+  "damage_per_exposure": 33.5,
   "structural_damage_level": 2,
-  "adjusted_cids": 192.1,
+  "adjusted_cids": 150.6,
   "main_damage_causes": [
-    "Failure to establish Katie as a named, personality-bearing character across Years 1-5 means her HBP cursing lacks emotional weight for film audiences",
-    "Cutting the Katie-return investigative scene (HBP Scene 8) removes her active participation in the mystery plot and eliminates the Polyjuice deduction, reducing her from a witness with agency to a frightened visual prop",
-    "Compression of the post-cursing investigation (McGonagall's office, Hagrid's arrival) strips Harry's proactive agency and the deductive texture that makes the Malfoy subplot coherent"
+    "Loss of the book's single strongest characterisation scene (the tryout fairness conversation in HBP) which is the primary moment Katie demonstrates personality, ethics, and voice independent of Quidditch action",
+    "Reduction of Katie's agency in her return scene \u2014 her active investigative contribution (bathroom detail enabling Hermione's Rosmerta deduction) is replaced by a purely reactive frightened response, transferring her functional plot role to a visual beat",
+    "Compression of the cursing incident strips her from an active, named participant with dialogue into a background figure, reducing the emotional impact of her victimhood and its significance to Harry's relationships and suspicions"
   ],
   "damaging_scenes": [
     {
-      "scene": "HBP Film Scene 3 - Slughorn's Potions class",
-      "book_baseline": "Katie Bell is a background presence in the classroom; her only notable book action here is being hit by Ron's bean. She has no speaking role in this scene.",
-      "film_portrayal": "Katie Bell is given two lines of dialogue asking Slughorn about Felix Felicis ('Sir, you haven't told us what's in that one' and 'But then why don't people drink it all the time?'). These are inquisitive, engaged student lines.",
+      "scene": "Film Scene 5 (Three Broomsticks) / Scene 6 (Road outside Hogsmeade) - Katie's cursing incident",
+      "book_baseline": "Book scenes 101-115 establish Katie as a conscious, arguing participant in a dispute with Leanne about whether to deliver the package. She says 'It's nothing to do with you, Leanne!' and tugs the package back. She is a named, active character whose distress is viscerally described: she rises gracefully, eyes closed, face empty, then screams terribly. Harry specifically runs for help, collides with Hagrid, and returns. The scene is extended, emotionally rich, and centrally tied to Harry's Malfoy suspicions.",
+      "film_portrayal": "Film Scene 6 compresses the incident heavily. Katie and Leanne are arguing in the background while the trio are in conversation. The cursing happens almost incidentally \u2014 Katie rises, Harry and Ron dash forward, Hagrid materialises almost immediately and scoops her up. The intimate horror of the book scene (Harry lowering her to the ground, her thrashing and not recognising anyone, Harry sprinting alone for help) is largely absent. Katie is more of a prop triggering plot than a person whose suffering is registered.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The compression strips Katie's agency and individuality from the scene. In the book she is a participant with a voice ('It's nothing to do with you, Leanne!'); in the film she is a background figure who rises and is whisked away. The emotional weight of the scene \u2014 and its establishment of Katie as a known, valued teammate whose suffering matters \u2014 is diluted."
+    },
+    {
+      "scene": "Film Scene 7 (McGonagall's office) - post-cursing interrogation",
+      "book_baseline": "Book scenes 118-135 show Harry actively advocating for Katie, asserting 'I think Draco Malfoy gave Katie that necklace, Professor,' and pressing his case. McGonagall goes to check on Katie personally, demonstrating institutional care. The scene also contains Leanne's detailed account of what happened in the bathroom, connecting Katie's humanity to the investigation.",
+      "film_portrayal": "Film Scene 7 replaces McGonagall alone with both McGonagall and Snape. Harry still accuses Malfoy but the scene shifts focus to Snape's sardonic dismissal ('You\u2026 just\u2026 know. Once again you astonish with your gifts, Potter'). Snape's presence and dialogue dominate. The concern for Katie as a person \u2014 McGonagall going to check on her, the emotional investment in her welfare \u2014 is absent. Leanne's account is curtailed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Katie's welfare is further depersonalised. The scene becomes about Harry vs. Snape rather than about what happened to a specific teammate. The institutional care for Katie that exists in the book is absent, reducing her from a person the staff are worried about to a plot device."
+    },
+    {
+      "scene": "Film Scene 4 (Quidditch tryouts montage) - Katie's trial",
+      "book_baseline": "Book scenes 94-96 establish a meaningful exchange between Harry and Katie about fairness and meritocracy. Katie insists Harry must make her try out ('You mustn't start off like that\u2026 Good teams have been ruined before now because Captains just kept playing the old faces'). This shows her as principled, self-aware, and possessed of genuine moral character. She earns her place after 'an excellent trial.'",
+      "film_portrayal": "Film Scene 4 shows Katie in the tryout montage performing well \u2014 'Katie Bell snatches a Quaffle with one hand, splits two defenders beautifully and makes a slick blind pass' \u2014 but the conversation about fairness is absent entirely. She is simply shown as competent without any characterisation.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor addition rather than subtraction - Katie is given slightly more presence than the book grants her here. This is low damage; the lines are neutral and consistent with a curious student, but they do displace the book's characterization of her as a background Quidditch teammate rather than a classroom participant. Minimal impact."
-    },
-    {
-      "scene": "HBP Film Scene 6 - Katie Bell cursing on the road outside Hogsmeade",
-      "book_baseline": "Harry, Ron, and Hermione are walking behind Katie and Leanne. They witness the argument, the package tearing, Katie rising into the air screaming. Harry takes charge: he shouts at the others to stay, sprints for help, and collides with Hagrid. Harry is the one who identifies the necklace as the cursed object from Borgin and Burkes, immediately suspects Malfoy, and drives the investigative logic. Leanne's testimony is detailed. The scene is rich with Harry's agency and deductive reasoning.",
-      "film_portrayal": "The scene is compressed. Hagrid appears almost immediately without Harry having to run for help. Harry's sprint and collision with Hagrid - a beat that shows his decisive action under pressure - is cut. Harry still identifies the necklace and suspects Malfoy in McGonagall's office, preserving some agency, but the physical heroism of running for help is absent.",
-      "damage_type": "agency/function",
-      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Harry loses a small but characterizing beat of decisive action. In the book he takes command of the crisis and physically runs for help; in the film Hagrid simply materializes. This slightly reduces Harry's proactive heroism in the scene, though his investigative agency in McGonagall's office is preserved."
+      "explanation": "The loss of the book exchange removes the single most characterising moment for Katie in Book 6. It is the one scene where she is given a distinct voice, ethical conviction, and personality independent of Quidditch action. Without it, film Katie is purely functional \u2014 a good flier \u2014 rather than a person with principles."
     },
     {
-      "scene": "HBP Film Scene 7 - McGonagall's office after the cursing",
-      "book_baseline": "The interrogation in McGonagall's office involves Harry, Ron, Hermione, and Leanne giving detailed accounts. Leanne provides the key testimony about the bathroom. Harry explicitly asks to see Dumbledore. McGonagall dismisses his Malfoy theory but confirms Malfoy was in detention with her. Ron and Hermione visibly distance themselves from Harry's Malfoy accusation, embarrassed. The scene establishes the investigative thread and Harry's isolation in his suspicion.",
-      "film_portrayal": "Snape is present in the office scene (not in the book version of this scene). Snape's sardonic 'You just know... how grand it must be to be the Chosen One' replaces the subtler McGonagall dismissal. Harry's request to see Dumbledore is cut. The alibi detail (Malfoy in detention) is cut. Ron and Hermione's embarrassed distancing is replaced by them simply averting their eyes at Snape's mockery.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Harry loses his proactive request to escalate to Dumbledore, and the specific alibi information that sharpens the mystery is cut. Snape's presence shifts the scene's dynamic - Harry's isolation in his suspicion becomes about Snape's contempt rather than his friends' embarrassment and McGonagall's procedural dismissal. The investigative texture is thinned."
-    },
-    {
-      "scene": "HBP Film Scene 8 - Katie's return to Hogwarts",
-      "book_baseline": "Katie returns and Harry immediately drops his voice to question her privately about the necklace. Katie confirms she remembers walking into the ladies' room and deduces someone was behind the door. This leads Harry, Ron, and Hermione to conclude it must have been a woman or someone using Polyjuice Potion - a key deductive beat. Katie is warm, self-aware ('I wouldn't put it past McGonagall to give me lines even on my first day back'), and participates actively in the investigative thread.",
-      "film_portrayal": "Katie returns, Harry asks if she knows who cursed her, she says she can't remember, then she spots Malfoy staring at her and goes pale and retreats. The deductive conversation about the bathroom and the Polyjuice Potion implication is entirely cut. Katie's personality (the McGonagall joke) is absent. Her role is reduced to a visual prop - her fearful reaction to Malfoy is used to implicate him visually rather than through dialogue and deduction.",
+      "scene": "Film Scene 8 (Great Hall) - Katie's return from St Mungo's",
+      "book_baseline": "Book scenes 169-177 give Katie a significant return scene. She speaks directly with Harry, explains she cannot remember who cursed her, confirms she pushed open the bathroom door (narrowing down the suspect to someone behind it), and shows awareness and humour ('I wouldn't put it past McGonagall to give me lines even if it is my first day back'). She actively contributes to the investigation by providing the bathroom detail that drives Hermione's deduction about a woman or someone using Polyjuice.",
+      "film_portrayal": "Film Scene 8 has Katie return, greet friends, and speak briefly with Harry. She says 'I know you're going to ask, Harry. But I don't know who cursed me. I've tried to remember. Honestly. But I just\u2026 can't\u2026' She then sees Malfoy and goes ashen, retreating. The bathroom detail, her wit, and her active contribution to the investigative reasoning are all absent.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is the most damaging single cut. The book's Katie-return scene is a genuine investigative beat that advances the Malfoy plot through logic and testimony. The film replaces it with a purely visual/emotional beat (Katie's fear of Malfoy). Katie loses her active participation in the mystery, and the audience loses the Polyjuice deduction entirely. Her character is reduced from a witness with agency to a frightened victim used for atmosphere."
+      "explanation": "In the book, Katie's testimony ('I know I pushed open the door') is a piece of genuine investigative evidence that Hermione uses to deduce the perpetrator was a woman or someone in Polyjuice disguise. The film replaces this functional contribution with a purely reactive, frightened response to seeing Malfoy. Her agency as someone who provides information is transferred to a visual reaction shot, and Hermione's deductive moment is lost entirely."
     },
     {
-      "scene": "HBP Film Scene 9 - Astronomy Tower confrontation",
-      "book_baseline": "Dumbledore tells Malfoy 'You almost killed Katie Bell and Ronald Weasley' - naming her explicitly as evidence of Malfoy's feeble, half-hearted attempts. This confirms Katie's plot function and ties her suffering directly to Malfoy's arc and moral failure.",
-      "film_portrayal": "Dumbledore says 'Like cursing Katie Bell and hoping she would, in turn, bear a cursed necklace to me?' - this preserves Katie's name and her plot function. The mechanism is slightly reworded but the substance is intact.",
+      "scene": "Film Scene 9 (Astronomy Tower) - Dumbledore's confrontation with Malfoy",
+      "book_baseline": "Book scene 182-185 has Dumbledore tell Malfoy 'You almost killed Katie Bell and Ronald Weasley' \u2014 naming Katie specifically as collateral damage Draco has caused, framing her suffering within the moral stakes of Draco's arc. Dumbledore also deduces Rosmerta's role and the mechanism by which Katie was used ('So poor Rosmerta was forced to lurk in her own bathroom and pass that necklace to any Hogwarts student who entered the room unaccompanied?'). Katie is named and her story is given closure and moral weight.",
+      "film_portrayal": "Film Scene 9 has Dumbledore say 'Like cursing Katie Bell and hoping she would, in turn, bear a cursed necklace to me?' \u2014 Katie is named, which is faithful. However the Rosmerta revelation and the precise mechanism of how Katie was used are absent. There is no line equivalent to the book's bathroom deduction, and the moral weight of Katie as an innocent victim used as a delivery mechanism is less fully articulated.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The film preserves Katie's name and her role in Malfoy's arc. The slight rewording ('hoping she would bear it to me' vs. 'you almost killed her') marginally softens the emphasis on Katie as a victim of near-fatal harm, but this is a minor tonal difference. Low damage."
+      "explanation": "The Rosmerta detail and the bathroom mechanism are absent, which means the full arc of how Katie came to be cursed \u2014 and the closure of that mystery \u2014 is incomplete. The damage is minor since Katie is still named, but the explanatory closure around her victimhood is lost."
     },
     {
-      "scene": "HBP Film Scene 10 - Hogwarts Express",
-      "book_baseline": "Katie Bell is not present on the Hogwarts Express in the book at this point in the narrative in any notable capacity.",
-      "film_portrayal": "Katie Bell appears briefly as a named background passenger on the Hogwarts Express when Death Eaters search it.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "A minor addition with no book basis but also no real damage - she is simply present as a background character. No characterization is altered."
-    },
-    {
-      "scene": "DH Film Scene 11 - Wooden Bridge battle",
-      "book_baseline": "In the book's Battle of Hogwarts, Katie Bell is present in the Room of Requirement among the returning DA members (Book Scene 187). She is part of the assembled defenders but has no specific action assigned to her in the corpus.",
-      "film_portrayal": "Katie Bell is shown actively placing magical charges on the wooden bridge under Seamus's direction, participating in the physical defense of Hogwarts.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "This is an addition that actually gives Katie more agency than the book corpus shows. It is not unfaithful in a damaging way - it is consistent with her as a Gryffindor defender. No damage."
-    },
-    {
-      "scene": "PS/CoS Film - Quidditch matches (Years 1-2)",
-      "book_baseline": "Katie Bell is named and active in Quidditch commentary across multiple matches in books 1-3. She is identified by name, scores goals, is hit by Bludgers, and is part of the Chaser trio dynamic with Angelina and Alicia. She has personality moments (giggling about Cedric Diggory, 'Strong and silent'). She is a recognizable, named team member.",
-      "film_portrayal": "In the PS/CoS Quidditch scenes, Katie Bell is present on the team but is not named in commentary or given any distinguishing moment. She is a visual background player.",
+      "scene": "Film Scene 3 (Slughorn's classroom) - Katie as background student",
+      "book_baseline": "By book 6 (scenes 94-96) Katie is established as a senior, principled, respected teammate. Her presence in any scene carries relational weight built over five years.",
+      "film_portrayal": "Film Scene 3 has Katie ask two questions in Slughorn's class ('Sir, you haven't told us what's in that one' and 'But then why don't people drink it all the time?'). These are functional exposition-delivery lines with no personality attached. She is unnamed in the action lines at this point for most viewers and functions purely as a voice to prompt Slughorn's exposition.",
       "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The early films establish no identity for Katie Bell whatsoever. When she becomes plot-relevant in HBP, the audience has no prior relationship with her as a character. The book's gradual establishment of her as a named, personality-bearing teammate is entirely absent, which reduces the emotional weight of her cursing in HBP."
-    },
-    {
-      "scene": "OotP Film - Quidditch and DA scenes (Year 5)",
-      "book_baseline": "In OotP, Katie has several small but characterizing moments: she attends the Hog's Head DA meeting, she suggests the library as a meeting place, she is hit by an ink pellet from Peeves, she plays in Quidditch matches with named commentary, she is part of the team's social fabric (laughing at Fred and George's jokes before the Slytherin match). She is a consistent, named presence.",
-      "film_portrayal": "The OotP film compresses the DA and Quidditch material heavily. Katie's named presence in these scenes is absent or unrecognizable. Her suggestion of the library, her Peeves interaction, and her Quidditch commentary moments are all cut.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "A full year of small characterizing moments is lost. This compounds the problem identified above: by the time HBP arrives and Katie is cursed, the film audience has no accumulated sense of who she is. The damage is cumulative rather than acute."
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor damage: Katie is used as an exposition prompt rather than as a character. Her lines are generic enough that any student could deliver them. This is a small but symptomatic reduction of her to a functional role."
     }
   ],
   "confidence": {
@@ -101,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 589.0,
-  "adjusted_cids_v1": 647.9
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -2,62 +2,61 @@
   "character": "Bogrod",
   "fp_score": 70.0,
   "infidelity_score": 30.0,
-  "weighted_infidelity_exposure": 7.0,
-  "cids": 112.5,
-  "damage_per_exposure": 37.5,
+  "weighted_infidelity_exposure": 5.0,
+  "cids": 96.9,
+  "damage_per_exposure": 32.3,
   "structural_damage_level": 2,
-  "adjusted_cids": 112.5,
+  "adjusted_cids": 96.9,
   "main_damage_causes": [
-    "Harry's morally weighted use of Imperio is transferred to Ron, removing a key instance of Harry's willingness to use Dark Magic and the internal conflict that accompanies it",
-    "The film invents a distinct personality and institutional authority for Bogrod (45-year speech, angry awakening) where the book deliberately keeps him a blank, Imperiused instrument",
-    "Bogrod's abrupt death by dragon fire tidies away a character the book leaves in ambiguous peril, reducing the moral messiness of the trio's actions"
+    "Transfer of Harry's morally significant second Imperio casting to Ron, removing a protagonist agency and Dark Magic moral conflict beat",
+    "Invention of a distinct authoritative personality for Bogrod (bank seniority speech, angry confrontation) with no book basis, inflating a functional prop character",
+    "Elimination of Bogrod via dragon fire erases his ongoing functional role under Harry's Imperius and forecloses the book's mechanics of Harry maintaining control through a morally uncomfortable means"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - Bogrod overrides the aged goblin with a speech about running the bank for 45 years",
-      "book_baseline": "Bogrod is under Imperius and simply complies with Harry's will; he dismisses the other goblin's concerns with brief, vacant authority ('I am aware of the instructions... Very old family... old clients...'). His compliance is mechanical, not characterful.",
-      "film_portrayal": "Bogrod delivers a confident, assertive monologue about his 45 years running the bank and his independence from Death Eater influence, framing his compliance as a principled institutional stand rather than Imperiused blankness.",
+      "scene": "Film Scene 2 (Tunnel) \u2014 Bogrod under Imperius speaks at length defending his authority",
+      "book_baseline": "In the book, Bogrod is Imperiused and simply complies: 'I am aware of the instructions, Madam Lestrange wishes to visit her vault \u2026 Very old family \u2026 old clients \u2026 This way, please \u2026' He is a passive, controlled instrument with no independent voice or personality shown.",
+      "film_portrayal": "The film gives Bogrod an extended authoritative speech: 'I've run this bank for forty-five years, long before anyone had even heard of a Death Eater. The day may come that they feel they can run this place better than me, but that day has not yet arrived.' This characterizes him as a proud, long-tenured senior official with a distinct personality and institutional ego.",
       "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While minor in isolation, the film invents a personality for Bogrod that is entirely absent from the book, where he is an essentially anonymous functional prop under Imperius. The invented speech slightly inflates his presence and gives him a character beat that has no book basis. However, since Bogrod is a tertiary character with no arc, the damage is limited."
+    },
+    {
+      "scene": "Film Scene 3 (Tunnel after Thief's Downfall) \u2014 Ron casts Imperio on Bogrod",
+      "book_baseline": "In the book, Harry re-casts Imperio on Bogrod after the Thief's Downfall lifts it: 'Imperio! Harry said again; his voice echoed through the stone passage as he felt again the sense of heady control that flowed from brain to wand.' This is Harry's action, and the narrative explicitly connects it to the moral weight Harry feels about casting Unforgivable Curses.",
+      "film_portrayal": "In the film, Ron casts the second Imperio on Bogrod: 'Ron: Imperio!' Harry and Hermione raise their wands too late, and Ron acts first.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The book deliberately places the repeated casting of an Unforgivable Curse on Harry, connecting it to the earlier memory of Bellatrix's taunt ('You need to mean them, Potter!') and Harry's internal moral conflict about using Dark Magic. By transferring this to Ron \u2014 who has no associated internal conflict in the corpus \u2014 the film strips Harry of a meaningful moral agency beat and loses the thematic resonance of Harry being willing to use Unforgivable Curses in pursuit of his mission. This is a clear transfer of a morally charged action away from the protagonist."
+    },
+    {
+      "scene": "Film Scene 3 (Tunnel after Thief's Downfall) \u2014 Bogrod's restored personality and confrontation",
+      "book_baseline": "In the book, after the Thief's Downfall lifts the curse, Bogrod simply 'shook his head in bewilderment' \u2014 a brief, passive moment. There is no confrontation or dialogue from Bogrod.",
+      "film_portrayal": "The film has Bogrod actively confront the group: 'What the devil are you all doing down here! Is this your doing, Griphook? You have no rights here anymore. When you gave up your keys, you --' giving him an angry, coherent reactive voice.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Again the film invents dialogue and personality for Bogrod beyond the book's characterization of him as merely bewildered. The damage is minor given Bogrod's peripheral role, but it is a consistent pattern of inflating his personality beyond what the book establishes."
+    },
+    {
+      "scene": "Film Scene 5 (Lestrange Vault) \u2014 Griphook's betrayal action via Bogrod",
+      "book_baseline": "In the book, after Griphook's betrayal, the door reappears and seals them inside the vault spontaneously/mechanically: 'there was a muffled clunk from behind them: The door had reappeared.' Griphook's betrayal is his disappearance with the sword after they exit. Bogrod is present and expected to release them: 'No matter, Bogrod will be able to release us!' Bogrod is used as a functional tool controlled by Harry's Imperius.",
+      "film_portrayal": "Griphook 'pivoting swiftly, slams Bogrod's hand to the door' to open it and expel the trio \u2014 actively using Bogrod as a physical instrument of his own betrayal. Bogrod is then immediately killed by dragon fire: 'The dragon spits again, reducing Bogrod to dust.'",
+      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film invents a personality and backstory for Bogrod that the book never establishes. Under Imperius he should be a blank instrument of Harry's will; instead he becomes a characterful, proud bank director. This misrepresents what the Imperius Curse looks like in action and gives Bogrod a false interiority."
-    },
-    {
-      "scene": "Film Scene 3 - Ron casts Imperio on Bogrod after the Thief's Downfall",
-      "book_baseline": "Harry casts Imperio on Bogrod both times - initially in the main hall and again after the Thief's Downfall strips the curse. Harry explicitly feels 'the sense of heady control that flowed from brain to wand' and reflects on Bellatrix's lesson about meaning Unforgivable Curses. This is part of Harry's moral arc around using Dark Magic.",
-      "film_portrayal": "Ron casually casts Imperio on Bogrod while Harry and Hermione raise their wands but are described as 'too late'. Ron's casting is played lightly, with Griphook saying 'Well done.'",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "Harry's repeated use of Imperio is a deliberate moral weight in the book - he is using an Unforgivable Curse and grappling with what that means, echoing Bellatrix's instruction that you must 'mean' such curses. Transferring this act to Ron strips Harry of a morally significant choice and removes the internal conflict the book carefully builds around it."
-    },
-    {
-      "scene": "Film Scene 3 - Bogrod's awakened personality after Thief's Downfall",
-      "book_baseline": "After the Thief's Downfall lifts the Imperius, Bogrod simply shakes his head in bewilderment. He is passive and confused.",
-      "film_portrayal": "Bogrod wakes up angry and confrontational, accusing Griphook directly ('Is this your doing, Griphook? You have no rights here anymore...'), delivering pointed dialogue about Griphook surrendering his keys.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor inflation of Bogrod's characterisation - the book gives him no voice or personality beyond bewilderment; the film makes him a briefly assertive figure. Low damage but contributes to the pattern of the film inventing a character where the book has none."
-    },
-    {
-      "scene": "Film Scene 5 - Griphook slams Bogrod's hand to the door to betray the trio",
-      "book_baseline": "Bogrod is still under Imperius when the vault is sealed and Griphook instructs Harry to make him open it ('No matter, Bogrod will be able to release us!'). Bogrod remains a passive tool throughout. The betrayal is Griphook taking the sword and vanishing; Bogrod's fate is left with him struggling in the rising treasure.",
-      "film_portrayal": "Griphook physically grabs Bogrod and slams his hand to the door as part of his betrayal, using Bogrod as an instrument of his own agency. Bogrod is then immediately incinerated by the dragon outside.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Bogrod's abrupt death by dragon fire is a film invention that closes off his role cleanly but removes the book's image of him as a helpless victim of the rising treasure alongside Griphook. The change is minor for Bogrod specifically but slightly alters the chaos and moral texture of the escape."
+      "explanation": "The film repurposes Bogrod as a prop in Griphook's betrayal scene rather than a tool under Harry's control, and then eliminates him immediately via dragon fire. In the book, Bogrod's continued presence and Imperius subjugation is part of the functional mechanics of the vault escape. His instant death in the film removes any functional role he retains and forecloses the book's ongoing use of him as Harry's controlled instrument in the escape sequence. While Bogrod's death is a meaningful compression choice, it does eliminate the book's portrayal of Harry maintaining moral agency through continued use of Imperius."
     }
   ],
   "confidence": {
     "global": "High",
     "exposure_estimate": "High",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 210.0,
-  "adjusted_cids_v1": 231.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

@@ -2,115 +2,151 @@
   "character": "Horace Slughorn",
   "fp_score": 78.0,
   "infidelity_score": 22.0,
-  "weighted_infidelity_exposure": 30.0,
-  "cids": 149.9,
-  "damage_per_exposure": 11.5,
+  "weighted_infidelity_exposure": 32.0,
+  "cids": 152.6,
+  "damage_per_exposure": 10.5,
   "structural_damage_level": 3,
-  "adjusted_cids": 149.9,
+  "adjusted_cids": 152.6,
   "main_damage_causes": [
-    "Harry's agency in the recruitment and memory-extraction arcs is systematically reduced, making him a passive celebrity lure rather than an active manipulator who earns Slughorn's trust and exploits his weaknesses",
-    "Slughorn's defining 'spider' collector behavior - the systematic network cultivation, the pointed exclusion of the unconnected, the sustained intelligent evasion - is compressed into isolated comic beats, softening his moral complexity into genial eccentricity",
-    "The moral ambiguity of the memory extraction (Harry's cold Felix-guided manipulation, Slughorn's explicit guilt about 'great damage done') is replaced by a more conventionally emotional appeal, losing the unsettling complexity that makes both characters more interesting"
+    "Compression of Slughorn's self-serving, transactional social machinery (Slug Club train scene absent; Dumbledore's spider-web analysis condensed) leaves his moral complexity underexplored, making him warmer and less calculating than the book intends",
+    "Inversion of emotional agency in the Hagrid's hut memory-extraction scene (Francis the fish replaces Harry's frontal emotional assault), softening both Harry's calculated ruthlessness and the depth of Slughorn's resistance, and reducing the moral complexity of the scene's central transaction",
+    "Insufficient establishment of Slughorn's sustained wartime cowardice undermines the payoff of his eventual bravery in the Battle of Hogwarts, weakening his redemptive arc"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - Slughorn's house, initial recruitment scene",
-      "book_baseline": "Slughorn is shrewd and resistant throughout the visit. He actively resists Dumbledore's recruitment, pushes past Harry, gives a drink ungraciously, complains about his health and age, makes pointed observations about Dumbledore's injured hand, and only capitulates after Dumbledore's 'lost cause' gambit and Harry's sustained presence. The scene is a slow, layered negotiation showing Slughorn's vanity, self-interest, and political calculation.",
-      "film_portrayal": "The scene is compressed dramatically. Slughorn caves almost immediately after a brief exchange with Harry about Lily and the photographs. The extended negotiation, Slughorn's shrewd observations about Dumbledore's hand, his complaints about mortality rates, his pointed political reasoning, and Harry's active persuasion work are all cut. Slughorn's resistance feels token rather than genuine.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The book establishes Slughorn as a calculating survivor who weighs every angle before acting. His extended resistance demonstrates his political intelligence and self-preservation instincts. The film's quick capitulation makes him seem merely vain and easily flattered rather than a shrewd operator who must be genuinely outmaneuvered."
+      "scene": "Film Scene 2 (Slughorn's sitting room) \u2014 Dumbledore restores the room alone",
+      "book_baseline": "Book scenes 5-8 establish that Dumbledore and Slughorn stand back-to-back and restore the room together in one identical sweeping motion \u2014 a small but telling moment of collegial equality and Slughorn's genuine competence as a wizard.",
+      "film_portrayal": "Dumbledore restores the room entirely on his own with a single wand movement. Slughorn is passive, a spectator to the repair.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The joint restoration in the book quietly signals that Slughorn is a peer-level wizard, not merely a comic subordinate. His absence from the repair subtly diminishes his stature as a powerful, capable wizard, which matters because his later resistance to Dumbledore is more credible when he is presented as an equal."
     },
     {
-      "scene": "Film Scene 2 - Slughorn's house, Harry's role in persuasion",
-      "book_baseline": "Dumbledore engineers alone time between Harry and Slughorn by pretending to use the bathroom. Harry then independently engages Slughorn, pushes back on his prejudice about Muggle-borns, and makes the practical argument that Hogwarts staff are safer under Dumbledore. Slughorn is visibly persuaded by Harry's reasoning before Dumbledore returns. Dumbledore explicitly credits Harry afterward: 'You showed Horace exactly how much he stands to gain.'",
-      "film_portrayal": "Harry has no independent persuasion scene. There is no alone time engineered by Dumbledore, no Harry pushing back on Muggle-born prejudice, no Harry making the safety argument. Slughorn's decision to return is attributed entirely to Dumbledore's 'lost cause' line and Harry's passive presence as a trophy.",
+      "scene": "Film Scene 2 (Slughorn's sitting room) \u2014 Slughorn's self-satisfied pride in his own cleverness is flattened",
+      "book_baseline": "Book scenes 2, 4, 18 establish Slughorn's character texture through proud self-contradiction: he grumbles about being discovered yet can't resist boasting ('Two. Didn't hear my Intruder Charm go off... Still, I added the finishing touches to my upholstery'). He is vain about his own ingenuity even while complaining.",
+      "film_portrayal": "Slughorn's dialogue in the sitting room is compressed. The film keeps the basic situation but strips out his proud, half-irritable, half-boastful commentary on his own preparations (the two-minute warning, the Intruder Charm, the precise upholstery timing). He becomes simply reluctant rather than reluctant-and-vain.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Slughorn's specific brand of vanity \u2014 taking pride in his own cleverness even when it has failed him \u2014 is a defining character note. It is what makes him sympathetic and comic simultaneously. The film's compression removes this self-revealing texture, making him a more generic frightened old man rather than the particular, self-satisfied creature Rowling constructs."
+    },
+    {
+      "scene": "Film Scene 2 (sitting room) \u2014 Slughorn's comment on Muggle-borns lacks Harry's cold pushback",
+      "book_baseline": "Book scenes 44-47 show Slughorn saying 'Funny how that sometimes happens' about Muggle-borns being talented, and Harry coldly replying 'Not really.' This is a sharp, character-defining moment: Harry refuses to soften Slughorn's casual condescension, and Slughorn is startled enough to over-explain himself.",
+      "film_portrayal": "Slughorn makes his 'even more impressive when one considers she was Muggle-born' remark, and Harry replies 'One of my best friends is Muggle-born. She's the best in our year.' Slughorn's defensive back-pedalling follows, but Harry's cold, pointed 'Not really' \u2014 the rebuke \u2014 is absent. Harry is less adversarial.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Harry's 'Not really' is a small but precise moment establishing that Harry will not perform warmth toward Slughorn when Slughorn says something he finds offensive. It shades Harry's eventual 'collecting' relationship with Slughorn as wary rather than straightforwardly charmed. Its absence makes Harry seem more passive and Slughorn's prejudice less noted."
+    },
+    {
+      "scene": "Film Scene 2 (sitting room) \u2014 Dumbledore's character analysis of Slughorn is moved to Scene 4 (exterior street) and significantly condensed",
+      "book_baseline": "Book scenes 76-78 have Dumbledore deliver an extended, precise analysis of Slughorn: his love of comfort, the famous and successful, his 'Slug Club' methodology, his role as a spider at the center of a web, and the explicit warning that Slughorn will try to 'collect' Harry as the jewel of his collection. Dumbledore also frames this explicitly as putting Harry 'on his guard.'",
+      "film_portrayal": "Film Scene 4 gives a compressed version: 'You are talented, famous and powerful \u2014 everything Horace values. Professor Slughorn is going to try to collect you, Harry. You would be his crowning jewel.' The spider metaphor, the web, the detailed mechanism of the Slug Club, and the explicit moral warning are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Dumbledore's full analysis functions as a hermeneutic key for reading Slughorn throughout the film. Without the spider/web framing and the detail of how Slughorn 'reaps benefit in return,' the audience loses the precise moral complexity that makes Slughorn interesting: he is not simply vain, he is a calculated networker whose warmth is always transactional. The film's compressed version tells us the conclusion without the mechanism."
+    },
+    {
+      "scene": "Film Scene 17 (Slughorn's office after dinner party) \u2014 'The Shelf' conversation replaces train compartment Slug Club scene",
+      "book_baseline": "Book scenes 96-127 establish the Slug Club through a richly populated train compartment scene: multiple invitees, Slughorn's interrogation style, his reaction to Neville, his probing of Harry about the Ministry, Ginny's inclusion for hexing Zacharias Smith, Zabini's contemptuous report back to Malfoy. This is the audience's first full view of Slughorn as a social operator in action.",
+      "film_portrayal": "The train compartment scene is entirely absent. Instead, a dinner party in Slughorn's office (Film Scene 15-17) performs some of the same function but with different texture. Slughorn's one-on-one conversation with Harry about 'the shelf' replaces the ensemble scene. The film's Slughorn is more intimate and less nakedly transactional in this setting.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The train scene is the primary demonstration of Slughorn's Slug Club methodology in action \u2014 his coldness to Belby when Belby can't deliver on his uncle, his enthusiasm for McLaggen's Ministry connections, the way he passes over Ron entirely. Without it, the audience understands Slughorn abstractly (via Dumbledore's compressed description) rather than seeing his behaviour empirically. This reduces the moral edge of his characterisation."
+    },
+    {
+      "scene": "Film Scene 17 (Slughorn's office after party) \u2014 Slughorn raises Voldemort/Tom Riddle unprompted and frames him as 'not unlike you'",
+      "book_baseline": "The book never has Slughorn voluntarily open a discussion of Tom Riddle with Harry. Slughorn is consistently avoidant on this subject; Harry must work to raise it, and when he does (book scene 332) Slughorn freezes and flees. Slughorn's evasiveness about Riddle is fundamental to his characterisation and to the plot's tension.",
+      "film_portrayal": "In Film Scene 17, after the party, Slughorn volunteers: 'When I first met young Mr. Riddle, he was simply a quiet, albeit brilliant, boy committed to becoming a first-rate wizard. Not unlike the others I've known. In fact, not unlike... you.' He opens the subject of Riddle himself, unasked, and frames the comparison to Harry.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This inversion is damaging because it removes Slughorn's consistent, defining avoidance of all things Riddle-related. In the book, Slughorn's guilt and shame manifest as total silence on the subject; he will not go near it. The film's Slughorn raising Riddle voluntarily contradicts the psychological logic of his shame and makes his later refusal to give Harry the memory feel less deeply rooted and more arbitrary."
+    },
+    {
+      "scene": "Film Scene 22 (Slughorn's classroom, Harry's first attempt) \u2014 Harry mimics Riddle's exact approach to ask about Horcruxes",
+      "book_baseline": "Book scene 332 has Harry simply and directly ask 'Sir, I wondered what you know about... about Horcruxes?' after staying behind. Harry uses a straightforward approach, softened by the goodwill from the bezoar lesson, and Slughorn freezes and flees. The book version is a failed attempt that establishes the difficulty of the task.",
+      "film_portrayal": "Film Scene 22 has Harry deliberately mimic Riddle's exact phrasing and approach ('I was in the library the other night, in the Restricted section... something about a bit of rare magic... he's not like you, he might misunderstand'). Slughorn recognises the echo, explicitly says 'Dumbledore put you up to this,' and the attempt fails. The scene foregrounds Harry's calculation rather than his directness.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Having Harry deliberately echo Riddle's manipulation is a characterisation choice that sits awkwardly with the book's Harry, who succeeds with Slughorn ultimately through emotional honesty and Felix-guided instinct, not through calculated mimicry of Voldemort. It also slightly undermines the emotional logic of the Hagrid's hut scene, where Harry's sincerity is meant to be what finally breaks through."
+    },
+    {
+      "scene": "Film Scene 22 (Slughorn's classroom) \u2014 Slughorn's bezoar-lesson context is absent; no extended failed-attempt period shown",
+      "book_baseline": "Book scenes 332-415 show Harry making multiple failed attempts over weeks to get the memory: he tries after class, knocks on Slughorn's door twice, hears a gramophone through the door, and Slughorn actively avoids being alone with him. This extended failure period establishes the difficulty of the task and Slughorn's determination to avoid it.",
+      "film_portrayal": "The film compresses this to a single classroom attempt (Film Scene 22) and then the Ron love-potion visit (Film Scene 23-24), with Slughorn dodging Harry in a corridor moment (Film Scene 26). The texture of repeated failure over weeks is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The extended failure period in the book establishes that Slughorn's guilt is deep and his resistance is real \u2014 it is not merely shyness. The film's compression makes his eventual surrender feel less hard-won and reduces the dramatic weight of the Hagrid's hut scene as the culmination of a long campaign."
+    },
+    {
+      "scene": "Film Scene 28-30 (Greenhouse / Hagrid's hut) \u2014 Slughorn at greenhouse stealing Tentacula leaves replaces vegetable patch / twilight herb-picking scene",
+      "book_baseline": "Book scenes 456-460 show Slughorn collecting herbs with Professor Sprout at twilight for legitimate academic purposes (third-year lessons). Harry finds him there by Felix-guided instinct. Slughorn is engaged in ordinary professional activity and is surprised by Harry.",
+      "film_portrayal": "Film Scene 28 shows Slughorn furtively stealing Tentacula leaves from a greenhouse \u2014 leaves worth 'ten galleons a leaf to the right buyer.' He is caught in a petty, mildly corrupt act. Harry uses this to his advantage, leveraging Slughorn's embarrassment to engineer the walk to Hagrid's.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's choice to show Slughorn actively stealing (rather than legitimately collecting) deepens his venality at a moment when the narrative is about to ask the audience to feel emotionally moved by his guilt and his love for Lily. Having him caught pilfering just before the emotional climax of the film slightly cheapens his character. The book's Slughorn is self-serving but not petty-criminal; the distinction matters for the emotional register of what follows."
+    },
+    {
+      "scene": "Film Scene 30 (Hagrid's hut, night) \u2014 The 'Francis the fish' speech replaces Harry's direct account of his parents' deaths",
+      "book_baseline": "Book scenes 522-553 show Harry deliberately and emotionally recounting the night his parents died \u2014 his father stepping over, his mother refusing to move, Voldemort laughing \u2014 in order to break Slughorn's resistance. The approach is emotionally frontal: Harry uses Slughorn's love for Lily as a lever, and the guilt of the memory is invoked through the specific horror of what Harry tells him. Harry says explicitly 'Be brave like my mother.'",
+      "film_portrayal": "Film Scene 30 introduces 'Francis the fish' \u2014 a story Slughorn tells voluntarily about a fish Lily gave him as a gift, whose disappearance marked the day she died. This is a film invention. The emotional architecture shifts: Slughorn volunteers his grief first, then Harry says 'she died for you too' and 'be brave like my mother.' The dynamic is Slughorn opening himself rather than Harry forcing the opening.",
       "damage_type": "agency/function",
       "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is Harry's first demonstration that he can influence Slughorn through genuine engagement rather than celebrity. The book establishes Harry as an active agent in the recruitment, which sets up his later role in extracting the memory as a natural extension of that capability. The film reduces Harry to a passive lure, undermining the logic of why Harry specifically is needed to get the memory."
-    },
-    {
-      "scene": "Film Scene 17 - Slug Club dinner, post-party conversation about Voldemort",
-      "book_baseline": "Slughorn has no private post-party conversation with Harry about Voldemort in the book at this stage. The Horcrux memory extraction attempt happens much later, after sustained failed attempts, and is preceded by Harry's bezoar trick and the Felix Felicis sequence.",
-      "film_portrayal": "The film inserts an early private scene where Harry directly asks Slughorn about Voldemort/Tom Riddle after the first Slug Club dinner. Slughorn gives a carefully evasive but relatively composed answer about Riddle being 'a quiet, albeit brilliant boy.' This is a film invention that softens the dramatic stakes of the later Horcrux conversation.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "By giving Slughorn an early composed response to questions about Riddle, the film reduces the sense that the Horcrux memory is a uniquely traumatic secret he is desperately suppressing. It also compresses the arc of Harry gradually working his way toward the forbidden topic."
-    },
-    {
-      "scene": "Film Scene 22 - Harry's first direct Horcrux approach after Pensieve",
-      "book_baseline": "Harry's first attempt to get the memory is a disastrous, clumsy approach immediately after Potions class. He simply asks about Horcruxes directly. Slughorn freezes, turns white, sweats, accuses Dumbledore of putting Harry up to it, and then bellows 'WRONG!' before slamming the door. The failure is total and humiliating.",
-      "film_portrayal": "Harry's approach is more elaborate - he mimics Riddle's exact approach from the tampered memory, talking about finding something in the Restricted Section. Slughorn's reaction is fear and a quiet exit rather than the explosive, terrified bellowing of the book. The scene is more controlled and less viscerally panicked.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The book's version shows Slughorn's terror as raw and overwhelming - he literally shouts and slams a door. This visceral reaction communicates the depth of his guilt and shame. The film's quieter version slightly reduces the sense of how deeply this memory wounds him."
-    },
-    {
-      "scene": "Film Scene 23-24 - Ron's love potion / antidote scene",
-      "book_baseline": "When Harry brings Ron to Slughorn for the antidote, Slughorn is genial and helpful. After curing Ron, he produces the oak-matured mead and toasts Ron, getting his name wrong ('Ralph'). Harry sees an opportunity to soften Slughorn up for another memory attempt. The poisoning interrupts this plan. Slughorn is paralyzed by shock when Ron collapses - 'But Slughorn seemed paralysed by shock' - and Harry has to act entirely alone.",
-      "film_portrayal": "Largely faithful, but the film adds a line where Slughorn says 'I've always cherished my students. They're my life...' in the hospital wing afterward - a moment of self-exculpation not in the book. The paralysis during the poisoning is also rendered as Slughorn 'shuffling haplessly through his bag, mumbling, at a loss' which is consistent with the book.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The added 'They're my life' line in the hospital wing is a small piece of unearned self-redemption. In the book Slughorn says nothing of the sort - he simply sits stunned. The line softens his culpability in the poisoning incident slightly prematurely."
-    },
-    {
-      "scene": "Film Scene 28-30 - Felix Felicis / Hagrid's hut / memory extraction",
-      "book_baseline": "The book's extraction scene is a sustained, emotionally precise operation. Harry methodically gets Slughorn drunk, uses Felix Felicis to navigate the conversation, tells the story of his parents' deaths in clinical detail to break Slughorn down, invokes Lily directly and repeatedly, and delivers the key line: 'But you won't give me a memory. She gave me her life, but you won't give me a memory.' Slughorn's capitulation is preceded by his confession: 'I am not proud... I am ashamed of what that memory shows. I think I may have done great damage that day.' Harry also deliberately avoids drinking so he stays clear-headed.",
-      "film_portrayal": "The film version is emotionally effective but significantly compressed and altered. The fish/Francis story replaces the detailed account of James and Lily's deaths. Harry's speech is more declamatory and less surgically targeted - 'She died for everyone who's ever woken in the middle of the night afraid a Death Eater waited on their doorstep' is a film invention. Slughorn's confession of shame and the specific 'I think I may have done great damage' line is cut. The book's cold, calculated manipulation by Harry under Felix is replaced by a more straightforwardly emotional appeal.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The book version is crucial for two reasons: it shows Harry operating with cold, Felix-guided calculation - using his mother's death as a tool - which is morally complex and character-defining. And Slughorn's explicit acknowledgment that he 'may have done great damage' is the key confession of guilt that makes his shame comprehensible. The film's version is more conventionally heroic and less morally ambiguous, losing the unsettling quality of Harry's manipulation and Slughorn's specific self-knowledge about his culpability."
+      "explanation": "The Francis fish story is the film's most significant addition to Slughorn's characterisation. While it is emotionally effective, it structurally changes who bears the emotional agency in the scene. In the book, Harry is the active agent \u2014 he is deliberately, coldly deploying the story of his parents' murder as a tool, guided by Felix. In the film, Slughorn opens the wound himself. This softens both Harry's calculated ruthlessness (which is important to his character at this stage) and Slughorn's resistance (which cracks more from his own sentiment than from Harry's pressure). The book's version is more morally complex for both characters."
     },
     {
-      "scene": "Film Scene 19 - Christmas party, Malfoy gate-crashing",
-      "book_baseline": "When Filch brings Malfoy to the party, Slughorn waves it off and lets Malfoy stay, saying 'I did know your grandfather, after all.' Malfoy thanks him and flatters him about his grandfather's praise. Slughorn is tipsy and magnanimous. Harry observes Malfoy's oddly unhappy reaction to being let off.",
-      "film_portrayal": "Malfoy admits he was gate-crashing. Snape immediately steps in to escort him out, cutting off any interaction between Slughorn and Malfoy. Slughorn has no meaningful exchange with Malfoy at the party.",
+      "scene": "Film Scene 25 (Hospital wing) \u2014 'I've always cherished my students. They're my life' replaces Slughorn's paralysis and uselessness during the poisoning",
+      "book_baseline": "Book scenes 359-363 show Slughorn as 'paralysed by shock' and 'spluttering' while Ron convulses and turns blue. He is useless in the crisis \u2014 Harry has to act entirely on his own, sprinting to Slughorn's potions kit while Slughorn stands mouth agape. Afterward, 'Slughorn ran for help' is the extent of his contribution.",
+      "film_portrayal": "Film Scene 25 gives Slughorn the line 'I've always cherished my students. They're my life...' as an emotional beat in the hospital wing, framing him as a man of deep feeling. The film's hospital wing scene is generally warmer toward Slughorn.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book's version shows Slughorn's social instincts - he lets Malfoy stay out of connection to the grandfather, demonstrating his network-maintenance behavior even in a tense moment. The film loses this small but characteristic beat."
+      "explanation": "The book's Slughorn is genuinely useless in the poisoning crisis \u2014 a small but telling detail that shows the limits of his self-regard. His paralysis is not cruelty but a kind of self-protective shutdown that is consistent with his character. The film's warmer hospital wing framing, while not dishonest, softens this edge and begins the process of rehabilitating Slughorn slightly too early and too easily."
     },
     {
-      "scene": "Film Scene 5 - Great Hall announcement, Slughorn's introduction",
-      "book_baseline": "Slughorn stands up at the feast announcement, his 'bald head gleaming in the candlelight, his big waistcoated belly casting the table into shadow.' He is a physical presence at the staff table. The announcement of him as Potions master (not DADA) surprises Harry who had assumed otherwise.",
-      "film_portrayal": "Faithful in substance. No significant damage.",
+      "scene": "Film Scene 19 (Christmas party) \u2014 Malfoy gate-crash is handled by Snape alone; Slughorn's 'I did know your grandfather' moment is absent",
+      "book_baseline": "Book scenes 275-283 show Slughorn allowing Malfoy to stay at the party ('It's Christmas... we'll forget any punishment') and then saying 'I did know your grandfather, after all.' This is a specific character note: Slughorn's social reflexes override his better judgment, and he extends hospitality to Malfoy on the basis of family connections even at a moment when Malfoy's family is compromised.",
+      "film_portrayal": "In Film Scene 19, Malfoy admits he was gate-crashing and Snape immediately steps in: 'I'll escort him out.' Slughorn barely registers. The 'I did know your grandfather' line and Slughorn's social-reflex hospitality are absent.",
       "damage_type": "nuance/lost material",
-      "exposure": 0,
+      "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "No damage - scene is handled faithfully."
+      "explanation": "The small exchange with Malfoy at the party is a precise illustration of Slughorn's weakness: his network-reflex is so ingrained that he extends it even to Death Eater families at a wartime Christmas party. Its removal is a minor but real loss of the behavioural specificity that makes Slughorn's character so precisely observed."
     },
     {
-      "scene": "Film Scene 16 - Slug Club dinner, Slughorn's treatment of Ron",
-      "book_baseline": "In the book's train compartment Slug Club scene, Slughorn systematically ignores Ron throughout. Later when he invites Harry and Hermione to a supper, 'It was as though Ron was not present; Slughorn did not so much as look at him.' Ron's exclusion is a running motif that causes real social pain and resentment. Slughorn's snobbery about connections is explicit and consistent.",
-      "film_portrayal": "The film shows Slughorn calling Ron 'Wallenby' when leaving the Three Broomsticks, which is a comic beat. At the Slug Club dinner Ron is simply absent rather than pointedly excluded. The systematic social snubbing that characterizes Slughorn's treatment of Ron throughout the book is reduced to a single name-forgetting joke.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Slughorn's consistent, almost cruel indifference to Ron - who lacks useful connections - is a defining character trait that illustrates his values more sharply than almost anything else. Reducing it to a comic name-mix-up softens his snobbery into mere absent-mindedness and loses the sustained social dynamic that explains Ron's resentment."
+      "scene": "Film Scene 5 (Great Hall, feast) \u2014 Slughorn introduced without any independent characterisation moment",
+      "book_baseline": "By the time of the Hogwarts feast in the book, the reader has already spent a substantial scene with Slughorn at the house in Budleigh Babberton, seen him operate, and heard Dumbledore's analysis. The feast introduction is redundant characterisation.",
+      "film_portrayal": "The film's feast introduction (Slughorn stands, belly casting a shadow) is physically accurate but brief. However, the film lacks the train compartment scene (see above) that would have given the audience an independent view of Slughorn in action before he is framed by Dumbledore's commentary.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but this compounds the loss of the train scene: the audience's only substantial independent view of Slughorn operating as a social networker comes from the dinner party scene, which is more intimate and less revealing of his transactional coldness than the train compartment. The cumulative effect is a Slughorn who is warmer and less calculating than the book intends."
     },
     {
-      "scene": "Film - Absence of Slughorn avoiding Harry after first Horcrux attempt",
-      "book_baseline": "After Harry's failed first attempt, Slughorn stops inviting anyone to his parties and actively evades Harry - leaving dungeons fast, not answering his office door (though Harry hears a gramophone). This cat-and-mouse evasion lasts weeks and demonstrates Slughorn's intelligence and determination to avoid the topic. Harry is genuinely stymied.",
-      "film_portrayal": "The film shows one brief moment of Slughorn spotting Harry in a corridor and retreating (Scene 26), but the sustained weeks-long evasion campaign, the cancelled parties, the gramophone behind the closed door - all cut. The difficulty of getting to Slughorn is conveyed in a single visual gag.",
+      "scene": "Film \u2014 Slughorn's self-serving avoidance during the war (hiding in Muggle houses, refusing to commit) is not dramatised beyond the opening scene",
+      "book_baseline": "Book scenes 26-27, 53-57 establish Slughorn's moral position at length: he has been running for a year, using Freezing Charms on burglar alarms, squatting in Muggle houses, and refuses Hogwarts because he doesn't 'personally fancy the mortality rate.' Harry explicitly calls this out against the memory of Sirius living on rats in a cave. This cowardice is central to Slughorn's arc: his eventual bravery at the Battle of Hogwarts is meaningful because it contradicts his established character.",
+      "film_portrayal": "The opening scene establishes that Death Eaters have been trying to recruit Slughorn, but the full extent of his cowardly self-exile and Harry's contemptuous comparison to Sirius are absent. The film does not establish the depth of his prior moral failure.",
       "damage_type": "arc",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The sustained evasion establishes that Slughorn is not merely shy or embarrassed but actively, intelligently protecting himself. This makes his eventual capitulation more earned and demonstrates that Harry's Felix-assisted approach was genuinely necessary. The film's compression makes the obstacle feel minor."
+      "impact_weight": 3,
+      "explanation": "Slughorn's arc from cowardly self-preservation to fighting Voldemort alongside McGonagall and Kingsley requires the audience to understand how far he has come. The film establishes that he was hiding but not the sustained, calculated, self-serving nature of that hiding. When Slughorn fights in the Battle of Hogwarts (film), the contrast is less powerful because the baseline cowardice has not been fully established."
     },
     {
-      "scene": "Film - Absence of Slughorn's Slug Club train compartment scene",
-      "book_baseline": "On the Hogwarts Express, Slughorn hosts a lunch in his compartment for selected students. He interrogates each about their connections, dismisses Neville as unproven, is fascinated by Zabini's mother, probes Harry about the Ministry battle and the prophecy, and is charmed by Ginny's Bat-Bogey Hex. This scene establishes his collector mentality in action, his political intelligence, and his social dynamics with the sixth-year cohort.",
-      "film_portrayal": "The train compartment scene is entirely absent. The Slug Club is introduced only through the dinner party scene at Hogwarts.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The train scene is the fullest demonstration of Slughorn's 'spider' behavior - the systematic assessment and sorting of students by their usefulness. Its absence means the film never shows Slughorn operating his network in real time, only the social results of it. His collector mentality is told rather than shown."
+      "scene": "Film \u2014 Slughorn fighting Voldemort (Battle of Hogwarts) is present in the book corpus (book scenes 658, 661) but the film corpus does not include the battle sequence",
+      "book_baseline": "Book scenes 658 and 661 show Slughorn duelling Voldemort alongside McGonagall and Kingsley, and being blasted backward when Voldemort's fury explodes at Bellatrix's death. This is the payoff of his arc: the self-serving coward stands and fights.",
+      "film_portrayal": "The film corpus provided does not include the Battle of Hogwarts sequence, so this cannot be scored directly. However, the absence of the established cowardice baseline (see above) means that even if the battle moment is present in the film, it carries less weight.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The incomplete establishment of Slughorn's cowardice early in the story means his climactic courage in the battle \u2014 which is the resolution of his character arc \u2014 is narratively underprepared. This is a structural damage to his arc even if the beat itself is present in the film."
     }
   ],
   "confidence": {
@@ -119,8 +155,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 660.0,
-  "adjusted_cids_v1": 825.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

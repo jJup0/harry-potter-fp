@@ -1,0 +1,25 @@
+{
+  "character": "Bane",
+  "fp_score": 40.0,
+  "infidelity_score": 60.0,
+  "weighted_infidelity_exposure": 0,
+  "cids": 0.0,
+  "damage_per_exposure": 0,
+  "structural_damage_level": 1,
+  "adjusted_cids": 0.0,
+  "main_damage_causes": [
+    "The film corpus provided contains no scenes featuring Bane whatsoever \u2014 the two film scenes cover Snape's first potions class/flying lesson (PS/SS) and a Slug Club dinner (HBP), neither of which involves Bane",
+    "Without any film depiction of Bane in the provided corpus, there is no unfaithful portrayal to score \u2014 absence of a character from the corpus cannot be treated as evidenced damage under the anti-hallucination rules",
+    "The book corpus establishes Bane clearly across PS, OotP, and DH, but with no corresponding film corpus material to compare against, no divergence entries can be substantiated"
+  ],
+  "damaging_scenes": [],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "Low",
+    "impact_assessment": "Low"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

@@ -2,70 +2,61 @@
   "character": "Madam Rosmerta",
   "fp_score": 68.0,
   "infidelity_score": 32.0,
-  "weighted_infidelity_exposure": 23.5,
-  "cids": 203.0,
-  "damage_per_exposure": 23.9,
-  "structural_damage_level": 3,
-  "adjusted_cids": 203.0,
+  "weighted_infidelity_exposure": 14,
+  "cids": 156.3,
+  "damage_per_exposure": 26.0,
+  "structural_damage_level": 2,
+  "adjusted_cids": 156.3,
   "main_damage_causes": [
-    "Rosmerta's agency as the curious, question-driving civilian voice in the PoA pub scene is transferred to the teachers, reducing her from a narrative engine to a reactive audience member",
-    "Her warm personal history with the Marauders is cut, removing the emotional grounding that makes her defence of Sirius and her later shock meaningful",
-    "Her entire HBP arc as an Imperius victim with direct plot function in the assassination attempts is absent, eliminating her only major narrative role across the saga"
+    "Compression of Rosmerta's extensive participatory role in the Three Broomsticks exposition scene into a near-silent reactive presence, stripping her of the curious, emotionally engaged voice that defines her in the books",
+    "Loss of Rosmerta's warm personal nostalgia for the Marauders generation (the 'double act' line and related recollections), which erodes her credibility as a community witness and her emotional connection to the central tragedy",
+    "Removal of Rosmerta's catalytic questioning function \u2014 particularly regarding the Fidelius Charm, Black's sanity, and his intent to rejoin Voldemort \u2014 which costs both her agency in the scene and significant thematic/expository material for the wider saga"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Rosmerta confronts Fudge outside the pub",
-      "book_baseline": "In the book the conversation happens inside the Three Broomsticks at a table; Rosmerta serves drinks, participates as a curious and warm host, and the children overhear from under the table. The setting is intimate and accidental.",
-      "film_portrayal": "The conversation begins outside in the street, with Rosmerta as a passive recipient being led inside by Fudge. The accidental eavesdropping setup is replaced by Harry actively following them upstairs into a back room.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 1 (Three Broomsticks exterior) \u2014 conversation moved outside/upstairs",
+      "book_baseline": "In the book, the Hogsmeade conversation takes place inside the Three Broomsticks at a table. Harry, Ron, and Hermione are already seated inside; the teachers and Rosmerta sit at a nearby table. Rosmerta serves drinks, participates in the conversation at length, and interacts naturally as the landlady in her own pub environment. The eavesdropping dynamic is Harry hidden under the table.",
+      "film_portrayal": "The film moves the initial encounter to outside the pub, then relocates the key conversation to a small private back room upstairs, with Rosmerta leading Fudge and McGonagall there. Harry eavesdrops through a window rather than from under a table. Rosmerta becomes a conduit who ushers the adults into a private space rather than a host participating organically in her public house.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The shift in setting is minor but removes the organic, incidental quality of the book scene. Rosmerta loses her role as the natural host of the space; instead she is led around by Fudge. Low damage overall."
+      "impact_weight": 2,
+      "explanation": "The book establishes Rosmerta as a confident, sociable landlady who is very much at home holding court in her own busy pub. Moving the scene to a private back room strips away that context and reduces her to a passive guide rather than an active, comfortable presence in her own domain. Her authority and ease in her own establishment are diminished."
     },
     {
-      "scene": "Film Scene 2 - Rosmerta defends Sirius aggressively and dismissively",
-      "book_baseline": "In the book Rosmerta expresses genuine surprise and difficulty believing Sirius turned dark ('I still have trouble believing it... I'd have said you'd had too much mead'). She is curious, emotionally engaged, and asks probing questions throughout - she drives much of the conversation forward with her interest.",
-      "film_portrayal": "Rosmerta opens by flatly dismissing the Ministry's account as 'rot' and 'hearsay', citing the Daily Prophet and asserting Black would never have gone dark. She is combative and declarative rather than curious and emotionally conflicted.",
+      "scene": "Film Scene 2 (card room conversation) \u2014 Rosmerta's skepticism reframed as aggressive dismissal",
+      "book_baseline": "In the book (Scene 25), Rosmerta expresses measured, thoughtful skepticism: 'I still have trouble believing it... Of all the people to go over to the Dark Side, Sirius Black was the last I'd have thought... If you'd told me then what he was going to become, I'd have said you'd had too much mead.' Her doubt is personal, reflective, and rooted in genuine memory of Black as a boy. She also asks curious, engaged follow-up questions throughout, showing she is actively processing the information.",
+      "film_portrayal": "The film condenses and sharpens Rosmerta's skepticism into a blunter, more combative speech: 'I've heard this rot. It was all over The Daily Prophet back in the day. And I'll say now what I said then: Of all the boys I ran out of here, Black's the last who would've gone over to the dark side. Hearsay. That's all the Ministry had. Hearsay.' The word 'rot' and the reference to running boys out of the pub gives her a harder, more dismissive edge, and her position reads as entrenched cynicism about the Ministry rather than genuine personal grief or confusion.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Rosmerta is warm, curious, and emotionally nuanced - she finds it hard to believe but is open to being persuaded. The film turns her into a skeptic who lectures the Ministry. This flattens her personality and removes the emotional texture of her disbelief."
+      "explanation": "The book's Rosmerta is warm, curious, and emotionally conflicted \u2014 she remembers Black fondly and is genuinely struggling to reconcile that with what she's being told. The film version is sharper and more adversarial, projecting political skepticism of the Ministry rather than personal attachment and sorrow. This flattens her characterization from emotionally nuanced community figure to a cynical critic, losing the warmth that makes her memorable."
     },
     {
-      "scene": "Film Scene 2 - Rosmerta's role as conversation driver is stripped",
-      "book_baseline": "Rosmerta asks a long series of questions that structure the entire exposition: about the Fidelius Charm, about Black being Secret-Keeper, about Pettigrew, about whether Black is mad, about his plans. She is the engine of the scene, drawing out information through genuine curiosity.",
-      "film_portrayal": "Rosmerta asks only two short questions ('What could be worse?' and 'Peter Pettigrew?'). McGonagall and Fudge carry almost all the dialogue. Rosmerta is reduced to a reactive audience member.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 2 (card room conversation) \u2014 loss of Rosmerta's extended curious questioning and emotional engagement",
+      "book_baseline": "The book gives Rosmerta a substantial participatory role across many exchanges: she asks about the Fidelius Charm ('How does that work?'), gasps at Dumbledore's suspicion of Black ('He suspected Black?'), breathlessly follows the Secret-Keeper revelation ('So Black was the Potters' Secret-Keeper?'), reacts with satisfaction to Black's capture ('But he didn't manage to disappear, did he?'), and finally asks with concern whether Black is mad and whether he's trying to rejoin Voldemort. Her arc across the conversation moves from disbelief to horror to grim acceptance to anxiety. She is a genuine co-narrator of the scene.",
+      "film_portrayal": "The film drastically compresses Rosmerta's role in the conversation. After her initial skeptical speech, she asks only 'Peter Pettigrew?' and 'What could be worse?' before the scene ends. The rich sequence of questions \u2014 about the Fidelius Charm, Dumbledore's suspicions, Black's mental state, and his future plans \u2014 is entirely absent. McGonagall and Fudge carry the exposition with Rosmerta reduced to a reactive audience member.",
+      "damage_type": "nuance/lost material | personality/voice",
       "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "Rosmerta's function in the book scene is substantial - she is the curious civilian voice that draws out the full backstory for the reader. Stripping her questions transfers her narrative agency to the teachers and significantly diminishes her presence and purpose in the scene."
-    },
-    {
-      "scene": "Film Scene 2 - Rosmerta's personal memory of Sirius and James is cut",
-      "book_baseline": "Rosmerta recalls Sirius and James warmly: 'Never saw one without the other... they used to make me laugh. Quite the double act, Sirius Black and James Potter!' This establishes her as someone with genuine personal history with the Marauders and gives the scene emotional weight.",
-      "film_portrayal": "This memory is entirely absent. Rosmerta has no personal recollection of Sirius and James as a pair. Her connection to that era is not established.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The personal memory humanises Rosmerta and deepens the tragedy of Sirius's apparent betrayal. Its absence makes her defence of Sirius feel abstract and political rather than rooted in lived experience, weakening both her characterisation and the emotional resonance of the scene."
+      "explanation": "Rosmerta's sustained, curious engagement in the book marks her as an intelligent, informed community figure with genuine emotional investment in the story of the Potters and Black. Her questions also serve a narrative function, drawing out exposition naturally. Cutting this material collapses her from a co-narrator to a near-silent bystander, significantly reducing her presence and character texture in the scene that is her most important in the saga."
     },
     {
-      "scene": "Film Scene 2 - Rosmerta's reaction to learning Harry is Sirius's godfather",
-      "book_baseline": "In the book this revelation is not the closing beat of the scene for Rosmerta; she continues asking questions after it, including about whether Black is mad and what he plans to do. The godfather detail is one of several revelations she absorbs.",
-      "film_portrayal": "The godfather revelation is the final dramatic beat of the scene and Rosmerta's last word is simply 'Harry' - a single stunned utterance. The scene ends there for her.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor compression. The film uses Rosmerta as a vehicle for audience reaction rather than a character with her own ongoing curiosity. Small damage but consistent with the broader pattern of reducing her to a reactive presence."
+      "scene": "Film Scene 2 (card room) \u2014 removal of Rosmerta's nostalgic recollection of Black and Potter as a 'double act'",
+      "book_baseline": "Book Scene 30 contains one of Rosmerta's most characterful and emotionally resonant lines: 'Never saw one without the other, did you? The number of times I had them in here -- ooh, they used to make me laugh. Quite the double act, Sirius Black and James Potter!' This line establishes her as someone with a real, warm personal history with the Marauders generation, gives her credibility as a witness, and deepens the tragedy of Black's betrayal. It is also the line that causes Harry to drop his tankard.",
+      "film_portrayal": "This line and the entire nostalgic recollection of Black and James Potter as a double act is absent from the film corpus. The film proceeds directly to the godfather revelation without this emotional setup. Harry's tankard-dropping moment (a key beat of Harry's shock) is also not present in the film corpus as a consequence.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This line does double duty: it enriches Rosmerta as a character with genuine ties to the Marauders era and it sets up Harry's emotional shock at learning Black was his father's best friend. Its removal weakens both Rosmerta's depth as a community witness and the emotional impact of the godfather revelation on Harry. It also severs Rosmerta's personal connection to the people at the heart of the story."
     },
     {
-      "scene": "Film - Rosmerta's HBP role entirely absent",
-      "book_baseline": "In HBP Rosmerta has a significant arc: she is placed under the Imperius Curse by Malfoy, used to pass the cursed necklace to Katie Bell and poison the mead intended for Dumbledore, tips Malfoy off when Dumbledore leaves school, and is present on the street when Harry and Dumbledore return. Dumbledore himself deduces her involvement with compassion ('poor Rosmerta'). Harry then informs McGonagall of her curse. She is a victim with real plot function.",
-      "film_portrayal": "This entire arc is absent from the film corpus provided. Rosmerta does not appear in the HBP film material shown.",
-      "damage_type": "arc",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "Rosmerta's HBP role is her most dramatically significant appearance in the entire series. Her victimisation under Imperius, her unwilling complicity in two near-murders, and her presence at the climactic return to Hogsmeade are all lost. This removes her only real narrative arc and eliminates her from the plot mechanics of HBP entirely."
+      "scene": "Film Scene 2 (card room) \u2014 removal of Rosmerta's follow-up about Black's sanity and his plan to rejoin Voldemort",
+      "book_baseline": "Book Scenes 51\u201355 show Rosmerta asking 'Is it true he's mad, Minister?' and then 'But what do you think he's broken out to do? Good gracious, Minister, he isn't trying to rejoin You-Know-Who, is he?' These questions show her as alert to the larger political and magical threat, not just the local danger, and they prompt Fudge's key expository answer about Voldemort's potential return \u2014 crucial thematic material for the saga.",
+      "film_portrayal": "The film ends the conversation at the godfather revelation with no equivalent of Rosmerta's questions about Black's sanity or his intent to rejoin Voldemort. This expository and thematic material is absent.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Rosmerta's questions in this part of the book serve a structural function: they extract from Fudge the admission that Voldemort's return is feared, planting a saga-level seed. By not asking these questions, the film loses both Rosmerta's role as a narrative catalyst and a significant piece of thematic foreshadowing about Voldemort's potential resurgence. Her function as an audience surrogate drawing out crucial information is eliminated."
     }
   ],
   "confidence": {
@@ -74,8 +65,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 752.0,
-  "adjusted_cids_v1": 940.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

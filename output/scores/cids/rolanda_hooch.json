@@ -2,53 +2,61 @@
   "character": "Rolanda Hooch",
   "fp_score": 80.0,
   "infidelity_score": 20.0,
-  "weighted_infidelity_exposure": 10.5,
-  "cids": 88.1,
-  "damage_per_exposure": 19.6,
-  "structural_damage_level": 2,
-  "adjusted_cids": 88.1,
+  "weighted_infidelity_exposure": 5.0,
+  "cids": 58.2,
+  "damage_per_exposure": 19.4,
+  "structural_damage_level": 1,
+  "adjusted_cids": 58.2,
   "main_damage_causes": [
-    "Competence and composure undermined in her most prominent scene (Neville's accident), replacing authoritative control with flustered slapstick",
-    "Active refereeing function gutted across the Quidditch match, removing her role as the disciplinary authority of the sport",
-    "Dry, precise instructional voice flattened into generic background teacher, losing the small character details that distinguish her"
+    "Loss of professional competence and physical authority: the dive-away moment in the film replaces book-Hooch's commanding presence with an image of self-preservation, undermining her hawk-like, authoritative characterization.",
+    "Reduction of on-pitch refereeing agency: the film removes Hooch's active rule-enforcement (confronting Flint, ordering penalties) and leaves her as a ceremonial figure, diminishing her functional role in the Quidditch scenes.",
+    "Suppression of personality nuance: small characterizing beats \u2014 correcting Malfoy's grip, showing warmth toward Neville while simultaneously threatening the class \u2014 are dropped, leaving the film's Hooch as a functional extra rather than a distinct personality."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1-2 \u2013 Neville's flying accident",
-      "book_baseline": "Hooch shouts 'Come back, boy!' and rushes to Neville after he falls, bending over him with a face 'as white as his', gently saying 'it's all right, up you get', then firmly warns the class with her arm around Neville as she leads him away. She is authoritative, composed under pressure, and genuinely caring.",
-      "film_portrayal": "Hooch stutters and stumbles over Neville's name ('M-M-M-Mr. Longb-!') while he careens wildly, dives out of the way to avoid being hit, and is largely reactive and flustered throughout. She does not catch or meaningfully help Neville \u2014 he saves himself by catching on a torch. Her composure and competence are undercut.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
+      "scene": "Film Scene 1 \u2014 Neville's flying accident: Hooch dives out of the way instead of attempting to stop Neville",
+      "book_baseline": "Book Scene 12-13: Madam Hooch shouts 'Come back, boy!' and then bends over the fallen Neville immediately, her face 'as white as his,' showing genuine concern and professional care. She is in command throughout, attending to Neville with urgency.",
+      "film_portrayal": "Film Scene 1: When Neville careens back toward the group, Madam Hooch physically dives out of the way to avoid being hit, allowing Neville to fly through the scattered students. She does not attempt to intervene magically or physically to stop or redirect him.",
+      "damage_type": "agency/function",
+      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book establishes Hooch as a sharp, hawk-eyed professional who takes charge instantly. The film turns the same scene into slapstick at her expense, making her look incompetent and flustered rather than authoritative. Her defining trait \u2014 calm command of the air \u2014 is damaged in her most prominent scene."
+      "explanation": "In the book, Hooch is firmly in control \u2014 shouting commands, attending to the injured boy, and radiating professional authority. The film reduces her to a bystander who saves herself rather than the student, undercutting her competence and the authoritative, hawk-like presence the book establishes. It is a brief but clear trait alteration."
     },
     {
-      "scene": "Film Scene 1 \u2013 'With feeling!' line during 'Up!' exercise",
-      "book_baseline": "Hooch walks up and down the rows correcting grips and technique; she is a precise, no-nonsense instructor. She also pointedly tells Malfoy he has been doing it wrong for years, which delights Harry and Ron.",
-      "film_portrayal": "Hooch's only instructional interjection is a light 'With feeling!' to students struggling with 'Up!' The correction of Malfoy's grip \u2014 a small but characterful moment showing her impartiality and dry authority \u2014 is absent.",
+      "scene": "Film Scene 1 \u2014 Hooch's warning before leaving with Neville: tone and wand use absent",
+      "book_baseline": "Book Scene 15: Hooch gives a firm, commanding threat to the entire class \u2014 'None of you is to move while I take this boy to the hospital wing! You leave those brooms where they are or you'll be out of Hogwarts before you can say Quidditch' \u2014 and she has her arm around Neville, demonstrating both authority and warmth simultaneously.",
+      "film_portrayal": "Film Scene 2: The film delivers a functionally similar warning ('Everyone's to keep their feet firmly on the ground... if I see a single broom in the air, the one riding it will find themselves out of Hogwarts before they can say Quidditch') but strips the physical gesture of care \u2014 the arm around Neville \u2014 and the scene cuts away before any warmth is conveyed. The delivery is clipped and perfunctory.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of a moment that showed Hooch's impartiality and dry wit. The 'With feeling!' replacement is breezy rather than authoritative, softening her edge slightly, though the overall scene still functions."
+      "explanation": "A minor loss: the book's Hooch combines disciplinary sharpness with genuine maternal care for Neville in the same moment. The film keeps the threat but loses the warmth, flattening her into a one-note authority figure. Low severity but a real reduction in characterization depth."
     },
     {
-      "scene": "Film Scene 3-4 \u2013 First Quidditch match refereeing",
-      "book_baseline": "Hooch referees actively throughout: she speaks directly to Flint about fouls, orders free shots, zooms between players to break up fights, shrieks penalties at specific offenders by name, and is a constant disciplinary presence managing a dirty game.",
-      "film_portrayal": "Hooch's refereeing is reduced to releasing the balls, saying 'Now I want a nice clean game from all of you', blowing her whistle when Harry catches the Snitch, and announcing 'Gryffindor wins!' She does not intervene in any foul play; the dirty Slytherin tactics go unchallenged on screen.",
+      "scene": "Film Scene 1 \u2014 Hooch does not correct Malfoy's grip or mock him for prior errors",
+      "book_baseline": "Book Scene 10: 'Harry and Ron were delighted when she told Malfoy he'd been doing it wrong for years.' This establishes Hooch as someone with no favoritism toward Slytherin \u2014 she is sharp-eyed, experienced, and willing to puncture Malfoy's arrogance with professional authority.",
+      "film_portrayal": "Film Scene 1: Hooch gives general instructions and reacts to Neville's crisis, but there is no moment of correcting Malfoy's grip or deflating his smugness. Malfoy's self-assurance goes unchallenged by Hooch.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but characterizing beat is lost. The book's Hooch is impartial and quietly enjoys deflating arrogance. Without this, the film's Hooch has no moment of personality beyond functional instruction-giving. The loss is minor in isolation but contributes to a thinner overall characterization."
+    },
+    {
+      "scene": "Film Scene 3/4 \u2014 First Quidditch match: Hooch's role reduced to whistle-blowing with no refereeing authority shown",
+      "book_baseline": "Book Scenes 22, 25: Hooch referees with clear authority \u2014 she 'spoke angrily to Flint and then ordered a free shot at the goal posts for Gryffindor' after a foul. She is an active, vocal disciplinarian on the pitch, not merely a starter.",
+      "film_portrayal": "Film Scenes 3-4: Hooch's on-pitch role is limited to releasing the balls, blowing the whistle to start the game ('Now, I want a nice, clean game from all of you!'), and blowing her whistle when Harry catches the Snitch and announcing 'Gryffindor wins!' The film shows no moment of Hooch intervening over fouls, speaking angrily to Flint, or ordering penalties. Flint's foul on Angelina Johnson (boxing her into a tower) goes unaddressed by Hooch on screen.",
       "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "In the books Hooch is the active moral and disciplinary authority of every match \u2014 she penalises fouls, confronts captains, and physically intervenes. The film strips this function almost entirely, reducing her to a ceremonial starter and finisher. Her role as the impartial enforcer of fair play, which recurs across multiple books, is invisible here."
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Hooch is an active referee who enforces the rules and confronts Flint directly \u2014 a function that reinforces her authority and impartiality. The film reduces her to a ceremonial starter and finisher, removing her disciplinary agency during the match itself. Given that refereeing is her primary plot function in this scene, this is a meaningful reduction."
     }
   ],
   "confidence": {
     "global": "High",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 210.0,
-  "adjusted_cids_v1": 231.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

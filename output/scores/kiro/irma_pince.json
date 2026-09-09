@@ -1,20 +1,96 @@
 {
   "character": "Irma Pince",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 14.0,
+    "motivations_internal_conflict": 12.0,
+    "character_arc": 14.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 10.0,
+    "total": 75.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 18,
+      "narrative_role_agency": 14,
+      "motivations_internal_conflict": 12,
+      "character_arc": 14,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 10,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Madam Pince is established through repeated, consistent behavioral patterns across multiple novels. She is described physically as 'thin, irritable' and 'like an underfed vulture,' with 'sunken cheeks,' 'skin like parchment,' and a 'long hooked nose.' Her dominant traits are extreme territorial protectiveness over her books, chronic suspicion of students, and a hair-trigger temper. She interrogates students ('What are you looking for, boy?'), drives them out without cause ('You'd better get out, then. Go on -- out!'), holds notes up to the light to detect forgeries, 'stalks' between shelves, extinguishes lamps to chase students out, and \u2014 most dramatically \u2014 uses her wand to make Harry's books and bag chase and whack him out of the library when she finds chocolate near them. Her voice and manner are consistently hostile, bureaucratic, and contemptuous. She also has a comic undertone: the aside that she and Filch might be 'secretly in love' gives her a faint grotesque-romantic dimension. She 'prowls the aisles menacingly, breathing down the necks of those touching her precious books' and squeaks slightly as she walks.",
+          "film_portrayal": "In the film corpus, Madam Pince appears in only two meaningful moments. In Chamber of Secrets (Film Scene 2), she is referenced indirectly: Ron relays her message to Hermione in the hospital wing \u2014 'Madam Pince asked that we relay a message to you, Hermione: She'd appreciate it if you'd leave a few books for the rest of the school.' In Film Scene 2 (the library scene in CoS), she is briefly shown at her desk and described only in the stage direction as someone Harry notices eyeing him from her desk. In the Half-Blood Prince film corpus (Scene 3), she does not appear at all. The corpus provides no direct film dialogue from Pince herself and no active scene in which her personality is expressed through her own behavior.",
+          "difference": "The core personality traits \u2014 aggressive territorial protectiveness, suspicion, hostility, the vulture-like physical presence, the capacity for dramatic punitive action \u2014 are established in the books through repeated direct scenes. The film corpus contains no scene where Pince herself speaks, acts, or displays these traits directly. The single reference to her (the relayed message about books) is broadly consistent with her character \u2014 it implies she complained about Hermione borrowing too many books \u2014 but it is a secondhand account delivered by Ron, not a direct portrayal. The vivid behavioral texture (wand-chasing students, holding notes to the light, stalking aisles, squeaking shoes) is entirely absent from this film corpus.",
+          "penalty_logic": "The personality conveyed by the indirect reference is not wrong \u2014 it is plausibly consistent with book Pince. However, the corpus provides no direct evidence of her voice, behavior, or emotional tone in the films. The relayed message preserves one surface trait (possessiveness over books) but does not constitute a full portrayal of her personality. Per the scoring rubric, the main personality is preserved in outline but there is significant loss of secondary traits, tone, and behavioral texture. A score in the 18\u201322 range is appropriate: the trait that is shown is correct, but most of her defining voice and manner is absent from this corpus. Score: 18.",
+          "evidence_status": "Directly evidenced (book baseline across multiple scenes); Reasonably inferred for film (the relayed message implies book-consistent protectiveness, but her actual voice and behavior are not shown in this corpus)."
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Pince serves several consistent narrative functions: (1) she is an environmental obstacle \u2014 her presence prevents characters from researching freely, raises stakes of library scenes, and forces characters to be covert; (2) she is a gatekeeper of restricted knowledge \u2014 she must be shown signed notes, she controls access to restricted section books, and she can help or obstruct research; (3) she occasionally provides mild comic relief through her extreme reactions; (4) she is a minor atmospheric anchor for the library as a dangerous, policed space. She has limited but real agency: she drives Harry out, she evaluates Lockhart's note, she extinguishes lamps to end research sessions, she wields her wand against students who violate library rules. She also plays a small but noted role at Dumbledore's funeral, standing beside Filch in a black veil.",
+          "film_portrayal": "In the film corpus, Pince's narrative function is reduced to a single indirect reference (Ron relaying her complaint about books) and one visual appearance at her desk in a library scene where she is not described as doing anything consequential. She does not act as a gatekeeper, does not obstruct research, does not appear as an active environmental presence. Her funeral appearance is not evidenced in the film corpus provided.",
+          "difference": "The environmental obstacle and gatekeeper functions are not demonstrated in this corpus. The one moment where she is referenced is consistent but passive \u2014 her complaint is relayed through Ron rather than enacted directly. She does not drive anyone out, evaluate notes, restrict access, or otherwise exercise the minor but real agency she has in the books.",
+          "penalty_logic": "Her role is recognizable in principle \u2014 the relayed complaint implies she still monitors book borrowing \u2014 but her active gatekeeper and obstacle functions are absent from this corpus. Per the rubric, role and agency are reduced but recognizable. Score: 14.",
+          "evidence_status": "Directly evidenced (book role across multiple scenes); Not enough evidence to confirm or deny full film role from this corpus alone."
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Pince's motivations in the books are simple but consistent: an intense, almost pathological attachment to the library's books as objects to be protected from students. This manifests as suspicion (assuming students will damage or steal), territoriality (enforcing closing times, demanding notes), and punitive action (chasing students out with bewitched objects). There is no significant internal conflict \u2014 her motivation is one-dimensional but clearly established. The comic hint of a romantic attachment to Filch adds a faint personal dimension but is not developed.",
+          "film_portrayal": "The relayed message ('She'd appreciate it if you'd leave a few books for the rest of the school') is consistent with the same motivation \u2014 possessiveness over the library's collection. No internal conflict is shown, which is consistent with the books where none exists meaningfully.",
+          "difference": "The motivation is consistent with what the books establish. No change is detectable. The simplicity of her motivation means there is not much to lose here.",
+          "penalty_logic": "The motivation preserved in the film reference matches the book baseline. The simplicity means this dimension is inherently limited in scope. A score of 12 reflects that the motivation is consistent but the evidence is too thin to score higher with confidence. Score: 12.",
+          "evidence_status": "Reasonably inferred for both book and film; the motivation is consistent but the film corpus is too limited to confirm fully."
+        },
+        "character_arc": {
+          "book_baseline": "Pince has no character arc across the series. She is intentionally flat \u2014 the same irritable, book-protective librarian in book 1 as in book 6. The one slight development is the hint in HBP that she may have a personal relationship with Filch, and her appearance at Dumbledore's funeral in a black veil. These are not arc developments but texture additions. A flat arc, if intentionally flat, should not be penalized.",
+          "film_portrayal": "The corpus provides no evidence of any change or development, which is consistent with a flat arc.",
+          "difference": "No arc in the books; no arc in the films. This is consistent.",
+          "penalty_logic": "Per the scoring rule, a character whose arc is flat in the books and flat in the films scores full points. Score: 14.",
+          "evidence_status": "Directly evidenced (book baseline consistently flat across all corpus scenes; film corpus consistent with this)."
+        },
+        "key_relationships": {
+          "book_baseline": "Pince's most notable relationship in the books is her dynamic with students \u2014 specifically as an authority figure defined by hostility and suspicion toward them. The books also plant a comic suggestion (treated as school gossip by Harry and Hermione) that she and Filch may be 'secretly in love.' This is not developed narratively but gives her a minor relational texture. Her relationship with Filch \u2014 two bitter, rule-obsessed servants of the school \u2014 is tonally coherent. She also has a functional relationship with teachers, accepting signed notes from them as validation for restricted access.",
+          "film_portrayal": "No direct relationship dynamic with any character is shown in the film corpus. The relayed message involves Ron passing on her words to Hermione, which is not a direct relationship scene. The Filch connection is not evidenced in this corpus.",
+          "difference": "The Filch relationship and the student-hostility dynamic are not shown in the film corpus. The note-authority relationship with teachers is also absent.",
+          "penalty_logic": "The relationships are not present in the film corpus, but for a very minor character, their absence is partly a function of reduced presence rather than active alteration of the dynamic. What little is shown (possessiveness toward students' use of books) is directionally consistent with the book dynamic. However, the Filch connection \u2014 a small but humanizing note in the books \u2014 is entirely absent from this corpus. Score: 7.",
+          "evidence_status": "Directly evidenced in books; Not enough evidence from film corpus."
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Pince is not a complex character, but the books give her specific texture: the vulture-like physicality, the wand-wielding punitive action against students who bring food near books, the shoe squeak as she patrols, the way she holds notes to the light suspecting forgery, the closing-time ritual of extinguishing lamps, and the comedy of the Filch romantic speculation. These details create a vivid minor character who is more than just 'strict librarian.' Her appearance at Dumbledore's funeral in a thick black veil is a small but humanizing detail suggesting she had genuine feeling for Dumbledore or the institution.",
+          "film_portrayal": "None of this texture is present in the film corpus. The single reference reduces her to her most basic trait (book possessiveness) without any of the behavioral specificity, physical description, or comic dimension.",
+          "difference": "The punitive wand use, the forgery-suspecting note inspection, the closing-time lamp extinguishing, the shoe squeak, the Filch speculation, and the funeral appearance are all absent from this corpus. What remains is one surface-level consistent trait delivered secondhand.",
+          "penalty_logic": "For a minor character, the standard is not to penalize merely for less material unless it changes characterization. The material that is present is consistent, not contradictory. However, the removal of the behavioral specificity that makes her a vivid minor character \u2014 particularly the wand-chasing scene which is her most memorable and defining book moment \u2014 represents a real loss of nuance. The character is reduced to a name and a single implied trait rather than a living minor presence. Score: 10.",
+          "evidence_status": "Directly evidenced in books; film corpus too limited for full assessment."
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Medium",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Pince's wand-chasing scene (HBP, chasing Harry and Ginny out of the library for bringing chocolate) \u2014 her most dramatically vivid book moment \u2014 is absent from the film corpus",
+        "Physical description as 'underfed vulture' / 'shrivelled face' / 'skin like parchment' / shoe-squeaking patrol \u2014 atmospheric texture absent from film corpus",
+        "Scene of Pince holding Lockhart's signed note up to the light to detect forgery \u2014 gatekeeper function not shown",
+        "Pince extinguishing lamps to force Harry out of the library during Triwizard research \u2014 active obstacle function absent",
+        "Pince's appearance at Dumbledore's funeral in a thick black veil beside Filch \u2014 humanizing detail absent from film corpus",
+        "Comic speculation by Harry and Hermione that Pince and Filch may be secretly in love \u2014 relational texture absent"
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Madam Pince is a minor recurring character whose book portrayal is defined less by plot importance than by consistent behavioral texture: the vulture-like physicality, the punitive wand use, the forgery-suspecting gatekeeping, and the comic Filch relationship hint. The film corpus provides almost no direct portrayal \u2014 a single relayed secondhand complaint and one background visual appearance. The one piece of film evidence is directionally consistent with her book characterization (book possessiveness intact), preventing a lower score, but the vivid behavioral specificity that makes her a memorable minor character is entirely absent. Confidence is Medium overall because the character is minor enough that her limited film presence is partly expected, but the corpus is too thin to fully assess whether her characterization was actively altered or merely compressed. The score of 75 reflects a character whose core trait survives in outline form but whose defining texture, agency, and relational dimension are unconfirmed or absent in the available film material.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 12990,
+        "film_chars_sent": 160707,
+        "aliases": [
+          "Madam Pince",
+          "Pince"
+        ],
+        "corpus_version": "1"
       }
     }
   },

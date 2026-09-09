@@ -2,97 +2,106 @@
   "character": "Rufus Scrimgeour",
   "fp_score": 60.0,
   "infidelity_score": 40.0,
-  "weighted_infidelity_exposure": 51,
-  "cids": 342.0,
-  "damage_per_exposure": 21.4,
+  "weighted_infidelity_exposure": 59.0,
+  "cids": 354.4,
+  "damage_per_exposure": 21.5,
   "structural_damage_level": 4,
-  "adjusted_cids": 342.0,
+  "adjusted_cids": 354.4,
   "main_damage_causes": [
-    "Complete omission of the HBP film means Scrimgeour's defining characterization scenes - the PM introduction, the Christmas garden confrontation, and the funeral encounter - never occur, leaving the DH will scene without the relational and thematic foundation it requires",
-    "The DH will scene is significantly softened: the interrogation is truncated, the wand-jab confrontation is removed, and an invented conciliatory exchange replaces the cold hostility of the book, reframing Scrimgeour as a tragic sympathetic figure rather than a flawed authoritarian whose death earns grudging posthumous respect",
-    "Transfer of Scrimgeour's key deductive moment (Snitch flesh-memory) to Hermione strips his most visible display of competence and cunning, reducing him from a formidable adversary to a procedural functionary"
+    "Removal of both the Christmas garden confrontation and the post-funeral confrontation eliminates the entire adversarial arc between Harry and Scrimgeour across Half-Blood Prince, leaving the Deathly Hallows will scene without dramatic or moral context",
+    "The will scene itself is significantly defanged: the wand-jabbing confrontation, the 'Dumbledore's man through and through' exchange, the Snitch-test deduction, and the scar display are all absent, replacing a dangerous and morally complex antagonist with a weary, semi-sympathetic official",
+    "Scrimgeour's posthumous redemption (his refusal to betray Harry under torture) loses its retroactive impact because the film never established him as a fully flawed but formidable antagonist \u2014 the moral surprise of his death is diminished"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - Ministry atrium speech",
-      "book_baseline": "Scrimgeour operates through private political maneuvering, direct confrontation, and shrewd one-on-one pressure. His public persona is implied but never shown as a set-piece speech.",
-      "film_portrayal": "Opens with Scrimgeour delivering a formal public address to Ministry employees, framing him primarily as a wartime spokesman.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "Minor reframing - the speech is not unfaithful in content, but it substitutes a public-facing moment for the book's emphasis on his private, calculating political nature. Low damage as it is brief and not contradictory."
-    },
-    {
-      "scene": "Film Scene 4 - Will delivery, omission of interrogation tactics",
-      "book_baseline": "Scrimgeour methodically interrogates each of the trio separately (or tries to), probing for hidden meanings behind each bequest, pressing on the Deluminator, the book, and the Snitch with pointed questions designed to extract intelligence. He attempts to divide them by calling them individually.",
-      "film_portrayal": "Scrimgeour moves through the will delivery much more briskly, skipping most of the pointed interrogation. He does not attempt to separate them, does not press Ron and Hermione with follow-up questions about the Deluminator or the book, and does not pursue the Snitch's flesh-memory angle himself.",
+      "scene": "Film Scene 4 (Sitting Room - Will reading): Scrimgeour skips interrogation about Snitch's flesh memory / open-it-yourself test",
+      "book_baseline": "Book Scenes 182-198: Scrimgeour conducts a prolonged, shrewd interrogation about why Dumbledore left the Snitch, correctly deduces it may open only for Harry, and deliberately places it in Harry's palm to test whether it opens \u2014 demonstrating his intelligence, tenacity, and investigative instincts as a former Head of the Auror office.",
+      "film_portrayal": "Film Scene 4: Scrimgeour simply places the Snitch in Harry's palm as part of reading the will, with no deduction, no test, no line of interrogation about flesh memory, and no attempt to force it open. The moment passes without drama on Scrimgeour's part.",
       "damage_type": "agency/function",
       "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book's will scene is a chess match where Scrimgeour's intelligence and political cunning are on full display - he is probing for Horcrux-related intelligence without knowing what he is looking for. Stripping the interrogation removes his shrewdness and transfers the Snitch insight to Hermione in a later scene, diminishing his function as a formidable adversary and reducing the scene's tension."
+      "impact_weight": 4,
+      "explanation": "This removes one of Scrimgeour's defining book moments: a display of sharp Auror-trained intelligence. His ability to deduce the Snitch's enchantment and engineer a test shows he is a genuine threat and a formidable opponent \u2014 not merely an obstructive bureaucrat. Losing this collapses his characterization from 'dangerous, clever old lion' to 'officious delivery man.' It also transfers the flesh-memory insight to Hermione (Film Scene 5), further diminishing Scrimgeour's agency."
     },
     {
-      "scene": "Film Scene 4 - Snitch flesh-memory deduction given to Hermione",
-      "book_baseline": "Scrimgeour himself deduces and articulates the Snitch's flesh-memory enchantment, demonstrating his expertise and forcing Harry into a corner. It is Scrimgeour's trap.",
-      "film_portrayal": "Scrimgeour simply places the Snitch in Harry's palm without the flesh-memory explanation. The insight is given to Hermione in a later scene (Film Scene 5).",
+      "scene": "Film Scene 5 (Drawing Room): Hermione explains flesh memory / Snitch enchantment",
+      "book_baseline": "Book Scenes 189-192: It is Scrimgeour himself who explains the flesh-memory enchantment of Snitches and deduces that Dumbledore may have hidden something inside it \u2014 this is a showcase of his Auror expertise and investigative cunning.",
+      "film_portrayal": "Film Scene 5: Hermione explains the flesh-memory property of Snitches to Harry after the fact, effectively taking on the insight that was Scrimgeour's in the book.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is a direct transfer of Scrimgeour's most impressive moment of deductive competence to another character. It makes him look less formidable and knowledgeable, and removes the adversarial pressure that defines the book scene."
+      "explanation": "By transferring Scrimgeour's deduction to Hermione, the film strips him of a key demonstration of competence. The book uses this moment to show why the Wizarding world trusts Scrimgeour: he is sharp, experienced, and dangerous. Giving it to Hermione in a later scene severs it entirely from Scrimgeour's characterization."
     },
     {
-      "scene": "Film Scene 4 - Omission of wand-jab confrontation and loss of temper",
-      "book_baseline": "The will scene escalates to Scrimgeour jabbing Harry in the chest with his wand hard enough to singe his T-shirt, losing his composure entirely, and Harry responding 'It's time you earned it' before showing his Umbridge scar a second time. Scrimgeour then regrets his outburst.",
-      "film_portrayal": "No physical confrontation occurs. Scrimgeour exits quietly after a brief exchange, looking haunted rather than angry.",
+      "scene": "Film Scene 4 (Sitting Room): Sword of Gryffindor confrontation is defused; no wand-jabbing or loss of temper",
+      "book_baseline": "Book Scenes 210-222: The argument over the sword escalates dramatically \u2014 Scrimgeour loses his temper, jabs Harry hard in the chest with his wand (singeing his T-shirt), shouts 'You go too far!', and physically advances on Harry. This eruption reveals the controlled menace beneath his political surface and gives Harry his second 'I must not tell lies' scar-raising moment, echoing his defiance of Umbridge.",
+      "film_portrayal": "Film Scene 4: Scrimgeour states the sword is missing, tells Harry he is 'not your enemy,' looks haunted, and exits quietly. There is no escalation, no physical threat, no loss of temper, no scar display, no 'Dumbledore's man through and through' exchange.",
       "damage_type": "personality/voice",
       "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The wand-jab is the moment that reveals Scrimgeour's authoritarian streak beneath the political polish - he is dangerous, not merely bureaucratic. Its removal makes him seem merely weary and sympathetic rather than a genuinely threatening figure who abuses his power when challenged. It also removes Harry's second display of the Umbridge scar, which is a key thematic beat about institutional accountability."
+      "impact_weight": 4,
+      "explanation": "The book's confrontation is essential: it shows Scrimgeour's barely-suppressed authoritarian ruthlessness cracking through his polished exterior. The wand-jab is a physical act of intimidation by a sitting Minister against a seventeen-year-old, which crystallizes the Ministry's moral bankruptcy. Removing it makes Scrimgeour seem weary and almost sympathetic rather than dangerous and self-serving. The thematic payoff \u2014 Harry raising his Umbridge scar for the second time \u2014 is also lost entirely."
     },
     {
-      "scene": "Film Scene 4 - 'I won't pretend to be your friend... not your enemy' exchange",
-      "book_baseline": "Scrimgeour never offers Harry any conciliatory framing in the will scene. The encounter ends in cold mutual hostility with no softening.",
-      "film_portrayal": "Scrimgeour tells Harry 'I won't pretend to be your friend, Mr. Potter. But I assure you I'm not your enemy,' and references Dumbledore saying something similar. He then gazes out the window with haunted eyes and implies he came without a guard because he no longer needs one - suggesting vulnerability and perhaps nobility.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This invented exchange reframes Scrimgeour as a tragic, self-aware figure who knows he is doomed and is making a kind of peace. The book's Scrimgeour is not self-aware in this way during his final encounter with Harry - he is still politically maneuvering. This softening undermines the moral complexity of his death: in the books, Harry's grudging respect comes from learning post-mortem that Scrimgeour died protecting him, not from any warmth shown in life."
-    },
-    {
-      "scene": "Film - Complete omission of HBP garden confrontation at Christmas",
-      "book_baseline": "The Christmas garden scene is Scrimgeour's defining characterization moment: his manipulation via Percy, his political pitch to Harry, Harry's systematic dismantling of his arguments, the Stan Shunpike challenge, the 'Dumbledore's man through and through' exchange, and Harry's first display of the Umbridge scar. It establishes the Scrimgeour-Harry dynamic that all subsequent encounters build on.",
-      "film_portrayal": "The scene does not exist in the film. The HBP film omits Scrimgeour entirely.",
+      "scene": "Film Scene 4 (Sitting Room): 'Dumbledore's man through and through' exchange absent",
+      "book_baseline": "Book Scenes 85-86 and 113-114: In both the Christmas confrontation and the post-funeral confrontation, Scrimgeour's verdict \u2014 'Dumbledore's man through and through, aren't you, Potter?' \u2014 and Harry's proud, defiant 'Yeah, I am. Glad we straightened that out' / 'That's right' is a defining thematic statement. It encapsulates Harry's allegiance and his rejection of the Ministry's authority, and it is repeated at the funeral for resonance.",
+      "film_portrayal": "Film Scene 4: Neither the phrase nor its sentiment is spoken. Harry's defiant self-definition as Dumbledore's man is absent from the will scene. There is no equivalent exchange.",
       "damage_type": "arc",
-      "exposure": 3,
-      "impact_weight": 5,
-      "explanation": "This is the single largest source of damage. Without this scene, the audience has no basis for understanding Harry's contempt for Scrimgeour, the Ministry's cynical use of Harry as a symbol, or Scrimgeour's own complexity as a flawed but not evil man. The DH will scene and his death lose most of their weight because the prior relationship has not been established. The 'Dumbledore's man through and through' line - one of the saga's key statements of loyalty - is also lost."
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This line is one of the most thematically charged in Harry's arc across Half-Blood Prince and Deathly Hallows \u2014 it defines his moral identity and his refusal to be co-opted by institutional authority. Its absence from the film removes a key moment of character definition and weakens the thematic throughline about loyalty to Dumbledore versus loyalty to the Ministry."
     },
     {
-      "scene": "Film - Complete omission of HBP Prime Minister introduction scene",
-      "book_baseline": "The opening of HBP establishes Scrimgeour's physical presence (lion-like, shrewd, tough), his brusque efficiency with the PM, his political dominance, and his immediate contrast with Fudge. It is the reader's first full impression of him.",
-      "film_portrayal": "The PM scene does not appear in the HBP film. Scrimgeour is absent from HBP entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 3,
-      "impact_weight": 3,
-      "explanation": "The PM scene establishes Scrimgeour's commanding presence and competence before his flaws are revealed. Without it, the film audience meets him only in the DH will scene, with no foundation for his authority or the respect he commands even from those who distrust him."
+      "scene": "Film Scene 4 (Sitting Room): Scrimgeour's interrogation techniques softened; no challenge to the trio being 'together'",
+      "book_baseline": "Book Scenes 141-143: Scrimgeour opens by demanding to speak to them individually, and when Harry refuses, Scrimgeour gives 'Harry a cold, appraising look,' calculating whether 'it was worthwhile opening hostilities this early.' This cat-and-mouse power dynamic establishes him as a seasoned interrogator.",
+      "film_portrayal": "Film Scene 4: Scrimgeour simply proceeds with the group immediately, with no attempt to separate them, no cold appraisal, and no sense of calculated concession. The adversarial tension is absent from the outset.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "A minor but meaningful loss: the book's opening gambit reveals Scrimgeour's instinct to divide and interrogate \u2014 classic Auror tradecraft. Removing it softens him from the first moment of the scene, reducing the sense that Harry and company are being professionally interrogated by a dangerous official."
     },
     {
-      "scene": "Film - Complete omission of Dumbledore's funeral confrontation (HBP end)",
-      "book_baseline": "After Dumbledore's funeral, Scrimgeour approaches Harry again, repeating his request for cooperation. Harry refuses again, repeats 'Dumbledore's man through and through,' and Scrimgeour limps away in cold fury. This is their final book-6 encounter and cements the dynamic.",
-      "film_portrayal": "No such scene exists in the film.",
-      "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This scene shows Scrimgeour's persistence and political ruthlessness even in the immediate aftermath of Dumbledore's death - he cannot stop calculating. Its absence removes a key beat in the Harry-Scrimgeour antagonism and weakens the payoff of Scrimgeour's death in DH."
-    },
-    {
-      "scene": "Film Scene 4 - Omission of 31-day delay challenge and Ministry legal overreach",
-      "book_baseline": "Hermione challenges Scrimgeour on the Decree for Justifiable Confiscation, the 31-day limit, and the Ministry's bad faith in holding the bequests. Scrimgeour is put on the defensive legally and morally. This exchange characterizes him as someone who bends rules under the guise of authority.",
-      "film_portrayal": "No legal challenge occurs. The delay in delivering the will is not addressed.",
+      "scene": "Film Scene 4 (Sitting Room): Scrimgeour's haunted, sympathetic exit ('I came alone. I don't really need them anymore')",
+      "book_baseline": "Book Scene 222: Scrimgeour's exit after the will scene is cold and hard \u2014 'His expression hardened. He turned away without another word and limped from the room.' There is no moment of vulnerability or pathos; he leaves as an adversary, defeated but not humanized.",
+      "film_portrayal": "Film Scene 4: Scrimgeour says 'I came alone. I don't really need them anymore...' while gazing out the window with 'haunted' eyes, implying he knows he is a marked man and is already half-broken. He exits with a quality of tragic dignity.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Removing this exchange loses a dimension of Scrimgeour's authoritarian overreach and Hermione's challenge to it. It makes the will delivery seem routine rather than a politically motivated delay, softening the Ministry's bad faith."
+      "explanation": "This invented beat prematurely humanizes Scrimgeour in a way the book never does during a living scene. In the books, his heroism is revealed only posthumously through Lupin's report of his torture and refusal to betray Harry (Book Scene 232-233). Making him visibly mournful and self-aware before his death shifts him from 'flawed antagonist redeemed by his death' to 'tragic hero who knew his fate' \u2014 a different, softer character. It undercuts the retroactive moral surprise of his death."
+    },
+    {
+      "scene": "Film Scene 1-2 (Daily Prophet / Ministry Atrium): Scrimgeour's introduction is a public address, not the Prime Minister meeting",
+      "book_baseline": "Book Scenes 5-15: Scrimgeour's introduction is an intimate, private scene with the Muggle Prime Minister in which his physical presence ('like an old lion'), his brisk authority, his political maneuvering over Kingsley and Herbert Chorley, and his decisive manner are all established in close detail. It is one of the most characterizing passages in the book corpus.",
+      "film_portrayal": "Film Scenes 1-2: Scrimgeour is introduced only as a photograph/newsreel in the Daily Prophet giving a public speech in the Ministry Atrium. No private interaction, no physical intimidation, no dry wit ('That's because he's a wizard'), no establishing of his relationship with the Muggle world.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The Prime Minister scene is the fullest characterization of Scrimgeour in the entire book corpus: his lion-like appearance, his shrewdness, his barely-disguised contempt for Muggle authority, his political ruthlessness, and his black humor are all on display. Replacing it with a propaganda-speech photograph removes the intimate portrait entirely and replaces it with an image of him as a generic wartime official. Audiences never see who he is before they see him as an obstacle to Harry."
+    },
+    {
+      "scene": "Film: Christmas garden confrontation (Half-Blood Prince book material) entirely absent from film corpus",
+      "book_baseline": "Book Scenes 43-88: The Christmas confrontation at the Burrow is a full scene in which Scrimgeour manipulates Percy's family reunion as a pretext, corners Harry alone in the garden, attempts to recruit him as a 'mascot,' is rebuffed with increasing force, asks about Dumbledore's movements, and is told 'Dumbledore's man through and through.' This establishes the full adversarial dynamic between Harry and Scrimgeour before Deathly Hallows.",
+      "film_portrayal": "No equivalent scene appears in the film corpus. The will scene in Deathly Hallows Part 1 (Film Scene 4) is the only substantial Scrimgeour-Harry interaction present in the corpus.",
+      "damage_type": "relationship",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The Christmas scene is the foundation of the Harry-Scrimgeour relationship. Without it, the antagonism in the will scene arrives without context; the audience has no basis for Harry's contempt, no knowledge that Scrimgeour already tried to use him once, no awareness of Stan Shunpike as the emblem of Ministry injustice, and no prior establishment of the 'Dumbledore's man' theme. The relationship is structurally hollowed out."
+    },
+    {
+      "scene": "Film: Post-funeral confrontation (Half-Blood Prince book material) entirely absent from film corpus",
+      "book_baseline": "Book Scenes 108-116: After Dumbledore's funeral, Scrimgeour again approaches Harry, attempts to extract information about where Dumbledore went and what they were doing, offers Auror protection (which Harry dismisses), and is again rebuffed with the repeated 'Dumbledore's man through and through.' This is the final confrontation of the HBP arc and the culmination of their antagonistic dynamic.",
+      "film_portrayal": "No equivalent scene appears in the film corpus.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This scene closes the arc of Scrimgeour as Harry's antagonist in HBP and thematically prepares the ground for Scrimgeour's death and posthumous redemption in DH. Without it, the arc has no conclusion \u2014 Scrimgeour simply disappears between films without a final defining confrontation, making his death feel like the removal of a background functionary rather than a morally complex figure."
+    },
+    {
+      "scene": "Film Scene 4: Stan Shunpike injustice not raised by Harry; no moral indictment of Ministry's wrongful imprisonment",
+      "book_baseline": "Book Scenes 40-41, 70-73: Stan Shunpike's unjust imprisonment is Harry's primary moral weapon against Scrimgeour \u2014 he deploys it twice, at Christmas and at the funeral, as the concrete proof that the Ministry cares more about appearances than justice. 'You're making Stan a scapegoat, just like you want to make me a mascot.'",
+      "film_portrayal": "Film Scene 4: Stan Shunpike is never mentioned. The moral critique of the Ministry's abuses is absent from Harry's confrontation with Scrimgeour.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Stan Shunpike's case is the book's specific, tangible example of Ministry injustice \u2014 it grounds the political critique in a human victim and gives Harry's opposition to Scrimgeour moral weight beyond mere personal pride. Without it, Harry's antagonism seems more like adolescent defiance than principled resistance. The film's Scrimgeour is critiqued more vaguely, losing the thematic sharpness."
     }
   ],
   "confidence": {
@@ -101,8 +110,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 2040.0,
-  "adjusted_cids_v1": 3060.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

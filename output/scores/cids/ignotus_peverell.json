@@ -1,0 +1,44 @@
+{
+  "character": "Ignotus Peverell",
+  "fp_score": 78.0,
+  "infidelity_score": 22.0,
+  "weighted_infidelity_exposure": 5.5,
+  "cids": 74.3,
+  "damage_per_exposure": 49.5,
+  "structural_damage_level": 2,
+  "adjusted_cids": 74.3,
+  "main_damage_causes": [
+    "Harry's agency in discovering and claiming his Peverell ancestry is transferred to Hermione, reducing a personal arc moment to expository dialogue.",
+    "The emotional and intellectual self-discovery beat \u2014 Harry connecting his lineage to the Deathly Hallows \u2014 is lost, weakening the thematic link between Harry's identity and the Hallows.",
+    "Ignotus Peverell functions in the corpus purely as a plot reference point rather than as a meaningful ancestral figure for Harry, limiting the adaptation's ability to convey the deeper significance of Harry's inherited Cloak."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (Graveyard) - Ignotus Peverell grave discovery",
+      "book_baseline": "The book establishes that Harry himself makes the crucial connection between Ignotus Peverell, the grave, the Deathly Hallows symbol, and his own ancestry ('He's my ancestor. I'm descended from the third brother! It all makes sense!'). Harry's voice shakes with emotion and personal revelation; this is his epiphany, driven by his own reasoning.",
+      "film_portrayal": "In the film, it is Hermione who discovers and identifies the Ignotus Peverell grave, calls out to Harry about it ('Ignotus... Hey, Har--'), and later in Scene 2 it is Hermione who connects the grave to the Deathly Hallows for Xenophilius ('That was the name on the grave with the mark on it in Godric's Hollow. Ignotus Peverell.'). Harry is emotionally preoccupied with his parents' graves and plays no active role in the discovery.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "The book gives Harry the active role of piecing together his ancestry and the significance of the Peverell grave \u2014 a moment of personal revelation and intellectual agency. The film transfers the discovery and the verbal connection entirely to Hermione. Harry loses a defining beat of self-discovery that directly ties his lineage to the central Hallows theme."
+    },
+    {
+      "scene": "Film Scene 2 (Lovegood House) - Hermione states the Peverell-Hallows connection",
+      "book_baseline": "The book establishes that Harry, having processed the information about the Hallows, is the one whose voice shakes with excitement as he walks 'blindly around the tent' connecting Ignotus Peverell, his own descent, Dumbledore borrowing the Cloak, and the third brother. The connection is Harry's internal arc moment.",
+      "film_portrayal": "Hermione delivers the expository line connecting the Peverell name to the Hallows mark in Godric's Hollow as a matter-of-fact aside to Harry and Ron. Harry in this scene is 'lost in thought' and asks which Hallow they would choose, but does not vocalize or own the ancestral connection.",
+      "damage_type": "arc",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "Harry's dawning realization that he is descended from Ignotus Peverell is a meaningful arc beat \u2014 linking his identity, his Cloak, and his destiny. By having Hermione carry this information forward as exposition rather than Harry claiming it as personal revelation, the film weakens the thematic resonance of Harry's connection to the Hallows and his ancestry."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_weight_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

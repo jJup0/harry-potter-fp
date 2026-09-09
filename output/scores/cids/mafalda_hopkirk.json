@@ -1,0 +1,53 @@
+{
+  "character": "Mafalda Hopkirk",
+  "fp_score": 67.0,
+  "infidelity_score": 33.0,
+  "weighted_infidelity_exposure": 3.0,
+  "cids": 74.2,
+  "damage_per_exposure": 37.1,
+  "structural_damage_level": 1,
+  "adjusted_cids": 74.2,
+  "main_damage_causes": [
+    "Hopkirk's bureaucratic voice and institutional identity are softened or erased, losing the satirical Ministry characterization the books use her to convey",
+    "The real Hopkirk is reduced entirely to a prop for the Polyjuice disguise with no individuality or presence of her own",
+    "The conflation of Hermione's personality with the 'Mafalda Hopkirk' label during the Ministry infiltration means the character never registers as a distinct person to the audience"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (OotP) \u2014 Mafalda Hopkirk's letter read aloud by Vernon",
+      "book_baseline": "The book establishes Mafalda Hopkirk as a Ministry bureaucrat whose letters are formal, institutional communications signed under the Improper Use of Magic Office \u2014 impersonal and procedural in tone ('Enjoy your holidays!').",
+      "film_portrayal": "The film has the letter voiced in first person as if Hopkirk is addressing Harry directly and personally ('Hoping you are well, Mafalda Hopkirk'), collapsing the bureaucratic distance and giving the character an oddly warm, personalized closing that misrepresents the institutional coldness of the book's characterization.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's Hopkirk letters are deliberately impersonal and even darkly comic in their officious cheeriness ('Enjoy your holidays!'). The film softens this to 'Hoping you are well,' which loses the satirical bureaucratic bite that defines the character's function in the books. Minor damage since Hopkirk is a background figure here, but the voice is subtly wrong."
+    },
+    {
+      "scene": "Film Scene 2/3 (DH Part 1) \u2014 Hopkirk stunned on Whitehall Street and impersonated",
+      "book_baseline": "The book establishes that Hermione ambushes Hopkirk outside a theater, plucks hairs for Polyjuice Potion, and Ron reads her ID card \u2014 Hopkirk is identified as an 'assistant in the Improper Use of Magic Office,' a minor but named individual with a specific institutional role.",
+      "film_portrayal": "The film renders the ambush as a brief, largely action-focused beat. Hopkirk as a real person with any interiority or specificity is entirely absent \u2014 she is purely a prop for the disguise plot. Her identity is established only through Hermione announcing it after transformation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "In the book, Ron's act of reading her ID card and identifying her role grounds Hopkirk as a specific individual within the Ministry bureaucracy. The film compresses this to near-zero, but since Hopkirk is a minor character with no arc, the damage is limited to a small loss of texture."
+    },
+    {
+      "scene": "Film Scenes 3\u20136 (DH Part 1) \u2014 Mafalda Hopkirk/Hermione in the Ministry",
+      "book_baseline": "The book does not show Mafalda Hopkirk herself acting or speaking during the Ministry infiltration \u2014 she is unconscious, having been stunned. Her identity is borrowed, not performed by the real Hopkirk.",
+      "film_portrayal": "All of Hermione-as-Hopkirk's dialogue and actions in the Ministry (reacting to the statue, advising Harry, worrying about Ron, correcting spell choices) are attributed in the screenplay to 'MAFALDA HOPKIRK/HERMIONE.' While technically accurate as a disguise label, the film conflates the character identity with Hermione's personality and agency to the point where the real Hopkirk is entirely effaced as a distinct person.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The real Hopkirk has no presence, voice, or individuality in the film beyond being a body and a name badge. All characterization credited to 'Mafalda Hopkirk' in the Ministry scenes is actually Hermione. This means the film never establishes Hopkirk as a person \u2014 only as a costume. This damages her function as a recognizable recurring Ministry figure, collapsing her entirely into the disguise mechanic."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

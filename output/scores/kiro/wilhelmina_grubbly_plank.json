@@ -1,20 +1,103 @@
 {
   "character": "Wilhelmina Grubbly-Plank",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 14.0,
+    "narrative_role_agency": 8.0,
+    "motivations_internal_conflict": 9.0,
+    "character_arc": 12.0,
+    "key_relationships": 5.0,
+    "complexity_nuance_lost_material": 6.0,
+    "total": 54.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 14,
+      "narrative_role_agency": 8,
+      "motivations_internal_conflict": 9,
+      "character_arc": 12,
+      "key_relationships": 5,
+      "complexity_nuance_lost_material": 6,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Grubbly-Plank is consistently brisk, no-nonsense, and professionally competent. Her speech is short, direct, and authoritative \u2014 she barks commands ('Hurry up'), deflects personal questions with curt dismissals ('Never you mind'), and conducts herself with matter-of-fact efficiency. She is not warm but is not cruel; she is simply professional. She smokes a pipe, bounces on the balls of her feet while speaking to Umbridge, and projects a gruff but fair classroom authority. She shows flashes of dry humor or straightforwardness ('Jolly good'), and her loyalty to Dumbledore is expressed heartily but briefly. She is tactfully discreet about Hagrid's absence, neither gossiping nor elaborating. These are consistent across multiple scenes in both books 4 and 5.",
+          "film_portrayal": "In the film corpus, Grubbly-Plank appears only as a name spoken by Dumbledore at the Welcome Feast ('pleased to welcome back Professor Grubbly-Plank, who will be taking care of Magical Creatures while Professor Hagrid is on temporary leave'). She has no dialogue of her own, no physical description, no behavioral signals, and no scenes in which her personality or voice can be evaluated.",
+          "difference": "The entire personality \u2014 briskness, pipe-smoking, dry authority, professional deflection, heartiness, classroom command \u2014 is absent from the films. The film reduces her to a name mentioned in an announcement. None of her observable speech patterns, behavioral quirks, or emotional tone are present.",
+          "penalty_logic": "A score in the 14\u201317 range is appropriate: the character is still nominally recognizable as a substitute Care of Magical Creatures teacher, but all of her defining traits, voice, and behavioral texture are entirely absent. The film does not contradict her personality, but it also does not portray it at all. The score cannot be lower than 14 because the film does not actively misrepresent her \u2014 it simply provides no portrayal. However, it cannot be higher because there is no actual characterization to evaluate against the book baseline.",
+          "evidence_status": "Directly evidenced (book); Not enough evidence (film)"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Grubbly-Plank serves multiple active narrative functions: she teaches competent, unicorn-focused Care of Magical Creatures lessons that students openly prefer to Hagrid's; she deflects Harry's questions about Hagrid, generating suspense and frustration; she is evaluated by Umbridge and handles that interaction with strategic cheerfulness and discretion; she heals Hedwig when Harry brings her an injured owl, acting as a minor but active helper; she is a recurring structural signal of Hagrid's absence across Books 4 and 5. She initiates classroom activities, responds to Umbridge's inspection, and directly participates in plot-adjacent scenes. Her agency is modest but real: she makes choices (deflect questions, heal the owl, answer Umbridge strategically), and her presence drives Harry's anxiety about Hagrid.",
+          "film_portrayal": "In the film, Grubbly-Plank has no agency whatsoever. She is named by Dumbledore as a substitute teacher in a one-line announcement. She does not appear on screen in any identifiable way, does not speak, does not teach a lesson, does not interact with Harry, does not respond to Umbridge, and does not help with Hedwig. All of her narrative functions are either absent or absorbed into the broader narrative without her participation.",
+          "difference": "All of her active narrative functions are removed: the classroom scenes, the Umbridge inspection, the Hedwig healing, the Hagrid-absence signaling through her repeated classroom presence. The transfer rule applies: in the films, Hagrid's absence is signaled through other means (Dumbledore's announcement, student reactions), not through Grubbly-Plank's sustained presence and actions. Her role as a minor but active agent is reduced to a name on a list.",
+          "penalty_logic": "A score of 8 is appropriate (role and agency heavily substituted, weakened, or reassigned). Her structural function as substitute teacher is nominally preserved in name, but every act of agency she performs in the books is absent. The 6\u20139 range applies because her role is not fully eliminated (she is named, and the narrative acknowledges her function exists), but her actual agency is entirely absent.",
+          "evidence_status": "Directly evidenced (book); Directly evidenced (film \u2014 absence of agency is directly evidenced by the corpus)"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Grubbly-Plank's motivations are simple but consistent: she is a professional who takes temporary work when called upon, teaches competently, is loyal to Dumbledore, and is discreet about Hagrid's situation \u2014 whether out of professional ethics, genuine ignorance, or both. She shows no internal conflict in the traditional sense, but she does navigate a mild tension between her loyalty to Dumbledore and the pressure from Umbridge, which she handles by being strategically breezy and unhelpful to Umbridge while affirming Dumbledore enthusiastically. Her motivation to protect Hagrid's information (or simply not betray Dumbledore's trust) is a small but observable through-line.",
+          "film_portrayal": "No motivations are presented in the film. She is a name, not a character with observable goals or tensions.",
+          "difference": "Her motivations \u2014 professional competence, loyalty to Dumbledore, discretion about Hagrid \u2014 are entirely absent from the film because she has no scenes in which they could be expressed.",
+          "penalty_logic": "A score of 9 (partially altered, flattened, or underexplained) reflects that her motivations are not contradicted but are completely absent. The score cannot reach 11\u201313 because there is no film evidence preserving even a simplified version of her motivations. It does not fall to 5\u20137 because the film does not replace her motivations with something wrong \u2014 it simply provides nothing.",
+          "evidence_status": "Directly evidenced (book); Not enough evidence (film)"
+        },
+        "character_arc": {
+          "book_baseline": "Grubbly-Plank has a flat arc, which is appropriate for her role. She arrives as a competent substitute, fulfills her function across two books, is explicitly preferred by some students over Hagrid, and departs when Hagrid returns. Her arc is intentionally static: she is a professional placeholder who does her job well. There is no growth, no transformation, and no resolution beyond Hagrid's return. A flat arc done intentionally scores full points under the framework's important rule.",
+          "film_portrayal": "The film preserves the basic shape of the arc \u2014 she is named as a substitute who will cover while Hagrid is away \u2014 but does not portray any of its content. The arc's flatness is technically preserved by default (she is introduced as a substitute and presumably leaves when Hagrid returns), but the arc's substance is absent.",
+          "difference": "The arc's flatness is preserved structurally, but the content that constitutes the arc \u2014 her repeated classroom presence, her relationship to Hagrid's return, the student comparisons \u2014 is absent.",
+          "penalty_logic": "A score of 12 (arc compressed but still faithful) is appropriate. The arc is flat and the film preserves that flatness by default, but the compression is so extreme that there is almost no arc to evaluate. The score reflects that the flat arc is technically intact but entirely hollow. It does not fall to 8\u201310 because a flat arc with no content is still a flat arc \u2014 it is not altered, just invisible.",
+          "evidence_status": "Reasonably inferred (book and film)"
+        },
+        "key_relationships": {
+          "book_baseline": "Grubbly-Plank's two most important relationships are: (1) her implicit relationship with Hagrid \u2014 she is his functional replacement, is better regarded by some students, and her presence is a constant reminder of his absence, creating a low-level rivalry/contrast that Harry resents; and (2) her relationship with Harry \u2014 she deflects his questions, heals his owl, and maintains a professional but not unkind distance that generates frustration and grudging respect. A third minor relationship is with Umbridge, where she navigates an inspection with strategic cheerfulness and loyalty to Dumbledore.",
+          "film_portrayal": "None of these relationships are depicted. Grubbly-Plank does not interact with Harry, Hagrid, or Umbridge in the film corpus. She is mentioned by Dumbledore but has no relational presence whatsoever.",
+          "difference": "All three key relationships are absent. The Hagrid/Grubbly-Plank contrast that drives Harry's anxiety is replaced by a simple announcement. The Harry/Grubbly-Plank dynamic of professional deflection and eventual help is gone. The Umbridge inspection scene, which illuminates her loyalty and strategic discretion, is absent.",
+          "penalty_logic": "A score of 5 is appropriate (important relationship dynamics are altered or weakened). The relationships are not replaced with something actively wrong, but they are entirely absent. The film provides no relational texture whatsoever. This falls at the lower end of the 5\u20136 range because every key relationship is absent rather than merely simplified.",
+          "evidence_status": "Directly evidenced (book); Directly evidenced as absent (film)"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Grubbly-Plank's complexity is modest but real: she is a skilled professional who is genuinely better at conventional teaching than Hagrid (which the text acknowledges honestly), yet she is not presented as a replacement or rival \u2014 merely a competent temporary. She is gruff but capable of small warmth (healing Hedwig without complaint, giving a possible faint smile). She is strategically canny with Umbridge without being dishonest. She smokes a pipe. She uses a monocle. She bounces on the balls of her feet. These are small but humanizing details that give her texture beyond her function. She is also the site of an interesting moral complexity: students prefer her safer lessons, and even Harry's unbiased internal voice acknowledges Hagrid's classes are more dangerous \u2014 a nuance the books handle honestly.",
+          "film_portrayal": "None of this nuance is present. The film provides only a name in an announcement. The pipe, the monocle, the strategic cheerfulness, the Hedwig scene, the Umbridge inspection, the honest classroom competence \u2014 all absent.",
+          "difference": "All complexity and nuance is lost. The character is reduced to a functional label: 'substitute teacher.' The moral nuance about Hagrid vs. Grubbly-Plank's teaching styles \u2014 one of the more honest and interesting things the books do with her \u2014 is entirely absent from the film.",
+          "penalty_logic": "A score of 6 is appropriate (major flattening; character reduced to a simpler function or trait). The film does not actively distort her, but reduces her to a single narrative label with no texture, no contradiction, no humanizing detail, and no nuance. She is not quite at 0\u20134 because the film does not eliminate her entirely or replace her with something false.",
+          "evidence_status": "Directly evidenced (book); Directly evidenced as absent (film)"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "All classroom scenes featuring Grubbly-Plank's teaching (unicorns in Book 4, Bowtruckles in Book 5)",
+        "Grubbly-Plank's repeated deflection of Harry's questions about Hagrid ('Never you mind')",
+        "The Umbridge inspection scene where Grubbly-Plank navigates questions strategically and affirms Dumbledore",
+        "The Hedwig healing scene \u2014 Grubbly-Plank's minor but active role as helper",
+        "The student preference comparison between Grubbly-Plank and Hagrid (including Harry's honest internal acknowledgment)",
+        "Grubbly-Plank's characterizing physical details: pipe, monocle, bouncing on balls of feet",
+        "Grubbly-Plank's dry, brisk speech patterns and authoritative classroom commands",
+        "Grubbly-Plank's structural function as a sustained signal of Hagrid's absence across multiple scenes",
+        "Hermione's commentary on Grubbly-Plank's superior teaching preparation (Book 6)",
+        "The signal carried by Grubbly-Plank's reappearance in Book 5 at the start-of-term boat crossing"
+      ],
+      "score_caps_applied": [
+        "Cap 4 (score above 70 not permitted): The film preserves only the character's broad identity label \u2014 'substitute Care of Magical Creatures teacher' \u2014 but removes essentially all of what defines her book characterization: personality, voice, agency, relationships, nuance, and specific narrative functions.",
+        "Cap 3 (score above 75 not permitted): Multiple core book functions and acts of agency are absent from the film, including the Umbridge inspection scene, the Hedwig healing, and the repeated classroom teaching role \u2014 all of which constitute the substance of her character."
+      ],
+      "key_observations": "Grubbly-Plank receives a score of 54, reflecting the near-total absence of her actual characterization in the film corpus. The film mentions her by name in Dumbledore's Welcome Feast announcement and implies her function as substitute teacher, but provides no dialogue, no scenes, no behavioral texture, and no relational dynamics. All of her defining book material \u2014 her brisk competence, her strategic discretion with Umbridge, her gruff helpfulness with Hedwig, her classroom authority, her pipe and monocle, the honest student-preference contrast with Hagrid \u2014 is absent. The score is not lower because the film does not actively misrepresent or distort her; it simply does not portray her. The score is not higher because the framework requires penalizing the loss of defining characterization, agency, and nuance regardless of whether the cause is distortion or omission. Confidence is Medium globally because the book corpus is rich and consistent, but the film corpus provides so little material that several dimensions must be evaluated on the basis of absence rather than active misrepresentation.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 24662,
+        "film_chars_sent": 5174,
+        "aliases": [
+          "Grubbly-Plank",
+          "Professor Grubbly-Plank"
+        ],
+        "corpus_version": "1"
       }
     }
   },
@@ -22,6 +105,6 @@
     "screen_time_minutes": 0,
     "book_mentions": 50,
     "screenplay_words": 0,
-    "book_words": 0
+    "book_words": 3891
   }
 }

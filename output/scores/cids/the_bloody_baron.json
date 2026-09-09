@@ -1,54 +1,44 @@
 {
   "character": "The Bloody Baron",
   "fp_score": 54.0,
-  "infidelity_score": 46,
-  "weighted_infidelity_exposure": 5,
-  "cids": 148.6,
-  "damage_per_exposure": 74.3,
+  "infidelity_score": 46.0,
+  "weighted_infidelity_exposure": 1.5,
+  "cids": 76.0,
+  "damage_per_exposure": 76.0,
   "structural_damage_level": 2,
-  "adjusted_cids": 148.6,
+  "adjusted_cids": 76.0,
   "main_damage_causes": [
-    "Replacement of the Baron's defining silent menace with comic exclamation, inverting his core characterization",
-    "Complete loss of his functional role as the sole authority over Peeves, which is his primary narrative purpose across the book series",
-    "Reduction to a single throwaway cameo that conveys none of the gravitas required for his later tragic backstory to land"
+    "The Baron's defining trait \u2014 silent, gaunt menace \u2014 is directly contradicted by a comedic vocal outburst in his only film appearance, collapsing his characterization into generic ghost comedy.",
+    "The film provides no establishment of the fear the Baron commands among students and other ghosts, gutting the credibility of his function as Peeves's sole controller.",
+    "The corpus is extremely limited for both book and film, meaning the Baron receives almost no screen or page time; what little screen time he does receive actively damages rather than faithfully represents his character."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Bloody Baron's only appearance at the feast",
-      "book_baseline": "The Bloody Baron is described as gaunt, silent, staring, with blank eyes and silver-stained robes. He is given a wide berth by other ghosts. He is the only one who can control Peeves, commands fear and respect even from Nick, and is established as an authority figure whose name alone makes Peeves cower. He is never jovial or exclamatory.",
-      "film_portrayal": "The Bloody Baron appears briefly and utters 'Whoo-hoo-hoo!' in a gleeful, exclamatory way, prompting a student to point him out excitedly. This is his only appearance in the film corpus.",
+      "scene": "Film Scene 1 \u2013 Great Hall feast, Bloody Baron's first appearance",
+      "book_baseline": "The book establishes the Bloody Baron as a gaunt, silent, sinister specter who commands fear and respect. He has blank staring eyes, a gaunt face, and silver-bloodstained robes. He is given a wide berth even by other ghosts. His presence alone is enough to control Peeves. He is described as 'gaunt and silent' and never speaks frivolously.",
+      "film_portrayal": "The film has the Bloody Baron exclaim 'Whoo-hoo-hoo!' in a comedic, jovial, almost gleeful manner during the feast procession, stripping him of his defining silent menace and replacing it with cartoonish exuberance indistinguishable from Peeves-like buffoonery.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's Bloody Baron is defined by silence, menace, and gravitas - he is 'gaunt and silent', staring sinisterly, and feared even by other ghosts. A gleeful 'Whoo-hoo-hoo' directly contradicts this core characterization, replacing dread with comic buffoonery. It undermines the entire basis of his authority over Peeves."
+      "explanation": "The Baron's entire characterization in the books rests on his silence and intimidating gravitas \u2014 he is feared even by other ghosts precisely because he says nothing and merely stares. A gleeful 'Whoo-hoo-hoo!' directly contradicts this, reducing him to generic ghost comic relief and undermining the authority that underpins his function as Peeves's only controller."
     },
     {
-      "scene": "Film Scene 1 - Absence of established authority/control over Peeves",
-      "book_baseline": "The Baron's primary narrative function across multiple books is as the sole authority capable of controlling Peeves. Percy explicitly tells first years 'The Bloody Baron's the only one who can control him.' This is referenced repeatedly and is the Baron's defining role in the school ecosystem.",
-      "film_portrayal": "The film gives the Baron no establishment as an authority figure. His single appearance is a comic cameo. Since Peeves is also absent from the films, the Baron's defining function is entirely lost, but the characterization damage is that even his presence conveys none of the fear or gravitas that underpins that function.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The Baron's role as Peeves's sole controller is a recurring structural element in the books - it explains the school's power dynamics among non-human inhabitants. The film reduces him to a one-line cameo with no hint of this authority, stripping his functional identity entirely."
-    },
-    {
-      "scene": "Film Scene 1 - Absence of the Baron's backstory as penitent murderer",
-      "book_baseline": "The Baron killed the Grey Lady (Helena Ravenclaw) in a rage, then killed himself in remorse. He wears chains as an act of penitence. This gives him tragic depth - he is not merely frightening but haunted by genuine guilt across centuries. This is revealed in Deathly Hallows but is part of his established character.",
-      "film_portrayal": "No trace of this tragic dimension is present. The Baron is a one-beat comic ghost with no interiority suggested.",
+      "scene": "Film Scene 1 \u2013 Great Hall feast, Bloody Baron identified by a girl",
+      "book_baseline": "The book conveys the Baron's fearsome reputation through narrative description and character reactions \u2014 Neville mentions the Baron has passed twice and is frightened, Ron goes pale 'as the Bloody Baron', and other ghosts give him a wide berth. His dread is built through accumulated, specific reactions.",
+      "film_portrayal": "The Baron is identified only by a background girl's exclamation 'Look, it's the Bloody Baron!' with no accompanying dread, no fearful reaction from the student characters, and no narrative weight. The moment is treated as a curiosity on par with spotting Nearly Headless Nick.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "While the backstory reveal is a later-book event, the Baron's silent, staring, chain-wearing demeanor in earlier books seeds this tragedy. The film's jovial portrayal makes the eventual revelation (in DH films) feel disconnected rather than a recontextualization of established menace."
+      "impact_weight": 1,
+      "explanation": "The film misses the opportunity to establish the Baron's unique fearsome status among both students and ghosts. Without this, his later function as Peeves's sole controller has no grounding, and the audience loses the sense that he occupies a distinct and dread-inspiring rank."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "High",
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 230,
-  "adjusted_cids_v1": 253
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

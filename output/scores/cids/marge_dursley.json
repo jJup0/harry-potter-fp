@@ -2,79 +2,70 @@
   "character": "Marge Dursley",
   "fp_score": 80.0,
   "infidelity_score": 20.0,
-  "weighted_infidelity_exposure": 12.0,
-  "cids": 92.5,
-  "damage_per_exposure": 14.2,
+  "weighted_infidelity_exposure": 14.5,
+  "cids": 98.9,
+  "damage_per_exposure": 16.5,
   "structural_damage_level": 2,
-  "adjusted_cids": 92.5,
+  "adjusted_cids": 98.9,
   "main_damage_causes": [
-    "Compression of the week-long visit into a single evening removes the sustained, escalating cruelty that contextualises Harry's eventual loss of control, flattening Marge from a methodical tormentor into a one-scene villain",
-    "Removal of Harry's negotiation over the Hogsmeade form strips his most significant act of agency and cunning in the sequence, and severs the internal motivation (protecting the form) that explains his restraint throughout the visit",
-    "The 'Shut up! Shut up!' outburst and the earlier glass explosion reframe Harry's accidental magic as near-deliberate and emotionally reactive rather than the product of suppressed, involuntary power, softening the horror of uncontrolled magic and making him less sympathetic"
+    "Compression of Marge's multi-day visit into a single scene removes the sustained, cumulative nature of her cruelty and Harry's deliberate endurance, which are central to the book's characterization of both characters",
+    "Removal of the explicit Hogsmeade form negotiation strips Harry of his pre-calculated agency and the internal motivation (the deal with Vernon) that gives dramatic meaning to his restraint throughout the visit",
+    "Alteration of Harry's emotional register at the climax \u2013 from frightened, guilty flight to righteous defiance \u2013 misrepresents his psychological state and softens the moral complexity the book establishes"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 4 - glass explosion triggered by first insult about father",
-      "book_baseline": "In the book the glass explodes during the 'bad blood / bitch and pup' speech about Harry's mother, after Harry has been suppressing his anger for days and is pushed past his limit by the sustained attack on his parents. The explosion is involuntary and Harry is not even fully aware he caused it.",
-      "film_portrayal": "The glass explodes the moment Marge calls his father a drunk - much earlier in the evening, on a much smaller provocation, before the full escalation. This compresses and reorders the emotional build-up.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's glass explosion is a pressure-valve moment after days of restraint and a sustained attack on both parents. Moving it earlier undercuts the sense of Harry's hard-won self-control and makes the magic feel reactive to a single line rather than the product of accumulated torment."
-    },
-    {
-      "scene": "Film Scene 4 - Harry shouts 'Shut up! Shut up!' before inflating Marge",
-      "book_baseline": "Harry never shouts at Marge. He says 'He was not' and 'They didn't die in a car crash' - short, shaking, barely controlled outbursts. He is on his feet but not screaming. The inflation begins mid-sentence as Marge is still speaking, driven by uncontrolled magic rather than a conscious verbal confrontation.",
-      "film_portrayal": "Harry shouts 'Shut up! Shut up!' directly at Marge, which immediately triggers the inflation. The magic reads as a near-deliberate response to his own shouted command.",
+      "scene": "Film Scene 3 \u2013 stairway/front hall, Marge's arrival and greeting of Harry",
+      "book_baseline": "In the book, Marge arrives and immediately thrusts her suitcase into Harry's stomach, knocking the wind out of him, then strides past him 'as though he was a hat stand.' She ignores him entirely until Ripper's growling directs her attention to him. Her first words to Harry are 'So! Still here, are you?' \u2013 cold, contemptuous, treating him as an afterthought.",
+      "film_portrayal": "In the film, Marge's arrival sequence compresses the humiliation of Harry with the suitcase into a more neutral staging (Vernon brings the suitcase and drops it on Harry), and the transition to Marge addressing Harry happens almost immediately in the same beat as greeting Dudley, without the extended cold-shouldering and deliberate ignoring that defines her cruelty in the book.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Book Harry's power is terrifying precisely because it is involuntary and suppressed - he is trying not to react. The shouted command makes the inflation feel almost intentional and aggressive, losing the horror of accidental magic and making Harry seem less sympathetic."
-    },
-    {
-      "scene": "Film Scene 4 - multi-day visit compressed; 'runty dog' / orphanage drowning speech absent",
-      "book_baseline": "Marge's visit lasts a week. Her cruelty escalates over several days: comparing Harry to a runt dog she had drowned, calling him mentally subnormal, sustained daily commentary on his worthlessness. The final dinner is the culmination of this accumulation.",
-      "film_portrayal": "The film shows only the arrival and the final dinner. The intermediate days of grinding cruelty - including the drowned-dog comparison and the 'mentally subnormal' remarks - are entirely absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The compression removes the sense of sustained, methodical cruelty that makes Marge genuinely threatening rather than a one-scene grotesque. It also removes the specific detail of the drowned runt, which is one of the book's most viscerally disturbing moments and sharpens the dog-breeding metaphor applied to Harry."
-    },
-    {
-      "scene": "Film Scene 4 - Marge's inflation happens outdoors / conservatory float-away with Vernon holding her hands",
-      "book_baseline": "Marge inflates at the dining table, rises to the ceiling of the dining room, and Harry flees while Uncle Vernon is trying to pull her down and Ripper bites Vernon's leg. Harry escapes in chaos. There is no outdoor scene; Marge simply floats around the house.",
-      "film_portrayal": "Marge floats into the conservatory and then outside into the night sky. Vernon grabs her hands outdoors and is himself briefly lifted before letting go and watching her float away. The scene becomes a visual spectacle with a tender/fearful moment between Vernon and Marge.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
       "impact_weight": 1,
-      "explanation": "The outdoor float-away is a tonal shift toward visual comedy and even a brief moment of pathos between Vernon and Marge. The book keeps the chaos confined and ugly. Minor damage - the core event is intact - but the register changes."
+      "explanation": "The book emphasizes that Marge treats Harry as literally beneath her notice \u2013 a hat stand, not a person. The film compresses this, softening the deliberate, sustained contempt of her arrival manner. Minor damage since the essential hostility is still present."
     },
     {
-      "scene": "Film Scene 3/4 - Harry's negotiation with Vernon over the permission form is absent",
-      "book_baseline": "Harry deliberately leverages the threat of exposing the St. Brutus's lie to extract Vernon's promise to sign the Hogsmeade form. He stands his ground when Vernon raises his fist, refuses to back down, and forces a deal. This is a rare moment of Harry exercising real agency and cunning against the Dursleys.",
-      "film_portrayal": "The form appears briefly as Harry asking Vernon to sign it, Vernon saying 'later, if you behave.' There is no negotiation, no leverage, no confrontation, no deal. Harry simply accepts the deferral.",
+      "scene": "Film Scene 3 \u2013 front hall/living room, the form-signing negotiation",
+      "book_baseline": "The book stages Harry's negotiation with Uncle Vernon over the Hogsmeade permission form as a tense, private confrontation before Marge arrives. Harry stands his ground, Vernon raises his fist, and Harry calls his bluff with the threat of exposing the St. Brutus's lie to Marge. Vernon backs down and agrees to sign if Harry toes the line. This establishes Harry's agency, cunning, and emotional stakes (Hogsmeade) that drive his restraint throughout the visit.",
+      "film_portrayal": "The film places this negotiation after Marge has already arrived and is present in the house (Film Scene 3 shows Harry approaching Vernon with the form while Marge is already there). The confrontation is reduced to a brief exchange \u2013 Vernon says 'Later perhaps. If you behave' and Harry replies 'I will if she does.' The fist-raising, the explicit deal-making, and the full weight of Harry's calculated leverage are absent.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The negotiation scene is one of the few moments in the series where Harry outmanoeuvres an adult through wit rather than magic or luck. Removing it strips him of agency and makes his motivation for enduring Marge's visit (protecting the form) invisible to film audiences, weakening the internal logic of his restraint throughout the visit."
+      "explanation": "In the book, Harry's restraint during Marge's entire visit is consciously motivated by the signed form \u2013 he is actively choosing to endure abuse for a reward. This gives him moral and psychological agency. The film strips the negotiation down to a one-liner, removing the explicit deal and the internal stakes that explain why Harry holds back for so long. The audience loses the dramatic irony of Harry's calculated endurance, which makes his eventual explosion feel less earned."
     },
     {
-      "scene": "Film Scene 4 - Harry's internal suppression mechanism (Handbook of Do-It-Yourself Broomcare) absent",
-      "book_baseline": "Harry survives the visit by mentally reciting pages of his broomcare handbook whenever Marge attacks him. This is a specific, characterful coping strategy that shows his resourcefulness and the cost of sustained self-suppression (Marge concludes he is mentally subnormal because of his glazed look).",
-      "film_portrayal": "No equivalent internal mechanism is shown. Harry simply endures or reacts.",
+      "scene": "Film Scene 4 \u2013 dining room, compression of Marge's multi-day campaign into a single dinner scene",
+      "book_baseline": "The book stages Marge's assault on Harry's parents and character across multiple days: the wineglass explodes on day three when Marge calls his mother a 'bad egg' and compares Harry to a runt dog to be drowned; the final explosion happens on the last evening after sustained brandy-drinking. The escalation is gradual \u2013 Harry endures days of abuse, using the Handbook mental trick, before finally breaking. The wine-glass incident and the inflation are distinct, separated events.",
+      "film_portrayal": "The film collapses all of Marge's provocations into a single dinner scene. The wineglass explosion and the inflation happen in rapid succession within the same scene. The multi-day accumulation of abuse \u2013 Harry's sustained, exhausting effort to restrain himself, his mental coping mechanism of the Handbook, Marge's 'mentally subnormal' jibe \u2013 is entirely absent.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss of characterisation - the handbook detail is a small but telling piece of Harry's inner life and resilience. Its absence is not structurally damaging but does flatten his interiority during the visit."
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The compression removes the psychological portrait of Harry's endurance under sustained provocation. In the book, the horror of Marge's visit is its duration and relentlessness; Harry's breaking point is the result of days of cumulative pressure, not a single dinner. The film makes Harry seem to snap after roughly one meal's worth of abuse, reducing his demonstrated self-control and making the eventual magic feel more like impulsiveness than a breaking point reached after genuine effort."
     },
     {
-      "scene": "Film Scene 4 - Marge's attack on Harry's mother is redirected to Petunia answering the father question",
-      "book_baseline": "In the book the escalation is: Marge attacks Harry's father (unemployed), then pivots to the mother ('bad blood / bitch and pup'), and it is the attack on his mother that finally breaks Harry. The two-stage attack on both parents is deliberate and the mother insult is the final straw.",
-      "film_portrayal": "Petunia answers the question about the father. Marge then says 'it doesn't matter about the father, in the end it comes down to the mother' and delivers the bitch-and-pup speech. The sequence is similar but the father attack is softer (Petunia deflects it) and Harry's breaking point is compressed.",
+      "scene": "Film Scene 4 \u2013 dining room, trigger for Harry's breaking point and the inflation",
+      "book_baseline": "In the book, the sequence that breaks Harry is: Marge insults his father as a 'no-account, good-for-nothing, lazy scrounger'; Harry says 'He was not'; Marge then insults his parents' deaths ('got themselves killed in a car crash, drunk, I expect'); Harry stands up and says 'They didn't die in a car crash!' \u2013 and the inflation begins. Harry breaks on the car crash lie about his parents' deaths, not merely on the drunk slur against his father.",
+      "film_portrayal": "In the film, Marge calls Harry's father a drunk; Harry says 'That's a lie / My dad wasn't a drunk'; the glass explodes. Then, after Vernon sends Harry to bed and Marge redirects to attacking his mother, Harry shouts 'Shut up! Shut up!' and the inflation begins. The car crash lie \u2013 a deeply specific and cruel distortion of his parents' actual heroic deaths \u2013 is absent. Harry breaks on the attack on his mother via the dog-breeding metaphor rather than on the lie about how his parents died.",
       "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's trigger is more specific and more meaningful: Harry knows his parents didn't die in a car crash and that this lie is an insult to their real sacrifice. The film replaces this with a vaguer 'shut up' reaction to the mother insult. This loses the particular significance of the car crash lie as the thing Harry cannot let stand, which connects to the broader theme of Harry defending his parents' true story against Dursley distortion."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 conservatory/garden, Marge floating away and Vernon letting go",
+      "book_baseline": "In the book, after Marge inflates and rises, Uncle Vernon seizes her foot and tries to pull her down, but Ripper bites his leg and he is almost lifted himself. Harry then tears from the room to collect his belongings and leave. The scene ends with Harry escaping; there is no extended outdoor floating sequence. Marge's fate (punctured, memory modified) is reported later by Fudge.",
+      "film_portrayal": "The film adds an extended outdoor sequence where Vernon grips Marge's hands as she floats away, begins to rise himself, looks into her eyes, and then deliberately lets go of her hands, dropping back to his knees while she floats away. Marge delivers the line 'Vernon. Don't you dare \u2013' before he releases her. This is original film material not present in the book.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film gives Marge a moment of vulnerable fear ('Vernon. Don't you dare \u2013') and Vernon a moment of conscious, deliberate choice to release her. In the book, Vernon's release is accidental (Ripper bites him, he is nearly lifted). The film's version humanizes Marge slightly with a fearful plea and reframes Vernon's response as a choice rather than a mishap. This subtly changes both characters: Marge gets a brief flash of sympathetic vulnerability not present in the book, and Vernon's act becomes a calculated abandonment rather than an accident, which is a different and darker characterization of Vernon that is not book-supported."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 hallway confrontation, Harry's exit line",
+      "book_baseline": "In the book, Harry tears out of the dining room in a panic, grabs his belongings, and flees. He does not confront Uncle Vernon verbally on his way out. The emotional register is fearful urgency \u2013 Harry is running away, unsure what he's done, worried about Azkaban.",
+      "film_portrayal": "The film gives Harry a defiant verbal confrontation with Vernon at the door: 'No! She deserved what she got! And you... you keep away from me.' Harry then faces down Vernon's threat about underage magic with 'Anywhere's better than here.' Harry is framed as boldly and righteously angry as he storms out.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The reordering slightly softens the father attack by having Petunia absorb it, and compresses the two-stage escalation. The damage is minor since the mother speech and Harry's reaction are preserved, but the cumulative weight of the dual attack is reduced."
+      "impact_weight": 2,
+      "explanation": "The book's Harry is frightened and fleeing in guilty panic \u2013 he's just done accidental magic, fears Azkaban, and is in crisis. The film's Harry is defiant and righteous, delivering a cool exit line. This changes the emotional texture of the scene from scared, conflicted flight to triumphant rebellion, which misrepresents Harry's internal state at this moment in the book and softens the moral complexity of the episode."
     }
   ],
   "confidence": {
@@ -83,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 240.0,
-  "adjusted_cids_v1": 264.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

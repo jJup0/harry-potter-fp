@@ -1,98 +1,98 @@
 {
   "character": "Travers",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 8.0,
+    "narrative_role_agency": 5.0,
+    "motivations_internal_conflict": 6.0,
+    "character_arc": 10.0,
+    "key_relationships": 4.0,
+    "complexity_nuance_lost_material": 4.0,
+    "total": 37.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 8,
+      "narrative_role_agency": 5,
+      "motivations_internal_conflict": 6,
+      "character_arc": 10,
+      "key_relationships": 4,
+      "complexity_nuance_lost_material": 4,
       "justification": {
         "personality_voice": {
-          "book_baseline": "In the books, Travers is a Death Eater with a distinct voice: coolly contemptuous, socially hierarchical, casually cruel toward Muggle-borns (his mocking impersonation of a wandless witch begging for help), and status-conscious around other Death Eaters. He is suspicious but deferential to Bellatrix, probing but not aggressive. His speech is formal, slightly theatrical ('Gold, filthy gold!'), and laced with class-based disdain.",
-          "film_portrayal": "The film corpus is entirely empty. Travers does not appear in any provided film scene.",
-          "difference": "There is no film portrayal to evaluate.",
-          "penalty_logic": "With no film material, no score can be assigned. The score is 0 by default due to complete absence, not as a faithfulness judgment.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "In the books, Travers is established through two distinct phases. In GoF, he is a name invoked at a war crimes tribunal \u2014 a Death Eater convicted of helping murder the McKinnons, associated with extreme violence. In DH, he is rendered in full detail during the Diagon Alley sequence: he is cold, socially hierarchical, suspicious, subtly probing, and casually bigoted. He speaks in complete, measured sentences with formal register ('I merely sought to greet you'; 'I confess I am surprised to see you out and about, Bellatrix'). He is easily affronted by perceived slights ('Travers stopped in his tracks, clearly affronted'), class-conscious (shaking Ron's hand with two fingers 'as though frightened of dirtying himself'), and casually cruel toward Muggle-borns (his mocking impersonation: 'I'm a witch, sir, I'm a witch, let me prove it to you!'). He is watchful and suspicious without being overtly aggressive \u2014 he probes through polite conversation. He also has a theatrically patrician quality: 'Alas, I also. Gold, filthy gold! We cannot live without it, yet I confess I deplore the necessity of consorting with our long-fingered friends.'",
+          "film_portrayal": "In the film corpus, Travers appears in only two scenes. In the GoF film corpus provided, Travers does not appear at all as a named or portrayed character \u2014 the scene provided (the maze task and graveyard) contains no reference to him. In the DH film corpus, he is reduced to a single offscreen mention: Umbridge says 'Travers sent you, did he?' in the lift scene. He is not present, does not speak, has no physical appearance, and displays no personality or voice whatsoever.",
+          "difference": "The entire observable personality established in the books \u2014 the formal, suspicious, probing, bigoted, class-conscious Death Eater with a distinctive voice and behavioral pattern \u2014 is entirely absent from the film. His only film presence is as an offscreen name uttered by another character.",
+          "penalty_logic": "This is not a case of compression. The character has no film portrayal of personality or voice at all. He is referenced by name but never shown. The score cannot be above the bottom band since there is nothing in the film corpus to evaluate as a faithful or unfaithful rendering of his personality. The score is slightly above zero only because the single name-drop at least places him in the same institutional context (Ministry/Death Eater network) as the books, preserving a marginal identity signal.",
+          "evidence_status": "Directly evidenced"
         },
         "narrative_role_agency": {
-          "book_baseline": "Travers serves multiple narrative functions: he is named at the Death Eater trials as a murderer (McKinnons), he appears as a threat during the Seven Potters escape, he is the primary obstacle during the Gringotts infiltration (forcing Harry to use Imperio twice), he is Imperiused and hidden in a crack in the wall, and he duels Parvati at the Battle of Hogwarts. He is an active antagonist whose presence drives tension and forces key decisions from Harry.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Complete absence from the film corpus.",
-          "penalty_logic": "Cannot score what does not appear.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Travers serves two distinct narrative functions in the books. First, in GoF, he is named at Karkaroff's trial as a convicted Death Eater who helped murder the McKinnons \u2014 this establishes the scale and violence of Voldemort's inner circle and provides context for what was at stake during the First Wizarding War. Second, and most significantly, in DH he is the primary external threat and complication during the Gringotts infiltration sequence. He accompanies Harry, Hermione, and Ron from Diagon Alley into the bank, watching 'Bellatrix' closely, probing inconsistencies (the wand, the absence from public, the unknown companion), and forcing Harry to Imperius him inside the bank. He is the reason Harry must use an Unforgivable Curse \u2014 a morally and narratively significant act. He is also the reason the trio nearly fail at the entrance, and his suspicious questioning about the wand is what triggers Harry's use of Imperio. His presence drives the tension of the entire infiltration and is an active plot-forcing agent. In DH's Battle of Hogwarts, he duels Parvati, placing him in the climactic conflict as an active combatant.",
+          "film_portrayal": "In the film corpus provided, the GoF scene contains no Travers appearance. In the DH film scene, he is mentioned as having sent 'Mafalda' to Umbridge \u2014 purely an offscreen logistical function. He does not appear in the Gringotts sequence in the film corpus provided, nor in any battle scene. His active agency \u2014 the suspicious questioning, the forced accompaniment into the bank, the triggering of Harry's use of Imperio \u2014 is entirely absent.",
+          "difference": "Travers's entire active narrative role in DH is removed. The Gringotts tension he generates, his role as the catalyst for Harry's use of Imperio, and his presence as a combatant at Hogwarts are all absent from the film corpus. The Ministry scene reduces him to a name that authorizes Hermione's cover identity \u2014 a purely passive, offscreen logistical function.",
+          "penalty_logic": "This is a severe agency loss. The character who forces plot movement and moral choices in the books is reduced to an offscreen name. His narrative functions are either removed entirely or, in the Ministry scene, serve only to lend institutional credibility to another character's cover story. This warrants a score near the bottom of the range.",
+          "evidence_status": "Directly evidenced"
         },
         "motivations_internal_conflict": {
-          "book_baseline": "Travers is a loyal Death Eater motivated by ideological alignment with Voldemort's regime and personal status within it. He is suspicious of Bellatrix's unexpected appearance but also eager to maintain social standing with her. No internal conflict is shown; he is a true believer.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Complete absence.",
-          "penalty_logic": "Cannot score.",
+          "book_baseline": "Travers's motivations in the books are readable from his behavior: he is a loyal Death Eater who believes in blood purity, is deeply status-conscious within the Death Eater hierarchy, and is driven by suspicion and self-interest. His probing of 'Bellatrix' is motivated by a desire to assess her standing with Voldemort relative to his own \u2014 'Perhaps your credit is not as good with him as mine is, Travers' stings him precisely because it touches his insecurity about his own rank. His casual cruelty toward Muggle-borns reflects genuine ideological conviction, not mere performance. His watchfulness at Gringotts is motivated by awareness that something is wrong, even if he cannot name it.",
+          "film_portrayal": "The film provides no evidence of any motivation. He is entirely offscreen. No internal conflict, no ideological position, no self-interest or status-seeking behavior is shown.",
+          "difference": "All motivations are absent \u2014 not simplified, not altered, simply nonexistent in the film corpus.",
+          "penalty_logic": "There is nothing to evaluate. The score reflects the near-total absence of motivational content, slightly above minimum because the institutional framing (he is placed in the Death Eater/Ministry network) implies alignment with known Death Eater ideology, which is a very weak residual signal.",
           "evidence_status": "Not enough evidence"
         },
         "character_arc": {
-          "book_baseline": "Travers has no meaningful arc; he is a flat antagonist who appears across multiple books as a consistent Death Eater presence. His arc is intentionally flat.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Complete absence.",
-          "penalty_logic": "Cannot score.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Travers has no meaningful character arc in the books \u2014 he is a flat character. He appears as a named war criminal in GoF, resurfaces as an active threat in DH, and is last seen dueling at Hogwarts. There is no internal transformation, no change in values, no redemption or fall. His arc is intentionally flat: he is a recurring instrument of institutional Death Eater menace.",
+          "film_portrayal": "The film similarly gives him no arc \u2014 he is a name, not a character with a trajectory.",
+          "difference": "The flat arc of the books is technically matched by the flat non-presence of the films, but for entirely different reasons. In the books, flatness is a deliberate characterization choice for a functional villain. In the films, flatness results from near-total absence.",
+          "penalty_logic": "Per the framework, a character whose arc is flat in both books and films can score full points on this dimension. However, the flat arc in the films is not a faithful preservation of the books' intentional flatness \u2014 it is the product of the character being almost entirely cut. The arc rule states a character can score full points if their arc is flat in the books AND flat in the films. The condition is technically met, but the spirit of the rule assumes the character is at least present. A modest score reflecting this technical alignment with a caveat for the hollow nature of the match is appropriate. Scoring conservatively given the character is virtually absent from the film.",
+          "evidence_status": "Reasonably inferred"
         },
         "key_relationships": {
-          "book_baseline": "His most significant relationship in the corpus is with Bellatrix (or Hermione disguised as her): he is deferential but suspicious, probing her about her wand and her presence in Diagon Alley. He also has a peer relationship with other Death Eaters and a contemptuous relationship with Muggle-borns and goblins.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Complete absence.",
-          "penalty_logic": "Cannot score.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Travers's most important relationship in the books is his dynamic with Bellatrix Lestrange (or rather, 'Bellatrix' as impersonated by Hermione). This relationship reveals his position in the Death Eater hierarchy: he defers to Bellatrix's claimed status while simultaneously probing and testing her. The dynamic is one of mutual suspicion within a shared ideological framework \u2014 neither trusts the other, both perform loyalty to Voldemort. His relationship with the trio (as an oblivious threat) is functionally significant: he is the external pressure that nearly exposes them. His earlier relationship to the McKinnons is historical \u2014 he is defined in GoF partly by the violence he did to them. There is also a transactional relationship with Gringotts goblins, marked by anti-goblin bigotry ('I confess I deplore the necessity of consorting with our long-fingered friends').",
+          "film_portrayal": "In the film, the only relational content is that Travers sent 'Mafalda' (Hermione) to Umbridge \u2014 a functional bureaucratic connection. The suspicious, hierarchical dynamic with Bellatrix, the oblivious-threat dynamic with the trio, and the bigoted transactional relationship with goblins are all absent.",
+          "difference": "The most revealing relationship \u2014 his tense, probing, status-conscious interaction with 'Bellatrix' \u2014 is entirely lost. This relationship is the primary lens through which his personality, ideology, and social position are revealed in the books.",
+          "penalty_logic": "All meaningful relationship dynamics are absent. The single film reference places him in the same institutional network but reveals nothing of the emotional or social dynamic that defines him in the books. Score is near the bottom of the range.",
+          "evidence_status": "Directly evidenced"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "Travers is a minor but textured character: his casual cruelty (mocking the wandless witch), his class snobbery (shaking Ron's hand with two fingers, deploring goblins), his theatrical speech, his suspicion balanced against deference to Bellatrix, and his role as an unwitting tool (Imperiused twice) all give him more texture than a generic Death Eater.",
-          "film_portrayal": "No film scenes provided.",
-          "difference": "Complete absence.",
-          "penalty_logic": "Cannot score.",
-          "evidence_status": "Not enough evidence"
+          "book_baseline": "Travers in DH is a minor character with considerable texture for his limited page count. His complexity comes from layered simultaneous behaviors: he is politely menacing, status-competitive, ideologically committed yet socially performative, easily affronted yet capable of restraint. His mocking impersonation of the Muggle-born witch ('I'm a witch, sir, let me prove it to you!') reveals casual cruelty presented as wit \u2014 a specific and memorable characterization. His two-fingered handshake with Ron, his theatrical self-pity about needing to use Gringotts, and his pointed inquiry about Bellatrix's wand all build a character who is simultaneously ridiculous and genuinely dangerous. He is also the catalyst for Harry's use of the Imperius Curse, which carries moral weight beyond the scene itself.",
+          "film_portrayal": "None of this texture exists in the film. The character is an administrative reference point. The casual cruelty, the social performance, the dangerousness, the moral catalysis \u2014 all absent.",
+          "difference": "The entire book characterization \u2014 every scene, every line, every behavioral nuance \u2014 is lost except for a name used to authenticate a cover story.",
+          "penalty_logic": "This is near-total loss of complexity and nuance. The score reflects that the name itself preserves a minimal identity signal (Death Eater, Ministry-connected), but nothing that made the character textured or interesting survives in the film corpus.",
+          "evidence_status": "Directly evidenced"
         }
       },
       "confidence": {
-        "global": "Low",
-        "personality_voice": "Low",
-        "narrative_role_agency": "Low",
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
         "motivations_internal_conflict": "Low",
-        "character_arc": "Low",
+        "character_arc": "Medium",
         "key_relationships": "Low",
-        "complexity_nuance_lost_material": "Low"
+        "complexity_nuance_lost_material": "Medium"
       },
       "lost_or_transferred_material": [
-        "Travers named as murderer of the McKinnons at the Death Eater trials (GoF)",
-        "Travers encountered during the Seven Potters escape — his hood falls off when cursed",
-        "Travers as the primary obstacle during the Gringotts infiltration, forcing Harry to use Imperio twice",
-        "Travers Imperiused and made to hide in a crack in the wall",
-        "Travers's casual cruelty toward wandless Muggle-borns (mocking impersonation)",
-        "Travers's class snobbery toward goblins and Ron (two-finger handshake)",
-        "Travers's theatrical, status-conscious dialogue in Diagon Alley",
-        "Travers dueling Parvati at the Battle of Hogwarts",
-        "Travers as a recurring Death Eater presence across multiple books"
+        "Travers's entire Diagon Alley / Gringotts appearance (DH Book 26) \u2014 the primary scene that establishes his personality, voice, and function \u2014 is absent from the film corpus",
+        "His suspicious probing of 'Bellatrix' about her wand, her absence from public, and her unknown companion \u2014 the central tension of the Gringotts approach sequence",
+        "His role as the trigger for Harry's use of the Imperius Curse inside Gringotts \u2014 a morally significant narrative beat",
+        "His mocking impersonation of the Muggle-born witch \u2014 the clearest expression of his casual ideological cruelty",
+        "His class-conscious, two-fingered handshake with Ron and anti-goblin bigotry at Gringotts",
+        "His presence as an active combatant dueling Parvati at the Battle of Hogwarts",
+        "His naming at Karkaroff's trial as a murderer of the McKinnons \u2014 the historical context establishing his war crimes",
+        "His role in the raid on Xenophilius Lovegood's house, where he is identified by Hermione as supposed to be in Azkaban"
       ],
       "score_caps_applied": [
-        "No caps applied — scores are 0 across all dimensions due to complete absence of film corpus material, not as a faithfulness judgment. The 0 reflects inability to evaluate, not confirmed unfaithfulness."
+        "Cap 4 (\u226470): Films preserve only the character's broad identity (Death Eater name in institutional context) but remove most of what defines his book characterization \u2014 applied",
+        "Cap 3 (\u226475): Core book functions, decisions, and acts of agency (triggering Harry's use of Imperio; Gringotts infiltration tension; Battle of Hogwarts combat) are entirely absent \u2014 applied",
+        "Cap 2 (\u226480): Key relationships (the probing dynamic with 'Bellatrix', the threat dynamic with the trio) are absent or non-functional in the film \u2014 applied"
       ],
-      "key_observations": "The film corpus provided contains no scenes featuring Travers. It is therefore impossible to evaluate faithfulness in any dimension. All scores are 0 and all confidence levels are Low, reflecting the absence of evaluable material rather than a determination that the film portrayal is unfaithful. In the books, Travers is a minor but distinctly characterized Death Eater with a recognizable voice, multiple narrative functions across four books, and a memorable role as the primary obstacle in the Gringotts infiltration. Whether any of this is preserved in the films cannot be determined from the provided corpus.",
+      "key_observations": "Travers is one of the most dramatically reduced characters in the adaptation. In the books, particularly in Deathly Hallows, he is a carefully drawn minor villain with a distinctive voice, observable ideology, genuine narrative function, and moral weight \u2014 his presence forces Harry to use an Unforgivable Curse. In the film corpus, he exists solely as an offscreen name used by Umbridge to authenticate Hermione's cover identity. The entire Gringotts sequence, which is his defining appearance, has been either cut or rendered without him in the film corpus provided. The score of 37 reflects that he retains a minimal institutional identity (the name Travers is placed in the correct Death Eater/Ministry context) but that virtually everything that constitutes his characterization \u2014 personality, voice, agency, motivation, relationships, nuance \u2014 is absent. Confidence is Medium rather than Low because the book corpus is rich enough to establish a clear baseline, and the film's near-total absence of the character is itself clear and unambiguous evidence.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 14435,
-        "film_chars_sent": 0,
+        "film_chars_sent": 11089,
         "aliases": [],
-        "corpus_hash": "b11c0c671016",
         "corpus_version": "1"
       }
     }

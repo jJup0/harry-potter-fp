@@ -1,20 +1,104 @@
 {
   "character": "Walden Macnair",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 8.0,
+    "narrative_role_agency": 6.0,
+    "motivations_internal_conflict": 7.0,
+    "character_arc": 8.0,
+    "key_relationships": 4.0,
+    "complexity_nuance_lost_material": 5.0,
+    "total": 38.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 8,
+      "narrative_role_agency": 6,
+      "motivations_internal_conflict": 7,
+      "character_arc": 8,
+      "key_relationships": 4,
+      "complexity_nuance_lost_material": 5,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Macnair has a small but textured voice. His single line of dialogue in PoA \u2014 'Where is the beast?' \u2014 is cold and clinical, and his behavior (peering through Hagrid's window to locate Buckbeak, snarling furiously when the hippogriff is gone, immediately demanding a ground search, then being redirected to the skies by Dumbledore) establishes him as someone eager, direct, and aggressive in his professional role. In GoF, Voldemort addresses him with a compliment laced with condescension: 'You shall have better victims than that soon, Macnair. Lord Voldemort will provide.' Macnair responds with 'Thank you, Master... thank you,' showing deference and gratitude \u2014 a sycophantic Death Eater who genuinely relishes violence and sees Voldemort's promise of 'better victims' as a reward. In OotP, Hagrid describes him as a 'maniac' who 'likes killing as much as Golgomath,' directly characterizing his psychology. In the Battle of Hogwarts he is thrown bodily by Hagrid and knocked unconscious, consistent with his role as a physical but ultimately defeatable threat. The overall pattern is: cold professionalism in his Ministry role, aggressive eagerness when violence is near, servile gratitude toward Voldemort, and a genuine appetite for killing that crosses into mania.",
+          "film_portrayal": "In the film corpus (GoF screenplay), Macnair is named only once \u2014 Voldemort calls out 'Crabbe! Gah, Macnair! Goyle!' as he unmasks his Death Eaters. He receives no dialogue, no individual reaction, no distinguishing action. His presence is purely nominal. The cold clinical voice, the furious snarling, the sycophantic 'Thank you, Master,' the eager peering through windows \u2014 none of it is present.",
+          "difference": "The film retains the name and the physical presence at the graveyard scene, but removes every behavioral and vocal marker that defines his personality. His most revealing line of dialogue in the books ('Thank you, Master... thank you') is present in the book corpus's graveyard scene but is either cut entirely or reassigned \u2014 in the film screenplay the 'Thank you, master. Thank you' line is spoken by Wormtail, not Macnair. His cold hunting voice from PoA, his furious reaction to losing Buckbeak, and his maniacal relish for killing are entirely absent from the film corpus.",
+          "penalty_logic": "The film preserves only the name. Every trait that constitutes Macnair's personality \u2014 aggression, cold professionalism, sycophancy toward Voldemort, appetite for violence \u2014 is absent. The character is reduced to a figure called out in a list. This is a substantial personality loss warranting a score in the 6\u20139 range.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Macnair serves multiple narrative functions across the books. In PoA: he is the active executioner whose impending arrival creates the ticking-clock tension of the Buckbeak rescue; he looks through the window (locating Buckbeak for execution), he signs the paperwork, he snarls and demands a search when Buckbeak is gone, and he is later dispatched by Fudge to retrieve the dementors for Sirius's Kiss \u2014 making him a direct threat to two characters. In GoF: he is one of the named Death Eaters restored at the graveyard, serving as evidence of Voldemort's returning network. In OotP: he acts as Voldemort's ambassador to the giants, actively persuading Golgomath to join Voldemort's side \u2014 a significant plot-driving action \u2014 and hunts Hagrid and Maxime in the mountains at night. In the Battle of the Department of Mysteries he is a named combatant knocked out by Neville's spell. In DH he fights in the Battle of Hogwarts and is incapacitated by Hagrid.",
+          "film_portrayal": "In the film corpus, Macnair is named in the graveyard roll-call (GoF). The PoA execution scene exists in the film but the corpus provided for the film contains no Macnair material from it. His giant-recruitment mission (OotP) is entirely absent from the film series. His Department of Mysteries duel is absent. His Battle of Hogwarts appearance is absent from the film corpus provided.",
+          "difference": "His most narratively active roles \u2014 the PoA executioner who creates plot tension and is sent to fetch dementors, the OotP ambassador who turns the giants, the OotP and DH combatant \u2014 are either entirely absent from the film corpus or not evidenced. The only film presence is a name in a list. His agency as executioner, ambassador, and combatant is removed.",
+          "penalty_logic": "Macnair's narrative agency across three books is substantial and specific. The film corpus shows none of it. The graveyard naming gives him zero agency. His most important plot-driving action (recruiting giants) is absent entirely. His role as active executioner in PoA may exist in the PoA film but is not present in the film corpus provided, so it cannot be credited. Score falls in the 6\u20139 range.",
+          "evidence_status": "Directly evidenced for film absence; directly evidenced for book presence"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Macnair's motivations are straightforward but specific: he is a man who genuinely enjoys violence and killing, has remained loyal to Voldemort's ideology (he is described as Malfoy's 'old pal' and a former Death Eater who was 'cleared'), and who finds professional satisfaction in his Ministry role as an executioner of dangerous beasts. Voldemort's promise of 'better victims' is received by Macnair as a genuine reward \u2014 suggesting his motivation is not merely duty but appetite. Hagrid's characterization ('likes killing as much as Golgomath') reinforces this. There is no internal conflict evidenced; his motivation is consistent and uncomplicated: loyalty to Voldemort and relish for violence.",
+          "film_portrayal": "The film corpus provides no material from which to evaluate Macnair's motivations. He is named but given no dialogue, no action, and no reaction that would reveal why he does what he does.",
+          "difference": "The absence of any film material means his motivations are neither confirmed nor contradicted \u2014 they simply do not exist in the film portrayal. This is functionally equivalent to their removal for the audience.",
+          "penalty_logic": "Motivations are not actively changed or contradicted, but they are completely absent from the film portrayal. 'Absent' is closer to 'mostly wrong or replaced' than 'simplified but correct,' because there is nothing for the audience to understand about why this character exists or acts. Score falls in the 5\u20137 range, acknowledging that the absence is not a contradiction but is a near-total removal.",
+          "evidence_status": "Directly evidenced (absence in film); directly evidenced (book baseline)"
+        },
+        "character_arc": {
+          "book_baseline": "Macnair has a flat arc that is intentionally flat: he begins as a cleared Death Eater working for the Ministry and ends as a defeated combatant at the Battle of Hogwarts. He never changes ideologically or emotionally; his arc is one of continuing service to Voldemort across books, punctuated by a failed execution (Buckbeak), a successful recruitment mission (giants), and a final defeat. This flatness is appropriate to his role as a recurring minor antagonist. The arc is complete in the sense that it has a beginning (Ministry executioner, Death Eater in waiting), middle (active service to Voldemort including giant recruitment), and end (physical defeat by Hagrid).",
+          "film_portrayal": "The film corpus shows only a single moment \u2014 the graveyard naming in GoF. There is no beginning, middle, or end for the character as a film entity. The arc's flat structure could in principle be preserved even with minimal appearances, but the film does not provide enough material to confirm even the flat arc is present.",
+          "difference": "The arc is not contradicted, but it is not present in any meaningful form. A flat arc can score full points if it is flat in both books and films \u2014 but here the film does not even establish the baseline that the arc starts from. The graveyard naming is insufficient to confirm the arc exists as a narrative construct in the films.",
+          "penalty_logic": "A flat arc can be faithful with minimal material, but the film must at minimum establish the character's position in the story. A single name-call in a list does not accomplish this. However, since the arc is flat and not actively contradicted, the penalty is moderate rather than severe. Score in the 8\u201310 range.",
+          "evidence_status": "Reasonably inferred"
+        },
+        "key_relationships": {
+          "book_baseline": "Macnair has two meaningful relationships evidenced in the books. First, his connection to Lucius Malfoy: Hagrid explicitly identifies them as 'old pals,' suggesting a social and ideological bond within Death Eater circles that pre-dates the events of the series. This relationship contextualizes how Macnair got the executioner job and why he is trusted in that role. Second, his relationship with Voldemort: Voldemort addresses him by name at the graveyard, promises him 'better victims,' and Macnair responds with fervent gratitude \u2014 a classic lord/servant dynamic marked by Macnair's eagerness to please and Voldemort's condescending generosity. Third, his antagonistic dynamic with Hagrid spans PoA (the execution attempt) and OotP (the giant mission, where Hagrid recognizes him and describes him with evident disgust).",
+          "film_portrayal": "The film corpus shows Macnair named in a group list by Voldemort. No individual interaction with Voldemort, Malfoy, or Hagrid is evidenced in the film corpus. The Voldemort/Macnair dynamic is not developed; the Malfoy connection is absent; the Hagrid antagonism is absent.",
+          "difference": "All three key relationships are absent or reduced to nominal presence. The lord/servant dynamic with Voldemort is not individuated \u2014 Macnair is one name among several. The Malfoy connection is not referenced. The Hagrid antagonism is absent.",
+          "penalty_logic": "Key relationships are heavily flattened. The emotional dynamics that define Macnair's place in the social world of the books \u2014 his bond with Malfoy, his servile eagerness toward Voldemort, his antagonism with Hagrid \u2014 are absent from the film corpus. Score in the 3\u20134 range.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Macnair is not a complex character in the literary sense, but his book portrayal has specific texture: the cold professionalism of 'Where is the beast?', the furious snarling when Buckbeak escapes, the fervent 'Thank you, Master... thank you' at the graveyard, the description as a 'maniac' who 'likes killing,' the active role as a giant-recruiter, the antagonism with Hagrid across multiple books, and the final defeat at Hagrid's hands in the Battle of Hogwarts. These details collectively create a character who is recognizable, consistent, and specific \u2014 a Death Eater whose violence is not just political but personal and appetitive.",
+          "film_portrayal": "The film corpus provides a single naming. None of the textured details survive: no cold professionalism, no furious reaction, no sycophantic gratitude, no Hagrid antagonism, no giant recruitment, no final defeat scene in the corpus.",
+          "difference": "The entirety of Macnair's book-specific texture is absent from the film corpus. What remains is a name.",
+          "penalty_logic": "The character is reduced to a name in a list. All nuance, specificity, and texture are absent. This is a near-total removal of complexity, warranting a score in the 5\u20137 range. It does not reach 0\u20134 because the character's existence is acknowledged and his basic identity (Death Eater, present at Voldemort's return) is technically preserved.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "High",
+        "motivations_internal_conflict": "Medium",
+        "character_arc": "Medium",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Macnair's cold, clinical dialogue ('Where is the beast?') from the PoA execution scene is absent from the film corpus",
+        "Macnair's furious reaction to Buckbeak's disappearance ('I saw it! just here!', 'Someone untied him! We should search the grounds') is absent from the film corpus",
+        "Macnair being dispatched by Fudge to retrieve the dementors for Sirius's Kiss is absent from the film corpus",
+        "Macnair's sycophantic 'Thank you, Master... thank you' at the GoF graveyard scene is given to Wormtail in the film, not Macnair",
+        "Macnair's giant-recruitment mission on behalf of Voldemort (OotP) is entirely absent from the films",
+        "Macnair and another Death Eater hunting Hagrid and Maxime in the mountains at night (OotP) is absent from the films",
+        "Macnair as a named combatant in the Department of Mysteries battle (OotP) is absent from the film corpus",
+        "Macnair being defeated by Neville's Stunning Spell in the Department of Mysteries is absent from the film corpus",
+        "Macnair being thrown by Hagrid and knocked unconscious at the Battle of Hogwarts is absent from the film corpus",
+        "The Macnair\u2013Lucius Malfoy friendship ('old pal') that contextualizes his Ministry position is never established in the films",
+        "Hagrid's characterization of Macnair as a 'maniac' who 'likes killing' is absent from the films"
+      ],
+      "score_caps_applied": [
+        "Cap 3 (\u226475): A core book action \u2014 Macnair's sycophantic 'Thank you, Master' line at the graveyard \u2014 is transferred to Wormtail in the film",
+        "Cap 4 (\u226470): The films preserve only Macnair's broad identity (Death Eater, named at graveyard) but remove most of what defines his book characterization",
+        "Cap 1 (\u226485): The films remove major parts of his agency, key relationships, and narrative function across PoA, OotP, and DH"
+      ],
+      "key_observations": "Walden Macnair receives a low faithfulness score of 38 primarily because the film corpus reduces him to a single name called out in a group list, eliminating every specific trait, action, relationship, and narrative function he carries across the books. His most defining personality markers \u2014 cold professional aggression, furious reaction to losing his quarry, sycophantic gratitude toward Voldemort \u2014 are absent, and his one characterizing line of dialogue at the graveyard ('Thank you, Master') is transferred to Wormtail in the film. His most significant narrative contribution (recruiting the giants in OotP) is entirely absent from the film series. His antagonistic relationship with Hagrid, his social bond with Malfoy, and his final defeat at Hagrid's hands in the Battle of Hogwarts are all absent from the film corpus. The score is not lower because his basic identity as a Death Eater is nominally preserved and his flat arc is not actively contradicted. Confidence is Medium rather than Low because the book corpus is sufficiently detailed to establish a clear baseline, and the film corpus's near-total absence of Macnair material is itself unambiguous evidence of what was lost.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 9588,
+        "film_chars_sent": 10541,
+        "aliases": [
+          "Macnair"
+        ],
+        "corpus_version": "1"
       }
     }
   },

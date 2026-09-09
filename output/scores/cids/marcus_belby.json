@@ -1,54 +1,44 @@
 {
   "character": "Marcus Belby",
   "fp_score": 64.0,
-  "infidelity_score": 36,
-  "weighted_infidelity_exposure": 3.5,
-  "cids": 87.9,
-  "damage_per_exposure": 35.2,
+  "infidelity_score": 36.0,
+  "weighted_infidelity_exposure": 2.5,
+  "cids": 73.2,
+  "damage_per_exposure": 48.8,
   "structural_damage_level": 1,
-  "adjusted_cids": 87.9,
+  "adjusted_cids": 73.2,
   "main_damage_causes": [
-    "Nervous, genuine social anxiety replaced with deadpan comedy, misrepresenting Belby's core trait",
-    "Physical distress scene (choking) entirely absent, removing the most memorable and characterizing book moment",
-    "Belby used as background comic relief rather than a minor but distinct character with real discomfort"
+    "Replacement of Belby's defining nervous/distressed physicality with a low-key comedy beat, softening his characterization",
+    "Omission of the choking/Anapneo incident, removing a small but precise illustration of his haplessness and Slughorn's casual competence",
+    "Belby's screen presence is reduced to a nearly silent background figure with one interrupted joke, leaving minimal impression of the nervous Ravenclaw the book sketches"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - Belby's response about his uncle",
-      "book_baseline": "Belby is thin, nervous, and visibly distressed when asked about his uncle - he chokes on food, eyes streaming, and gives a strained, uncomfortable 'Not... not much of him, no' - conveying genuine family estrangement and social anxiety",
-      "film_portrayal": "Belby delivers a deadpan, almost comedic line about his dad thinking potions are rubbish and trails off into a joke about 'a stiff one at the end of the day' - reframing his discomfort as dry humor rather than genuine nervous distress",
+      "scene": "Film Scene 2 \u2013 Slughorn's dinner, Belby's response about his uncle",
+      "book_baseline": "Book establishes Belby as 'thin and nervous-looking' who gives 'a strained smile' and responds with gasping, streaming eyes after choking \u2014 his interaction with Slughorn is brief, uncomfortable, and ends with Slughorn casting Anapneo to clear his airway. His nervousness and physical distress dominate his characterization.",
+      "film_portrayal": "Film Belby never looks up from his plate and delivers a rambling, almost comedic explanation about his dad thinking 'potions are rubbish' and launching into a joke about 'a stiff one at the end of the \u2014', cut off mid-punchline by Slughorn pivoting away. The choking incident is absent entirely.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Belby is genuinely awkward and pained about his family situation; the film turns this into a throwaway gag, losing the authentic social anxiety and the pathos of a kid clearly uncomfortable with his family estrangement"
+      "explanation": "The book's Belby is physically nervous and visibly distressed \u2014 his choking is the defining beat of his appearance, underscoring both his awkwardness and Slughorn's casual, practiced social control (he calmly casts Anapneo mid-conversation). The film replaces this with a low-key, laddish humour beat (the 'stiff drink' joke) that reframes Belby as mildly dry and self-deprecating rather than genuinely nervous and out of his depth. The trait shift is modest but real."
     },
     {
-      "scene": "Film Scene 2 - Belby never looks up from his plate",
-      "book_baseline": "Belby's nervousness is expressed through physical distress (choking) and strained speech, not silent withdrawal",
-      "film_portrayal": "Stage direction notes Belby 'never once looks up from his plate' throughout the scene, reducing him to a background prop who delivers one joke line",
+      "scene": "Film Scene 2 \u2013 absence of choking/Anapneo beat",
+      "book_baseline": "Book Scene 4\u20135 establishes that Belby chokes on something and Slughorn calmly casts Anapneo to clear his airway, with Belby gasping and eyes streaming afterward. This beat characterizes Slughorn's effortless social dominance and Belby's hapless discomfort in equal measure.",
+      "film_portrayal": "The choking incident and Slughorn's wandwork do not appear in the film corpus at all. Slughorn simply cuts Belby off mid-sentence and moves on to Hermione.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The book gives Belby small but distinct reactive moments; the film collapses him into near-invisibility except for a single comedic beat, flattening what little characterization he has"
-    },
-    {
-      "scene": "Film Scene 2 - Slughorn's dessert joke at Belby's expense",
-      "book_baseline": "No such joke exists; Slughorn's interest in Belby is genuine (if transactional) - he's probing for a connection to Damocles Belby and is somewhat sympathetic when the connection proves weak",
-      "film_portrayal": "Slughorn makes a joke implying Belby is a greedy eater ('if Belby leaves you any'), using him as comic relief",
-      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Reduces Belby further to a sight gag, undermining even the minor dignity the book affords him as a nervous but earnest student"
+      "explanation": "The Anapneo moment is a small but telling detail that illustrates Slughorn's practised, unflappable hospitality and Belby's social misfortune. Its loss is minor \u2014 Belby is a peripheral character \u2014 but it removes a neat piece of characterization for both figures."
     }
   ],
   "confidence": {
-    "global": "High",
-    "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 126,
-  "adjusted_cids_v1": 126
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

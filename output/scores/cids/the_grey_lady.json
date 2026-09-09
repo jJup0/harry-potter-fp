@@ -2,88 +2,70 @@
   "character": "The Grey Lady",
   "fp_score": 68.0,
   "infidelity_score": 32.0,
-  "weighted_infidelity_exposure": 22.0,
-  "cids": 199.0,
-  "damage_per_exposure": 22.1,
+  "weighted_infidelity_exposure": 24.0,
+  "cids": 204.3,
+  "damage_per_exposure": 27.2,
   "structural_damage_level": 3,
-  "adjusted_cids": 199.0,
+  "adjusted_cids": 204.3,
   "main_damage_causes": [
-    "Helena's full backstory - the theft, the flight to Albania, the Baron's murder - is almost entirely omitted, collapsing a rich character into vague emotional suffering",
-    "Harry's active, combative role in breaking down her resistance is replaced by soft manipulation, reducing his agency and urgency at a key late-saga moment",
-    "The payoff to the Bloody Baron mystery seeded across the whole series is lost, severing a saga-level thread"
+    "Complete omission of Helena's confession (the theft, the Baron, Albania, the hollow tree) strips the scene of its dramatic and thematic core, reducing a guilt-ridden confession to a vague emotional exchange.",
+    "Rewriting Helena's motivation from competitive pride and ambition to wistful admiration removes the thematic parallel with Voldemort's covetousness and her defining moral flaw.",
+    "Replacing Harry's blunt moral confrontation with charm-based persuasion mischaracterises both Harry and Helena, and introduces an uncomfortable Riddle parallel that the book locates only in quiet internal reflection."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 4 - Harry already knows her name before she reveals it",
-      "book_baseline": "Helena's identity as Rowena's daughter is a revelation she makes herself mid-conversation, after her composure slips. She is angry with herself for letting it slip: 'She looked angry with herself.' The disclosure is a crack in her armor.",
-      "film_portrayal": "Harry arrives already knowing her name and parentage ('It's Helena, isn't it? Helena Ravenclaw. Rowena's daughter. Luna told me.'), removing the dramatic unmasking entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's slow reveal of her identity is tied to her emotional vulnerability - she slips up and hates herself for it. The film flattens this into a simple greeting, losing the moment that first cracks her haughty composure."
-    },
-    {
-      "scene": "Film Scene 4 - Helena volunteers the diadem topic unprompted",
-      "book_baseline": "Harry has to explicitly ask for information about the diadem. Helena is cold, dismissive, and tries to leave multiple times. Harry has to push hard and even shout at her.",
-      "film_portrayal": "Helena says 'You seek my mother's diadem' before Harry even raises the subject, volunteering the topic herself.",
+      "scene": "Film Scene 4 (INT. CORRIDOR - SAME TIME - NIGHT) \u2014 Helena opens by anticipating Harry's quest",
+      "book_baseline": "In the book, the Grey Lady is haughty and evasive; she does not volunteer that Harry seeks the diadem. Harry must explicitly state his need, and she initially refuses with cold disdain ('I am afraid that I cannot help you').",
+      "film_portrayal": "The film has Helena say 'You seek my mother's diadem' unprompted, before Harry has even stated his purpose \u2014 she reads his intent and names the object herself.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Book Helena is guarded and resistant; she does not open doors for Harry. Having her anticipate and name the subject herself makes her cooperative rather than reluctant, undermining her defining haughtiness."
+      "explanation": "The book establishes her as guarded and withholding; she never volunteers information. Having her pre-emptively identify Harry's goal makes her seem open and perceptive rather than proud and closed-off, softening a key character trait."
     },
     {
-      "scene": "Film Scene 4 - Harry's persuasion strategy replaces emotional confrontation",
-      "book_baseline": "Harry breaks through Helena's resistance by getting angry, shouting at her, and challenging her loyalty ('or aren't you interested in that?'). Her composure slips under pressure and she begins to stammer. It is an emotionally charged confrontation.",
-      "film_portrayal": "Harry persuades her with a calculated appeal - 'I want to destroy it' - framed as giving her what she wants. He is gentle, stepping closer, saying 'Trust me.' The scene is intimate and almost tender.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Book Harry is desperate and combative; book Helena is proud and crumbles under moral challenge. The film replaces this with a soft manipulation scene that changes both characters' registers and removes the raw urgency of the book exchange."
-    },
-    {
-      "scene": "Film Scene 4 - Helena's motivation reframed as guilt/pain over the diadem itself",
-      "book_baseline": "Helena's wound is her betrayal of her mother - she stole the diadem out of ambition, was tracked down and murdered, and has carried that guilt. Her pain is relational and moral. She tells the story in full, including the Baron stabbing her.",
-      "film_portrayal": "Helena speaks only of wanting to be like her mother and growing to hate the diadem ('the pain I felt... the pain I feel even now'). The Baron, the murder, the flight to Albania, and the full backstory are entirely absent.",
+      "scene": "Film Scene 4 \u2014 Harry's appeal shifts from urgency/anger to a promise to destroy the diadem",
+      "book_baseline": "In the book, Harry breaks through Helena's resistance by confronting her with the stakes of Voldemort's return and with anger ('It's about Voldemort \u2014 defeating Voldemort \u2014 or aren't you interested in that?'). Her composure slips under moral pressure and shame, not because Harry offers her something she wants.",
+      "film_portrayal": "Harry unlocks Helena by promising 'I want to destroy it... That's what you want, isn't it, Helena? You want it destroyed.' He frames cooperation as fulfilling her personal desire for relief from the diadem's pain.",
       "damage_type": "motivation/internal conflict",
-      "exposure": 2,
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book's Helena is defined by a specific, tragic moral failure - theft, flight, murder. The film reduces her to vague emotional suffering about the object itself. This strips her of her actual character and the backstory that makes her sympathetic and specific."
+      "explanation": "The book's Helena confesses out of guilt and residual shame \u2014 her composure slips when confronted with the moral weight of Voldemort. The film replaces this with a transactional appeal to her suffering, making her cooperation feel like a personal emotional trade rather than a morally significant confession. This reduces the resonance of her arc and misrepresents her internal conflict."
     },
     {
-      "scene": "Film Scene 4 - The Baron's story omitted entirely",
-      "book_baseline": "Helena reveals that the Baron - the Slytherin ghost - was sent by her dying mother, tracked her to Albania, and stabbed her when she refused to return. This explains the Baron's chains and bloodstained robes, a mystery seeded since Philosopher's Stone.",
-      "film_portrayal": "The Baron is never mentioned. The murder is never mentioned. Albania is never mentioned.",
+      "scene": "Film Scene 4 \u2014 Omission of Helena's story: the theft, the Baron, Albania",
+      "book_baseline": "The book devotes an extended passage to Helena recounting that she stole the diadem to surpass her mother, fled to Albania, was tracked and murdered by the Baron, and that the diadem remained in a hollow tree in a forest there. This confession is the emotional and plot core of the scene \u2014 it reveals her guilt, her history with Riddle, and the diadem's location logic.",
+      "film_portrayal": "Helena provides none of this backstory. She references only that she stole it to be more like her mother ('I only wanted to be more like her') and that Tom Riddle swore to destroy it but lied. The Baron, Albania, the hollow tree, and the full confession are entirely absent.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This is a payoff to a seven-book mystery about the Bloody Baron. Its omission is a structural loss - it severs a thread running through the entire saga and removes the only explanation for one of Hogwarts' most prominent ghosts."
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The book's extended confession is the dramatic heart of Helena's characterisation \u2014 it establishes her tragic flaw, her complicity in enabling Riddle, and gives the audience the narrative logic of how Voldemort found and hid the diadem. Its removal strips her of her defining arc material and reduces her from a complex, guilt-ridden figure to a vague, sorrowful ghost dispensing a cryptic location clue."
     },
     {
-      "scene": "Film Scene 4 - Tom Riddle's manipulation of Helena reduced and reframed",
-      "book_baseline": "Harry deduces that Riddle charmed the story out of Helena the same way he charmed information from others, and explicitly connects this to Riddle's own desire to possess objects he had no right to. Harry mutters a sympathetic note: 'He could be charming when he wanted.' Helena's shame is palpable.",
-      "film_portrayal": "Helena says only that 'another swore to destroy it... but he lied,' then erupts in anger ('He defiled it! With Dark Magic!'). There is no sense of her having been deceived or manipulated - she presents as knowing and angry rather than ashamed.",
+      "scene": "Film Scene 4 \u2014 Helena's motivation for stealing the diadem is altered",
+      "book_baseline": "The book states clearly: 'I sought to make myself cleverer, more important than my mother. I ran away with it.' The theft is an act of jealousy, ambition, and rivalry with Rowena \u2014 a dark mirror of the hubris theme.",
+      "film_portrayal": "Helena says: 'I only wanted to be more like her, clever and wise. She wore it so beautifully, but on me... I grew to hate it.' The motivation is recast as admiration and a desire to emulate her mother, not to surpass or overshadow her.",
       "damage_type": "motivation/internal conflict",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Book Helena's guilt includes having been fooled by Riddle - a parallel to her original theft, both acts of misplaced trust. The film removes her shame and replaces it with righteous anger, losing the thematic resonance of her repeated victimhood."
+      "impact_weight": 3,
+      "explanation": "The shift from competitive ambition to wistful admiration is a substantive character change. The book's Helena is morally compromised by pride and rivalry; the film's version is sympathetic and self-effacing. This removes the thematic parallel with Voldemort's own covetous hunger for objects of power, which Harry explicitly reflects on in the book ('Tom Riddle would certainly have understood Helena Ravenclaw's desire to possess fabulous objects to which she had little right')."
     },
     {
-      "scene": "Film Scene 4 - Harry's deduction about Riddle hiding the diadem on his job-interview night removed",
-      "book_baseline": "Harry has a live deductive breakthrough mid-conversation: he works out that Riddle hid the diadem in the castle the night he came to ask Dumbledore for a teaching job. He says it aloud, Helena is bewildered, and he runs off. This is a key moment of Harry's active intelligence.",
-      "film_portrayal": "Helena simply tells Harry the diadem is 'in the castle, in the place where everything is hidden' and gives him the cryptic Room of Requirement clue. Harry has no deductive moment; he just receives the answer.",
+      "scene": "Film Scene 4 \u2014 Harry's manipulation ('Trust me... you remind me of him a bit')",
+      "book_baseline": "In the book, Harry does not manipulate or charm Helena. He shouts, argues, and appeals to moral stakes. He himself does not know how he gained her confidence and does not ask \u2014 the text treats it as an unplanned, organic breakthrough driven by her guilt.",
+      "film_portrayal": "Harry explicitly steps toward Helena, says 'Trust me,' holds her gaze at close range, and the script notes she is 'lost in his eyes for a moment.' She then compares him to Riddle ('Strange... you remind me of him a bit'). Harry is briefly stung, as if recognising his own manipulation.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book gives Harry an active intellectual victory - he connects the dots himself. The film makes him a passive recipient of Helena's directions. This transfers agency from Harry to Helena and removes one of the few moments in the finale where Harry reasons his way to an answer."
+      "explanation": "The film frames Harry as using personal charm and emotional pressure to extract information \u2014 mirroring Riddle's method. While dramatically interesting, it is directly contradicted by the book, which emphasises Harry's blunt moral confrontation rather than manipulation. More damagingly, the Riddle comparison in the book is an internal reflection about shared acquisitiveness; here it is externalised as a comment on Harry's persuasion technique, subtly implicating Harry in the same seductive coercion Riddle used."
     },
     {
-      "scene": "Film Scene 4 - 'You remind me of him a bit' played as romantic/intimate beat",
-      "book_baseline": "This line does not exist in the book. Harry and Helena's interaction is tense and urgent, not intimate.",
-      "film_portrayal": "Helena says 'Strange... you remind me of him a bit...' while standing inches from Harry, after he has been stepping toward her saying 'Trust me.' Harry is described as 'stung' and 'a bit lost himself,' momentarily forgetting why he came.",
-      "damage_type": "relationship",
+      "scene": "Film Scene 4 \u2014 The location of the diadem is conveyed as a riddle rather than an explicit answer",
+      "book_baseline": "In the book, Helena tells Harry the diadem is in 'a forest in Albania... concealed inside a hollow tree,' and Harry himself deduces \u2014 through the logic of Riddle's visit to Hogwarts \u2014 that it is now in the castle, and specifically connects it to the Room of Requirement through his own knowledge.",
+      "film_portrayal": "Helena gives a cryptic non-answer: 'It's here. In the castle. In the place where everything is hidden... If you have to ask, you'll never know. If you know, you need only ask.' Harry must recall the Room of Requirement himself from the riddle.",
+      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "This invented beat introduces an odd quasi-romantic undertone and briefly derails Harry's focus. It also implicitly compares Harry to Voldemort in a way the book never does in this scene, muddying Harry's characterization at a critical moment."
+      "explanation": "The book gives Helena the functional role of providing the key narrative information (Albania, the hollow tree) that allows Harry to deduce where Riddle hid it. The film transfers the deductive work to a riddle format and removes the Albania/Baron backstory entirely. While Harry still solves it, Helena's narrative function as a genuine informant is reduced to a cryptic prompt, diminishing both her usefulness and the satisfaction of Harry's deduction."
     }
   ],
   "confidence": {
@@ -92,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 704.0,
-  "adjusted_cids_v1": 880.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

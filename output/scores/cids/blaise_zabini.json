@@ -2,71 +2,70 @@
   "character": "Blaise Zabini",
   "fp_score": 61.0,
   "infidelity_score": 39.0,
-  "weighted_infidelity_exposure": 21.0,
-  "cids": 217.4,
-  "damage_per_exposure": 25.6,
+  "weighted_infidelity_exposure": 15,
+  "cids": 195.0,
+  "damage_per_exposure": 27.9,
   "structural_damage_level": 2,
-  "adjusted_cids": 217.4,
+  "adjusted_cids": 195.0,
   "main_damage_causes": [
-    "Complete removal of the Slug Club train lunch scene eliminates Zabini's defining characterization, background, and plot function in a single cut",
-    "Repositioning as a generic Slytherin enforcer in the Battle of Hogwarts contradicts his book identity as a cold social operator rather than a physical threat",
-    "Loss of his verbal sparring with Malfoy and his perceptive political observations removes the intelligence and sharp-tongued haughtiness that distinguish him from Crabbe and Goyle"
+    "Near-total excision of Zabini's book-defining conversational scene in the Slytherin train compartment, where his sharp independent voice, skepticism of Malfoy, and social intelligence are fully established",
+    "Reduction of Zabini from a proud, self-possessed Slytherin peer with his own distinct personality to a silent visual presence and physical henchman who follows Malfoy through action sequences",
+    "Absence of all characterizing details from the Slug Club scenes (his contemptuous skepticism, his blood prejudice, his mother's notoriety) leaving the film audience with no basis for understanding who he is"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 2 - Hogwarts Express compartment, Blaise's reaction to Malfoy's hints",
-      "book_baseline": "In the book, Zabini reacts to Malfoy's cryptic hints about not returning to Hogwarts with scathing skepticism: 'And you think you'll be able to do something for him? Sixteen years old and not even fully qualified yet?' He is sharp, cutting, and unimpressed - his haughtiness extends even to Malfoy.",
-      "film_portrayal": "Blaise merely 'snorts derisively' and shakes his head smiling when Malfoy hints at bigger things. He is reduced to a passive, mildly amused bystander rather than the sharp-tongued skeptic who verbally challenges Malfoy.",
+      "scene": "Film Scene 2 (Hogwarts Express compartment) - Blaise's reaction to Malfoy's cryptic hints",
+      "book_baseline": "In the book, Zabini's reaction to Malfoy's hints about 'bigger and better things' is described as curiosity breaking through his habitually haughty features: 'Even Zabini had allowed a look of curiosity to mar his haughty features.' He also challenges Malfoy scathingly: 'And you think you'll be able to do something for him? Sixteen years old and not even fully qualified yet?' \u2014 demonstrating sharp, skeptical intelligence and a distinct voice independent of Malfoy.",
+      "film_portrayal": "In the film, Blaise's response to Malfoy's similar hints is reduced to shaking his head and smiling as he looks out the window, with Malfoy snapping 'Amused, Blaise? We'll see just who's laughing in the end.' Blaise gets no substantive line challenging Malfoy; his skepticism is rendered as a passive, dismissive smile rather than a pointed verbal challenge.",
       "damage_type": "personality/voice",
-      "exposure": 0.5,
+      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "Zabini's cold, cutting verbal challenge to Malfoy is one of his most characterful book moments - it shows he is no sycophant and will not defer even to Malfoy. The film replaces this with a generic dismissive reaction, flattening his distinct voice."
+      "explanation": "The book establishes Zabini as someone who will verbally spar with and challenge even Malfoy \u2014 a peer, not a subordinate. His scathing question about Malfoy's qualifications is one of his most characterful moments. The film collapses this into a wordless reaction, stripping him of his sharp, independent voice and making him appear merely a smirking bystander rather than an equal with his own critical perspective."
     },
     {
-      "scene": "Film Scene 2 - Hogwarts Express, absence of Slughorn's compartment scene",
-      "book_baseline": "The entire Slug Club train lunch is a defining scene for Zabini: his famous beautiful mother with seven dead husbands, his cold indifference to Harry and Neville, his contemptuous look at Ginny after she defends Harry, his filthy look at Harry as they leave, and his role as the conduit through which Harry infiltrates the Slytherin compartment. This scene establishes his personality, background, social position, and his function as Harry's unwitting spy-vehicle.",
-      "film_portrayal": "The Slug Club train lunch is entirely absent from the film. Zabini has no role in it. The Slug Club dinner in Slughorn's office (Film Scene 5) replaces it but Zabini is a silent background presence with no lines or characterization.",
+      "scene": "Film Scene 2 (Hogwarts Express compartment) - Blaise's role in the compartment conversation overall",
+      "book_baseline": "The book devotes substantial space to Zabini's active participation in the Slytherin compartment: he reports on the Slug Club to Malfoy, fields questions about who attended, delivers the pointed warning about Slughorn not wanting Death Eaters ('I don't think Slughorn's interested in Death Eaters'), and challenges Malfoy's grandiose self-assessment. He functions as an independent, sharp-tongued peer who subtly deflates Malfoy's ego while providing key plot intelligence.",
+      "film_portrayal": "The film compartment scene is drastically condensed. Blaise has no lines reporting on the Slug Club, no exchange with Malfoy about Slughorn's guest list, no warning about Slughorn avoiding Death Eater-connected students, and no scathing challenge to Malfoy's plans. His entire substantive conversational role is absent; he is present as a visual background figure.",
       "damage_type": "nuance/lost material",
-      "exposure": 3,
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "This is the single richest scene for Zabini in the entire book corpus. His background (the mother, the gold), his personality (cold, contemptuous, haughty), his relationship dynamics (disdain for Gryffindors, willingness to needle Ginny), and his plot function (leading Harry to the Slytherin compartment) are all lost. The film Zabini is a cipher where the book Zabini is a fully sketched minor character."
+      "explanation": "This is Zabini's single most developed scene in the entire book series. It establishes his personality, his social intelligence, his independent standing among Slytherins, and his complex relationship with Malfoy as a peer who respects but also punctures him. Losing this material means the film audience has almost no basis for understanding who Zabini is as a person or what role he plays within Slytherin's social hierarchy."
     },
     {
-      "scene": "Film Scene 2 - Hogwarts Express, Zabini's report to Malfoy absent",
-      "book_baseline": "After the Slug Club lunch, Zabini returns to the Slytherin compartment and gives Malfoy a detailed, indifferent report of who attended. His delivery is cool and precise. He volunteers the observation about Slughorn avoiding Death Eater connections ('I don't think Slughorn's interested in Death Eaters'), which is a perceptive, politically aware remark that shows his intelligence.",
-      "film_portrayal": "This entire exchange is absent. The Slytherin compartment scene is compressed - Malfoy's hints about 'bigger things' happen without the framing of Zabini's report, and Zabini contributes nothing substantive.",
+      "scene": "Film Scene 4 / Film Scene 5 (Slug Club scenes) - Zabini's absence of characterization",
+      "book_baseline": "The book's Slug Club scene on the train establishes Zabini's background (famously beautiful mother, seven dead wealthy husbands), his contemptuous reaction to Harry's celebrity ('a tiny little cough that was clearly supposed to indicate amused skepticism'), his cold blood-traitor comment about Ginny, and his filthy look at Harry as they leave. These beats establish him as proud, prejudiced, cold, and possessed of a distinct social identity rooted in his mother's notoriety.",
+      "film_portrayal": "Film Scene 5 (Slughorn's office party) places Zabini at the table but gives him only one line in the entire scene: 'Have you ever taken it, sir?' \u2014 a generic question about Felix Felicis that any student could ask. None of his book characterization from the Slug Club (the skeptical cough, the blood-traitor comment, his mother's background, his contempt for Harry) is present.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Slug Club scene is the primary vehicle in the books for establishing Zabini's character beyond mere presence. His one film line is interchangeable with any background student's. The audience learns nothing about who he is, what motivates his pride, or what distinguishes him within Slytherin. His cold bigotry and social self-assurance \u2014 defining traits \u2014 are entirely unrepresented."
+    },
+    {
+      "scene": "Film Scenes 9-13 (Battle of Hogwarts / Room of Requirement) - Blaise as action-scene functionary",
+      "book_baseline": "The book corpus does not place Zabini in the Battle of Hogwarts in the scenes provided. His book presence is defined by social intelligence, verbal sparring, and haughty independence \u2014 not physical action sequences alongside Malfoy.",
+      "film_portrayal": "In the film's Battle of Hogwarts sequences (Scenes 6, 7, 8, 9, 10, 11, 12, 13), Blaise appears repeatedly as essentially Malfoy's second henchman alongside Goyle \u2014 flanking Malfoy, following him into the Room of Requirement, having his wand taken by Harry (Expelliarmus), and being rescued by Ron on a broomstick. He functions as an action-scene prop replacing the book's Crabbe (who sets the fire) and serving a purely physical, subordinate role.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The film repositions Zabini from a socially independent, intellectually sharp Slytherin peer into a Crabbe/Goyle-style physical henchman. While his presence in these scenes is a production necessity (replacing Crabbe due to real-world casting issues), the effect on his characterization is damaging: every appearance reinforces him as a silent follower rather than the proud, self-possessed individual the books establish. The one moment that might have shown character \u2014 his rescue by Ron \u2014 is rendered without dialogue or reaction from him."
+    },
+    {
+      "scene": "Film Scene 12 (Room of Requirement) - Blaise disarmed and flees without agency",
+      "book_baseline": "The book corpus establishes Zabini as a character defined by contempt, haughtiness, and a strong sense of his own superiority. He is not a fighter in the books, but his sense of self-possession is consistent throughout every scene.",
+      "film_portrayal": "Harry disarms Blaise with 'Expelliarmus' and Blaise immediately 'scarpers' \u2014 he runs away without a word. He is then shown trapped on a burning mountain of junk, rescued by Ron on a broomstick, and upon landing (Scene 13) 'scrambles up and off' without a word of acknowledgment or gratitude.",
       "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "Zabini's report is his primary plot function in HBP - it is the reason Harry follows him and hides in the compartment. Without it, Zabini loses his narrative purpose entirely. His perceptive political observation about Slughorn also disappears, removing a layer of his characterization as shrewd and self-interested."
-    },
-    {
-      "scene": "Film Scene 12 - Room of Requirement, Blaise as action combatant",
-      "book_baseline": "Zabini has no presence in the Battle of Hogwarts in the book corpus provided. His role is confined to HBP social scenes. He is not depicted as a combatant flanking Malfoy in the Room of Requirement.",
-      "film_portrayal": "Blaise is one of Malfoy's two flanking enforcers throughout the Room of Requirement sequence - he takes aim at Harry, has his wand expelled by Harry, and is rescued from the Fiendfyre by Ron on a broomstick. He functions as a Crabbe/Goyle substitute (Crabbe being replaced by Goyle, Goyle taking Crabbe's death-by-Fiendfyre role).",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Zabini is repositioned from a cold, socially calculating Slug Club member into a generic Slytherin thug. This is a category error - his book characterization is defined by haughtiness and social cunning, not physical menace. Being cast as muscle contradicts his established persona and conflates him with Crabbe and Goyle, characters he is explicitly distinguished from in the books."
-    },
-    {
-      "scene": "Film Scene 5 - Slug Club dinner, Zabini silent",
-      "book_baseline": "At Slug Club gatherings Zabini is interrogated by Slughorn about his mother, is present and socially engaged (if coldly so), and is specifically named and addressed. He is one of Slughorn's genuine targets of interest.",
-      "film_portrayal": "Zabini is present at the dinner but has only one line in the entire potions class scene ('Have you ever taken it, sir?') and is otherwise silent and undifferentiated from background students at the dinner itself.",
-      "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 1,
-      "explanation": "Minor but consistent with the overall pattern of erasure - Zabini's social presence and the detail of his mother's notoriety (which explains Slughorn's interest in him) are never established, making his inclusion in the Slug Club seem arbitrary."
+      "explanation": "While minor individually, Blaise's wordless flight and rescue \u2014 with zero reaction to being saved by a Gryffindor he would canonically despise \u2014 is a small but real erasure of whatever remained of his character in the film. Even a single line or reaction would have preserved some trace of his personality. His silence in this moment is consistent with the film's overall reduction of him to a mute background figure."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 819.0,
-  "adjusted_cids_v1": 900.9
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

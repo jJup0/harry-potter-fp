@@ -1,0 +1,25 @@
+{
+  "character": "Avery",
+  "fp_score": 40.0,
+  "infidelity_score": 60.0,
+  "weighted_infidelity_exposure": 0,
+  "cids": 0.0,
+  "damage_per_exposure": 0,
+  "structural_damage_level": 1,
+  "adjusted_cids": 0.0,
+  "main_damage_causes": [
+    "Avery appears only as a name mentioned in passing in both book and film corpora \u2014 no independent characterization exists to damage",
+    "Film corpus contains no scenes where Avery speaks, acts, or is portrayed in a way that diverges from book characterization",
+    "Book corpus establishes Avery solely as a background Death Eater name (Slughorn's dismissal, Voldemort's punishment, Sirius's list) \u2014 all film appearances match this peripheral role"
+  ],
+  "damaging_scenes": [],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

@@ -1,20 +1,101 @@
 {
   "character": "Alicia Spinnet",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 16.0,
+    "narrative_role_agency": 13.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 9.0,
+    "total": 69.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 16,
+      "narrative_role_agency": 13,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 9,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Alicia is a consistent supporting presence on the Gryffindor Quidditch team across multiple years. Her personality is characterized by warmth and team loyalty, but also by emotional expressiveness and a willingness to speak up. She reacts with sharp moral indignation when provoked: she shrieks 'How dare you!' at Malfoy's use of 'Mudblood' (Book Scene 10), protests injustice with feeling ('It's just so unfair' and 'And banning Fred when he didn't even do anything!' in Book Scenes 90\u201393), and expresses anxiety after Harry's fall ('We thought you'd died,' she said, who was shaking \u2014 Book Scene 22). She also has a soothing, team-steadying side: 'Stop worrying, Oliver, we don't mind a bit of rain' (Book Scene 20), and practical utility in mundane team logistics ('Andrew Kirke and Jack Sloper. Neither of them are brilliant\u2026' Book Scene 100). She participates in the team's social life \u2014 laughing at Fred and George's jokes (Book Scene 31), chatting with Angelina by the fire (Book Scene 49), offering comfort about Katie's injury (Book Scene 105). Her voice is not distinctive in syntax or register, but she is emotionally engaged, morally vocal, and socially grounded.",
+          "film_portrayal": "In the film corpus (Chamber of Secrets screenplay), Alicia is listed by name in a stage direction as one of the Gryffindor Quidditch team members trailing Oliver Wood (Film Scene 1 / screenplay Scene 45). She is present as a named background figure. She has no dialogue, no observable emotional reactions, no moral speech, and no individually attributed actions. The Mudblood confrontation scene is present in the film and the team is present, but Alicia's specific reaction \u2014 her shriek of 'How dare you!' \u2014 is not attributed to her; Fred and George charge Malfoy and are held back by Wood, and Ron attempts the curse. The film corpus provided does not include Prisoner of Azkaban, Goblet of Fire, or Order of the Phoenix screenplay material, which is where the bulk of Alicia's book personality is displayed.",
+          "difference": "The film corpus available provides only one scene where Alicia is present: she is named in a stage direction as part of the Quidditch team group. No dialogue, no individual emotional reaction, no moral outburst is attributed to her in the available film material. Her most defining personality expressions from the books \u2014 her indignant 'How dare you!', her grief and shaking after Harry's fall, her furious reactions to the Umbridge-era injustices, her comforting and soothing interventions \u2014 are entirely absent from the film corpus provided. However, the corpus is extremely limited to Chamber of Secrets only, and the absence of Order of the Phoenix and Prisoner of Azkaban screenplay material means the corpus cannot confirm whether these traits were or were not preserved in later films.",
+          "penalty_logic": "A penalty is warranted because the only film evidence available reduces Alicia to an unnamed background figure with no voice. Her most important personality moments \u2014 specifically the 'How dare you!' reaction (which is directly in the same scene that does appear in the film) \u2014 are not preserved in the film corpus. The Mudblood confrontation scene in the film assigns emotional reactions exclusively to Fred, George, and Ron; Alicia's individual outrage is absorbed into the group reaction. However, the corpus limitation means this penalty cannot be fully confirmed across the whole film run. Score placed in the 14\u201317 range: character remains recognizable as a Quidditch Chaser with team loyalty, but important personality expressions and her distinct voice are reduced or absent.",
+          "evidence_status": "Directly evidenced (book baseline); Directly evidenced (film corpus limited to one scene with no Alicia dialogue or individual reaction)"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Alicia's narrative role in the books is as an active Chaser who functions within the Quidditch team ensemble. Her agency is modest but specific: she takes penalty shots (Book Scenes 37\u201338, 45), scores goals (Book Scene 43), reacts individually to injustice (Book Scene 10 \u2014 'How dare you!'), voices team concerns to Oliver (Book Scene 11 \u2014 'Oliver, this is insane'), provides practical information (Book Scene 100 \u2014 names the replacement Beaters), asks about Katie Bell (Book Scene 60\u201361), participates in the DA (Book Scene 67, 70), and appears at the Battle of Hogwarts (Book Scene 107). She is not a plot driver, but she regularly initiates small acts: speaking up, asking questions, comforting, informing. She is not purely decorative.",
+          "film_portrayal": "In the available film corpus, Alicia appears only in a stage direction as part of the Quidditch team group. No individual action, line, decision, or initiative is attributed to her. The scene in which she could have spoken up \u2014 the Mudblood confrontation \u2014 is present in the film, but her individual contribution ('How dare you!') is not preserved. Her agency in Quidditch play, her DA participation, her injury by Bletchley, and her team-steadying interventions are all outside the available film corpus.",
+          "difference": "In the one scene where both book and film corpus overlap (the Mudblood confrontation), Alicia's specific act of agency \u2014 her outraged verbal response \u2014 is absent from the film, absorbed into the group reaction. All other agency from the books (scoring, speaking up to Wood, naming replacements, attending DA) is simply not represented in the available film corpus. The corpus covers too small a portion of the films to confirm how much agency she retains or loses across the full series.",
+          "penalty_logic": "A moderate penalty is applied because the one directly comparable scene (Mudblood confrontation) removes her individual act of agency and replaces it with a group reaction. The remaining agency losses cannot be confirmed from the available corpus. Score placed in the 10\u201313 range: role and agency are clearly altered in the available evidence, though limited corpus prevents full assessment.",
+          "evidence_status": "Directly evidenced for the Mudblood scene comparison; Not enough evidence for the full range of Alicia's agency across films"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Alicia's motivations in the books are straightforward: she wants Gryffindor to win at Quidditch, she cares about her teammates, and she has a strong sense of fair play and moral indignation at injustice (attacking Malfoy's slur, protesting Umbridge's bans, reacting to Bletchley's jinx). There is no deep internal conflict \u2014 she is not a character defined by moral ambiguity or contradictory desires. Her motivation is essentially team loyalty and a moral compass that reacts against prejudice and unfair treatment.",
+          "film_portrayal": "The available film corpus contains no material through which Alicia's motivations can be assessed. She appears in a stage direction only. No actions, dialogue, or reactions are present that would allow evaluation of whether her motivations are preserved or changed.",
+          "difference": "The film corpus is too limited to determine whether motivations are preserved or altered. No film evidence exists in the corpus to evaluate this dimension.",
+          "penalty_logic": "Because the book motivations are simple and not deeply layered, and because there is no film evidence to contradict them, a partial score is given reflecting the neutral position: motivations are not demonstrated but also not actively contradicted. Score placed at 11: motivations are simplified in that they are simply absent from the corpus rather than changed, but the book baseline is thin enough that the absence does not represent a major characterization loss.",
+          "evidence_status": "Not enough evidence (film corpus)"
+        },
+        "character_arc": {
+          "book_baseline": "Alicia has no individual character arc in the books. She is a recurring supporting presence whose role is consistent across books 1\u20137: loyal Chaser, moral team member, minor participant in broader school events. Her trajectory is flat by design \u2014 she is not a character who undergoes internal transformation. She ages from a fourth-year reserve (Book 1) to a graduating seventh-year (Book 5/6), but no arc of growth, change, or resolution is established for her individually.",
+          "film_portrayal": "The film corpus provides no evidence of an arc, which is consistent with the book baseline of a flat arc.",
+          "difference": "No arc in books; no arc in films (as far as the corpus shows). This is not a departure.",
+          "penalty_logic": "No penalty. A flat arc in the books preserved as a flat arc in the films is faithful per the scoring rules. Score: 13 out of 15, with a small reduction for low corpus confidence rather than any identified arc distortion.",
+          "evidence_status": "Directly evidenced (book); Not enough evidence (film corpus, but consistent with no arc)"
+        },
+        "key_relationships": {
+          "book_baseline": "Alicia's key relationships in the books are: (1) the Gryffindor Quidditch team ensemble, especially Angelina Johnson (they are consistently paired \u2014 chatting together, reacting together, named together throughout the books), and (2) a minor but consistent relationship with Harry as teammate. Her dynamic with Angelina is one of close friendship and social solidarity. Her relationship with the team is defined by warmth, shared purpose, and mutual support. She is also part of the broader DA group. No romantic or deeply individualized relationship is developed.",
+          "film_portrayal": "In the film corpus, Alicia appears as part of the Quidditch team group. No individual dynamic with Angelina, Harry, or any other character is visible. She is grouped with Angelina and Katie in the stage direction but no distinct relational dynamic is shown.",
+          "difference": "The team relationship is nominally present (she is still on the team), but the emotional texture of her friendship with Angelina \u2014 their consistent pairing, their shared reactions, their social bond \u2014 is invisible in the film corpus. The film presents the group, not the individual relationships within it.",
+          "penalty_logic": "A moderate penalty for the loss of the Angelina\u2013Alicia friendship texture, which is the most individually defining relationship Alicia has in the books. The team relationship is structurally preserved but emotionally flattened. Score: 7 \u2014 relationships mostly faithful in structure, but individual dynamic texture is absent from the available film evidence.",
+          "evidence_status": "Directly evidenced (book pairing pattern across multiple scenes); Not enough evidence (film corpus too limited for relational dynamics)"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Alicia is not a complex character in the literary sense \u2014 she is a supporting ensemble member. However, the books give her specific moments that add texture: her individual moral outrage at 'Mudblood' (distinguishing her from the group); her anxiety and shaking after Harry's fall; her furious reaction to Umbridge's bans and Fred's unjust punishment; her soothing reassurance to Oliver; her being jinxed by Bletchley in the library (an incident that reveals both Snape's bias and her vulnerability as a target); her practical assessment of the replacement Beaters; her attendance at the DA and the Battle of Hogwarts. These moments, taken together, produce a character with a specific moral voice, emotional range, and narrative utility beyond simple decoration.",
+          "film_portrayal": "The film corpus reduces Alicia to a name in a stage direction. None of the specific moments listed above are present in the available film material. Her individual moral outrage in the Mudblood scene is absorbed into the group. Her Bletchley jinx, her DA involvement, her Battle of Hogwarts presence, her soothing of Oliver, her shaking after Harry's fall \u2014 none of these appear in the film corpus provided.",
+          "difference": "Essentially all of the book material that gives Alicia individual texture is absent from the film corpus. Whether this is due to the corpus being limited to Chamber of Secrets only, or because the films genuinely removed this material in later installments, cannot be fully determined. However, the one scene where book and film corpus directly overlap (the Mudblood confrontation) confirms that the film removed her individual contribution.",
+          "penalty_logic": "A noticeable simplification is confirmed by the available evidence. The only directly comparable scene eliminates her individual voice. The broader absence of all textured moments cannot be attributed solely to corpus limitations, since later films (PoA, GoF, OotP) are known to keep Alicia as a background figure without individual dialogue in most cases. Score: 9 \u2014 noticeable simplification with important nuances missing, though the character's ensemble function is structurally preserved.",
+          "evidence_status": "Directly evidenced for the Mudblood scene loss; Reasonably inferred for broader simplification based on corpus pattern and known film treatment of background Quidditch characters"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Alicia's individual verbal reaction to Malfoy's 'Mudblood' slur ('How dare you!') is absorbed into a group reaction in the film; no line is individually attributed to her",
+        "Alicia's protest to Oliver Wood about Harry facing the rogue Bludger alone ('Oliver, this is insane') is absent from the film corpus",
+        "Alicia's emotional reaction after Harry's fall from his broom ('We thought you'd died,' she said, who was shaking) is absent",
+        "Alicia's soothing reassurance to Wood before the rain match ('Stop worrying, Oliver, we don't mind a bit of rain') is absent",
+        "Alicia's furious reaction to Fred's ban and the Umbridge-era injustices is absent from the film corpus",
+        "Alicia being jinxed by Bletchley in the library (a scene that reveals both Snape's institutional bias and Alicia as a named victim) is absent",
+        "Alicia's practical team-management contribution (naming replacement Beaters Andrew Kirke and Jack Sloper) is absent",
+        "Alicia's DA membership and participation is not individually represented in the film corpus",
+        "Alicia's presence at the Battle of Hogwarts (Room of Requirement scene) is not represented in the film corpus"
+      ],
+      "score_caps_applied": [
+        "Cap 4 considered: films preserve only Alicia's broad identity (Gryffindor Chaser, present on the team) but remove most of what defines her individual book characterization. Score kept at 69, below the 70 threshold, consistent with this cap's intent."
+      ],
+      "key_observations": "Alicia Spinnet in the books is a minor but textured supporting character whose value lies in specific individual moments \u2014 moral outrage, emotional reactions, practical team contributions, and a consistent social presence alongside Angelina Johnson. The available film corpus (limited primarily to Chamber of Secrets) reduces her to a named background figure with no individual dialogue or attributed action. The one directly comparable scene (the Mudblood confrontation) confirms the pattern: her specific voice is absorbed into the group. The confidence level is Medium rather than Low because the book baseline is rich and the film pattern is clear in the overlapping scene, but the corpus's restriction to Chamber of Secrets prevents full evaluation of whether later films (particularly Order of the Phoenix, where her book role is most substantial) preserved any of her individual moments. The total score of 69 reflects a portrayal that preserves the character's structural identity \u2014 she is present, she is a Chaser, she is on the right team \u2014 while losing the specific texture that makes her individually recognizable in the books.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 24632,
+        "film_chars_sent": 61005,
+        "aliases": [
+          "Alicia",
+          "Alicia Spinnett"
+        ],
+        "corpus_version": "1"
       }
     }
   },

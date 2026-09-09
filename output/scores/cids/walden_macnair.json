@@ -1,0 +1,35 @@
+{
+  "character": "Walden Macnair",
+  "fp_score": 38.0,
+  "infidelity_score": 62.0,
+  "weighted_infidelity_exposure": 2,
+  "cids": 122.8,
+  "damage_per_exposure": 122.8,
+  "structural_damage_level": 2,
+  "adjusted_cids": 122.8,
+  "main_damage_causes": [
+    "The sole moment in the film corpus where Macnair receives individualised attention (the graveyard roll-call) reduces him to a name shouted in a list, eliminating his characterisation as a bloodthirsty Ministry insider eager for Voldemort's promised 'better victims'.",
+    "Macnair's sycophantic, grateful response to Voldemort \u2014 which in the book corpus marks him as personally devoted and craving violence \u2014 is entirely unrepresented in the film corpus, leaving his personality undefined.",
+    "The film corpus provides no scene where Macnair speaks, acts, or is distinguished from the anonymous Death Eater crowd, meaning his recurring book presence (PoA executioner, OotP fighter, DH battle) has no cinematic personality to anchor it."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "GoF film \u2013 graveyard scene: Voldemort unmasking Death Eaters, naming Macnair",
+      "book_baseline": "In the book corpus (GoF graveyard), Voldemort walks among the Death Eaters and addresses Macnair specifically, saying: 'Macnair... destroying dangerous beasts for the Ministry of Magic now, Wormtail tells me? You shall have better victims than that soon, Macnair. Lord Voldemort will provide.' Macnair responds with grateful subservience: 'Thank you, Master... thank you.' This establishes Macnair as a named, individualised Death Eater with a known Ministry double-life and a sycophantic, bloodthirsty personality.",
+      "film_portrayal": "In the film, Voldemort names Macnair only in a rapid roll-call: 'Crabbe! Gah, Macnair! Goyle!' He is listed between two minor Death Eaters with no individual address, no reference to his Ministry role, no personalised rebuke or promise, and no spoken response from Macnair. The exchange that defines his character \u2014 his eagerness for 'better victims' and his grateful murmur \u2014 is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this graveyard scene as the primary moment to characterise Macnair beyond a silent executioner: he is a Ministry insider who thrills at violence and worships Voldemort with almost pathetic gratitude. The film reduces him to a name in a list, stripping the only scene in the film corpus where his personality, double-life, and relationship with Voldemort could have been established. This collapses him from a textured recurring antagonist into a nameless extra."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

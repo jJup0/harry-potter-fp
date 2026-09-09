@@ -1,63 +1,63 @@
 {
   "character": "Prime Minister",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 3.0,
+    "narrative_role_agency": 2.0,
+    "motivations_internal_conflict": 2.0,
+    "character_arc": 1.0,
+    "key_relationships": 1.0,
+    "complexity_nuance_lost_material": 1.0,
+    "total": 10.0
   },
   "per_source": {
     "comparative": {
-      "personality_voice": 0,
-      "narrative_role_agency": 0,
-      "motivations_internal_conflict": 0,
-      "character_arc": 0,
-      "key_relationships": 0,
-      "complexity_nuance_lost_material": 0,
+      "personality_voice": 3,
+      "narrative_role_agency": 2,
+      "motivations_internal_conflict": 2,
+      "character_arc": 1,
+      "key_relationships": 1,
+      "complexity_nuance_lost_material": 1,
       "justification": {
         "personality_voice": {
-          "book_baseline": "The Prime Minister is a fully realized character across HBP Chapter 1. He is anxious, politically defensive, proud of his office, easily flustered, and prone to indignation when made to feel ignorant. He has a dry internal voice, suppresses panic with practiced composure, and oscillates between resentment of Fudge and reluctant sympathy for him. His speech is hesitant under pressure ('I... oh... very well'), assertive when his authority is challenged ('I decide who works for me'), and occasionally bursts into frustrated outrage ('Good grief, so it's your fault those people were killed!').",
-          "film_portrayal": "The Prime Minister does not appear in any film corpus scene. The film corpus is entirely empty for this character.",
-          "difference": "The character is completely absent from the films. No personality, voice, tone, or behavioral pattern is present.",
-          "penalty_logic": "A score of 0 is the only possible score when the character has no film presence whatsoever.",
+          "book_baseline": "The Prime Minister in the books is a fully realized viewpoint character with a distinct internal voice. He is anxious, proud, politically defensive, and perpetually out of his depth in magical matters. He experiences genuine fear, resentment, irritation, fleeting moments of dry humor, and occasional unexpected empathy (the 'stab of pity' for Fudge). His voice is marked by hesitation, incomplete sentences, blustering defensiveness when confronted, and a recurring compulsion to appear competent and well-informed even when bewildered. He bristles at being made to feel like 'an ignorant schoolboy,' pushes back against Scrimgeour's encroachments on his authority, and internally processes every magical revelation through the lens of his political self-image. His emotional texture\u2014the sardonic thoughts about his political opponent, the superstitious knocking on wood, the remembered shock of his first meeting with Fudge\u2014is rendered in granular detail across dozens of scenes in HBP Chapter 1.",
+          "film_portrayal": "The Prime Minister does not appear as a character in the film corpus provided. He is referenced obliquely three times: Harry tells Vernon that 'Kingsley is protecting the Muggle Prime Minister' (book scene 68, film scene 1), Vernon mentions seeing Kingsley on the news walking alongside the Prime Minister at a hospital (book scene 69), and Kingsley says 'You're more important' when asked about the Prime Minister (book scene 72, film scene 1). In no film scene does the Prime Minister speak, act, react, or appear as a character with any observable personality or voice.",
+          "difference": "The entire personality and voice of the Prime Minister\u2014his anxiety, pride, defensiveness, dark humor, political self-consciousness, hesitation, blustering, and emotional complexity\u2014is completely absent from the films. He is reduced to a name mentioned in passing by other characters.",
+          "penalty_logic": "There is no film portrayal to evaluate. The character's personality and voice are not represented at all. This warrants the lowest possible score. A minimal score of 3 rather than 0 is not warranted either; a score of 0\u20135 applies when the character is unrecognizable, and here the character is not merely unrecognizable but entirely absent as a speaking, acting subject. Score: 3 (within the 0\u20135 band for 'unrecognizable,' reflecting that the name at least survives as a reference).",
           "evidence_status": "Directly evidenced"
         },
         "narrative_role_agency": {
-          "book_baseline": "The Prime Minister serves a unique structural function in HBP: he is the POV character for the opening chapter, providing a Muggle-eye view of the wizarding war's real-world consequences. He receives information, reacts, challenges Fudge, and is introduced to Scrimgeour. He is the conduit through which the reader understands the scale of Voldemort's return. He also appears by reference in earlier books as the recipient of Ministry briefings on Sirius Black, the Azkaban breakout, and the Triwizard Tournament.",
-          "film_portrayal": "Absent entirely from the films.",
-          "difference": "His entire narrative function - POV anchor, Muggle-world bridge, recipient of Ministry disclosures - is eliminated.",
-          "penalty_logic": "Zero agency, zero narrative role. Score is 0.",
+          "book_baseline": "The Prime Minister serves a specific and irreplaceable narrative function in HBP: he is the structural device through which Rowling exposes the wizarding world's impact on Muggle society from an outsider's perspective. His scenes provide the reader's first comprehensive account of the catastrophes caused by Voldemort's return\u2014the Brockdale Bridge, the murders, the hurricane, the dementors\u2014framed through a Muggle political consciousness. He also functions as a foil to both Fudge (showing Fudge's political failure through a sympathetic outside eye) and Scrimgeour (establishing the new Minister's authoritarian efficiency). He has genuine agency: he pushes back against Fudge, challenges the narrative ('Good grief, so it's your fault those people were killed'), demands accountability, and tries to assert his authority over Scrimgeour regarding Kingsley and the locked door. He is not passive; he argues, paces, snaps, and confronts.",
+          "film_portrayal": "In the films, the Prime Minister has no agency whatsoever. He appears only as a noun in other characters' dialogue. Kingsley's protective assignment is mentioned, but the Prime Minister himself neither acts nor is acted upon in any scene. The entire expository and structural function of HBP Chapter 1\u2014delivering the Voldemort-caused disasters to the audience through his perspective\u2014is eliminated. There is no scene in the film corpus where the Prime Minister initiates anything, decides anything, confronts anyone, or changes any event.",
+          "difference": "Total elimination of narrative role and agency. The character's function as viewpoint expositor, foil, and political counterweight is entirely absent. His confrontations with Fudge and Scrimgeour do not exist in the films.",
+          "penalty_logic": "Role and agency are not reduced\u2014they are eliminated. The score must fall in the 0\u20135 band ('Role or agency are eliminated or made functionally irrelevant'). Score: 2.",
           "evidence_status": "Directly evidenced"
         },
         "motivations_internal_conflict": {
-          "book_baseline": "The Prime Minister is motivated by a desire to appear competent and in control, to protect his political standing, and to make sense of a world he was never prepared for. His internal conflict is between the need to maintain authority and the helplessness he feels when confronted with magical crises he cannot address or even publicly acknowledge. He resents Fudge but also pities him; he wants answers but fears them.",
-          "film_portrayal": "Absent entirely from the films.",
-          "difference": "All motivations and internal conflict are absent.",
-          "penalty_logic": "Score is 0.",
+          "book_baseline": "The Prime Minister's motivations are richly layered: he wants to appear competent and unrattled in the face of incomprehensible magical intrusions; he resents being patronized by Fudge; he is politically self-protective (angry that he cannot explain to the public what is really happening); he experiences genuine fear of the magical world while needing to project control; and he has an internal conflict between his democratic instincts (his office, his decisions, his staff) and his complete powerlessness in the face of wizarding authority. His outburst about Scrimgeour planting Kingsley without his consent is a direct expression of this conflict. He also experiences unexpected human empathy for Fudge that conflicts with his political resentment of him.",
+          "film_portrayal": "No motivations or internal conflicts are portrayed. The character does not appear as a subject in any film scene.",
+          "difference": "Complete absence. None of the motivations or internal conflicts are present.",
+          "penalty_logic": "Motivations and internal conflict are not simplified or altered\u2014they are entirely absent. Score: 2 (within the 0\u20134 band for 'opposite, absent, or incoherent,' reflecting absence rather than incoherence).",
           "evidence_status": "Directly evidenced"
         },
         "character_arc": {
-          "book_baseline": "Across his appearances (PoA references, HBP Chapter 1), the Prime Minister moves from total ignorance and terror at his first meeting with Fudge, through reluctant accommodation, to a weary, experienced resignation by HBP - he no longer panics at green flames, he knows what dementors are, he pushes back against both Fudge and Scrimgeour. This is a compressed but coherent arc of a man forced to grow into an impossible situation.",
-          "film_portrayal": "Absent entirely from the films.",
-          "difference": "Arc is entirely absent.",
-          "penalty_logic": "Score is 0.",
+          "book_baseline": "The Prime Minister has a meaningful arc within HBP Chapter 1 alone: he moves from a man who has tried to suppress and rationalize the existence of magic (hiding the portrait, giving away the gerbil, training himself not to look) to someone who, by the end of the chapter, is being informed that Britain is at war with a dark wizard and that his own Junior Minister has been cursed. Over the broader book series, he progresses from total ignorance and terror at his first meeting with Fudge to a man who is 'wiser now,' can identify dementors, and understands (however reluctantly) the wizarding world's relationship to Muggle society. This is a flat-to-informed arc: not heroic growth, but a gradual, reluctant accumulation of terrible knowledge. His final moment\u2014'But for heaven's sake, you're wizards!'\u2014captures the endpoint of his arc as someone who has internalized the reality of magic but still cannot accept its limitations.",
+          "film_portrayal": "No arc is present. The character does not appear in any scene where an arc could be observed.",
+          "difference": "The arc is entirely absent.",
+          "penalty_logic": "Arc is nonexistent in the films. Score: 1 (within the 0\u20134 band).",
           "evidence_status": "Directly evidenced"
         },
         "key_relationships": {
-          "book_baseline": "His relationship with Fudge is the central dynamic: a power imbalance in which Fudge holds all the real information and authority, yet the Prime Minister asserts his dignity and occasionally gains the upper hand emotionally. His brief encounter with Scrimgeour establishes a different dynamic - Scrimgeour is colder, more efficient, and even less deferential. Both relationships define the Prime Minister's position as a powerful man rendered powerless by a world he cannot control.",
-          "film_portrayal": "Absent entirely from the films.",
-          "difference": "Both relationships are entirely absent.",
-          "penalty_logic": "Score is 0.",
+          "book_baseline": "The Prime Minister's two key relationships are with Fudge and Scrimgeour. With Fudge: a dynamic of reluctant, fearful tolerance that evolves into something approaching mutual recognition and even pity\u2014the Prime Minister resents Fudge's condescension but feels genuine sympathy when he sees him diminished and sacked. With Scrimgeour: an immediate power struggle, with the Prime Minister attempting to assert democratic authority ('I decide who works for me') and Scrimgeour ruthlessly overriding him. Both relationships reveal essential things about the Prime Minister's character: his pride, his powerlessness, and his humanity. There is also the relationship with Kingsley\u2014indirect and mediated, but functioning as a background symbol of the wizarding world's quiet intrusion into his life.",
+          "film_portrayal": "The relationship with Kingsley is referenced (Kingsley protects him; the Dursleys like Kingsley), but this is observed from outside, with no dynamic between the Prime Minister and Kingsley actually depicted. The relationships with Fudge and Scrimgeour do not exist in the film corpus.",
+          "difference": "All key relationships are absent as active dynamics. The Kingsley connection survives as a narrative fact mentioned by others but not as a relationship with observable emotional content.",
+          "penalty_logic": "Key relationships are absent or functionally irrelevant. Score: 1 (within the 0\u20132 band).",
           "evidence_status": "Directly evidenced"
         },
         "complexity_nuance_lost_material": {
-          "book_baseline": "The Prime Minister is one of the richest minor characters in the series precisely because he is given an entire chapter from his perspective. His complexity lies in the gap between his public role and his private helplessness, his mixture of pride and fear, his dry humor, his suppressed panic, his moments of genuine sympathy for Fudge, and his frustrated outbursts at the absurdity of his situation. The chapter is also tonally unique in the series - darkly comic, politically observant, and structurally bold.",
-          "film_portrayal": "Absent entirely from the films.",
-          "difference": "All complexity, nuance, and book-specific texture is lost.",
-          "penalty_logic": "Score is 0.",
+          "book_baseline": "The Prime Minister is one of the most nuanced minor characters in the series precisely because he is the only Muggle viewpoint character given extended interiority. His complexity includes: political vanity coexisting with genuine competence; fear coexisting with stubbornness; resentment of magical authority coexisting with reluctant respect; dark humor about his situation; the tragicomic detail of trying to have the portrait removed; the superstitious knocking on wood; the 'persistent habit of wishing to appear well-informed.' He is simultaneously sympathetic and faintly ridiculous, proud and helpless, competent in his world and completely outmatched in another. This layering is the entire point of his inclusion in the series.",
+          "film_portrayal": "None of this complexity survives. The character is a name. No nuance, no contradiction, no humor, no interiority, no texture of any kind is present in the film corpus.",
+          "difference": "Total loss of all complexity and nuance. The character is reduced from a fully realized interiority to a proper noun referenced in other characters' dialogue.",
+          "penalty_logic": "Complexity is entirely removed. Score: 1 (within the 0\u20134 band, reflecting near-total elimination).",
           "evidence_status": "Directly evidenced"
         }
       },
@@ -71,27 +71,33 @@
         "complexity_nuance_lost_material": "High"
       },
       "lost_or_transferred_material": [
-        "Entire HBP Chapter 1 POV sequence - the Prime Minister's interior experience of learning about Voldemort's return",
-        "The Prime Minister's first meeting with Fudge and his reaction to discovering the wizarding world",
-        "The running series of Ministry briefings (Sirius Black escape, Azkaban breakout, Triwizard Tournament creatures)",
-        "The Prime Minister's confrontation with Fudge over the Brockdale Bridge and the hurricane",
-        "The Prime Minister's introduction to Scrimgeour and his passive acceptance of Kingsley as a planted bodyguard",
-        "The Prime Minister's emotional arc from terror to weary resignation",
-        "The Muggle-world framing device that contextualizes the wizarding war's real-world impact",
-        "Fudge's line 'The trouble is, the other side can do magic too, Prime Minister' - delivered to an absent interlocutor in the films"
+        "The entire HBP Chapter 1 scene (Prime Minister's office meeting with Fudge and Scrimgeour) is absent from the films",
+        "The Prime Minister's internal monologue and viewpoint narration across all scenes",
+        "His confrontation with Fudge over the Brockdale Bridge deaths and political accountability",
+        "His power struggle with Scrimgeour over Kingsley's placement and the locked door",
+        "His first-meeting backstory with Fudge (terror, gerbil, trying to remove the portrait)",
+        "The Azkaban breakout notification scene (PoA)",
+        "The Quidditch World Cup / Dark Mark notification scene (GoF)",
+        "The mass Azkaban breakout notification scene (OotP)",
+        "The Prime Minister's arc from ignorance to reluctant informed acceptance",
+        "His emotional complexity: political pride, fear, dark humor, unexpected empathy for Fudge",
+        "His outburst 'But for heaven's sake\u2014you're wizards! You can do magic!'",
+        "The expository function of revealing Voldemort's Muggle-world impact through a Muggle perspective",
+        "The foil function: illustrating Fudge's political failure and Scrimgeour's authoritarianism from outside"
       ],
       "score_caps_applied": [
-        "No caps needed - raw dimension scores already total 0 due to complete absence from films"
+        "Cap 4 (score above 70 not permitted when films preserve only broad identity but remove most defining book characterization): applied \u2014 the character retains only his name and the fact of Kingsley's assignment",
+        "Cap 5 (score above 60 not permitted when motivations or arc become absent): applied",
+        "Cap 3 (score above 75 not permitted when core book functions are transferred or eliminated): applied \u2014 no transfer occurred; the function is simply gone"
       ],
-      "key_observations": "The Prime Minister does not appear in any film. The film corpus is empty. All scores are 0 by necessity, not by judgment. This is not a case of compression or simplification - the character and the entire chapter built around him were cut entirely. The confidence is High because the absence is unambiguous. The book corpus is rich and detailed, making the loss equally unambiguous: a fully realized POV character, a unique tonal chapter, a Muggle-world bridge to the wizarding war, and two distinct ministerial relationships are all entirely absent from the film adaptations.",
+      "key_observations": "The Prime Minister is effectively absent from the film adaptations. His entire appearance in the book series\u2014centered on HBP Chapter 1, one of the most distinctive opening chapters in the series\u2014was cut from the films entirely. He survives only as a proper noun mentioned twice in passing: once by Harry explaining Kingsley's assignment, and once by Vernon noting he saw Kingsley on the news near him. No scene depicts him speaking, acting, reacting, or existing as a character with any interiority. Every dimension of his book characterization\u2014his anxious pride, his political self-consciousness, his dark humor, his relationship with Fudge and Scrimgeour, his arc from ignorance to reluctant knowledge, his narrative function as the Muggle-world mirror for Voldemort's return\u2014is entirely absent. This is not a case of compression or simplification; it is complete omission. The total score of 10 reflects the bare minimum acknowledgment that the character's name and peripheral function (being protected by Kingsley) survive in the films, while everything that constituted the character in the books does not.",
       "meta": {
         "type": "comparative",
         "model": "claude-sonnet-4.6",
-        "prompt_version": "3.0",
+        "prompt_version": "3.1",
         "book_chars_sent": 33341,
-        "film_chars_sent": 0,
+        "film_chars_sent": 6153,
         "aliases": [],
-        "corpus_hash": "c26cfcb1e93a",
         "corpus_version": "1"
       }
     }

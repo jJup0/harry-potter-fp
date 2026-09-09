@@ -2,44 +2,43 @@
   "character": "Alecto Carrow",
   "fp_score": 55.0,
   "infidelity_score": 45.0,
-  "weighted_infidelity_exposure": 4.5,
-  "cids": 138.3,
-  "damage_per_exposure": 92.2,
+  "weighted_infidelity_exposure": 5.0,
+  "cids": 145.4,
+  "damage_per_exposure": 96.9,
   "structural_damage_level": 2,
-  "adjusted_cids": 138.3,
+  "adjusted_cids": 145.4,
   "main_damage_causes": [
-    "Alecto's defining act of agency (pressing her Dark Mark to summon Voldemort) is absent from the film, removing her plot function entirely",
-    "Alecto is reduced to a silent background sentinel in the Great Hall with no characterization, replacing the book's specific voice (the titter, the jeer) with nothing",
-    "The Carrows are neutralized as passive collateral rather than as active threats, flattening their menace"
+    "Loss of Alecto's independent plot agency: her pivotal act of summoning Voldemort via the Dark Mark is absent from the film corpus, replaced by passive incapacitation as collateral of Snape's duelling.",
+    "Tonal misrepresentation of character voice: the book's coarse, giggling, impulsive cruelty is replaced by a cooler, more calculated bureaucratic menace, altering audience perception of who Alecto Carrow is.",
+    "Severely limited corpus coverage: Alecto's presence in both the book and film corpus is sparse, meaning the full scope of damage cannot be confidently assessed beyond the two scenes available."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Alecto threatening Maisy Reynolds on the marble staircase",
-      "book_baseline": "Alecto Carrow in the books is introduced as a stocky little woman who gives 'an angry little titter' and jeers at Dumbledore - she is menacing but her characterization is brief and her cruelty is shown through her presence as a Death Eater enforcer. Her book role at Hogwarts is as Muggle Studies teacher imposing Dark Arts ideology.",
-      "film_portrayal": "The film gives Alecto a specific threatening line about visiting a student's father, showing her as a petty bully using personal intimidation against children. This is original film material not in the books.",
+      "scene": "Film Scene 1 \u2013 Marble Staircase: Alecto threatens Maisy Reynolds",
+      "book_baseline": "The book corpus presents Alecto Carrow as a stocky, lumpy woman who gives an 'angry little titter' and jeers at Dumbledore ('Think your little jokes'll help you on your death bed, then?'). Her menace is blunt and crude. In Book 7 (scene 10 of the corpus) she is shown pressing the Dark Mark to summon Voldemort \u2013 a direct, decisive act of treachery. Her cruelty is raw and impulsive, not calculated or bureaucratic.",
+      "film_portrayal": "The film gives Alecto a line of cold, administrative intimidation: 'Put a smile on, Miss Reynolds. Wouldn't want me to have to pay a visit to Daddy again, would you?' This frames her as a composed, threatening authority figure who uses family leverage \u2013 a different register of villainy than the coarse, excitable brute the book establishes.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film invents a characterization beat for Alecto that is not in the books. While consistent with her being cruel, it replaces the book's sparse but specific characterization (the titter, the jeer at Dumbledore) with generic bully dialogue. Minor damage as it is not contradictory, just invented."
+      "impact_weight": 2,
+      "explanation": "The book Alecto is crude, giggly, and impulsive \u2013 she titters and jeers. The film version is cool and menacing in a bureaucratic, calculated way. While both are cruel, the tonal shift changes the nature of her characterisation from a blunt thug to a composed oppressor, altering how the audience understands her personality."
     },
     {
-      "scene": "Film Scene 2 - Alecto and Amycus incapacitated as collateral during Snape's escape",
-      "book_baseline": "In the book, Alecto's key agency moment is pressing her Dark Mark to summon Voldemort when she catches Harry in the Ravenclaw common room (Book 7, Scene 10 of the corpus). She is an active threat who triggers a major plot event. In HBP she arrives on the Astronomy Tower as a triumphant Death Eater enforcer.",
-      "film_portrayal": "The Carrows are shown as passive sentinels in the Great Hall who 'falter' with uncertainty when Harry's allies appear, then are incapacitated as collateral damage when Snape deflects spells into them. They have no lines, no agency, and are neutralized as a side effect of someone else's action.",
+      "scene": "Film Scene 2 \u2013 Great Hall: Alecto and Amycus incapacitated as passive collateral of Snape's deflected spells",
+      "book_baseline": "Book corpus scene 10 establishes Alecto as an agent with her own decisive action: she independently presses her Dark Mark to summon Voldemort \u2013 a key plot function that triggers the castle's crisis. This is her own choice, her own act of treachery, and the direct cause of a major narrative event.",
+      "film_portrayal": "In the film's Great Hall sequence, the Carrows are merely 'sinister sentinels' standing watch, and are then incapacitated as passive bystanders when Snape deflects spells into them ('deflecting two of the curses into Alecto and Amycus Carrow'). They take no independent action; they are props that Snape disposes of incidentally.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 4,
-      "explanation": "Alecto's most important book function - pressing her Dark Mark to summon Voldemort, which is the pivotal act that triggers the final battle sequence - is entirely absent from the film corpus shown. In the film she is reduced to a mute background figure who is knocked out passively. This strips her of her only significant plot agency in the saga."
+      "explanation": "The book gives Alecto a crucial piece of plot agency \u2013 she is the one who summons Voldemort to Hogwarts by pressing her Dark Mark, which directly precipitates the battle. The film transfers all meaningful action in this sequence to Snape and strips the Carrows of any independent function. Alecto becomes scenery rather than an actor in the plot, removing a defining moment of her narrative role."
     }
   ],
   "confidence": {
-    "global": "Medium",
+    "global": "Low",
     "exposure_estimate": "Medium",
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 202.5,
-  "adjusted_cids_v1": 222.8
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

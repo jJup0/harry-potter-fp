@@ -2,79 +2,70 @@
   "character": "Amos Diggory",
   "fp_score": 64.0,
   "infidelity_score": 36.0,
-  "weighted_infidelity_exposure": 19.0,
-  "cids": 194.5,
-  "damage_per_exposure": 21.6,
-  "structural_damage_level": 2,
-  "adjusted_cids": 194.5,
+  "weighted_infidelity_exposure": 19.5,
+  "cids": 215.7,
+  "damage_per_exposure": 28.8,
+  "structural_damage_level": 3,
+  "adjusted_cids": 215.7,
   "main_damage_causes": [
-    "Removal of Amos's defining boastfulness and pride in Cedric, which is his primary characterization in the books and the foundation for understanding his grief",
-    "Absence of Amos's agency in the Dark Mark forest scene, eliminating his only moment of independent courage and his fallibility under pressure",
-    "No Tournament-period antagonism toward Harry, flattening Amos's arc from proud father to resentful competitor to devastated parent"
+    "Removal of Amos's defining personality traits (garrulous pride, competitive boasting about Cedric, good-natured obliviousness) means his grief at the climax lacks the emotional and characterisation payoff the book builds toward.",
+    "Absence of the Dark Mark / Winky investigation scene strips Amos of his only moment of independent agency and courage in the book, reducing him to a purely passive background figure until Cedric's death.",
+    "Loss of the Amos\u2013Cedric father-son dynamic (Cedric's quiet embarrassment at his father's boasting, the competitive jibe at Harry during the Tournament) removes the specific texture of their relationship, flattening a nuanced family portrait into a generic grieving-parent tableau."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Portkey meeting, Amos introduces himself",
-      "book_baseline": "Amos is warm, talkative, and socially engaged - he peers good-naturedly at the group, makes jokes about the cost of tickets, asks about the children, and drives the conversation naturally.",
-      "film_portrayal": "Amos is reduced to a few functional lines. His warmth, humor, and sociability are absent. He is a background figure who mostly facilitates the Portkey departure.",
+      "scene": "Film Scene 1 \u2013 Portkey meeting, Amos introduces himself and greets Harry",
+      "book_baseline": "In the book, Amos Diggory is a warm, voluble, good-natured man who chats freely with Arthur, makes jovial small talk about the early start, peers good-naturedly at the children, and is clearly at ease socially. His enthusiasm and talkativeness are defining traits.",
+      "film_portrayal": "The film reduces Amos's greeting to a few clipped lines: 'Arthur! It's about time, son,' 'Merlin's beard! You must be Harry Potter,' 'Great, great pleasure,' and 'Yes, it's just over there.' He is functionally present but has almost no personality on display \u2014 no warmth, no chattiness, no comedic good-nature.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book establishes Amos as a gregarious, proud, slightly boastful but likeable man. The film strips this personality entirely, making him a generic Ministry functionary. This weakens the audience's sense of who he is before Cedric's death."
+      "explanation": "The book establishes Amos as a garrulous, good-humoured Ministry man whose personality is evident from his first appearance. The film reduces him to a near-silent functional placeholder, stripping the warmth that makes his grief at the end emotionally resonant."
     },
     {
-      "scene": "Film Scene 1 - Amos's boast about Cedric beating Harry at Quidditch",
-      "book_baseline": "Amos launches into an extended, embarrassing boast about Cedric beating Harry, repeating it multiple times, slapping Cedric on the back, and making Harry uncomfortable. Cedric is visibly embarrassed and tries to correct his father. This defines Amos as a proud, tactless father who lives vicariously through his son.",
-      "film_portrayal": "This entire exchange is absent. There is no boasting, no embarrassment for Cedric, no discomfort for Harry.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 1 \u2013 Portkey meeting, absence of Amos boasting about Cedric beating Harry",
+      "book_baseline": "The book contains a sustained, multi-beat sequence where Amos loudly and embarrassingly boasts that Cedric beat Harry at Quidditch, says 'the best man won,' roars genially while slapping Cedric on the back, and frames it as something Cedric can 'tell his grandchildren.' This establishes Amos's pride-bordering-on-obliviousness, his tendency to embarrass Cedric, and the Amos\u2013Cedric father-son dynamic (Cedric mutters corrections, looks embarrassed).",
+      "film_portrayal": "This entire exchange is absent from the film corpus. There is no boasting, no embarrassment, no father-son friction at the Portkey. Amos says nothing about Quidditch or Harry's past loss.",
+      "damage_type": "relationship",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "This scene is the primary characterization beat for Amos in the books. It establishes his pride, his tactlessness, and crucially the father-son dynamic where Cedric is embarrassed by his father's over-investment. Losing it means the audience has no real sense of Amos as a character before his grief, which significantly reduces the emotional impact of his breakdown over Cedric's body."
+      "explanation": "The boasting scene is the primary vehicle for establishing the Amos\u2013Cedric relationship in the books: Cedric's quiet dignity against his father's overbearing pride. Its absence means the film never shows this dynamic, making Amos a generic background parent rather than a specific, slightly flawed father figure, which dulls the emotional punch of his grief later."
     },
     {
-      "scene": "Film Scene 1 - Amos's reaction to meeting Harry Potter",
-      "book_baseline": "Amos says 'Merlin's beard' and is visibly starstruck, then immediately pivots to boasting that Cedric beat Harry - using Harry's fame to elevate his son. The reaction is warm but self-serving.",
-      "film_portrayal": "Amos says 'Merlin's beard, you must be Harry Potter' and calls it a 'great pleasure' - the starstruck moment is present but the pivot to Cedric-boasting is cut, so the moment is just generic celebrity recognition.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The book uses this moment to reveal Amos's character - he can't help making everything about Cedric. The film keeps the surface reaction but removes the revealing follow-through."
-    },
-    {
-      "scene": "Film Scene 1 - Amos's antagonism toward Harry during the Tournament (book scene at Hogwarts)",
-      "book_baseline": "During the Tournament, Amos confronts Harry directly and snidely ('Bet you're not feeling quite as full of yourself now Cedric's caught you up on points'), showing his competitive resentment has grown. Cedric tells Harry to ignore him. Amos makes a pointed comment loud enough for Harry to hear as he leaves.",
-      "film_portrayal": "This scene does not exist in the film. Amos has no presence during the Tournament period beyond the third task.",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "This scene shows Amos's pride curdling into something uglier under Tournament pressure - a meaningful character development. Its absence means Amos is a flat figure with no arc between the Portkey and his grief at the end."
-    },
-    {
-      "scene": "Film Scene 2/3 - Amos at the third task, farewell to Cedric",
-      "book_baseline": "The book does not have a specific extended farewell scene at the maze entrance for Amos and Cedric.",
-      "film_portrayal": "Amos holds Cedric's hand up to the crowd and says 'Cedric, good luck, my boy.' Cedric replies 'See you later, Dad.' This is a brief, warm moment.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is actually a small faithful addition that works. Scored minimally as it does not contradict the books but also does not compensate for the missing characterization elsewhere. Net effect is negligible - not scored as damage."
-    },
-    {
-      "scene": "Film Scene 4 - Amos's grief over Cedric's body",
-      "book_baseline": "The book does not depict this scene in detail at this point - Amos's grief is implied but the immediate aftermath focuses on Harry. The film's depiction of Amos breaking through the crowd crying 'That's my son! That's my boy!' is an extrapolation.",
-      "film_portrayal": "Amos pushes through the crowd screaming 'Let me through! That's my son! That's my boy!' and collapses over Cedric's body. Arthur hugs Amos beforehand.",
+      "scene": "Film Scene 1 \u2013 Portkey meeting, absence of Amos's jibe about Harry and the Dark Mark aftermath",
+      "book_baseline": "At the Triwizard Tournament, the book shows Amos pointedly needling Harry ('Bet you're not feeling quite as full of yourself now Cedric's caught you up on points'), loudly defending Cedric against Rita Skeeter's article bias, and being visibly angry \u2014 before his wife restrains him. This paints Amos as protective of Cedric to the point of pettiness, and gives him a recognisable human flaw.",
+      "film_portrayal": "This scene does not appear in the film corpus at all. Amos never displays competitive antagonism toward Harry in the film.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The grief scene itself is emotionally effective and not unfaithful in spirit. However, because the film has not established Amos's proud, boastful, deeply invested fatherhood through earlier scenes, the grief lands with less weight than it should. The damage here is not in this scene itself but in the cumulative absence of prior characterization making this moment less devastating than intended. This is a consequence of earlier omissions rather than an independent unfaithful beat - scored conservatively."
+      "explanation": "The book's Amos is not simply a loving father \u2014 he is also a proud, occasionally petty one. This flaw makes him a rounder character and makes his eventual grief more complex. Without it, the film's Amos is a flat, grieving-father archetype with no texture beforehand."
     },
     {
-      "scene": "Film Scene 1 - Dark Mark / forest aftermath scene entirely absent",
-      "book_baseline": "After the Death Eater attack at the World Cup, Amos takes initiative - he squares his shoulders, marches into the dark forest alone despite warnings, and discovers Winky. He then gets into a heated exchange with Crouch, initially accusing Winky and being firmly put down. This shows Amos as brave, impulsive, and fallible.",
-      "film_portrayal": "The Dark Mark forest scene is present in the film but Amos's specific role - marching in alone, finding Winky, the confrontation with Crouch - is entirely absent. The film handles the Dark Mark aftermath differently.",
+      "scene": "Film Scene 1 \u2013 Portkey meeting, absence of the Dark Mark / Winky investigation scene",
+      "book_baseline": "The book gives Amos a significant active role after the Dark Mark is cast: he squares his shoulders, marches into the dark woods alone despite warnings, and emerges carrying an unconscious Winky. He then leads the accusation against Winky and is publicly dressed down and humiliated by Barty Crouch Sr. This is a substantial character moment showing courage, investigative initiative, and then social embarrassment.",
+      "film_portrayal": "This entire scene is absent from the film corpus. Amos has no investigative agency in the film and his Campsite night scenes are not represented.",
       "damage_type": "agency/function",
       "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Amos's solo march into the dark forest is a moment of genuine courage and agency. His subsequent embarrassment when Crouch turns on him shows his fallibility. Both are lost, removing the only scene where Amos acts independently and heroically."
+      "impact_weight": 3,
+      "explanation": "The book uses this scene to show Amos as a man of action within his Ministry role, willing to take personal risk. Its absence removes one of only two scenes in the book where Amos exercises meaningful agency, further reducing him to a purely reactive figure whose only narrative function becomes grieving Cedric."
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Third task pre-start, Amos holds Cedric's hand up to the crowd",
+      "book_baseline": "The book does not describe Amos raising Cedric's hand in a triumphalist gesture before the task. The book's Amos at this point is simply present. The pre-task farewell in the book is modest \u2014 Cedric hugs his father (as noted in the film stage direction too).",
+      "film_portrayal": "The film stage directions state: 'The crowd cheers and Amos holds Cedric's hand up.' This is a showy, triumphalist gesture that reads as performance for the crowd rather than a private paternal moment.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor inconsistency \u2014 the gesture slightly exaggerates Amos's pride into showmanship. It is a small distortion but nudges his characterisation toward caricature rather than the genially oblivious pride the book depicts."
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Cedric's death, Amos's grief at the maze entrance",
+      "book_baseline": "The book does not contain a detailed scene of Amos reacting to Cedric's body at the maze entrance in the same immediate visual terms (the book's equivalent moment is spread differently). However, the film corpus is the primary evidence here: Amos crying 'That's my son! That's my boy!' and 'No! No!' is a raw, undifferentiated grief scene.",
+      "film_portrayal": "Amos's grief ('Let me through! That's my son! That's my boy! It's my boy! No! No!') is emotionally present but generic \u2014 pure anguish with no individualising detail. Because the film has not established Amos's specific personality, pride, or relationship texture beforehand, this moment lands as a stock 'father loses son' beat rather than the payoff of a developed character.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The grief scene is faithful in content but damaged in impact because the film failed to build Amos as a character before this moment. The emotional weight of a proud, boastful, loving, flawed father losing his son is replaced by the simpler grief of a generic parent. This is the structural consequence of all the earlier omissions: the payoff scene exists but its resonance is severely diminished."
     }
   ],
   "confidence": {
@@ -83,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 684.0,
-  "adjusted_cids_v1": 752.4
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

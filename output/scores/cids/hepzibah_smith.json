@@ -1,0 +1,35 @@
+{
+  "character": "Hepzibah Smith",
+  "fp_score": 24.0,
+  "infidelity_score": 76.0,
+  "weighted_infidelity_exposure": 2.0,
+  "cids": 150.6,
+  "damage_per_exposure": 301.1,
+  "structural_damage_level": 2,
+  "adjusted_cids": 150.6,
+  "main_damage_causes": [
+    "Total compression of a substantial book scene into a single non-speaking flash image, eliminating all characterisation, voice, and personality.",
+    "Loss of the Voldemort\u2013Hepzibah relationship dynamic, which in the books demonstrates Voldemort's calculated charm as a predatory tool and deepens understanding of how he acquired the Horcrux objects.",
+    "Removal of Hepzibah's moment of perceptiveness (noticing the red gleam in Voldemort's eyes), which is the only beat in the scene where her foolishness cracks and genuine unease surfaces \u2014 a small but humanising and dramatically ironic note entirely absent from the film."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 Voldemort's rapid flash of memories (Deathly Hallows Part 2 script)",
+      "book_baseline": "The book corpus establishes Hepzibah Smith as a fully realised character across an extended Pensieve scene: she is immensely fat, elaborately vain (ginger wig, pink robes, rouge, small jeweled mirror), imperious with her house-elf, flirtatiously foolish around Voldemort (batting lashes, pouting, pinching his cheek), proudly boastful about her treasures, and crucially possesses a moment of genuine perceptiveness \u2014 she notices the red gleam in Voldemort's eyes and is visibly unnerved. She is a complete social portrait of an wealthy, self-deluded collector being charmed and ultimately murdered.",
+      "film_portrayal": "Hepzibah Smith appears only as a single image in a rapid flash of Voldemort's memories \u2014 described as 'an OLD WOMAN in a PARLOR, her teeth black with age, opening a box to reveal Helga Hufflepuff's CUP.' She has no dialogue, no personality, no relationship with Voldemort, and no dramatic agency. Her sole function is as a visual inventory item confirming the cup's existence.",
+      "damage_type": "personality/voice | agency/function | relationship | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 4,
+      "explanation": "The reduction of Hepzibah from a richly drawn, scene-dominating character to a single wordless flash image destroys virtually everything the book establishes about her. Her vanity, her social manipulation of Voldemort, her foolish affection for him, her pride in her lineage and treasures, and her fleeting moment of frightened lucidity are all absent. The film also strips away the entire dramatic irony of the scene \u2014 the audience watching the books understands that this charming, ridiculous, sympathetic old woman is being groomed for murder by the man she dotes on. The film collapses this into a mere confirmation that the cup once existed somewhere. Her function as the human face of Voldemort's cold predation \u2014 which illuminates his character and the nature of his Horcrux-collecting \u2014 is entirely lost."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

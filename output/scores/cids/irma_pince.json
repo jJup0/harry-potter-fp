@@ -1,0 +1,44 @@
+{
+  "character": "Irma Pince",
+  "fp_score": 75.0,
+  "infidelity_score": 25.0,
+  "weighted_infidelity_exposure": 1.5,
+  "cids": 37.2,
+  "damage_per_exposure": 37.2,
+  "structural_damage_level": 1,
+  "adjusted_cids": 37.2,
+  "main_damage_causes": [
+    "Reduction of Madam Pince from an active, physically present antagonistic force to a passive background figure (desk glance in scene 73)",
+    "Replacement of direct characterization with secondhand comic relief (relayed message in scene 90), stripping her of agency and presence",
+    "Near-total absence from the film corpus despite book corpus establishing her as a recurring, behaviorally distinct presence across multiple books"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Chamber of Secrets film, Scene 2 (Film scene 73) \u2013 Library scene where Madam Pince eyes Harry from her desk",
+      "book_baseline": "Book corpus establishes Madam Pince as a thin, irritable, vulture-like librarian who actively patrols the library, breathes down students' necks, scrutinizes permission notes with suspicion, wields her wand to expel students with chocolate, chivvies students out at closing time, and is intensely proprietary about her books. She is a present, active, menacing force in the library environment.",
+      "film_portrayal": "In the library scene (Film Scene 2, scene 73), Madam Pince is reduced to a single visual beat: 'Even MADAM PINCE eyes him from her desk.' She is stationary, passive, merely glancing at Harry from a desk \u2013 no patrol, no confrontation, no active menace. Her defining physicality and behavioral aggression are entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book corpus repeatedly characterizes Pince through active, physical intimidation \u2013 prowling aisles, breathing down necks, brandishing feather dusters, extinguishing lamps, chasing students out with jinxed books. The film reduces her to a passive desk presence. This flattens her defining trait of aggressive, territorial vigilance into a mere background glance, weakening how the audience perceives her character."
+    },
+    {
+      "scene": "Chamber of Secrets film, Scene 2 (Film scene 90) \u2013 Hospital wing visit, Ron relays Madam Pince's message",
+      "book_baseline": "Book corpus establishes Madam Pince as someone who interacts directly and confrontationally with students in person \u2013 she scrutinizes notes, stalks between shelves, and physically intervenes. Her relationship to books is personal and almost violent in its protectiveness.",
+      "film_portrayal": "Ron delivers a secondhand, jokey message: 'Madam Pince asked that we relay a message to you, Hermione: She'd appreciate it if you'd leave a few books for the rest of the school.' Pince is entirely off-screen, her presence mediated through comic relief dialogue. Her fierce, in-person character is replaced by a punchline.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While minor in isolation, reducing Pince to a relayed joke rather than a direct presence further erodes her characterization as a physically imposing, personally menacing figure. Her fierceness becomes comedy at a remove rather than a felt presence."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

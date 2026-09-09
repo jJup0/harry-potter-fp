@@ -2,70 +2,70 @@
   "character": "the Basilisk",
   "fp_score": 75.0,
   "infidelity_score": 25.0,
-  "weighted_infidelity_exposure": 16.0,
-  "cids": 127.7,
-  "damage_per_exposure": 19.7,
+  "weighted_infidelity_exposure": 8.5,
+  "cids": 101.5,
+  "damage_per_exposure": 22.6,
   "structural_damage_level": 2,
-  "adjusted_cids": 127.7,
+  "adjusted_cids": 101.5,
   "main_damage_causes": [
-    "Harry's moment of desperate vulnerability and the thematic meaning of the sword-from-the-hat is replaced by physical action-hero spectacle, weakening the book's core idea that courage under helplessness is what defines a Gryffindor",
-    "Hermione's intellectual agency in solving the basilisk mystery is compressed and partially transferred to Harry, reducing her function as the trio's problem-solver",
-    "Minor relationship texture between Ron and Hermione is played for awkward comedy rather than warmth, lightly undermining their arc"
+    "Harry's agency and heroism are amplified and aestheticized (statue climb, bold descent on the basilisk) at the expense of the book's theme that desperate, faithful surrender \u2014 not spectacular initiative \u2014 is what summons aid and defines Gryffindor courage",
+    "The Ron-Hermione emotional bond is subtly deprioritized in the reunion scene in favor of Harry-Hermione centrality, a pattern with cumulative consequences across the saga",
+    "The basilisk's role as an instrument of near-hopeless terror is softened by compressing and choreographing the combat, reducing the psychological and physical cost the encounter imposes on Harry"
   ],
   "damaging_scenes": [
     {
-      "scene": "CoS Film - Chamber confrontation: Harry retrieves sword by climbing statue",
-      "book_baseline": "Harry is on the floor, desperate, with no options left. He rams the Sorting Hat onto his head and mentally pleads for help while flat on the ground. The sword appears inside the hat as a response to his need and courage in extremis.",
-      "film_portrayal": "Harry spots the sword glittering inside the hat after Fawkes drops it, then boldly climbs the Slytherin statue to reach it, fighting the basilisk on the way up in an action-hero sequence.",
+      "scene": "Film Scene 1 (CoS) - Chamber of Secrets: Harry climbs the Slytherin statue to retrieve the sword",
+      "book_baseline": "Book Scene 24-25: The basilisk sweeps the Sorting Hat into Harry's arms while he is on the floor, cornered; Harry puts the hat on while lying flat and pleads mentally 'Help me - help me - Harry thought, his eyes screwed tight under the hat. Please help me.' The sword arrives while Harry is prostrate and desperate.",
+      "film_portrayal": "Harry sees the Sorting Hat already in the chamber (dropped by Fawkes), then proactively climbs the statue of Slytherin himself and retrieves the sword from within the hat at the top, acting with bold initiative rather than desperate last-resort supplication.",
       "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's version is a moment of profound vulnerability - Harry has nothing left and asks for help. The sword coming to him through the hat is a magical response to demonstrated loyalty and courage under despair. The film turns it into a physical feat of daring, removing the thematic weight of the hat as a conduit of Gryffindor's legacy and replacing inner courage with external action-hero bravado."
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's moment is defined by Harry's helplessness and the miraculous nature of the sword's arrival answering his silent plea \u2014 it is a test of faith and loyalty rewarded. The film turns it into a display of Harry's own initiative and daring athleticism. Dumbledore's later line 'only a true Gryffindor could have pulled that out of the Hat' retains its surface meaning in both versions, but the emotional and thematic weight \u2014 that courage is proven in desperate, faithful surrender, not heroic climbing \u2014 is significantly diluted. The scene's function as a demonstration of Dumbledore-given loyalty being rewarded is partially lost."
     },
     {
-      "scene": "CoS Film - Fawkes blinds the basilisk before Harry has engaged it",
-      "book_baseline": "Harry is running blind with eyes shut, tripping and falling, completely helpless. Fawkes blinds the basilisk mid-chase while Harry is on the ground, buying him the chance to fight.",
-      "film_portrayal": "Fawkes blinds the basilisk while Harry watches the shadow play on the wall, then Harry turns and looks directly at the now-blind basilisk's bloody eye sockets before engaging.",
+      "scene": "Film Scene 1 (CoS) - Chamber of Secrets: Fawkes blinds the basilisk before Harry fights it",
+      "book_baseline": "Book Scenes 22-27: Fawkes blinds the basilisk while Harry is running blindly and in mortal terror, having already tripped and fallen. Harry only turns to fight after the basilisk is blinded, seizing the moment when 'the basilisk's head was falling, its body coiling around.' Harry fights blind alongside a blind snake, navigating by sound and shadow. The combat is terrifying and attritional.",
+      "film_portrayal": "Fawkes blinds the basilisk while Harry watches the shadows on the wall, then Harry climbs the statue and descends upon the basilisk in a described 'mad rush of courage,' sliding down its back \u2014 a visually spectacular, more overtly heroic sequence. The film compresses and choreographs the fight into a single bold assault rather than the book's desperate, groping, protracted struggle.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book emphasises Harry's terror and blindness throughout - he cannot look. The film lets Harry watch the blinding happen via shadows and then look at the basilisk freely once blinded, reducing the sustained tension of a boy fighting a lethal creature he can never see."
+      "explanation": "The book's combat conveys that Harry's victory is agonizing, near-miraculous, and achieved despite terror \u2014 he trips, bleeds, and barely survives. The film's version, while retaining the basilisk-fang wound, presents Harry as more controlled and heroic. This softens the portrayal of the basilisk as an existential, almost unbeatable threat and reduces the psychological cost of the encounter on Harry."
     },
     {
-      "scene": "CoS Film - Riddle taunts dying Harry at length with monologue",
-      "book_baseline": "After Harry is fanged, Riddle watches but the focus is on Harry's fading consciousness and his desperate crawl to the diary. The act of stabbing the diary is described as instinctive, without thinking.",
-      "film_portrayal": "Riddle delivers an extended gloating monologue ('So ends the famous Harry Potter... you'll be back with your dear Mudblood mother soon') while Harry lies dying, framing it as a villain set-piece.",
+      "scene": "Film Scene 1 (CoS) - Tunnel: Harry destroys the diary with the basilisk fang",
+      "book_baseline": "Book Scene 31: Harry destroys the diary 'without thinking, without considering, as though he had meant to do it all along' \u2014 an instinctive, spontaneous act while Riddle is distracted and before Riddle realizes the threat. Harry seizes the fang lying next to him and plunges it into the diary immediately.",
+      "film_portrayal": "Riddle is fully aware and lunges forward to stop Harry, explicitly saying 'What are you doing? No. Stop...' before Harry destroys the diary. Harry also crawls toward Ginny first, takes the diary from her hand, then destroys it \u2014 making it a more deliberate, observed action under pressure from a reacting Riddle.",
       "damage_type": "nuance/lost material",
-      "exposure": 1,
+      "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor inflation of Riddle's screen time at the expense of the intimate, fading interiority of Harry's final act. The book's instinctive, unthinking stab of the diary is more powerful than acting under a villain's speech."
+      "explanation": "The book's instinctive, unobserved act carries thematic weight about Harry acting on pure instinct and loyalty. The film version still works dramatically but removes the elegance of Riddle being caught off-guard by Harry's improvisation. Minor damage as the core action and outcome are preserved."
     },
     {
-      "scene": "CoS Film - Hermione's deduction replaced by written note",
-      "book_baseline": "Hermione works out the basilisk independently and writes 'pipes' on the torn page as a note. Harry and Ron then reason through all the victims themselves using Hermione's page and their own knowledge (roosters, Aragog's clue about the bathroom).",
-      "film_portrayal": "Harry and Ron find Hermione's torn page and Harry does essentially all the deductive reasoning aloud, with 'Pipes' being Hermione's only visible contribution shown as a handwritten word on the page.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Hermione's intellectual agency - working out the basilisk, the pipes, and warning the first person she met to use a mirror - is compressed into a single scrawled word. Harry gets the full deduction scene, diminishing Hermione's role as the one who actually solved the mystery."
-    },
-    {
-      "scene": "CoS Film - Ron and Hermione reunion: awkward handshake",
-      "book_baseline": "The book has no equivalent reunion scene at this point in CoS; the broader series establishes Ron and Hermione's growing closeness and eventual relationship as a slow-burn arc.",
-      "film_portrayal": "When Hermione runs in and embraces Harry, she then turns to Ron and they share an awkward pause before shaking hands stiffly.",
+      "scene": "Film Scene 1 (CoS) - Hospital Wing/Great Hall reunion: Hermione embraces Harry, shakes Ron's hand",
+      "book_baseline": "Book Scene 41: Ron simply says 'So Hermione's okay!' brightly upon learning she will recover. The book does not dramatize the reunion scene at the feast in the way the film does, but the overall dynamic is warm and equal among the trio.",
+      "film_portrayal": "Hermione runs in, embraces Harry first ('You solved it! You solved it!'), then turns to Ron \u2014 and they share an awkward pause before shaking hands. Ron says 'Welcome back, Hermione,' stiffly. This is played for comedic awkwardness and implicitly downplays the Ron-Hermione emotional bond at a moment of relief.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The handshake plays the Ron-Hermione dynamic for comedy at the expense of their emotional bond. It undercuts the warmth of their friendship at a moment of relief and mildly damages the groundwork for their eventual relationship arc."
+      "explanation": "The film corpus for DH (Book Scenes 48-52) and the broader book corpus establish the Ron-Hermione relationship as the saga's central romantic arc. Having their reunion after Hermione's petrification play as an awkward handshake \u2014 versus Harry receiving a full embrace \u2014 misrepresents the emotional priority of their bond at this early stage. This is a minor but meaningful early signal that the film slightly subordinates the Ron-Hermione connection to Harry-Hermione centrality, consistent with a pattern across the film series."
     },
     {
-      "scene": "DH1 Film - Basilisk fang used to destroy diadem by Hermione",
-      "book_baseline": "In the book, the diadem is destroyed by Fiendfyre in the Room of Requirement, not by a basilisk fang. Hermione carries basilisk fangs from the Chamber to destroy the cup Horcrux at Gringotts.",
-      "film_portrayal": "Hermione tosses Harry a basilisk fang in the corridor and he uses it to destroy the diadem immediately after escaping the Room of Requirement.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 1 (CoS) - Chamber: Riddle explicitly taunts dying Harry at length",
+      "book_baseline": "Book Scene 30: After the fang pierces Harry, the narration focuses on Harry's physical experience \u2014 'White-hot pain was spreading slowly and steadily from the wound' and his vision going foggy. Riddle is present but the book does not give him an extended monologue taunting the dying Harry.",
+      "film_portrayal": "Riddle delivers a substantial taunting monologue over the dying Harry: 'Remarkable, isn't it? How quickly the venom of the Basilisk penetrates the body?... I'd guess you have little more than a minute to live... So ends the famous Harry Potter. On his knees in the Chamber of Secrets. Defeated at last...' This is an extended villain gloat not present in the book corpus.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "The book focuses on Harry's subjective experience of dying and his determination to destroy the diary; the film shifts focus to Riddle's villainous gloating. This makes Riddle more conventionally theatrical and slightly reduces the interiority of Harry's near-death experience. Damage is minor \u2014 Riddle's menace is enhanced if anything \u2014 but the adaptation choice shifts the emotional register of the scene away from Harry's perspective."
+    },
+    {
+      "scene": "Film Scene 1 (CoS) - Chamber: Sorting Hat dropped by Fawkes, then tossed aside by Riddle",
+      "book_baseline": "Book Scene 24: 'The basilisk had swept the Sorting Hat into Harry's arms.' The hat arrives mid-battle via the basilisk's own tail accidentally delivering it to Harry, who then puts it on and pleads for help. Riddle does not interact with the hat.",
+      "film_portrayal": "Fawkes carries in and drops the Sorting Hat. Riddle picks it up, mocks it ('This is what Dumbledore sends his defender! A songbird and an old hat!'), then tosses it aside. Harry later retrieves the sword from within it at the top of the statue.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "This is a DH film compression that reassigns the method of destruction. It is a plot mechanics change rather than a characterisation damage, but it does slightly misrepresent the basilisk's role in the saga - the fang's significance is diluted by being used as a generic Horcrux-destroyer in multiple contexts beyond its book function."
+      "explanation": "Riddle handling and mocking the hat before discarding it \u2014 only for it to save Harry \u2014 adds a dramatic irony beat not in the book. More importantly, Riddle's dismissal of the hat removes the element of the basilisk unwittingly delivering salvation to Harry, which in the book reinforces the theme that Voldemort's own actions contribute to his defeat. The film's version is coherent but loses this thematic nuance. Additionally, having Fawkes deliver the hat rather than it arriving chaotically mid-battle removes the sense of desperate miraculous provision."
     }
   ],
   "confidence": {
@@ -74,8 +74,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 400.0,
-  "adjusted_cids_v1": 440.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

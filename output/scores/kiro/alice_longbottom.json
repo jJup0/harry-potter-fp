@@ -1,20 +1,90 @@
 {
   "character": "Alice Longbottom",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 18.0,
+    "narrative_role_agency": 14.0,
+    "motivations_internal_conflict": 12.0,
+    "character_arc": 12.0,
+    "key_relationships": 7.0,
+    "complexity_nuance_lost_material": 9.0,
+    "total": 72.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 18,
+      "narrative_role_agency": 14,
+      "motivations_internal_conflict": 12,
+      "character_arc": 12,
+      "key_relationships": 7,
+      "complexity_nuance_lost_material": 9,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "Alice Longbottom appears only fleetingly in the book corpus \u2014 referenced in an old photograph, described as having a 'round, friendly face' that Harry recognizes as the image of Neville. She does not speak, act, or express herself in this corpus. Her personality is not directly rendered; what the books establish here is an impression of warmth and a physical likeness to her son, used to evoke pathos around her tragic fate.",
+          "film_portrayal": "In the film corpus, Alice is mentioned by name in Sirius's dialogue \u2014 'That's Frank and Alice Longbottom' \u2014 followed by Harry identifying them as 'Neville's parents.' The line is brief and referential, with no visual description or emotional elaboration beyond Sirius's remark that 'they suffered a fate worse than death.'",
+          "difference": "The book corpus describes Alice through Harry's internal perception \u2014 her round, friendly face as the image of Neville \u2014 conveying warmth and a human presence even in a photograph. The film strips this entirely: the audience receives only a name drop with no visual, emotional, or descriptive texture. The single humanizing detail (the resemblance to Neville) is absent.",
+          "penalty_logic": "Because Alice has no active personality in either corpus \u2014 she is a photograph figure in both \u2014 the penalty is limited. However, the book uses Harry's narration to briefly humanize her; the film does not. This is a minor but real loss of texture. Score reflects faithfulness at the level of function (named, identified, associated with tragedy) with a small deduction for the removal of the humanizing physical/emotional detail.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "Alice's narrative role in this corpus is symbolic and contextual: she is a member of the original Order of the Phoenix, identified as Neville's mother, and used to establish the cost of the first war. Her presence in the photograph functions as an emotional anchor \u2014 she is a victim of Voldemort's allies, a parallel to Harry's own orphaned status, and a key part of Neville's background.",
+          "film_portrayal": "The film preserves her narrative function as a named photograph subject connected to the Order and to Neville. Sirius's line \u2014 'they suffered a fate worse than death' \u2014 actually slightly expands the emotional weight of her mention compared to the book corpus alone, where the narration is more restrained.",
+          "difference": "The referential role is preserved. However, the book corpus's specific humanizing detail \u2014 Harry recognizing her face as Neville's \u2014 is removed, slightly reducing the narrative linkage between Alice and Neville in the film version of this scene.",
+          "penalty_logic": "The core narrative function (Order member, Neville's mother, war casualty, emotional counterpoint) is maintained. The loss of the Neville-resemblance detail reduces the relational anchoring slightly but does not eliminate the role. Minor deduction.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "No motivations or internal conflicts are present or inferable from the book corpus. Alice appears only as a photograph subject with no dialogue, action, or narration attributing intent or conflict to her.",
+          "film_portrayal": "Equally absent in the film corpus. No motivations are expressed or implied beyond her status as a victim.",
+          "difference": "No difference detectable from this corpus. Both book and film offer no access to Alice's interior life.",
+          "penalty_logic": "No penalty from this corpus. The score reflects the absence of material to evaluate rather than a faithful or unfaithful rendering. Score is at the upper-middle range because what little framing exists (war casualty, Order member) is consistent between book and film.",
+          "evidence_status": "Not enough evidence"
+        },
+        "character_arc": {
+          "book_baseline": "No arc is present in this corpus. Alice is referenced as already in her post-torture state; there is no before/after trajectory shown here, only a static historical reference.",
+          "film_portrayal": "Similarly static in the film corpus. She is a historical figure referenced in passing.",
+          "difference": "No arc is present in either version within this corpus. The score reflects consistency rather than richness.",
+          "penalty_logic": "No penalty for arc from this specific corpus. The corpus does not include the St. Mungo's scenes (from Order of the Phoenix book) where Alice's current condition and her interaction with Neville are depicted \u2014 those scenes, which form the emotional core of her arc, are outside this corpus. Score held at mid-range to reflect consistency of what is shown, with no additional penalty since the arc material is simply not present in either corpus provided.",
+          "evidence_status": "Not enough evidence"
+        },
+        "key_relationships": {
+          "book_baseline": "In the book corpus, Alice's most important implied relationship is with Neville \u2014 established through Harry's recognition of her face in Neville's. This visual/emotional linkage is the primary relational content available here.",
+          "film_portrayal": "The film names Alice alongside Frank and connects them to 'Neville's parents' via Harry's spoken line, preserving the relational identification. However, the physical resemblance detail \u2014 which in the book creates an intimate, visual bond between Alice and Neville \u2014 is absent.",
+          "difference": "The relational identification (Alice = Neville's mother) is preserved verbally. The emotional texture of that relationship \u2014 the physical resemblance as a living trace of Alice in Neville \u2014 is lost.",
+          "penalty_logic": "The relationship is named and functionally present but emotionally flattened. The book's humanizing detail creates a moment of relational intimacy that the film replaces with a straightforward verbal identification. Minor deduction.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "The book corpus offers minimal complexity for Alice directly, but the narration through Harry's eyes adds one layer of nuance: the round, friendly face that is 'the image of her son.' This detail does double work \u2014 it humanizes Alice as an individual and deepens the tragedy by connecting her to Neville, the living child who bears her face.",
+          "film_portrayal": "The film reduces Alice to a name in a list. Sirius's 'fate worse than death' line adds emotional weight, but it is abstract and distancing rather than humanizing. The specific detail that made Alice's tragedy personal (the resemblance to Neville) is absent.",
+          "difference": "The humanizing, individuating detail is removed. Alice becomes a named casualty rather than a person whose face Harry knows.",
+          "penalty_logic": "This is a real loss of nuance, even if minor in absolute terms. The detail that made Alice more than a historical reference \u2014 her visual presence in Neville's face \u2014 is the only individualizing element in the book corpus, and it does not appear in the film. The score reflects this simplification within an already very limited corpus.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Low",
+        "personality_voice": "Low",
+        "narrative_role_agency": "Low",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Low",
+        "complexity_nuance_lost_material": "Low"
+      },
+      "lost_or_transferred_material": [
+        "Harry's internal recognition of Alice's face as 'the image of Neville' \u2014 the humanizing detail that individualizes Alice and deepens her tragic status \u2014 is absent from the film corpus.",
+        "The narrated description of Alice as having a 'round, friendly face,' which conveys warmth and personhood beyond her status as a casualty, does not appear in the film.",
+        "The visual-emotional linkage between Alice and Neville (established through physical resemblance in the book) is replaced in the film by a simple verbal identification ('Neville's parents')."
+      ],
+      "score_caps_applied": [],
+      "key_observations": "Alice Longbottom has an extremely thin presence in both book and film corpora \u2014 she is a photograph figure in both, never speaking or acting. The book corpus establishes her primarily through Harry's narration, which briefly humanizes her via her resemblance to Neville. The film preserves her referential function (Order member, Neville's mother, war victim) but removes the single individualizing detail that gave her humanity in this corpus. The score of 72 reflects a faithful-in-function but slightly flattened-in-texture adaptation, with all confidence levels marked Low because the corpus is too limited to evaluate deeper characterization. This score should be understood as reflecting faithfulness within a very narrow window of material, not a comprehensive assessment of Alice Longbottom's full book characterization, which exists primarily in scenes (St. Mungo's, Neville's interactions with her) that are not present in either corpus provided.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 762,
+        "film_chars_sent": 5174,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },

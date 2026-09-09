@@ -1,20 +1,95 @@
 {
   "character": "Demelza Robins",
   "overall": {
-    "personality_voice": 0.0,
-    "narrative_role_agency": 0.0,
-    "motivations_internal_conflict": 0.0,
-    "character_arc": 0.0,
-    "key_relationships": 0.0,
-    "complexity_nuance_lost_material": 0.0,
-    "total": 0.0
+    "personality_voice": 16.0,
+    "narrative_role_agency": 13.0,
+    "motivations_internal_conflict": 11.0,
+    "character_arc": 13.0,
+    "key_relationships": 6.0,
+    "complexity_nuance_lost_material": 8.0,
+    "total": 67.0
   },
   "per_source": {
-    "not_in_films": "Character does not appear in the film screenplay corpus. Score set to 0.",
     "comparative": {
+      "personality_voice": 16,
+      "narrative_role_agency": 13,
+      "motivations_internal_conflict": 11,
+      "character_arc": 13,
+      "key_relationships": 6,
+      "complexity_nuance_lost_material": 8,
+      "justification": {
+        "personality_voice": {
+          "book_baseline": "In the books, Demelza is established as a skilled, resilient Chaser \u2014 notably good at dodging Bludgers \u2014 who is also emotionally vulnerable. She is reduced to tears by Ron's aggressive bullying during practice, and she responds to being punched in the mouth by zigzagging away dripping blood while Ron shouts apologies after her. She is not passive: she serves as a messenger for Snape's detention notice with straightforward, slightly awkward delivery ('er \u2014 no matter how many party invitations you've received'), showing she is somewhat nervous around authority but functional and direct. Her emotional register includes both toughness on the pitch and genuine distress when targeted. She is not a comic figure; her crying is portrayed sympathetically, and Peakes defends her.",
+          "film_portrayal": "In the film, Demelza is shown as a competent Chaser during the tryout montage \u2014 she flies aggressively, hunkers low, pins the Quaffle under her chin, splits Bludgers and Beaters \u2014 and is then used functionally in the Keeper shootout as the Chaser assigned to test Cormac. She has no dialogue and no emotional register beyond athletic focus. The personality texture established in the books \u2014 her vulnerability, her role as a sympathetic victim of Ron's cruelty, her functional social voice \u2014 is entirely absent.",
+          "difference": "The film preserves only one trait: her athletic skill and Bludger-dodging ability. Her emotional vulnerability, her sympathetic social presence, her voice as a character who speaks and reacts to others \u2014 all are removed. She becomes a purely functional athletic prop in the tryout sequence, with no lines and no discernible personality beyond competence.",
+          "penalty_logic": "This is a meaningful reduction. While the corpus for Demelza is modest, the books establish a dual register: capable flyer AND emotionally present character who can be hurt and who others defend. The film removes the second register entirely. The character remains recognizable as a skilled Chaser, but the traits that gave her modest human texture \u2014 her voice, her distress, Peakes defending her \u2014 are gone. This warrants a score in the 14\u201317 range: recognizable but with important traits reduced.",
+          "evidence_status": "Directly evidenced"
+        },
+        "narrative_role_agency": {
+          "book_baseline": "In the books, Demelza serves multiple narrative functions across HBP: (1) she is a named Chaser whose selection is noted as a positive find by Harry; (2) she acts as a messenger, delivering Snape's detention notice to Harry in a brief but direct interaction; (3) she is the victim in the key scene that illustrates Ron's spiraling aggressive behaviour \u2014 being punched in the mouth and then reduced to tears in a later practice \u2014 which are structural plot beats used to establish Ron's psychological deterioration as Keeper. She is not passive in these scenes; she bleeds, she cries, she is defended by Peakes, and her reactions are the evidence the reader uses to understand how badly Ron is behaving.",
+          "film_portrayal": "In the film, Demelza's narrative functions are reduced to one: she is a Chaser in the tryout sequence who tests Cormac in the shootout. Her messenger function is entirely absent. Her role as the victim that illustrates Ron's aggression is entirely absent \u2014 in the film, Ron's psychological arc around Quidditch is handled differently, without any scene of him physically striking or verbally destroying a teammate. Harry simply calls on her by name to run the shootout drill.",
+          "difference": "Two of her three narrative functions are removed: the messenger scene and the victim-of-Ron's-aggression scenes. The shootout scene does give her a brief moment of agency (she flies, she shoots), but this is purely athletic and plot-mechanical rather than characterising.",
+          "penalty_logic": "The loss of the messenger scene is a minor agency loss \u2014 it was a small scene. The loss of the scenes in which she is the structural evidence of Ron's deterioration is more significant, because those scenes gave her a narrative purpose tied to another character's arc. However, because Demelza's role in the books is itself modest, and because the film does retain her as a named, active Chaser who is given a specific task by Harry, this is a reduction rather than an elimination. Score sits at 13: role and agency are clearly altered, falling in the 10\u201313 band.",
+          "evidence_status": "Directly evidenced"
+        },
+        "motivations_internal_conflict": {
+          "book_baseline": "Demelza has no explicit internal conflict or deep motivations explored in the books. She is a minor character. What can be inferred is a desire to play Quidditch well for Gryffindor, a willingness to comply with team and school structures (delivering messages, attending practice), and \u2014 when subjected to Ron's aggression \u2014 a natural emotional response of distress. There is no sustained motivational arc.",
+          "film_portrayal": "The film gives no access to Demelza's inner state whatsoever. She is shown flying competently. No emotional response, no motivation, no conflict is visible.",
+          "difference": "The film doesn't add wrong motivations, but it also removes the only emotionally legible motivational moment the books give her: her distress in response to Ron's cruelty, which implies a character who wants to be treated with basic respect and whose emotional responses are real.",
+          "penalty_logic": "Because the books themselves offer very little in terms of explicit motivation or internal conflict for Demelza, the film cannot be heavily penalised here. The baseline is thin. However, the complete absence of even a readable emotional state \u2014 versus the book's clear depiction of her distress \u2014 represents a partial flattening. Score of 11: motivations are simplified but not entirely wrong, since the character's primary motivation (playing Quidditch) is still intact.",
+          "evidence_status": "Reasonably inferred"
+        },
+        "character_arc": {
+          "book_baseline": "Demelza has no meaningful character arc across the series. She is a background Quidditch player who appears in HBP. Her trajectory is flat by design: she is recruited, she plays, she is subjected to Ron's aggression, she continues on the team. There is no transformation, no revelation, no resolution specific to her.",
+          "film_portrayal": "The film similarly presents no arc for Demelza. She appears in the tryout, she is assigned a task, she flies.",
+          "difference": "The arc is flat in both versions. The only difference is that the film removes the scenes that showed her enduring Ron's aggression and recovering enough to continue as part of the team \u2014 which could be read as a very minor resilience arc in the books. But this is very thin material.",
+          "penalty_logic": "A flat arc in the books matched by a flat arc in the films is not a penalty per the scoring rules. The removal of the Ron-aggression scenes slightly reduces even the minimal arc texture the books provide, but this is too marginal to penalise heavily. Score of 13: arc is compressed but still faithful \u2014 there was almost no arc to be faithful to.",
+          "evidence_status": "Directly evidenced"
+        },
+        "key_relationships": {
+          "book_baseline": "Demelza's most defined relationship in the books is with Ron, specifically as the recipient of his aggression. Ron punches her in the mouth, then reduces her to tears in a subsequent practice \u2014 and she is defended by Peakes against Ron's bullying. This relationship is not warm or developed; it is a conflict dynamic that reveals Ron's psychological state and positions Demelza as a sympathetic figure. Her relationship with Harry is that of a team member to captain \u2014 respectful, functional, slightly deferential (she delivers his message from Snape). Her relationship with Peakes is minimal but notable: he defends her.",
+          "film_portrayal": "The film shows a purely functional relationship between Demelza and Harry: he calls her name, assigns her to the shootout, she complies. No emotional dynamic is established. The relationship with Ron as aggressor is entirely absent. The relationship with Peakes as defender is entirely absent.",
+          "difference": "The defining relational dynamic from the books \u2014 Demelza as victim of Ron's spiraling aggression, defended by Peakes \u2014 is completely removed. What remains is a bare transactional captain-player dynamic with Harry.",
+          "penalty_logic": "The Ron-Demelza dynamic is the primary relationship the books establish for her, and it is entirely absent from the film. This changes how the character is understood: in the books she is a character who is wronged and defended; in the film she is an anonymous athletic body. The Harry-Demelza relationship is present in skeletal form. Score of 6: important relationship dynamics are altered or weakened.",
+          "evidence_status": "Directly evidenced"
+        },
+        "complexity_nuance_lost_material": {
+          "book_baseline": "Demelza's complexity in the books is modest but real. She is simultaneously a skilled flyer (the Bludger-dodging note), a functional social actor (delivering messages with a slightly awkward but competent voice), and a sympathetically vulnerable person (crying under Ron's aggression, defended by a smaller teammate). The punch scene and the tears scene give her a human texture that exceeds pure background-character status. She is not comic, not heroic, not purely decorative \u2014 she is a real person on the periphery of larger events.",
+          "film_portrayal": "In the film, Demelza is reduced to athletic spectacle. She flies impressively in the montage and runs the shootout drill. She has no lines, no emotional register, no relationship texture, no voice. She is visually present and functionally useful to the plot of the tryout scene, but she is emptied of the nuance the books gave her.",
+          "difference": "The lost material includes: her dialogue (the Snape message delivery); her emotional response to Ron's violence; her role as the victim that humanises the cost of Ron's behaviour; Peakes defending her; and any sense of her as a person with feelings rather than a Quidditch prop.",
+          "penalty_logic": "While Demelza is a minor character and her complexity in the books is necessarily limited, what complexity exists is almost entirely removed. The film retains only the athletic trait. The absence of the Ron-aggression scenes, the messenger scene, and any dialogue reduces her from a minor but human character to pure background texture. Score of 8: noticeable simplification; important nuances, relationships, and agency are missing, but the character is too minor for this to reach the 5\u20137 range.",
+          "evidence_status": "Directly evidenced"
+        }
+      },
+      "confidence": {
+        "global": "Medium",
+        "personality_voice": "Medium",
+        "narrative_role_agency": "Medium",
+        "motivations_internal_conflict": "Low",
+        "character_arc": "Low",
+        "key_relationships": "Medium",
+        "complexity_nuance_lost_material": "Medium"
+      },
+      "lost_or_transferred_material": [
+        "Demelza delivering Snape's detention message to Harry \u2014 a scene that gave her a direct social voice and a functional narrative role",
+        "Ron punching Demelza in the mouth during practice \u2014 a scene that established her as the human cost of Ron's psychological deterioration",
+        "Ron reducing Demelza to tears in a subsequent practice session \u2014 her most emotionally legible moment in the books",
+        "Peakes defending Demelza against Ron's bullying \u2014 a relational dynamic that positioned her as a sympathetic figure within the team",
+        "Any dialogue for Demelza in the film \u2014 she has zero lines, eliminating her voice entirely"
+      ],
+      "score_caps_applied": [
+        "Cap 4 considered (score above 70 only if more than broad identity preserved): applied \u2014 the film preserves only Demelza's athletic competence and name; most of what defines her book characterisation is removed, supporting a cap below 75.",
+        "Cap 3 not strictly triggered (no single core action clearly transferred to another character \u2014 the Ron-aggression scenes are simply removed rather than reassigned), but the absence of those scenes produces a similar functional result."
+      ],
+      "key_observations": "Demelza Robins is a minor character whose book presence is modest but humanly textured: she is a skilled Chaser, a functional social actor, and a sympathetic victim of Ron's aggression who is defended by a smaller teammate. The film retains her name, her athletic skill, and a single functional role in the tryout scene, but removes every layer of human texture the books provide \u2014 her voice, her emotional responses, her relationships with Ron and Peakes, and her structural role as the evidence of Ron's deteriorating behaviour. What remains is essentially a background Quidditch extra with a name card. The score of 67 reflects that the film is recognisable in the most superficial sense but has stripped the character of almost everything that made her a minor human presence rather than pure scenery. Confidence is medium throughout because the corpus is limited on both sides, but the gap between what the books give and what the film delivers is clear enough to evaluate with reasonable certainty.",
       "meta": {
-        "corpus_version": "1",
-        "prompt_version": "3.0"
+        "type": "comparative",
+        "model": "claude-sonnet-4.6",
+        "prompt_version": "3.1",
+        "book_chars_sent": 3505,
+        "film_chars_sent": 5811,
+        "aliases": [],
+        "corpus_version": "1"
       }
     }
   },

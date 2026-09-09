@@ -1,0 +1,71 @@
+{
+  "character": "Romilda Vane",
+  "fp_score": 68.0,
+  "infidelity_score": 32.0,
+  "weighted_infidelity_exposure": 7.5,
+  "cids": 123.5,
+  "damage_per_exposure": 35.3,
+  "structural_damage_level": 2,
+  "adjusted_cids": 123.5,
+  "main_damage_causes": [
+    "Romilda's defining boldness and direct social aggression are stripped away by replacing her active self-introduction (Hogwarts Express) with passive background appearances and third-party description",
+    "Harry's canonical cold indifference to Romilda is replaced with implied attraction and flattery, misrepresenting his characterization and subtly undermining the Ginny arc",
+    "The film reduces Romilda from an active, scheming minor antagonist with a distinct voice to a decorative plot device whose agency is entirely mediated through other characters' dialogue"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (Library): Harry visually admires Romilda as 'exquisite, an absolute work of...' and quips 'But I am the Chosen One'",
+      "book_baseline": "Book establishes Harry is coldly indifferent to Romilda's advances (Scene 4-5: 'They're friends of mine,' said Harry coldly), and is primarily warned about her love potion scheming by Hermione with no suggestion of attraction on his part (Scenes 16-19)",
+      "film_portrayal": "Harry openly ogles Romilda with admiration, pausing to appreciate her looks until Hermione snaps her fingers to get his attention, implying he is genuinely tempted or attracted. His 'But I am the Chosen One' joke frames Romilda's interest as flattering rather than threatening.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's Harry is cold and dismissive toward Romilda, never tempted. The film repositions her as a genuine object of Harry's desire, which undermines the book's dynamic where Romilda is a nuisance/threat to be avoided and subtly undermines the developing Ginny arc by suggesting Harry entertains other romantic interests."
+    },
+    {
+      "scene": "Film Scene 1 (Library): Romilda introduced via Hermione's exposition in the library, not through a direct encounter",
+      "book_baseline": "Book Scene 3-6: Romilda boldly introduces herself to Harry in person on the Hogwarts Express, pushing through giggling friends, speaking 'loudly and confidently,' and attempting to lure Harry away from Neville and Luna with a stage whisper. This establishes her bold, socially aggressive, slightly snobbish personality directly.",
+      "film_portrayal": "Romilda is introduced as a distant figure pointed out by Hermione in the library. She has no lines, no direct interaction with Harry, and her personality is entirely conveyed through Hermione's warning rather than her own actions.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Romilda is defined by her boldness and forward social aggression \u2014 she acts. The film reduces her to a passive object of description, removing the direct characterization of her confidence and snobbery (dismissing Neville and Luna) that makes her a vivid minor character."
+    },
+    {
+      "scene": "Film Scene 2 (Boys' Dormitory): The love-potion chocolates are described as a Valentine's Day gift ('Dear Harry. Thinking sweet thoughts of you. Happy Valentine's Day. Romilda.')",
+      "book_baseline": "Book Scenes 28-29: The Chocolate Cauldrons are given to Harry directly by Romilda in the common room before Christmas ('My gran sent them to me, but I don't like them'), presented as a casual gift. Book Scene 35: Harry explains they were 'the Chocolate Cauldrons Romilda gave me before Christmas.' The incident is tied to Christmas, not Valentine's Day.",
+      "film_portrayal": "The chocolates arrive as a heart-shaped box with a Valentine's Day card, reframing the incident as an explicitly romantic/holiday gesture sent remotely rather than a face-to-face deceptive handoff.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Changing the timing and delivery method is a minor factual divergence. However, the direct face-to-face deceptive handoff in the book (pretending gran sent them) is more revealing of Romilda's scheming boldness than a remote Valentine card. The change slightly flattens her characterization as an active schemer."
+    },
+    {
+      "scene": "Film Scene 2 (Boys' Dormitory): Harry reads the Valentine card and 'suppresses a smile' before taking Ron to meet Romilda",
+      "book_baseline": "Book Scene 36: Harry 'fought a strong desire to laugh' at the absurdity of Ron dangling upside-down in love with Romilda, and internally considers the situation with a mix of amusement at the situation and protectiveness of Ron as a friend. His motivation is clearly to help Ron, not any warmth toward Romilda herself.",
+      "film_portrayal": "Harry suppresses a smile while reading Romilda's card ('Dear Harry. Thinking sweet thoughts of you'), suggesting a moment of personal pleasure or flattery at her note, before deciding to take Ron to her.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Harry is amused by the absurdity of the love-potion situation and Ron's predicament, not warmed by Romilda's note. The film's beat of Harry smiling at her card reinforces the earlier library scene's implication that Harry holds some attraction or at least pleased vanity toward Romilda, which is absent and contrary to the book's portrayal of his cold indifference to her pursuit."
+    },
+    {
+      "scene": "Film Scene 4 (Hogwarts Express): Romilda appears as a silent background passenger among a group including Ginny, Seamus, Katie Bell, Lavender, and Cormac",
+      "book_baseline": "Book Scenes 1-6: On the Hogwarts Express, Romilda leads a group of giggling fourth-year girls, pushes boldly into Harry's compartment, introduces herself loudly and confidently, and attempts to socially exclude Neville and Luna. This is her primary characterization scene.",
+      "film_portrayal": "Romilda is a silent, undifferentiated background figure in a group of students. She has no lines, no action, and no distinguishing characterization in this scene.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Hogwarts Express scene is Romilda's defining book moment \u2014 her boldness, confidence, and social snobbery are all established here. The film places her in the same setting but as a mute extra, entirely eliminating the characterization that makes her a memorable minor antagonist rather than a generic background student."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

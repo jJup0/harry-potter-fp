@@ -1,0 +1,53 @@
+{
+  "character": "Amycus Carrow",
+  "fp_score": 45.0,
+  "infidelity_score": 55.0,
+  "weighted_infidelity_exposure": 4.0,
+  "cids": 159.6,
+  "damage_per_exposure": 79.8,
+  "structural_damage_level": 2,
+  "adjusted_cids": 159.6,
+  "main_damage_causes": [
+    "Amycus's defining personality traits \u2014 crude humor, violent temper, coarse taunting voice \u2014 are entirely absent from the film corpus, reducing a distinctive antagonist to an anonymous background Death Eater.",
+    "Amycus's agency is eliminated: where the book gives him orders, dialogue, and active menace, the film makes him a passive object who is knocked out as a byproduct of Snape's duel with the staff.",
+    "The film provides no individualizing moment for Amycus across either scene in the corpus, meaning audiences cannot form any impression of his character distinct from the generic Death Eater role."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (Great Hall) \u2014 Carrows as silent sentinels, then felled by deflected spells",
+      "book_baseline": "In the book corpus, Amycus Carrow is vocal, taunting, and independently menacing on the Astronomy Tower ramparts. He speaks at length, mocks Dumbledore ('Look at him \u2014 what's happened to you, then, Dumby?'), yells violently when baited, issues orders, and has a distinct coarse personality \u2014 a 'lumpy-looking man' with a 'lopsided leer' and 'wheezy giggle.' He is an active participant with dialogue and presence.",
+      "film_portrayal": "In the Great Hall scene, Amycus (alongside Alecto) is described only as standing 'like sinister sentinels, their eyes raking the crowd.' He has no lines, no individual characterization, and no independent action. He and Alecto merely 'falter' and 'turn to Snape with uncertainty' when Harry arrives, then are passively knocked out by Snape's deflected spells \u2014 objects of the action rather than agents in it.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book corpus establishes Amycus as a loud, crude, independently menacing Death Eater with a distinct voice and personality. The film reduces him to a wordless prop who exists only to be neutralized. His coarse, mocking energy \u2014 which defines his characterization in the book \u2014 is entirely absent, weakening audience understanding of who he is."
+    },
+    {
+      "scene": "Film Scene 2 (Great Hall) \u2014 Amycus's agency transferred; he is felled by Snape's deflected curse",
+      "book_baseline": "In the book corpus, Amycus is never passively defeated by a third party's redirected spell. On the contrary, he is the one who issues orders ('Do it... Now, Draco, and quickly'), challenges Greyback, and drives the scene's action. He retains his threatening agency throughout.",
+      "film_portrayal": "Amycus is knocked out incidentally \u2014 Snape deflects spells from McGonagall and the staff 'into Alecto and Amycus Carrow.' He does not act, react meaningfully, or make any choice. His removal from the scene is a byproduct of someone else's duel.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The manner of Amycus's defeat strips him of any agency. In the book he is an active threat who must be actively overcome; in the film he is collateral damage in another character's confrontation. This transfers what little dramatic weight his presence carries entirely to Snape and McGonagall, erasing his function as an independent antagonist."
+    },
+    {
+      "scene": "Film Scene 1 (Bridge/Exterior) \u2014 Amycus as anonymous chivvying enforcer",
+      "book_baseline": "The book corpus establishes Amycus as a Death Eater with a specific, memorable personality: crude humor ('wheezy giggle'), a 'lopsided leer,' violent temper when provoked, and a distinct contemptuous relationship with Dumbledore. He is never anonymous \u2014 his character is immediately readable.",
+      "film_portrayal": "The film's opening shot describes Amycus (and Alecto) only as one of 'a pair of Death Eaters' chivvying students across a bridge. He is not individuated in any way \u2014 no dialogue, no distinguishing behavior, no personality signal. He is functionally interchangeable with any unnamed Death Eater.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a brief appearance, but it represents the film's only opportunity to establish Amycus as a distinct individual before the Great Hall scene. The failure to differentiate him at all compounds the later damage: audiences never develop a sense of who he is, making even his minor role in the Great Hall scene harder to register."
+    }
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

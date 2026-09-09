@@ -1,0 +1,35 @@
+{
+  "character": "Rosier",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 0.5,
+  "cids": 18.4,
+  "damage_per_exposure": 36.9,
+  "structural_damage_level": 1,
+  "adjusted_cids": 18.4,
+  "main_damage_causes": [
+    "Karkaroff's reaction to Rosier's death is rendered as genuine shock rather than cold, self-interested maneuvering, slightly softening the transactional nature of his testimony",
+    "The corpus for Rosier is extremely thin \u2014 he is a named-only, already-dead character \u2014 leaving almost no characterization to be damaged or misrepresented",
+    "No book scenes depicting Rosier in action (e.g., the Hog's Head gathering in Scene 13, or the Auror confrontation referenced by Moody) are adapted in the film corpus at all, so those absences cannot be scored as damage under the evidence rules"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film \u2013 Karkaroff's trial in the Pensieve: Karkaroff names Rosier and reacts with shock to his death",
+      "book_baseline": "In the book (Goblet of Fire Pensieve scene), when Crouch states 'Rosier is dead,' Karkaroff's reaction is not one of genuine shock or ignorance \u2014 the exchange is businesslike and Karkaroff is clearly performing distress strategically to seem cooperative. The book also establishes via Sirius (Scene 2) that Rosier and Wilkes 'were both killed by Aurors the year before Voldemort fell,' framing Rosier as a known casualty in Death Eater circles.",
+      "film_portrayal": "In the film trial scene, Igor cries out 'Dead?!? I didn't know.' This plays as genuine, surprised grief, suggesting Karkaroff had authentic emotional attachment to Rosier or was truly uninformed \u2014 neither of which is established in the book corpus. It softens Karkaroff's cold, self-serving calculation and inadvertently lends Rosier a sentimental weight he does not carry in the source.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Rosier is a minor, already-dead figure. The film's addition of Karkaroff's emotional 'I didn't know' slightly misrepresents the transactional, survivalist nature of Karkaroff's testimony and implies a personal bond with Rosier not present in the book. Damage is minimal given Rosier's peripheral role, but it is a small unfaithful beat that colours how his death is received."
+    }
+  ],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

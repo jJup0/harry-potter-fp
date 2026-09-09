@@ -2,43 +2,43 @@
   "character": "Gabrielle Delacour",
   "fp_score": 73.0,
   "infidelity_score": 27.0,
-  "weighted_infidelity_exposure": 4.5,
-  "cids": 83.0,
-  "damage_per_exposure": 33.2,
+  "weighted_infidelity_exposure": 2.5,
+  "cids": 61.0,
+  "damage_per_exposure": 40.7,
   "structural_damage_level": 2,
-  "adjusted_cids": 83.0,
+  "adjusted_cids": 61.0,
   "main_damage_causes": [
-    "Gabrielle is reduced to a silent rescued object with no personality, lines, or recurring presence across the films",
-    "Her post-GoF characterization (hero-worship of Harry, bridesmaid role, presence at the Burrow) is entirely absent from HBP and DH adaptations",
-    "The brief cheek-kiss slightly misrepresents her book characterization as a shy, childlike admirer rather than an active minor character"
+    "Gabrielle is rendered entirely silent and passive in her only significant film scene, erasing the lively, talkative personality established across the book corpus",
+    "The specific hero-worship relationship between Gabrielle and Harry \u2014 a recurring book motif across GoF and HBP \u2014 is never established in the film, reducing their interaction to generic post-rescue gratitude",
+    "Gabrielle's miniature Veela charm and distinct personality (following Fleur, assisting, jabbering in French, batting eyelashes) is collapsed into a single wordless physical gesture, leaving her as a plot device rather than a character"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film GoF - Post-lake rescue: Gabrielle kisses Harry",
-      "book_baseline": "In the book, Fleur hugs Gabrielle in relief, then thanks Harry verbally. Gabrielle waves at Harry and he waves back grinning - a sweet, childlike interaction. No kiss occurs.",
-      "film_portrayal": "Gabrielle kisses Harry on the cheek unprompted before Fleur thanks him. The moment is played for light comedy/charm.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 1 \u2014 post-second-task rescue, Gabrielle kisses Harry on the face",
+      "book_baseline": "Book Scene 10: Gabrielle waves at Harry and he waves back, grinning \u2014 a sweet, brief, childlike acknowledgment. Book Scene 18: Gabrielle throws Harry 'a glowing look, batting her eyelashes' \u2014 flirtatious but age-appropriate hero-worship from an eleven-year-old. The book consistently frames her as a small child with an innocent crush.",
+      "film_portrayal": "Gabrielle kisses Harry on each cheek immediately after being rescued, mirroring the adult Fleur's gesture. The film reduces her reaction to a single physical beat with no personality, voice, or character \u2014 she is purely a plot object who receives rescue and delivers a kiss.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Gabrielle in the book is an 8-year-old who waves shyly. The kiss slightly ages and romanticizes her in a way inconsistent with the book's portrayal, though it is brief and minor."
+      "explanation": "Gabrielle in the books has a distinct miniature personality \u2014 charming, admiring, lively. The film gives her no lines and no characterization beyond a grateful kiss, collapsing her into a prop. The damage is minor given her small role, but the one moment she is on screen she contributes nothing of her book personality."
     },
     {
-      "scene": "Film GoF - Gabrielle's absence from the Weasley wedding and pre-wedding scenes",
-      "book_baseline": "In HBP and DH, Gabrielle is a present, active character at the Burrow: she follows Fleur around helping with preparations, jabbers in French, is named as a bridesmaid alongside Ginny, wears a golden dress at the wedding, and flirtatiously bats her eyelashes at Harry. She is a small but distinct presence with personality.",
-      "film_portrayal": "Gabrielle does not appear in the HBP or DH films in any capacity. The wedding scenes omit her entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
+      "scene": "Film Scene 1 \u2014 Gabrielle has no spoken lines or individualized reaction after rescue",
+      "book_baseline": "Book Scene 18 and 20 establish Gabrielle as talkative, eager, full of energy: she 'jabbered away in rapid French,' followed Fleur trying to assist, batted her eyelashes at Harry. Book Scene 12 establishes she 'never stops talking about Harry Potter.' She is lively and expressive.",
+      "film_portrayal": "After being rescued, Gabrielle wipes her face and kisses Harry \u2014 she has no dialogue and no individualized emotional reaction. Her entire screen presence in GoF is wordless and passive.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Her role as bridesmaid and her continued admiration of Harry (and Ginny's jealous throat-clearing) is a small but characterful thread. Its absence removes a recurring minor character beat and the payoff of her GoF rescue having lasting meaning within the Delacour family dynamic."
+      "explanation": "The book establishes Gabrielle as an energetic, chatty, hero-worshipping child with a distinct presence. The film renders her entirely silent and reactive, stripping the personality trait that defines her in the source material. Because her role is small, the impact is contained, but what little screen time she has fails to convey who she is."
     },
     {
-      "scene": "Film DH - Fleur's line 'You saved her, even though she wasn't yours to save' moved to GoF post-lake scene",
-      "book_baseline": "In the book this line is spoken by Fleur, not Gabrielle, and Gabrielle is present as a distinct character. The moment is about Fleur's gratitude, not Gabrielle's agency.",
-      "film_portrayal": "The film collapses Gabrielle's entire characterization into a single wordless cameo (the cheek kiss) and a brief appearance. She has no lines, no personality, and no presence beyond being the rescued object.",
-      "damage_type": "agency/function",
-      "exposure": 1,
+      "scene": "Film Scene 1 \u2014 Gabrielle's relationship with Harry conveyed only through the kiss, not through her established hero-worship dynamic",
+      "book_baseline": "Book Scenes 10, 12, and 18 build a running thread: Gabrielle waves and grins at Harry, Fleur reports she 'never stops talking about Harry Potter,' and at the Burrow she gives Harry a 'glowing look, batting her eyelashes.' This is a defined, recurring relationship beat \u2014 admiring devotion that Harry finds mildly flattering and slightly awkward.",
+      "film_portrayal": "The film has no material establishing Gabrielle's admiration for Harry prior to or after the rescue. The kiss is the entirety of their relationship on screen, and it reads as generic gratitude rather than the specific hero-worship dynamic the books build.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "Gabrielle in the books is not merely a passive hostage - she waves at Harry, hero-worships him, assists at the Burrow, and is a bridesmaid. The film reduces her entirely to a prop rescued from the lake, stripping all characterization."
+      "explanation": "The book's Gabrielle\u2013Harry relationship is a small but charming recurring note across two books. The film reduces it to one silent gesture, losing the texture of the dynamic entirely. The HBP book corpus moment where Fleur says Gabrielle 'never stops talking about Harry' lands with warmth because of prior establishment; the film equivalent would carry no weight."
     }
   ],
   "confidence": {
@@ -47,8 +47,7 @@
     "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 121.5,
-  "adjusted_cids_v1": 133.7
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

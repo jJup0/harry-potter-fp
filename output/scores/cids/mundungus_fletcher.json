@@ -1,71 +1,80 @@
 {
   "character": "Mundungus Fletcher",
   "fp_score": 70.0,
-  "infidelity_score": 30,
-  "weighted_infidelity_exposure": 12,
-  "cids": 138.8,
-  "damage_per_exposure": 27.8,
+  "infidelity_score": 30.0,
+  "weighted_infidelity_exposure": 11.5,
+  "cids": 136.6,
+  "damage_per_exposure": 27.3,
   "structural_damage_level": 2,
-  "adjusted_cids": 138.8,
+  "adjusted_cids": 136.6,
   "main_damage_causes": [
-    "Near-total absence from OotP and HBP films strips Mundungus of the accumulated history that gives his DH appearances meaning, particularly the Dementor-attack abandonment, the Hogsmeade confrontation, and the Snape-Confundus revelation",
-    "The false introduction in DH Part 1 actively contradicts the established antagonistic relationship between Harry and Mundungus, flattening a loaded dynamic into a blank slate",
-    "The interrogation scene in Grimmauld Place is redistributed and lightened, removing Harry's direct agency and the emotional weight of confronting someone who betrayed both him and Sirius's memory"
+    "Erasure of prior relationship history between Mundungus and Harry, collapsing accumulated grievance and guilt into a comic first-meeting, which strips his eventual confrontation scenes of personal weight",
+    "Consistent comedic deflation of Mundungus's cowardice \u2014 pre-announcing it as a joke and surrounding his capture with Dobby comedy \u2014 prevents the audience from taking his moral failures (especially his abandonment leading to Mad-Eye's death) seriously as character statements",
+    "Omission of the Confundus/Snape revelation from the film corpus, which removes the only moment that gives Mundungus hidden structural significance and recontextualises his role as an unwitting instrument of Dumbledore's plan"
   ],
   "damaging_scenes": [
     {
-      "scene": "DH Part 1 - Seven Potters briefing (Film Scene 2)",
-      "book_baseline": "Mundungus is already known to Harry and the Order; he is a reluctant, cowardly participant who grimaces through the Polyjuice and is paired with Moody specifically because he needs watching. No introduction is needed.",
-      "film_portrayal": "Mundungus introduces himself to Harry with a handshake and 'I've always been a huge admirer,' as if they have never met. This erases their established history from OotP and HBP.",
-      "damage_type": "relationship",
+      "scene": "Film Scene 2 (Seven Potters briefing) \u2014 Mundungus's self-introduction",
+      "book_baseline": "In the book corpus, Mundungus is already known to Harry before the Seven Potters mission (Book Scene 30-34: Harry has met him at Grimmauld Place, been apologised to by him, watched him smoke his pipe and eye the silver). He is a long-standing Order member with a prior relationship with Harry.",
+      "film_portrayal": "Mundungus introduces himself to Harry as if they have never met: 'Mundungus Fletcher, Mr. Potter. I've always been a huge admirer.' This plays as a comedic first-meeting moment.",
+      "damage_type": "relationship | personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "By the time of DH, Harry and Mundungus have a fraught, loaded history: Harry tried to strangle him in Hogsmeade, Mundungus stole from Grimmauld Place, and Harry reported him to Dumbledore. The film's fresh-introduction framing erases all of that tension and makes Mundungus a stranger rather than a known quantity with a complicated past."
+      "explanation": "The book establishes a prior relationship with history, guilt, and uncomfortable familiarity between Mundungus and Harry. The film resets this to a comic cold introduction, erasing the accumulated tension (Mundungus abandoning Harry to Dementors, apologising at Grimmauld Place, Harry's simmering resentment) and turning him into a throwaway gag character rather than someone Harry has genuine grievances with."
     },
     {
-      "scene": "DH Part 1 - After the Seven Potters escape (Film Scene 3)",
-      "book_baseline": "The book carefully distinguishes between Mundungus panicking and Disapparating (cowardice, not betrayal) and the separate question of how the Death Eaters knew the date. Bill explicitly argues Mundungus cannot have betrayed them because the decoy plan was Mundungus's own idea. The moral complexity is preserved.",
-      "film_portrayal": "Bill's line is simply 'Mundungus took one look at Voldemort and Disapparated,' delivered flatly as a damning verdict. The exculpatory reasoning from the book - that Mundungus suggested the decoys and therefore could not have betrayed the essential plan - is entirely absent.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 2 (Seven Potters briefing) \u2014 'Technically, I've been coerced'",
+      "book_baseline": "Book Scene 149 establishes Mundungus's reluctance ('I'm a soldier, I'd sooner be a protector') and Book Scene 201 shows his post-flight justification ('I never wanted to come along, no offense, mate, but I never volunteered to die for you'). His cowardice is real and consequential but expressed through action, not upfront comic declaration.",
+      "film_portrayal": "Mundungus announces his cowardice as a punchline before the mission even begins: 'Technically, I've been coerced.' This is played purely for laughs.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's Mundungus is a coward but not a traitor, and the text goes out of its way to make that distinction. The film collapses him into simple condemnation, losing the moral nuance that he was Confunded by Snape into suggesting the very plan that saved Harry, and that his panic was human rather than treacherous."
+      "explanation": "In the books, Mundungus's cowardice is a damaging character flaw that costs Mad-Eye his life and carries moral weight. Pre-announcing it as a joke defuses that weight entirely. The audience is invited to laugh at his cowardice rather than later feel the consequences of it, which diminishes the impact of his abandonment during the flight and Mad-Eye's death."
     },
     {
-      "scene": "DH Part 1 - Mundungus's cowardice framing (Film Scene 2, pairing assignment)",
-      "book_baseline": "In the book Mundungus says 'I'm a soldier, I'd sooner be a protector,' and Moody calls him a 'spineless worm' but the exchange still gives Mundungus a line of self-justification. His reluctance is established through prior scenes across OotP and HBP.",
-      "film_portrayal": "Mundungus's only characterization before the flight is 'Technically, I've been coerced' - a single quip played for a mild laugh. His cowardice has no prior context in the films, so it reads as a throwaway joke rather than a consistent character trait.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 3 (aftermath at Weasley house) \u2014 Bill's report on Mundungus's abandonment",
+      "book_baseline": "Book Scenes 169-175 show the Order carefully working through what happened, with Bill arguing Mundungus probably panicked rather than betrayed them, and Ron concluding 'I've learned is not to trust that cowardly little squit, Mundungus.' Mundungus's Disapparation is treated as a serious moral failure and a cause of grief over Mad-Eye.",
+      "film_portrayal": "Bill delivers the line 'Mundungus took one look at Voldemort and Disapparated' flatly, as a bare factual report. There is no further discussion of Mundungus, no moral reckoning, no defence of him, no anger directed at him specifically. The scene moves immediately to the question of the leak.",
+      "damage_type": "nuance/lost material | arc",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor damage: the line is tonally consistent with book-Mundungus, but without the accumulated prior characterization it lands as a one-note gag rather than the payoff of an established pattern."
+      "impact_weight": 2,
+      "explanation": "The book uses this moment to crystallise Mundungus's defining flaw \u2014 his cowardice \u2014 and attach it to real consequence (Mad-Eye's death). The film's flat delivery strips this of moral weight. Mundungus is neither defended nor condemned; he simply disappears from the conversation. This prevents the audience from understanding his abandonment as a character statement rather than a plot convenience."
     },
     {
-      "scene": "DH Part 1 - Kreacher retrieves Mundungus (Film Scene 6)",
-      "book_baseline": "Harry interrogates Mundungus at wand-point with real menace, referencing their Hogsmeade confrontation ('We already knew you were an unreliable bit of scum'). Kreacher beats Mundungus with a saucepan. The scene has weight because of accumulated grievances. Harry's controlled fury is a character moment.",
-      "film_portrayal": "The interrogation is compressed and defanged. Dobby is added as comic relief. Ron handles Mundungus physically rather than Harry. The wand-to-the-nose intimidation and Harry's cold fury ('unreliable bit of scum') are absent. The scene plays lighter.",
+      "scene": "Film Scene 6 (Grimmauld Place kitchen interrogation) \u2014 Dobby's addition and tonal shift",
+      "book_baseline": "Book Scenes 192-229 depict a tense, focused interrogation: Harry pins Mundungus with his wand, Kreacher attacks him with a saucepan, and Harry systematically extracts information about the locket. The scene is charged with Harry's fury at Mundungus for stealing Sirius's things. Kreacher alone retrieves Mundungus (Book Scene 192).",
+      "film_portrayal": "Dobby is added as a second captor, and his cheerful self-explanation ('Dobby saw Kreacher in Diagon Alley, which Dobby thought was curious... very, very --') deflates the tension into comedy. Mundungus's capture becomes a comic double-act rather than a moment of Harry's righteous fury.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book interrogation scene is one of Mundungus's most significant appearances \u2014 it is where Harry finally confronts him with real anger, where his moral shabbiness is laid bare, and where the crucial locket intelligence is extracted under duress. The film's injection of Dobby's comedy routine repositions the scene as light entertainment, softening what the book frames as a confrontation with a genuinely contemptible figure. Mundungus's shabbiness is played for laughs rather than as a character indictment."
+    },
+    {
+      "scene": "Film Scene 6 (Grimmauld Place kitchen interrogation) \u2014 Mundungus not physically confronted by Harry",
+      "book_baseline": "Book Scenes 197-213: Harry drops to his knees beside Mundungus, points his wand deliberately at his nose, and drives the interrogation with intensity and personal anger. Kreacher attacks Mundungus with a saucepan. Harry explicitly tells Kreacher 'if he needs persuading, you can do the honours.' The scene is one of Harry's most assertive moments against someone he despises.",
+      "film_portrayal": "The film's interrogation is abbreviated and less physically confrontational. Harry asks about the locket without the same sustained wand-to-nose intensity or the saucepan assault. The scene moves quickly to Mundungus identifying Umbridge via the newspaper photo.",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Harry's direct, furious confrontation with Mundungus is a rare moment where Harry exercises agency and moral authority over someone who wronged him and Sirius. Distributing the physical action to Ron and adding Dobby for laughs dilutes Harry's agency and removes the emotional payoff of their antagonistic history. The Kreacher-saucepan moment, which is both funny and shows Kreacher's loyalty, is also lost."
+      "explanation": "Harry's agency in the book scene \u2014 personally dominating and extracting information from someone who wronged him and Sirius \u2014 is a meaningful character beat showing Harry's determination and righteous anger. The film reduces this to a functional information exchange, losing the personal dimension of Harry confronting the man who plundered his godfather's belongings."
     },
     {
-      "scene": "DH Part 1 - Mundungus's absence from OotP and HBP films (structural omission)",
-      "book_baseline": "Mundungus appears across OotP and HBP: abandoning his post and triggering the Dementor attack on Harry, attending Order meetings, selling stolen goods from Grimmauld Place in Hogsmeade (where Harry assaults him), being arrested for impersonating an Inferius, and being Confunded by Snape to suggest the decoy plan. This history makes him a recurring minor figure whose flaws have real consequences.",
-      "film_portrayal": "Mundungus has no presence in the OotP or HBP films. He appears for the first time in DH Part 1 as a near-stranger.",
-      "damage_type": "arc",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The absence of his prior film appearances means the audience has no investment in or understanding of Mundungus when he matters in DH. His cowardice during the Seven Potters flight, his theft of Sirius's possessions, and his role as the unwitting link to Umbridge and the locket all land with less weight because the character has no established history. The Snape-Confunds-Mundungus revelation (which reframes his entire role in the saga) is also cut entirely, removing a significant piece of Snape's redemption arc."
-    },
-    {
-      "scene": "DH Part 2 - Aberforth scene (Film Scene 7)",
-      "book_baseline": "Mundungus is not present; Aberforth mentions him only as the source of the mirror shard. This is consistent with the book.",
-      "film_portrayal": "Same as book - Mundungus mentioned as the source of the mirror shard sold to Aberforth.",
+      "scene": "Film Scene 5 (Diagon Alley montage) \u2014 Mundungus depicted with 'cruel smile'",
+      "book_baseline": "The book corpus does not characterise Mundungus as cruel \u2014 he is greedy, cowardly, and morally flexible, but his villainy is petty and self-serving rather than malicious. Book Scene 52 even shows him capable of self-aware humour ('Will nicked 'em orf Warty Harris in the first place so I wasn't really doing nothing wrong').",
+      "film_portrayal": "Film Scene 5's stage direction describes Mundungus concluding a transaction 'with a cruel smile,' framing him as predatory and sinister rather than a bumbling opportunist.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Faithful to the book. Minor note only: the film's mention reinforces Mundungus as a petty thief, which is consistent. No damage here beyond what was already caused by the absence of prior context."
+      "explanation": "While this is a minor visual beat, characterising Mundungus as cruel rather than cowardly and self-interested misrepresents the book's version of him. His function in the narrative depends on him being a morally compromised but essentially small-time figure \u2014 not a villain with malicious intent. The 'cruel smile' nudges him toward a different register."
+    },
+    {
+      "scene": "Film Scene 7 (Aberforth scene, Deathly Hallows Part 2) \u2014 Mundungus mentioned as seller of the mirror shard",
+      "book_baseline": "The book corpus (Scenes 230-233) reveals the most significant dimension of Mundungus's arc: he was Confunded by Snape on Dumbledore's instructions to suggest the decoy-Harrys plan, meaning his role in the Seven Potters mission was orchestrated as part of Dumbledore's larger design. This gives Mundungus a covert structural importance entirely absent from his bumbling surface persona.",
+      "film_portrayal": "Mundungus is mentioned only as the seller of the mirror shard to Aberforth ('Mundungus Fletcher, 'bout a year ago'). The Confundus/Snape dimension of his character is not present in the film corpus at all.",
+      "damage_type": "arc | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's revelation that Mundungus was unknowingly manipulated by Snape/Dumbledore retroactively recontextualises his entire role: the decoy plan that defined the Seven Potters mission was seeded through him. This adds a layer of tragic complexity \u2014 the bumbling coward was a tool of the grand design. The film reduces him purely to a petty thief and coward with no hidden structural significance, losing one of the more quietly affecting pieces of Dumbledore's chess game."
     }
   ],
   "confidence": {
@@ -74,8 +83,7 @@
     "impact_assessment": "High"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 360,
-  "adjusted_cids_v1": 396
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

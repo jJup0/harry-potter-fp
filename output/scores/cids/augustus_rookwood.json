@@ -1,0 +1,35 @@
+{
+  "character": "Augustus Rookwood",
+  "fp_score": 51.0,
+  "infidelity_score": 49.0,
+  "weighted_infidelity_exposure": 0.5,
+  "cids": 32.2,
+  "damage_per_exposure": 64.5,
+  "structural_damage_level": 1,
+  "adjusted_cids": 32.2,
+  "main_damage_causes": [
+    "Rookwood's characterization as a methodical network-builder is lost; the film reduces him to a single expository name-drop without depicting the scope of his espionage operation.",
+    "No visual or dramatic presence is afforded to Rookwood in the trial scene, meaning audiences have no basis to understand him as a character rather than a plot placeholder.",
+    "The limited corpus on both sides means most of the character's potential damage is unverifiable \u2014 the corpus itself is too sparse to surface deeper divergences with confidence."
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film \u2013 Karkaroff's trial in the Pensieve: Rookwood named but given no presence or characterization",
+      "book_baseline": "Book corpus establishes Rookwood as 'Augustus Rookwood of the Department of Mysteries' who 'used a network of well-placed wizards, both inside the Ministry and out, to collect information' for Voldemort \u2014 framing him as an active, methodical spy with real institutional reach.",
+      "film_portrayal": "In the Pensieve trial scene, Rookwood is mentioned by name ('There was Rookwood! He was a spy... He passed information to You-Know-Who from inside the Ministry itself.') but appears only as a name dropped in dialogue. The film reduces the characterization to a single line without any visual presence, no depiction of his network, and no elaboration on the sophistication of his espionage operation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Rookwood is a minor character in the corpus and his role is inherently expository at this stage. The film does name him and attributes his core function (Ministry spy for Voldemort), so the essential plot beat survives. However, the book's additional detail \u2014 that he ran a network of well-placed wizards both inside and outside the Ministry \u2014 is omitted, flattening him from a sophisticated intelligence operative into a simple informant. Given how limited Rookwood's presence is in both corpora, the damage is minor and isolated."
+    }
+  ],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Low"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}

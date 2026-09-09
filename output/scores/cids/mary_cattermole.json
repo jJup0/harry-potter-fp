@@ -4,60 +4,68 @@
   "infidelity_score": 23.0,
   "weighted_infidelity_exposure": 8.0,
   "cids": 91.1,
-  "damage_per_exposure": 26.0,
+  "damage_per_exposure": 22.8,
   "structural_damage_level": 2,
   "adjusted_cids": 91.1,
   "main_damage_causes": [
-    "Harry's personal agency in the rescue (freeing Mary, instructing her to flee) is redistributed to Hermione and Ron, diluting his moral centrality in the sequence",
-    "Mary's isolation and terror - which make Harry's intervention meaningful - are softened by Ron's comforting presence throughout the hearing",
-    "The collective dimension of the Muggle-born rescue is collapsed into a personal escape, removing Harry's ideological confrontation with the blood-purity regime"
+    "Mary's defining characterisation as a woman in extreme, sustained terror is partially undermined by the film's insertion of comedic beats (celebrity excitement, romantic kiss) that are tonally incongruous with her book portrayal.",
+    "Harry's instinct-driven moral agency in personally freeing Mary and instructing her to flee is transferred to Hermione and diluted, removing a character-defining action from the rescue sequence.",
+    "Mary's small but present book agency \u2014 actively advocating for her family's escape \u2014 is replaced by passive compliance, reducing her from a frightened but self-aware person to a purely reactive supporting figure."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 - Ron places hands on Mary's shoulders and she looks to him for reassurance",
-      "book_baseline": "In the book, Harry slips in alone behind Mary; Ron (as Reg) is not present in the courtroom providing physical comfort. Mary is isolated, terrified, sobbing, with no one to lean on until Harry acts.",
-      "film_portrayal": "Ron-as-Reg stands behind Mary, places hands on her shoulders, and she looks up to him for reassurance and smiles back at him during the hearing.",
-      "damage_type": "relationship",
+      "scene": "Film Scene 1 - Courtroom: Ron places hands on Mary's shoulders and she looks to him for reassurance",
+      "book_baseline": "In the book, Harry slips into the courtroom alone and instinctively, without a plan, because he 'hated the sight of her walking alone into the dungeon.' Ron (as Reg) is not described as providing physical comfort or a reassuring presence to Mary during the hearing itself. Mary's terror is largely unmediated by Reg's presence in any comforting way during the interrogation.",
+      "film_portrayal": "Ron (as Reg) stands directly behind Mary, places his hands gently on her shoulders, and smiles reassuringly at her as the questioning begins. Mary looks up to him for support throughout.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film softens Mary's isolation and vulnerability by giving her a comforting presence throughout the hearing. The book's point is that she is utterly alone and at the mercy of the tribunal until Harry intervenes - the comfort undercuts the horror of her situation."
+      "impact_weight": 1,
+      "explanation": "The film softens Mary's isolation and terror by giving her an immediate comfort figure. In the book, the dread of her situation is intensified by the fact that she is alone and unprotected. The change is minor but slightly reduces the raw vulnerability the book establishes."
     },
     {
-      "scene": "Film Scene 1 - Hermione casts Relashio to free Mary's chains",
-      "book_baseline": "In the book, Harry is the one who frees Mary - he runs down the steps, tries Diffindo, asks Hermione for help, then casts Relashio himself. It is Harry's act of agency and moral impulse.",
-      "film_portrayal": "Hermione leaps down and casts Relashio to free Mary's chains.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Harry's instinctive, personally driven act of freeing Mary - which the book frames as a moral choice he makes without a plan - is transferred to Hermione, reducing Harry's direct agency in the rescue."
-    },
-    {
-      "scene": "Film Scene 1 - Harry's instruction to Mary to flee is absent; Ron gives the warning in the Atrium instead",
-      "book_baseline": "Harry personally pulls Mary to her feet and delivers a direct, urgent speech: 'You're going to leave here with us. Go home, grab your children, and get out, get out of the country if you've got to. Disguise yourselves and run. You've seen how it is, you won't get anything like a fair hearing here.' This is a key moment of Harry's moral voice.",
-      "film_portrayal": "Harry says nothing of substance to Mary in the courtroom. The instruction to flee is given by Ron-as-Reg in the Atrium, framed as a husband-to-wife directive.",
+      "scene": "Film Scene 1 - Courtroom: Hermione frees Mary with Relashio; Mary stands and reacts to Harry's transformation",
+      "book_baseline": "In the book, Harry personally frees Mary from her chains (attempts Diffindo, then uses Relashio), pulls her to her feet, and delivers the urgent instruction: 'You're going to leave here with us... Go home, grab your children, and get out, get out of the country if you've got to. Disguise yourselves and run.' This is Harry's direct, morally driven act of agency on Mary's behalf.",
+      "film_portrayal": "Hermione casts Relashio to free Mary. Harry does not free her himself nor deliver the escape instruction to her directly in the courtroom. Mary's first reaction upon standing is to excitedly identify Harry Potter ('You? It's you! Reg, it's Harry Potter!'), and Ron quips ''Tis, isn't it? This'll be one to tell the kids.'",
       "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Harry's speech is one of his clearest expressions of moral outrage and protective instinct in the sequence. Moving it to Ron and recasting it as a domestic instruction strips Harry of a defining moment and changes the emotional register from righteous defiance to domestic urgency."
+      "explanation": "The transfer of the freeing action from Harry to Hermione removes a key beat of Harry's instinct-driven moral agency. In the book, Harry's personal act of freeing Mary and his urgent, compassionate instructions to her are what define this moment as a character beat for him. The film replaces this with a comedic exchange about Harry's celebrity, which also trivialises Mary's terrifying ordeal by turning her reaction into fan recognition rather than stunned relief."
     },
     {
-      "scene": "Film Scene 2 - Mary kisses Ron-as-Reg and the real Reg appears without the crowd of other Muggle-borns",
-      "book_baseline": "The book has Harry address a crowd of Muggle-borns, declaring their blood 'purer than many of yours' and sending them all to safety via the fireplaces. Mary's reunion confusion with two Regs is one beat in a larger rescue of many people.",
-      "film_portrayal": "The Atrium scene focuses almost entirely on Mary kissing Ron, the real Reg appearing, and the trio escaping. The broader rescue of multiple Muggle-borns is absent.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 1 - Courtroom: Mary exclaims 'Reg, it's Harry Potter!' and Ron quips 'This'll be one to tell the kids'",
+      "book_baseline": "In the book, after being freed, Mary is bewildered and frightened, saying 'I don't understand' and 'You're going to leave here with us' \u2014 the tone is urgent and grave. There is no levity; Harry's instruction to flee is serious and compassionate.",
+      "film_portrayal": "Mary's first response to being freed is celebrity excitement ('Reg, it's Harry Potter!'), and Ron responds with a comic quip about telling the kids. The scene is played for a laugh.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Mary's established characterisation in the book is of a woman in extreme, trembling terror \u2014 sobbing throughout, bloodless with fear, worried about her children. Having her immediately pivot to starstruck excitement undercuts the psychological reality of her ordeal and reduces her to a comedic supporting beat rather than a genuinely victimised person whose peril the audience should feel."
+    },
+    {
+      "scene": "Film Scene 2 - Atrium: Mary kisses Ron (as Reg) deeply; Ron transforms back into himself mid-kiss",
+      "book_baseline": "In the book, Mrs. Cattermole throws herself into Ron's arms and rapidly explains what happened ('Runcorn let me out, he attacked Umbridge and Yaxley, and he's told all of us to leave the country'). She is still in crisis mode, urgent and frightened. The real Reg then appears, causing confusion. There is no romantic kiss scene.",
+      "film_portrayal": "Mary, after being told to go home, takes Ron by the collar and pulls him into a deep kiss. Ron transforms back into himself during the kiss. It is played as a comedic romantic moment. Harry and Hermione watch.",
+      "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film reduces the Ministry rescue from a collective act of defiance - Harry saving a group of persecuted people - to a personal escape story. Mary's role as representative of a wider injustice is lost, and Harry's 'purer blood' speech, which directly confronts the regime's ideology, disappears entirely."
+      "explanation": "The kiss plays Mary's desperate situation for romantic comedy. In the book she is still in survival mode \u2014 urgent, scared, disoriented. The film transforms her into a source of comic relief at the expense of the emotional truth of her character. Her defining trait in the book is maternal terror and vulnerability; the film gives her a slapstick romantic beat that is tonally at odds with everything established about her."
+    },
+    {
+      "scene": "Film Scene 2 - Atrium: Ron tells Mary to go home and get the kids; Mary is given no lines about her children or husband's whereabouts",
+      "book_baseline": "In the book, Mrs. Cattermole immediately and urgently communicates her own understanding of the situation to Reg: she repeats what Runcorn told them and herself advocates for leaving the country ('I think we'd better do it, Reg, I really do'). She is an active participant in the escape decision, not a passive recipient of instructions.",
+      "film_portrayal": "Ron instructs Mary to go home and get the kids and leave the country. Mary shakes her head confused, then nods dutifully after he repeats himself more firmly. She is entirely passive and obedient.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book gives Mary a small but meaningful moment of her own agency \u2014 she has processed what happened and is herself pushing for the family to flee. The film removes this, making her a passive figure who must be told what to do and simply complies, reinforcing a diminished portrayal of her as a victim without interiority."
     }
   ],
   "confidence": {
     "global": "High",
-    "exposure_estimate": "High",
-    "impact_assessment": "High"
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 184.0,
-  "adjusted_cids_v1": 202.4
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

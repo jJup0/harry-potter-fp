@@ -2,116 +2,142 @@
   "character": "Oliver Wood",
   "fp_score": 74.0,
   "infidelity_score": 26.0,
-  "weighted_infidelity_exposure": 28.5,
-  "cids": 174.6,
-  "damage_per_exposure": 12.9,
-  "structural_damage_level": 3,
-  "adjusted_cids": 174.6,
+  "weighted_infidelity_exposure": 30.0,
+  "cids": 161.0,
+  "damage_per_exposure": 11.9,
+  "structural_damage_level": 2,
+  "adjusted_cids": 161.0,
   "main_damage_causes": [
-    "The complete absence of Wood's defining comic arc in PoA \u2014 the dawn training session, the Firebolt/McGonagall disaster, and above all the Quidditch Cup win with his tearful breakdown \u2014 removes the emotional payoff of his three-book character journey",
-    "Systematic compression of Wood's personality in PS/CoS films: his manic pre-match intensity, competitive fury at Flint, and obsessive tactical preparation are replaced by brief functional appearances, leaving him a named face rather than a vivid character",
-    "The invented 'Bludger to the head' anecdote and Wood being knocked out mid-match in PS replace book-accurate characterisation with softer, more generic beats that misrepresent his voice and competence"
+    "Compression of Wood's most characterising scenes \u2014 particularly the first-year training session, early-morning PoA practice, and the pre-match speeches \u2014 strips away the sustained comic portrait of obsessive dedication that defines him across the books, leaving only functional plot presence",
+    "Loss of the Wood-Harry mentorship arc: the book builds a genuine warm relationship through extended one-on-one scenes (pitch training, dawn wake-up, conversations about the Firebolt and dementors) that the films largely omit, reducing Wood to a background team captain rather than a meaningful presence in Harry's Hogwarts life",
+    "Absence or severe compression of Wood's emotional climax \u2014 the Quidditch Cup win and his sobbing on Harry's shoulder in PoA \u2014 removes the payoff of his three-book arc and deprives the adaptation of one of its most earned emotional moments for a secondary character"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 4 / Film Scene 5 \u2014 Seeker recruitment and Quidditch rules explanation",
-      "book_baseline": "Wood reacts with pure delight and manic enthusiasm when told Harry is a Seeker. He walks around Harry assessing his build, immediately talks brooms and strategy, and his obsessive passion for Quidditch is fully on display. The rules explanation scene is a detailed, characterful exchange showing Wood's expertise, his slight obliviousness to Muggle references, and his genuine investment in Harry as a player.",
-      "film_portrayal": "The recruitment scene is compressed to a single line ('Potter, this is Oliver Wood. Wood \u2014 I have found you a Seeker!'). Wood has no spoken reaction of delight, no assessment of Harry's build, no broom discussion. The rules explanation is reduced to a brief functional summary with almost no personality or back-and-forth.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Wood's defining trait \u2014 obsessive, almost unhinged enthusiasm for Quidditch \u2014 is established in these scenes in the books. The film strips the characterisation to a functional cameo, leaving him a named face rather than a personality."
-    },
-    {
-      "scene": "Film Scene 8 \u2014 Pre-match locker room speech (PS film, Gryffindor vs Slytherin)",
-      "book_baseline": "Wood gives a speech the Weasley twins know by heart, glares at the team with implicit threat, and delivers 'We're going to win. I know it.' with fierce conviction. The scene establishes his intensity and the team's affectionate exasperation with him.",
-      "film_portrayal": "The locker room exchange is replaced by a brief exchange outside ('Scared, Harry?' / 'A little.' / Wood's anecdote about taking a Bludger to the head two minutes into his first game). This is a new, invented beat that softens Wood into a reassuring figure rather than a driven, slightly terrifying captain.",
+      "scene": "Film Scene 4 / Film Scene 5 \u2014 Oliver Wood's introduction and Quidditch rules explanation",
+      "book_baseline": "Book establishes Wood's introduction as a private, charged moment: McGonagall pulls Wood from Flitwick's class, Wood's expression shifts from puzzlement to 'delight' when told Harry is a Seeker, he walks around Harry assessing him physically, and immediately begins strategic thinking about brooms and bending first-year rules. Wood is presented as enthusiastic, knowledgeable, and intensely invested from the first moment.",
+      "film_portrayal": "The film condenses Wood's introduction to a single brief exchange \u2014 McGonagall says 'Potter, this is Oliver Wood. Wood, I have found you a Seeker!' and the scene cuts away almost immediately. Wood has no spoken lines of delight, no walking around Harry, no strategic broom discussion, no personality established beyond a momentary appearance.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The invented anecdote replaces Wood's manic competitive drive with gentle reassurance, fundamentally misrepresenting his character. The book's Wood would never open with self-deprecating vulnerability before a match \u2014 he would be glaring and punching his fist."
+      "explanation": "The book's introduction scene is the primary vehicle for establishing Wood's obsessive, strategically minded, warmly enthusiastic personality. The film strips this to a name exchange, leaving Wood as a placeholder rather than a character with defined traits at the point of introduction."
     },
     {
-      "scene": "Film Scene 8 \u2014 Quidditch match action (PS film): Wood knocked out by Bludger",
-      "book_baseline": "Wood is an active, competent Keeper throughout the match. He makes saves, is part of the tactical game plan, and is never incapacitated.",
-      "film_portrayal": "A Slytherin player grabs a Beater's bat and hits a Bludger directly into Wood's stomach, knocking him out and sending him plummeting. He is incapacitated mid-match.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 5 \u2014 Quidditch rules training session on the pitch",
+      "book_baseline": "Book Scene 29-49 establishes an extended, characterful training session where Wood explains all rules with clear pedagogical patience, tests Harry with golf balls for half an hour, and closes with genuine warmth: 'That Quidditch cup'll have our name on it this year... I wouldn't be surprised if you turn out better than Charlie Weasley.' Wood is shown as a dedicated mentor who genuinely bonds with Harry in this scene.",
+      "film_portrayal": "The film compresses the rules explanation to a few quick lines \u2014 Wood names the Quaffle and its function, demonstrates a Bludger briefly, then moves directly to the Golden Snitch. The extended golf-ball practice, the half-hour session, the closing warmth about the Quidditch Cup, and the mentor-pupil bonding are all absent.",
+      "damage_type": "relationship",
       "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This invented moment undermines Wood's competence as Keeper and captain. It exists for spectacle but damages the portrayal of him as the skilled, reliable backbone of the Gryffindor team."
-    },
-    {
-      "scene": "Film Scene 9 (CoS film) \u2014 Courtyard confrontation with Slytherin / Malfoy 'Mudblood' scene",
-      "book_baseline": "Wood is furious and confrontational with Flint over the pitch booking, 'positively spitting with rage', landing hard in his anger. He is restrained only by the need to keep things clean for Snape's refereeing. His protectiveness of the team and competitive fury are vivid.",
-      "film_portrayal": "Wood appears briefly, reads Snape's note, asks 'You've got a new Seeker? Who?' and then says 'Save it for the match' to hold back Fred and George after the 'Mudblood' slur. He is calm and managerial rather than incandescent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Wood is barely containable in this scene \u2014 his rage at Flint is one of his most vivid moments. The film reduces him to a composed authority figure, losing the comic intensity that defines him."
-    },
-    {
-      "scene": "Film Scene 9 (CoS film) \u2014 Pre-Hufflepuff match / match cancellation",
-      "book_baseline": "Wood's pre-match pep talk fails him entirely \u2014 he tries to speak, makes odd gulping noises, and shakes his head hopelessly, beckoning the team to follow. When the match is cancelled he runs toward McGonagall still on his broomstick, devastated, shouting about the cup. His emotional investment is at its peak.",
-      "film_portrayal": "Wood shouts 'Cancelled! They can't cancel Quidditch\u2014' and is cut off by McGonagall. The moment is present but brief, with no build-up of the failed pep talk or the full weight of his devastation.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The failed pep talk is a small but telling character beat \u2014 Wood so overwhelmed he literally cannot speak \u2014 that is entirely absent. The cancellation reaction is present but compressed."
-    },
-    {
-      "scene": "Film Scene 40 / Film Scene 41 \u2014 Battle of Hogwarts: Wood carries Colin Creevey / sits with Aberforth",
-      "book_baseline": "Wood appears in the Room of Requirement among returning allies, and later carries Colin Creevey's body into the Great Hall in a fireman's lift, telling Neville he can manage alone. It is a brief but dignified, purposeful moment.",
-      "film_portrayal": "The film shows Wood carrying a boy identified as 'Nigel' (a film-only character) rather than Colin Creevey, and later shows Wood sitting with Aberforth in the Great Hall aftermath. The Colin Creevey moment is reassigned.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor reassignment \u2014 the body Wood carries is a film-original character rather than Colin, slightly diluting the poignancy of the moment, though Wood's presence and function are otherwise preserved."
-    },
-    {
-      "scene": "Film (PoA) \u2014 Wood's absence from the Firebolt subplot and dementor conversation",
-      "book_baseline": "Wood seeks Harry out specifically to discuss the dementor problem and the Firebolt confiscation. He tells McGonagall he doesn't care if the Firebolt throws Harry as long as he catches the Snitch first, gets yelled at, and reports back sheepishly. This is one of his funniest and most characteristic scenes \u2014 his Quidditch obsession overriding all normal human concern.",
-      "film_portrayal": "This entire subplot \u2014 Wood's conversation with Harry about dementors, his disastrous attempt to retrieve the Firebolt from McGonagall, and his report back \u2014 is absent from the film.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "This is the single funniest and most character-defining Wood scene in the entire book series. His telling McGonagall he doesn't care if the broom kills Harry as long as Harry catches the Snitch first perfectly encapsulates his obsession. Its absence is a significant loss of characterisation."
-    },
-    {
-      "scene": "Film (PoA) \u2014 Wood's dawn training session and tactical diagrams",
-      "book_baseline": "Wood wakes Harry at dawn, delivers a 20-minute tactical presentation with three boards of diagrams and arrows that put the team to sleep, is oblivious to their exhaustion, and suspects Colin Creevey of being a Slytherin spy. His manic energy and comic obliviousness are at full stretch.",
-      "film_portrayal": "This scene does not appear in the PoA film. Wood's year-long obsessive preparation for the cup is conveyed only through brief references.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The dawn training scene is the fullest expression of Wood's character in PoA \u2014 his desperation, his obliviousness, his tactical mania. Its absence means the film Wood never achieves the comic depth the books establish."
-    },
-    {
-      "scene": "Film (PoA) \u2014 Hufflepuff match: Wood's emotional breakdown and Quidditch Cup win",
-      "book_baseline": "Wood is unable to give his pre-match pep talk, has lockjaw shaking Diggory's hand, calls time-out in the storm, is anguished when Harry falls, tries to drown himself in the showers after losing, and then \u2014 when Gryffindor finally wins the cup \u2014 seizes Harry and sobs unrestrainedly into his shoulder. McGonagall cries harder than Wood. Wood passes Harry the cup weeping.",
-      "film_portrayal": "The Hufflepuff match in PoA is shown but heavily compressed. Wood's emotional arc \u2014 the failed pep talk, the shower breakdown, the cup-winning tears \u2014 is largely absent. The cup win is not shown in the film at all (the film ends before the Gryffindor-Slytherin match that wins the cup).",
-      "damage_type": "arc",
-      "exposure": 3,
       "impact_weight": 3,
-      "explanation": "Wood's entire emotional arc across three books \u2014 the desperate hunger to win the cup, the repeated failures, the final cathartic victory \u2014 culminates in him sobbing on Harry's shoulder. The film never delivers this payoff. This is the most structurally significant damage to the character: his defining goal and its resolution are absent."
+      "explanation": "This scene is the foundation of the Wood-Harry relationship. The book builds genuine warmth and a mentorship dynamic here; the film reduces it to a functional rules-delivery scene with no relational texture, undermining the bond that motivates Wood's later emotional investment in Harry's performance."
     },
     {
-      "scene": "Film (GoF) \u2014 World Cup campsite: Wood's cameo",
-      "book_baseline": "Wood drags Harry over to his parents' tent, introduces him excitedly, and tells him he has just been signed to the Puddlemere United reserve team. It is a warm, brief scene showing his life after Hogwarts and his continued affection for Harry.",
-      "film_portrayal": "This cameo does not appear in the GoF film. Wood is absent from the World Cup sequence entirely.",
+      "scene": "Film Scene 8 \u2014 Pre-match locker room speech (first Quidditch match)",
+      "book_baseline": "Book Scenes 57-65 show Wood delivering a speech the Weasley twins know 'by heart' from the previous year, Wood glaring at the team 'as if to say, Or else,' and a full locker room atmosphere establishing Wood's intensity and the team's affectionate exasperation with him. Wood is shown as both inspiring and slightly comic in his obsessiveness.",
+      "film_portrayal": "The film has Wood say only 'Scared, Harry?' and receive Harry's reply before the match begins. The pre-match speech, the team dynamic, the Weasleys' knowing commentary, and the 'Or else' glare are all absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The pre-match speech is a recurring comedic and characterising beat across multiple books. Its absence in the first match removes a key dimension of Wood's character \u2014 the driven, slightly over-the-top captain whose team tolerates his intensity with fond amusement."
+    },
+    {
+      "scene": "Film Scene 8 \u2014 Wood knocked out by Bludger during first Quidditch match",
+      "book_baseline": "Book Scene 67-74 shows Wood as an active, competent Keeper during the match \u2014 Lee Jordan commentates 'stopped by an excellent move by Gryffindor Keeper Wood' and Wood makes multiple saves. Wood is visible as a capable player throughout.",
+      "film_portrayal": "The film shows a Slytherin player taking a Beater's bat and hitting a Bludger directly at Oliver Wood, knocking him out of the air, with the crowd booing. Harry is visibly upset. This is invented film business \u2014 Wood is incapacitated mid-match in a way that removes him as a functioning presence.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "In the book Wood is an active, competent participant throughout the first match. The film reduces him to a victim who is neutralised early, which undermines his established competence as Keeper and removes his presence from the climactic sequence of the match."
+    },
+    {
+      "scene": "Film Scene 9 (Chamber of Secrets) \u2014 Courtyard confrontation / Slytherin training",
+      "book_baseline": "Book Scene 129-134 establishes Wood's fierce territorial protectiveness over the Quidditch pitch \u2014 he lands 'rather harder than he meant to in his anger,' bellows at Flint, is 'positively spitting with rage,' and has to be held back (implicitly) from escalating. His fury is righteous and personal. He also holds Fred and George back from attacking Malfoy after the 'Mudblood' slur, showing tactical restraint.",
+      "film_portrayal": "The film includes Wood's 'Clear out, Flint!' and his reading of Snape's note, but his emotional intensity is significantly muted. The book's physical fury \u2014 landing hard, spitting with rage \u2014 is replaced with controlled indignation. The 'Save it for the match' line holding back Fred and George is present and is one of Wood's few characterised moments in the film.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's version of this scene reveals Wood's passionate, almost uncontrollable investment in Quidditch fairness. The film's muted version loses some of the comic intensity that defines his character, though the 'Save it for the match' line partially compensates."
+    },
+    {
+      "scene": "Film Scene 9 (Chamber of Secrets) \u2014 Rogue Bludger match / timeout scene",
+      "book_baseline": "Book Scenes 146-165 show Wood calling timeout, managing the team under pressure, wrestling with the decision about whether to let Harry face the Bludger alone, responding to Harry's direct appeal ('tell them to leave me alone'), and showing genuine anguish balanced with tactical pragmatism. After Harry catches the Snitch with a broken arm, Wood is described as 'couldn't help grinning even though his Seeker was injured' \u2014 affectionate pride cutting through concern.",
+      "film_portrayal": "The film handles the rogue Bludger sequence as action spectacle. Wood calls the timeout but his deliberation and the team debate are absent. His post-catch response is not given a characterised moment equivalent to the book's grinning despite Harry's injury.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The timeout deliberation and Wood's complex response \u2014 torn between winning and Harry's safety, ultimately deferring to Harry's own judgment \u2014 is a moment that deepens Wood beyond single-minded obsession into someone who genuinely respects his Seeker. This nuance is lost in the film's action-focused treatment."
+    },
+    {
+      "scene": "Film Scene 9 (Chamber of Secrets) \u2014 Pre-Hufflepuff match pep talk",
+      "book_baseline": "Book Scene 106 (film corpus scene 9, the Hufflepuff match sequence) shows Wood delivering a pep talk \u2014 'Listen up now. We play our game, Hufflepuff doesn't stand a chance. We're stronger, quicker, smarter' \u2014 only to be immediately cut off by McGonagall cancelling the match. George makes the joke about Petrifying Hufflepuff players. Wood's devastated reaction to the cancellation is shown: 'Cancelled! They can't cancel Quidditch.'",
+      "film_portrayal": "This sequence is present in the film corpus and Wood's lines appear largely as written \u2014 the pep talk fragment and the 'Cancelled!' reaction are both present. This is a reasonably faithful moment.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This scene is relatively faithful to the book. Wood's devastation at the cancellation is captured. Minor loss only in that the fuller emotional texture of the scene (Wood's speech being undercut) is compressed, but the key beats are present. Damage is minimal."
+    },
+    {
+      "scene": "Film Scene 12 (Prisoner of Azkaban) \u2014 Early morning training / new program",
+      "book_baseline": "Book Scenes 99-121 are an extended, richly comic sequence: Wood waking Harry at dawn, delivering a near-twenty-minute tactical briefing with diagrams and moving arrows, the entire team falling asleep, Fred asking why he couldn't have told them this when they were awake, Wood's wounded response, his paranoid suspicion of Colin Creevey as a 'Slytherin spy,' and his outrage at finding Slytherin on the pitch. This is one of the most characterised Wood sequences in the series.",
+      "film_portrayal": "The film corpus for Prisoner of Azkaban does not contain this scene. The PoA film corpus provided is extremely sparse regarding Wood \u2014 only an oblique reference to Wood seeking Harry out about the Firebolt and dementor concerns appears in the book corpus for PoA (Scenes 257-285). The film's treatment of the early morning training sequence is not represented in the provided film corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The early-morning training sequence is the single richest comedic characterisation of Wood in the entire series, establishing his manic dedication and the team's affectionate exasperation at full length. If absent or compressed in the film (which the sparse PoA film corpus cannot confirm), it represents significant loss of character definition. Confidence on this entry is limited by corpus coverage."
+    },
+    {
+      "scene": "Film \u2014 Prisoner of Azkaban: Wood's conversation with Harry about the Firebolt and dementors",
+      "book_baseline": "Book Scenes 257-285 show Wood seeking Harry out the night before term starts, awkwardly raising the dementor issue, immediately pivoting to excitement about the Firebolt, going pale at the news it's been confiscated, promising to 'talk to McGonagall,' and then later telling Harry that McGonagall 'got a bit shirty' and said he cared more about winning than Harry staying alive \u2014 which Wood finds bewildering. This sequence reveals Wood's priorities with comic honesty and genuine care.",
+      "film_portrayal": "The PoA film corpus provided does not contain this scene or any equivalent. Wood's role in the Firebolt subplot and his relationship with Harry during PoA is not represented in the film corpus.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This conversation is one of the few moments where Wood's single-mindedness becomes genuinely revealing and humanising \u2014 he is so invested in Quidditch that he literally cannot understand why McGonagall cares more about Harry's life than his broomstick, yet he also genuinely doesn't want to lose Harry. The absence from the film corpus suggests this material was cut, removing relationship depth."
+    },
+    {
+      "scene": "Film \u2014 Prisoner of Azkaban: Hufflepuff match in the storm / Wood's anguished yell and 'trying to drown himself'",
+      "book_baseline": "Book Scenes 224-249 show Wood giving a pre-match pep talk that fails entirely (he tries to speak, makes 'an odd gulping noise,' and just beckons them to follow), his look of near-lockjaw shaking hands with Diggory, his anguished yell to Harry during the match ('Harry, behind you!'), and after the loss: 'Still in the showers. We think he's trying to drown himself.' Later he visits Harry and tells him 'in a hollow, dead sort of voice' that he doesn't blame him.",
+      "film_portrayal": "The PoA film corpus is extremely thin on Wood content. The storm match and Wood's responses are not represented in the provided film corpus. Book Scene 237 shows 'Wood looked as though he could have kissed her' when Hermione fixes Harry's glasses \u2014 a warm comic beat that may or may not be in the film.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Hufflepuff storm match contains some of Wood's most memorable characterisation: the failed pep talk, the 'trying to drown himself' line, the hollow visit to the hospital wing. These beats define Wood's emotional investment with perfect comic-tragic balance. Their absence from the film corpus suggests significant loss."
+    },
+    {
+      "scene": "Film \u2014 Prisoner of Azkaban: Gryffindor-Slytherin Quidditch Cup final / Wood sobbing",
+      "book_baseline": "Book Scene 347-349 is Wood's emotional climax: 'Then Wood was speeding toward him, half-blinded by tears; he seized Harry around the neck and sobbed unrestrainedly into his shoulder.' After years of trying, Wood finally wins the Cup. As a sobbing Wood passes Harry the Cup and Harry lifts it, Harry feels he could produce the world's best Patronus. This is Wood's defining moment of character payoff.",
+      "film_portrayal": "The PoA film corpus provided does not contain the Quidditch Cup final sequence or Wood's emotional payoff. This climactic moment for Wood's arc is not represented in the available film corpus.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The Quidditch Cup win and Wood's tears represent the complete arc of his character across three books \u2014 years of obsessive pursuit finally rewarded. If this moment is absent or diminished in the film, it removes the emotional resolution of Wood's entire journey. The book explicitly connects Wood's joy to Harry's ability to produce a Patronus, making it thematically resonant beyond Wood himself."
+    },
+    {
+      "scene": "Film \u2014 Goblet of Fire: Wood at the Quidditch World Cup campsite",
+      "book_baseline": "Book Scene 362-366 shows Wood at the World Cup campsite \u2014 he 'dragged Harry over to his parents' tent to introduce him, and told him excitedly that he had just been signed to the Puddlemere United reserve team.' Harry later lies in his bunk thinking Wood 'had never managed to convey with all his wriggling diagrams what the Wronski Feint was supposed to look like.' This is Wood's only GoF appearance and establishes his post-Hogwarts trajectory.",
+      "film_portrayal": "The GoF film corpus provided does not contain Wood's World Cup campsite appearance. The campsite scenes are present in the film corpus (Scene 14) but Wood's specific interaction with Harry is not represented.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A small but pleasant continuity beat that confirms Wood's post-Hogwarts success is lost. Minor damage only."
+      "explanation": "Wood's brief GoF cameo establishes his professional career continuation and provides a moment of warm continuity. Its absence is a minor loss \u2014 it is not structurally critical but removes a satisfying thread of his story. The reference to his 'wriggling diagrams' also provides retroactive warmth to his earlier characterisation."
+    },
+    {
+      "scene": "Film Scene 40 / Film Scene 41 (Deathly Hallows Part 2) \u2014 Wood carrying Colin Creevey / sitting with Aberforth",
+      "book_baseline": "Book Scene 491 shows Wood carrying Colin Creevey's body: 'You know what? I can manage him alone, Neville,' said Oliver Wood, and he heaved Colin over his shoulder in a fireman's lift and carried him into the Great Hall.' This is Wood's final book appearance \u2014 understated, practical, quietly heroic.",
+      "film_portrayal": "Film Scene 40 shows Wood in the Entrance Hall saying 'I'll take him from here' to Neville, throwing Nigel (not Colin Creevey) over his shoulder. Film Scene 41 shows Wood sitting with Aberforth post-battle, drinking something strong, giving Harry a stoic nod. Wood is present and his function is preserved, though the victim is changed from Colin to 'Nigel' (a film-invented character).",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The substitution of Nigel for Colin Creevey is a minor alteration that doesn't damage Wood's portrayal specifically \u2014 his action and dignity are intact. The loss of the Colin connection removes some emotional weight from the scene for those who followed Colin's arc, but Wood himself is handled faithfully here."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 741.0,
-  "adjusted_cids_v1": 926.2
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

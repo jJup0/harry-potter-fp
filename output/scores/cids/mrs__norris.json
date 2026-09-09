@@ -2,116 +2,97 @@
   "character": "Mrs. Norris",
   "fp_score": 73.0,
   "infidelity_score": 27.0,
-  "weighted_infidelity_exposure": 13.5,
-  "cids": 130.2,
-  "damage_per_exposure": 17.4,
+  "weighted_infidelity_exposure": 10.5,
+  "cids": 118.9,
+  "damage_per_exposure": 23.8,
   "structural_damage_level": 2,
-  "adjusted_cids": 130.2,
+  "adjusted_cids": 118.9,
   "main_damage_causes": [
-    "Systematic reduction of Mrs. Norris from independent patrol agent to passive companion animal at Filch's side, eliminating her defining autonomous surveillance function across all films",
-    "Compression of the Petrification scene in CoS removes the emotional depth of Filch's grief and Harry's reluctant pity, weakening the Filch-Mrs. Norris relationship that gives her narrative significance",
-    "Failure to establish Mrs. Norris as a solo threat students must actively fear and avoid, which in the books creates recurring tension and motivates character decisions (sneaking out, using the Invisibility Cloak, etc.)"
+    "Systematic reduction of Mrs. Norris's autonomous surveillance agency into a reactive signaling animal \u2014 her defining book trait of independent, eerie patrol intelligence is consistently replaced by simple meowing alerts or passive presence",
+    "Loss of the sustained Filch grief scene during the Petrification examination (the only moment in the corpus where the Filch\u2013Mrs. Norris bond is revealed as emotionally profound), collapsing the relationship's depth into a shouted accusation",
+    "Tonal reframing across multiple films from creature-of-dread to comic/sentimental prop (Yule Ball dancing, mouse-chasing), which progressively erodes the atmospheric menace she is meant to carry as the castle's primary surveillance threat"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film CoS Scene 1 - Sorting Ceremony introduction",
-      "book_baseline": "Mrs. Norris is described as an active, independent patrol agent who roams corridors alone, detects rule-breakers, and fetches Filch with eerie precision - she is Filch's intelligence network.",
-      "film_portrayal": "Mrs. Norris is introduced as a passive prop beside Filch during Dumbledore's announcements, with red glowing eyes as a visual shorthand for menace. Her independent patrol function is not established.",
-      "damage_type": "agency/function",
+      "scene": "Film Corpus Scene 1 (Philosopher's Stone) - Sorting Ceremony introduction",
+      "book_baseline": "Book corpus establishes Mrs. Norris as a creature who 'patrolled the corridors alone' with 'bulging, lamp-like eyes' \u2014 an active, independent, unsettling sentinel whose defining trait is her autonomous surveillance function. She is described as scrawny and dust-colored, evoking dread rather than spectacle.",
+      "film_portrayal": "Mrs. Norris is introduced during Dumbledore's announcements as a visual prop alongside Filch \u2014 described in the script as having 'red eyes' \u2014 presented briefly as a sight gag accessory to Filch's grotesque appearance rather than an independently menacing presence.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book's core characterization of Mrs. Norris is her autonomous surveillance role. The film reduces her to a visual accessory at Filch's feet, losing the sense that she is an active, semi-independent threat in the castle."
+      "explanation": "The book establishes Mrs. Norris's autonomy and independent patrol function as her core characterization. Reducing her to a costumed prop in the introductory moment frames her as Filch's pet accessory rather than a semi-independent agent of surveillance, undermining the dread she is meant to inspire from the outset."
     },
     {
-      "scene": "Film CoS Scene 2 - Third-floor corridor encounter",
-      "book_baseline": "Mrs. Norris patrols alone and independently detects the trio; her arrival is a genuine threat because she will summon Filch. The book repeatedly emphasizes she operates without Filch present.",
-      "film_portrayal": "Mrs. Norris appears in the corridor and meows at Filch, who is already present and calling to her ('Anyone here, my sweet?'). She functions as a companion animal rather than an independent sentinel.",
+      "scene": "Film Corpus Scene 2 (Philosopher's Stone) - Third-floor corridor encounter",
+      "book_baseline": "Book corpus (Scenes 7\u201311) establishes Mrs. Norris as a creature so attuned to rule-breaking that she functions as an autonomous detector \u2014 students fear her because she operates independently and summons Filch through what seems like a mysterious bond. Book Scene 26 confirms she can sense students even under the Invisibility Cloak, turning her lamplike eyes on them without doing anything, suggesting an eerie, almost supernatural perception.",
+      "film_portrayal": "In the film, Mrs. Norris appears in the corridor, meows, and alerts Filch. Filch calls out 'Anyone here, my sweet?' and she meows again. The exchange reduces her to a simple signaling animal \u2014 essentially a doorbell \u2014 rather than an independently threatening presence who operates on her own initiative.",
       "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film collapses the book's dynamic where Mrs. Norris detects first and then summons Filch. Here Filch is already present and she is subordinate to him, removing her defining trait as an autonomous patrol agent."
-    },
-    {
-      "scene": "Film CoS Scene 3 - Library/restricted section night",
-      "book_baseline": "Mrs. Norris is described as prowling independently (Marauder's Map equivalent context in books; in PS she patrols corridors alone at night as an established threat). Harry fears her as a genuine independent hazard.",
-      "film_portrayal": "Mrs. Norris appears in the corridor after Harry exits the restricted section and 'meows and begins to follow him' - she is present but Filch arrives separately. She does function somewhat independently here.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is the closest the film comes to the book's portrayal of independent patrol, but it is brief and underplayed. Partial credit - minor damage only."
-    },
-    {
-      "scene": "Film CoS Scene 5 - Discovery of Petrified Mrs. Norris",
-      "book_baseline": "Filch's reaction is one of the most emotionally raw moments in the books: he shrieks, clutches his face in horror, slumps in a chair unable to look at her, and Harry feels genuine pity for him despite hating him. The scene establishes the depth of Filch's love for Mrs. Norris as his only companion.",
-      "film_portrayal": "Filch rounds on Harry immediately ('You've murdered my cat! I'll kill you!') and the scene moves quickly to accusation. His grief is present but compressed; the extended, pitiful collapse in the chair and Harry's complex sympathy are absent.",
-      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book uses Mrs. Norris's Petrification to humanize Filch - his devastation and Harry's reluctant pity are important character beats. The film prioritizes plot momentum over this emotional texture, weakening the Filch-Mrs. Norris bond that gives her narrative weight."
+      "explanation": "The book's Mrs. Norris is terrifying because she seems to act on her own and summon Filch through an almost psychic bond. The film renders this as a mundane cat-and-owner communication loop. The sense that she is an extension of Filch's will with her own eerie intelligence is lost, reducing the corridor threat and the broader atmosphere of surveillance that defines her role in the castle."
     },
     {
-      "scene": "Film CoS Scene 5 - Examination scene in Lockhart's office",
-      "book_baseline": "Dumbledore examines Mrs. Norris with great care and tenderness, his nose barely an inch from her fur, gently prodding. Filch is slumped in a chair, face in hands, unable to look at her. The scene is quiet and sorrowful.",
-      "film_portrayal": "The examination is condensed; Filch's sustained grief (slumped, face in hands, dry racking sobs) is reduced to a few lines of accusation. The tenderness of Dumbledore's examination is present but brief.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's extended examination scene reinforces Mrs. Norris's importance to Filch and the seriousness of the attack. Compression loses the emotional weight that makes Mrs. Norris matter beyond being a plot device."
-    },
-    {
-      "scene": "Film GoF Scene 8 - Yule Ball",
-      "book_baseline": "Mrs. Norris is not present at the Yule Ball in the books in any notable way. The books show her as a patrol animal, not a social companion Filch brings to events.",
-      "film_portrayal": "Filch is shown 'dancing' with Mrs. Norris at the Yule Ball - he holds her and sways with her as a dance partner.",
+      "scene": "Film Corpus Scene 3 (Philosopher's Stone) - Restricted Section / Mrs. Norris follows Harry",
+      "book_baseline": "Book corpus Scene 34 describes Mrs. Norris 'streaking alongside' Filch when he runs \u2014 she moves with him as a co-pursuer. Book Scene 19 shows her lamplike eyes appearing around a door under circumstances suggesting active, independent investigation.",
+      "film_portrayal": "After Harry escapes the Restricted Section, Mrs. Norris emerges in the corridor, meows, and begins to follow the invisible Harry. The script notes she is 'outside in the hall' as Filch passes \u2014 she is present but her follow-up is brief and her role is again purely reactive and telegraphic rather than genuinely menacing.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "While this is played for gentle comedy and does reflect Filch's attachment to Mrs. Norris, it softens the character into something whimsical rather than sinister. It is a minor tonal shift but does not significantly damage the adaptation."
+      "explanation": "A minor but consistent flattening of Mrs. Norris's independent menace. The book's sense that she is always one step ahead of students and operates with unsettling initiative is again softened into a simple meowing signal. Confidence is moderate given the brief corpus coverage of this scene."
     },
     {
-      "scene": "Film DH2 Scene 10 - Battle of Hogwarts assembly",
-      "book_baseline": "In the book's equivalent chaos, Mrs. Norris is briefly noted hissing at owls and batting at them - a small but characteristic moment of her territorial nature during the battle.",
-      "film_portrayal": "Mrs. Norris wends through Filch's legs as he bursts into the Great Hall. She is a passive companion prop. The brief active moment (hissing at owls) from the book is absent.",
+      "scene": "Film Corpus Scene 5 (Chamber of Secrets) - Discovery of Petrified Mrs. Norris",
+      "book_baseline": "Book corpus Scenes 38\u201339 describe Mrs. Norris hanging by her tail from a torch bracket, 'stiff as a board, her eyes wide and staring' \u2014 an image of grotesque stillness that is disturbing precisely because it has happened to the castle's most feared surveillance creature. Book Scene 41 shows Filch's complete emotional collapse: 'He was slumped in a chair by the desk, unable to look at Mrs. Norris, his face in his hands.' The book also preserves Filch's accusation that Harry 'knows I'm a Squib' as a moment of raw, humiliated vulnerability.",
+      "film_portrayal": "The film preserves the visual discovery and Filch's 'You've murdered my cat!' outburst, and retains the Squib accusation. However, the film script omits Filch's sustained emotional collapse \u2014 the slumped, sobbing figure unable to look at Mrs. Norris \u2014 reducing his grief to a shouted accusation before the scene moves on to Dumbledore's examination.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's depiction of Filch unable to look at Mrs. Norris, face in hands, is the single most humanizing moment in the entire Filch/Mrs. Norris relationship across the corpus \u2014 it transforms what had been an antagonistic comic figure into someone capable of genuine grief. Harry even feels 'a bit sorry for him.' Losing this sustained emotional beat collapses the depth of the Filch\u2013Mrs. Norris bond and eliminates the adaptation's best opportunity to make the Petrification feel like a genuine emotional wound rather than a plot mechanism."
+    },
+    {
+      "scene": "Film Corpus Scene 5 (Chamber of Secrets) - Lockhart's office / examination scene",
+      "book_baseline": "Book corpus Scene 48 describes Snape during the examination wearing 'a most peculiar expression: It was as though he was trying hard not to smile' \u2014 a sinister, characteristically ambiguous beat. Book Scene 52 shows Dumbledore tapping Mrs. Norris with his wand as she 'continued to look as though she had been recently stuffed' \u2014 specific, darkly comic texture that grounds the Petrification.",
+      "film_portrayal": "The film moves quickly through Lockhart's diagnosis and Dumbledore's 'She's been Petrified' revelation. The examination in Lockhart's office is compressed. Snape's peculiar near-smile \u2014 a book detail that adds sinister ambiguity \u2014 is absent from the filmed scene as presented in the corpus.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss of a characteristic active moment. The film uses Mrs. Norris purely as a visual tag for Filch rather than showing any independent behavior."
+      "explanation": "A minor loss of atmospheric texture. The near-smile is a small but characteristic Snape beat that adds unease to the scene. Its absence is a modest compression loss rather than structural damage, but it contributes to a pattern of flattening the Mrs. Norris scenes into pure plot delivery."
     },
     {
-      "scene": "Film DH2 Scene 11 - Aftermath of battle",
-      "book_baseline": "Mrs. Norris has no specific noted presence in the book's aftermath scene.",
-      "film_portrayal": "Filch is shown quietly communing with Mrs. Norris in the aftermath - a tender, humanizing moment.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Corpus Scene 8 (Goblet of Fire) - Yule Ball",
+      "book_baseline": "Book corpus does not contain a Yule Ball scene for Mrs. Norris. Her presence in the Goblet of Fire material in the book corpus (Scenes 88\u201397) is as a lurking patrol threat during the egg/staircase incident \u2014 tense, suspicious, sniffing Harry's bubble-bath scent \u2014 which is her characteristic surveillance function at its most developed.",
+      "film_portrayal": "The film corpus Scene 8 shows Filch dancing with Mrs. Norris at the Yule Ball \u2014 a comic visual beat where the caretaker's only social interaction is with his cat.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is actually a faithful extension of the Filch-Mrs. Norris bond. Minimal damage - if anything it reinforces their relationship. Scored low as it is not unfaithful in a damaging way, but it is an invention."
-    },
-    {
-      "scene": "Film PoA Scene 7 - Entrance Hall dusk",
-      "book_baseline": "Mrs. Norris is described on the Marauder's Map as prowling independently, and Harry watches her tiny ink dot turn and sniff at something - she is an active, autonomous presence Harry must navigate around.",
-      "film_portrayal": "Mrs. Norris sits calmly by Filch as he stands guard. She hisses at a mouse. She is stationary and reactive rather than actively patrolling.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Another instance of Mrs. Norris reduced from active patroller to passive companion. Consistent pattern across films but individually minor."
-    },
-    {
-      "scene": "Films generally - absence of independent corridor patrol as ongoing threat",
-      "book_baseline": "Across multiple books (PS, CoS, GoF, HBP), Mrs. Norris is repeatedly established as an independent patrol threat - students fear her because she operates alone and will summon Filch. She appears on the Marauder's Map moving independently. Ron's suggestion to 'kidnap Mrs. Norris' for Stunning practice treats her as a genuine autonomous agent.",
-      "film_portrayal": "Across all films, Mrs. Norris consistently appears at Filch's side or in his immediate vicinity rather than patrolling independently. The films never establish her as a solo threat that students must actively avoid.",
-      "damage_type": "agency/function",
-      "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The cumulative effect of never showing Mrs. Norris patrol independently means the films fail to establish her defining function. She becomes Filch's pet rather than his deputy, losing the quality that makes her genuinely threatening and narratively interesting."
+      "explanation": "While the dancing image has a certain pathos, it reframes Mrs. Norris from a creature of dread and eerie surveillance into a prop for comic characterization of Filch's social isolation. This is the film's most tonally unfaithful use of Mrs. Norris \u2014 she is neither threatening nor eerily autonomous here, just a visual punchline. The book never uses her this way; her appearances are always charged with menace or plot function."
+    },
+    {
+      "scene": "Film Corpus Scene 9 (Goblet of Fire) - Entrance Hall / Mrs. Norris hisses at mouse",
+      "book_baseline": "Book corpus Scenes 88\u201397 depict Mrs. Norris during the egg/staircase sequence as a genuinely threatening presence \u2014 peering around Filch's legs, apparently smelling Harry despite the Invisibility Cloak, causing Harry the 'distinct impression that she could smell him.' This is her most developed and menacing appearance in the book corpus.",
+      "film_portrayal": "Film corpus Scene 9 shows Mrs. Norris sitting calmly by Filch, hissing at a mouse that emerges from a suit of armor \u2014 a brief comic beat as Harry strolls past undetected.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film replaces the book's tense, near-detection scene (where Mrs. Norris seems to smell Harry through the cloak) with a comic mouse-chasing beat. This inverts her function: instead of nearly catching Harry through preternatural senses, she is distracted by an ordinary cat behavior. Her supernatural surveillance capability \u2014 one of her defining book traits \u2014 is directly undermined."
+    },
+    {
+      "scene": "Film Corpus Scene 11 (Deathly Hallows Part 2) - Great Hall aftermath",
+      "book_baseline": "Book corpus Scene 111 shows Mrs. Norris actively 'hissing and trying to bat' owls with her paws during the battle chaos \u2014 she remains characteristically active and territorial even during the castle's crisis, a brief but consistent expression of her aggressive patrol nature.",
+      "film_portrayal": "Film corpus Scene 11 shows Filch communing with Mrs. Norris in the aftermath \u2014 a quiet, tender moment of the caretaker and his cat surviving together amid the grief of the Great Hall.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor tonal shift. The film uses the pair for sentimental closure rather than any expression of Mrs. Norris's characteristic territorial aggression. Given it is the saga's final image of the character, it consolidates the film's pattern of domesticating her into a comfort-pet rather than preserving her as an unsettling presence. The impact is low given the scene's brevity and the saga's endpoint context."
     }
   ],
   "confidence": {
-    "global": "High",
+    "global": "Medium",
     "exposure_estimate": "Medium",
-    "impact_assessment": "High"
+    "impact_assessment": "Medium"
   },
   "meta": {
-    "model": "claude-sonnet-4.6"
-  },
-  "cids_v1": 364.5,
-  "adjusted_cids_v1": 401.0
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
 }

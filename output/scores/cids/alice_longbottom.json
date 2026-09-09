@@ -1,0 +1,44 @@
+{
+  "character": "Alice Longbottom",
+  "fp_score": 72.0,
+  "infidelity_score": 28.0,
+  "weighted_infidelity_exposure": 3.0,
+  "cids": 63.0,
+  "damage_per_exposure": 42.0,
+  "structural_damage_level": 1,
+  "adjusted_cids": 63.0,
+  "main_damage_causes": [
+    "Transfer of the photograph scene from Moody to Sirius removes Moody's function as introducer of Order history and costs Alice her contextualised presentation",
+    "Loss of the physical description and Harry's recognition of Alice's face as Neville's image eliminates the only humanising detail the corpus establishes for her",
+    "Alice's presence is reduced to a name-drop with no individualising characterisation, making her feel incidental rather than a person with a distinct identity"
+  ],
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 King's Cross, Sirius shows Harry the Order of the Phoenix photo",
+      "book_baseline": "The book establishes that it is Mad-Eye Moody who shows Harry the photograph and identifies the people in it, including Frank and Alice Longbottom. Harry recognises Alice because her 'round, friendly face' is the image of Neville's \u2014 a moment of quiet, personal recognition for Harry.",
+      "film_portrayal": "The film transfers the photograph scene entirely to Sirius. Moody is present at King's Cross but does not show Harry the photo or narrate the identities. Sirius identifies Frank and Alice Longbottom, and Harry supplies the connection himself ('Neville's parents').",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Moody loses his specific narrative function as the one who introduces Harry to the original Order, including the Longbottoms. While the information is still conveyed, reassigning it to Sirius dilutes Moody's characterisation as a veteran keeper of Order history and memory."
+    },
+    {
+      "scene": "Film Scene 1 \u2014 King's Cross, description of Alice Longbottom",
+      "book_baseline": "The book gives Alice Longbottom a physical description \u2014 a 'round, friendly face' \u2014 and explicitly notes Harry's emotional recognition: he knows her face well because she is the image of Neville. This grounds her identity in Harry's personal, empathetic response and visually connects her to her son.",
+      "film_portrayal": "Alice is mentioned by name only ('That's Frank and Alice Longbottom') with no physical description and no moment of Harry recognising her face as Neville's. The emotional beat of Harry seeing Neville in his mother is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's identification of Alice through her resemblance to Neville does important characterisation work: it humanises her, connects her tragedy to a character the audience knows, and gives Harry \u2014 and the reader \u2014 a moment of empathetic recognition. Reducing her to a name strips away the only individualising detail she receives in this scene."
+    }
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  },
+  "meta": {
+    "model": "claude-sonnet-4.6",
+    "prompt_version": "2.1"
+  }
+}
