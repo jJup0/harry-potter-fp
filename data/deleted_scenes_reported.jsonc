@@ -1,0 +1,870 @@
+// Deleted / non-theatrical scenes as reported by Aitor.
+//
+// Source: data/hp_deleted_scenes_EN.csv, imported by scripts/import_deleted_scenes_csv.py.
+// Unlike data/deleted_scenes.jsonc these entries carry no scene_index - they name a
+// scene the client knows was cut, without saying where it sits in our parsed corpus.
+// They are injected into the FP and CIDS prompts as "ignore this material" instructions
+// rather than removing scenes, because our scene segmentation is far too coarse in some
+// films (Chamber of Secrets parses as 8 blocks) to cut safely.
+//
+// Fields:
+//   rank        - Aitor's ordering, 1 = most significant omission
+//   title       - scene title as reported
+//   film        - matches the "source" field in corpus scenes.json
+//   film_code   - Aitor's abbreviation, kept for round-tripping to his sheet
+//   description - Aitor's description of what the scene contains
+//   confidence  - Aitor's confidence that the scene is non-theatrical
+//   characters  - canonical names, filled in by
+//                 src/collect/tag_deleted_scene_characters.py and hand-correctable
+{
+  "entries": [
+    {
+      "rank": 68,
+      "title": "Harry and Dumbledore in the office",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Post-Sirius conversation in Dumbledore's office; replaces the book's scene where Harry wrecks the office in grief.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Albus Dumbledore"
+      ]
+    },
+    {
+      "rank": 67,
+      "title": "Yaxley visits the Grangers' house",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Death Eater / Ministry worker Yaxley arrives at the Granger family home.",
+      "confidence": "high",
+      "characters": [
+        "Corban Yaxley"
+      ]
+    },
+    {
+      "rank": 66,
+      "title": "Hagrid and the bird",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Hagrid tries to shoot down a bird; the Whomping Willow kills it.",
+      "confidence": "high",
+      "characters": [
+        "Rubeus Hagrid"
+      ]
+    },
+    {
+      "rank": 65,
+      "title": "The enchanted Bludger",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Alternate/extended CGI shot of the rogue Bludger chasing Harry.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 64,
+      "title": "Snape scolds Harry",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Extended version of Snape's first classroom confrontation with Harry.",
+      "confidence": "high",
+      "characters": [
+        "Severus Snape",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 63,
+      "title": "Petunia cracking an egg",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "A Hogwarts letter comes out of an egg Petunia cracks.",
+      "confidence": "high",
+      "characters": [
+        "Petunia Dursley"
+      ]
+    },
+    {
+      "rank": 62,
+      "title": "Karkaroff's arm",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Karkaroff shows the Dark Mark on his arm; includes Ron's reaction.",
+      "confidence": "high",
+      "characters": [
+        "Igor Karkaroff",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 61,
+      "title": "Ginny smiles at Harry",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Brief romantic look between Ginny and Harry.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ginny Weasley"
+      ]
+    },
+    {
+      "rank": 60,
+      "title": "The rabbit hunt",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Ron and Harry hunt a rabbit and end up casting spells at each other.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 59,
+      "title": "Trelawney at the feast",
+      "film": "3_prisoner_of_azkaban",
+      "film_code": "POA",
+      "description": "Long scene of Trelawney eating chaotically in the Great Hall.",
+      "confidence": "high",
+      "characters": [
+        "Sybill Trelawney"
+      ]
+    },
+    {
+      "rank": 58,
+      "title": "Alternate Aberforth scene",
+      "film": "8_deathly_hallows_p2",
+      "film_code": "DH2",
+      "description": "Seated alternate take of the Aberforth conversation, later reshot standing.",
+      "confidence": "high",
+      "characters": [
+        "Aberforth Dumbledore",
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 57,
+      "title": "Filch blows Umbridge's hair",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Comic beat between Filch and Umbridge after the twins' departure.",
+      "confidence": "high",
+      "characters": [
+        "Argus Filch",
+        "Dolores Umbridge"
+      ]
+    },
+    {
+      "rank": 56,
+      "title": "The Vanishing Cabinet",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Harry and Dumbledore outside the school; Harry says he isn't worried because he's with Dumbledore.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Albus Dumbledore"
+      ]
+    },
+    {
+      "rank": 55,
+      "title": "Escaping Nagini",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Harry and Hermione running from Nagini at Godric's Hollow (no finished CGI).",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Nagini"
+      ]
+    },
+    {
+      "rank": 54,
+      "title": "Harry asks Cho to the ball",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Harry attempts to invite Cho to the Yule Ball.",
+      "confidence": "high",
+      "characters": [
+        "Cho Chang",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 53,
+      "title": "Gilderoy Lockhart's test",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Lockhart makes the class take a quiz about his favourite colour and Best Smile awards.",
+      "confidence": "high",
+      "characters": [
+        "Gilderoy Lockhart",
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 52,
+      "title": "Harry meets Colin Creevey (extended)",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Longer version of Harry's first meeting with Colin.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Colin Creevey"
+      ]
+    },
+    {
+      "rank": 51,
+      "title": "The flying cake (extended)",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Extended version including the Dursleys' reactions to the levitating cake.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Vernon Dursley",
+        "Petunia Dursley",
+        "Dudley Dursley"
+      ]
+    },
+    {
+      "rank": 50,
+      "title": "Dudley's old uniform",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Harry gets Dudley's boiled hand-me-down uniform while Dudley is photographed in new clothes.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Dudley Dursley",
+        "Petunia Dursley",
+        "Vernon Dursley"
+      ]
+    },
+    {
+      "rank": 49,
+      "title": "Harry tells Ron about the Chamber",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Harry tells Ron he believes Hagrid opened the Chamber of Secrets.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 48,
+      "title": "Harry runs into Hagrid",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Right after the diary vision, Harry meets Hagrid carrying a rooster and is frightened.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Rubeus Hagrid"
+      ]
+    },
+    {
+      "rank": 47,
+      "title": "Hermione and the Marauder's Map",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Harry and Hermione argue about the map and Draco disappearing from Hogwarts.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 46,
+      "title": "Harry and Dumbledore arrive at the Cave",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Includes the knife moment and a mention of Regulus Black.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Albus Dumbledore"
+      ]
+    },
+    {
+      "rank": 45,
+      "title": "Harry and Dumbledore leave the Cave",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "A weakened Dumbledore says he isn't worried because he's with Harry.",
+      "confidence": "high",
+      "characters": [
+        "Albus Dumbledore",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 44,
+      "title": "Harry packing to leave Hogwarts",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Ron and Hermione quietly worry about Harry after Sirius's death.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 43,
+      "title": "Yule Ball invitations",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Durmstrang students asking Hogwarts students to the ball.",
+      "confidence": "high",
+      "characters": [
+        "Viktor Krum",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 42,
+      "title": "Filch and the Slytherins in the dungeons",
+      "film": "8_deathly_hallows_p2",
+      "film_code": "DH2",
+      "description": "Filch escorting the Slytherin students down to the dungeons during the evacuation of Hogwarts.",
+      "confidence": "high",
+      "characters": [
+        "Argus Filch"
+      ]
+    },
+    {
+      "rank": 41,
+      "title": "Throwing stones",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Ron and Hermione share a quiet moment skipping/throwing stones.",
+      "confidence": "high",
+      "characters": [
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 40,
+      "title": "Bill's warning",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Bill Weasley warns Harry, Ron and Hermione at Shell Cottage.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger",
+        "Bill Weasley"
+      ]
+    },
+    {
+      "rank": 39,
+      "title": "Hagrid and Harry on the Underground",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Hagrid and Harry ride the London tube; Hagrid talks about wanting a dragon.",
+      "confidence": "high",
+      "characters": [
+        "Rubeus Hagrid",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 38,
+      "title": "The Inquisitorial Squad",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Umbridge watches students bully a younger boy and considers recruiting them.",
+      "confidence": "high",
+      "characters": [
+        "Dolores Umbridge",
+        "Draco Malfoy"
+      ]
+    },
+    {
+      "rank": 37,
+      "title": "Crabbe and Goyle meet Ron and Harry",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "The real Crabbe and Goyle come face to face with their Polyjuiced doubles.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Vincent Crabbe",
+        "Gregory Goyle"
+      ]
+    },
+    {
+      "rank": 36,
+      "title": "The Knight Bus / shrunken head",
+      "film": "3_prisoner_of_azkaban",
+      "film_code": "POA",
+      "description": "Extended Knight Bus ride with the shrunken head.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Stan Shunpike",
+        "Ernie Prang"
+      ]
+    },
+    {
+      "rank": 35,
+      "title": "Seamus and the bridge",
+      "film": "8_deathly_hallows_p2",
+      "film_code": "DH2",
+      "description": "Seamus and Neville rigging the wooden bridge with explosives.",
+      "confidence": "high",
+      "characters": [
+        "Seamus Finnigan",
+        "Neville Longbottom"
+      ]
+    },
+    {
+      "rank": 34,
+      "title": "After Barty Crouch's death",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Harry, Ron and Hermione discuss Crouch's death and what it means.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 33,
+      "title": "Umbridge inspects Trelawney",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Umbridge evaluates Trelawney's Divination class.",
+      "confidence": "high",
+      "characters": [
+        "Dolores Umbridge",
+        "Sybill Trelawney"
+      ]
+    },
+    {
+      "rank": 32,
+      "title": "Moody slams Harry",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Moody roughs Harry up; Crouch Sr. sees his son's face in Moody.",
+      "confidence": "high",
+      "characters": [
+        "Alastor Moody",
+        "Harry Potter",
+        "Bartemius Crouch Sr."
+      ]
+    },
+    {
+      "rank": 31,
+      "title": "Umbridge's speech",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Umbridge justifies her actions to the students, humanising her, then threatens Harry.",
+      "confidence": "high",
+      "characters": [
+        "Dolores Umbridge",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 30,
+      "title": "Sir Cadogan",
+      "film": "3_prisoner_of_azkaban",
+      "film_code": "POA",
+      "description": "The knight portrait guarding Gryffindor Tower, changing passwords constantly.",
+      "confidence": "high",
+      "characters": [
+        "Sir Cadogan"
+      ]
+    },
+    {
+      "rank": 29,
+      "title": "Hermione and Harry talk about Draco",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Hermione shows empathy for Draco's condition; Harry refuses to.",
+      "confidence": "high",
+      "characters": [
+        "Hermione Granger",
+        "Harry Potter",
+        "Draco Malfoy"
+      ]
+    },
+    {
+      "rank": 28,
+      "title": "The Ford Anglia in the Forbidden Forest",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "The car living wild in the forest.",
+      "confidence": "high",
+      "characters": []
+    },
+    {
+      "rank": 27,
+      "title": "Preparing the Polyjuice Potion",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Harry and Ron drag the unconscious bodies of Crabbe and Goyle and brew the potion.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Vincent Crabbe",
+        "Gregory Goyle"
+      ]
+    },
+    {
+      "rank": 26,
+      "title": "Gryffindor pyjama gathering",
+      "film": "3_prisoner_of_azkaban",
+      "film_code": "POA",
+      "description": "After Sirius breaks in; Gryffindors in pyjamas, Sir Cadogan, McGonagall comforting Neville.",
+      "confidence": "high",
+      "characters": [
+        "Minerva McGonagall",
+        "Neville Longbottom",
+        "Sir Cadogan",
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 25,
+      "title": "Harry and Luna at Dobby's grave",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Luna thanks Dobby; Ron tells Harry he believes him about seeing Dumbledore.",
+      "confidence": "high",
+      "characters": [
+        "Luna Lovegood",
+        "Dobby",
+        "Harry Potter",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 24,
+      "title": "The Weird Sisters at the Yule Ball",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Full concert performance, including students lifting Flitwick.",
+      "confidence": "high",
+      "characters": [
+        "Filius Flitwick"
+      ]
+    },
+    {
+      "rank": 23,
+      "title": "Justin Finch-Fletchley",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Justin introduces himself to Harry before the duelling club snake incident.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Justin Finch-Fletchley"
+      ]
+    },
+    {
+      "rank": 22,
+      "title": "Fred and George mock Harry",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "The twins joke about Harry being the Heir of Slytherin while he fears turning dark.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Fred Weasley",
+        "George Weasley"
+      ]
+    },
+    {
+      "rank": 21,
+      "title": "The Ford Anglia takes off",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Start of the flying car journey; a Muggle reacts to magic.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Fred Weasley",
+        "George Weasley"
+      ]
+    },
+    {
+      "rank": 20,
+      "title": "The locket / Ron's warning",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Injured Ron warns them not to say Voldemort's name because it is now Taboo-tracked.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 19,
+      "title": "Neville defends Harry",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "After Seamus calls Harry a liar, Neville speaks up for him.",
+      "confidence": "high",
+      "characters": [
+        "Neville Longbottom",
+        "Seamus Finnigan",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 18,
+      "title": "Return from Hogsmeade",
+      "film": "3_prisoner_of_azkaban",
+      "film_code": "POA",
+      "description": "Students playing wizard games in the Great Hall; Harry is happy for his friends despite missing out.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 17,
+      "title": "Arthur Weasley and his Muggle toys",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Ron finds his father tinkering with Muggle objects (Potterwatch radio prototype).",
+      "confidence": "high",
+      "characters": [
+        "Arthur Weasley",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "Harry overhears the Hufflepuffs",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Harry alone with Hedwig, then Hufflepuff students arguing about whether he is the Heir.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Hedwig"
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "Ron remembers Tom Riddle",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Ron recalls Riddle's award from his detention; includes the Ravenclaw ghost fragment and hospital wing time.",
+      "confidence": "high",
+      "characters": [
+        "Ron Weasley",
+        "Lord Voldemort"
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "Snape and Karkaroff argue",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "Snape chases couples out of the Yule Ball gardens and argues with Karkaroff.",
+      "confidence": "high",
+      "characters": [
+        "Severus Snape",
+        "Igor Karkaroff"
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "Mr Weasley confronts Runcorn",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "In the Ministry, Ron stays silent while Harry-as-Runcorn defends Arthur Weasley.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Arthur Weasley",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "Life in Gryffindor Tower",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Neville with his plant, Dean and Seamus joking, Harry alone on the sofa.",
+      "confidence": "high",
+      "characters": [
+        "Neville Longbottom",
+        "Dean Thomas",
+        "Seamus Finnigan",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "Neville and the leg-locker curse",
+      "film": "5_order_of_the_phoenix",
+      "film_code": "OOTP",
+      "description": "Common room scene: anti-cheating quills, Seamus, Neville with bound legs.",
+      "confidence": "high",
+      "characters": [
+        "Neville Longbottom",
+        "Seamus Finnigan"
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Filch and his Squib letter",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Filch panics over his Kwikspell/Squib correspondence being discovered.",
+      "confidence": "high",
+      "characters": [
+        "Argus Filch",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Tonks arrives at the Battle of Hogwarts",
+      "film": "8_deathly_hallows_p2",
+      "film_code": "DH2",
+      "description": "Tonks leaves her son behind to fight beside Lupin.",
+      "confidence": "high",
+      "characters": [
+        "Nymphadora Tonks",
+        "Remus Lupin"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "The Mirror of Erised obsession",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Harry cannot stop returning to the mirror; Ron worries about him.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Draco and Lucius at Borgin and Burkes",
+      "film": "2_chamber_of_secrets",
+      "film_code": "COS",
+      "description": "Lucius mistreats Draco; Draco touches the Vanishing Cabinet.",
+      "confidence": "high",
+      "characters": [
+        "Draco Malfoy",
+        "Lucius Malfoy"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Petunia's goodbye",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Petunia's cold but painful farewell to Harry, acknowledging she also lost a sister.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Petunia Dursley"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "The Astronomy Tower",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "After Dumbledore's death; Harry tells Ron and Hermione they are brilliant and they refuse to leave him alone.",
+      "confidence": "high",
+      "characters": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "The birth of the Golden Trio",
+      "film": "1_philosophers_stone",
+      "film_code": "PS",
+      "description": "Harry, Ron and Hermione leaving the bathroom after the troll; Harry defends Hermione, Ron says that's what friends are for.",
+      "confidence": "high",
+      "characters": [
+        "Ron Weasley",
+        "Harry Potter",
+        "Hermione Granger"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "In Noctem",
+      "film": "6_half_blood_prince",
+      "film_code": "HBP",
+      "description": "Choir sequence intercut with McGonagall, Snape and Draco before the Death Eaters attack.",
+      "confidence": "high",
+      "characters": [
+        "Minerva McGonagall",
+        "Severus Snape",
+        "Draco Malfoy"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Dudley's goodbye",
+      "film": "7_deathly_hallows_p1",
+      "film_code": "DH1",
+      "description": "Dudley tells Harry he doesn't think he is a waste of space and asks why he isn't coming with them.",
+      "confidence": "high",
+      "characters": [
+        "Dudley Dursley",
+        "Harry Potter"
+      ]
+    },
+    {
+      "rank": 1,
+      "title": "The Hogwarts anthem",
+      "film": "4_goblet_of_fire",
+      "film_code": "GOF",
+      "description": "The whole school singing the Hogwarts school song, plus the Durmstrang/Beauxbatons arrival context.",
+      "confidence": "high",
+      "characters": [
+        "Albus Dumbledore",
+        "Argus Filch",
+        "Rubeus Hagrid",
+        "Minerva McGonagall",
+        "Severus Snape",
+        "Igor Karkaroff",
+        "Olympe Maxime"
+      ]
+    }
+  ]
+}
