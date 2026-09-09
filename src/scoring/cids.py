@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -18,12 +19,15 @@ from deleted_scenes import (
     films_in_corpus,
 )
 
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
-CORPUS_DIR = os.path.join(PROJECT_ROOT, "output", "corpus")
-SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
-CIDS_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "cids")
-PROMPT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts", "cids_prompt.txt")
-RAW_DIR = "/tmp/harry-potter-cids-raw"
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from paths import (
+    CIDS_DIR,
+    CIDS_PROMPT_FILE as PROMPT_FILE,
+    CONFIG_FILE,
+    CORPUS_DIR,
+    KIRO_CIDS_RAW_DIR as RAW_DIR,
+    KIRO_SCORES_DIR as SCORES_DIR,
+)
 
 os.makedirs(CIDS_DIR, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
@@ -103,6 +107,16 @@ def score_cids(char_name, fp_score, corpus, model):
                 return cached
         if fp_drifted:
             print(f"  [stale] {char_name}: FP moved {cached['fp_score']} -> {fp_score}", flush=True)
+
+        # Invalidated for a reason that makes the per-book chunks wrong too, so the
+        # split cache has to go with it. A retry of failed books only is fine to
+        # keep, since the books that succeeded are still valid.
+        stale_version = cached_version.split(".")[0] != current_version.split(".")[0]
+        if stale_version or fp_drifted:
+            split_dir = os.path.join(CIDS_DIR, f"{safe}_split")
+            if os.path.isdir(split_dir):
+                shutil.rmtree(split_dir)
+                print(f"  [{char_name}] cleared stale split cache", flush=True)
 
     book_text = _prepare_corpus(corpus["books"], "book")
     film_text = _prepare_corpus(corpus["screenplays"], "screenplay")
@@ -202,6 +216,8 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         return []
 
     prompt_template = load_prompt()
+    split_dir = os.path.join(CIDS_DIR, f"{safe}_split")
+    os.makedirs(split_dir, exist_ok=True)
     all_scenes = []
     all_causes = []
     max_sdl = 1
@@ -217,6 +233,23 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         film_scenes = get_film_scenes(book_name)
         if not film_scenes:
             continue
+
+        # Per-book cache, matching what the FP split path already does. Without it
+        # one unparseable chunk meant redoing all seven books, which is both a waste
+        # and a violation of the project's resumability rule.
+        cache_file = os.path.join(split_dir, f"{book_name}.json")
+        if os.path.exists(cache_file):
+            with open(cache_file) as f:
+                parsed = json.load(f)
+            print(f"  [{char_name}][{book_name}] cached, {len(parsed['damaging_scenes'])} damaging scenes", flush=True)
+            scored_books.append(book_name)
+            for scene in parsed["damaging_scenes"]:
+                scene.setdefault("book", book_name)
+            all_scenes.extend(parsed["damaging_scenes"])
+            all_causes.extend(parsed.get("main_damage_causes", []))
+            max_sdl = max(max_sdl, parsed.get("structural_damage_level", 1))
+            continue
+
         book_text = _prepare_corpus(book_scenes, "book")
         film_text = _prepare_corpus(film_scenes, "screenplay")
         prompt = prompt_template.format(
@@ -254,6 +287,9 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
         # needs to know which film a discrepancy belongs to.
         for scene in parsed["damaging_scenes"]:
             scene.setdefault("book", book_name)
+
+        with open(cache_file, "w") as f:
+            json.dump(parsed, f, indent=2)
 
         all_scenes.extend(parsed["damaging_scenes"])
         all_causes.extend(parsed.get("main_damage_causes", []))
@@ -321,7 +357,7 @@ def main():
     parser.add_argument("--workers", type=int, default=10)
     args = parser.parse_args()
 
-    with open(os.path.join(PROJECT_ROOT, "config.yaml")) as f:
+    with open(CONFIG_FILE) as f:
         config = yaml.safe_load(f)
     model = config.get("scoring", {}).get("llm", {}).get("model", "claude-sonnet-4.6")
 
