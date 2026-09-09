@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 Platform 9\u00be twin swap prank",
+      "book_baseline": "In the book, Fred initiates the twin-swap gag with clear comic confidence: 'I'm not Fred, I'm George... Honestly, woman, you call yourself our mother? Can't you tell I'm George?' before revealing 'Only joking, I am Fred.' The humour is sharp and self-assured, with Fred driving the joke.",
+      "film_portrayal": "In the film the lines are redistributed: George says 'He's not Fred, I am!' and Fred delivers 'Honestly, woman, you call yourself our mother.' The joke lands but the attribution of who initiates and who delivers the punchline is swapped/muddled compared to the book, slightly diffusing Fred's individual comic voice.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor redistribution of lines between the twins that slightly flattens Fred's individual initiative in the gag. Because the twins are so frequently interchangeable in the films, this begins a pattern of erasing Fred's slightly more dominant comic role, but in isolation the damage is small.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 4 \u2014 Quidditch Seeker announcement, Fred and George's reaction",
+      "book_baseline": "The book gives Fred and George distinct, individual voices in this moment. Fred says 'Well done' quietly and knowledgeably ('Wood was almost skipping when he told us'), and then both twins express genuine team pride and confidence, before departing to find Lee Jordan's secret passageway \u2014 showing their social energy and independent agency.",
+      "film_portrayal": "In the film, George delivers the lines about their Beater role ('Our job is to make sure that you don't get bloodied up too bad') and the dark Quidditch humour ('But no one's died in years. Someone will vanish occasionally... but they'll turn up in a month or two!'). Fred's only attributed line is 'Brutal.' Fred is reduced to a one-word response while George carries the scene's characterisation.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Fred's book characterisation includes warm team pride and confident, independent humour. In the film this beat is almost entirely handed to George, making Fred a near-silent presence and beginning the pattern of the twins being treated as one interchangeable unit rather than two distinct personalities.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Sorting Hat arrival, 'We got Potter!'",
+      "book_baseline": "The book does not feature a moment where Fred and George shout out about Harry's sorting. Their relationship with Harry at this stage is warm but not yet loudly proprietorial \u2014 they help him at the station and greet him on the train, but their Sorting Hall behaviour is not described as an outburst.",
+      "film_portrayal": "Fred and George shout together 'We got Potter! We got Potter!' when Harry is sorted into Gryffindor. This is a film-only invention that presents them as an indistinct chanting unit rather than individuals.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While not severely damaging, the moment reinforces the film's tendency to fuse the twins into one undifferentiated comic chorus rather than two characters. Fred specifically loses any individual beat here.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 Train scene, Fred's absence from compartment introduction",
+      "book_baseline": "In the book, Fred and George return to Ron's compartment specifically to introduce themselves to Harry by name: 'Fred and George Weasley. And this is Ron, our brother.' This is a warm, socially confident moment establishing Fred and George as individuals who take initiative in welcoming Harry.",
+      "film_portrayal": "The film's train scene (Scene 2) shows no visit by Fred and George to Harry and Ron's compartment. The introduction of Fred and George as individuals \u2014 and their warm, proactive welcome of Harry \u2014 is entirely absent. George's only mention in the train scene is Ron referencing that 'George swore he got a bogey-flavoured one once,' reducing him (and Fred) to off-screen background figures.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's compartment visit is the foundation of Fred and George's relationship with Harry: it shows them as warm, individually named, socially confident people who seek Harry out. Removing it means the film never establishes Fred as someone who personally initiates a connection with Harry, weakening the basis of their friendship and Fred's role as an early welcoming figure in the Weasley family dynamic.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Fred and George are consistently treated as a single interchangeable unit in the film corpus, erasing Fred's slightly more dominant comic voice and individual initiative that the books establish.",
+    "The removal of Fred and George's compartment visit on the Hogwarts Express eliminates the scene that personally establishes Fred's warm, proactive relationship with Harry \u2014 a relationship that is important throughout the saga.",
+    "Fred's individual lines and beats are frequently reassigned to George or delivered jointly, meaning Fred has almost no solo characterisation in the available film corpus."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

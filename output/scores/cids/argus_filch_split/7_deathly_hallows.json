@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Deathly Hallows Part 2 - Great Hall, Filch bursts in shouting 'Students out of bed!'",
+      "book_baseline": "In the book, Filch hobbles in shouting 'Students out of bed! Students in the corridors!' and McGonagall shouts back 'They're supposed to be, you blithering idiot!' Filch then stammers in confusion when told to fetch Peeves, evidently thinking McGonagall has taken leave of her senses, before hobbling away muttering under his breath. He is then assigned a logistical role overseeing evacuation alongside Madam Pomfrey.",
+      "film_portrayal": "The film retains Filch's entrance line and McGonagall's 'blithering idiot' rebuke, but Filch's response is reduced to a submissive 'Oh. Sorry, mum.' He is then given the task of leading the Slytherins to the dungeons. The entire Peeves exchange \u2014 Filch's stammering confusion, his muttering, his quarter-century of complaints about Peeves being turned against him \u2014 is entirely absent. The evacuation overseer role is also lost.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Peeves beat is one of Filch's most characterful moments in the entire saga: McGonagall weaponising Filch's own obsessive grievance against him is darkly comic and deeply true to both characters. Its removal flattens Filch to a simple comic butt. His stammering, muttering departure also establishes his fearful, grumbling nature under pressure. The film replaces all of this with a single deferential 'Oh. Sorry, mum.' which strips the personality exchange down to almost nothing.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Dungeon corridor, Filch escorts Slytherins (CUT SCENE)",
+      "book_baseline": "The book assigns Filch a functional role in the evacuation: he is tasked with overseeing the removal of students alongside Madam Pomfrey, giving him a minor but real logistical agency during the Battle of Hogwarts.",
+      "film_portrayal": "The dungeon scene in which Filch escorts and gloats over the caged Slytherins was cut from the theatrical release per the non-theatrical exclusions. As a result, Filch's entire active participation in the evacuation \u2014 his only moment of agency during the battle sequence \u2014 is absent from the film.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "With the dungeon scene cut, Filch has no functional role in the battle at all beyond a brief comedic interruption. The book gives him a genuine, if modest, task. The film leaves him as a momentary punchline who then disappears from the narrative. This reduces his presence from a minor participant to comic relief with no follow-through.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Great Hall aftermath, 'Filch communes with Mrs. Norris'",
+      "book_baseline": "The book does not isolate a specific post-battle beat for Filch, but his overall characterisation across the series establishes Mrs. Norris as his obsessive companion and primary emotional relationship \u2014 a source of genuine pathos beneath his unpleasantness.",
+      "film_portrayal": "The film reduces Filch's entire post-battle presence to a single stage direction: 'Filch communes with Mrs. Norris.' This is his only beat in the aftermath scene. While not actively unfaithful to his attachment to Mrs. Norris, it is so slight \u2014 placed between named characters having meaningful emotional moments \u2014 that it functions more as a throwaway background gag than as genuine characterisation.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a marginal entry: the Mrs. Norris relationship is at least nodded to. However, given that it is the only post-battle presence Filch has, and given that his arm is described as gushing blood in the triage scene (Film Corpus Scene 3) with no follow-up or acknowledgement, this fleeting background beat does very little to honour even the limited emotional texture Filch carries in the source material. Confidence is low due to minimal corpus evidence.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Deathly Hallows Part 2 - Great Hall triage scene, Filch's arm gushes blood",
+      "book_baseline": "The book does not feature a specific scene of Filch being wounded, but his role as an active participant in the castle's defence \u2014 however peripheral \u2014 is consistent with his assignment during the battle.",
+      "film_portrayal": "The film corpus (Scene 3) notes 'Filch's arm gushes blood' in the triage scene, establishing that he was wounded in the battle. However, this detail receives no dialogue, no acknowledgement from other characters, and no follow-up. It exists only as background set dressing.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The wound detail is present but entirely unexplored. It could have served as a small but meaningful beat \u2014 the cantankerous squib who nonetheless bled for Hogwarts \u2014 but instead it registers as incidental background. This is a minor loss, and confidence is low given how briefly it appears in the corpus.",
+      "book": "7_deathly_hallows"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Removal of the Peeves exchange strips Filch's most characterful and comedically rich moment in the final film, replacing a layered personality beat with a single submissive line",
+    "The cut dungeon escort scene eliminates Filch's only moment of active agency during the Battle of Hogwarts, leaving him as pure comic interruption with no functional role",
+    "Filch's post-battle presence is reduced to a single throwaway background note, forfeiting any residual emotional texture his character carried"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

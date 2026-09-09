@@ -1,0 +1,65 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 - Slughorn's dinner party on the train: Neville stares at cutlery and asks 'Which one do I use for the soup?'",
+      "book_baseline": "Book Scene 50: At Slughorn's train compartment lunch, Neville sits through an uncomfortable ten minutes being interviewed about his tortured, heroic parents. He also actively defends Harry by saying 'We never heard a prophecy' (Book Scene 53), turning geranium pink but still speaking up. He is presented as someone Slughorn is 'reserving judgment on' for potential flair. His presence is grounded in his Ministry heroism and his parentage.",
+      "film_portrayal": "The film relocates Slughorn's gathering to a dinner party at Hogwarts and replaces Neville's substantive characterization with a single comedic beat: he stares helplessly at cutlery and asks which fork to use for soup, playing him as socially inept and clueless rather than quietly courageous.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to show Neville has earned his place through bravery and to hint at his heroic lineage. The film reduces him to a buffoon punchline, stripping the moment of any dignity or characterization value and replacing courage/potential with social incompetence.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 4 - Slughorn's Christmas party: Neville appears as a waiter serving drinks, not as an invited guest",
+      "book_baseline": "Book Scenes 12-14 and 24: Neville is explicitly recognized publicly as someone who fought Death Eaters at the Ministry. His grandmother is proud he is 'starting to live up to his dad.' Book Scene 50 establishes that Slughorn is reserving judgment on whether Neville has his parents' flair \u2014 treating him as a candidate worth evaluating. Neville has social standing earned through his bravery.",
+      "film_portrayal": "Neville tells Harry 'I didn't make the cut for the Slug Club. It's okay. He's got Belby handing out towels in the loo,' and is shown serving drinks on a tray \u2014 framed as a low-status figure doing menial labor at the party rather than a guest.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This actively contradicts the book's trajectory where Neville, post-Ministry, is gaining recognition and respect. The film instead signals his social irrelevance and low standing. The self-deprecating 'it's okay' delivery also flattens his character into resigned comedy rather than quiet dignity. It damages the book's arc of Neville beginning to be recognized for his own courage and worth.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 1 - Quidditch tryouts montage: Neville sidesteps Bludgers as a passive bystander joke (repeated twice)",
+      "book_baseline": "The book corpus does not place Neville at Quidditch tryouts as a spectator joke. More broadly, Book Scenes 14, 24-25, 75-77 establish Neville post-Ministry as someone growing in confidence and receiving genuine recognition \u2014 from his grandmother, from McGonagall, and implicitly from his peers. He is shown as earnest and improving, not as a comic prop.",
+      "film_portrayal": "Neville appears twice in the Quidditch tryouts montage solely as a sight gag: everyone else flees incoming Bludgers while Neville remains, sidling left then right, used purely for a repeated physical comedy beat with no dialogue or agency.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While minor in isolation, this reinforces a pattern across the film corpus of using Neville exclusively as comic relief \u2014 a passive, oblivious figure rather than an increasingly capable and courageous one. It contributes to a cumulative flattening of his post-Ministry growth arc.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 2 / Film Scene 4 combined: Absence of Neville's defensive speech protecting Harry from Slughorn ('We never heard a prophecy')",
+      "book_baseline": "Book Scene 53: When Slughorn presses Harry about the prophecy, Neville turns 'geranium pink' but speaks up directly: 'We never heard a prophecy.' This is a small but meaningful act of loyalty and quiet courage \u2014 Neville choosing to protect Harry even while embarrassed, in front of an intimidating adult.",
+      "film_portrayal": "The film's Slughorn gatherings (train dinner relocated to Hogwarts dinner party, Christmas party) contain no equivalent moment. Neville has no lines of substance in either gathering that demonstrate loyalty, courage, or protectiveness toward Harry.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The omission removes a beat that defines the Harry-Neville friendship dynamic: Neville acting as a loyal ally even under social pressure. Combined with the cutlery joke replacing the train dinner, the film loses all evidence of Neville's active loyalty and replaces it with passive comedy.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 4: Absence of McGonagall scene validating Neville and pushing back against his grandmother's expectations",
+      "book_baseline": "Book Scenes 74-77: McGonagall tells Neville his grandmother should 'be proud of the grandson she's got, rather than the one she thinks she ought to have \u2014 particularly after what happened at the Ministry.' Neville turns pink with 'delighted incredulity' at receiving a compliment. McGonagall also reveals Augusta failed her own Charms O.W.L. This scene validates Neville's identity independent of his parents' legacy and is a key step in his arc toward self-acceptance.",
+      "film_portrayal": "The film corpus contains no equivalent scene. The only Neville material in the corpus is the cutlery joke, the waiter cameo, and the Quidditch montage sidesteps.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This is one of the most important Neville scenes in Book 6 \u2014 it directly addresses his core wound (living in the shadow of his parents and his grandmother's impossible expectations) and marks genuine emotional progress. Its absence means the film never acknowledges Neville's internal struggle or his growth. This is arc-level damage to his trajectory toward becoming his own person.",
+      "book": "6_half_blood_prince"
+    }
+  ],
+  "structural_damage_level": 3,
+  "main_damage_causes": [
+    "Systematic reduction of Neville to comic relief (cutlery joke, waiter role, Bludger sidestep gag) at the expense of his post-Ministry dignity and growing confidence",
+    "Omission of key arc material \u2014 particularly the McGonagall scene \u2014 that validates Neville's identity independent of his parents' heroic legacy and directly addresses his emotional core wound",
+    "Loss of Neville's active loyalty to Harry (the 'We never heard a prophecy' moment) reducing him from a courageous friend to a passive background figure in scenes where the book gives him meaningful agency"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  }
+}

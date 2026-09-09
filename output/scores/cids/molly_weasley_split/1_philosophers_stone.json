@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 King's Cross, Molly directs the family to Platform 9\u00be without any mention of not knowing the platform number",
+      "book_baseline": "In the book, Molly asks 'Now, what's the platform number?' \u2014 a small but humanising detail showing she can momentarily forget routine information, making her a relatable, imperfect mother rather than an all-knowing guide.",
+      "film_portrayal": "In the film Molly strides in confidently declaring 'Platform 9\u00be this way!' with no hesitation or need to recall the number, removing the brief moment of ordinary maternal fallibility.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A very small loss, but the book's detail grounds Molly as a busy, imperfect parent. The film replaces this with unbroken competence, slightly flattening her humanity at the very first impression.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Molly's warm aside about Harry after he boards the train is absent",
+      "book_baseline": "After Harry boards, Molly says to the twins 'Poor dear \u2014 no wonder he was alone, I wondered. He was ever so polite when he asked how to get onto the platform.' This establishes her immediate maternal empathy for Harry as an isolated, parentless child \u2014 a foundation for her surrogate-mother role across the series.",
+      "film_portrayal": "The film ends the platform sequence with Ginny wishing Harry 'Good luck' and Molly's line about Harry is entirely absent. There is no moment where Molly privately registers Harry's loneliness or speaks warmly of him to her family.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This line is the book's first seed of Molly's surrogate-mother bond with Harry. Her noticing his isolation and speaking of him with gentle pity signals that she sees and cares for him before she even knows who he is. Losing it means the film never plants the emotional root of one of the saga's most important parental relationships.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Molly's stern rebuke of Fred about asking Harry regarding Voldemort is absent",
+      "book_baseline": "When Fred says he wants to ask Harry what Voldemort looks like, Molly becomes 'very stern' and says 'I forbid you to ask him, Fred. No, don't you dare. As though he needs reminding of that on his first day at school.' This shows her moral authority, her protective instinct for a child she barely knows, and her emotional intelligence about trauma.",
+      "film_portrayal": "No equivalent exchange appears in the film corpus. Molly does not display this protective sternness toward Harry on the platform.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This moment does significant characterisation work: it shows Molly exercising firm moral authority within her family while extending fierce protection to an outsider child. It foreshadows her later role as Harry's fiercest non-Dumbledore protector. Its absence removes an early demonstration of the courage and empathy that define her function in the saga.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Molly's emotional farewell (handkerchief, kisses, waving until the train disappears) is reduced",
+      "book_baseline": "The book details Molly taking out her handkerchief, grabbing Ron to clean his nose, kissing Percy on the cheek, watching all three boys lean out of the window for goodbye kisses, and then waving until the train rounds the corner and disappears \u2014 a sustained portrait of warm, slightly fussy maternal love.",
+      "film_portrayal": "The film corpus shows Molly directing traffic to the platform and giving Ron the 'Best do it at a bit of a run' instruction, but contains no equivalent farewell sequence with handkerchief, nose-wiping, or sustained waving goodbye.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The farewell beat is the clearest early illustration of Molly's defining trait: warm, tactile, slightly overwhelming maternal love. Trimming it to logistical instruction reduces her first impression from 'the mother Harry never had' to a helpful stranger, weakening the emotional contrast with the Dursleys that the books use to characterise her.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 3,
+  "main_damage_causes": [
+    "Loss of Molly's private empathetic recognition of Harry's loneliness, which is the foundational seed of her surrogate-mother relationship with him",
+    "Removal of her stern, protective moral authority when she forbids Fred from questioning Harry about Voldemort, stripping an early demonstration of her core agency and courage",
+    "Reduction of the warm, fussy farewell sequence that establishes her defining personality trait and the emotional atmosphere of the Weasley family"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 Great Hall/dormitory context: Dean Thomas has no lines or identified presence",
+      "book_baseline": "Book Scene 4\u20135 establish Dean Thomas as a distinct personality in the Gryffindor dormitory: he has a West Ham soccer poster on his wall, engages in a spirited argument with Ron about soccer vs. Quidditch, and is characterized by his passion for the sport and his identity as a football fan.",
+      "film_portrayal": "Dean Thomas is not given any lines, reactions, or identifiable presence in the film corpus. He is referenced by name once ('Dean: Hey, look! Neville's got a Remembrall!') but this single line contains no personality, no soccer identity, and no dormitory dynamic with Ron.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses the Ron-vs-Dean soccer argument as an early, efficient piece of characterization: it establishes Dean's Muggle background, his passion, and his distinct voice within the dormitory group. The film omits this entirely, reducing Dean to a near-silent background figure with no distinguishable personality in the early scenes.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Quidditch match sequence: Dean's 'red card' moment is absent",
+      "book_baseline": "Book Scenes 12\u201316 give Dean Thomas one of his most memorable early characterization moments: during the Quidditch match he shouts 'Send him off, ref! Red card!', drawing on his soccer knowledge. This prompts an exchange with Ron ('But this isn't soccer, Dean') and even earns Hagrid's agreement. It is a comedic, character-defining beat that reinforces his Muggle-world identity and his integration into the Gryffindor support group.",
+      "film_portrayal": "The Quidditch match does not appear in the film corpus provided, and no equivalent 'red card' moment or Dean-Ron exchange is present. Dean has no presence in the Quidditch match context within the corpus.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The 'red card' beat is the clearest expression of Dean's Muggle-rooted identity in the early books \u2014 it is funny, character-specific, and signals his place within the group. Its absence means Dean loses his most distinctive early personality marker, flattening him from a character with a recognizable voice into a generic background student.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 First Quidditch match banner: Dean's artistic contribution is unacknowledged",
+      "book_baseline": "Book Scene 9\u201310 explicitly state that Dean, 'who was good at drawing,' drew the large Gryffindor lion on the 'Potter for President' banner. This is a small but meaningful detail that gives Dean a defined skill and shows his active investment in supporting Harry.",
+      "film_portrayal": "The film corpus does not contain this scene or any attribution of the banner artwork to Dean. His artistic skill and active contribution to the group's support of Harry are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While minor in isolation, this detail is part of a cumulative pattern of the film stripping Dean of every individualizing trait the book assigns him. His artistic ability is a small but real personality note that contributes to him feeling like a full character rather than a named extra.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Dean Thomas's Muggle-rooted identity (soccer fandom, 'red card' moment, West Ham poster) is entirely absent from the film corpus, removing his most distinctive characterization layer.",
+    "Dean is given no meaningful lines or exchanges in the film corpus that reflect his book personality, reducing him from a distinct dormitory presence to a named background figure.",
+    "The cumulative omission of all three individualizing book details (soccer argument, red card shout, artistic contribution to the banner) means no single film moment compensates for the lost characterization."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

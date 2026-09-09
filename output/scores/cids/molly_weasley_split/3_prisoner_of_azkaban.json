@@ -1,0 +1,35 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (Leaky Cauldron / King's Cross departure) \u2014 Mr. Weasley warns Harry alone",
+      "book_baseline": "In the book, the warning to Harry originates from a private argument between Mr. AND Mrs. Weasley overheard by Harry. Mrs. Weasley is an active, vocal participant: she opposes telling Harry ('Arthur, the truth would terrify him!'), expresses her own reasoned position about Dumbledore's protection, and ultimately defers to Arthur's judgment ('Well, Arthur, you must do what you think is right'). She is a full co-author of the decision about Harry's safety.",
+      "film_portrayal": "The film collapses the entire information-delivery scene into a one-on-one conversation between Mr. Weasley and Harry. Mrs. Weasley is present at the station only to hand Scabbers through the train window to Ron. She has no dialogue related to Sirius Black, no expressed opinion, and no role in the decision to warn Harry. Her competing maternal instinct (protect Harry from fear vs. put him on guard) is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book establishes Mrs. Weasley as someone with genuine moral agency in the question of Harry's safety \u2014 she has a coherent, loving but misguided position (shield him from terror) that Arthur must actively argue against. The film removes this entirely, reducing her to a background domestic gesture (passing a rat through a window) while Arthur does all the substantive parenting of Harry. This is not a minor omission: her argument is the dramatic engine that makes Arthur's warning feel hard-won and contextualised. Her absence transfers all parental authority to Arthur and erases her as a protective decision-maker.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2 (Leaky Cauldron departure) \u2014 Mrs. Weasley's sole on-screen action",
+      "book_baseline": "The book shows Mrs. Weasley as brisk, warm, and managerially competent at the departure: she greets Harry affectionately, ensures everyone is packed, redirects the chaos of a large family, and is emotionally present. She also hugs Harry warmly at King's Cross on return (Book Scene 62), signalling consistent maternal warmth toward him throughout the year.",
+      "film_portrayal": "Film Scene 1 gives Mrs. Weasley one warm moment \u2014 taking Harry's face in her hands and saying 'It's good to see you, Harry' \u2014 which is faithful. However, in Film Scene 2, her only action is calling 'Ron!' and passing Scabbers through a train window. This reduces her departure-scene presence to a logistical prop hand-off rather than the emotionally and practically engaged mother the books depict.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor in isolation, but it compounds the larger pattern of diminishing her presence at a key transitional moment. The warm greeting in Scene 1 partially compensates, keeping impact weight low. Scored separately because it is a distinct beat from the warning-scene omission.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Removal of Mrs. Weasley's active role in the Sirius Black warning decision, collapsing a two-parent moral debate into a solo Mr. Weasley scene and stripping her of agency on Harry's safety",
+    "Corpus is very limited (only two film scenes and a narrow book selection), meaning additional damaging moments likely exist beyond what can be evidenced here \u2014 confidence is constrained by corpus size",
+    "Her reduction to domestic background actions (passing Scabbers, brief greeting) at the departure sequence undercuts the book's portrait of her as a competent, emotionally central family authority"
+  ],
+  "confidence": {
+    "global": "Low",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

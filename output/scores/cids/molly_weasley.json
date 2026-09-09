@@ -2,298 +2,358 @@
   "character": "Molly Weasley",
   "fp_score": 81.0,
   "infidelity_score": 19.0,
-  "weighted_infidelity_exposure": 87.0,
-  "cids": 168.8,
-  "damage_per_exposure": 5.0,
-  "structural_damage_level": 3,
-  "adjusted_cids": 168.8,
+  "weighted_infidelity_exposure": 91.0,
+  "cids": 185.9,
+  "damage_per_exposure": 5.4,
+  "structural_damage_level": 4,
+  "adjusted_cids": 185.9,
   "main_damage_causes": [
-    "Omission of Molly's protective intervention shielding Harry from Fred and George's questions, which is the earliest and clearest signal of her surrogate-maternal relationship with Harry",
-    "Loss of the full Weasley farewell sequence, which is the primary book vehicle for establishing Molly as the emotional and moral center of her family",
-    "Compression of Molly's warmth and attentiveness toward Harry into a more functional exchange, reducing the depth of her first impression as instinctively maternal toward a stranger's child",
-    "Compression of Mrs. Weasley's extended maternal anger into brief interruptions, softening her most defining character trait \u2014 the terrifying but loving disciplinarian \u2014 into a background warm presence",
-    "Complete omission of the Arthur/Molly car confrontation, which is the book's richest scene for her intelligence, political awareness, and marital agency"
+    "Loss of Molly's private empathetic recognition of Harry's loneliness, which is the foundational seed of her surrogate-mother relationship with him",
+    "Removal of her stern, protective moral authority when she forbids Fred from questioning Harry about Voldemort, stripping an early demonstration of her core agency and courage",
+    "Reduction of the warm, fussy farewell sequence that establishes her defining personality trait and the emotional atmosphere of the Weasley family",
+    "Compression of Mrs. Weasley's sustained maternal fury into brief outbursts, reducing her from a formidably complex figure to a functional background presence",
+    "Elimination of the Arthur/Molly marriage dynamic (the car argument, the post-brawl scolding), which is the primary vehicle for her wit, intelligence, and relational depth"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 \u2013 King's Cross, Molly instructs Harry on the platform",
-      "book_baseline": "In the book, Molly notices Harry looking lost, warmly asks if it's his first time, explains the platform with kindness and reassurance ('Not to worry'), and then adds the important instruction: 'Don't stop and don't be scared you'll crash into it, that's very important.' She also points out Ron as equally new, creating an immediate maternal warmth and gentle social bridge.",
-      "film_portrayal": "The film omits Molly's unprompted noticing of Harry and her organic offer of help. Harry has to approach her. More significantly, the film cuts the reassurance about not being scared and the full instruction about not stopping \u2014 reducing her guidance to a briefer, less emotionally textured exchange. The warmth is present but compressed, losing the specificity of her maternal attentiveness.",
+      "scene": "Film Scene 1 \u2014 King's Cross, Molly directs the family to Platform 9\u00be without any mention of not knowing the platform number",
+      "book_baseline": "In the book, Molly asks 'Now, what's the platform number?' \u2014 a small but humanising detail showing she can momentarily forget routine information, making her a relatable, imperfect mother rather than an all-knowing guide.",
+      "film_portrayal": "In the film Molly strides in confidently declaring 'Platform 9\u00be this way!' with no hesitation or need to recall the number, removing the brief moment of ordinary maternal fallibility.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book establishes Molly's instinctive maternal attentiveness to a stranger's child as a defining first impression. The film retains the functional beat but trims the emotional texture, causing minor but real loss of her characterization as warmly perceptive rather than simply reactive."
+      "explanation": "A very small loss, but the book's detail grounds Molly as a busy, imperfect parent. The film replaces this with unbroken competence, slightly flattening her humanity at the very first impression.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 \u2013 King's Cross, Fred/George twins mix-up",
-      "book_baseline": "In the book, the twins' mix-up line ('Honestly, woman, you call yourself our mother?') is spoken by George pretending to be Fred, and then Fred confirms the joke. Molly's response is warm and slightly flustered ('Sorry, George, dear'), showing she is the butt of a familiar joke but entirely unrattled and fond.",
-      "film_portrayal": "In the film the lines are redistributed: George says 'He's not Fred, I am!' and Fred delivers 'Honestly, woman, you call yourself our mother.' The beat itself is preserved, but the attribution is shuffled. More notably, Molly's apology ('Oh, I'm sorry, George') is present but her warm, unflappable fondness is slightly flattened \u2014 the film moves through it quickly without the book's gentle comedic rhythm of her being genuinely, amusingly fooled.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor shuffling of who says what, and the compression of Molly's reaction, marginally reduces the portrayal of her as a mother who is cheerfully outwitted by her own children yet entirely good-humored about it. Damage is small but present."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 King's Cross, omission of Molly's warning about Harry and Fred/George",
-      "book_baseline": "The book includes a crucial beat: after Fred and George learn Harry's identity on the train, Molly becomes 'very stern' and forbids them from asking Harry about Voldemort \u2014 'I forbid you to ask him, Fred. No, don't you dare. As though he needs reminding of that on his first day at school.' This shows Molly's protective instinct extending to a child she has only just met, her moral authority over her sons, and her emotional intelligence about trauma.",
-      "film_portrayal": "This beat is entirely absent from the film corpus. The film ends the platform scene after Ginny wishes Harry good luck, with no equivalent moment of Molly shielding Harry from intrusive questions about his past.",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 1 \u2014 Molly's warm aside about Harry after he boards the train is absent",
+      "book_baseline": "After Harry boards, Molly says to the twins 'Poor dear \u2014 no wonder he was alone, I wondered. He was ever so polite when he asked how to get onto the platform.' This establishes her immediate maternal empathy for Harry as an isolated, parentless child \u2014 a foundation for her surrogate-mother role across the series.",
+      "film_portrayal": "The film ends the platform sequence with Ginny wishing Harry 'Good luck' and Molly's line about Harry is entirely absent. There is no moment where Molly privately registers Harry's loneliness or speaks warmly of him to her family.",
+      "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is one of the book's most revealing Molly moments in this sequence: she spontaneously extends maternal protection to a child not her own, demonstrates emotional sensitivity about trauma, and asserts firm authority over Fred and George. Its absence removes a key early signal that Molly will come to function as a surrogate mother to Harry, weakening the foundation of one of the saga's most important surrogate-family relationships."
+      "explanation": "This line is the book's first seed of Molly's surrogate-mother bond with Harry. Her noticing his isolation and speaking of him with gentle pity signals that she sees and cares for him before she even knows who he is. Losing it means the film never plants the emotional root of one of the saga's most important parental relationships.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 \u2013 King's Cross, omission of platform farewell and emotional send-off",
-      "book_baseline": "The book depicts Molly kissing Percy, warning the twins about their behavior ('if I get one more owl telling me you've blown up a toilet'), affectionately engaging with Ron ('Ron, you've got something on your nose'), and waving the children off with visible emotion as Ginny runs alongside the train crying. Molly is shown as the emotional anchor of the Weasley family departure.",
-      "film_portrayal": "The film corpus ends the platform scene with Molly's instruction to Harry and Ginny's 'Good luck.' The full farewell sequence \u2014 the nose-wiping, the behavioral warning to the twins, Percy's prefect moment, the emotional wave, and Ginny running after the train \u2014 is absent from the provided film corpus.",
-      "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The farewell sequence is the book's primary vehicle for establishing Molly as the warm, slightly harried, deeply loving center of the Weasley family. Its absence in the film corpus significantly reduces the audience's early understanding of her relationship with each child and her role as the family's emotional core. This is foundational to the Weasley family dynamic throughout the saga."
+      "scene": "Film Scene 1 \u2014 Molly's stern rebuke of Fred about asking Harry regarding Voldemort is absent",
+      "book_baseline": "When Fred says he wants to ask Harry what Voldemort looks like, Molly becomes 'very stern' and says 'I forbid you to ask him, Fred. No, don't you dare. As though he needs reminding of that on his first day at school.' This shows her moral authority, her protective instinct for a child she barely knows, and her emotional intelligence about trauma.",
+      "film_portrayal": "No equivalent exchange appears in the film corpus. Molly does not display this protective sternness toward Harry on the platform.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This moment does significant characterisation work: it shows Molly exercising firm moral authority within her family while extending fierce protection to an outsider child. It foreshadows her later role as Harry's fiercest non-Dumbledore protector. Its absence removes an early demonstration of the courage and empathy that define her function in the saga.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 (Burrow arrival) - Mrs. Weasley's scolding of the boys",
-      "book_baseline": "Book establishes a sustained, multi-phase rage: Mrs. Weasley first scolds her sons at length with escalating fury ('It seemed to go on for hours. Mrs. Weasley had shouted herself hoarse'), producing genuine fear and guilt in all three sons who 'cowered as her rage broke over them.' The confrontation includes specific accusations about Percy's behavior, Mr. Weasley's job being at risk, and the dangerous nature of the flight. The anger is real and prolonged.",
-      "film_portrayal": "The film compresses the scolding into a brief burst ('Beds empty! No note! You could've died! You could've been seen!') that is almost immediately interrupted by the switch to welcoming Harry. The extended, hoarse-voiced maternal fury that dominates a full scene in the book is reduced to a few lines sandwiched between warm greetings to Harry. The cowering dynamic and the specific accusations (Percy's example, Arthur's job) are absent.",
+      "scene": "Film Scene 1 \u2014 Molly's emotional farewell (handkerchief, kisses, waving until the train disappears) is reduced",
+      "book_baseline": "The book details Molly taking out her handkerchief, grabbing Ron to clean his nose, kissing Percy on the cheek, watching all three boys lean out of the window for goodbye kisses, and then waving until the train rounds the corner and disappears \u2014 a sustained portrait of warm, slightly fussy maternal love.",
+      "film_portrayal": "The film corpus shows Molly directing traffic to the platform and giving Ron the 'Best do it at a bit of a run' instruction, but contains no equivalent farewell sequence with handkerchief, nose-wiping, or sustained waving goodbye.",
       "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The book's Molly Weasley is fearsome in her maternal anger \u2014 her rage is a defining character trait that establishes her as a force of nature, not merely a warm background mother. The film softens this into a brief interruption, losing the 'saber-toothed tiger' energy the book explicitly invokes and reducing her authority within her own household."
+      "explanation": "The farewell beat is the clearest early illustration of Molly's defining trait: warm, tactile, slightly overwhelming maternal love. Trimming it to logistical instruction reduces her first impression from 'the mother Harry never had' to a helpful stranger, weakening the emotional contrast with the Dursleys that the books use to characterise her.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 (Burrow arrival) - Absence of the Arthur/Molly car confrontation",
-      "book_baseline": "The book contains a distinct, significant scene in which Mrs. Weasley confronts Mr. Weasley about the enchanted car, wielding a 'long poker like a sword,' her 'eyes flashing,' accusing him of deliberately writing a loophole into the law so he could tinker with Muggle artefacts. This scene shows Molly as perceptive, politically astute, and willing to confront her husband forcefully on matters of integrity and family safety. It is a fully developed marital confrontation with wit and depth.",
-      "film_portrayal": "The film entirely omits this confrontation. Mr. Weasley's enchanted car is mentioned only in passing by Mrs. Weasley in a single line to Arthur ('This morning. Your sons flew that enchanted car of yours to Surrey house and back last night'), with no confrontation about Arthur's loophole, no poker, no 'eyes flashing,' no marital dynamic around his Muggle obsession.",
+      "scene": "Film Scene 1 (Burrow arrival) \u2014 Mrs. Weasley's confrontation with the boys",
+      "book_baseline": "Book establishes a multi-stage confrontation: Mrs. Weasley shouts at length about empty beds, no note, the car, Percy's example, losing Arthur his job, and potential expulsion \u2014 'It seemed to go on for hours. Mrs. Weasley had shouted herself hoarse.' The tirade is sustained and furious before she pivots warmly to Harry.",
+      "film_portrayal": "The film compresses the confrontation to a few lines: 'Beds empty! No note! You could've died! You could've been seen!' before immediately pivoting to Harry. The extended, multi-concern dressing-down is cut to a brief outburst.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's extended tirade establishes Mrs. Weasley's fierce, exhausting protective fury as a defining character trait \u2014 she is not merely briefly cross but genuinely terrifying in her love-fuelled rage. The film reduces this to a snapshot, losing the texture of her formidable maternal authority.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 1 (Burrow arrival) \u2014 Omission of the Arthur/Molly car argument",
+      "book_baseline": "Book has a full scene where Mrs. Weasley confronts Arthur holding a poker 'like a sword,' accuses him of building a loophole into his own law to enchant the car, and the married couple's comic-combative dynamic over his Muggle obsession is fully played out.",
+      "film_portrayal": "The film omits the Arthur/Molly argument entirely. Arthur arrives, is told the boys flew the car, reacts with barely suppressed delight, and Mrs. Weasley's response is limited to a single dark line. There is no poker, no loophole accusation, no sparks from her eyes.",
       "damage_type": "relationship",
-      "exposure": 2,
+      "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This scene is the richest portrayal of the Weasley marriage dynamic in the book corpus. It shows Molly as someone who holds Arthur accountable, who is politically aware (she knows he wrote the loophole), and who loves her family fiercely enough to confront her husband. Removing it collapses the Weasley marriage into a warm but dimensionless partnership, and loses a key moment of Molly's agency and intelligence."
+      "explanation": "The book scene establishes the Weasley marriage as a rich, lived-in dynamic: Molly is sharp enough to have caught Arthur's legal self-serving, she holds her own against him with wit and anger, and their bond is defined by affectionate exasperation. Its absence flattens both her intelligence and the central Weasley family relationship.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 1 (Burrow arrival) - Lockhart fan moment",
-      "book_baseline": "The book establishes Mrs. Weasley's Lockhart crush as a running gag with textual evidence: she pulls out 'Gilderoy Lockhart's Guide to Household Pests,' 'beamed down at him,' says 'Oh, he is marvelous,' and blushes pink when Fred says 'Mum fancies him.' This is part of a broader characterization showing Molly as a real person with foibles and enthusiasms beyond motherhood.",
-      "film_portrayal": "The film retains a vestige of this in Flourish and Blotts \u2014 Mrs. Weasley pats her hair at the sight of Lockhart, and Ron says 'Mum fancies him,' earning a jab in the shoulder. The Burrow scene with the book and the blushing is absent. The retained moment is brief and played mostly for Ron's joke rather than for Molly's characterization.",
+      "scene": "Film Scene 1 (Burrow arrival) \u2014 Lockhart book / de-gnoming scene omitted",
+      "book_baseline": "Book has Mrs. Weasley beaming over Lockhart's Guide to Household Pests, consulting it for de-gnoming, going pink when Fred says 'Mum fancies him,' and insisting on following Lockhart's advice over her sons' practical knowledge. The scene shows her as starstruck, slightly vain, and humorously self-deceiving.",
+      "film_portrayal": "This scene is entirely absent. Mrs. Weasley's Lockhart infatuation at the Burrow is not shown. The only hint is her patting her hair at Flourish and Blotts.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
+      "exposure": 1,
       "impact_weight": 1,
-      "explanation": "The Lockhart crush is a minor humanizing trait. The film retains just enough of it (hair-patting, Ron's quip) that this is a partial rather than complete loss. The damage is modest \u2014 the trait survives, but the warmer, funnier Burrow version with blushing and book-waving is gone."
+      "explanation": "The de-gnoming scene provides comic characterisation of Molly as a woman with ordinary human vanities beneath her formidable exterior. Its absence is minor but removes a layer of warmth and self-deprecating humour from her portrayal.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 2 (Howler scene) - Mrs. Weasley's Howler",
-      "book_baseline": "The book's Howler covers specific content: the stolen car, Dumbledore's letter making Arthur face an inquiry at work, and the threat to bring the boys home. It produces genuine guilt in Harry ('His insides were burning with guilt. Mr. Weasley was facing an inquiry at work. After all Mr. and Mrs. Weasley had done for him over the summer'). The book also references the letter arriving separately and describing Mrs. Weasley's accumulated grievances.",
-      "film_portrayal": "The film Howler is a dramatic set piece in the Great Hall, but the content shifts: it includes 'YOUR FATHER'S FACING AN INQUIRY AT WORK' and the threat to bring them home, which are book-accurate. However, it then breaks tone entirely by suddenly softening mid-Howler to sweetly congratulate Ginny on making Gryffindor ('Oh, and Ginny dear. Congratulations on making Gryffindor. Your father and I are so proud'). This tonal whiplash is a film invention not present in the book corpus.",
-      "film_portrayal_note": "The sweet Ginny postscript plays the Howler as comedy and deflates Molly's genuine fury into a punchline.",
+      "scene": "Film Scene 2 (Flourish and Blotts) \u2014 Mrs. Weasley's Lockhart excitement reduced",
+      "book_baseline": "Book has Mrs. Weasley arriving breathless, 'kept patting her hair,' saying 'We'll be able to see him in a minute' with barely concealed excitement, and later beaming at the Lockhart photo. Her starstruck quality is a running comic thread.",
+      "film_portrayal": "Film shows Mrs. Weasley patting her hair briefly at the sight of Lockhart, Ron says 'Mum fancies him,' and she jabs him. It is present but truncated to a single beat with no sustained breathless anticipation.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "In the book, the Howler's effect is to make Harry feel genuine guilt and dread. The film's comedic Ginny postscript undercuts the terror of the Howler and repositions Molly's fury as essentially performative \u2014 she can't even get through a rage-letter without going soft. It reduces her disciplinary authority by playing her anger for laughs."
+      "impact_weight": 1,
+      "explanation": "Marginal reduction \u2014 the trait is present in the film, just compressed. Minor damage to the comic texture of her character.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 3 (Dumbledore's office resolution) - Mrs. Weasley's reduced presence at the Chamber of Secrets aftermath",
-      "book_baseline": "The book establishes that Mrs. Weasley 'had been sitting crying in front of the fire' and 'leapt to her feet' when Harry and Ron arrived, then 'both of them flung themselves on their daughter' and she asked 'You saved her! You saved her! How did you do it?' She also physically embraces Harry. Her emotional state \u2014 the terror of nearly losing Ginny \u2014 is fully rendered, and she is present for the full revelation scene with Dumbledore and McGonagall.",
-      "film_portrayal": "In the film, Mrs. Weasley's appearance is reduced to her voice carrying from off-screen as she escorts Ginny to the hospital wing: 'A diary that writes back to you! Honestly, Ginny! What were you thinking? Haven't I always told you? Never trust anything that can think for itself if you can't see where it keeps its brain!' She is not shown embracing Harry, not shown crying, not shown in the full tearful reunion the book depicts.",
+      "scene": "Film Scene 2 (Flourish and Blotts) \u2014 Bookshop brawl: Mrs. Weasley's role reduced",
+      "book_baseline": "Book has Mrs. Weasley actively present during the fight, shrieking 'No, Arthur, no!' and afterward being 'beside herself with fury' at Arthur, scolding him about 'brawling in public' and what Lockhart must have thought \u2014 she is the moral voice of reproach and her anger at Arthur is sustained through the street and back to the Leaky Cauldron.",
+      "film_portrayal": "In the film, the brawl is defused by Hagrid physically restraining Arthur before it escalates. Mrs. Weasley has no audible role in or after the confrontation. The aftermath scolding of Arthur is absent entirely.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's Chamber aftermath is one of Mrs. Weasley's most emotionally significant moments \u2014 the relief of a mother who nearly lost her daughter, the tearful embracing of Harry as a member of the family. The film removes her physical presence from the scene entirely and replaces her emotional reunion with a comedic off-screen scolding line. This eliminates her maternal emotional arc around the central crisis of the book and reduces her to a voice gag at the story's climax."
+      "impact_weight": 2,
+      "explanation": "The book gives Mrs. Weasley the function of the adult moral check \u2014 she is the one who condemns the public brawl and holds Arthur accountable. Transferring the de-escalation to Hagrid and removing her aftermath fury loses her authority and her specific dynamic with Arthur of loving reproach.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 2 (Leaky Cauldron / King's Cross departure) \u2014 Mr. Weasley warns Harry alone, Molly absent",
-      "book_baseline": "Book Scenes 27\u201345 establish that the warning conversation is a private argument between Mr. AND Mrs. Weasley overheard by Harry. Mrs. Weasley is an active, equal participant with a distinct position: she argues Harry should NOT be told because 'the truth would terrify him' and that he is 'happy not knowing.' She also expresses faith in Dumbledore's protection. This is a substantive moral stance that reveals her protective instincts, her tendency to shield Harry from hard truths, and her independent voice in family decisions.",
-      "film_portrayal": "Mr. Weasley pulls Harry aside and delivers the warning directly and alone. Mrs. Weasley is entirely absent from this conversation. She appears only briefly to hand Scabbers through the train window (Film Scene 2), a purely logistical action with no dialogue of substance.",
+      "scene": "Film Scene 2 (Howler scene) \u2014 Howler delivery replaces in-person confrontation at Hogwarts",
+      "book_baseline": "Book establishes the Howler as Mrs. Weasley's sole response at distance; the book corpus also contains the full text of the screamed letter covering: stealing the car, Arthur facing an inquiry, absolute disgust, father's shame, and the threat to bring them home. The fury is entirely directed at Ron (and implicitly Harry) with no warm aside.",
+      "film_portrayal": "Film Howler adds a sudden tonal switch mid-tirade: after the furious scolding it 'softens suddenly' to say 'Oh, and Ginny dear. Congratulations on making Gryffindor. Your father and I are so proud.' This pivot is played for comedy.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The comedic soft pivot to Ginny is not in the book corpus Howler. While it is a funny character moment, it slightly undercuts the terrifying weight of Molly's fury by turning her mid-screaming rage into a punchline. Minor damage to the sense of genuine maternal dread she can project.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 3 (Dumbledore's office aftermath) \u2014 Mrs. Weasley's reunion with Ginny offscreen",
+      "book_baseline": "Book has Mrs. Weasley and Mr. Weasley sitting crying in the common room, leaping to their feet, 'both of them flung themselves on their daughter,' and Mrs. Weasley crying 'You saved her! You saved her!' before embracing Harry. She is physically and emotionally central to the reunion scene.",
+      "film_portrayal": "In the film, the reunion occurs offscreen. Mrs. Weasley's voice is only heard carrying from the corridor as she scolds Ginny about the diary ('A diary that writes back to you! Honestly, Ginny! What were you thinking? Haven't I always told you? Never trust anything that can think for itself if you can't see where it keeps its brain!'). She does not appear on screen in the resolution scene.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's climactic mother-daughter reunion \u2014 with Molly's tearful relief, her embrace of Harry, and her presence in the room as Dumbledore explains events \u2014 is a key payoff for the family stakes of the story. Reducing her to a voice offscreen scolding Ginny removes her emotional centrality to the resolution and replaces maternal relief with maternal reproach, damaging both the mother-daughter relationship beat and her role as an emotionally grounding presence at the story's climax.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 2 (Leaky Cauldron / King's Cross departure) \u2014 Mr. Weasley warns Harry alone",
+      "book_baseline": "In the book, the warning to Harry originates from a private argument between Mr. AND Mrs. Weasley overheard by Harry. Mrs. Weasley is an active, vocal participant: she opposes telling Harry ('Arthur, the truth would terrify him!'), expresses her own reasoned position about Dumbledore's protection, and ultimately defers to Arthur's judgment ('Well, Arthur, you must do what you think is right'). She is a full co-author of the decision about Harry's safety.",
+      "film_portrayal": "The film collapses the entire information-delivery scene into a one-on-one conversation between Mr. Weasley and Harry. Mrs. Weasley is present at the station only to hand Scabbers through the train window to Ron. She has no dialogue related to Sirius Black, no expressed opinion, and no role in the decision to warn Harry. Her competing maternal instinct (protect Harry from fear vs. put him on guard) is entirely absent.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "The book's overheard argument is one of the most characterising Molly moments in PoA. Her position \u2014 that Harry should be protected from frightening knowledge \u2014 is not a minor opinion; it defines her protective, sometimes over-sheltering relationship with Harry and contrasts meaningfully with Arthur's view. By collapsing the warning into a solo Arthur scene, the film strips Molly of her agency in a key plot-relevant decision, removes her distinct moral voice, and erases the dramatic tension between the two parents. The adaptation loses the nuance that Molly's protectiveness, however misguided, comes from genuine love for Harry."
+      "explanation": "The book establishes Mrs. Weasley as someone with genuine moral agency in the question of Harry's safety \u2014 she has a coherent, loving but misguided position (shield him from terror) that Arthur must actively argue against. The film removes this entirely, reducing her to a background domestic gesture (passing a rat through a window) while Arthur does all the substantive parenting of Harry. This is not a minor omission: her argument is the dramatic engine that makes Arthur's warning feel hard-won and contextualised. Her absence transfers all parental authority to Arthur and erases her as a protective decision-maker.",
+      "book": "3_prisoner_of_azkaban"
     },
     {
-      "scene": "Film Scene 2 (King's Cross platform) \u2014 Molly's farewell reduced to handing over Scabbers",
-      "book_baseline": "Book Scene 62 shows Mrs. Weasley hugging Harry warmly in greeting at King's Cross, a moment the narrator explicitly notes confirms Uncle Vernon's worst suspicions about the Weasleys. The book also establishes (Scene 7) Molly's warm, maternal greeting of Harry ('Hello, Harry, dear') as a consistent character beat. She is portrayed as genuinely, visibly affectionate toward Harry as a surrogate son.",
-      "film_portrayal": "At the platform, Molly's only action is handing Scabbers through a train window to Ron. There is no warm farewell to Harry, no maternal gesture toward him, and no spoken line directed at him in this moment.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "While brief, the erasure of Molly's physical affection toward Harry at departure is a small but consistent reduction of the surrogate-mother dynamic. The book repeatedly marks her warmth toward Harry as meaningful (he is unused to maternal care). The film replaces this with a purely functional prop-handoff, thinning the emotional texture of her relationship with Harry."
-    },
-    {
-      "scene": "Film Scene 1 (Leaky Cauldron reunion) \u2014 Molly's greeting to Harry is minimal and quickly passed over",
-      "book_baseline": "Book Scene 7 establishes that on arrival Mrs. Weasley greets Harry warmly and immediately engages him in conversation ('Hello, Harry, dear. I suppose you've heard our exciting news?'). She is socially present, directive, and warm. Book Scenes 9\u201311 show her asserting herself confidently \u2014 chiding Fred and George, snapping at them about setting an example for Ginny \u2014 demonstrating her as the family's emotional and moral manager.",
-      "film_portrayal": "Film Scene 1 shows Mrs. Weasley taking Harry's face in her hands and saying only 'It's good to see you, Harry' before the scene moves on. She has no further lines in this scene. Her role as family disciplinarian and social manager (correcting Fred and George, commenting on Percy's badge, directing the children) is entirely absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Leaky Cauldron scenes establish Molly as a confident, assertive matriarch who manages her large family with humour, pride, and sharpness. The film reduces her to a single warm line and a gesture. Her characteristic voice \u2014 proud of Percy, exasperated by the twins, brisk about practicalities \u2014 does not appear, flattening her personality in her first substantial scene of the film."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival: Molly's greeting of Harry",
-      "book_baseline": "Book Scenes 1-11 establish Molly's warm, physical, maternal welcome of Harry \u2013 a 'rib-cracking hug', examining him critically, noting he looks 'peaky' and needs feeding, whispering urgently, personally escorting him upstairs with tiptoed care, and promising to explain later. Her attention to Harry is sustained and individualized.",
-      "film_portrayal": "The film reduces Molly's greeting to a brief 'Harry' name-call and a terse 'No. No time to explain. Straight upstairs, first door on the left.' There is no hug, no physical warmth, no maternal concern about his appearance or wellbeing. The interaction is purely functional.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Molly uses the arrival scene to establish her as Harry's surrogate mother \u2013 physically warm, attentive, and fussing over him specifically. The film strips this to a crowd-management instruction, losing the core maternal warmth that defines her character and her relationship with Harry."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Kitchen dinner scene: Molly's argument with Sirius about Harry's right to information",
-      "book_baseline": "Book Scenes 61-106 present an extended, nuanced debate in which Molly argues passionately and with genuine maternal reasoning. She cites Dumbledore's explicit instruction, raises the distinction between child and adult, appeals to Arthur, is progressively overruled, and ultimately relents ('Very well,' said Mrs Weasley, her voice cracking). Her position is principled and she is shown to be wrong in outcome but not in love.",
-      "film_portrayal": "The film compresses the debate into a handful of exchanged lines ('He's not an adult, either! He's not James, Sirius.' / 'He's not your son.' / 'He's as good as.'), then abruptly has Molly declare 'That's enough. He's just a boy! You say much more and you might as well induct him into the Order straightaway' \u2013 effectively conceding before the argument is fully dramatized. The sustained, painful process of her being overruled is absent.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book debate is one of Molly's most important scenes: it shows her complexity (protective but wrongheaded), her relationship with Harry ('He's as good as a son'), her dynamic with Sirius, and her moral seriousness. The film retains isolated lines but loses the arc of her progressive defeat and the weight of her concession, flattening her from a fully reasoned adult into a briefly obstructive figure."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Kitchen dinner: Molly's role in managing the household and Order members",
-      "book_baseline": "Book Scenes 32-57 show Molly commanding the kitchen with authority: reprimanding Mundungus about his pipe, directing cooking with magical supervision, scolding Fred and George about unnecessary magic, cutting off Mundungus's dubious stories with cold moral judgment, and expressing considered disapproval of Mundungus rooted in his failure of duty to Harry. She is a domestic authority figure with ethical standards.",
-      "film_portrayal": "The film shows Molly only briefly scolding Fred and George about using magic ('Just because you're allowed to use magic now does not mean you have to whip your wands out for everything!') and asking Harry if he is hungry. Her sustained household authority, her moral stance on Mundungus, and her commanding presence at the dinner table are absent.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 2 (Leaky Cauldron departure) \u2014 Mrs. Weasley's sole on-screen action",
+      "book_baseline": "The book shows Mrs. Weasley as brisk, warm, and managerially competent at the departure: she greets Harry affectionately, ensures everyone is packed, redirects the chaos of a large family, and is emotionally present. She also hugs Harry warmly at King's Cross on return (Book Scene 62), signalling consistent maternal warmth toward him throughout the year.",
+      "film_portrayal": "Film Scene 1 gives Mrs. Weasley one warm moment \u2014 taking Harry's face in her hands and saying 'It's good to see you, Harry' \u2014 which is faithful. However, in Film Scene 2, her only action is calling 'Ron!' and passing Scabbers through a train window. This reduces her departure-scene presence to a logistical prop hand-off rather than the emotionally and practically engaged mother the books depict.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor reduction of her domestic authority register, though the one line retained is accurate in tone. Damage is limited because the film's compression of the dinner scene affects all characters, not just Molly specifically."
+      "explanation": "Minor in isolation, but it compounds the larger pattern of diminishing her presence at a key transitional moment. The warm greeting in Scene 1 partially compensates, keeping impact weight low. Scored separately because it is a distinct beat from the warning-scene omission.",
+      "book": "3_prisoner_of_azkaban"
     },
     {
-      "scene": "Film Scene 1 \u2013 Boggart scene (implied/absent): Molly's confrontation with the Boggart",
-      "book_baseline": "Book Scenes 249-272 contain one of Molly's most defining moments: she encounters the Boggart alone, which cycles through the dead bodies of each family member and finally Harry, leaving her sobbing and confessing 'I see them d-d-dead all the time! I dream about it.' This reveals her deep fear, her vulnerability, her love for Harry as equal to her children, and contextualizes all her overprotectiveness.",
-      "film_portrayal": "The Boggart scene does not appear in the film corpus at all. There is no equivalent moment of Molly's private terror being exposed.",
-      "damage_type": "arc",
+      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival/briefing scene: Molly's truncated welcome",
+      "book_baseline": "Book establishes Molly's arrival as warm and physically affectionate \u2014 she pulls Harry into a 'rib-cracking hug', examines him critically, notes he looks 'peaky' and needs feeding up, and frets over his welfare. She is rushing but takes a moment to be genuinely maternal. The warmth is specific and characterful.",
+      "film_portrayal": "In the film, Molly's greeting to Harry is reduced to a brief 'Harry' acknowledgment as she hurries past, with no hug, no physical warmth, no maternal fussing. The scene cuts immediately to Order business. The rib-cracking hug and 'you need feeding up' characterization are entirely absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Molly's instinctive physical warmth toward Harry \u2014 treating him like a son even amid chaos \u2014 is a defining early beat. Its absence in the film flattens her introduction and delays establishing her as Harry's surrogate mother figure, which is central to her function throughout the story.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Order dinner table: Molly's argument with Sirius compressed and recontextualized",
+      "book_baseline": "The book presents the Molly-Sirius argument as a sustained, emotionally complex debate spanning multiple pages. Molly is bolt upright, fists clenched, her 'normally kind face' looking dangerous. She makes substantive points: Dumbledore's instructions, Harry's age, the distinction between Harry and James. She is overruled but her position is treated seriously. The argument ends with her voice 'cracking' and her lower lip trembling \u2014 she is passionate but ultimately dignified.",
+      "film_portrayal": "The film condenses the argument to a few rapid exchanges: 'He's not an adult either! He's not James, Sirius' / 'He's not your son' / 'He's as good as' / 'He's got me.' The full arc of the argument \u2014 Molly appealing to Arthur, Lupin, citing Dumbledore's instructions, her exhausted capitulation \u2014 is stripped out. The argument ends abruptly with Molly's 'He's just a boy! You say much more and you might as well induct him into the Order straightaway,' after which Harry immediately says he wants to join, making Molly's position look foolish rather than caring.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's argument shows Molly as a principled, emotionally intelligent woman fighting for Harry's protection from a position of genuine love and reasonable fear. The film's truncation reduces her to a one-note overprotective figure who is quickly dismissed, damaging both her complexity and her relationship dynamic with Sirius, which is one of the novel's key adult tensions.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Molly's line 'He's just a boy' followed immediately by Harry's declaration",
+      "book_baseline": "After the argument, Harry himself reflects that he 'had been touched by what she had said about his being as good as a son, but he was also impatient with her mollycoddling.' The narrative validates both Molly's love and Harry's frustration in a balanced way. Molly's capitulation is reluctant and emotionally costly.",
+      "film_portrayal": "Immediately after Molly says 'He's just a boy! You say much more and you might as well induct him into the Order straightaway,' Harry says 'Good, I want to join.' This sequencing makes Molly's protective instinct the direct comic/dramatic foil to Harry's heroic enthusiasm, framing her as the obstacle rather than a loving voice of caution. The film audience is positioned to cheer Harry and dismiss Molly.",
+      "damage_type": "agency/function | personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "This reframing structurally reassigns Molly from 'loving protector with a legitimate perspective' to 'obstacle to protagonist's agency.' The book carefully balances Harry's sympathy for her and his impatience; the film collapses that nuance entirely, reducing her to a function (barrier) rather than a character.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Absence of Molly managing the household and Order decontamination across multiple days",
+      "book_baseline": "The book establishes Molly as the de facto operational commander of Grimmauld Place over days of cleaning \u2014 organizing the Doxy attack, directing everyone's labor, managing Mundungus, dealing with Kreacher, consulting Lockhart's guide, issuing safety instructions about poisonous Doxy bites. This shows her competence, authority, and the fact that her domesticity is a form of genuine power and leadership.",
+      "film_portrayal": "The entire cleaning/decontamination sequence at Grimmauld Place is absent from the film corpus. Molly's role as household commander \u2014 her authority, her competence, her sardonic humor with the twins, her management of dangerous magical creatures \u2014 is entirely unrepresented.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The cleaning sequences are not mere domestic filler; they establish that Molly's contributions to the Order are substantial, skilled, and respected. Without them, her character in the film is defined almost entirely by her argument with Sirius, making her seem obstructive rather than indispensable. Her competence as a witch and organizer is a major part of her book characterization.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Absence of the Boggart scene showing Molly's fears",
+      "book_baseline": "The book's Boggart scene is one of the most emotionally devastating passages for Molly's character. She faces the Boggart alone, watches it cycle through the dead bodies of Ron, Bill, Mr. Weasley, the twins, Percy, Harry, and finally Harry again. She sobs 'I see them d-d-dead all the time! All the t-t-time! I d-d-dream about it.' She breaks down on Lupin's shoulder, reveals her terror about Percy's estrangement, and worries about who will look after Ron and Ginny if she and Arthur are killed. Harry, watching, thinks he cannot call her silly \u2014 and it reframes her protectiveness entirely.",
+      "film_portrayal": "The Boggart scene does not appear in the film corpus at all. Molly's interior terror, her vulnerability, her grief about Percy, and the scene that contextualizes all her protective behavior as rooted in genuine traumatic fear is completely absent.",
+      "damage_type": "arc | agency/function | nuance/lost material",
       "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "This is the single most damaging absence. The Boggart scene is the emotional key to Molly's entire characterization in Order of the Phoenix: it explains why she is so controlling, reveals her as frightened rather than merely overbearing, and shows Harry listed alongside her children in her deepest fears. Without it, her protectiveness reads as obstruction rather than love, and the audience loses the empathetic grounding for her conflict with Sirius. Harry's reflection that he 'could not think Mrs Weasley silly' \u2013 a moment of moral growth for him \u2013 is also lost."
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging absence in Molly's film portrayal. The Boggart scene transforms the audience's understanding of every overprotective act she has performed. Without it, her protectiveness reads as controlling or obstructive. With it, she becomes one of the most sympathetic and humanized adults in the saga \u2014 a woman carrying enormous fear with grace. Its absence is a structural loss: the scene that gives Molly's entire arc its emotional grounding does not exist in the film.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 2 \u2013 Christmas at Grimmauld Place: Molly's morning-of-hearing care for Harry",
-      "book_baseline": "Book Scenes 178-191 show Molly waking early in her dressing gown to prepare breakfast for Harry before his hearing, fussing with his T-shirt label, attacking his hair with a wet comb, and hugging him with 'We've all got our fingers crossed.' This is quiet, practical maternal love expressed through domestic action.",
-      "film_portrayal": "The film corpus contains no equivalent scene. The hearing preparation is not shown, and Molly's pre-hearing care for Harry is entirely absent.",
+      "scene": "Film Scene 2 \u2013 Christmas at Grimmauld Place: Molly reduced to domestic/present-distribution role",
+      "book_baseline": "The book's Christmas sequence at Grimmauld Place shows Molly managing Sirius's moods, worrying about Harry's psychological state after Arthur's attack, expressing quiet grief ('sounded as though she had a bad head cold'), maintaining warmth for the family despite her fear, and navigating the tension between Sirius's depression and the children's needs. Her emotional labor is visible and specific.",
+      "film_portrayal": "In the film Christmas scene, Molly appears primarily to distribute presents and manage the logistics of Christmas morning ('Here we go. Daddy's back... sit down everybody... presents'). The emotional complexity \u2014 her grief, her management of Sirius, her worry about Harry \u2014 is absent. She functions as a domestic prop rather than an emotionally present character.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "While the film does give Molly some presence at Christmas, it reduces her to organizational cheerfulness. The book's Molly is visibly carrying grief and fear even during celebratory moments \u2014 which is what makes her warmth feel earned and heroic. The film version loses this texture.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Absence of Molly's reaction to Ron's prefect badge",
+      "book_baseline": "The book devotes a full scene to Molly's joy at Ron becoming prefect \u2014 she 'let out a shriek just like Hermione's', hugs him, kisses him 'all over his face', offers dress robes and a broomstick as reward, and leaves 'all of a dither'. The scene establishes her fierce pride in her children, her ability to celebrate small victories amid darkness, and her specific emotional relationship with Ron.",
+      "film_portrayal": "This scene does not appear in the film corpus. Ron's prefect badge is not celebrated by Molly in any scene present in the provided film material.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "This scene specifically develops Molly's relationship with Ron \u2014 her youngest son, who often feels overshadowed. Its absence is a minor but real loss of relational texture between Molly and Ron, and of the characterization of Molly as someone who fiercely celebrates her children's individual achievements.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Absence of Molly's physical care of Harry before the Ministry hearing",
+      "book_baseline": "The morning of Harry's hearing, Molly has laid out freshly laundered clothes, attacks his hair with a wet comb, frets 'doesn't it ever lie flat?', fuses with his T-shirt label, hugs him, and says 'we've all got our fingers crossed.' This sequence is the fullest expression of her surrogate-mother relationship with Harry \u2014 intimate, fussy, and deeply loving.",
+      "film_portrayal": "The pre-hearing preparation scene with Molly is absent from the film corpus. Harry's preparation for the Ministry hearing contains no equivalent moment of Molly's physical maternal care.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The hair-combing and clothes-laying scene is one of the clearest demonstrations in the entire novel of Molly treating Harry as her own son. Its absence means the film never fully establishes the emotional depth of Molly's bond with Harry, which makes her 'he's as good as [a son]' line in the argument feel less grounded and earned.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Molly's Mundungus antagonism reduced to a single slap reaction",
+      "book_baseline": "The book develops Molly's antagonism toward Mundungus across multiple scenes: she reprimands him for smoking in the kitchen, cuts off his criminal stories at dinner with sharp moral authority ('I don't know where you learned about right and wrong, Mundungus, but you seem to have missed a few crucial lessons'), shouts at him about stolen cauldrons ('WE ARE NOT RUNNING A HIDEOUT FOR STOLEN GOODS'), and the narrator explains she 'doesn't approve of Mundungus' because he slipped off duty when tailing Harry. This is a sustained characterization of Molly as a woman with genuine moral standards.",
+      "film_portrayal": "In the film, Molly's engagement with the twins doing magic results in a brief physical reaction (slapping), and her moral authority over the household members like Mundungus is not developed. The sustained moral dimension of her objection to Mundungus \u2014 tied to Harry's safety \u2014 is absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "Molly's consistent moral voice \u2014 her willingness to call out wrongdoing directly and specifically \u2014 is part of her character's backbone. Its reduction to reactive frustration rather than principled objection is a minor but real flattening of her personality.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Mrs. Weasley unaware Harry is in her house",
+      "book_baseline": "In the book, Dumbledore brings Harry to the Burrow and knocks on the back door; Mrs. Weasley is alert, challenges visitors with 'Declare yourself!', and opens the door only after Dumbledore identifies himself. She is fully aware of the security situation and is waiting up at a late hour, nervous but composed and watchful.",
+      "film_portrayal": "Mrs. Weasley is portrayed as completely unaware that Harry is already inside her own house, comically denying it ('I seriously doubt that,' 'I think I'd know if Harry Potter was in my house, wouldn't I?') even after his trunk and owl are pointed out. The arrival is played for light comedy, with Mrs. Weasley as the butt of the joke.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Mrs. Weasley as highly vigilant and security-conscious during this dangerous period \u2014 she challenges visitors at the door and carries the family clock everywhere. The film undercuts this by making her oblivious to an arrival inside her own home, reducing her from a watchful, anxious mother in wartime to a comic figure who doesn't notice what's in her kitchen. It softens her wartime tension into slapstick.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Warm, uncomplicated reunion greeting",
+      "book_baseline": "The book arrival scene includes Dumbledore's private warning to Harry about security, Molly's troubled reaction to Tonks's distress, her attentive mothering (examining Harry's appearance, cooking him soup), and the charged 'Mollywobbles' exchange with Arthur \u2014 a rich, layered domestic scene that establishes her warmth, her anxiety, and the intimacy of her marriage.",
+      "film_portrayal": "The film condenses the arrival to a brief comedic exchange and group hugs. The private conversation with Dumbledore, the Tonks scene, the late-night soup, and the 'Mollywobbles' security-check exchange with Arthur are all absent. Mrs. Weasley's role is reduced to cheerful background presence.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book arrival scene is one of the richest characterisation passages for Molly: it shows her vigilance, her tender care for Harry, her subtle worry about Tonks, and the loving playfulness of her marriage to Arthur. Losing all of this flattens her from a complex wartime matriarch into a generic welcoming figure. The 'Mollywobbles' beat in particular is a rare window into the Weasley marriage that is entirely lost.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Mr. Weasley mentions 'Molly doesn't leave the house most days'",
+      "book_baseline": "The book conveys Mrs. Weasley's anxiety through her actions: carrying the family clock everywhere, reacting sharply to Ron's joke about Voldemort hiding in Flourish and Blotts, anxiously consulting her list in Diagon Alley, and refusing to go shopping without Arthur. These are dramatised beats showing her fear.",
+      "film_portrayal": "Mrs. Weasley's wartime fear and confinement is reported secondhand by Arthur in his workshop conversation with Harry ('Molly doesn't leave the house most days. It's not been easy.') rather than being shown through her own behaviour and dialogue.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Reducing Molly's wartime anxiety to a line of reported speech by her husband strips her of the agency to express her own fear. In the book she is the one who dramatises the danger through her behaviour \u2014 snapping at Ron, refusing to leave without Arthur, clutching the clock. In the film she becomes an object of Arthur's concern rather than an active subject with her own emotional reality.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Christmas party: Molly as background hostess only",
+      "book_baseline": "The book's Christmas scenes give Mrs. Weasley extensive characterisation: her joy at dancing to Celestina Warbeck and crying at the memory of her and Arthur dancing at eighteen; her pointed attempts to invite Tonks and her annoyance at Lupin over the Tonks situation; her sharp management of Percy's surprise visit and her emotional collapse into tears hugging him; her cutting off Fleur's monologue; and her meaningful glare at Lupin about Tonks.",
+      "film_portrayal": "Mrs. Weasley appears in the Christmas party scene primarily as a hostess ('Eat up, eat up, everyone! There's more to come!') and then briefly on the porch saying goodbye to Lupin and Tonks. The Celestina Warbeck moment, the Percy reunion, her matchmaking anxiety over Lupin and Tonks, and her pointed domestic authority are absent from the corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Christmas sequence in the book is where several of Molly's most important relationship dynamics play out: her grief over Percy's estrangement, her sentimental love for Arthur, her protective instinct toward Tonks, and her tension with Fleur. The film reduces her to a warm background presence serving food. The loss of the Percy reunion in particular damages the emotional stakes of her family relationships.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Porch farewell: Molly as passive observer",
+      "book_baseline": "In the book, Mrs. Weasley is the one who has been actively trying to bring Tonks back into the family orbit \u2014 inviting her to dinner, inviting her to Christmas, giving her 'tea and sympathy' \u2014 and who delivers the pointed line to Lupin at Bill's bedside about him 'taking a ridiculous line.' She is an active agent in the Lupin/Tonks relationship.",
+      "film_portrayal": "On the porch, Mrs. Weasley says goodbye pleasantly ('You're sure you won't stay?') but is otherwise a passive observer as the Lupin/Tonks dynamic plays out around her. Her active role as the person pushing for their union is not present in this scene.",
       "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This scene is a small but important expression of Molly's surrogate-mother relationship with Harry \u2013 she treats him exactly as she would treat Ron before a difficult day. Its absence removes a moment of uncomplicated warmth that balances her more contested scenes."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 Christmas morning at Grimmauld Place: Molly's Christmas scene",
-      "book_baseline": "Book Scene 366 establishes that when the family arrives in the kitchen on Christmas morning, Mrs Weasley is 'standing at the stove and sounded as though she had a bad head cold as she wished them Merry Christmas, and they all averted their eyes' \u2013 she is visibly grieving and struggling, the emotional weight of the war and Mr Weasley's injury evident. This is Molly at her most quietly devastating.",
-      "film_portrayal": "The film shows a warm, busy Christmas morning with Molly cheerfully distributing presents, saying 'Lovely to have you with us' to Harry and organizing the family. She appears happy and domestic. The grief and strain visible in the book version are replaced with festive warmth.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Christmas morning shows Molly's pain breaking through her habitual role as family organizer \u2013 a rare crack in her competent exterior that deepens her characterization. The film's version, while not actively unfaithful in tone for the scene as a whole, removes this emotional complexity and replaces it with uncomplicated celebration."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Ron's prefect badge: Molly's reaction",
-      "book_baseline": "Book Scenes 219-230 show Molly's extravagant, embarrassing joy at Ron's prefect badge \u2013 shrieking, covering him in kisses, offering dress robes and then a broomstick as rewards, crying 'Oh, I'm all of a dither!' This is a character-specific comedic and emotionally true moment that also reveals her favoritism toward academic achievement and her tendency to slight Fred and George.",
-      "film_portrayal": "This scene does not appear in the film corpus.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "A minor loss of character-specific comic texture and the nuance of Molly's relationship with all three sons. The absence reduces but does not fundamentally alter her portrayal, hence low impact weight."
-    },
-    {
-      "scene": "Film Scene 1 \u2014 Harry's arrival at the Burrow (night)",
-      "book_baseline": "Book Scene 8\u201313: Mrs. Weasley is alert, security-conscious, and immediately nurturing. She demands Dumbledore declare himself at the door ('Declare yourself!'), then steers Harry into the lamplight to examine him, fusses over how thin he looks, and conjures soup. Her warmth and maternal protectiveness are inseparable from her vigilance.",
-      "film_portrayal": "Mrs. Weasley is unaware Harry is even in her own house. She tells Ginny 'I think I'd know if Harry Potter was in my house, wouldn't I?' \u2014 only to be proven wrong seconds later. She is played as comically oblivious rather than vigilantly watchful.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book establishes that Mrs. Weasley is acutely security-conscious during wartime \u2014 she carries the family clock everywhere and challenges even Dumbledore at the door. Making her the butt of a comedy-of-errors joke about not knowing Harry is in her own house inverts this characterization, trading her wartime alertness for sitcom obliviousness."
-    },
-    {
-      "scene": "Film Scene 1 \u2014 Mrs. Weasley's reaction to Harry's arrival",
-      "book_baseline": "Book Scenes 13\u201316: Mrs. Weasley's first act upon Harry's arrival is to physically steer him into the light, scrutinize his thinness, and immediately produce hot onion soup by wand. She then sits with him and engages in warm, substantive conversation about Arthur's promotion and Slughorn. Her nurturing is active and expressed through domestic magic and genuine engagement.",
-      "film_portrayal": "The film collapses her arrival greeting into a brief comedic moment ('That man. But then, what would we do without him?') before the scene moves on. There is no feeding of Harry, no examination of his appearance, no private maternal conversation.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The late-night kitchen scene in HBP is one of the book's richest portraits of Mrs. Weasley: her cooking-as-love-language, her pride in Arthur, her social intelligence about Slughorn. Cutting it removes a defining characterization beat and replaces it with nothing equivalent."
-    },
-    {
-      "scene": "Film Scene 2 \u2014 Christmas party at the Burrow",
-      "book_baseline": "Book Scenes 149\u2013153: Mrs. Weasley is emotionally invested in Celestina Warbeck's broadcast ('We danced to this when we were eighteen!'), pointedly raises the wireless volume to drown out Fleur, and weeps sentimentally over the music. This encapsulates her as a woman of deep domestic feeling, nostalgia, and barely concealed hostility toward Fleur expressed through passive-aggressive domestic control.",
-      "film_portrayal": "Film Scene 2 shows Mrs. Weasley busy ferrying food and saying 'Eat up, eat up.' The Celestina Warbeck dynamic \u2014 her emotional investment in the music, the volume-war with Fleur \u2014 is absent. She is purely a background hostess figure.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The Celestina scene is a compact, witty expression of Mrs. Weasley's personality: her sentimentality, her class identity, and her cold war with Fleur conducted through domestic means. Reducing her to a food-carrier at the party strips a layer of characterization that makes her more than a generic maternal figure."
-    },
-    {
-      "scene": "Film Scene 3 \u2014 Christmas: Arthur's workshop conversation",
-      "book_baseline": "Book Scenes 20\u201326: The equivalent wartime-anxiety and security material in the book is expressed partly through Mrs. Weasley herself \u2014 she carries the family clock, she insists on the security-question ritual at the door ('Mollywobbles'), she voices her own fear in an 'unconvincingly casual voice.' Her anxiety is personal, visible, and characterizing.",
-      "film_portrayal": "In Film Scene 3, it is Arthur who delivers the key line about their wartime situation to Harry ('Molly doesn't leave the house most days'). Mrs. Weasley's fear is reported by her husband rather than shown through her own voice and behavior. She appears only briefly on the porch (Film Scene 4/5) as a silent visual.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book gives Mrs. Weasley direct ownership of the family's wartime anxiety \u2014 she is the one who carries the clock and voices the dread. The film transfers this emotional exposition to Arthur, reducing Mrs. Weasley from an active, feeling subject to a supporting detail mentioned in someone else's dialogue. Her interiority is externalized through her husband."
-    },
-    {
-      "scene": "Film Scene 5 \u2014 Porch farewell: Lupin and Tonks departure",
-      "book_baseline": "Book Scenes 165\u2013167: Mrs. Weasley takes an active, pointed role in the Lupin/Tonks situation. She invites Tonks to Christmas dinner specifically, notes with displeasure that Tonks declined and seemed to be spending Christmas alone, and gives Lupin 'an annoyed look, as though it was all his fault.' She is a vocal, opinionated participant in this relationship drama.",
-      "film_portrayal": "Film Scene 5 is a brief exterior porch scene. Mrs. Weasley says 'You're sure you won't stay?' to Tonks and calls 'Remus...?' when she notices the werewolf sign. She is a concerned bystander rather than a woman with a clear position on the Lupin/Tonks situation.",
-      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "A minor but real flattening: the book's Mrs. Weasley has a distinct, somewhat meddlesome warmth toward Tonks and a clear frustration with Lupin's resistance. The film reduces this to generic concern, losing the flavor of her personality as someone who takes sides in others' romantic lives."
+      "impact_weight": 2,
+      "explanation": "The book establishes Molly as a driving force in the Lupin/Tonks relationship \u2014 she advocates for them, invites Tonks repeatedly, and directly challenges Lupin's self-deprecating rejection. The film porch scene gives her a passive goodbye role, losing her function as the emotional catalyst in that subplot.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 3 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Molly's reaction to George's injury",
-      "book_baseline": "In the book, Mrs. Weasley bends over George and tends to him quietly; she goes to fetch brandy, hiding her face, and Harry understands she wants to conceal her emotion. Her response is measured, maternal, and stoic under pressure \u2014 she staunchesthe bleeding and tells Harry 'It could've been so much worse... He's alive.' She is the calm, competent center of the crisis.",
-      "film_portrayal": "Molly Weasley screams 'My boy! My darling boy! What've they done to you?!' \u2014 a loud, overtly dramatic outburst. The film reduces her grief response to a single histrionic cry rather than the book's restrained, quietly devastating maternal composure.",
+      "scene": "Film Scene 3 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Molly's reaction to injured George",
+      "book_baseline": "In the book, Mrs. Weasley bends over George and tends to him with quiet, focused maternal grief. She staunches the bleeding, and when Harry asks 'How is he?' she responds with controlled sorrow: 'I can't make it grow back, not when it's been removed by Dark Magic. But it could've been so much worse... He's alive.' She hides her face when fetching brandy, containing her fear. Her response is measured, practical, and quietly devastating.",
+      "film_portrayal": "Mrs. Weasley screams 'My boy! My darling boy! What've they done to you?!' \u2014 a loud, histrionic outburst that replaces the book's restrained, practical grief with melodrama.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book carefully establishes Molly as someone who suppresses her most extreme emotions to function \u2014 she hides her face rather than break down in front of others. The film's screaming outburst replaces quiet devastation with theatrical distress, flattening a nuanced characterization into a stock 'frightened mother' reaction."
+      "explanation": "The book's Molly Weasley is defined by her ability to hold herself together under pressure \u2014 she hides her face rather than break down publicly, and channels grief into action (tending wounds, fetching brandy). The film replaces this with a screaming reaction that trades her stoic maternal strength for generic hysteria, flattening a key personality trait.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 3 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Molly's passivity after George is brought in",
-      "book_baseline": "In the book, Molly is immediately and actively competent: she staunchesGeorge's bleeding, tends the wound with magic, and authoritatively tells Harry 'I can't make it grow back, not when it's been removed by Dark Magic. But it could've been so much worse... He's alive.' She is the medical and emotional anchor of the scene.",
-      "film_portrayal": "After the initial scream, the film shows Molly weeping and dabbing at George's face ('She simply nods, weeping, dabbing at George's face') while Lupin delivers the key exposition about Dark Magic and reassures her. Lupin takes the functional role of explaining the wound and offering comfort ('He'll be fine, Molly. But that's Dark Magic. The damage is done.').",
-      "damage_type": "agency/function",
+      "scene": "Film Scene 3 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Molly absent from the toast to Mad-Eye",
+      "book_baseline": "In the book, after Mad-Eye's death is announced, Mr. Weasley conjures twelve glasses of firewhisky and leads the group in a toast: 'Mad-Eye.' Mrs. Weasley participates as part of the gathered family, sharing in the collective grief and ritual.",
+      "film_portrayal": "The film has no equivalent toast scene in the provided corpus. Mrs. Weasley is shown weeping over George and then the scene moves on. The communal grief ritual that includes her is absent from the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor loss \u2014 the toast is a small but humanizing moment of Molly functioning as part of the Order's adult community rather than solely as a mother. Its absence slightly reduces her presence in the collective mourning of a colleague.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 4 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Molly absent from the 'I can't stay here' confrontation",
+      "book_baseline": "When Harry announces he must leave because he's putting everyone in danger, Mrs. Weasley actively participates in dissuading him, saying 'But don't be so silly! The whole point of tonight was to get you here safely... we've arranged everything so that we can all stay together and look after you.' She also later deflects Harry's guilt with a maternal redirect: 'Where's Hedwig, Harry? We can put her up with Pidwidgeon.' She is a full participant in managing Harry's emotional state and the household crisis.",
+      "film_portrayal": "The film corpus contains no equivalent scene of Harry threatening to leave and Mrs. Weasley responding. This entire beat \u2014 including her practical reassurance and her technique of redirecting rather than confronting \u2014 is absent from the film corpus.",
+      "damage_type": "nuance/lost material",
       "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book gives Molly the agency and competence in the scene \u2014 she is the one who assesses and treats George, and her line about Dark Magic demonstrates her knowledge and composure. The film transfers this expository and reassuring function entirely to Lupin, reducing Molly to a passive, weeping bystander. This directly damages her characterization as a formidably capable witch and matriarch."
+      "impact_weight": 2,
+      "explanation": "This scene establishes Molly's particular brand of maternal management: she is not passive comfort but an active, sometimes stubborn force who deploys domesticity as emotional strategy. Her absence from this beat loses a dimension of her relationship with Harry specifically \u2014 she is not just Ron's mum but someone who actively fights to keep Harry safe and grounded.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 4 (INT. WEASLEY HOUSE - SITTING ROOM - NIGHT) - Toast to Mad-Eye / Harry's attempted departure",
-      "book_baseline": "After Mad-Eye's death is announced, the book has Mr. Weasley lead a solemn toast with firewhisky. Harry then attempts to leave the Burrow to protect the family, and Mrs. Weasley directly engages him \u2014 urging him to stay, explaining the arrangements made, and ultimately defusing the tension by redirecting to Hedwig and the wedding. This shows her as emotionally intelligent and strategically minded even in grief.",
-      "film_portrayal": "The film omits the toast scene and the entire exchange where Harry tries to leave and Mrs. Weasley talks him down. The scene moves directly from the Mad-Eye announcement to the wedding. Molly has no role in managing Harry's emotional crisis or his impulse to leave.",
+      "scene": "Film Scene 5 (INT./EXT. MARQUEE - NIGHT) - Wedding, Molly's role reduced",
+      "book_baseline": "The book establishes Mrs. Weasley as the driving organizational force of the wedding \u2014 she is described scanning her enormous list of jobs, directing everyone, keeping Harry, Ron, and Hermione deliberately separated and busy, managing the Delacour visit, and sobbing quietly in the front row during the ceremony. Her presence saturates the pre-wedding chapters.",
+      "film_portrayal": "The film corpus shows Mrs. Weasley only briefly \u2014 reacting with 'happy surprise' when Tonks whispers she is pregnant. She is a background figure at the wedding itself. Her role as the anxious, controlling organizer who uses the wedding preparations as a method of managing the trio is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's pre-wedding Molly is a richly drawn portrait of a woman using busyness to manage terror \u2014 she keeps Harry close by keeping him occupied, and her controlling behavior is revealed to be love in disguise. The film reduces her to a single background reaction, losing this characterization entirely and with it the texture of the Burrow as a domestic battleground of competing anxieties.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 5 (INT./EXT. MARQUEE - NIGHT) - Molly absent from 'cornering Harry' about the mission",
+      "book_baseline": "The book has Mrs. Weasley engineer a private confrontation with Harry, luring him with a sock to identify, then pressing him about abandoning Hogwarts: 'Well, frankly, I think Arthur and I have a right to know... You're barely of age, any of you! It's utter nonsense...' She drops all pretense and challenges Dumbledore's judgment directly. When Harry refuses, she pivots seamlessly to wedding tasks. This scene is one of her most fully characterized moments in the book.",
+      "film_portrayal": "No equivalent scene exists in the film corpus. Mrs. Weasley never confronts Harry about the mission.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The book scene is a small but meaningful demonstration of Molly's emotional intelligence and her functional role in keeping Harry grounded at the Burrow. Her ability to de-escalate Harry's guilt and determination to leave \u2014 pivoting to practicalities \u2014 is characteristic. Losing this scene removes a key illustration of the Molly-Harry relationship dynamic and her quiet strategic competence."
+      "explanation": "This is among the most important Molly scenes in Deathly Hallows. It shows her not as passive support but as an active, intelligent, loving opponent to the mission \u2014 someone who challenges Dumbledore's authority, advocates fiercely for her children's safety, and then, when defeated, sublimates her fear into practical action. Its complete absence from the film removes her most assertive, three-dimensional characterization in the entire book and significantly weakens her relationship with Harry.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film (omitted) - Mrs. Weasley cornering Harry about the mission",
-      "book_baseline": "The book devotes a full scene to Mrs. Weasley manoeuvring Harry into a private conversation in the scullery under the pretence of a stray sock. She challenges him directly, invokes parental authority ('I'm sure Mr. and Mrs. Granger would agree'), accuses him of misunderstanding Dumbledore, and when rebuffed, pivots with unnerving cheerfulness to wedding preparations \u2014 revealing her as someone who uses social and domestic management as a form of control. This is one of her most three-dimensional moments.",
-      "film_portrayal": "This scene does not appear in the film corpus. Mrs. Weasley's attempt to extract information about the mission, her argument with Harry, and her strategic use of domestic busyness to keep the trio separated are entirely absent.",
+      "scene": "Film Scene 9 (INT. GREAT HALL - DAWN) - Molly grieving Fred",
+      "book_baseline": "The book describes Mrs. Weasley lying across Fred's chest, her body shaking, while Mr. Weasley strokes her hair with tears cascading down his cheeks. She is physically prostrated by grief, and this image is one of the saga's most devastating. The family surrounds Fred's body together.",
+      "film_portrayal": "The film corpus shows Molly standing 'alongside a distraught Arthur and Molly' \u2014 she is mentioned as distraught but is upright, not prostrated. The specific image of her lying across Fred's chest is absent. The scene is rendered from Harry's distant POV, with Molly as background figure.",
       "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This scene is essential to showing Molly's complexity \u2014 her love expressed as control, her capacity for strategic manipulation, her genuine fear for her children disguised as institutional authority. Without it, the film Molly is purely warm and reactive, losing the specific tension in her relationship with Harry over the mission and the trait that makes her more than a simple maternal figure."
-    },
-    {
-      "scene": "Film (omitted) - Mrs. Weasley's birthday gift to Harry (the watch)",
-      "book_baseline": "The book has Mrs. Weasley give Harry a dented gold watch that belonged to her brother Fabian, explaining the tradition of giving a wizard a watch at seventeen. Harry hugs her and she pats his cheek clumsily, waving her wand so erratically that bacon falls out of the pan \u2014 a quietly moving scene showing the depth of her maternal feeling for Harry specifically.",
-      "film_portrayal": "The birthday scene is not present in the film corpus in any form that includes this exchange. There is no watch gift, no mention of her brother, and no intimate one-on-one moment between Molly and Harry around his coming of age.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This moment crystallises the Molly-Harry surrogate mother-son bond more precisely than almost any other scene in the book \u2014 she gives him a family heirloom, something personal and imperfect, and his hug and her flustered response communicates what neither can say. Losing it weakens the emotional stakes of her later duel with Bellatrix ('Not my daughter') because the audience has had less opportunity to feel the full weight of her love for Harry and by extension all she fights to protect."
-    },
-    {
-      "scene": "Film Scene 9 (INT. GREAT HALL - DAWN) - Fred's death / Weasley family grief",
-      "book_baseline": "In the book, Mrs. Weasley is described in specific, devastating physical detail: 'Mrs. Weasley was lying across Fred's chest, her body shaking. Mr. Weasley stroking her hair while tears cascaded down his cheeks.' She is the emotional centre of the family's grief, physically collapsed over her son's body.",
-      "film_portrayal": "The film shows Molly standing 'distraught' alongside Arthur and Ginny, with the focus on George kneeling over Fred's body and the visual centering on Ron arriving to embrace George. Molly is present but peripheral in the staging \u2014 she is one figure among several rather than the collapsed, shaking centre the book describes.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "While the film does not eliminate Molly from the scene, the specific physical imagery of the book \u2014 her body literally laid across Fred's chest \u2014 is replaced with generic grieving bystander staging. The loss of this specific image reduces the visceral impact of her grief and somewhat dilutes the visual payoff for an audience that has followed her maternal protectiveness throughout the saga."
-    },
-    {
-      "scene": "Film Scene 9 (INT. GREAT HALL - DAWN) - Bellatrix duel",
-      "book_baseline": "In the book, Mrs. Weasley's duel is triggered by Bellatrix nearly hitting Ginny, and she commands absolute authority: 'OUT OF MY WAY!' to the three girls, 'Get back! Get back! She is mine!' to students who try to help. She duels to kill, the floor cracks beneath them, and the watching crowd roars when Bellatrix falls. Her line is 'You \u2014 will \u2014 never \u2014 touch \u2014 our \u2014 children \u2014 again!' delivered mid-duel as curse after curse flies.",
-      "film_portrayal": "The film is largely faithful to this scene. Mrs. Weasley delivers 'NOT MY DAUGHTER, YOU BITCH!', pitches her cloak, fires a volley, and delivers the killing curse. She retains the 'Back off, boys! She's mine!' and 'You will never touch my children again!' lines. Bellatrix is given an added taunting line about George having been a 'spare', and Neville is shown approaching in the background with the Sword of Gryffindor, but Mrs. Weasley's agency and centrality in the duel are preserved.",
-      "damage_type": "personality/voice",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film's version is largely faithful. The only minor divergence is the slight dilution of Molly's absolute command presence \u2014 in the book she shouts down students trying to help with 'OUT OF MY WAY'; the film renders this as 'Back off, boys!' which is slightly less authoritative in register. Neville's presence with the Sword in the background is a mild visual distraction from Molly's centrality, but does not transfer her agency. Damage is minimal."
+      "impact_weight": 2,
+      "explanation": "The book's image of Molly physically collapsed over Fred is one of her defining moments \u2014 it pays off her entire arc as a mother who feared losing her children throughout the saga. The film softens this into a distant visual of a distraught figure, reducing the visceral impact of her grief and the emotional culmination of her protective-mother arc.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 9 (INT. GREAT HALL - DAWN) - Molly's duel with Bellatrix",
+      "book_baseline": "The book gives Mrs. Weasley the duel entirely: she throws off her cloak, commands the three girls to get out of the way ('Get back! Get back! She is mine!'), and duels Bellatrix alone to the kill. The narration lingers: 'Harry watched with terror and elation as Molly Weasley's wand slashed and twisted, and Bellatrix Lestrange's smile faltered.' Bellatrix taunts her about killing her children. Molly screams 'You \u2014 will \u2014 never \u2014 touch \u2014 our \u2014 children \u2014 again!' It is Molly's singular triumph \u2014 her agency is absolute and unshared.",
+      "film_portrayal": "The film adds a complication: George, Bill, and Mr. Weasley 'leap into the breach' with raised wands before Molly orders 'Back off, boys! She's mine!' This means other characters begin to intervene before Molly asserts sole ownership. Additionally, Bellatrix's taunt is altered to a cruel jibe about having 'a spare' (indicating George), which, while dramatically effective, replaces the book's taunt about killing all her children ('When Mummy's gone the same way as Freddie?') \u2014 the book's version more directly motivates Molly's specific screamed line about never touching 'our children again.'",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film partially dilutes Molly's agency by having male family members raise wands first, requiring her to reassert sole ownership. While she does win the duel and the line 'She's mine' is preserved, the book's version is cleaner \u2014 she enters and takes command immediately with no competing action. The altered taunt also slightly weakens the direct thematic line between Bellatrix's provocation and Molly's response, since the 'spare' jibe is about quantity of children rather than the direct threat of killing them all that drives Molly's specific battle cry.",
+      "book": "7_deathly_hallows"
     }
   ],
   "confidence": {

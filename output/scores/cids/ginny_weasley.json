@@ -2,612 +2,588 @@
   "character": "Ginny Weasley",
   "fp_score": 46.0,
   "infidelity_score": 54.0,
-  "weighted_infidelity_exposure": 220.0,
-  "cids": 630.8,
-  "damage_per_exposure": 8.4,
+  "weighted_infidelity_exposure": 178.0,
+  "cids": 606.2,
+  "damage_per_exposure": 9.5,
   "structural_damage_level": 4,
-  "adjusted_cids": 630.8,
+  "adjusted_cids": 606.2,
   "main_damage_causes": [
-    "Ginny's emotional expressiveness and personality are collapsed into a single functional line, erasing her as a characterized presence in her debut scene.",
-    "Her recognizing and reacting to Harry \u2014 a relationship-seeding beat explicit in the book corpus \u2014 is entirely absent from the film corpus.",
-    "The physically and emotionally vivid moment of her running after the train (half-laughing, half-crying) is dropped, removing the scene's most humanizing characterization of her.",
-    "Removal of Ginny's active resistance arc \u2014 specifically the attempted breakfast confession (book Scenes 91-105) \u2014 which is the primary evidence that she is not a passive victim but a character fighting against possession, gutting her agency and interiority entirely",
-    "Compression and trivialisation of her psychological deterioration under possession into isolated background details and a single comedic aside, preventing the audience from developing sustained concern or understanding of her internal struggle"
+    "Ginny's expressive, excitable personality is flattened to a single generic line, eliminating the first impression the books carefully construct",
+    "Her emotional star-struck reaction to Harry \u2014 the seed of their relationship \u2014 is cut entirely, removing early relational groundwork",
+    "Her vivid physical action (running after the train, half-laughing half-crying) that establishes her as emotionally present and memorable is absent, making her effectively invisible in her debut scene",
+    "Removal of Ginny's near-confession (Book Scenes 91-104) eliminates her moral agency and active resistance to Riddle's control, reducing her from a character fighting her own victimhood to a purely passive plot device.",
+    "Systematic omission of counterbalancing characterisation (her normal volubility, her wit, her recovery on the train) leaves the film with only the one-dimensional shy/terrified/weeping version of Ginny, with no evidence of the confident, humorous person she actually is."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 \u2014 Platform 9\u00be, Ginny's only line is 'Good luck'",
-      "book_baseline": "In the book corpus, Ginny is an eager, emotionally expressive child: she begs to go on the train to see Harry, cries when her brothers leave, runs alongside the train waving, and is shown pointing and squealing 'Harry Potter!' at King's Cross the following year. She is animated, funny, and emotionally present.",
-      "film_portrayal": "Ginny's entire contribution at Platform 9\u00be is reduced to a single two-word line \u2014 'Good luck.' \u2014 directed at Harry. She has no other dialogue, no visible emotional reaction to her brothers leaving, and no characterization beyond being a silent bystander.",
+      "scene": "Film Scene 1 \u2013 King's Cross, Ginny's only line is 'Good luck'",
+      "book_baseline": "Book establishes Ginny as excitable, emotionally expressive, and already star-struck by Harry: she squeals 'Harry Potter!', points at him, begs to go on the train, runs alongside it crying and laughing, and waves until it disappears. She is a vivid, energetic presence who makes a clear impression.",
+      "film_portrayal": "Ginny's entire role at King's Cross is reduced to a single two-word line: 'Good luck.' She has no reaction to Harry, no excitement, no emotional farewell to her brothers, no running after the train. She is essentially a silent background figure.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book establishes Ginny as lively, emotionally demonstrative, and already infatuated with Harry in an endearing, childlike way. The film reduces her to a functional extra with a single polite line, stripping her of the personality that makes her memorable and sets up her character arc."
+      "explanation": "The book uses this scene to establish Ginny's personality \u2014 her enthusiasm, her crush on Harry, her warmth \u2014 before she even properly enters the story. The film collapses all of that into a generic pleasantry, giving the audience no impression of who she is.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 \u2014 Ginny's reaction to brothers departing is absent",
-      "book_baseline": "The book corpus explicitly describes Ginny crying when her brothers board the train, then running alongside it laughing and crying simultaneously until it outpaces her \u2014 a vivid, emotionally textured moment that establishes her bond with her brothers and her big feelings.",
-      "film_portrayal": "No such moment occurs in the film corpus. Ginny is shown at the wall and delivers 'Good luck,' but there is no depiction of her emotional response to her brothers leaving or any attempt to keep up with the train.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 1 \u2013 King's Cross, Ginny's star-struck reaction to Harry is absent",
+      "book_baseline": "Book Scene 13\u201315 (Chamber of Secrets platform) reinforces a pattern established in Book Scenes 4\u201312: Ginny singles Harry out by name, squeals, and points at him, showing she already has a specific emotional relationship to Harry before he knows her well. This foreshadows and seeds their eventual romantic arc.",
+      "film_portrayal": "Ginny shows no recognition of or reaction to Harry at King's Cross. The seeding of her feelings for Harry \u2014 a defining trait in this portion of the book corpus \u2014 is entirely absent.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "Ginny's one-sided awareness of Harry is an early, deliberate narrative plant for their later relationship. Removing it means the film fails to establish the relational asymmetry that defines their dynamic across multiple books. The audience loses context for why Ginny matters to Harry's world.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Burrow kitchen, Ginny's first appearance",
+      "book_baseline": "Book Scene 2-5: Ginny gives a small squeal and runs out, and Ron explains she never shuts up normally but is atypically shy around Harry specifically because she has been talking about him all summer. The shyness is contextualised as a crush-driven exception to her normally voluble personality.",
+      "film_portrayal": "Ginny squeals and dashes back up the stairs identically to the book, but Ron's line is trimmed to 'Ginny. Been talking about you all summer. Dead annoying, really.' The nuance that she 'never shuts up normally' \u2013 establishing her as a confident, talkative person whose shyness is the anomaly \u2013 is lost. The film presents only the shy, squealing girl with no counterweight.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book carefully frames Ginny's shyness as situational, not characterological. Dropping Ron's qualifier ('You don't know how weird it is for her to be this shy \u2013 she never shuts up normally') means the film audience's first and lasting impression is of a timid, starstruck girl rather than a confident one temporarily overwhelmed by a crush. This seeds a distorted baseline for the rest of her portrayal.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Flourish and Blotts, Ginny defends Harry against Draco",
+      "book_baseline": "Book Scene 31: 'Leave him alone, he didn't want all that!' said Ginny. The narration notes this is the first time she had spoken in front of Harry, and she is described as glaring at Malfoy \u2013 a moment of courage that breaks her paralysing shyness.",
+      "film_portrayal": "The film includes the line and the confrontation (Film Scene 1, Flourish and Blotts section), which is faithful. No damage here.",
+      "damage_type": "personality/voice",
+      "exposure": 0,
+      "impact_weight": 0,
+      "explanation": "Faithful \u2013 not scored.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 King's Cross, Ginny goes through barrier",
+      "book_baseline": "Book Scene 60: Mrs Weasley grabs Ginny's hand and they go through the barrier together, with no particular emphasis on Ginny being nervous. The scene is brief and functional.",
+      "film_portrayal": "The film gives Ginny a small character beat: she looks 'a bit nervous', closes her eyes and slides through on her own while Mrs Weasley watches. While minor, the film chooses to emphasise nervousness as her defining state even in a routine action.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A small but characterizing beat is lost. The half-laughing, half-crying run after the train is the most humanizing moment Ginny gets in the book's opening \u2014 it shows her warmth and her closeness to her brothers. Its absence leaves her as a cipher rather than a person."
+      "explanation": "A small additional moment of portrayed nervousness that reinforces the 'timid Ginny' characterisation the film is building, with no book basis. Low weight because the moment is brief and isolated.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 1 \u2014 Ginny's Harry Potter recognition/excitement absent",
-      "book_baseline": "The book corpus (Scenes 4\u20138, 13\u201315) shows Ginny recognizing Harry at King's Cross, squealing 'Harry Potter!', pointing at him, begging to go on the train to see him, and being gently scolded. This establishes her awareness of Harry, her excitability, and seeds her eventual romantic arc in an organic, age-appropriate way.",
-      "film_portrayal": "In the film corpus, Ginny has no such reaction to Harry. She does not recognize him, squeal, point, or express any excitement about his presence. The entire beat of Ginny noticing Harry is absent.",
+      "scene": "Film Scene 2 \u2013 Howler scene, Ginny scribbling in the diary",
+      "book_baseline": "Book Scene 68-78: Ginny is described as 'looking pale' around October; she is disturbed by Mrs Norris's fate (Scene 70), her lip trembles at Ron's dark jokes (Scene 71), and she is distraught in Charms (Scene 75). The book conveys emotional disturbance gradually across multiple scenes. Crucially, the book does not show Ginny writing in the diary in public view at the Gryffindor table during the Howler scene.",
+      "film_portrayal": "Immediately after the Howler, the film script notes: 'Ginny, sitting a bit apart from the others, looks up shyly, then returns to the SMALL BLACK BOOK she's scribbling in.' This is the film's first visual of Ginny with the diary, placed in a public, observable moment where Harry and Ron could in principle notice it.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book presents Ginny's possession of the diary as hidden and private \u2013 a source of secret shame by the end of the year. Showing her writing in it openly at the Gryffindor table undermines the sense that she is covertly controlled and struggling in private. It also slightly weakens the eventual revelation of the diary's significance, because the audience has already been flagged to associate the black book with Ginny long before Harry's investigation. The mystery and Ginny's hidden victimhood are both somewhat diluted.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Dueling Club, Ginny bolts from the room after Harry speaks Parseltongue",
+      "book_baseline": "Book Scene 65-66 (context): After the dueling incident, the book describes students reacting with fear and suspicion toward Harry. Ron and Hermione discuss this with Harry. Ginny's specific reaction at the Dueling Club is not described in the provided book corpus beyond the general school atmosphere.",
+      "film_portrayal": "The film script explicitly states: 'Malfoy looks shocked. Seamus and Neville's eyes glitter with fear. Ginny bolts the room.' This gives Ginny a uniquely fearful, flight reaction to Harry's Parseltongue \u2013 more extreme than any other named character.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "While Ginny's fear in this moment has a diegetic explanation (she knows she is the one being controlled and fears discovery), the film presents it with no such subtext visible to the audience. The result is that Ginny is coded as simply terrified of Harry, reinforcing her one-dimensional fearful/shy portrayal and damaging the sense that she has a complex inner life. It also weakens the Harry\u2013Ginny relationship by making her visibly flee him.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Library corridor, Ginny reacts to diary",
+      "book_baseline": "Book Scene 83-85 (diary corridor scene): Ginny is described as staring from the diary to Harry 'looking terrified' when Malfoy picks up what he thinks is Harry's diary. This is a reaction the book attributes to her knowing the diary is Riddle's and fearing exposure.",
+      "film_portrayal": "Film Scene 94 (corridor after Myrtle's bathroom): Harry jokes about his eyes being burned out by the diary; 'At the end of corridor, Ginny stands, looking from the diary to Harry \u2013 utter terror on her face \u2013 then dashes off. Harry: Ginny! I was only joking.' Ron says: 'Brilliant. Even your sister thinks I'm the monster now.'",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film frames Ginny's terror at the diary as if she fears Harry (played for a dark-comedy beat), and Harry himself interprets it as her believing he is dangerous. The book's equivalent moment is fear of exposure rooted in her guilt and Riddle's hold over her. The film's version erases Ginny's interiority and replaces it with a gag that makes her look simply credulous and fearful of Harry, further flattening her character.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Staircase / Quidditch corridor, Ginny spotted before match",
+      "book_baseline": "The book corpus does not contain this specific staircase scene. The provided book corpus shows Ginny's deterioration through scattered glimpses (pale, distraught, nightmares), but no equivalent staircase encounter before the Quidditch match.",
+      "film_portrayal": "Film Scene 105A: 'Ron spies Ginny. Ron: Hey, Ginny! Going to the match? Ginny looks up, startled, then shakes her head and exits. Ron: I tell you, she gets weirder and weirder by the day...'",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A brief added moment that reinforces 'weird/absent Ginny' as a recurring visual motif but gives her no interiority. Ron's dismissive commentary ('weirder and weirder') defines her distress entirely through another character's exasperated gaze, with no indication of her suffering. Minor in isolation but cumulative with other instances.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Chamber of Secrets, Ginny's awakening and dialogue",
+      "book_baseline": "Book Scene 167-171: Ginny stirs, her eyes travel from the basilisk to Harry in his blood-soaked robes to the diary, she draws a shuddering gasp, and tears pour down her face. Her first words are: 'Harry -- oh, Harry -- I tried to tell you at b-breakfast, but I c-couldn't say it in front of Percy -- it was me, Harry -- but I -- I s-swear I d-didn't mean to -- R-Riddle made me, he t-took me over -- and - how did you kill that -- that thing? W-where's Riddle? The last thing I r-remember is him coming out of the diary --' She then weeps that she is going to be expelled, that she has looked forward to Hogwarts ever since Bill came, and fears what her Mum and Dad will say.",
+      "film_portrayal": "Film Scene 133B/134: Ginny stirs, sees Harry, sobs: 'Harry. It was me! But I swear, I didn't mean to... Riddle made me. He wrote to me... took me over... I didn't even know whose diary it was. I found it inside my cauldron. The day we all went to Diagon Alley and... Harry. You're hurt...' In the tunnel (Scene 134): 'I'm going to be expelled, I just know it!'",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The film removes Ginny's most emotionally resonant book line: her anguished statement that she tried to warn Harry at breakfast but couldn't say it in front of Percy. This is crucial \u2013 it establishes that Ginny had sufficient self-awareness and moral courage to attempt to confess before the crisis peaked, and it pays off the earlier breakfast scene (Book Scene 91-104) where she nearly told Harry and Ron. The film replaces this with a simpler denial of culpability. The loss removes her agency, her courage, and the emotional payoff of that earlier near-confession. Her fear about her parents and Hogwarts is retained but decontextualised from the deeper anguish the book conveys.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Dumbledore's office, Ginny's testimony and departure",
+      "book_baseline": "Book Scene 198-211: Harry fears for Ginny's expulsion, worries how to protect her, and hesitates before telling the full story. Ginny herself sobs through her explanation ('His d-diary! I've b-been writing in it, and he's been w-writing back all year'). Mr Weasley is flabbergasted and scolds her. Dumbledore interrupts firmly to protect her and sends her to the hospital wing with kindness. The scene shows Ginny's guilt, vulnerability, parental reaction, and Dumbledore's protective wisdom all in sequence.",
+      "film_portrayal": "Film Scene 135: Ginny repeats the cauldron explanation, adds 'But I understand if... given all the trouble I've caused... if you --' before Dumbledore cuts her off. Mr Weasley's scolding is relocated to the corridor (heard off-screen as Mrs Weasley's voice: 'A diary that writes back to you! Honestly, Ginny! What were you thinking? Haven't I always told you?'). The on-screen confrontation between Ginny and her father, and Ginny's extended tearful confession, are removed.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is a foundational beat for the Ginny\u2013Harry relationship. Her starstruck, then genuine, fascination with Harry is the first layer of what becomes a central romance in the saga. Removing it means their eventual relationship has less grounded, earned setup from the very first film. The corpus supports this as a clear divergence with relationship-level consequences."
+      "explanation": "The book's resolution scene is one of the few moments where Ginny is given extended emotional space and where her relationship with her parents is developed. Mr Weasley's flabbergasted, loving-but-shaken response and Dumbledore's protective interruption form a complete emotional beat. The film reduces this to a brief appearance and relocates the parental reaction off-screen as a background gag (Mrs Weasley's scolding voice used for comedy). Ginny's emotional arc of guilt, relief, and parental reconnection is nearly entirely lost.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 1 - The Burrow kitchen, Ginny's first appearance",
-      "book_baseline": "Book Scene 2-5 establish that Ginny gives a small squeal and runs out, and Ron explains she 'never shuts up normally' \u2014 her shyness around Harry is a temporary, crush-based anomaly against a baseline of being talkative and confident.",
-      "film_portrayal": "Ginny squeals and dashes back up the stairs. Ron's line is condensed to 'Been talking about you all summer. Dead annoying, really.' The book's specific contrast \u2014 that her silence is weird because she normally never shuts up \u2014 is lost. The film presents her shyness without the counterweight of her usual confident personality.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book carefully frames Ginny's shyness as an exception to her normally outspoken character, which seeds her as a person of substance. The film omits Ron's clarifying line ('she never shuts up normally'), leaving audiences with only the shy, star-struck impression \u2014 the beginning of a pattern that reduces her to a one-note crush."
-    },
-    {
-      "scene": "Film Scene 1 - Flourish and Blotts, Ginny defends Harry against Draco",
-      "book_baseline": "Book Scene 31 establishes this as the first time Ginny speaks in front of Harry \u2014 a moment of real courage and agency where she glares at Malfoy and says 'Leave him alone, he didn't want all that!' The book narrator notes it is the first time she has spoken in front of Harry, marking it as a significant character beat.",
-      "film_portrayal": "The film includes Ginny's line ('Leave him alone! He didn't want all that!') and it is present in the corpus. However, the film does not mark the moment as her first speech in front of Harry, and the narrative weight of the moment \u2014 that this shy girl found her voice to defend someone \u2014 is not signalled to the audience.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The book explicitly flags this as her first words in Harry's presence, making it a quiet but meaningful assertion of her character beneath the shyness. The film delivers the line but strips the context that makes it resonate as a character-defining moment of bravery breaking through embarrassment."
-    },
-    {
-      "scene": "Film Scene 3 - Library/Dueling Club aftermath, Ginny scribbling in diary",
-      "book_baseline": "Book Scenes 91-101 establish Ginny as increasingly disturbed and trying to confess something important \u2014 she is visibly tense, rocking like Dobby, and nearly tells Harry something crucial about the Chamber before Percy interrupts. Her internal torment is active and externally readable.",
-      "film_portrayal": "The film (Scene 3, library sequence) shows Ginny 'tired and pale, scribbles furiously in a small black book' \u2014 but this is presented as atmospheric background detail. Her active attempt to confess and her clear psychological distress are absent from the film corpus. The audience sees her writing in the diary passively, not struggling against Riddle's control.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book gives Ginny active interiority \u2014 she is fighting to warn Harry, barely holding herself together. The film reduces her to a pale background figure scribbling, which strips her of the dramatic tension of her internal struggle and makes her victimhood appear passive rather than a genuine battle against possession."
-    },
-    {
-      "scene": "Film Scene 3 - Dueling Club, Ginny bolts the room after Parseltongue incident",
-      "book_baseline": "Book Scene 75-78 show Ginny as genuinely frightened and disturbed by events related to the Chamber, with context that she is being controlled by the diary. Book Scene 84 shows her staring in terror from the diary to Harry when Malfoy finds it \u2014 she is afraid Harry will discover what she has done.",
-      "film_portrayal": "Film Scene 3 (Dueling Club): 'Ginny bolts the room' after Harry speaks Parseltongue. Later in the corridor scene (Film Scene 4), Ginny stares at the diary in Harry's hands 'with utter terror on her face' then dashes off. These are present in the corpus but function only as spooky atmosphere \u2014 the film never gives Ginny any lines or interiority to explain her terror to the audience.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film uses Ginny's fear as visual shorthand for 'something is wrong' without ever giving the audience access to why she is so afraid. Without the attempted confession scene (book Scenes 91-105), her panicked reactions read as inexplicable rather than as the agonised behaviour of a possessed girl trying to warn people while being prevented."
-    },
-    {
-      "scene": "Film Scene 4 - Corridor, Harry finds the diary, Ginny's reaction",
-      "book_baseline": "Book Scene 84 establishes that Ginny recognises the diary immediately and is terrified Harry will discover her secrets from it. This directly connects to her earlier attempted confession and her internal war.",
-      "film_portrayal": "Film Scene 4: Ginny stands at the end of the corridor, 'looking from the diary to Harry \u2014 utter terror on her face \u2014 then dashes off.' Harry calls after her: 'Ginny! I was only joking.' Ron says 'Brilliant. Even your sister thinks I'm the monster now.' The film plays Ginny's terror as a misunderstanding about Harry's joke, flattening her meaningful panic into comic relief about Harry's reputation.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "In the book, Ginny's terror at seeing the diary is deeply meaningful \u2014 it is about her own guilt and fear of exposure. The film recontextualises it as just another person being afraid of Harry-the-suspected-heir, destroying the specific, character-driven significance of her reaction and reducing her to a prop in a joke at Harry and Ron's expense."
-    },
-    {
-      "scene": "Film Scene 4 - Absent scene: Ginny's attempted breakfast confession (book Scenes 91-105)",
-      "book_baseline": "Book Scenes 91-105 are a sustained, important sequence: Ginny sits down with Ron and Harry, visibly tense and rocking, and is clearly on the verge of confessing to them about the Chamber. She is interrupted by Percy. This is one of the most important windows into her active agency and her fight against Riddle's control. It also sets up why Dumbledore later says 'she tried to tell you' \u2014 Ginny was not a passive victim.",
-      "film_portrayal": "This scene does not appear anywhere in the film corpus. There is no moment where Ginny attempts to confess or warn Harry. Her entire arc of internal resistance to Riddle's control is absent.",
+      "scene": "Film \u2013 Absence of book's near-confession breakfast scene (Book Scenes 91-104)",
+      "book_baseline": "Book Scenes 91-104: Ginny sits down next to Ron, looking tense, hands twisting in her lap. She is clearly trying to tell Harry and Ron something about the Chamber. She 'drew a deep breath' to speak, but Percy arrives and she 'jumped up as though her chair had just been electrified' and scampered away. This scene establishes Ginny as someone actively fighting Riddle's control and trying to do the right thing, at personal cost.",
+      "film_portrayal": "No equivalent scene exists in the film corpus. The film has no scene where Ginny attempts to warn Harry before the final crisis.",
       "damage_type": "agency/function",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "The attempted confession is the single most important demonstration that Ginny is not merely a passive victim of possession \u2014 she fights it, she tries to protect Harry and expose the truth at personal risk. Its absence means the film Ginny has no visible agency in her own story. The audience never sees her struggling against Riddle, which fundamentally damages her as a character and makes her possession seem like helpless victimhood rather than a battle she partially fought."
+      "explanation": "This is the single most damaging absence in the film's portrayal of Ginny. The near-confession is the clearest demonstration that Ginny has moral agency, courage, and is actively resisting Riddle's influence \u2013 she is not a passive victim but someone fighting back. Its absence means the film Ginny never attempts to save herself or others, never demonstrates internal resistance to the possession, and her awakening scene's reference to having tried to warn Harry (which the film also cuts) has no setup. The result is a Ginny who appears wholly passive throughout the plot, functioning only as a victim-object to be rescued rather than a character with her own moral struggle.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 4 - Quidditch staircase, Ron notices Ginny is acting oddly",
-      "book_baseline": "The book builds a pattern of Ginny's visible deterioration \u2014 pale, distraught, emotionally volatile \u2014 which the reader understands as possession. Ron's observation in the film corpus ('she gets weirder and weirder by the day') is present but isolated.",
-      "film_portrayal": "Film Scene 4 (staircase): Ron says 'Hey, Ginny! Going to the match?' and Ginny 'looks up, startled, then shakes her head and exits.' Ron says 'I tell you, she gets weirder and weirder by the day.' This is the film's primary characterisation of Ginny's deterioration \u2014 a single throwaway line played for mild comedy.",
+      "scene": "Film \u2013 Absence of Ginny's active voice and humour in book's final train scene (Book Scenes 220-225)",
+      "book_baseline": "Book Scene 220-225: On the Hogwarts Express home, Ginny is 'perfectly happy again' and part of the group playing Exploding Snap and setting off fireworks. When Harry asks what she saw Percy doing, she giggles and reveals his secret girlfriend with obvious delight and mischief, showing her as warm, funny, and fully recovered \u2013 her authentic personality finally on display.",
+      "film_portrayal": "No equivalent scene in the film corpus. The film ends at the Great Hall feast and Dumbledore's office resolution. The train-home scene with Ginny's humour and recovery is absent.",
       "damage_type": "arc",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book develops Ginny's deterioration across multiple scenes with emotional specificity. The film compresses her entire psychological unravelling under possession into one comedic aside from Ron. This trivialises what should be a horrifying, sympathetic arc and robs Ginny of the audience's sustained concern for her."
-    },
-    {
-      "scene": "Film Scene 4 - Chamber of Secrets, Ginny's awakening and confession",
-      "book_baseline": "Book Scene 169-171: Ginny wakes, takes in the scene, and gives a detailed, emotionally rich confession \u2014 'I tried to tell you at b-breakfast,' referencing her specific failed attempt, showing she actively tried to resist and warn Harry. She weeps about being expelled, about having looked forward to Hogwarts since Bill attended. Her first concern after survival is her family's reaction and her future.",
-      "film_portrayal": "Film Scene 4 (Chamber): Ginny says 'Harry. It was me! But I swear, I didn't mean to... Riddle made me. He wrote to me... took me over... I didn't even know whose diary it was. I found it inside my cauldron.' There is no reference to trying to tell Harry at breakfast. Her confession is shorter and removes the specific evidence of her active resistance. She then immediately notices 'Harry. You're hurt...' and shifts focus to him.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The reference to trying to warn Harry at breakfast is the payoff to a character arc of active resistance that has been entirely cut from the film. Without that line, Ginny's awakening confession is a passive account of victimhood rather than a demonstration that she fought back. The film version also pivots her attention to Harry's wound almost immediately, further centring him over her own traumatic experience."
-    },
-    {
-      "scene": "Film Scene 4 - Dumbledore's office, Ginny's exoneration scene",
-      "book_baseline": "Book Scene 198-211: Harry agonises about whether to mention Ginny and the diary, worrying about her expulsion. Ginny sobs her explanation to her parents and Dumbledore directly ('His d-diary! I've b-been writing in it...'). Mr. Weasley's response ('Haven't I taught you anything...') and Dumbledore's gentle comfort are all directed at Ginny present in the room. The scene is centred on Ginny's exoneration.",
-      "film_portrayal": "Film Scene 4 (Dumbledore's office): Ginny is present and speaks ('I didn't know whose diary it was, sir. I swear...'), but her emotional breakdown and her parents' specific responses are partially offscreen \u2014 Mrs. Weasley's 'A diary that writes back to you! Honestly, Ginny!' is heard as Ginny is led out by McGonagall, rather than a full in-room confrontation. Mr. Weasley's direct admonishment of Ginny is absent from the film corpus.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's exoneration scene is important for the Weasley family dynamic \u2014 Arthur's loving but firm parental response, and Dumbledore's kind reassurance directly to Ginny's face, establish her relationship with her family and her recovery. The film moves key emotional beats offscreen, weakening the relational resolution of her arc."
-    },
-    {
-      "scene": "Film Scene 4 - Absent scene: Train compartment ending, Ginny reveals Percy's secret (book Scenes 220-225)",
-      "book_baseline": "Book Scenes 220-225: On the Hogwarts Express, Ginny is 'perfectly happy again' and joins Harry, Ron, Fred, George, and Hermione in a compartment. She giggles and reveals Percy's secret girlfriend, showing she has recovered, is socially integrated with the group, and has her own wit and knowledge. This is the last image of Ginny in CoS \u2014 confident, funny, part of the gang.",
-      "film_portrayal": "This scene does not appear in the film corpus. Ginny has no closing scene that demonstrates her recovery, reintegration, or personality. Her arc ends at the Chamber/Dumbledore's office with trauma and relief but no restoration of her as a full person.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's closing Ginny scene is structurally important: it confirms her recovery and reveals her as witty, socially perceptive, and at ease \u2014 the person Ron said she normally is. Without it, the film leaves Ginny defined entirely by her victimisation. The audience never sees who she actually is beyond the traumatised first-year, which damages both her arc and the foundation for her later importance in the series."
-    },
-    {
-      "scene": "Film Scene 1 (Leaky Cauldron) \u2014 Ginny's arrival with family",
-      "book_baseline": "Book Scene 5 establishes that Ginny, though embarrassed around Harry, is a present and emotionally textured character: she goes red, mutters hello, and her crush-based embarrassment is a defined personality beat. Book Scene 8 shows her giggling at Fred and George's irreverence, and Scene 22 shows her sharing a conspiratorial laugh with Harry over Percy's pomposity \u2014 establishing a nascent, genuine rapport.",
-      "film_portrayal": "In Film Scene 1, Ginny's arrival is entirely absorbed into the family ensemble chaos. She has no individual moment, no reaction to Harry, no embarrassment, no personality beat. She is visually present but functionally invisible.",
-      "damage_type": "personality/voice | relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book uses this early Leaky Cauldron gathering to plant seeds of Ginny's personality and her specific dynamic with Harry. The film collapses her into background noise, removing the relational groundwork that the saga depends on for her later centrality to Harry's arc."
-    },
-    {
-      "scene": "Film Scene 2 (Leaky Cauldron continuation) \u2014 Ginny's one line about Fred's nose",
-      "book_baseline": "Book Scene 22 shows Ginny sharing a private laugh with Harry \u2014 a small but meaningful moment of genuine connection and mutual wit. Book Scene 5 establishes her embarrassed awareness of Harry as emotionally significant. Her personality in the books is warm, observant, and capable of dry humor.",
-      "film_portrayal": "Ginny's sole contribution in Film Scene 2 is correcting Fred about whose nose appears larger in the photograph ('That's your nose, Fred'). This is a throwaway comedic line with no emotional weight or connection to Harry. It functions purely as a setup for Fred's joke, not as characterization.",
-      "damage_type": "personality/voice | nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "Ginny is reduced to a straight-man prop for a sibling joke. Her one spoken moment in the film corpus has no individuality and no relational dimension. The book's version of this gathering gives her specific, textured reactions; the film gives her a single functional line that could belong to any sibling."
-    },
-    {
-      "scene": "Film Scene 3 (Gryffindor corridor) \u2014 Ginny reports the Fat Lady's portrait",
-      "book_baseline": "Book Scene 33 shows Ginny as emotionally vulnerable but present after the Dementor encounter \u2014 shaking, needing comfort, but part of the group. Book Scene 25 shows her reacting with indignation ('Oh, that's nice') when dismissed by Ron, demonstrating she pushes back rather than simply absorbing mistreatment. She is a participant, not a messenger.",
-      "film_portrayal": "In Film Scene 3, Ginny appears with an 'ashen' face to deliver the plot-critical news about the Fat Lady's destroyed portrait. Ron dismisses her report ('Probably stuffing her face with apples again') and she corrects him ('No. You don't understand \u2014'), but the scene immediately pivots away from her to Hermione's reaction and Dumbledore's arrival. Ginny functions here purely as an exposition delivery mechanism.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "While Ginny does speak and is briefly present, she exists solely to transmit plot information before being sidelined. Her emotional state ('ashen') is noted but not developed. The dismissal by Ron is not given the interpersonal texture the books provide. She is a narrative tool rather than a character participant. This is not catastrophic in isolation but is consistent with a pattern of functional reduction."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 Death Eater attack at the campsite",
-      "book_baseline": "Book Scene 64: Fred grabs Ginny's hand and pulls her toward the wood, establishing her as someone being physically guided to safety by her brother. Book Scene 73 shows Fred, George, and Ginny returning unhurt but shaken, indicating they navigated the chaos together. Ginny is present and part of the group action.",
-      "film_portrayal": "Arthur assigns Ginny explicitly as a responsibility to Fred and George: 'Fred, George! Ginny is your responsibility. Go!' Ginny has no lines, no reactions, and no individual presence during the attack sequence. She is reduced to a passive charge to be protected rather than a participant.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film frames Ginny purely as someone to be shepherded, stripping her of any individual agency or reaction during a major dramatic sequence. The book similarly has Fred guide her but does not reduce her to a named dependency in Arthur's orders. It is a small but telling signal of how the film treats her as peripheral."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Portkey journey and arrival at campsite",
-      "book_baseline": "Book Scenes 2\u20133 establish Ginny as a present, smiling, self-aware young girl. Book Scenes 10, 13, 17 show her contributing observations and opinions naturally in group conversation. Book Scene 47 shows her making an astute observation about Bagman's security lapse, demonstrating she is engaged and perceptive.",
-      "film_portrayal": "Ginny's only contribution in the entire extended campsite arrival and World Cup sequence is a single exclamation: 'Look!' She has no lines of substance, no named reactions at the Portkey, and no perceptible individual characterization. Arthur's repeated 'Keep up, girls!' bundles her anonymously with Hermione.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The book uses the World Cup journey to establish Ginny as observant, funny, and engaged. The film gives her one word and folds her into background scenery. Her perceptive comment about Bagman (book Scene 47) is entirely absent, and she has no conversational presence across a lengthy sequence, resulting in a flat, undifferentiated background character."
-    },
-    {
-      "scene": "Film Scene 4 \u2013 Yule Ball invitation subplot (Ron comforted by Ginny after Fleur rejection)",
-      "book_baseline": "Book Scene 92 shows Ginny comforting Ron after his Fleur humiliation while also 'fighting back a smile' \u2013 she is simultaneously sympathetic and amused, showing emotional complexity. Book Scene 98\u2013108 shows Ginny pushing back ('Don't laugh'), defending Hermione's secret, refusing Ron's presumptuous offer to take her to the ball, and then going scarlet with her own embarrassment about Neville. She asserts herself, keeps confidences, and shows wounded pride.",
-      "film_portrayal": "Film Scene 4: Ginny comforts Ron with 'It's all right, Ron. It's okay, Ron. It's all right. It doesn't matter.' She then volunteers the information about Fleur to Harry and Hermione, and when asked what Ron did, she adds the comic detail 'Actually, he sort of screamed at her. It was a bit frightening.' She has no scene equivalent to her refusal of Ron's presumptuous offer, no defense of Hermione's secret, and no moment of her own wounded pride about going with Neville.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The film reduces Ginny's role in this subplot to a supportive bystander and comic narrator. The book's version gives her assertiveness (refusing to be assigned as Ron's date), loyalty (refusing to reveal Hermione's secret), and vulnerability (going scarlet about Neville). All of this is absent. What remains is a purely functional scene-explainer role with no personal stakes."
-    },
-    {
-      "scene": "Film Scene 4 \u2013 Dress robes reveal ('I'm not wearing that, it's ghastly')",
-      "book_baseline": "Book Scene 81\u201382 is a brief exchange where Ron mistakes Ginny's dress for his own. Ginny is not given a separate line about the robes; the joke is about Ron's humiliation. Book Scene 30 shows Ginny confidently defending Bill's long hair against Mrs. Weasley's old-fashioned taste, showing she has her own aesthetic opinions.",
-      "film_portrayal": "Film Scene 4: Ron says 'Ginny, these must be for you' and Ginny replies 'I'm not wearing that, it's ghastly.' This is a small added moment.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This is a minor addition that is broadly consistent with Ginny's book personality (she has opinions on style, per book Scene 30), so damage is minimal. It is noted for completeness but does not meaningfully misrepresent her. Impact is low."
-    },
-    {
-      "scene": "Film Scene 5 \u2013 Yule Ball dancing (Ginny and Neville background appearance)",
-      "book_baseline": "Book Scene 109 establishes Ginny dancing with Neville nearby Harry, with Ginny wincing as Neville treads on her feet. She is present but this is a brief background note. The book has already established her emotional investment in Harry and the awkwardness of going with Neville (Scene 108).",
-      "film_portrayal": "Film Scene 5 and 6: Ginny and Neville appear briefly in background shots dancing. No emotional context is given for why she is there with Neville, what she feels about Harry, or any trace of the wounded pride and resigned disappointment the book establishes in Scene 108. Film Scene 6 shows Neville dancing with Ginny in the Great Hall while Hermione cries on the staircase, again as pure background.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The film never establishes that Ginny wanted to go with Harry, that she accepted Neville only because she had no other option, or that her ball experience carries any emotional weight for her. Her entire arc around the ball \u2013 from scarlet embarrassment in Scene 108 to resigned misery \u2013 is invisible. Given that this period is foundational for the slow-burn Harry/Ginny relationship, the absence is a meaningful loss of relationship groundwork."
-    },
-    {
-      "scene": "Film Scene 7 \u2013 Second task preparation (Fred and George's betting scene)",
-      "book_baseline": "Book Scenes 112\u2013113 show Ginny sitting with Fred, George, Harry, and others at lunch, having a good time together \u2013 establishing her as a natural, comfortable presence in Harry's social world during a tense period.",
-      "film_portrayal": "Film Scene 7: Fred and George are shown taking bets in front of the crowd before the second task. Ginny appears only to briefly say 'Don't be so mean' to Fred and George about their callous betting odds. This is her only line in the second task sequence.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The line is consistent with her character (she has a conscience and pushes back on her brothers), but it is an isolated reaction with no follow-through. The broader loss is that her comfortable social integration into Harry's world during this period is invisible. Damage is minor."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival/kitchen scene",
-      "book_baseline": "Book establishes Ginny as an active, resourceful presence at Grimmauld Place: she investigates the Imperturbable Charm on the kitchen door using Dungbombs, reports her findings to Fred and George, reacts with fierce indignation ('noise like an angry cat') to Percy's insults about the family, participates in the Order dinner conversation, interjects with opinions (e.g., 'Bill doesn't like him either'), and rages loudly at being sent to bed \u2013 enough to set off Mrs. Black's portrait.",
-      "film_portrayal": "In the film Ginny's only line at Grimmauld Place is a brief 'Hi, Mum!' She is present as a background figure but has no investigative action, no verbal sparring, no emotional reaction to Percy, and no defiant protest at being excluded. Her entire characterisation at headquarters is reduced to a single greeting.",
-      "damage_type": "personality/voice | nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The book uses the Grimmauld Place sequence to establish Ginny as clever, opinionated, emotionally invested in her family, and willing to push back against authority. Stripping all of this to a single line removes the first sustained look at who book-Ginny is, leaving the film audience with no foundation for her personality."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 DA formation meeting at the Hog's Head",
-      "book_baseline": "In the book Ginny contributes substantively to the Hog's Head meeting: she is one of the voices who confirms Harry's credentials ('It's true'), and later it is established that she recruited Michael Corner and his Ravenclaw friends by telling Michael about the meeting, directly enabling the DA's formation. She also proposes naming the group 'Dumbledore's Army' ('Yeah, the DA's good\u2026 let's make it stand for Dumbledore's Army, because that's the Ministry's worst fear, isn't it?').",
-      "film_portrayal": "In the film Ginny speaks one confirmatory line ('It's true') at the pub meeting. The naming of the group ('Dumbledore's Army') is not attributed to her in the film corpus \u2013 there is no scene in the provided film text where she proposes the name. Her role in recruiting Michael Corner and his group is entirely absent.",
-      "damage_type": "agency/function | nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Ginny's twin contributions \u2013 recruiting a significant portion of the DA and coining the group's defining name \u2013 are either absent or transferred away. The name 'Dumbledore's Army' becomes one of the saga's iconic phrases; removing Ginny's authorship of it is a concrete loss of agency and narrative credit."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 DA training sessions in the Room of Requirement",
-      "book_baseline": "The book describes Ginny performing well in DA sessions \u2013 notably she is doing 'very well' with jinxes, better than her partner Michael Corner. She is also described casting spells competently throughout. Her flying/Quidditch skill is discussed by Fred and George as evidence of her hidden talent ('Come on, Ginny's not bad'). This competence is built up across multiple scenes.",
-      "film_portrayal": "In the film Ginny casts 'Reducto!' once during the DA session and is briefly shown. Harry singles her out with 'Fantastic, Ginny!' but this is a fleeting moment with no context. The extended portrait of her as a notably skilled student within the DA is absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor loss: the moment is present but thin. The book's cumulative establishment of Ginny's competence across DA sessions is compressed to a single exclamation, which is too brief to build the audience's perception of her as genuinely gifted."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 Umbridge's office / plan to contact Sirius",
-      "book_baseline": "In the book it is Ginny who devises the cover story for keeping students away from Umbridge's corridor ('Garrotting Gas'), delivers it convincingly with improvised logic ('we'll have your body as proof'), and volunteers immediately to help despite not knowing the full plan. She also participates actively in the plan alongside Luna. The book explicitly notes Hermione's surprise at 'the readiness with which Ginny had come up with this lie.'",
-      "film_portrayal": "In the film the scene at Umbridge's office corridor is not depicted with Ginny in a speaking, active role for this portion of the plan. The Garrotting Gas cover story is absent from the film corpus. Ginny appears later outside Umbridge's office having escaped using 'Puking Pastilles' but the corridor guard scene with its demonstration of her quick thinking is not shown.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The Garrotting Gas scene is one of the clearest demonstrations of Ginny's independent quick-wittedness and composure under pressure. Its absence removes a moment specifically noted in the book as surprising even Hermione, which would have landed as a character-defining beat for the film audience."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 Ginny's argument to join the Ministry rescue",
-      "book_baseline": "In the book Ginny makes a forceful, reasoned argument for her right to join the mission: 'I'm three years older than you were when you fought You-Know-Who over the Philosopher's Stone, and it's because of me that Malfoy's stuck back in Umbridge's office with giant flying bogies attacking him.' She rejects Harry's paternalism directly and her jaw-set expression is compared to Fred and George, showing family steel. The book also notes she performed the Bat-Bogey Hex on Malfoy to enable the escape \u2013 explicitly credited by Ron.",
-      "film_portrayal": "In the film Ginny's participation in the group joining Harry is shown but her specific argument and the explicit credit for the Bat-Bogey Hex are absent from the film corpus. She says 'Puking Pastilles, it wasn't pretty' but the forceful defence of her right to come and the specific Bat-Bogey credit ('Ginny was best, she got Malfoy') are not present.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This is one of Ginny's most assertive moments in the entire book, directly pushing back against Harry's underestimation of her. It also gives her concrete credit for the action that enabled the group's escape. Both the argument and the explicit heroic credit are lost, flattening her into a passive participant in the group rather than someone who earned her place and proved her value."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 Department of Mysteries battle",
-      "book_baseline": "In the book Ginny sustains a broken ankle during the battle \u2013 she is immobilised but continues to attempt action (screaming warning about Ron and the brain, contributing awareness of the threat). She is Stunned by a Death Eater while immobilised. Luna supports her and helps her move despite the injury. Her injury is treated as a real cost: she cannot walk and has to be supported. In the hospital wing aftermath she participates actively in conversation.",
-      "film_portrayal": "In the film corpus Ginny casts 'Reducto!' during the battle and is present throughout, but there is no depiction of her receiving a broken ankle or being incapacitated. The injury arc \u2013 which both costs her and shows her continuing to fight through it \u2013 is absent from the film corpus shown.",
-      "damage_type": "nuance/lost material | arc",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The broken ankle matters because it shows Ginny suffering real consequences and still trying to act, and it makes the battle feel costly for the whole group. Its absence slightly sanitises her participation and removes one of the few moments where her vulnerability and determination are shown simultaneously."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Ginny's possession backstory and Harry's crisis (Christmas at Grimmauld Place)",
-      "book_baseline": "In the book Ginny proactively seeks out Harry when he is isolating himself over fear of possession, confronts him directly ('that was a bit stupid of you'), and draws on her own experience of Voldemort's possession in Chamber of Secrets to give him concrete, authoritative reassurance. The exchange ('Lucky you' / 'I'm sorry') shows her emotional complexity: residual pain about her own possession, sharpness with Harry for ignoring her, and genuine compassion. This is the only scene where someone with direct experience validates Harry.",
-      "film_portrayal": "This scene \u2013 Ginny approaching Harry in the bedroom with Ron and Hermione, her confronting him about hiding, and the possession diagnostic exchange \u2013 does not appear in the film corpus. The film shows Harry at Grimmauld Place at Christmas and his possession fears are addressed via Snape/Occlumency and Sirius, but Ginny's unique, personal contribution to resolving Harry's crisis is entirely absent.",
-      "damage_type": "agency/function | relationship",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is arguably the most important scene for Ginny's individual relationship with Harry. It is the only moment in the saga where she draws on her Chamber of Secrets trauma to meaningfully help him, establishes her as someone with unique authority on this specific subject, and creates a genuine emotional bond between them outside the wider group. Its complete removal is a major structural loss: it eliminates the foundation for their eventual romantic relationship and removes Ginny's most significant independent agency in the entire book."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 Library scene / Easter egg / Sirius plan",
-      "book_baseline": "In the book Ginny seeks Harry out in the library, brings him an Easter egg from Mrs Weasley, notices his emotional state, engages him in genuine one-on-one conversation, and \u2013 crucially \u2013 is the one who proposes and enables the plan to contact Sirius through the fire in Umbridge's office: 'Well, if you really want to talk to Sirius, I expect we could think of a way to do it.' She then goes to Fred and George to set it up. The scene ends with them being chased out of the library together.",
-      "film_portrayal": "The library scene is entirely absent from the film corpus. The plan to contact Sirius via Umbridge's fireplace originates differently in the film, with no scene showing Ginny as the initiator or the intimate one-on-one conversation with Harry that precedes it.",
-      "damage_type": "agency/function | relationship",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This scene gives Ginny two things the film removes: (1) the agency of originating the plan that drives the plot toward the Ministry, and (2) a private, warm moment with Harry that builds their relationship organically. Without it, Ginny's connection to Harry is purely group-based and her role in the plot's mechanics disappears. This is a substantial double loss of agency and relationship development."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Ron/Ginny dating subplot (Michael Corner revelation)",
-      "book_baseline": "The book includes a developed subplot in which Ginny is secretly dating Michael Corner (having given up on Harry), Ron reacts with outrage, and Hermione explains that Ginny moved on. This establishes Ginny as someone with an active romantic and social life, independent of Harry, and demonstrates she has agency over her own feelings. By the end of OotP she has also dumped Michael for being sulky after a Quidditch loss and mentions Dean Thomas as her next choice \u2013 showing her confidence and self-direction.",
-      "film_portrayal": "The Michael Corner subplot, Ron's reaction to it, and Ginny's own romantic independence are entirely absent from the film corpus. There is no scene establishing that Ginny has moved on from Harry or that she has her own dating life. Her romantic trajectory is invisible.",
-      "damage_type": "arc | relationship | personality/voice",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "This subplot is essential for the eventual Harry/Ginny relationship to feel earned rather than sudden. It establishes Ginny as a person with her own desires, confidence, and social life \u2013 not simply waiting for Harry. Removing it means the film audience has no sense of Ginny as a romantic agent, which damages both her character perception and the groundwork for their later relationship."
+      "explanation": "The book's closing Ginny moment is essential to her arc: it shows the real Ginny \u2013 confident, giggling, mischievous, fully herself \u2013 finally visible after a year of suppression. The film never delivers this resolution. The audience's last substantive impression of Ginny is the sobbing, frightened girl in the Chamber and Dumbledore's office. Her recovery, her personality, and the narrative promise that the 'real Ginny' exists beyond shyness and victimhood are never fulfilled on screen.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 2 \u2013 Quidditch subplot (Ginny as Seeker, Ginny's skill acknowledged)",
-      "book_baseline": "The book devotes considerable space to Ginny stepping up as Seeker when Harry is banned, performing creditably (catching the Snitch against Hufflepuff despite difficult conditions), and being discussed by Fred, George and Harry as a genuinely talented player who developed her skills in secret. This is part of a sustained portrait of her as competent and impressive in her own right.",
-      "film_portrayal": "The Quidditch subplot involving Ginny as Seeker, her catch, and the discussions about her hidden talent are entirely absent from the film corpus. The film's Quidditch content does not include this material.",
-      "damage_type": "nuance/lost material | arc",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "While Quidditch subplots are reasonably compressible, this material specifically builds Ginny's independent competence and self-reliance. Its absence contributes to the film's overall failure to establish her as impressive in her own right, which compounds across all other absences."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 1-4 (Burrow arrival / Ginny discovers Harry)",
-      "book_baseline": "In the book, Ginny's first appearance in HBP is as a confident, slightly irritable presence who 'slouches' in and sits on Harry's bed, complaining about Fleur with sharp wit and sarcasm. She is self-possessed and socially at ease from the start.",
-      "film_portrayal": "The film invents an entirely new scene where Ginny discovers Harry's trunk and owl and runs around the house asking about him, playing a comedic 'where is he?' routine. She is rendered as excitable and mildly flustered by Harry's presence, with a 'great grinning hug' described as 'oddly charged' and 'a surprise to both of them.' This telegraphs romantic feeling immediately rather than letting it develop organically through Ginny's confidence and independence.",
-      "damage_type": "personality/voice | relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book's Ginny is never flustered or girlishly excited about Harry. She treats him as a peer and equal from the first scene. The film immediately frames her through a romantic lens and makes her reactive to Harry rather than self-contained, undermining the book's careful construction of her as someone who has grown past her earlier crush into a confident young woman Harry admires precisely because she doesn't orbit him."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 6 (Weasley's Wizard Wheezes - love potion exchange)",
-      "book_baseline": "In the book, Ginny at Weasley's Wizard Wheezes is sharp, funny, and assertive. She raises an eyebrow skeptically at the love potions ('Do they work?'), shuts Fred and George down with a Mrs. Weasley-ish glare when they pry about her boyfriends, and defends herself to Ron with wit and directness. She is entirely in control of the interaction.",
-      "film_portrayal": "The film condenses her role. She deflects Fred's question about Dean with 'None of your business' and that is largely the extent of her characterisation in this scene. The Pygmy Puff purchase, the skeptical love potion inquiry, the sharp glare that silences Fred, and the multi-boyfriend teasing that reveals her confident romantic history are all either cut or flattened.",
-      "damage_type": "nuance/lost material | personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book scene is one of the richest portraits of Ginny's confident, humorous, self-assured personality in the whole novel. The film retains only a token exchange and loses the texture that makes her feel like a fully realised character with her own social world and sharp wit."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 7 (Hogwarts Express - Ginny with Dean)",
-      "book_baseline": "On the train, Ginny is socially independent and warm. When Harry asks if she wants to find a compartment together, she declines because she has plans with Dean, leaving Harry with 'a strange twinge of annoyance.' She is described moving away with her 'long red hair dancing behind her.' This is the first beat of Harry noticing her as something other than Ron's sister.",
-      "film_portrayal": "The film shows Ginny passively sitting in the aisle with Dean, who is whispering to her. She is 'more interested in the Purple Pygmy Puff perched on her shoulder' than in Dean. She interacts briefly with Luna. She is a background figure here rather than the socially active, independently purposeful person she is in the book.",
-      "damage_type": "nuance/lost material | relationship",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book uses this scene to plant the first seed of Harry's growing awareness of Ginny, specifically triggered by her independent departure. The film does not register this beat at all, weakening the organic build of their relationship."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 8 (Great Hall - Ginny dabs Harry's face)",
-      "book_baseline": "In the book, when Harry arrives at the feast bloodied, Ginny is present at the table but the focus is on Hermione cleaning his face. Ginny's role at this point in the novel is as a peer in a group context, not as someone physically tending to Harry.",
-      "film_portrayal": "The film has Ginny pick up a damp napkin and begin to dab Harry's face, then 'feels suddenly awkward' and hands it to him. This small invented moment of physical intimacy followed by awkwardness frames the relationship in a shy, romantically self-conscious register that is not present in the book at this early stage.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The film substitutes the book's slow-burn, self-aware romantic development with early-planted moments of shy physical chemistry. This changes the texture of the relationship from one grounded in mutual respect and growing awareness into a more conventional screen-romance shorthand. Ginny's slight awkwardness here is the opposite of her book characterisation as someone who has deliberately become relaxed and natural around Harry."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 10 (Common room - Ginny discovers the Half-Blood Prince inscription)",
-      "book_baseline": "In the book, it is Ginny who notices Harry's concern about the Prince's book echoing the Tom Riddle diary situation. She speaks to Harry privately and with genuine alarm: 'Did I hear right? You've been taking orders from something someone wrote in a book, Harry?' Her response is driven by lived trauma - she was possessed through Riddle's diary - and Harry has to reassure her. This is a meaningful character moment connecting her past to the present plot.",
-      "film_portrayal": "The film has Ginny simply pluck the book from Harry's hand and read the inscription aloud ('Who's the Half-Blood Prince?') in a casual, curious register. There is no alarm, no personal resonance with the diary, no private exchange with Harry about it. She just reads the cover and prompts the others' curiosity.",
-      "damage_type": "nuance/lost material | personality/voice | agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This is a significant loss. In the book, Ginny's reaction to the Prince's book is one of the clearest demonstrations of her depth as a character - she connects the danger Harry might be in to her own traumatic experience, showing intelligence, courage, and hard-won wisdom. The film reduces her to a narrative device who simply names the mystery, stripping her of the very characterisation that makes her more than a love interest."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 13 (Slughorn's supper - Ginny arrives flustered with red eyes)",
-      "book_baseline": "In the book, Ginny ends up at Slughorn's lunch because she hexed Zacharias Smith for pestering her about the Ministry battle, and Slughorn was so impressed by her Bat-Bogey Hex that he invited her. She is the only guest there on her own merit rather than family connections. She is composed and staunch - she backs Harry up against Zabini and defends Neville. Slughorn notes she performed 'the most marvelous Bat-Bogey Hex.'",
-      "film_portrayal": "The film has Ginny arrive late to Slughorn's supper with red eyes, 'uncharacteristically flustered,' because she and Dean have been fighting. Hermione whispers to Harry: 'Look at her eyes. They've been fighting again. Her and Dean.' Harry then stands as she reaches the table - 'the only one' - framed as romantic gallantry.",
-      "damage_type": "personality/voice | agency/function | relationship",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "This is one of the most damaging substitutions in the corpus. The book's Ginny earns her place at Slughorn's table through a display of impressive, independent magical ability. The film replaces this with romantic distress over a boyfriend argument, making her flustered and emotionally reactive - the opposite of her book characterisation. Her presence at the supper is now explained by a relationship problem rather than her own formidable skill. This fundamentally alters how the audience understands her competence and agency."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 16 (Burrow Christmas - tart-feeding scene)",
-      "book_baseline": "In the book, the Christmas scenes at the Burrow feature Ginny as one of several family members present. Her interactions with Harry at Christmas are warm but not specially intimate - she is part of group scenes. The romantic tension simmers through Harry's internal narration rather than through choreographed intimate gestures.",
-      "film_portrayal": "The film invents a scene where Ginny approaches Harry during the adult conversation, says 'Open up, you' and pops a small tart into his mouth. She smiles at him and hooks her hair over one ear. Harry is visibly affected. Ron immediately plops down between them.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The invented tart-feeding moment constructs their relationship around cute romantic gestures rather than the mutual respect and shared history the book builds. It also makes Ginny the romantic initiator in a slightly coy, food-as-flirtation register that is alien to her book characterisation. Small but contributes to a cumulative pattern of misrepresenting the nature of their dynamic."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 17 (Burrow second floor - Ginny in robe, wet hair)",
-      "book_baseline": "There is no equivalent scene in the book corpus. The book does not feature a private nighttime encounter between Harry and Ginny at the Burrow where they are alone together in an intimate atmosphere before the Death Eater attack.",
-      "film_portrayal": "The film creates an entirely invented scene where Harry finds Ginny alone on the second floor, in a robe, twisting her wet hair in a towel. She tells him 'I don't sleep these days. So I wash my hair.' There is a charged silence, a 'knowing' look from Ginny, and she says 'Happy Christmas, Harry' before the attack begins.",
+      "scene": "Film Scene 2 (Leaky Cauldron) - Ginny's only line is a quip about Fred's nose",
+      "book_baseline": "Book Scene 5 establishes that Ginny, though embarrassed around Harry, is a present and emotionally legible character in the Leaky Cauldron gathering. Book Scene 8 shows her giggling at Fred and George's irreverence. Book Scene 22 shows her sharing a knowing, conspiratorial look with Harry about Percy \u2014 a moment of genuine connection and shared humor between them.",
+      "film_portrayal": "Ginny's sole contribution in the Leaky Cauldron sequence is a single throwaway line correcting Fred about whose nose looks big in the photo ('That's your nose, Fred'). The book's shy-but-present Ginny, who shares a laughing moment with Harry and registers emotionally to his presence, is replaced by a functional extra who delivers one comic beat and disappears.",
       "damage_type": "relationship | personality/voice",
-      "exposure": 1,
+      "exposure": 0.5,
       "impact_weight": 3,
-      "explanation": "This invented scene is the film's primary vehicle for establishing romantic connection between Harry and Ginny, but it does so through a conventionally 'pretty girl alone at night' staging that is entirely disconnected from how the book builds their relationship - through Quidditch, sibling-group banter, shared courage, and Harry's gradual internal recognition. The scene renders Ginny as a romantic object in a soft-lit intimate setting rather than as the confident, active person the book establishes."
+      "explanation": "The book uses the Leaky Cauldron scenes to establish Ginny's embarrassed warmth toward Harry and a nascent sense of shared humor between them (the Percy moment). The film reduces her to a single gag line, erasing both her emotional reaction to Harry and the first seed of their personal connection. This quietly damages the relational groundwork the books lay early.",
+      "book": "3_prisoner_of_azkaban"
     },
     {
-      "scene": "HBP Film Corpus Scenes 19-20 (Burrow attack in the reeds - Ginny fights alongside Harry)",
-      "book_baseline": "The Death Eater attack on the Burrow at Christmas does not occur in the books at all. It is a wholly invented film scene.",
-      "film_portrayal": "The film creates an extended action sequence where Harry and Ginny pursue Bellatrix and Greyback through burning reeds, fight side by side, and together blast Greyback with simultaneous jinxes. Ginny warns Harry of the trap and they face the enemy as a pair.",
-      "damage_type": "relationship",
-      "exposure": 2,
+      "scene": "Film Scene 3 (Gryffindor corridor) - Ginny delivers the Fat Lady news with no emotional texture",
+      "book_baseline": "Book Scene 33 shows Ginny visibly traumatized by the Dementor encounter on the train \u2014 shaking, huddled, needing comfort \u2014 establishing her as someone with a particular sensitivity to darkness (rooted in her possession by Voldemort in book 2). Book Scene 39 shows her making Harry a handmade get-well card, demonstrating initiative, care, and blushing courage despite her shyness.",
+      "film_portrayal": "Ginny appears in the corridor scene purely as an information-delivery mechanism ('The Fat Lady... she's gone'). She has one further line ('No. You don't understand --') before the scene moves on. There is no interiority, no emotional register specific to her history with darkness and fear, and no characterization beyond plot function.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "While this invented scene gives Ginny some action agency, it manufactures a bond between Harry and Ginny through shared danger rather than through the organic relationship-building of the books. It also removes the domestic, character-rich Burrow scenes that the book uses to develop Ginny's personality. The scene contributes to the film's pattern of replacing character depth with romantic-action spectacle. The impact weight is moderated because Ginny is at least shown as courageous and capable here."
+      "explanation": "While delivering plot information is not inherently damaging, the film gives Ginny no distinguishing characterization in this moment. The book corpus establishes she has a heightened, history-specific response to fear and darkness. The film uses her as a neutral messenger, flattening a character who the books show is anything but neutral when it comes to encounters with evil.",
+      "book": "3_prisoner_of_azkaban"
     },
     {
-      "scene": "HBP Film Corpus Scene 21 (Corridor - Ginny glimpsed sitting with Dean)",
-      "book_baseline": "In the book, the scene of Ginny sitting with Dean in Madam Puddifoot's and Harry's jealous thoughts about it is rendered through Harry's internal narration with considerable texture - 'his thoughts strayed to Ginny,' she and Dean were 'cozily closeted,' and Harry scowls. The complexity of his feelings is fully rendered.",
-      "film_portrayal": "The film shows Ginny in an alcove 'sitting by as Dean laughs with Seamus,' giving a 'feeble wave' to Harry. She appears peripheral and slightly detached from Dean even here.",
-      "damage_type": "nuance/lost material | relationship",
+      "scene": "Film Scene 4 \u2013 Yule Ball dress robes scene",
+      "book_baseline": "In the book corpus, Ginny is not present in the dress robes scene. Her reaction to her own dress robes is not depicted. The film invents a line where Ginny dismisses her dress as 'ghastly,' which is a brief character moment.",
+      "film_portrayal": "Ginny says 'I'm not wearing that, it's ghastly' about her dress robes, then is immediately dismissed when Hermione clarifies the robes are for Ron. Ginny has no further presence or reaction.",
+      "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor loss, but the film consistently drains Ginny and Dean's relationship of credibility, making Ginny look only half-engaged with him, which shortchanges the book's authentic depiction of her having a real relationship before Harry."
+      "explanation": "The line is not damaging in itself \u2014 Ginny expressing a fashion opinion is consistent with book Scene 30 where she tells her mum she's old-fashioned. The moment is brief and isolated, causing minimal damage.",
+      "book": "4_goblet_of_fire"
     },
     {
-      "scene": "HBP Film Corpus Scenes 23-25 (Room of Requirement - Ginny hides the book and kisses Harry)",
-      "book_baseline": "In the book, Harry and Ginny's first kiss happens spontaneously in the Gryffindor common room after Gryffindor wins the Quidditch Cup. Harry catches the Snitch, Ginny throws her arms around him with 'a hard, blazing look,' and 'without thinking, without planning it, without worrying about the fact that fifty people were watching, Harry kissed her.' The kiss is impulsive, public, triumphant, and entirely Harry's action. It follows many chapters of slow-burn tension. Ginny's 'hard blazing look' is a recurring motif of her strength.",
-      "film_portrayal": "The film entirely replaces the book's kiss with an invented scene in the Room of Requirement. Ginny orchestrates everything: she leads Harry there, takes his book, tells him to close his eyes, then kisses him herself as 'another secret of sorts. One of mine.' She initiates, controls the staging, and frames it as a secret. Harry is passive - he simply stands with his eyes closed and receives the kiss.",
-      "damage_type": "agency/function | relationship | arc",
+      "scene": "Film Scene 4 \u2013 Yule Ball asking scene (Ginny comforting Ron)",
+      "book_baseline": "Book corpus Scene 92\u2013108 establishes Ginny as emotionally perceptive, warm but also wry and sharp. She sympathetically pats Ron's arm while 'fighting back a smile,' she defends Hermione ('She's not'), refuses to betray Hermione's secret ('I'm not telling you, it's her business'), and shows her own quiet dignity when revealing she's going with Neville \u2014 she 'looked extremely miserable' and bowed her head leaving, showing self-awareness and restrained emotion. She also shows moral backbone in not mocking Neville.",
+      "film_portrayal": "Film Scene 4 shows Ginny saying 'It's all right, Ron. It's okay, Ron. It's all right. It doesn't matter' while comforting him, then serving mainly as a narrator of Ron's embarrassing Fleur encounter ('Actually, he sort of screamed at her. It was a bit frightening'). She functions as a reactive background figure and comic feed rather than displaying the book's mix of warmth, wit, self-restraint, and quiet dignity.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film strips Ginny's comforting to generic reassurance and reduces her to a punchline deliverer about Ron's screaming. Gone is her perceptiveness about Hermione's secret date, her refusal to gossip, her own emotional dignity about the Neville situation. She loses voice and complexity in favour of comic utility.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Ginny's Neville/Yule Ball situation entirely absent",
+      "book_baseline": "Book corpus Scene 108 is a significant characterisation beat: Ginny goes scarlet revealing she's going with Neville, explains she'd have no way to attend otherwise as a third-year, looks 'extremely miserable,' and leaves with her head bowed. This shows her vulnerability, her crush on Harry still present, and her dignity in an awkward situation. It also shows she was kind enough to say yes to Neville when Hermione turned him down.",
+      "film_portrayal": "The film shows Ginny and Neville arriving at the Yule Ball together (Film Scene 5) with no prior scene establishing how or why. The emotional beat \u2014 Ginny's embarrassed revelation, her misery, her kindness to Neville \u2014 is entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The absence removes a defining moment that shows Ginny's emotional complexity (lingering feelings for Harry, wounded pride, kindness to Neville). Her Yule Ball appearance in the film is purely visual with no emotional grounding, making her seem like a background extra rather than a character with feelings at stake.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Yule Ball dancing (Ginny and Neville)",
+      "book_baseline": "Book corpus Scene 109 establishes Ginny and Neville dancing nearby Harry, with Ginny wincing as Neville treads on her feet \u2014 a small but characterful detail showing her good-natured endurance and the slightly comic nature of the pairing, while she remains present in Harry's field of awareness.",
+      "film_portrayal": "Film Scene 5 briefly shows Ginny and Neville entering and dancing, but the specific detail of Ginny wincing at Neville's clumsiness is absent. More significantly, Ginny is a visual background element only \u2014 she has no lines, no reaction shots, and no presence in the dramatic core of the scene, which focuses entirely on Harry, Ron, Hermione, and their dates.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor loss \u2014 the wincing detail is small, but its absence continues the pattern of flattening Ginny into a silent background figure throughout the Yule Ball sequence, compounding the damage from the missing pre-ball scene.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 6 \u2013 Yule Ball aftermath (Neville dancing with Ginny)",
+      "book_baseline": "The book corpus does not place Ginny in a prominent role in the Yule Ball aftermath scene specifically, but has established her as a character with her own emotional stakes, voice, and reactions throughout the event.",
+      "film_portrayal": "Film Scene 6 briefly shows 'Neville dancing with Ginny' in the Great Hall background while the emotional drama centres on Hermione crying on the stairs and Ron's jealousy. Ginny is purely decorative \u2014 a background visual with zero agency or dialogue.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Ginny's continued reduction to a silent background dancer through the entire Yule Ball sequence, combined with the missing emotional setup, means her characterisation across the entire Yule Ball arc is effectively erased. This entry captures the final compounding beat of that erasure.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 7 \u2013 Second task (Fred and George betting scene)",
+      "book_baseline": "Book corpus Scene 112 shows Ginny as a comfortable social presence in the Harry/Weasley group, sitting with Fred, George, Harry, Hermione, and Ron at lunch, contributing to a warm group dynamic. She is a natural part of the inner circle.",
+      "film_portrayal": "Film Scene 7 shows Fred and George running bets at the second task. Ginny appears briefly to say 'Don't be so mean' to Fred and George about their betting on the champions' survival. This is her only line in the entire second task sequence.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The single line 'Don't be so mean' is broadly consistent with Ginny's character (she has moral instincts) and is not damaging in itself. It does, however, illustrate how thoroughly her role has been reduced to single-line reactions throughout the film. Low individual damage but symptomatic of the overall pattern.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 World Cup arrival (Ginny as silent background figure)",
+      "book_baseline": "Book corpus Scenes 47 establishes Ginny as observant and knowledgeable: she notes Bagman should know better than to talk about Bludgers near Muggles, showing she's attentive, understands Ministry security, and is willing to speak up with a pointed observation. She also laughs at Ron and Ginny's jokes (Scene 8), names Pigwidgeon (Scenes 17-18), and contributes to group conversation about Weasleys' Wizard Wheezes (Scenes 10, 13).",
+      "film_portrayal": "At the World Cup arrival in Film Scene 1, Ginny's only contribution is pointing at something and saying 'Look!' while Arthur says 'Keep up, girls' twice \u2014 grouping her with Hermione as charges to be managed. Her Bagman observation, her Pigwidgeon naming scene, her commentary on Fred and George's experiments \u2014 all are absent. She is visually present but characterologically silent.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The film establishes its version of Ginny in the World Cup sequence as a silent, reactive presence who says 'Look!' The book's Ginny is curious, perceptive, funny, and independently vocal. This early erasure sets the template for her treatment throughout the film and damages the audience's ability to understand who she is.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 DA meeting, Ginny casts Reducto during practice",
+      "book_baseline": "Book establishes Ginny as a capable, confident, self-taught witch who secretly practiced Quidditch from age six and earned genuine respect. In DA lessons she performs very well: 'Ginny was teamed with Michael Corner; she was doing very well, whereas Michael was either very bad or unwilling to jinx her.' She is portrayed as naturally talented and poised.",
+      "film_portrayal": "Ginny's only notable moment in DA practice is a single 'Reducto!' cast, shown briefly with no context, characterization, or indication of her standing out. She is visually present but given no personality, no banter, no interaction that conveys her skill, wit, or confidence.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book carefully establishes Ginny as one of the DA's stronger performers, which seeds her later Quidditch role and her authority when she confronts Harry about possession. The film reduces her to a background extra in these scenes, erasing the foundation of her competence.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Hog's Head meeting, Ginny vouches for Harry",
+      "book_baseline": "In the book Ginny says 'It's true' to support Harry's credentials, but this is embedded in a characterization where she is already known to the group as someone with her own standing \u2014 she is going out with Michael Corner, has recruited him and his friends, and is an active social agent in the DA's formation. Hermione notes 'Michael Corner and his friends wouldn't have come if he hadn't been going out with Ginny.'",
+      "film_portrayal": "In the film Ginny says 'It's true' as one of several voices vouching for Harry, with no indication of her independent social network, her relationship with Michael Corner, or her role in recruiting members. Her agency in assembling the group is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "The book shows Ginny as a social actor with her own relationships and influence, not merely Harry's loyal hanger-on. Removing her recruitment role collapses her into a passive supporter and strips a key dimension of her independent characterization.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Umbridge's corridor, Ginny keeps watch with Garrotting Gas lie",
+      "book_baseline": "Book Scene 322: Ginny spontaneously invents the Garrotting Gas cover story and explains its Fred-and-George origin, delivering it with convincing exasperation to skeptical students ('That's because it's colourless,' said Ginny in a convincingly exasperated voice, 'but if you want to walk through it, carry on, then we'll have your body as proof for the next idiot who doesn't believe us.'). This shows quick thinking, humor, and self-possession under pressure.",
+      "film_portrayal": "In the film, Ginny's role in the corridor watch is referenced only in passing ('Puking Pastilles, it wasn't pretty' \u2014 attributed to Ron for the diversion). The corridor watch scene itself is not depicted with Ginny's quick-witted improvisation; she simply appears afterward having escaped. Her inventive lie and the characterization it carries are absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Garrotting Gas exchange is one of the book's most vivid demonstrations of Ginny's wit and composure under pressure. Its absence removes a clear, memorable beat that distinguishes her voice from the other characters.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Forest scene, Ginny absent from the group confronting Harry about Sirius",
+      "book_baseline": "Book Scenes 314\u2013319: Ginny and Luna arrive together; Ginny says coolly 'There's no need to take that tone with me, I was only wondering whether I could help,' and immediately volunteers without hesitation ('Yeah, we'll do it'). She is assertive, unintimidated by Harry's frustration, and takes initiative.",
+      "film_portrayal": "In the film, after escaping Umbridge's office Ginny appears with the group in the forest but has no lines or distinct characterization in this confrontation. The assertive, cool-headed exchange where she stands her ground against Harry's dismissiveness is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene establishes Ginny's emotional maturity and refusal to be condescended to by Harry \u2014 traits essential to her arc and to the eventual romantic dynamic. Without it, her presence in the rescue mission reads as passive inclusion rather than earned agency.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Forest scene, Ginny's argument for joining the rescue mission",
+      "book_baseline": "Book Scene 357: Ginny argues fiercely for inclusion: 'I'm three years older than you were when you fought You-Know-Who over the Philosopher's Stone, and it's because of me that Malfoy's stuck back in Umbridge's office with giant flying bogies attacking him.' She names her own accomplishments directly, countering Harry's paternalism with logic and self-assertion.",
+      "film_portrayal": "Ginny does not deliver this argument in the film. The group simply proceeds together without Ginny having to fight for her place or articulate her own competence and history.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This is one of the most characterful moments Ginny has in the entire book \u2014 she asserts her own record and refuses to be dismissed. Its removal means the film audience never sees her advocate for herself, which is central to understanding her as an independent, strong-willed character rather than a background Weasley sibling.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Department of Mysteries battle, Ginny's Bat-Bogey Hex on Malfoy",
+      "book_baseline": "Book Scene 349: Ron explicitly credits Ginny after the escape: 'Ginny was best, she got Malfoy \u2014 Bat-Bogey Hex \u2014 it was superb, his whole face was covered in the great flapping things.' This is her signature spell and a high-stakes combat achievement that earns peer recognition.",
+      "film_portrayal": "The film shows Ginny casting 'Reducto!' in the Hall of Prophecy battle, but the Bat-Bogey Hex on Malfoy \u2014 her signature, celebrated achievement in the escape from Umbridge's office \u2014 is not depicted or acknowledged. Her combat highlight is replaced with a generic spell shared by others.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The Bat-Bogey Hex is Ginny's defining combat signature in the books and the basis for her later recognition by Slughorn. Its absence removes a memorable, character-specific moment and replaces it with an anonymous action.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Post-escape scene, Ginny missing from confrontation about possession",
+      "book_baseline": "Book Scenes 220\u2013228: Ginny's most important scene in OotP. She confronts Harry's self-isolation about potential possession, draws on her own experience with Voldemort ('Well, that was a bit stupid of you, seeing as you don't know anyone but me who's been possessed by You-Know-Who, and I can tell you how it feels'), and definitively reassures him by diagnosing the difference between his experience and hers. This is emotionally central: she is the only person who can speak with authority here, and she does so with cool self-possession ('Lucky you,' said Ginny coolly).",
+      "film_portrayal": "This scene does not occur in the film corpus. Ginny has no equivalent conversation with Harry about possession. The reassurance Harry receives about not being possessed comes through Occlumency/Snape's lessons and Dumbledore's concern, but Ginny's unique, personal, authoritative comfort is entirely absent.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 5,
+      "explanation": "This is the single most damaging omission. The possession-reassurance scene is the culmination of Ginny's arc in OotP: it establishes her as Harry's equal in suffering, demonstrates her as the one person uniquely positioned to help him, and forms the emotional foundation for their eventual relationship. It also recontextualizes her Chamber of Secrets experience as meaningful rather than merely historical. Its complete absence means the film audience has no basis for understanding why Harry might see Ginny as a peer or romantic interest, and Harry's fear of possession is resolved through external plot mechanics rather than intimate human connection.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival, Ginny reduced to background presence",
+      "book_baseline": "Book Scenes 1\u201342: At Grimmauld Place, Ginny is active and distinct \u2014 she tests the Imperturbable Charm with Dungbombs, contributes to sibling discussions about Percy with emotional depth ('It's been awful,' said Ginny sadly), makes a noise 'like an angry cat' at Percy's insults, rages loudly at being sent to bed ('Mum, I want to hear!'), and is noted to be likely awake waiting for information (Fred's aside about the Flobberworm). She is a full participant with her own voice.",
+      "film_portrayal": "Film Scene 1 shows Ginny briefly saying 'Hi, mum!' and being present at the dinner table/meeting area, but none of her active, characterful behavior from the book is depicted. Her testing of the charm, her emotional reactions to Percy, her protest at exclusion, and her defiant storming off are all absent. She is a visual background presence.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Grimmauld Place is where the audience's first sustained impression of Ginny is formed. The book provides multiple distinct beats showing her intelligence, emotional range, and family loyalty. The film offers nothing beyond her face in the crowd, setting a pattern of erasure that persists throughout.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Library/Easter egg scene entirely absent",
+      "book_baseline": "Book Scenes 286\u2013305: Ginny seeks Harry out privately in the library, delivers the Easter egg from Mrs. Weasley, notices his emotional state, listens carefully, and says: 'The thing about growing up with Fred and George is that you sort of start thinking anything's possible if you've got enough nerve.' She then helps devise the plan to reach Sirius via the fire. This is a one-on-one scene of warmth, perceptiveness, and practical courage.",
+      "film_portrayal": "No equivalent scene exists in the film corpus. The plan to contact Sirius via Umbridge's fireplace is developed differently, with no private Ginny-Harry moment, no Easter egg, and none of Ginny's perceptive attentiveness to Harry's emotional state.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This scene is one of two key building blocks (alongside the possession scene) for the Harry-Ginny relationship. It shows Ginny as someone who seeks Harry out, reads him accurately, and offers both emotional warmth and practical help \u2014 not as Ron's sister but as her own person. Its absence means the film never shows them having a private, meaningful exchange, making any future romantic development narratively ungrounded.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Quidditch, Ginny as Seeker entirely absent",
+      "book_baseline": "Book Scenes 274\u2013283: Ginny plays as Seeker in Harry's absence, catches the Snitch against Hufflepuff despite difficult conditions, is assessed by Harry with genuine admiration, and has an exchange with Harry where she corrects him about his ban ('You're banned as long as Umbridge is in the school. There's a difference.') and discusses Ron's situation with perceptive care. George also establishes her secret self-taught skill history.",
+      "film_portrayal": "No Quidditch scenes involving Ginny appear in the film corpus. Her role as the team's Seeker, her performance under pressure, and the one-on-one conversation with Harry in the common room afterward are entirely absent.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "Ginny's Quidditch subplot establishes her as genuinely gifted and self-reliant, not merely a legacy Weasley. The common room scene after the match is a quiet but important moment of peer connection with Harry. Both the competence demonstration and the relationship-building beat are lost.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "HBP Film Scene 19-20 - Burrow attack / chase through reeds",
+      "book_baseline": "No such attack on the Burrow occurs in HBP. Ginny's combat role in the book is limited to the school battle at the end of the novel (Book Scene 338), where she fights Amycus inside Hogwarts. The Burrow is a place of safety and domestic warmth in the book's summer section.",
+      "film_portrayal": "An entirely invented sequence has Bellatrix and Greyback attack the Burrow at Christmas. Ginny races into the burning reeds against her father's orders, fights alongside Harry, and the two jointly blast Greyback. The scene ends with Harry and Ginny staring at each other wordlessly in the aftermath.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The film manufactures a shared-danger romantic bonding moment between Harry and Ginny that has no book basis. In the books their relationship develops slowly through proximity, Quidditch, jealousy, and internal monologue over the entire year. By inventing a dramatic action set-piece as the engine of romantic connection, the film replaces the book's earned, psychologically grounded attraction with a generic action-movie shorthand. It also misrepresents Ginny's characterisation: her disobedience here reads as impulsive rather than brave-and-deliberate, and the scene removes the domestic Burrow atmosphere the book uses to contrast with the wider war.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 17 - Burrow second floor, Ginny in towel",
+      "book_baseline": "The book establishes no private late-night meeting between Harry and Ginny at the Burrow over Christmas. Their Christmas interactions are domestic and group-based (decorating, meals, family dynamics with Fleur, the Percy visit). Harry's growing feelings are rendered through internal monologue, not charged private encounters.",
+      "film_portrayal": "Ginny materialises alone with Harry in an upstairs corridor at night, hair wet from washing, in a robe. The scene is staged with deliberate romantic charge: 'the air prickling with silence,' Ginny eyeing him 'knowingly,' before wishing him Happy Christmas and departing. This scene is marked in the non-theatrical exclusion list but its framing device (the atmospheric setup) bleeds into the adjacent attack scene.",
+      "damage_type": "relationship",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "This invented encounter frames Ginny as a knowing, romantically aware figure initiating charged moments with Harry, rather than the book's version where Harry is the one silently wrestling with feelings while Ginny behaves normally around him. It shifts agency in the romantic arc from Harry's gradual internal awakening to Ginny actively signalling. The exclusion notice confirms this scene does not reach the theatrical cut, so the characterisation it establishes is lost \u2014 but the attack scene that immediately follows still depends on this framing to do romantic work the book never intended at this stage.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scenes 23-25 - Room of Requirement / hiding the book / kiss",
+      "book_baseline": "In the book Harry hides the Potions textbook alone in the Room of Requirement (Book Scene 115 area). The first kiss between Harry and Ginny occurs spontaneously in the Gryffindor common room after Gryffindor wins the Quidditch Cup (Book Scene 317-319): Ginny runs toward him with a 'hard, blazing look,' Harry kisses her without planning it, in front of fifty people, after a year of suppressed longing. The kiss is Harry's action, born of joy and accumulated feeling.",
+      "film_portrayal": "Ginny leads Harry to the Room of Requirement, takes the book from him, asks him to close his eyes, then initiates the kiss herself, framing it as 'another secret of sorts \u2014 one of mine,' before disappearing. Harry is passive and dazed.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's first kiss is a climactic payoff: Harry acts, spontaneously, in public, after the emotional arc of an entire year. The film's version inverts agency (Ginny initiates), removes the public stakes, eliminates the Quidditch euphoria context, and replaces yearning with a scripted 'secret.' This fundamentally alters the romantic dynamic \u2014 Ginny becomes the pursuer and Harry the passive recipient \u2014 which contradicts the book's careful construction of Harry as the one fighting his feelings. It also relocates the kiss to a private, pre-arranged space, draining it of the impulsive, crowd-witnessed bravery that makes the book moment resonate.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 8 - Great Hall arrival, Ginny dabs Harry's face",
+      "book_baseline": "In the equivalent book scene (Book Scene 109-110), Hermione cleans Harry's face with 'Tergeo.' Ginny is present at the table but it is Hermione who administers care. Ginny's relationship with Harry at this early point in the term is warm but not specially intimate \u2014 she is dating Dean and their proximity is that of old family friends.",
+      "film_portrayal": "Ginny picks up a damp napkin and begins dabbing Harry's bloody face herself, then feels 'suddenly awkward' and hands it back. The screenplay note reads: 'there is something oddly charged in the moment, a surprise to both of them.'",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "A small but telling substitution: the film transfers Hermione's practical care-giving to Ginny and codes it as a charged romantic beat very early in the film. In the book, Harry and Ginny's mutual attraction develops across the whole year; introducing 'charge' this early, and having Ginny rather than Hermione perform the action, compresses and distorts the arc. It also subtly sidelines Hermione's role as Harry's primary emotional anchor in the trio.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 13 - Slughorn's supper, Ginny arrives red-eyed and flustered",
+      "book_baseline": "In the book (Book Scene 88-107), Ginny is already seated in Slughorn's compartment when Harry and Neville arrive; she 'grimaced at Harry and Neville from behind Slughorn's back' \u2014 composed, wry, unruffled. She was invited because Slughorn witnessed her Bat-Bogey Hex. She defends Harry and Neville against Zabini with sharp wit ('Yeah, Zabini, because you're so talented... at posing'). Her eyes are not red and she is not flustered.",
+      "film_portrayal": "Ginny arrives late, eyes red and 'uncharacteristically flustered,' because she and Dean have been fighting. Hermione whispers to Harry: 'Look at her eyes. They've been fighting again. Her and Dean.' Harry stands as she reaches the table \u2014 'the only one' \u2014 and Hermione notes this with amusement.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book Ginny is composed and confident in this scene, deployed to show her wit and social ease; being upset over a boyfriend would be entirely out of character for the girl who told Ron it was 'none of your business' and calmly managed five rumoured boyfriends. The film makes her first significant solo scene one of romantic vulnerability rather than sharp competence. Additionally the scene is reoriented to serve Harry's growing feelings (he stands for her, Hermione notes it) rather than to establish Ginny's independent presence. This trades her book characterisation \u2014 confident, funny, self-possessed \u2014 for a love-interest signalling function.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 7 - Hogwarts Express aisle, Ginny and Dean",
+      "book_baseline": "In the book (Book Scene 81-85), Ginny is 'a little way along the corridor, chatting to some friends.' Harry taps her on the shoulder and asks if she wants to find a compartment; she brightly declines ('I said I'd meet Dean') and walks off. Harry feels 'a strange twinge of annoyance' and notes he had become 'used to her presence.' This establishes Ginny as socially independent, popular, and at ease \u2014 Harry's feelings register as an intrusion into his own consciousness.",
+      "film_portrayal": "Ginny is shown in the aisle with Dean whispering to her, while she looks 'more interested in the purple Pygmy Puff perched on her shoulder' than in Dean. She receives Luna with mild politeness. There is no interaction with Harry.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor but symptomatic loss: the book's train corridor beat efficiently establishes Ginny's independence, Harry's nascent jealousy, and the social dynamic between them at the start of term. The film omits the Harry-Ginny exchange entirely, removing an early marker of Harry's suppressed feelings and Ginny's easy self-sufficiency. Low impact on its own but part of a pattern of stripping the slow-burn arc.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 16 - Burrow Christmas dinner, tart scene",
+      "book_baseline": "The book's Christmas at the Burrow (Book Scenes 206-218) features Ginny as one voice among many \u2014 teasing Fred and George, decorating lavishly, playing Exploding Snap, comforting Mrs. Weasley, and claiming credit for spattering Percy with parsnip. Her interactions with Harry are warm but unremarkable. There is no private food-sharing moment staged as a romantic beat.",
+      "film_portrayal": "During the Christmas dinner, Ginny approaches Harry specifically, asks 'Don't trust me?' and pops a tart she made herself into his mouth. Ron immediately 'plops down between them' as self-appointed big-brother guardian.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The scene recasts Ginny as actively seeking out and feeding Harry in a deliberately intimate gesture, then plays Ron's interruption for romantic-comedy beats. In the book their Christmas dynamic is affectionate but embedded in the larger Weasley family scene; there is no staged intimacy. The film is again collapsing the slow-burn book arc into a series of manufactured romantic moments, and making Ginny the initiator in each one rather than Harry \u2014 inverting the book's careful distribution of agency.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scene 22 - Hospital wing, Ginny whispers to Harry about Ron and Hermione",
+      "book_baseline": "In the book hospital wing scene (Book Scene 237-258), Ginny is one of several people present and participates actively in the group's analytical discussion about how Ron was poisoned \u2014 contributing real reasoning ('the poisoner could just as easily have been after Dumbledore,' Book Scene 254). She is a participant, not a romantic accessory.",
+      "film_portrayal": "Ginny's only line in this film scene is a whispered aside to Harry about Ron and Hermione: ''Bout time, don't you think?' The screenplay notes Harry 'watches her go, hopelessly smitten.'",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The film reduces Ginny's book role \u2014 active analytical contributor who reasons through the poisoning mystery \u2014 to a single line that functions only to (a) advance the Ron/Hermione subplot and (b) give Harry a reason to stare at her. Her intelligence and plot-relevant reasoning are cut entirely. This is consistent with the film's pattern of retaining Ginny only in scenes that serve the romantic arc.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film - Absence of Quidditch arc scenes (practice, match, Ginny as Seeker, post-match kiss)",
+      "book_baseline": "Book Scenes 116-184 and 317-319 establish Ginny across an extended Quidditch arc: she earns her Chaser place on merit ('outflown all competition, scored seventeen goals'), shows sharp wit at Ron's expense during practice, crashes into Zacharias Smith's commentary box deliberately, and is the recipient of the book's climactic spontaneous first kiss after Gryffindor wins. These scenes collectively establish her athletic excellence, her humor, her integration into the team, and the specific joy-fuelled context of the real kiss.",
+      "film_portrayal": "The film includes the tryouts montage (Ginny flies well) and a brief Quidditch match glimpse, but eliminates the extended practice scenes, the Zacharias commentary-box incident, and crucially replaces the post-match common-room kiss (Harry initiates, public, after Gryffindor win) with the private Room of Requirement kiss initiated by Ginny (Film Scenes 23-25).",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The book's Quidditch arc is the primary vehicle through which Ginny's competence, humor, and independent personality are shown \u2014 not told. Her wit ('forgot to brake, Professor, sorry'), her performance, her integration into the team as an equal are all established here. The film's substitution of a private scripted kiss for the book's public spontaneous one is the single most structurally damaging change: it removes Harry's agency at the moment of culmination, eliminates the Quidditch triumph as emotional trigger, and loses Ginny's 'hard blazing look' which the book explicitly echoes at Dumbledore's funeral (Book Scene 402) \u2014 a thematic callback the film cannot make. The loss of this arc is the core reason why Ginny's film characterisation feels thin.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film - Absence of Harry/Ginny relationship scenes (Felix Felicis planning, walks by lake, 'Ron's permission' exchange)",
+      "book_baseline": "Book Scenes 320-327 depict Harry and Ginny as an established couple: sitting together in the common room, Ginny making jokes about Romilda Vane's tattooed-Hippogriff rumours, the 'Ron's permission' exchange where Ginny sharply dismisses Ron's possessiveness ('Since when did you give me permission to do anything?'), Harry reflecting that he has 'never been happier.' These scenes show Ginny as funny, confident, romantically self-assured, and equal in the relationship.",
+      "film_portrayal": "After the Room of Requirement kiss the film provides no scenes of Harry and Ginny as an actual couple. The film moves directly toward the climax. The 'Ron's permission' exchange is entirely absent. Ginny's wit, equality in the relationship, and self-assurance in this context are never shown.",
+      "damage_type": "arc",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "Without the 'being together' scenes, the audience has no sense of what the Harry-Ginny relationship is \u2014 only that a kiss happened and Harry is 'smitten.' The book uses these scenes to cement Ginny as someone Harry is genuinely happy with and to show her personality at its most relaxed and funny. Their absence means the break-up at Dumbledore's funeral (Film Scene 28/30) carries almost no emotional weight because the film has not established what is being lost. This is an arc-level failure: the audience cannot mourn a relationship they have not witnessed.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "HBP Film Scenes 28/30 - Break-up at Dumbledore's funeral/Astronomy Tower aftermath",
+      "book_baseline": "In the book (Book Scenes 402-407), the break-up occurs at Dumbledore's lakeside funeral. Ginny does not cry. She meets Harry's gaze with 'the same hard, blazing look' as after the Quidditch win \u2014 'and he knew that at that moment they understood each other perfectly.' She says: 'I never really gave up on you... I knew you wouldn't be happy unless you were hunting Voldemort. Maybe that's why I like you so much.' This is a fully articulated, emotionally mature exchange that shows Ginny's depth and her specific understanding of who Harry is.",
+      "film_portrayal": "The film has no equivalent break-up scene with meaningful dialogue. At the Astronomy Tower aftermath (Film Scene 28), Ginny steps forward and Harry leans his head on her shoulder while she strokes him. At the Astronomy Tower epilogue (Film Scene 30), Ginny and Ron stand 'just out of earshot' while Harry and Hermione discuss the future; Ginny has no lines. Hermione tells Harry 'Ron's okay with it, you know. You and Ginny. But if I were you, when he's around, I'd keep the snogging to a minimum.'",
+      "damage_type": "arc",
       "exposure": 2,
       "impact_weight": 5,
-      "explanation": "This is the most structurally damaging change in the corpus. The book's first kiss is one of its most carefully earned moments: a public, joyful, impulsive act by Harry after chapters of internal conflict, enabled by his hard-won courage and Ginny's complete self-possession. The film transfers all agency to Ginny in a way that actually reduces the dramatic payoff - it becomes a coy romantic gesture in a private space rather than a public declaration. More critically, the Quidditch Cup context - which is the culmination of Harry's season-long arc of recognising Ginny as his equal on the pitch and as a person - is completely severed. The 'hard, blazing look' that makes the kiss meaningful is absent. The film also loses the public/social dimension: 'without worrying about the fact that fifty people were watching' is a key beat in Harry's character development. The substitution also means the film never has its Quidditch triumph kiss scene, one of the most beloved and structurally significant moments in the novel."
+      "explanation": "The book's break-up scene is arguably Ginny's most important moment in the entire novel: it demonstrates her emotional intelligence, self-knowledge, and mature acceptance without self-pity \u2014 qualities that define her as a character rather than merely a love interest. The film eliminates this entirely. Ginny is reduced to a comforting physical presence after Dumbledore's death and then a silent figure in the epilogue. The thematic resonance of her 'hard blazing look' \u2014 connecting the Quidditch kiss to the funeral farewell \u2014 is made impossible by the film's restructuring. This is the most structurally damaging single omission: it collapses Ginny from a character with interiority and arc into a background romantic prop at the story's emotional climax.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "HBP Film Corpus Scene 28 (Courtyard - Ginny comforts Harry after Dumbledore's death)",
-      "book_baseline": "In the book, it is Ginny who leads Harry away from Dumbledore's body - 'a much smaller and warmer hand had enclosed his and was pulling him upward' - identified only by 'a trace of flowery scent.' This is rendered as wordless, instinctive, deeply intimate. She simply knows what he needs without being told. In the hospital wing she delivers hard news plainly and answers his questions directly. The book also describes Harry looking away from Ginny at the funeral so she won't see his tears.",
-      "film_portrayal": "The film has Hermione 'give Ginny a nudge' before she steps forward to comfort Harry. Ginny kneels beside him and he puts his head on her shoulder as she strokes him. The action is prompted by Hermione rather than being Ginny's own instinctive response.",
-      "damage_type": "agency/function | relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's version is one of the most powerful demonstrations of Ginny's emotional intelligence and her unique connection to Harry - she acts alone, on instinct, guided by her understanding of him. The film's version requires Hermione to initiate the gesture, reducing Ginny's action from a spontaneous expression of deep connection to a prompted response. This is a meaningful loss in a key emotional scene."
-    },
-    {
-      "scene": "HBP Film Corpus Scene 30 (Astronomy Tower - final scene, Hermione tells Harry Ron is 'okay with' him and Ginny)",
-      "book_baseline": "In the book, the ending contains Harry's decision to break up with Ginny at Dumbledore's funeral, a full and moving scene where Ginny accepts it with dignity: 'I knew you wouldn't be happy unless you were hunting Voldemort. Maybe that's why I like you so much.' She does not cry. Harry walks away alone. The breakup is a full scene of emotional maturity on both their parts. Ron gives 'a tiny jerk of the head' signaling acceptance of Harry and Ginny's relationship only at the moment of the kiss.",
-      "film_portrayal": "The film ends with Hermione telling Harry that Ron is 'okay with it, you know. You and Ginny. But if I were you, when he's around, I'd keep the snogging to a minimum.' There is no breakup scene. Ginny stands silently with Ron in the background as Harry and Hermione discuss the Horcruxes. The film ends with the four of them at the ramparts. Ginny has no final dialogue of significance and no agency in the ending of her relationship arc.",
-      "damage_type": "arc | agency/function | nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's ending with Ginny is one of her finest moments: she accepts Harry's decision without self-pity, articulates why she loves him in a way that reveals both her own depth and her understanding of Harry. 'I knew you wouldn't be happy unless you were hunting Voldemort' is a line that encapsulates her maturity, her insight into Harry, and her own strength. The film eliminates this entirely. Ginny ends the film as a silent background presence while Harry and Hermione carry the emotional and thematic weight of the final scene. Her arc - from girl with a crush, to confident young woman, to Harry's equal in a real relationship - has no resolution. This is a significant arc-level loss."
-    },
-    {
-      "scene": "HBP Film Corpus - absence of Ron/Ginny corridor confrontation scene",
-      "book_baseline": "The book contains an extended, dramatically important scene where Ron catches Ginny and Dean kissing in a corridor, leading to a fierce argument in which Ginny tears into Ron about his hypocrisy and double standards, draws her wand, fires a hex at him, and delivers: 'Harry's snogged Cho Chang! And Hermione snogged Viktor Krum, it's only you who acts like it's something disgusting, Ron, and that's because you've got about as much experience as a twelve-year-old!' This scene shows Ginny's fierce independence, her willingness to fight for her autonomy, her sharp tongue, and her loyalty to her own choices. It is one of the defining Ginny scenes in the novel.",
-      "film_portrayal": "This scene does not appear in the film corpus at all. The film has no equivalent confrontation between Ginny and Ron about her relationships.",
-      "damage_type": "nuance/lost material | agency/function | personality/voice",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "The absence of this scene is one of the most damaging omissions. It is the fullest expression of Ginny's voice, her independence, her willingness to challenge authority (even family authority), and her sharp awareness of double standards. The book's Ginny is someone who fights back when her autonomy is threatened. The film never shows this dimension of her at all, replacing it with a Ginny who is primarily defined by her romantic relationship with Harry. The scene also contains crucial context for understanding her relationship history and why Harry falls for her."
-    },
-    {
-      "scene": "HBP Film Corpus - absence of Ginny/Ron argument aftermath and Harry's extended internal conflict",
-      "book_baseline": "Following the corridor incident, the book devotes several chapters to Harry's internal struggle: 'It's just because she's Ron's sister... She's Ron's sister. She's out-of-bounds.' He lies awake trying to suppress feelings, notices Ginny at practice and deliberately avoids her, finds himself 'laughing with her, walking back from practice with her,' plans around Felix Felicis, and has a 'monster in his chest' metaphor running throughout. This extended internal arc is fundamental to Harry's characterisation and the romance's emotional weight.",
-      "film_portrayal": "The film has essentially no equivalent of Harry's extended internal conflict about Ginny. His feelings are established through Hermione's external observation ('I know, Harry. You're my best friend. I see how you look at her') and a dormitory conversation with Ron about her 'nice skin.' There is no 'monster in his chest,' no sleepless nights, no suppressed jealousy at Quidditch practice.",
-      "damage_type": "nuance/lost material | arc | relationship",
-      "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "The book's romance between Harry and Ginny works because we live inside Harry's slowly awakening feelings in granular detail. The film externalises this to Hermione's observations and Ron's dormitory chat. This does not damage Ginny directly, but it means the audience has no emotional investment in their relationship as it has been built - which in turn makes Ginny's role as Harry's romantic partner feel structurally thin. The damage to the adaptation of Ginny is that half the relationship's emotional architecture is simply absent."
-    },
-    {
-      "scene": "HBP Film Corpus - absence of Ginny defending Harry against Hermione after Sectumsempra",
-      "book_baseline": "In the book, after Harry uses Sectumsempra on Draco and is given detention, Ginny snaps at Hermione: 'Give it a rest, Hermione! By the sound of it, Malfoy was trying to use an Unforgivable Curse, you should be glad Harry had something good up his sleeve!' And when Hermione presses on: 'Oh, don't start acting as though you understand Quidditch, you'll only embarrass yourself.' This leaves Harry 'unbelievably cheerful all of a sudden' despite everything. It shows Ginny's loyalty, her directness, and her willingness to challenge Hermione.",
-      "film_portrayal": "This exchange does not appear in the film corpus. The film has the Sectumsempra aftermath but no Ginny-Hermione confrontation in the common room.",
-      "damage_type": "nuance/lost material | personality/voice | relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "A small but telling loss. The scene shows Ginny operating as a fully independent presence in the trio's dynamic, not merely as Harry's girlfriend. Her willingness to challenge Hermione - who is intimidating to most characters - is characteristic of her self-assurance. Its absence leaves Ginny with no scene in the film where she actively defends Harry out of her own conviction."
-    },
-    {
-      "scene": "HBP Film Corpus - absence of Ginny's Quidditch characterisation (Ron-punching scene, life-of-team at practice)",
-      "book_baseline": "The book depicts Ginny as the 'life and soul of the team' at practice after her Dean breakup, doing imitations of Ron and Harry that keep everyone amused. She calls Ron a 'prat' after he punches Demelza, and Harry has to remind her she's 'not the Captain of this team' while suppressing a laugh. She scores four goals in the match against Slytherin. She is a fully realised Quidditch player with a strong presence in team dynamics.",
-      "film_portrayal": "The film shows Ginny flying well in the tryouts montage and making a goal in the Quidditch match, but the richer team-dynamic scenes - her imitations, her calling Ron a prat, Harry's internal reaction to her humor - are absent. Her Quidditch presence is visual but not characterful.",
-      "damage_type": "nuance/lost material | personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses Quidditch practice as one of the primary settings for establishing Ginny's personality: her humor, her leadership instinct, her ease in male spaces, and her specific effect on Harry. The film uses it only to show she can fly. The result is that a major dimension of why Harry falls for her - her funny, confident, totally-at-home presence in his sporting world - is never conveyed."
-    },
-    {
-      "scene": "Film Scene 5 (INT. KITCHEN - MORNING) \u2014 the zip-up/birthday kiss scene",
-      "book_baseline": "Book scenes 70\u201393 establish Harry's birthday meeting with Ginny in her room as a tightly controlled, emotionally layered moment. Ginny is composed and rarely weepy; she takes the initiative with wit ('There's the silver lining I've been looking for'), kisses Harry with intensity, and afterward maintains dignified restraint when Ron interrupts \u2014 turning away to hide tears but not collapsing. The scene is built on private intimacy, Ginny's self-possession, and Harry's internal conflict about ending the relationship for her safety.",
-      "film_portrayal": "The film replaces this with a dress zip-up scene in the kitchen on the morning of the wedding. Ginny is passive \u2014 she presents her back and Harry lingers over her skin. The kiss that follows is initiated by physical proximity and lingering touch rather than Ginny's deliberate, witty agency. The scene is framed as romantic-sensual staging rather than an emotionally complex farewell, and George's comic interruption deflates it into a gag. Ginny's voice ('So then I thought, I'd like you to have something to remember me by') and her rare show of vulnerability are entirely absent.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's birthday scene is the primary establishment of book-Ginny's character in DH: her wit, emotional toughness, deliberate agency, and the bittersweet stakes of the relationship. Replacing it with a passive, physically coded moment strips Ginny of her defining voice and reduces her romantic role to a decorative one. The loss of her wry dialogue and self-composed grief also removes the audience's best opportunity in this film to understand who she is independently of Harry."
-    },
-    {
-      "scene": "Film Scene 5 \u2014 absence of the book's private conversation about Voldemort/the mission",
-      "book_baseline": "Book scenes 45\u201350 show Ginny in a private moment with Harry laying the table, shrewdly reading her mother's strategy, and then reacting with whitening face when Harry accidentally reveals he is hunting Voldemort. She asks 'So it's true? That's what you're trying to do?' \u2014 demonstrating perceptiveness, courage, and emotional stakes in Harry's mission that are personal to her.",
-      "film_portrayal": "The film scene has Ginny ask only whether Harry will tell Ron and Hermione about the mission, framing her concern narrowly. The exchange about Voldemort and her visceral, frightened reaction ('her face whiten') is absent. Her sharp perception of her mother's delaying tactics is also gone.",
-      "damage_type": "nuance/lost material | personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book beat shows Ginny as perceptive and emotionally invested in Harry's quest in a way that goes beyond romantic attachment. Losing it flattens her into a girlfriend waiting to be kissed rather than someone who grasps the mortal stakes and responds with courage."
-    },
-    {
-      "scene": "Film Scene 3 (EXT. THE BURROW - NIGHT) \u2014 arrival after the Seven Potters",
-      "book_baseline": "Book scenes 7\u201318 show Ginny actively informing Harry about the missing portkeys (pointing at each one, tracking arrivals, checking her watch), shouting 'Mum!' to alert the group to George's arrival, and later taking Harry's hand in the dark yard as fear envelops him. She is the emotional anchor and practical information source in this sequence, and the hand-holding is a quiet but significant act of solidarity.",
-      "film_portrayal": "The film compresses Ginny to a frightened bystander who shakes her head when Harry asks if anyone is back and delivers one line ('Ron and Tonks should've already been back. Dad and Fred as well.'). The hand-holding in the yard, her systematic tracking of portkeys, and her role as Harry's quiet support during the vigil are all absent. Her reaction to George ('Oh my God! George!') replaces the book's more distributed, active role with a single emotional outburst.",
-      "damage_type": "agency/function | relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book uses this sequence to show Ginny as competent, calm under pressure, and emotionally attuned to Harry. The film reduces her to a reactive bystander. The lost hand-holding moment is particularly damaging because it is one of the few physical expressions of the relationship's depth in DH's early section, and it occurs at a moment of real fear \u2014 establishing Ginny as Harry's source of grounding, not just a romantic backdrop."
-    },
-    {
-      "scene": "Film Scene 3/4 \u2014 absence of Ginny tending to George",
-      "book_baseline": "Book scenes 11\u201313 show Ginny gasping at George's wound, helping carry him in, and then tending to him alongside Mrs. Weasley while Harry watches \u2014 she is actively present and useful in a moment of family crisis.",
-      "film_portrayal": "The film gives Ginny one alarmed exclamation ('Oh my God! George!') and does not show her tending to him. The camera moves away from her. Her role as a capable, caring family member in crisis is not established.",
-      "damage_type": "nuance/lost material | personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor but cumulative: the book repeatedly shows Ginny as practically capable and emotionally resilient in family crises. Each film omission of such moments erodes the overall impression of her competence."
-    },
-    {
-      "scene": "Film Scene 6 (INT./EXT. MARQUEE) \u2014 wedding reception",
-      "book_baseline": "Book scenes 99\u2013111 show Ginny at the wedding with layered detail: she clears her throat loudly at Gabrielle's flirtatious attention to Harry (showing humor and possessiveness), winks at Harry when Muriel criticises her dress (showing irreverence and confidence), and Harry watches her dancing while restraining himself per his promise to Ron \u2014 establishing ongoing romantic tension and her vivid presence.",
-      "film_portrayal": "The film shows Ginny laughing as Fred and George rush the dance floor but gives her no lines and no individual characterization at the wedding. The wink, the throat-clear, and the charged look across the dance floor are absent. She appears briefly in the chaos of the Death Eater attack \u2014 drawing her wand with 'copper hair gleaming, eyes flashing' \u2014 but this is a visual beat, not characterization.",
+      "scene": "Film Scene 5 (INT. KITCHEN - MORNING): Ginny zipping scene / birthday kiss",
+      "book_baseline": "Book establishes that Harry's 17th birthday kiss happens in Ginny's bedroom, initiated by Ginny with deliberate emotional weight: she gives him a present, speaks with quiet wit about veela and 'dating opportunities,' then kisses him 'as she had never kissed him before.' It is a private, emotionally loaded moment. Ginny is 'rarely weepy,' composed, and the scene ends with her showing emotional strength even as Harry feels he must pull away. The interrupted kiss is followed by Ginny turning her back, possibly suppressing tears \u2014 the whole sequence is rich with unspoken feeling and Ginny's dignity.",
+      "film_portrayal": "The film replaces the book's emotionally resonant birthday scene with a sensualised 'zip me up' encounter \u2014 Ginny in a low-cut dress, back exposed, Harry's fingers lingering on her skin \u2014 followed by a lingering kiss that George interrupts. The intimate setup is constructed around physical suggestion rather than Ginny's wit, agency, or emotional composure. The book's Ginny initiates with a gift, a joke, and a deliberate choice; the film's Ginny is more passive object of a charged heterosexual tableau. Her voice and personality are largely absent.",
       "damage_type": "personality/voice | relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The birthday scene is one of Ginny's most characterised moments in the books \u2014 it shows her composure, humour, and emotional intelligence. Replacing it with a physical/sensual scene strips her of the very traits that make her romantic relationship with Harry credible and earned. Audience understanding of why Harry loves her (her strength, wit, and self-possession) is weakened in favour of visual aesthetics.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 5 (INT. KITCHEN - MORNING): Ginny's dialogue about the mission",
+      "book_baseline": "In the book, Harry and Ginny have a charged private conversation while laying the table, where Ginny perceptively explains her mother's blocking strategy and Harry accidentally reveals the truth about Voldemort. When Ginny presses 'So it's true? That's what you're trying to do?', Harry is evasive. Ginny stares at him with 'something more than shock' \u2014 she is processing real danger, not asking for reassurance. The scene shows her intelligence and emotional perceptiveness.",
+      "film_portrayal": "The film compresses Ginny's dialogue to a brief, functional exchange about Dumbledore's secrecy, with her asking 'And Ron and Hermione \u2014 they'll not be going back to Hogwarts either?' before pivoting to the zip scene. She accepts Harry's non-answer with 'I see' and moves on. The book's demonstration of her deductive intelligence and the emotional weight of realising Harry is walking toward death are absent.",
+      "damage_type": "nuance/lost material | personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The wedding is one of Ginny's last scenes before the long absence of the hunt. The book uses it to cement her humor, confidence, and the ongoing romantic tension. The film renders her decorative. The visual flourish of her drawing her wand in the chaos is actually somewhat faithful to the book's note about her blazing look, but the preceding characterization that makes it meaningful is absent."
+      "explanation": "The book scene shows Ginny piecing together dangerous truths and reacting with genuine emotional complexity. The film reduces her to a compliant recipient of a one-line justification. Her intelligence and perceptiveness \u2014 key traits \u2014 are lost, making her feel like a passive love interest rather than an active, understanding partner.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 7 (EXT. LONDON STREET) \u2014 Hermione mentions the birthday cake",
-      "book_baseline": "There is no book equivalent of Hermione mentioning a birthday cake that she and Ginny had prepared. The book's birthday scene is in Ginny's room (book scenes 70\u201393). The cake in the book is the Snitch-shaped one Mrs. Weasley brings out at the garden party (book scene 100).",
-      "film_portrayal": "Hermione tells Harry that 'Ginny and I had prepared a cake' for his birthday at the wedding. This retroactively replaces the private birthday scene in Ginny's room with an off-screen domestic gesture, further diminishing the significance of Ginny's individual relationship with Harry.",
-      "damage_type": "relationship | nuance/lost material",
+      "scene": "Film Scene 3 (EXT. THE BURROW - NIGHT): Ginny's reaction to George's injury",
+      "book_baseline": "In the book, when George is brought in, Ginny gasps at the sight of the wound and is actively described tending to George alongside Mrs. Weasley. She answers Harry's unspoken plea for information about the missing Order members. She is practical, informative, and emotionally present without being hysterical \u2014 she gives Harry the status update on portkeys and who is still missing.",
+      "film_portrayal": "The film has Ginny cry 'Oh my God! George!' with hands flying to her face \u2014 a brief reactive beat \u2014 and she has no subsequent role tending to him. Her practical, informative function (the portkey briefing) is retained as a brief line but the scene of her and Mrs. Weasley actively tending George together is absent. Her reaction is purely emotional rather than a combination of emotion and capable action.",
+      "damage_type": "personality/voice | nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "By replacing the intimate, agentive birthday scene with a passing reference to a cake, the film signals to the audience that Ginny's role in Harry's birthday was one of collective domestic support rather than a charged, private romantic farewell. It compounds the damage from the replaced zip-up scene by closing off even the implicit reference to what was lost."
+      "impact_weight": 1,
+      "explanation": "Minor but consistent: the book shows Ginny as someone who acts under pressure rather than just reacting. The hands-to-face gasp is a stereotypically feminine shock response; the book's Ginny moves straight into practical tending. Isolated, this is low damage, but it contributes to a cumulative pattern of reducing her competence.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 8 (INT. HOGWARTS EXPRESS) \u2014 Ginny's brief appearance on the train",
-      "book_baseline": "Book scene 120 has Harry imagining Ginny, Neville, and Luna sitting together on the train, 'perhaps wondering where he, Ron, and Hermione were, or debating how best to undermine Snape's new regime' \u2014 framing her as active and resistive even in absence. Book scene 143 confirms she was banned from Hogsmeade and had been continuing Dumbledore's Army.",
-      "film_portrayal": "The film shows Ginny seated passively in a compartment with other students as Dark Wizards move through the train. She has no lines and no agency. Neville bars the searchers' way and speaks defiantly; Ginny is simply present.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The one film moment establishing what Ginny is doing while Harry is away on the hunt reduces her to a passenger. Her role as a DA leader and resistance organiser at Hogwarts \u2014 one of her most significant characterisation points in the book \u2014 is not established here and receives no other scene in the film corpus. This is structural absence damage."
-    },
-    {
-      "scene": "Film Scene 11 (INT. ROOM OF REQUIREMENT) \u2014 Ginny's return to Hogwarts",
-      "book_baseline": "Book scene 169 describes Harry's complex reaction to Ginny climbing through the wall: 'His heart seemed to fall... he had never been less pleased to see her' alongside 'he had forgotten, he had never fully appreciated, how beautiful she was.' She gives him a 'radiant smile.' This captures Harry's love for her in direct conflict with his fear for her safety \u2014 one of the most emotionally rich moments of their relationship in DH. Book scene 175 then shows Ginny asserting herself by redirecting Cho away from Harry ('No, Luna will take Harry'), a small but telling act of territorial confidence.",
-      "film_portrayal": "Ginny enters, says 'Harry' and Harry says 'Hey there.' Ron notes that she hasn't seen him in six months and is ignoring her own brother. Ginny then delivers plot-necessary exposition ('Snape knows. He knows Harry was spotted in Hogsmeade.'). The emotional complexity of Harry's reaction \u2014 the conflict between love and fear \u2014 is entirely absent, and Ginny's redirect of Cho does not appear in the film corpus.",
+      "scene": "Film Scene 3 (EXT. THE BURROW): Ginny takes Harry's hand in the vigil",
+      "book_baseline": "Book Scene 23 explicitly describes: 'As they walked down the back steps into the dark yard, Ginny took his hand.' This is Ginny's initiative \u2014 a quiet, wordless act of comfort and connection at a moment of shared dread. Book Scene 18 also shows Ginny and Harry sharing a look, Harry wanting to hold her, restrained only by Mrs. Weasley's presence. The vigil scene (Scenes 23-25) establishes Ginny as emotionally attuned and quietly brave, standing the silent watch with Harry.",
+      "film_portrayal": "The film does not include the hand-holding during the vigil in the yard. Ginny is present in the Burrow scenes and gives the portkey briefing, but the intimate moment of her taking Harry's hand \u2014 and the extended silent vigil \u2014 is not present in the film corpus. The emotional bonding during the wait for the missing Order members is largely absent.",
       "damage_type": "relationship | nuance/lost material",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "This is the reunion scene after months apart under life-threatening conditions. The book invests it with layered emotional conflict that defines Harry's love for Ginny as something he carries painfully. The film makes it a brief greeting and plot delivery. The loss of the Cho redirection also removes a moment of Ginny's quiet, confident assertion within the relationship."
+      "explanation": "This quiet moment of Ginny taking Harry's hand is one of the book's clearest signals that their relationship is real and mutual even under crisis. Its absence means the film's Harry-Ginny connection relies almost entirely on the 'zip' scene rather than demonstrated emotional partnership. The relationship feels less grounded.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 12 (INT. MARBLE STAIRCASE) \u2014 Harry takes Ginny's hand",
-      "book_baseline": "No direct equivalent in the book corpus for this specific staircase hand-hold. The closest book parallel is the hand-holding in the dark yard (book scene 23) and the brief held look during the battle (book scenes 169, 185). The book's Ginny does not passively receive Harry's touch in a crowd \u2014 she acts independently.",
-      "film_portrayal": "Harry 'enfolds Ginny's hand in his own' from behind as they walk in a crowd; 'she doesn't look back, knows it's him, knows his touch.' She is entirely passive and receptive.",
-      "damage_type": "agency/function | relationship",
+      "scene": "Film Scene 8 (INT. HOGWARTS EXPRESS): Ginny's brief appearance",
+      "book_baseline": "The book establishes (Scene 143) that Ginny had been banned from Hogsmeade and was leading ongoing DA resistance at Hogwarts under Snape's regime \u2014 a brave, ongoing act of defiance. Scene 120 shows Harry imagining Ginny, Neville, and Luna sitting together on the train 'debating how best to undermine Snape's new regime.' Ginny is shown as an active leader of resistance throughout Harry's absence.",
+      "film_portrayal": "The film shows Ginny briefly in a train compartment, passive, sitting among other students as Dark Wizards search the train. She does not speak or act. Neville bars the searchers' way. Ginny's established role as a resistance leader at Hogwarts is entirely invisible in this scene.",
+      "damage_type": "agency/function | arc",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "While romantic, this moment consistently frames Ginny as the passive recipient of Harry's gestures rather than an equal agent in their relationship. Cumulatively, this pattern \u2014 zip-up, hand-hold initiated by Harry \u2014 reverses the book's dynamic where Ginny frequently acts first (taking his hand in the yard, kissing him on his birthday, redirecting Cho)."
+      "impact_weight": 3,
+      "explanation": "The film reduces one of the few glimpses of Ginny's Hogwarts resistance to a silent background presence, with Neville taking the visible defiant action. Given that Ginny's resistance leadership is a significant part of her arc in the book during Harry's absence \u2014 and one of the things that makes her his equal \u2014 this erasure damages audience understanding of who she is during this period.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 13 (INT. GREAT HALL) \u2014 Ginny steps in front of Harry when Pansy points him out",
-      "book_baseline": "No exact equivalent scene in the book corpus for this specific beat. The book does not have a Great Hall confrontation of this kind in DH.",
-      "film_portrayal": "When Pansy Parkinson shouts to grab Harry, 'Ginny steps in front of Harry, wand drawn.' This is a protective gesture but framed as instinctive and immediately superseded by the collective Gryffindor line forming around Harry.",
+      "scene": "Film Scene 11 (INT. ROOM OF REQUIREMENT): Ginny's arrival / Ron's comment",
+      "book_baseline": "Book Scene 169 describes Ginny climbing through the hole and giving Harry 'a radiant smile.' Harry 'had forgotten, he had never fully appreciated, how beautiful she was, but he had never been less pleased to see her' \u2014 because he fears for her safety. This is a complex, bittersweet moment that conveys the depth and cost of his love. The book also establishes (Scene 163) that Ginny led DA resistance until Easter, when she 'never came back after Easter' \u2014 implying she was removed from Hogwarts for her activities.",
+      "film_portrayal": "The film has Ginny appear with the functional line 'Snape knows. He knows that Harry was spotted in Hogsmeade.' Ron comments 'Six months she hasn't seen me and it's like I'm Frankie First Year. I mean, I'm only her brother.' Her arrival is played partly for comedic sibling dynamic. Harry's complex internal response \u2014 the painful beauty of seeing her \u2014 is absent, as is any reference to her resistance activities being the reason she's here.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Ginny arrival is one of the saga's most quietly devastating beats about what Harry has sacrificed. The film flattens it to a functional information-delivery entrance with a comedy beat from Ron. Harry's interior recognition of what she means to him \u2014 and costs him \u2014 is entirely lost, weakening the emotional stakes of the Harry-Ginny relationship at a critical moment.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 12 (INT. MARBLE STAIRCASE): Hand-holding under Invisibility Cloak",
+      "book_baseline": "The book does not feature this specific Cloak hand-holding beat in the staircase. However, this is a film addition rather than a removal, so it is not inherently damaging. Assessed for faithfulness: the gesture is consistent with book characterisation of Ginny knowing Harry's touch. This scene is largely neutral to faithful.",
+      "film_portrayal": "Film adds a brief tender moment of Harry reaching out to hold Ginny's hand as he moves invisibly through the crowd. She 'doesn't look back, knows it's him, knows his touch.' This is a film invention but tonally consistent with the book's established intimacy.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "This is one of the few moments in the film where Ginny shows independent courage and acts first. However, it is a small, immediately absorbed beat. It is scored here only to note that while it is a positive characterisation moment, it is not from the book corpus and does not compensate for the broader pattern of passive portrayal established elsewhere. Net damage from this scene alone is low; it is not an unfaithful scene but a film-original addition."
+      "explanation": "This addition is gentle and consistent with book characterisation. It does not cause damage \u2014 if anything it briefly serves the relationship. Not a damaging entry; included only to note it was assessed and found neutral/positive.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 17/18 (EXT. WOODEN BRIDGE) \u2014 Ginny on the bridge with Neville and Seamus",
-      "book_baseline": "The book corpus does not contain a detailed bridge-destruction sequence. However, the book establishes Ginny as a DA leader who actively organized resistance at Hogwarts (book scene 143) and fought alongside Harry in the final battle (book scenes 206, 236). Her role in the battle should reflect command and initiative.",
-      "film_portrayal": "Ginny stands at the far end of the bridge, raises her wand 'ready to detonate the spells' but never fires \u2014 Neville detonates them instead. She then hoists Neville up, shakes her head at the 'mad' boys, and says 'Mad. The both of you.' Her role is observer, steadier, and commentator rather than combatant.",
-      "damage_type": "agency/function | personality/voice",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This is one of the film's primary action sequences featuring Ginny, and she does not fire her wand. The detonation \u2014 the functional act \u2014 belongs to Neville, then Seamus. Ginny's line ('Mad. The both of you.') codes her as the sensible bystander rather than a co-combatant. Book Ginny's battle role \u2014 sending 'well-aimed jinx[es] into a crowd of fighters below' (book scene 206) and duelling Bellatrix alongside Hermione and Luna (book scene 236) \u2014 is defined by active, skilled combat. Starting her battle portrayal with an un-fired wand undermines this."
-    },
-    {
-      "scene": "Film Scene 19 (INT. MARBLE STAIRCASE) \u2014 'I know' moment",
-      "book_baseline": "Book scene 185 shows Ginny looking at Harry 'beseechingly' when Mrs. Weasley orders her to leave the battle, and Harry shakes his head. She turns away 'bitterly.' The book's last extended exchange between them in the battle is characterized by painful, wordless communication and Ginny's thwarted desire to fight alongside him.",
-      "film_portrayal": "Harry says 'Ginny! Neville! You alright?' Neville responds at length about Luna. Harry and Ginny then turn to each other: 'Their eyes catch. An instant, a moment of meaning in the midst of madness.' Ginny says 'I know.' Then she runs off. This is a compressed, stylized farewell.",
-      "damage_type": "relationship | nuance/lost material",
+      "scene": "Film Scene 13 (INT. GREAT HALL): Ginny steps in front of Harry when Pansy points",
+      "book_baseline": "The book does not have a direct equivalent of this specific beat in the provided corpus. However, Ginny's protective instinct and DA loyalty are thoroughly established in the book. This is a film addition.",
+      "film_portrayal": "Ginny instinctively steps in front of Harry, wand drawn, when Pansy Parkinson calls for someone to grab him. This is a characterisation-consistent addition that shows Ginny's loyalty and courage in a visible, active way.",
+      "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The film reduces the final in-battle exchange between Harry and Ginny to a single oblique 'I know' \u2014 atmospheric but empty of the specific emotional content of the book. The book's version is about her bitterness at being excluded from fighting beside him, and Harry's helpless conflict between love and protection. 'I know' carries none of that weight and leaves the relationship's final battle beat as mood rather than meaning."
+      "impact_weight": 1,
+      "explanation": "This is a faithful addition that reinforces Ginny's courage. Not damaging. Included to confirm it was assessed.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 21 (EXT. HOGWARTS GROUNDS) \u2014 Ginny with the injured girl",
-      "book_baseline": "Book scenes 221\u2013228 show Harry passing Ginny in the invisibility cloak as she comforts a girl whispering for her mother. Ginny's voice 'broke' as she says 'I know.' Harry desperately wants to be stopped, to call out to her, but forces himself on. This is one of the most emotionally devastating passages in the book \u2014 Harry's love for Ginny as the last thing tethering him to the living world before his death walk.",
-      "film_portrayal": "The film reproduces this scene with reasonable fidelity: Ginny says 'It's all right. We're going to get you inside' and 'Don't worry. I won't leave you. I promise.' Ginny's face is 'haunted by sorrow.' Harry watches, 'moved,' then continues. Ginny turns and finds 'only darkness.' The book's 'her voice broke' equivalent is present in spirit. However, Harry's internal monologue \u2014 wanting to shout, wanting to be stopped, the visceral pull of her as a reason to live \u2014 is necessarily absent in film and not conveyed through cinematography described in the corpus.",
+      "scene": "Film Scenes 14-18 (EXT. WOODEN BRIDGE): Ginny's role in the bridge sequence",
+      "book_baseline": "The book (Scene 169, 178-192) places Ginny in the Room of Requirement during the battle, actively trying to fight, being physically restrained by Mrs. Weasley, arguing for her right to be in the battle. She is eventually permitted to stay in the Room of Requirement. The book shows her at a window sending 'a well-aimed jinx into a crowd of fighters below' (Scene 206) and comforting Tonks (Scene 209). Her battle role is distributed across the castle. The book does not feature a bridge demolition subplot involving Ginny.",
+      "film_portrayal": "The film creates a substantial original action sequence where Ginny, Neville, and Seamus demolish the wooden bridge to stop Snatchers. Ginny is shown as competent and brave in this sequence, stands ready with her wand, steadies Neville, and participates actively in the battle.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 1,
+      "explanation": "This is an invention that actually gives Ginny visible active agency, which partially compensates for the removal of her book battle moments. The damage is not from what is added here, but from what is absent: her confrontation with Mrs. Weasley, her fight to stay and be part of the battle, and her jinxing fighters from a window \u2014 all of which show her fighting spirit against her family's protectiveness. The invented sequence gives her action but removes her emotional arc of arguing for her own right to fight. Net damage is low.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 19 (INT. MARBLE STAIRCASE): Ginny-Harry moment mid-battle ('I know. Then she is off.')",
+      "book_baseline": "The book (Scenes 206-211) has Ginny and Harry exchange urgent words during battle \u2014 Harry telling her to keep safe, Ginny fighting beside Tonks and comforting her. The relationship is present but framed around duty and danger. Harry's interior state \u2014 his terror of losing her \u2014 is shown through narration (Scene 215: 'he wanted to find the other Weasleys, and above all make sure, make quite sure, that Ginny was not \u2014 but he could not permit that idea to form in his mind'). Scene 232 has Harry, about to be killed by Voldemort, thinking inexplicably of 'Ginny, and her blazing look, and the feel of her lips on his.'",
+      "film_portrayal": "The film compresses the Harry-Ginny mid-battle connection to a single exchange: their eyes meet, Ginny says 'I know,' then runs. It is intimate and efficient but strips the texture of their shared danger, Harry's terror for her, and the extended moments they spend in proximity during the battle.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The 'I know' moment is elegant cinema but it replaces a richer battle-time dynamic. Most significantly, Harry's private terror of losing Ginny \u2014 one of the book's most powerful articulations of why she matters to him \u2014 is unrepresented in the film. His thought of her in his final walk to death (Scene 232) has no film equivalent in this corpus, meaning the emotional through-line of Ginny as what Harry has to lose is not adequately conveyed.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 21 (EXT. HOGWARTS GROUNDS): Ginny comforting injured girl while Harry passes invisibly",
+      "book_baseline": "Book Scenes 221-228 show Harry, under the Cloak walking to his death, stopping when he sees Ginny crouching over an injured girl, whispering 'It's all right. It's ok. We're going to get you inside.' Ginny's voice breaks. Harry 'wanted to shout out to the night, he wanted Ginny to know that he was there... He wanted to be stopped, to be dragged back.' He forces himself to walk on. This is one of the book's most emotionally devastating passages \u2014 Ginny as the embodiment of everything Harry is sacrificing.",
+      "film_portrayal": "The film includes this scene with reasonable fidelity: Ginny says 'It's all right. We're going to get you inside' and 'Don't worry. I won't leave you. I promise.' The film adds 'I kept calling. No one came' for the girl. Ginny is shown as 'haunted by sorrow.' Harry studies her, moved, then continues. The film omits Harry's interior anguish ('he wanted Ginny to know he was there... he wanted to be stopped') but the visual of him watching her is present.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The scene itself is among the more faithful in the film corpus, but without access to Harry's interior \u2014 his desperate longing to call out to her, his recognition of her as the embodiment of the life he is surrendering \u2014 the scene becomes a poignant vignette of Ginny's compassion rather than the agonizing capstone of Harry and Ginny's relationship. The damage is real but inherent to the medium shift; it is scored lower accordingly."
+      "explanation": "The scene is present and reasonably faithful in action, but Harry's devastating interior monologue \u2014 which makes Ginny the emotional anchor of his sacrifice \u2014 is necessarily absent in film form and not compensated for by visual storytelling. The weight of the moment is reduced. Some damage, but the scene itself is not unfaithful in portrayal of Ginny specifically.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 23 (EXT. COURTYARD) \u2014 Ginny's reaction to Harry's apparent death",
-      "book_baseline": "Book scene 235 has Ron's, Hermione's, and Ginny's voices calling 'Harry! HARRY!' when Hagrid carries his body \u2014 described as 'worse than McGonagall's' to Harry, who has to make himself lie still. Book scene 234 names all three. The voices are a chorus of unbearable loss, and Ginny's is one of the three that most tempts Harry to break.",
-      "film_portrayal": "Ginny shouts 'No... NO!' and rushes toward Voldemort, but Arthur physically restrains her. Voldemort calls her 'Stupid girl.' Arthur 'wraps his daughter in his arms, letting her struggle briefly before pulling her tighter, closer, safer.' Ginny then becomes absorbed into the family group and has no further individual moment.",
-      "damage_type": "agency/function | relationship",
+      "scene": "Film Scene 23 (EXT. COURTYARD): Ginny's reaction to Harry's apparent death",
+      "book_baseline": "Book Scene 235 describes Ron's, Hermione's, and Ginny's voices crying out 'Harry! HARRY!' as he lies still \u2014 the worst thing Harry has to endure in that moment. Scene 234 and 235 establish that Ginny is one of the three voices he hears, alongside Ron and Hermione. The book does not include Ginny charging toward Voldemort, but her grief is articulated as a voice Harry can hear.",
+      "film_portrayal": "The film has Ginny cry 'No... NO!' and physically rush toward Voldemort, only stopped by Arthur. Voldemort then mocks her: 'Stupid girl. You cry for that?' This is a film invention \u2014 a visible, dramatic expression of grief. Ginny is singled out and publicly humiliated by Voldemort.",
+      "damage_type": "personality/voice | agency/function",
       "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The film's staging physically contains Ginny \u2014 she rushes forward but is immediately captured by Arthur and held. While dramatically effective, this removes her individual voice (the 'Harry! HARRY!' cry that torments the lying-still Harry in the book) and replaces it with a physical struggle that is immediately suppressed. Her grief is rendered as wild and immediately contained rather than as a devastating personal cry that nearly breaks Harry's resolve. Voldemort's 'stupid girl' dismissal then frames her grief as foolish rather than as the most human and meaningful response in the scene."
+      "impact_weight": 2,
+      "explanation": "The film replaces Ginny's book grief (a voice Harry hears, equally weighted with Ron and Hermione) with an impulsive physical rush at Voldemort that results in her being publicly mocked and restrained. This repositions her from a figure of equal emotional weight alongside the trio to a visually dramatic but narratively passive figure who must be physically stopped by her father. The 'stupid girl' taunt from Voldemort, while dramatically effective, reduces her to spectacle. Her grief is individualised in a way the book avoids \u2014 the book is careful not to make Harry's death primarily about romantic loss.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film \u2014 structural absence of Ginny's Hogwarts resistance arc",
-      "book_baseline": "Book scenes 133\u2013137 and 143 establish that Ginny tried to steal the Sword of Gryffindor, was punished by being sent to the Forbidden Forest, had been banned from Hogsmeade, and was one of the core leaders of Dumbledore's Army's resistance under Snape and the Carrows. Book scene 163 (Neville) confirms 'Ginny never came back after Easter' \u2014 she was removed from Hogwarts for her resistance activity. This is a complete arc of courage and leadership running parallel to Harry's hunt.",
-      "film_portrayal": "The film corpus contains no scene depicting or referencing Ginny's resistance activities at Hogwarts \u2014 the sword theft attempt, the DA leadership, the punishment, or her removal from school. Her arrival in the Room of Requirement (Film Scene 11) is her first appearance at Hogwarts in the film; no context is given for what she has been doing or what it cost her.",
+      "scene": "Film Scene 25 (INT. GREAT HALL - AFTERMATH): Ginny's role in the epilogue of the battle",
+      "book_baseline": "Book Scene 239 shows Harry walking through the Great Hall after the battle. He spots Ginny 'two tables away; she was sitting with her head on her mother's shoulder: There would be time to talk later, hours and days and maybe years in which to talk.' This is a quiet, forward-looking moment \u2014 Harry seeing her and knowing the future is open. The book's epilogue (Scenes 241-277) gives Ginny substantial presence as a confident, warm, actively parenting equal partner \u2014 she speaks frequently, makes jokes ('You interrupted them? You are so like Ron'), manages the children, and Harry looks at her with love at the close.",
+      "film_portrayal": "Film Scene 25 shows Ginny 'puffy-eyed and pale, standing alongside a distraught Arthur and Molly' \u2014 she is part of the family grief tableau. The film's epilogue (Scenes 26-27) shows an older Ginny who appears briefly, takes the trolley, and is present but largely silent compared to the book epilogue where she has multiple warm, funny, and characterised lines.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book epilogue is one of the few places the adaptation had to show Ginny as Harry's genuine equal in adult life \u2014 warm, funny, and present. The film epilogue reduces her to a background parenting presence. Several of her best lines (teasing James about interrupting Teddy, writing to James three times a week, the Albus Severus moment) are compressed or cut, meaning the lasting impression of Ginny as Harry's wife is thinner than the books intend.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Structural absence across DH Part 1: Ginny's Hogwarts resistance arc is entirely absent",
+      "book_baseline": "The book establishes across multiple scenes (120, 123, 127-137, 141, 143-144, 153, 163) that Ginny is a central figure in the Hogwarts resistance during Harry's absence: she leads DA activities, is punished, is banned from Hogsmeade, and is eventually removed from school. Harry tracks her on the Marauder's Map, stares at her name, and the scant news of her resistance makes him 'want to see her so badly it felt like a stomachache.' This arc establishes Ginny as doing something meaningful and brave while Harry is gone \u2014 she is not waiting passively.",
+      "film_portrayal": "In DH Part 1, Ginny has no presence whatsoever after leaving at the wedding. The film contains no indication of her resistance activities at Hogwarts, no reference to her being punished or removed, no Marauder's Map moment showing Harry thinking of her. She disappears from the film entirely until the Room of Requirement arrival in Part 2.",
       "damage_type": "arc | agency/function",
       "exposure": 3,
-      "impact_weight": 5,
-      "explanation": "This is the most damaging single absence in the film corpus. Ginny's Hogwarts resistance arc is her primary independent narrative in DH \u2014 the thing she does that is entirely hers, not contingent on Harry's presence. It establishes her as a leader, establishes her courage as costly (she is expelled mid-year), and gives her arrival at the final battle the weight of someone who has already been fighting. Without it, she arrives in the Room of Requirement as a plot-convenient love interest rather than as a warrior who has been holding the front. Her battle conduct consequently reads as reactive rather than as the continuation of months of resistance."
-    },
-    {
-      "scene": "Film \u2014 structural absence of Harry watching Ginny's dot on the Marauder's Map",
-      "book_baseline": "Book scenes 141 and 148 show Harry repeatedly taking out the Marauder's Map not to track Ron (who doesn't appear) but to watch Ginny's dot in the girls' dormitory \u2014 'wondering whether the intensity with which he gazed at it might break into her sleep, that she would somehow know he was thinking about her.' This establishes the depth and ache of Harry's feelings for Ginny during the long dark months of the hunt.",
-      "film_portrayal": "The film has no equivalent moment. Ron mentions listening to the radio 'to make sure I don't hear Ginny's name or Fred or George or Mum' \u2014 but this is Ron's line, not Harry's. Harry's private, obsessive tenderness toward Ginny during the hunt is not depicted.",
-      "damage_type": "relationship | nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The Marauder's Map moments are the primary evidence in the book that Harry's feelings for Ginny are not merely romantic but constitute a deep, sustaining attachment that he carries through the hunt's worst periods. Without them, the film's Harry has no visible interior life in relation to Ginny during the hunt, making their reunion moments feel unmotivated rather than the culmination of months of silent longing."
-    },
-    {
-      "scene": "Film Scene 24 (INT. GREAT HALL - DAWN) \u2014 aftermath, Bellatrix duel",
-      "book_baseline": "Book scene 236 shows Ginny duelling Bellatrix alongside Hermione and Luna \u2014 'all battling their hardest, but Bellatrix was equal to them' \u2014 and a Killing Curse nearly hitting Ginny, provoking Mrs. Weasley's intervention. Ginny is one of three named combatants who together challenge Bellatrix before Mrs. Weasley takes over.",
-      "film_portrayal": "A bolt 'just misses Ginny' and Mrs. Weasley shouts 'NOT MY DAUGHTER, YOU BITCH!' The film does not show Ginny duelling Bellatrix. She is a near-miss victim, not a combatant. The three-on-one duel that precedes Mrs. Weasley's intervention is absent.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Reducing Ginny from an active duelist to a passive near-miss victim in the Bellatrix sequence is a significant agency loss. In the book, she is fighting \u2014 'battling her hardest' \u2014 which is what provokes Voldemort's near-fatal curse and Mrs. Weasley's protective rage. In the film, she is simply almost hit, which makes Mrs. Weasley's line feel protective of a bystander rather than of a fighter. The 'NOT MY DAUGHTER' line loses half its resonance when the daughter was not herself in combat."
+      "impact_weight": 4,
+      "explanation": "This is the most structurally significant damage. The book's Ginny has a parallel arc during Harry's absence that confirms she is not a passive love interest but an active agent of resistance. Its complete absence means the film's Ginny has no arc of her own during the central film of the trilogy. She exists only as a romantic object Harry misses, rather than a person doing important and dangerous things independently. This fundamentally weakens her as a character and, by extension, weakens the credibility of Harry's love for her \u2014 since the audience has no evidence of what she is doing or who she is when he's not present.",
+      "book": "7_deathly_hallows"
     }
   ],
   "confidence": {
@@ -618,6 +594,16 @@
   "meta": {
     "model": "claude-sonnet-4.6",
     "split": true,
-    "prompt_version": "2.1"
+    "prompt_version": "2.1",
+    "books_scored": [
+      "1_philosophers_stone",
+      "2_chamber_of_secrets",
+      "3_prisoner_of_azkaban",
+      "4_goblet_of_fire",
+      "5_order_of_the_phoenix",
+      "6_half_blood_prince",
+      "7_deathly_hallows"
+    ],
+    "books_failed": []
   }
 }

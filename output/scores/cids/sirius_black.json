@@ -2,441 +2,478 @@
   "character": "Sirius Black",
   "fp_score": 67.0,
   "infidelity_score": 33.0,
-  "weighted_infidelity_exposure": 177.5,
-  "cids": 370.2,
+  "weighted_infidelity_exposure": 175.5,
+  "cids": 369.4,
   "damage_per_exposure": 6.3,
   "structural_damage_level": 4,
-  "adjusted_cids": 370.2,
+  "adjusted_cids": 369.4,
   "main_damage_causes": [
-    "Sirius Black's sole appearance in the Book 1 corpus \u2014 his motorcycle loan and his name-drop by Hagrid \u2014 is completely excised from the film, removing his foreshadowing as a trusted member of the Potter inner circle from the saga's opening scene.",
-    "The film provides no establishment of Sirius as a figure connected to the events of Halloween night 1981, meaning his later importance to Harry's story has no narrative seed in the adaptation.",
-    "The corpus for both book and film is heavily weighted toward material in which Sirius does not appear directly, so most damage is confined to this one omitted reference rather than any active mischaracterization of Sirius on screen.",
+    "Complete omission of Sirius Black's only Book 1 appearance, eliminating his established presence as a trusted inner-circle ally on the night Voldemort fell",
+    "Loss of the Sirius-Hagrid relationship foundation, which the book seeds from page one by having Sirius trust Hagrid with his motorcycle",
+    "Absence of any early audience orientation toward Sirius as a named, loyal figure \u2014 his later prominence in Film 3 arrives without the subtle foreshadowing the book carefully plants",
     "Sirius Black does not appear in either the book corpus or the film corpus provided \u2014 both corpora cover Harry Potter and the Chamber of Secrets, in which Sirius Black plays no role",
-    "Without any corpus evidence of Sirius Black's portrayal in either the book or film sections provided, no damaging scenes can be identified per the anti-hallucination rules"
+    "No book baseline for Sirius Black exists in the provided corpus, so no divergence can be evidenced"
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 \u2014 Hagrid delivers Harry to Privet Drive",
-      "book_baseline": "In the book, Hagrid tells Dumbledore and McGonagall that 'Young Sirius Black lent it to me' (the motorcycle), establishing Sirius as a named, trusted figure in the Potter inner circle from the very first chapter. Hagrid also states he will return the bike to Sirius: 'I'll be takin' Sirius his bike back.' This is the saga's first reference to Sirius, planting him as someone close enough to lend his prized possession and integrated into the events of Halloween night.",
-      "film_portrayal": "The film's opening scene shows Hagrid arriving on the motorcycle with no mention of Sirius Black whatsoever. There is no line about who lent him the bike, no name-drop, no establishment of Sirius as a figure connected to this night. Sirius is entirely absent from the narrative setup of the saga's opening.",
+      "scene": "Film Scene 1 \u2014 Opening at Privet Drive: Hagrid delivers Harry",
+      "book_baseline": "Book Scene 8/13: Hagrid explicitly mentions 'Young Sirius Black lent it to me' (the motorcycle), establishing Sirius as a trusted, named ally of the Order from the very first chapter. Hagrid also says he'll be 'takin' Sirius his bike back,' reinforcing Sirius as an active, present figure in the wizarding world on this night.",
+      "film_portrayal": "The film omits any mention of Sirius Black entirely. Hagrid arrives on the motorcycle with no attribution of its owner. Sirius's name, his trust relationship with Hagrid, and his implicit presence in the events of that night are completely erased from the adaptation.",
       "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 3,
-      "explanation": "The book's first chapter plants Sirius Black as a trusted insider of the Order and a close friend of the Potters before the reader even meets Harry. His motorcycle \u2014 a personal, memorable possession \u2014 being lent to Hagrid for this mission signals his active participation in protecting Harry on the night Voldemort fell. Removing this reference means film audiences have zero foreshadowing of Sirius and no early sense of his relationship to Harry's history. When Sirius becomes central to the third film, there is no retroactive resonance from this founding moment. The relationship between Sirius and Hagrid, and Sirius's place in the original circle of trust around Dumbledore, is entirely absent from the film adaptation's foundation."
-    },
-    {
-      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Lupin's opening line to Black",
-      "book_baseline": "In the book, Lupin enters the Shrieking Shack with his wand raised, looking bloodless and frightened, and immediately asks 'Where is he, Sirius?' \u2014 his reunion with Black is one of dawning understanding, not hostility. His first words to Black are purposeful and searching.",
-      "film_portrayal": "Lupin enters and delivers the taunting line 'Looking a bit ragged, aren't we, Sirius? Finally the skin reflects the madness within.' This frames Lupin as briefly adversarial and mocking, before pivoting to the embrace \u2014 creating a false beat of condemnation toward Black.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's reunion carries no performative hostility from Lupin \u2014 he is tense and urgent, not cruel. The film's taunt momentarily paints Black as truly appearing monstrous to an old friend, slightly undermining the warmth of the friendship being revealed. Minor but distorts the dynamic of their reunion."
-    },
-    {
-      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's 'He dies. Now.' urgency and characterization as unhinged",
-      "book_baseline": "In the book, Black is desperate and hollowed but coherent. He agrees to let Lupin explain ('Tell them whatever you like. But make it quick, Remus. I want to commit the murder I was imprisoned for.') \u2014 dark humor intact, but he defers to Lupin's insistence on explanation. He is driven, not purely demented.",
-      "film_portrayal": "Film Black snarls 'Yes, you glow like the sun. And you howl at the moon. Enough talk! He dies. Now. If you won't do it with me, Remus, I'll do it alone.' and 'I did my waiting! Twelve years of it! In Azkaban! Trust me, you wouldn't have lasted a week!' \u2014 presented as borderline unhinged and taunting, with no dark wit or reluctant patience.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Black is terrifying but controlled enough to be persuasive and even darkly witty. The film reduces him to feral screaming and bravado, making him harder to sympathize with at the moment the audience most needs to begin believing him. His intelligence and the complexity of his fury \u2014 righteous but disciplined enough to yield to Lupin \u2014 is flattened."
-    },
-    {
-      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's accusation scene compressed; Harry's agency and confrontation reduced",
-      "book_baseline": "The book devotes extensive space to Harry physically attacking Black \u2014 lunging at him, punching him, choking him with hatred \u2014 before ultimately holding the wand at Black's heart and choosing not to kill him. This is a defining moral moment for Harry: he has the power, the rage, and the justification, and he still hesitates. Harry's internal struggle ('Now was the moment to do it... The seconds lengthened. And still Harry stood frozen') is the emotional climax of his arc.",
-      "film_portrayal": "The film compresses this entirely. Harry raises his wand and says 'Yes' when asked if he's going to kill Black, but there is no physical assault, no extended confrontation, no frozen moment of choice. The scene cuts almost immediately to Lupin's entrance. Harry never has the sustained, agonizing moment of choosing mercy.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's Shrieking Shack climax is built around Harry's choice not to kill \u2014 it defines his moral character as distinct from revenge, and mirrors his father's legacy of mercy (James once saved Snape). By eliminating the physical confrontation and the long frozen moment, the film removes Harry's most significant moral decision in the entire book. His mercy toward Pettigrew later therefore lacks the full weight it should carry, since the audience hasn't seen how close he came to acting on his rage."
-    },
-    {
-      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Pettigrew confrontation: Black and Lupin's moral speech compressed",
-      "book_baseline": "The book gives Black a powerful, extended speech condemning Pettigrew: 'THEN YOU SHOULD HAVE DIED! DIED RATHER THAN BETRAY YOUR FRIENDS, AS WE WOULD HAVE DONE FOR YOU!' and 'What was there to be gained by fighting the most evil wizard who has ever existed? Only innocent lives, Peter!' These speeches define Black's moral code \u2014 loyalty above survival \u2014 and are among his most important characterization moments in the series.",
-      "film_portrayal": "The film condenses this to 'Died! Died rather than betray my friends! And you should have realized, Peter, if Voldemort didn't kill you... we would.' The moral elaboration \u2014 the specific condemnation of cowardice, the statement about what was worth fighting for \u2014 is absent.",
-      "damage_type": "personality/voice",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "Black's extended condemnation of Pettigrew is one of the clearest windows into his values: he believes in absolute loyalty and considers cowardice in the face of evil to be unforgivable. This shapes how the audience understands him as a moral actor, not merely a wronged man. The compression loses his voice and his ethical core at a critical moment."
+      "explanation": "Sirius Black's only appearance in Book 1 is this brief but meaningful mention \u2014 he lent Hagrid his motorcycle on the night Voldemort fell, placing him squarely among the inner circle of trusted allies. The film's omission removes the earliest seed of Sirius's character: his loyalty, his closeness to Hagrid and Dumbledore, and his active role on the most important night in wizarding history. For an audience encountering these films without the books, Sirius is introduced with zero prior context when he becomes plot-relevant in Film 3. The relationship between Sirius and the core group (Hagrid especially) loses its established foundation.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 30 (Whomping Willow exterior) \u2014 Sirius comforting Lupin during transformation",
-      "book_baseline": "The book does not feature Black attempting to comfort Lupin during transformation. Black transforms into the dog immediately to try to protect everyone, and the transformation is chaotic. There is no tender moment of Black holding Lupin and speaking to his humanity.",
-      "film_portrayal": "The film adds a scene where Black wraps his arms around the transforming Lupin and speaks: 'You know the man you truly are, Remus. This flesh is only flesh. This heart is where you truly live. This heart! Here!' \u2014 a sentimental, invented beat.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "While this scene adds warmth to the Black-Lupin friendship, it is not in the corpus and slightly softens Black into a nurturing figure in a way that is tonally inconsistent with his book characterization, which is more fierce and action-oriented. It also delays the transformation scene in a way that strains credibility. The damage is minor but real \u2014 it imposes a sentimentality on Black not established in the source."
-    },
-    {
-      "scene": "Film Scene 30 (Whomping Willow) \u2014 Pettigrew's escape; Black's response",
-      "book_baseline": "In the book, when Pettigrew escapes, Black immediately scrambles up and chases him as a dog, bleeding from the werewolf fight. He is driven and purposeful despite his wounds \u2014 'Black was bleeding; there were gashes across his muzzle and back, but at Harry's words he scrambled up again, and in an instant, the sound of his paws faded to silence as he pounded away across the grounds.'",
-      "film_portrayal": "The film has Harry cast Expelliarmus to stop Pettigrew, and Pettigrew transforms himself and escapes. Black \u2014 still as a dog \u2014 is then thrown by the werewolf. The agency of pursuit is transferred away from Black, and his chase of Pettigrew is absent.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "In the book, Black's pursuit of Pettigrew even while wounded demonstrates his relentless commitment to the mission that drove his escape from Azkaban. The film eliminates this entirely \u2014 Pettigrew simply escapes during the chaos, and Black never actively gives chase. This reduces Black from an agent pursuing justice to a passive victim of circumstance in the final act."
-    },
-    {
-      "scene": "Film Scene 18 (Three Broomsticks) \u2014 Overheard conversation: godfather revelation given to Harry as emotional climax",
-      "book_baseline": "In the book, the revelation that Black is Harry's godfather lands as one beat among many in the Hogsmeade conversation \u2014 important, but part of a longer backstory. Harry's emotional response is internal and complex, mixing hatred with something harder to name. The scene ends with Harry lying awake with a 'boiling hatred' and fantasizing about Black's betrayal.",
-      "film_portrayal": "The film makes the godfather reveal the emotional climax of the scene, delivered last by McGonagall with dramatic weight ('Sirius Black was and remains today... Harry Potter's godfather.'). Harry then emerges weeping on a rocky outcrop and delivers: 'I hope he finds me. But when he does, I'm going to be ready. When he does, I'm going to kill him.' This is a scripted, performed declaration that simplifies Harry's roiling internal conflict into a clean revenge statement.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's Harry doesn't make a clean declaration of intent to kill \u2014 he is confused, full of hatred he can barely contain, but also uncertain ('He didn't know what he wanted to do'). The film's Harry is resolved and declarative. This simplification removes the moral ambiguity that makes his later choice not to kill Black so meaningful. If the audience believes Harry definitively planned to kill Black, his mercy reads as a change of heart; in the book, it reads as the resolution of genuine internal conflict."
-    },
-    {
-      "scene": "Film Scene 41 (Sky/Hogwarts) \u2014 Sirius's farewell speech to Harry",
-      "book_baseline": "In the book, Black's farewell in the tunnel is intimate and tentative: he hesitantly offers Harry a home ('I'll understand, of course, if you want to stay with your aunt and uncle. But... well... think about it. Once my name's cleared... if you wanted a... a different home...'), and Harry's enthusiasm ('Are you insane? Of course I want to leave the Dursleys!') produces Black's first true smile \u2014 'the difference it made was startling, as though a person ten years younger were shining through the starved mask.' The final parting on the tower is brief: 'We'll see each other again. You are \u2014 truly your father's son, Harry.'",
-      "film_portrayal": "The film replaces this with an invented inspirational speech: 'Trust yourself. No matter the challenges you face \u2014 and I fear they will be many \u2014 you'll be surprised how many times you can find the answers... here' (tapping his heart). This is generic mentor-speak that doesn't belong to Black's characterization.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book's farewell is powerful precisely because of its specificity: the tentative offer of a home, Harry's explosive eagerness, and Black's smile transforming his ruined face. It establishes the Black-Harry bond as one of mutual need and genuine warmth rooted in James Potter's memory. The film replaces this with a generic inspirational homily that could have been spoken by any mentor character. Black's distinctive voice \u2014 wary, scarred, tentatively hopeful \u2014 is erased at the most important bonding moment of their relationship."
-    },
-    {
-      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's explanation of how he escaped Azkaban and found Pettigrew absent",
-      "book_baseline": "The book contains Black's extended explanation of his escape: that knowing he was innocent kept him sane (not a happy thought the dementors could feed on), that he transformed into a dog to slip through the bars, and that seeing Pettigrew in the Daily Prophet photograph gave him the obsessive purpose to escape. This explanation is a crucial character moment \u2014 it shows Black's intelligence, resilience, and the particular nature of his survival.",
-      "film_portrayal": "The film does not include Black's explanation of his Azkaban escape or how he identified Pettigrew. The clipping is shown briefly, but Black's internal account of what kept him sane and how he escaped \u2014 one of the most revealing passages in the book for his characterization \u2014 is entirely absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "Black's Azkaban escape is not just plot \u2014 it reveals that his innocence itself was his weapon, that he retained a sense of self where others lost theirs, and that his love for Harry (the obsession to protect him from Pettigrew) gave him the strength to act. Without this, the audience doesn't understand how Black survived twelve years with his mind intact, nor how his escape connects to his devotion to James Potter's memory and Harry's safety. His survival reads as merely convenient rather than a testament to character."
-    },
-    {
-      "scene": "Film Scene 4 (Leaky Cauldron) \u2014 Mr. Weasley's warning to Harry: 'Why would I go looking for someone who wants to kill me?'",
-      "book_baseline": "In the book, Harry overhears the Weasley argument and learns the truth about Black secondhand \u2014 he is not told directly by Mr. Weasley. When Harry finally speaks to Mr. Weasley about it, Harry demonstrates that he is not frightened in the expected way and is more bothered about missing Hogsmeade than about the threat to his life. His reaction to the Black threat is notably un-panicked and self-possessed.",
-      "film_portrayal": "The film has Mr. Weasley tell Harry directly that Black escaped to kill him, and Harry's response \u2014 'Mr. Weasley, why would I go looking for someone who wants to kill me?' \u2014 is played for a mild laugh and positions Harry as sensibly passive from the outset. This predisposes the audience to see Harry as unlikely to pursue Black.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's Harry is more internally conflicted about Black from earlier \u2014 he overhears the truth, processes it alone, and is conspicuously not panicked in the way adults expect. The film's Harry is told directly and positioned as cooperative from the start, which slightly softens the sense that he is suppressing dangerous feelings about Black rather than simply being sensibly cautious."
-    },
-    {
-      "scene": "Film Scene 2 & 3 \u2014 Sirius's head in the fire, common room meeting",
-      "book_baseline": "In the book, Sirius appears in the fire having broken into a wizarding house to use it. He is warm but urgent, immediately focused on Harry's wellbeing, lets Harry talk himself out before intervening, and then delivers substantive intelligence: Karkaroff's Death Eater history, Moody's attack before term, Bertha Jorkins, the pattern of suspicious events. He also begins to give Harry concrete dragon-fighting advice before being cut off. The scene is long, emotionally rich, and establishes Sirius as Harry's primary adult confidant and strategic advisor.",
-      "film_portrayal": "The film condenses the fireplace meeting drastically. Sirius leads with a near-accusatory 'Did you or did you not put your name in the Goblet of Fire?' before softening. The intelligence briefing is reduced to two sentences: Karkaroff was a Death Eater, and Barty Crouch sent his own son to Azkaban. There is no discussion of Bertha Jorkins, no analysis of Moody's attack, no dragon advice, no extended strategic reasoning. The meeting is cut short by Ron entering, and Sirius disappears without the substantive guidance he provides in the book.",
-      "damage_type": "agency/function",
-      "exposure": 2,
-      "impact_weight": 4,
-      "explanation": "The book's fireplace scene is the central demonstration of Sirius functioning as Harry's godfather-as-mentor: he thinks strategically, gathers intelligence while on the run, and equips Harry to survive. Stripping this to two brief warnings removes Sirius's investigative competence and his primary plot-functional role as Harry's external intelligence source. The accusatory opening ('Did you or did you not...') also introduces a brief note of distrust absent from the book, where Sirius simply lets Harry talk."
-    },
-    {
-      "scene": "Film Scene 3 \u2014 Sirius's line 'You don't have a choice' after Harry says 'I'm not ready for this'",
-      "book_baseline": "In the book Sirius is consistently encouraging and emotionally supportive. He tells Harry 'Dragons we can deal with, Harry' and emphasises that there is a way through every obstacle. His tone is that of someone trying to give Harry confidence and practical tools, not fatalistic resignation. He expresses deep concern but channels it into action.",
-      "film_portrayal": "When Harry says 'I'm not ready for this, Sirius,' the film Sirius responds flatly: 'You don't have a choice.' This is the last substantive thing he says before being cut off. The line is blunt, offers no comfort, no strategy, no encouragement.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book Sirius actively works to help Harry feel capable and prepared. 'You don't have a choice' is defeatist and cold in a way that contradicts his characterisation as a godfather who deeply wants to protect and empower Harry. It reduces him briefly to a plot-delivery mechanism rather than a caring adult."
-    },
-    {
-      "scene": "Film Scene 2 \u2014 Sirius's letter delivered via owl as a voice-over on the train",
-      "book_baseline": "In the book, Sirius's communications are letters carried by tropical birds, carefully worded to avoid interception, and reflect his warmth, care, and caution. Harry's anticipation of Sirius's replies is an emotionally significant thread throughout the early chapters \u2014 Harry worries Sirius has been caught, feels relief when letters arrive, and reads them privately with Ron and Hermione. The letters demonstrate ongoing, attentive engagement with Harry's life.",
-      "film_portrayal": "Sirius's letter on the train is delivered as a voice-over, with Sirius's disembodied voice narrating directly to Harry. The content is functional \u2014 warning about Ministry owl interception and arranging the fireplace meeting \u2014 but the mode of delivery (voice-over rather than a read letter) and the compression into a single moment strips the ongoing epistolary relationship of its texture. There is no sense of Harry anxiously waiting, no warmth in the correspondence, no shared reading with Ron and Hermione.",
+      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Lupin's entrance and greeting of Black",
+      "book_baseline": "Book establishes Lupin enters urgently, disarms everyone including Harry, then after a moment of staring at Black, embraces him. The reunion is wordless and charged. Lupin's opening line is 'Where is he, Sirius?' \u2014 immediately focused on Pettigrew, not on Black himself.",
+      "film_portrayal": "Lupin enters and immediately delivers a taunting, almost contemptuous line: 'Looking a bit ragged, aren't we, Sirius? Finally the skin reflects the madness within.' Black responds in kind. The exchange frames them as adversaries before the embrace, and Lupin's first impulse reads as mockery rather than tension born of twelve years of grief and suspicion.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The book's letter-writing thread is how the godfather relationship is built across the early part of GoF. Harry's emotional investment in Sirius's safety, his guilt about drawing Sirius back north, and Sirius's attentive replies all develop the bond. Collapsing this into a functional voice-over erases the relational texture that makes Sirius's later appearances meaningful."
+      "explanation": "The book's reunion is wordless and devastating \u2014 Lupin embraces Black like a brother without explanation, shocking the trio. The film replaces this with witty banter that undercuts the emotional gravity of two men reuniting after twelve years of separation, false accusation, and Azkaban. The relationship dynamic is made to feel lighter and more performative than the book's raw, complicated grief.",
+      "book": "3_prisoner_of_azkaban"
     },
     {
-      "scene": "Film Scene 3 \u2014 Sirius's absence from the Hogsmeade cave meeting",
-      "book_baseline": "The book contains an extended cave scene in Hogsmeade where Sirius meets Harry, Ron, and Hermione in person (as a dog, then transforming). He is physically present, eating chicken, pacing, analysing the Crouch situation in detail, discussing Snape's past, warning about Bagman, showing emotional depth (the darkened look when Crouch is mentioned, the bark-laugh about Crouch's son), and demonstrating sharp political intelligence. He also gives Harry direct instructions and expresses paternal concern. The scene runs across many pages and is the fullest in-person portrait of Sirius as godfather and advisor.",
-      "film_portrayal": "The cave meeting is entirely absent from the film corpus. There is no in-person Hogsmeade meeting between Sirius and Harry in the film. All of Sirius's advisory function is compressed into the brief fireplace scene.",
-      "damage_type": "arc",
+      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's 'He dies. Now.' and 'I did my waiting!'",
+      "book_baseline": "Book Black is driven and dangerous in the Shrieking Shack but is also specific and coherent: he is fixed on Pettigrew, not on theatrical declarations. His urgency is about catching a traitor before he escapes again. When Lupin says they need to explain, Black accepts this ('All right, then'). His famous 'twelve years' line does not appear in the book in this form.",
+      "film_portrayal": "Film Black delivers the line 'I did my waiting! Twelve years of it! In Azkaban! Trust me, you wouldn't have lasted a week!' as a theatrical, almost villainous declaration of impatience. He is portrayed as barely controllable, lurching toward murderous action over Lupin's reasonable objections.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film's most famous Black line ('I did my waiting!') reads as unhinged bravado rather than the book's controlled, purposeful urgency. It confirms the children's \u2014 and audience's \u2014 worst fears about Black's mental state at exactly the moment the film should begin casting doubt on those fears. It makes him harder to re-evaluate as innocent, weakening the pivot toward sympathy.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 18 (Three Broomsticks) \u2014 Rosmerta challenges the narrative; McGonagall reveals godfather status",
+      "book_baseline": "Book establishes a full, detailed account: Black was Secret-Keeper by James's own choice (overriding Dumbledore's warnings), Pettigrew confronted Black publicly, Black laughed at the carnage. The overheard conversation is the primary vehicle by which Harry (and the reader) constructs a hatred of Black. Crucially, the book version of this scene gives McGonagall a line about Black and Potter being 'Ringleaders' and 'exceptionally bright,' and Flitwick says they were 'like brothers.' The emotional weight is built through detail.",
+      "film_portrayal": "The film condenses the Three Broomsticks scene significantly. Rosmerta's challenge ('Of all the boys I ran out of here, Black's the last who would've gone over to the dark side. Hearsay. That's all the Ministry had. Hearsay.') is present but the rich backstory \u2014 the Fidelius Charm explanation, Hagrid's account of Black handing over the motorbike, the full portrait of their Hogwarts friendship \u2014 is mostly absent. The scene ends on the godfather revelation rather than building a complete picture of betrayal and friendship.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Three Broomsticks scene is the emotional and expository centerpiece that makes the eventual revelation of Black's innocence so devastating. By compressing it, the film loses the detailed portrait of James-Sirius friendship that makes Harry's hatred feel earned and the truth feel like a genuine gut-punch. Rosmerta's 'hearsay' challenge is present but not given room to breathe \u2014 in the book it seeds doubt more effectively because it comes after the full weight of the accusation has been established.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 18 (Three Broomsticks) \u2014 Harry's reaction outside: 'I'm going to kill him'",
+      "book_baseline": "Book Harry overhears the conversation and reacts with 'a hatred such as he had never known before coursing through him like poison.' But his inner monologue is more ambivalent \u2014 he doesn't know what he wants to do. He explicitly thinks he doesn't want to kill Black, just that doing nothing is unbearable. He tells Ron and Hermione 'I don't know what I want to do.'",
+      "film_portrayal": "Film Harry, after overhearing the conversation, declares directly to Hermione: 'I hope he finds me. But when he does, I'm going to be ready. When he does, I'm going to kill him.' This is a direct, stated intention to murder.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book Harry is consumed by rage but morally uncertain \u2014 which makes his later decision to spare Pettigrew (and implicitly Black) more coherent as a character arc. The film Harry explicitly states murderous intent, which makes his Shrieking Shack mercy feel less like a hard-won moral choice and more like a simple change of heart. It also makes Harry harder to sympathize with in the interim.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 22 (Gryffindor Common Room after second break-in) \u2014 'I could've killed him'",
+      "book_baseline": "Book Harry's response after Black's second break-in is not to fixate on a missed killing opportunity. He wonders why Black fled instead of killing Ron and proceeding to Harry, and thinks practically about what Black's escape route must have been. His emotional response is present but not centered on regret at failing to kill.",
+      "film_portrayal": "Film Harry stares out the window and says 'I could've killed him. He was right there. Close enough to touch. I could've killed him.' twice, with quiet, ominous intensity \u2014 as if he regrets not having murdered Black.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This moment amplifies Harry's murderous fixation in a way the book does not. It reinforces the film's pattern of making Harry's hatred more explicitly violent, which misrepresents his book characterization as someone consumed by rage but not coldly plotting murder.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's explanation of how he found Pettigrew",
+      "book_baseline": "Book Black gives a detailed and emotional account: he saw Pettigrew in the Daily Prophet photo (Fudge gave him the paper in Azkaban), recognized him at once, and explains that Pettigrew's survival meant he was waiting to deliver Harry to Voldemort when the time was right. Black's speech includes his reasoning about Pettigrew's cowardice and his own moral argument: 'THEN YOU SHOULD HAVE DIED! DIED RATHER THAN BETRAY YOUR FRIENDS, AS WE WOULD HAVE DONE FOR YOU!' This is a full moral indictment.",
+      "film_portrayal": "The film condenses Black's explanation and the confrontation with Pettigrew. The key moral speech \u2014 about dying rather than betraying friends \u2014 is reduced to a single line: 'Died! Died rather than betray my friends!' without the full context of Pettigrew's year-long spying established in the book.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Black's moral authority in the confrontation scene \u2014 his ability to articulate what courage and loyalty actually demand \u2014 is one of his defining character moments. The compression loses the full force of his indictment and reduces what should be a thematic centerpiece to a single line.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Absence of Black's account of how he persuaded the Potters to switch Secret-Keepers",
+      "book_baseline": "Book Black confesses: 'I persuaded Lily and James to change to Peter at the last moment, persuaded them to use him as Secret-Keeper instead of me... I'm to blame, I know it.' This is a devastating moment of self-recrimination \u2014 Black accepts moral responsibility even while being technically innocent of betrayal. It is the key beat that makes him a complex, genuinely tragic figure rather than simply a wronged innocent.",
+      "film_portrayal": "The film does not include Black's confession of his role in convincing the Potters to switch Secret-Keepers. He simply asserts 'It's a lie! I never would've betrayed James and Lily!' without the nuance of his actual guilt \u2014 the guilt of having been too clever, of thinking Pettigrew would be a safer decoy.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 4,
+      "explanation": "This is the single most important piece of Black's characterization in the book. He is not merely an innocent victim of circumstance \u2014 he is a man who made a fateful mistake born of love and misplaced cunning, and he has carried that guilt for twelve years. Without this confession, film Black is a simpler wronged-man figure. The moral complexity \u2014 innocent of betrayal but responsible for the conditions that led to it \u2014 is entirely lost, significantly damaging his arc.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 29 (Shrieking Shack) \u2014 Black's account of how he escaped Azkaban via Animagus transformation",
+      "book_baseline": "Book Black gives a full, emotionally rich account: 'I think the only reason I never lost my mind is that I knew I was innocent. That wasn't a happy thought, so the dementors couldn't suck it out of me... but it kept me sane... When it all became too much... I could transform in my cell... become a dog.' He explains how seeing Pettigrew in the paper gave him an obsessive purpose that cleared his mind and allowed him to slip out as a dog.",
+      "film_portrayal": "The film omits Black's explanation of how he maintained his sanity in Azkaban and how he escaped. His inner psychological state during twelve years of imprisonment \u2014 the one happy-adjacent thought that sustained him \u2014 is never shared with Harry or the audience.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "Black's Azkaban survival story is central to understanding him: his innocence was itself the psychological anchor that the dementors couldn't strip away. This reveals something profound about him \u2014 and about the nature of innocence versus guilt \u2014 that the film entirely omits. It also establishes why Harry eventually believes him ('And at long last, Harry believed him'). The film's Harry has less reason to arrive at that belief organically.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 30 (Outside Whomping Willow) \u2014 Black invites Harry to live with him",
+      "book_baseline": "Book presents this scene in the tunnel, with Black nervous and halting: 'I'll understand, of course, if you want to stay with your aunt and uncle. But... well... think about it. Once my name's cleared... if you wanted a... a different home...' Harry's reaction is explosive joy: 'Are you insane? Of course I want to leave the Dursleys!' Black's face breaks into 'the first true smile Harry had seen upon it' \u2014 a moment of profound emotional release that makes him briefly look like his younger self.",
+      "film_portrayal": "The film includes this scene but compresses it and relocates it to outside the Whomping Willow. The emotional texture is present but briefer. The book's specific detail \u2014 'the first true smile,' the comparison to the wedding photograph \u2014 which makes this a genuine character revelation, is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's guardian offer scene is a rare moment where Black's humanity and the possibility of a restored future fully surface. The film gets the content but loses the emotional precision \u2014 particularly the transformation of Black's face \u2014 that makes it land as a character moment rather than a plot beat.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 41 (Rooftop farewell) \u2014 Black's parting speech to Harry",
+      "book_baseline": "Book Black's final words before flying off on Buckbeak are: 'We'll see each other again. You are \u2014 truly your father's son, Harry.' Brief, emotional, forward-looking. His letter to Harry later establishes that he sent the Firebolt and provides the Hogsmeade permission note \u2014 acts of concrete, practical godfathering.",
+      "film_portrayal": "Film Black delivers an extended, somewhat sentimental farewell speech: 'Trust yourself. No matter the challenges you face \u2014 and I fear they will be many \u2014 you'll be surprised how many times you can find the answers... here.' (tapping his heart). This is generic inspirational dialogue with no specific connection to Black's character or his relationship with Harry.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The film replaces Black's characteristically restrained, specific farewell with a generic 'trust your heart' speech that sounds like it belongs to any mentor figure. Book Black's voice is sharp, loving, and particular \u2014 he speaks to Harry as James's son, not as a generic young hero. The film's farewell substitutes sentiment for character.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 30 (Whomping Willow exterior) \u2014 Black's attempt to comfort Lupin during transformation",
+      "book_baseline": "Book does not include a scene where Black attempts to talk Lupin down from transforming. In the book, Black simply says 'Run' and transforms immediately to battle the werewolf, protecting the children at risk to himself.",
+      "film_portrayal": "Film adds a scene where Black wraps his arms around transforming Lupin and speaks to him: 'You know the man you truly are, Remus. This flesh is only flesh. This heart is where you truly live. This heart! Here!' \u2014 pounding Lupin's chest.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While this is an addition rather than a removal, it characterizes Black in a somewhat uncharacteristically lyrical and therapeutic way. The book Black is defined by action, loyalty, and a certain blunt directness \u2014 not by quasi-mystical speeches about the soul. This is a minor voice inconsistency but the scene itself is not deeply damaging.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 18 (Three Broomsticks) \u2014 Absence of full Fidelius Charm explanation and friendship portrait",
+      "book_baseline": "Book's Three Broomsticks scene includes Flitwick explaining the Fidelius Charm in detail, and crucially includes: 'You'd have thought Black and Potter were brothers!' (Flitwick), 'Both very bright, of course \u2014 exceptionally bright, in fact' (McGonagall), and Hagrid's story of Black at Godric's Hollow handing over the motorbike ('Give Harry ter me, Hagrid, I'm his godfather, I'll look after him'). These details build a full picture of who Black was before \u2014 making the betrayal more devastating and the truth more poignant.",
+      "film_portrayal": "The film omits Hagrid's account of meeting Black at Godric's Hollow, the detailed description of Black and Potter's friendship as 'like brothers,' and the Fidelius Charm mechanics. The scene goes from 'Black told You-Know-Who' to 'Pettigrew confronted Black' to 'Black's the godfather' without the intervening texture.",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The portrait of pre-Azkaban Black \u2014 brilliant, devoted, inseparable from James \u2014 is what gives his story its tragic dimension. Without Hagrid's account of Black at Godric's Hollow (white and shaking, handing over the motorbike, saying 'I won't need it anymore'), the audience never fully grasps what Black lost, what he gave up, or the scope of Pettigrew's betrayal. This compression reduces Black from a tragic figure to a plot mechanism.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2-3: Sirius's head-in-fire meeting with Harry",
+      "book_baseline": "Book establishes a rich, multi-layered conversation: Sirius is warm and caring, lets Harry talk himself out before speaking, shows concern ('eyes full of concern'), provides detailed strategic intelligence about Karkaroff's Death Eater history, warns about Moody's attack, analyzes the Dark Mark situation, and crucially begins to give Harry specific tactical advice about how to survive the dragon task before being interrupted. He is proactive, analytical, and deeply engaged as both godfather and strategic advisor.",
+      "film_portrayal": "The film compresses the meeting into a brief, urgent exchange focused almost entirely on warning Harry that 'the devils are inside the walls,' identifying Karkaroff as a Death Eater, and mentioning Crouch. Sirius gives no dragon advice, no detailed strategic analysis, no warmth or personal connection beyond the functional. His closing line is 'Keep your friends close, Harry' \u2014 a generic platitude. He is primarily a delivery mechanism for plot exposition rather than a fully realized godfather figure.",
+      "damage_type": "personality/voice | agency/function | relationship",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book's fireplace scene is one of the most important Sirius moments in Goblet of Fire: it establishes him as Harry's primary emotional anchor, a brilliant strategic mind, and a caring godfather who risks his freedom to help. The film strips this down to a plot-delivery scene. Sirius loses his analytical depth, his warmth, his tactical agency (dragon advice never given), and his emotional attunement. The relationship dimension \u2014 Harry's desperate need for a parent-figure \u2014 is almost entirely absent. 'Keep your friends close' replaces pages of nuanced, emotionally resonant guidance.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2: Sirius's letter delivered by owl \u2014 voice-over format",
+      "book_baseline": "Book establishes Sirius's letter as written communication, with Sirius instructing Harry to keep changing owls, stay alert, and not forget about the scar \u2014 practical, protective advice delivered in a written voice that reflects his character. Harry's careful reading of and emotional response to the letter (rolling it up, feeling reassured by Sirius's proximity) is part of the texture of their correspondence relationship.",
+      "film_portrayal": "The letter is delivered as a spoken voice-over with Sirius narrating directly to Harry, including a jokey postscript about the bird biting ('P.S. The bird bites'). This transforms a serious, careful communication into something lighter and more casual, and collapses the epistolary relationship into a single shorthand moment.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book builds Sirius's relationship with Harry substantially through their correspondence \u2014 multiple letters, Harry's anxiety waiting for replies, his relief at hearing Sirius is close. The film reduces this to a single voice-over with a comic coda. The jokey 'the bird bites' undercuts the tone of urgency and care Sirius maintains throughout their communication in the books. While minor in isolation, it contributes to a pattern of softening the depth and stakes of the godfather relationship.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 3: Sirius disappears from fire when Ron enters",
+      "book_baseline": "Book establishes that after Ron interrupts and Harry scrambles to hide the fireplace, Sirius has already popped away ('He heard a tiny pop! in the fire behind him and knew Sirius had gone'). Harry's anguish is that Sirius was cut off before finishing his dragon advice \u2014 'Who had decided to go for a stroll at one o'clock in the morning, and stopped Sirius from telling him how to get past a dragon?' Harry feels responsible and guilty. Sirius had been mid-sentence about a 'simple spell.'",
+      "film_portrayal": "When Ron enters, Harry turns away from the fire and goes to meet Ron. When Harry returns to the fire, Sirius is gone \u2014 but the film has already had Sirius give his complete message ('Keep your friends close'). There is no interrupted advice, no dramatic irony, no sense of loss. Harry does not appear troubled by Sirius's departure.",
+      "damage_type": "agency/function | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "In the book, the interruption of Sirius mid-advice is dramatically crucial: it creates tension (Harry doesn't know how to face the dragon), it makes the subsequent research with Hermione urgent, and it makes Hagrid's tip and the Summoning Charm solution feel earned. The film removes this entirely because Sirius has nothing more to say anyway. This is downstream damage from the compression of the fireplace scene, but it independently removes a key structural beat: Sirius as the source of interrupted but vital agency for Harry's survival.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 3: Sirius's characterization of Karkaroff and Crouch",
+      "book_baseline": "Book gives Sirius an extended, nuanced analysis of both Karkaroff (detailed history as a Death Eater who named names to escape Azkaban, was in Azkaban with Sirius, teaching Dark Arts at Durmstrang) and Crouch (sent Sirius to Azkaban without trial, rose to power through harsh measures, gave his own son to the dementors, the tragic backstory of Crouch Jr.). Sirius speaks with personal knowledge, bitterness, and moral complexity \u2014 this is information only he can provide and it establishes him as uniquely positioned to understand the wizarding world's dark history.",
+      "film_portrayal": "Sirius reduces Karkaroff to 'He was a Death Eater. And no one, no one stops being a Death Eater' and Crouch to 'Heart of stone. Sent his own son to Azkaban.' These are declarative plot-summary lines with no texture, no personal history, no moral complexity. The tragic Crouch Jr. backstory \u2014 which Sirius tells with grim detail in the book, including watching the boy scream through his cell door \u2014 is entirely absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's cave scene (and the fireplace scene's Karkaroff analysis) establishes Sirius as a man shaped by direct experience of Azkaban's horrors, capable of empathy even for enemies (Crouch Jr.), and possessed of unique insider knowledge. The film's reductive summaries strip him of this depth and make him sound like a plot-delivery device rather than a fully realised character with a painful past informing his judgments. The loss of the Crouch Jr. story in particular removes one of Sirius's most powerful moments of morally complex testimony.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film: Entire cave/Hogsmeade meeting with Harry, Ron, Hermione absent from film corpus",
+      "book_baseline": "Book contains a long, richly detailed scene in which Sirius meets Harry, Ron, and Hermione in a cave near Hogsmeade. He is thin and living off rats, gnawing chicken bones 'in a very doglike way,' grinning at Harry despite his hardship. He conducts a full investigative analysis of the Winky/Dark Mark/Crouch situation, paces the cave thinking aloud, quotes 'If you want to know what a man's like, take a good look at how he treats his inferiors,' interrogates the group methodically, draws insightful conclusions about Crouch's absences, and gives protective instructions ('don't leave Hogwarts,' 'call me Snuffles'). He is simultaneously physically diminished and intellectually formidable \u2014 a complex, memorable portrait.",
+      "film_portrayal": "The film corpus contains no cave scene. This entire sequence \u2014 Sirius's physical presence, his investigative brilliance, his moral insights, his care for Harry's safety, his relationship with Ron and Hermione, his living conditions as a fugitive \u2014 is absent from the film corpus provided.",
+      "damage_type": "arc | relationship | agency/function | nuance/lost material",
       "exposure": 3,
       "impact_weight": 5,
-      "explanation": "The cave scene is the single most important scene for Sirius's characterisation in GoF. It establishes him as politically astute, emotionally complex, physically sacrificing (living as a dog on rats to protect Harry), and genuinely paternally present. It also delivers the Crouch backstory, the Snape/Death Eater discussion, and the Bagman suspicion \u2014 all plot-critical intelligence. Its complete absence means the film Sirius has almost no demonstrable competence or depth, and the godfather relationship is reduced to two brief magical communications."
+      "explanation": "The cave scene is the single most important Sirius scene in Goblet of Fire in terms of characterization. It shows him as Harry's protector willing to suffer hardship, a brilliant analyst of Ministry corruption, a moral voice ('how he treats his inferiors'), and an emotionally present godfather. Without it, Sirius's role in the film is reduced to a face in a fire delivering warnings. His agency, his intelligence, his relationship with all three protagonists, and his physical reality as a fugitive are all lost. This is the primary source of structural damage to his portrayal in this film.",
+      "book": "4_goblet_of_fire"
     },
     {
-      "scene": "Film Scene 3 \u2014 Sirius absent from Barty Crouch Sr. analysis and political intelligence",
-      "book_baseline": "In the cave scene, Sirius delivers an extended, nuanced account of Barty Crouch Sr.: his rise, his authoritarian measures, his sending Sirius to Azkaban without trial, his son's imprisonment and death, and his current suspicious behaviour. Sirius speaks from personal experience of injustice and shows both bitterness and analytical clarity. This positions him as someone with hard-won insider knowledge of Ministry corruption.",
-      "film_portrayal": "In the fireplace scene, Sirius mentions only that 'Barty Crouch sent his own son to Azkaban' as a single characterising data point, with no context, no personal history, no analysis of Crouch's pattern of behaviour. The film Sirius has no demonstrated personal grievance against or knowledge of Crouch beyond this line.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Sirius's knowledge of Crouch is not merely plot exposition \u2014 it reflects his personal experience of Ministry injustice and gives him moral authority as a commentator on institutional corruption. Reducing it to one throwaway line removes both characterisation depth and the thematic resonance of Sirius as a victim of the same system that victimised Crouch's son."
-    },
-    {
-      "scene": "Film Scene 5 (post-second-task) \u2014 Sirius entirely absent from Harry's post-task relief and ongoing correspondence",
-      "book_baseline": "After the second task, Harry sends Sirius a detailed account of surviving the dragon and the lake. Sirius sends daily owls as the third task approaches, reminding Harry to focus on survival and not the wider threat of Voldemort. He sends a muddy-paw-print good-luck card on the morning of the third task. This sustained contact demonstrates Sirius's constant vigilance and emotional investment.",
-      "film_portrayal": "The film corpus contains no Sirius correspondence after the fireplace scene. There is no post-task letter, no daily owls, no good-luck card. Sirius is absent from the film's second and third act until he appears at the end.",
-      "damage_type": "relationship",
+      "scene": "Film Scene 5/6: Sirius absent from Dumbledore's office post-tournament climax",
+      "book_baseline": "Book has Sirius physically present in Dumbledore's office after the third task. He crosses the room swiftly when Harry enters ('In one swift moment, he had crossed the room'), his hands shaking as he helps Harry into a chair, asking urgently 'Harry, are you all right?' He advocates for Harry ('We can leave that till morning, can't we, Dumbledore? Let him have a sleep'), grips Harry's shoulder throughout the debriefing (sometimes painfully), covers his face with his hands at the horror of Harry's account, and finally receives Dumbledore's mission to alert the Order. Harry explicitly 'wanted Sirius to stay' and feels grief at his departure. Sirius transforms into the dog and walks Harry to the hospital wing.",
+      "film_portrayal": "The film corpus does not contain the post-climax Dumbledore's office scene with Sirius present. The corpus ends before this point in the narrative (the final Dumbledore's office material in the film corpus concerns the Pensieve/Barty Jr. reveal). Sirius's physical presence at Harry's most traumatic moment, his emotional support, his active participation in the post-Voldemort debrief, and his farewell to Harry are absent from the corpus.",
+      "damage_type": "relationship | arc | agency/function",
       "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The book's sustained correspondence in the lead-up to the third task is what makes Sirius's emotional presence felt even when he cannot be physically present. It establishes the godfather bond as active, attentive, and mutual. Its absence means the audience has no basis for understanding the emotional weight of Harry and Sirius's reunion after the graveyard."
+      "impact_weight": 4,
+      "explanation": "The post-climax scene is the emotional culmination of the Sirius-Harry relationship in this book. Sirius being physically there \u2014 shaking, gripping Harry's shoulder, covering his face \u2014 is the payoff for an entire book of dangerous correspondence and sacrifice. His advocacy for Harry ('let him rest'), his visible distress, and his reluctant departure on Dumbledore's orders all demonstrate his love and his function as Harry's surrogate parent. The absence of this scene from the film corpus means the relationship's emotional arc has no resolution in the film, and Harry's trauma is not witnessed by the one person whose presence would matter most.",
+      "book": "4_goblet_of_fire"
     },
     {
-      "scene": "Film Scene 6 \u2014 Sirius's role in the post-graveyard hospital wing scene",
-      "book_baseline": "In the book, when Dumbledore reveals that there is a large black dog in the pumpkin patch and McGonagall is sent to fetch it, Sirius is then present in Dumbledore's office when Harry arrives. He is described as white and gaunt, crossing the room swiftly, his hands shaking as he helps Harry into a chair. He asks urgently what happened. During Harry's account he grips Harry's shoulder tightly, makes vehement exclamations at the news of Wormtail cutting Harry's arm, and has his face in his hands at the mention of his parents' echoes. He advocates letting Harry rest rather than forcing him to recount immediately. At the end, Dumbledore asks if Sirius would like to stay with Harry in the hospital wing, and Sirius accompanies Harry as the dog, stays through Mrs Weasley's shock, growls at Fudge, and is present when Dumbledore asks him and Snape to shake hands before sending Sirius off to reassemble the Order.",
-      "film_portrayal": "The film corpus includes the instruction for McGonagall to fetch the black dog from the pumpkin patch (Scene 6, Dumbledore's lines), confirming Sirius is present. However, the film corpus does not contain the detailed emotional beats of this scene \u2014 the swift crossing of the room, the shaking hands, the shoulder grip, the face in hands. The scene is referenced structurally but the emotional texture of Sirius's response to Harry's trauma is not evidenced in the corpus.",
-      "damage_type": "relationship",
-      "exposure": 1,
+      "scene": "Film Scene 1: Harry writes 'Sirius Black' on letter cover \u2014 no internal monologue establishing emotional need",
+      "book_baseline": "Book establishes with great care Harry's realisation that he needs Sirius: 'What he really wanted (and it felt almost shameful to admit it to himself) was someone like - someone like a parent: an adult wizard whose advice he could ask without feeling stupid, someone who cared about him.' The solution ('It was so simple, and so obvious... Sirius') comes with wonder that he hadn't thought of it immediately, and the explanation of why \u2014 he'd only known about Sirius for two months. This establishes the emotional foundation of the entire godfather relationship in GoF.",
+      "film_portrayal": "The film shows Harry writing 'Sirius Black' on a letter after Hermione prompts him ('You know Sirius will want to hear about this'). There is no internal process, no sense of Harry reaching for a parent-figure, no emotional weight to the act. It is Hermione's suggestion, not Harry's independent realisation of his need.",
+      "damage_type": "motivation/internal conflict | relationship",
+      "exposure": 0.5,
       "impact_weight": 3,
-      "explanation": "The book's post-graveyard scene is the emotional culmination of the godfather relationship in GoF \u2014 Sirius's physical and emotional response to Harry's trauma is the payoff for everything built across the novel. While the film structurally includes Sirius's presence, the corpus does not evidence the detailed emotional beats that make this scene work as relationship culmination. Confidence on this entry is lower given corpus limitations."
+      "explanation": "The book's moment of Harry realising he needs Sirius is foundational to the entire godfather subplot's emotional logic \u2014 it tells the audience why this relationship matters so much. By having Hermione prompt the contact instead, the film transfers Harry's agency to Hermione and loses the crucial insight that Sirius fills a parental void for Harry. This makes the relationship feel more functional (information exchange) than emotional (surrogate family), which diminishes every subsequent Sirius scene.",
+      "book": "4_goblet_of_fire"
     },
     {
-      "scene": "Film Scene 3 \u2014 King's Cross platform, Sirius in dog form accompanying Harry to the train",
-      "book_baseline": "Book Scene 326-337: Sirius disobeys Dumbledore's explicit instructions by transforming into a dog and accompanying Harry to King's Cross. Mrs. Weasley is furious ('oh, for heaven's sake, Sirius, Dumbledore said no!'). The moment is bittersweet \u2014 Sirius gambolling around, scaring cats, chasing the train \u2014 capturing his cabin-fever recklessness, his deep need to be present for Harry, and the poignancy of a man who has almost nothing left clinging to this one act of connection.",
-      "film_portrayal": "The film includes Sirius coming to the platform in dog form, but compresses and strips the scene of its emotional texture. Moody's rebuke ('Padfoot, are you barking mad? You'll blow the entire operation') and Sirius's response ('What's life without a little risk?') reduce his motivation to a breezy one-liner. The book's sustained imagery of him bounding alongside the train, the farewell moment of him rearing up on Harry's shoulders, and the genuine tenderness/anxiety layered into the goodbye are collapsed. His dog-form gambolling and the cat-chasing detail that makes his joy so vivid and specific is absent.",
+      "scene": "Film Scene 3 \u2013 King's Cross platform farewell",
+      "book_baseline": "Book Scene 332\u2013337: Sirius transforms into the dog and accompanies Harry to King's Cross, bounding alongside the train, chasing pigeons, scaring cats for Harry's entertainment. He rears up on hind legs to place paws on Harry's shoulders before Mrs Weasley shoves Harry toward the train. The scene is joyful and bittersweet, showing Sirius desperate for connection and savoring rare freedom, bounded by risk.",
+      "film_portrayal": "Film Scene 3: Moody scolds Sirius ('Padfoot, are you barking mad? You'll blow the entire operation'), and Sirius defends himself with 'What's life without a little risk?' He then sits with Harry privately, gives him the Order of the Phoenix photograph, and delivers sentimental exposition about Neville's parents and James. The dog-form pursuit of the train, the playful animal behavior, and the bittersweet farewell through the window are absent. The scene is reframed as a calm information-delivery and emotional statement rather than a reckless act of love.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book's platform scene conveys Sirius's character through action: he is reckless not out of carelessness but out of desperate need for connection and a refusal to be entirely extinguished. The film replaces this with dialogue that tells us he is reckless ('What's life without a little risk?') while actually showing him sitting calmly. The loss of the dog bounding alongside the train\u2014one of the most affective images of Sirius's imprisonment and love for Harry\u2014flattens the emotional register. Moody's scolding reframes the moment as an operational blunder rather than a characterful act of devotion.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Sirius's photograph/exposition scene at King's Cross",
+      "book_baseline": "Book Scenes 4\u201313, 56\u201361: Sirius's warmth for Harry is established through ongoing letters, small gestures, and the grimly sardonic humor of the kitchen reunion. His emotional depth and connection to James are shown organically across many scenes. He does not deliver set-piece emotional speeches to Harry.",
+      "film_portrayal": "Film Scene 3: Sirius hands Harry a photograph and delivers a speech: 'It's been 14 years and still a day doesn't go by I don't miss your dad.' This is the primary vehicle in the film for establishing Sirius's bond with James and his emotional interiority. It is a compressed, expository substitution for the distributed, organic characterization in the book.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film retains the basic beat but flattens the emotional register. The book uses this scene to simultaneously show Sirius's recklessness, his desperate need for freedom and connection, and the genuine warmth between him and Harry. Reducing it to a quip ('What's life without a little risk?') tips the portrayal toward glib rather than layered, losing the poignancy of a man who has lost almost everything still reaching out."
+      "explanation": "The book builds Sirius's grief over James across multiple scenes\u2014the tapestry conversation, the Pensieve discussion, the kitchen reunion\u2014allowing the audience to feel rather than be told the depth of loss. The film condenses this into one expository speech, which reduces Sirius from a man carrying sustained grief to a man who delivers a grief monologue. The emotional weight is declared rather than earned.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 1 \u2014 Grimmauld Place kitchen, Sirius at Order meeting / initial reunion with Harry",
-      "book_baseline": "Book Scenes 56-96: Sirius's first appearance is physically and emotionally detailed \u2014 he is 'panting slightly', sweeping his 'long dark hair' out of his eyes, greeting Harry 'grimly'. The reunion in the kitchen shows him sardonic about his confinement ('Personally, I'd have welcomed a Dementor attack'), warm but hard-edged, clearly suffering from being stuck in the house. He gives Harry a grin that is 'something like' \u2014 not a full grin. His bitterness about Snape's reports and the 'cleaning' is specific and character-defining.",
-      "film_portrayal": "In the film, the initial reunion and kitchen scenes are heavily compressed. Sirius appears briefly before the Order argument. The rich portrait of his confinement-induced bitterness, his sardonic humour about Dementors, his specific complaints about Snape's snide remarks, and the domestic detail of Crookshanks on his lap are all absent. His first substantive dialogue is largely the Order briefing scene and the argument with Molly.",
-      "damage_type": "nuance/lost material",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "The book carefully establishes Sirius's psychological state before any plot function \u2014 the cost of his confinement, his self-deprecating dark humour, his complex relationship with the house he hates. The film skips this establishment, so Sirius's later moodiness and recklessness lack the grounded context the book provides. Audiences lose the sense of a man already being slowly hollowed out."
-    },
-    {
-      "scene": "Film Scene 1 \u2014 Grimmauld Place kitchen, the Molly/Sirius argument over telling Harry the truth",
-      "book_baseline": "Book Scenes 98-131: This is an extended, carefully staged confrontation. Sirius argues with cool deliberateness and genuine conviction ('He's not a child... He's dealt with as much as most in the Order, and more than some'). His position is philosophically coherent \u2014 Harry has earned the right to know. The argument escalates to Sirius rising from his chair before Lupin physically restrains him. Molly's line 'He's not James, Sirius' and Sirius's cold response 'I'm perfectly clear who he is' is a crucial beat establishing the James-confusion subplot. Sirius's face goes white. Lupin's mediation is essential.",
-      "film_portrayal": "The film retains the core argument ('He's not your son' / 'He's got me') but significantly compresses it. The key line 'He's not James, Sirius' is delivered by Molly and is present, but the full escalation \u2014 Sirius rising, going white, being physically restrained by Lupin \u2014 is absent or reduced. Snape's intrusion with 'How touchingly paternal, Black. Perhaps Potter will grow up to be a felon, just like his godfather' replaces some of the emotional complexity with an external jab, and Sirius's response 'You stay out of this, Snivelus' is delivered in a more immediately reactive, less controlled register than the book's cold 'I'm perfectly clear who he is'.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The James-confusion motif is central to understanding Sirius's relationship with Harry and his fatal flaw. The film gestures at it but does not let it breathe. Sirius's controlled anger collapsing into near-violence, then being pulled back \u2014 his face going white \u2014 shows the specific way confinement and grief have destabilised him. The film's version is more reactive and less psychologically specific, weakening the foundation for the Snape confrontation later and for audience understanding of why Sirius makes fatal choices."
-    },
-    {
-      "scene": "Film Scene 4 \u2014 Gryffindor common room fireplace, Sirius's head appears to talk to Harry, Ron and Hermione",
-      "book_baseline": "Book Scenes 396-440: This is a long, rich scene. Sirius appears grinning, proud of the DA idea ('Of course I do! D'you think your father and I would've lain down and taken orders from an old hag like Umbridge?'). He gives useful intelligence about Fudge, about Umbridge's anti-werewolf legislation, about Mundungus being the disguised witch. He suggests the Shrieking Shack, accepts Hermione's rebuttal graciously ('Fair point'). Then comes the pivotal wound: when Harry says they don't want him to come to Hogsmeade, Sirius's face becomes 'a crease between his sunken eyes' and he says 'You're less like your father than I thought... The risk would've been what made it fun for James.' This is a moment of genuine cruelty \u2014 Sirius using James as a weapon against Harry out of wounded pride \u2014 before lying about Kreacher and vanishing. The 'definite coolness' in his voice is explicit.",
-      "film_portrayal": "The film has a fireplace scene but it is heavily compressed. Sirius gives the DA his blessing and provides some intelligence. The critical wound \u2014 Sirius telling Harry he is 'less like his father' because Harry won't take a reckless risk \u2014 is absent from the film corpus. This specific beat, where Sirius's own need and hurt causes him to strike at Harry in a way that is petty and revealing, is one of his most complex and humanising moments in the book.",
-      "damage_type": "personality/voice",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "The 'less like your father' line is one of the most important characterisation beats for Sirius in the entire novel. It shows he is not simply a noble godfather figure but a damaged man who, when thwarted, can use James's memory as a cudgel. It establishes the James-confusion at its most active and harmful. Its absence makes Sirius's film portrayal significantly more uncomplicated and heroic than the book intends, and removes a layer of tragic self-awareness from his eventual death."
-    },
-    {
-      "scene": "Film Scene 4 \u2014 Grimmauld Place, Sirius/Snape kitchen confrontation over Occlumency",
-      "book_baseline": "Book Scenes 640-678: This is a detailed, psychologically loaded confrontation. Sirius is 'louder than ever', asserting ownership of his house against Snape's calm contempt. The confrontation escalates to both men drawing wands, squaring up 'faces barely a foot apart'. Snape's taunt \u2014 'did you know that Lucius Malfoy recognised you last time you risked a little jaunt outside? Clever idea, Black, getting yourself seen on a safe station platform... gave you a cast-iron excuse not to leave your hidey-hole in future' \u2014 accusing him of deliberate cowardice \u2014 makes Sirius raise his wand. Harry physically gets between them. The aftermath shows Sirius 'glaring', breathing heavily, with 'what looked like an enormous effort' to smile at Mr Weasley. Harry worries Snape has 'stung Sirius so badly he might plan some foolhardy trip'. This directly plants the seed of Sirius's death.",
-      "film_portrayal": "The film has the Snape confrontation but compresses it. Sirius's 'You stay out of this, Snivelus' is an early reactive beat. The full escalation \u2014 both wands drawn, Harry physically between them, Sirius barely controlling himself, the specific cowardice taunt about the platform that directly motivates his later fatal action \u2014 is not present in the film corpus at the level of detail the book provides. The causal chain from Snape's taunt to Sirius leaving Grimmauld Place is not established clearly for the film audience.",
+      "scene": "Film Scene 1 \u2013 Order briefing: Sirius's 'stronger and stronger by the minute' line",
+      "book_baseline": "Book Scenes 132\u2013160: Sirius leads the briefing of Harry calmly and with authority, relaying strategic information (Voldemort building his army, recruiting giants, seeking a weapon) with deliberate care. He is the primary explainer, measured and purposeful. He argues for Harry's right to know and wins partial ground. His manner is controlled, strategic, and adult.",
+      "film_portrayal": "Film Scene 1: Sirius is heard saying '...stronger and stronger by the minute! We have to act now' before Mrs Weasley shushes the meeting. In the subsequent kitchen scene he delivers fragments of information but shares the briefing heavily with Lupin and Moody, and his most prominent individual moment is the confrontation with Molly over Harry. His strategic competence and leadership within the Order are largely displaced.",
       "damage_type": "agency/function",
       "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "This scene is structurally load-bearing. Snape's cowardice taunt is the specific psychological trigger that makes Sirius determined to prove himself by going to the Ministry \u2014 it explains his fatal choice. Without this scene's full weight, Sirius's death becomes a contingent tragedy rather than the result of his specific character flaw being exploited. The audience loses the tragic logic of his end: a man goaded by shame into proving he is not a coward."
+      "impact_weight": 3,
+      "explanation": "In the book, Sirius is the central authoritative voice of the Order briefing\u2014Harry's primary conduit to understanding the war. In the film, this function is distributed among multiple characters and Sirius's visible contribution to Order strategy is minimal. The 'act now' fragment makes him sound impulsive rather than strategically engaged, reinforcing the film's reductive reading of Sirius as reckless rather than capable.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 4 \u2014 Grimmauld Place, Sirius gives Harry the two-way mirror",
-      "book_baseline": "Book Scene 682-685: Sirius quietly gives Harry a badly wrapped package \u2014 the two-way mirror \u2014 with specific instructions: 'A way of letting me know if Snape's giving you a hard time... I want you to use it if you need me.' Harry privately resolves never to use it because he will not be the one to lure Sirius from safety. This creates a devastating dramatic irony: Harry has the tool to safely contact Sirius throughout the year but never uses it out of protectiveness, meaning the mirror appears only in the heartbreaking coda after Sirius's death.",
-      "film_portrayal": "The two-way mirror and its handover are absent from the film corpus. The mirror does not appear as a plot device or emotional element in the film's version of events. The entire ironic structure \u2014 Harry having a safe means of contact and choosing not to use it \u2014 is lost.",
-      "damage_type": "arc",
+      "scene": "Film Scene 1 \u2013 Snape's entrance and 'How touchingly paternal' exchange",
+      "book_baseline": "Book Scenes 640\u2013675: The Snape/Sirius kitchen confrontation is an extended, tense scene. Sirius asserts his authority as homeowner, defends Harry as godfather, trades pointed insults with Snape about their shared history ('I've warned you, Snivelus'), and eventually has to be physically restrained by Harry and then calmed by the arrival of the Weasleys. Sirius is volatile but his protectiveness of Harry is the clear moral engine of the scene. His bitterness at being housebound and Snape's cruelty about it are both made explicit.",
+      "film_portrayal": "Film Scene 1: Snape delivers the line 'How touchingly paternal, Black. Perhaps Potter will grow up to be a felon, just like his godfather.' Sirius's response is abbreviated\u2014'You stay out of this, Snivelus' and 'I know better'\u2014and the confrontation is defused immediately. The full hostility, the drawn wands, the physical intervention by Harry, and Sirius's emotional exposure are absent.",
+      "damage_type": "relationship | personality/voice",
       "exposure": 1,
-      "impact_weight": 4,
-      "explanation": "The two-way mirror is one of the book's most carefully laid tragic ironies. Harry's guilt after Sirius's death is intensified by the knowledge that he had a safe alternative to the Floo Network, but never used it out of love and protectiveness. Its absence collapses this layer of Harry's grief and self-reproach, and removes a key piece of Sirius's characterisation as someone who tried to remain connected to Harry safely. The post-death scene where Harry tries the mirror and it doesn't work \u2014 one of the most devastating passages in the corpus \u2014 exists in the book but has no setup in the film."
+      "impact_weight": 3,
+      "explanation": "The book's Snape/Sirius confrontation is one of the most important scenes for understanding Sirius's psychology: his rage at being trapped, his hatred of Snape rooted in genuine history, and his fierce if flawed protectiveness of Harry. Reducing it to a single exchange of epithets loses the insight into how deeply Sirius is damaged by his confinement and how that damage manifests. It also loses the book's nuance that Sirius is simultaneously right (he does know better about Snape) and dangerously volatile.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 4 \u2014 Gryffindor Common Room fire, second fireplace conversation, Sirius's reaction to Snape stopping Occlumency",
-      "book_baseline": "Book Scenes 844-848: When Harry tells Sirius that Snape has stopped his Occlumency lessons, Sirius shouts ('He WHAT?') and actually makes to stand up from the fire, physically moving to go confront Snape at Hogwarts, before Lupin wrenches him back. This shows Sirius's impulsive protectiveness of Harry overriding all practical judgment \u2014 exactly the pattern that will kill him.",
-      "film_portrayal": "This second fireplace conversation and Sirius's explosive reaction to the Occlumency stoppage are not present in the film corpus.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "This beat reinforces the specific quality of Sirius's recklessness \u2014 it is triggered by protectiveness of Harry, not mere thrill-seeking. It also shows Lupin's repeated role as the person who physically restrains Sirius from self-destruction. Both of these patterns feed directly into the climax. Their absence thins the preparation for Sirius's fatal leap through the veil."
-    },
-    {
-      "scene": "Film Scene 4 \u2014 Grimmauld Place Christmas period, Sirius's moodiness as Harry's departure approaches",
-      "book_baseline": "Book Scenes 611-638: The book gives extended attention to Sirius's psychological deterioration as Christmas ends and Harry must return to Hogwarts. He becomes 'moodier and surlier than before', withdrawing to Buckbeak's room, his 'gloom seeping through the house'. This is distinct from his delight when Harry first arrived. Hermione suggests he is 'being selfish' and may be 'confused about whether you're you or your father'. Harry notices Sirius 'singing carols' when the Weasleys arrived, then the contrast as departure nears. This arc \u2014 brief happiness, then collapse \u2014 is the emotional core of Sirius's story in the book.",
-      "film_portrayal": "The film compresses the Christmas period substantially. The emotional arc of Sirius's brief revival followed by deepening gloom as Harry's departure approaches is not sustained. The film has the warm Christmas scene with family gifts and togetherness but does not develop the subsequent deterioration and withdrawal that the book makes central to Sirius's psychological portrait.",
-      "damage_type": "arc",
+      "scene": "Film Scene 4 \u2013 Sirius in the fire, fireplace conversation",
+      "book_baseline": "Book Scenes 396\u2013440, 476\u2013513, 817\u2013842: Sirius appears in the Gryffindor fire on multiple occasions. These scenes establish his loneliness ('it's just been Kreacher and me here'), his sharp political intelligence (explaining Fudge's paranoia, Umbridge's anti-werewolf legislation), his enthusiasm for the DA, his hurt when Harry declines his visit to Hogsmeade ('You're less like your father than I thought'), and in the final fire scene his deeply moving response to Harry's questions about James\u2014admitting fault, showing genuine reflection, and demonstrating the complexity of his friendship with James.",
+      "film_portrayal": "Film Scene 4: There is a single composite fire scene. Sirius tells Harry that Fudge doesn't want students trained in combat and that Voldemort is recruiting. The nuanced political analysis, the loneliness, the Hogsmeade offer and wounded comparison to James, the Umbridge/werewolf legislation insight, and the extended Pensieve-aftermath conversation about James's character are all absent.",
+      "damage_type": "nuance/lost material | personality/voice | relationship",
       "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The book's Sirius is not simply a warm, heroic godfather who dies tragically. He is a man being slowly destroyed by confinement, whose brief moments of joy only throw his despair into sharper relief. The film's compression of this arc means Sirius reads as a functional, largely stable character whose death is purely an external event rather than the culmination of an internal disintegration. This significantly reduces the tragedy's depth."
+      "explanation": "The book's fire scenes are the primary means by which the audience understands Sirius as an isolated, intelligent, emotionally complex man rather than a plot device. His loneliness ('just been Kreacher and me'), his wounded pride when Harry rejects his visit, his self-aware admission that he was 'an arrogant little berk' at fifteen\u2014all of this is lost. The film Sirius exists primarily as a supportive presence and source of intelligence, not as a fully realized person whose death carries maximum weight.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 5 \u2014 Department of Mysteries, Sirius calls Harry 'James' at the moment of battle",
-      "book_baseline": "Book Scene 1004: During the battle, Sirius shouts 'Nice one, James!' to Harry after Harry casts a successful spell, then immediately corrects himself. The book does not flag this as a dramatic beat \u2014 it is a single line. But it is the culmination of the James-confusion motif that has run through the entire novel, and it occurs at the moment just before Sirius's death.",
-      "film_portrayal": "In the film corpus (Film Scene 7), Sirius shouts 'Nice one, James!' \u2014 this beat IS present in the film. This is one of the faithful moments.",
-      "damage_type": "personality/voice",
+      "scene": "Film Scene 4 \u2013 Sirius's comment 'Nice one, James!' during the Department of Mysteries battle",
+      "book_baseline": "Book Scene 1004: Sirius shouts 'Nice one!' to Harry during the battle and tells him to get out. There is no 'James' in the book. Sirius is fully present in the moment, fighting alongside Harry and concerned for his safety.",
+      "film_portrayal": "Film Scene 7: Sirius calls Harry 'James' during the battle ('Nice one, James!'). This is the film's single most explicit confirmation of Mrs Weasley's accusation that Sirius confuses Harry with his dead father.",
+      "damage_type": "personality/voice | relationship",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This beat is present in the film and faithfully rendered. No damage score applies \u2014 included here only for completeness of analysis. Scoring: 0 damage."
+      "impact_weight": 3,
+      "explanation": "In the book, Dumbledore explicitly tells Harry that Sirius was 'brave, clever and energetic' and Mrs Weasley's accusation is contested. The book allows the reader to weigh whether Sirius truly confuses Harry with James or whether Molly is projecting. The film resolves this ambiguity by having Sirius literally call Harry 'James' in an unguarded moment. This decisively frames Sirius's love for Harry as pathological displacement rather than genuine independent attachment, which damages both the relationship and Sirius's psychological coherence as a character. It also retroactively colors every warm moment between them.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 7 \u2014 Department of Mysteries, Sirius's death and Harry's immediate response",
-      "book_baseline": "Book Scenes 1010-1029: Sirius's death is preceded by him 'laughing at' Bellatrix \u2014 'Come on, you can do better than that!' \u2014 his face showing 'mingled fear and surprise' only as the curse hits. His body 'curved in a graceful arc'. Lupin has to physically drag Harry away, Harry fighting with 'every bit of strength he had'. Harry's refusal to believe it, his conviction that Sirius is 'just behind the curtain', his rage that Sirius is 'keeping him waiting' \u2014 this psychological portrait of denial is extended and specific. The moment when Harry realises 'Sirius had never kept him waiting before... Sirius had risked everything, always, to see Harry, to help him' is devastating in its clarity.",
-      "film_portrayal": "The film renders Sirius's death visually (the curse, the graceful fall through the veil, Lupin restraining Harry, Harry screaming). However, the internal monologue of denial \u2014 the specific thought process by which Harry cannot and then finally must accept it \u2014 is necessarily absent as internal narration. More significantly, the film's Sirius does not have the 'laughing at her' moment clearly established before the killing curse lands in a way that the corpus confirms with the same texture.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 4 \u2013 Harry/Sirius Christmas conversation about the snake vision",
+      "book_baseline": "Book Scenes 589\u2013598: Harry privately tells Sirius about his vision of being the snake and his fear that he is becoming Voldemort. Sirius's response is inadequate\u2014he dismisses it as aftermath of the vision and tells Harry to sleep\u2014but he is clearly shaken. The scene establishes Sirius's limits as a guardian: he cannot fully engage with Harry's darkest fears, whether from emotional limitation or an inability to face that Harry might be in genuine danger. This is a specific, honest character flaw.",
+      "film_portrayal": "Film Scene 4: Harry's equivalent confession ('what if I'm becoming bad?') is directed at Sirius in his room at Grimmauld Place. Sirius responds warmly and reassuringly ('You are not becoming Voldemort, Harry'), with no trace of the inadequacy or shaken quality present in the book. The scene is brief and affirming.",
+      "damage_type": "nuance/lost material | personality/voice",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The film renders the visual event faithfully but cannot fully convey Harry's extended psychological denial, which is where much of the scene's emotional power resides in the book. The loss is inherent to the medium change, but the compression means the death registers as a sudden shock rather than a slow, agonising dawning. This is a moderate damage, not structural."
+      "explanation": "The book version of this scene is important because it shows Sirius's genuine flaw as a godfather: he is not equipped to handle Harry's deepest fears, and his inadequacy here is part of why Harry does not fully confide in him later. The film turns it into a straightforward reassurance scene, removing the honest complexity of their relationship and making Sirius a simpler supportive figure.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 4 \u2014 Grimmauld Place, Sirius's treatment of Kreacher and the consequences",
-      "book_baseline": "Book Scenes 187-203, 248-252, 628-635: The book establishes an extended, specific portrait of Sirius's contemptuous treatment of Kreacher \u2014 ordering him around with impatience, threatening him with clothes, eventually throwing him bodily from a room. Hermione repeatedly defends Kreacher. Dumbledore's post-death explanation (Book Scene 1074-1076) explicitly traces Sirius's death back to this neglect: Kreacher's betrayal was enabled by Sirius treating him as 'a servant unworthy of much interest or notice'. The book is unsparing \u2014 Sirius's flaw, his inability to see Kreacher as a being with feelings, directly caused his death.",
-      "film_portrayal": "The film has Kreacher present and Sirius dismissing him ('Kreacher! That's enough of your bile. Away with you') but the extended pattern of contemptuous treatment, the specific incidents of throwing him out, threatening him, and the explicit causal chain from this neglect to Sirius's death (via Kreacher's betrayal to Narcissa) is not developed. Dumbledore's post-death explanation connecting Sirius's treatment of Kreacher to the fatal trap is absent from the film corpus.",
-      "damage_type": "arc",
+      "scene": "Film Scene 7 \u2013 Sirius's death",
+      "book_baseline": "Book Scenes 1010\u20131029: Sirius is laughing as he duels Bellatrix\u2014'Come on, you can do better than that!'\u2014and is struck mid-laugh, his expression shifting from laughter to shock. He falls in a 'graceful arc' through the veil. Harry's denial is prolonged and agonized, rooted in his inability to accept finality: Sirius always came back before, always risked everything to be there. Lupin physically restrains Harry. The scene is the emotional climax of the entire novel.",
+      "film_portrayal": "Film Scene 7: Sirius is struck by Bellatrix's 'Avada Kedavra' and falls backward through the veil. The moment is visually rendered but the laughter\u2014the defining character detail of how Sirius meets death\u2014is absent from the corpus evidence provided. Lupin restrains Harry briefly. The scene is present but compressed.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The book's detail that Sirius is laughing when he dies is not incidental\u2014it is the crystallization of his entire character: defiant, alive, refusing to be diminished even at the moment of death. It is also what makes the moment land so hard for Harry, who cannot reconcile the laughing man with someone who could simply be gone. The absence of this specific detail from the filmed death reduces the scene from a characterful tragedy to a functional plot event.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film \u2013 Near-total absence of Sirius's isolation and depression at Grimmauld Place",
+      "book_baseline": "Book Scenes 80\u201391, 290\u2013296, 545, 636\u2013638: Sirius's deterioration at Grimmauld Place is extensively documented. After Harry returns to Hogwarts, Sirius becomes 'moodier and surlier than before,' withdraws to Buckbeak's room, and his 'gloom seeped through the house, oozing under doorways like some noxious gas.' Harry cannot leave for Hogwarts without worrying Snape's taunts will push Sirius to something rash. Sirius is described as only recovering his spirits during Christmas. This arc is central to understanding why he ultimately goes to the Department of Mysteries.",
+      "film_portrayal": "Film: Sirius's post-summer isolation and progressive deterioration are absent. The film shows him at Christmas in good spirits and in the fire conversation providing intelligence. There is no portrayal of his psychological decline, his withdrawal, or the dangerous restlessness that makes his eventual decision to come to the Ministry psychologically motivated rather than arbitrary.",
+      "damage_type": "arc | agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The book's most important contribution to Sirius's arc is the extended portrayal of what Grimmauld Place does to him\u2014how it erodes the man who survived Azkaban by turning freedom into a different kind of prison. This is the psychological cause of his death: he goes to the Ministry not just because Harry calls but because he has been slowly broken by confinement. Without this arc, his death is an arbitrary plot event rather than the tragic culmination of a year of slow suffocation. The film loses the thematic through-line connecting imprisonment, identity, and sacrifice.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film \u2013 Absence of the Kreacher/Sirius dynamic and its consequences",
+      "book_baseline": "Book Scenes 187\u2013203, 248\u2013252, 628\u2013635, 1060\u20131076: Sirius's treatment of Kreacher is an extended moral theme. Sirius dismisses Kreacher as beneath notice ('a foul little...'), threatens him, throws him out of rooms, and refuses to engage with Hermione's arguments for treating him with respect. Dumbledore later tells Harry explicitly that 'Sirius did nothing to make Kreacher's lot easier' and that this contributed directly to Kreacher betraying him to the Malfoys, which enabled Voldemort's trap and Sirius's death.",
+      "film_portrayal": "Film Scene 4: Kreacher appears briefly at Christmas. Sirius dismisses him ('That's enough of your bile. Away with you') and makes a brief comment about him not being pleasant even when Sirius was a boy. There is no extended portrayal of the moral failure, no Hermione counter-argument shown in depth, and no later reckoning with the consequences.",
+      "damage_type": "arc | nuance/lost material",
       "exposure": 2,
       "impact_weight": 4,
-      "explanation": "This is one of the book's most important structural elements. Sirius is not merely a victim of Voldemort's cleverness \u2014 he is a man whose specific moral failure (inability to extend compassion to a 'lesser' being) directly caused his own death. The film's Sirius dies because Harry is tricked, full stop. The book's Sirius dies because of a chain that runs from his treatment of Kreacher through Kreacher's betrayal to Voldemort's trap. Losing this causation makes Sirius's death a contingency rather than a tragedy with moral weight, and removes one of the book's central thematic statements about the cost of contempt."
+      "explanation": "The Sirius/Kreacher dynamic is one of the book's most carefully constructed moral arguments: Sirius's failure of compassion toward Kreacher is not presented as villainous but as a specific, comprehensible flaw rooted in his history with the Black family, and it has direct fatal consequences. It also prefigures the house-elf liberation theme that pays off in later books. The film reduces Kreacher to brief comic grotesquerie, losing the causal chain that makes Sirius's death a tragedy of character rather than bad luck, and losing Sirius's moral complexity.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 4 \u2014 Grimmauld Place drawing room, Black family tapestry scene",
-      "book_baseline": "Book Scenes 204-242: Extended scene in which Sirius shows Harry the Black family tapestry, explaining his own history \u2014 running away at 16, living at the Potters', his Uncle Alphard's gold, Regulus's death, Bellatrix, Andromeda. He opens up about hating his family, smiles 'bitterly', runs fingers through his 'long, unkempt hair'. The scene ends with him confessing 'I don't like being back here... I never thought I'd be stuck in this house again' and Harry understanding completely by analogy to Privet Drive. Sirius's personal history, his relationship to the house as a place of trauma, and his genuine interiority are all given space here.",
-      "film_portrayal": "The film has the Black family tree scene (Sirius explains his mother blasting him off, going to Harry's dad's) but it is significantly compressed. The emotional confession at the end \u2014 'I don't like being back here' \u2014 and Harry's empathetic understanding are reduced or absent. The specific details about Regulus, Andromeda, and the texture of Sirius's family history receive less development.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The tapestry scene is where Sirius becomes most fully a person rather than a plot function. Its compression means the audience's understanding of why Grimmauld Place is specifically tormenting for Sirius \u2014 not just confining, but returning him to the site of his original oppression \u2014 is attenuated. This matters for the emotional logic of his deterioration throughout the story."
+      "scene": "Film \u2013 Absence of the two-way mirror gift and its tragic irony",
+      "book_baseline": "Book Scenes 682\u2013685, 1116\u20131126: Before Harry leaves Grimmauld Place after Christmas, Sirius gives him a badly wrapped package containing a two-way mirror, explaining that Harry can use it to contact him if Snape gives him trouble. Harry decides he will never use it because he will not lure Sirius from safety. After Sirius's death, Harry finds the package unopened, uses the mirror, and Sirius does not answer. The mirror is a symbol of the connection they never fully used and now never can.",
+      "film_portrayal": "Film: The two-way mirror is entirely absent from the film corpus provided.",
+      "damage_type": "arc | nuance/lost material | relationship",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "The two-way mirror is not a minor detail. It is the emotional keystone of the Harry/Sirius relationship's tragic arc: Sirius offers a tool of connection; Harry refuses to use it out of misguided protectiveness; Sirius dies; Harry finds the mirror too late. This sequence is one of the book's most devastating ironies\u2014Harry's love for Sirius was expressed as protection and ended up as the thing that prevented him from knowing Sirius was safe. Without the mirror, the audience loses the full weight of what Harry has lost and the specific mechanism of his guilt. It also removes one of the book's most powerful arguments about the cost of withheld communication.",
+      "book": "5_order_of_the_phoenix"
     },
     {
-      "scene": "Film Scene 4 \u2014 Umbridge's office fireplace, Sirius's response to Harry's account of the Pensieve scene",
-      "book_baseline": "Book Scenes 817-842: When Harry tells Sirius and Lupin what he saw in the Pensieve \u2014 James bullying Snape \u2014 Sirius's response is carefully calibrated. He tries to excuse James ('James was everything Snape wanted to be'), admits 'I'm not proud of it', accepts being called 'arrogant little berks', laughs affectionately at the memory of James messing his hair, and delivers the crucial defence: 'your father was the best friend I ever had and he was a good person. A lot of people are idiots at the age of fifteen. He grew out of it.' This is a portrait of Sirius as someone capable of honest self-assessment about his own youthful cruelty while still defending James with genuine love.",
-      "film_portrayal": "This entire scene \u2014 Harry contacting Sirius from Umbridge's office to discuss the Pensieve, Sirius and Lupin's joint response, the honest admission of past cruelty and the defence of James \u2014 is absent from the film. The Pensieve scene itself is shown but Harry does not seek Sirius's counsel about it.",
-      "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This is one of the most important scenes for the Harry-Sirius relationship in the entire book. Sirius functions here as the person who helps Harry reconcile his idealized image of his father with the ugly reality, and does so with honesty and love. His ability to say 'we were arrogant little berks' while still saying 'he was the best friend I ever had' is a portrait of mature, unsentimental love. Its absence means a significant dimension of both Sirius's character and his relationship with Harry is entirely missing from the film."
-    },
-    {
-      "scene": "Film Scene 4 (Slughorn's house) - Slughorn mentions Regulus Black photo, describes Sirius as simply 'died a few weeks ago'",
-      "book_baseline": "Book Scene 46-47: Slughorn describes Sirius as 'a big pal of your father's at school,' emphasizes his exceptional talent ('he was a talented boy'), notes the anomaly of a Black in Gryffindor with genuine warmth and collector's regret. The passage conveys Sirius as a figure of real distinction and personal connection to Harry's father's world. Harry's visceral reaction ('as though an invisible hand had twisted Harry's intestines') underscores the emotional weight Sirius carries.",
-      "film_portrayal": "Film Scene 4: Slughorn's mention of Sirius is extremely brief and clinical \u2014 'You no doubt know of his older brother Sirius. Died a few weeks ago. I taught the whole Black family except Sirius. Shame. Talented boy. I got Regulus when he came along, of course, but I'd have liked the set.' The remark is delivered as a throwaway line while Slughorn is distracted by Harry, with no pause for Harry's reaction, no emotional weight, and no establishment of Sirius as a figure connected to Harry's father or to Harry's grief.",
+      "scene": "Film Scene 4 (Slughorn's house / photograph shelf) - Slughorn references Sirius",
+      "book_baseline": "Book Scene 47 establishes that Sirius was a Gryffindor, a talented boy Slughorn would have liked to have in his collection, and that he was a 'big pal' of James Potter's. Slughorn frames Sirius as a missed acquisition, a student of note. Book Scene 50 reinforces Sirius as a figure Harry measures sacrifice against \u2014 someone who lived on rats in a cave \u2014 giving him moral weight.",
+      "film_portrayal": "In the film, Slughorn points out Regulus Black's photograph and mentions Sirius only as Regulus's older brother who 'died a few weeks ago.' Harry picks up the photograph because the boy resembles Sirius. Sirius is reduced to a physical reference point and a recent death, with no mention of his friendship with James, his House, or his character. He exists only to anchor Regulus and to register Harry's grief visually.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book uses this Slughorn moment to ambush Harry \u2014 and the audience \u2014 with a casual reminder of Sirius's death that lands like a gut punch precisely because it comes from an outsider who doesn't know the weight of what he's saying. The film compresses this to a perfunctory aside, losing both the establishment of Sirius as a figure of real distinction in the wizarding world and the opportunity to show Harry's raw, unprocessed grief triggered by an unexpected mention of his godfather's name. This weakens the ongoing emotional throughline of Harry carrying Sirius's loss."
+      "explanation": "The book uses this Slughorn moment to characterise Sirius as a figure of genuine distinction \u2014 talented, memorable, someone who broke the Black family mould by going to Gryffindor. The film collapses this into a throwaway death notice. For an audience whose primary knowledge of Sirius comes from the films, this forfeits one of the few post-mortem moments that affirms who Sirius was as a person rather than simply as a loss Harry is processing.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 4 (Slughorn's house) - No Harry grief reaction to Sirius mention",
-      "book_baseline": "Book Scene 46: Harry's reaction to Slughorn's casual mention of Sirius is described as 'as though an invisible hand had twisted Harry's intestines and held them tight' \u2014 a visceral, physical grief response. Book Scenes 52-57 further establish Harry's ongoing devastation: Dumbledore notes 'it is cruel that you and Sirius had such a short time together,' Harry admits 'it's just hard to realize he won't write to me again,' and Harry's resolution to honor Sirius by fighting on is framed as a direct emotional consequence of his grief.",
-      "film_portrayal": "The film provides no visible reaction from Harry to Slughorn's mention of Sirius. The screenplay describes Harry as distracted by looking at the photograph of Regulus (who resembles Sirius), but there is no internal grief beat, no pause, no emotional register of loss comparable to the book's 'invisible hand' moment.",
-      "damage_type": "arc",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Harry's grief over Sirius is a foundational emotional arc at the opening of Half-Blood Prince. The book carefully charts how Harry is haunted by Sirius's loss throughout the summer and early school year \u2014 it motivates his recklessness, his relationship with Dumbledore's private lessons, and his defiant resolve. Removing the emotional gut-punch reaction from this early scene cuts the audience off from understanding Harry's internal state and strips the Sirius arc of one of its most effective early beats."
+      "scene": "Film Scene 4 (Slughorn's house) - absence of Sirius-as-Gryffindor-rebel context",
+      "book_baseline": "Book Scene 47: Slughorn explicitly notes that the entire Black family had been in his House (Slytherin) but Sirius ended up in Gryffindor, framing Sirius as an anomaly who defied his family's trajectory. This is characterisation that speaks directly to Sirius's independent nature and his bond with James.",
+      "film_portrayal": "The film omits entirely the detail that Sirius broke from his family by being sorted into Gryffindor. Slughorn's line about wanting 'the set' (both Black brothers) is retained in spirit but without the Gryffindor/Slytherin dimension, removing the thematic resonance of Sirius's defiance of his blood.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The Gryffindor detail is not decorative \u2014 it encapsulates Sirius's defining characteristic: choosing loyalty and courage over family expectation. Its absence means the film never delivers this posthumous affirmation of Sirius's identity, compounding the already thin characterisation he receives after his death.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film \u2014 absent scene: Dumbledore's conversation with Harry outside the Burrow (broomstick shed)",
-      "book_baseline": "Book Scenes 52-57: Dumbledore explicitly honors Sirius in a private conversation with Harry, saying 'I think Sirius would have been proud of you,' acknowledging 'it was cruel that you and Sirius had such a short time together. A brutal ending to what should have been a long and happy relationship.' Harry confesses 'it's just hard to realize he won't write to me again' and articulates that Sirius was 'almost like a parent' \u2014 the best thing about discovering his godfather. Dumbledore responds: 'Sirius represented much to you that you had never known before.' The scene ends with Dumbledore calling Harry 'Sirius's true godson.' This is the primary direct eulogy for Sirius in the book and the scene where Harry's grief is most fully articulated.",
-      "film_portrayal": "No equivalent scene appears in the film corpus. The film skips directly from Slughorn's house to Hogwarts without any private Dumbledore-Harry conversation that addresses Sirius's death, Harry's grief, or the significance of what Sirius meant to Harry as a parent figure.",
+      "scene": "Film \u2014 absence of Dumbledore's conversation with Harry about Sirius (book equivalent of Scenes 52\u201357)",
+      "book_baseline": "Book Scenes 52\u201357 contain Dumbledore's private conversation with Harry in the Weasleys' broomstick shed, in which Dumbledore explicitly honours Sirius: 'I think Sirius would have been proud of you'; 'It was cruel that you and Sirius had such a short time together. A brutal ending to what should have been a long and happy relationship'; and ultimately, 'Spoken both like your mother and father's son and Sirius's true godson!' Harry's grief is articulated \u2014 he speaks of Sirius 'almost like a parent' and the loss of letters \u2014 and Dumbledore validates Sirius's significance to Harry's identity.",
+      "film_portrayal": "The film corpus contains no equivalent scene. Dumbledore's first private meeting with Harry (Film Scene 3, the train platform) is brief and pivots immediately to collecting Slughorn. There is no moment where Dumbledore speaks about Sirius, validates Harry's grief, or frames Sirius as a parental figure whose loss is structurally meaningful.",
       "damage_type": "arc",
       "exposure": 3,
-      "impact_weight": 5,
-      "explanation": "This is the single most damaging absence in the corpus. The broomstick shed conversation is the book's emotional keystone for the Sirius arc in HBP \u2014 it is where Harry processes his loss out loud for the first time, where Dumbledore validates Sirius's importance as a parental figure, and where Harry's grief is transformed into defiant resolve ('I'll make sure I take as many Death Eaters with me as I can'). Dumbledore calling him 'Sirius's true godson' is a direct passing of the torch. Without this scene, Sirius's death lacks a proper emotional reckoning in the adaptation, Harry's grief arc is truncated, and the thematic connection between losing Sirius and Harry's readiness to sacrifice himself is severed."
+      "impact_weight": 4,
+      "explanation": "This is the scene that most fully articulates Sirius's role in Harry's emotional life \u2014 as a near-parent, as someone who wrote letters, as someone whose death Harry is actively processing rather than suppressing. Its absence means the audience never hears Dumbledore (the story's moral authority) confirm that Sirius mattered deeply and specifically to Harry's development. Harry's grief for Sirius becomes background texture rather than a named, validated arc, which damages the audience's understanding of what Sirius represented and diminishes the weight of his death across the saga.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film \u2014 absent scene: Sirius's will, inheritance of Grimmauld Place, and Kreacher transfer",
-      "book_baseline": "Book Scenes 25-36: Sirius leaves Harry everything \u2014 gold, Grimmauld Place, Buckbeak, and Kreacher. Harry's reaction to inheriting Grimmauld Place is deeply emotional: 'He never wanted to set foot in number twelve, Grimmauld Place again if he could help it. He thought he would be haunted forever by the memory of Sirius prowling its dark musty rooms alone, imprisoned within the place he had wanted so desperately to leave.' The inheritance establishes Sirius's final act of trust in Harry and forces Harry to take responsibility for Kreacher \u2014 the creature who betrayed Sirius \u2014 demonstrating Harry's moral growth. The scene also establishes Bellatrix as the alternative heir, directly connecting Sirius's death to ongoing plot stakes.",
-      "film_portrayal": "No equivalent scene appears in the film corpus. There is no handling of Sirius's will, inheritance, Grimmauld Place ownership, or Kreacher's transfer to Harry's ownership.",
+      "scene": "Film \u2014 absence of Sirius's will scene (book equivalent of Scenes 25\u201337)",
+      "book_baseline": "Book Scenes 25\u201337 establish that Sirius left Harry everything: gold, Grimmauld Place, Kreacher, and Buckbeak. Harry's reaction to each bequest reveals his relationship with Sirius \u2014 he doesn't want the house because it reminds him of Sirius 'imprisoned within the place he had wanted so desperately to leave'; he is repulsed by owning Kreacher because Kreacher betrayed Sirius; he immediately wants Buckbeak to stay with Hagrid. These are active, characterising choices that show Sirius through Harry's memory and grief.",
+      "film_portrayal": "The film corpus contains no will scene. There is no reference to Harry inheriting from Sirius, no Kreacher scene, no discussion of Grimmauld Place's ownership. Buckbeak appears briefly (Film Scene 18 context, Hagrid's hut) but without any connection to Sirius's bequest.",
       "damage_type": "agency/function",
       "exposure": 3,
-      "impact_weight": 4,
-      "explanation": "Sirius's will is one of his most important post-death narrative functions. It makes him an active presence even after death, forcing Harry into a relationship with his legacy, his home, and the creature who helped cause his death. Harry's decision to send Kreacher to Hogwarts rather than let him go to Bellatrix is a significant moral and practical choice. The absence of all this removes Sirius's continued narrative agency and a key dimension of Harry's emotional processing of the loss \u2014 the painful reality of inheriting the prison Sirius could never escape."
+      "impact_weight": 3,
+      "explanation": "The will scene is the primary mechanism by which Sirius continues to act in the story after his death \u2014 his choices (what he owned, who he trusted, what he left behind) shape Harry's circumstances and reveal his character. Its omission removes Sirius's posthumous agency entirely and also eliminates the Kreacher plot thread that has consequences later in the saga. For this film specifically, it means Sirius's death has no narrative ripple beyond Harry's emotional state.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film \u2014 absent scene: Mundungus stealing from Grimmauld Place / Harry's fury at Sirius's possessions being taken",
-      "book_baseline": "Book Scenes 133-140: Harry confronts Mundungus in Hogsmeade after catching him selling items stolen from Sirius's house, including pieces with the Black family crest. Harry's rage \u2014 'He's nicked Sirius's stuff! Nicked it!' \u2014 and his continued fuming over it with Ron and Hermione ('Harry was thinking about Sirius, and how he had hated those silver goblets anyway') shows his ongoing protective attachment to Sirius's memory and possessions. Dumbledore later confirms he is aware of the theft and assures Harry it will stop (Scene 148).",
-      "film_portrayal": "No equivalent scene involving Mundungus stealing Sirius's possessions appears in the film corpus.",
-      "damage_type": "arc",
+      "scene": "Film Scene 19 (Dumbledore's death / courtyard) \u2014 Ginny comforts Harry, Sirius context absent",
+      "book_baseline": "Book Scene 279: Harry reflects that 'there had been no body to bury when Sirius had died' and contrasts his experience of Dumbledore's death with the unresolved nature of Sirius's \u2014 noting he had not, as with Sirius, looked desperately for a loophole. This comparison gives Sirius's death continued psychological presence and distinguishes the two losses in Harry's interior life.",
+      "film_portrayal": "The film's equivalent scene (Film Scene 19) focuses on Harry weeping over Dumbledore's body with Ginny comforting him. There is no interior reflection, no comparison to Sirius's death, no acknowledgement that Harry is now processing a second devastating loss of a father figure. Sirius is entirely absent from this moment.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book deliberately links these two losses \u2014 Sirius and Dumbledore \u2014 as part of Harry's accumulating grief over father figures. The film's omission of this connection means Sirius's death is not given the retrospective weight the narrative intends. The two losses remain isolated rather than forming a pattern that defines Harry's orphaned emotional trajectory.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film \u2014 absence of Snape detention scene with James and Sirius's records (book equivalent of Scenes 218\u2013220)",
+      "book_baseline": "Book Scenes 218\u2013220: Snape assigns Harry to sort through detention records and specifically shows Harry the card for 'James Potter and Sirius Black \u2014 Apprehended using an illegal hex upon Bertram Aubrey. Aubrey's head twice normal size. Double detention.' Harry reads through their various offences, Sirius and James consistently coupled together in misdeeds, alongside Lupin and Pettigrew. Snape uses this deliberately to wound Harry. The scene characterises Sirius as a mischievous, bold, loyal friend \u2014 and as someone whose memory Snape actively weaponises.",
+      "film_portrayal": "The film corpus contains no detention scene of this kind. Snape's cruelty toward Harry regarding Sirius's memory is not dramatised through this mechanism.",
+      "damage_type": "nuance/lost material",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "While not a major structural scene, the Mundungus confrontation is one of the few moments in HBP where Harry actively engages with Sirius's memory and legacy in an emotionally charged way outside of private reflection. Its absence further reduces the presence of Sirius's ongoing influence on Harry's emotional life in the adaptation. The scene also serves a practical function, as Mundungus and his theft of Black family heirlooms becomes significant in Deathly Hallows."
+      "explanation": "This scene does double work: it gives Sirius continued characterisation as a specific, vivid person (a rule-breaker, James's co-conspirator) and it establishes Snape's particular malice regarding Sirius's memory. Its loss means one of the few scenes where Sirius is characterised through action rather than grief is missing, and Snape's relationship to Sirius's legacy is less textured.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 4 (Slughorn's house) - Sirius characterized as 'Regulus's older brother' rather than Harry's godfather and James's best friend",
-      "book_baseline": "Book Scene 47: Slughorn frames Sirius specifically as 'a big pal of your father's at school' \u2014 the emphasis is on Sirius's bond with James Potter and by extension with Harry's family history. The phrase 'I'd have liked the set' refers to the collector's regret of a teacher who knew the whole Black family. Sirius is presented as someone who defied his family's expectations by landing in Gryffindor, a sign of his character.",
-      "film_portrayal": "Film Scene 4: The screenplay has Slughorn introduce Sirius through his relationship to Regulus \u2014 'You no doubt know of his older brother Sirius' \u2014 framing Sirius as a secondary figure relative to his younger brother in Slughorn's orbit, rather than as James Potter's best friend and Harry's godfather. The relational framing reverses the book's emphasis.",
+      "scene": "Film \u2014 absence of Harry's reflection on Snape's taunts contributing to Sirius's death (book Scene 105\u2013106)",
+      "book_baseline": "Book Scenes 105\u2013106: Harry explicitly reflects that Snape's snide remarks to Sirius about 'remaining safely hidden while the rest of the Order were off fighting' had probably been 'a powerful factor in Sirius rushing off to the Ministry the night that he had died.' Harry clings to this because it lets him blame Snape. This is a rare moment of Harry processing the causality of Sirius's death and gives Sirius's fatal decision \u2014 going to the Ministry \u2014 a psychological backstory rooted in his wounded pride.",
+      "film_portrayal": "The film corpus contains no equivalent internal reflection. Harry's rage at Snape on the grounds after Dumbledore's death (Film Scene 18) is pure reactive fury with no reference to Sirius or the history between Snape and Sirius.",
+      "damage_type": "motivation/internal conflict",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book passage explains why Sirius died the way he did \u2014 not just that Bellatrix killed him, but that his own impulsive pride, stoked by Snape's mockery, drove him into the open. This humanises Sirius's fatal flaw and gives his death tragic coherence. Its absence leaves Sirius's death as an unexplained event from a prior film rather than something with psychological roots the audience can understand.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film \u2014 absence of Mundungus stealing Sirius's possessions scene (book equivalent of Scenes 133\u2013140)",
+      "book_baseline": "Book Scenes 133\u2013140: Harry confronts Mundungus Fletcher for stealing items from Sirius's house, including objects bearing the Black family crest. Harry is furious \u2014 'He's nicked Sirius's stuff! Nicked it!' \u2014 and the scene establishes both Harry's protectiveness of Sirius's memory and the practical reality of the inheritance. Dumbledore later assures Harry that Mundungus will not take more.",
+      "film_portrayal": "The film corpus contains no Mundungus scene. There is no dramatisation of Harry protecting Sirius's legacy or of the Grimmauld Place inheritance.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 1,
+      "explanation": "While not structurally critical, this scene is one of the few in HBP where Harry actively defends Sirius's memory through action rather than passive grief. Its absence reduces Sirius to someone Harry mourns internally but never fights for.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 21 (Shell Cottage cliff) \u2014 Harry explains the mirror shard to Ron",
+      "book_baseline": "In the book (DH ch.7/10), the mirror shard is a fragment of the two-way mirror Sirius gave Harry in OotP. Harry keeps it because it is one of the few remaining physical traces of Sirius; it is an object of grief and longing. He carries it in the mokeskin purse alongside the Marauder's Map and the fake locket \u2014 items he prizes. The shard later connects to Aberforth, but Harry never knows this during the horcrux hunt; he simply sees what he believes is Dumbledore's eye and is comforted/confused by it.",
+      "film_portrayal": "Film Scene 21 has Harry explicitly explain the mirror to Ron: 'Sirius gave it to me. He had a matching piece. He said if I ever needed him, all I had to do was look into it.' Harry then says he thinks he has seen Dumbledore in it. This compresses and distorts the emotional history of the object: in the books Harry never successfully used it while Sirius was alive and is haunted by that failure (Sirius died partly because Harry did not use the mirror instead of flying to the DoM). The film strips the guilt dimension entirely, recasting the shard as a straightforwardly useful communication tool Harry simply forgot to use, rather than a symbol of his failure and grief.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Sirius's gift of the mirror and Harry's failure to use it is a key node of Harry's guilt over Sirius's death. By presenting the mirror as something Harry just 'never got to use' without any guilt framing, the film loses the emotional weight Sirius's death carries into Deathly Hallows and weakens the ongoing cost of that loss.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 3 (Sirius's room, Grimmauld Place) \u2014 Harry in the room",
+      "book_baseline": "Book DH ch.10 describes Sirius's room in rich detail: Gryffindor banners deliberately provocative toward his Slytherin family, Muggle motorcycle posters, posters of bikini-clad Muggle girls (stationary, proving they are Muggle), and crucially a photograph of the four Marauders \u2014 young, happy, 'carelessly handsome' Sirius with 'slightly arrogant face so much younger and happier than Harry had ever seen it alive.' Harry also finds Lily's letter to Sirius, searches desperately for the rest, and finds the torn photograph of baby Harry on a broomstick. The room establishes Sirius's personality, his rebelliousness, his deep friendship with James, and his bond with the Potters.",
+      "film_portrayal": "Film Scene 3 reduces the room visit to Harry briefly pausing at a photograph of the four Marauders at the Whomping Willow and finding Lily's letter on the floor. The Gryffindor banners, the Muggle girl posters (which signal Sirius's personality and his rebellion), the motorcycle posters, and the frantic search for the rest of the letter and the torn baby-Harry photograph are all absent. The room is just 'ransacked' with books scattered.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The bedroom is the primary corpus evidence for Sirius's youthful personality in DH \u2014 his wit, nerve, rebelliousness, love of Muggles, and defiant affection for James. Stripping it to a bare ransacked space removes almost all of this characterisation. The book's Sirius is vividly present in his room even in death; the film's version makes the room functionally inert.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 6 (Kitchen, Grimmauld Place) \u2014 Kreacher interrogation about the locket",
+      "book_baseline": "Book DH ch.10: Harry questions Kreacher at length. Kreacher tells the full story of being taken to the cave by Voldemort, drinking the potion, the Inferi, escaping via house-elf magic, and Regulus's subsequent heroic self-sacrifice. Harry watches Kreacher weep and is moved. Hermione explains that Sirius was 'horrible to Kreacher' and that Kreacher betrayed Sirius because Sirius never treated him as a being with feelings \u2014 a direct moral indictment of Sirius. Harry has 'no retort' and remembers Dumbledore's words: 'I do not think Sirius ever saw Kreacher as a being with feelings as acute as a human's.' Harry then shows Kreacher the fake locket as a gift, which transforms Kreacher's loyalty. The whole scene is a moral reckoning about how Sirius's cruelty contributed to his own death.",
+      "film_portrayal": "Film Scene 6 has Kreacher give only a brief, functional account: Regulus ordered him to destroy the locket, he could not, Mundungus took it. There is no account of the cave, no weeping, no Hermione speech about Sirius's cruelty, no moral reckoning. Harry simply orders Kreacher to find Mundungus and Kreacher vanishes. Ron grabs Kreacher by the neck and shakes him \u2014 the opposite of the book's moment of empathy.",
+      "damage_type": "arc",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "This scene is the primary moment in DH where Sirius's moral failure is explicitly examined by other characters and by Harry himself. Its omission removes the only substantive critical perspective on Sirius in the book corpus, erases the causal link between Sirius's treatment of Kreacher and his death, and eliminates the thematic argument about how wizards' treatment of house-elves has consequences. Sirius's agency in his own death (via his cruelty) is completely lost, which distorts audience understanding of his character's flaws.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 23 (Hogsmeade/Aberforth's pub) \u2014 explanation of the mirror shard provenance",
+      "book_baseline": "Book DH: Aberforth has the twin mirror because Mundungus stole it from Grimmauld Place after Sirius's death. Harry is angry that Dung sold it \u2014 'It belonged to Sirius.' This beat reaffirms the emotional significance of the mirror as Sirius's possession and Harry's continuing possessiveness of anything connected to his godfather.",
+      "film_portrayal": "Film Scene 23 includes Aberforth saying 'Sirius. Albus told me.' and Harry saying 'Dung had no right selling you that. It belonged to \u2014' which is faithful to that beat. However, the scene is brief and Harry's anger is quickly redirected. This scene is largely faithful and causes minimal damage.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A minor but telling reversal: the book anchors Sirius to Harry's emotional world (friend of James, effectively family) while the film anchors him to the Black family lineage through Regulus. This subtly reframes Sirius as a peripheral figure in Harry's life story rather than a central one at the very moment his name is first raised in the film."
+      "explanation": "The line is present and broadly faithful. Damage is minimal \u2014 Harry's emotional connection to Sirius's possessions is at least partially conveyed, though the depth of grief is not elaborated.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film \u2014 absent scene: Harry's thoughts about Snape's role in Sirius's death / Harry blaming Snape",
-      "book_baseline": "Book Scenes 105-106: Harry has spent the summer concluding that 'Snape's snide remarks to Sirius about remaining safely hidden while the rest of the Order of the Phoenix were off fighting Voldemort had probably been a powerful factor in Sirius rushing off to the Ministry the night that he had died.' Harry 'clung to this notion, because it enabled him to blame Snape, which felt satisfying, and also because he knew that if anyone was not sorry that Sirius was dead, it was the man now striding next to him.' This establishes Harry's psychological state regarding Sirius \u2014 his guilt displaced as anger at Snape \u2014 and drives his hostility toward Snape throughout HBP.",
-      "film_portrayal": "No equivalent internal monologue or scene establishing Harry's belief that Snape contributed to Sirius's death appears in the film corpus. The film does not establish this specific psychological motivation for Harry's hatred of Snape.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "Harry's conviction that Snape goaded Sirius to his death is a key psychological driver of their antagonistic relationship in HBP and gives Harry's hatred a specific, grief-rooted dimension beyond general dislike. It also adds moral complexity \u2014 Harry's grief has curdled into a need to blame someone \u2014 that enriches his characterization. Removing this motivation flattens both the Sirius grief arc and the Harry-Snape dynamic, making Harry's hostility toward Snape seem more generalized and less emotionally grounded."
+      "scene": "Film Scene 29 (Snape's memories \u2014 Great Hall sorting) \u2014 Sirius and James at Gryffindor table",
+      "book_baseline": "Book DH ch.33 ('The Prince's Tale'): At the sorting, Sirius nudges along the bench to make room for Lily when she is sorted into Gryffindor. Lily takes one look at him, 'seemed to recognise him from the train, folded her arms, and firmly turned her back on him.' This establishes that even as an eleven-year-old Sirius had already made a bad impression on Lily, consistent with his arrogance on the train. It also shows James's immediate attraction to Lily and Sirius's easy social dominance.",
+      "film_portrayal": "Film Scene 29 shows Sirius and James at the Gryffindor table watching the sorting. James nudges Sirius to move over and make space for Lily. Lily sits down and glances across at Snape. The beat of Lily recognising Sirius from the train and turning her back on him is absent. Sirius is a mostly silent background figure.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book beat is small but establishes that Sirius's arrogance was apparent even to Lily from the very first moment at Hogwarts. Its absence is a minor omission but consistent with the film's overall pattern of smoothing Sirius's rougher edges.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film \u2014 absent scene: Tonks's grief over Sirius's death affecting her Metamorphosing abilities",
-      "book_baseline": "Book Scenes 65-67: Hermione explains that Tonks has been deeply affected by Sirius's death \u2014 she feels responsible because she was fighting Bellatrix when Sirius was killed. Her grief has been so profound that it has disrupted her Metamorphosing abilities, which is presented as an unusual and significant manifestation of magical trauma. Harry later observes Tonks directly (Scene 98-99) and notes she is 'older and much more serious and purposeful,' thinking uncomfortably about whether he should say something consoling about Sirius. Harry speculates (Scenes 190-192) that Tonks may have been in love with Sirius, triggered by her near-tears at his name.",
-      "film_portrayal": "No scene in the film corpus establishes Tonks's grief over Sirius, her disrupted Metamorphosing powers, or Harry's observation of her changed demeanor in connection to Sirius's death.",
-      "damage_type": "relationship",
-      "exposure": 2,
-      "impact_weight": 2,
-      "explanation": "Tonks's grief arc, while secondary, serves multiple functions: it shows the ripple effect of Sirius's death on people who loved him, it humanizes the Order members as people with emotional lives, and it sets up Harry's speculation about a possible romantic connection between Tonks and Sirius that adds retrospective depth to both characters. Its absence reduces the breadth of Sirius's impact on the world around Harry."
+      "scene": "Film Scene 32 (Forbidden Forest) \u2014 Sirius with the Resurrection Stone",
+      "book_baseline": "Book DH ch.34: Sirius appears via the Resurrection Stone. He is described as 'tall and handsome, and younger by far than Harry had ever seen him in life. He loped with an easy grace, his hands in his pockets and a grin on his face.' He tells Harry dying is 'Quicker and easier than falling asleep.' He says 'We are part of you. Invisible to anyone else.' His characterisation here is confident, warm, and physically graceful \u2014 his youth and ease restored. He is also specifically Sirius, with his own voice and bearing distinct from James or Lupin.",
+      "film_portrayal": "Film Scene 32 shows Sirius (as Sirius Black) appearing with James, Lupin, and Lily. He delivers the line 'Quicker than falling asleep' (faithful). He shakes his head when Harry asks if Voldemort will see them, gestures to Harry's heart, says 'No. We're here, you see.' His characterisation is broadly faithful in this brief appearance. The 'grin,' the 'loping easy grace,' the 'hands in his pockets' physical detail is not filmically elaborable in the same way but the spirit is present. This scene is largely faithful.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Forest scene is one of the most faithful Sirius moments in the film corpus. Some of the physical characterisation detail from the book is necessarily lost in translation to film, but the emotional content and Sirius's lines are preserved. Damage is minimal.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 17 (Astronomy Tower) - Snape's line 'I gave my word. I made a vow' without any established connection to Sirius or the Unbreakable Vow context from the book's opening",
-      "book_baseline": "Book Scenes 15-20: The Unbreakable Vow Snape makes to Narcissa includes the clause that he will 'carry out the deed that the Dark Lord has assigned to Draco.' Snape's line on the tower \u2014 'I gave my word. I made a vow' \u2014 directly references this vow. Separately, Scene 16 establishes that Snape 'certainly helped dispose of Sirius Black' according to Bellatrix, connecting Snape's role in Sirius's death to the broader context of his treachery. While the Unbreakable Vow scenes are in both book and film corpus by reference, Sirius's death is named as part of Snape's history of serving Voldemort in this same context.",
-      "film_portrayal": "Film Scene 17: Snape says 'I gave my word. I made a vow' but the audience lacks the book's framing that Snape's betrayals \u2014 including his role in Sirius's death \u2014 are part of the same pattern of calculated service to Voldemort. The film presents this moment without the loaded history the book has built regarding Snape's culpability in Sirius's fate.",
+      "scene": "Film Scene 15 (Lovegood house) \u2014 Harry names Sirius when choosing the Resurrection Stone",
+      "book_baseline": "Book DH ch.21: Harry says he would choose the Stone because 'we could have Sirius...Mad-Eye...Dumbledore...my parents.' Sirius is named first, reflecting his primacy among Harry's lost loved ones. The context also includes Hermione's warning that according to the tale the dead would not want to come back \u2014 which connects to the later Forest scene.",
+      "film_portrayal": "Film Scene 15: Harry says 'Well, you could bring people back, couldn't you? Mad-Eye. Dumbledore. Sirius. Anybody.' Sirius is named third rather than first, and the order 'Mad-Eye. Dumbledore. Sirius.' subtly repositions Sirius as less primary among Harry's dead. This is a very minor ordering change.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor damage: the book's Book Scene 16 explicitly names Sirius's death as something Snape 'helped' bring about, which gives additional weight to Harry's fury on the tower and to the revelation of Snape as the killer. Without this established connection, the audience loses a layer of the Harry-Snape confrontation's emotional logic as it relates to Sirius."
-    },
-    {
-      "scene": "Film \u2014 absent scene: Dumbledore's funeral / Harry's reflection on never having attended a funeral for Sirius",
-      "book_baseline": "Book Scene 279: 'Harry had never attended a funeral before; there had been no body to bury when Sirius had died.' This line explicitly connects Dumbledore's funeral to the unresolved grief of Sirius's death \u2014 Harry was denied the ritual of mourning for his godfather. Book Scene 280 adds: 'Admittedly he had not, as he had with Sirius, looked desperately for some kind of loophole, some way that Dumbledore would come back.' The comparison between the two losses clarifies how Harry has processed (or not) each death.",
-      "film_portrayal": "While the film corpus includes the aftermath of Dumbledore's death (Scenes 19-20), there is no equivalent moment where Harry explicitly reflects on having been denied a funeral for Sirius or draws a comparative emotional parallel between the two losses.",
-      "damage_type": "arc",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's funeral scene explicitly invokes Sirius's death as an unresolved grief that shapes how Harry experiences Dumbledore's funeral differently. The absence of this reflection loses a moment where Sirius's presence \u2014 or rather his absence from proper mourning \u2014 continues to haunt the story's emotional landscape. It also removes a key marker of Harry's psychological progress: he does not seek a loophole for Dumbledore the way he desperately did for Sirius, suggesting growth through grief."
-    },
-    {
-      "scene": "Film Scene 32 (Forbidden Forest) / Film Scene 33 (Clearing) \u2014 Sirius appears via Resurrection Stone",
-      "book_baseline": "Book scenes 340, 344, 349, 353: Sirius appears tall, handsome, younger than Harry ever saw him in life, loping with easy grace, hands in pockets, grinning. He is actively present, walks beside Harry as a companion and source of courage through the forest, and speaks with characteristic lightness ('Quicker than falling asleep'). He confirms 'We are part of you' and 'Invisible to anyone else.' His presence, along with James, Lupin, and Lily, is described as Harry's courage itself \u2014 they march together through the forest. Sirius is portrayed as warm, self-possessed, and emotionally sustaining.",
-      "film_portrayal": "Film Scene 32: Sirius appears but is given only two short lines \u2014 'Quicker than falling asleep' (in response to Harry asking if dying hurts) and a near-silent gesture pointing to Harry's heart when Harry asks if Voldemort will be able to see them. He does not speak during the walk through the forest. His grin and easy physical grace are present but his characterful voice and active companionship are reduced to near-silence. The book's extended walk with the dead, in which all four figures are described as marching alongside Harry and acting as Patronuses against the Dementors, is compressed; the film cuts almost directly to the clearing after the stone is turned.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Sirius's defining trait in this scene \u2014 the easy, slightly careless courage and warmth that Harry has idealized throughout the saga \u2014 is present only as a visual impression. The line he does deliver is faithful, but the loss of his active participation in the walk and the reduction of his dialogue to a gesture removes the specific emotional texture the books give him here. Minor damage because the scene as a whole functions and Sirius is visually present, but the characterization is thinned."
-    },
-    {
-      "scene": "Film Scene 3 (Sirius's room, Grimmauld Place) \u2014 Harry in Sirius's bedroom",
-      "book_baseline": "Book scenes 53\u201368: Harry enters Sirius's room and spends extended time there. The room is described in vivid detail \u2014 Gryffindor banners, Muggle motorcycle posters, bikini-clad Muggle girl posters, all as deliberate provocations to his family. Harry reads a Marauders photograph showing Sirius as 'carelessly handsome, his slightly arrogant face so much younger and happier than Harry had ever seen it alive.' Harry finds and reads Lily's letter, discovers the partial photograph of baby Harry on a toy broomstick, and searches desperately for the letter's missing second page. The room is a rich portrait of who Sirius was as a teenager \u2014 his rebellion, his humor, his loyalty \u2014 and Harry's emotional engagement with it is substantial.",
-      "film_portrayal": "Film Scene 3: Harry enters the room and lingers briefly by the Marauders photograph, traces faces with his wand, notices A History of Magic by Bathilda Bagshot, and finds Lily's letter. The room itself is ransacked and shown from a low, slightly unsettling POV (Kreacher's). The distinctive details that characterize teenage Sirius \u2014 Gryffindor banners as an act of defiance, motorcycle posters, the bikini posters described as a deliberate nerve \u2014 are absent from the screenplay as written. Harry's search for the second page of the letter, which shows his desperate desire to hold onto Sirius, is absent; he simply turns it over, finds no more, and is interrupted by Hermione.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses Sirius's teenage bedroom as a retroactive character portrait \u2014 the only extended window into who Sirius was before Azkaban, his wit, his deliberate rebelliousness, his joy. The film collapses this to a plot-functional scene (find the letter, learn about Bathilda). The loss of the room's characterizing details and Harry's emotional search removes a significant piece of posthumous characterization that the books use to deepen Harry's grief and the audience's understanding of Sirius as a full person rather than a tragic absence."
-    },
-    {
-      "scene": "Film Scene 6 (Kitchen, Grimmauld Place) \u2014 Kreacher interrogation and the absence of Sirius/Kreacher backstory",
-      "book_baseline": "Book scenes 88\u2013116: After summoning Kreacher, Harry confronts him about Sirius's betrayal ('you betrayed Sirius to Voldemort'). Kreacher tells the full story of Regulus and Voldemort's cave at length. Hermione delivers her moral argument that 'Sirius was horrible to Kreacher' and that 'Voldemort did\u2026 and so did Sirius.' Harry recalls Dumbledore's words: 'I do not think Sirius ever saw Kreacher as a being with feelings as acute as a human's.' The scene establishes that Sirius's own cruelty to Kreacher contributed causally to his death \u2014 a morally complex indictment of a character Harry loves, and a direct thematic statement about the treatment of house-elves.",
-      "film_portrayal": "Film Scene 6: Harry interrogates Kreacher about the locket and Regulus, but the scene is compressed. Kreacher confirms Regulus ordered him to destroy the locket and that Mundungus took it. There is no extended account of Kreacher's ordeal in the cave, no Hermione speech about Sirius's cruelty, and no acknowledgment of the causal link between Sirius's mistreatment of Kreacher and Sirius's death. Harry simply sends Kreacher to find Mundungus. The moral complexity \u2014 Sirius partly responsible for his own death through his behavior \u2014 is entirely absent.",
-      "damage_type": "motivation/internal conflict",
-      "exposure": 2,
-      "impact_weight": 3,
-      "explanation": "This is one of the book's most pointed retrospective characterizations of Sirius: his flaw (inability to see house-elves as fully feeling beings) contributed causally to his death, and Hermione explicitly names this. Removing it not only strips a moral dimension from Sirius's character but eliminates the thematic through-line about house-elf treatment that runs from Chamber of Secrets through this moment. The adaptation loses the acknowledgment that Sirius, for all his courage and loyalty, had a blind spot serious enough to get him killed \u2014 a nuance that makes him a more fully human figure."
-    },
-    {
-      "scene": "Film Scene 20 (Shell Cottage parlor) \u2014 Mirror shard explanation",
-      "book_baseline": "Book scene 209: Harry carries the shard of Sirius's enchanted mirror in his mokeskin pouch alongside the Marauder's Map and other prized objects. The mirror is established in Deathly Hallows book as one of the items Harry values most, a relic of Sirius and the only direct communication channel Sirius once offered him. Its presence throughout the Horcrux hunt is a quiet, persistent marker of Harry's grief and his continued relationship with Sirius's memory.",
-      "film_portrayal": "Film Scene 21 (cliff by Dobby's grave): Ron asks about the mirror shard and Harry explains, 'Sirius gave it to me. He had a matching piece. He said if I ever needed him, all I had to do was look into it\u2026 He died before I ever got to use it.' This is a faithful line, but the framing adds a new element \u2014 Harry says he thinks he has seen Dumbledore in it, redirecting the shard's emotional significance away from Sirius and toward Dumbledore/Aberforth. The mirror becomes primarily a plot device for reaching Aberforth rather than a grief-object associated with Sirius.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor damage. The film handles the mirror accurately in functional terms and Harry's explanation of Sirius's gift is faithful. However, the reframing of the shard as 'I think I've seen Dumbledore' slightly dilutes its identity as a Sirius-grief object. The impact is low because the scene still acknowledges Sirius and the damage is one of emphasis rather than distortion."
-    },
-    {
-      "scene": "Film Scene 29 (Great Hall, Snape's memories) \u2014 Young Sirius at the Sorting",
-      "book_baseline": "Book scene 310\u2013322: On the Hogwarts Express, young Sirius is introduced questioning his family's Slytherin tradition with easy confidence \u2014 'Maybe I'll break the tradition. Where are you heading, if you've got the choice?' He is witty ('Where are you hoping to go, seeing as you're neither?'), quick, and already marked as someone charming enough to win James's immediate friendship. At the Sorting, Harry sees Sirius make room for Lily at the Gryffindor table. These moments establish Sirius in youth as confident, funny, slightly arrogant, and magnetically social.",
-      "film_portrayal": "Film Scene 29: The Sorting scene shows two boys \u2014 identified as Sirius Black and James Potter \u2014 sitting together at the Gryffindor table. James watches Lily and nudges Sirius to make room for her. There is no dialogue for young Sirius; no train scene; none of the wit or characterization from the book's version of events. Sirius is present as a background figure identified by a stage direction.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "The film corpus includes this scene only as a visual beat in Snape's memories, which are focused on Lily and Snape rather than on Sirius. Young Sirius's personality as established in the books is not represented. However, given that this scene belongs to Snape's memory sequence and Sirius is genuinely peripheral to that narrative, the damage is minimal \u2014 the scene's purpose is not to characterize Sirius."
-    },
-    {
-      "scene": "Film Scene 15 (Lovegood house) \u2014 Resurrection Stone discussion, Sirius named",
-      "book_baseline": "Book scene 216: Harry explicitly names Sirius first when discussing who he would bring back with the Resurrection Stone \u2014 'we could have Sirius\u2026Mad-Eye\u2026Dumbledore\u2026my parents.' The order and the specificity of naming Sirius first reflects the primacy of that loss in Harry's emotional landscape throughout the book.",
-      "film_portrayal": "Film Scene 15: Harry says 'Well, you could bring people back, couldn't you? Mad-Eye. Dumbledore. Sirius. Anybody.' The order places Sirius third, after Mad-Eye and Dumbledore. This is a minor reordering but Sirius is still named.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Negligible damage. Sirius is named and the emotional logic is preserved. The reordering is not meaningfully harmful to the adaptation's portrayal of Sirius's importance to Harry."
+      "explanation": "Extremely minor. The book names Sirius first, emphasising his special place among Harry's losses; the film lists him third. The difference is marginal and does not substantially alter the scene's meaning. Included for completeness but damage is negligible.",
+      "book": "7_deathly_hallows"
     }
   ],
   "confidence": {

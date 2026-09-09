@@ -1,0 +1,65 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 Sorting feast / Nearly Headless Nick introduction",
+      "book_baseline": "In the book, it is sandy-haired Seamus Finnigan who interrupts Sir Nicholas's preferred formal introduction ('I would prefer you to call me Sir Nicholas de Mimsy--') and who asks 'Nearly Headless? How can you be nearly headless?' and later 'How did he get covered in blood?' \u2013 Seamus drives the comic interrogation of Nick and is an active, curious voice at the feast.",
+      "film_portrayal": "In the film, Ron identifies Nick and Hermione asks 'Nearly headless? How can you be nearly headless?' Seamus's only contribution is a brief self-introduction about his half-and-half parentage. His role as the curious, interruptive questioner of Nick is entirely absorbed by Ron and Hermione.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Seamus loses two distinct book moments of comic agency and personality at the feast \u2013 his cheeky interruption of Nick and his morbid curiosity about the blood. These small beats establish him as an inquisitive, irreverent presence. Reassigning them to Ron and Hermione erases his voice in this scene.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Moving staircases / portraits corridor",
+      "book_baseline": "The book corpus does not place Seamus in this precise corridor scene, but the film gives Neville the line 'Seamus, that picture's moving!' which at least names him as present and reacting. No unfaithful distortion of his characterization occurs here.",
+      "film_portrayal": "Seamus is merely named by Neville as a bystander. This is neutral \u2013 no characterization is given or taken away.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minimal damage: Seamus is present in name only. No active characterization is lost here beyond general background presence; confidence on this entry is low and impact is negligible.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Great Hall / Seamus tries to turn water into rum",
+      "book_baseline": "The book establishes Seamus as someone who talked extensively about flying from childhood ('the way Seamus Finnigan told it, he'd spent most of his childhood zooming around the countryside on his broomstick') and who in Charms got so impatient he prodded the feather with his wand and set it on fire. His defining comic trait is impulsive, over-eager magic that backfires. The book does not include a scene of him attempting to turn water into rum.",
+      "film_portrayal": "The film invents a scene where Seamus attempts to turn a cup of water into rum ('Eye of rabbit, harp string hum...'), which results in an explosion that chars him. This is actually consistent with his book trait of impulsive magic going wrong. The invented spell-attempt is a net-faithful extrapolation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is largely faithful in spirit \u2013 the film translates his book trait of reckless, backfiring magic into a new invented gag. Minor damage only arises from the fact that the specific flavour (trying to make alcohol) gives him a slightly different, more roguish characterization than the book supports, but the corpus does not contradict it strongly enough to score this as significant damage.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Charms class / Wingardium Leviosa, Seamus's feather explosion",
+      "book_baseline": "The book explicitly states: 'Seamus got so impatient that he prodded it with his wand and set fire to it -- Harry had to put it out with his hat.' Seamus's failure is impulsive impatience; Harry actively helps him by putting the fire out. This is a small moment of peer interaction and Seamus's characterization.",
+      "film_portrayal": "The film shows Seamus causing an explosion with his feather (shown twice \u2013 Scenes 4 and 5), consistent with his impulsive trait. However, Harry's act of putting out the fire with his hat \u2013 a small but humanizing peer-interaction beat \u2013 is absent. The film version is purely Seamus failing alone, with no Harry involvement.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The loss of Harry extinguishing Seamus's fire with his hat removes a small moment of casual Gryffindor dormitory camaraderie between them. The damage is minor but real: it slightly flattens their easy peer dynamic.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Seamus's self-introduction at the feast",
+      "book_baseline": "In the book, Seamus's half-and-half parentage revelation ('Me dad's a Muggle. Mom didn't tell him she was a witch 'til after they were married. Bit of a nasty shock for him.') is offered as part of a group conversation about families, with 'the others laughed' indicating he's a socially easy, warm presence in the group.",
+      "film_portrayal": "The film reproduces the line closely ('I'm half and half. Me dad's a Muggle. Mam's a witch. Bit of a nasty shock for him when he found out.') but it is delivered to Harry alone, somewhat out of context from the group family discussion. The communal warmth and group laughter of the book moment is absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The line itself is faithfully reproduced, but the social context \u2013 a relaxed group exchange that shows Seamus as a naturally funny, warmly received member of the Gryffindor peer group \u2013 is slightly reduced. Damage is minor.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Reassignment of Seamus's active comic agency in the Nearly Headless Nick scene to Ron and Hermione, removing his most distinct characterization moment in the book corpus.",
+    "Loss of small but telling peer-interaction beats (Harry putting out Seamus's fire, the communal laughter at his family anecdote) that established his ease and warmth within the Gryffindor group.",
+    "Seamus functions in the film primarily as a running visual gag (repeated explosions) rather than as a voiced, curious, socially active character, reducing him from a distinct personality to a one-note background comic device."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

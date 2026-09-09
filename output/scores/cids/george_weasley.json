@@ -2,468 +2,538 @@
   "character": "George Weasley",
   "fp_score": 73.0,
   "infidelity_score": 27.0,
-  "weighted_infidelity_exposure": 71.5,
-  "cids": 208.6,
-  "damage_per_exposure": 5.4,
+  "weighted_infidelity_exposure": 110.5,
+  "cids": 229.5,
+  "damage_per_exposure": 4.6,
   "structural_damage_level": 2,
-  "adjusted_cids": 208.6,
+  "adjusted_cids": 229.5,
   "main_damage_causes": [
-    "Redistribution of George's individual comedic lines to Fred or shared delivery, eroding his distinct voice and making the twins interchangeable",
-    "Replacement of warmth and team-pride characterization with pure comedy-menace banter in the Seeker announcement scene, weakening George's relationship foundation with Harry",
-    "Absence of George's reactive, outspoken moments (Snape-referee shock) that establish him as an individual with opinions rather than half of a comedy act",
-    "Reduction of George's active, named agency in key physical/tactical scenes (rescue, rogue Bludger) to passive background presence, flattening his competence and resourcefulness",
-    "Transfer of George's advocacy and protective lines to Ron, eroding the distinct texture of George's relationship with Harry and his role as a defender"
+    "Transposition of individual twin voices, making George and Fred interchangeable from their very first scene onward",
+    "Replacement of book-accurate warmth and team solidarity with generic dark-comedian humor in the Quidditch announcement scene",
+    "Reduction of the twins' social perceptiveness to excitable crowd behavior at the Sorting, contradicting the book's established restraint around Harry's fame",
+    "Systematic reduction of George's active agency in key scenes (Privet Drive rescue, Rogue Bludger match) collapses him from a resourceful, vocal participant into a background presence, losing the specific character texture that distinguishes him from Fred.",
+    "Loss of the Burrow domestic scenes and Hogwarts common room scenes removes the contexts where George's personality \u2014 humour, ingenuity, casual competence \u2014 is most fully expressed, leaving the film with almost no non-reactive characterisation for him."
   ],
   "damaging_scenes": [
     {
-      "scene": "Film Scene 1 \u2014 Platform 9\u00be twin mix-up exchange",
-      "book_baseline": "In the book, George corrects his mother ('I'm not Fred, I'm George'), then after she apologizes, it is George who delivers the punchline 'Only joking, I am Fred' \u2014 the joke belongs entirely to George, demonstrating his quick wit and individual voice distinct from Fred.",
-      "film_portrayal": "The film splits the lines differently: George says 'He's not Fred, I am!' and Fred delivers 'Honestly, woman, you call yourself our mother' and 'I'm only jokin'. I am Fred!' \u2014 the punchline and the cutting remark to their mother are redistributed, flattening George's individual comedic agency in the exchange.",
+      "scene": "Film Scene 1 \u2013 Platform 9\u00be twin swap confusion",
+      "book_baseline": "In the book, it is George who correctly identifies himself ('I'm not Fred, I'm George'), and Fred who delivers the punchline ('Only joking, I am Fred'). The joke originates with George's protest, and Fred lands it. This establishes both twins as individually voiced, with George as the one who bristles at being misidentified and Fred as the deadpan closer.",
+      "film_portrayal": "In the film the lines are swapped: George says 'He's not Fred, I am!' and Fred delivers 'Honestly, woman, you call yourself our mother.' The joke's internal logic is reversed \u2014 it is Fred, not George, who protests the misidentification, and George who delivers the 'Honestly, woman' line. The individual voices are transposed.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book uses this moment to give George a distinct comedic beat \u2014 he both sets up and lands the joke himself. The film redistributes the lines so no clear individual ownership of the gag is established, slightly eroding the early signal that George has his own comedic identity rather than being an interchangeable half of a duo."
+      "explanation": "A small but real inversion of which twin says what. Because the twins are already hard to distinguish on screen, swapping their lines in their very first scene compounds the audience's inability to tell them apart and misattributes the defining 'Honestly, woman' wit to the wrong brother. Damage is minor in isolation but establishes a pattern of indistinction.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 4 \u2014 Harry announced as new Seeker; Fred and George react",
-      "book_baseline": "In the book, Fred and George seek Harry out privately in the Great Hall, speak to him in low voices about being on the team as Beaters, express genuine excitement about winning the Quidditch Cup, and relay that Wood 'was almost skipping' \u2014 they show warmth, team pride, and a conspiratorial camaraderie with Harry.",
-      "film_portrayal": "In the film, the scene is restructured: Ron announces Fred and George are Beaters, and George delivers a jokey threat ('Our job is to make sure you don't get bloodied up too bad. Can't make any promises') followed by Fred calling the game 'Brutal.' The warmth and team-pride motivation from the book is replaced almost entirely with comic menace and banter.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book establishes that Fred and George genuinely embrace Harry as a teammate and express real investment in the team's success, seeding their bond with him. The film reduces this to a comedy bit that positions them as slightly threatening jokers rather than welcoming allies, weakening the foundation of their relationship with Harry and their characterization as people who care about Quidditch and their team."
-    },
-    {
-      "scene": "Film Scene 4 \u2014 George's Quidditch joke about players vanishing",
-      "book_baseline": "The book does not include Fred or George making jokes about players dying or vanishing; their enthusiasm in the Great Hall scene is about genuine excitement and team confidence.",
-      "film_portrayal": "George adds 'But they'll turn up in a month or two!' as a punchline to Fred's 'Someone will vanish occasionally,' framing Quidditch danger as a running comedy bit.",
+      "scene": "Film Scene 4 \u2013 Quidditch Seeker announcement, George's reassurance to Harry",
+      "book_baseline": "In the book, Fred and George's reaction to Harry's appointment is warm but grounded: Fred says the team is going to win the cup, George confirms their roles as Beaters matter-of-factly, and both treat Harry as a fellow player. Their dialogue is brief, confident, and focused on team pride. There is no joking about Harry getting 'bloodied up.'",
+      "film_portrayal": "George's film line \u2014 'Our job is to make sure that you don't get bloodied up too bad. Can't make any promises, of course. Rough game, Quidditch' \u2014 followed by Fred's 'Brutal. But no one's died in years. Someone will vanish occasionally' and George's 'But they'll turn up in a month or two!' \u2014 reframes the twins' welcome as ominous dark comedy at Harry's expense. The humor undercuts the genuine team solidarity the book conveys.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "While consistent with the twins' humor broadly, this invented exchange shifts George's first substantive interaction with Harry away from warmth and team solidarity toward pure clowning, contributing to the flattening of his character into a one-note jokester in this scene."
+      "explanation": "The book twins express team pride and confidence; the film twins open with mock-threatening jokes about Harry's physical safety. While consistent with their humor in a general sense, this specific beat replaces book-accurate warmth and solidarity with gallows humor that slightly alienates Harry rather than welcoming him. The damage is minor \u2014 it is one brief exchange \u2014 but it nudges their characterization toward generic pranksters rather than genuinely supportive older brothers.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 5 \u2014 Quidditch match; George/Fred as background action",
-      "book_baseline": "The book commentary references Fred or George hitting Bludgers strategically (e.g., blocking Pucey), and George specifically reacts with alarm and dialogue when Snape is announced as referee ('Snape's refereeing? \u2026 He's not going to be fair'). George also physically falls off his broom in shock. These moments give him reactive presence and show his awareness of injustice.",
-      "film_portrayal": "The film Quidditch scene corpus shows the twins only as background players; no dialogue or individual reaction from George is present. The Snape-as-referee beat and George's shocked fall do not appear in the provided film corpus.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "George's reaction to Snape refereeing \u2014 including physically falling off his broom in disbelief \u2014 is a characterization moment showing he is perceptive, outspoken about unfairness, and physically expressive. Its absence removes one of the few moments in the first film where George acts as an individual with a distinct reaction rather than as part of an undifferentiated twin unit."
-    },
-    {
-      "scene": "Chamber of Secrets - Rescue from Privet Drive (Film Scene 1/13A-17)",
-      "book_baseline": "In the book, George actively participates in the rescue with competence and wit: he picks the lock of Harry's door with a hairpin, coordinates the trunk operation, whispers tactical instructions ('So - we'll get your trunk'), and physically hauls the trunk through the window. George is presented as practically skilled, calm under pressure, and quietly resourceful.",
-      "film_portrayal": "The film compresses the rescue so that the lock-picking and the coordinated trunk-loading sequence are cut entirely. George is present in the car but has no distinct lines or actions that differentiate him from Fred. The film gives Ron and the car's mechanical action (tearing bars off the window with the Anglia) most of the agency; George is background.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses this scene to establish George as practically ingenious (Muggle lock-picking), tactically minded, and physically capable. Removing his active role flattens him into an unnamed presence in the car, losing a key early characterisation beat that sets up the twins as competent, unconventional problem-solvers rather than mere comic relief."
-    },
-    {
-      "scene": "Chamber of Secrets - Arrival at the Burrow / Mrs. Weasley confrontation (Film Scene 19)",
-      "book_baseline": "In the book, when Mrs. Weasley erupts, George attempts a jaunty, winning response ('Morning, Mum') to defuse the situation, showing his characteristic bravado and charm under pressure. He also defends Harry by pointing out 'They were starving him, Mum!' - a moment of genuine protectiveness layered with his usual lightness.",
-      "film_portrayal": "In the film, the 'Morning, Mum' beat is absent. Ron delivers the 'They were starving him, Mum! There were bars on his window!' line, transferring George's defensive advocacy for Harry to Ron. George's only credited action in the scene is the functional task of fetching the post from Errol.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book gives George both the charming deflection attempt and the empathetic defence of Harry - a combination that reveals he is not merely jokey but genuinely fond of Harry and willing to speak up for him. Transferring the advocacy line to Ron erases this relational beat and reduces George to a background utility character at the start of the film."
-    },
-    {
-      "scene": "Chamber of Secrets - Quidditch match / Rogue Bludger (Film Scene 65)",
-      "book_baseline": "The book dedicates extended coverage to Fred and George's coordinated effort to protect Harry from the rogue Bludger, flying escort on either side, actively batting it away repeatedly, identifying that it has been tampered with, requesting a time-out, and arguing forcefully with Wood about strategy. George specifically says 'Someone's fixed it - it won't leave Harry alone' and angrily rebukes Wood: 'This is all your fault.' George has a named, speaking, strategically active role throughout.",
-      "film_portrayal": "The film retains a brief warning shout from George ('HARRY! WATCH OUT!') and one bat of the Bludger, but the extended coordinated escort, the time-out request, the argument with Wood, and George's angry identification of tampering are all cut. The scene focuses on Harry's solo acrobatics and the stands commentary. George's sustained protective role and his confrontational line to Wood are lost.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book uses the rogue Bludger sequence to show George as a loyal, physically capable, tactically aware protector who puts Harry's safety above the match result and is unafraid to challenge authority (Wood) on Harry's behalf. The film reduces this to a single reactive shout, losing the substance of George's Beater role and his protective dynamic with Harry."
-    },
-    {
-      "scene": "Chamber of Secrets - 'Heir of Slytherin' corridor jokes (Film Scene 78)",
-      "book_baseline": "The book gives Fred and George an extended comic campaign: they march ahead of Harry in corridors shouting 'Make way for the Heir of Slytherin, seriously evil wizard coming through,' and George specifically pretends to ward Harry off with a large clove of garlic. The narrator notes that Harry didn't mind because Fred and George's attitude made him feel better - that at least they thought the idea was ludicrous. This is a meaningful characterisation moment showing their loyalty expressed through humour.",
-      "film_portrayal": "The film includes only a single, brief 'Make way for the Heir of Slytherin! Seriously evil wizard coming through!' from Fred (attributed to Fred in the screenplay), and the scene immediately cuts to Ron gently defending Harry. The garlic bit is absent, the sustained campaign is absent, and crucially the film does not convey that this joking is George's way of expressing that he finds the accusation absurd - i.e., his loyalty and his reading of Harry's character. The non-theatrical exclusion note confirms the fuller twin scene is cut.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "While a small beat, the book explicitly frames the twins' mockery as a form of support that Harry finds comforting. The film strips this to a single line attributed to Fred, removing George's individual contribution and the emotional function of the joke as a loyalty signal."
-    },
-    {
-      "scene": "Chamber of Secrets - Salamander / Filibuster fireworks in common room (Book scene present; film equivalent absent)",
-      "book_baseline": "The book establishes Fred and George feeding a Filibuster firework to a salamander in the Gryffindor common room, producing a spectacular pyrotechnic display that disrupts the common room and draws Percy's fury. This is presented as a defining character moment: creative, mischievous, slightly dangerous experimentation for its own entertainment value, and indifferent to prefect authority.",
-      "film_portrayal": "This scene does not appear in the film corpus. The salamander experiment is entirely absent from the theatrical film.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 1,
-      "explanation": "The salamander scene is one of the clearest illustrations of the twins' inventive, boundary-pushing character and their dismissal of Percy's authority. Its absence removes a small but colour-rich characterisation moment that distinguishes George (and Fred) as experimenters, not just jokers."
-    },
-    {
-      "scene": "Chamber of Secrets - Hospital wing visit after Quidditch match (Book Scene 184)",
-      "book_baseline": "In the book, after the Quidditch match, George visits Harry in the hospital wing and delivers a warm, amused report: 'Unbelievable flying, Harry. I've just seen Marcus Flint yelling at Malfoy. Something about having the Snitch on top of his head and not noticing.' This is a brief but warm one-on-one relational moment between George and Harry.",
-      "film_portrayal": "The film hospital wing scene after the Quidditch match focuses on Lockhart's botched bone-removal and Dobby's night visit. The Gryffindor team visit with cakes and pumpkin juice referenced in the book does not appear in the film corpus, and George's specific line about Flint and Malfoy is absent.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This small scene in the book demonstrates George's easy warmth with Harry and his enjoyment of humiliating Malfoy vicariously through Harry's success. Its absence is minor but contributes to the overall thinning of George's individual relationship with Harry."
-    },
-    {
-      "scene": "Chamber of Secrets - Percy / Penelope revelation on train (Book Scene 206-209)",
-      "book_baseline": "At the end of the book, when Ginny reveals Percy has a girlfriend, Fred drops a stack of books on George's head in shock, and George responds 'Definitely not' (to teasing Percy) while 'sniggering' - clearly intending to do exactly that. This shows the twins' complicity, their delight in embarrassing Percy, and a specific physical comedy beat.",
-      "film_portrayal": "This scene does not appear in the film corpus. The train journey home and the Percy/Penelope revelation are cut entirely.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "A minor but characteristic closing beat for George is lost - the instinctive, gleeful, barely-concealed plan to torment Percy is a small signature moment for the twins' dynamic. Its absence is low-impact but consistent with the film's broader pattern of thinning George's individual personality moments."
-    },
-    {
-      "scene": "Film Scene 5-6 (Clock Tower Courtyard / Entrance Hall - Marauder's Map handoff)",
-      "book_baseline": "In the book, Fred and George find Harry and take him into an empty classroom privately, telling the story of how they stole the map from Filch's office in their first year (letting off a Dungbomb, George causing a diversion while Fred grabbed it). They speak of Moony, Wormtail, Padfoot, and Prongs with reverence ('We owe them so much. Noble men, working tirelessly to help a new generation of lawbreakers'). They give specific instructions about wiping it, explain the seven passages with knowledge of which are blocked, and sign off with a Percy impersonation. The scene is rich with their conspiratorial camaraderie, wit, and detailed insider knowledge.",
-      "film_portrayal": "The film compresses the handoff into a brisk two-scene exchange in the courtyard and entrance hall. The backstory of stealing the map from Filch is reduced to a single throwaway line ('Nicked it from Filch's office, of course, first year'). The lore about the Marauders is abbreviated. The 'mischief managed' instruction is given by Fred alone as they leave. The scene is functional but stripped of the extended comedic back-and-forth, the Percy impersonation, and the layered storytelling that reveals Fred and George's character depth.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's map-handoff scene is one of the most character-rich Fred-and-George moments in PoA, demonstrating their shared history, their pride in mischief, their generosity toward Harry, and their wit. The film reduces it to exposition delivery. George activates the map but the twins' distinct voices, their comedic interplay, and the carefully structured joke structure (Fred closing his eyes in mock offense, the Percy impersonation) are absent. This flattens both twins but George in particular loses his distinct comedic voice since Fred dominates the film version of the scene."
-    },
-    {
-      "scene": "Film Scene 4 (Hospital Wing - post-Quidditch fall)",
-      "book_baseline": "The book has George deliver the consoling line about Harry's Quidditch fall with characteristic pragmatism and dry warmth: 'There had to be one time you didn't get it' and 'It's not over yet' \u2014 actively working through Quidditch point calculations to reassure Harry. George sits with Harry at the Gryffindor table earlier and provides grounded, empathetic support ('Forget it, Harry... They suck the happiness out of a place, dementors'). George is shown as emotionally self-aware and supportive, not just a comic foil.",
-      "film_portrayal": "In the hospital wing scene, George's only line is a quip directed at Ron: 'Yeah, c'mon, Ron. We'll walk you off the Astronomy Tower and see how you come out looking.' This is purely comic deflection. The emotional support and Quidditch point-calculation reassurance from the book are absent. George functions here only as a one-liner machine.",
+      "scene": "Film Scene 3 \u2013 Sorting ceremony, 'We got Potter!'",
+      "book_baseline": "The book establishes Fred and George as observant and socially aware \u2014 they recognized Harry privately on the train, reported it to their mother, and were explicitly told by Molly not to make a fuss of him. Their restraint on the platform and on the train reflects awareness that Harry is uncomfortable with his fame. There is no public exclamation about Harry at the Sorting.",
+      "film_portrayal": "Fred and George shout 'We got Potter! We got Potter!' loudly and publicly in the Great Hall when Harry is sorted into Gryffindor. This is a crowd-pleasing moment in the film but directly contradicts the book's characterization: the twins know Harry, were told not to goggle at him, and the book version of this moment is marked by respectful, low-key warmth.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book establishes George as capable of genuine emotional warmth and grounded comfort alongside his humor. The film reduces his hospital wing presence to a single wisecrack, reinforcing a pattern of using George purely for comic relief and losing the dimension where he balances humor with real empathy for Harry."
+      "explanation": "This moment trades the book twins' socially perceptive restraint \u2014 aware that Harry dislikes being treated as a celebrity \u2014 for a broad comedic shout that treats Harry as a trophy. It subtly undermines their characterization as emotionally intelligent pranksters who can read a room, reducing them to excitable hype men. It also slightly damages the Harry\u2013twins relationship by making their first public interaction the very kind of celebrity-gawking Harry finds uncomfortable.",
+      "book": "1_philosophers_stone"
     },
     {
-      "scene": "Film Scene 1 (Leaky Cauldron - Weasley family arrival)",
-      "book_baseline": "The book introduces Fred and George at the Leaky Cauldron with their mock-formal greeting of Harry ('Simply splendid to see you, old boy' / 'Absolutely spiffing'), immediately establishing their affectionate teasing register with Harry. The twins also have the 'Humongous Bighead'/'HB flags' joke about Percy, showing their irreverent wit and sibling dynamic. They are introduced as a distinct, lively comic force with a specific comedic voice.",
-      "film_portrayal": "The film's Leaky Cauldron arrival gives Fred the nose/photograph joke ('George's nose looks positively massive in that photograph' / 'That's your nose, Fred') \u2014 a joke that is self-directed rather than directed at Percy or Harry. George has no distinct line of his own in this sequence. The mock-formal Harry greeting is absent entirely.",
+      "scene": "Chamber of Secrets - Rescue from Privet Drive (Film Scene 1/17)",
+      "book_baseline": "In the books, George is an active, resourceful participant in the rescue: he picks the lock on Harry's door with a hairpin, demonstrating Weasley ingenuity and a pride in Muggle skills ('we feel they are skills worth learning'). He helps push the trunk through the window, pulls Harry into the car, and hands the hairpin to Ron to free Hedwig. George is characterised as calm, competent, and gently witty throughout.",
+      "film_portrayal": "The film removes George's lock-picking entirely. The bars are torn off the window by the car's rope, bypassing the need for the hairpin trick. George is present but passive \u2014 a background figure in the car. He has no distinct action, no spoken lines distinguishing him from Fred, and no demonstration of his Muggle-skills pride. His only identified line in this sequence is 'Ron and George pull Harry into the air.'",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The hairpin scene is one of the clearest early characterisation beats for George specifically: his calm resourcefulness, his fondness for Muggle cleverness, and his quiet competence are all expressed through it. The film collapses him into an undifferentiated twin background presence, losing the personality texture the book establishes.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Chamber of Secrets - Arrival at the Burrow / Mrs Weasley confrontation (Film Scene 2/19)",
+      "book_baseline": "George greets his mother with a deliberate, self-aware attempt at charm \u2014 'Morning, Mum,' in what he clearly thought was a jaunty, winning voice \u2014 showing his characteristic confidence and humour even when caught out. He also defends Harry directly to Mrs Weasley: 'They were starving him, Mum!' and contributes to the conversation about Percy's odd behaviour, noting Percy is 'not himself' and making a dry joke about polishing a prefect badge.",
+      "film_portrayal": "In the film it is Ron, not George, who delivers the 'They were starving him, Mum!' line. George's only identified contribution in this scene is announcing 'Dad's home!' and fetching the post from Errol. His jaunty greeting to his mother and his characterful defence of Harry are absent or reassigned.",
+      "damage_type": "personality/voice | relationship",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Transferring George's defence of Harry to Ron removes a small but meaningful moment of George's loyalty and wit. His self-confident, slightly performative charm in the face of maternal fury is a defining character note that goes entirely unrepresented in the film.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Chamber of Secrets - Flourish and Blotts brawl (Film Scene 2/30)",
+      "book_baseline": "When Lucius Malfoy provokes Mr Weasley and a brawl erupts, the book records a yell of 'Get him, Dad!' from Fred or George \u2014 an impulsive, loyal, enthusiastic cheer that reveals the twins' relish for their father standing up to Malfoy and their disregard for propriety. Fred also later cheerfully reports to Mrs Weasley that Lockhart was pleased about the fight for the publicity.",
+      "film_portrayal": "The film restructures the confrontation: Hagrid physically restrains Mr Weasley before a brawl can properly develop, and no equivalent of 'Get him, Dad!' is heard from the twins. Fred and George are bystanders. Fred's amused post-incident report to Mrs Weasley about Lockhart's reaction is also absent.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The twins' vocal, gleeful encouragement of their father is a small but characteristic beat of their irreverence and loyalty. Its removal, and the substitution of Hagrid as restrainer rather than post-hoc commentator, slightly flattens the twins' presence in this scene.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Chamber of Secrets - Quidditch practice / Mudblood incident (Film Scene 4/45)",
+      "book_baseline": "When Malfoy calls Hermione a Mudblood, the book states that Flint had to dive in front of Malfoy to stop Fred and George jumping on him \u2014 both twins physically lunge at Malfoy in immediate, protective fury. This is a significant character beat: the twins, despite their jokey personas, react with instant physical anger to a slur against a friend.",
+      "film_portrayal": "The film shows Fred and George flying for Draco's throat, but Oliver Wood holds them back. The physical impulse is present, but the specific detail of Flint having to intervene, and the rawness of their reaction, is slightly softened. The moment is present but brief and immediately subordinated to Wood's 'Save it for the match' line.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The book's introduction of Fred and George establishes their specific comedic register immediately \u2014 the mock-posh greeting is a signature beat that shows their shared humor and warmth toward Harry. The film replaces this with a generic sibling banter joke, and George is left with no individual voice in the scene. Minor but contributes to a pattern of George being undifferentiated from Fred."
+      "explanation": "The film does capture the twins' protective reaction, but the compression and Wood's immediate quip reduce the emotional weight of the moment. Minor damage only, as the core impulse is represented.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 5-6 (Marauder's Map handoff - George's reduced individual role)",
-      "book_baseline": "In the book, Fred and George share the explanation duties with clear comedic structure: Fred sets up, George delivers, they alternate lines in a practiced double-act. Crucially, it is George who activates the map ('I solemnly swear that I am up to no good') and George who explains its origins with the reverent 'Moony, Wormtail, Padfoot, and Prongs... We owe them so much.' Both twins are equally invested and individually voiced.",
-      "film_portrayal": "In the film, Fred dominates the scene functionally: Fred slaps the parchment into Harry's hand, Fred delivers the 'secret to our success' line, Fred gives the 'Mischief managed' warning as they leave. George activates the map and delivers the Marauders tribute line, but Fred's lines outnumber and outweigh George's. The recommendation of the One-Eyed Witch passage is split but Fred bookends it. George is a supporting player in what should be a equal double-act.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The books consistently present Fred and George as an equal partnership \u2014 a double-act where neither dominates. The film systematically gives Fred the setup and punchline roles while George reacts or seconds. This erodes George's individual identity and begins the adaptation pattern of treating him as Fred's sidekick rather than co-equal, which damages the distinctness of his characterization across the saga."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Portkey/World Cup arrival sequence",
-      "book_baseline": "Book scenes 98, 101: Fred and George never quite forgave Cedric for beating their Gryffindor team; they merely nodded at him rather than saying hi, and they were both scowling when Amos Diggory bragged about Cedric beating Harry.",
-      "film_portrayal": "Fred and George cheerfully call out 'See you later, Cedric!' as the groups part ways at the campsite, showing no residual resentment toward Cedric whatsoever.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "A small but real characterization detail is lost. The book uses Fred and George's cold shoulder toward Cedric to show their fierce Gryffindor loyalty and competitive pride; the film replaces this with generic friendliness, flattening a nuance of their character."
-    },
-    {
-      "scene": "Film Scene 2 \u2013 Post-match celebration in the tent / Death Eater attack",
-      "book_baseline": "Book scenes 125-126: Fred grabbed Ginny's hand and led the group toward the woods during the Death Eater attack. Book scene 138: Fred, George, and Ginny returned to the tent unhurt but shaken, while the older brothers had injuries. Arthur explicitly delegated Ginny's safety to Fred and George (film scene 2 dialogue).",
-      "film_portrayal": "Film scene 2 shows Arthur issuing the order 'Fred, George! Ginny is your responsibility. Go!' and Fred and George comply and disappear. The film corpus does not show them actually shepherding Ginny or any follow-through; they vanish from the scene entirely and play no further active role in the chaos.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "In the book, Fred proactively takes charge by grabbing Ginny's hand and leading the retreat \u2014 his protective agency is self-initiated. In the film they are merely dispatched by Arthur and disappear. The shift from self-directed protectors to passive order-followers reduces their characterization as capable, autonomous young men."
-    },
-    {
-      "scene": "Film Scene 4 \u2013 Aging Potion / Goblet of Fire submission",
-      "book_baseline": "Book scenes 235, 241-251: Fred and George's attempt is a carefully considered, multi-day plan. Fred steps forward deliberately, rocks on his toes like a diver, and takes a 'great breath' before crossing. They take the failure in good humor. Their scheming is portrayed as genuinely witty and bold. George separately leaps in after Fred's failure in a moment of optimistic impulse.",
-      "film_portrayal": "Film scene 4 compresses the attempt into broad slapstick: the twins drink the potion together, jump simultaneously, get ejected, and immediately begin physically fighting each other while students chant 'Fight!' The humor is purely physical and the fight replaces the good-natured self-deprecation of the book.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's version preserves Fred and George's intelligence and self-awareness \u2014 they are bold schemers who can laugh at themselves. The film turns the moment into pure clowning, with the twins brawling like children. This trades clever wit for cheap slapstick, undermining the sense that their pranks come from genuine ingenuity rather than reckless foolishness."
-    },
-    {
-      "scene": "Film Scene 5 \u2013 Post-first task celebration in the Gryffindor common room",
-      "book_baseline": "Book scene 256-257: Fred and George are genuinely impressed and half-awed by Harry's achievement, voicing real admiration ('You should've told us you'd entered! Be cool to enter, wouldn't it? How did you do it without getting a beard? Brilliant!'). Their reaction is warm and fraternal.",
-      "film_portrayal": "Film scene 5: Fred says 'Knew you wouldn't die' and the twins riff through a list of injuries Harry might have suffered ('Lose a leg / Or an arm / Pack it in altogether? / Never! Never!'). The tone is comedic deflection rather than genuine admiration.",
-      "damage_type": "relationship",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book shows Fred and George capable of sincere warmth and respect toward Harry; the film replaces this with a joke routine. The affectionate fraternal bond is reduced to comic performance, slightly hollowing out the emotional texture of their relationship with Harry."
-    },
-    {
-      "scene": "Film Scene 5 \u2013 Second task betting",
-      "book_baseline": "Book scene 118: Fred and George gave Bagman all their gold at the World Cup and had no souvenirs. The Bagman subplot (scenes 119-123, 361-374) is a significant thread: they are cheated out of all their savings and eventually try blackmail to recover them, showing real financial desperation and entrepreneurial stakes.",
-      "film_portrayal": "Film scene 6 shows Fred and George taking bets from students before the second task ('Any bets? Any bets? Come on, place your bets!') as a light comic moment, with no reference to having been cheated by Bagman or the loss of their savings. The Bagman subplot is entirely absent from the film corpus.",
-      "damage_type": "arc",
-      "exposure": 1,
+      "scene": "Chamber of Secrets - Rogue Bludger Quidditch match (Film Scene 4/65)",
+      "book_baseline": "During the match, Fred and George fly protectively on either side of Harry for an extended period, shielding him from the rogue Bludger at the cost of their own game performance. George explicitly diagnoses the tampering ('Someone's fixed it'), argues with Wood for a time-out, and angrily confronts Wood: 'This is all your fault... Get the Snitch or die trying, what a stupid thing to tell him.' After the match, George visits Harry in the hospital wing and provides comic relief about Malfoy's humiliation. The twins are proactive, vocal, and central to managing the crisis.",
+      "film_portrayal": "George has one warning shout ('Harry! Watch out!') and bats the Bludger away once. The extended protective flying, the explicit diagnosis of tampering in dialogue, the time-out argument, and George's angry rebuke of Wood are all absent. The twins are peripheral after the initial warning. Hermione stops the Bludger at the end with 'Finite Incantatem', taking the active resolution role. George's hospital-wing visit with news about Malfoy is also absent from the film corpus.",
+      "damage_type": "agency/function | personality/voice",
+      "exposure": 2,
       "impact_weight": 3,
-      "explanation": "The Bagman cheating arc is central to establishing that Fred and George's joke shop ambitions carry real financial and moral weight. Their willingness to resort to blackmail, their desperation at losing everything, and ultimately Harry's gift of his winnings all depend on this backstory. Without it, Harry giving them his prize money (if depicted at all) loses its meaning, and Fred and George's entrepreneurial drive appears as a quirky hobby rather than a serious, hard-won aspiration."
+      "explanation": "This is one of the most significant reductions of George's agency in the film. In the book he is the one who identifies the problem, leads the tactical response, and challenges Wood's authority on Harry's behalf \u2014 all expressions of his protectiveness, intelligence and willingness to speak up. The film reduces him to a single reactive moment. Hermione's role as the Bludger-stopper also implicitly displaces the twins' function in the climax of the sequence.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 4 \u2013 Triwizard announcement / Age Line reaction",
-      "book_baseline": "Book scenes 181-182: George stands up and remains behind while other students move toward the door, openly challenging Dumbledore ('We're seventeen in April, why can't we have a shot?'). Fred states stubbornly he is not stopping himself from entering. This is a moment of assertive, principled defiance.",
-      "film_portrayal": "Film scene 3: Fred and George exchange a look and say 'Brilliant' and 'Wicked' during Dumbledore's announcement, then the Age Line plan is shown as confident banter with Hermione. The direct public challenge to Dumbledore \u2014 George standing his ground and demanding fairness \u2014 is absent.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
+      "scene": "Chamber of Secrets - Heir of Slytherin mockery / Christmas period (Film Scene 5/78)",
+      "book_baseline": "Fred and George go out of their way to march ahead of Harry in corridors shouting 'Make way for the Heir of Slytherin, seriously evil wizard coming through!' and George pretends to ward Harry off with a clove of garlic. Harry explicitly reflects that Fred and George, at least, found the idea of his being the heir ludicrous, which makes him feel better. This is a distinct relationship beat: the twins use humour as a form of loyalty and solidarity.",
+      "film_portrayal": "Per the non-theatrical exclusion note, the 'Fred and George mock Harry' scene was cut from the theatrical release. Only Fred's 'Make way for the Heir of Slytherin!' line appears in the film corpus (Film Scene 5/78), with no George equivalent. Ron's immediate softening reaction ('Oh c'mon, Harry. Fred's just having a laugh') is present, but George's participation and the extended described pattern of behaviour is absent.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's extended passage where the twins use mockery as a form of supportive solidarity \u2014 and Harry's explicit gratitude for it \u2014 establishes something important about George's relationship with Harry: he expresses loyalty through humour, not sentiment. With the scene cut and only Fred credited, this relational nuance is lost entirely for George.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Chamber of Secrets - Salamander / Filibuster fireworks in common room (Book scene absent from film corpus)",
+      "book_baseline": "The book establishes Fred and George conducting experiments on a salamander with Filibuster fireworks in the common room, and the subsequent chaos \u2014 Percy bellowing at them, tangerine stars, the salamander escaping into the fire \u2014 is a vivid characterisation scene showing the twins' mischievous ingenuity and their gleeful disregard for rules, with George integral to the prank.",
+      "film_portrayal": "This scene does not appear in the film corpus at all. There is no equivalent depiction of the twins' experimental mischief in the common room.",
+      "damage_type": "nuance/lost material | personality/voice",
+      "exposure": 1,
       "impact_weight": 1,
-      "explanation": "The book's moment shows George's confidence and sense of fairness \u2014 he is not afraid to publicly challenge authority on a matter of principle. The film skips this, keeping them as enthusiastic schemers rather than characters with a genuine grievance, slightly reducing their depth."
+      "explanation": "While individual comedy scenes can legitimately be cut, this scene is one of the primary early illustrations of the twins' character at Hogwarts. Its absence contributes to the broader thinning of George's personality in the film.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 2 \u2013 King's Cross / train departure",
-      "book_baseline": "Book establishes Fred and George as a distinct, inseparable comic duo who travel to King's Cross with the full Weasley party, wearing brand-new lurid green scaly jackets (book scene 487). Their presence is noted as part of the family group.",
-      "film_portrayal": "Fred and George are reduced to silent background figures in the King's Cross/departure sequence. George has no spoken lines and no individual characterization; neither twin is distinguished from the crowd in any meaningful way.",
-      "damage_type": "personality/voice",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor reduction in presence at a transitional scene; individually small but part of a cumulative pattern of flattening George's distinct voice."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place arrival / Order briefing",
-      "book_baseline": "Book scenes 32\u201334 establish George (and Fred) forcefully challenging the adults for information, demanding equal treatment: 'How come Harry gets his questions answered? We've been trying to get stuff out of you for a month and you haven't told us a single stinking thing!' George is assertive, indignant, and politically engaged about Order secrecy.",
-      "film_portrayal": "In the film, George's only contribution at Grimmauld Place during the Order briefing scene is the throwaway line 'Don't bottle it up, though, mate. Let it out' directed at Harry, and a brief comedic reaction. The sustained, indignant challenge to adult authority that defines the book scene is entirely absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book establishes George as someone who pushes back against being infantilized by the Order \u2014 a key personality trait showing his maturity and agency. The film reduces him to a one-liner comedian, stripping the characterization of depth."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place / 'of age' confrontation",
-      "book_baseline": "Book scenes 38\u201345 show Fred and George bellowing 'We're of age!' in unison, then standing their ground until Dumbledore personally overrules them. George specifically argues and glares at Sirius before reluctantly conceding. This establishes George's strong sense of his own adult status and his frustration at being excluded.",
-      "film_portrayal": "The film contains no equivalent scene. The 'of age' confrontation with Mrs. Weasley and the subsequent argument with Dumbledore's authority never occurs. George's assertion of adult autonomy is completely absent.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "This scene is important for George's arc: it shows he considers himself an adult wizard with a right to know about the war. Its absence means the film never establishes this dimension of his character, making his later departure from Hogwarts feel less grounded in an established sense of self-determination."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place night / weapon speculation",
-      "book_baseline": "Book scenes 49\u201357 show George and Fred sneaking into Harry's room at night to discuss what Voldemort's weapon might be \u2014 speculating intelligently ('Maybe it's something that can kill loads of people at once'), showing curiosity, loyalty, and strategic thinking. George specifically asks 'So who d'you think's got it now?' and connects it to Hogwarts ('Bet it is! That's where he hid the Philosopher's Stone'). They Disapparate the instant Mrs. Weasley's footsteps approach, showing practiced stealth.",
-      "film_portrayal": "This scene does not exist in the film corpus. George's nighttime curiosity and strategic engagement with the central mystery of the book is entirely absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The scene shows George is not merely a prankster but is genuinely invested in the war effort and thinks strategically. Its absence contributes to a flattened portrayal of him as purely comic relief."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place / Mr Weasley attacked at St Mungo's",
-      "book_baseline": "Book scenes 324\u2013332 show George reacting with fierce, raw emotion to news of his father's attack. He yells at Sirius ('It's our dad dying we're talking about!'), questions the Order's priorities, and reads aloud the letter from Mrs. Weasley with a trembling voice: 'Still alive\u2026 but that makes it sound\u2026' Fred has to pull the parchment from George's hands. This is one of George's most emotionally vulnerable and humanizing moments.",
-      "film_portrayal": "The film (Scene 3) handles this sequence but George's specific emotional reactions \u2014 the outburst at Sirius, reading the letter aloud, the trailing-off sentence \u2014 are not present as individual beats attributed to George. The scene is compressed and the emotional specificity of George's role is lost.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "The book uses this crisis to show the depth of George's love for his father and his capacity for grief beneath the humor. The film's compression removes the individual emotional texture that distinguishes George from Fred in this moment, weakening the audience's investment in him as a feeling person."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 Skiving Snackboxes demonstration in common room",
-      "book_baseline": "Book scenes 257\u2013263 show an extended, fully staged entrepreneurial demonstration: Fred vomits into a bucket, swallows the antidote, takes advance orders from a crowd, and Harry reflects 'I don't get why Fred and George only got three OWLs each \u2014 they really know their stuff.' George projectile-vomits and takes a bow 'with his arms wide to protracted applause.' This is a showcase of George's genuine talent, showmanship, and business acumen.",
-      "film_portrayal": "Film Scene 3 reduces this to a brief expository exchange: 'Skiving snackbox. Sweets that make you ill. Get you out of class whenever you like. Obtain hours of pleasure from unprofitable boredom.' The full demonstration, the crowd, the advance orders, George's showmanship, and Harry's admiring reflection on their intelligence are all absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book scene establishes George (and Fred) as genuinely talented wizards whose joke business reflects real skill. The film reduces it to a product pitch, losing the evidence of competence and the comedic performance that shows George as a craftsman, not just a clown."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 Quidditch match / Malfoy provocation and fight",
-      "book_baseline": "Book scenes 285\u2013292 show George specifically grabbing Harry to stop Fred attacking Malfoy, then being released by Harry when Malfoy insults their mothers \u2014 at which point George charges Malfoy alongside Harry. George's swollen lip, his specific line 'He insulted my parents. And Harry's mother' to McGonagall (scene 298), and his marching silently off the pitch with Harry establishes his fierce loyalty and his capacity for righteous anger that costs him dearly.",
-      "film_portrayal": "The film corpus (Scene 3) contains only a brief visual reference to Fred and George standing on opposite sides of Harry after the Snape memory scene. The Quidditch fight \u2014 George's charge, his injury, his specific defense of family honor before McGonagall \u2014 is not evidenced in the film corpus as a scene George participates in with individual characterization.",
-      "damage_type": "agency/function",
-      "exposure": 1,
-      "impact_weight": 3,
-      "explanation": "George defending his parents' honor and accepting a Quidditch ban alongside Harry is a defining moment of loyalty and moral courage. The book gives him the specific line citing his parents to McGonagall. If this beat is absent or compressed without George's individual voice, it removes one of his few moments of serious dramatic agency."
-    },
-    {
-      "scene": "Film Scene 4 \u2013 Umbridge confrontation / departure from Hogwarts",
-      "book_baseline": "Book scenes 443\u2013454 give George fully individualized dialogue in the departure: 'Yeah, I've been feeling that way myself,' 'Definitely,' 'Yeah, don't bother to keep in touch,' 'Special discounts to Hogwarts students who swear they're going to use our products to get rid of this old bat' \u2014 each line distinct from Fred's. George mounts his own broom independently. The scene is precisely choreographed with George as a co-equal agent of the defiance.",
-      "film_portrayal": "Film Scene 4 shows Fred and George flying into the Great Hall on broomsticks throwing fireworks. While visually spectacular, the film corpus shows Fred delivering the character-defining lines ('You know, George, I've always felt our futures lay outside the world of academic achievement') while George's only attributed line is the agreement ('Fred, I've been thinking exactly the same thing'). George's individualized farewell lines \u2014 particularly the 'special discounts' speech \u2014 are absent or merged into Fred.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The departure is one of George's most important scenes in the saga. The book gives him distinct, individually characterizing lines. The film's corpus evidence shows Fred getting the thematic statement while George merely echoes. This collapses George's independent voice into Fred's, reinforcing the pattern of treating him as the lesser twin."
-    },
-    {
-      "scene": "Film Scene 3 \u2013 DA meeting / Patronus lesson",
-      "book_baseline": "George is not shown attempting a Patronus in the book corpus provided; the DA scenes in the book show Fred and George as supportive presences but the Patronus teaching is Harry-focused. George's role in DA is as a participant with agency (signing the list eagerly per book scene 247, taking Venomous Tentacula seeds to Mundungus, etc.).",
-      "film_portrayal": "Film Scene 3 gives George a single line 'Expecto Patronum!' which produces a result, followed by Harry calling 'George, your turn now.' While this is a moment of inclusion, George is shown as a student being coached by Harry rather than as the near-adult entrepreneur and near-peer the book establishes. This is a minor inversion of the book's power dynamic between George and Harry.",
-      "damage_type": "nuance/lost material",
-      "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minor recalibration of the relationship dynamic; George in the book is Harry's quasi-mentor in practical matters (Skiving Snackboxes, Extendable Ears, Triwizard funding). Placing him as Harry's pupil in the DA, while accurate to the defensive magic context, contributes marginally to flattening his status."
-    },
-    {
-      "scene": "Film Scene 1 \u2013 Grimmauld Place / Percy estrangement discussion",
-      "book_baseline": "Book scenes 13\u201319 show George leading a nuanced, politically informed discussion about Percy's promotion, Fudge's purge of Dumbledore loyalists, and the threat to Mr. Weasley's career. George says 'I think we're well shot of him' with 'an uncharacteristically ugly look on his face' \u2014 a rare moment of genuine bitterness that shows emotional depth beneath his usual humor.",
-      "film_portrayal": "This conversation does not appear in the film corpus. The Percy estrangement subplot is handled differently (Percy's Christmas jumper return, book scene 356\u2013357, is referenced in the film's Christmas scene but without George's specific bitter commentary from the earlier Grimmauld Place discussion).",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's Percy discussion reveals George's capacity for real pain about family fracture \u2014 the 'uncharacteristically ugly look' is a specific authorial signal that this cuts deeper than usual. The film loses this window into George's emotional complexity around the Percy betrayal."
-    },
-    {
-      "scene": "Film Scene 2 (Weasleys' Wizard Wheezes) - Fred and George on the counter performing for the crowd",
-      "book_baseline": "Book establishes Fred and George as entrepreneurial businessmen running a serious, thriving shop. They give Harry a personal tour of their products including a dedicated 'serious' back room (Shield Hats, Instant Darkness Powder, Decoy Detonators), credit Harry for their start, refuse his money, and address him warmly as a genuine partner and benefactor. George warns a shoplifting boy with quiet authority. The shop reflects genuine ingenuity and business acumen.",
-      "film_portrayal": "Fred and George are shown as carnival barkers standing on a counter shouting 'Step up! Step up!' performing for the masses. The nuanced personal dynamic with Harry \u2014 the tour, the gratitude, the refusal of payment, the back room of serious defense products \u2014 is entirely absent. They are flattened into showmen rather than shown as savvy entrepreneurs with a meaningful relationship with Harry.",
+      "scene": "Chamber of Secrets - De-gnoming and Quidditch at the Burrow (Book scenes absent from film corpus)",
+      "book_baseline": "The book contains extended scenes of George at the Burrow: explaining de-gnoming technique with casual authority ('See, they're not too bright'), playing informal Quidditch with Harry and the others, and making a dry observation about the cost of Lockhart's books. These scenes collectively establish George in his home environment \u2014 relaxed, knowledgeable, funny, and comfortable.",
+      "film_portrayal": "These Burrow activity scenes are entirely absent from the film corpus. The film moves quickly from arrival at the Burrow to Diagon Alley, skipping the domestic scenes that contextualise George's character.",
       "damage_type": "nuance/lost material",
       "exposure": 2,
       "impact_weight": 2,
-      "explanation": "The book uses the Wheezes visit to develop Fred and George as genuinely skilled, grateful, and businesslike \u2014 not mere clowns. The film reduces them to comic performers, losing the dimension of their entrepreneurial seriousness and their meaningful bond with Harry (who funded their dream)."
+      "explanation": "The loss of the Burrow domestic scenes removes the context in which George is most naturalistically himself. Without them, the audience never sees him in his element \u2014 comfortable, witty, and competent on home ground. This contributes to George being perceived as a plot-functional background character rather than a fully realised person.",
+      "book": "2_chamber_of_secrets"
     },
     {
-      "scene": "Film Scene 2 (Weasleys' Wizard Wheezes) - Absence of Harry's tour and the twins refusing his payment",
-      "book_baseline": "Book Scenes 44\u201347 explicitly show George telling Harry to take anything for free, Harry trying to pay, Fred firmly waving away his gold, and George reminding Harry that he gave them their start-up loan and they haven't forgotten. This is a key moment of reciprocal loyalty and gratitude.",
-      "film_portrayal": "No such exchange occurs in the film corpus. Harry is steered through the shop but the financial history and the gesture of gratitude are entirely absent.",
+      "scene": "Chamber of Secrets - Ginny teasing / Percy's girlfriend reveal on train (Book scene absent from film corpus)",
+      "book_baseline": "On the Hogwarts Express home, when Ginny reveals Percy's secret girlfriend, Fred drops a stack of books on George's head in delight, and George sniggers 'Definitely not' when asked if they'll tease Percy \u2014 clearly already planning to. This is a small but warm and funny family dynamic scene establishing the twins' mischievous but affectionate relationship with their siblings.",
+      "film_portrayal": "This scene does not appear in the film corpus.",
+      "damage_type": "relationship | nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor but characterful moment of sibling warmth and mischief is lost. The twins' relationship with Percy \u2014 their fondness expressed through teasing \u2014 is never represented in the film.",
+      "book": "2_chamber_of_secrets"
+    },
+    {
+      "scene": "Film Scene 5 (Clock Tower Courtyard / Entrance Hall) - Marauder's Map handover",
+      "book_baseline": "In the book, Fred and George seek Harry out deliberately, taking him into a private empty classroom, spending time telling the story of how they stole the map from Filch in first year (the Dungbomb diversion, whipping open the drawer), expressing genuine sentimental attachment ('It's a wrench, giving it to you'), and explaining how to use it step by step. George activates it and both twins linger to share their reverence for the Marauders ('Noble men, working tirelessly to help a new generation of lawbreakers'). The scene is rich with personality, wit, shared history, and the twins' characteristic blend of rule-breaking pride and warmth toward Harry.",
+      "film_portrayal": "In the film, Fred and George intercept Harry who is already sneaking out under his Invisibility Cloak. The handover is brisk and functional. The backstory of stealing the map from Filch is reduced to a single throwaway line ('Nicked it from Filch's office, of course, first year'). The extended storytelling, the Dungbomb anecdote, and the emotional weight of the gift are absent. The twins' sentimentality and their pride in their own mischievous history are largely cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene is one of the twins' defining character moments \u2014 it showcases their wit, their pride in rule-breaking, their generosity toward Harry, and their bond with him. The film reduces it to a plot transaction. While the functional information is conveyed, the personality and relationship texture that make Fred and George memorable are stripped away.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 (Clock Tower Courtyard) - Fred and George catch Harry under the Cloak",
+      "book_baseline": "In the book, Fred and George proactively seek Harry out near the one-eyed witch statue and invite him into an empty classroom. They are the agents of the scene \u2014 they have planned this gift, chosen the moment, and take the lead throughout. Their initiative reflects their resourcefulness and their affectionate relationship with Harry.",
+      "film_portrayal": "In the film, Fred and George stumble upon Harry already attempting to sneak out, and the handover happens reactively. Fred says 'Clever, Harry. But not clever enough,' framing the twins as interceptors rather than generous benefactors acting on their own initiative.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The shift from proactive gift-givers to reactive interceptors subtly diminishes the twins' agency and the sense of deliberate generosity. In the book they chose to give Harry the map; in the film it feels more incidental, reducing the warmth and intentionality of the gesture.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 4 (Hospital Wing) - George's joke after Harry falls",
+      "book_baseline": "The book establishes George as someone who is genuinely affected by the dementors ('I wasn't too happy myself. They're horrible things, those dementors') and who offers Harry bracingly kind reassurance after difficult moments, while also being capable of humor. His emotional range includes real sympathy alongside wit.",
+      "film_portrayal": "In the hospital wing scene, George's only line is a quip: 'Yeah, c'mon, Ron. We'll walk you off the Astronomy Tower and see how you come out looking.' The moment is purely comedic \u2014 George functions as a joke-delivery machine with no emotional undertone.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While humor is core to George's character, the book consistently shows him capable of genuine warmth and empathy alongside the jokes. Reducing him to pure comic relief in a moment where Harry has just had a serious fall flattens his characterization slightly, though the damage is limited given the brevity.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 (Entrance Hall) - Marauder's Map explanation replaces book's private classroom scene",
+      "book_baseline": "The book has George and Fred take turns explaining the map's mechanics warmly and at length, including George's impersonation of Percy ('So, young Harry, mind you behave yourself') and Fred's admonition about wiping it. The scene ends with both twins smirking in a 'satisfied sort of way' \u2014 conveying self-pleasure, mischief, and affection simultaneously.",
+      "film_portrayal": "The film's explanation is split between Fred and George in rapid, almost ping-pong dialogue that is snappy and efficient but lacks the book's warmth and lingering humor. The Percy impersonation is absent. There is no moment of the twins savoring their own cleverness or expressing affection for the Marauders beyond one line from George.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Percy impersonation and the twins' self-satisfied exit are small but characteristic moments that reinforce their voice and humor. Their absence makes the film twins slightly more generic as comic double-acts rather than fully individuated characters with their own history and style.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Aging Potion / Goblet submission sequence",
+      "book_baseline": "Books establish that after being ejected and sprouting white beards, Fred and George join in laughing at themselves once they get up and see each other's beards ('Even Fred and George joined in, once they had gotten to their feet and taken a good look at each other's beards'). They take the failure with good humor and self-awareness.",
+      "film_portrayal": "In the film, after being ejected and growing beards, Fred and George immediately begin physically fighting each other, bickering and trading insults ('You said! You said!' / 'Oh right, you want a piece of me?! I'll tear your ears off!'). The scene plays them as squabbling and petty rather than self-deprecating and good-humored.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Fred and George are defined by mutual solidarity and shared humor even in failure. They laugh at themselves together. The film replaces this with a petty sibling squabble, undercutting their core characterization as a unified, self-assured comedic duo and reducing them to generic slapstick.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Death Eater attack at the campsite",
+      "book_baseline": "The book establishes Fred and George as independently capable: they lead Ginny to safety through the woods and are confirmed unhurt but shaken when the group reconvenes in the tent ('Fred, George, and Ginny looked unhurt, though shaken'). Arthur explicitly assigns them responsibility: 'Fred, George! Ginny is your responsibility. Go!'",
+      "film_portrayal": "Arthur gives the same verbal instruction ('Fred, George! Ginny is your responsibility. Go!'), but the film provides no subsequent evidence of Fred and George successfully executing this responsibility. Their agency in the chaos is not shown; they simply disappear from the scene with no follow-through shown on screen in the corpus.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book confirms Fred and George competently protect Ginny and reach safety, showing they can be relied upon in a crisis. The film assigns them the task verbally but does not demonstrate its completion, leaving their competence and reliability in a dangerous situation unestablished for the audience.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 6 \u2013 Second task betting scene",
+      "book_baseline": "The book's betting scene is embedded in a broader narrative of Fred and George's entrepreneurial ambition and their ultimately being cheated by Bagman \u2014 a consequential subplot that leads directly to Harry giving them his prize money. Their businesslike approach to the bet ('we've got big plans for this money') and their dignified but bitter response to being swindled are key character beats.",
+      "film_portrayal": "In the film, Fred and George appear briefly taking bets during the second task ('Any bets? Any bets? Come on, place your bets! / Four go down, but do four come up?'). This is played purely for dark humor. There is no indication that this connects to a larger financial scheme, no mention of Bagman cheating them, and no setup for Harry's later gift of the prize money.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Bagman cheating subplot is the direct cause of Harry giving Fred and George his Triwizard winnings \u2014 the most significant act of generosity in the book's ending and the founding capital of Weasleys' Wizard Wheezes. By reducing their betting to a throwaway gag with no consequences, the film severs the causal and emotional chain that makes Harry's gift meaningful and that validates Fred and George's entrepreneurial arc.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Post-first-task celebration in Gryffindor common room",
+      "book_baseline": "In the book, Fred and George celebrate Harry's success genuinely and carry him on their shoulders. They are shown as loyal members of the Gryffindor community rallying around Harry. The moment is warm and communal.",
+      "film_portrayal": "In the film, Fred and George appear briefly carrying Harry on their shoulders in the common room celebration. However, the corpus shows their dialogue is almost entirely focused on dark jokes about Harry's potential death or injury ('Knew you wouldn't die.' / 'Lose a leg.' / 'Or an arm.' / 'Pack it in altogether? Never!'). The warmth is undercut by a tone that makes their support sound flippant.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While some gallows humor is in character, the film version strips the celebration of genuine warmth and replaces it almost entirely with morbid quips. The book's moment of real solidarity between Harry and the twins is diluted, slightly weakening the sense that the Weasley twins genuinely care about Harry beyond comic material.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Transfiguration/Yule Ball dance lesson",
+      "book_baseline": "The book does not place Fred and George in a formal dance lesson context with McGonagall. Their humor in the book is self-directed and entrepreneurial. Fred asking Angelina to the ball is a casual, confident aside.",
+      "film_portrayal": "In the film, Fred and George are shown in McGonagall's dance class mocking the lesson by repeatedly attempting the 'babbling bumbling band of baboons' tongue twister ('Try saying that five times fast, huh?' / 'Babbling, bumbling band of baboons\u2026'). While amusing, this is their primary characterization beat in the scene \u2014 reducing them to background jesters reacting to McGonagall rather than active agents with their own agenda.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent with a pattern: the film uses Fred and George as reactive comic relief in other characters' scenes rather than giving them their own purposeful beats. The tongue-twister gag is funny but substitutes genuine characterization for easy laughs.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 King's Cross platform farewell; Fred and George absent from active dialogue",
+      "book_baseline": "Book Scene 487: Fred and George appear on the platform wearing brand-new lurid green scaly jackets, a visible marker of their independent identity and the joke-shop funding. They are present and characterful in the send-off crowd.",
+      "film_portrayal": "Fred and George are physically present on the platform but have no lines or distinguishing behaviour. They are background figures with no personality on display.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor missed opportunity to reinforce their distinctive identity at a transitional moment, but the scene is brief and their absence from dialogue causes only superficial damage.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 Grimmauld Place briefing; George's arrival greeting",
+      "book_baseline": "Book Scene 4: George greets Harry with 'Hello, Harry. We thought we heard your dulcet tones.' \u2014 warm, witty, immediately characterising him as the slightly more measured of the twins, affectionate toward Harry.",
+      "film_portrayal": "Film Scene 1: George says 'Don't bottle it up, though, mate. Let it out.' This is a single quip shared almost interchangeably with Fred. The warmth and individuality of George's book greeting is collapsed into a generic twin gag.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "George's book voice has a distinct warmth and wit that individualises him from Fred. The film reduces both twins to a single comedic unit, beginning the pattern of erasing George's separate characterisation.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Grimmauld Place Order briefing; George and Fred excluded from political discussion",
+      "book_baseline": "Book Scenes 8\u201319, 32\u201345: George actively participates in political discussion \u2014 reporting on Snape, Percy, Fudge's Ministry manoeuvres, and the Order's activities. He is crestfallen when the Extendable Ears are blocked, hotly demands the same information Harry receives, and asserts his right as an adult wizard to be treated equally. This is a defining character beat showing his intelligence, political awareness, and justified grievance.",
+      "film_portrayal": "Film Scene 1: The Order briefing is dominated by adult characters. Fred and George are present in the room but contribute nothing to the political discussion. Their only lines are brief quips on Harry's arrival. Their 'we are of age' confrontation with Mrs Weasley is entirely absent.",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 4,
+      "explanation": "The book establishes George (and Fred) as politically aware young adults who have earned information through their own ingenuity and who fight for equal treatment. Cutting this removes a significant dimension of George's character \u2014 his seriousness beneath the humour \u2014 and erases the tension between his adult status and Mrs Weasley's protectiveness, which is a meaningful family dynamic.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Skiving Snackboxes product demonstration in common room",
+      "book_baseline": "Book Scenes 257\u2013263: George and Fred stage a full public demonstration of the Puking Pastilles in the common room, taking turns vomiting into a bucket, collecting advance orders, and counting gold late into the night. Harry observes that despite only three OWLs, they 'really know their stuff.' This is an extended scene of entrepreneurial confidence, competence, and showmanship.",
+      "film_portrayal": "Film Scene 3: The Skiving Snackboxes are introduced only in a brief exchange where Fred says 'Sweets that make you ill' and George adds 'Get you out of class whenever you like.' There is no demonstration, no crowd, no business acumen on display. The product is summarised in two lines.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's common room demonstration is a key scene establishing George and Fred as genuinely skilled and commercially serious operators, not just pranksters. The film reduces their business to a throwaway joke, losing the intelligence and ambition that distinguish them.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 DA first-year testing / Hermione confrontation",
+      "book_baseline": "Book Scenes 177\u2013193: George and Fred test Fainting Fancies on first-years in the common room, clipboard in hand. When Hermione threatens to write to their mother, George is genuinely horrified \u2014 'You wouldn't' \u2014 stepping back. This is a precise character beat: George is bold enough to conduct ethically grey experiments on children but has a specific and authentic fear of Mrs Weasley's disapproval. It also shows his relationship with Hermione as adversarial but not malicious.",
+      "film_portrayal": "This scene does not appear in the film corpus. The first-year testing subplot and the Hermione confrontation are absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The scene reveals a specific psychological texture in George \u2014 the gap between his public boldness and his genuine vulnerability to maternal judgment. Its absence flattens him into a simpler, purely comic figure.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 4 \u2014 George casting Patronus in DA session",
+      "book_baseline": "The book corpus does not include George producing a Patronus in DA sessions. George is present in DA scenes but the book does not single him out for a Patronus moment in the corpus provided.",
+      "film_portrayal": "Film Scene 3: 'George casts a doe' \u2014 George produces a Patronus (described as a doe) during a DA session. The book does not establish this in the provided corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is a minor addition rather than a damaging divergence, but it is worth noting as an unearned individualising moment not supported by the corpus. Confidence is low on impact given the corpus limitation. Scored minimally.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Quidditch ban / George's attack on Malfoy aftermath",
+      "book_baseline": "Book Scenes 285\u2013305: After Malfoy insults Harry's mother and the Weasley family, George attacks Malfoy alongside Harry. He is subsequently given a lifetime Quidditch ban by Umbridge. In McGonagall's office, George explicitly says 'He insulted my parents. And Harry's mother.' He is then shown sloping off to bed 'glowering,' his emotional state given weight. The episode shows George's fierce loyalty, his willingness to act on principle at personal cost, and his protectiveness of family honour.",
+      "film_portrayal": "The Quidditch match, the Malfoy confrontation, George's attack, and the subsequent ban and McGonagall scene are entirely absent from the film corpus.",
+      "damage_type": "agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is one of George's most significant individual moments in the book \u2014 an act of moral agency driven by loyalty and family honour, with real consequences (lifetime Quidditch ban). Its absence removes the only scene in the corpus where George acts independently of Fred on a matter of serious personal principle, and where his emotional depth (protectiveness, anger, cost) is fully visible.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 / Scene 3 \u2014 George and Fred as interchangeable comic unit throughout",
+      "book_baseline": "Book corpus throughout (Scenes 6, 13, 32, 34, 54, 82, 110, 117, 165, 182, 192, 231, 256, 276, 298, 324, 326, 344, 347, 350): George consistently has distinct lines, reactions, and moments separate from Fred \u2014 he is crestfallen about the Extendable Ears failing, has an 'uncharacteristically ugly look' about Percy, is the one who gently checks on the first-year girl after the Fainting Fancies, defends Harry's mother to McGonagall, and voices his father's potential death with raw emotion ('It's our dad dying we're talking about!').",
+      "film_portrayal": "Film Scenes 1, 3, 4: Fred and George's lines are almost entirely interchangeable. The film does not give George any moment that is distinctly his rather than theirs as a unit. Even in the fireworks sequence (Film Scene 4), they act in perfect synchrony with no individualised beats.",
+      "damage_type": "personality/voice",
+      "exposure": 3,
+      "impact_weight": 3,
+      "explanation": "The systematic collapse of George into a twin unit erodes his individual characterisation across the entire film. The book carefully distinguishes him \u2014 he is slightly warmer, occasionally more reflective, and capable of genuine emotional rawness. The film's failure to individualise him is a persistent character-level damage that accumulates across every scene.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 1 \u2014 Mr Weasley's injury; George's emotional response at Grimmauld Place",
+      "book_baseline": "Book Scenes 320\u2013335: When news of Mr Weasley's attack arrives, George is fiercely emotional \u2014 he shouts 'It's our dad dying we're talking about!' at Sirius, stares accusatorially at Harry, is described as 'mutinous,' and only reluctantly concedes after Sirius's argument. When Mrs Weasley returns with good news, Fred falls back into his chair with his hands over his face while 'George and Ginny got up, walked swiftly over to their mother and hugged her.' These are carefully differentiated emotional responses between the twins.",
+      "film_portrayal": "The Grimmauld Place night vigil, the confrontation with Sirius, and the differentiated emotional responses of George and Fred are absent from the film corpus. The Christmas sequence at Grimmauld Place (Film Scene 3) jumps past the emotional weight of the night.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The book's Mr Weasley crisis is the moment George's love for his father and his capacity for raw, unguarded emotion are most visible. His outburst at Sirius and his tender reunion with his mother are among the most humanising moments in his arc. Their absence removes the primary emotional depth scene for George in the entire book.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Percy estrangement; George's reaction",
+      "book_baseline": "Book Scene 13: George has an 'uncharacteristically ugly look on his face' when discussing Percy \u2014 a precise narratorial note that this bitterness is unusual for him, marking the Percy estrangement as genuinely wounding. Book Scene 357: George reports, flatly, that Percy sent back his Christmas jumper 'without a note' and hasn't asked after their father. Book Scene 359: George helps himself to a Chocolate Frog and says practically, 'Best let Lupin cheer her up before we go down for breakfast.' The composure is a mask over real hurt.",
+      "film_portrayal": "Percy's estrangement and its effect on George are not addressed in the film corpus at all. The Christmas scene (Film Scene 3) shows family warmth but no reference to Percy.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "George's relationship with Percy \u2014 the ugly look, the flat report of the returned jumper, the pragmatic comfort-seeking \u2014 is a thread of genuine sibling pain beneath the comedy. Its absence removes a layer of family complexity from his characterisation.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 4 \u2014 Fireworks departure sequence; George's farewell speech absent",
+      "book_baseline": "Book Scenes 444\u2013454: George says 'Yeah, I've been feeling that way myself,' 'Definitely,' 'Yeah, don't bother to keep in touch,' and 'Special discounts to Hogwarts students who swear they're going to use our products to get rid of this old bat' \u2014 a sequence of lines that are cool, deliberate, and subversive. He and Fred salute Peeves and depart to 'tumultuous applause.' Book Scene 455: Their legend is immediately established; the swamp persists as a monument.",
+      "film_portrayal": "Film Scene 4: The departure sequence is shown visually with fireworks, but George's specific lines of defiance ('don't bother to keep in touch,' the discount offer) are either absent or absorbed into rapid action. The corpus records Fred's lines ('All right, Professor!', 'Here you go!') but George's individual farewell speech is not captured in the film corpus dialogue.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "George's cool, deliberate farewell lines in the book are the culmination of his arc as a principled rebel. The film renders the departure as primarily a visual spectacle, reducing George's voice in the climactic moment of his story in this book.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 Headless Hats demonstration; George trying to put one on Harry",
+      "book_baseline": "Book Scenes 374\u2013380: George tries to put a Headless Hat on Harry as he crosses the common room, a brief but warm moment of playful physicality. The scene also prompts Hermione's genuinely impressed analysis of the charm work \u2014 'rather clever to have extended the field of invisibility beyond the boundaries of the charmed object' \u2014 which in turn reflects on George and Fred's real magical intelligence.",
+      "film_portrayal": "The Headless Hats demonstration does not appear in the film corpus.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor loss, but the Headless Hats scene is one of several moments where the book signals George and Fred's genuine magical ingenuity through Hermione's admiration. Each such omission incrementally reduces the case for their intelligence.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 3 \u2014 DA session; Fred and George betting on Hermione stunning Ron",
+      "book_baseline": "Book corpus does not include this specific beat, but the film has Fred saying 'One sickle' and George saying 'You're on' as Hermione prepares to stun Ron \u2014 a moment that reduces them to a wagering chorus commenting on others' action.",
+      "film_portrayal": "Film Scene 3: Fred and George's primary function in the DA sequence is a brief betting exchange on Hermione stunning Ron, then George being stunned by Hermione ('Thank you' / 'Shut up'). This is their most prominent DA characterisation.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The DA is primarily Harry's domain in both book and film, so limited George presence is expected. However, reducing them to a betting gag as their main DA moment underscores the film's tendency to use them purely for comic punctuation rather than as participants with their own investment in the group.",
+      "book": "5_order_of_the_phoenix"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 Weasleys' Wizard Wheezes shop floor",
+      "book_baseline": "In the book corpus (Scenes 26\u201347), Fred and George individually guide Harry through the shop: Fred shows him the Muggle magic tricks section, George warns the browsing boy about pocketing merchandise, George takes Harry through the curtain to the serious Defense products (Shield Hats, Instant Darkness Powder, Decoy Detonators), and both twins separately insist Harry takes everything for free, citing his start-up loan. Their voices, humor, and individual initiative are clearly differentiated throughout the tour.",
+      "film_portrayal": "In the film, Fred and George function almost entirely as a synchronized unit \u2014 finishing each other's sentences, moving in lockstep on the counter, jointly directing Harry. The individual characterization of George (who in the book leads the tour of the serious product line and is the one who sweeps off to help customers, telling Harry to take what he wants) is collapsed into an indistinguishable twin act. The gratitude scene (George sternly reminding Harry of the loan) is absent entirely.",
+      "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The book corpus establishes that Fred and George, while complementary, have individually voiced moments of initiative, generosity, and business acumen. The film reduces them to a comedy double-act with synchronized punchlines, losing the specific beat where George invokes Harry's loan as the reason for refusing payment \u2014 a moment that honors Harry's earlier sacrifice and George's loyalty. The characterization becomes surface-level performance rather than personality.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 Harry offered no free merchandise / loan acknowledgment absent",
+      "book_baseline": "Book corpus Scenes 44\u201347 explicitly show George telling Harry to take whatever he wants at no charge, Harry protesting, Fred waving away his gold, and George sternly stating: 'You gave us our start-up loan, we haven't forgotten.' This is a direct callback to Harry's gift of his Triwizard winnings and is a defining moment of the twins' loyalty and integrity.",
+      "film_portrayal": "The film shows no equivalent scene. Harry visits the shop, is given a sample of Peruvian Instant Darkness Powder by George, but there is no offer of free merchandise, no refusal of payment, and no acknowledgment of the start-up loan Harry provided.",
       "damage_type": "relationship",
       "exposure": 1,
       "impact_weight": 3,
-      "explanation": "The twins' acknowledgment of Harry's loan and their refusal to accept his money is one of the few moments in the saga where Harry's earlier sacrifice (giving away his Triwizard winnings) pays off emotionally and relationally. Its absence damages the Harry\u2013Fred/George bond and removes a meaningful payoff for Harry's generosity in Goblet of Fire."
+      "explanation": "The loan acknowledgment is the primary evidence in the book that Fred and George maintain a deep, grateful relationship with Harry that transcends humor. Its absence means the film loses the emotional reciprocity between Harry and the twins \u2014 a relationship beat that validates Harry's earlier generosity (Goblet of Fire) and establishes the twins as loyal friends, not just comic relief. The relationship dynamic is materially weakened.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 2 (Weasleys' Wizard Wheezes) - Absence of the back room and serious defense product line",
-      "book_baseline": "Book Scenes 30\u201338 describe a dedicated back room with subdued packaging containing Shield Hats, Shield Cloaks, Shield Gloves, Instant Darkness Powder, and Decoy Detonators \u2014 products Fred and George developed in response to the war. George explicitly says they've expanded into Defense Against the Dark Arts as a 'money spinner' and credits Harry's teaching. This shows their response to the war and their practical intelligence.",
-      "film_portrayal": "The film shows only the flashy front-of-shop products (Fainting Fancies, Nosebleed Nougats, Puking Pastilles, Pygmy Puffs). The back room and the entire serious defense product line are absent from the film corpus.",
+      "scene": "Film Scene 2 \u2014 Serious Defense product line (back room) absent",
+      "book_baseline": "Book corpus Scenes 30\u201340 show Fred and George leading Harry through a curtained back room stocked with Shield Hats, Shield Cloaks, Shield Gloves, Instant Darkness Powder, and Decoy Detonators. George enthusiastically explains the Ministry ordered 500 Shield Hats, crediting Harry's DA teaching ('they didn't have you teaching them, Harry'). This section establishes the twins as genuinely contributing to the war effort through commerce.",
+      "film_portrayal": "The film's shop scene contains no back room, no Shield products, and no reference to Ministry orders. The only Defense-adjacent item shown is Peruvian Instant Darkness Powder, mentioned briefly as 'a real money spinner' without the context of the serious product line or the Ministry connection.",
       "damage_type": "nuance/lost material",
       "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The back room establishes that Fred and George are not merely pranksters but are actively responding to Voldemort's return with practical ingenuity. Losing this removes a layer of character depth and their implicit alignment with the resistance, reducing them to one-dimensional comic relief."
+      "explanation": "The back room scene in the book establishes Fred and George as participants in the wider resistance to Voldemort \u2014 their joke shop is not merely escapism but a practical supplier to the war effort, validated by Ministry bulk orders. George's specific credit to Harry's DA teaching also links the twins meaningfully to the broader saga. The film's omission reduces the shop to pure comedy spectacle, losing the dimension of the twins as serious contributors to the conflict.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 2 (Weasleys' Wizard Wheezes) - Fred and George's acknowledgment of Harry's teaching ('You wouldn't believe how many people can't do a decent Shield Charm... they didn't have you teaching them, Harry')",
-      "book_baseline": "Book Scene 32\u201333: George explicitly credits Harry's teaching of the DA as the inspiration for the Shield Hat line, directly connecting Harry's resistance work to the twins' commercial and practical contribution to the war effort.",
-      "film_portrayal": "This line and its context are entirely absent from the film corpus. No acknowledgment of the DA or Harry's teaching appears in the shop scene.",
+      "scene": "Film Scene 2 \u2014 George's individual credit to Harry's DA teaching absent",
+      "book_baseline": "Book corpus Scene 32: George says to Harry, ''Course, they didn't have you teaching them, Harry' \u2014 directly attributing the success of the Shield Hat line to Harry's DA lessons. This is a specific, characterizing moment of George acknowledging Harry's influence and crediting him warmly.",
+      "film_portrayal": "No such acknowledgment exists in the film scene. George has no line that credits Harry's role in the DA or connects the twins' commercial success to Harry's teaching.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "This moment ties Harry's earlier agency (teaching the DA) to real-world consequences, and reinforces the twins' respect for Harry beyond mere friendship. Its absence weakens the thematic through-line of Harry's influence and the twins' genuine regard for him."
+      "explanation": "Though brief, this line in the book is one of the few moments that shows George (specifically, not Fred) expressing warm personal regard for Harry in a non-comic register. Its absence is a small but real loss to the Harry\u2013George relationship dynamic.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 3 (Ext. Diagon Alley) - Ron attributes the shop's success solely to Fred's philosophy ('Fred reckons people need a laugh these days')",
-      "book_baseline": "Book Scene 7: Ron describes the twins as 'raking in the Galleons' and expresses excitement about visiting. The success is framed as the result of genuine talent and flair for business (Mrs. Weasley also notes their 'flair for business' in Scene 3). The motivation is entrepreneurial, with the wartime context implicit but not the sole explanation.",
-      "film_portrayal": "Film Scene 3 reduces the explanation for the shop's success entirely to Fred's single quoted philosophy: 'Fred reckons people need a laugh these days.' While this is not inaccurate, it flattens the twins' business acumen into a single feel-good rationale and attributes the insight only to Fred, erasing George's co-equal role.",
+      "scene": "Film Scene 3 \u2014 Post-shop street scene: Ron attributes the shop's success solely to Fred",
+      "book_baseline": "Book corpus Scene 7: Ron says 'They're raking in the Galleons!' referring to both Fred and George equally. Throughout the book corpus the business is consistently framed as a joint enterprise of equal partners.",
+      "film_portrayal": "Film Scene 3 has Ron say 'Fred reckons people need a laugh these days' \u2014 attributing the philosophy behind the shop's success to Fred alone, with no equivalent statement from or about George.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "Minor but symptomatic: the film consistently presents Fred as the spokesperson and idea-originator, with George as secondary. The book treats them as genuine equals. This line credits Fred alone for the shop's wartime rationale, subtly diminishing George's co-equal identity."
+      "explanation": "A minor but illustrative example of George being systematically backgrounded relative to Fred across the film corpus. The book treats them as equal co-owners with shared vision; the film incrementally centers Fred as the spokesman, further eroding George's individual identity.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 5 & 6 (Burrow attack / reeds chase) - Fred and George participate in the chase but have no distinct action or dialogue",
-      "book_baseline": "The book does not contain a Burrow attack scene (this is a film invention), so there is no book baseline for this specific event. However, the book corpus consistently shows Fred and George as witty, active, and vocally distinct in group scenes (e.g., hospital wing visit, Christmas dinner, kitchen banter).",
-      "film_portrayal": "In Film Scenes 5 and 6, Fred and George are listed among the group that rushes into the marsh but have zero dialogue and no distinct action. They are visual extras in a sequence that prominently features Ginny, Harry, and Lupin.",
+      "scene": "Film Scene 4 \u2014 Christmas gathering: Fred and George's role reduced to background festivity",
+      "book_baseline": "Book corpus Scenes 85\u2013101 and 103\u2013117 show Fred and George with distinct, active voices at Christmas: they tease Ron about Lavender Brown (Scenes 91\u201393), mock Percy's absence with sharp wit (Scenes 96\u201397), refuse to help Ron with sprouts while delivering a comic lecture about character-building (Scene 99), create the golden gnome angel (Scene 103), and play Exploding Snap (Scene 104). Fred's left buttock is a running gag (Scenes 83\u201385) and Percy's parsnip-splattered departure is credited to Fred, George, and Ginny jointly (Scene 117).",
+      "film_portrayal": "Film Scene 4 shows Fred and George filling cups with nog and present for the holiday gathering, but they have no individual spoken lines in this scene \u2014 they are background set-dressing. The teasing of Ron, the Percy confrontation dynamic, the sprouts scene, and the gnome angel are all absent from the film corpus.",
       "damage_type": "personality/voice",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "The Christmas sequence in the book is the richest concentration of Fred and George's individual characterization outside the shop: their wit, their loyalty, their contempt for Percy's betrayal, and their specific sibling dynamic with Ron and Ginny. The film corpus reduces them to cheerful background figures pouring drinks, stripping away multiple beats that establish their voices and their role within the family.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 5 & 6 \u2014 Burrow attack: Fred and George present but undifferentiated",
+      "book_baseline": "The Burrow attack sequence is a film invention not present in the book corpus at all. However, within the film's own logic, Fred and George appear in Scenes 5 and 6 as part of the group chasing through the reeds, with no individual lines or actions distinguishing them from Ron or Arthur.",
+      "film_portrayal": "Fred and George appear as part of the group ('Ron, Fred and George appear') and later 'come thrashing into the clearing' but have no individual lines, decisions, or actions. They are purely ensemble background figures in an action sequence.",
+      "damage_type": "agency/function",
       "exposure": 1,
       "impact_weight": 1,
-      "explanation": "While the Burrow attack is a film invention and cannot be faulted for book divergence per se, the complete silence of Fred and George in an action sequence \u2014 given their established voices and wit in the book \u2014 reflects the film's broader pattern of reducing them to background presence. Minor damage, but consistent with the overall flattening."
+      "explanation": "While the Burrow attack is a film-original scene (not a book divergence), the treatment of Fred and George within it continues their pattern of reduced individual agency in the film corpus. They are physically present but dramatically absent, which is consistent with the overall film characterization damage rather than a standalone book-divergence issue. Weight is kept low as this scene has no book baseline.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 4 (Weasley House Christmas) - Fred and George fill cups with nog and are otherwise background figures",
-      "book_baseline": "Book Scenes 85\u2013101 show Fred and George dominating the Christmas kitchen scene with extended, sharp banter: teasing Ron about Lavender Brown, mock-philosophizing about character-building, throwing paper airplanes, and leaving to chat up a girl in the village. They are witty, present, and central to the family dynamic.",
-      "film_portrayal": "In Film Scene 4, Fred and George are described only as filling cups with steaming nog. They have no dialogue in this scene. The extended banter with Ron, the teasing about Lavender, and the sparring with Mrs. Weasley are all absent.",
-      "damage_type": "personality/voice",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The Christmas kitchen scene is one of the book's richest showcases for Fred and George's distinct voices and their role in the Weasley family dynamic. The film reduces them to silent background domesticity, losing the humor, the sibling teasing, and the sense of their personality filling a room."
-    },
-    {
-      "scene": "Film Scene 4 (Weasley House Christmas) - Absence of Percy confrontation and Fred/George's stony-faced reaction",
-      "book_baseline": "Book Scene 111 and 117: When Percy arrives with Scrimgeour, 'Mr. Weasley, Fred, and George were all observing him, stony-faced.' Fred and George (along with Ginny) later claim credit for splattering Percy's glasses with mashed parsnip when he storms out. This shows Fred and George's protective family loyalty and their refusal to forgive Percy's betrayal of the family.",
-      "film_portrayal": "The Percy/Scrimgeour Christmas visit does not appear in the film corpus at all, and therefore Fred and George's stony-faced response and the parsnip incident are absent.",
-      "damage_type": "relationship",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "Fred and George's cold reception of Percy and their gleeful claim of responsibility for the parsnip assault reveals their fierce family loyalty beneath the jokes. This is meaningful characterization \u2014 they are not merely funny, they hold grudges for genuine moral reasons. Its absence removes a dimension of their emotional depth."
-    },
-    {
-      "scene": "Film Scene 2 (Sitting Room/Kitchen, Seven Potters) \u2013 George's line about being 'scrawny, specky gits'",
-      "book_baseline": "In the book (Scene 5-6), George and Fred's resistance to the plan is expressed through dry, cooperative wit: George notes 'Obviously there's no chance at all of us getting a bit of your hair unless you cooperate,' and Fred follows with the deadpan 'Yeah, thirteen of us against one bloke who's not allowed to use magic.' Their humor is self-aware and pointed at the absurdity of the situation, not at Harry's appearance.",
-      "film_portrayal": "George's film line \u2013 'Yeah, imagine if something went wrong and we were stuck as scrawny, specky gits forever' \u2013 redirects the joke into a mild insult aimed at Harry's physical appearance, replacing the books' wry situational irony with a slightly mean-spirited jab.",
+      "scene": "Film Scene 2 \u2014 Ginny's dating life: Fred (alone) quizzes Ginny about Dean Thomas",
+      "book_baseline": "Book corpus Scene 51: George reappears 'suddenly at their side' and it is George who becomes 'suddenly stern' about not selling love potions to Ginny, and it is George who raises her dating life ('not when she's already got about five boys on the go'). Fred and George jointly participate in teasing Ginny.",
+      "film_portrayal": "In the film it is Fred alone who asks Ginny about Dean Thomas ('Are you not currently dating Dean Thomas?'). George has no line in this exchange.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A minor voice shift: book-George's humor is absurdist and self-deprecating about the situation; film-George here punches downward at Harry. The change is small but slightly misrepresents his comedic register."
+      "explanation": "Another instance of Fred absorbing lines and initiative that the book distributes between the two twins. George's sudden-sternness moment about Ginny's dating is a small but specific character beat that is reassigned to Fred, further collapsing George's individual voice.",
+      "book": "6_half_blood_prince"
     },
     {
-      "scene": "Film Scene 2 (Sitting Room/Kitchen, Seven Potters) \u2013 Fred asks 'Have a lot of experience with that, do you, Mad-Eye?' after the goblin piss line",
-      "book_baseline": "Book Scene 16-21 gives the joking-under-pressure dynamic to George and Fred together, with George in particular making the 'I'm George / I'm only yanking your wand' exchange that shows his quick wit and his enjoyment of confusion even in a tense moment.",
-      "film_portrayal": "The goblin-piss quip and Moody's menacing eye rotation are assigned to Fred alone in the film script. George's parallel contribution in this beat is collapsed, reducing his distinct comedic presence in the scene.",
+      "scene": "Film Scene 2 (Sitting Room/Kitchen - Polyjuice preparation) - George's line about being 'scrawny, specky gits'",
+      "book_baseline": "Book Scene 5-6: George and Fred each deliver distinct, individually voiced jokes. George says 'Obviously there's no chance at all of us getting a bit of your hair unless you cooperate,' and Fred separately says 'Yeah, thirteen of us against one bloke who's not allowed to use magic; we've got no chance.' The twins are differentiated even when playing off each other, each with his own beat.",
+      "film_portrayal": "Film Scene 2: George delivers 'Yeah, imagine if something went wrong and we were stuck as scrawny, specky gits forever,' which is a single composite line blending both twins' banter into one voice. The film then has Fred and George share lines without clear individual distinction, and the script stage direction attributes 'FRED/GEORGE' jointly for 'Wow -- we're identical!'",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The books carefully distinguish Fred and George even when they are playing identical, giving each his own comedic beat and voice. The film collapses them into a shared voice unit in these moments, slightly eroding George's individuality, though the damage is limited because both twins are present and the scene is brief.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 2 (Sitting Room/Kitchen - Polyjuice preparation) - Moody's 'I'm George'/'I'm Fred' exchange omitted",
+      "book_baseline": "Book Scenes 18-21: George corrects Moody for calling him Fred ('I'm George \u2014 Can't you even tell us apart when we're Harry?'), then immediately admits he was yanking Moody's wand and is actually Fred. This is a small but characteristic moment of George's playful deception and self-aware humor, showing him as the one more likely to sustain a prank even mid-crisis.",
+      "film_portrayal": "Film Scene 2: The exchange is entirely absent. There is no moment where either twin corrects or pranks Moody over mistaken identity during the Polyjuice scene. The film moves directly from the transformation to costume distribution.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A small compression: one of the few moments in this scene where George has his own individual comic beat is absorbed into Fred, slightly flattening George as an independent voice rather than one half of a matched pair."
+      "explanation": "A small but characteristic George beat \u2014 the meta-joke of correcting an identity mix-up while transformed into Harry \u2014 is lost. It is a minor omission on its own but contributes to the overall thinning of George's distinct comedic voice in the sequence.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 2 (Seven Potters) \u2013 the 'Fred/George' identity-confusion joke is collapsed into a single shared line 'Wow \u2013 we're identical!'",
-      "book_baseline": "Book Scenes 15-21 devote several distinct beats to the twins exploiting the Polyjuice situation for comedy: the shared exclamation, Fred claiming to be better-looking, George correctly identifying himself to Moody, and then Fred admitting he was lying. This sequence shows both twins operating independently with their own voices within their shared register.",
-      "film_portrayal": "The film script renders the moment as a joint 'FRED/GEORGE: Wow \u2013 we're identical!' followed only by George asking for something 'sporty' and Fred complaining about the colour. The Moody identity-confusion exchange ('I'm George\u2026 I'm only yanking your wand, I'm Fred really') is entirely absent.",
-      "damage_type": "nuance/lost material",
-      "exposure": 1,
-      "impact_weight": 2,
-      "explanation": "The book's identity-swap joke does double duty: it's funny and it establishes George as the twin who gently corrects authority figures while Fred is the one who immediately undermines that correction. Losing it flattens both twins and removes a small but characteristic demonstration of George acting independently of Fred."
-    },
-    {
-      "scene": "Film Scene 6 (Sitting Room, post-injury reveal) \u2013 George's 'Reckon I'm still better-looking than you. Better-looking than Bill, that's for sure.'",
-      "book_baseline": "Book Scene 49 has George's second joke after the 'holey' pun be: 'You'll be able to tell us apart now, anyway, Mum' \u2013 directed at his tear-soaked mother with tender, self-deprecating humour that simultaneously reassures her and acknowledges his disfigurement. The joke is emotionally generous.",
-      "film_portrayal": "The film replaces the tender line to Mrs. Weasley with a competitive quip about being better-looking than Bill. The target and tone shift: instead of comforting his mother, George is sparring lightly with his brothers. Crucially, Bill does not smile and Fleur looks grim, which the script notes, meaning the joke lands awkwardly rather than warmly.",
+      "scene": "Film Scene 6 (Sitting Room - George wounded, ear-related humor) - George's line altered and Fred's response restructured",
+      "book_baseline": "Book Scenes 45-49: George says 'Saintlike' first, then upon opening his eyes delivers the full setup \u2014 'You see... I'm holy. Holey, Fred, geddit?' Fred responds with 'Pathetic... With the whole wide world of ear-related humor before you, you go for holey?' Then George grins at his 'tear-soaked mother' and says 'You'll be able to tell us apart now, anyway, Mum.' This final line to Mrs. Weasley is a distinct, warm-but-wry beat directed at her specifically, showing George's instinct to comfort even while injured.",
+      "film_portrayal": "Film Scene 6: The 'Saint-like' / 'Holey' exchange is preserved faithfully, and Fred's 'Pathetic' retort is retained. However, George's follow-up line to Mrs. Weasley ('You'll be able to tell us apart now, anyway, Mum') is replaced with 'Reckon I'm still better-looking than you. Better-looking than Bill, that's for sure.' The film omits the line directed at his mother entirely.",
       "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "The book line to Mrs. Weasley is a small but precise character moment showing George's instinct to protect the people he loves from grief even while injured. The film substitutes a gag that, by the script's own stage direction, falls flat. It loses the mother-son warmth and slightly misreads George's emotional intelligence."
+      "explanation": "The book's version of this scene gives George a moment of genuine emotional generosity toward his mother \u2014 turning his own disfigurement into a gift of reassurance for her. The film replaces this with a competitive quip aimed at his brothers, which is funny but strips out the George-Mrs. Weasley relational warmth and the self-deprecating courage of the original. It reduces the scene to pure comedy rather than comedy-plus-heart.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 6 (Sitting Room post-injury) \u2013 George's ''Ear, 'ear' and Fred's approving nod",
-      "book_baseline": "Book Scene 66 renders the same joke ('Year, 'ear, 'ear,' said George, with half a glance at Fred, the corner of whose mouth twitched') after Harry's toast to Mad-Eye. Fred's suppressed smile is the book's payoff: George lands the ear-pun and Fred, who had called the 'holey' pun 'pathetic,' involuntarily approves. The joke crowns a rapid comic escalation.",
-      "film_portrayal": "Film Scene 6 has the same ''Ear, 'ear' line followed by 'Fred nods approvingly to his brother' and says 'Better.' This is largely faithful. Minor point: Fred's spoken 'Better' is slightly more explicit than the book's suppressed twitch, reducing the understated quality of the moment.",
+      "scene": "Film Scene 6 (Sitting Room - George wounded) - George's inquiry about Ron and Bill absent",
+      "book_baseline": "Book Scenes 53-54: After the 'holey' jokes, George asks 'Why aren't Ron and Bill huddled round my sickbed?' showing that even injured he is thinking about his brothers and that he notices their absence. When told they are not back yet, his grin fades \u2014 a rare moment of visible fear behind the comedy.",
+      "film_portrayal": "Film Scene 6: George makes no inquiry about his brothers. After the ear jokes and the Mad-Eye revelation, the scene moves on without George showing concern for Ron or Bill's whereabouts.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "Minimal damage; the moment is nearly faithful. The book's payoff is slightly more subtle (a twitched corner of the mouth vs. a nod and verbal 'Better'), but the core dynamic is preserved. Scored low accordingly."
+      "impact_weight": 2,
+      "explanation": "The book uses this beat to show that George's humor is a performance layered over genuine love and anxiety for his family. The grin fading when he learns Ron and Bill aren't back is a brief but important window into the person beneath the jokester. Its absence leaves George's characterization in this scene as pure comic relief rather than comic relief concealing fear.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 8 (Kitchen morning, wedding day) \u2013 George wanders in brushing teeth and sticks toothbrush in ear-hole",
-      "book_baseline": "The book corpus does not contain a direct equivalent morning-kitchen scene with this specific gag. The book establishes (Scene 77) that 'despite the twins' many jokes about it,' George's wound had become a source of ongoing twin humour by Harry's birthday. George's attitude toward his injury throughout the book is characterised by wit deployed to reassure others.",
-      "film_portrayal": "George wanders in, sticks a toothbrush in his ear-hole, pours tea, winks at Harry and Ginny, says 'Morning.' The gag is visual and self-contained; George is used primarily as a comic intrusion into a Harry/Ginny intimate moment, then exits.",
+      "scene": "Film Scene 8 (Kitchen - morning of wedding) - George uses his ear-hole as a toothbrush holder",
+      "book_baseline": "The book corpus does not contain a morning-before-wedding scene in which George interacts with Harry and Ginny. The book establishes George's ear injury as something the family is still adjusting to (Book Scene 77: 'Harry was not yet used to the dark hole in the side of his head, despite the twins' many jokes about it'), but treats it with a degree of residual gravity as well as humor.",
+      "film_portrayal": "Film Scene 8: George wanders into the kitchen brushing his teeth, inserts the toothbrush into his ear-hole, pours tea, and winks at Harry and Ginny before saying 'Morning.' He is used entirely as a sight-gag and mood-lightener in someone else's romantic scene.",
       "damage_type": "personality/voice",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "The moment is broadly in character \u2013 George making light of his injury is consistent with the books \u2013 but his function here is entirely as a sight-gag/comic interrupter for Harry and Ginny rather than a character in his own right. Damage is minor."
+      "explanation": "While George making dark jokes about his injury is book-consistent, deploying him as a purely visual gag prop in Harry and Ginny's intimate scene reduces him to comic furniture. He has no agency or interiority in this moment. The damage is low-level but symptomatic of the film's tendency to use George as a tone-reset device rather than a character in his own right.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 10 (Wedding reception) \u2013 Fred and George 'rush the dance floor, briefly sweep Fleur away from Bill, then begin to dance with each other'",
-      "book_baseline": "Book Scene 112 notes that 'Fred and George had long since disappeared into the darkness with a pair of Fleur's cousins.' Their wedding-night activity in the book is flirtatious pursuit of the veela cousins, consistent with George's line at Scene 88 ('They'll need help understanding our English customs, I'll look after them') and Fred actively escorting pretty French girls at Scene 89.",
-      "film_portrayal": "The film has them dancing together on the floor in a comic bit, sweeping Fleur away from Bill. Their interest in Fleur's cousins is not shown; instead they are used as background comic relief dancing with each other.",
-      "damage_type": "nuance/lost material",
+      "scene": "Film Scene 11 (Tent - Ron's departure) - Ron's radio vigil references Fred and George as worry rather than relationship",
+      "book_baseline": "Book Scene 118: Ron tells Harry and Hermione he could not return to the Burrow because 'Fred and George would've been great about it' (sarcastically) \u2014 implying he feared their judgment for abandoning Harry. This establishes Fred and George as moral presences whose opinion matters to Ron, giving them relational weight even in absence.",
+      "film_portrayal": "Film Scene 11: Ron's speech names 'Fred or George or Mum' as names he dreads hearing on the casualty radio \u2014 they are positioned as people he fears losing, not as people whose judgment he fears. The distinction shifts Fred and George from agents with moral authority over Ron to passive victims Ron worries about.",
+      "damage_type": "relationship",
       "exposure": 0.5,
       "impact_weight": 1,
-      "explanation": "A small compression that loses the book's specific joke about the twins competing to charm the veela cousins. The film replaces individual comedic initiative with a generic 'twins being silly together' visual. Minor damage to George's distinct voice within the wedding scene."
+      "explanation": "Minor but notable: the book's version gives Fred and George a specific relational function in Ron's inner life (sources of accountability), whereas the film flattens them into generic beloved family members. This is a small reduction in their relational dimensionality.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 13 (Spanning Bridge, Battle of Hogwarts) \u2013 Fred and George burst out 'grinning madly' saying 'Nice night for it!'",
-      "book_baseline": "Book Scene 152 has Fred and George volunteer to organise defence of the entrances and passageways: 'Sounds like a job for us,' called Fred, indicating himself and George, and Kingsley nodded his approval. This gives them a clear tactical function and shows them taking serious responsibility.",
-      "film_portrayal": "In the film they appear on the Spanning Bridge grinning madly with a single quip, functioning as atmospheric comic relief rather than as characters who have been assigned and accepted a specific defensive role.",
+      "scene": "Film Scene 13 (Spanning Bridge - Battle of Hogwarts begins) - Fred and George's arrival reduced to a single throwaway line",
+      "book_baseline": "Book Scenes 129-139 and 152: Fred and George arrive at Hogwarts having been summoned via the DA coins, George asks 'So what's the plan, Harry? What's going on?', they are described as having 'been cracking jokes for the benefit of those nearest' while waiting, and Fred and George specifically volunteer to organize defense of the passageways into the school, with Kingsley nodding approval. They have a defined tactical function and are active participants in the planning scene.",
+      "film_portrayal": "Film Scene 13: Fred and George 'burst out of the castle, grinning madly' and Fred says 'Nice night for it!' That is the entirety of their arrival moment before Harry moves on to speak with Luna. They have no planning scene, no volunteering for a specific role, no agency in the defense organization.",
       "damage_type": "agency/function",
-      "exposure": 0.5,
-      "impact_weight": 2,
-      "explanation": "The book's moment of the twins claiming a real military role in the defence of Hogwarts is absent. In the film they appear as excitable bystanders. George loses the specific beat of stepping up as a competent defender rather than merely a joker."
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "In the book, Fred and George's arrival at the Battle of Hogwarts is a meaningful moment: they came because of the DA network they helped build, they participate in the planning, and they take on a specific defensive assignment. The film reduces this to a one-line gag entrance. Their agency in the battle's setup \u2014 which is part of the payoff of years of their involvement with the Order and the DA \u2014 is entirely lost.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 14 (Battlements) \u2013 Arthur, Fred and George appear staring 'in stunned disbelief at the deadly throng' without dialogue or action",
-      "book_baseline": "Book Scene 162 shows George (alongside Lee Jordan) actively fighting: 'Harry saw Yaxley slammed to the floor by George and Lee Jordan.' Throughout the battle the book gives George agency as a combatant. Book Scene 148 also shows George doing a sharp Percy impression ('Well, we do look to our prefects to take a lead at times such as these') demonstrating his wit even under pressure.",
-      "film_portrayal": "Film Scene 14 places Arthur, Fred and George together on the battlements merely staring at the Death Eater forces in stunned disbelief. They have no lines and no action in this beat. Film Scene 16 does subsequently show 'Fred and George fall in on either side of Arthur, wands BLAZING,' which partially restores their combatant role.",
+      "scene": "Film Scene 15/16 (Battlements - Battle of Hogwarts) - Fred and George fight alongside Arthur but without individual characterization",
+      "book_baseline": "Book Scene 162: 'Harry saw Yaxley slammed to the floor by George and Lee Jordan' \u2014 George has a specific, named combat action. Book Scene 135: Fred is individually described as falling silent when Harry addresses the room, showing attentiveness. The book gives both twins individual combat moments and reactions.",
+      "film_portrayal": "Film Scenes 15-16: Fred and George appear on the battlements staring at the sky (Scene 15) and then 'fall in on either side of Arthur, wands BLAZING' (Scene 16). They are visually present and active but have no individual lines, no named spell actions, and no differentiated moments \u2014 they are symmetrical flanking figures for their father.",
       "damage_type": "agency/function",
-      "exposure": 0.5,
+      "exposure": 1,
       "impact_weight": 2,
-      "explanation": "The stunned-disbelief beat, while brief, positions the twins as overwhelmed observers rather than fighters stepping confidently into the breach. Partially offset by Scene 16. The Percy impression and the specific Yaxley-takedown are both absent from the film corpus, removing two individual moments of George's competence and wit in the battle."
+      "explanation": "Both twins are reduced to background action figures in the battle. George in particular loses his named combat moment (taking down Yaxley with Lee Jordan). Given that this is the last extended sequence in which George appears before Fred's death, the erasure of individual agency is a meaningful loss.",
+      "book": "7_deathly_hallows"
     },
     {
-      "scene": "Film Scene 17 (Great Hall, Fred's death) \u2013 George kneels over Fred's body weeping; his grief is rendered through visual imagery alone",
-      "book_baseline": "Book Scene 154 establishes: 'George was kneeling at his head; Mrs. Weasley was lying across Fred's chest.' The book positions George's grief as central and immediate but gives no dialogue \u2013 the silence itself is the statement. The corpus does not show a George speech here, consistent with the book.",
-      "film_portrayal": "Film Scene 17 shows 'George, who kneels over a familiar body, tears dripping from his eyes' and Ron drawing George 'into a limp embrace.' The staging is largely faithful to the book's image. George has no lines, which matches the book.",
+      "scene": "Film Scene 17 (Great Hall - Fred's death) - George's grief shown but his preceding relationship with Fred has been systematically thin throughout",
+      "book_baseline": "Book Scene 154: 'George was kneeling at his head' over Fred's body. The book has built up the Fred-George bond through dozens of individuated moments \u2014 their identical jokes that are nonetheless distinct, George's ear wound that Fred mourns ('What's wrong with him? Is his mind affected?'), their shared business, their parallel volunteering. The grief lands because the relationship has been textured.",
+      "film_portrayal": "Film Scene 17: George kneels over Fred's body weeping, Ron drapes his arm over George. The image is present and affecting. However, the film has not built the Fred-George bond with the same granularity \u2014 they have largely appeared as a visual unit, their individual voices blurred, their relational specificity underdeveloped. The grief scene exists but its emotional foundation is thinner than the book's.",
+      "damage_type": "relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "This is the cumulative damage of the film's treatment of the twins throughout: by consistently presenting them as a unit rather than two distinct individuals with a richly characterized bond, the film weakens the emotional impact of Fred's death on George specifically. The grief image is there but the groundwork that would make it devastating \u2014 George's particular love for Fred, Fred's particular fear for George when he was injured, their intertwined identity \u2014 has been systematically thinned.",
+      "book": "7_deathly_hallows"
+    },
+    {
+      "scene": "Film Scene 18 (Great Hall - Final battle, Bellatrix confrontation) - Bellatrix's 'spare' taunt directed at George",
+      "book_baseline": "The book corpus does not contain this specific Bellatrix line in the provided scenes. The book does not feature Bellatrix making a 'spare' comment about George during the Molly confrontation in the provided corpus passages.",
+      "film_portrayal": "Film Scene 18: Bellatrix says to Mrs. Weasley, gesturing at George, 'It's not like you don't have a spare.' George is present and visibly used as the target of this taunt, reducing him to a narrative object (the surviving twin who makes Fred's loss seem lesser) rather than a subject.",
       "damage_type": "nuance/lost material",
       "exposure": 0.5,
-      "impact_weight": 1,
-      "explanation": "This scene is substantially faithful to the book. The visual rendering of George's grief matches the book's staging. Damage is minimal; included only to note that the film's focus quickly shifts to Harry's perspective and the wider tableau, meaning George's grief becomes one visual element among many rather than being dwelt upon."
-    },
-    {
-      "scene": "Film Scene 18 (Great Hall, final battle) \u2013 Bellatrix tells Mrs. Weasley 'It's not like you don't have a spare,' gesturing at George",
-      "book_baseline": "The book corpus does not contain this line. The book establishes George's wound as something the family has had to come to terms with, and George himself consistently frames it with humour to protect his family. The 'spare' framing is a villain's cruelty.",
-      "film_portrayal": "Bellatrix gestures at George and delivers 'It's not like you don't have a spare.' George is present but has no response; the line is used to motivate Mrs. Weasley's killing curse.",
-      "damage_type": "agency/function",
-      "exposure": 0.5,
       "impact_weight": 2,
-      "explanation": "George is reduced to a prop in someone else's scene \u2013 literally cited by the villain as the 'spare' twin to justify Fred's death being acceptable. While the line is Bellatrix's cruelty and not the film's endorsement, George has no agency, voice, or reaction in this moment. It instrumentalises him at the most painful point of his arc. Since the line is not in the book corpus, it represents an addition that damages his dignity."
+      "explanation": "While the line is a villain's cruelty and is clearly framed as such, having George present and silently absorbing the 'spare' designation \u2014 without response or agency \u2014 is a pointed diminishment. It encapsulates the film's overall treatment of George: he is present as a symbol of loss and a foil for Fred, but not as a person with his own voice in the moment. The film uses him to heighten Bellatrix's menace rather than to give him any interiority.",
+      "book": "7_deathly_hallows"
     }
   ],
   "confidence": {
@@ -474,6 +544,16 @@
   "meta": {
     "model": "claude-sonnet-4.6",
     "split": true,
-    "prompt_version": "2.1"
+    "prompt_version": "2.1",
+    "books_scored": [
+      "1_philosophers_stone",
+      "2_chamber_of_secrets",
+      "3_prisoner_of_azkaban",
+      "4_goblet_of_fire",
+      "5_order_of_the_phoenix",
+      "6_half_blood_prince",
+      "7_deathly_hallows"
+    ],
+    "books_failed": []
   }
 }

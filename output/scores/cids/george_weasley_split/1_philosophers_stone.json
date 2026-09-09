@@ -1,0 +1,45 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 Platform 9\u00be twin swap confusion",
+      "book_baseline": "In the book, it is George who correctly identifies himself ('I'm not Fred, I'm George'), and Fred who delivers the punchline ('Only joking, I am Fred'). The joke originates with George's protest, and Fred lands it. This establishes both twins as individually voiced, with George as the one who bristles at being misidentified and Fred as the deadpan closer.",
+      "film_portrayal": "In the film the lines are swapped: George says 'He's not Fred, I am!' and Fred delivers 'Honestly, woman, you call yourself our mother.' The joke's internal logic is reversed \u2014 it is Fred, not George, who protests the misidentification, and George who delivers the 'Honestly, woman' line. The individual voices are transposed.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but real inversion of which twin says what. Because the twins are already hard to distinguish on screen, swapping their lines in their very first scene compounds the audience's inability to tell them apart and misattributes the defining 'Honestly, woman' wit to the wrong brother. Damage is minor in isolation but establishes a pattern of indistinction.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Quidditch Seeker announcement, George's reassurance to Harry",
+      "book_baseline": "In the book, Fred and George's reaction to Harry's appointment is warm but grounded: Fred says the team is going to win the cup, George confirms their roles as Beaters matter-of-factly, and both treat Harry as a fellow player. Their dialogue is brief, confident, and focused on team pride. There is no joking about Harry getting 'bloodied up.'",
+      "film_portrayal": "George's film line \u2014 'Our job is to make sure that you don't get bloodied up too bad. Can't make any promises, of course. Rough game, Quidditch' \u2014 followed by Fred's 'Brutal. But no one's died in years. Someone will vanish occasionally' and George's 'But they'll turn up in a month or two!' \u2014 reframes the twins' welcome as ominous dark comedy at Harry's expense. The humor undercuts the genuine team solidarity the book conveys.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book twins express team pride and confidence; the film twins open with mock-threatening jokes about Harry's physical safety. While consistent with their humor in a general sense, this specific beat replaces book-accurate warmth and solidarity with gallows humor that slightly alienates Harry rather than welcoming him. The damage is minor \u2014 it is one brief exchange \u2014 but it nudges their characterization toward generic pranksters rather than genuinely supportive older brothers.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 3 \u2013 Sorting ceremony, 'We got Potter!'",
+      "book_baseline": "The book establishes Fred and George as observant and socially aware \u2014 they recognized Harry privately on the train, reported it to their mother, and were explicitly told by Molly not to make a fuss of him. Their restraint on the platform and on the train reflects awareness that Harry is uncomfortable with his fame. There is no public exclamation about Harry at the Sorting.",
+      "film_portrayal": "Fred and George shout 'We got Potter! We got Potter!' loudly and publicly in the Great Hall when Harry is sorted into Gryffindor. This is a crowd-pleasing moment in the film but directly contradicts the book's characterization: the twins know Harry, were told not to goggle at him, and the book version of this moment is marked by respectful, low-key warmth.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "This moment trades the book twins' socially perceptive restraint \u2014 aware that Harry dislikes being treated as a celebrity \u2014 for a broad comedic shout that treats Harry as a trophy. It subtly undermines their characterization as emotionally intelligent pranksters who can read a room, reducing them to excitable hype men. It also slightly damages the Harry\u2013twins relationship by making their first public interaction the very kind of celebrity-gawking Harry finds uncomfortable.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 1,
+  "main_damage_causes": [
+    "Transposition of individual twin voices, making George and Fred interchangeable from their very first scene onward",
+    "Replacement of book-accurate warmth and team solidarity with generic dark-comedian humor in the Quidditch announcement scene",
+    "Reduction of the twins' social perceptiveness to excitable crowd behavior at the Sorting, contradicting the book's established restraint around Harry's fame"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  }
+}

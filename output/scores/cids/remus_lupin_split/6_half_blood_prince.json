@@ -1,0 +1,75 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 - Christmas party conversation about Snape/Malfoy",
+      "book_baseline": "In the book, Lupin engages in a nuanced, multi-beat exchange with Harry about Snape. He acknowledges the complexity of his own feelings ('I neither like nor dislike Severus'), explains why he trusts Snape despite personal history (the Wolfsbane Potion), credits Snape for keeping him healthy, and gently chides Harry for inherited prejudice while remaining warm and empathetic. He reasons from evidence and personal experience, not blind institutional loyalty.",
+      "film_portrayal": "The film collapses Lupin's nuanced reasoning into a blunt authority-deferral ('It comes down to whether or not you trust Dumbledore's judgement. He trusts Snape. Therefore, I do.') and then turns sharply dismissive ('You're blinded by hatred... You are!'). The personal history with Snape, the Wolfsbane explanation, the acknowledgment of his own complicated feelings, and the warm paternal tone are all absent. Lupin sounds like a functionary enforcing a party line rather than a man reasoning from lived experience.",
+      "damage_type": "personality/voice | nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 2,
+      "explanation": "Lupin's defining intellectual and emotional texture \u2014 the ability to hold contradictions, to reason honestly, to be self-aware about his own bias \u2014 is replaced with sharp institutional deflection. This makes him seem dogmatic rather than wise, and removes the most characterful material in the scene.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 1 - Lupin's line 'You're blinded by hatred' / sharp rebuke of Harry",
+      "book_baseline": "In the book, Lupin says 'You are determined to hate him, Harry' with 'a faint smile' \u2014 a gentle, understanding observation that acknowledges Harry's inherited prejudice without hostility. The tone is paternal and empathetic, not confrontational.",
+      "film_portrayal": "The film has Lupin snap 'You're blinded by hatred' and then follow it with a sharp, almost scolding speech ('You are! People are disappearing, Harry. Daily.'). The parenthetical stage direction even marks it '(sharply)'. This transforms a moment of gentle wisdom into a reprimand.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The shift from 'faint smile' and empathy to a sharp rebuke meaningfully alters Lupin's relational register with Harry. Book Lupin corrects with warmth; film Lupin scolds. This undermines the mentor-figure dynamic and makes him feel adversarial toward Harry rather than allied.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 1 - Absence of Lupin's werewolf mission/Greyback revelation",
+      "book_baseline": "The book Christmas scene contains the pivotal revelation that Lupin has been living undercover among werewolves on Dumbledore's orders, describes the personal cost ('I bear the unmistakable signs of having tried to live among wizards'), introduces Fenrir Greyback and his ideology in detail, and culminates in Lupin revealing that Greyback was the werewolf who bit him as a child. This is the central scene establishing Lupin's arc, his self-sacrifice, and the personal stakes of his condition.",
+      "film_portrayal": "The film's Christmas party scene contains none of this material. The entire werewolf-mission subplot, Greyback's introduction through Lupin's personal testimony, and the revelation about Lupin's own childhood attack are absent from the film corpus. Lupin appears only as a sounding board for the Snape/Malfoy debate.",
+      "damage_type": "arc | nuance/lost material | agency/function",
+      "exposure": 3,
+      "impact_weight": 4,
+      "explanation": "This is the most substantial loss in the corpus. The werewolf mission is Lupin's primary narrative function in HBP \u2014 it explains his haggard appearance, establishes his personal sacrifice for the Order, contextualizes his self-deprecation about being 'too dangerous,' and gives the Tonks relationship its full emotional weight. Without it, Lupin's characterization in the film is hollowed of its entire internal arc. Greyback also loses his most important contextual framing \u2014 the personal connection to Lupin that makes the Bill attack later resonate differently.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 1 - Absence of Half-Blood Prince conversation (Lupin's Hogwarts reminiscence)",
+      "book_baseline": "The book has a warm, extended exchange in which Harry asks Lupin about the Half-Blood Prince, Lupin reminisces about Levicorpus being a craze in his fifth year, gently deflects Harry's hope that the Prince is James, confirms it wasn't Sirius or himself, and shares a fond memory ('Sometimes you remind me a lot of James. He called it my furry little problem in company'). This scene is rich with characterization: Lupin's wit, his warmth toward Harry, his connection to James's memory, and his self-deprecating humor about being a werewolf.",
+      "film_portrayal": "No equivalent scene exists in the film corpus. The entire Half-Blood Prince conversation with Lupin is absent.",
+      "damage_type": "nuance/lost material | relationship",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The 'furry little problem' exchange is one of the most characterful Lupin moments in HBP \u2014 it shows his wit, his ease with his condition, his bond with Harry through James's memory, and his subtle emotional intelligence. Its absence removes a key beat of the Harry-Lupin relationship and flattens Lupin's personality considerably.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 2 - Mr. Weasley's 'You'll have to forgive Remus. It takes its toll \u2014 his condition'",
+      "book_baseline": "The book establishes Lupin's haggard appearance and difficult circumstances through Lupin's own words and actions \u2014 his undercover mission, his self-aware commentary on bearing 'the unmistakable signs of having tried to live among wizards,' and his quiet dignity in describing hardship. His condition is something he narrates and owns.",
+      "film_portrayal": "Mr. Weasley explains Lupin's behavior to Harry as though Lupin is a problem to be managed or excused ('You'll have to forgive Remus'). Lupin himself says nothing and is not present in the scene. His inner life is rendered as an external condition observed and interpreted by others.",
+      "damage_type": "agency/function | personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "Having Arthur apologize for Lupin's behavior rather than letting Lupin speak for himself reduces him to a passive figure whose condition is something others react to. This passivization is the opposite of the book's portrayal, where Lupin actively articulates his own situation with intelligence and self-awareness.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scenes 3-7 - Burrow attack sequence; Lupin present but functionally passive",
+      "book_baseline": "The Burrow attack does not occur in the book in this form; however, the corpus establishes Lupin as an active fighter \u2014 at Hogwarts he battles Death Eaters, pursues Snape, gives detailed tactical accounts of the fighting, and is specifically noted as combating a separate Death Eater. His physical courage and role as a capable Order fighter is consistently established.",
+      "film_portrayal": "In the attack sequence, Lupin draws his wand and races after Harry (Film Scene 6), and appears in the clearing at the end (Film Scene 7), but has no spoken lines, takes no decisive action, and is simply one figure among the Weasley crowd who arrives after Harry and Ginny have already subdued Greyback. He is present but functionally invisible.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "An invented film action scene that includes Lupin but gives him no agency or dialogue further cements a pattern of Lupin as passive background presence. Given that the book establishes him as a capable, active fighter and tactician, this is a missed opportunity that compounds the overall passivization of the character.",
+      "book": "6_half_blood_prince"
+    }
+  ],
+  "structural_damage_level": 4,
+  "main_damage_causes": [
+    "Complete removal of Lupin's werewolf undercover mission arc, which is his primary narrative and emotional function in HBP and the foundation for his haggard appearance, his self-sacrifice, his relationship with Greyback, and the Tonks dynamic",
+    "Replacement of Lupin's nuanced, self-aware, intellectually rich voice with blunt institutional authority-deferral and sharp scolding, collapsing a complex mentor figure into a functionary",
+    "Systematic passivization across multiple scenes \u2014 Lupin's inner life is explained by other characters, his combat role is muted, and he is present as atmosphere rather than as an agent with his own perspective and stakes"
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  }
+}

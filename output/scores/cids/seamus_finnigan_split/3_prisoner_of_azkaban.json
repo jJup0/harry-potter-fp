@@ -1,0 +1,65 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (Divination class) \u2014 Seamus mishears 'Grim' as 'Grin'",
+      "book_baseline": "In the book corpus (Scenes 4\u20136), Seamus participates in the tea-leaf reading with casual skepticism, tilting his head, making light observations ('it looks like a Grim if you do this... but it looks more like a donkey from here'), and showing irreverent humor without being made to look foolish or dim.",
+      "film_portrayal": "The film has Seamus ask 'The Grin? What's the Grin?' \u2014 a malapropism that makes him appear slow or inattentive, prompting Parvati to correct him with 'Not the grin, you idiot.' This reframes his humor as accidental buffoonery rather than the knowing, light skepticism the books establish.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book Seamus is casually witty and observant in this scene; the film reduces him to a comic dunce who misunderstands a basic word. The 'idiot' label from Parvati reinforces this reframing. It's a small but clear shift in how his intelligence and humor register to the audience.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 3 (Boggart lesson) \u2014 Seamus correctly identifies the Boggart unprompted",
+      "book_baseline": "The book corpus (Scenes 12\u201320) shows Seamus as apprehensive ('eyed the now rattling doorknob apprehensively') but then courageous and successful in the lesson, dispatching the banshee and celebrating afterward. His knowledge is shown through action, not exposition.",
+      "film_portrayal": "The film gives Seamus the line 'That's a Boggart, that is' in a hushed voice, which Lupin praises with 'Very good, Mr. Finnigan.' This is a minor faithful beat in isolation, but coming immediately after the 'Grin/Grim' exchange where he appeared dim, it creates an inconsistent characterization \u2014 he seems to randomly know things rather than having a coherent personality.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This beat is not inherently damaging, but in context it compounds the inconsistency introduced by the 'Grin' moment. The corpus does not show Seamus's apprehension before the wardrobe (book Scene 13), which is replaced by this expository identification. Minor on its own; noted for cumulative effect.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 (Sir Cadogan portrait) \u2014 Seamus's complaint reduced to a single dismissive line",
+      "book_baseline": "Book Scene 29 shows Seamus directing his frustration at Percy, a more senior student, with a direct complaint: 'He's a complete lunatic. Can't we get anyone else?' This shows social confidence \u2014 Seamus will address authority figures directly when annoyed.",
+      "film_portrayal": "The film retains 'He's barking mad!' but strips the social dimension entirely. There is no address to an authority figure; it is just a throwaway exclamation into the air. The line itself is consistent in sentiment but loses the characterization of Seamus confidently voicing grievances upward.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A small but real loss. The book moment shows Seamus has social assertiveness; the film version is just ambient grumbling. The change is minor but contributes to a pattern of thinning his personality to reactive one-liners.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 6 (Firebolt reveal) \u2014 Seamus's celebration line is a request, not a cheer",
+      "book_baseline": "Book Scene 38 has Seamus give a full-throated cheer: 'Good for you, Harry!' \u2014 an expression of genuine enthusiasm and warmth toward Harry, consistent with their friendly dormitory relationship established across multiple book scenes.",
+      "film_portrayal": "The film replaces this with 'Can I have a go, Harry? After you, of course \u2014' which reframes Seamus's reaction as self-interested excitement about the broom rather than warm support for Harry. The social dynamic shifts from camaraderie to opportunism.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book line affirms the friendly Gryffindor bond between Seamus and Harry. The film line, while not hostile, redirects Seamus's motivation toward personal desire for the broom. It subtly erodes the sense of genuine friendship and replaces warmth with comic self-interest, which is a mild but real relationship-level shift.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 7 (Firebolt test outside) \u2014 Seamus encourages Harry with 'Go on, Harry'",
+      "book_baseline": "No direct book equivalent in the corpus for this outdoor test scene, but the book corpus consistently shows Seamus as an enthusiastic and warm dormitory companion who cheers Harry's successes (Scene 38).",
+      "film_portrayal": "Seamus says 'Go on, Harry' \u2014 a brief, encouraging line that is broadly consistent with his book characterization as a supportive Gryffindor peer.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is essentially faithful. No meaningful damage. Included only to note that it is the one film moment that aligns with book Seamus's warmth toward Harry. It slightly offsets the damage from Scene 6 but does not undo the pattern of reduction.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "The 'Grin/Grim' malapropism reframes Seamus's irreverent wit as accidental stupidity, shifting his comedic register from knowing to dim \u2014 the single most damaging moment in the corpus.",
+    "Replacement of warm, Harry-directed celebration ('Good for you, Harry!') with a self-interested broom request undermines the dormitory friendship dynamic that the book corpus establishes across multiple scenes.",
+    "Consistent thinning of Seamus's personality to reactive one-liners strips him of the social confidence and observational humor the book corpus demonstrates, reducing him to a background comic function rather than a distinct supporting character."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  }
+}

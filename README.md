@@ -44,7 +44,7 @@ CIDS = (100 - FP) * log2(1 + WIE) * (1 + SDL/8)
 
 The two rankings answer different questions and disagree sharply. FP is topped by minor characters
 who were adapted cleanly; CIDS is topped by characters whose flattening cost the story the most
-(currently Ginny Weasley at 630.8, Kreacher at 442.4, Nymphadora Tonks at 441.8).
+(currently Ginny Weasley at 606.2, Kreacher at 442.4, Nymphadora Tonks at 441.8).
 
 The authoritative rubric is the one in the prompt, `src/scoring/prompts/scoring_prompt_3.txt`.
 `data/fp_rules.md` is the original client-supplied 4-dimension spec that it supersedes.

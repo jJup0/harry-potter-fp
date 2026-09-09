@@ -1,0 +1,65 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 3 \u2013 Fat Lady portrait aftermath / Filch ordered to search paintings",
+      "book_baseline": "Book Scene 18 establishes that Dumbledore tells Professor McGonagall to go to Mr. Filch and instruct him to search every painting in the castle for the Fat Lady, positioning Filch as a key operative in the castle's internal security response.",
+      "film_portrayal": "In Film Scene 3, Dumbledore directly addresses 'Mr. Filch' and orders him to 'round up the ghosts' and tell them to search every painting. Filch receives the order but his role is framed as messenger to ghosts rather than an active searcher himself.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses Filch as a direct searcher working the castle independently, reinforcing his role as the castle's human security arm. The film redirects this to using ghosts, slightly diminishing Filch's functional importance as the eyes-and-ears operative on the ground.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 4 \u2013 Filch locates the Fat Lady in the moving staircase/corridor",
+      "book_baseline": "Book Scene 21 states that Dumbledore tells the group that the Fat Lady was found 'hiding in a map of Argyllshire on the second floor,' and that Filch will restore her once she has calmed down \u2014 a reported, off-screen resolution managed by Filch.",
+      "film_portrayal": "Film Scene 4 gives Filch a brief visible moment where his 'rheumy eyes' scan the upper shadows and he points out the Fat Lady cowering near the ceiling, saying 'There'll be no need for ghosts, Professor.' He is competent and even slightly triumphant in this beat.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This is actually a net-neutral to mildly faithful beat \u2014 Filch does perform his castle-security function. However, the book's detail of Filch later restoring the portrait (a quieter, caring/custodial role) is absent entirely, losing a small nuance of his character as caretaker in the literal sense.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Entrance Hall / Marauder's Map handoff",
+      "book_baseline": "Book Scenes 28\u201333 establish that Fred and George stole the map from Filch's filing cabinet and that Filch likely suspected what it was but never worked out how to use it. The book also makes clear Filch knows about four of the seven secret passages, giving him a meaningful, if incomplete, intelligence role in castle security.",
+      "film_portrayal": "Film Scene 5 has Fred say they 'nicked it from Filch's office, of course, first year,' and references that Filch is heading their way as a threat to hurry Harry. Filch's partial knowledge of the passages and his years of failed attempts to crack the map are entirely absent.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The book's Filch is a long-running antagonist whose partial competence \u2014 knowing about four passages, confiscating the map on suspicion \u2014 makes him a credible, if outmaneuvered, security presence. The film reduces him to a name-drop and an off-screen threat, stripping the texture of his cat-and-mouse relationship with the students across years.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Hogsmeade departure queue / Filch checking permission forms",
+      "book_baseline": "Book Scene 6 describes Filch standing inside the front doors 'checking off names against a long list, peering suspiciously into every face, and making sure that no one was sneaking out who shouldn't be going' \u2014 an active, paranoid, procedurally zealous performance of his role.",
+      "film_portrayal": "Film Scene 2 shows a 'glowering Filch' standing by as students with permission forms pass. He is visually present but has no lines and no described action beyond a glower. McGonagall delivers the authority speech. Filch is purely decorative.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book's Filch at the doors is a vivid character beat \u2014 suspicious, procedural, zealous, with real petty power over the students. The film collapses him to a background extra in a scene where the book specifically gives him function and characterization. His voice, his paranoid energy, and his moment of small authority are all lost.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 Great Hall feast opening / Filch standing grimly to the side",
+      "book_baseline": "Book Scene 40 places Filch at the Christmas table as a participant wearing his old tailcoat, suggesting a complex figure who exists within the Hogwarts community even while being adversarial to students. Book Scene 3 establishes he 'waged a constant war against students and Peeves' \u2014 an ongoing, energetic antagonism.",
+      "film_portrayal": "Film Scene 1 introduces Filch standing 'grimly to the side' with Mrs. Norris at his feet during the feast \u2014 a purely visual, non-speaking background presence with no action, no menace, and no personality beyond a single adjective.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The film's introduction of Filch is a missed opportunity. The book establishes him as a bad-tempered, actively combative presence with a defined war against students. The film makes him scenery. While brief, this first impression shapes audience perception of the character for the rest of the film.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Filch's active, paranoid personality and procedural zealotry \u2014 his most defining traits \u2014 are consistently reduced to silent background presence, stripping his voice and energy from scenes where the book gives him both.",
+    "Filch's functional role as the castle's human security operative (searching paintings, knowing passages, confiscating the map on suspicion) is either delegated to others or left implicit, weakening his credibility as an ongoing antagonist.",
+    "The sustained cat-and-mouse texture between Filch and the students across the year \u2014 which gives him narrative weight as a recurring obstacle \u2014 is absent from the film corpus, leaving him as decoration rather than a character with persistent relevance."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

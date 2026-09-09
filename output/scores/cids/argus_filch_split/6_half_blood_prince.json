@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 (EXT. HOGWARTS CASTLE - FRONT STEPS - NIGHT): Filch checking Malfoy's walking stick",
+      "book_baseline": "In the book corpus, Filch's role at the castle entrance is to run Secrecy Sensors over students checking for Dark objects, with obsessive thoroughness and rule-enforcement energy (Book Scenes 7, 8, 12, 13). He is described with 'the maniacal light of mischief-detection in his bulging eyes' (Book Scene 39). He acts independently and with relish, not as a subordinate prop.",
+      "film_portrayal": "Filch is shown passively scanning Malfoy's walking stick and immediately ceding authority when Snape steps in, saying 'It's alright, Mr. Filch. I can vouch for Mr. Malfoy.' Filch simply yields without protest, functioning as a silent prop to establish Snape's protective relationship with Malfoy.",
+      "damage_type": "agency/function",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Filch aggressively and gleefully enforces rules regardless of who intervenes; his 'maniacal' detection enthusiasm is a defining trait. Here he is reduced to a passive functionary instantly overridden by Snape, stripping him of his characteristic stubborn officiousness and making him a narrative convenience rather than a characterful obstacle.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 3 (INT. SLUGHORN'S OFFICE - NIGHT): Filch drags Malfoy to Slughorn's party",
+      "book_baseline": "Book Scene 39 describes Filch dragging Malfoy 'by the ear' with 'jowls aquiver and the maniacal light of mischief-detection in his bulging eyes,' delivering a wheezed, officious speech to Slughorn. Book Scene 40 shows him insisting 'You're in trouble, you are!' with gleeful relish even when overruled, and Book Scene 41 notes his 'expression of outraged disappointment' when Slughorn lets Malfoy off \u2014 the full emotional beat of a man who savors punishment and is bitterly denied it.",
+      "film_portrayal": "Film Scene 3 shows Filch with Malfoy 'in Filch's rough grip' and delivering a brief functional line ('I've just discovered this boy lurking in an upstairs corridor. He claims to have been invited to your party.'). Malfoy then immediately volunteers 'Okay, okay, I was gate-crashing. Happy?' and Snape steps in to escort him out. Filch's gleeful insistence, his 'outraged disappointment,' and his extended wheezing performance are entirely absent.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to showcase one of Filch's most vivid character moments: the sadistic, rule-obsessed Squib who lives for catching wrongdoers and is bitterly thwarted. The film reduces this to a functional plot beat \u2014 Malfoy gets caught, Snape intervenes \u2014 losing the comic-grotesque characterization that defines Filch and the irony of his perpetual disappointment. The loss of 'outraged disappointment' also removes the subtle narrative signal Harry notices (Malfoy equally unhappy, Snape looking afraid), though that signal is a Snape/Malfoy beat rather than a Filch one.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 4 (INT. ENTRANCE HALL - DUSK): Filch pacing as guard while Mrs. Norris reacts to mouse",
+      "book_baseline": "The book corpus establishes Filch as a verbally active, wheezing, obnoxious presence who engages with students, threatens detention, argues with staff (e.g., Book Scene 47: 'And what difference does that make?'), and is characterised through speech and confrontation. His relationship with Mrs. Norris is noted (Book Scene 48) but always in the context of active, antagonistic scenes.",
+      "film_portrayal": "Filch is shown silently pacing as a guard while the scene focuses on Mrs. Norris reacting to a mouse in a suit of armor \u2014 a comic visual gag. Filch 'wheels' at the noise but Harry just strolls past without interaction. Filch has no lines, no confrontation, no engagement.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While brief, this scene typifies a pattern in the film corpus of using Filch as silent visual background. The book's Filch is always verbally combative and actively threatening. Reducing him to a mute, easily-bypassed figure erodes the sense that he is a genuine, if minor, antagonistic presence in the castle.",
+      "book": "6_half_blood_prince"
+    },
+    {
+      "scene": "Film Scene 5 (EXT. CASTLE - SAME TIME - NIGHT): Filch standing transfixed as glass shards cut his face",
+      "book_baseline": "No book corpus scene depicts Filch being passively wounded or standing transfixed by an external event. The book establishes him as an active, alert, if ineffectual, enforcer \u2014 always moving, shuffling, catching, reporting.",
+      "film_portrayal": "Filch is shown standing transfixed as shards of glass from an exploding window 'lash his face, draw blood' \u2014 a purely visual, passive image of him as a victim of castle violence, with no agency or reaction beyond being 'transfixed.'",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "This brief image is not drawn from the book corpus and reframes Filch as a passive, almost pitiful figure caught helplessly in events. While isolated and low-exposure, it is symptomatic of the film's tendency to depict Filch as a static, reactive presence rather than the active, self-important nuisance the books establish.",
+      "book": "6_half_blood_prince"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Filch's defining personality trait \u2014 obsessive, gleeful, sadistic rule-enforcement with wheezing verbosity and 'maniacal' mischief-detection \u2014 is consistently deflated in the film corpus, reducing him from a characterful grotesque to a functional background presence.",
+    "Filch's agency is repeatedly transferred or nullified by other characters (Snape overriding him at the gate, Snape stepping in at Slughorn's party), stripping him of the stubborn independence and 'outraged disappointment' that make him a distinct comic-antagonist figure in the books.",
+    "The film corpus uses Filch almost entirely as a silent visual prop (pacing guard, transfixed bystander) rather than as an active speaking character, losing the texture of his voice, his rants, his threats, and the comic-grotesque energy that the book corpus consistently deploys around him."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

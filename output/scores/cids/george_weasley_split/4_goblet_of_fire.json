@@ -1,0 +1,65 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 4 \u2013 Aging Potion / Goblet submission sequence",
+      "book_baseline": "Books establish that after being ejected and sprouting white beards, Fred and George join in laughing at themselves once they get up and see each other's beards ('Even Fred and George joined in, once they had gotten to their feet and taken a good look at each other's beards'). They take the failure with good humor and self-awareness.",
+      "film_portrayal": "In the film, after being ejected and growing beards, Fred and George immediately begin physically fighting each other, bickering and trading insults ('You said! You said!' / 'Oh right, you want a piece of me?! I'll tear your ears off!'). The scene plays them as squabbling and petty rather than self-deprecating and good-humored.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Fred and George are defined by mutual solidarity and shared humor even in failure. They laugh at themselves together. The film replaces this with a petty sibling squabble, undercutting their core characterization as a unified, self-assured comedic duo and reducing them to generic slapstick.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2 \u2013 Death Eater attack at the campsite",
+      "book_baseline": "The book establishes Fred and George as independently capable: they lead Ginny to safety through the woods and are confirmed unhurt but shaken when the group reconvenes in the tent ('Fred, George, and Ginny looked unhurt, though shaken'). Arthur explicitly assigns them responsibility: 'Fred, George! Ginny is your responsibility. Go!'",
+      "film_portrayal": "Arthur gives the same verbal instruction ('Fred, George! Ginny is your responsibility. Go!'), but the film provides no subsequent evidence of Fred and George successfully executing this responsibility. Their agency in the chaos is not shown; they simply disappear from the scene with no follow-through shown on screen in the corpus.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book confirms Fred and George competently protect Ginny and reach safety, showing they can be relied upon in a crisis. The film assigns them the task verbally but does not demonstrate its completion, leaving their competence and reliability in a dangerous situation unestablished for the audience.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 6 \u2013 Second task betting scene",
+      "book_baseline": "The book's betting scene is embedded in a broader narrative of Fred and George's entrepreneurial ambition and their ultimately being cheated by Bagman \u2014 a consequential subplot that leads directly to Harry giving them his prize money. Their businesslike approach to the bet ('we've got big plans for this money') and their dignified but bitter response to being swindled are key character beats.",
+      "film_portrayal": "In the film, Fred and George appear briefly taking bets during the second task ('Any bets? Any bets? Come on, place your bets! / Four go down, but do four come up?'). This is played purely for dark humor. There is no indication that this connects to a larger financial scheme, no mention of Bagman cheating them, and no setup for Harry's later gift of the prize money.",
+      "damage_type": "arc",
+      "exposure": 1,
+      "impact_weight": 3,
+      "explanation": "The Bagman cheating subplot is the direct cause of Harry giving Fred and George his Triwizard winnings \u2014 the most significant act of generosity in the book's ending and the founding capital of Weasleys' Wizard Wheezes. By reducing their betting to a throwaway gag with no consequences, the film severs the causal and emotional chain that makes Harry's gift meaningful and that validates Fred and George's entrepreneurial arc.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Post-first-task celebration in Gryffindor common room",
+      "book_baseline": "In the book, Fred and George celebrate Harry's success genuinely and carry him on their shoulders. They are shown as loyal members of the Gryffindor community rallying around Harry. The moment is warm and communal.",
+      "film_portrayal": "In the film, Fred and George appear briefly carrying Harry on their shoulders in the common room celebration. However, the corpus shows their dialogue is almost entirely focused on dark jokes about Harry's potential death or injury ('Knew you wouldn't die.' / 'Lose a leg.' / 'Or an arm.' / 'Pack it in altogether? Never!'). The warmth is undercut by a tone that makes their support sound flippant.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While some gallows humor is in character, the film version strips the celebration of genuine warmth and replaces it almost entirely with morbid quips. The book's moment of real solidarity between Harry and the twins is diluted, slightly weakening the sense that the Weasley twins genuinely care about Harry beyond comic material.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2013 Transfiguration/Yule Ball dance lesson",
+      "book_baseline": "The book does not place Fred and George in a formal dance lesson context with McGonagall. Their humor in the book is self-directed and entrepreneurial. Fred asking Angelina to the ball is a casual, confident aside.",
+      "film_portrayal": "In the film, Fred and George are shown in McGonagall's dance class mocking the lesson by repeatedly attempting the 'babbling bumbling band of baboons' tongue twister ('Try saying that five times fast, huh?' / 'Babbling, bumbling band of baboons\u2026'). While amusing, this is their primary characterization beat in the scene \u2014 reducing them to background jesters reacting to McGonagall rather than active agents with their own agenda.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Minor but consistent with a pattern: the film uses Fred and George as reactive comic relief in other characters' scenes rather than giving them their own purposeful beats. The tongue-twister gag is funny but substitutes genuine characterization for easy laughs.",
+      "book": "4_goblet_of_fire"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Elimination of the Bagman cheating subplot removes the causal foundation for Harry's prize-money gift and severs Fred and George's entrepreneurial arc from its most meaningful payoff",
+    "Replacement of their characteristic mutual solidarity and self-deprecating humor with petty bickering (beard-fight scene) misrepresents their core dynamic as a unified duo",
+    "Consistent reduction of Fred and George to reactive background comic relief rather than active agents with their own plans, schemes, and emotional stakes"
+  ],
+  "confidence": {
+    "global": "High",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "High"
+  }
+}

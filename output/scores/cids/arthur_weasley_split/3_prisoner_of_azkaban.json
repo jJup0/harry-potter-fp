@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 - Leaky Cauldron private conversation: Mr. Weasley hesitates twice when Harry says 'Voldemort'",
+      "book_baseline": "Book Scene 33-48: Mr. Weasley argues heatedly and confidently with Mrs. Weasley, banging his fist on the table, insisting Harry has a right to know the truth. He is passionate, morally assured, and advocates forcefully for Harry's agency. He shows no discomfort with the name Voldemort in his private speech.",
+      "film_portrayal": "Mr. Weasley hesitates nervously and visibly flinches each time Harry says 'Voldemort', then says 'Harry, I hate it when you say --', aligning himself with the name-fearers like Ron. He is portrayed as timid and anxious rather than the confident, principled man who fights for Harry's right to know.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book establishes Arthur as someone who works at the Ministry, operates in the wizarding world professionally, and whose courage is shown through his willingness to defy Ministry advice to warn Harry. Making him flinch at Voldemort's name undermines his characterization as a principled, relatively courageous adult and flattens him into generic wizarding-world timidity.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2 - Leaky Cauldron private conversation: Mr. Weasley delivers warning to Harry directly and openly",
+      "book_baseline": "Book Scenes 33-48: Arthur's warning to Harry is overheard accidentally by Harry \u2014 it is a private argument with Molly, not a deliberate briefing. Arthur is fighting for Harry's right to know but has not yet decided to tell him directly. The dramatic irony is that Harry learns the truth by eavesdropping, not because Arthur chooses to pull him aside. Arthur also conveys rich intelligence detail: the guards' report of Black saying 'He's at Hogwarts', Fudge's visit to Azkaban, his own moral reservations about the dementors.",
+      "film_portrayal": "Arthur proactively pulls Harry aside for a one-on-one briefing, framing it as defying Ministry wishes. The overheard-argument structure is eliminated entirely, and with it the moral complexity of Arthur being overruled by Molly and Harry gaining knowledge covertly. The briefing is also stripped of specific intelligence (no mention of Black's murmured words, no detail about Fudge's Azkaban visit).",
+      "damage_type": "agency/function",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The eavesdropping scene in the book serves multiple functions: it shows Arthur and Molly's contrasting parenting philosophies, it gives Harry (and the reader) information through dramatic discovery rather than exposition, and it preserves the ambiguity of whether Harry was 'supposed' to know. Collapsing this into a direct briefing removes the relational texture between Arthur and Molly, reduces Harry's agency as a discoverer of truth, and turns a dramatically rich scene into flat expository dialogue.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2 - Leaky Cauldron private conversation: Arthur's moral conviction and Molly counterpoint are absent",
+      "book_baseline": "Book Scenes 33-48: Arthur argues with passionate moral conviction \u2014 'Harry's got a right to know', 'I want to put him on his guard', 'I don't want to make him miserable' \u2014 against Molly's protective instinct. This exchange reveals Arthur's ethical character: he believes in treating Harry as a capable person, not a child to be shielded. His weariness and his reluctant acceptance of the dementors ('If they save Harry then I will never say another word against them') add moral complexity.",
+      "film_portrayal": "No version of the Arthur-Molly argument appears. Arthur's ethical stance \u2014 that Harry deserves the truth and should be treated as an agent \u2014 is not dramatized. His reservations about the dementors and his nuanced view of Ministry politics are absent. The film reduces his motivation to a simple protective impulse ('you're in danger, watch yourself').",
+      "damage_type": "nuance/lost material",
+      "exposure": 2,
+      "impact_weight": 3,
+      "explanation": "The argument is the primary scene in the corpus establishing Arthur's moral character as distinct from generic parental worry. Its absence means Arthur's defining quality \u2014 his principled insistence on Harry's right to know, his distrust of dementors, his tension with Ministry groupthink \u2014 is never dramatized. He becomes a functionary delivering plot information rather than a character with a coherent ethical worldview.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 2 - Leaky Cauldron: Mr. Weasley nods 'nervously' and is described as hesitant throughout the warning scene",
+      "book_baseline": "Book Scene 28 notes Arthur's ears going red under pressure (a telling physical tell), but his speech in the argument is heated, forceful, and confident. His nervousness is about being overheard or about the situation, not about his own convictions. He is described as 'looking very strained' (Scene 16) but not as timid or ineffectual.",
+      "film_portrayal": "The script direction explicitly marks Arthur as nodding 'nervously' and hesitating multiple times mid-sentence. He cannot complete his own sentences and relies on Harry to finish them ('Voldemort...?', 'Kill me?'). This makes Arthur appear weak and unable to perform the very task he initiated.",
+      "damage_type": "personality/voice",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "Having Harry complete Arthur's sentences twice inverts the power dynamic of a responsible adult warning a child in his care. It makes Arthur seem incapable rather than cautious, and transfers narrative authority to Harry. This is a consistent tonal misrepresentation of a character who, in the book corpus, is strained but purposeful and articulate.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 3,
+  "main_damage_causes": [
+    "Elimination of the overheard argument structure removes the Arthur-Molly relational dynamic and Arthur's defining ethical stance on Harry's right to truth, flattening a rich characterization scene into expository dialogue",
+    "Arthur is consistently portrayed as nervous and hesitant \u2014 unable to complete sentences, flinching at 'Voldemort' \u2014 which contradicts the book's portrayal of him as strained but morally confident and principled",
+    "The direct briefing format strips Arthur of the nuanced intelligence detail and moral complexity (dementor reservations, Ministry politics, his own uncertainty) that the book corpus establishes as central to his character in this story"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 5 (Clock Tower Courtyard / Entrance Hall) - Marauder's Map handover",
+      "book_baseline": "In the book, Fred and George seek Harry out deliberately, taking him into a private empty classroom, spending time telling the story of how they stole the map from Filch in first year (the Dungbomb diversion, whipping open the drawer), expressing genuine sentimental attachment ('It's a wrench, giving it to you'), and explaining how to use it step by step. George activates it and both twins linger to share their reverence for the Marauders ('Noble men, working tirelessly to help a new generation of lawbreakers'). The scene is rich with personality, wit, shared history, and the twins' characteristic blend of rule-breaking pride and warmth toward Harry.",
+      "film_portrayal": "In the film, Fred and George intercept Harry who is already sneaking out under his Invisibility Cloak. The handover is brisk and functional. The backstory of stealing the map from Filch is reduced to a single throwaway line ('Nicked it from Filch's office, of course, first year'). The extended storytelling, the Dungbomb anecdote, and the emotional weight of the gift are absent. The twins' sentimentality and their pride in their own mischievous history are largely cut.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book scene is one of the twins' defining character moments \u2014 it showcases their wit, their pride in rule-breaking, their generosity toward Harry, and their bond with him. The film reduces it to a plot transaction. While the functional information is conveyed, the personality and relationship texture that make Fred and George memorable are stripped away.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 (Clock Tower Courtyard) - Fred and George catch Harry under the Cloak",
+      "book_baseline": "In the book, Fred and George proactively seek Harry out near the one-eyed witch statue and invite him into an empty classroom. They are the agents of the scene \u2014 they have planned this gift, chosen the moment, and take the lead throughout. Their initiative reflects their resourcefulness and their affectionate relationship with Harry.",
+      "film_portrayal": "In the film, Fred and George stumble upon Harry already attempting to sneak out, and the handover happens reactively. Fred says 'Clever, Harry. But not clever enough,' framing the twins as interceptors rather than generous benefactors acting on their own initiative.",
+      "damage_type": "agency/function",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The shift from proactive gift-givers to reactive interceptors subtly diminishes the twins' agency and the sense of deliberate generosity. In the book they chose to give Harry the map; in the film it feels more incidental, reducing the warmth and intentionality of the gesture.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 4 (Hospital Wing) - George's joke after Harry falls",
+      "book_baseline": "The book establishes George as someone who is genuinely affected by the dementors ('I wasn't too happy myself. They're horrible things, those dementors') and who offers Harry bracingly kind reassurance after difficult moments, while also being capable of humor. His emotional range includes real sympathy alongside wit.",
+      "film_portrayal": "In the hospital wing scene, George's only line is a quip: 'Yeah, c'mon, Ron. We'll walk you off the Astronomy Tower and see how you come out looking.' The moment is purely comedic \u2014 George functions as a joke-delivery machine with no emotional undertone.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While humor is core to George's character, the book consistently shows him capable of genuine warmth and empathy alongside the jokes. Reducing him to pure comic relief in a moment where Harry has just had a serious fall flattens his characterization slightly, though the damage is limited given the brevity.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 5 (Entrance Hall) - Marauder's Map explanation replaces book's private classroom scene",
+      "book_baseline": "The book has George and Fred take turns explaining the map's mechanics warmly and at length, including George's impersonation of Percy ('So, young Harry, mind you behave yourself') and Fred's admonition about wiping it. The scene ends with both twins smirking in a 'satisfied sort of way' \u2014 conveying self-pleasure, mischief, and affection simultaneously.",
+      "film_portrayal": "The film's explanation is split between Fred and George in rapid, almost ping-pong dialogue that is snappy and efficient but lacks the book's warmth and lingering humor. The Percy impersonation is absent. There is no moment of the twins savoring their own cleverness or expressing affection for the Marauders beyond one line from George.",
+      "damage_type": "nuance/lost material",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The Percy impersonation and the twins' self-satisfied exit are small but characteristic moments that reinforce their voice and humor. Their absence makes the film twins slightly more generic as comic double-acts rather than fully individuated characters with their own history and style.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Compression of the Marauder's Map handover scene strips the twins' backstory, emotional generosity, and characteristic voice, reducing a defining character moment to a plot beat",
+    "George's individual personality \u2014 his capacity for empathy, warmth, and self-aware humor beyond pure quipping \u2014 is underserved by the film's tendency to use Fred and George as an interchangeable comic double-act",
+    "The twins' proactive agency and deliberate relationship with Harry is weakened by the film restructuring their key scene as a reactive interception rather than a planned gift"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}

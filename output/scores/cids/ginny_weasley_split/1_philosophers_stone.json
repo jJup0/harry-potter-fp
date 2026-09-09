@@ -1,0 +1,35 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2013 King's Cross, Ginny's only line is 'Good luck'",
+      "book_baseline": "Book establishes Ginny as excitable, emotionally expressive, and already star-struck by Harry: she squeals 'Harry Potter!', points at him, begs to go on the train, runs alongside it crying and laughing, and waves until it disappears. She is a vivid, energetic presence who makes a clear impression.",
+      "film_portrayal": "Ginny's entire role at King's Cross is reduced to a single two-word line: 'Good luck.' She has no reaction to Harry, no excitement, no emotional farewell to her brothers, no running after the train. She is essentially a silent background figure.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book uses this scene to establish Ginny's personality \u2014 her enthusiasm, her crush on Harry, her warmth \u2014 before she even properly enters the story. The film collapses all of that into a generic pleasantry, giving the audience no impression of who she is.",
+      "book": "1_philosophers_stone"
+    },
+    {
+      "scene": "Film Scene 1 \u2013 King's Cross, Ginny's star-struck reaction to Harry is absent",
+      "book_baseline": "Book Scene 13\u201315 (Chamber of Secrets platform) reinforces a pattern established in Book Scenes 4\u201312: Ginny singles Harry out by name, squeals, and points at him, showing she already has a specific emotional relationship to Harry before he knows her well. This foreshadows and seeds their eventual romantic arc.",
+      "film_portrayal": "Ginny shows no recognition of or reaction to Harry at King's Cross. The seeding of her feelings for Harry \u2014 a defining trait in this portion of the book corpus \u2014 is entirely absent.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 3,
+      "explanation": "Ginny's one-sided awareness of Harry is an early, deliberate narrative plant for their later relationship. Removing it means the film fails to establish the relational asymmetry that defines their dynamic across multiple books. The audience loses context for why Ginny matters to Harry's world.",
+      "book": "1_philosophers_stone"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Ginny's expressive, excitable personality is flattened to a single generic line, eliminating the first impression the books carefully construct",
+    "Her emotional star-struck reaction to Harry \u2014 the seed of their relationship \u2014 is cut entirely, removing early relational groundwork",
+    "Her vivid physical action (running after the train, half-laughing half-crying) that establishes her as emotionally present and memorable is absent, making her effectively invisible in her debut scene"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  }
+}

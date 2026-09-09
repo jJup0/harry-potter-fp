@@ -1,0 +1,45 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 1 \u2014 Great Hall, introduction of Mad-Eye Moody; Dean asks 'Auror?'",
+      "book_baseline": "The book corpus establishes Dean Thomas as a background Gryffindor peer who exists in group social scenes (campsite, dormitory, common room celebrations) with normal reactions and no particular naivety about the wizarding world. He is a loyal Gryffindor with interests in football and art, functioning as part of Harry's immediate peer group.",
+      "film_portrayal": "Dean is given a single line \u2014 'Auror?' \u2014 expressing apparent ignorance of what an Auror is, immediately after Ron explains it. This frames Dean as less knowledgeable about the wizarding world than his peers in a mildly comedic, slightly dim way.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "While minor, the line characterises Dean as uninformed about basic wizarding concepts, which is a small but real distortion. The book corpus gives him no such naivety \u2014 he functions as a normal, competent Gryffindor. The damage is contained to a single beat with low plot consequence.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 5 \u2014 Second task, poolside; Dean and Seamus laugh at Harry's gillyweed reaction",
+      "book_baseline": "Book corpus (Scene 32) depicts Dean as a loyal, creative friend who makes impressive celebratory banners for Harry after the first task, demonstrating active friendship and support. The general book pattern shows Dean and Seamus as part of Harry's supportive peer group.",
+      "film_portrayal": "Dean and Seamus are shown laughing at Harry's distress as the gillyweed takes effect and Harry appears to be choking/convulsing before entering the water. Their reaction is one of amusement rather than concern.",
+      "damage_type": "relationship",
+      "exposure": 0.5,
+      "impact_weight": 2,
+      "explanation": "The book corpus establishes Dean as someone who creates supportive banners for Harry and is part of his friendship circle. Having him laugh at Harry's apparent physical distress subtly undermines the warmth of that peer relationship, repositioning Dean and Seamus as bystander-mockers rather than supportive friends. The damage is mild but marks a consistent pattern of reducing Dean to comic reaction.",
+      "book": "4_goblet_of_fire"
+    },
+    {
+      "scene": "Film Scene 2 \u2014 Grounds/woods; the convoluted message chain 'Ronald would like me to tell you that Seamus told him that Dean was told by Parvati...'",
+      "book_baseline": "The book corpus does not establish Dean as a conduit in the Ron-Harry estrangement subplot. Dean is a background presence in group scenes; his role in peer social dynamics is as a friend, not as a telephone-game intermediary.",
+      "film_portrayal": "Dean is inserted into a comic message chain \u2014 'Dean was told by Parvati' \u2014 as a named link in a farcical relay, reducing him to a prop in a joke about Ron and Harry's feud. He has no agency or voice in this moment; he is merely a name used for comedic absurdity.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Dean is used as a named punchline element rather than a character with independent presence. While the book corpus does not extensively develop Dean either, inserting him as a passive comic device in someone else's subplot further hollows out any independent characterisation he might have had. Damage is low given his limited book role in this section.",
+      "book": "4_goblet_of_fire"
+    }
+  ],
+  "structural_damage_level": 1,
+  "main_damage_causes": [
+    "Dean Thomas is reduced almost entirely to a background comic-reaction figure in the film, with his only substantive moment being a line expressing ignorance ('Auror?') that slightly undermines his competence as a wizarding-world native.",
+    "The loyal, creative friendship Dean demonstrates in the books \u2014 particularly his artistry in making celebratory banners for Harry \u2014 is absent from the film corpus, removing a small but warm characterisation beat.",
+    "Dean is used as a named prop in the farcical message-chain joke rather than as an independent character, which is consistent with a broader film pattern of subordinating him to other characters' comic or dramatic needs."
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "High",
+    "impact_assessment": "Medium"
+  }
+}

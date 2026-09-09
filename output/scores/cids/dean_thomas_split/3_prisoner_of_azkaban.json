@@ -1,0 +1,55 @@
+{
+  "damaging_scenes": [
+    {
+      "scene": "Film Scene 2 (Divination class) - Dean's line on the Grim",
+      "book_baseline": "In the book (Scene 7), Dean shrugs at Harry, conveying shared confusion and mild indifference about the Grim \u2014 a passive, understated reaction that fits his grounded, unsuperstitious personality.",
+      "film_portrayal": "In the film, Dean asks 'But what does it mean, Professor?' \u2014 an engaged, earnest question that frames him as curious and credulous rather than the skeptical, shrugging bystander the book establishes.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "A minor but real shift: the book's Dean physically shrugs and shares Harry's skepticism about Trelawney's prophecy. The film gives him an earnest line that nudges him toward credulity and generic student-crowd function, slightly eroding his established grounded voice.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 3 (Boggart lesson) - Dean's boggart is a cobra becoming a jack-in-the-box",
+      "book_baseline": "The book corpus (Scenes 15-21) shows Dean facing a severed hand (an eyeball transformed by the confused Boggart), which he dispatches with 'Riddikulus!' into a mousetrap \u2014 a specific, inventive beat that gives him a distinct moment and he celebrates it afterward ('And the hand!' he says, waving his own).",
+      "film_portrayal": "The film gives Dean a giant cobra that he transforms into a jack-in-the-box. This replaces the book's specific eyeball/hand/mousetrap sequence with a generic horror-creature-to-comedy-object beat indistinguishable from the other students' turns.",
+      "damage_type": "nuance/lost material",
+      "exposure": 1,
+      "impact_weight": 2,
+      "explanation": "The book's Boggart sequence gives Dean a notably distinctive and slightly gruesome beat (eyeball \u2192 severed hand \u2192 mousetrap) that he references with pride immediately afterward. The film substitutes a visually generic cobra-to-jack-in-the-box transformation that makes his turn interchangeable with the ensemble, erasing a small but real characterization beat and his subsequent celebratory callback line.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 3 (Boggart lesson) - Dean's post-lesson celebration absent",
+      "book_baseline": "Book Scene 21 shows Dean exclaiming 'And the hand!' while waving his own hand around after the lesson \u2014 a moment of pride, humor, and individual voice that follows directly from his specific Boggart beat.",
+      "film_portrayal": "The film corpus contains no equivalent post-lesson celebration line for Dean. The lesson ends with Lupin dismissing the class and Harry staying behind; Dean's individual callback is absent.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "The celebratory line is a small but telling personality marker \u2014 Dean as someone who takes visible, good-humored pride in his magical accomplishments. Its absence, compounded by the altered Boggart beat, leaves Dean with no individual voice in the scene at all.",
+      "book": "3_prisoner_of_azkaban"
+    },
+    {
+      "scene": "Film Scene 4 (Sir Cadogan corridor) - Dean's expository line",
+      "book_baseline": "The book corpus does not establish Dean as a provider of plot exposition. His dialogue is reactive, opinionated, or celebratory (e.g., defending Lupin against Snape in Scene 32, cheering after the Boggart lesson). He is characterised by emotional directness and peer-group solidarity, not functional scene-setting.",
+      "film_portrayal": "Dean is given the expository line explaining why Sir Cadogan replaced the Fat Lady: 'What d'you expect? After what happened to the Fat Lady, none of the other pictures would take the job.' This is purely functional dialogue that serves the plot, not the character.",
+      "damage_type": "personality/voice",
+      "exposure": 0.5,
+      "impact_weight": 1,
+      "explanation": "Assigning Dean a neutral expository line reduces him to a scene-mechanics vehicle. It is not damaging in isolation, but it reflects a pattern across the film corpus where Dean's distinct book voice \u2014 opinionated, emotionally engaged, willing to speak up \u2014 is replaced by generic crowd-member or exposition functions.",
+      "book": "3_prisoner_of_azkaban"
+    }
+  ],
+  "structural_damage_level": 2,
+  "main_damage_causes": [
+    "Replacement of Dean's specific, distinctive Boggart beat (eyeball/hand/mousetrap) with a generic cobra-to-jack-in-the-box transformation, erasing his most individualized action in the corpus",
+    "Loss of Dean's post-lesson celebratory callback line, which in the book establishes his good-humored pride and individual voice within the Gryffindor peer group",
+    "Consistent reduction of Dean to generic ensemble or expository function across film scenes, displacing the opinionated, emotionally direct personality the book corpus establishes (e.g., boldly defending Lupin, offering to forge Uncle Vernon's signature, snapping back at Malfoy's supporters)"
+  ],
+  "confidence": {
+    "global": "Medium",
+    "exposure_estimate": "Medium",
+    "impact_assessment": "Medium"
+  }
+}
