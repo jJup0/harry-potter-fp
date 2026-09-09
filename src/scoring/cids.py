@@ -248,6 +248,13 @@ def _score_cids_split(char_name, fp_score, corpus, model, safe, out_path):
 
         scored_books.append(book_name)
 
+        # Each chunk is given one film's corpus, so the model writes "Film Scene 4"
+        # without naming the film and the reference is unattributable once merged.
+        # Record which book the chunk was, both for the verifier and because Aitor
+        # needs to know which film a discrepancy belongs to.
+        for scene in parsed["damaging_scenes"]:
+            scene.setdefault("book", book_name)
+
         all_scenes.extend(parsed["damaging_scenes"])
         all_causes.extend(parsed.get("main_damage_causes", []))
         max_sdl = max(max_sdl, parsed.get("structural_damage_level", 1))

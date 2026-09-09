@@ -32,6 +32,34 @@ FILM_PREFIX_TO_SOURCE = {
 }
 
 
+# Full film titles, which the model uses about as often as the abbreviations.
+# Matched anywhere in the string rather than only at the start.
+FILM_TITLE_TO_SOURCE = [
+    (r"philosopher'?s stone|sorcerer'?s stone", "1_philosophers_stone"),
+    (r"chamber of secrets", "2_chamber_of_secrets"),
+    (r"prisoner of azkaban", "3_prisoner_of_azkaban"),
+    (r"goblet of fire", "4_goblet_of_fire"),
+    (r"order of the phoenix", "5_order_of_the_phoenix"),
+    (r"half-?blood prince", "6_half_blood_prince"),
+    (r"deathly hallows,? part 1|deathly hallows part i\b|dh part 1", "7_deathly_hallows_p1"),
+    (r"deathly hallows,? part 2|deathly hallows part ii\b|dh part 2", "8_deathly_hallows_p2"),
+    (r"deathly hallows", None),  # ambiguous, expands to both parts
+]
+
+DH_BOTH = ["7_deathly_hallows_p1", "8_deathly_hallows_p2"]
+
+# A bare "Film Scene 4 - ..." with no film named. These come from the
+# split-by-book path, where each call is given exactly one film's corpus, so the
+# model has no reason to name it. They are not verifiable from the string alone,
+# but they are also the entries least at risk of citing the wrong film: the model
+# could only cite what was in front of it. Counted separately rather than as
+# parser failures. Scores written after book tagging was added carry the film
+# explicitly and skip this path.
+UNATTRIBUTED_RE = re.compile(
+    r"^(film\s+(corpus\s+)?)?scenes?\s+\d+|^film\s+(corpus\s+)?scene\b", re.I
+)
+
+
 def extract_film_prefix(scene_str):
     """Extract the film abbreviation from a scene string like 'CoS Film - ...'"""
     # Patterns: "CoS Film - ...", "CoS Film Scene 7 ...", "HBP Film ...", "DH1 Film ..."
@@ -41,13 +69,15 @@ def extract_film_prefix(scene_str):
     # Skip entries that reference multiple/all films
     if scene_lower.startswith("all films") or scene_lower.startswith("across"):
         return ["ALL"]
+    if scene_lower.startswith("films ") or scene_lower.startswith("multiple films"):
+        return ["ALL"]
 
     # Match film abbreviation at start
     m = re.match(r'^(ps/ss|ps|ss|cos|poa|gof|ootp|hbp|dh[12]?)\s*film', scene_lower)
     if m:
         prefix = m.group(1)
         if prefix == "dh":
-            return ["7_deathly_hallows_p1", "8_deathly_hallows_p2"]
+            return list(DH_BOTH)
         return [FILM_PREFIX_TO_SOURCE[prefix]]
 
     # Also try without "Film" keyword - some entries like "CoS Scene 7..."
@@ -55,8 +85,44 @@ def extract_film_prefix(scene_str):
     if m:
         prefix = m.group(1)
         if prefix == "dh":
-            return ["7_deathly_hallows_p1", "8_deathly_hallows_p2"]
+            return list(DH_BOTH)
         return [FILM_PREFIX_TO_SOURCE[prefix]]
+
+    # Reversed order, e.g. "Film GoF - ..." or "Film DH - ..."
+    m = re.match(r'^film\s+[(\[]?(ps/ss|ps|ss|cos|poa|gof|ootp|hbp|dh[12]?)\b', scene_lower)
+    if m:
+        prefix = m.group(1)
+        if prefix == "dh":
+            return list(DH_BOTH)
+        return [FILM_PREFIX_TO_SOURCE[prefix]]
+
+    # Slash-separated abbreviations anywhere, e.g. "OotP/HBP", "PS/CoS"
+    slash = re.match(r'^(ps|ss|cos|poa|gof|ootp|hbp|dh1|dh2)(/(?:ps|ss|cos|poa|gof|ootp|hbp|dh1|dh2))+', scene_lower)
+    if slash:
+        parts = re.split(r"/", slash.group(0))
+        sources = [FILM_PREFIX_TO_SOURCE[p] for p in parts if FILM_PREFIX_TO_SOURCE.get(p)]
+        if sources:
+            return sources
+
+    # Spelled-out film titles, anywhere in the string
+    for pattern, source in FILM_TITLE_TO_SOURCE:
+        if re.search(pattern, scene_lower):
+            return list(DH_BOTH) if source is None else [source]
+
+    # Bare scene number with no film named - from the split path, see above
+    if UNATTRIBUTED_RE.match(scene_lower):
+        return ["UNATTRIBUTED"]
+
+    # Entries about material being absent from the films name no scene because
+    # there is no scene. Percy Weasley's "GoF Film - Absent entirely" is the
+    # canonical case. These are deliberate, not fabricated, and verifying a film
+    # reference against the corpus is meaningless for them.
+    if re.search(
+        r"\babsent\b|\babsence\b|no equivalent|never (appears|shown)|not (in|present)\b"
+        r"|^film\s*[-—–]\s*no\b|\bcut entirely\b|\bomitted\b",
+        scene_lower,
+    ):
+        return ["ABSENCE_CLAIM"]
 
     return None  # Could not determine film
 
@@ -74,7 +140,8 @@ def get_corpus_sources(char_name):
 
 def verify_all():
     mismatches = []
-    stats = {"total_scenes": 0, "verified_ok": 0, "mismatched": 0, "unparseable": 0, "multi_film": 0}
+    stats = {"total_scenes": 0, "verified_ok": 0, "mismatched": 0, "unparseable": 0,
+             "multi_film": 0, "unattributed_split": 0, "absence_claims": 0}
 
     cids_files = sorted(f for f in os.listdir(CIDS_DIR) if f.endswith(".json") and not f.startswith("_"))
     print(f"Verifying {len(cids_files)} CIDS files...")
@@ -91,12 +158,24 @@ def verify_all():
             scene_str = scene.get("scene", "")
             stats["total_scenes"] += 1
 
-            expected_sources = extract_film_prefix(scene_str)
+            # Scores written after book tagging record the film directly, which
+            # beats guessing it from free text.
+            tagged = scene.get("book")
+            if tagged:
+                expected_sources = DH_BOTH if "deathly_hallows" in tagged else [tagged]
+            else:
+                expected_sources = extract_film_prefix(scene_str)
             if expected_sources is None:
                 stats["unparseable"] += 1
                 continue
             if expected_sources == ["ALL"]:
                 stats["multi_film"] += 1
+                continue
+            if expected_sources == ["UNATTRIBUTED"]:
+                stats["unattributed_split"] += 1
+                continue
+            if expected_sources == ["ABSENCE_CLAIM"]:
+                stats["absence_claims"] += 1
                 continue
 
             # Check if at least one expected source is in corpus
@@ -123,6 +202,8 @@ def main():
     print(f"  Verified OK (film in corpus):  {stats['verified_ok']}")
     print(f"  MISMATCHED (film NOT in corpus): {stats['mismatched']}")
     print(f"  Multi/all films (skipped):     {stats['multi_film']}")
+    print(f"  Unattributed (split path):     {stats['unattributed_split']}")
+    print(f"  Absence claims (no scene):     {stats['absence_claims']}")
     print(f"  Unparseable film prefix:       {stats['unparseable']}")
 
     if mismatches:
