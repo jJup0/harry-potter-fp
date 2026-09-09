@@ -1,4 +1,4 @@
-# version: 2.0
+# version: 2.1
 You are scoring how much DAMAGE {character}'s unfaithful film portrayal causes to the Harry Potter adaptation.
 
 FP (faithfulness) score: {fp_score}/100. Higher = more faithful. You are measuring the DAMAGE caused by the unfaithful parts.
@@ -48,6 +48,7 @@ STRUCTURAL DAMAGE LEVEL (one global rating for this character):
 === FILM CORPUS ===
 {film_corpus}
 
+{deleted_scenes}
 Respond with ONLY a JSON object (no markdown fences):
 {{
   "damaging_scenes": [

@@ -10,7 +10,9 @@ import time
 
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from llm import call_kiro, extract_json as _extract_json
+from deleted_scenes import deleted_scenes_prompt_block, films_in_corpus
 
 PROMPT_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "prompts", "scoring_prompt_3.txt"
@@ -117,7 +119,14 @@ def _score_split_by_book(char_name, book_scenes, film_scenes, model):
         print(f"    [{char_name}][{book_name}] {len(scenes)} paragraphs, {len(matching_film)} film scenes", flush=True)
         book_text = _prepare_corpus(scenes, "book")
         film_text = _prepare_corpus(matching_film, "screenplay")
-        result = _score_call(char_name, book_text, film_text, model, tag=book_name)
+        result = _score_call(
+            char_name,
+            book_text,
+            film_text,
+            model,
+            tag=book_name,
+            films=films_in_corpus(matching_film),
+        )
         if result:
             result["book"] = book_name
             with open(cache_file, "w") as f:
@@ -220,7 +229,9 @@ def _merge_scores(char_name, per_book_scores, model):
 def _score_single(char_name, book_scenes, film_scenes, model):
     book_text = _prepare_corpus(book_scenes, "book")
     film_text = _prepare_corpus(film_scenes, "screenplay")
-    result = _score_call(char_name, book_text, film_text, model)
+    result = _score_call(
+        char_name, book_text, film_text, model, films=films_in_corpus(film_scenes)
+    )
     if not result:
         return _fallback(char_name)
     return {
@@ -242,17 +253,24 @@ def _score_single(char_name, book_scenes, film_scenes, model):
     }
 
 
-def _score_call(char_name, book_text, film_text, model, tag=None):
+def _score_call(char_name, book_text, film_text, model, tag=None, films=None):
     """Single scoring call. Returns parsed scores dict or None."""
     try:
         with open(PROMPT_FILE) as f:
             system_prompt = f.read()
+
+        # Scenes cut from the theatrical release that our screenplay sources still
+        # contain, narrowed to this character and the films actually being scored.
+        deleted_block = deleted_scenes_prompt_block(char_name, films)
+        if deleted_block:
+            deleted_block = f"{deleted_block}\n---\n\n"
 
         user_msg = (
             f"{system_prompt}\n\n---\n\n"
             f"## Character: {char_name}\n\n"
             f"## BOOK CORPUS (scenes where {char_name} appears in the books)\n\n{book_text}\n\n"
             f"## FILM CORPUS (scenes where {char_name} appears in the screenplays)\n\n{film_text}\n\n---\n\n"
+            f"{deleted_block}"
             f"Score how faithfully the FILM portrays {char_name} compared to the BOOKS.\n\n"
             f"Respond with ONLY a JSON object with these exact keys:\n"
             f'{{"character": "{char_name}", '
