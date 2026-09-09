@@ -7,10 +7,14 @@ Opens as a single self-contained HTML file - no server needed.
 import json
 import os
 import re
+import sys
 
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from presence import presence
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")
 DASHBOARD_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -131,29 +135,27 @@ def fig_ranking_bar(scores, title="Top", ascending=False):
 def fig_scatter_presence(scores):
     data = []
     for s in scores:
-        m = s.get("meta", {})
-        sw = m.get("screenplay_words", 0)
-        bm = m.get("book_mentions", 0)
-        if sw == 0 and bm == 0:
+        p = presence(s)
+        if p["film_scenes"] == 0 and p["book_mentions"] == 0:
             continue
         data.append({
             "character": s["character"],
-            "screenplay_words": sw,
-            "book_mentions": bm,
+            "film_scenes": p["film_scenes"],
+            "book_mentions": p["book_mentions"],
             "total_fp": s["overall"]["total"],
         })
     df = pd.DataFrame(data)
     fig = px.scatter(
         df,
         x="book_mentions",
-        y="screenplay_words",
+        y="film_scenes",
         color="total_fp",
         hover_name="character",
         color_continuous_scale="RdYlGn",
         title="Character Presence: Books vs Films (colour = FP score)",
         labels={
             "book_mentions": "Book Mentions",
-            "screenplay_words": "Screenplay Words",
+            "film_scenes": "Film Scenes",
             "total_fp": "FP Score",
         },
         height=600,
@@ -349,13 +351,13 @@ def build_dashboard(scores, exclude=None):
     # Build character data for JS filtering
     char_data = []
     for s in scores:
-        m = s.get("meta", {})
+        p = presence(s)
         entry = {
             "name": s["character"],
             "total": s["overall"]["total"],
-            "book_mentions": m.get("book_mentions", 0),
-            "screenplay_words": m.get("screenplay_words", 0),
-            "presence": m.get("book_mentions", 0) + m.get("screenplay_words", 0),
+            "book_mentions": p["book_mentions"],
+            "film_scenes": p["film_scenes"],
+            "presence": p["book_mentions"] + p["film_scenes"],
         }
         for dim in DIMENSIONS:
             entry[dim] = s["overall"].get(dim, 0)
@@ -386,11 +388,11 @@ def build_dashboard(scores, exclude=None):
     html = html.replace("{{CHARACTER_CARDS}}", build_character_cards_html(scores, justifications))
 
     # Not in films table
-    not_in_films = [s for s in scores if s["overall"]["total"] == 0 and s["meta"].get("book_mentions", 0) > 0]
-    not_in_films.sort(key=lambda s: -s["meta"]["book_mentions"])
+    not_in_films = [s for s in scores if s["overall"]["total"] == 0 and presence(s)["book_mentions"] > 0]
+    not_in_films.sort(key=lambda s: -presence(s)["book_mentions"])
     nif_html = '<div class="not-in-films-list">'
     for s in not_in_films:
-        nif_html += f'<div class="nif-row"><span class="nif-name">{s["character"]}</span><span class="nif-mentions">{s["meta"]["book_mentions"]} mentions</span></div>'
+        nif_html += f'<div class="nif-row"><span class="nif-name">{s["character"]}</span><span class="nif-mentions">{presence(s)["book_mentions"]} mentions</span></div>'
     nif_html += '</div>'
     html = html.replace("{{NOT_IN_FILMS}}", nif_html)
 

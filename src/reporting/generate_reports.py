@@ -10,8 +10,12 @@ Data source: output/scores/kiro/ (6-dimension schema from kiro-cli/claude-sonnet
 import csv
 import json
 import os
+import sys
 
 import yaml
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from presence import presence
 
 PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 SCORES_DIR = os.path.join(PROJECT_ROOT, "output", "scores", "kiro")
@@ -67,15 +71,20 @@ def generate_ranking_table(scored, unscored):
         w.writerow(
             ["Rank", "Character"]
             + [DIM_LABELS[d] for d in DIMENSIONS]
-            + ["Total FP", "Screenplay Words", "Book Mentions"]
+            + ["Total FP", "Film Scenes", "Screen Time (min)", "Book Mentions"]
         )
         for i, s in enumerate(scored, 1):
             o = s["overall"]
-            m = s.get("meta", {})
+            p = presence(s)
             w.writerow(
                 [i, s["character"]]
                 + [o.get(d, 0) for d in DIMENSIONS]
-                + [o["total"], m.get("screenplay_words", 0), m.get("book_mentions", 0)]
+                + [
+                    o["total"],
+                    p["film_scenes"],
+                    p["screen_time_minutes"],
+                    p["book_mentions"],
+                ]
             )
 
     # Markdown
@@ -84,21 +93,22 @@ def generate_ranking_table(scored, unscored):
         f.write("# Character Faithfulness Rankings\n\n")
         f.write(f"Scored characters: {len(scored)}\n\n")
         f.write(
-            "| Rank | Character | Pers | Role | Motiv | Arc | Rels | Lost | **Total** | Words | Mentions |\n"
+            "| Rank | Character | Pers | Role | Motiv | Arc | Rels | Lost | **Total** | Film Scenes | Mentions |\n"
         )
         f.write(
-            "|------|-----------|------|------|-------|-----|------|------|-----------|-------|----------|\n"
+            "|------|-----------|------|------|-------|-----|------|------|-----------|-------------|----------|\n"
         )
         for i, s in enumerate(scored, 1):
             o = s["overall"]
-            m = s.get("meta", {})
+            p = presence(s)
             f.write(
                 f"| {i} | {s['character']} | {o.get('personality_voice', 0)} | "
                 f"{o.get('narrative_role_agency', 0)} | {o.get('motivations_internal_conflict', 0)} | "
                 f"{o.get('character_arc', 0)} | {o.get('key_relationships', 0)} | "
                 f"{o.get('complexity_nuance_lost_material', 0)} | **{o['total']}** | "
-                f"{m.get('screenplay_words', 0)} | {m.get('book_mentions', 0)} |\n"
+                f"{p['film_scenes']} | {p['book_mentions']}{'' if p['book_mentions_measured'] else '*'} |\n"
             )
+        f.write("\n\\* Book mentions not measured for this character; paragraph count from the book corpus shown instead.\n")
 
         if unscored:
             f.write(f"\n\n## No Film Corpus ({len(unscored)} characters)\n\n")
@@ -107,9 +117,8 @@ def generate_ranking_table(scored, unscored):
             )
             f.write("| Character | Book Mentions |\n")
             f.write("|-----------|---------------|\n")
-            for s in sorted(unscored, key=lambda x: x.get("meta", {}).get("book_mentions", 0), reverse=True):
-                m = s.get("meta", {})
-                f.write(f"| {s['character']} | {m.get('book_mentions', 0)} |\n")
+            for s in sorted(unscored, key=lambda x: presence(x)["book_mentions"], reverse=True):
+                f.write(f"| {s['character']} | {presence(s)['book_mentions']} |\n")
 
     return csv_path, md_path
 
@@ -166,10 +175,14 @@ def generate_character_reports(scored):
                 f.write("\n")
 
             # Metadata
-            m = s.get("meta", {})
+            p = presence(s)
             f.write("## Presence Metrics\n\n")
-            f.write(f'- Screenplay words: {m.get("screenplay_words", 0):,}\n')
-            f.write(f'- Book mentions: {m.get("book_mentions", 0):,}\n')
+            f.write(f'- Film scenes in corpus: {p["film_scenes"]:,}\n')
+            f.write(f'- Book paragraphs in corpus: {p["book_paragraphs"]:,}\n')
+            st_note = "" if p["screen_time_measured"] else " (not measured)"
+            f.write(f'- Screen time: {p["screen_time_minutes"]:,} min{st_note}\n')
+            bm_note = "" if p["book_mentions_measured"] else " (not measured, corpus paragraph count)"
+            f.write(f'- Book mentions: {p["book_mentions"]:,}{bm_note}\n')
 
     return reports_dir
 

@@ -25,7 +25,7 @@ function updateChart(chartId, count) {
 
 function getFilteredNames(minBook, minFilm) {
   return CHARACTER_DATA
-    .filter(function(c) { return c.book_mentions >= minBook && c.screenplay_words >= minFilm; })
+    .filter(function(c) { return c.book_mentions >= minBook && c.film_scenes >= minFilm; })
     .map(function(c) { return c.name; });
 }
 
@@ -39,9 +39,11 @@ function applyFilter() {
   var bookSliderVal = parseInt(document.getElementById('book-slider').value);
   var filmSliderVal = parseInt(document.getElementById('film-slider').value);
   var maxBook = Math.max.apply(null, CHARACTER_DATA.map(function(c) { return c.book_mentions; }));
-  var maxFilm = Math.max.apply(null, CHARACTER_DATA.map(function(c) { return c.screenplay_words; }));
+  var maxFilm = Math.max.apply(null, CHARACTER_DATA.map(function(c) { return c.film_scenes; }));
   var minBook = bookSliderVal === 0 ? 0 : Math.max(25, Math.floor(Math.pow(10, bookSliderVal / 100 * Math.log10(maxBook)) / 25) * 25);
-  var minFilm = filmSliderVal === 0 ? 0 : Math.max(25, Math.floor(Math.pow(10, filmSliderVal / 100 * Math.log10(maxFilm)) / 25) * 25);
+  // Film scenes top out in the low hundreds, not the thousands that spoken-word
+  // counts did, so this steps by 1 rather than 25.
+  var minFilm = filmSliderVal === 0 ? 0 : Math.max(1, Math.floor(Math.pow(10, filmSliderVal / 100 * Math.log10(maxFilm))));
   document.getElementById('book-value').value = minBook;
   document.getElementById('film-value').value = minFilm;
   doFilter(minBook, minFilm);
@@ -57,7 +59,7 @@ function doFilter(minBook, minFilm) {
     var plotDiv = container.querySelector('.js-plotly-plot');
     var isBottom = (id === 'bottom');
 
-    var filtered = CHARACTER_DATA.filter(function(c) { return c.book_mentions >= minBook && c.screenplay_words >= minFilm; });
+    var filtered = CHARACTER_DATA.filter(function(c) { return c.book_mentions >= minBook && c.film_scenes >= minFilm; });
     if (isBottom) {
       filtered.sort(function(a, b) { return a.total - b.total; });
     } else {
@@ -81,10 +83,10 @@ function doFilter(minBook, minFilm) {
   var scatterContainer = document.querySelector('#container-scatter');
   if (scatterContainer) {
     var plotDiv = scatterContainer.querySelector('.js-plotly-plot');
-    var filtered = CHARACTER_DATA.filter(function(c) { return c.book_mentions >= minBook && c.screenplay_words >= minFilm && (c.book_mentions > 0 || c.screenplay_words > 0); });
+    var filtered = CHARACTER_DATA.filter(function(c) { return c.book_mentions >= minBook && c.film_scenes >= minFilm && (c.book_mentions > 0 || c.film_scenes > 0); });
     Plotly.restyle(plotDiv, {
       x: [filtered.map(function(c) { return c.book_mentions; })],
-      y: [filtered.map(function(c) { return c.screenplay_words; })],
+      y: [filtered.map(function(c) { return c.film_scenes; })],
       'marker.color': [filtered.map(function(c) { return c.total; })],
       text: [filtered.map(function(c) { return c.name; })],
       hovertext: [filtered.map(function(c) { return c.name; })],
@@ -184,7 +186,7 @@ window.addEventListener('load', function() {
     applyFilterFromInput();
   });
 
-  // Apply initial filter (default min 10 screenplay words)
+  // Apply initial filter (slider defaults, film axis is scene counts)
   applyFilter();
 
   // Search
